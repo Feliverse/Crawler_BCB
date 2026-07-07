@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BCB Data Explorer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    tailwind = {
+      config: {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Manrope', 'ui-sans-serif', 'system-ui', 'sans-serif']
+            },
+            colors: {
+              ink: '#15120f',
+              paper: '#f4efe7',
+              parchment: '#fbf7f0',
+              clay: '#8a4b2b',
+              tealstone: '#0f5b57'
+            },
+            boxShadow: {
+              soft: '0 24px 60px rgba(30, 20, 10, 0.12)'
+            }
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body class="font-sans text-ink bg-[radial-gradient(circle_at_top_left,rgba(138,75,43,0.16),transparent_28%),radial-gradient(circle_at_top_right,rgba(15,91,87,0.15),transparent_22%),linear-gradient(180deg,#f4efe7_0%,#ece2d2_100%)] min-h-screen">
+  <div class="pointer-events-none fixed inset-0 opacity-25 [background-image:linear-gradient(rgba(255,255,255,0.7)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.55)_1px,transparent_1px)] [background-size:44px_44px]"></div>
+
+  <main class="relative mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8 lg:py-8">
+    <section class="rounded-[2rem] border border-white/40 bg-white/75 p-5 shadow-soft backdrop-blur-xl sm:p-6 lg:p-8">
+      <div class="flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+        <div class="max-w-3xl">
+          <p class="text-xs font-extrabold uppercase tracking-[0.28em] text-tealstone">Crawler BCB</p>
+          <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-ink sm:text-4xl lg:text-5xl">Explorador de resultados del JSON</h1>
+          <p class="mt-3 max-w-3xl text-sm leading-6 text-stone-600 sm:text-base">
+            La estructura nueva del JSON es un árbol jerárquico. Selecciona una categoría a la izquierda para explorar sus ramas y documentos.
+          </p>
+        </div>
+
+        <div class="flex flex-wrap gap-3">
+          <label class="inline-flex cursor-pointer items-center gap-3 rounded-full border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-700 shadow-sm transition hover:border-clay/30 hover:text-clay">
+            <span>Cargar JSON local</span>
+            <input id="fileInput" type="file" accept="application/json" class="hidden" />
+          </label>
+          <button id="reloadButton" type="button" class="rounded-full border border-clay/20 bg-clay/10 px-4 py-3 text-sm font-semibold text-clay shadow-sm transition hover:bg-clay/15">
+            Recargar JSON por defecto
+          </button>
+        </div>
+      </div>
+
+      <section class="mt-6 grid gap-4 lg:grid-cols-3">
+        <article class="rounded-3xl border border-stone-200 bg-parchment/80 p-4 shadow-sm">
+          <p class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Cómo usar</p>
+          <ol class="mt-3 space-y-2 text-sm leading-6 text-stone-600">
+            <li>1. El panel izquierdo lista las categorías raíz del árbol.</li>
+            <li>2. Haz clic en una categoría para ver su contenido jerárquico.</li>
+            <li>3. Usa Buscar para filtrar por texto y el selector de fecha para priorizar documentos con metadatos.</li>
+          </ol>
+        </article>
+
+        <article class="rounded-3xl border border-stone-200 bg-parchment/80 p-4 shadow-sm">
+          <p class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Nuevo JSON</p>
+          <p class="mt-3 text-sm leading-6 text-stone-600">
+            El visor entiende una raíz como <span class="font-semibold text-ink">ESTADISTICAS</span> y recorre niveles como categoría, rama y documento sin depender de nombres fijos.
+          </p>
+        </article>
+
+        <article class="rounded-3xl border border-stone-200 bg-parchment/80 p-4 shadow-sm">
+          <p class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Consejo</p>
+          <p class="mt-3 text-sm leading-6 text-stone-600">
+            Si la página no carga el JSON automáticamente, abre el archivo desde el botón de carga manual o ejecuta un servidor local en la carpeta <span class="font-semibold text-ink">web/</span>.
+          </p>
+        </article>
+      </section>
+    </section>
+
+    <section class="mt-5 grid gap-4 lg:grid-cols-4">
+      <article class="rounded-3xl border border-white/50 bg-white/80 p-5 shadow-soft backdrop-blur-xl">
+        <span class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Categorías</span>
+        <strong id="metricCategories" class="mt-2 block text-3xl font-extrabold">0</strong>
+      </article>
+      <article class="rounded-3xl border border-white/50 bg-white/80 p-5 shadow-soft backdrop-blur-xl">
+        <span class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Nodos</span>
+        <strong id="metricSections" class="mt-2 block text-3xl font-extrabold">0</strong>
+      </article>
+      <article class="rounded-3xl border border-white/50 bg-white/80 p-5 shadow-soft backdrop-blur-xl">
+        <span class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Documentos</span>
+        <strong id="metricDocuments" class="mt-2 block text-3xl font-extrabold">0</strong>
+      </article>
+      <article class="rounded-3xl border border-white/50 bg-white/80 p-5 shadow-soft backdrop-blur-xl">
+        <span class="text-xs font-bold uppercase tracking-[0.22em] text-tealstone">Visibles</span>
+        <strong id="metricMatches" class="mt-2 block text-3xl font-extrabold">0</strong>
+      </article>
+    </section>
+
+    <section class="mt-5 grid gap-4 xl:grid-cols-[340px_minmax(0,1fr)]">
+      <aside class="rounded-[2rem] border border-white/50 bg-white/80 p-4 shadow-soft backdrop-blur-xl">
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <h2 class="text-xl font-extrabold tracking-tight">Categorías</h2>
+            <p class="mt-1 text-sm text-stone-500">Selecciona una rama para explorar el árbol.</p>
+          </div>
+          <span id="categoryCount" class="rounded-full bg-tealstone/10 px-3 py-1 text-sm font-bold text-tealstone">0</span>
+        </div>
+        <div id="categoryList" class="mt-4 max-h-[70vh] space-y-3 overflow-auto pr-1"></div>
+      </aside>
+
+      <section class="rounded-[2rem] border border-white/50 bg-white/80 p-4 shadow-soft backdrop-blur-xl sm:p-5 lg:p-6">
+        <div class="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+          <div>
+            <h2 id="detailTitle" class="text-2xl font-extrabold tracking-tight sm:text-3xl">Selecciona una categoría</h2>
+            <p id="detailSubtitle" class="mt-1 text-sm text-stone-500">La vista mostrará la ruta completa, sus ramas y sus documentos.</p>
+          </div>
+          <span id="detailBadge" class="inline-flex rounded-full bg-stone-200 px-4 py-2 text-sm font-bold text-stone-700">0 documentos</span>
+        </div>
+
+        <div class="mt-5 grid gap-3 lg:grid-cols-[minmax(0,1fr)_240px]">
+          <label class="grid gap-2">
+            <span class="text-xs font-extrabold uppercase tracking-[0.22em] text-tealstone">Buscar</span>
+            <input id="searchInput" type="search" placeholder="Busca por categoría, descripción, URL o ruta..." class="w-full rounded-full border border-stone-200 bg-white px-4 py-3 text-sm outline-none transition placeholder:text-stone-400 focus:border-clay/40 focus:ring-4 focus:ring-clay/10" />
+          </label>
+
+          <label class="grid gap-2">
+            <span class="text-xs font-extrabold uppercase tracking-[0.22em] text-tealstone">Filtrar por fecha</span>
+            <select id="dateFilter" class="w-full rounded-full border border-stone-200 bg-white px-4 py-3 text-sm outline-none transition focus:border-clay/40 focus:ring-4 focus:ring-clay/10">
+              <option value="all">Todas</option>
+              <option value="updated">Con fecha detectada</option>
+              <option value="missing">Sin fecha</option>
+            </select>
+          </label>
+        </div>
+
+        <div id="breadcrumb" class="mt-4 flex flex-wrap gap-2 text-sm text-stone-500"></div>
+        <div id="detailContent" class="mt-5 min-h-[40vh] rounded-[1.5rem] border border-dashed border-stone-200 bg-stone-50/70 p-4 text-stone-500">
+          Carga un JSON o selecciona una categoría para empezar.
+        </div>
+      </section>
+    </section>
+  </main>
+</body>
+</html>

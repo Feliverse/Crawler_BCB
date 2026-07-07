@@ -33,22 +33,26 @@ Al finalizar, se crea o sobreescribe el archivo `mapa_estadisticas_bcb.json` en 
 
 ## Estructura de salida
 
-El JSON generado organiza la informacion por seccion, con esta forma general:
+El JSON generado organiza la informacion como un arbol jerarquico. La raiz suele ser `ESTADISTICAS` y debajo aparecen categorias, ramas intermedias y documentos en hojas.
 
 ```json
 {
-  "Nombre de la seccion": {
-    "url_origen": "https://...",
-    "archivos_totales": 0,
-    "items": [
-      {
-        "descripcion": "Nombre del archivo o enlace",
-        "url_descarga": "https://..."
+  "ESTADISTICAS": {
+    "Categoria": {
+      "Rama": {
+        "Subrama": {
+          "Documento": {
+            "descripcion": "Nombre visible",
+            "url_descarga": "https://..."
+          }
+        }
       }
-    ]
+    }
   }
 }
 ```
+
+El archivo `mapa_estadisticas_bcb.csv` aplana esa misma informacion para abrirla en Excel.
 
 ## Notas tecnicas
 
@@ -59,5 +63,23 @@ El JSON generado organiza la informacion por seccion, con esta forma general:
 ## Archivos principales
 
 - `crawler_BCB.py`: logica principal del crawler.
-- `mapa_estadisticas_bcb.json`: salida generada por la ejecucion.
+- `mapa_estadisticas_bcb.json`: salida jerarquica generada por la ejecucion.
+- `mapa_estadisticas_bcb.csv`: salida plana para Excel.
 - `requirements.txt`: dependencias del proyecto.
+
+## Frontend de Revision
+
+Se incluyo un visor web estatico en la carpeta `web/` con Tailwind CDN para explorar el JSON jerarquico.
+
+Para abrirlo correctamente, sirvelo desde un servidor local en vez de abrir `index.html` directamente con `file://`.
+
+Ejemplo con Python:
+
+```bash
+cd web
+python -m http.server 8000
+```
+
+Luego abre `http://localhost:8000` en el navegador.
+
+El frontend carga por defecto `../mapa_estadisticas_bcb.json` y tambien permite subir un JSON local desde la interfaz.

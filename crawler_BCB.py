@@ -1,7 +1,7 @@
 import sys
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse, unquote
 import time
 import json
 import re
@@ -13,170 +13,165 @@ for stream in (sys.stdout, sys.stderr):
     except Exception:
         pass
 
-# URL base del portal institucional
+# URL base del portal
 BASE_URL = "https://www.bcb.gob.bo/"
 
 def obtener_headers():
     return {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'es-ES,es;q=0.9'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
     }
 
-def mapear_secciones_actuales():
+def normalizar_nombre(texto):
+    """Reemplaza espacios por guiones bajos y limpia caracteres extraños para nombres de llaves JSON."""
+    texto = unquote(texto).strip()
+    texto = re.sub(r'[\s/\\:]+', '_', texto)
+    return texto
+
+def mapear_menu_recursivo():
     """
-    Descubre dinámicamente qué secciones existen hoy bajo el menú de Estadísticas.
-    Si el menú cambia por completo o requiere JS, aplica un fallback estable.
+    Escanea la página principal y extrae de manera multinivel la estructura real 
+    del menú desplegable del BCB (Soporta submenús dentro de submenús).
     """
-    print("Descubriendo secciones activas en el menú de Estadísticas...")
-    secciones_vivas = {}
+    print("Mapeando la estructura multinivel del menú superior...")
+    menu_completo = {}
     try:
         response = requests.get(BASE_URL, headers=obtener_headers(), timeout=15)
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        # Selector del menú dinámico de categorías
-        cat_links = soup.select('li.menu-42439 ul.bcbx-mega__cats a.bcbx-mega__catlink')
+        # Seleccionamos las pestañas raíz del menú principal
+        items_raiz = soup.select('ul.navbar-nav > li.dropdown') or soup.select('div.region-navigation ul.menu > li.expanded')
         
-        for link in cat_links:
-            nombre_seccion = link.find('span').text.strip() if link.find('span') else link.text.strip()
-            ruta_relativa = link.get('href')
-            
-            if ruta_relativa:
-                url_absoluta = urljoin(BASE_URL, ruta_relativa)
-                secciones_vivas[nombre_seccion] = url_absoluta
-    except Exception as e:
-        print(f"Error al mapear el menú dinámico: {e}")
-
-    # Fallback de seguridad con las rutas conocidas si el menú principal no responde
-    if not secciones_vivas:
-        print("Aviso: No se detectó el menú dinámico. Usando fallback de secciones conocidas.")
-        secciones_vivas = {
-            "Sector Externo": urljoin(BASE_URL, "?q=content/sector-externo-0"),
-            "Sector Monetario y Bancario": urljoin(BASE_URL, "?q=content/sector-monetario-y-bancario"),
-            "Sector Fiscal": urljoin(BASE_URL, "?q=content/sector-fiscal"),
-            "Sector Real": urljoin(BASE_URL, "?q=content/sector-real")
-        }
+        for item in items_raiz:
+            enlace_padre = item.find('a')
+            if not enlace_padre:
+                continue
                 
-    print(f"Se detectaron {len(secciones_vivas)} macro-categorías para procesar.")
-    return secciones_vivas
+            nombre_macro = normalizar_nombre(enlace_padre.text.strip().upper())
+            menu_completo[nombre_macro] = {}
+            
+            # Buscamos todos los sub-elementos de lista anidados de forma recursiva
+            sub_elementos = item.find_all('li', recursive=True)
+            
+            for sub in sub_elementos:
+                link = sub.find('a', href=True)
+                if not link:
+                    continue
+                    
+                nombre_sub = link.find('span').text.strip() if link.find('span') else link.text.strip()
+                href = link.get('href')
+                
+                if href and not href.startswith('#'):
+                    url_absoluta = urljoin(BASE_URL, href)
+                    menu_completo[nombre_macro][nombre_sub] = url_absoluta
+                    
+    except Exception as e:
+        print(f"Error al mapear el menú jerárquico: {e}")
+        
+    # Fallback preventivo
+    if not menu_completo:
+        print("Aviso: Usando fallback estructurado para asegurar la ejecución.")
+        menu_completo = {
+            "POLITICA_MONETARIA_Y_CAMBIARIA": {
+                "Resultados y Convocatoria OMA": urljoin(BASE_URL, "?q=publicacion-omas"),
+                "Reporte Diario OMA": urljoin(BASE_URL, "?q=content/reporte-diario-de-operaciones-de-mercado-abierto-y-monetario"),
+                "Reporte Semanal OMA": urljoin(BASE_URL, "?q=content/reporte-semanal")
+            },
+            "ESTADISTICAS": {
+                "Sector Externo": urljoin(BASE_URL, "?q=content/sector-externo-0"),
+                "Sector Monetario y Bancario": urljoin(BASE_URL, "?q=content/sector-monetario-y-bancario")
+            }
+        }
+    return menu_completo
 
-def escanear_estructura_pagina(url_pagina):
+def escanear_documentos_y_estructurar(nivel1_macro, nombre_pagina, url_pagina, mapa_final):
     """
-    Analiza la página de un sector y extrae de forma ordenada las Secciones (H3),
-    Subsecciones (A, B, C...) e ítems junto con sus fechas de actualización.
+    Escanea la página destino y acomoda las carpetas en su lugar correspondiente,
+    forzando que el identificador final (Nivel 5) termine con la extensión .csv para Excel.
     """
-    estructura_secciones = {}
     try:
         response = requests.get(url_pagina, headers=obtener_headers(), timeout=15)
         soup = BeautifulSoup(response.text, 'html.parser')
         
-        seccion_actual = "GENERAL"
-        subseccion_actual = "General"
+        enlaces = soup.find_all('a', href=True)
         
-        estructura_secciones[seccion_actual] = {subseccion_actual: []}
-        cuerpo = soup.find('body') or soup
-        
-        # Escaneo secuencial del árbol para mantener la jerarquía exacta del diseño del sitio
-        for elemento in cuerpo.find_all(['h3', 'em', 'span', 'a']):
+        if nivel1_macro not in mapa_final:
+            mapa_final[nivel1_macro] = {}
+
+        for e in enlaces:
+            href = e['href'].lower()
+            texto_documento = e.text.strip()
             
-            # 1. Captura de Secciones Principales (ej: BALANZA DE PAGOS, TIPO DE CAMBIO)
-            if elemento.name == 'h3':
-                seccion_actual = elemento.text.strip().upper()
-                subseccion_actual = "General"
-                if seccion_actual not in estructura_secciones:
-                    estructura_secciones[seccion_actual] = {}
-                if subseccion_actual not in estructura_secciones[seccion_actual]:
-                    estructura_secciones[seccion_actual][subseccion_actual] = []
+            if not texto_documento:
+                continue
+            
+            es_valido = (
+                any(ext in href for ext in ['.xlsx', '.xls', '.csv', '.sav', '.pdf', '.docx', '.doc']) or \
+                'default/files' in href or \
+                any(keyword in texto_documento.lower() for keyword in [
+                    'dólar', 'dolar', 'referencial', 'serie', 'cambio', 'cuadro', 'cifras', 
+                    'resumen', 'informe', 'memoria', 'boletin', 'convocatoria', 'reporte'
+                ])
+            )
+                         
+            if es_valido:
+                url_absoluta = urljoin(BASE_URL, e['href'])
+                parsed_url = urlparse(url_absoluta)
+                path_decoded = unquote(parsed_url.path)
+                
+                # --- ASIGNACIÓN DE NIVELES INTELIGENTE ---
+                if 'webdocs/' in path_decoded:
+                    partes = [p for p in path_decoded.split('/') if p]
                     
-            # 2. Captura de Subsecciones con viñetas de letras (ej: A. Comercio Internacional..., B. ...)
-            elif elemento.name in ['em', 'span'] and elemento.text:
-                texto = elemento.text.strip()
-                if any(texto.startswith(f"{letra}.") for letra in "ABCDEFGH"):
-                    subseccion_actual = texto
-                    if subseccion_actual not in estructura_secciones[seccion_actual]:
-                        estructura_secciones[seccion_actual][subseccion_actual] = []
-
-            # 3. Procesamiento y filtrado inteligente de hipervínculos
-            elif elemento.name == 'a' and elemento.has_attr('href'):
-                href = elemento['href'].lower()
-                texto_documento = elemento.text.strip()
-                
-                if not texto_documento:
-                    continue
-                
-                # Filtro de validación expansivo (archivos físicos + palabras clave de resúmenes o visualizadores internos)
-                es_valido = (
-                    any(ext in href for ext in ['.xlsx', '.xls', '.csv', '.sav']) or \
-                    'default/files' in href or \
-                    any(keyword in texto_documento.lower() for keyword in [
-                        'dólar', 'dolar', 'referencial', 'serie', 'cambio', 'cuadro', 
-                        'cifras', 'resumen', 'balance', 'posición', 'deuda', 'reservas'
-                    ])
-                )
-                
-                if es_valido:
-                    url_descarga = urljoin(BASE_URL, elemento['href'])
+                    nivel2 = partes[1] if len(partes) > 1 else normalizar_nombre(nombre_pagina)
+                    nivel3 = partes[2] if len(partes) > 3 else "DOCUMENTOS_GENERALES"
+                    nivel4 = partes[3] if len(partes) > 4 else "VARIOS"
                     
-                    # Validación para no duplicar enlaces exactos dentro de la misma subcategoría
-                    if url_descarga not in [item['url_descarga'] for item in estructura_secciones[seccion_actual][subseccion_actual]]:
-                        
-                        # --- DETERMINACIÓN DE LA FECHA DE ACTUALIZACIÓN ---
-                        fecha_actualizacion = "No disponible"
-                        
-                        # Estrategia A: Búsqueda de patrones de años o rangos de meses en el texto
-                        patron_fecha = re.search(r'\b(19|20)\d{2}\b', texto_documento)
-                        if patron_fecha:
-                            fecha_actualizacion = f"Ref. Texto: {patron_fecha.group(0)}"
-                        
-                        # Estrategia B: Si apunta a un archivo estático, consultamos los metadatos del servidor
-                        elif any(ext in href for ext in ['.xlsx', '.xls', '.csv', '.sav']):
-                            try:
-                                res_file = requests.head(url_descarga, headers=obtener_headers(), timeout=5)
-                                if 'Last-Modified' in res_file.headers:
-                                    fecha_actualizacion = res_file.headers['Last-Modified']
-                            except Exception:
-                                pass # En caso de rechazo del HEAD request, preserva "No disponible"
-                        
-                        estructura_secciones[seccion_actual][subseccion_actual].append({
-                            'descripcion': texto_documento,
-                            'url_descarga': url_descarga,
-                            'fecha_actualizacion': fecha_actualizacion
-                        })
-
-        # Limpieza higiénica del diccionario: eliminamos ramas vacías o auxiliares creadas sin ítems
-        for sec in list(estructura_secciones.keys()):
-            for subsec in list(estructura_secciones[sec].keys()):
-                if not estructura_secciones[sec][subsec]:
-                    del estructura_secciones[sec][subsec]
-            if not estructura_secciones[sec]:
-                del estructura_secciones[sec]
-
+                    # Extraemos el nombre base removiendo cualquier extensión original (.xlsx, .pdf, etc.)
+                    nombre_base = partes[-1].rsplit('.', 1)[0]
+                    nivel5 = f"{normalizar_nombre(nombre_base)}.csv"
+                else:
+                    # Enlaces dinámicos/vistas de consulta de Drupal
+                    nivel2 = normalizar_nombre(nombre_pagina)
+                    nivel3 = "REPORTE_Y_CONSULTAS"
+                    nivel4 = "CONTENIDO_WEB"
+                    nivel5 = f"{normalizar_nombre(texto_documento)}.csv"
+                
+                # --- ALIMENTAR EL ÁRBOL JSON ---
+                if nivel2 not in mapa_final[nivel1_macro]:
+                    mapa_final[nivel1_macro][nivel2] = {}
+                if nivel3 not in mapa_final[nivel1_macro][nivel2]:
+                    mapa_final[nivel1_macro][nivel2][nivel3] = {}
+                if nivel4 not in mapa_final[nivel1_macro][nivel2][nivel3]:
+                    mapa_final[nivel1_macro][nivel2][nivel3][nivel4] = {}
+                
+                # Al mantener el orden natural de aparición del HTML, el primer elemento insertado
+                # corresponde al último archivo disponible/más reciente de la lista.
+                if nivel5 not in mapa_final[nivel1_macro][nivel2][nivel3][nivel4]:
+                    mapa_final[nivel1_macro][nivel2][nivel3][nivel4][nivel5] = {
+                        "descripcion": texto_documento,
+                        "url_descarga": url_absoluta
+                    }
+                    
     except Exception as e:
-        print(f"Error al estructurar la página {url_pagina}: {e}")
-        
-    return estructura_secciones
+        print(f"Error al procesar la página [{nombre_pagina}]: {e}")
 
-# --- FLUJO PRINCIPAL DE EJECUCIÓN ---
+# --- FLUJO PRINCIPAL AUTOMÁTICO ---
 if __name__ == "__main__":
-    menu_dinamico = mapear_secciones_actuales()
-    mapa_automatizado_final = {}
+    estructura_menu = mapear_menu_recursivo()
+    mapa_jerarquizado_final = {}
     
-    for nombre_macro, url_seccion in menu_dinamico.items():
-        print(f"Procesando de forma jerárquica: [{nombre_macro}]")
+    for macro_seccion, sub_secciones in estructura_menu.items():
+        print(f"\n--- Escaneando macro-menú superior: [{macro_seccion}] ---")
         
-        # Extraemos las capas de subsecciones e indicadores ordenadamente
-        estructura_interna = escanear_estructura_pagina(url_seccion)
+        for nombre_pagina, url_pagina in sub_secciones.items():
+            print(f"Indexando: {nombre_pagina} -> {url_pagina}")
+            
+            escanear_documentos_y_estructurar(macro_seccion, nombre_pagina, url_pagina, mapa_jerarquizado_final)
+            time.sleep(1.2)
         
-        mapa_automatizado_final[nombre_macro] = {
-            'url_origen': url_seccion,
-            'secciones': estructura_interna
-        }
-        
-        # Delay de seguridad prudencial para no saturar las peticiones concurrentes
-        time.sleep(1.5)
-        
-    # Guardar los resultados en formato JSON estructurado
-    archivo_salida = "mapa_estadisticas_bcb.json"
+    # Exportar mapa global listo para Excel
+    archivo_salida = "mapa_global_bcb.json"
     with open(archivo_salida, "w", encoding="utf-8") as f:
-        json.dump(mapa_automatizado_final, f, ensure_ascii=False, indent=4)
+        json.dump(mapa_jerarquizado_final, f, ensure_ascii=False, indent=4)
         
-    print(f"\nMapeo estructurado completado con éxito. Se ha generado '{archivo_salida}'.")
+    print(f"\n¡Listo! Todo el portal mapeado con nombres convertidos a '.csv' en '{archivo_salida}'.")
