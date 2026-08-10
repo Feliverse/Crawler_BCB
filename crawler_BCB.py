@@ -14,7 +14,7 @@ for stream in (sys.stdout, sys.stderr):
         pass
 
 # URL base del portal
-BASE_URL = "https://www.bcb.gob.bo/"
+BASE_URL = "https://www.finrural.org.bo/"
 
 def obtener_headers():
     return {
@@ -157,7 +157,7 @@ def escanear_documentos_y_estructurar(nivel1_macro, nombre_pagina, url_pagina, m
 
 # --- FLUJO PRINCIPAL AUTOMÁTICO ---
 if __name__ == "__main__":
-    estructura_menu = mapear_menu_recursivo()
+    estructura_menu =   ()
     mapa_jerarquizado_final = {}
     
     for macro_seccion, sub_secciones in estructura_menu.items():
