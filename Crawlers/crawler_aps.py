@@ -41,7 +41,7 @@ SECCIONES = {
 }
 
 # Tabla renderizada por Angular/AJAX ({{item.tipodocumento}}): no está en el HTML
-# estático, se documenta como pendiente y se omite del recorrido.
+# estático. La cubre `crawler_aps_resoluciones.py`, que consume el API de SIRECI.
 TABLAS_DINAMICAS_IGNORADAS = {"tabla-normativa"}
 
 # Nivel 3 para la tabla principal de normativa (la que trae columna "Fecha")
@@ -284,7 +284,7 @@ def escanear_seccion(seccion, url_pagina, mapa, resumen):
 
     for indice, tabla in enumerate(tablas):
         if tabla.get('id') in TABLAS_DINAMICAS_IGNORADAS:
-            print(f"  - tabla {indice}: omitida (contenido dinámico Angular/AJAX, pendiente)")
+            print(f"  - tabla {indice}: omitida (Angular/AJAX, la cubre crawler_aps_resoluciones.py)")
             resumen["tablas_dinamicas"] += 1
             continue
 

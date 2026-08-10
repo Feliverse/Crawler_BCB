@@ -5,10 +5,19 @@ Forma parte del Equipo 1 (Subsistema de Extraccion Extensible) y cubre los requi
 
 ## Que hace
 
-- Recorre las dos paginas de Normativa asignadas: Pensiones y Seguros.
-- Extrae los documentos descargables listados en las tablas estaticas del HTML.
-- Normaliza la fecha publicada por la fuente (`dd/mm/aaaa`) al estandar `AAAA-MM-DD`.
-- Genera un JSON jerarquico de 5 niveles compatible con el modelo del prototipo CrawlerBCB.
+Son dos modulos, porque la fuente publica su informacion por dos vias distintas:
+
+| Modulo | Cubre | Salida |
+|---|---|---|
+| `crawler_aps.py` | Normativa de base (leyes, decretos, resoluciones ministeriales) en las tablas estaticas del HTML | `mapa_global_aps.json` |
+| `crawler_aps_resoluciones.py` | Resoluciones, Circulares e Instructivos, servidos por el API de SIRECI que alimenta la tabla Angular | `mapa_global_aps_resoluciones.json` |
+
+Ambos normalizan la fecha al estandar `AAAA-MM-DD` y generan un JSON jerarquico de 5 niveles
+compatible con el modelo del prototipo CrawlerBCB.
+
+Se mantienen separados a proposito: la normativa de base cambia pocas veces al año, mientras que
+los actos administrativos suman cientos de documentos por gestion. Mezclarlos en un solo archivo
+esconderia la normativa principal bajo el volumen de resoluciones.
 
 ## Uso
 
@@ -16,12 +25,14 @@ Forma parte del Equipo 1 (Subsistema de Extraccion Extensible) y cubre los requi
 python Crawlers/crawler_aps.py
 ```
 
-Genera o sobreescribe `Crawlers/mapa_global_aps.json`.
+```bash
+python Crawlers/crawler_aps_resoluciones.py
+```
 
-Para validar la salida contra el contrato comun:
+Para validar las salidas contra el contrato comun:
 
 ```bash
-python Crawlers/validar_esquema.py Crawlers/mapa_global_aps.json
+python Crawlers/validar_esquema.py Crawlers/mapa_global_aps.json Crawlers/mapa_global_aps_resoluciones.json
 ```
 
 Dependencias: las mismas del proyecto (`requests`, `beautifulsoup4`), ya listadas en `requirements.txt`.
@@ -38,7 +49,9 @@ Los PDF conviven en dos rutas del sitio, `/files/webdocs/...` e `/images/webdocs
 
 ## Estructura del JSON
 
-Arbol de 5 niveles, con la hoja en el nivel 5:
+Arbol de 5 niveles, con la hoja en el nivel 5. Cada modulo emite su propia raiz unica.
+
+`mapa_global_aps.json`:
 
 ```
 NORMATIVA_APS                        N1  raiz unica
@@ -49,6 +62,17 @@ NORMATIVA_APS                        N1  raiz unica
        └ Ley | Decreto_Supremo       N4  tipo de documento
          | ANEXOS | DOCUMENTOS
           └ Ley_065.pdf              N5  archivo con su extension real
+```
+
+`mapa_global_aps_resoluciones.json`:
+
+```
+RESOLUCIONES_APS                     N1  raiz unica
+ └ PENSIONES | SEGUROS               N2  mercado (PEN | SEG en el API)
+    └ Resolución_Administrativa      N3  tipo de documento
+      | Carta_Circular
+       └ R2_PROCEDIMIENTOS_ADMIN...  N4  subtipo (R1..R17); GENERAL si no aplica
+          └ 0870-26-RAAPSDP.pdf      N5  rc_filename normalizado
 ```
 
 Ejemplo de hoja:
@@ -85,7 +109,37 @@ Se tomaron mirando el JSON modelo (`mapa_global_bcb.json`) y el visor (`web/app.
 7. **Anexos.** Las filas de anexo (`ANEXO1`, `ANEXO2`) no traen fecha propia: heredan la del decreto
    que las aprueba, porque se publican junto con el.
 
+## Modulo de Resoluciones (API de SIRECI)
+
+La tabla "Resoluciones, Circulares e Instructivos" (`id=tabla-normativa`) no esta en el HTML:
+la pagina solo trae los placeholders `{{item.tipodocumento}}` y Angular la puebla en tiempo de
+ejecucion. Leyendo el controlador `DocumentosController` embebido en la pagina se identifico el
+endpoint que la alimenta, que resulta ser publico y sin autenticacion:
+
+```
+GET https://sireci.aps.gob.bo/api/cartas_resoluciones/web/data
+    ?institucion=PS&gestion=<AAAA>&mercado=PEN|SEG
+    &tipoDocumento=RA|CC|IN&categoria=&titulo=&numero=
+    &itemsPerPage=<n>&pagenumber=<n>
+```
+
+Responde `application/json` con `{status, data[], totalRows}`. Cada fila trae `tipo`, `subtipo`,
+`gestion`, `numero`, `fecha` (ISO 8601), `titulo`, `tamanioarchivo` (bytes) y `urlarchivo`.
+
+`crawler_aps_resoluciones.py` consume ese API en lugar de raspar HTML. Detalles de la implementacion:
+
+- **Paginacion obligatoria**: `itemsPerPage` topea en 500 filas por respuesta, sin importar lo que se pida.
+- **Filas sin archivo**: muchas traen `urlarchivo` vacio (`rc_publicar_web: false`). Se descartan y se cuentan.
+- **Nivel 5**: `urlarchivo` apunta a `/descarga/<id>` y no expone nombre de archivo; se usa `rc_filename`,
+  que si trae el nombre real con su extension.
+- **Alcance actual**: la gestion corriente. El parametro `gestion` permite ampliarlo; medido sobre
+  2024-2026 da 4945 filas, 2403 con enlace descargable.
+- **Metadato de tamaño**: se emite `tamanio_bytes` en la hoja, cubriendo parte del pendiente de
+  metadatos definido a nivel de proyecto.
+
 ## Resultado de la ultima corrida
+
+`crawler_aps.py`:
 
 ```
 PENSIONES : 36 documentos (normativa principal) + 28 (bloques agrupados)
@@ -94,21 +148,30 @@ SEGUROS   : 34 documentos (normativa principal) + 22 (bloques agrupados)
 120 documentos indexados
   - enlaces duplicados omitidos : 1
   - filas sin archivo publicado : 2
-  - tablas dinamicas pendientes : 2
+  - tablas dinamicas pendientes : 2   (las cubre el otro modulo)
 ```
 
-Validacion: **120 hojas, profundidad 5 uniforme, 0 errores**, 69 hojas con fecha.
-Cargado en el visor `web/` renderiza los 120 documentos y el filtro por fecha responde.
+`crawler_aps_resoluciones.py` (gestion 2026):
+
+```
+PENSIONES : RA 390 filas ->  84 con archivo | CC  15 filas -> 15
+SEGUROS   : RA 448 filas -> 447 con archivo | CC 177 filas -> 177
+
+723 documentos indexados
+  - filas sin archivo publicado : 307
+```
+
+Validacion de ambos: **profundidad 5 uniforme, 0 errores**.
+`mapa_global_aps.json` 120 hojas (69 con fecha); `mapa_global_aps_resoluciones.json` 723 hojas
+(723 con fecha, 4996 MB de archivos declarados). Cargados en el visor `web/` renderizan completos
+y el filtro por fecha responde.
 
 ## Pendientes (fuera del alcance de esta version)
 
-- **Tabla "Resoluciones, Circulares e Instructivos"** (`id=tabla-normativa`): se renderiza via
-  Angular/AJAX, en el HTML estatico solo aparecen los placeholders `{{item.tipodocumento}}`.
-  Requiere identificar el endpoint del API en la pestaña Network. El crawler la detecta por su `id`
-  y la omite explicitamente, dejando constancia en el log.
 - **Seccion "Estadisticas"**: son graficas y tablas generadas por JS, sin archivo descargable asociado.
-- **Metadatos ampliados** (tamaño de archivo, fecha del primer dato, datos georreferenciales):
-  pendiente definido a nivel de proyecto para el nivel 5.
+- **Gestiones historicas** del API de SIRECI: hoy se recorre solo la gestion corriente.
+- **Metadatos ampliados** (fecha del primer dato, datos georreferenciales): pendiente definido a
+  nivel de proyecto para el nivel 5. El tamaño de archivo ya se emite en el modulo de resoluciones.
 
 ## Observaciones sobre la fuente
 
