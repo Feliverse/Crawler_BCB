@@ -12,7 +12,7 @@ Uso:
 import sys
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin, urlparse, unquote
+from urllib.parse import urljoin, urlparse, urlsplit, urlunsplit, unquote, quote
 import time
 import json
 import re
@@ -96,6 +96,19 @@ def normalizar_fecha(texto):
         return None
 
     return f"{anio:04d}-{mes:02d}-{dia:02d}"
+
+
+def normalizar_url(url):
+    """Codifica la ruta para que `url_descarga` sea una URL valida.
+
+    Muchos href de la fuente traen espacios y acentos literales; el servidor los
+    acepta pero responde con un redirect a la version codificada. Emitirla ya
+    codificada evita que el motor de conciliacion lea ese redirect como un cambio
+    de URL (RF-04). Se desescapa primero para no codificar dos veces.
+    """
+    partes = urlsplit(url)
+    ruta = quote(unquote(partes.path), safe="/()")
+    return urlunsplit((partes.scheme, partes.netloc, ruta, partes.query, partes.fragment))
 
 
 def tipo_archivo_desde_url(url):
@@ -185,7 +198,7 @@ def procesar_tabla_principal(tabla, seccion, url_origen, mapa, resumen):
                 resumen["sin_archivo"] += 1
             continue
 
-        url_absoluta = urljoin(BASE_URL, enlace['href'])
+        url_absoluta = normalizar_url(urljoin(BASE_URL, enlace['href']))
         if not es_descargable(url_absoluta):
             resumen["descartados"] += 1
             continue
@@ -238,7 +251,7 @@ def procesar_tabla_por_bloques(tabla, seccion, url_origen, mapa, resumen):
         if enlace is None:
             continue
 
-        url_absoluta = urljoin(BASE_URL, enlace['href'])
+        url_absoluta = normalizar_url(urljoin(BASE_URL, enlace['href']))
         if not es_descargable(url_absoluta):
             resumen["descartados"] += 1
             continue

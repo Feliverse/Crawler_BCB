@@ -29,11 +29,23 @@ python Crawlers/crawler_aps.py
 python Crawlers/crawler_aps_resoluciones.py
 ```
 
-Para validar las salidas contra el contrato comun:
+Para validar la **forma** de las salidas contra el contrato comun:
 
 ```bash
 python Crawlers/validar_esquema.py Crawlers/mapa_global_aps.json Crawlers/mapa_global_aps_resoluciones.json
 ```
+
+Para comprobar que los enlaces **existan de verdad** (y detectar los que cambiaron de ruta):
+
+```bash
+python Crawlers/verificar_enlaces.py Crawlers/mapa_global_aps.json
+```
+
+```bash
+python Crawlers/verificar_enlaces.py Crawlers/mapa_global_aps_resoluciones.json --muestra 100
+```
+
+Ambos devuelven codigo de salida 0 si todo esta bien, asi que sirven en un pipeline.
 
 Dependencias: las mismas del proyecto (`requests`, `beautifulsoup4`), ya listadas en `requirements.txt`.
 
@@ -108,6 +120,10 @@ Se tomaron mirando el JSON modelo (`mapa_global_bcb.json`) y el visor (`web/app.
    inventar un valor. El visor trata `null` como "sin fecha" sin romperse.
 7. **Anexos.** Las filas de anexo (`ANEXO1`, `ANEXO2`) no traen fecha propia: heredan la del decreto
    que las aprueba, porque se publican junto con el.
+8. **URLs percent-encoded.** Muchos href de la fuente traen espacios y acentos literales. El servidor
+   los acepta pero responde con un redirect a la version codificada, y el motor de conciliacion podria
+   leer ese redirect como "URL modificada" (RF-04). Se emite la URL ya codificada: verificados los 120
+   enlaces, la correccion baja las redirecciones de 53 a 0.
 
 ## Modulo de Resoluciones (API de SIRECI)
 
@@ -161,10 +177,13 @@ SEGUROS   : RA 448 filas -> 447 con archivo | CC 177 filas -> 177
   - filas sin archivo publicado : 307
 ```
 
-Validacion de ambos: **profundidad 5 uniforme, 0 errores**.
+Validacion de esquema de ambos: **profundidad 5 uniforme, 0 errores**.
 `mapa_global_aps.json` 120 hojas (69 con fecha); `mapa_global_aps_resoluciones.json` 723 hojas
 (723 con fecha, 4996 MB de archivos declarados). Cargados en el visor `web/` renderizan completos
 y el filtro por fecha responde.
+
+Verificacion de enlaces: **120/120 y 100/100 (muestra) responden HTTP 200 con `content-type` PDF**,
+sin redirecciones ni fallos.
 
 ## Pendientes (fuera del alcance de esta version)
 
