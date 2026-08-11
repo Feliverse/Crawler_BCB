@@ -5,6 +5,7 @@ from urllib.parse import urljoin, urlparse, unquote
 import time
 import json
 import re
+import os
 
 # Asegurar la correcta codificación de salida en la consola
 for stream in (sys.stdout, sys.stderr):
@@ -14,7 +15,7 @@ for stream in (sys.stdout, sys.stderr):
         pass
 
 # URL base del portal
-BASE_URL = "https://www.finrural.org.bo/"
+BASE_URL = os.getenv("BASE_URL", "https://www.bcb.gob.bo/")
 
 def obtener_headers():
     return {
@@ -170,7 +171,7 @@ if __name__ == "__main__":
             time.sleep(1.2)
         
     # Exportar mapa global listo para Excel
-    archivo_salida = "mapa_global_bcb.json"
+    archivo_salida = "mapa_global.json"
     with open(archivo_salida, "w", encoding="utf-8") as f:
         json.dump(mapa_jerarquizado_final, f, ensure_ascii=False, indent=4)
         
