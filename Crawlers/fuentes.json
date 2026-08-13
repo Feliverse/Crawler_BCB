@@ -33,8 +33,15 @@
       "nombre": "Banco Central de Bolivia",
       "url_base": "https://www.bcb.gob.bo",
       "entidad_emisora": "BCB",
-      "profundidad_max": 2,
-      "paginas_max": 120,
+      "profundidad_max": 3,
+      "paginas_max": 300,
+      "rutas_semilla": [
+        "?q=publicacion-omas",
+        "?q=content/sector-externo-0",
+        "?q=content/sector-monetario-y-bancario",
+        "?q=indicadores_inflacion",
+        "?q=estadisticas_bcb"
+      ],
       "tags": ["monetario", "financiero", "banca-central"]
     },
     {
@@ -42,8 +49,12 @@
       "nombre": "ASFI - Valores",
       "url_base": "https://www.asfi.gob.bo",
       "entidad_emisora": "ASFI",
-      "profundidad_max": 2,
-      "paginas_max": 120,
+      "profundidad_max": 3,
+      "paginas_max": 300,
+      "rutas_semilla": [
+        "pb/estadisticas-intermediacion-financiera",
+        "pb/estadisticas-mercado-valores"
+      ],
       "tags": ["financiero", "valores", "regulacion"]
     },
     {
@@ -69,15 +80,19 @@
       "nombre": "Comision Economica para America Latina y el Caribe",
       "url_base": "https://www.cepal.org",
       "entidad_emisora": "CEPAL",
-      "profundidad_max": 2,
-      "paginas_max": 80,
+      "profundidad_max": 3,
+      "paginas_max": 200,
+      "dominios_permitidos": ["cepal.org"],
+      "rutas_semilla": [
+        "https://repositorio.cepal.org"
+      ],
       "tags": ["internacional", "estadisticas"]
     },
     {
       "id_fuente": "fegasacruz",
       "nombre": "Federacion de Ganaderos de Santa Cruz",
       "url_base": "https://www.fegasacruz.org",
-      "_nota": "El Excel dice fegasacruz.org.bo pero ese dominio ya no resuelve; el vigente es .org",
+      "_nota": "NO VIABLE (verificado): fegasacruz.org.bo murio a nivel DNS; fegasacruz.org solo sirve una pagina 'en construccion' de 3 KB y responde a cualquier otra ruta con un 301 a si misma (bucle). Sin WordPress, sitemap ni API. Reevaluar en el futuro.",
       "entidad_emisora": "FEGASACRUZ",
       "profundidad_max": 2,
       "paginas_max": 60,
@@ -89,8 +104,8 @@
       "url_base": "https://www.finrural.org.bo",
       "_nota": "El Excel dice finrural.bo pero ese dominio no resuelve; el vigente es .org.bo",
       "entidad_emisora": "FINRURAL",
-      "profundidad_max": 2,
-      "paginas_max": 60,
+      "profundidad_max": 3,
+      "paginas_max": 120,
       "tags": ["financiero", "microfinanzas"]
     },
     {
@@ -107,8 +122,8 @@
       "nombre": "Ministerio de Economia y Finanzas Publicas",
       "url_base": "https://www.economiayfinanzas.gob.bo",
       "entidad_emisora": "MEFP",
-      "profundidad_max": 2,
-      "paginas_max": 100,
+      "profundidad_max": 3,
+      "paginas_max": 250,
       "verificar_ssl": false,
       "_nota": "Certificado TLS invalido en el servidor del ministerio; se documenta y se omite la verificacion",
       "tags": ["fiscal", "normativa"]
@@ -119,7 +134,7 @@
       "url_base": "https://www.mineria.gob.bo",
       "entidad_emisora": "MMYM",
       "profundidad_max": 2,
-      "paginas_max": 80,
+      "paginas_max": 120,
       "tags": ["mineria"]
     },
     {
@@ -127,8 +142,8 @@
       "nombre": "Organizacion Mundial del Comercio",
       "url_base": "https://www.wto.org",
       "entidad_emisora": "OMC",
-      "profundidad_max": 2,
-      "paginas_max": 60,
+      "profundidad_max": 3,
+      "paginas_max": 150,
       "tags": ["internacional", "comercio-exterior"]
     },
     {
@@ -143,10 +158,23 @@
     {
       "id_fuente": "vipfe",
       "nombre": "Viceministerio de Inversion Publica y Financiamiento Externo",
-      "url_base": "https://www.vipfe.gob.bo",
+      "url_base": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+      "_nota": "El sitio propio (vipfe.gob.bo) esta caido: DNS parcial y timeout. Sus datos de inversion publica (ip_2006..ip_2023, PDF y XLSX) se publican dentro del portal Drupal del MEFP; se recorren solo las paginas de ese listado.",
       "entidad_emisora": "VIPFE",
-      "profundidad_max": 2,
-      "paginas_max": 80,
+      "raiz": "VIPFE",
+      "verificar_ssl": false,
+      "profundidad_max": 0,
+      "paginas_max": 12,
+      "rutas_semilla": [
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=2",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=3",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=4",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=5",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=6",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=7",
+        "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=8"
+      ],
       "tags": ["fiscal", "inversion-publica"]
     }
   ]

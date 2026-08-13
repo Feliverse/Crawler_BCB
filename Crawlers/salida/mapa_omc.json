@@ -86,6 +86,22 @@
                             "internacional"
                         ],
                         "tamanio_bytes": 3880605
+                    },
+                    "wto_publications_catalogue_e.pdf": {
+                        "descripcion": "Publications catalogue",
+                        "url_descarga": "http://www.wto.org/english/res_e/publications_e/wto_publications_catalogue_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/publications_e/publications_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 8540411
                     }
                 },
                 "TariffProfilesSummary_E": {
@@ -2779,6 +2795,1099 @@
                             "internacional"
                         ],
                         "tamanio_bytes": 5175662
+                    },
+                    "IDU-d15e64da-0670-4821-bebe-1caa0026210b.pdf": {
+                        "descripcion": "World Bank Group - Tracking Global Social Policy\r\n                          Responses to High Energy Prices",
+                        "url_descarga": "https://documents1.worldbank.org/curated/en/099106503252633049/pdf/IDU-d15e64da-0670-4821-bebe-1caa0026210b.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/hormuz_global_trade_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ]
+                    }
+                },
+                "reser_e": {
+                    "tariff_bindings_notes_e.pdf": {
+                        "descripcion": "Technical note",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/tariff_bindings_notes_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/reser_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 142540
+                    },
+                    "tariff_bindings_dataset.zip": {
+                        "descripcion": "Download dataset in Stata format",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/tariff_bindings_dataset.zip",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "zip",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/reser_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 49233131
+                    },
+                    "doctoralstudies.pdf": {
+                        "descripcion": "Support Programme for Doctoral Studies",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/doctoralstudies.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/reser_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 115333
+                    },
+                    "Catalogue_Web.pdf": {
+                        "descripcion": "Full Catalogue of Episodes",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Catalogue_Web.pdf",
+                        "fecha_actualizacion": "2030-02-01",
+                        "fecha_ultimo_dato": "2030-02-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialonfood_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 270741
+                    },
+                    "big_takeaways.pdf": {
+                        "descripcion": "Big Take-Aways (Volume I, 2020-2022)",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/big_takeaways.pdf",
+                        "fecha_actualizacion": "2030-02-01",
+                        "fecha_ultimo_dato": "2030-02-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialonfood_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2122741
+                    },
+                    "Trade_Dialogues_on_Food_Big_Take_Aways_Vol_II.pdf": {
+                        "descripcion": "Big Take-Aways (Volume II, 2023-2026)",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Trade_Dialogues_on_Food_Big_Take_Aways_Vol_II.pdf",
+                        "fecha_actualizacion": "2030-02-01",
+                        "fecha_ultimo_dato": "2030-02-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialonfood_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1856635
+                    },
+                    "AATM_2020_Synopsis.pdf": {
+                        "descripcion": "SYNOPSIS, Africa Agriculture Trade Monitor 2020",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/AATM_2020_Synopsis.pdf",
+                        "fecha_actualizacion": "2020-01-01",
+                        "fecha_ultimo_dato": "2020-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialonfood_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 308680
+                    },
+                    "The_Story_on_Trade_Dialogue_on_Food_e.pdf": {
+                        "descripcion": "The Story of the Trade Dialogues on Food",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/The_Story_on_Trade_Dialogue_on_Food_e.pdf",
+                        "fecha_actualizacion": "2030-02-01",
+                        "fecha_ultimo_dato": "2030-02-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialonfood_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3170454
+                    },
+                    "agcd_tdf.pdf": {
+                        "descripcion": "Insights from WTO Trade Dialogues on Food",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/agcd_tdf.pdf",
+                        "fecha_actualizacion": "2030-02-01",
+                        "fecha_ultimo_dato": "2030-02-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialonfood_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3340647
+                    },
+                    "gvc_presentation_ersd_2052022_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/gvc_presentation_ersd_2052022_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1054462
+                    },
+                    "wtr2021_presentation_ersd_31012022_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2021_presentation_ersd_31012022_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1173578
+                    },
+                    "Gopalakrishnan_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Gopalakrishnan_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 956857
+                    },
+                    "Pol_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Pol_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2128801
+                    },
+                    "Hardinges_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Hardinges_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1797196
+                    },
+                    "Reimsbach_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Reimsbach_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1417268
+                    },
+                    "Cremer_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Cremer_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 179257
+                    },
+                    "Coyle_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Coyle_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 230303
+                    },
+                    "Müller_dec20_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/M%C3%BCller_dec20_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 461446
+                    },
+                    "1_pablo_segura_2020_wto_privacy_as_a_tool_to_create_value.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/1_pablo_segura_2020_wto_privacy_as_a_tool_to_create_value.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1749324
+                    },
+                    "2_javier_lopez_gonzales_wto_dialogues_november_2020_rev3.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/2_javier_lopez_gonzales_wto_dialogues_november_2020_rev3.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 431219
+                    },
+                    "3_patricia_wto_transborder_processing.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/3_patricia_wto_transborder_processing.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 531366
+                    },
+                    "4_tomiurawtowebinarpdf.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/4_tomiurawtowebinarpdf.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 97088
+                    },
+                    "1_richard_wto-gpa_slides.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/1_richard_wto-gpa_slides.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 220268
+                    },
+                    "2_ssophie_trade_dialogues_wto.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/2_ssophie_trade_dialogues_wto.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 935465
+                    },
+                    "3_justin_weiss_for_wto_trade_dialogues_cross_border_exchange_of_personal_data_10nov2020.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/3_justin_weiss_for_wto_trade_dialogues_cross_border_exchange_of_personal_data_10nov2020.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1114034
+                    },
+                    "4_rafael_international_transfers_in_the_european_gdpr_wto_rgg.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/4_rafael__international_transfers_in_the_european_gdpr_wto_rgg.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 524965
+                    },
+                    "5_luis_inai.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/5_luis_inai.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3237272
+                    },
+                    "patricio.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/patricio.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1334537
+                    },
+                    "heid_s_presentation_cyberregulatioheidi_lundwto.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/heid_s_presentation_cyberregulatioheidi_lundwto.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3478017
+                    },
+                    "andrew_s_presentation_trade_implication_of_cyber_security_risks.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/andrew_s_presentation_trade_implication_of_cyber_security_risks.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 988863
+                    },
+                    "caroline_troein_and_grace_acoyo.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/caroline_troein_and_grace_acoyo.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2441335
+                    },
+                    "marilia_slides_wto_trade_dialogues_cybersecurity_global_and_regional_cooperation.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/marilia_slides_wto_trade_dialogues_cybersecurity_global_and_regional_cooperation.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 825387
+                    },
+                    "dale_wto_confidence_building_cybersecurity_dale_waterman_deck_9_oct_2020.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/dale_wto_confidence_building_cybersecurity_dale_waterman_deck_9_oct_2020.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 189092
+                    },
+                    "wto_webinar_interpol_cybercrime_presentation.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wto_webinar_interpol_cybercrime_presentation.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3864175
+                    },
+                    "mr_nicolas_schuberts_slides.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/mr_nicolas_schuberts_slides.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 921416
+                    },
+                    "dr_konstantinos_slides.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/dr_konstantinos_slides.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 434301
+                    },
+                    "mr_matthew_allisons_slides.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/mr_matthew_allisons_slides.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 612345
+                    },
+                    "allison_gillwald_wto_mechancs_of_data_flows_2020_1.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/allison_gillwald_wto_mechancs_of_data_flows_2020_1.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2264375
+                    },
+                    "ruosi_zhangs_presentation_data_flow_in_transport_and_logistics_services.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/ruosi_zhangs_presentation_data_flow_in_transport_and_logistics_services.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1263441
+                    },
+                    "wendy_lis_presentation.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wendy_lis_presentation.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1478216
+                    },
+                    "magnus_rentzhogs_presentation_no_transfer_no_production.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/magnus_rentzhogs_presentation_no_transfer_no_production.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 658206
+                    },
+                    "cedric_lys_presentation.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/cedric_lys_presentation.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 679015
+                    },
+                    "joseph_whitlocks_slides.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/joseph_whitlocks_slides.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 621829
+                    },
+                    "blanchard_wto_lecture_feb2020.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/blanchard_wto_lecture_feb2020.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1472160
+                    },
+                    "wtr2019_miroudot.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2019_miroudot.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 531011
+                    },
+                    "wtr2019_wtr_in_depth.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2019_wtr_in_depth.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3084127
+                    },
+                    "wtr2018_section_d_marcb.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2018_section_d_marcb.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2940928
+                    },
+                    "wtr2018_intro.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2018_intro.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 808889
+                    },
+                    "wtr2018_sectionc_roberta.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2018_sectionc_roberta.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2335486
+                    },
+                    "wtr2018_sectionb_robertt.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/wtr2018_sectionb_robertt.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1857024
+                    },
+                    "presentationprofpaola31118.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/presentationprofpaola31118.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 7633731
+                    },
+                    "ullbergintro_e.pdf": {
+                        "descripcion": "Professor Eskil Ullberg, George Mason University, USA Intro - Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/ullbergintro_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 437672
+                    },
+                    "ullbergpresentation_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/ullbergpresentation_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1721068
+                    },
+                    "prof_ralph_ossa_wto_trade_dialogues.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/prof_ralph_ossa_wto_trade_dialogues.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 163471
+                    },
+                    "jens_suedekum.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/jens_suedekum.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1702712
+                    },
+                    "farid_toubal.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/farid_toubal.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2987301
+                    },
+                    "talk-wto22317.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/talk-wto22317.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 222927
+                    },
+                    "2-03-2017.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/2-03-2017.pdf",
+                        "fecha_actualizacion": "2017-01-01",
+                        "fecha_ultimo_dato": "2017-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2100083
+                    },
+                    "Future_of_Work_WTO.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Future_of_Work_WTO.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1233311
+                    },
+                    "Verhoogen_201216.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/Verhoogen_201216.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2132651
+                    },
+                    "david_born.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/david_born.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 797438
+                    },
+                    "lucian_cernat_presentation.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/lucian_cernat_presentation.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 177362
+                    },
+                    "torben_andersen.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/res_e/reser_e/torben_andersen.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 271544
+                    }
+                },
+                "booksp_e": {
+                    "souvenirs_price_list_e.pdf": {
+                        "descripcion": "The WTO Bookshop offers more than 1,000 titles covering all aspects of world trade. The most recent WTO publications can be found alongside titles from over 50 publishers. The bookshop also offers exclusive gifts and sou",
+                        "url_descarga": "http://www.wto.org/english/res_e/booksp_e/souvenirs_price_list_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/booksp_e/bookshop_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 5472888
+                    },
+                    "nonwtopub_e.xlsx": {
+                        "descripcion": "latest  list of titles",
+                        "url_descarga": "http://www.wto.org/english/res_e/booksp_e/nonwtopub_e.xlsx",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/booksp_e/bookshop_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 65498
+                    }
+                },
+                "webcas_e": {
+                    "latest_news_e.xml": {
+                        "descripcion": "http://www.wto.org/library/rss/latest_news_e.xml",
+                        "url_descarga": "http://www.wto.org/library/rss/latest_news_e.xml",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "xml",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/webcas_e/rss_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 20602
+                    },
+                    "podcasts_e.xml": {
+                        "descripcion": "http://www.wto.org/library/rss/podcasts_e.xml",
+                        "url_descarga": "http://www.wto.org/library/rss/podcasts_e.xml",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "xml",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/res_e/webcas_e/rss_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1098
                     }
                 }
             },
@@ -2799,6 +3908,1105 @@
                             "internacional"
                         ],
                         "tamanio_bytes": 156811
+                    }
+                },
+                "womenandtrade_e": {
+                    "iwd20_monica_e.pdf": {
+                        "descripcion": "Presentation",
+                        "url_descarga": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd20_monica_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/tratop_e/womenandtrade_e/womenday2020_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 574790
+                    },
+                    "iwd20_adb_speech_e.pdf": {
+                        "descripcion": "Speech",
+                        "url_descarga": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd20_adb_speech_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/tratop_e/womenandtrade_e/womenday2020_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 56151
+                    },
+                    "unlocking_trade_for_women_sp_speech.pdf": {
+                        "descripcion": "Speech",
+                        "url_descarga": "http://www.wto.org/english/tratop_e/womenandtrade_e/unlocking_trade_for_women_sp_speech.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd19_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 31599
+                    },
+                    "iwd_anoush_speech_2019_finalf.pdf": {
+                        "descripcion": "Speech",
+                        "url_descarga": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd_anoush_speech_2019_finalf.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd19_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 116089
+                    },
+                    "iwd2019_programme_e.pdf": {
+                        "descripcion": "iwd2019_programme_e.pdf",
+                        "url_descarga": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd2019_programme_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/tratop_e/womenandtrade_e/iwd19_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 4647003
+                    }
+                }
+            },
+            "thewto_e": {
+                "whatis_e": {
+                    "organigram_e.pdf": {
+                        "descripcion": "in pdf format",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/whatis_e/tif_e/organigram_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/whatis_e/tif_e/org2_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 71870
+                    },
+                    "inbr_e.pdf": {
+                        "descripcion": "downloaded\r\n            in pdf format",
+                        "url_descarga": "http://www.wto.org/english/res_e/doload_e/inbr_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/whatis_e/inbrief_e/inbr00_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1270644
+                    },
+                    "wtocan_e.pdf": {
+                        "descripcion": "This brochure can also be downloaded in pdf format",
+                        "url_descarga": "http://www.wto.org/english/res_e/publications_e/wtocan_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/whatis_e/10thi_e/10thi00_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3575328
+                    },
+                    "ldc_list.pdf": {
+                        "descripcion": "UN list",
+                        "url_descarga": "https://www.un.org/development/desa/dpad/wp-content/uploads/sites/45/publication/ldc_list.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/whatis_e/tif_e/org7_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ]
+                    }
+                },
+                "secre_e": {
+                    "former_chairs2013_2023_e.pdf": {
+                        "descripcion": "2013-2023",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/former_chairs2013_2023_e.pdf",
+                        "fecha_actualizacion": "2013-01-01",
+                        "fecha_ultimo_dato": "2013-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/current_chairs_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 225169
+                    },
+                    "former_chairs2011_2021_e.pdf": {
+                        "descripcion": "2011-2021",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/former_chairs2011_2021_e.pdf",
+                        "fecha_actualizacion": "2011-01-01",
+                        "fecha_ultimo_dato": "2011-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/current_chairs_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 179177
+                    },
+                    "former_chairs2009_2019_e.pdf": {
+                        "descripcion": "2009-2019",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/former_chairs2009_2019_e.pdf",
+                        "fecha_actualizacion": "2009-01-01",
+                        "fecha_ultimo_dato": "2009-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/current_chairs_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 205733
+                    },
+                    "former_chairs_08_10_e.pdf": {
+                        "descripcion": "2008-2010",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/former_chairs_08_10_e.pdf",
+                        "fecha_actualizacion": "2008-01-01",
+                        "fecha_ultimo_dato": "2008-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/current_chairs_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 136855
+                    },
+                    "former_chairs_03_07_e.pdf": {
+                        "descripcion": "2003-2007",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/former_chairs_03_07_e.pdf",
+                        "fecha_actualizacion": "2003-01-01",
+                        "fecha_ultimo_dato": "2003-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/current_chairs_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 104289
+                    },
+                    "former_chairs_95_02_e.pdf": {
+                        "descripcion": "1995-2002",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/former_chairs_95_02_e.pdf",
+                        "fecha_actualizacion": "1995-01-01",
+                        "fecha_ultimo_dato": "1995-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/current_chairs_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 124332
+                    },
+                    "HRD_WTO_People_Strategy_2024.pdf": {
+                        "descripcion": "WTO People Strategy 2024-2027",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/HRD_WTO_People_Strategy_2024.pdf",
+                        "fecha_actualizacion": "2024-01-01",
+                        "fecha_ultimo_dato": "2024-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/intro_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 492855
+                    },
+                    "secretariat_strategy2030_e.pdf": {
+                        "descripcion": "Secretariat  Strategy 2030",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secretariat_strategy2030_e.pdf",
+                        "fecha_actualizacion": "2030-01-01",
+                        "fecha_ultimo_dato": "2030-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/div_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 19847660
+                    },
+                    "budget2025_e.pdf": {
+                        "descripcion": "Consolidated budget for 2025",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2025_e.pdf",
+                        "fecha_actualizacion": "2025-01-01",
+                        "fecha_ultimo_dato": "2025-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 342928
+                    },
+                    "budget2025_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat   2025",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2025_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2025-01-01",
+                        "fecha_ultimo_dato": "2025-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 54621
+                    },
+                    "budget2024_e.pdf": {
+                        "descripcion": "Consolidated budget for 2024",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2024_e.pdf",
+                        "fecha_actualizacion": "2024-01-01",
+                        "fecha_ultimo_dato": "2024-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 250503
+                    },
+                    "budget2024_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat   2024",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2024_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2024-01-01",
+                        "fecha_ultimo_dato": "2024-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 49302
+                    },
+                    "budget2023_e.pdf": {
+                        "descripcion": "Consolidated budget for 2023",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2023_e.pdf",
+                        "fecha_actualizacion": "2023-01-01",
+                        "fecha_ultimo_dato": "2023-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 225293
+                    },
+                    "budget2023_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat   2023",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2023_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2023-01-01",
+                        "fecha_ultimo_dato": "2023-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 48289
+                    },
+                    "budget2022_e.pdf": {
+                        "descripcion": "Consolidated budget for 2022",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2022_e.pdf",
+                        "fecha_actualizacion": "2022-01-01",
+                        "fecha_ultimo_dato": "2022-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 47105
+                    },
+                    "budget2022_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat   2022",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2022_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2022-01-01",
+                        "fecha_ultimo_dato": "2022-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 104344
+                    },
+                    "budget2021_e.pdf": {
+                        "descripcion": "Consolidated budget for 2021",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2021_e.pdf",
+                        "fecha_actualizacion": "2021-01-01",
+                        "fecha_ultimo_dato": "2021-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 354932
+                    },
+                    "budget2021_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat   2021",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2021_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2021-01-01",
+                        "fecha_ultimo_dato": "2021-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 54148
+                    },
+                    "budget2020_e.pdf": {
+                        "descripcion": "Consolidated budget for 2020",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2020_e.pdf",
+                        "fecha_actualizacion": "2020-01-01",
+                        "fecha_ultimo_dato": "2020-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 47266
+                    },
+                    "budget2020_member_contribution_e.pdf": {
+                        "descripcion": "Members’ contributions to the consolidated budget of the WTO Secretariat and the\r\n            Appellate Body Secretariat 2020",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2020_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2020-01-01",
+                        "fecha_ultimo_dato": "2020-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 90864
+                    },
+                    "budget2019_e.pdf": {
+                        "descripcion": "Consolidated budget for 2019",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2019_e.pdf",
+                        "fecha_actualizacion": "2019-01-01",
+                        "fecha_ultimo_dato": "2019-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 45258
+                    },
+                    "budget2019_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat and the\r\n                Appellate Body Secretariat 2019",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2019_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2019-01-01",
+                        "fecha_ultimo_dato": "2019-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 64574
+                    },
+                    "budget2018_e.pdf": {
+                        "descripcion": "Consolidated budget for 2018",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2018_e.pdf",
+                        "fecha_actualizacion": "2018-01-01",
+                        "fecha_ultimo_dato": "2018-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 47832
+                    },
+                    "budget2018_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat and the\r\n                Appellate Body Secretariat 2018",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2018_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2018-01-01",
+                        "fecha_ultimo_dato": "2018-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 63033
+                    },
+                    "budget2017_e.pdf": {
+                        "descripcion": "Consolidated budget for 2017",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2017_e.pdf",
+                        "fecha_actualizacion": "2017-01-01",
+                        "fecha_ultimo_dato": "2017-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 67101
+                    },
+                    "budget2017_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat and the\r\n                Appellate Body Secretariat 2017",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2017_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2017-01-01",
+                        "fecha_ultimo_dato": "2017-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 116625
+                    },
+                    "budget2016_e.pdf": {
+                        "descripcion": "Consolidated budget for 2016",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2016_e.pdf",
+                        "fecha_actualizacion": "2016-01-01",
+                        "fecha_ultimo_dato": "2016-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 55815
+                    },
+                    "budget2016_member_contribution_e.pdf": {
+                        "descripcion": "Members contributions to the consolidated budget of the WTO Secretariat and the\r\n                Appellate Body Secretariat 2016",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/secre_e/budget_e/budget2016_member_contribution_e.pdf",
+                        "fecha_actualizacion": "2016-01-01",
+                        "fecha_ultimo_dato": "2016-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/secre_e/budget_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 69890
+                    }
+                },
+                "procurement_e": {
+                    "terms_conditions_e.pdf": {
+                        "descripcion": "General Terms and Conditions of contracts entered into by the WTO",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/procurement_e/terms_conditions_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/procurement_e/procurement_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 283339
+                    }
+                },
+                "coher_e": {
+                    "discussion_papers13_e.pdf": {
+                        "descripcion": "Discussion paper: Fulfilling the Marrakesh Mandate on Coherence: Ten\r\n          Years of Cooperation between the WTO, IMF and World Bank",
+                        "url_descarga": "http://www.wto.org/english/res_e/booksp_e/discussion_papers13_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/coher_e/coher_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 449565
+                    },
+                    "wtl194_e.doc": {
+                        "descripcion": "Agreements\r\n          between the WTO, IMF and World Bank",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/coher_e/wtl194_e.doc",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "doc",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/coher_e/coher_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 20419
+                    }
+                },
+                "20y_e": {
+                    "services_brochure2015_e.pdf": {
+                        "descripcion": "Trade in Services :  The most dynamic segment of international trade",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/services_brochure2015_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1483966
+                    },
+                    "ta_brochure2015_e.pdf": {
+                        "descripcion": "Training and Technical Assistance :  Improving understanding of the WTO trading system",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/ta_brochure2015_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 666403
+                    },
+                    "tbt_brochure2015_e.pdf": {
+                        "descripcion": "Technical Barriers to Trade : Reducing trade friction from standards and regulations",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/tbt_brochure2015_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1077995
+                    },
+                    "trips_brochure2015_e.pdf": {
+                        "descripcion": "TRIPS Agreement : Changing the face of IP trade and policy-making",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/trips_brochure2015_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1413378
+                    },
+                    "acc_brochure2015_e.pdf": {
+                        "descripcion": "Accessions: Expanding world trade and strengthening WTO rules",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/acc_brochure2015_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1778911
+                    },
+                    "gpa_brochure2015_e.pdf": {
+                        "descripcion": "Government Procurement Agreement: Opening markets and promoting good governance",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/gpa_brochure2015_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1598217
+                    },
+                    "sps_brochure20y_e.pdf": {
+                        "descripcion": "Sanitary and phytosanitary measures: Ensuring safe trading without unnecessary restrictions",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/sps_brochure20y_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 3820481
+                    },
+                    "dispute_brochure20y_e.pdf": {
+                        "descripcion": "WTO Dispute Settlement: Resolving trade disputes between WTO members",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/dispute_brochure20y_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1658429
+                    },
+                    "wto_tradefacilitation_e.pdf": {
+                        "descripcion": "Trade Facilitation Agreement: Easing the flow of goods across borders",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/wto_tradefacilitation_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2502023
+                    },
+                    "wto_environment_e.pdf": {
+                        "descripcion": "Trade and Environment: Building pathways to sustainable development",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/wto_environment_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1564069
+                    },
+                    "wto_20_brochure_e.pdf": {
+                        "descripcion": "Trade and Tariffs : Trade grows as tariffs decline",
+                        "url_descarga": "http://www.wto.org/english/thewto_e/20y_e/wto_20_brochure_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/thewto_e/20y_e/20y_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1923515
+                    }
+                }
+            },
+            "docs_e": {
+                "legal_e": {
+                    "1064.PDF": {
+                        "descripcion": "LET/1064",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/GG/LET/1064.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 137032
+                    },
+                    "34.PDF": {
+                        "descripcion": "AIR/34",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/TR/AIR/34.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 531757
+                    },
+                    "39.PDF": {
+                        "descripcion": "AIR/39",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/TR/AIR/39.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 815853
+                    },
+                    "1357.PDF": {
+                        "descripcion": "LET/1357",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/GG/LET/1357.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 194514
+                    },
+                    "43.PDF": {
+                        "descripcion": "AIR/43",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/TR/AIR/43.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1226625
+                    },
+                    "1390.PDF": {
+                        "descripcion": "LET/1390",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/GG/LET/1390.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 195656
+                    },
+                    "45.PDF": {
+                        "descripcion": "AIR/45",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/TR/AIR/45.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 5079737
+                    },
+                    "48.PDF": {
+                        "descripcion": "AIR/48",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/TR/AIR/48.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 5099111
+                    },
+                    "1418.PDF": {
+                        "descripcion": "LET/1418",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/GG/LET/1418.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 198879
+                    },
+                    "62.PDF": {
+                        "descripcion": "AIR/62",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/TR/AIR/62.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 18320158
+                    },
+                    "1511.PDF": {
+                        "descripcion": "LET/1511",
+                        "url_descarga": "https://docs.wto.org/gattdocs/q/GG/LET/1511.PDF",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 171305
+                    },
+                    "wtoagreementpreface_e.pdf": {
+                        "descripcion": "Table of Contents",
+                        "url_descarga": "http://www.wto.org/english/res_e/booksp_e/wtoagreementpreface_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/docs_e/legal_e/legal_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 32719
+                    }
+                }
+            },
+            "forums_e": {
+                "open_day_e": {
+                    "programme_e.pdf": {
+                        "descripcion": "Programme and information brochure",
+                        "url_descarga": "http://www.wto.org/english/forums_e/open_day_e/openday24_e/programme_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/forums_e/open_day_e/open_day_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1179546
+                    },
+                    "openday24_flyer_e.pdf": {
+                        "descripcion": "Program & Access map",
+                        "url_descarga": "http://www.wto.org/english/forums_e/open_day_e/openday24_e/openday24_flyer_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/forums_e/open_day_e/open_day_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2063920
+                    }
+                }
+            },
+            "news_e": {
+                "news21_e": {
+                    "programme_iwd21_e.pdf": {
+                        "descripcion": "Women in leadership: Achieving an equal future  in a COVID-19 world",
+                        "url_descarga": "http://www.wto.org/library/events/programme_iwd21_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/news_e/news21_e/women_08mar21_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 94954
+                    }
+                },
+                "news17_e": {
+                    "gender_stats_march2017_e.pdf": {
+                        "descripcion": "The report is available here .",
+                        "url_descarga": "http://www.wto.org/english/news_e/news17_e/gender_stats_march2017_e.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "omc",
+                        "url_origen": "http://www.wto.org/english/news_e/news17_e/dgra_08mar17_e.htm",
+                        "entidad_emisora": "OMC",
+                        "periodicidad": null,
+                        "tags": [
+                            "comercio-exterior",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 706407
                     }
                 }
             }

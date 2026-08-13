@@ -284,11 +284,25 @@ def descubrir(config, sesion, resumen):
     infinito que menciona US-01 y protege a la fuente de un barrido desmedido.
     """
     base = config['url_base'].rstrip('/')
-    dominio = urlsplit(base).netloc
+    dominio = urlsplit(base).netloc.lower()
     profundidad_max = config.get('profundidad_max', 2)
     paginas_max = config.get('paginas_max', 80)
     extra_excluir = tuple(p.lower() for p in config.get('excluir', []))
     verificar_ssl = config.get('verificar_ssl', True)
+
+    # Muchas fuentes sirven los archivos desde otro subdominio (repositorio.*, api.*).
+    # `dominios_permitidos` amplia el recorrido a esos sufijos sin abrir la puerta a
+    # cualquier sitio enlazado.
+    permitidos = tuple(d.lower().lstrip('.') for d in config.get('dominios_permitidos', []))
+
+    def dominio_valido(netloc):
+        netloc = netloc.lower()
+        if netloc == dominio:
+            return True
+        for sufijo in permitidos:
+            if netloc == sufijo or netloc.endswith('.' + sufijo):
+                return True
+        return False
 
     semillas = [base] + [urljoin(base + '/', r) for r in config.get('rutas_semilla', [])]
     pendientes = deque((u, 0) for u in semillas)
@@ -310,7 +324,7 @@ def descubrir(config, sesion, resumen):
 
         for enlace in BeautifulSoup(html, 'html.parser').find_all('a', href=True):
             destino = urljoin(url, enlace['href']).split('#')[0].rstrip('/')
-            if urlsplit(destino).netloc != dominio:
+            if not dominio_valido(urlsplit(destino).netloc):
                 continue
             if destino in vistas or excluido(destino):
                 continue

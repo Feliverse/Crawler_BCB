@@ -1,3 +1,2170 @@
 {
-    "FMI": {}
+    "FMI": {
+        "INDICADORES": {
+            "WEO": {
+                "SERIES": {
+                    "NGDP_RPCH.json": {
+                        "descripcion": "Real GDP growth (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NGDPD.json": {
+                        "descripcion": "GDP, current prices (Billions of U.S. dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGDPD",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NGDPDPC.json": {
+                        "descripcion": "GDP per capita, current prices (U.S. dollars per capita)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGDPDPC",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PPPGDP.json": {
+                        "descripcion": "GDP, current prices (Purchasing power parity; billions of international dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PPPGDP",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PPPPC.json": {
+                        "descripcion": "GDP per capita, current prices (Purchasing power parity; international dollars per capita)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PPPPC",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PPPSH.json": {
+                        "descripcion": "GDP based on PPP, share of world (Percent of World)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PPPSH",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PPPEX.json": {
+                        "descripcion": "Implied PPP conversion rate (National currency per international dollar)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PPPEX",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PCPIPCH.json": {
+                        "descripcion": "Inflation rate, average consumer prices (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PCPIPCH",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PCPIEPCH.json": {
+                        "descripcion": "Inflation rate, end of period consumer prices (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PCPIEPCH",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "LP.json": {
+                        "descripcion": "Population (Millions of people)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/LP",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BCA.json": {
+                        "descripcion": "Current account balance\nU.S. dollars (Billions of U.S. dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BCA",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BCA_NGDPD.json": {
+                        "descripcion": "Current account balance, percent of GDP (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BCA_NGDPD",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "LUR.json": {
+                        "descripcion": "Unemployment rate (Percent)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/LUR",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXCNL_NGDP.json": {
+                        "descripcion": "General government net lending/borrowing (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXCNL_NGDP",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXWDG_NGDP.json": {
+                        "descripcion": "General government gross debt (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_NGDP",
+                        "fecha_actualizacion": "2026-04-08",
+                        "fecha_ultimo_dato": "2026-04-08",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "FPP": {
+                "SERIES": {
+                    "rev.json": {
+                        "descripcion": "Government revenue, percent of GDP (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/rev",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "exp.json": {
+                        "descripcion": "Government expenditure, percent of GDP (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/exp",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "prim_exp.json": {
+                        "descripcion": "Government primary expenditure, percent of GDP (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/prim_exp",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ie.json": {
+                        "descripcion": "Interest paid on public debt, percent of GDP (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ie",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "pb.json": {
+                        "descripcion": "Government primary balance, percent of GDP (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/pb",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "d.json": {
+                        "descripcion": "Gross public debt, percent of GDP (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/d",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "rgc.json": {
+                        "descripcion": "Real GDP growth rate, percent",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/rgc",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "rltir.json": {
+                        "descripcion": "Real long term government bond yield, percent",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/rltir",
+                        "fecha_actualizacion": "2025-12-12",
+                        "fecha_ultimo_dato": "2025-12-12",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "SPRLU": {
+                "SERIES": {
+                    "extensive.json": {
+                        "descripcion": "Extensive Margin (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/extensive",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "intensive.json": {
+                        "descripcion": "Intensive Margin (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/intensive",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "total_theil.json": {
+                        "descripcion": "Export Diversification Index (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/total_theil",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_0.json": {
+                        "descripcion": "Food and live animals (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_0",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_1.json": {
+                        "descripcion": "Beverages and tobacco (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_1",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_2.json": {
+                        "descripcion": "Crude materials, inedible, except fuels (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_2",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_3.json": {
+                        "descripcion": "Mineral fuels, lubricants and related materials (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_3",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_4.json": {
+                        "descripcion": "Animal and vegetable oils and fats (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_4",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_5.json": {
+                        "descripcion": "Chemicals (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_5",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_6.json": {
+                        "descripcion": "Manufact goods classified chiefly by material (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_6",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_7.json": {
+                        "descripcion": "Machinery and transport equipment (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_7",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_8.json": {
+                        "descripcion": "Miscellaneous manufactured articles (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_8",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_9.json": {
+                        "descripcion": "Commodity & transactions not classified accord to kind (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_9",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "SITC1_total.json": {
+                        "descripcion": "Export Quality Index (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/SITC1_total",
+                        "fecha_actualizacion": "2020-09-22",
+                        "fecha_ultimo_dato": "2020-09-22",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "CF": {
+                "SERIES": {
+                    "DirectAbroad.json": {
+                        "descripcion": "Direct Investment Abroad (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DirectAbroad",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "DirectIn.json": {
+                        "descripcion": "Direct Investment In Country (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DirectIn",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PrivInexDI.json": {
+                        "descripcion": "Private Inflows excluding Direct Investment (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PrivInexDI",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PrivInexDIGDP.json": {
+                        "descripcion": "Private Inflows excluding Direct Investment (% of GDP) (Percent)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PrivInexDIGDP",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PrivOutexDI.json": {
+                        "descripcion": "Private Outflows excluding Direct Investment (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PrivOutexDI",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PrivOutexDIGDP.json": {
+                        "descripcion": "Private Outflows excluding Direct Investment (% of GDP) (Percent)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PrivOutexDIGDP",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Portfa.json": {
+                        "descripcion": "Portfolio Investment Assets (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Portfa",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Portfl.json": {
+                        "descripcion": "Portfolio Investment Liabilities (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Portfl",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "EquityA.json": {
+                        "descripcion": "Equity Securities Assets (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/EquityA",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "EquityL.json": {
+                        "descripcion": "Equity Securities Liabilities (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/EquityL",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "DebtA.json": {
+                        "descripcion": "Debt Securities Assets (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DebtA",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "DebtL.json": {
+                        "descripcion": "Debt Securities Liabilities (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DebtL",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "OtherGov.json": {
+                        "descripcion": "Proxy for Official Other Investment Liabilities (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/OtherGov",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "OtherA.json": {
+                        "descripcion": "Other Investment Assets (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/OtherA",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "OtherL.json": {
+                        "descripcion": "Other Investment Liabilities (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/OtherL",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Deriv.json": {
+                        "descripcion": "Financial Derivatives (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Deriv",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "DebtForg.json": {
+                        "descripcion": "Debt Forgiveness (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DebtForg",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GDP.json": {
+                        "descripcion": "Nominal GDP (Millions of US Dollars)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GDP",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "CL": {
+                "SERIES": {
+                    "ka_new.json": {
+                        "descripcion": "Overall Openness Index (all asset categories) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ka_new",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ka_in.json": {
+                        "descripcion": "Openness of Capital Inflows Index  (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ka_in",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ka_out.json": {
+                        "descripcion": "Openness of Capital Outflows Index   (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ka_out",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "FM_ka.json": {
+                        "descripcion": "Financial Market Openness Index (equity, bond, money market, collective investment, derivates) 1=fully liberalized (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FM_ka",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Nonres_ka.json": {
+                        "descripcion": "Nonresident Openness Index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Nonres_ka",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Res_ka.json": {
+                        "descripcion": "Resident Openness Index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Res_ka",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_eq.json": {
+                        "descripcion": "Equity openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_eq",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_bo.json": {
+                        "descripcion": "Bond openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_bo",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_mm.json": {
+                        "descripcion": "Money market openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_mm",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_ci.json": {
+                        "descripcion": "Collective investment openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_ci",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_dr.json": {
+                        "descripcion": "Derivative investment openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_dr",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_cc.json": {
+                        "descripcion": "Commercial credit openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_cc",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_fc.json": {
+                        "descripcion": "Financial credit openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_fc",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_gu.json": {
+                        "descripcion": "Guarantee openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_gu",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Ka_di.json": {
+                        "descripcion": "Direct investment openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Ka_di",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ka_ldi.json": {
+                        "descripcion": "Direct investment liquidation openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ka_ldi",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ka_ret.json": {
+                        "descripcion": "Real estate capital transaction openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ka_ret",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ka_pct.json": {
+                        "descripcion": "Personal capital transaction openness index (1=fully liberalized) (Units)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ka_pct",
+                        "fecha_actualizacion": "2016-04-28",
+                        "fecha_ultimo_dato": "2016-04-28",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "ARA": {
+                "SERIES": {
+                    "Reserves_ARA.json": {
+                        "descripcion": "Ratio of reserve/ARA metric (Unit)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Reserves_ARA",
+                        "fecha_actualizacion": "2026-05-18",
+                        "fecha_ultimo_dato": "2026-05-18",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Reserves_M2.json": {
+                        "descripcion": "Reserves/Broad Money (Unit)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Reserves_M2",
+                        "fecha_actualizacion": "2026-05-18",
+                        "fecha_ultimo_dato": "2026-05-18",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Reserves_STD.json": {
+                        "descripcion": "Reserves/Short-term Debt (STD) (Unit)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Reserves_STD",
+                        "fecha_actualizacion": "2026-05-18",
+                        "fecha_ultimo_dato": "2026-05-18",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "Reserves_M.json": {
+                        "descripcion": "Reserve/(Import/12) (Unit)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Reserves_M",
+                        "fecha_actualizacion": "2026-05-18",
+                        "fecha_ultimo_dato": "2026-05-18",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "GD": {
+                "SERIES": {
+                    "GRB_dummy.json": {
+                        "descripcion": "Gender Budgeting Indicator (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GRB_dummy",
+                        "fecha_actualizacion": "2017-11-03",
+                        "fecha_ultimo_dato": "2017-11-03",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GDI_TC.json": {
+                        "descripcion": "Gender Development Index (GDI) Time Consistent (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GDI_TC",
+                        "fecha_actualizacion": "2017-11-03",
+                        "fecha_ultimo_dato": "2017-11-03",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GII_TC.json": {
+                        "descripcion": "Gender Inequality Index (GII) Time Consistent (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GII_TC",
+                        "fecha_actualizacion": "2017-11-03",
+                        "fecha_ultimo_dato": "2017-11-03",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "DEBT": {
+                "SERIES": {
+                    "DEBT1.json": {
+                        "descripcion": "DEBT (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DEBT1",
+                        "fecha_actualizacion": "2017-11-13",
+                        "fecha_ultimo_dato": "2017-11-13",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "GDD": {
+                "SERIES": {
+                    "Privatedebt_all.json": {
+                        "descripcion": "Private debt, all instruments (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/Privatedebt_all",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "HH_ALL.json": {
+                        "descripcion": "Household debt, all instruments (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/HH_ALL",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NFC_ALL.json": {
+                        "descripcion": "Nonfinancial corporate debt, all instruments (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NFC_ALL",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PVD_LS.json": {
+                        "descripcion": "Private debt, loans and debt securities (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PVD_LS",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "HH_LS.json": {
+                        "descripcion": "Household debt, loans and debt securities (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/HH_LS",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NFC_LS.json": {
+                        "descripcion": "Nonfinancial corporate debt, loans and debt securities (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NFC_LS",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PS_DEBT_GDP.json": {
+                        "descripcion": "Public Sector Debt (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PS_DEBT_GDP",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NFPS_DEBT_GDP.json": {
+                        "descripcion": "Nonfinancial Public Sector Debt (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NFPS_DEBT_GDP",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GG_DEBT_GDP.json": {
+                        "descripcion": "General Government Debt (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GG_DEBT_GDP",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "CG_DEBT_GDP.json": {
+                        "descripcion": "Central Government Debt (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/CG_DEBT_GDP",
+                        "fecha_actualizacion": "2025-09-16",
+                        "fecha_ultimo_dato": "2025-09-16",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "FM": {
+                "SERIES": {
+                    "GGXCNL_G01_GDP_PT.json": {
+                        "descripcion": "Net lending/borrowing (also referred as overall balance) (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXCNL_G01_GDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXONLB_G01_GDP_PT.json": {
+                        "descripcion": "Primary net lending/borrowing (also referred as primary balance) (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXONLB_G01_GDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGCB_G01_PGDP_PT.json": {
+                        "descripcion": "Cyclically adjusted balance (% of Potential GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGCB_G01_PGDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGCBP_G01_PGDP_PT.json": {
+                        "descripcion": "Cyclically adjusted primary balance (% of Potential GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGCBP_G01_PGDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGR_G01_GDP_PT.json": {
+                        "descripcion": "Revenue (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGR_G01_GDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "G_X_G01_GDP_PT.json": {
+                        "descripcion": "Expenditure (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/G_X_G01_GDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "G_XWDG_G01_GDP_PT.json": {
+                        "descripcion": "Gross debt position (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/G_XWDG_G01_GDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXWDN_G01_GDP_PT.json": {
+                        "descripcion": "Net debt (% of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXWDN_G01_GDP_PT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "AFRREO": {
+                "SERIES": {
+                    "NGDP_R_PCH.json": {
+                        "descripcion": "Real GDP Growth (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGDP_R_PCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NGDPXO_RPCH.json": {
+                        "descripcion": "Real Non-Oil GDP Growth (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGDPXO_RPCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NGDPRPC_PCH.json": {
+                        "descripcion": "Real Per Capita GDP Growth (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGDPRPC_PCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NI_GDP.json": {
+                        "descripcion": "Total Investment (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NI_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "NGS_GDP.json": {
+                        "descripcion": "Gross National Savings (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/NGS_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXCNL_GDP.json": {
+                        "descripcion": "Overall Fiscal Balance, Including Grants (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXCNL_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXCNLXG_GDP.json": {
+                        "descripcion": "Overall Fiscal Balance, Excluding Grants (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXCNLXG_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGRXG_GDP.json": {
+                        "descripcion": "Government Revenue, Excluding Grants (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGRXG_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGX_GDP.json": {
+                        "descripcion": "Government Expenditure (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGX_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "GGXWDG_GDP.json": {
+                        "descripcion": "Government Debt (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/GGXWDG_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "FMB_GDP.json": {
+                        "descripcion": "Broad Money (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FMB_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "FDSAOP_PCH.json": {
+                        "descripcion": "Claims on Nonfinancial Private Sector (%) (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FDSAOP_PCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "FDSAOP_GDP.json": {
+                        "descripcion": "Claims on Nonfinancial Private Sector (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FDSAOP_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "FMB_PCH.json": {
+                        "descripcion": "Broad Money Growth (Annual percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FMB_PCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BX_GDP.json": {
+                        "descripcion": "Exports of Goods and Services (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BX_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BCA_GDP.json": {
+                        "descripcion": "External Current Account, Incl.Grants (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BCA_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BM_GDP.json": {
+                        "descripcion": "Imports of Goods and Services (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BM_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BT_GDP.json": {
+                        "descripcion": "Trade Balance (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BT_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BFD_GDP.json": {
+                        "descripcion": "Net Foreign Direct Investment (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BFD_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "BRASS_MI.json": {
+                        "descripcion": "Reserves (Months of Imports) (Months of imports of goods and services)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/BRASS_MI",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "EREER.json": {
+                        "descripcion": "Real Effective Exchange Rates (2010=100) (Annual Average Index, 2010 = 100)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/EREER",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "ENEER.json": {
+                        "descripcion": "Nominal Effective Exchange Rates (2010=100) (Annual Average Index, 2010 = 100)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/ENEER",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "DG_GDP.json": {
+                        "descripcion": "External Debt, Official Debt, Debtor Based (% of GDP) (Percent of GDP)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DG_GDP",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PCPI_PCH.json": {
+                        "descripcion": "Consumer Prices, Average (Annual % Change) (Annual average percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PCPI_PCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "PCPIE_PCH.json": {
+                        "descripcion": "Consumer Prices, End of Period (Annual % Change) (Annual average percent change)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/PCPIE_PCH",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "TTT.json": {
+                        "descripcion": "Terms of Trade (Index, 2010 = 100) (Index, 2010 = 100)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/TTT",
+                        "fecha_actualizacion": "2026-04-15",
+                        "fecha_ultimo_dato": "2026-04-15",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "FR_FC": {
+                "SERIES": {
+                    "FR_ind.json": {
+                        "descripcion": "Fiscal Rule Indicator (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FR_ind",
+                        "fecha_actualizacion": "2025-09-24",
+                        "fecha_ultimo_dato": "2025-09-24",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "FC_dummy.json": {
+                        "descripcion": "Fiscal Council Indicator (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/FC_dummy",
+                        "fecha_actualizacion": "2025-09-24",
+                        "fecha_ultimo_dato": "2025-09-24",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            },
+            "AIPI": {
+                "SERIES": {
+                    "AI_PI.json": {
+                        "descripcion": "AI Preparedness Index (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/AI_PI",
+                        "fecha_actualizacion": "2024-06-04",
+                        "fecha_ultimo_dato": "2024-06-04",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "DI.json": {
+                        "descripcion": "Digital Infrastructure (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/DI",
+                        "fecha_actualizacion": "2024-06-04",
+                        "fecha_ultimo_dato": "2024-06-04",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "IEI.json": {
+                        "descripcion": "Innovation and Economic Integration (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/IEI",
+                        "fecha_actualizacion": "2024-06-04",
+                        "fecha_ultimo_dato": "2024-06-04",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "HCLMP.json": {
+                        "descripcion": "Human Capital and Labor Market Policies (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/HCLMP",
+                        "fecha_actualizacion": "2024-06-11",
+                        "fecha_ultimo_dato": "2024-06-11",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    },
+                    "RE.json": {
+                        "descripcion": "Human Capital and Labor Market Policies (Index)",
+                        "url_descarga": "https://www.imf.org/external/datamapper/api/v1/RE",
+                        "fecha_actualizacion": "2024-06-11",
+                        "fecha_ultimo_dato": "2024-06-11",
+                        "tipo_archivo": "json",
+                        "id_fuente": "fmi",
+                        "url_origen": "https://www.imf.org/external/datamapper/datasets",
+                        "entidad_emisora": "FMI",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "indicadores",
+                            "internacional",
+                            "macroeconomia"
+                        ]
+                    }
+                }
+            }
+        }
+    }
 }

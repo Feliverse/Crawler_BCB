@@ -3,6 +3,21 @@
         "MEMORIA-INTITUCIONAL": {
             "DOCUMENTOS": {
                 "ARCHIVOS": {
+                    "MI-EMV-2024-1.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-EMV-2024-1.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 4521740
+                    },
                     "MI-FOFIM-2024.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-FOFIM-2024.pdf",
@@ -230,6 +245,38 @@
                         ],
                         "tamanio_bytes": 393193
                     },
+                    "Reporte-EjePresup_CatProg_0825.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Reporte-EjePresup_CatProg_0825.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 12091
+                    },
+                    "Informe-Ejecucion-Presupuestaria_072025.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Informe-Ejecucion-Presupuestaria_072025.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 3779218
+                    },
                     "EEPG.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/EEPG.pdf",
@@ -277,38 +324,6 @@
                             "mineria"
                         ],
                         "tamanio_bytes": 187980
-                    },
-                    "Presup-Institucional-MMM2025.pdf": {
-                        "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Presup-Institucional-MMM2025.pdf",
-                        "fecha_actualizacion": "2026-01-01",
-                        "fecha_ultimo_dato": "2026-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "mmym",
-                        "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales",
-                        "entidad_emisora": "MMYM",
-                        "periodicidad": null,
-                        "tags": [
-                            "fiscal",
-                            "mineria"
-                        ],
-                        "tamanio_bytes": 197732
-                    },
-                    "PresupInstitucional_FteFin_76.pdf": {
-                        "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/PresupInstitucional_FteFin_76.pdf",
-                        "fecha_actualizacion": "2026-01-01",
-                        "fecha_ultimo_dato": "2026-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "mmym",
-                        "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales",
-                        "entidad_emisora": "MMYM",
-                        "periodicidad": null,
-                        "tags": [
-                            "fiscal",
-                            "mineria"
-                        ],
-                        "tamanio_bytes": 11624
                     }
                 }
             }
@@ -316,6 +331,51 @@
         "INFORMACION-SOBRE-LAS-AREAS-O-PROCESOS-QUE-SERAN-AUDITADOS-DURANTE-EL-ANO": {
             "DOCUMENTOS": {
                 "ARCHIVOS": {
+                    "INF-MMM-UAI-AU-N°003_2026.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/INF-MMM-UAI-AU-N%C2%B0003_2026.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 319153
+                    },
+                    "inf-mmm-uai-au-n004-2026.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/inf-mmm-uai-au-n004-2026.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 353782
+                    },
+                    "INF_MMM_UAI_-N°005_2026.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-N%C2%B0005_2026.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 205856
+                    },
                     "INF_MMM_UAI_-RELV-N°001_2026.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-RELV-N%C2%B0001_2026.pdf",
@@ -406,9 +466,9 @@
                         ],
                         "tamanio_bytes": 268348
                     },
-                    "INF-MMM-UAI-AU-N°003_2026.pdf": {
+                    "RE-002-2025.pdf": {
                         "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/INF-MMM-UAI-AU-N%C2%B0003_2026.pdf",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-002-2025.pdf",
                         "fecha_actualizacion": "2026-01-01",
                         "fecha_ultimo_dato": "2026-01-01",
                         "tipo_archivo": "pdf",
@@ -419,72 +479,12 @@
                         "tags": [
                             "mineria"
                         ],
-                        "tamanio_bytes": 319153
-                    },
-                    "inf-mmm-uai-au-n004-2026.pdf": {
-                        "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/inf-mmm-uai-au-n004-2026.pdf",
-                        "fecha_actualizacion": "2026-01-01",
-                        "fecha_ultimo_dato": "2026-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "mmym",
-                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano",
-                        "entidad_emisora": "MMYM",
-                        "periodicidad": null,
-                        "tags": [
-                            "mineria"
-                        ],
-                        "tamanio_bytes": 353782
-                    },
-                    "INF_MMM_UAI_-N°005_2026.pdf": {
-                        "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-N%C2%B0005_2026.pdf",
-                        "fecha_actualizacion": "2026-01-01",
-                        "fecha_ultimo_dato": "2026-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "mmym",
-                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano",
-                        "entidad_emisora": "MMYM",
-                        "periodicidad": null,
-                        "tags": [
-                            "mineria"
-                        ],
-                        "tamanio_bytes": 205856
-                    },
-                    "RE-004-2025.pdf": {
-                        "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-004-2025.pdf",
-                        "fecha_actualizacion": "2026-01-01",
-                        "fecha_ultimo_dato": "2026-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "mmym",
-                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano",
-                        "entidad_emisora": "MMYM",
-                        "periodicidad": null,
-                        "tags": [
-                            "mineria"
-                        ],
-                        "tamanio_bytes": 751721
+                        "tamanio_bytes": 408711
                     }
                 }
             },
             "page": {
                 "2": {
-                    "RE-003-2025.pdf": {
-                        "descripcion": "Descargar archivo",
-                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-003-2025.pdf",
-                        "fecha_actualizacion": "2026-01-01",
-                        "fecha_ultimo_dato": "2026-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "mmym",
-                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/page/2",
-                        "entidad_emisora": "MMYM",
-                        "periodicidad": null,
-                        "tags": [
-                            "mineria"
-                        ],
-                        "tamanio_bytes": 707320
-                    },
                     "RE-001-2025-seg.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-001-2025-seg.pdf",
@@ -499,6 +499,21 @@
                             "mineria"
                         ],
                         "tamanio_bytes": 619418
+                    },
+                    "RE-006-2025.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-006-2025.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/page/2",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 360694
                     },
                     "RE-003-2025-seg.pdf": {
                         "descripcion": "Descargar archivo",
@@ -559,6 +574,21 @@
                             "mineria"
                         ],
                         "tamanio_bytes": 670625
+                    },
+                    "RE-003-2025.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-003-2025.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/page/2",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 707320
                     }
                 }
             }
@@ -1257,6 +1287,22 @@
                         ],
                         "tamanio_bytes": 60708228
                     },
+                    "Anuario-2024.pdf": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-2024.pdf",
+                        "fecha_actualizacion": "2025-02-03",
+                        "fecha_ultimo_dato": "2025-02-03",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "financiero",
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 4726372
+                    },
                     "Anuario-Estadistico-2023.pdf": {
                         "descripcion": "Descargar",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-Estadistico-2023.pdf",
@@ -1288,6 +1334,22 @@
                             "mineria"
                         ],
                         "tamanio_bytes": 4564877
+                    },
+                    "Anuario_2021.pdf": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario_2021.pdf",
+                        "fecha_actualizacion": "2022-03-01",
+                        "fecha_ultimo_dato": "2022-03-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "financiero",
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 4844835
                     }
                 }
             },
@@ -1405,6 +1467,22 @@
                         ],
                         "tamanio_bytes": 8520961
                     },
+                    "Boletin-3T-2023.pdf": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-3T-2023.pdf",
+                        "fecha_actualizacion": "2023-11-30",
+                        "fecha_ultimo_dato": "2023-11-30",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 8080830
+                    },
                     "Boletin-1T-2023.pdf": {
                         "descripcion": "Descargar",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1T-2023.pdf",
@@ -1451,6 +1529,21 @@
                             "mineria"
                         ],
                         "tamanio_bytes": 8625341
+                    },
+                    "Boletin_1T-2022.pdf": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2022.pdf",
+                        "fecha_actualizacion": "2022-04-29",
+                        "fecha_ultimo_dato": "2022-04-29",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria"
+                        ],
+                        "tamanio_bytes": 11743284
                     },
                     "Boletin_1S-2022.pdf": {
                         "descripcion": "Descargar",
@@ -1632,6 +1725,22 @@
                         ],
                         "tamanio_bytes": 55151
                     },
+                    "DECRETO-SUPREMO1801.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/DECRETO-SUPREMO1801.pdf",
+                        "fecha_actualizacion": "2026-01-01",
+                        "fecha_ultimo_dato": "2026-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria",
+                            "normativa"
+                        ],
+                        "tamanio_bytes": 83869
+                    },
                     "LEY-367.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-367.pdf",
@@ -1713,11 +1822,47 @@
                         "tamanio_bytes": 192118
                     }
                 }
+            },
+            "page": {
+                "2": {
+                    "LEY-3760-RATIFICA-LA-DECLARACION-DE-LAS-NACIONES-UNIDAS-SOBRE-LOS-DERECHOS-DE-LOS-PUEBLOS-INDIGENAS.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-3760-RATIFICA-LA-DECLARACION-DE-LAS-NACIONES-UNIDAS-SOBRE-LOS-DERECHOS-DE-LOS-PUEBLOS-INDIGENAS.pdf",
+                        "fecha_actualizacion": "2007-11-07",
+                        "fecha_ultimo_dato": "2007-11-07",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/page/2",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria",
+                            "normativa"
+                        ],
+                        "tamanio_bytes": 139728
+                    }
+                }
             }
         },
         "NORMATIVA-INTERNA": {
             "DOCUMENTOS": {
                 "ARCHIVOS": {
+                    "RE-SP-2026-1.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/RE-SP-2026-1.pdf",
+                        "fecha_actualizacion": "2026-07-10",
+                        "fecha_ultimo_dato": "2026-07-10",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria",
+                            "normativa"
+                        ],
+                        "tamanio_bytes": 4474330
+                    },
                     "RESOLUCION-MINISTERIAL-N°092_2026-RE-STE.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/RESOLUCION-MINISTERIAL-N%C2%B0092_2026-RE-STE.pdf",
@@ -1946,6 +2091,22 @@
                         ],
                         "tamanio_bytes": 3216118
                     },
+                    "RM-326-2025_1.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RM-326-2025_1.pdf",
+                        "fecha_actualizacion": "2025-12-29",
+                        "fecha_ultimo_dato": "2025-12-29",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/page/2",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria",
+                            "normativa"
+                        ],
+                        "tamanio_bytes": 1199365
+                    },
                     "RM-325-2025_1.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RM-325-2025_1.pdf",
@@ -2012,6 +2173,38 @@
                     }
                 },
                 "3": {
+                    "RM-321-2025_1.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RM-321-2025_1.pdf",
+                        "fecha_actualizacion": "2025-12-22",
+                        "fecha_ultimo_dato": "2025-12-22",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/page/3",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria",
+                            "normativa"
+                        ],
+                        "tamanio_bytes": 2139618
+                    },
+                    "RM-320-2025_1.pdf": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RM-320-2025_1.pdf",
+                        "fecha_actualizacion": "2025-12-22",
+                        "fecha_ultimo_dato": "2025-12-22",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "mmym",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/page/3",
+                        "entidad_emisora": "MMYM",
+                        "periodicidad": null,
+                        "tags": [
+                            "mineria",
+                            "normativa"
+                        ],
+                        "tamanio_bytes": 985564
+                    },
                     "RM-319-2025_1.pdf": {
                         "descripcion": "Descargar archivo",
                         "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RM-319-2025_1.pdf",

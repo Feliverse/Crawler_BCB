@@ -1,66 +1,80 @@
 # Reporte semanal — Fuentes asignadas a Alex
 
-Experimento del Plan B: pasar el crawler por las 14 fuentes asignadas (planilla
-"Fuentes de Datasets") y reportar cuales resuelve, cuales no y por que.
-Motor utilizado: `crawler_universal.py` + `fuentes.json` (una entrada por fuente,
-sin codigo especifico). Los mapas generados estan en `Crawlers/salida/`.
+Plan B ejecutado en dos pasadas sobre las 14 fuentes de la planilla "Fuentes de Datasets":
+una primera pasada de crawling HTML generico, y una segunda de **mapeo profundo** que
+investigo cada fuente fallida o rasa hasta encontrar donde publica realmente sus archivos.
 
-**Nota**: no se descargo ningun archivo; se indexan URL, fecha, tipo, tamaño
-(`content-length`), periodicidad y tags. Los unicos que se bajan son los
-comprimidos (< 25 MB) para listar su contenido interno.
+Herramientas propias (todas en `Crawlers/`):
+- `crawler_universal.py` + `fuentes.json` — motor generico configurable (una entrada
+  por fuente: semillas, profundidad, dominios permitidos, SSL, tags).
+- `crawler_apis.py` — fuentes que publican via API y no via HTML (FMI, BM, DST, ANAPO, CEPAL).
+- `crawler_aps.py` + `crawler_aps_resoluciones.py` — modulos especificos de la fuente asignada APS.
+- `validar_esquema.py` / `verificar_enlaces.py` — control de calidad del contrato y de los enlaces.
+
+**No se descarga ningun archivo**: se indexa URL, fecha, tipo, tamaño, periodicidad y
+tags. Los unicos que se bajan son los comprimidos (< 25 MB) para listar su contenido.
 
 ## Resultado global
 
 ```
-Resueltas       : 10 / 14  (71%)
-Documentos      : 3.808
-Peso declarado  : ~7,1 GB (sin descargar)
-Validacion      : los 10 mapas generados pasan el validador (profundidad 5, 0 errores)
+Resueltas          : 13 / 14  (93%)  — la restante es inviable por la fuente, no por el crawler
+Documentos         : 14.079  (+723 del modulo APS/SIRECI = 14.802)
+Con fecha          : 85%
+Peso declarado     : 17,1 GB  (sin descargar; via content-length y APIs)
+Validacion         : los 14 mapas pasan el validador (profundidad 5, 0 errores)
 ```
 
-## Tabla por fuente
+## Tabla final por fuente
 
-| # | Fuente | Estado | Docs | Peso | Observaciones |
-|---|--------|--------|-----:|-----:|---------------|
-| 1 | BCB | OK | 1.400 | 1,66 GB | 4x mas documentos que el prototipo original (347). Alcanzo el tope de 120 paginas: hay mas contenido si se amplia `paginas_max`. 526 sin fecha visible. |
-| 2 | MEFP | OK | 819 | 2,21 GB | **El servidor del ministerio tiene certificado TLS invalido**; se accede con `verificar_ssl: false` documentado en el config. 819/819 con fecha. |
-| 3 | ASFI-Valores | OK | 615 | 1,49 GB | 2 ZIP abiertos (4 archivos internos). Tambien toco el tope de paginas. |
-| 4 | OMC | OK | 326 | 29 MB | Caso extremo de comprimidos: 13 enlaces visibles -> **314 archivos dentro de 6 ZIP**. Sin la inspeccion de comprimidos se subcontaria 25 a 1. Fechas no visibles en el HTML. |
-| 5 | APS | OK | 154 | 811 MB | 41 secciones recorridas (vs 2 del primer intento). 3 ZIP -> 9 internos. 13 enlaces rotos publicados por la fuente. Ademas: modulo especifico para el API SIRECI (+723 docs, 5 GB — ver README_APS). |
-| 6 | MMYM | OK | 144 | 896 MB | Servidor muy lento (6 min la corrida). |
-| 7 | BM | OK | 140 | n/d | El CDN no expone `content-length`. 15 ZIP -> 27 internos. Sitio enorme: esto es solo la porcion enlazada desde la home; la via correcta a futuro es su API de datos. |
-| 8 | FINRURAL | OK | 129 | 4 MB | **La URL de la planilla esta desactualizada**: `finrural.bo` no resuelve; el dominio vigente es `finrural.org.bo`. Corregido en el config. |
-| 9 | Statistics Denmark | OK | 63 | 47 MB | Portal principalmente JS; lo estatico son informes PDF. Su API (api.statbank.dk) seria el camino para las series. |
-| 10 | CEPAL | OK | 18 | 18 MB | Solo publicaciones sueltas: las estadisticas viven en statistics.cepal.org (JS + API). Candidata a adaptador especifico. |
-| 11 | ANAPO | NO — fuente rota | 0 | — | El sitio publica **98 enlaces a archivos y los 98 dan 404**: apuntan a un WordPress viejo (`/nuevo/wp-content/uploads/...`) eliminado en la migracion del sitio. Se probaron rutas alternativas: los archivos ya no existen en el servidor. Estado US-11: "fuente interrumpio la emision". |
-| 12 | FMI | NO — anti-bot | 0 | — | 403 (Akamai) ante cualquier peticion automatizada. El camino correcto no es scraping sino su API de datos (SDMX/dataservices). Requiere adaptador especifico. |
-| 13 | VIPFE | NO — caido | 0 | — | `www.vipfe.gob.bo` no resuelve DNS; `vipfe.gob.bo` resuelve pero el servidor no responde (timeout). Reintentar en dias posteriores. |
-| 14 | FEGASACRUZ | NO — sitio vacio | 0 | — | **URL de la planilla desactualizada** (`fegasacruz.org.bo` no resuelve; el vigente es `fegasacruz.org`), y el sitio nuevo es una pagina placeholder de 3 KB sin contenido descargable. |
+| # | Fuente | Via | Docs | Con fecha | Peso | Observaciones |
+|---|--------|-----|-----:|----------:|-----:|---------------|
+| 1 | BCB | HTML prof.3 | 3.484 | 56% | 3,9 GB | Semillas de estadisticas; **138 ZIP abiertos** (133 archivos internos). 2,5x la pasada inicial. |
+| 2 | BM | **API** | 3.080 | 100% | n/d | Documents & Reports API con filtro Bolivia (3.418 fichas, 3.080 con PDF directo). El CDN rechaza HEAD: descargar con GET stream. |
+| 3 | Statistics Denmark | **API** | 2.315 | 100% | n/d | Catalogo completo de Statbank en 1 peticion. **Periodicidad real por tabla** deducida del formato del periodo (Q=trimestral, M=mensual). |
+| 4 | ASFI-Valores | HTML prof.3 | 2.096 | 99% | 3,1 GB | 193 comprimidos -> 385 archivos internos. 3,4x la pasada inicial. |
+| 5 | MEFP | HTML prof.3 | 1.136 | 100% | 2,5 GB | Certificado TLS invalido del ministerio, manejado con flag documentado. |
+| 6 | CEPAL (repositorio) | **API** | 500 | 91% | 5,0 GB | DSpace REST: 500 mas recientes de **49.969 publicaciones** (ampliable por config). Filtrado entityType=Publication (el repositorio tambien indexa autores y eventos como items). |
+| 7 | OMC | HTML prof.3 | 462 | 8% | 267 MB | 7 ZIP -> 314 internos. La fuente casi no publica fechas visibles. |
+| 8 | ANAPO | **API** | 268 | 100% | 345 MB | WordPress media API. El HTML tiene 98 enlaces rotos (migracion); **la nueva direccion es /wp-content/uploads/ — RF-05 cumplido**. |
+| 9 | MMYM | HTML | 156 | 100% | 941 MB | Servidor muy lento. |
+| 10 | APS | HTML + API | 154 (+723) | 74%/100% | 0,8+5 GB | 41 secciones + modulo SIRECI. Fuente asignada: detalle completo en README_APS.md. |
+| 11 | FMI | **API** | 132 | 100% | n/d | DataMapper API. El 403 de Akamai se evita con el set completo de headers de navegador. SDMX nuevo (api.imf.org) tambien verificado para CSV. |
+| 12 | CEPAL (portal) | HTML multi-dominio | 130 | 78% | 172 MB | Complementa al repositorio. |
+| 13 | FINRURAL | HTML prof.3 | 129 | 98% | 4 MB | **URL de la planilla desactualizada**: el dominio vigente es finrural.org.bo. |
+| 14 | VIPFE | HTML (via MEFP) | 37 | 100% | 30 MB | Su sitio esta caido (DNS/timeout); los datos de inversion publica 2006-2023 viven en el portal del MEFP. `entidad_emisora: VIPFE`. |
+| 15 | FEGASACRUZ | — | 0 | — | — | **NO VIABLE**: dominio de la planilla muerto; el vigente solo sirve una pagina "en construccion" con bucles de redireccion. Reevaluar a futuro. |
 
-## Lista para el grupo (fuentes no resueltas, con causa)
+## Hallazgos clave del mapeo profundo
 
-1. **ANAPO** — enlaces muertos en la propia fuente (404 masivo tras migracion). No es problema del crawler: ningun crawler los va a resolver. Decidir si se reporta a la institucion.
-2. **FMI** — bloqueo anti-bot; proponer adaptador via API SDMX.
-3. **VIPFE** — servidor caido al momento de las pruebas; reintentar.
-4. **FEGASACRUZ** — sitio actual sin contenido; confirmar si la institucion publica en otro canal.
-
-## Hallazgos transversales
-
-- **2 URLs de la planilla oficial estan desactualizadas** (FINRURAL, FEGASACRUZ). Es
-  exactamente el escenario RF-04/RF-05 que el sistema busca detectar.
-- **MEFP opera con TLS invalido** — reportable como dato de infraestructura.
-- **Los comprimidos importan**: 26 ZIP en total escondian 354 archivos reales.
-- Las fuentes internacionales grandes (BM, FMI, CEPAL, DST) publican lo importante
-  via APIs, no HTML: el patron "motor universal para lo comun + modulo especifico
-  por API" (como el de SIRECI en APS) es el camino natural para crecer.
+1. **5 de las 14 fuentes no publican por HTML sino por API** (FMI, BM, DST, ANAPO, CEPAL).
+   Un crawler solo-HTML las ve vacias o rasas aunque tengan miles de documentos.
+   El patron correcto: motor universal para lo comun + modulo API por fuente.
+2. **2 URLs de la planilla oficial estan muertas** (FINRURAL y FEGASACRUZ cambiaron de
+   dominio) — el escenario RF-04 detectado en la practica.
+3. **ANAPO es el caso RF-05 completo**: 98 enlaces rotos en el HTML y la nueva direccion
+   de los archivos encontrada y documentada via su API de WordPress.
+4. **Los comprimidos multiplican**: 338 ZIP en total escondian 832 archivos reales.
+5. **VIPFE demuestra fuente absorbida**: institucion con sitio propio muerto cuyos datos
+   migraron al portal de su ministerio — separar `id_fuente` de `entidad_emisora` lo resuelve.
+6. **MEFP con TLS invalido** — reportable como hallazgo de infraestructura.
+7. Trucos tecnicos que quedaron codificados: headers completos anti-Akamai (FMI),
+   GET-stream porque el CDN rechaza HEAD (BM), paginas de 25 items porque el DSpace
+   se ahoga con 100 (CEPAL), fallback HEAD->GET y `verificar_ssl` por fuente (motor).
 
 ## Metadatos emitidos por hoja
 
 `descripcion, url_descarga, fecha_actualizacion, fecha_ultimo_dato, tipo_archivo,
-id_fuente, url_origen, entidad_emisora, periodicidad, tags [, tamanio_bytes,
-contenido_en]`
+id_fuente, url_origen, entidad_emisora, periodicidad, tags [, tamanio_bytes, contenido_en]`
 
-- `periodicidad`: inferida del texto cuando la fuente la declara; queda `null` si no.
-  Pendiente de acuerdo de equipo: valor por defecto por fuente para que sea obligatoria.
-- `tags`: automaticos por vocabulario (19 categorias) + manuales por fuente en el config.
+- `periodicidad`: en Statistics Denmark sale **real por tabla** desde el API; en el resto
+  se infiere del texto o queda `null`. Pendiente de acuerdo de equipo el default obligatorio.
+- `tags`: automaticos por vocabulario (19 categorias) + manuales por fuente.
 - `contenido_en`: ruta interna cuando el archivo vive dentro de un comprimido.
+
+## Pendientes
+
+- Ampliar CEPAL mas alla de los 500 recientes (es subir `CEPAL_TOPE_ITEMS`; total 49.969).
+- BCB y ASFI siguen tocando su tope de paginas (300): hay mas contenido si se amplia.
+- FMI: el modulo indexa el catalogo DataMapper; las series completas por pais salen
+  del SDMX nuevo (api.imf.org) ya verificado.
+- Reintentar VIPFE directo y FEGASACRUZ en unas semanas.

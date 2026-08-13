@@ -1,3 +1,603 @@
 {
-    "VIPFE": {}
+    "VIPFE": {
+        "INVERSION-PUBLICA": {
+            "DOCUMENTOS": {
+                "ARCHIVOS": {
+                    "Manual_1986.rar": {
+                        "descripcion": "Manual de Estadísticas de las Finanzas Públicas 1986",
+                        "url_descarga": "https://economiayfinanzas.gob.bo/sites/default/files/2023-09/Manual%201986.rar",
+                        "fecha_actualizacion": "1986-01-01",
+                        "fecha_ultimo_dato": "1986-01-01",
+                        "tipo_archivo": "rar",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 27444022
+                    },
+                    "ip_2023.pdf": {
+                        "descripcion": "(54.4 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2023.pdf",
+                        "fecha_actualizacion": "2023-12-31",
+                        "fecha_ultimo_dato": "2023-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 55701
+                    },
+                    "ip_2023.xlsx": {
+                        "descripcion": "(13.22 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2023.xlsx",
+                        "fecha_actualizacion": "2023-12-31",
+                        "fecha_ultimo_dato": "2023-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 13539
+                    },
+                    "ip_2022.pdf": {
+                        "descripcion": "(56.11 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2022.pdf",
+                        "fecha_actualizacion": "2022-12-31",
+                        "fecha_ultimo_dato": "2022-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57453
+                    },
+                    "ip_2022.xlsx": {
+                        "descripcion": "(13.24 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2022.xlsx",
+                        "fecha_actualizacion": "2022-12-31",
+                        "fecha_ultimo_dato": "2022-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 13561
+                    },
+                    "ip_2021.pdf": {
+                        "descripcion": "(56.1 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2021.pdf",
+                        "fecha_actualizacion": "2021-12-31",
+                        "fecha_ultimo_dato": "2021-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57447
+                    },
+                    "ip_2021.xlsx": {
+                        "descripcion": "(13.18 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2021.xlsx",
+                        "fecha_actualizacion": "2021-12-31",
+                        "fecha_ultimo_dato": "2021-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 13494
+                    },
+                    "ip_2020.pdf": {
+                        "descripcion": "(56.04 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2020.pdf",
+                        "fecha_actualizacion": "2020-12-31",
+                        "fecha_ultimo_dato": "2020-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57389
+                    },
+                    "ip_2020.xlsx": {
+                        "descripcion": "(13.25 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2025-02/ip_2020.xlsx",
+                        "fecha_actualizacion": "2020-12-31",
+                        "fecha_ultimo_dato": "2020-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 13565
+                    },
+                    "ip_2019.pdf": {
+                        "descripcion": "(55.84 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2019.pdf",
+                        "fecha_actualizacion": "2019-12-31",
+                        "fecha_ultimo_dato": "2019-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57184
+                    },
+                    "ip_2019.xlsx": {
+                        "descripcion": "(167.25 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2019.xlsx",
+                        "fecha_actualizacion": "2019-12-31",
+                        "fecha_ultimo_dato": "2019-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171259
+                    },
+                    "ip_2018.pdf": {
+                        "descripcion": "(55.87 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2018.pdf",
+                        "fecha_actualizacion": "2018-12-31",
+                        "fecha_ultimo_dato": "2018-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57208
+                    },
+                    "ip_2018.xlsx": {
+                        "descripcion": "(166.98 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2018.xlsx",
+                        "fecha_actualizacion": "2018-12-31",
+                        "fecha_ultimo_dato": "2018-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 170992
+                    },
+                    "ip_2017.pdf": {
+                        "descripcion": "(55.87 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2017.pdf",
+                        "fecha_actualizacion": "2017-12-31",
+                        "fecha_ultimo_dato": "2017-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57208
+                    },
+                    "ip_2017.xlsx": {
+                        "descripcion": "(167.03 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2017.xlsx",
+                        "fecha_actualizacion": "2017-12-31",
+                        "fecha_ultimo_dato": "2017-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171036
+                    },
+                    "ip_2016.pdf": {
+                        "descripcion": "(55.72 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2016.pdf",
+                        "fecha_actualizacion": "2016-12-31",
+                        "fecha_ultimo_dato": "2016-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57057
+                    },
+                    "ip_2016.xlsx": {
+                        "descripcion": "(166.99 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2016.xlsx",
+                        "fecha_actualizacion": "2016-12-31",
+                        "fecha_ultimo_dato": "2016-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 170994
+                    },
+                    "ip_2015.pdf": {
+                        "descripcion": "(55.77 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2015.pdf",
+                        "fecha_actualizacion": "2015-12-31",
+                        "fecha_ultimo_dato": "2015-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57112
+                    },
+                    "ip_2015.xlsx": {
+                        "descripcion": "(167.08 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2015.xlsx",
+                        "fecha_actualizacion": "2015-12-31",
+                        "fecha_ultimo_dato": "2015-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171093
+                    },
+                    "ip_2014.pdf": {
+                        "descripcion": "(55.78 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2014.pdf",
+                        "fecha_actualizacion": "2014-12-31",
+                        "fecha_ultimo_dato": "2014-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57116
+                    },
+                    "ip_2014.xlsx": {
+                        "descripcion": "(167.09 KB)",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2014.xlsx",
+                        "fecha_actualizacion": "2014-12-31",
+                        "fecha_ultimo_dato": "2014-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171102
+                    },
+                    "ip_2013.pdf": {
+                        "descripcion": "(55.79 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2013.pdf",
+                        "fecha_actualizacion": "2013-12-31",
+                        "fecha_ultimo_dato": "2013-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57125
+                    },
+                    "ip_2013.xlsx": {
+                        "descripcion": "(167.09 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2013.xlsx",
+                        "fecha_actualizacion": "2013-12-31",
+                        "fecha_ultimo_dato": "2013-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171097
+                    },
+                    "ip_2012.pdf": {
+                        "descripcion": "(55.72 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2012.pdf",
+                        "fecha_actualizacion": "2012-12-31",
+                        "fecha_ultimo_dato": "2012-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57056
+                    },
+                    "ip_2012.xlsx": {
+                        "descripcion": "(167.06 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2012.xlsx",
+                        "fecha_actualizacion": "2012-12-31",
+                        "fecha_ultimo_dato": "2012-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171066
+                    },
+                    "ip_2011.pdf": {
+                        "descripcion": "(55.74 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2011.pdf",
+                        "fecha_actualizacion": "2011-12-31",
+                        "fecha_ultimo_dato": "2011-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 57075
+                    },
+                    "ip_2011.xlsx": {
+                        "descripcion": "(166.91 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2011.xlsx",
+                        "fecha_actualizacion": "2011-12-31",
+                        "fecha_ultimo_dato": "2011-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 170913
+                    },
+                    "ip_2010.pdf": {
+                        "descripcion": "(55.48 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2010.pdf",
+                        "fecha_actualizacion": "2010-12-31",
+                        "fecha_ultimo_dato": "2010-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 56816
+                    },
+                    "ip_2010.xlsx": {
+                        "descripcion": "(167.07 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2010.xlsx",
+                        "fecha_actualizacion": "2010-12-31",
+                        "fecha_ultimo_dato": "2010-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171080
+                    },
+                    "ip_2009.pdf": {
+                        "descripcion": "(55.58 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2009.pdf",
+                        "fecha_actualizacion": "2009-12-31",
+                        "fecha_ultimo_dato": "2009-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 56915
+                    },
+                    "ip_2009.xlsx": {
+                        "descripcion": "(167.05 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2009.xlsx",
+                        "fecha_actualizacion": "2009-12-31",
+                        "fecha_ultimo_dato": "2009-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171056
+                    },
+                    "ip_2008.pdf": {
+                        "descripcion": "(55.55 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2008.pdf",
+                        "fecha_actualizacion": "2008-12-31",
+                        "fecha_ultimo_dato": "2008-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 56888
+                    },
+                    "ip_2008.xlsx": {
+                        "descripcion": "(167.03 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2008.xlsx",
+                        "fecha_actualizacion": "2008-12-31",
+                        "fecha_ultimo_dato": "2008-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171035
+                    },
+                    "ip_2007.pdf": {
+                        "descripcion": "(55.38 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2007.pdf",
+                        "fecha_actualizacion": "2007-12-31",
+                        "fecha_ultimo_dato": "2007-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 56713
+                    },
+                    "ip_2007.xlsx": {
+                        "descripcion": "(167 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2007.xlsx",
+                        "fecha_actualizacion": "2007-12-31",
+                        "fecha_ultimo_dato": "2007-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171003
+                    },
+                    "ip_2006.pdf": {
+                        "descripcion": "(55.21 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2006.pdf",
+                        "fecha_actualizacion": "2006-12-31",
+                        "fecha_ultimo_dato": "2006-12-31",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 56534
+                    },
+                    "ip_2006.xlsx": {
+                        "descripcion": "(167.08 KB)",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2022-11/ip_2006.xlsx",
+                        "fecha_actualizacion": "2006-12-31",
+                        "fecha_ultimo_dato": "2006-12-31",
+                        "tipo_archivo": "xlsx",
+                        "id_fuente": "vipfe",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/inversion-publica?title=&field_fecha_value=&page=1",
+                        "entidad_emisora": "VIPFE",
+                        "periodicidad": null,
+                        "tags": [
+                            "fiscal",
+                            "inversion-publica"
+                        ],
+                        "tamanio_bytes": 171088
+                    }
+                }
+            }
+        }
+    }
 }
