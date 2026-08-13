@@ -51,8 +51,8 @@ class NavigationResult:
     files: list[DiscoveredFile] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
 
-    # Indica si la ejecución terminó debido a un límite operacional.
-    # Valores posibles actualmente:
+    # Motivo por el cual terminó anticipadamente la navegación.
+    # Valores posibles:
     # - None
     # - "max_pages"
     # - "max_files"
@@ -77,14 +77,16 @@ class Navigator:
 
     Responsabilidades:
     - Recorrer páginas HTML mediante BFS.
-    - Respetar dominios permitidos.
-    - Evitar ciclos y duplicados.
+    - Comenzar desde uno o varios entrypoints.
+    - Respetar los dominios permitidos.
+    - Evitar ciclos y URLs duplicadas.
     - Controlar profundidad máxima.
     - Controlar límites de páginas y archivos.
-    - Registrar documentos descubiertos.
-    - Mantener cada ejecución completamente independiente.
+    - Detectar y registrar documentos.
+    - Mantener cada ejecución independiente.
 
-    No contiene reglas específicas de ninguna institución.
+    No contiene reglas específicas de ASFI, AETN, BCB
+    ni de ninguna otra fuente.
     """
 
     def __init__(
@@ -106,7 +108,7 @@ class Navigator:
         Reinicia todo el estado interno de navegación.
 
         Esto permite reutilizar una misma instancia de Navigator
-        en ejecuciones independientes sin arrastrar URLs anteriores.
+        en ejecuciones independientes.
         """
         self._visited_pages.clear()
         self._registered_files.clear()
@@ -179,6 +181,7 @@ class Navigator:
             return None
 
         scheme = parsed.scheme.lower()
+
         hostname = (
             parsed.hostname or ""
         ).lower()
@@ -246,14 +249,18 @@ class Navigator:
         """
         Intenta registrar un archivo.
 
-        Retorna True solamente cuando se agregó un nuevo archivo.
+        Devuelve True únicamente cuando el archivo fue agregado.
         """
 
-        if self._file_limit_reached(result):
+        if self._file_limit_reached(
+            result
+        ):
             result.stop_reason = "max_files"
             return False
 
-        normalized = self.normalize_url(url)
+        normalized = self.normalize_url(
+            url
+        )
 
         if not normalized:
             return False
@@ -284,7 +291,9 @@ class Navigator:
             )
         )
 
-        if self._file_limit_reached(result):
+        if self._file_limit_reached(
+            result
+        ):
             result.stop_reason = "max_files"
 
         return True
@@ -294,6 +303,11 @@ class Navigator:
         html: str,
         current_url: str,
     ) -> list[tuple[str, str]]:
+        """
+        Extrae y normaliza todos los enlaces navegables
+        presentes en una página HTML.
+        """
+
         soup = BeautifulSoup(
             html,
             "html.parser",
@@ -338,6 +352,10 @@ class Navigator:
     def _extract_title(
         html: str,
     ) -> Optional[str]:
+        """
+        Extrae el título HTML de una página.
+        """
+
         soup = BeautifulSoup(
             html,
             "html.parser",
@@ -355,11 +373,14 @@ class Navigator:
 
     def crawl(
         self,
-        start_url: Optional[str] = None,
+        start_urls: Optional[
+            list[str] | tuple[str, ...]
+        ] = None,
     ) -> NavigationResult:
         """
         Recorre una fuente mediante búsqueda en anchura (BFS).
 
+        Puede comenzar desde múltiples entrypoints configurados.
         Cada llamada constituye una ejecución independiente.
         """
 
@@ -367,50 +388,61 @@ class Navigator:
 
         result = NavigationResult()
 
-        initial_url = self.normalize_url(
-            start_url
-            or self.config.base_url
+        raw_entrypoints = (
+            tuple(start_urls)
+            if start_urls is not None
+            else self.config.get_entrypoints()
         )
 
-        if not initial_url:
+        if not raw_entrypoints:
             raise ValueError(
-                "No se pudo normalizar la URL inicial."
+                "No existen puntos de entrada "
+                "para iniciar el crawler."
             )
 
-        if not self._is_allowed_url(
-            initial_url
-        ):
-            raise ValueError(
-                "La URL inicial pertenece a un dominio "
-                f"no permitido: {initial_url}"
+        queue = deque()
+
+        for raw_url in raw_entrypoints:
+            normalized = self.normalize_url(
+                raw_url
             )
 
-        queue = deque(
-            [
+            if not normalized:
+                raise ValueError(
+                    "No se pudo normalizar el "
+                    f"entrypoint: {raw_url}"
+                )
+
+            if not self._is_allowed_url(
+                normalized
+            ):
+                raise ValueError(
+                    "El entrypoint pertenece a un dominio "
+                    f"no permitido: {normalized}"
+                )
+
+            if normalized in self._queued_pages:
+                continue
+
+            queue.append(
                 (
-                    initial_url,
+                    normalized,
                     0,
                     None,
                 )
-            ]
-        )
+            )
 
-        self._queued_pages.add(
-            initial_url
-        )
+            self._queued_pages.add(
+                normalized
+            )
 
         while queue:
-
-            # El límite de archivos tiene prioridad porque puede
-            # alcanzarse mientras se procesan enlaces de una página.
             if self._file_limit_reached(
                 result
             ):
                 result.stop_reason = "max_files"
                 break
 
-            # No realizamos una nueva petición HTML si ya hemos
-            # alcanzado la cantidad máxima configurada.
             if self._page_limit_reached(
                 result
             ):
@@ -431,8 +463,8 @@ class Navigator:
             if depth > self.config.max_depth:
                 continue
 
-            # Una URL con extensión conocida puede identificarse
-            # inicialmente sin descargarla.
+            # Si la URL ya contiene una extensión conocida,
+            # puede ser registrada como candidata a documento.
             direct_detection = (
                 self.file_detector.detect_from_url(
                     current_url
@@ -473,8 +505,8 @@ class Navigator:
                 )
                 continue
 
-            # Un redirect nunca puede escapar de los dominios
-            # permitidos para la fuente.
+            # Los redirects tampoco pueden escapar
+            # de los dominios permitidos.
             if not self._is_allowed_url(
                 final_url
             ):
@@ -485,8 +517,8 @@ class Navigator:
                 )
                 continue
 
-            # Puede ocurrir que una URL sin extensión termine
-            # devolviendo directamente un documento.
+            # Una URL sin extensión puede devolver
+            # directamente un documento.
             response_detection = (
                 self.file_detector.detect(
                     final_url,
@@ -525,8 +557,6 @@ class Navigator:
             }:
                 continue
 
-            # Un redirect puede llevar a una página que ya fue
-            # procesada previamente.
             if final_url in self._visited_pages:
                 continue
 
@@ -547,9 +577,6 @@ class Navigator:
                 )
             )
 
-            # Llegar al límite de páginas no significa ignorar
-            # los documentos presentes en la última página
-            # permitida. La procesamos completamente.
             if depth >= self.config.max_depth:
                 continue
 
@@ -559,7 +586,6 @@ class Navigator:
             )
 
             for link_url, link_text in links:
-
                 if self._file_limit_reached(
                     result
                 ):

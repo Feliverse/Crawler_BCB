@@ -23,23 +23,27 @@ DEFAULT_EXTENSIONS = (
 @dataclass(frozen=True)
 class SourceConfig:
     """
-    Configuración de una fuente externa procesada por el crawler.
+    Configuración declarativa de una fuente externa.
 
-    La configuración define comportamiento y límites operativos.
-    No contiene lógica específica de ninguna institución.
+    El core no debe conocer ASFI, AETN, BCB ni ninguna otra
+    institución. Todas las diferencias configurables deben vivir aquí.
     """
 
     id_fuente: str
     nombre: str
     base_url: str
 
-    allowed_domains: tuple[str, ...] = field(default_factory=tuple)
+    allowed_domains: tuple[str, ...] = field(
+        default_factory=tuple
+    )
+
+    entrypoints: tuple[str, ...] = field(
+        default_factory=tuple
+    )
+
     extensions: tuple[str, ...] = DEFAULT_EXTENSIONS
 
     max_depth: int = 3
-
-    # Límites operativos de seguridad.
-    # None significa que no existe límite por cantidad.
     max_pages: int | None = None
     max_files: int | None = None
 
@@ -61,24 +65,10 @@ class SourceConfig:
                 "nombre no puede estar vacío."
             )
 
-        parsed_url = urlparse(
-            self.base_url
+        self._validate_http_url(
+            self.base_url,
+            "base_url",
         )
-
-        if parsed_url.scheme not in {
-            "http",
-            "https",
-        }:
-            raise ValueError(
-                "base_url debe utilizar http o https: "
-                f"{self.base_url}"
-            )
-
-        if not parsed_url.netloc:
-            raise ValueError(
-                "base_url no contiene un dominio válido: "
-                f"{self.base_url}"
-            )
 
         if self.max_depth < 0:
             raise ValueError(
@@ -90,8 +80,7 @@ class SourceConfig:
             and self.max_pages <= 0
         ):
             raise ValueError(
-                "max_pages debe ser mayor que cero "
-                "cuando está configurado."
+                "max_pages debe ser mayor que cero."
             )
 
         if (
@@ -99,8 +88,7 @@ class SourceConfig:
             and self.max_files <= 0
         ):
             raise ValueError(
-                "max_files debe ser mayor que cero "
-                "cuando está configurado."
+                "max_files debe ser mayor que cero."
             )
 
         if self.delay_seconds < 0:
@@ -118,29 +106,66 @@ class SourceConfig:
                 "Debe existir al menos una extensión permitida."
             )
 
+        for entrypoint in self.entrypoints:
+            self._validate_http_url(
+                entrypoint,
+                "entrypoint",
+            )
+
+            if not self.domain_is_allowed(
+                entrypoint
+            ):
+                raise ValueError(
+                    "El entrypoint pertenece a un dominio "
+                    f"no permitido: {entrypoint}"
+                )
+
+    @staticmethod
+    def _validate_http_url(
+        url: str,
+        field_name: str,
+    ) -> None:
+        parsed = urlparse(url)
+
+        if parsed.scheme not in {
+            "http",
+            "https",
+        }:
+            raise ValueError(
+                f"{field_name} debe utilizar http o https: "
+                f"{url}"
+            )
+
+        if not parsed.netloc:
+            raise ValueError(
+                f"{field_name} no contiene un dominio válido: "
+                f"{url}"
+            )
+
     def domain_is_allowed(
         self,
         url: str,
     ) -> bool:
-        """
-        Indica si una URL pertenece a alguno de los dominios
-        permitidos para esta fuente.
-        """
-
         parsed = urlparse(url)
 
         domain = (
-            parsed.netloc
-            .lower()
-            .split(":")[0]
-        )
+            parsed.hostname or ""
+        ).lower()
 
-        domains = self.allowed_domains or (
-            urlparse(self.base_url)
-            .netloc
-            .lower()
-            .split(":")[0],
-        )
+        if not domain:
+            return False
+
+        if self.allowed_domains:
+            domains = self.allowed_domains
+        else:
+            base_domain = (
+                urlparse(self.base_url).hostname
+                or ""
+            ).lower()
+
+            domains = (
+                base_domain,
+            )
 
         for allowed_domain in domains:
             normalized_allowed = (
@@ -159,11 +184,25 @@ class SourceConfig:
 
         return False
 
+    def get_entrypoints(self) -> tuple[str, ...]:
+        """
+        Devuelve las URLs desde las cuales debe comenzar el crawler.
+
+        Si una fuente no configura entrypoints específicos,
+        se utiliza automáticamente base_url.
+        """
+
+        if self.entrypoints:
+            return self.entrypoints
+
+        return (
+            self.base_url,
+        )
+
 
 def _normalize_extension(
     extension: str,
 ) -> str:
-
     extension = (
         extension
         .strip()
@@ -185,10 +224,6 @@ def _optional_positive_int(
     value: Any,
     field_name: str,
 ) -> int | None:
-    """
-    Convierte un valor configurable en entero positivo opcional.
-    """
-
     if value is None:
         return None
 
@@ -205,10 +240,6 @@ def _optional_positive_int(
 def source_config_from_dict(
     data: dict[str, Any],
 ) -> SourceConfig:
-    """
-    Construye y valida SourceConfig desde un diccionario.
-    """
-
     required_fields = (
         "id_fuente",
         "nombre",
@@ -238,12 +269,23 @@ def source_config_from_dict(
     )
 
     allowed_domains = tuple(
-        str(domain).strip().lower()
+        str(domain)
+        .strip()
+        .lower()
         for domain in data.get(
             "allowed_domains",
             [],
         )
         if str(domain).strip()
+    )
+
+    entrypoints = tuple(
+        str(url).strip()
+        for url in data.get(
+            "entrypoints",
+            [],
+        )
+        if str(url).strip()
     )
 
     return SourceConfig(
@@ -260,6 +302,8 @@ def source_config_from_dict(
         ).strip(),
 
         allowed_domains=allowed_domains,
+
+        entrypoints=entrypoints,
 
         extensions=extensions,
 
@@ -306,16 +350,11 @@ def source_config_from_dict(
 def load_source_config(
     config_path: str | Path,
 ) -> SourceConfig:
-    """
-    Lee una configuración JSON desde disco.
-    """
-
     path = Path(config_path)
 
     if not path.exists():
         raise FileNotFoundError(
-            "No existe el archivo de configuración: "
-            f"{path}"
+            f"No existe el archivo de configuración: {path}"
         )
 
     if not path.is_file():
@@ -341,8 +380,7 @@ def load_source_config(
         dict,
     ):
         raise ValueError(
-            "La configuración raíz debe ser "
-            "un objeto JSON."
+            "La configuración raíz debe ser un objeto JSON."
         )
 
     return source_config_from_dict(

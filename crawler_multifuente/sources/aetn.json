@@ -5,6 +5,11 @@
     "allowed_domains": [
         "aetn.gob.bo"
     ],
+    "entrypoints": [
+        "https://anuariodig.aetn.gob.bo/informacion-estadistica/",
+        "https://aetn.gob.bo/datos-y-estadisticas/",
+        "https://aetn.gob.bo/"
+    ],
     "extensions": [
         ".pdf",
         ".xlsx",
@@ -16,9 +21,9 @@
         ".ods",
         ".txt"
     ],
-    "max_depth": 2,
-    "max_pages": 10,
-    "max_files": 100,
+    "max_depth": 3,
+    "max_pages": 25,
+    "max_files": 300,
     "delay_seconds": 1.2,
     "request_timeout": 20,
     "inspect_zips": true
