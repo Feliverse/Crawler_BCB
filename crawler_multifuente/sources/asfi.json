@@ -17,7 +17,9 @@
         ".ods",
         ".txt"
     ],
-    "max_depth": 3,
+    "max_depth": 2,
+    "max_pages": 10,
+    "max_files": 100,
     "delay_seconds": 1.2,
     "request_timeout": 20,
     "inspect_zips": true

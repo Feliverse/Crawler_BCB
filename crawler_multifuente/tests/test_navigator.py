@@ -8,7 +8,10 @@ from requests import Response
 PROJECT_DIR = Path(__file__).resolve().parents[1]
 
 if str(PROJECT_DIR) not in sys.path:
-    sys.path.insert(0, str(PROJECT_DIR))
+    sys.path.insert(
+        0,
+        str(PROJECT_DIR),
+    )
 
 
 from core.file_detector import FileDetector
@@ -137,7 +140,9 @@ class NavigatorTests(unittest.TestCase):
             }
         }
 
-        client = FakeHttpClient(responses)
+        client = FakeHttpClient(
+            responses
+        )
 
         navigator = Navigator(
             self.config,
@@ -185,7 +190,9 @@ class NavigatorTests(unittest.TestCase):
             },
         }
 
-        client = FakeHttpClient(responses)
+        client = FakeHttpClient(
+            responses
+        )
 
         navigator = Navigator(
             self.config,
@@ -225,7 +232,9 @@ class NavigatorTests(unittest.TestCase):
             }
         }
 
-        client = FakeHttpClient(responses)
+        client = FakeHttpClient(
+            responses
+        )
 
         navigator = Navigator(
             self.config,
@@ -268,7 +277,9 @@ class NavigatorTests(unittest.TestCase):
             },
         }
 
-        client = FakeHttpClient(responses)
+        client = FakeHttpClient(
+            responses
+        )
 
         navigator = Navigator(
             self.config,
@@ -305,7 +316,9 @@ class NavigatorTests(unittest.TestCase):
             }
         }
 
-        client = FakeHttpClient(responses)
+        client = FakeHttpClient(
+            responses
+        )
 
         navigator = Navigator(
             self.config,
@@ -345,7 +358,9 @@ class NavigatorTests(unittest.TestCase):
             },
         }
 
-        client = FakeHttpClient(responses)
+        client = FakeHttpClient(
+            responses
+        )
 
         navigator = Navigator(
             self.config,
@@ -368,6 +383,206 @@ class NavigatorTests(unittest.TestCase):
         self.assertNotIn(
             "https://example.com/nivel3",
             visited_urls,
+        )
+
+    def test_respeta_max_pages(self):
+        config = SourceConfig(
+            id_fuente="test",
+            nombre="Sitio limitado",
+            base_url="https://example.com/",
+            allowed_domains=(
+                "example.com",
+            ),
+            extensions=(
+                ".pdf",
+            ),
+            max_depth=5,
+            max_pages=2,
+            delay_seconds=0,
+        )
+
+        detector = FileDetector(
+            config
+        )
+
+        responses = {
+            "https://example.com/": {
+                "body": """
+                    <a href="/pagina-a">
+                        Página A
+                    </a>
+                """
+            },
+            "https://example.com/pagina-a": {
+                "body": """
+                    <a href="/pagina-b">
+                        Página B
+                    </a>
+                """
+            },
+            "https://example.com/pagina-b": {
+                "body": """
+                    <p>No debería solicitarse.</p>
+                """
+            },
+        }
+
+        client = FakeHttpClient(
+            responses
+        )
+
+        navigator = Navigator(
+            config,
+            client,
+            detector,
+        )
+
+        result = navigator.crawl()
+
+        self.assertEqual(
+            result.total_pages,
+            2,
+        )
+
+        self.assertEqual(
+            result.stop_reason,
+            "max_pages",
+        )
+
+        self.assertNotIn(
+            "https://example.com/pagina-b",
+            client.requested_urls,
+        )
+
+    def test_respeta_max_files(self):
+        config = SourceConfig(
+            id_fuente="test",
+            nombre="Sitio limitado",
+            base_url="https://example.com/",
+            allowed_domains=(
+                "example.com",
+            ),
+            extensions=(
+                ".pdf",
+            ),
+            max_depth=2,
+            max_files=2,
+            delay_seconds=0,
+        )
+
+        detector = FileDetector(
+            config
+        )
+
+        responses = {
+            "https://example.com/": {
+                "body": """
+                    <a href="/uno.pdf">
+                        Uno
+                    </a>
+
+                    <a href="/dos.pdf">
+                        Dos
+                    </a>
+
+                    <a href="/tres.pdf">
+                        Tres
+                    </a>
+                """
+            }
+        }
+
+        client = FakeHttpClient(
+            responses
+        )
+
+        navigator = Navigator(
+            config,
+            client,
+            detector,
+        )
+
+        result = navigator.crawl()
+
+        self.assertEqual(
+            result.total_files,
+            2,
+        )
+
+        self.assertEqual(
+            result.stop_reason,
+            "max_files",
+        )
+
+        urls = [
+            file.url
+            for file in result.files
+        ]
+
+        self.assertIn(
+            "https://example.com/uno.pdf",
+            urls,
+        )
+
+        self.assertIn(
+            "https://example.com/dos.pdf",
+            urls,
+        )
+
+        self.assertNotIn(
+            "https://example.com/tres.pdf",
+            urls,
+        )
+
+    def test_reinicia_estado_entre_ejecuciones(self):
+        responses = {
+            "https://example.com/": {
+                "body": """
+                    <a href="/reporte.pdf">
+                        Reporte
+                    </a>
+                """
+            }
+        }
+
+        client = FakeHttpClient(
+            responses
+        )
+
+        navigator = Navigator(
+            self.config,
+            client,
+            self.detector,
+        )
+
+        first_result = navigator.crawl()
+        second_result = navigator.crawl()
+
+        self.assertEqual(
+            first_result.total_pages,
+            1,
+        )
+
+        self.assertEqual(
+            first_result.total_files,
+            1,
+        )
+
+        self.assertEqual(
+            second_result.total_pages,
+            1,
+        )
+
+        self.assertEqual(
+            second_result.total_files,
+            1,
+        )
+
+        self.assertEqual(
+            client.requested_urls.count(
+                "https://example.com/"
+            ),
+            2,
         )
 
 

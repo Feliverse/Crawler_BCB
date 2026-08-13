@@ -51,6 +51,13 @@ class NavigationResult:
     files: list[DiscoveredFile] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
 
+    # Indica si la ejecución terminó debido a un límite operacional.
+    # Valores posibles actualmente:
+    # - None
+    # - "max_pages"
+    # - "max_files"
+    stop_reason: Optional[str] = None
+
     @property
     def total_pages(self) -> int:
         return len(self.pages)
@@ -68,10 +75,16 @@ class Navigator:
     """
     Navegador web genérico del crawler multi-fuente.
 
-    Recorre páginas HTML dentro de los dominios permitidos,
-    evita ciclos y registra archivos descargables encontrados.
+    Responsabilidades:
+    - Recorrer páginas HTML mediante BFS.
+    - Respetar dominios permitidos.
+    - Evitar ciclos y duplicados.
+    - Controlar profundidad máxima.
+    - Controlar límites de páginas y archivos.
+    - Registrar documentos descubiertos.
+    - Mantener cada ejecución completamente independiente.
 
-    No contiene selectores ni reglas específicas de ninguna institución.
+    No contiene reglas específicas de ninguna institución.
     """
 
     def __init__(
@@ -88,6 +101,35 @@ class Navigator:
         self._registered_files: set[str] = set()
         self._queued_pages: set[str] = set()
 
+    def _reset_state(self) -> None:
+        """
+        Reinicia todo el estado interno de navegación.
+
+        Esto permite reutilizar una misma instancia de Navigator
+        en ejecuciones independientes sin arrastrar URLs anteriores.
+        """
+        self._visited_pages.clear()
+        self._registered_files.clear()
+        self._queued_pages.clear()
+
+    def _page_limit_reached(
+        self,
+        result: NavigationResult,
+    ) -> bool:
+        if self.config.max_pages is None:
+            return False
+
+        return result.total_pages >= self.config.max_pages
+
+    def _file_limit_reached(
+        self,
+        result: NavigationResult,
+    ) -> bool:
+        if self.config.max_files is None:
+            return False
+
+        return result.total_files >= self.config.max_files
+
     @staticmethod
     def normalize_url(
         url: str,
@@ -97,10 +139,10 @@ class Navigator:
         Convierte una URL en una representación estable.
 
         - Resuelve URLs relativas.
-        - Elimina fragmentos (#...).
-        - Normaliza scheme y dominio a minúsculas.
-        - Elimina puertos estándar.
-        - Ordena query parameters para reducir duplicados.
+        - Elimina fragmentos.
+        - Normaliza scheme y dominio.
+        - Elimina puertos HTTP/HTTPS estándar.
+        - Ordena parámetros query.
         """
 
         if not url:
@@ -120,18 +162,26 @@ class Navigator:
             return None
 
         if base_url:
-            raw_url = urljoin(base_url, raw_url)
+            raw_url = urljoin(
+                base_url,
+                raw_url,
+            )
 
         parsed = urlparse(raw_url)
 
-        if parsed.scheme.lower() not in {"http", "https"}:
+        if parsed.scheme.lower() not in {
+            "http",
+            "https",
+        }:
             return None
 
         if not parsed.netloc:
             return None
 
         scheme = parsed.scheme.lower()
-        hostname = (parsed.hostname or "").lower()
+        hostname = (
+            parsed.hostname or ""
+        ).lower()
 
         if not hostname:
             return None
@@ -140,8 +190,14 @@ class Navigator:
 
         if (
             port is None
-            or (scheme == "http" and port == 80)
-            or (scheme == "https" and port == 443)
+            or (
+                scheme == "http"
+                and port == 80
+            )
+            or (
+                scheme == "https"
+                and port == 443
+            )
         ):
             netloc = hostname
         else:
@@ -170,8 +226,13 @@ class Navigator:
             )
         )
 
-    def _is_allowed_url(self, url: str) -> bool:
-        return self.config.domain_is_allowed(url)
+    def _is_allowed_url(
+        self,
+        url: str,
+    ) -> bool:
+        return self.config.domain_is_allowed(
+            url
+        )
 
     def _register_file(
         self,
@@ -181,14 +242,24 @@ class Navigator:
         source_page: Optional[str],
         link_text: str,
         headers=None,
-    ) -> None:
+    ) -> bool:
+        """
+        Intenta registrar un archivo.
+
+        Retorna True solamente cuando se agregó un nuevo archivo.
+        """
+
+        if self._file_limit_reached(result):
+            result.stop_reason = "max_files"
+            return False
+
         normalized = self.normalize_url(url)
 
         if not normalized:
-            return
+            return False
 
         if normalized in self._registered_files:
-            return
+            return False
 
         detection = self.file_detector.detect(
             normalized,
@@ -196,9 +267,11 @@ class Navigator:
         )
 
         if not detection.is_downloadable:
-            return
+            return False
 
-        self._registered_files.add(normalized)
+        self._registered_files.add(
+            normalized
+        )
 
         result.files.append(
             DiscoveredFile(
@@ -211,17 +284,33 @@ class Navigator:
             )
         )
 
+        if self._file_limit_reached(result):
+            result.stop_reason = "max_files"
+
+        return True
+
     def _extract_links(
         self,
         html: str,
         current_url: str,
     ) -> list[tuple[str, str]]:
-        soup = BeautifulSoup(html, "html.parser")
+        soup = BeautifulSoup(
+            html,
+            "html.parser",
+        )
 
         links: list[tuple[str, str]] = []
 
-        for anchor in soup.find_all("a", href=True):
-            href = str(anchor.get("href", "")).strip()
+        for anchor in soup.find_all(
+            "a",
+            href=True,
+        ):
+            href = str(
+                anchor.get(
+                    "href",
+                    "",
+                )
+            ).strip()
 
             normalized = self.normalize_url(
                 href,
@@ -246,8 +335,13 @@ class Navigator:
         return links
 
     @staticmethod
-    def _extract_title(html: str) -> Optional[str]:
-        soup = BeautifulSoup(html, "html.parser")
+    def _extract_title(
+        html: str,
+    ) -> Optional[str]:
+        soup = BeautifulSoup(
+            html,
+            "html.parser",
+        )
 
         if not soup.title:
             return None
@@ -264,16 +358,18 @@ class Navigator:
         start_url: Optional[str] = None,
     ) -> NavigationResult:
         """
-        Recorre una fuente desde la URL inicial utilizando BFS.
+        Recorre una fuente mediante búsqueda en anchura (BFS).
 
-        BFS permite controlar la profundidad de forma natural y evita
-        entrar demasiado pronto en ramas muy profundas.
+        Cada llamada constituye una ejecución independiente.
         """
+
+        self._reset_state()
 
         result = NavigationResult()
 
         initial_url = self.normalize_url(
-            start_url or self.config.base_url
+            start_url
+            or self.config.base_url
         )
 
         if not initial_url:
@@ -281,10 +377,12 @@ class Navigator:
                 "No se pudo normalizar la URL inicial."
             )
 
-        if not self._is_allowed_url(initial_url):
+        if not self._is_allowed_url(
+            initial_url
+        ):
             raise ValueError(
-                f"La URL inicial pertenece a un dominio no permitido: "
-                f"{initial_url}"
+                "La URL inicial pertenece a un dominio "
+                f"no permitido: {initial_url}"
             )
 
         queue = deque(
@@ -297,12 +395,35 @@ class Navigator:
             ]
         )
 
-        self._queued_pages.add(initial_url)
+        self._queued_pages.add(
+            initial_url
+        )
 
         while queue:
-            current_url, depth, parent_url = queue.popleft()
 
-            self._queued_pages.discard(current_url)
+            # El límite de archivos tiene prioridad porque puede
+            # alcanzarse mientras se procesan enlaces de una página.
+            if self._file_limit_reached(
+                result
+            ):
+                result.stop_reason = "max_files"
+                break
+
+            # No realizamos una nueva petición HTML si ya hemos
+            # alcanzado la cantidad máxima configurada.
+            if self._page_limit_reached(
+                result
+            ):
+                result.stop_reason = "max_pages"
+                break
+
+            current_url, depth, parent_url = (
+                queue.popleft()
+            )
+
+            self._queued_pages.discard(
+                current_url
+            )
 
             if current_url in self._visited_pages:
                 continue
@@ -310,9 +431,12 @@ class Navigator:
             if depth > self.config.max_depth:
                 continue
 
-            # Caso sencillo: URL ya contiene una extensión conocida.
-            direct_detection = self.file_detector.detect_from_url(
-                current_url
+            # Una URL con extensión conocida puede identificarse
+            # inicialmente sin descargarla.
+            direct_detection = (
+                self.file_detector.detect_from_url(
+                    current_url
+                )
             )
 
             if direct_detection.is_downloadable:
@@ -325,35 +449,49 @@ class Navigator:
                 continue
 
             try:
-                response = self.client.get(current_url)
+                response = self.client.get(
+                    current_url
+                )
 
-            except (RequestException, ValueError) as exc:
+            except (
+                RequestException,
+                ValueError,
+            ) as exc:
                 result.errors.append(
                     f"{current_url} -> {exc}"
                 )
                 continue
 
-            final_url = self.normalize_url(response.url)
+            final_url = self.normalize_url(
+                response.url
+            )
 
             if not final_url:
                 result.errors.append(
-                    f"{current_url} -> URL final inválida."
+                    f"{current_url} -> "
+                    "URL final inválida."
                 )
                 continue
 
-            # Un redirect podría llevarnos a otro dominio.
-            if not self._is_allowed_url(final_url):
+            # Un redirect nunca puede escapar de los dominios
+            # permitidos para la fuente.
+            if not self._is_allowed_url(
+                final_url
+            ):
                 result.errors.append(
-                    f"{current_url} -> redirect fuera de dominio: "
+                    f"{current_url} -> "
+                    "redirect fuera de dominio: "
                     f"{final_url}"
                 )
                 continue
 
-            # El servidor puede devolver un archivo aunque la URL
-            # no tenga una extensión visible.
-            response_detection = self.file_detector.detect(
-                final_url,
-                headers=response.headers,
+            # Puede ocurrir que una URL sin extensión termine
+            # devolviendo directamente un documento.
+            response_detection = (
+                self.file_detector.detect(
+                    final_url,
+                    headers=response.headers,
+                )
             )
 
             if response_detection.is_downloadable:
@@ -368,8 +506,14 @@ class Navigator:
 
             content_type = (
                 response.headers
-                .get("Content-Type", "")
-                .split(";", 1)[0]
+                .get(
+                    "Content-Type",
+                    "",
+                )
+                .split(
+                    ";",
+                    1,
+                )[0]
                 .strip()
                 .lower()
             )
@@ -381,7 +525,14 @@ class Navigator:
             }:
                 continue
 
-            self._visited_pages.add(final_url)
+            # Un redirect puede llevar a una página que ya fue
+            # procesada previamente.
+            if final_url in self._visited_pages:
+                continue
+
+            self._visited_pages.add(
+                final_url
+            )
 
             title = self._extract_title(
                 response.text
@@ -396,6 +547,9 @@ class Navigator:
                 )
             )
 
+            # Llegar al límite de páginas no significa ignorar
+            # los documentos presentes en la última página
+            # permitida. La procesamos completamente.
             if depth >= self.config.max_depth:
                 continue
 
@@ -406,11 +560,21 @@ class Navigator:
 
             for link_url, link_text in links:
 
-                if not self._is_allowed_url(link_url):
+                if self._file_limit_reached(
+                    result
+                ):
+                    result.stop_reason = "max_files"
+                    break
+
+                if not self._is_allowed_url(
+                    link_url
+                ):
                     continue
 
-                detection = self.file_detector.detect_from_url(
-                    link_url
+                detection = (
+                    self.file_detector.detect_from_url(
+                        link_url
+                    )
                 )
 
                 if detection.is_downloadable:
@@ -436,6 +600,8 @@ class Navigator:
                     )
                 )
 
-                self._queued_pages.add(link_url)
+                self._queued_pages.add(
+                    link_url
+                )
 
         return result
