@@ -1,0 +1,24 @@
+{
+  "ROOT": {
+    "https_www.worldbank.org_ext_en_agriconnect": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "AgriConnect_flyer_(PDF).csv": {
+            "descripcion": "AgriConnect flyer (PDF)",
+            "url_descarga": "https://www.worldbank.org/content/dam/theworldbankgroupasset/document/2026/AgriConnect-flyer%202608.pdf"
+          }
+        }
+      }
+    },
+    "https_www.worldbank.org_ext_en_water": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Learn_More.csv": {
+            "descripcion": "Learn More",
+            "url_descarga": "https://thedocs.worldbank.org/en/doc/61714f214ed04bcd6e9623ad0e215897-0400012021/related/ENG-Water-Forward-2-Pager-Online-Version.pdf"
+          }
+        }
+      }
+    }
+  }
+}

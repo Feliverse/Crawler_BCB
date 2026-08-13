@@ -1,0 +1,1560 @@
+{
+  "ROOT": {
+    "SNIS-VE": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Inicio": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Circulares": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Publicaciones": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Boletines.csv": {
+            "descripcion": "Boletines",
+            "url_descarga": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines"
+          },
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Instrumentos": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Software": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Conociendo_al_SNIS-VE": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Áreas_Funcionales": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Contactos": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Leer_mas...": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Boletin_produccion_01_2021.csv": {
+            "descripcion": "Boletin produccion 01/2021",
+            "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?task=download.send&id=951&catid=112&m=0&Itemid=101"
+          },
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Boletín_Carpeta_Familiar": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Leer_más...": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Boletín_Producción_de_Servicios": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Boletín_Hechos_Vitales": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Siguiente": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Final": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "Reportes_Dinamicos.csv": {
+            "descripcion": "Reportes Dinamicos",
+            "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+          },
+          "Reportes_Dinámicos_RUES.csv": {
+            "descripcion": "Reportes Dinámicos RUES",
+            "url_descarga": "http://reportes-rues.minsalud.gob.bo/"
+          },
+          "Reportes_Dinámicos_SIAHV.csv": {
+            "descripcion": "Reportes Dinámicos SIAHV",
+            "url_descarga": "https://reportes-siahv.minsalud.gob.bo/"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Orientación_SUS": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Reporte_de_atenciones_SUS-002": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Software_SOAPS_-_Carpeta_Familiar": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Fichas_para_la_Vigilancia_Epidemiológica": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Orientación_causa_muerte_COVID": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Principales_Indicadores_en_Salud": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Indicadores_Demográficos": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Perfiles_de_Morbilidad": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Indice_de_Salud_Municipal_2012_-_2021": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Calendario_Epidemiológico": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Población": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Estadisticas_SIP": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Anuarios": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Captación": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Sistematización": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    },
+    "Consolidación": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Reporte_de_atenciones_SUS-002.csv": {
+            "descripcion": "Reporte de atenciones SUS-002",
+            "url_descarga": "https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002"
+          },
+          "Instructivo_Carpeta_Familiar.csv": {
+            "descripcion": "Instructivo Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf"
+          },
+          "Instrumento_Carpeta_Familiar.csv": {
+            "descripcion": "Instrumento Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf"
+          },
+          "Manual_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Manual SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf"
+          },
+          "Guía_de_Visita_Familiar.csv": {
+            "descripcion": "Guía de Visita Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf"
+          },
+          "Guia_de_Actualización_del_SOAPS_v._5.0.1.csv": {
+            "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf"
+          },
+          "Presentación_Carpeta_Familiar.csv": {
+            "descripcion": "Presentación Carpeta Familiar",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf"
+          },
+          "Certificado_Médico_D.S._3174.csv": {
+            "descripcion": "Certificado Médico D.S. 3174",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf"
+          },
+          "EDSA_2016.csv": {
+            "descripcion": "EDSA 2016",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf"
+          },
+          "Boletin_Medician_Ancestral_Boliviana.csv": {
+            "descripcion": "Boletin Medician Ancestral Boliviana",
+            "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf"
+          }
+        }
+      }
+    }
+  }
+}

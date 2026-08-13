@@ -31,7 +31,7 @@ def normalizar_nombre(texto):
 def mapear_menu_recursivo():
     """
     Escanea la página principal y extrae de manera multinivel la estructura real 
-    del menú desplegable del BCB (Soporta submenús dentro de submenús).
+    del menú desplegable (Soporta submenús dentro de submenús).
     """
     print("Mapeando la estructura multinivel del menú superior...")
     menu_completo = {}
@@ -68,20 +68,38 @@ def mapear_menu_recursivo():
     except Exception as e:
         print(f"Error al mapear el menú jerárquico: {e}")
         
-    # Fallback preventivo
+    # Fallback preventivo si no se encuentra la estructura BCB
     if not menu_completo:
-        print("Aviso: Usando fallback estructurado para asegurar la ejecución.")
-        menu_completo = {
-            "POLITICA_MONETARIA_Y_CAMBIARIA": {
-                "Resultados y Convocatoria OMA": urljoin(BASE_URL, "?q=publicacion-omas"),
-                "Reporte Diario OMA": urljoin(BASE_URL, "?q=content/reporte-diario-de-operaciones-de-mercado-abierto-y-monetario"),
-                "Reporte Semanal OMA": urljoin(BASE_URL, "?q=content/reporte-semanal")
-            },
-            "ESTADISTICAS": {
-                "Sector Externo": urljoin(BASE_URL, "?q=content/sector-externo-0"),
-                "Sector Monetario y Bancario": urljoin(BASE_URL, "?q=content/sector-monetario-y-bancario")
+        print("Aviso: No se detectó menú BCB. Usando fallback genérico para enlaces internos.")
+        enlaces_internos = {}
+        try:
+            if 'soup' not in locals():
+                response = requests.get(BASE_URL, headers=obtener_headers(), timeout=15)
+                soup = BeautifulSoup(response.text, 'html.parser')
+            for a in soup.find_all('a', href=True):
+                href = a['href']
+                if href.startswith('#') or href.startswith('javascript:'):
+                    continue
+                url_absoluta = urljoin(BASE_URL, href)
+                if urlparse(url_absoluta).netloc == urlparse(BASE_URL).netloc:
+                    nombre = a.text.strip()
+                    if not nombre:
+                        continue
+                    nombre = normalizar_nombre(nombre)
+                    if len(nombre) > 2 and len(nombre) < 50:
+                        enlaces_internos[nombre] = url_absoluta
+        except Exception as e:
+            print(f"Error en el fallback genérico: {e}")
+            
+        if enlaces_internos:
+            menu_completo = {"ROOT": enlaces_internos}
+        else:
+            print("Aviso: No se encontraron enlaces internos. Usando fallback por defecto.")
+            menu_completo = {
+                "ROOT": {
+                    "HOME": BASE_URL
+                }
             }
-        }
     return menu_completo
 
 def escanear_documentos_y_estructurar(nivel1_macro, nombre_pagina, url_pagina, mapa_final):
@@ -158,7 +176,7 @@ def escanear_documentos_y_estructurar(nivel1_macro, nombre_pagina, url_pagina, m
 
 # --- FLUJO PRINCIPAL AUTOMÁTICO ---
 if __name__ == "__main__":
-    estructura_menu =   ()
+    estructura_menu = mapear_menu_recursivo()
     mapa_jerarquizado_final = {}
     
     for macro_seccion, sub_secciones in estructura_menu.items():

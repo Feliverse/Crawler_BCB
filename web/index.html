@@ -47,7 +47,12 @@
           </p>
         </div>
 
-        <div class="flex flex-wrap gap-3">
+        <div class="flex flex-wrap gap-3 items-center">
+          <label id="urlSelectorWrapper" class="hidden inline-flex cursor-pointer items-center gap-2 rounded-full border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-700 shadow-sm transition focus-within:border-clay/40 focus-within:ring-4 focus-within:ring-clay/10">
+            <span class="text-tealstone font-extrabold uppercase tracking-widest text-xs">URL</span>
+            <select id="urlSelector" class="bg-transparent outline-none cursor-pointer text-stone-700">
+            </select>
+          </label>
           <label class="inline-flex cursor-pointer items-center gap-3 rounded-full border border-stone-200 bg-white px-4 py-3 text-sm font-semibold text-stone-700 shadow-sm transition hover:border-clay/30 hover:text-clay">
             <span>Cargar JSON local</span>
             <input id="fileInput" type="file" accept="application/json" class="hidden" />

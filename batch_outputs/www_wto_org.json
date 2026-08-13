@@ -1,0 +1,98 @@
+{
+  "ROOT": {
+    "External_relations": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Trade_Dialogues_Lecture_Webinar_Series.csv": {
+            "descripcion": "Trade  Dialogues Lecture/Webinar Series",
+            "url_descarga": "https://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm"
+          },
+          "a_series_of_webcasting_debates.csv": {
+            "descripcion": "a series of webcasting debates",
+            "url_descarga": "https://www.wto.org/debates_e/debates_e.htm"
+          }
+        }
+      }
+    },
+    "Site_map": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Lecture_series.csv": {
+            "descripcion": "Lecture series",
+            "url_descarga": "https://www.wto.org/english/res_e/reser_e/tradedialogueslseries_e.htm"
+          },
+          "Presidential_Lecture_Series.csv": {
+            "descripcion": "Presidential Lecture Series",
+            "url_descarga": "https://www.wto.org/english/forums_e/presidential_lecture_series_e/presidential_lecture_series_e.htm"
+          }
+        }
+      }
+    },
+    "A-Z": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Notifications.csv": {
+            "descripcion": "Notifications",
+            "url_descarga": "https://www.wto.org/english/tratop_e/handbook_on_notifications_complete_e.pdf"
+          },
+          "Presidential_Lecture_Series.csv": {
+            "descripcion": "Presidential Lecture Series",
+            "url_descarga": "https://www.wto.org/english/forums_e/presidential_lecture_series_e/presidential_lecture_series_e.htm"
+          },
+          "Technical_cooperation_handbook_on_notification_requirements.csv": {
+            "descripcion": "Technical cooperation handbook on notification requirements",
+            "url_descarga": "https://www.wto.org/english/tratop_e/handbook_on_notifications_complete_e.pdf"
+          }
+        }
+      }
+    },
+    "Download_publication": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Download_PDF.csv": {
+            "descripcion": "Download PDF",
+            "url_descarga": "https://www.wto.org/english/res_e/booksp_e/tariffprofiles2026.pdf"
+          },
+          "Download.csv": {
+            "descripcion": "Download",
+            "url_descarga": "https://www.wto.org/english/res_e/booksp_e/tariffprofiles2026.pdf"
+          }
+        }
+      }
+    },
+    "More_on_tariffs": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Find_out_more.csv": {
+            "descripcion": "Find out more",
+            "url_descarga": "https://stats.wto.org/Areas/TimeSeries/src/assets/WTO_Multilateral_Trade_Negotiations_Categories_2023-06-26.pdf"
+          }
+        }
+      }
+    },
+    "Resources": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "user_guide.csv": {
+            "descripcion": "user guide",
+            "url_descarga": "https://tao.s3.eu-central-1.amazonaws.com/public/User_Guide.pdf"
+          },
+          "World_Bank_Group_-_Tracking_Global_Social_Policy_Responses_to_High_Energy_Prices.csv": {
+            "descripcion": "World Bank Group - Tracking Global Social Policy\r\n                          Responses to High Energy Prices",
+            "url_descarga": "https://documents1.worldbank.org/curated/en/099106503252633049/pdf/IDU-d15e64da-0670-4821-bebe-1caa0026210b.pdf"
+          }
+        }
+      }
+    },
+    "Trade_Negotiations": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "2003_services_modalities.csv": {
+            "descripcion": "2003 \r\n                services modalities",
+            "url_descarga": "http://docsonline.wto.org/imrd/directdoc.asp?DDFDocuments/t/tn/s/13.doc"
+          }
+        }
+      }
+    }
+  }
+}

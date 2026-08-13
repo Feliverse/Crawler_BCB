@@ -8,11 +8,7 @@ import argparse
 from pathlib import Path
 from urllib.parse import urlparse
 
-try:
-    import openpyxl
-except Exception:
-    print("Missing dependency 'openpyxl'. Install from requirements.txt")
-    raise
+import csv
 
 
 def normalize_name(url: str) -> str:
@@ -24,40 +20,35 @@ def normalize_name(url: str) -> str:
     return ''.join(c if c.isalnum() or c in ('_', '-') else '_' for c in key)
 
 
-def read_urls_from_xlsx(path: Path, column_name: str = 'BASE_URL'):
-    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    ws = wb.active
-
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
-        return []
-
-    # detect header
-    first_row = rows[0]
-    start_idx = 0
-    col_idx = 0
-    if any(isinstance(c, str) and c.strip().upper() == column_name.upper() for c in first_row if c is not None):
-        # find the header column index
-        for i, c in enumerate(first_row):
-            if isinstance(c, str) and c.strip().upper() == column_name.upper():
-                col_idx = i
-                start_idx = 1
-                break
-    else:
-        # assume first column
-        col_idx = 0
-        start_idx = 0
-
+def read_urls_from_csv(path: Path, column_name: str = 'BASE_URL'):
     urls = []
-    for r in rows[start_idx:]:
-        if not r:
-            continue
-        val = r[col_idx]
-        if val is None:
-            continue
-        s = str(val).strip()
-        if s:
-            urls.append(s)
+    with path.open('r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        if reader.fieldnames:
+            # try header-based
+            header = [h.strip().upper() for h in reader.fieldnames]
+            key = None
+            for h in reader.fieldnames:
+                if h.strip().upper() == column_name.upper():
+                    key = h
+                    break
+            if key:
+                for row in reader:
+                    val = row.get(key)
+                    if val:
+                        urls.append(val.strip())
+                return urls
+        # fallback: read first column
+    with path.open('r', encoding='utf-8') as f:
+        for i, line in enumerate(f):
+            if i == 0:
+                # skip header if it looks like one (contains non-url text)
+                first = line.strip()
+                if not (first.startswith('http') or first.startswith('https')):
+                    continue
+            val = line.strip().split(',')[0].strip()
+            if val:
+                urls.append(val)
     return urls
 
 
@@ -71,18 +62,18 @@ def run_main_for_url(url: str, project_dir: Path, timeout: int = 300):
 
 def main():
     parser = argparse.ArgumentParser(description='Run main.py for multiple BASE_URL values from an .xlsx file and aggregate outputs.')
-    parser.add_argument('xlsx', nargs='?', default='urls.xlsx', help='Path to .xlsx file with URLs (column named BASE_URL or first column)')
+    parser.add_argument('csv', nargs='?', default='fuentes.csv', help='Path to CSV file with URLs (column named BASE_URL or first column)')
     parser.add_argument('-o', '--output', default='super_output.json', help='Aggregated output JSON file')
     parser.add_argument('--delay', type=float, default=1.2, help='Delay between runs in seconds')
     args = parser.parse_args()
 
     project_dir = Path(__file__).parent
-    xlsx_path = Path(args.xlsx)
-    if not xlsx_path.exists():
-        print(f"Excel file not found: {xlsx_path}")
+    csv_path = Path(args.csv)
+    if not csv_path.exists():
+        print(f"CSV file not found: {csv_path}")
         sys.exit(2)
 
-    urls = read_urls_from_xlsx(xlsx_path)
+    urls = read_urls_from_csv(csv_path)
     if not urls:
         print("No URLs found in the Excel file.")
         sys.exit(1)
@@ -99,14 +90,14 @@ def main():
             aggregated[url] = {'error': 'timeout', 'timeout': True}
             continue
 
-        mapa_file = project_dir / 'mapa_global_bcb.json'
+        mapa_file = project_dir / 'mapa_global.json'
         if mapa_file.exists():
             try:
                 with mapa_file.open('r', encoding='utf-8') as f:
                     data = json.load(f)
             except Exception as e:
                 data = None
-                print(f"Failed to read mapa_global_bcb.json for {url}: {e}")
+                print(f"Failed to read mapa_global.json for {url}: {e}")
 
             name = normalize_name(url)
             out_path = outputs_dir / f"{name}.json"
@@ -133,7 +124,7 @@ def main():
                 'returncode': rc,
                 'stdout': out,
                 'stderr': err,
-                'error': 'mapa_global_bcb.json not produced'
+                'error': 'mapa_global.json not produced'
             }
 
         time.sleep(args.delay)

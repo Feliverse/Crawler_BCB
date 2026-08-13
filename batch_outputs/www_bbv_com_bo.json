@@ -1,0 +1,674 @@
+{
+  "ROOT": {
+    "BBV_INSIGHT": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "BBV_Sostenible": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Guía_de_Bonos_Verdes,_Sociales_y_o_Sostenibles_v2.csv": {
+            "descripcion": "Guía de Bonos Verdes, Sociales y/o Sostenibles v2",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/09/Guia-de-Bonos-BBV-2024-v.2.pdf"
+          },
+          "Guía_para_la_implementación_de_factores_ASG.csv": {
+            "descripcion": "Guía para la implementación de factores ASG",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/05/NUEVA-GUIA-ASG_15524.pdf"
+          },
+          "Brochure_Finanzas_Sostenibles_v2.csv": {
+            "descripcion": "Brochure Finanzas Sostenibles v2",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/08/brochure-finanzas-vfinal.pdf"
+          },
+          "Descarga.csv": {
+            "descripcion": "Descarga",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2025/07/2025_PROS_BVS_BSO2_E1-3.pdf"
+          },
+          "Nota_de_prensa_Inversionista_Responsable.csv": {
+            "descripcion": "Nota de prensa Inversionista Responsable",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/01/NOTA-BBV-INV-RESP.pdf"
+          },
+          "Nota_de_prensa_Jornadas_Bursátiles.csv": {
+            "descripcion": "Nota de prensa Jornadas Bursátiles",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/06/npjornadasbursatiles.pdf"
+          },
+          "Nota_de_prensa_Igualdad_de_Género.csv": {
+            "descripcion": "Nota de prensa Igualdad de Género",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2022/04/NOTA-DE-PRENSA_IGUALDAD-DE-GENERO.pdf"
+          },
+          "Nota_de_prensa_presentación_de_la_guía_de_bonos_temáticos.csv": {
+            "descripcion": "Nota de prensa presentación de la guía de bonos temáticos",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/06/npguiabonos.pdf"
+          },
+          "Nota_de_prensa_Ring_the_Bell.csv": {
+            "descripcion": "Nota de prensa Ring the Bell",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/05/NOTA-DE-PRENSA-RING-THE-BELL2023.pdf"
+          },
+          "Nota_de_prensa_Bonos_Avanza_Mujer_Bancosol_2.csv": {
+            "descripcion": "Nota de prensa Bonos Avanza Mujer Bancosol 2",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2025/08/BBV-Bonos-Sociales-Avanza-Mujer-BancoSol-2.pdf"
+          }
+        }
+      }
+    },
+    "PARTICIPANTES_DEL_MERCADO": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Materiales": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Características_SMART_BBV.csv": {
+            "descripcion": "Características SMART BBV",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/08/SistemaSMART.pdf"
+          },
+          "Presentación_SMART_BBV.csv": {
+            "descripcion": "Presentación SMART BBV",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2022/05/presentacion_smart.pdf"
+          }
+        }
+      }
+    },
+    "Aula_bursátil": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Normativa": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Descargar.csv": {
+            "descripcion": "Descargar",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/normativas/193-circular-01-2026.pdf"
+          }
+        }
+      }
+    },
+    "Buscar": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Memorias_anuales.csv": {
+            "descripcion": "Memorias anuales",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Informes_ASG.csv": {
+            "descripcion": "Informes ASG",
+            "url_descarga": "https://www.bbv.com.bo/informes-asg/"
+          },
+          "Resumen_Diario.csv": {
+            "descripcion": "Resumen Diario",
+            "url_descarga": "https://www.bbv.com.bo/resumen-diario/"
+          }
+        }
+      }
+    },
+    "MERCADOS": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "ESTADÍSTICAS": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "HECHOS_RELEVANTES_Y_NOTICIAS": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Servicios_y_Productos": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Historia": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Cartilla_Informativa_BBV": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Misión_–_Visión": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Valores": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Relaciones_Interinstitucionales": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Gobierno_Corporativo": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "MEMORIAS": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "2004_04.csv": {
+            "descripcion": "2004\n\n\n04",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/BBV-Memoria-2004.pdf"
+          },
+          "2005_05.csv": {
+            "descripcion": "2005\n\n\n05",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2005.pdf"
+          },
+          "2006_06.csv": {
+            "descripcion": "2006\n\n\n06",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2006.pdf"
+          },
+          "2007_07.csv": {
+            "descripcion": "2007\n\n\n07",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2007.pdf"
+          },
+          "2008_08.csv": {
+            "descripcion": "2008\n\n\n08",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2008.pdf"
+          },
+          "2009_09.csv": {
+            "descripcion": "2009\n\n\n09",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2009.pdf"
+          },
+          "2010_10.csv": {
+            "descripcion": "2010\n\n\n10",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2010.pdf"
+          },
+          "2011_11.csv": {
+            "descripcion": "2011\n\n\n11",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2011.pdf"
+          },
+          "2012_12.csv": {
+            "descripcion": "2012\n\n\n12",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2012.pdf"
+          },
+          "2013_13.csv": {
+            "descripcion": "2013\n\n\n13",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2013.pdf"
+          },
+          "2014_14.csv": {
+            "descripcion": "2014\n\n\n14",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2014.pdf"
+          },
+          "2015_15.csv": {
+            "descripcion": "2015\n\n\n15",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2015.pdf"
+          },
+          "2016_16.csv": {
+            "descripcion": "2016\n\n\n16",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2016.pdf"
+          },
+          "2017_17.csv": {
+            "descripcion": "2017\n\n\n17",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2017.pdf"
+          },
+          "2018_18.csv": {
+            "descripcion": "2018\n\n\n18",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/bbv-memoria-2018.pdf"
+          },
+          "2019_19.csv": {
+            "descripcion": "2019\n\n\n19",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/Memoria2019.pdf"
+          },
+          "2020_20.csv": {
+            "descripcion": "2020\n\n\n20",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/08/Final-MEMORIA-BBV-Interactivo.pdf"
+          },
+          "2021_21.csv": {
+            "descripcion": "2021\n\n\n21",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2022/09/01-MEMORIA-BBV-2021-finalizado.pdf"
+          },
+          "2022_22.csv": {
+            "descripcion": "2022\n\n\n22",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2023/07/Memoria-Anual-BBV-2022-FINAL-1.pdf"
+          },
+          "2023_23.csv": {
+            "descripcion": "2023\n\n\n23",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2025/03/BBV-Memoria-2023-05-FINAL-1.pdf"
+          },
+          "2024_24.csv": {
+            "descripcion": "2024\n\n\n24",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2025/08/Memoria-BBV-2024.pdf"
+          },
+          "2025_25.csv": {
+            "descripcion": "2025\n\n\n25",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2026/07/Memoria-BBV-2025-p_web.pdf"
+          }
+        }
+      }
+    },
+    "Información_financiera_histórica": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Descargar.csv": {
+            "descripcion": "Descargar",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/05/EFBBV01.pdf"
+          }
+        }
+      }
+    },
+    "Información_financiera_2024_–_2026": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Descargar.csv": {
+            "descripcion": "Descargar",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/09/eeff-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Hechos_Relevantes": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Noticias": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Sala_de_prensa": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Jornadas_Bursátiles": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Ring_The_Bell": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Bolsa_de_trabajo": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Descargar_Formulario.csv": {
+            "descripcion": "Descargar Formulario",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2026/07/PUBLICACION-ANALISTA-DE-INFRAESTRUCTURA.pdf"
+          }
+        }
+      }
+    },
+    "Licitaciones_vigentes": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Contacto": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "COMUNICADOS": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Ver_prospecto": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "Guía_de_Bonos_Verdes,_Sociales_y_o_Sostenibles_v2.csv": {
+            "descripcion": "Guía de Bonos Verdes, Sociales y/o Sostenibles v2",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/09/Guia-de-Bonos-BBV-2024-v.2.pdf"
+          },
+          "Guía_para_la_implementación_de_factores_ASG.csv": {
+            "descripcion": "Guía para la implementación de factores ASG",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/05/NUEVA-GUIA-ASG_15524.pdf"
+          },
+          "Brochure_Finanzas_Sostenibles_v2.csv": {
+            "descripcion": "Brochure Finanzas Sostenibles v2",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/08/brochure-finanzas-vfinal.pdf"
+          },
+          "Descarga.csv": {
+            "descripcion": "Descarga",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2025/07/2025_PROS_BVS_BSO2_E1-3.pdf"
+          },
+          "Nota_de_prensa_Inversionista_Responsable.csv": {
+            "descripcion": "Nota de prensa Inversionista Responsable",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/01/NOTA-BBV-INV-RESP.pdf"
+          },
+          "Nota_de_prensa_Jornadas_Bursátiles.csv": {
+            "descripcion": "Nota de prensa Jornadas Bursátiles",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/06/npjornadasbursatiles.pdf"
+          },
+          "Nota_de_prensa_Igualdad_de_Género.csv": {
+            "descripcion": "Nota de prensa Igualdad de Género",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2022/04/NOTA-DE-PRENSA_IGUALDAD-DE-GENERO.pdf"
+          },
+          "Nota_de_prensa_presentación_de_la_guía_de_bonos_temáticos.csv": {
+            "descripcion": "Nota de prensa presentación de la guía de bonos temáticos",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2021/06/npguiabonos.pdf"
+          },
+          "Nota_de_prensa_Ring_the_Bell.csv": {
+            "descripcion": "Nota de prensa Ring the Bell",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/05/NOTA-DE-PRENSA-RING-THE-BELL2023.pdf"
+          },
+          "Nota_de_prensa_Bonos_Avanza_Mujer_Bancosol_2.csv": {
+            "descripcion": "Nota de prensa Bonos Avanza Mujer Bancosol 2",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2025/08/BBV-Bonos-Sociales-Avanza-Mujer-BancoSol-2.pdf"
+          }
+        }
+      }
+    },
+    "Ver_ahora": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    },
+    "Ver_más": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          },
+          "DESCARGAR.csv": {
+            "descripcion": "DESCARGAR",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2022/09/Libro-Tecnico-BBV_Descripcion-de-Contenido.pdf"
+          }
+        }
+      }
+    },
+    "Aula_Bursátil": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "MEMORIAS.csv": {
+            "descripcion": "MEMORIAS",
+            "url_descarga": "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/"
+          },
+          "Tarifario_Oficial.csv": {
+            "descripcion": "Tarifario Oficial",
+            "url_descarga": "https://www.bbv.com.bo/wp-content/uploads/2024/10/137-tarifario-oficial-bbv.pdf"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "ROOT": {
+    "webdocs": {
+      "UTH": {
+        "informacion": {
+          "Organigrama.csv": {
+            "descripcion": "Organigrama",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Organigrama.pdf"
+          },
+          "Nomina_Autoridades.csv": {
+            "descripcion": "Nómina de Autoridades",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Nomina_Autoridades.pdf"
+          },
+          "Nomina_Personal.csv": {
+            "descripcion": "Nómina de Personal",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Nomina_Personal.pdf"
+          },
+          "Escala_Salarial.csv": {
+            "descripcion": "Escala Salarial",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Escala%20Salarial.pdf"
+          },
+          "RAI_APS_009_2025_MANUAL_DE_PUESTOS_-_PLAN_OPERATIVO_ANUAL_INDIVIDUAL_POAI_GESTION_2025.csv": {
+            "descripcion": "Plan Operativo Anual Individual – POAI",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/RAI%20APS%20009%202025%20MANUAL%20DE%20PUESTOS%20-%20PLAN%20OPERATIVO%20ANUAL%20INDIVIDUAL%20POAI%20GESTION%202025.pdf"
+          },
+          "Perfil_Minimo_de_Cargos.csv": {
+            "descripcion": "Perfiles de Cargos",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Perfil%20Minimo%20de%20Cargos.pdf"
+          }
+        }
+      },
+      "UPE": {
+        "mof": {
+          "Manual_de_Organizacion_y_Funciones.csv": {
+            "descripcion": "Manual de Organización y Funciones",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPE/mof/Manual%20de%20Organizacion%20y%20Funciones.pdf"
+          }
+        }
+      },
+      "UPCC": {
+        "otros": {
+          "Lista_de_Precios_de_Atencion_SOAT.csv": {
+            "descripcion": "Lista de Precios de Atención SOAT",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPCC/otros/Lista%20de%20Precios%20de%20Atencion%20SOAT.pdf"
+          }
+        }
+      },
+      "DP": {
+        "VARIOS": {
+          "Convocatoria_Examen_Medicos_Calificadores.csv": {
+            "descripcion": "Convocatoria",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/Convocatoria%20Examen%20Medicos%20Calificadores.pdf"
+          },
+          "ACUERDO_APLICACION_ESPANOL_SEPTIEMBRE_2009-2.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/ACUERDO_APLICACION_ESPANOL_SEPTIEMBRE_2009-2.pdf"
+          },
+          "CONVENIO_MULTILATERAL_ESPANOL-2.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/CONVENIO_MULTILATERAL_ESPANOL-2.pdf"
+          }
+        }
+      },
+      "UF": {
+        "convocatorias": {
+          "1CONVOCATORIAS_APSDGOUADMANPEN012024.csv": {
+            "descripcion": "1. CONVOCATORIAS APS-DGO-UADM-ANPE N° 01-2024",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UF/convocatorias/1CONVOCATORIAS APSDGOUADMANPEN012024.pdf"
+          }
+        }
+      },
+      "RRHH": {
+        "convocatorias": {
+          "CPE_02-HABILITADOS_AL_EXAMEN-JAI.csv": {
+            "descripcion": "Convocatoria Pública Externa N°2 / 2018 - Postulantes Habilitados",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/RRHH/convocatorias/CPE%2002-HABILITADOS%20AL%20EXAMEN-JAI.pdf"
+          },
+          "CPE_02-HABILITADOS_A_ENTREVISTA_CON_EL_COMITE_DE_SELECCION_-_193.csv": {
+            "descripcion": "Convocatoria Pública Externa N°2 / 2018 - Postulantes Habilitados para entrevista",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/RRHH/convocatorias/CPE%2002-HABILITADOS%20A%20ENTREVISTA%20CON%20EL%20COMITE%20DE%20SELECCION%20-%20193.pdf"
+          },
+          "Notificacion_de_Resultados.csv": {
+            "descripcion": "Notificación de Resultados",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/RRHH/convocatorias/Notificacion%20de%20Resultados.pdf"
+          }
+        }
+      },
+      "UNE": {
+        "DS": {
+          "CERTIFICACION_ESTADISTICAS_Colores.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DS/CERTIFICACION%20ESTADISTICAS%20Colores.pdf"
+          },
+          "CERTIFICADO_INE.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DS/CERTIFICADO%20INE.pdf"
+          }
+        },
+        "DP": {
+          "CERTIFICADO_PENSIONES.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DP/CERTIFICADO%20PENSIONES.pdf"
+          }
+        }
+      },
+      "DJ": {
+        "normativa": {
+          "Constitucion_Politica_del_Estado.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Constitucion_Politica_del_Estado.pdf"
+          }
+        }
+      },
+      "TRANSPARENCIA": {
+        "normativa": {
+          "convencion_onu.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/convencion_onu.pdf"
+          },
+          "convencion_interamericana.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/convencion_interamericana.pdf"
+          },
+          "Ley_974.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/Ley_974.pdf"
+          },
+          "Ley_458.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/Ley_458.pdf"
+          },
+          "Ley_341.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/Ley_341.pdf"
+          },
+          "LEY_1390.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/LEY_1390.pdf"
+          },
+          "Decreto_Supremo_785.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/TRANSPARENCIA/normativa/Decreto_Supremo_785.pdf"
+          }
+        }
+      },
+      "DE": {
+        "UTLC": {
+          "ley_004_lucha_contra_corrupcion_enriquecimiento.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/DE/UTLC/normativa/ley_004_lucha_contra_corrupcion_enriquecimiento.pdf"
+          },
+          "DecretoSupremoN4872de02defebrerode2023PoliticaPlurinacionaldeLuchaContralaCorrupcion.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/DE/UTLC/normativa/DecretoSupremoN4872de02defebrerode2023PoliticaPlurinacionaldeLuchaContralaCorrupcion.pdf"
+          }
+        }
+      },
+      "DS": {
+        "Formularios": {
+          "form-declaracion-aportesAPS.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/images/webdocs/DS/Formularios/Forms/form-declaracion-aportesAPS.xlsx"
+          },
+          "FORM_1000-002_APS_-_USUARIO_EXTERNO.csv": {
+            "descripcion": "Ver",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Forms/FORM 1000-002 APS - USUARIO EXTERNO.docx"
+          },
+          "Peritos_Valuadores_(_2.1_Mb_).csv": {
+            "descripcion": "Peritos Valuadores ( 2.1 Mb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Peritos Valuadores ( 2.1 Mb ).pdf"
+          },
+          "Entidad_Aseguradora_(_1.3_Mb_).csv": {
+            "descripcion": "Entidad Aseguradora ( 1.3 Mb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Entidad Aseguradora ( 1.3 Mb ).pdf"
+          },
+          "Empresas_de_Reaseguros_Extranjeras_(_367_Kb_).csv": {
+            "descripcion": "Empresas de Reaseguros Extranjeras ( 367 Kb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Empresas de Reaseguros Extranjeras ( 367 Kb ).pdf"
+          },
+          "Empresa_de_Auditoria_(_2.5_Mb_).csv": {
+            "descripcion": "Empresa de Auditoria ( 2.5 Mb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Empresa de Auditoria ( 2.5 Mb ).pdf"
+          },
+          "Corredoras_de_Seguros_(_82_Kb_).csv": {
+            "descripcion": "Corredoras de Seguros ( 82 Kb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Corredoras de Seguros ( 82 Kb ).pdf"
+          },
+          "Corredoras_de_Reaseguros_(_82_Kb_).csv": {
+            "descripcion": "Corredoras de Reaseguros ( 82 Kb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Corredoras de Reaseguros ( 82 Kb ).pdf"
+          },
+          "Corredoras_Extranjeras_de_Reaseguro_(_367_Kb_).csv": {
+            "descripcion": "Corredoras Extranjeras de Reaseguro ( 367 Kb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Corredoras Extranjeras de Reaseguro ( 367 Kb ).pdf"
+          },
+          "Asesores_de_Seguros_(_1.3_Mb_).csv": {
+            "descripcion": "Asesores de Seguros ( 1.3 Mb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Asesores de Seguros ( 1.3 Mb ).pdf"
+          },
+          "Ajustadoras_de_Seguros_(_141_Kb_).csv": {
+            "descripcion": "Ajustadoras de Seguros ( 141 Kb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Ajustadoras de Seguros ( 141 Kb ).pdf"
+          },
+          "Agentes_de_Seguros_(_1.6_Mb_).csv": {
+            "descripcion": "Agentes de Seguros ( 1.6 Mb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Agentes de Seguros ( 1.6 Mb ).pdf"
+          },
+          "Actuarios_Matematicos_(_84_Kb_).csv": {
+            "descripcion": "Actuarios Matematicos ( 84 Kb ).pdf",
+            "url_descarga": "https://www.aps.gob.bo/files/webdocs/DS/Formularios/Procedimientos/Actuarios Matematicos ( 84 Kb ).pdf"
+          }
+        }
+      }
+    },
+    "Inicio": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Reseña_Histórica": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Misión_y_Visión": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Información_de_la_MAE": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Valores_y_Principios": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Objetivos_Institucionales": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Información_Planificación": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Programas_y_Proyectos_de_Inversión": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Convocatorias_Públicas": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Administración_y_Finanzas": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Enlaces_Externos": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Política_de_Calidad": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Correspondencia_Digital": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Auditoria_Interna": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Informes_de_resultados_de_viajes_al_exterior": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Certificaciones": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Mapa_del_Sitio": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Consultas_y_Reclamos": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Aportes_en_el_Exterior": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Registro_para_consultores": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          },
+          "Resolución_Administrativa_APS_DPC_DJ_N°_362-2012.csv": {
+            "descripcion": "Resolución Administrativa APS/DPC/DJ/N° 362-2012",
+            "url_descarga": "http://aplicaciones.aps.gob.bo/ResolucionesABM/Datos/Resoluciones/0362-12-RAPSDPC%20COMPLEMENTA%20RADPC432-2011%20PROCEDIMIENTOS%20CONSULTORES.pdf"
+          }
+        }
+      }
+    },
+    "Médicos_Habilitados_SIP": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Preguntas_Frecuentes": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Entidades_Fiscalizadas": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Normativa": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Normativa_Internacional": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Consulta_a_trámites_de_dictámenes": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Sistemas_de_Información": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Ética_Pública": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Rendición_Pública_de_Cuentas": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Acceso_a_la_Información": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Formulario_de_Denuncias": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Material_Informativo": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Solicitud_de_Informacion": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "View": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "8._AVANZAMOS_HACIA_UNA_MAYOR_INCLUSIÓN": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    },
+    "Ver_Más": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Convocatorias_Públicas.csv": {
+            "descripcion": "Convocatorias Públicas",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+          },
+          "Informes_de_resultados_de_viajes_al_exterior.csv": {
+            "descripcion": "Informes de resultados de viajes al exterior",
+            "url_descarga": "https://www.aps.gob.bo/index.php/institucional/informes-de-resultados-de-viajes-al-exterior"
+          }
+        }
+      }
+    }
+  }
+}

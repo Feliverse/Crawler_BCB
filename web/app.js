@@ -1,4 +1,6 @@
 const state = {
+  rawData: {},
+  selectedUrl: "",
   data: {},
   rootLabel: "",
   rootNode: {},
@@ -12,6 +14,8 @@ const elements = {};
 function bindElements() {
   elements.fileInput = document.getElementById("fileInput");
   elements.reloadButton = document.getElementById("reloadButton");
+  elements.urlSelector = document.getElementById("urlSelector");
+  elements.urlSelectorWrapper = document.getElementById("urlSelectorWrapper");
   elements.searchInput = document.getElementById("searchInput");
   elements.dateFilter = document.getElementById("dateFilter");
   elements.categoryList = document.getElementById("categoryList");
@@ -483,7 +487,7 @@ function escapeHtml(value) {
 }
 
 async function loadDefaultJson() {
-  const response = await fetch("../mapa_estadisticas_bcb.json", { cache: "no-store" });
+  const response = await fetch("../super_output.json", { cache: "no-store" });
   if (!response.ok) {
     throw new Error(`No se pudo cargar el JSON por defecto (${response.status})`);
   }
@@ -496,7 +500,43 @@ async function loadFromFile(file) {
 }
 
 function applyData(data) {
-  state.data = isPlainObject(data) ? data : {};
+  state.rawData = data || {};
+  
+  const urls = Object.keys(state.rawData);
+  if (urls.length > 0 && isPlainObject(state.rawData[urls[0]]) && 'data' in state.rawData[urls[0]]) {
+    // New super_output.json format
+    elements.urlSelector.innerHTML = "";
+    urls.forEach(url => {
+      const opt = document.createElement("option");
+      opt.value = url;
+      opt.textContent = url.replace('https://www.', '').replace('http://www.', '');
+      elements.urlSelector.appendChild(opt);
+    });
+    elements.urlSelectorWrapper.classList.remove("hidden");
+    selectUrl(urls[0]);
+  } else {
+    // Legacy single-site format
+    elements.urlSelectorWrapper.classList.add("hidden");
+    state.data = isPlainObject(data) ? data : {};
+    const root = resolveRoot(state.data);
+    state.rootLabel = root.label;
+    state.rootNode = root.node;
+
+    const firstEntry = getRootEntries()[0];
+    state.activePath = firstEntry ? [firstEntry[0]] : [];
+    render();
+  }
+}
+
+function selectUrl(url) {
+  state.selectedUrl = url;
+  if (elements.urlSelector.value !== url) {
+    elements.urlSelector.value = url;
+  }
+  
+  const urlData = state.rawData[url] || {};
+  state.data = urlData.data || {};
+  
   const root = resolveRoot(state.data);
   state.rootLabel = root.label;
   state.rootNode = root.node;
@@ -507,6 +547,12 @@ function applyData(data) {
 }
 
 function initEvents() {
+  if (elements.urlSelector) {
+    elements.urlSelector.addEventListener("change", (event) => {
+      selectUrl(event.target.value);
+    });
+  }
+
   elements.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
     render();

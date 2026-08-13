@@ -1,0 +1,114 @@
+{
+  "ROOT": {
+    "Metrics": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Download_Full_Report_-_Users_by_Device_Type.csv": {
+            "descripcion": "Download Full Report -\n            Users by Device Type",
+            "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__device_category__last30.2026-07-31.csv"
+          },
+          "Download_Full_Report_-_Most_Downloaded_Dataset_Files.csv": {
+            "descripcion": "Download Full Report -\n            Most Downloaded Dataset Files",
+            "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__download_requests__last30.2026-07-31.csv"
+          },
+          "https_www.data.va.gov_api_views_95an-zhhy_rows.csv?accessType=DOWNLOAD.csv": {
+            "descripcion": "https://www.data.va.gov/api/views/95an-zhhy/rows.csv?accessType=DOWNLOAD",
+            "url_descarga": "https://www.data.va.gov/api/views/95an-zhhy/rows.csv?accessType=DOWNLOAD"
+          },
+          "https_data.ny.gov_api_v3_views_d6yy-54nr_export.csv?accessType=DOWNLOAD.csv": {
+            "descripcion": "https://data.ny.gov/api/v3/views/d6yy-54nr/export.csv?accessType=DOWNLOAD",
+            "url_descarga": "https://data.ny.gov/api/v3/views/d6yy-54nr/export.csv?accessType=DOWNLOAD"
+          },
+          "https_civilrightsdata.ed.gov_assets_downloads_2015-2016_Allegations-of-Harassment-or-Bullying.xlsx.csv": {
+            "descripcion": "https://civilrightsdata.ed.gov/assets/downloads/2015-2016/Allegations-of-Harassment-or-Bullying.xlsx",
+            "url_descarga": "https://civilrightsdata.ed.gov/assets/downloads/2015-2016/Allegations-of-Harassment-or-Bullying.xlsx"
+          },
+          "https_data.wa.gov_api_v3_views_f6w7-q2d2_export.csv?accessType=DOWNLOAD.csv": {
+            "descripcion": "https://data.wa.gov/api/v3/views/f6w7-q2d2/export.csv?accessType=DOWNLOAD",
+            "url_descarga": "https://data.wa.gov/api/v3/views/f6w7-q2d2/export.csv?accessType=DOWNLOAD"
+          },
+          "Download_Full_Report_-_Most_Clicked_Outbound_Links.csv": {
+            "descripcion": "Download Full Report -\n            Most Clicked Outbound Links",
+            "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__link_requests__last30.2026-07-31.csv"
+          },
+          "Download_Full_Report_-_Number_of_Datasets_per_Organization.csv": {
+            "descripcion": "Download Full Report -\n            Number of Datasets per Organization",
+            "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__datasets_per_org.2026-07-31.csv"
+          },
+          "Download_Full_Report_-_Number_of_Harvest_Sources_per_Organization.csv": {
+            "descripcion": "Download Full Report -\n            Number of Harvest Sources per Organization",
+            "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__harvest_sources.2026-07-31.csv"
+          }
+        }
+      }
+    },
+    "Open_Government": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "CSV.csv": {
+            "descripcion": "CSV",
+            "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_intl.csv"
+          }
+        }
+      }
+    },
+    "User_Guide": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "OPEN_Government_Data_Act.csv": {
+            "descripcion": "OPEN Government Data Act",
+            "url_descarga": "https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf"
+          }
+        }
+      }
+    },
+    "About_Us": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Foundations_for_Evidence-Based_Policymaking_Act.csv": {
+            "descripcion": "Foundations for Evidence-Based Policymaking\n          Act",
+            "url_descarga": "https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf"
+          }
+        }
+      }
+    },
+    "Explore_the_timeline": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Memorandum.csv": {
+            "descripcion": "Memorandum",
+            "url_descarga": "https://www.archives.gov/files/cui/documents/2009-WH-memo-on-transparency-and-open-government.pdf"
+          },
+          "Policy.csv": {
+            "descripcion": "Policy",
+            "url_descarga": "https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2013/m-13-13.pdf"
+          },
+          "law.csv": {
+            "descripcion": "law",
+            "url_descarga": "https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf"
+          }
+        }
+      }
+    },
+    "About": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Foundations_for_Evidence-Based_Policymaking_Act.csv": {
+            "descripcion": "Foundations for Evidence-Based Policymaking\n          Act",
+            "url_descarga": "https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf"
+          }
+        }
+      }
+    },
+    "Website_Policies": {
+      "REPORTE_Y_CONSULTAS": {
+        "CONTENIDO_WEB": {
+          "Social_Security_numbers.csv": {
+            "descripcion": "Social Security numbers",
+            "url_descarga": "https://www.ssa.gov/pubs/EN-05-10220.pdf"
+          }
+        }
+      }
+    }
+  }
+}
