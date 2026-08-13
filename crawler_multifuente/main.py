@@ -1,9 +1,14 @@
 from __future__ import annotations
 
 import argparse
+import time
 from collections import Counter
+from datetime import datetime, timezone
 from pathlib import Path
 
+from adapters import build_adapter
+from core.archive_inspector import ArchiveInspector
+from core.exporter import export_source_map
 from core.file_detector import FileDetector
 from core.http_client import HttpClient
 from core.navigator import NavigationResult, Navigator
@@ -12,6 +17,13 @@ from core.source_config import SourceConfig, load_source_config
 
 BASE_DIR = Path(__file__).resolve().parent
 SOURCES_DIR = BASE_DIR / "sources"
+OUTPUT_DIR = BASE_DIR / "output"
+
+
+def utc_iso() -> str:
+    return datetime.now(
+        timezone.utc
+    ).isoformat()
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -22,203 +34,355 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         "source",
         nargs="?",
-        default="asfi",
         help=(
-            "Identificador de la fuente configurada en sources/. "
-            "Ejemplos: asfi, aetn."
+            "ID de una fuente configurada. "
+            "Ejemplos: asfi, aetn, bcb."
+        ),
+    )
+
+    parser.add_argument(
+        "--all",
+        action="store_true",
+        help="Ejecuta todas las fuentes configuradas.",
+    )
+
+    parser.add_argument(
+        "--verbose",
+        action="store_true",
+        help=(
+            "Muestra al finalizar todas las páginas "
+            "y archivos encontrados."
+        ),
+    )
+
+    parser.add_argument(
+        "--fast-scan",
+        action="store_true",
+        help=(
+            "Realiza una prueba rápida de descubrimiento. "
+            "Detecta ZIP pero no los descarga ni inspecciona."
         ),
     )
 
     return parser.parse_args()
 
 
-def resolve_config_path(source_id: str) -> Path:
-    """
-    Resuelve de forma segura el archivo JSON correspondiente
-    a una fuente configurada.
-    """
-    normalized = source_id.strip().lower()
+def available_sources() -> list[str]:
+    return sorted(
+        path.stem
+        for path in SOURCES_DIR.glob(
+            "*.json"
+        )
+    )
+
+
+def resolve_config_path(
+    source_id: str,
+) -> Path:
+    normalized = (
+        source_id
+        .strip()
+        .lower()
+    )
 
     if not normalized:
         raise ValueError(
-            "El identificador de la fuente no puede estar vacío."
+            "El identificador de la fuente "
+            "no puede estar vacío."
         )
 
     valid = all(
-        character.isalnum() or character in {"_", "-"}
+        character.isalnum()
+        or character in {
+            "_",
+            "-",
+        }
         for character in normalized
     )
 
     if not valid:
         raise ValueError(
-            f"Identificador de fuente inválido: {source_id}"
+            "Identificador de fuente inválido: "
+            f"{source_id}"
         )
 
-    config_path = SOURCES_DIR / f"{normalized}.json"
+    config_path = (
+        SOURCES_DIR
+        / f"{normalized}.json"
+    )
 
     if not config_path.exists():
-        available_sources = sorted(
-            path.stem
-            for path in SOURCES_DIR.glob("*.json")
+        sources = ", ".join(
+            available_sources()
         )
 
-        available_text = ", ".join(available_sources)
-
         raise FileNotFoundError(
-            f"No existe configuración para '{normalized}'. "
-            f"Fuentes disponibles: {available_text}"
+            f"No existe configuración para "
+            f"'{normalized}'. "
+            f"Fuentes disponibles: {sources}"
         )
 
     return config_path
 
 
-def print_configuration(config: SourceConfig) -> None:
+def print_configuration(
+    config: SourceConfig,
+    *,
+    fast_scan: bool,
+) -> None:
     print("=" * 80)
     print("CRAWLER MULTI-FUENTE")
     print("=" * 80)
 
-    print(f"Fuente:             {config.nombre}")
-    print(f"ID:                 {config.id_fuente}")
-    print(f"URL base:           {config.base_url}")
-    print(f"Profundidad máxima: {config.max_depth}")
-    print(f"Máximo páginas:     {config.max_pages}")
-    print(f"Máximo archivos:    {config.max_files}")
-    print(f"Pausa:              {config.delay_seconds} segundos")
-    print(f"Timeout:             {config.request_timeout} segundos")
-    print(f"Inspeccionar ZIP:    {config.inspect_zips}")
+    print(
+        f"Fuente:             "
+        f"{config.nombre}"
+    )
+
+    print(
+        f"ID:                 "
+        f"{config.id_fuente}"
+    )
+
+    print(
+        f"URL base:           "
+        f"{config.base_url}"
+    )
+
+    print(
+        f"Entry points:       "
+        f"{len(config.get_entrypoints())}"
+    )
+
+    print(
+        f"Profundidad máxima: "
+        f"{config.max_depth}"
+    )
+
+    print(
+        f"Máximo páginas:     "
+        f"{config.max_pages}"
+    )
+
+    print(
+        f"Máximo archivos:    "
+        f"{config.max_files}"
+    )
+
+    if fast_scan:
+        print(
+            "Modo:               FAST SCAN"
+        )
+
+        print(
+            "Inspección ZIP:     NO "
+            "(se detectan, no se descargan)"
+        )
+
+    else:
+        print(
+            "Modo:               COMPLETO"
+        )
+
+        print(
+            f"Inspección ZIP:     "
+            f"{config.inspect_zips}"
+        )
 
     print()
 
 
-def print_pages(result: NavigationResult) -> None:
+def print_pages(
+    result: NavigationResult,
+) -> None:
+    print()
     print("-" * 80)
     print("PÁGINAS VISITADAS")
     print("-" * 80)
-
-    if not result.pages:
-        print("No se visitaron páginas HTML.")
-        return
 
     for index, page in enumerate(
         result.pages,
         start=1,
     ):
         print(
-            f"[{index:03}] "
-            f"profundidad={page.depth} | "
+            f"[{index:04}] "
+            f"d={page.depth} | "
             f"{page.url}"
         )
 
-        if page.title:
-            print(
-                f"      título: {page.title}"
-            )
 
-
-def print_files(result: NavigationResult) -> None:
+def print_files(
+    result: NavigationResult,
+) -> None:
     print()
     print("-" * 80)
     print("ARCHIVOS ENCONTRADOS")
     print("-" * 80)
 
-    if not result.files:
-        print("No se encontraron archivos descargables.")
-        return
-
-    for index, file in enumerate(
+    for index, item in enumerate(
         result.files,
         start=1,
     ):
-        print(
-            f"[{index:03}] "
-            f"{(file.file_type or 'desconocido').upper():6} | "
-            f"{file.url}"
+        file_type = (
+            item.file_type
+            or "desconocido"
         )
 
-        if file.link_text:
-            print(
-                f"      texto: {file.link_text}"
-            )
-
-        if file.source_page:
-            print(
-                f"      origen: {file.source_page}"
-            )
-
         print(
-            f"      detección: {file.detected_by}"
+            f"[{index:04}] "
+            f"{file_type.upper():7} | "
+            f"{item.url}"
         )
+
+
+def count_zip_information(
+    result: NavigationResult,
+) -> tuple[int, int]:
+    zip_count = 0
+    zip_entries = 0
+
+    for item in result.files:
+        if item.file_type != "zip":
+            continue
+
+        zip_count += 1
+
+        zip_entries += len(
+            item.contenido_zip
+        )
+
+    return (
+        zip_count,
+        zip_entries,
+    )
 
 
 def print_summary(
     config: SourceConfig,
     result: NavigationResult,
+    output_path: Path,
+    duration_seconds: float,
+    *,
+    fast_scan: bool,
 ) -> None:
     print()
     print("=" * 80)
-    print("RESUMEN DE EJECUCIÓN")
+    print("RESUMEN")
     print("=" * 80)
 
-    print(f"Fuente:              {config.id_fuente}")
-    print(f"Páginas visitadas:   {result.total_pages}")
-    print(f"Archivos encontrados:{result.total_files:>4}")
-    print(f"Errores:              {result.total_errors}")
+    print(
+        f"Fuente:              "
+        f"{config.id_fuente}"
+    )
+
+    print(
+        f"Páginas visitadas:   "
+        f"{result.total_pages}"
+    )
+
+    print(
+        f"Archivos encontrados:"
+        f"{result.total_files:>5}"
+    )
+
+    print(
+        f"Errores:              "
+        f"{result.total_errors}"
+    )
+
     print(
         f"Motivo de parada:     "
-        f"{result.stop_reason or 'recorrido finalizado'}"
+        f"{result.stop_reason or 'recorrido_finalizado'}"
+    )
+
+    print(
+        f"Duración:             "
+        f"{duration_seconds:.2f} s"
     )
 
     if result.files:
-        type_counter = Counter(
-            file.file_type or "desconocido"
-            for file in result.files
+        counter = Counter(
+            item.file_type
+            or "desconocido"
+            for item in result.files
         )
 
         print()
-        print("Archivos por tipo:")
+        print("Tipos encontrados:")
 
         for file_type, quantity in sorted(
-            type_counter.items()
+            counter.items()
         ):
             print(
-                f"  - {file_type.upper():6}: {quantity}"
+                f"  - "
+                f"{file_type.upper():7}: "
+                f"{quantity}"
+            )
+
+    zip_count, zip_entries = (
+        count_zip_information(
+            result
+        )
+    )
+
+    if zip_count:
+        print()
+        print("ZIP:")
+
+        print(
+            f"  - ZIP detectados:       "
+            f"{zip_count}"
+        )
+
+        if fast_scan:
+            print(
+                "  - Inspección interna:    "
+                "omitida por FAST SCAN"
+            )
+
+        else:
+            print(
+                f"  - Archivos internos:    "
+                f"{zip_entries}"
             )
 
     if result.errors:
         print()
-        print("Errores encontrados:")
-
-        for index, error in enumerate(
-            result.errors,
-            start=1,
-        ):
-            print(
-                f"  [{index}] {error}"
-            )
-
-
-def run_crawler(
-    config: SourceConfig,
-) -> NavigationResult:
-    detector = FileDetector(
-        config
-    )
-
-    with HttpClient(config) as client:
-        navigator = Navigator(
-            config=config,
-            client=client,
-            file_detector=detector,
+        print(
+            "Primeros errores:"
         )
 
-        return navigator.crawl()
+        for error in result.errors[:10]:
+            print(
+                f"  - {error}"
+            )
+
+        if len(result.errors) > 10:
+            print(
+                f"  ... y "
+                f"{len(result.errors) - 10} "
+                "más."
+            )
+
+    print()
+
+    print(
+        f"JSON generado: "
+        f"{output_path}"
+    )
 
 
-def main() -> None:
-    args = parse_arguments()
-
+def run_source(
+    source_id: str,
+    *,
+    verbose: bool,
+    fast_scan: bool,
+) -> tuple[
+    SourceConfig,
+    NavigationResult,
+]:
     config_path = resolve_config_path(
-        args.source
+        source_id
     )
 
     config = load_source_config(
@@ -226,26 +390,219 @@ def main() -> None:
     )
 
     print_configuration(
+        config,
+        fast_scan=fast_scan,
+    )
+
+    print(
+        "Iniciando recorrido real...",
+        flush=True,
+    )
+
+    started_at = utc_iso()
+
+    started_monotonic = (
+        time.monotonic()
+    )
+
+    detector = FileDetector(
         config
     )
 
-    print("Iniciando recorrido real...\n")
-
-    result = run_crawler(
+    adapter = build_adapter(
         config
     )
 
-    print_pages(
-        result
+    with HttpClient(
+        config
+    ) as client:
+
+        # FAST SCAN:
+        # los ZIP se descubren pero no se descargan.
+        if (
+            config.inspect_zips
+            and not fast_scan
+        ):
+            archive_inspector = (
+                ArchiveInspector(
+                    client
+                )
+            )
+
+        else:
+            archive_inspector = None
+
+        navigator = Navigator(
+            config=config,
+            client=client,
+            file_detector=detector,
+            adapter=adapter,
+            archive_inspector=archive_inspector,
+        )
+
+        result = navigator.crawl()
+
+    duration_seconds = (
+        time.monotonic()
+        - started_monotonic
     )
 
-    print_files(
-        result
+    finished_at = utc_iso()
+
+    output_path = export_source_map(
+        config,
+        result,
+        output_dir=OUTPUT_DIR,
+        started_at=started_at,
+        finished_at=finished_at,
+        duration_seconds=duration_seconds,
     )
+
+    if verbose:
+        print_pages(
+            result
+        )
+
+        print_files(
+            result
+        )
 
     print_summary(
         config,
         result,
+        output_path,
+        duration_seconds,
+        fast_scan=fast_scan,
+    )
+
+    return (
+        config,
+        result,
+    )
+
+
+def run_all_sources(
+    *,
+    verbose: bool,
+    fast_scan: bool,
+) -> None:
+    sources = available_sources()
+
+    if not sources:
+        raise RuntimeError(
+            "No existen fuentes configuradas."
+        )
+
+    print(
+        f"Ejecutando {len(sources)} "
+        "fuente(s)..."
+    )
+
+    successful = 0
+    failed = 0
+
+    results: list[
+        dict[str, object]
+    ] = []
+
+    for index, source_id in enumerate(
+        sources,
+        start=1,
+    ):
+        print()
+        print("#" * 80)
+
+        print(
+            f"[{index}/{len(sources)}] "
+            f"{source_id.upper()}"
+        )
+
+        print("#" * 80)
+
+        try:
+            config, result = run_source(
+                source_id,
+                verbose=verbose,
+                fast_scan=fast_scan,
+            )
+
+            successful += 1
+
+            results.append(
+                {
+                    "fuente": config.id_fuente,
+                    "paginas": result.total_pages,
+                    "archivos": result.total_files,
+                    "errores": result.total_errors,
+                    "estado": "OK",
+                }
+            )
+
+        except Exception as exc:
+            failed += 1
+
+            results.append(
+                {
+                    "fuente": source_id,
+                    "paginas": 0,
+                    "archivos": 0,
+                    "errores": 1,
+                    "estado": "ERROR",
+                    "detalle": str(exc),
+                }
+            )
+
+            print(
+                f"ERROR EN {source_id}: "
+                f"{exc}",
+                flush=True,
+            )
+
+    print()
+    print("=" * 80)
+    print("RESULTADO GLOBAL")
+    print("=" * 80)
+
+    for row in results:
+        print(
+            f"{str(row['fuente']):<15} "
+            f"| {str(row['estado']):<5} "
+            f"| páginas={str(row['paginas']):<6} "
+            f"| archivos={str(row['archivos']):<6} "
+            f"| errores={row['errores']}"
+        )
+
+    print()
+
+    print(
+        f"Correctas: {successful}"
+    )
+
+    print(
+        f"Con error: {failed}"
+    )
+
+
+def main() -> None:
+    args = parse_arguments()
+
+    if args.all:
+        run_all_sources(
+            verbose=args.verbose,
+            fast_scan=args.fast_scan,
+        )
+
+        return
+
+    source_id = (
+        args.source
+        or "asfi"
+    )
+
+    run_source(
+        source_id,
+        verbose=args.verbose,
+        fast_scan=args.fast_scan,
     )
 
 

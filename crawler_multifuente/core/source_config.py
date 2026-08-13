@@ -366,7 +366,7 @@ def load_source_config(
     try:
         with path.open(
             "r",
-            encoding="utf-8",
+            encoding="utf-8-sig",
         ) as file:
             data = json.load(file)
 

@@ -1,0 +1,28 @@
+﻿{
+    "id_fuente":  "sigma",
+    "nombre":  "Industria Farmacéutica Sigma",
+    "base_url":  "https://www.sigmacorp.com.bo/",
+    "allowed_domains":  [
+                            "sigmacorp.com.bo"
+                        ],
+    "entrypoints":  [
+                        "https://www.sigmacorp.com.bo/"
+                    ],
+    "extensions":  [
+                       ".pdf",
+                       ".xlsx",
+                       ".xls",
+                       ".csv",
+                       ".doc",
+                       ".docx",
+                       ".zip",
+                       ".ods",
+                       ".txt"
+                   ],
+    "max_depth":  3,
+    "max_pages":  25,
+    "max_files":  500,
+    "delay_seconds":  0.8,
+    "request_timeout":  20,
+    "inspect_zips":  true
+}
