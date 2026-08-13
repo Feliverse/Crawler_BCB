@@ -130,6 +130,23 @@ def obtener_headers():
     }
 
 
+# Set completo de cabeceras de navegador. Algunos WAF (Akamai en el FMI, por ejemplo)
+# devuelven 403 si falta cualquiera de estas; con el set completo responden normal.
+HEADERS_COMPLETOS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+    'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    'Sec-Ch-Ua-Mobile': '?0',
+    'Sec-Ch-Ua-Platform': '"Windows"',
+    'Sec-Fetch-Dest': 'document',
+    'Sec-Fetch-Mode': 'navigate',
+    'Sec-Fetch-Site': 'none',
+    'Sec-Fetch-User': '?1',
+    'Upgrade-Insecure-Requests': '1',
+}
+
+
 def normalizar_nombre(texto):
     texto = unquote(texto).strip()
     texto = re.sub(r'[\s/\\:]+', '_', texto)
@@ -262,13 +279,144 @@ def segmentos_de(url, filtrar_tecnicos=True):
 
 
 # --------------------------------------------------------------------------
+# Sondas de plataforma (estandares web, agnosticas de la fuente)
+# --------------------------------------------------------------------------
+
+# Señales de que la pagina arma su contenido por JavaScript contra un API:
+# si aparecen, el HTML estatico no cuenta la historia completa.
+PATRON_API_EMBEBIDA = re.compile(r'https?://[^"\'\s<>]{4,150}/api/[^"\'\s<>]{2,100}')
+PATRON_CONTENIDO_DINAMICO = re.compile(r'\{\{[^}]{1,80}\}\}|ng-app|ng-controller|__NEXT_DATA__|v-for=')
+
+
+def sondear_wordpress(base, sesion, estado, resumen):
+    """Si el sitio es WordPress, su API de medios lista TODOS los archivos subidos,
+    incluso los que el HTML no enlaza (visores JS, migraciones que rompieron enlaces).
+    Es un estandar de la plataforma, no algo propio de una fuente.
+    """
+    archivos = {}
+    for pagina in range(1, 6):
+        url = f"{base}/wp-json/wp/v2/media?media_type=application&per_page=100&page={pagina}"
+        try:
+            r = sesion.get(url, headers=estado['headers'], timeout=TIEMPO_ESPERA,
+                           verify=estado['ssl'])
+            if r.status_code != 200 or 'json' not in (r.headers.get('content-type') or ''):
+                break
+            items = r.json()
+            if not isinstance(items, list) or not items:
+                break
+        except Exception:
+            break
+
+        for item in items:
+            url_archivo = (item.get('source_url') or '').strip()
+            if not url_archivo or not es_descargable(url_archivo):
+                continue
+            titulo = ((item.get('title') or {}).get('rendered') or '').strip()
+            fecha = normalizar_fecha(item.get('date') or '')
+            archivos[normalizar_url(url_archivo)] = {
+                "descripcion": titulo or nombre_archivo_desde_url(url_archivo),
+                "fecha": fecha,
+                "url_pagina": base,
+            }
+        time.sleep(PAUSA_ENTRE_PAGINAS)
+
+    if archivos:
+        resumen["plataforma"] = "wordpress"
+        print(f"  Sonda WordPress: {len(archivos)} archivos en el API de medios")
+    return archivos
+
+
+def sondear_sitemaps(base, sesion, estado, dominio_valido):
+    """Los sitemaps declaran paginas que el menu no enlaza. Se leen robots.txt y las
+    rutas estandar; devuelve paginas para sembrar el recorrido y archivos directos.
+    """
+    candidatas = [f"{base}/sitemap.xml", f"{base}/sitemap_index.xml", f"{base}/wp-sitemap.xml"]
+    try:
+        r = sesion.get(f"{base}/robots.txt", headers=estado['headers'], timeout=15,
+                       verify=estado['ssl'])
+        if r.status_code == 200:
+            candidatas = re.findall(r'(?im)^sitemap:\s*(\S+)', r.text) + candidatas
+    except Exception:
+        pass
+
+    urls, pendientes, leidos = [], list(dict.fromkeys(candidatas)), 0
+    while pendientes and leidos < 6:
+        sm = pendientes.pop(0)
+        try:
+            r = sesion.get(sm, headers=estado['headers'], timeout=20, verify=estado['ssl'])
+            if r.status_code != 200:
+                continue
+            leidos += 1
+            encontradas = re.findall(r'<loc>\s*([^<\s]+)\s*</loc>', r.text)
+            if '<sitemapindex' in r.text:
+                pendientes = encontradas[:5] + pendientes
+            else:
+                urls.extend(encontradas)
+        except Exception:
+            continue
+
+    semillas, archivos = [], []
+    for u in urls[:500]:
+        if not dominio_valido(urlsplit(u).netloc):
+            continue
+        (archivos if es_descargable(u) else semillas).append(u)
+    return semillas[:40], archivos
+
+
+def detectar_apis(paginas, resumen):
+    """Busca URLs de API embebidas en el HTML (el patron de las tablas Angular/AJAX):
+    no las consume, pero las reporta como candidatas a modulo especifico.
+    """
+    apis = set()
+    dinamico = False
+    for html in paginas.values():
+        if not dinamico and PATRON_CONTENIDO_DINAMICO.search(html):
+            dinamico = True
+        for m in PATRON_API_EMBEBIDA.findall(html):
+            apis.add(m.split('?')[0])
+            if len(apis) >= 8:
+                break
+    if dinamico:
+        resumen["contenido_dinamico"] = True
+    if apis:
+        resumen["apis_detectadas"] = sorted(apis)
+
+
+# --------------------------------------------------------------------------
 # Descubrimiento del sitio
 # --------------------------------------------------------------------------
 
-def descargar_pagina(url, sesion, verificar_ssl=True):
+def descargar_pagina(url, sesion, estado, resumen):
+    """Descarga una pagina HTML recuperandose de los bloqueos tipicos.
+
+    - SSLError con certificado invalido: reintenta sin verificar y lo deja
+      registrado en el resumen (no inventamos seguridad que la fuente no tiene).
+    - 403 de un WAF: reintenta una vez con el set completo de cabeceras de
+      navegador; si funciona, ese set queda activo para el resto del recorrido.
+    Ambas decisiones son por corrida y quedan reportadas.
+    """
+    def pedir():
+        return sesion.get(url, headers=estado['headers'], timeout=TIEMPO_ESPERA,
+                          verify=estado['ssl'])
+
     try:
-        respuesta = sesion.get(url, headers=obtener_headers(), timeout=TIEMPO_ESPERA,
-                               verify=verificar_ssl)
+        try:
+            respuesta = pedir()
+        except requests.exceptions.SSLError:
+            if not estado['ssl']:
+                return None
+            estado['ssl'] = False
+            resumen['ssl_invalido'] = True
+            urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+            respuesta = pedir()
+
+        if respuesta.status_code == 403 and not estado['headers_completos']:
+            estado['headers'] = dict(HEADERS_COMPLETOS)
+            estado['headers_completos'] = True
+            respuesta = pedir()
+            if respuesta.status_code == 200:
+                resumen['bloqueo_evitado'] = True
+
         tipo = (respuesta.headers.get('content-type') or '').lower()
         if respuesta.status_code != 200 or 'html' not in tipo:
             return None
@@ -277,22 +425,12 @@ def descargar_pagina(url, sesion, verificar_ssl=True):
         return None
 
 
-def descubrir(config, sesion, resumen):
-    """Recorrido en anchura del sitio, acotado por profundidad y cantidad de paginas.
-
-    Devuelve {url_pagina: html}. El limite de paginas es lo que evita el bucle
-    infinito que menciona US-01 y protege a la fuente de un barrido desmedido.
+def crear_validador_dominio(config):
+    """Muchas fuentes sirven los archivos desde otro subdominio (repositorio.*, api.*).
+    `dominios_permitidos` amplia el recorrido a esos sufijos sin abrir la puerta a
+    cualquier sitio enlazado.
     """
-    base = config['url_base'].rstrip('/')
-    dominio = urlsplit(base).netloc.lower()
-    profundidad_max = config.get('profundidad_max', 2)
-    paginas_max = config.get('paginas_max', 80)
-    extra_excluir = tuple(p.lower() for p in config.get('excluir', []))
-    verificar_ssl = config.get('verificar_ssl', True)
-
-    # Muchas fuentes sirven los archivos desde otro subdominio (repositorio.*, api.*).
-    # `dominios_permitidos` amplia el recorrido a esos sufijos sin abrir la puerta a
-    # cualquier sitio enlazado.
+    dominio = urlsplit(config['url_base'].rstrip('/')).netloc.lower()
     permitidos = tuple(d.lower().lstrip('.') for d in config.get('dominios_permitidos', []))
 
     def dominio_valido(netloc):
@@ -304,14 +442,30 @@ def descubrir(config, sesion, resumen):
                 return True
         return False
 
+    return dominio_valido
+
+
+def descubrir(config, sesion, estado, resumen, semillas_extra=()):
+    """Recorrido en anchura del sitio, acotado por profundidad y cantidad de paginas.
+
+    Devuelve {url_pagina: html}. El limite de paginas es lo que evita el bucle
+    infinito que menciona US-01 y protege a la fuente de un barrido desmedido.
+    """
+    base = config['url_base'].rstrip('/')
+    profundidad_max = config.get('profundidad_max', 2)
+    paginas_max = config.get('paginas_max', 80)
+    extra_excluir = tuple(p.lower() for p in config.get('excluir', []))
+    dominio_valido = crear_validador_dominio(config)
+
     semillas = [base] + [urljoin(base + '/', r) for r in config.get('rutas_semilla', [])]
+    semillas += [u for u in semillas_extra if u not in semillas]
     pendientes = deque((u, 0) for u in semillas)
     vistas = set(semillas)
     paginas = {}
 
     while pendientes and len(paginas) < paginas_max:
         url, profundidad = pendientes.popleft()
-        html = descargar_pagina(url, sesion, verificar_ssl)
+        html = descargar_pagina(url, sesion, estado, resumen)
         time.sleep(PAUSA_ENTRE_PAGINAS)
         if html is None:
             resumen["paginas_fallidas"] += 1
@@ -490,22 +644,51 @@ def mapear_fuente(config):
 
     raiz = config.get("raiz") or f"{config['id_fuente'].upper()}"
     arbol = {raiz: {}}
+    base = config['url_base'].rstrip('/')
     tags_manuales = config.get("tags", [])
-    verificar_ssl = config.get("verificar_ssl", True)
-    if not verificar_ssl:
-        # Certificado invalido documentado en la fuente; se silencia el aviso repetido
+    dominio_valido = crear_validador_dominio(config)
+
+    # Estado HTTP mutable de la corrida: si un WAF exige headers completos o el
+    # certificado es invalido, el ajuste se hace una vez y persiste el resto.
+    estado = {
+        "headers": obtener_headers(),
+        "headers_completos": False,
+        "ssl": config.get("verificar_ssl", True),
+    }
+    if not estado["ssl"]:
+        resumen['ssl_invalido'] = True
         urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
     sesion = requests.Session()
+
+    # Sondas de plataforma antes del recorrido: sitemaps para sembrar paginas que el
+    # menu no enlaza, y el API de medios si el sitio es WordPress.
+    archivos_wp = sondear_wordpress(base, sesion, estado, resumen)
+    semillas_sitemap, archivos_sitemap = sondear_sitemaps(base, sesion, estado, dominio_valido)
+    if semillas_sitemap:
+        print(f"  Sonda sitemap: {len(semillas_sitemap)} paginas y {len(archivos_sitemap)} archivos declarados")
+
     print(f"  Descubriendo paginas (profundidad {config.get('profundidad_max', 2)}, "
           f"tope {config.get('paginas_max', 80)})...")
-    paginas = descubrir(config, sesion, resumen)
+    paginas = descubrir(config, sesion, estado, resumen, semillas_extra=semillas_sitemap)
     print(f"  Paginas visitadas: {resumen['paginas_visitadas']}")
+    if resumen['paginas_visitadas'] >= config.get('paginas_max', 80):
+        resumen["tope_alcanzado"] = True
 
-    candidatos = {}
+    detectar_apis(paginas, resumen)
+
+    candidatos = dict(archivos_wp)
+    for u in archivos_sitemap:
+        candidatos.setdefault(normalizar_url(u), {
+            "descripcion": nombre_archivo_desde_url(u),
+            "fecha": None,
+            "url_pagina": base,
+        })
     for url_pagina, html in paginas.items():
         for url, datos in extraer_de_pagina(url_pagina, html, config['url_base']).items():
-            candidatos.setdefault(url, datos)
+            # El HTML gana sobre las sondas: trae descripcion y fecha visibles
+            candidatos[url] = datos if url not in archivos_wp else {**candidatos[url], **{
+                k: v for k, v in datos.items() if v}}
     print(f"  Archivos descargables detectados: {len(candidatos)}")
 
     if not candidatos:
@@ -513,7 +696,7 @@ def mapear_fuente(config):
 
     with ThreadPoolExecutor(HILOS_METADATOS) as ejecutor:
         resueltos = dict(ejecutor.map(
-            partial(resolver_metadatos, verificar_ssl=verificar_ssl),
+            partial(resolver_metadatos, verificar_ssl=estado['ssl']),
             candidatos.items(),
         ))
 
@@ -530,7 +713,7 @@ def mapear_fuente(config):
 
         if es_comprimido(url):
             resumen["comprimidos"] += 1
-            interiores = listar_comprimido(url, datos.get("tamanio"), verificar_ssl)
+            interiores = listar_comprimido(url, datos.get("tamanio"), estado['ssl'])
             grupo = normalizar_nombre(nombre.rsplit('.', 1)[0])
             for ruta_interna, tamanio in interiores:
                 hijo = {
@@ -606,6 +789,22 @@ def main():
         print(f"  Peso declarado       : {resumen['bytes'] / 1048576:.0f} MB")
         print(f"  Tiempo               : {segundos:.0f}s  ->  {archivo}")
 
+        # Diagnosticos que orientan el paso siguiente sobre la fuente
+        if resumen.get("tope_alcanzado"):
+            print("  DIAGNOSTICO: se alcanzo el tope de paginas — hay mas contenido, subir paginas_max")
+        if resumen.get("ssl_invalido"):
+            print("  DIAGNOSTICO: certificado TLS invalido en la fuente (se continuo sin verificar)")
+        if resumen.get("bloqueo_evitado"):
+            print("  DIAGNOSTICO: la fuente devolvio 403 y se recupero con headers completos de navegador")
+        if resumen["enlaces_rotos"] > 10 and resumen["enlaces_rotos"] > resumen["documentos"]:
+            print("  DIAGNOSTICO: la mayoria de los enlaces estan rotos — posible migracion del sitio (RF-04)")
+        if resumen.get("apis_detectadas"):
+            print("  DIAGNOSTICO: APIs embebidas en el HTML (candidatas a modulo especifico):")
+            for api in resumen["apis_detectadas"]:
+                print(f"    - {api}")
+        elif resumen.get("contenido_dinamico"):
+            print("  DIAGNOSTICO: hay contenido renderizado por JS — puede existir mas de lo que el HTML muestra")
+
         reporte.append({
             "id_fuente": config['id_fuente'],
             "nombre": config.get('nombre', ''),
@@ -617,6 +816,12 @@ def main():
             "archivos_en_comprimidos": resumen["dentro_de_comprimidos"],
             "megabytes": round(resumen["bytes"] / 1048576, 1),
             "segundos": round(segundos),
+            "plataforma": resumen.get("plataforma"),
+            "tope_alcanzado": resumen.get("tope_alcanzado", False),
+            "ssl_invalido": resumen.get("ssl_invalido", False),
+            "bloqueo_evitado": resumen.get("bloqueo_evitado", False),
+            "contenido_dinamico": resumen.get("contenido_dinamico", False),
+            "apis_detectadas": resumen.get("apis_detectadas", []),
         })
 
     ruta_reporte = os.path.join(args.salida, "reporte.json")

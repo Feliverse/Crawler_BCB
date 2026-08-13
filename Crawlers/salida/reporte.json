@@ -1,165 +1,22 @@
 [
     {
-        "id_fuente": "anapo",
-        "estado": "OK",
-        "documentos": 268,
-        "con_fecha": 268,
-        "megabytes": 345.0,
-        "periodicidades": {},
-        "nota": "API WordPress: nueva direccion de los enlaces rotos (RF-05)"
-    },
-    {
         "id_fuente": "aps",
+        "nombre": "Autoridad de Fiscalizacion y Control de Pensiones y Seguros",
         "estado": "OK",
         "documentos": 154,
-        "con_fecha": 114,
-        "megabytes": 811.7,
-        "periodicidades": {
-            "anual": 21,
-            "mensual": 3
-        },
-        "nota": "41 secciones + modulo API SIRECI aparte (+723 docs)"
-    },
-    {
-        "id_fuente": "asfi_valores",
-        "estado": "OK",
-        "documentos": 2096,
-        "con_fecha": 2091,
-        "megabytes": 3165.5,
-        "periodicidades": {
-            "trimestral": 28,
-            "anual": 61,
-            "semestral": 6
-        },
-        "nota": "prof.3 + semillas; 193 ZIP -> 385 internos"
-    },
-    {
-        "id_fuente": "bcb",
-        "estado": "OK",
-        "documentos": 3484,
-        "con_fecha": 1961,
-        "megabytes": 4014.5,
-        "periodicidades": {
-            "anual": 197,
-            "semanal": 109,
-            "mensual": 76,
-            "diaria": 2,
-            "trimestral": 1,
-            "semestral": 5
-        },
-        "nota": "prof.3 + semillas estadisticas; 138 ZIP abiertos"
-    },
-    {
-        "id_fuente": "bm",
-        "estado": "OK",
-        "documentos": 3080,
-        "con_fecha": 3079,
-        "megabytes": 0.0,
-        "periodicidades": {},
-        "nota": "API Documents & Reports, filtro Bolivia"
-    },
-    {
-        "id_fuente": "cepal",
-        "estado": "OK",
-        "documentos": 130,
-        "con_fecha": 101,
-        "megabytes": 172.3,
-        "periodicidades": {
-            "anual": 4
-        },
-        "nota": "HTML multi-dominio"
-    },
-    {
-        "id_fuente": "cepal_repositorio",
-        "estado": "OK",
-        "documentos": 500,
-        "con_fecha": 455,
-        "megabytes": 5161.0,
-        "periodicidades": {},
-        "nota": "API DSpace: 500 recientes de 49.969 publicaciones"
-    },
-    {
-        "id_fuente": "fegasacruz",
-        "estado": "SIN_ARCHIVOS",
-        "documentos": 0,
-        "con_fecha": 0,
-        "megabytes": 0.0,
-        "periodicidades": {},
-        "nota": "NO VIABLE: dominio muerto y sitio placeholder"
-    },
-    {
-        "id_fuente": "finrural",
-        "estado": "OK",
-        "documentos": 129,
-        "con_fecha": 127,
-        "megabytes": 4.0,
-        "periodicidades": {
-            "mensual": 125
-        },
-        "nota": "dominio corregido (.org.bo)"
-    },
-    {
-        "id_fuente": "fmi",
-        "estado": "OK",
-        "documentos": 132,
-        "con_fecha": 132,
-        "megabytes": 0.0,
-        "periodicidades": {
-            "anual": 132
-        },
-        "nota": "API DataMapper con headers completos anti-Akamai"
-    },
-    {
-        "id_fuente": "mefp",
-        "estado": "OK",
-        "documentos": 1136,
-        "con_fecha": 1136,
-        "megabytes": 2602.8,
-        "periodicidades": {
-            "anual": 170,
-            "trimestral": 1,
-            "semestral": 1
-        },
-        "nota": "TLS invalido manejado; prof.3"
-    },
-    {
-        "id_fuente": "mmym",
-        "estado": "OK",
-        "documentos": 156,
-        "con_fecha": 156,
-        "megabytes": 940.7,
-        "periodicidades": {},
-        "nota": "servidor lento"
-    },
-    {
-        "id_fuente": "omc",
-        "estado": "OK",
-        "documentos": 462,
-        "con_fecha": 35,
-        "megabytes": 266.6,
-        "periodicidades": {},
-        "nota": "7 ZIP -> 314 internos"
-    },
-    {
-        "id_fuente": "statistics_denmark",
-        "estado": "OK",
-        "documentos": 2315,
-        "con_fecha": 2315,
-        "megabytes": 0.0,
-        "periodicidades": {
-            "trimestral": 252,
-            "mensual": 223,
-            "anual": 1760
-        },
-        "nota": "API Statbank: catalogo completo con periodicidad"
-    },
-    {
-        "id_fuente": "vipfe",
-        "estado": "OK",
-        "documentos": 37,
-        "con_fecha": 37,
-        "megabytes": 29.5,
-        "periodicidades": {},
-        "nota": "sitio caido; datos via portal MEFP"
+        "paginas_visitadas": 74,
+        "enlaces_rotos": 13,
+        "comprimidos": 3,
+        "archivos_en_comprimidos": 9,
+        "megabytes": 810.7,
+        "segundos": 56,
+        "plataforma": null,
+        "tope_alcanzado": false,
+        "ssl_invalido": false,
+        "bloqueo_evitado": false,
+        "contenido_dinamico": true,
+        "apis_detectadas": [
+            "https://sireci.aps.gob.bo/api/cartas_resoluciones/web/data"
+        ]
     }
 ]

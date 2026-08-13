@@ -10,7 +10,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -27,7 +27,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -44,7 +44,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -61,7 +61,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -78,7 +78,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": "anual",
                         "tags": [
@@ -95,7 +95,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -118,7 +118,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -127,6 +127,27 @@
                             "seguros"
                         ],
                         "tamanio_bytes": 10177049
+                    }
+                }
+            },
+            "procesos": {
+                "ARCHIVOS": {
+                    "Manual_de_Procesos.pdf": {
+                        "descripcion": "Manual_de_Procesos.pdf",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPE/procesos/Manual%20de%20Procesos.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=60",
+                        "entidad_emisora": "APS",
+                        "periodicidad": null,
+                        "tags": [
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 9055408
                     }
                 }
             }
@@ -141,7 +162,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -236,7 +257,7 @@
                         "fecha_ultimo_dato": "2025-10-09",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=122",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -259,7 +280,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -276,7 +297,7 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo",
+                        "url_origen": "https://www.aps.gob.bo/index.php",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -290,27 +311,34 @@
                 }
             }
         },
-        "PENSIONES": {
+        "TRANSPARENCIA": {
             "normativa": {
                 "ARCHIVOS": {
                     "Constitucion_Politica_del_Estado.pdf": {
-                        "descripcion": "- - 07/02/2009 Constitución Política del Estado Ver",
+                        "descripcion": "07/02/2009 CONSTITUCIÓN POLÍTICA DEL ESTADO PLURINACIONAL DE BOLIVIA (7-Febrero- 2009 ) Ver",
                         "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Constitucion_Politica_del_Estado.pdf",
                         "fecha_actualizacion": "2009-02-07",
                         "fecha_ultimo_dato": "2009-02-07",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "url_origen": "https://www.aps.gob.bo/index.php/transparencia/normativa",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
                             "normativa",
                             "pensiones",
                             "regulacion",
-                            "seguros"
+                            "seguros",
+                            "transparencia"
                         ],
                         "tamanio_bytes": 6029436
-                    },
+                    }
+                }
+            }
+        },
+        "PENSIONES": {
+            "normativa": {
+                "ARCHIVOS": {
                     "Ley_1732.pdf": {
                         "descripcion": "Ley 3791 28/11/2007 Ley de la Renta Universal de Vejez (RENTA DIGNIDAD)) Ver",
                         "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Ley_1732.pdf",
@@ -944,294 +972,6 @@
                         ],
                         "tamanio_bytes": 3936179
                     },
-                    "Principios_de_Derecho_Administrativo.pdf": {
-                        "descripcion": "Principios del Derecho Administrativo Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRINCIPIOS%20DERECHO%20ADMINISTRATIVO/Principios_de_Derecho_Administrativo.pdf",
-                        "fecha_actualizacion": null,
-                        "fecha_ultimo_dato": null,
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 505043
-                    },
-                    "PA_2009-2010.pdf": {
-                        "descripcion": "Precedentes Administrativos Gestiones 2009-2010 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2009-2010.pdf",
-                        "fecha_actualizacion": "2009-01-01",
-                        "fecha_ultimo_dato": "2009-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 1858558
-                    },
-                    "PA_2011-2012.pdf": {
-                        "descripcion": "Precedentes Administrativos Gestiones 2011-2012 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2011-2012.pdf",
-                        "fecha_actualizacion": "2011-01-01",
-                        "fecha_ultimo_dato": "2011-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 1215102
-                    },
-                    "PA_2013-2014.pdf": {
-                        "descripcion": "Precedentes Administrativos Gestiones 2013-2014 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2013-2014.pdf",
-                        "fecha_actualizacion": "2013-01-01",
-                        "fecha_ultimo_dato": "2013-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 494005
-                    },
-                    "PA_2015-2016.pdf": {
-                        "descripcion": "Precedentes Administrativos Gestiones 2015-2016 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2015-2016.pdf",
-                        "fecha_actualizacion": "2015-01-01",
-                        "fecha_ultimo_dato": "2015-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 818730
-                    },
-                    "PA_2018.pdf": {
-                        "descripcion": "Precedentes Administrativos Gestiones 2018 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2018.pdf",
-                        "fecha_actualizacion": "2018-01-01",
-                        "fecha_ultimo_dato": "2018-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 1026509
-                    },
-                    "RMJ_2009.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2009 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2009.pdf",
-                        "fecha_actualizacion": "2009-01-01",
-                        "fecha_ultimo_dato": "2009-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 5871821
-                    },
-                    "RMJ_2010.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2010 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2010.pdf",
-                        "fecha_actualizacion": "2010-01-01",
-                        "fecha_ultimo_dato": "2010-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 10498366
-                    },
-                    "RMJ_2011.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2011 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2011.pdf",
-                        "fecha_actualizacion": "2011-01-01",
-                        "fecha_ultimo_dato": "2011-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 29408189
-                    },
-                    "RMJ_2012.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2012 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2012.pdf",
-                        "fecha_actualizacion": "2012-01-01",
-                        "fecha_ultimo_dato": "2012-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 36021535
-                    },
-                    "RMJ_2013.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2013 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2013.pdf",
-                        "fecha_actualizacion": "2013-01-01",
-                        "fecha_ultimo_dato": "2013-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 43722854
-                    },
-                    "RMJ_2014.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2014 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2014.pdf",
-                        "fecha_actualizacion": "2014-01-01",
-                        "fecha_ultimo_dato": "2014-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 61478336
-                    },
-                    "RMJ_2015.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2015 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2015.pdf",
-                        "fecha_actualizacion": "2015-01-01",
-                        "fecha_ultimo_dato": "2015-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 37229739
-                    },
-                    "RMJ_2016.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2016 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2016.pdf",
-                        "fecha_actualizacion": "2016-01-01",
-                        "fecha_ultimo_dato": "2016-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 37716347
-                    },
-                    "RMJ_2017.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2017 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2017.pdf",
-                        "fecha_actualizacion": "2017-01-01",
-                        "fecha_ultimo_dato": "2017-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 167010871
-                    },
-                    "RMJ_2018.pdf": {
-                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2018 Ver",
-                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2018.pdf",
-                        "fecha_actualizacion": "2018-01-01",
-                        "fecha_ultimo_dato": "2018-01-01",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
-                        "entidad_emisora": "APS",
-                        "periodicidad": "anual",
-                        "tags": [
-                            "normativa",
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 60078058
-                    },
                     "020-RJ-06-2003.pdf": {
                         "descripcion": "Resolución Jerárquica SG SIREFI RJ Ver",
                         "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/020-RJ-06-2003.pdf",
@@ -1494,6 +1234,294 @@
         "SEGUROS": {
             "normativa": {
                 "ARCHIVOS": {
+                    "Principios_de_Derecho_Administrativo.pdf": {
+                        "descripcion": "Principios del Derecho Administrativo Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRINCIPIOS%20DERECHO%20ADMINISTRATIVO/Principios_de_Derecho_Administrativo.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": null,
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 505043
+                    },
+                    "PA_2009-2010.pdf": {
+                        "descripcion": "Precedentes Administrativos Gestiones 2009-2010 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2009-2010.pdf",
+                        "fecha_actualizacion": "2009-01-01",
+                        "fecha_ultimo_dato": "2009-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": null,
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 1858558
+                    },
+                    "PA_2011-2012.pdf": {
+                        "descripcion": "Precedentes Administrativos Gestiones 2011-2012 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2011-2012.pdf",
+                        "fecha_actualizacion": "2011-01-01",
+                        "fecha_ultimo_dato": "2011-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": null,
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 1215102
+                    },
+                    "PA_2013-2014.pdf": {
+                        "descripcion": "Precedentes Administrativos Gestiones 2013-2014 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2013-2014.pdf",
+                        "fecha_actualizacion": "2013-01-01",
+                        "fecha_ultimo_dato": "2013-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": null,
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 494005
+                    },
+                    "PA_2015-2016.pdf": {
+                        "descripcion": "Precedentes Administrativos Gestiones 2015-2016 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2015-2016.pdf",
+                        "fecha_actualizacion": "2015-01-01",
+                        "fecha_ultimo_dato": "2015-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": null,
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 818730
+                    },
+                    "PA_2018.pdf": {
+                        "descripcion": "Precedentes Administrativos Gestión 2018 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES%20ADMINISTRATIVOS/PA_2018.pdf",
+                        "fecha_actualizacion": "2018-01-01",
+                        "fecha_ultimo_dato": "2018-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 1026509
+                    },
+                    "RMJ_2009.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2009 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2009.pdf",
+                        "fecha_actualizacion": "2009-01-01",
+                        "fecha_ultimo_dato": "2009-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 5871821
+                    },
+                    "RMJ_2010.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2010 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2010.pdf",
+                        "fecha_actualizacion": "2010-01-01",
+                        "fecha_ultimo_dato": "2010-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 10498366
+                    },
+                    "RMJ_2011.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2011 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2011.pdf",
+                        "fecha_actualizacion": "2011-01-01",
+                        "fecha_ultimo_dato": "2011-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 29408189
+                    },
+                    "RMJ_2012.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2012 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2012.pdf",
+                        "fecha_actualizacion": "2012-01-01",
+                        "fecha_ultimo_dato": "2012-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 36021535
+                    },
+                    "RMJ_2013.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2013 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2013.pdf",
+                        "fecha_actualizacion": "2013-01-01",
+                        "fecha_ultimo_dato": "2013-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 43722854
+                    },
+                    "RMJ_2014.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2014 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2014.pdf",
+                        "fecha_actualizacion": "2014-01-01",
+                        "fecha_ultimo_dato": "2014-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 61478336
+                    },
+                    "RMJ_2015.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2015 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2015.pdf",
+                        "fecha_actualizacion": "2015-01-01",
+                        "fecha_ultimo_dato": "2015-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 37229739
+                    },
+                    "RMJ_2016.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2016 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2016.pdf",
+                        "fecha_actualizacion": "2016-01-01",
+                        "fecha_ultimo_dato": "2016-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 37716347
+                    },
+                    "RMJ_2017.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2017 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2017.pdf",
+                        "fecha_actualizacion": "2017-01-01",
+                        "fecha_ultimo_dato": "2017-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 167010871
+                    },
+                    "RMJ_2018.pdf": {
+                        "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2018 Ver",
+                        "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES%20MINISTERIALES%20JERARQUICAS/RMJ_2018.pdf",
+                        "fecha_actualizacion": "2018-01-01",
+                        "fecha_ultimo_dato": "2018-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "aps",
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "periodicidad": "anual",
+                        "tags": [
+                            "normativa",
+                            "pensiones",
+                            "regulacion",
+                            "seguros"
+                        ],
+                        "tamanio_bytes": 60078058
+                    },
                     "Constitucion_Politica_del_Estado.pdf": {
                         "descripcion": "- - 07/02/2009 Constitución Política del Estado Ver",
                         "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/seguros/PRINCIPALES/Constitucion_Politica_del_Estado.pdf",
@@ -2685,27 +2713,6 @@
             }
         },
         "INSTITUCIONAL": {
-            "planificacion": {
-                "informacion-planificacion": {
-                    "Manual_de_Procesos.pdf": {
-                        "descripcion": "Manual_de_Procesos.pdf",
-                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPE/procesos/Manual%20de%20Procesos.pdf",
-                        "fecha_actualizacion": null,
-                        "fecha_ultimo_dato": null,
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/institucional/planificacion/informacion-planificacion",
-                        "entidad_emisora": "APS",
-                        "periodicidad": null,
-                        "tags": [
-                            "pensiones",
-                            "regulacion",
-                            "seguros"
-                        ],
-                        "tamanio_bytes": 9055408
-                    }
-                }
-            },
             "recursos-humanos": {
                 "convocatorias-publicas": {
                     "1CONVOCATORIAS_APSDGOUADMANPEN012024.pdf": {
@@ -2726,17 +2733,19 @@
                         "tamanio_bytes": 228124
                     }
                 }
-            },
-            "certificaciones": {
+            }
+        },
+        "UNE": {
+            "DS": {
                 "ARCHIVOS": {
                     "CERTIFICACION_ESTADISTICAS_Colores.pdf": {
-                        "descripcion": "Ver",
+                        "descripcion": "Ver Más",
                         "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DS/CERTIFICACION%20ESTADISTICAS%20Colores.pdf",
                         "fecha_actualizacion": null,
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/institucional/certificaciones",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=64",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -2748,13 +2757,13 @@
                         "tamanio_bytes": 1828731
                     },
                     "CERTIFICADO_INE.pdf": {
-                        "descripcion": "Ver",
+                        "descripcion": "Ver Más",
                         "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DS/CERTIFICADO%20INE.pdf",
                         "fecha_actualizacion": null,
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/institucional/certificaciones",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=64",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [
@@ -2763,15 +2772,19 @@
                             "seguros"
                         ],
                         "tamanio_bytes": 322853
-                    },
+                    }
+                }
+            },
+            "DP": {
+                "ARCHIVOS": {
                     "CERTIFICADO_PENSIONES.pdf": {
-                        "descripcion": "Ver",
+                        "descripcion": "Ver más",
                         "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DP/CERTIFICADO%20PENSIONES.pdf",
                         "fecha_actualizacion": null,
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/institucional/certificaciones",
+                        "url_origen": "https://www.aps.gob.bo/index.php?option=com_sppagebuilder&view=page&id=20",
                         "entidad_emisora": "APS",
                         "periodicidad": null,
                         "tags": [

@@ -1,8 +1,8 @@
 {
     "ANAPO": {
-        "MEDIOS": {
-            "2026": {
-                "PDF": {
+        "2026": {
+            "07": {
+                "ARCHIVOS": {
                     "Reporte-No-261.pdf": {
                         "descripcion": "Reporte Nº 261",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/07/Reporte-No-261.pdf",
@@ -53,7 +53,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 3282293
-                    },
+                    }
+                }
+            },
+            "06": {
+                "ARCHIVOS": {
                     "AN-152.pdf": {
                         "descripcion": "AN 152",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/06/AN-152.pdf",
@@ -104,7 +108,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 271349
-                    },
+                    }
+                }
+            },
+            "05": {
+                "ARCHIVOS": {
                     "Minetti-mayo-25.pdf": {
                         "descripcion": "Minetti mayo 25",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/05/Minetti-mayo-25.pdf",
@@ -206,7 +214,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 278145
-                    },
+                    }
+                }
+            },
+            "04": {
+                "ARCHIVOS": {
                     "PRECIPITACION-ABRIL-30-2026.pdf": {
                         "descripcion": "PRECIPITACIÓN ABRIL 30 2026",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/04/PRECIPITACION-ABRIL-30-2026.pdf",
@@ -342,7 +354,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 228870
-                    },
+                    }
+                }
+            },
+            "03": {
+                "ARCHIVOS": {
                     "ESTADISTICAS-2025.pdf": {
                         "descripcion": "ESTADÍSTICAS 2025",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/03/ESTADISTICAS-2025.pdf",
@@ -355,6 +371,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "estadisticas",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -444,7 +461,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 219826
-                    },
+                    }
+                }
+            },
+            "02": {
+                "ARCHIVOS": {
                     "23-FEBRERO-2026.pdf": {
                         "descripcion": "23 FEBRERO 2026",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/02/23-FEBRERO-2026.pdf",
@@ -512,7 +533,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 223345
-                    },
+                    }
+                }
+            },
+            "01": {
+                "ARCHIVOS": {
                     "Reporte-No-238.pdf": {
                         "descripcion": "Reporte Nº 238",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2026/01/Reporte-No-238.pdf",
@@ -561,7 +586,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 274737
                     },
                     "Minetti-12-de-enero-1.pdf": {
                         "descripcion": "Minetti 12 de enero",
@@ -577,7 +603,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 270256
                     },
                     "Minetti-12-de-enero.pdf": {
                         "descripcion": "Minetti 12 de enero",
@@ -593,7 +620,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 270256
                     },
                     "Minetti-5-de-enero.pdf": {
                         "descripcion": "Minetti 5 de enero",
@@ -609,7 +637,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 280006
                     },
                     "Reporte-No-236.pdf": {
                         "descripcion": "Reporte Nº 236",
@@ -629,9 +658,11 @@
                         "tamanio_bytes": 224981
                     }
                 }
-            },
-            "2025": {
-                "PDF": {
+            }
+        },
+        "2025": {
+            "12": {
+                "ARCHIVOS": {
                     "AN-149.pdf": {
                         "descripcion": "AN 149",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/12/AN-149.pdf",
@@ -663,7 +694,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 229366
                     },
                     "Pronostico-semanal-08-12.pdf": {
                         "descripcion": "Pronostico semanal 08-12",
@@ -674,12 +706,13 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 308193
                     },
                     "Reporte-No-232-2.pdf": {
                         "descripcion": "Reporte Nº 232",
@@ -695,7 +728,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 107294
                     },
                     "Pronostico-semanal-08-12-2.pdf": {
                         "descripcion": "Pronostico semanal 08-12",
@@ -706,12 +740,13 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 459495
                     },
                     "Reporte-No-232-1.pdf": {
                         "descripcion": "Reporte Nº 232",
@@ -727,7 +762,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 107294
                     },
                     "Reporte-No-232.pdf": {
                         "descripcion": "Reporte Nº 232",
@@ -743,7 +779,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 107294
                     },
                     "Pronostico-semanal-01-12.pdf": {
                         "descripcion": "Pronostico semanal 01-12",
@@ -754,12 +791,13 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 449662
                     },
                     "Reporte-No-231-1.pdf": {
                         "descripcion": "Reporte Nº 231",
@@ -775,7 +813,8 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 157855
                     },
                     "Reporte-No-231.pdf": {
                         "descripcion": "Reporte Nº 231",
@@ -791,8 +830,13 @@
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
-                    },
+                        ],
+                        "tamanio_bytes": 157855
+                    }
+                }
+            },
+            "11": {
+                "ARCHIVOS": {
                     "Reporte-No-230.pdf": {
                         "descripcion": "Reporte Nº 230",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/11/Reporte-No-230.pdf",
@@ -819,12 +863,13 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 461319
                     },
                     "Pronostico-semanal-17-11-1.pdf": {
                         "descripcion": "Pronostico semanal 17-11",
@@ -835,12 +880,13 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 461319
                     },
                     "Pronostico-semanal-17-11.pdf": {
                         "descripcion": "Pronostico semanal 17-11",
@@ -851,12 +897,13 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
                             "trigo"
-                        ]
+                        ],
+                        "tamanio_bytes": 461319
                     },
                     "Reporte-No-229.pdf": {
                         "descripcion": "Reporte Nº 229",
@@ -884,7 +931,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -925,7 +972,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 164373
-                    },
+                    }
+                }
+            },
+            "10": {
+                "ARCHIVOS": {
                     "Pronostico-semanal-27-10.pdf": {
                         "descripcion": "Pronostico semanal 27-10",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/10/Pronostico-semanal-27-10.pdf",
@@ -935,7 +986,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -986,7 +1037,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -1020,7 +1071,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -1095,7 +1146,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 195571
-                    },
+                    }
+                }
+            },
+            "09": {
+                "ARCHIVOS": {
                     "Pronostico-semanal-29-09.pdf": {
                         "descripcion": "Pronostico semanal 29-09",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/09/Pronostico-semanal-29-09.pdf",
@@ -1105,7 +1160,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -1214,41 +1269,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 1671107
-                    },
-                    "PRONOSTICO-07-AL-13-DE-JULIO-2025.pdf": {
-                        "descripcion": "PRONÓSTICO 07 AL 13 DE JULIO 2025",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/07/PRONOSTICO-07-AL-13-DE-JULIO-2025.pdf",
-                        "fecha_actualizacion": "2025-07-07",
-                        "fecha_ultimo_dato": "2025-07-07",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 447151
-                    },
-                    "Reporte-No-210.pdf": {
-                        "descripcion": "Reporte Nº 210",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/07/Reporte-No-210.pdf",
-                        "fecha_actualizacion": "2025-07-07",
-                        "fecha_ultimo_dato": "2025-07-07",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 117108
-                    },
+                    }
+                }
+            },
+            "06": {
+                "ARCHIVOS": {
                     "PRONOSTICO-30-DE-JUNIO-2025-AL-06-DE-JULIO.pdf": {
                         "descripcion": "PRONÓSTICO 30 DE JUNIO 2025 AL 06 DE JULIO",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/06/PRONOSTICO-30-DE-JUNIO-2025-AL-06-DE-JULIO.pdf",
@@ -1414,6 +1439,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "estadisticas",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -1452,7 +1478,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 148502
-                    },
+                    }
+                }
+            },
+            "05": {
+                "ARCHIVOS": {
                     "PRONOSTICO-MINETTI-26-DE-MAYO-AL-01-DE-JUNIO.pdf": {
                         "descripcion": "PRONOSTICO MINETTI 26 DE MAYO AL 01 DE JUNIO",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/05/PRONOSTICO-MINETTI-26-DE-MAYO-AL-01-DE-JUNIO.pdf",
@@ -1605,7 +1635,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 147797
-                    },
+                    }
+                }
+            },
+            "04": {
+                "ARCHIVOS": {
                     "PRONOSTICO-SEMANAL-28-DE-ABRIL.pdf": {
                         "descripcion": "PRONÓSTICO SEMANAL 28 DE ABRIL",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/04/PRONOSTICO-SEMANAL-28-DE-ABRIL.pdf",
@@ -1615,7 +1649,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -1775,7 +1809,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 2503677
-                    },
+                    }
+                }
+            },
+            "03": {
+                "ARCHIVOS": {
                     "Pronostico-31-de-marzo-AL-06-de-abril-2025.pdf": {
                         "descripcion": "Pronóstico 31 de marzo AL 06 de abril 2025",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/03/Pronostico-31-de-marzo-AL-06-de-abril-2025.pdf",
@@ -1810,7 +1848,7 @@
                         ],
                         "tamanio_bytes": 706767
                     },
-                    "COM-UREA-RRSS.pdf__2": {
+                    "COM-UREA-RRSS.pdf": {
                         "descripcion": "COM UREA RRSS",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/03/COM-UREA-RRSS.pdf",
                         "fecha_actualizacion": "2025-03-27",
@@ -1826,23 +1864,6 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 2511337
-                    },
-                    "COM-EBIH-RRSS-2025.pdf": {
-                        "descripcion": "COM EBIH RRSS 2025",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/01/COM-EBIH-RRSS-2025.pdf",
-                        "fecha_actualizacion": "2025-03-27",
-                        "fecha_ultimo_dato": "2025-03-27",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 2873854
                     },
                     "Pronostico-24-AL-30-MARZO-2025.pdf": {
                         "descripcion": "Pronóstico 24 AL 30 MARZO 2025",
@@ -1877,12 +1898,16 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 4415700
-                    },
-                    "AN-144-OK.pdf": {
-                        "descripcion": "AN 144 OK",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/02/AN-144-OK.pdf",
-                        "fecha_actualizacion": "2025-02-28",
-                        "fecha_ultimo_dato": "2025-02-28",
+                    }
+                }
+            },
+            "01": {
+                "ARCHIVOS": {
+                    "COM-EBIH-RRSS-2025.pdf": {
+                        "descripcion": "COM EBIH RRSS 2025",
+                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/01/COM-EBIH-RRSS-2025.pdf",
+                        "fecha_actualizacion": "2025-03-27",
+                        "fecha_ultimo_dato": "2025-03-27",
                         "tipo_archivo": "pdf",
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
@@ -1893,7 +1918,7 @@
                             "oleaginosas",
                             "trigo"
                         ],
-                        "tamanio_bytes": 1566722
+                        "tamanio_bytes": 2873854
                     },
                     "Pronostico-27-de-enero-2025-1.pdf": {
                         "descripcion": "Pronostico 27 de enero 2025",
@@ -1975,6 +2000,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "estadisticas",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -2016,8 +2042,31 @@
                     }
                 }
             },
-            "2024": {
-                "PDF": {
+            "02": {
+                "ARCHIVOS": {
+                    "AN-144-OK.pdf": {
+                        "descripcion": "AN 144 OK",
+                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2025/02/AN-144-OK.pdf",
+                        "fecha_actualizacion": "2025-02-28",
+                        "fecha_ultimo_dato": "2025-02-28",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "anapo",
+                        "url_origen": "https://www.anapobolivia.org",
+                        "entidad_emisora": "ANAPO",
+                        "periodicidad": null,
+                        "tags": [
+                            "agropecuario",
+                            "oleaginosas",
+                            "trigo"
+                        ],
+                        "tamanio_bytes": 1566722
+                    }
+                }
+            }
+        },
+        "2024": {
+            "12": {
+                "ARCHIVOS": {
                     "Pronostico-30-dic-al-05-de-enero.pdf": {
                         "descripcion": "Pronóstico 30 dic al 05 de enero",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/12/Pronostico-30-dic-al-05-de-enero.pdf",
@@ -2064,6 +2113,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -2115,6 +2165,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "estadisticas",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -2170,7 +2221,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 2322150
-                    },
+                    }
+                }
+            },
+            "11": {
+                "ARCHIVOS": {
                     "Reporte-176.pdf": {
                         "descripcion": "Reporte 176",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/11/Reporte-176.pdf",
@@ -2340,7 +2395,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 803044
-                    },
+                    }
+                }
+            },
+            "10": {
+                "ARCHIVOS": {
                     "Manual-web-resumen.pdf": {
                         "descripcion": "Manual web resumen",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/10/Manual-web-resumen.pdf",
@@ -2476,7 +2535,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 940128
-                    },
+                    }
+                }
+            },
+            "09": {
+                "ARCHIVOS": {
                     "MOTACu.pdf": {
                         "descripcion": "MOTACu",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/09/MOTACu.pdf",
@@ -2527,7 +2590,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 100351
-                    },
+                    }
+                }
+            },
+            "08": {
+                "ARCHIVOS": {
                     "Comercilizacion-fertilizantes_compressed.pdf": {
                         "descripcion": "Comercilización fertilizantes_compressed",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/08/Comercilizacion-fertilizantes_compressed.pdf",
@@ -2591,11 +2658,16 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "estadisticas",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 537492
-                    },
+                    }
+                }
+            },
+            "07": {
+                "ARCHIVOS": {
                     "Pronostico-semanal-del-22-al-28-de-julio-de-2024.pdf": {
                         "descripcion": "Pronostico semanal del 22 al 28 de julio de 2024",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/07/Pronostico-semanal-del-22-al-28-de-julio-de-2024.pdf",
@@ -2605,7 +2677,7 @@
                         "id_fuente": "anapo",
                         "url_origen": "https://www.anapobolivia.org",
                         "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
+                        "periodicidad": "semanal",
                         "tags": [
                             "agropecuario",
                             "oleaginosas",
@@ -2676,6 +2748,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "comercio-exterior",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -3118,6 +3191,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "comercio-exterior",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -3135,6 +3209,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -3497,23 +3572,6 @@
                         ],
                         "tamanio_bytes": 226840
                     },
-                    "Decreto-Supremo-N°-4354.pdf": {
-                        "descripcion": "Decreto Supremo N° 4354",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/07/Decreto-Supremo-N°-4354.pdf",
-                        "fecha_actualizacion": "2024-07-25",
-                        "fecha_ultimo_dato": "2024-07-25",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 173163
-                    },
                     "Manual-de-Agroquimicos-2013.pdf": {
                         "descripcion": "Manual de Agroquimicos 2013",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/07/Manual-de-Agroquimicos-2013.pdf",
@@ -3564,24 +3622,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 2122987
-                    },
-                    "ManualGuiaTrigo2022.pdf": {
-                        "descripcion": "ManualGuiaTrigo2022",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2022/08/ManualGuiaTrigo2022.pdf",
-                        "fecha_actualizacion": "2024-07-24",
-                        "fecha_ultimo_dato": "2024-07-24",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 855703
-                    },
+                    }
+                }
+            },
+            "06": {
+                "ARCHIVOS": {
                     "3-Variedades-de-Trigo-CIAT.pdf": {
                         "descripcion": "3 Variedades de Trigo CIAT",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/06/3-Variedades-de-Trigo-CIAT.pdf",
@@ -3768,24 +3813,11 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 903288
-                    },
-                    "Decreto-Supremo-N°-4490-Se-abrogan-los-Decretos-Supremos-N°-4232-de-7-de-mayo-2020-N°-4238-de-14-de-mayo-de-2020-y-N°-4348-de-22-de-septiembre-de-2020.pdf": {
-                        "descripcion": "Decreto Supremo N° 4490 Se abrogan los Decretos Supremos N° 4232, de 7 de mayo 2020; N° 4238, de 14 de mayo de 2020 y N° 4348, de 22 de septiembre de 2020.",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Decreto-Supremo-N°-4490-Se-abrogan-los-Decretos-Supremos-N°-4232-de-7-de-mayo-2020-N°-4238-de-14-de-mayo-de-2020-y-N°-4348-de-22-de-septiembre-de-2020.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 55356
-                    },
+                    }
+                }
+            },
+            "03": {
+                "ARCHIVOS": {
                     "Decreto-Supremo-4509-El-presente-Decreto-Supremo-tiene-por-objeto-modificar-el-Decreto-Supremo-4424-de-17-de-diciembre-de-2020-Beneficiarios-del-credito-SI-Bolivia-del-BDP.pdf": {
                         "descripcion": "Decreto Supremo 4509-El presente Decreto Supremo tiene por objeto modificar el Decreto Supremo 4424, de 17 de diciembre de 2020 Beneficiarios del crédito SI Bolivia del BDP",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Decreto-Supremo-4509-El-presente-Decreto-Supremo-tiene-por-objeto-modificar-el-Decreto-Supremo-4424-de-17-de-diciembre-de-2020-Beneficiarios-del-credito-SI-Bolivia-del-BDP.pdf",
@@ -3798,6 +3830,8 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "financiero",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -3815,78 +3849,12 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "comercio-exterior",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 62612
-                    },
-                    "Ley-N°-1580-Se-aprueba-y-ratifica-el-Convenio-sobre-la-Diversidad-Biologica-suscrito-por-el-Gobierno-de-Bolivia-el-10-de-junio-de-1992.pdf": {
-                        "descripcion": "Ley N° 1580 Se aprueba y ratifica el Convenio sobre la Diversidad Biológica, suscrito por el Gobierno de Bolivia el 10 de junio de 1992.",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-1580-Se-aprueba-y-ratifica-el-Convenio-sobre-la-Diversidad-Biologica-suscrito-por-el-Gobierno-de-Bolivia-el-10-de-junio-de-1992.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 12181
-                    },
-                    "Ley-N°-1700-Forestal.pdf": {
-                        "descripcion": "Ley N° 1700 Forestal",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-1700-Forestal.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 161138
-                    },
-                    "Ley-N°-1715-del-Servicio-Nacional-de-Reforma-Agraria.pdf": {
-                        "descripcion": "Ley N° 1715 del Servicio Nacional de Reforma Agraria",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-1715-del-Servicio-Nacional-de-Reforma-Agraria.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 176504
-                    },
-                    "Ley-N°-2553-Eleva-a-rango-de-ley-el-Decreto-Supremo-N°-24124-que-aprueba-el-PLUS-Santa-Cruz-Plan-de-Uso-de-Suelo.pdf": {
-                        "descripcion": "Ley N° 2553 Eleva a rango de ley el Decreto Supremo N° 24124 que aprueba el PLUS Santa Cruz, Plan de Uso de Suelo",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-2553-Eleva-a-rango-de-ley-el-Decreto-Supremo-N°-24124-que-aprueba-el-PLUS-Santa-Cruz-Plan-de-Uso-de-Suelo.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 115657
                     },
                     "Ley-No-3008-Creacion-de-la-tarifa-verde-categoria-de-energia-electrica.pdf": {
                         "descripcion": "Ley Nº 3008 Creación de la tarifa verde (categoría de energía eléctrica)",
@@ -3900,44 +3868,12 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "energia",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 15477
-                    },
-                    "Ley-No-3545-Modificacion-de-la-ley-N°-1715-Reconduccion-de-la-Reforma-Agraria.pdf": {
-                        "descripcion": "Ley Nº 3545 Modificación de la ley N° 1715 Reconducción de la Reforma Agraria",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-No-3545-Modificacion-de-la-ley-N°-1715-Reconduccion-de-la-Reforma-Agraria.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 47393
-                    },
-                    "Ley-N°-144-de-la-Revolucion-Productiva-Comunitaria-Agropecuaria.pdf": {
-                        "descripcion": "Ley N° 144 de la Revolución Productiva Comunitaria Agropecuaria",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-144-de-la-Revolucion-Productiva-Comunitaria-Agropecuaria.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 517757
                     },
                     "Ley-No-300-Ley-marco-de-la-madre-tierra.pdf": {
                         "descripcion": "Ley Nº 300 Ley marco de la madre tierra",
@@ -3951,27 +3887,11 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 288420
-                    },
-                    "Ley-N°-337-de-Apoyo-a-la-produccion-de-alimentos.pdf": {
-                        "descripcion": "Ley N° 337 de Apoyo a la produccion de alimentos",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-337-de-Apoyo-a-la-produccion-de-alimentos.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 251026
                     },
                     "Ley-No-341-Participacion-y-control-social.pdf": {
                         "descripcion": "Ley Nº 341 Participación y control social",
@@ -3985,6 +3905,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -4002,6 +3923,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -4019,6 +3941,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -4036,95 +3959,11 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 12314
-                    },
-                    "Ley-N°-843-Codigo-Tributario.pdf": {
-                        "descripcion": "Ley N° 843; Código Tributario",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-843-Codigo-Tributario.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 3498113
-                    },
-                    "Ley-N°-739-Ampliacion-de-plazo-para-suscripcion-al-Programa-de-Produccion-de-Alimentos-y-Restitucion-de-Bosques.pdf": {
-                        "descripcion": "Ley N° 739 Ampliación de plazo para suscripción al Programa de Producción de Alimentos y Restitución de Bosques",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-739-Ampliacion-de-plazo-para-suscripcion-al-Programa-de-Produccion-de-Alimentos-y-Restitucion-de-Bosques.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 442822
-                    },
-                    "Ley-N°-740-Ampliacion-de-plazo-para-verificacion-de-la-FES-1.pdf": {
-                        "descripcion": "Ley N° 740 Ampliación de plazo para verificación de la FES",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-740-Ampliacion-de-plazo-para-verificacion-de-la-FES-1.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 439710
-                    },
-                    "Ley-N°-740-Ampliacion-de-plazo-para-verificacion-de-la-FES.pdf": {
-                        "descripcion": "Ley N° 740 Ampliación de plazo para verificación de la FES",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-740-Ampliacion-de-plazo-para-verificacion-de-la-FES.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 439710
-                    },
-                    "Ley-N°-775-de-Promocion-de-Alimentacion-Saludable.pdf": {
-                        "descripcion": "Ley N° 775 de Promoción de Alimentación Saludable",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Ley-N°-775-de-Promocion-de-Alimentacion-Saludable.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 264460
                     },
                     "Ley-Nro-952-Ampliacion-de-Plazo-Regularizacion-de-desmontes.pdf": {
                         "descripcion": "Ley Nro 952-Ampliacion de Plazo-Regularizacion de desmontes",
@@ -4138,6 +3977,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -4160,23 +4000,6 @@
                         ],
                         "tamanio_bytes": 299303
                     },
-                    "Resolucion-Bi-Ministerial-N°-003-2015-Banda-de-precios.pdf": {
-                        "descripcion": "Resolución Bi-Ministerial N° 003-2015 Banda de precios",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-Ministerial-N°-003-2015-Banda-de-precios.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 2818499
-                    },
                     "Instructivo-ABT-DE-006-2010-Procedimiento-para-denuncias-de-quemas-ilegales.pdf": {
                         "descripcion": "Instructivo ABT DE &#8211; 006-2010 Procedimiento para denuncias de quemas ilegales",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Instructivo-ABT-DE-006-2010-Procedimiento-para-denuncias-de-quemas-ilegales.pdf",
@@ -4194,57 +4017,6 @@
                         ],
                         "tamanio_bytes": 45477
                     },
-                    "RND-N°-10-0026-15-Actualizacion-cuota-fija-por-hectarea-del-RAU.pdf": {
-                        "descripcion": "RND N° 10-0026-15 Actualización cuota fija por hectárea del RAU",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/RND-N°-10-0026-15-Actualizacion-cuota-fija-por-hectarea-del-RAU.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 289907
-                    },
-                    "RND-N°-10-0026-16-Actualizacion-cuota-fija-por-hectarea-del-RAU-para-la-gestion-2015.pdf": {
-                        "descripcion": "RND N° 10-0026-16 Actualización cuota fija por hectárea del RAU para la gestión 2015",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/RND-N°-10-0026-16-Actualizacion-cuota-fija-por-hectarea-del-RAU-para-la-gestion-2015.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 342965
-                    },
-                    "RND-N°-10-0029-16-Ampliacion-del-pago-del-RAU.pdf": {
-                        "descripcion": "RND N° 10-0029-16; Ampliación del pago del RAU",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/RND-N°-10-0029-16-Ampliacion-del-pago-del-RAU.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 197551
-                    },
                     "Resolucion-Bi-Ministerial-001-2017-Soya.pdf": {
                         "descripcion": "Resolucion Bi Ministerial 001-2017-Soya",
                         "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-Ministerial-001-2017-Soya.pdf",
@@ -4257,27 +4029,11 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 2032168
-                    },
-                    "RND-N°-101700000017-Actualizacion-cuota-fija-por-hectarea-del-RAU-para-la-gestion-2016.pdf": {
-                        "descripcion": "RND N° 101700000017 Actualización cuota fija por hectárea del RAU para la gestión 2016",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/RND-N°-101700000017-Actualizacion-cuota-fija-por-hectarea-del-RAU-para-la-gestion-2016.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 295977
                     },
                     "Resolucion-Ministerial-105-18.-Tiene-por-objeto-reglamentar-la-implementacion-del-Registro-Obligatorio-de-Empleadores-ROE-de-conformidad-al-Decreto-Supremo-Num-3433-del-13-12-2017.pdf": {
                         "descripcion": "Resolución Ministerial 105-18. Tiene por objeto reglamentar la implementación del Registro Obligatorio de Empleadores-ROE de conformidad al Decreto Supremo Num 3433 del 13-12-2017",
@@ -4291,6 +4047,7 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
@@ -4308,44 +4065,11 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 1778310
-                    },
-                    "Resolucion-Bi-ministerial-N°-001-2018-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 001-2018; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-001-2018-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 7334630
-                    },
-                    "Resolucion-Bi-ministerial-N°-003-2020-Reglamento-para-el-monitoreo-de-abastecimiento-del-mercado-interno-de-productos-agropecuarios-o-agroindustriales-de-exportacion.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 003-2020; Reglamento para el monitoreo de abastecimiento del mercado interno de productos agropecuarios o agroindustriales de exportación",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-003-2020-Reglamento-para-el-monitoreo-de-abastecimiento-del-mercado-interno-de-productos-agropecuarios-o-agroindustriales-de-exportacion.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 866095
                     },
                     "RESOLUCION-NORMATIVA-DE-DIRECTORIO-No-102000000026.pdf": {
                         "descripcion": "RESOLUCIÓN NORMATIVA DE DIRECTORIO Nº 102000000026",
@@ -4359,44 +4083,11 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 598863
-                    },
-                    "Resolucion-Bi-ministerial-N°-010-2020-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 010-2020; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-010-2020-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 8281156
-                    },
-                    "Resolucion-Bi-ministerial-N°-003-2021-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 003-2021; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-003-2021-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 12262185
                     },
                     "Resolucion-Administrativa-de-ABT-013-2021-sobre-autorizacion-de-ejecucion-de-desmontes-quemas-y-quemas-de-pastizales.pdf": {
                         "descripcion": "Resolución Administrativa de ABT 013 &#8211; 2021 sobre autorización de ejecución de desmontes, quemas y quemas de pastizales",
@@ -4410,129 +4101,11 @@
                         "periodicidad": null,
                         "tags": [
                             "agropecuario",
+                            "normativa",
                             "oleaginosas",
                             "trigo"
                         ],
                         "tamanio_bytes": 1522588
-                    },
-                    "Resolucion-Normativa-de-Directorio-N°-102100000016-Actualizacion-de-la-cuota-fija-por-hectarea-del-RAU-2020.pdf": {
-                        "descripcion": "Resolución Normativa de Directorio N° 102100000016; Actualización de la cuota fija por hectárea del RAU 2020",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Normativa-de-Directorio-N°-102100000016-Actualizacion-de-la-cuota-fija-por-hectarea-del-RAU-2020.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 1614917
-                    },
-                    "Resolucion-Bi-ministerial-N°-011-2021-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 011-2021; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-011-2021-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 16572202
-                    },
-                    "Resolucion-Bi-ministerial-N°-015-2021-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 015-2021; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-015-2021-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 6632773
-                    },
-                    "Resolucion-Bi-ministerial-N°-003-2022-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 003-2022; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-003-2022-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 5443672
-                    },
-                    "Resolucion-Normativa-de-Directorio-N°-102200000019-Actualizacion-de-la-cuota-fija-por-hectarea-del-RAU-2021.pdf": {
-                        "descripcion": "Resolución Normativa de Directorio N° 102200000019; Actualización de la cuota fija por hectárea del RAU 2021",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Normativa-de-Directorio-N°-102200000019-Actualizacion-de-la-cuota-fija-por-hectarea-del-RAU-2021.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 114960
-                    },
-                    "Resolucion-Bi-ministerial-N°-003-2023-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 003-2023; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-003-2023-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 6474268
-                    },
-                    "Resolucion-Bi-ministerial-N°-005-2023-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf": {
-                        "descripcion": "Resolución Bi-ministerial N° 005-2023; Banda de precios de Harina Integral de Soya, Harina de Soya Solvente y Cascarilla de Soya",
-                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2024/03/Resolucion-Bi-ministerial-N°-005-2023-Banda-de-precios-de-Harina-Integral-de-Soya-Harina-de-Soya-Solvente-y-Cascarilla-de-Soya.pdf",
-                        "fecha_actualizacion": "2024-03-26",
-                        "fecha_ultimo_dato": "2024-03-26",
-                        "tipo_archivo": "pdf",
-                        "id_fuente": "anapo",
-                        "url_origen": "https://www.anapobolivia.org",
-                        "entidad_emisora": "ANAPO",
-                        "periodicidad": null,
-                        "tags": [
-                            "agropecuario",
-                            "oleaginosas",
-                            "trigo"
-                        ],
-                        "tamanio_bytes": 7031902
                     },
                     "Manejo-y-control-para-la-Roya-Asiatica-de-la-Soya.pdf": {
                         "descripcion": "Manejo y control para la Roya Asiática de la Soya",
@@ -4550,6 +4123,29 @@
                             "trigo"
                         ],
                         "tamanio_bytes": 644187
+                    }
+                }
+            }
+        },
+        "2022": {
+            "08": {
+                "ARCHIVOS": {
+                    "ManualGuiaTrigo2022.pdf": {
+                        "descripcion": "ManualGuiaTrigo2022",
+                        "url_descarga": "https://anapobolivia.org/wp-content/uploads/2022/08/ManualGuiaTrigo2022.pdf",
+                        "fecha_actualizacion": "2024-07-24",
+                        "fecha_ultimo_dato": "2024-07-24",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "anapo",
+                        "url_origen": "https://www.anapobolivia.org",
+                        "entidad_emisora": "ANAPO",
+                        "periodicidad": null,
+                        "tags": [
+                            "agropecuario",
+                            "oleaginosas",
+                            "trigo"
+                        ],
+                        "tamanio_bytes": 855703
                     }
                 }
             }
