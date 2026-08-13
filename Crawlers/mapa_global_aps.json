@@ -10,7 +10,9 @@
                         "fecha_ultimo_dato": "2009-02-07",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 6029436
                     }
                 },
                 "Ley": {
@@ -21,7 +23,9 @@
                         "fecha_ultimo_dato": "1996-11-29",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 93191
                     },
                     "Ley_3785.pdf": {
                         "descripcion": "Adecua la participación de los trabajadores estacionales en el Seguro Social Obligatorio de Largo Plazo y establecer la Pensión Mínima en el país.",
@@ -30,7 +34,9 @@
                         "fecha_ultimo_dato": "2007-11-23",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 192024
                     },
                     "Ley_065.pdf": {
                         "descripcion": "Ley de Pensiones",
@@ -39,7 +45,9 @@
                         "fecha_ultimo_dato": "2010-12-10",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 495596
                     },
                     "ALP-LEY-430.pdf": {
                         "descripcion": "Ley de modificación de la Ley de Pensiones. Modifica los límites solidarios mínimos y máximos de la Pensión Solidaria de Vejez",
@@ -48,7 +56,9 @@
                         "fecha_ultimo_dato": "2013-11-07",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 127784
                     },
                     "ALP-LEY-985.pdf": {
                         "descripcion": "Ley de modificación de la Ley de Pensiones. Modifica los límites solidarios mínimos y máximos de la Pensión Solidaria de Vejez",
@@ -57,7 +67,9 @@
                         "fecha_ultimo_dato": "2017-10-24",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 312374
                     },
                     "Ley_N_1267_de_fecha_20_de_diciembre_de_2019.pdf": {
                         "descripcion": "Ley del presupuesto general del Estado - 2020. En su disposición adicional 6ta incorpora el inciso o) al articulo 168 de la Ley N° 065 atribuyendo a la APS la facultad de fiscalizar al SENASIR en pago de Rentas y Certificados de Compensación de Cotizaciones.",
@@ -66,7 +78,9 @@
                         "fecha_ultimo_dato": "2019-10-20",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 5903316
                     },
                     "LEY1613.pdf": {
                         "descripcion": "Ley del presupuesto general del Estado - 2025. En su disposición adicional 4ta modifica el articulo 75 de la Ley de Pensiones (Actualización de las Prestaciones de Invalidez y Muerte).",
@@ -75,7 +89,9 @@
                         "fecha_ultimo_dato": "2025-06-11",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 330408
                     }
                 },
                 "Decreto_Supremo": {
@@ -86,7 +102,9 @@
                         "fecha_ultimo_dato": "2011-01-26",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 129392
                     },
                     "DS_822.pdf": {
                         "descripcion": "Aprueba el Reglamento de Desarrollo Parcial a la Ley N° 065, de 10 de diciembre de 2010, de Pensiones, en materia de Prestaciones de Vejez, Prestaciones Solidarias de Vejez, Prestaciones por Riesgos, Pensiones por Muerte derivadas de éstas y otros beneficios.",
@@ -95,7 +113,9 @@
                         "fecha_ultimo_dato": "2011-03-16",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 451759
                     },
                     "DS_1570.pdf": {
                         "descripcion": "Reglamenta aspectos relacionados con la Seguridad Social de largo plazo.",
@@ -104,7 +124,9 @@
                         "fecha_ultimo_dato": "2013-05-01",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 55700
                     },
                     "DS_1885.pdf": {
                         "descripcion": "Implementa el ajuste Inversamente Proporcional - IP y percápita de la Compensación de Cotizaciones Mensual - CCM en curso de pago de asegurados del Sistema Integral de Pensiones – SIP.",
@@ -113,7 +135,9 @@
                         "fecha_ultimo_dato": "2014-01-30",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 44749
                     },
                     "DS_1888.pdf": {
                         "descripcion": "Reglamenta aspectos relacionados al pago de las Contribuciones al Sistema Integral de Pensiones correspondiente a los reintegros.",
@@ -122,7 +146,9 @@
                         "fecha_ultimo_dato": "2014-02-04",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 58590
                     },
                     "DS_29423.pdf": {
                         "descripcion": "Reglamenta los alcances de la Ley Nº 3785 del 23 de noviembre de 2007, en cuanto a los trabajadores estacionales de los sectores agrícola, pecuario y de silvicultura, los Retiros Temporales y la Pensión Mínima, así como normar otros aspectos del Seguro Social.",
@@ -131,7 +157,9 @@
                         "fecha_ultimo_dato": "2008-01-16",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 340628
                     },
                     "DS_27991.pdf": {
                         "descripcion": "Establece medidas de carácter administrativo y normativo, a efecto de lograr la eficiente gestión de las rentas del Sistema de Reparto, de la Compensación de Cotizaciones y la determinación actuarial del correspondiente costo fiscal.",
@@ -140,7 +168,9 @@
                         "fecha_ultimo_dato": "2005-01-28",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 62988
                     },
                     "DS_29537.pdf": {
                         "descripcion": "Complementa y modifica la reglamentación del Seguro Social Obligatorio de largo plazo",
@@ -149,7 +179,9 @@
                         "fecha_ultimo_dato": "2008-05-01",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 181386
                     },
                     "DS_29400.pdf": {
                         "descripcion": "D.S. N°29400 Reglamenta a la Ley 3791",
@@ -158,7 +190,9 @@
                         "fecha_ultimo_dato": "2007-12-29",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 372657
                     },
                     "DS_27824.pdf": {
                         "descripcion": "Establece la constitución y funcionamiento de la Entidad Encargada de Calificar (EEC) el origen, causa y grado para las prestaciones de Invalidez y el origen y causa para las prestaciones por Fallecimiento del Seguro Social Obligatorio de Largo Plazo (SSO), así como las normas complementarias para el otorgamiento de prestaciones de Invalidez o Fallecimiento.",
@@ -167,7 +201,9 @@
                         "fecha_ultimo_dato": "2004-11-11",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 114920
                     },
                     "DS_27577.pdf": {
                         "descripcion": "Reglamenta la situación jurídica de las Cooperativas Mineras con relación al Seguro Social Obligatorio de Largo Plazo.",
@@ -176,7 +212,9 @@
                         "fecha_ultimo_dato": "2004-06-21",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 70662
                     },
                     "DS_27324.pdf": {
                         "descripcion": "Complementa el Reglamento del Seguro Social Obligatorio a Largo Plazo.",
@@ -185,7 +223,9 @@
                         "fecha_ultimo_dato": "2004-01-22",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 289009
                     },
                     "DS_26069.pdf": {
                         "descripcion": "Compensación de Cotizaciones mediante los Procedimientos Automático y Manual, para la emisión, el pago y las prestaciones del Seguro Social Obligatorio (SSO) de largo plazo a través de las Administradoras de Fondos de Pensiones o Entidades Aseguradoras.",
@@ -194,7 +234,9 @@
                         "fecha_ultimo_dato": "2001-02-09",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 47082
                     },
                     "DS_28888.pdf": {
                         "descripcion": "Complementa la reglamentación correspondiente a la Compensación de Cotizaciones (CC), Pago Mensual Mínimo (PMM), Pago Único (PU) y al Sistema de Reparto.",
@@ -203,7 +245,9 @@
                         "fecha_ultimo_dato": "2006-10-18",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 201388
                     },
                     "DS_29194.pdf": {
                         "descripcion": "Complementa y modifica la reglamentación concerniente al Sistema de Reparto, Compensación de Cotizaciones, Pago Mínimo Mensual y Pago Único.",
@@ -212,7 +256,9 @@
                         "fecha_ultimo_dato": "2007-07-18",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 383710
                     },
                     "DS_25174.pdf": {
                         "descripcion": "Aprueba el Manual Único de Calificación.",
@@ -221,7 +267,9 @@
                         "fecha_ultimo_dato": "1998-09-14",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 164380
                     },
                     "DS_24668.pdf": {
                         "descripcion": "Prestaciones de largo plazo a los miembros de la Fuerza Armada de la Nación (AFP’s).",
@@ -230,7 +278,9 @@
                         "fecha_ultimo_dato": "1997-06-21",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 47443
                     },
                     "DS_24469.pdf": {
                         "descripcion": "Reglamento a la Ley de Pensiones N° 1732",
@@ -239,7 +289,9 @@
                         "fecha_ultimo_dato": "1997-01-17",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 321998
                     },
                     "DS_24586.pdf": {
                         "descripcion": "Reglamenta procedimientos de pago de aportes al Seguro Social Obligatorio de Largo Plazo (SSO).",
@@ -248,7 +300,9 @@
                         "fecha_ultimo_dato": "1997-04-29",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 60365
                     },
                     "DS_25293.pdf": {
                         "descripcion": "Establece las normas generales para el cálculo y contratación de las prestaciones de jubilación y prestaciones por muerte y regula modalidades de Pensión determinadas por la Ley de Pensiones.",
@@ -257,7 +311,9 @@
                         "fecha_ultimo_dato": "1999-01-30",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 110675
                     },
                     "DS_26400.pdf": {
                         "descripcion": "Reglamenta aspectos relacionados con el Fondo de Capitalización Colectiva - FCC.",
@@ -266,7 +322,9 @@
                         "fecha_ultimo_dato": "2001-11-17",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 35025
                     },
                     "045-DS-26222.pdf": {
                         "descripcion": "Decreto Supremo 26222",
@@ -275,7 +333,9 @@
                         "fecha_ultimo_dato": "2001-07-21",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 3386
                     },
                     "046-DS_26221-21-07-2001.pdf": {
                         "descripcion": "Decreto Supremo 26221",
@@ -284,7 +344,9 @@
                         "fecha_ultimo_dato": "2001-07-21",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 21386
                     },
                     "DS5503.pdf": {
                         "descripcion": "Decreto Supremo Nro 5503",
@@ -293,7 +355,9 @@
                         "fecha_ultimo_dato": "2025-12-17",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 362354
                     },
                     "DS55161988NCPP.pdf": {
                         "descripcion": "Decreto Supremo Nro 5516",
@@ -302,7 +366,9 @@
                         "fecha_ultimo_dato": "2026-01-13",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 207773
                     },
                     "DS_5643_MANECGI_29.06.2026.pdf": {
                         "descripcion": "Decreto Supremo Nro 5643 - MANECGI",
@@ -311,7 +377,9 @@
                         "fecha_ultimo_dato": "2026-06-29",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 1071200
                     }
                 },
                 "ANEXOS": {
@@ -322,7 +390,9 @@
                         "fecha_ultimo_dato": "2026-06-29",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 82414839
                     },
                     "ANEXO_II_DS_5643_2026.pdf": {
                         "descripcion": "ANEXO2",
@@ -331,7 +401,9 @@
                         "fecha_ultimo_dato": "2026-06-29",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 3936179
                     }
                 }
             },
@@ -344,7 +416,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 505043
                     }
                 }
             },
@@ -357,7 +431,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1858558
                     },
                     "PA_2011-2012.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2011-2012",
@@ -366,7 +442,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1215102
                     },
                     "PA_2013-2014.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2013-2014",
@@ -375,7 +453,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 494005
                     },
                     "PA_2015-2016.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2015-2016",
@@ -384,7 +464,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 818730
                     },
                     "PA_2018.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2018",
@@ -393,7 +475,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1026509
                     }
                 }
             },
@@ -406,7 +490,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 5871821
                     },
                     "RMJ_2010.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2010",
@@ -415,7 +501,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 10498366
                     },
                     "RMJ_2011.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2011",
@@ -424,7 +512,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 29408189
                     },
                     "RMJ_2012.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2012",
@@ -433,7 +523,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 36021535
                     },
                     "RMJ_2013.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2013",
@@ -442,7 +534,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 43722854
                     },
                     "RMJ_2014.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2014",
@@ -451,7 +545,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 61478336
                     },
                     "RMJ_2015.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2015",
@@ -460,7 +556,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 37229739
                     },
                     "RMJ_2016.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2016",
@@ -469,7 +567,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 37716347
                     },
                     "RMJ_2017.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2017",
@@ -478,7 +578,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 167010871
                     },
                     "RMJ_2018.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2018",
@@ -487,7 +589,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 60078058
                     },
                     "020-RJ-06-2003.pdf": {
                         "descripcion": "Resolución Jerárquica SG SIREFI RJ",
@@ -496,7 +600,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 190102
                     }
                 }
             },
@@ -509,7 +615,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 273153
                     },
                     "041-R._MINISTERIAL_266-05.pdf": {
                         "descripcion": "RESOLUCIÓN BIMINISTERIAL 266",
@@ -518,7 +626,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 846982
                     },
                     "044-R._BIMINISTERIAL_n°24_de_fecha_25-01-2011.pdf": {
                         "descripcion": "RESOLUCIÓN BIMINISTERIAL 24",
@@ -527,7 +637,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 31490
                     }
                 }
             },
@@ -540,7 +652,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 62243
                     },
                     "036-R._MINISTERIAL_n°21_de_fecha_13-09-2005.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 21",
@@ -549,7 +663,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 895348
                     },
                     "037-R._MINISTERIAL_n°_752_05_01_2006.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 752",
@@ -558,7 +674,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 790205
                     },
                     "038-R._MINISTERIAL_n°_485_03_11_2006.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 485",
@@ -567,7 +685,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 466899
                     },
                     "040-R._MINISTERIAL_384-04.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 384",
@@ -576,7 +696,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 58002
                     },
                     "042-R._MINISTERIAL_231-04.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 231",
@@ -585,7 +707,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 53793
                     },
                     "043-R._MINISTERIAL_157-00.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 157",
@@ -594,7 +718,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 63946
                     },
                     "053-0188-02_RESOLUCION_MINISTERIAL_MINISTERIO_DE_HACIENDA.pdf": {
                         "descripcion": "RESOLUCIÓN MINISTERIAL 188",
@@ -603,7 +729,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 96150
                     }
                 }
             }
@@ -618,7 +746,9 @@
                         "fecha_ultimo_dato": "2009-02-07",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 6029436
                     },
                     "Codigo_de_Comercio.pdf": {
                         "descripcion": "Código de comercio",
@@ -627,7 +757,9 @@
                         "fecha_ultimo_dato": "2009-02-07",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 2262271
                     },
                     "RA_N_UIF-067-2022_Instructivo_especifico_para_Operadores_del_Mercado_de_Seguros_con_Enfoque_Basado_en_Gestion_de_Riesgos.pdf": {
                         "descripcion": "RA N UIF-067-2022 Instructivo especifico para Operadores del Mercado de Seguros con Enfoque Basado en Gestión de Riesgos",
@@ -636,7 +768,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 2840676
                     }
                 },
                 "Ley": {
@@ -647,7 +781,9 @@
                         "fecha_ultimo_dato": "1998-06-25",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 372011
                     },
                     "Ley_065.pdf": {
                         "descripcion": "Ley de Pensiones",
@@ -656,7 +792,9 @@
                         "fecha_ultimo_dato": "2010-12-10",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 495596
                     },
                     "Ley_144.pdf": {
                         "descripcion": "Ley de la Revolución Productiva Comunitaria Agropecuaria (Crea el Seguro Agrario Universal Pachamama)",
@@ -665,7 +803,9 @@
                         "fecha_ultimo_dato": "2011-06-26",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 351755
                     },
                     "Ley_165.pdf": {
                         "descripcion": "Ley General de Transporte (Establece Obligación de contratar Seguro para toda modalidad de transporte)",
@@ -674,7 +814,9 @@
                         "fecha_ultimo_dato": "2011-08-16",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 652635
                     },
                     "Ley_365.pdf": {
                         "descripcion": "Ley de Seguros de Fianzas para Entidades y Empresas Públicas y Fondo de Protección del Asegurado",
@@ -683,7 +825,9 @@
                         "fecha_ultimo_dato": "2013-04-23",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 263888
                     },
                     "Ley_1155.pdf": {
                         "descripcion": "Crea Seguro Obligatorio de Accidentes del Trabajadora y el Trabajador en el Ámbito de la Construcción - SOATC",
@@ -692,7 +836,9 @@
                         "fecha_ultimo_dato": "2019-03-12",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 122203
                     },
                     "Ley_N°_1386_de_16.08.2021_Ley_de_Estrategia_Nacional-1.pdf": {
                         "descripcion": "Ley N° 1386 - Ley de Eestrategia Nacional de Lucha Ccontra la Legitimación de Ganancias Iilícitas y el Financiamiento del Terrorismo",
@@ -701,7 +847,9 @@
                         "fecha_ultimo_dato": "2021-08-16",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 55825
                     },
                     "Ley_393_de_Servicios_Financieros.pdf": {
                         "descripcion": "Ley de Servicios Financieros",
@@ -710,7 +858,9 @@
                         "fecha_ultimo_dato": "2013-08-21",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 295865
                     },
                     "LEY_12760_Codigo_Civil.pdf": {
                         "descripcion": "Código Civil",
@@ -719,7 +869,9 @@
                         "fecha_ultimo_dato": "1975-08-06",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 727086
                     },
                     "Ley_N1178_Administracion_y_Control_Gubernamentales.pdf": {
                         "descripcion": "Ley N1178 Administración y Control Gubernamentales",
@@ -728,7 +880,9 @@
                         "fecha_ultimo_dato": "1990-07-20",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 90942
                     },
                     "Ley_N1582_Modificacion_de_Ley_de_Pensiones.pdf": {
                         "descripcion": "Ley N1582 Modificación de Ley de Pensiones",
@@ -737,7 +891,9 @@
                         "fecha_ultimo_dato": "2024-10-01",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 240914
                     },
                     "Ley_N2341_Procedimiento_Administrativo.pdf": {
                         "descripcion": "Ley N2341 Procedimiento Administrativo",
@@ -746,7 +902,9 @@
                         "fecha_ultimo_dato": "2002-04-23",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 371883
                     },
                     "Ley_N348_Integral_para_Garantizar_a_las_Mujeres_una_Vida_Libre_de_Violencia.pdf": {
                         "descripcion": "Ley N348 Integral para Garantizar a las Mujeres una Vida Libre de Violencia",
@@ -755,7 +913,9 @@
                         "fecha_ultimo_dato": "2013-03-09",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 965278
                     },
                     "Ley_N779_Desburocratizacion_para_la_Creacion_y_Funcionamiento_de_Unidades_Economicas.pdf": {
                         "descripcion": "Ley N779 Desburocratización para la Creación y Funcionamiento de Unidades Economicas",
@@ -764,7 +924,9 @@
                         "fecha_ultimo_dato": "2016-01-25",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 72454
                     }
                 },
                 "Anexo_Ley": {
@@ -775,7 +937,9 @@
                         "fecha_ultimo_dato": "2021-08-16",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 736311
                     }
                 },
                 "Decreto_Supremo": {
@@ -786,7 +950,9 @@
                         "fecha_ultimo_dato": "1998-10-16",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 142340
                     },
                     "DS_25758.pdf": {
                         "descripcion": "Reglamenta la cesión de cartera y Contrato de Administración en caso de intervención de una determinada Entidad Aseguradora",
@@ -795,7 +961,9 @@
                         "fecha_ultimo_dato": "2000-04-27",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 137223
                     },
                     "DS_27295.pdf": {
                         "descripcion": "Reglamento Único del Seguro Obligatorio de Accidentes de Tránsito - SOAT",
@@ -804,7 +972,9 @@
                         "fecha_ultimo_dato": "2003-12-20",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 319802
                     },
                     "DS_942.pdf": {
                         "descripcion": "Reglamenta parcialmente el Seguro Agrario Universal “Pachamama”, mediante la implementación del Seguro Agrario para Municipios con mayores niveles de Extrema Pobreza – SAME",
@@ -813,7 +983,9 @@
                         "fecha_ultimo_dato": "2011-08-02",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 247252
                     },
                     "DS_2036.pdf": {
                         "descripcion": "Reglamento Ley Nº 365",
@@ -822,7 +994,9 @@
                         "fecha_ultimo_dato": "2014-06-18",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 224040
                     },
                     "DS_910.pdf": {
                         "descripcion": "Régimen de Infracciones y procedimientos para determinación y aplicación de Sanciones por LGI",
@@ -831,7 +1005,9 @@
                         "fecha_ultimo_dato": "2015-06-15",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 204777
                     },
                     "DS_4058.pdf": {
                         "descripcion": "Reglamento Seguro Obligatorio de Accidentes del Trabajadora y el Trabajador en el Ambito de la Construcción - SOATC",
@@ -840,7 +1016,9 @@
                         "fecha_ultimo_dato": "2019-10-15",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 261506
                     },
                     "DS_5145.pdf": {
                         "descripcion": "Modifica el DS N° 25465 de 23/07/1999, incorporando nueva modalidad de devolución de impuestos",
@@ -849,7 +1027,9 @@
                         "fecha_ultimo_dato": "2024-04-10",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 2769690
                     },
                     "Decreto_Supremo_N23318-A_Reglamento_de_la_Responsabilidad_por_la_Funcion_Publica.pdf": {
                         "descripcion": "Decreto Supremo N23318-A Reglamento de la Responsabilidad por la Funcion Publica",
@@ -858,7 +1038,9 @@
                         "fecha_ultimo_dato": "2002-11-03",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 74098
                     },
                     "Decreto_Supremo_N27113_Reglamento_general_de_la_Ley_2341.pdf": {
                         "descripcion": "Decreto Supremo N27113 Reglamento general de la Ley 2341",
@@ -867,7 +1049,9 @@
                         "fecha_ultimo_dato": "2003-07-23",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 172378
                     },
                     "Decreto_Supremo_N27175_Reglamento_a_la_Ley_N2341_de_23.04.2002.pdf": {
                         "descripcion": "Decreto Supremo N27175 Reglamento a la Ley N2341 de 23.04.2002",
@@ -876,7 +1060,9 @@
                         "fecha_ultimo_dato": "2003-09-15",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 92583
                     },
                     "Decreto_Supremo_N2920_Reforma_aspectos_del_SOAT.pdf": {
                         "descripcion": "Decreto Supremo N2920 Reforma aspectos del SOAT",
@@ -885,7 +1071,9 @@
                         "fecha_ultimo_dato": "2016-09-28",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 79849
                     },
                     "Decreto_Supremo_N4330_Amplio_la_vigencia_del_SOAT-2020_hasta_abril_de_2021.pdf": {
                         "descripcion": "Decreto Supremo N4330 Amplio la vigencia del SOAT-2020 hasta abril de 2021",
@@ -894,7 +1082,9 @@
                         "fecha_ultimo_dato": "2020-09-07",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 69926
                     },
                     "Decreto_Supremo_N4904_Reglamento_de_la_Unidad_de_Investigaciones_Financieras_-_UIF.pdf": {
                         "descripcion": "Decreto Supremo N4904 Reglamento de la Unidad de Investigaciones Financieras - UIF",
@@ -903,7 +1093,9 @@
                         "fecha_ultimo_dato": "2023-04-05",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 72632
                     },
                     "Decreto_Supremo_N5280.pdf": {
                         "descripcion": "Decreto Supremo N5280",
@@ -912,7 +1104,9 @@
                         "fecha_ultimo_dato": "2024-11-20",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 78581
                     },
                     "Decreto_Supremo_N778_Reglamento_de_Desarrollo_Parcial_a_la_Ley_N065_de_Pensiones_en_materia_de_Contribuciones_y_Gestion_de_Cobro_en_Contribuciones_en_Mora.pdf": {
                         "descripcion": "Decreto Supremo N778 Reglamento de Desarrollo Parcial a la Ley N065 de Pensiones en materia de Contribuciones y Gestión de Cobro en Contribuciones en Mora",
@@ -921,7 +1115,9 @@
                         "fecha_ultimo_dato": "2011-01-26",
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "APS",
+                        "tamanio_bytes": 72619
                     }
                 }
             },
@@ -934,7 +1130,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 505043
                     }
                 }
             },
@@ -947,7 +1145,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1858558
                     },
                     "PA_2011-2012.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2011-2012",
@@ -956,7 +1156,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1215102
                     },
                     "PA_2013-2014.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2013-2014",
@@ -965,7 +1167,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 494005
                     },
                     "PA_2015-2016.pdf": {
                         "descripcion": "Precedentes Administrativos Gestiones 2015-2016",
@@ -974,7 +1178,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 818730
                     },
                     "PA_2018.pdf": {
                         "descripcion": "Precedentes Administrativos Gestión 2018",
@@ -983,7 +1189,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1026509
                     },
                     "PA_2019.pdf": {
                         "descripcion": "Precedentes Administrativos Gestión 2019",
@@ -992,7 +1200,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 339639
                     },
                     "PA_2020.pdf": {
                         "descripcion": "Precedentes Administrativos Gestión 2020",
@@ -1001,7 +1211,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 1171870
                     },
                     "PA_2021.pdf": {
                         "descripcion": "Precedentes Administrativos Gestión 2021",
@@ -1010,7 +1222,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 2920959
                     }
                 }
             },
@@ -1023,7 +1237,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 5871821
                     },
                     "RMJ_2010.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2010",
@@ -1032,7 +1248,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 10498366
                     },
                     "RMJ_2011.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2011",
@@ -1041,7 +1259,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 29408189
                     },
                     "RMJ_2012.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2012",
@@ -1050,7 +1270,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 36021535
                     },
                     "RMJ_2013.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2013",
@@ -1059,7 +1281,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 43722854
                     },
                     "RMJ_2014.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2014",
@@ -1068,7 +1292,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 61478336
                     },
                     "RMJ_2015.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2015",
@@ -1077,7 +1303,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 37229739
                     },
                     "RMJ_2016.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2016",
@@ -1086,7 +1314,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 37716347
                     },
                     "RMJ_2017.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2017",
@@ -1095,7 +1325,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 167010871
                     },
                     "RMJ_2018.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2018",
@@ -1104,7 +1336,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 60078058
                     },
                     "RMJ_2019.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2019",
@@ -1113,7 +1347,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 74076295
                     },
                     "RMJ_02_2020.pdf": {
                         "descripcion": "Resolución Ministerial Jerárquica MEFP - 02 2020",
@@ -1122,7 +1358,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 983981
                     },
                     "RMJ_2020.pdf": {
                         "descripcion": "Resoluciones Ministeriales Jerárquicas MEFP - Gestion 2020",
@@ -1131,7 +1369,9 @@
                         "fecha_ultimo_dato": null,
                         "tipo_archivo": "pdf",
                         "id_fuente": "aps",
-                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa"
+                        "url_origen": "https://www.aps.gob.bo/index.php/seguros/normativa",
+                        "entidad_emisora": "MEFP",
+                        "tamanio_bytes": 17558451
                     }
                 }
             }

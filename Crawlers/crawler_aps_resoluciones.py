@@ -51,6 +51,15 @@ TIPOS_DOCUMENTO = ("RA", "CC", "IN")
 # La APS es la institucion que emite; el selector ofrece tambien las entidades predecesoras
 INSTITUCION = "PS"
 
+# $scope.instituciones del controlador: codigo del API -> sigla de la entidad emisora
+EMISORES = {
+    "PS": "APS",
+    "AP": "AP",
+    "IP": "IP",
+    "IS": "IS",
+    "IV": "IV",
+}
+
 # El API topea la respuesta en 500 filas aunque se pida mas
 ITEMS_POR_PAGINA = 500
 
@@ -140,6 +149,16 @@ def nombre_hoja(fila):
     return normalizar_nombre(f"{fila.get('rc_tipo', 'DOC')}_{numero}.pdf")
 
 
+def emisor_de(fila):
+    """Entidad que emitio el documento.
+
+    Con `institucion=PS` son todos de la APS, pero el selector del portal admite
+    tambien las entidades predecesoras, asi que se lee del dato en vez de asumirlo.
+    """
+    codigo = (fila.get('rc_inten') or INSTITUCION).strip()
+    return EMISORES.get(codigo, codigo or 'APS')
+
+
 def construir_hoja(fila, mercado):
     fecha = normalizar_fecha_iso(fila.get('fecha'))
     nombre = (fila.get('rc_filename') or '').strip()
@@ -157,6 +176,7 @@ def construir_hoja(fila, mercado):
         "tipo_archivo": tipo_archivo_desde_url(nombre) if nombre else "pdf",
         "id_fuente": ID_FUENTE,
         "url_origen": URL_ORIGEN[mercado],
+        "entidad_emisora": emisor_de(fila),
     }
 
     # Metadato que el API ya entrega y que el pendiente del proyecto pide para el nivel 5

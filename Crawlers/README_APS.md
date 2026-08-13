@@ -97,9 +97,25 @@ Ejemplo de hoja:
     "fecha_ultimo_dato": "2013-11-07",
     "tipo_archivo": "pdf",
     "id_fuente": "aps",
-    "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+    "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa",
+    "entidad_emisora": "APS",
+    "tamanio_bytes": 284915
 }
 ```
+
+Los dos modulos emiten exactamente los mismos campos.
+
+### Metadata
+
+| Campo | Origen | Cobertura |
+|---|---|---|
+| `fecha_ultimo_dato` / `fecha_actualizacion` | columna "Fecha" del HTML, o `fecha` del API | 69/120 y 723/723 |
+| `tamanio_bytes` | `content-length` de una peticion HEAD, o `tamanioarchivo` del API | 120/120 y 723/723 |
+| `tipo_archivo` | extension del enlace o de `rc_filename` | completa |
+| `entidad_emisora` | carpeta del repositorio, o `rc_inten` del API | completa |
+
+Sin cubrir del pendiente de metadatos del proyecto: **fecha del primer dato** y **datos
+georreferenciales**. Lo primero exige abrir y parsear cada PDF, que es un trabajo de otro orden.
 
 ## Decisiones de esquema
 
@@ -124,6 +140,15 @@ Se tomaron mirando el JSON modelo (`mapa_global_bcb.json`) y el visor (`web/app.
    los acepta pero responde con un redirect a la version codificada, y el motor de conciliacion podria
    leer ese redirect como "URL modificada" (RF-04). Se emite la URL ya codificada: verificados los 120
    enlaces, la correccion baja las redirecciones de 53 a 0.
+9. **`entidad_emisora` separada de `id_fuente`.** De los 120 documentos del mapa estatico, **50 no los
+   emite la APS**: son Resoluciones Ministeriales, Biministeriales y Precedentes Administrativos del
+   Ministerio de Economia y Finanzas Publicas, que la APS republica porque le son aplicables. Se
+   reconocen por la carpeta `/normativa/ministerio/` y son, exactamente, los 50 que no traen fecha.
+
+   `id_fuente` sigue siendo `aps` porque identifica el portal crawleado, que es lo que necesita el
+   motor para cruzar contra DataX. `entidad_emisora` dice quien lo emitio. Sin esa separacion el
+   motor le atribuye a la APS 50 documentos ajenos, y se duplicarian el dia que entre un crawler
+   del MEFP.
 
 ## Modulo de Resoluciones (API de SIRECI)
 

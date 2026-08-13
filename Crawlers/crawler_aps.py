@@ -17,6 +17,7 @@ import time
 import json
 import re
 import os
+from concurrent.futures import ThreadPoolExecutor
 
 # Asegurar la correcta codificación de salida en la consola
 for stream in (sys.stdout, sys.stderr):
@@ -57,6 +58,17 @@ EXTENSIONES_VALIDAS = ('.pdf', '.xlsx', '.xls', '.csv', '.doc', '.docx', '.sav')
 
 # Texto que la fuente usa para marcar una fila sin archivo publicado
 SIN_ARCHIVO = "(no disponible)"
+
+# La APS republica en su pagina normativa emitida por el Ministerio de Economia y
+# Finanzas Publicas. Se identifica por la carpeta del repositorio y se marca en la
+# hoja: `id_fuente` dice de que portal se obtuvo, `entidad_emisora` quien la emitio.
+# Sin esta distincion el motor de conciliacion le atribuye a la APS documentos ajenos.
+CARPETA_MEFP = "/normativa/ministerio/"
+EMISOR_APS = "APS"
+EMISOR_MEFP = "MEFP"
+
+# Peticiones en paralelo para resolver el tamaño de los archivos
+HILOS_TAMANIO = 6
 
 
 def obtener_headers():
@@ -159,6 +171,11 @@ def insertar_hoja(mapa, niveles, hoja, resumen):
     resumen["documentos"] += 1
 
 
+def emisor_desde_url(url):
+    """Quien emitio el documento, que no siempre es la fuente que lo publica."""
+    return EMISOR_MEFP if CARPETA_MEFP in unquote(url) else EMISOR_APS
+
+
 def construir_hoja(descripcion, url_absoluta, fecha, url_origen):
     """Hoja de nivel 5.
 
@@ -174,6 +191,7 @@ def construir_hoja(descripcion, url_absoluta, fecha, url_origen):
         "tipo_archivo": tipo_archivo_desde_url(url_absoluta),
         "id_fuente": ID_FUENTE,
         "url_origen": url_origen,
+        "entidad_emisora": emisor_desde_url(url_absoluta),
     }
 
 
@@ -311,6 +329,49 @@ def escanear_seccion(seccion, url_pagina, mapa, resumen):
         print(f"  - tabla {indice} ({etiqueta}): {resumen['documentos'] - antes} documentos")
 
 
+def recolectar_hojas(nodo, acumulado):
+    if isinstance(nodo, dict) and 'url_descarga' in nodo:
+        acumulado.append(nodo)
+        return
+    if isinstance(nodo, dict):
+        for hijo in nodo.values():
+            recolectar_hojas(hijo, acumulado)
+
+
+def resolver_tamanio(hoja):
+    """Tamaño del archivo desde el `content-length` de una peticion HEAD.
+
+    El HTML no publica el tamaño, a diferencia del API que usa el modulo de
+    resoluciones. Se resuelve aca para que ambas salidas de la fuente expongan
+    los mismos campos y para cubrir el pendiente de metadatos del proyecto.
+    """
+    try:
+        respuesta = requests.head(
+            hoja['url_descarga'], headers=obtener_headers(), timeout=25, allow_redirects=True
+        )
+        longitud = respuesta.headers.get('content-length')
+        if respuesta.status_code == 200 and longitud and longitud.isdigit():
+            return int(longitud)
+    except Exception:
+        pass
+    return None
+
+
+def enriquecer_tamanios(mapa, resumen):
+    hojas = []
+    recolectar_hojas(mapa, hojas)
+    if not hojas:
+        return
+
+    with ThreadPoolExecutor(HILOS_TAMANIO) as ejecutor:
+        tamanios = list(ejecutor.map(resolver_tamanio, hojas))
+
+    for hoja, tamanio in zip(hojas, tamanios):
+        if tamanio:
+            hoja["tamanio_bytes"] = tamanio
+            resumen["con_tamanio"] += 1
+
+
 # --- FLUJO PRINCIPAL AUTOMÁTICO ---
 if __name__ == "__main__":
     mapa_jerarquizado_final = {RAIZ: {}}
@@ -321,6 +382,7 @@ if __name__ == "__main__":
         "sin_archivo": 0,
         "descartados": 0,
         "tablas_dinamicas": 0,
+        "con_tamanio": 0,
         "errores": 0,
     }
 
@@ -329,6 +391,9 @@ if __name__ == "__main__":
         print(f"Indexando: {url_pagina}")
         escanear_seccion(seccion, url_pagina, mapa_jerarquizado_final[RAIZ], resumen)
         time.sleep(1.2)
+
+    print("\nResolviendo tamaño de los archivos...")
+    enriquecer_tamanios(mapa_jerarquizado_final[RAIZ], resumen)
 
     archivo_salida = os.path.join(os.path.dirname(os.path.abspath(__file__)), "mapa_global_aps.json")
     with open(archivo_salida, "w", encoding="utf-8") as f:
@@ -340,4 +405,5 @@ if __name__ == "__main__":
     print(f"  - filas sin archivo publicado  : {resumen['sin_archivo']}")
     print(f"  - enlaces no descargables      : {resumen['descartados']}")
     print(f"  - tablas dinámicas pendientes  : {resumen['tablas_dinamicas']}")
+    print(f"  - con tamaño resuelto          : {resumen['con_tamanio']}/{resumen['documentos']}")
     print(f"\n¡Listo! Mapa de la fuente APS generado en '{archivo_salida}'.")
