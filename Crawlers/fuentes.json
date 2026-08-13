@@ -1,0 +1,153 @@
+{
+  "_comentario": [
+    "Configuracion del crawler universal. Agregar una fuente es agregar una entrada aca,",
+    "no tocar codigo. Campos por fuente:",
+    "  id_fuente        obligatorio, va en cada hoja del JSON y nombra el archivo de salida",
+    "  nombre           etiqueta legible para el reporte",
+    "  url_base         punto de partida del recorrido",
+    "  entidad_emisora  sigla de quien emite; por defecto id_fuente en mayusculas",
+    "  profundidad_max  saltos de navegacion desde la url_base (2 suele bastar)",
+    "  paginas_max      tope de paginas a visitar; protege a la fuente y evita bucles",
+    "  rutas_semilla    rutas extra por donde empezar (mapa del sitio, indices, secciones)",
+    "  excluir          fragmentos de URL que no vale la pena recorrer",
+    "  periodicidad     valor por defecto cuando la fuente no la declara en el texto",
+    "  tags             etiquetas cargadas a mano, se suman a las que se infieren"
+  ],
+  "fuentes": [
+    {
+      "id_fuente": "aps",
+      "nombre": "Autoridad de Fiscalizacion y Control de Pensiones y Seguros",
+      "url_base": "https://www.aps.gob.bo",
+      "entidad_emisora": "APS",
+      "profundidad_max": 2,
+      "paginas_max": 120,
+      "rutas_semilla": [
+        "index.php/institucional/mapa-del-sitio",
+        "index.php/pensiones/normativa",
+        "index.php/seguros/normativa"
+      ],
+      "tags": ["pensiones", "seguros", "regulacion"]
+    },
+    {
+      "id_fuente": "bcb",
+      "nombre": "Banco Central de Bolivia",
+      "url_base": "https://www.bcb.gob.bo",
+      "entidad_emisora": "BCB",
+      "profundidad_max": 2,
+      "paginas_max": 120,
+      "tags": ["monetario", "financiero", "banca-central"]
+    },
+    {
+      "id_fuente": "asfi_valores",
+      "nombre": "ASFI - Valores",
+      "url_base": "https://www.asfi.gob.bo",
+      "entidad_emisora": "ASFI",
+      "profundidad_max": 2,
+      "paginas_max": 120,
+      "tags": ["financiero", "valores", "regulacion"]
+    },
+    {
+      "id_fuente": "anapo",
+      "nombre": "Asociacion de Productores de Oleaginosas y Trigo",
+      "url_base": "https://www.anapobolivia.org",
+      "entidad_emisora": "ANAPO",
+      "profundidad_max": 2,
+      "paginas_max": 80,
+      "tags": ["agropecuario", "oleaginosas", "trigo"]
+    },
+    {
+      "id_fuente": "bm",
+      "nombre": "Banco Mundial",
+      "url_base": "https://www.worldbank.org",
+      "entidad_emisora": "BM",
+      "profundidad_max": 2,
+      "paginas_max": 60,
+      "tags": ["internacional", "desarrollo"]
+    },
+    {
+      "id_fuente": "cepal",
+      "nombre": "Comision Economica para America Latina y el Caribe",
+      "url_base": "https://www.cepal.org",
+      "entidad_emisora": "CEPAL",
+      "profundidad_max": 2,
+      "paginas_max": 80,
+      "tags": ["internacional", "estadisticas"]
+    },
+    {
+      "id_fuente": "fegasacruz",
+      "nombre": "Federacion de Ganaderos de Santa Cruz",
+      "url_base": "https://www.fegasacruz.org",
+      "_nota": "El Excel dice fegasacruz.org.bo pero ese dominio ya no resuelve; el vigente es .org",
+      "entidad_emisora": "FEGASACRUZ",
+      "profundidad_max": 2,
+      "paginas_max": 60,
+      "tags": ["agropecuario", "ganaderia"]
+    },
+    {
+      "id_fuente": "finrural",
+      "nombre": "Finrural Bolivia - Indicadores",
+      "url_base": "https://www.finrural.org.bo",
+      "_nota": "El Excel dice finrural.bo pero ese dominio no resuelve; el vigente es .org.bo",
+      "entidad_emisora": "FINRURAL",
+      "profundidad_max": 2,
+      "paginas_max": 60,
+      "tags": ["financiero", "microfinanzas"]
+    },
+    {
+      "id_fuente": "fmi",
+      "nombre": "Fondo Monetario Internacional",
+      "url_base": "https://www.imf.org",
+      "entidad_emisora": "FMI",
+      "profundidad_max": 2,
+      "paginas_max": 60,
+      "tags": ["internacional", "financiero"]
+    },
+    {
+      "id_fuente": "mefp",
+      "nombre": "Ministerio de Economia y Finanzas Publicas",
+      "url_base": "https://www.economiayfinanzas.gob.bo",
+      "entidad_emisora": "MEFP",
+      "profundidad_max": 2,
+      "paginas_max": 100,
+      "verificar_ssl": false,
+      "_nota": "Certificado TLS invalido en el servidor del ministerio; se documenta y se omite la verificacion",
+      "tags": ["fiscal", "normativa"]
+    },
+    {
+      "id_fuente": "mmym",
+      "nombre": "Ministerio de Mineria y Metalurgia",
+      "url_base": "https://www.mineria.gob.bo",
+      "entidad_emisora": "MMYM",
+      "profundidad_max": 2,
+      "paginas_max": 80,
+      "tags": ["mineria"]
+    },
+    {
+      "id_fuente": "omc",
+      "nombre": "Organizacion Mundial del Comercio",
+      "url_base": "https://www.wto.org",
+      "entidad_emisora": "OMC",
+      "profundidad_max": 2,
+      "paginas_max": 60,
+      "tags": ["internacional", "comercio-exterior"]
+    },
+    {
+      "id_fuente": "statistics_denmark",
+      "nombre": "Danmarks Statistik",
+      "url_base": "https://www.dst.dk",
+      "entidad_emisora": "DST",
+      "profundidad_max": 2,
+      "paginas_max": 60,
+      "tags": ["internacional", "estadisticas"]
+    },
+    {
+      "id_fuente": "vipfe",
+      "nombre": "Viceministerio de Inversion Publica y Financiamiento Externo",
+      "url_base": "https://www.vipfe.gob.bo",
+      "entidad_emisora": "VIPFE",
+      "profundidad_max": 2,
+      "paginas_max": 80,
+      "tags": ["fiscal", "inversion-publica"]
+    }
+  ]
+}

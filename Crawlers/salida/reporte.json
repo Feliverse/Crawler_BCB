@@ -1,0 +1,142 @@
+[
+    {
+        "id_fuente": "bcb",
+        "nombre": "Banco Central de Bolivia",
+        "estado": "OK",
+        "documentos": 1400,
+        "paginas_visitadas": 120,
+        "enlaces_rotos": 5,
+        "megabytes": 1659.4,
+        "segundos": 367
+    },
+    {
+        "id_fuente": "mefp",
+        "nombre": "Ministerio de Economia y Finanzas Publicas",
+        "estado": "OK",
+        "documentos": 819,
+        "paginas_visitadas": 100,
+        "enlaces_rotos": 25,
+        "megabytes": 2206.2,
+        "segundos": 122
+    },
+    {
+        "id_fuente": "asfi_valores",
+        "nombre": "ASFI - Valores",
+        "estado": "OK",
+        "documentos": 615,
+        "paginas_visitadas": 120,
+        "enlaces_rotos": 0,
+        "megabytes": 1485.4,
+        "segundos": 85
+    },
+    {
+        "id_fuente": "omc",
+        "nombre": "Organizacion Mundial del Comercio",
+        "estado": "OK",
+        "documentos": 326,
+        "paginas_visitadas": 60,
+        "enlaces_rotos": 1,
+        "megabytes": 29.3,
+        "segundos": 78
+    },
+    {
+        "id_fuente": "aps",
+        "nombre": "Autoridad de Fiscalizacion y Control de Pensiones y Seguros",
+        "estado": "OK",
+        "documentos": 154,
+        "paginas_visitadas": 74,
+        "enlaces_rotos": 13,
+        "megabytes": 810.7,
+        "segundos": 58
+    },
+    {
+        "id_fuente": "mmym",
+        "nombre": "Ministerio de Mineria y Metalurgia",
+        "estado": "OK",
+        "documentos": 144,
+        "paginas_visitadas": 80,
+        "enlaces_rotos": 12,
+        "megabytes": 896.3,
+        "segundos": 383
+    },
+    {
+        "id_fuente": "bm",
+        "nombre": "Banco Mundial",
+        "estado": "OK",
+        "documentos": 140,
+        "paginas_visitadas": 60,
+        "enlaces_rotos": 56,
+        "megabytes": 0.3,
+        "segundos": 69
+    },
+    {
+        "id_fuente": "finrural",
+        "nombre": "Finrural Bolivia - Indicadores",
+        "estado": "OK",
+        "documentos": 129,
+        "paginas_visitadas": 25,
+        "enlaces_rotos": 1,
+        "megabytes": 4.0,
+        "segundos": 132
+    },
+    {
+        "id_fuente": "statistics_denmark",
+        "nombre": "Danmarks Statistik",
+        "estado": "OK",
+        "documentos": 63,
+        "paginas_visitadas": 60,
+        "enlaces_rotos": 1,
+        "megabytes": 46.6,
+        "segundos": 66
+    },
+    {
+        "id_fuente": "cepal",
+        "nombre": "CEPAL",
+        "estado": "OK",
+        "documentos": 18,
+        "paginas_visitadas": 80,
+        "enlaces_rotos": 0,
+        "megabytes": 17.5,
+        "segundos": 56
+    },
+    {
+        "id_fuente": "anapo",
+        "nombre": "ANAPO",
+        "estado": "FUENTE_ROTA",
+        "documentos": 0,
+        "paginas_visitadas": 8,
+        "enlaces_rotos": 98,
+        "megabytes": 0,
+        "segundos": 34
+    },
+    {
+        "id_fuente": "fmi",
+        "nombre": "Fondo Monetario Internacional",
+        "estado": "ANTI_BOT",
+        "documentos": 0,
+        "paginas_visitadas": 0,
+        "enlaces_rotos": 0,
+        "megabytes": 0,
+        "segundos": 1
+    },
+    {
+        "id_fuente": "vipfe",
+        "nombre": "VIPFE",
+        "estado": "SERVIDOR_CAIDO",
+        "documentos": 0,
+        "paginas_visitadas": 0,
+        "enlaces_rotos": 0,
+        "megabytes": 0,
+        "segundos": 0
+    },
+    {
+        "id_fuente": "fegasacruz",
+        "nombre": "FEGASACRUZ",
+        "estado": "SITIO_VACIO",
+        "documentos": 0,
+        "paginas_visitadas": 1,
+        "enlaces_rotos": 0,
+        "megabytes": 0,
+        "segundos": 1
+    }
+]

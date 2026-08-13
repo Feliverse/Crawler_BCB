@@ -1,0 +1,1030 @@
+{
+    "STATISTICS_DENMARK": {
+        "DA": {
+            "Statistik": {
+                "temaer": {
+                    "5987our-common-future.pdf": {
+                        "descripcion": "Brundtlandrapporten",
+                        "url_descarga": "https://sustainabledevelopment.un.org/content/documents/5987our-common-future.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/temaer/historien-om-statistik",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 69019
+                    },
+                    "Brancher-defineret-som-digitale.pdf": {
+                        "descripcion": "Danmarks Statistik har defineret i alt 34 brancher som 'digitale'",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/16-Formidlingscenter/Temasider/digitalisering/Brancher-defineret-som-digitale.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/temaer/digitalisering",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 462823
+                    }
+                },
+                "ADAM": {
+                    "oek130722.pdf": {
+                        "descripcion": "Kortsigtede effekter af global inflation",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2022/oek130722.pdf",
+                        "fecha_actualizacion": "2023-01-02",
+                        "fecha_ultimo_dato": "2023-01-02",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 319637
+                    },
+                    "Shg04221.pdf": {
+                        "descripcion": "Shg04221",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/Shg04221.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 815257
+                    },
+                    "SHG04620_stjerne.pdf": {
+                        "descripcion": "Boligmodellen i Okt20",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/SHG04620_stjerne.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 863099
+                    },
+                    "ABO04620---Forbrugssystemet-uden-turistindtgter.pdf": {
+                        "descripcion": "Forbrugssystemet uden turistindtægter",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/ABO04620---Forbrugssystemet-uden-turistindtgter.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1241937
+                    },
+                    "Abo06520.pdf": {
+                        "descripcion": "Note om formuevariablens pensionsformue",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/Abo06520.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 522823
+                    },
+                    "ABO08o20---Reestimation-makroforbrug-okt20.pdf": {
+                        "descripcion": "Reestimation makroforbrug okt20",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/ABO08o20---Reestimation-makroforbrug-okt20.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 494335
+                    },
+                    "ABO29520---Reestimation-af-forbrugssystemet-til-ADAM-okt20.pdf": {
+                        "descripcion": "Reestimation af forbrugssystemet til ADAM okt20",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/ABO29520---Reestimation-af-forbrugssystemet-til-ADAM-okt20.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 656776
+                    },
+                    "AGE30420.pdf": {
+                        "descripcion": "Reestimation af sektorprisrelationerne til ADAM juni 2020",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/AGE30420.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 934141
+                    },
+                    "dkn05o20---Forbruget-i-fremskrivninger.pdf": {
+                        "descripcion": "Forbruget i fremskrivninger",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/dkn05o20---Forbruget-i-fremskrivninger.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 340237
+                    },
+                    "dkn07820.pdf": {
+                        "descripcion": "Note om langsigts-ADAM",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/dkn07820.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 488760
+                    },
+                    "dkn31820---Lille-ndring-i-selskabssektoren.pdf": {
+                        "descripcion": "Lille ændring i selskabssektoren",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/dkn31820---Lille-ndring-i-selskabssektoren.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 117187
+                    },
+                    "mxd15720.pdf": {
+                        "descripcion": "Reestimation af lagerrelationerne til ADAM Jun20",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/mxd15720.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1756778
+                    },
+                    "dkn14o20---Boligkapitalligningens-form.pdf": {
+                        "descripcion": "Boligkapitalligningens form",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/dkn14o20---Boligkapitalligningens-form.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 264550
+                    },
+                    "SHG09n20_stjerne.pdf": {
+                        "descripcion": "En boligmodel til Okt20, der er sammenlignelig med boligmodellen i Jun19",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/SHG09n20_stjerne.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 511759
+                    },
+                    "shg26n20.pdf": {
+                        "descripcion": "Reestimation af faktorblokken - Okt20",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/shg26n20.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 352322
+                    },
+                    "SHg05221.pdf": {
+                        "descripcion": "Ny relation for uddannelsessøgende uden for arbejdsstyrken til ADAM Okt20",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/SHg05221.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 711620
+                    },
+                    "SHG13821_stjerne.pdf": {
+                        "descripcion": "SHG13821",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/SHG13821_stjerne.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 344738
+                    },
+                    "AGE150321.pdf": {
+                        "descripcion": "Reestimation af sektorprisrelationerne: ADAM Okt20-modelversion",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/AGE150321.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 331735
+                    },
+                    "dkn11o21---En-mulig-forbrugsfunktion_stjerne.pdf": {
+                        "descripcion": "En mulig forbrugsfunktion",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/dkn11o21---En-mulig-forbrugsfunktion_stjerne.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 138360
+                    },
+                    "dkn23821.pdf": {
+                        "descripcion": "Modellering af de private pensioner",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/dkn23821.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 594945
+                    },
+                    "DSI100321.pdf": {
+                        "descripcion": "Nye import- og eksportpriser til ADAM",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2021/DSI100321.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 495309
+                    },
+                    "tmk16420.pdf": {
+                        "descripcion": "Medieaftale og mediecheck",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/tmk16420.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 717442
+                    },
+                    "jnr15619.pdf": {
+                        "descripcion": "Om fastprisberegninger af afgifter på lagerinvesteringer - Okt18",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/jnr15619.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 157646
+                    },
+                    "ABO011019.pdf": {
+                        "descripcion": "Reestimation af makroforbrugsrelationen til ADAM med ny formuevariabel",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/ABO011019.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1108231
+                    },
+                    "ABO021219.pdf": {
+                        "descripcion": "Reestimation af makroforbrugsrelationen til ADAM modelversion Jun19",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/ABO021219.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 452916
+                    },
+                    "ABO181019.pdf": {
+                        "descripcion": "Sammenligning af multiplikatorer mellem Jul17 og Jun19",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/ABO181019.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1302403
+                    },
+                    "jnr05n19.pdf": {
+                        "descripcion": "Afprøvning af uddannelseskorrigeret arbejdskraftsbegreb i faktorblokken - Juni 2019",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/jnr05n19.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 526050
+                    },
+                    "tmk030619.pdf": {
+                        "descripcion": "Obligatorisk opsparing, satsregulering, ATP og indkomstoverførsler",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/tmk030619.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 372307
+                    },
+                    "tmk251119.pdf": {
+                        "descripcion": "ADAM multipliers - ADAM June 2019",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/tmk251119.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 2208415
+                    },
+                    "tmk261119.pdf": {
+                        "descripcion": "Førsteårseffekter Adam juni 2019",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/tmk261119.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 731932
+                    },
+                    "tmk01420-covid19-modul_v2.pdf": {
+                        "descripcion": "TMK01420",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/tmk01420-covid19-modul_v2.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 74331
+                    },
+                    "dkn08120.pdf": {
+                        "descripcion": "Finanspolitisk reaktion i næste ADAM-version (apr20)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/dkn08120.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1072126
+                    },
+                    "SHG18320.pdf": {
+                        "descripcion": "Test af den finanspolitiske reaktionsfunktion",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/SHG18320.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1461543
+                    },
+                    "SHG18320_appendiks.pdf": {
+                        "descripcion": "Test af den finanspolitiske reaktionsfunktion, appendiks",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/SHG18320_appendiks.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 13446360
+                    },
+                    "SHG13320.pdf": {
+                        "descripcion": "Rekalibrering af dagpengeperiodens betydning for den strukturelle ledighed",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/SHG13320.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 298875
+                    },
+                    "BGS15519.pdf": {
+                        "descripcion": "Kvartalsvise data i Uadam",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/BGS15519.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 235882
+                    },
+                    "BGS16219.pdf": {
+                        "descripcion": "Befolkningsfremskrivning med Uadam",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/BGS16219.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1722216
+                    },
+                    "tmk03220.pdf": {
+                        "descripcion": "ATR data i Uadam",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/tmk03220.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 150801
+                    },
+                    "tmk08720.pdf": {
+                        "descripcion": "Aldersfordeling af beskæftigelsen før 2008",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2020/tmk08720.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 253871
+                    },
+                    "jnr09119.pdf": {
+                        "descripcion": "Reestimation af faktorblokken - Okt18",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/jnr09119.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 256390
+                    },
+                    "NMH16o18.pdf": {
+                        "descripcion": "Reestimation af sektorprisrelationerne til ADAM Oktober 2018",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/NMH16o18.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 166310
+                    },
+                    "jao020119.pdf": {
+                        "descripcion": "JAO02119",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/jao020119.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 92833
+                    },
+                    "tmk03918.pdf": {
+                        "descripcion": "Produktivitet og offentlig produktion med input- og outputmetoden",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/tmk03918.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 321137
+                    },
+                    "dkn06519.pdf": {
+                        "descripcion": "Om ny lønrelation til ADAM",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/dkn06519.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1252748
+                    },
+                    "tmk05519.pdf": {
+                        "descripcion": "Indkomstfordelinger til Pskat",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/tmk05519.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1146563
+                    },
+                    "NNA250319.pdf": {
+                        "descripcion": "Ændring af beregningsmetode for momsbelastningsgraderne i foreløbie år",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/NNA250319.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 538309
+                    },
+                    "NNA010319.pdf": {
+                        "descripcion": "Ændret beregning af prisreguleringsindekset, pttyp",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/NNA010319.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 446789
+                    },
+                    "BGS14219.pdf": {
+                        "descripcion": "Ændring i fordelingen af ydelser til aktiverede og ledige dagpengemodtagere",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/BGS14219.pdf?la=da",
+                        "fecha_actualizacion": "2019-01-01",
+                        "fecha_ultimo_dato": "2019-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 132064
+                    },
+                    "BGS11219.pdf": {
+                        "descripcion": "Ændringer til Uadam18",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/BGS11219.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 282526
+                    },
+                    "NMH16o18.pdf__2": {
+                        "descripcion": "Reestimation af sektorprisrelationerne til ADAM Oktober 2018",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/NMH16o18.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 166310
+                    },
+                    "NNA140519.pdf": {
+                        "descripcion": "Eksempelsamling til Adam Oktober 2018",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/NNA140519.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 750101
+                    },
+                    "dkn06519.pdf__2": {
+                        "descripcion": "Om ny lønrelation til ADAM",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/dkn06519.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 1252748
+                    },
+                    "dkn10419.pdf": {
+                        "descripcion": "Nogle strukturelle niveauer i ADAM",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/dkn10419.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 366651
+                    },
+                    "dkn11119.pdf": {
+                        "descripcion": "Ejendomsskattens forbrugseffekt",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/dkn11119.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 83990
+                    },
+                    "NNA071118.pdf": {
+                        "descripcion": "Afskaffelse af PSO-afgiften",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2018/NNA071118.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 609257
+                    },
+                    "tmk120618.pdf": {
+                        "descripcion": "Personlige indkomstskatter til Okt18: Kompensation for skatteværdi af renteudgifter (skattenedslag)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2018/tmk120618.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 941251
+                    },
+                    "BGS21n18.pdf": {
+                        "descripcion": "Reestimation af uddannelsessøgende til modelversion Okt18",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2018/BGS21n18.pdf?la=da",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 125671
+                    },
+                    "jao020119.pdf__2": {
+                        "descripcion": "En input-output model med mængder opgjort som Laspeyres kædeindeks",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/20-Oekonomiske-modeller/2019/jao020119.pdf",
+                        "fecha_actualizacion": "2022-10-04",
+                        "fecha_ultimo_dato": "2022-10-04",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/Statistik/ADAM",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 92833
+                    }
+                }
+            },
+            "TilSalg": {
+                "grundlaget-for-statistik-mod-betaling": {
+                    "LBK-Lov-om-Danmarks-Statistik-2018-07-01.pdf": {
+                        "descripcion": "Lov om Danmarks Statistik",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/XX-Direktionssekretariatet/LBK-Lov-om-Danmarks-Statistik-2018-07-01.pdf",
+                        "fecha_actualizacion": "2018-01-01",
+                        "fecha_ultimo_dato": "2018-01-01",
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/TilSalg/grundlaget-for-statistik-mod-betaling",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 197016
+                    }
+                }
+            },
+            "OmDS": {
+                "strategi": {
+                    "Strategi_2030.pdf": {
+                        "descripcion": "Hent strategien som pdf",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/16-Formidlingscenter/maal-og-resultater/Strategi_2030.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/OmDS/strategi",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 339068
+                    }
+                },
+                "international-raadgivning": {
+                    "Statistics-Denmark-building-statistical-capacity.pdf": {
+                        "descripcion": "Læs mere om Danmarks Statistiks arbejde i andre lande (på engelsk)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/19-International-Raadgivning/Statistics-Denmark-building-statistical-capacity.pdf",
+                        "fecha_actualizacion": null,
+                        "fecha_ultimo_dato": null,
+                        "tipo_archivo": "pdf",
+                        "id_fuente": "statistics_denmark",
+                        "url_origen": "https://www.dst.dk/da/OmDS/international-raadgivning",
+                        "entidad_emisora": "DST",
+                        "periodicidad": null,
+                        "tags": [
+                            "estadisticas",
+                            "internacional"
+                        ],
+                        "tamanio_bytes": 227654
+                    }
+                }
+            }
+        }
+    }
+}
