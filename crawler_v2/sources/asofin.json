@@ -1,0 +1,22 @@
+{
+  "id_fuente": "asofin",
+  "nombre": "Asociación de Entidades Financieras Especializadas en Micro Finanzas",
+  "base_url": "https://asofinbolivia.com/",
+  "allowed_domains": [
+    "asofinbolivia.com"
+  ],
+  "entrypoints": [
+    "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+    "https://asofinbolivia.com/index.php/indicadores-sociales/",
+    "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
+    "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
+    "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+    "https://asofinbolivia.com/index.php/category/boletin_social/",
+    "https://asofinbolivia.com/index.php/category/documentos/"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 10,
+  "delay_seconds": 0.3
+}

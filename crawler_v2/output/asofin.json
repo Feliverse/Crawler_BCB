@@ -1,0 +1,3976 @@
+{
+  "__meta__": {
+    "schema_version": "2.2",
+    "fuente": {
+      "id_fuente": "asofin",
+      "nombre": "Asociación de Entidades Financieras Especializadas en Micro Finanzas",
+      "base_url": "https://asofinbolivia.com/",
+      "entrypoints": [
+        "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+        "https://asofinbolivia.com/index.php/indicadores-sociales/",
+        "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
+        "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
+        "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+        "https://asofinbolivia.com/index.php/category/boletin_social/",
+        "https://asofinbolivia.com/index.php/category/documentos/"
+      ]
+    },
+    "ejecucion": {
+      "paginas_visitadas": 150,
+      "archivos_encontrados": 119,
+      "errores": 0,
+      "motivo_parada": "max_pages",
+      "duracion_segundos": 228.075
+    },
+    "generado_utc": "2026-08-17T03:26:24.046070+00:00"
+  },
+  "paginas": [
+    {
+      "url": "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+      "title": "Indicadores Financieros – ASOFIN",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/indicadores-sociales/",
+      "title": "Indicadores Sociales – ASOFIN",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
+      "title": "ASOFIN-Indicadores Financieros",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
+      "title": "ASOFIN-Indicadores Sociales",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "title": "Boletín Financiero – ASOFIN",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "title": "Boletín Social – ASOFIN",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/documentos/",
+      "title": "Documentos – ASOFIN",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+      "title": "Indicadores Financieros – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+      "depth": 1,
+      "path": [
+        "Indicadores Financieros"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/indicadores-sociales/",
+      "title": "Indicadores Sociales – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+      "depth": 1,
+      "path": [
+        "Indicadores Sociales"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/",
+      "title": "Boletines – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/indicadores-financieros-2/",
+      "depth": 1,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/2/",
+      "title": "Boletín Financiero – Page 2 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/2/",
+      "title": "Boletines – Page 2 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/3/",
+      "title": "Boletines – Page 3 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/49/",
+      "title": "Boletines – Page 49 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/3/",
+      "title": "Boletín Financiero – Page 3 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/2/",
+      "depth": 2,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/4/",
+      "title": "Boletines – Page 4 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/2/",
+      "depth": 3,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/5/",
+      "title": "Boletines – Page 5 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/3/",
+      "depth": 3,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/48/",
+      "title": "Boletines – Page 48 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/49/",
+      "depth": 3,
+      "path": [
+        "Boletín Mensual",
+        "« Anterior"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/47/",
+      "title": "Boletines – Page 47 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/49/",
+      "depth": 3,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/4/",
+      "title": "Boletín Financiero – Page 4 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/3/",
+      "depth": 3,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/6/",
+      "title": "Boletines – Page 6 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/4/",
+      "depth": 4,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/7/",
+      "title": "Boletines – Page 7 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/5/",
+      "depth": 4,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/46/",
+      "title": "Boletines – Page 46 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/48/",
+      "depth": 4,
+      "path": [
+        "Boletín Mensual",
+        "« Anterior"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/45/",
+      "title": "Boletines – Page 45 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/47/",
+      "depth": 4,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/5/",
+      "title": "Boletín Financiero – Page 5 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/4/",
+      "depth": 4,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/8/",
+      "title": "Boletines – Page 8 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/6/",
+      "depth": 5,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/9/",
+      "title": "Boletines – Page 9 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/7/",
+      "depth": 5,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/44/",
+      "title": "Boletines – Page 44 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/46/",
+      "depth": 5,
+      "path": [
+        "Boletín Mensual",
+        "« Anterior"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/boletines/page/43/",
+      "title": "Boletines – Page 43 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/page/45/",
+      "depth": 5,
+      "path": [
+        "Boletín Mensual"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/6/",
+      "title": "Boletín Financiero – Page 6 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/page/5/",
+      "depth": 5,
+      "path": []
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/08/13/no-251/",
+      "title": "No. 251 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 251"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/08/13/no-250/",
+      "title": "No. 250 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 250"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/06/08/no-249/",
+      "title": "No. 249 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 249"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/05/13/no-248/",
+      "title": "No. 248 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 248"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/03/31/no-247/",
+      "title": "No. 247 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 247"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/03/11/no-246/",
+      "title": "No. 246 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 246"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/02/11/no-245/",
+      "title": "No. 245 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 245"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/01/08/no-244/",
+      "title": "No. 244 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 244"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/12/05/no-243/",
+      "title": "No. 243 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 243"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/10/23/no-242/",
+      "title": "No. 242 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_financiero/",
+      "depth": 1,
+      "path": [
+        "No. 242"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/08/13/no-07/",
+      "title": "No. 07 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 07"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2026/02/11/no-06/",
+      "title": "No. 06 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 06"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/08/01/no-05/",
+      "title": "No. 05 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 05"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/03/06/no-04/",
+      "title": "No. 04 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 04"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/03/06/no-03/",
+      "title": "No. 03 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 03"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/08/28/no-02/",
+      "title": "No. 02 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 02"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/05/03/no-01/",
+      "title": "No. 01 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/category/boletin_social/",
+      "depth": 1,
+      "path": [
+        "No. 01"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/09/26/no-241/",
+      "title": "No. 241 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 241"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/08/25/no-240/",
+      "title": "No. 240 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 240"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/08/01/no-239/",
+      "title": "No. 239 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 239"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/06/30/no-238/",
+      "title": "No. 238 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 238"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/05/28/no-237/",
+      "title": "No. 237 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 237"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/04/29/no-236/",
+      "title": "No. 236 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 236"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/04/09/no-235/",
+      "title": "No. 235 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 235"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/03/26/no-234/",
+      "title": "No. 234 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 234"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/02/13/no-233/",
+      "title": "No. 233 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 233"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/01/16/no-232/",
+      "title": "No. 232 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 232"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2025/01/09/no-231/",
+      "title": "No. 231 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 231"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/11/13/no-230/",
+      "title": "No. 230 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 230"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/09/30/no-229/",
+      "title": "No. 229 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 229"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/08/26/no-228/",
+      "title": "No. 228 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 228"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/08/08/no-227/",
+      "title": "No. 227 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 227"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/07/09/no-226/",
+      "title": "No. 226 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 226"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/05/28/no-225/",
+      "title": "No. 225 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 225"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/05/08/no-224/",
+      "title": "No. 224 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 224"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/04/03/no-223/",
+      "title": "No. 223 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 223"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/02/29/no-222/",
+      "title": "No. 222 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 222"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/02/01/no-221/",
+      "title": "No. 221 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 221"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2024/01/17/no-220/",
+      "title": "No. 220 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 220"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/11/21/no-219/",
+      "title": "No. 219 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 219"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/10/18/no-218/",
+      "title": "No. 218 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 218"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/09/20/no-217/",
+      "title": "No. 217 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 217"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/08/18/no-216/",
+      "title": "No. 216 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 216"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/07/20/no-215/",
+      "title": "No. 215 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 215"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/07/08/no-214/",
+      "title": "No. 214 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 214"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/05/19/no-213/",
+      "title": "No. 213 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 213"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/04/18/no-212/",
+      "title": "No. 212 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 212"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/03/27/no-211/",
+      "title": "No. 211 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 211"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/03/16/no-210/",
+      "title": "No. 210 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 210"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/02/22/no-209/",
+      "title": "No. 209 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 209"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2023/01/20/no-208/",
+      "title": "No. 208 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 208"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/12/06/no-207/",
+      "title": "No. 207 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 207"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/10/31/no-206/",
+      "title": "No. 206 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 206"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/10/31/no-205/",
+      "title": "No. 205 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 205"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/10/31/no-204/",
+      "title": "No. 204 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 204"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/08/19/no-203/",
+      "title": "No. 203 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 203"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/07/22/no-202/",
+      "title": "No. 202 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 202"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/05/30/no-201/",
+      "title": "No. 201 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 201"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/05/16/no-200/",
+      "title": "No. 200 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 200"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/04/01/no-199/",
+      "title": "No. 199 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 199"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/17/no-198/",
+      "title": "No. 198 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 198"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/17/no-197/",
+      "title": "No. 197 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 197"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-190/",
+      "title": "No. 190 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 190"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-189/",
+      "title": "No. 189 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 189"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-188/",
+      "title": "No. 188 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 188"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-187/",
+      "title": "No. 187 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 187"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-186/",
+      "title": "No. 186 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 186"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-185/",
+      "title": "No. 185 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 185"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-184/",
+      "title": "No. 184 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 184"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-183/",
+      "title": "No. 183 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 183"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-182/",
+      "title": "No. 182 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 182"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-181/",
+      "title": "No. 181 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 181"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-180/",
+      "title": "No. 180 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 180"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-179/",
+      "title": "No. 179 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 179"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-178/",
+      "title": "No. 178 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 178"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-177/",
+      "title": "No. 177 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 177"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-176/",
+      "title": "No. 176 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 176"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-175/",
+      "title": "No. 175 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 175"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-174/",
+      "title": "No. 174 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 174"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-173/",
+      "title": "No. 173 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 173"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-172/",
+      "title": "No. 172 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 172"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-171/",
+      "title": "No. 171 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 171"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-170/",
+      "title": "No. 170 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 170"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-169/",
+      "title": "No. 169 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 169"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-168/",
+      "title": "No. 168 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 168"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-167/",
+      "title": "No. 167 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 167"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-166/",
+      "title": "No. 166 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 166"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-165/",
+      "title": "No. 165 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 165"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-164/",
+      "title": "No. 164 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 164"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-163/",
+      "title": "No. 163 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 163"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-162/",
+      "title": "No. 162 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 162"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-161/",
+      "title": "No. 161 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 161"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-160/",
+      "title": "No. 160 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 160"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-159/",
+      "title": "No. 159 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 159"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-158/",
+      "title": "No. 158 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 158"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-157/",
+      "title": "No. 157 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 157"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-156/",
+      "title": "No. 156 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 156"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-155/",
+      "title": "No. 155 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 155"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-154/",
+      "title": "No. 154 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 154"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-153/",
+      "title": "No. 153 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 153"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-152/",
+      "title": "No. 152 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 152"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-151/",
+      "title": "No. 151 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 151"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-150/",
+      "title": "No. 150 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 150"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-149/",
+      "title": "No. 149 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 149"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-148/",
+      "title": "No. 148 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 148"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-147/",
+      "title": "No. 147 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 147"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-146/",
+      "title": "No. 146 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 146"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-145/",
+      "title": "No. 145 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 145"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-144/",
+      "title": "No. 144 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 144"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-143/",
+      "title": "No. 143 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 143"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-142/",
+      "title": "No. 142 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 142"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-141/",
+      "title": "No. 141 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 141"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-140/",
+      "title": "No. 140 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 140"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-139/",
+      "title": "No. 139 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 139"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-138/",
+      "title": "No. 138 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 138"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-137/",
+      "title": "No. 137 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 137"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-136/",
+      "title": "No. 136 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 136"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-135/",
+      "title": "No. 135 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 135"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-134/",
+      "title": "No. 134 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 134"
+      ]
+    },
+    {
+      "url": "https://asofinbolivia.com/index.php/2022/03/11/no-133/",
+      "title": "No. 133 – ASOFIN",
+      "parent_url": "https://asofinbolivia.com/index.php/boletines/",
+      "depth": 2,
+      "path": [
+        "Boletín Mensual",
+        "no 133"
+      ]
+    }
+  ],
+  "archivos": [
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-062026v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/08/13/no-251/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/08/13/no-251/",
+        "https://asofinbolivia.com/index.php/2026/08/13/no-07/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-08",
+      "ruta": [
+        "No. 251"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-052026v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/08/13/no-250/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/08/13/no-250/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-08",
+      "ruta": [
+        "No. 250"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/06/Bol_Fin-042026v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/06/08/no-249/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/06/08/no-249/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-06",
+      "ruta": [
+        "No. 249"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/05/Bol_Fin-032026v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/05/13/no-248/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/05/13/no-248/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-05",
+      "ruta": [
+        "No. 248"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/03/Bol_Fin-022026v1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/03/31/no-247/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/03/31/no-247/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-03",
+      "ruta": [
+        "No. 247"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/04/Boletin-Financiero-0126_compressed-1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/03/11/no-246/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/03/11/no-246/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-04",
+      "ruta": [
+        "No. 246"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Financiero-202512_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/02/11/no-245/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/02/11/no-245/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-02",
+      "ruta": [
+        "No. 245"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/01/Bol_Fin-112025_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/01/08/no-244/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/01/08/no-244/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-01",
+      "ruta": [
+        "No. 244"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/12/Bol_Fin-102025_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/12/05/no-243/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/12/05/no-243/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-12",
+      "ruta": [
+        "No. 243"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/10/Bol_Fin-092025_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/10/23/no-242/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/10/23/no-242/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-10",
+      "ruta": [
+        "No. 242"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Social-202512_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2026/02/11/no-06/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2026/02/11/no-06/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2026-02",
+      "ruta": [
+        "No. 06"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Boletin-Social-202506v1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/08/01/no-05/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/08/01/no-05/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-08",
+      "ruta": [
+        "No. 05"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/Boletin_Social_202412_nro4_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/03/06/no-04/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/03/06/no-04/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-03",
+      "ruta": [
+        "No. 04"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/Boletin_Social_202409_V4_comp.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/03/06/no-03/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/03/06/no-03/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-03",
+      "ruta": [
+        "No. 03"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/Boletin_Social_062024.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/08/28/no-02/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/08/28/no-02/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-08",
+      "ruta": [
+        "No. 02"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/Boletin-Social-202403_compressed-1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/05/03/no-01/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/05/03/no-01/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-05",
+      "ruta": [
+        "No. 01"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/09/Bol_Fin-082025-v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/09/26/no-241/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/09/26/no-241/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-09",
+      "ruta": [
+        "Boletín Mensual",
+        "no 241"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Bol_Fin-072025-v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/08/25/no-240/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/08/25/no-240/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-08",
+      "ruta": [
+        "Boletín Mensual",
+        "no 240"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Bol_Fin-06025-v1_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/08/01/no-239/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/08/01/no-239/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-08",
+      "ruta": [
+        "Boletín Mensual",
+        "no 239"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/06/v3_238_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/06/30/no-238/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/06/30/no-238/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-06",
+      "ruta": [
+        "Boletín Mensual",
+        "no 238"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/05/v2_237_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/05/28/no-237/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/05/28/no-237/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-05",
+      "ruta": [
+        "Boletín Mensual",
+        "no 237"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/04/236_v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/04/29/no-236/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/04/29/no-236/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-04",
+      "ruta": [
+        "Boletín Mensual",
+        "no 236"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/04/235_v7_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/04/09/no-235/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/04/09/no-235/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-04",
+      "ruta": [
+        "Boletín Mensual",
+        "no 235"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/v5_234_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/03/26/no-234/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/03/26/no-234/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 234"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/02/233_v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/02/13/no-233/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/02/13/no-233/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-02",
+      "ruta": [
+        "Boletín Mensual",
+        "no 233"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/01/232_v2_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/01/16/no-232/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/01/16/no-232/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-01",
+      "ruta": [
+        "Boletín Mensual",
+        "no 232"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/01/231_v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2025/01/09/no-231/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2025/01/09/no-231/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2025-01",
+      "ruta": [
+        "Boletín Mensual",
+        "no 231"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/11/230_v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/11/13/no-230/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/11/13/no-230/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-11",
+      "ruta": [
+        "Boletín Mensual",
+        "no 230"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/09/229_v5_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/09/30/no-229/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/09/30/no-229/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-09",
+      "ruta": [
+        "Boletín Mensual",
+        "no 229"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/228_v5_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/08/26/no-228/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/08/26/no-228/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-08",
+      "ruta": [
+        "Boletín Mensual",
+        "no 228"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/227_v3_compressed-1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/08/08/no-227/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/08/08/no-227/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-08",
+      "ruta": [
+        "Boletín Mensual",
+        "no 227"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/07/226_v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/07/09/no-226/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/07/09/no-226/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-07",
+      "ruta": [
+        "Boletín Mensual",
+        "no 226"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/225_v4_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/05/28/no-225/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/05/28/no-225/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-05",
+      "ruta": [
+        "Boletín Mensual",
+        "no 225"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/224_v2-compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/05/08/no-224/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/05/08/no-224/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-05",
+      "ruta": [
+        "Boletín Mensual",
+        "no 224"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/04/v2_222_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/04/03/no-223/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/04/03/no-223/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-04",
+      "ruta": [
+        "Boletín Mensual",
+        "no 223"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/02/222_v4_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/02/29/no-222/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/02/29/no-222/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-02",
+      "ruta": [
+        "Boletín Mensual",
+        "no 222"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/02/221_v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/02/01/no-221/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/02/01/no-221/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-02",
+      "ruta": [
+        "Boletín Mensual",
+        "no 221"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/01/220_v3-compressed-1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2024/01/17/no-220/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2024/01/17/no-220/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2024-01",
+      "ruta": [
+        "Boletín Mensual",
+        "no 220"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/11/v7_219.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/11/21/no-219/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/11/21/no-219/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-11",
+      "ruta": [
+        "Boletín Mensual",
+        "no 219"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/10/218_final_v7-compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/10/18/no-218/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/10/18/no-218/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 218"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/09/217_final_v8_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/09/20/no-217/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/09/20/no-217/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-09",
+      "ruta": [
+        "Boletín Mensual",
+        "no 217"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/08/216_final_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/08/18/no-216/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/08/18/no-216/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-08",
+      "ruta": [
+        "Boletín Mensual",
+        "no 216"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/07/215.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/07/20/no-215/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/07/20/no-215/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-07",
+      "ruta": [
+        "Boletín Mensual",
+        "no 215"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/07/214.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/07/08/no-214/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/07/08/no-214/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-07",
+      "ruta": [
+        "Boletín Mensual",
+        "no 214"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/05/213_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/05/19/no-213/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/05/19/no-213/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-05",
+      "ruta": [
+        "Boletín Mensual",
+        "no 213"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/05/212_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/04/18/no-212/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/04/18/no-212/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-05",
+      "ruta": [
+        "Boletín Mensual",
+        "no 212"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/03/211-v4-min-1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/03/27/no-211/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/03/27/no-211/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 211"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/03/210-v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/03/16/no-210/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/03/16/no-210/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 210"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/03/209-final-version_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/02/22/no-209/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/02/22/no-209/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 209"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/01/207-v3.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2023/01/20/no-208/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2023/01/20/no-208/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2023-01",
+      "ruta": [
+        "Boletín Mensual",
+        "no 208"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/12/207-v3_compressed.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/12/06/no-207/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/12/06/no-207/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-12",
+      "ruta": [
+        "Boletín Mensual",
+        "no 207"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/206.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/10/31/no-206/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/10/31/no-206/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 206"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/205-v6.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/10/31/no-205/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/10/31/no-205/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 205"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/204-v5.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/10/31/no-204/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/10/31/no-204/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 204"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/203-finalv3.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/08/19/no-203/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/08/19/no-203/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 203"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/202.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/07/22/no-202/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/07/22/no-202/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 202"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "http://www.asofinbolivia.com/wp-content/uploads/2022/05/201-v3.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/05/30/no-201/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/05/30/no-201/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-05",
+      "ruta": [
+        "Boletín Mensual",
+        "no 201"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/200-1.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/05/16/no-200/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/05/16/no-200/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-10",
+      "ruta": [
+        "Boletín Mensual",
+        "no 200"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/04/199.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/04/01/no-199/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/04/01/no-199/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-04",
+      "ruta": [
+        "Boletín Mensual",
+        "no 199"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/04/198.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/17/no-198/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/17/no-198/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-04",
+      "ruta": [
+        "Boletín Mensual",
+        "no 198"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/197-final.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/17/no-197/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/17/no-197/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 197"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin190.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-190/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-190/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 190"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin189.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-189/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-189/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 189"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin188.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-188/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-188/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 188"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin187.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-187/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-187/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 187"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin186.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-186/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-186/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 186"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin185.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-185/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-185/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 185"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin184.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-184/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-184/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 184"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin183.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-183/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-183/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 183"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin182.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-182/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-182/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 182"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin181.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-181/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-181/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 181"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin180.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-180/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-180/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 180"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin179.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-179/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-179/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 179"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin178.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-178/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-178/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 178"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin177.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-177/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-177/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 177"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin176.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-176/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-176/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 176"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin175.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-175/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-175/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 175"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin174.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-174/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-174/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 174"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin173.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-173/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-173/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 173"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin172.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-172/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-172/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 172"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin171.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-171/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-171/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 171"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin170.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-170/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-170/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 170"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin169.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-169/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-169/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 169"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin168.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-168/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-168/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 168"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin167.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-167/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-167/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 167"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin166.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-166/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-166/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 166"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin165.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-165/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-165/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 165"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin164.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-164/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-164/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 164"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin163.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-163/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-163/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 163"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin162.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-162/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-162/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 162"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin161.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-161/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-161/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 161"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin160.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-160/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-160/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 160"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin159.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-159/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-159/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 159"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin158.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-158/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-158/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 158"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin157.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-157/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-157/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 157"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin156.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-156/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-156/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 156"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin155.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-155/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-155/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 155"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin154.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-154/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-154/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 154"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin153.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-153/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-153/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 153"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin152.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-152/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-152/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 152"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin151.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-151/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-151/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 151"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin150.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-150/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-150/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 150"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin149.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-149/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-149/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 149"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin148.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-148/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-148/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 148"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin147.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-147/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-147/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 147"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin146.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-146/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-146/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 146"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin145.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-145/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-145/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 145"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin144.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-144/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-144/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 144"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin143.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-143/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-143/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 143"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin142.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-142/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-142/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 142"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin141.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-141/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-141/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 141"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin140.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-140/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-140/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 140"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin139.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-139/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-139/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 139"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin138.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-138/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-138/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 138"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin137.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-137/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-137/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 137"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin136.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-136/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-136/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 136"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin135.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-135/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-135/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 135"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin134.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-134/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-134/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 134"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "Descargar",
+      "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin133.pdf",
+      "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-133/",
+      "origenes": [
+        "https://asofinbolivia.com/index.php/2022/03/11/no-133/"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": "2022-03",
+      "ruta": [
+        "Boletín Mensual",
+        "no 133"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    }
+  ],
+  "datasets_web": [
+    {
+      "id_fuente": "asofin",
+      "descripcion": "ASOFIN-Indicadores Financieros",
+      "url": "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
+      "url_origen": null,
+      "ruta": [],
+      "fecha_referencia": null,
+      "tiene_tabla_html": false,
+      "tablas_detectadas": 0,
+      "permite_exportar": false,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_chart"
+    },
+    {
+      "id_fuente": "asofin",
+      "descripcion": "ASOFIN-Indicadores Sociales",
+      "url": "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
+      "url_origen": null,
+      "ruta": [],
+      "fecha_referencia": null,
+      "tiene_tabla_html": false,
+      "tablas_detectadas": 0,
+      "permite_exportar": false,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_chart"
+    }
+  ],
+  "errores": []
+}

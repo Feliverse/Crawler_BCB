@@ -1,0 +1,23 @@
+{
+  "id_fuente": "senamhi",
+  "nombre": "Servicio Nacional de Meteorología e Hidrología",
+  "base_url": "https://wis.senamhi.gob.bo/oapi/",
+  "allowed_domains": [
+    "senamhi.gob.bo"
+  ],
+  "entrypoints": [
+    "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+    "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
+    "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
+    "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
+    "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
+    "https://onsc.senamhi.gob.bo/public/public-stations-info-export",
+    "https://onsc.senamhi.gob.bo/public/public-stations",
+    "https://onsc.senamhi.gob.bo/public/public-geoanalisys"
+  ],
+  "max_depth": 4,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3
+}

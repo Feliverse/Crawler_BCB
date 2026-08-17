@@ -1,0 +1,20 @@
+{
+  "id_fuente": "att",
+  "nombre": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
+  "base_url": "https://www.att.gob.bo/",
+  "allowed_domains": [
+    "att.gob.bo"
+  ],
+  "entrypoints": [
+    "https://www.att.gob.bo/en/estadistica-sectorial",
+    "https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia",
+    "https://www.att.gob.bo/en/informacion-estadistica-sector-telecomunicaciones",
+    "https://www.att.gob.bo/serie-historica",
+    "https://www.att.gob.bo/telecomunicaciones"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 10,
+  "delay_seconds": 0.3
+}

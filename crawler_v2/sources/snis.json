@@ -1,0 +1,20 @@
+{
+  "id_fuente": "snis",
+  "nombre": "Sistema Nacional de Información en Salud",
+  "base_url": "https://snis.minsalud.gob.bo/",
+  "allowed_domains": [
+    "minsalud.gob.bo"
+  ],
+  "entrypoints": [
+    "https://snis.minsalud.gob.bo/publicaciones/",
+    "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+    "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+    "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+    "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 10,
+  "delay_seconds": 0.2
+}

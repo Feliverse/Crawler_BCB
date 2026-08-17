@@ -1,0 +1,16 @@
+{
+  "id_fuente": "sigma",
+  "nombre": "SIGMA",
+  "base_url": "https://www.sigmacorp.com.bo/",
+  "allowed_domains": [
+    "sigmacorp.com.bo"
+  ],
+  "entrypoints": [
+    "https://www.sigmacorp.com.bo/"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 12,
+  "delay_seconds": 0.3
+}

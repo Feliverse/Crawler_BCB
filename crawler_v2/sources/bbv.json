@@ -1,0 +1,25 @@
+{
+  "id_fuente": "bbv",
+  "nombre": "Bolsa Boliviana de Valores",
+  "base_url": "https://www.bbv.com.bo/",
+  "allowed_domains": [
+    "bbv.com.bo"
+  ],
+  "entrypoints": [
+    "https://www.bbv.com.bo/estadisticas/",
+    "https://www.bbv.com.bo/mercados/",
+    "https://www.bbv.com.bo/estado-del-mercado/",
+    "https://www.bbv.com.bo/mercados/montos-negociados/instrumentos-negociados/",
+    "https://www.bbv.com.bo/mercados/tasas-de-rendimiento/",
+    "https://www.bbv.com.bo/mercados/fondos-de-inversion/",
+    "https://www.bbv.com.bo/mercados/calificaciones-de-riesgo/reportes-de-calificacion/",
+    "https://www.bbv.com.bo/acerca-de-la-bolsa/informacion-financiera/",
+    "https://www.bbv.com.bo/acerca-de-la-bolsa/informacion-financiera-2024/",
+    "https://www.bbv.com.bo/Publicacionv3/View_Publicacion/Resumen_diario_Fecha.aspx"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 12,
+  "delay_seconds": 0.3
+}

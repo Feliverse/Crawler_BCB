@@ -1,0 +1,3721 @@
+{
+  "__meta__": {
+    "schema_version": "2.2",
+    "fuente": {
+      "id_fuente": "snis",
+      "nombre": "Sistema Nacional de Información en Salud",
+      "base_url": "https://snis.minsalud.gob.bo/",
+      "entrypoints": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+        "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+        "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+        "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx"
+      ]
+    },
+    "ejecucion": {
+      "paginas_visitadas": 150,
+      "archivos_encontrados": 24,
+      "errores": 1,
+      "motivo_parada": "max_pages",
+      "duracion_segundos": 121.422
+    },
+    "generado_utc": "2026-08-17T04:48:48.513516+00:00"
+  },
+  "paginas": [
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "title": "snis.minsalud.gob.bo - Publicaciones",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "title": "",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx",
+      "title": "",
+      "parent_url": null,
+      "depth": 0,
+      "path": []
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/search",
+      "title": "snis.minsalud.gob.bo - Buscar",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "Buscar"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "title": "snis.minsalud.gob.bo - Documentos_Técnicos",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "2 documentos tecnicos"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+      "title": "snis.minsalud.gob.bo - Programas_Nacionales",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "80 programas nacionales"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+      "title": "snis.minsalud.gob.bo - SIP",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "88 sip"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+      "title": "snis.minsalud.gob.bo - Poblaciones",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "95 poblaciones"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+      "title": "snis.minsalud.gob.bo - SUS",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "105 sus"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+      "title": "snis.minsalud.gob.bo - Investigaciones",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "3 investigaciones"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+      "title": "snis.minsalud.gob.bo - ASIS",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "94 asis"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+      "title": "snis.minsalud.gob.bo - Boletines",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "4 boletines"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+      "title": "snis.minsalud.gob.bo - Encuestas de Demografía y Salud",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "100 encuestas de demografia y salud"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+      "title": "snis.minsalud.gob.bo - Fichas para la Vigilancia Epidemiológica",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica"
+      ]
+    },
+    {
+      "url": "https://siccaf.minsalud.gob.bo/",
+      "title": "Sistema de Control de Calidad de Alimentos Fortificados",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "Vigilancia Fortificación de Alimentos"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "depth": 1,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2026.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "depth": 1,
+      "path": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2026.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "depth": 1,
+      "path": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2025.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+      "depth": 1,
+      "path": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2025.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+      "depth": 1,
+      "path": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "depth": 1,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "depth": 1,
+      "path": [
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "depth": 1,
+      "path": [
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx",
+      "depth": 1,
+      "path": [
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx",
+      "depth": 1,
+      "path": [
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+      "title": "snis.minsalud.gob.bo - Guias",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "18 guias"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+      "title": "snis.minsalud.gob.bo - Manuales",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "19 manuales"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+      "title": "snis.minsalud.gob.bo - Normas",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "110 normas"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+      "title": "snis.minsalud.gob.bo - Documentos CAI Nacional 2016",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "91 documentos cai nacional 2016"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+      "title": "snis.minsalud.gob.bo - Taller Fortalecimiento Herramientas Informaticas",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "96 taller fortalecimiento herramientas informaticas"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+      "title": "snis.minsalud.gob.bo - Documentos CAI Nacional 2018",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "104 documentos cai nacional 2018"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+      "title": "snis.minsalud.gob.bo - Planes de Contingencia Sistemas SNIS",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "106 planes de contingencia sistemas snis"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+      "title": "snis.minsalud.gob.bo - Taller Socialización de instrumentos a la Seguridad Social a Corto Plazo",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+      "depth": 2,
+      "path": [
+        "2 documentos tecnicos",
+        "107 taller socializacion de instrumentos a la seguridad social a corto plazo"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+      "title": "snis.minsalud.gob.bo - SUMI",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+      "depth": 2,
+      "path": [
+        "80 programas nacionales",
+        "81 sumi"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+      "title": "snis.minsalud.gob.bo - 2003",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+      "depth": 2,
+      "path": [
+        "4 boletines",
+        "45 2003"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+      "title": "snis.minsalud.gob.bo - 2004",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+      "depth": 2,
+      "path": [
+        "4 boletines",
+        "47 2004"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+      "title": "snis.minsalud.gob.bo - 2005",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+      "depth": 2,
+      "path": [
+        "4 boletines",
+        "51 2005"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+      "title": "snis.minsalud.gob.bo - 2018",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+      "depth": 2,
+      "path": [
+        "4 boletines",
+        "102 2018"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+      "title": "snis.minsalud.gob.bo - 2021",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+      "depth": 2,
+      "path": [
+        "4 boletines",
+        "111 produccion de servicios"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+      "title": "snis.minsalud.gob.bo - Notificación Inmediata",
+      "parent_url": "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+      "depth": 2,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica",
+        "117 notificacion inmediata"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+      "title": "snis.minsalud.gob.bo - Inmunoprevenibles",
+      "parent_url": "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+      "depth": 2,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica",
+        "118 inmunoprevenibles"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+      "title": "snis.minsalud.gob.bo - Enfermedades Transmitidas por Vectores",
+      "parent_url": "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+      "depth": 2,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica",
+        "119 enfermedades transmitidas por vectores"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+      "title": "snis.minsalud.gob.bo - Tuberculosis y Lepra",
+      "parent_url": "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+      "depth": 2,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica",
+        "120 tuberculosis y lepra"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+      "title": "snis.minsalud.gob.bo - Mortalidad Materna",
+      "parent_url": "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+      "depth": 2,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica",
+        "121 mortalidad materna"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2024.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2023.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2022.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2021.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2020.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2019.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2018.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2017.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2016.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2015.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2014_2.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2014 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2013.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2013 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2012.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2012 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2011.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2011 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2010.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2010 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2009.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2009 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2008.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2008 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2007.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2005 - 2006 - 2007(CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2001.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2001 - 2002 - 2003 - 2004(CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2024.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2023.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2022.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2021.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2020.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2019.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2018.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2017.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2016.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2015.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2014_2.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2014 (FORMULARIO 302 NUEVO) (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2013.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2013 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2012.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2012 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2011.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2011 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2010.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2010 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2009.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2009 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2008.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2008 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2007.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2005 - 2006 -2007 (CERRADO)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2001.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "depth": 2,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2001 - 2002 -2003 - 2004(CERRADO)"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+      "title": "snis.minsalud.gob.bo - paquetes_prestaciones",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+      "depth": 3,
+      "path": [
+        "80 programas nacionales",
+        "81 sumi",
+        "82 paquetes prestaciones"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+      "title": "snis.minsalud.gob.bo - protocolos",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+      "depth": 3,
+      "path": [
+        "80 programas nacionales",
+        "81 sumi",
+        "83 protocolos"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+      "title": "snis.minsalud.gob.bo - sumi",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+      "depth": 3,
+      "path": [
+        "80 programas nacionales",
+        "81 sumi",
+        "84 sumi"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+      "title": "snis.minsalud.gob.bo - PServicios_03",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "45 2003",
+        "46 pservicios 03"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+      "title": "snis.minsalud.gob.bo - PServicios_04",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "47 2004",
+        "48 pservicios 04"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+      "title": "snis.minsalud.gob.bo - VEpidemiologicaCancer_04",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "47 2004",
+        "49 vepidemiologicacancer 04"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+      "title": "snis.minsalud.gob.bo - VEpidemiologica_04",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "47 2004",
+        "50 vepidemiologica 04"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+      "title": "snis.minsalud.gob.bo - PServicios_05",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "51 2005",
+        "52 pservicios 05"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+      "title": "snis.minsalud.gob.bo - Vigilancia Epidemiologica",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "102 2018",
+        "103 vigilancia epidemiologica"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+      "title": "snis.minsalud.gob.bo - Produccion de Servicios",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "111 produccion de servicios",
+        "112 produccion de servicios"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+      "title": "snis.minsalud.gob.bo - Vigilancia Epidemiologica",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "111 produccion de servicios",
+        "113 vigilancia epidemiologica"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+      "title": "snis.minsalud.gob.bo - Hechos Vitales",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+      "depth": 3,
+      "path": [
+        "4 boletines",
+        "111 produccion de servicios",
+        "115 hechos vitales"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+      "title": "snis.minsalud.gob.bo - Fichas Epidemiológicas",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+      "depth": 3,
+      "path": [
+        "Fichas para la Vigilancia Epidemiológica",
+        "117 notificacion inmediata",
+        "Fichas Epidemiológicas"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2024.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2024.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2024.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2024.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2023.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2023.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2023.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2023.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2022.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2022.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2022.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2022.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2021.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2021.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2021.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2021.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2020.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2020.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2019.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2019.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2019.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2019.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2018.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2018.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2018.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2018.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2017.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2017.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2017.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2017.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2016.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2016.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2016.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2016.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2015.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2015.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2015.aspx",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2015.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2024.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2024.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2023.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2023.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2022.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2022.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2021.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2021.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2020.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2020.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2019_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2019.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2018.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2018.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2017.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2017.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2016.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2016.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302a.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2015.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302b.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2015.aspx",
+      "depth": 3,
+      "path": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/",
+      "title": "snis.minsalud.gob.bo - Inicio",
+      "parent_url": "https://snis.minsalud.gob.bo/publicaciones/",
+      "depth": 1,
+      "path": [
+        "SNIS-VE"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+      "title": "snis.minsalud.gob.bo - Boletín Informativo Producción de Servicios 01/2021",
+      "parent_url": "https://snis.minsalud.gob.bo/",
+      "depth": 2,
+      "path": [
+        "SNIS-VE",
+        "97 boletin informativo produccion de servicios 01 2021"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+      "title": "snis.minsalud.gob.bo - Boletín Producción de Servicios",
+      "parent_url": "https://snis.minsalud.gob.bo/",
+      "depth": 2,
+      "path": [
+        "SNIS-VE",
+        "Boletín Producción de Servicios"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+      "title": "snis.minsalud.gob.bo - Boletín Sistema de Vigilancia Nutricional Comunitaria",
+      "parent_url": "https://snis.minsalud.gob.bo/",
+      "depth": 2,
+      "path": [
+        "SNIS-VE",
+        "Boletín Sistema de Vigilancia Nutricional Comunitaria"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/",
+      "title": "Reportes Dinámicos",
+      "parent_url": "https://snis.minsalud.gob.bo/",
+      "depth": 2,
+      "path": [
+        "SNIS-VE",
+        "Producción de Servicios"
+      ]
+    },
+    {
+      "url": "https://snis.minsalud.gob.bo/estadisticas-sip",
+      "title": "snis.minsalud.gob.bo - Estadisticas SIP",
+      "parent_url": "https://snis.minsalud.gob.bo/",
+      "depth": 2,
+      "path": [
+        "SNIS-VE",
+        "Estadisticas SIP"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "title": "",
+      "parent_url": "https://snis.minsalud.gob.bo/",
+      "depth": 2,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2026.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2026"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2025.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2025"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2024.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2024"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2023.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2023"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2022.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2022"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2021.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2021"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2020.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2020"
+      ]
+    },
+    {
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2019.aspx",
+      "title": "",
+      "parent_url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "depth": 3,
+      "path": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2019"
+      ]
+    }
+  ],
+  "archivos": [
+    {
+      "id_fuente": "snis",
+      "descripcion": "Instructivo Carpeta Familiar",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Instructivo-CARPETA-FAMILIAR-SUS-1.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Instrumento Carpeta Familiar",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/CARPETA-FAMILIAR-SUS_-1.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Manual SOAPS v. 5.0.1",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/SOAPS_Manual-v500.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Guía de Visita Familiar",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/GUA-DE-VISITA-FAMILIAR-1.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Guia de Actualización del SOAPS v. 5.0.1",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/Manual-de-procesos-y-procedimientos-para-la-actualizacin-de-SOAPS-500.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Presentación Carpeta Familiar",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/CarpetaFamiliar/Presentacion-CF-SUS.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Certificado Médico D.S. 3174",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/web/certificado medico.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "EDSA 2016",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/web/EDSA-2016.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Boletin Medician Ancestral Boliviana",
+      "url_descarga": "https://snis.minsalud.gob.bo/images/web/BOLETIN_MEDICINA_ANCESTRAL_BOLIVIANA_final_06102022.pdf",
+      "url_origen": "https://snis.minsalud.gob.bo/publicaciones/",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/publicaciones/",
+        "https://snis.minsalud.gob.bo/publicaciones/search",
+        "https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/88-sip",
+        "https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/105-sus",
+        "https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/94-asis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/4-boletines",
+        "https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud",
+        "https://snis.minsalud.gob.bo/fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/18-guias",
+        "https://snis.minsalud.gob.bo/publicaciones/category/19-manuales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/110-normas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016",
+        "https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas",
+        "https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis",
+        "https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo",
+        "https://snis.minsalud.gob.bo/publicaciones/category/81-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/45-2003",
+        "https://snis.minsalud.gob.bo/publicaciones/category/47-2004",
+        "https://snis.minsalud.gob.bo/publicaciones/category/51-2005",
+        "https://snis.minsalud.gob.bo/publicaciones/category/102-2018",
+        "https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata",
+        "https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles",
+        "https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores",
+        "https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra",
+        "https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna",
+        "https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones",
+        "https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos",
+        "https://snis.minsalud.gob.bo/publicaciones/category/84-sumi",
+        "https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03",
+        "https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04",
+        "https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05",
+        "https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica",
+        "https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales",
+        "https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas",
+        "https://snis.minsalud.gob.bo/",
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+        "https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios",
+        "https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria",
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2025",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2025_DASHBOARD_Cerrado_Oficial.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2024",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2024_DASHBOARD_Cerrado_Oficial.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2023",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2023_DASHBOARD_Cerrado_Oficial.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2022",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EE.SS. GESTION 2022_DASHBOARDcerrado oficial.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2021",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2021_DASHBOARD_Cerrado_Oficial.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2020",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EE.SS. GESTION 2020_DASHBOARDcerrado oficial (13)PUBLICADO.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2019",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EESS_TODOS LOS SUBSECTORES_2019_cerrado.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2018",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EESS_2018_cerrado.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2005-2017",
+      "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/Establecimientos 2005_2017 CERRADO.xlsx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "origenes": [
+        "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+      ],
+      "tipo_archivo": "xlsx",
+      "extension": ".xlsx",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "metodo_deteccion": "url_extension",
+      "content_type": null,
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "jdownloads",
+      "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=112&id=951&m=0&task=download.send",
+      "url_origen": "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "97 boletin informativo produccion de servicios 01 2021",
+        "Boletin produccion 01/2021"
+      ],
+      "metodo_deteccion": "content_type",
+      "content_type": "application/pdf",
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "jdownloads",
+      "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=491&m=0&task=download.send",
+      "url_origen": "https://snis.minsalud.gob.bo/estadisticas-sip",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Estadisticas SIP",
+        "Estadisticas H. Corea"
+      ],
+      "metodo_deteccion": "content_type",
+      "content_type": "application/pdf",
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "jdownloads",
+      "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=493&m=0&task=download.send",
+      "url_origen": "https://snis.minsalud.gob.bo/estadisticas-sip",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Estadisticas SIP",
+        "Estadisticas H. La Paz"
+      ],
+      "metodo_deteccion": "content_type",
+      "content_type": "application/pdf",
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "jdownloads",
+      "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=494&m=0&task=download.send",
+      "url_origen": "https://snis.minsalud.gob.bo/estadisticas-sip",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Estadisticas SIP",
+        "Estadisticas H. Los Andes"
+      ],
+      "metodo_deteccion": "content_type",
+      "content_type": "application/pdf",
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "jdownloads",
+      "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=492&m=0&task=download.send",
+      "url_origen": "https://snis.minsalud.gob.bo/estadisticas-sip",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Estadisticas SIP",
+        "Estadisticas H. Holandes"
+      ],
+      "metodo_deteccion": "content_type",
+      "content_type": "application/pdf",
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "jdownloads",
+      "url_descarga": "https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=495&m=0&task=download.send",
+      "url_origen": "https://snis.minsalud.gob.bo/estadisticas-sip",
+      "origenes": [
+        "https://snis.minsalud.gob.bo/estadisticas-sip"
+      ],
+      "tipo_archivo": "pdf",
+      "extension": ".pdf",
+      "fecha_actualizacion": null,
+      "ruta": [
+        "SNIS-VE",
+        "Estadisticas SIP",
+        "Estadisticas H. de la Mujer"
+      ],
+      "metodo_deteccion": "content_type",
+      "content_type": "application/pdf",
+      "contenido_zip": [],
+      "zip_inspeccion": null,
+      "zip_bytes_descargados": 0
+    }
+  ],
+  "datasets_web": [
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 1,
+      "permite_exportar": false,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2026.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "ruta": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2026.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx",
+      "ruta": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2025.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+      "ruta": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2025.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx",
+      "ruta": [
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 1,
+      "permite_exportar": false,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "ruta": [
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx",
+      "ruta": [
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx",
+      "ruta": [
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx",
+      "ruta": [
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2014_2.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2014 (CERRADO)"
+      ],
+      "fecha_referencia": "2014-02",
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2013.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2013 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2012.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2012 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2011.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2011 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2010.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2010 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2009.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2009 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2008.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2008 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2007.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2005 - 2006 - 2007(CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2001.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2001 - 2002 - 2003 - 2004(CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2014_2.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2014_2.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2014 (FORMULARIO 302 NUEVO) (CERRADO)"
+      ],
+      "fecha_referencia": "2014-02",
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2013.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2013.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2013 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2012.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2012.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2012 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2011.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2011.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2011 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2010.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2010.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2010 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2009.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2009.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2009 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2008.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2008.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2008 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2007.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2007.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2005 - 2006 -2007 (CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2001.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2001.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2001 - 2002 -2003 - 2004(CERRADO)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2024.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2024.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2024.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2024.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2023.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2023.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2023.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2023.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2022.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2022.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2022.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2022.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2021.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2021.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2021.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2021.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2020.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2020.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2019.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2019.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2019.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2019.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2018.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2018.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2018.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2018.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2017.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2017.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2017.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2017.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2016.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2016.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2016.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2016.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2015.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2015.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS (FORM. 301 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2015.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2015.aspx",
+      "ruta": [
+        "Listado de Produccion de Servicios (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "INFORME MENSUAL DE PRODUCCIÓN DE SERVICIOS DE II Y III NIVEL (FORM. 301 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2024.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2024.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2024 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2023.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2023.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2023 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2022.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2022.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2022 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2021.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2021.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2021 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2020.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2020.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2020 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2019_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2019_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2019.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2019 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2018.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2018.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2018 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2017.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2017.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2017 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2016.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2016.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2016 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302a.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302a.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2015.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "NOTIFICACIÓN PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 a)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": false,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302b.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302b.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2015.aspx",
+      "ruta": [
+        "Listado de Vigilancia Epidemiologica (2001 - 2026)",
+        "INFORMACION AÑO 2015 (CERRADO)",
+        "NOTIFICACIÓN MENSUAL PARA LA VIGILANCIA EPIDEMIOLÓGICA (FORM. 302 b)"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 5,
+      "permite_exportar": true,
+      "tiene_filtros": true,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "Reportes Dinámicos",
+      "url": "https://estadisticas.minsalud.gob.bo/",
+      "url_origen": "https://snis.minsalud.gob.bo/",
+      "ruta": [
+        "SNIS-VE",
+        "Producción de Servicios"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 1,
+      "permite_exportar": false,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "url_origen": "https://snis.minsalud.gob.bo/",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 3,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2026.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2026.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2026"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2025.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2025.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2025"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2024.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2024.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2024"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2023.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2023.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2023"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2022.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2022.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2022"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2021.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2021.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2021"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2020.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2020.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2020"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    },
+    {
+      "id_fuente": "snis",
+      "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2019.aspx",
+      "url": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2019.aspx",
+      "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+      "ruta": [
+        "SNIS-VE",
+        "Reportes Dinamicos",
+        "ESTRUCTURA DE ESTABLECIMIENTOS 2019"
+      ],
+      "fecha_referencia": null,
+      "tiene_tabla_html": true,
+      "tablas_detectadas": 17,
+      "permite_exportar": true,
+      "tiene_filtros": false,
+      "metodo_deteccion": "data_html_table"
+    }
+  ],
+  "errores": [
+    "http://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx -> HTTPError: 404 Client Error: Not Found for url: http://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx"
+  ]
+}

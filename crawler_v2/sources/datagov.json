@@ -1,0 +1,16 @@
+{
+  "id_fuente": "datagov",
+  "nombre": "Data.gov",
+  "base_url": "https://data.gov/",
+  "allowed_domains": [
+    "data.gov"
+  ],
+  "entrypoints": [
+    "https://data.gov/"
+  ],
+  "max_depth": 4,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3
+}

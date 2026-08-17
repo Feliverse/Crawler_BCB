@@ -1,0 +1,16 @@
+{
+  "id_fuente": "ibce",
+  "nombre": "Instituto Boliviano de Comercio Exterior",
+  "base_url": "https://www.ibce.org.bo/",
+  "allowed_domains": [
+    "ibce.org.bo"
+  ],
+  "entrypoints": [
+    "https://www.ibce.org.bo/"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 12,
+  "delay_seconds": 0.3
+}

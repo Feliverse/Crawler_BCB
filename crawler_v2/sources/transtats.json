@@ -1,0 +1,17 @@
+{
+  "id_fuente": "transtats",
+  "nombre": "Bureau of Transportation Statistics - TranStats",
+  "base_url": "https://www.transtats.bts.gov/",
+  "allowed_domains": [
+    "transtats.bts.gov"
+  ],
+  "entrypoints": [
+    "https://www.transtats.bts.gov/DataIndex.asp",
+    "https://www.transtats.bts.gov/Employment/"
+  ],
+  "max_depth": 5,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3
+}
