@@ -1,0 +1,254 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "How-to-become-a-Member-2010-Agreement-Eng-Fre-Rus-Spa-Sept-2010.csv": {
+                        "descripcion": "How to Become an ICCO Member",
+                        "url_descarga": "https://icco.org/wp-content/uploads/How-to-become-a-Member-2010-Agreement-Eng-Fre-Rus-Spa-Sept-2010.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/"
+                    }
+                }
+            }
+        },
+        "Statistics": {
+            "Publications-order-form-2026.csv": {
+                "descripcion": "form",
+                "url_descarga": "https://www.icco.org/wp-content/uploads/Publications-order-form-2026.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.icco.org/statistics/"
+            },
+            "Cocoa-Market-Report_June.csv": {
+                "descripcion": "ICCO Monthly Cocoa Market Report – June 2025",
+                "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_June.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.icco.org/statistics/"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Statistics_-_International_Cocoa_Organization.csv": {
+                        "descripcion": "Statistics - International Cocoa Organization",
+                        "url_descarga": "https://www.icco.org/statistics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            },
+            "Click_to_open_the_search_input_field_Click_to_open_the_search_input_field_Search": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Statistics_-_International_Cocoa_Organization.csv": {
+                            "descripcion": "Statistics - International Cocoa Organization",
+                            "url_descarga": "https://www.icco.org/statistics/?s=",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.icco.org/statistics/",
+                            "metodo_deteccion": "data_html_table",
+                            "tiene_tabla_html": true,
+                            "tablas_detectadas": 2,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        },
+        "World_Cocoa_Conference_2024": {
+            "REPORT-WORLD-COCOA-CONFERENCE-2024_low.csv": {
+                "descripcion": "here",
+                "url_descarga": "https://www.icco.org/wp-content/uploads/REPORT-WORLD-COCOA-CONFERENCE-2024_low.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.icco.org/world-cocoa-conference-2024-report-now-available/"
+            }
+        },
+        "Quarterly_Bulletin_of_Cocoa_Statistics": {
+            "QBCS-L-3_Index-Sample.csv": {
+                "descripcion": "QBCS L-3_Index Sample",
+                "url_descarga": "https://www.icco.org/wp-content/uploads/QBCS-L-3_Index-Sample.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/"
+            },
+            "QBCS-L-4_Index-Sample.csv": {
+                "descripcion": "QBCS L-4_Index Sample",
+                "url_descarga": "https://www.icco.org/wp-content/uploads/QBCS-L-4_Index-Sample.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/"
+            },
+            "Annual_Reports_Test": {
+                "ICCO-Annual-Report-2024-2025-EN.csv": {
+                    "descripcion": "ICCO Annual Report-2024-2025-EN",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Annual-Report-2024-2025-EN.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/annual-reports-test/"
+                },
+                "ICCO-Annual-Report-2023-2024-EN.csv": {
+                    "descripcion": "ICCO Annual Report-2023-2024-EN",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Annual-Report-2023-2024-EN.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/annual-reports-test/"
+                }
+            },
+            "ICCO_Publications": {
+                "QBCS-XLVI-3-Index-Sample.csv": {
+                    "descripcion": "QBCS XLVI 3 Index Sample",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/QBCS-XLVI-3-Index-Sample.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "QBCS-ORDER-FORM-2024.csv": {
+                    "descripcion": "QBCS ORDER FORM 2024",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/QBCS-ORDER-FORM-2024.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "COCOA-AGREEMENT-2010-AMEND-SPANISH.csv": {
+                    "descripcion": "COCOA AGREEMENT 2010 – AMEND – SPANISH",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/COCOA-AGREEMENT-2010-AMEND-SPANISH.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "COCOA-AGREEMENT-2010-AMEND-RUSSIAN.csv": {
+                    "descripcion": "COCOA AGREEMENT 2010 – AMEND – RUSSIAN",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/COCOA-AGREEMENT-2010-AMEND-RUSSIAN.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "COCOA-AGREEMENT-2010-AMEND-FRENCH.csv": {
+                    "descripcion": "COCOA AGREEMENT 2010 – AMEND – FRENCH",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/COCOA-AGREEMENT-2010-AMEND-FRENCH.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "COCOA-AGREEMENT-2010-AMEND-ENGLISH.csv": {
+                    "descripcion": "COCOA AGREEMENT 2010 – AMEND – ENGLISH",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/COCOA-AGREEMENT-2010-AMEND-ENGLISH.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "COCOA-AGREEMENT-2010-AMEND-CHINESE.csv": {
+                    "descripcion": "COCOA AGREEMENT 2010 – AMEND – CHINESE",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/COCOA-AGREEMENT-2010-AMEND-CHINESE.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "COCOA-AGREEMENT-2010-AMEND-ARABIC.csv": {
+                    "descripcion": "COCOA AGREEMENT 2010 – AMEND – ARABIC",
+                    "url_descarga": "https://www.icco.org/wp-content/uploads/COCOA-AGREEMENT-2010-AMEND-ARABIC.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.icco.org/icco-documentation/icco-publications/"
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "ICCO_Publications_-_International_Cocoa_Organization.csv": {
+                            "descripcion": "ICCO Publications - International Cocoa Organization",
+                            "url_descarga": "https://www.icco.org/icco-documentation/icco-publications/",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                },
+                "Click_to_open_the_search_input_field_Click_to_open_the_search_input_field_Search": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "ICCO_Publications_-_International_Cocoa_Organization.csv": {
+                                "descripcion": "ICCO Publications - International Cocoa Organization",
+                                "url_descarga": "https://www.icco.org/icco-documentation/icco-publications/?s=",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.icco.org/icco-documentation/icco-publications/",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "may_2026_quarterly_bulletin_of_cocoa_statistics": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Cocoa_Statistics_-_May_2026_Quarterly_Bulletin_of_Cocoa_Statistics.csv": {
+                        "descripcion": "Cocoa Statistics - May 2026 Quarterly Bulletin of Cocoa Statistics",
+                        "url_descarga": "https://www.icco.org/may-2026-quarterly-bulletin-of-cocoa-statistics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "february_2026_quarterly_bulletin_of_cocoa_statistics": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Cocoa_Statistics_-_February_2026_Quarterly_Bulletin_of_Cocoa_Statistics.csv": {
+                        "descripcion": "Cocoa Statistics - February 2026 Quarterly Bulletin of Cocoa Statistics",
+                        "url_descarga": "https://www.icco.org/february-2026-quarterly-bulletin-of-cocoa-statistics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "november_2025_quarterly_bulletin_of_cocoa_statistics": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Cocoa_Statistics_-_November_2025_Quarterly_Bulletin_of_Cocoa_Statistics.csv": {
+                        "descripcion": "Cocoa Statistics - November 2025 Quarterly Bulletin of Cocoa Statistics",
+                        "url_descarga": "https://www.icco.org/november-2025-quarterly-bulletin-of-cocoa-statistics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

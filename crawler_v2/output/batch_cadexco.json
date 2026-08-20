@@ -1,0 +1,80 @@
+{
+    "ESTADISTICAS": {
+        "Comercio_Exterior": {
+            "re007.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "http://cadexco.bo/esp/download/re007.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/lcoext/"
+            }
+        },
+        "Acuerdos_de_IntegraciÃ³n": {
+            "Acuerdo_Bolivia_Venezuela.csv": {
+                "descripcion": "Acuerdo Bolivia – Venezuela",
+                "url_descarga": "http://www.cadexco.bo/esp/acuerdos/download/acuerdos/Acuerdo_Bolivia_Venezuela.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/acuerdos/"
+            },
+            "Acuerdo_Bolivia_Venezuela_Anexos.csv": {
+                "descripcion": "Anexos",
+                "url_descarga": "http://www.cadexco.bo/esp/acuerdos/download/acuerdos/Acuerdo_Bolivia_Venezuela_Anexos.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/acuerdos/"
+            }
+        },
+        "Memoria_Anual": {
+            "MEMORIA-ENEX-PMEX-2024.csv": {
+                "descripcion": "MEMORIA-ENEX-PMEX-2024.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/MEMORIA-ENEX-PMEX-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            },
+            "MEMORIA_ANUAL_2022.csv": {
+                "descripcion": "MEMORIA_ANUAL_2022.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/MEMORIA_ANUAL_2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            },
+            "Cadexco-Memoria-Anual-2024.csv": {
+                "descripcion": "Cadexco-Memoria-Anual-2024.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/Cadexco-Memoria-Anual-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            },
+            "MEMORIA2017.csv": {
+                "descripcion": "MEMORIA2017.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/MEMORIA2017.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            },
+            "mem2018.csv": {
+                "descripcion": "mem2018.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/mem2018.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            },
+            "mem2019.csv": {
+                "descripcion": "mem2019.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/mem2019.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            },
+            "memoria2020.csv": {
+                "descripcion": "memoria2020.pdf",
+                "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/memoria2020.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://cadexco.bo/memoria/"
+            }
+        }
+    }
+}

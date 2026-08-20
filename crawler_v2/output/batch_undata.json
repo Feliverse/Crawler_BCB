@@ -1,0 +1,812 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "SYB68_1_202511_Population,_Surface_Area_and_Density.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_1_202511_Population, Surface Area and Density.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_1_202511_Population,_Surface_Area_and_Density_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_1_202511_Population, Surface Area and Density.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_327_202511_International_Migrants_and_Refugees.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_327_202511_International Migrants and Refugees.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_327_202511_International_Migrants_and_Refugees_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_327_202511_International Migrants and Refugees.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_246_202511_Population_Growth,_Fertility_and_Mortality_Indicators.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_246_202511_Population Growth, Fertility and Mortality Indicators.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_246_202511_Population_Growth,_Fertility_and_Mortality_Indicators_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_246_202511_Population Growth, Fertility and Mortality Indicators.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB61_253_Population_Growth_Rates_in_Urban_areas_and_Capital_cities.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB61_253_Population Growth Rates in Urban areas and Capital cities.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB61_253_Population_Growth_Rates_in_Urban_areas_and_Capital_cities_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB61_253_Population Growth Rates in Urban areas and Capital cities.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_230_202511_GDP_and_GDP_Per_Capita.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_230_202511_GDP and GDP Per Capita.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_230_202511_GDP_and_GDP_Per_Capita_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_230_202511_GDP and GDP Per Capita.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_153_202511_Gross_Value_Added_by_Economic_Activity.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_153_202511_Gross Value Added by Economic Activity.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_153_202511_Gross_Value_Added_by_Economic_Activity_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_153_202511_Gross Value Added by Economic Activity.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_309_202511_Education.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_309_202511_Education.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_309_202511_Education_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_309_202511_Education.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_323_202511_Teaching_Staff_in_Education.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_323_202511_Teaching Staff in Education.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_323_202511_Teaching_Staff_in_education.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_323_202511_Teaching Staff in education.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_245_202511_Public_expenditure_on_education_and_access_to_computers.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_245_202511_Public expenditure on education and access to computers.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_245_202511_Public_expenditure_on_education_and_access_to_computers_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_245_202511_Public expenditure on education and access to computers.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_329_202511_Labour_Force_and_Unemployment.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_329_202511_Labour Force and Unemployment.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_329_202511_Labour_Force_and_Unemployment_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_329_202511_Labour Force and Unemployment.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_200_202511_Employment.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_200_202511_Employment.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_200_202511_Employment_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_200_202511_Employment.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_128_202511_Consumer_Price_Index.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_128_202511_Consumer Price Index.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_128_202511_Consumer_Price_Index_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_128_202511_Consumer Price Index.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_12_202511_Agricultural_Index.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_12_202511_Agricultural Index.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_12_202511_Agricultural_Index_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_12_202511_Agricultural Index.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_123_202511_Total_Imports_Exports_and_Balance_of_Trade.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_123_202511_Total Imports Exports and Balance of Trade.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_123_202511_Total_Imports_Exports_and_Balance_of_Trade_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_123_202511_Total Imports Exports and Balance of Trade.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_330_202511_Major_Trading_Partners.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_330_202511_Major Trading Partners.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_330_202511_Major_Trading_Partners_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_330_202511_Major Trading Partners.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_263_202511_Production,_Trade_and_Supply_of_Energy.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_263_202511_Production, Trade and Supply of Energy.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_263_202511_Production,_Trade_and_Supply_of_Energy_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_263_202511_Production, Trade and Supply of Energy.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_328_202511_Intentional_homicides_and_other_crimes.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_328_202511_Intentional homicides and other crimes.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_328_202511_Intentional_homicides_and_other_crimes_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_328_202511_Intentional homicides and other crimes.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_317_202511_Seats_held_by_women_in_Parliament.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_317_202511_Seats held by women in Parliament.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_317_202511_Seats_held_by_women_in_Parliament_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_317_202511_Seats held by women in Parliament.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_319_202511_Ratio_of_girls_to_boys_in_education.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_319_202511_Ratio of girls to boys in education.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_319_202511_Ratio_of_girls_to_boys_in_education_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_319_202511_Ratio of girls to boys in education.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_154_202511_Health_Personnel.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_154_202511_Health Personnel.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_154_202511_Health_Personnel_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_154_202511_Health Personnel.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_325_202511_Expenditure_on_health.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_325_202511_Expenditure on health.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_325_202511_Expenditure_on_health_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_325_202511_Expenditure on health.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_285_202511_Research_and_Development_Expenditure_and_Staff.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_285_202511_Research and Development Expenditure and Staff.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_285_202511_Research_and_Development_Expenditure_and_Staff_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_285_202511_Research and Development Expenditure and Staff.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_264_202511_Patents.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_264_202511_Patents.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_264_202511_Patents_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_264_202511_Patents.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_125_202511_Balance_of_Payments.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_125_202511_Balance of Payments.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_125_202511_Balance_of_Payments_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_125_202511_Balance of Payments.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_130_202511_Exchange_Rates.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_130_202511_Exchange Rates.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_130_202511_Exchange_Rates_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_130_202511_Exchange Rates.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_145_202511_Land.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_145_202511_Land.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_145_202511_Land_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_145_202511_Land.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_310_202511_Carbon_Dioxide_Emission_Estimates.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_310_202511_Carbon Dioxide Emission Estimates.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_310_202511_Carbon_Dioxide_Emission_Estimates_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_310_202511_Carbon Dioxide Emission Estimates.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_315_202511_Water_and_Sanitation_Services.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_315_202511_Water and Sanitation Services.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_315_202511_Water_and_Sanitation_Services_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_315_202511_Water and Sanitation Services.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_313_202511_Threatened_Species.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_313_202511_Threatened Species.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_313_202511_Threatened_Species_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_313_202511_Threatened Species.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_314_202511_Internet_Usage.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_314_202511_Internet Usage.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_314_202511_Internet_Usage_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_314_202511_Internet Usage.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_176_202511_Tourist-Visitors_Arrival_and_Expenditure.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_176_202511_Tourist-Visitors Arrival and Expenditure.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_176_202511_Tourist-Visitors_Arrival_and_Expenditure_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_176_202511_Tourist-Visitors Arrival and Expenditure.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_226_202511_Net_Disbursements_from_Official_ODA_to_Recipients.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_226_202511_Net Disbursements from Official ODA to Recipients.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_226_202511_Net_Disbursements_from_Official_ODA_to_Recipients_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_226_202511_Net Disbursements from Official ODA to Recipients.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_223_202511_Net_Disbursements_from_Official_ODA_from_Donors.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_223_202511_Net Disbursements from Official ODA from Donors.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/"
+                    },
+                    "SYB68_223_202511_Net_Disbursements_from_Official_ODA_from_Donors_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_223_202511_Net Disbursements from Official ODA from Donors.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNdata.csv": {
+                        "descripcion": "UNdata",
+                        "url_descarga": "https://data.un.org/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Feedback.aspx": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNdata_|_feedback.csv": {
+                        "descripcion": "UNdata | feedback",
+                        "url_descarga": "https://data.un.org/Feedback.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Web_Service": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "https_data.un.org_ws.csv": {
+                        "descripcion": "https://data.un.org/ws",
+                        "url_descarga": "https://data.un.org/ws",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 3,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Afghanistan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/af.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Albania": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/al.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Algeria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/dz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "American_Samoa": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/as.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Andorra": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ad.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Angola": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ao.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Anguilla": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ai.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Antigua_and_Barbuda": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ag.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Argentina": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ar.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Armenia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/am.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Aruba": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/aw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Australia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/au.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Austria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/at.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Azerbaijan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/az.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bahamas": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bs.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bahrain": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bh.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,279 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Brochure_IBCH_2022.csv": {
+                        "descripcion": "Brochure_IBCH_2022.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/05/Brochure_IBCH_2022.pdf",
+                        "fecha_actualizacion": "2022-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "Dossier_Pavimentos_Rigidos.csv": {
+                        "descripcion": "Dossier_Pavimentos_Rigidos.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/01/Dossier_Pavimentos_Rigidos.pdf",
+                        "fecha_actualizacion": "2022-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "001PavRig.csv": {
+                        "descripcion": "001PavRig.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/001PavRig.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "002SueloCemento-Bases.csv": {
+                        "descripcion": "002SueloCemento-Bases.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/002SueloCemento-Bases.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "003Unicapa.csv": {
+                        "descripcion": "003Unicapa.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/003Unicapa.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "004Recapados.csv": {
+                        "descripcion": "004Recapados.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/004Recapados.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "005Reciclado.csv": {
+                        "descripcion": "005Reciclado.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/005Reciclado.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "006PlacaHuella.csv": {
+                        "descripcion": "006PlacaHuella.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/006PlacaHuella.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    },
+                    "007AdoquinesHo.csv": {
+                        "descripcion": "007AdoquinesHo.pdf",
+                        "url_descarga": "https://www.ibch.com/wp-content/uploads/2022/07/007AdoquinesHo.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.ibch.com/"
+                    }
+                }
+            }
+        },
+        "Boletín": {
+            "a23n23.csv": {
+                "descripcion": "a23n23.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a23n23.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a22n22.csv": {
+                "descripcion": "a22n22.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a22n22.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a21n21.csv": {
+                "descripcion": "a21n21.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a21n21.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a20n20.csv": {
+                "descripcion": "a20n20.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a20n20.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a18n18.csv": {
+                "descripcion": "a18n18.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a18n18.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a17n17.csv": {
+                "descripcion": "a17n17.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a17n17.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a16n16.csv": {
+                "descripcion": "a16n16.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a16n16.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a15n15.csv": {
+                "descripcion": "a15n15.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a15n15.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a14n14.csv": {
+                "descripcion": "a14n14.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a14n14.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "a13n13.csv": {
+                "descripcion": "a13n13.pdf",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a13n13.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/boletin/"
+            },
+            "2": {
+                "a12n12.csv": {
+                    "descripcion": "a12n12.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a12n12.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a11n11.csv": {
+                    "descripcion": "a11n11.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a11n11.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a10n10.csv": {
+                    "descripcion": "a10n10.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a10n10.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a9n9.csv": {
+                    "descripcion": "a9n9.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a9n9.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a8n8.csv": {
+                    "descripcion": "a8n8.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a8n8.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a6n7.csv": {
+                    "descripcion": "a6n7.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a6n7.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a5n6.csv": {
+                    "descripcion": "a5n6.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a5n6.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a4n5.csv": {
+                    "descripcion": "a4n5.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a4n5.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a3n5.csv": {
+                    "descripcion": "a3n5.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a3n5.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                },
+                "a2n4.csv": {
+                    "descripcion": "a2n4.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a2n4.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/2/"
+                }
+            },
+            "3": {
+                "a1n3.csv": {
+                    "descripcion": "a1n3.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a1n3.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/3/"
+                },
+                "a1n2.csv": {
+                    "descripcion": "a1n2.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a1n2.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/3/"
+                },
+                "a1n1.csv": {
+                    "descripcion": "a1n1.pdf",
+                    "url_descarga": "https://www.ibch.com/wp-content/uploads/boletin/a1n1.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.ibch.com/boletin/page/3/"
+                }
+            }
+        },
+        "Hormigón_Premezclado": {
+            "ho-premezclado-ibch-e.csv": {
+                "descripcion": "object",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/tripticos/ho-premezclado-ibch-e.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/hormigon-premezclado/"
+            }
+        },
+        "Arena_Normalizada": {
+            "FT_Arena_IBCH-Tipo-Ottawa.csv": {
+                "descripcion": "Descargar Ficha Técnica",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/2026/04/FT_Arena_IBCH-Tipo-Ottawa.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/arena-normalizada/"
+            },
+            "Certificado_IBNORCA_2026-Arena_-IBCH_tipo_Ottawa.csv": {
+                "descripcion": "Descargar Certificado de IBNORCA",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/2026/04/Certificado_IBNORCA_2026-Arena_-IBCH_tipo_Ottawa.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/arena-normalizada/"
+            },
+            "FT_Arena_IBCH_20-30.csv": {
+                "descripcion": "Descargar Ficha Técnica",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/2026/04/FT_Arena_IBCH_20-30.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/arena-normalizada/"
+            },
+            "Certificado_IBNORCA_2026-Arena_20-30.csv": {
+                "descripcion": "Descargar Certificado de IBNORCA",
+                "url_descarga": "https://www.ibch.com/wp-content/uploads/2026/04/Certificado_IBNORCA_2026-Arena_20-30-.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.ibch.com/arena-normalizada/"
+            }
+        }
+    }
+}

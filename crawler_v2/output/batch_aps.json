@@ -1,0 +1,624 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Organigrama.csv": {
+                        "descripcion": "Organigrama",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Organigrama.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Nomina_Autoridades.csv": {
+                        "descripcion": "Nómina de Autoridades",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Nomina_Autoridades.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Nomina_Personal.csv": {
+                        "descripcion": "Nómina de Personal",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Nomina_Personal.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Escala_Salarial.csv": {
+                        "descripcion": "Escala Salarial",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Escala%20Salarial.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Manual_de_Organizacion_y_Funciones.csv": {
+                        "descripcion": "Manual de Organización y Funciones",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPE/mof/Manual%20de%20Organizacion%20y%20Funciones.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "RAI_APS_009_2025_MANUAL_DE_PUESTOS_-_PLAN_OPERATIVO_ANUAL_INDIVIDUAL_POAI_GESTION_2025.csv": {
+                        "descripcion": "Plan Operativo Anual Individual – POAI",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/RAI%20APS%20009%202025%20MANUAL%20DE%20PUESTOS%20-%20PLAN%20OPERATIVO%20ANUAL%20INDIVIDUAL%20POAI%20GESTION%202025.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Perfil_Minimo_de_Cargos.csv": {
+                        "descripcion": "Perfiles de Cargos",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UTH/informacion/Perfil%20Minimo%20de%20Cargos.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Lista_de_Precios_de_Atencion_SOAT.csv": {
+                        "descripcion": "Lista de Precios de Atención SOAT",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPCC/otros/Lista%20de%20Precios%20de%20Atencion%20SOAT.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "Convocatoria_Examen_Medicos_Calificadores.csv": {
+                        "descripcion": "Convocatoria",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/Convocatoria%20Examen%20Medicos%20Calificadores.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "DS-5595.csv": {
+                        "descripcion": "DS-5595.pdf",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/COMUNICA/DS-5595.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    },
+                    "RESOLUCION_0792026_REGLAMENTO_TRANCA_CERO_RED-1.csv": {
+                        "descripcion": "RESOLUCION 0792026 REGLAMENTO TRANCA CERO RED-1.pdf",
+                        "url_descarga": "https://www.aps.gob.bo/images/webdocs/COMUNICA/RESOLUCION%200792026%20REGLAMENTO%20TRANCA%20CERO%20RED-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.aps.gob.bo/"
+                    }
+                }
+            }
+        },
+        "Información_Planificación": {
+            "Manual_de_Procesos.csv": {
+                "descripcion": "Manual de Procesos.pdf",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/UPE/procesos/Manual%20de%20Procesos.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/planificacion/informacion-planificacion"
+            }
+        },
+        "Convocatorias_Públicas": {
+            "1CONVOCATORIAS_APSDGOUADMANPEN012024.csv": {
+                "descripcion": "1. CONVOCATORIAS APS-DGO-UADM-ANPE N° 01-2024",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/UF/convocatorias/1CONVOCATORIAS APSDGOUADMANPEN012024.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+            },
+            "CPE_02-HABILITADOS_AL_EXAMEN-JAI.csv": {
+                "descripcion": "Convocatoria Pública Externa N°2 / 2018 - Postulantes Habilitados",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/RRHH/convocatorias/CPE%2002-HABILITADOS%20AL%20EXAMEN-JAI.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+            },
+            "CPE_02-HABILITADOS_A_ENTREVISTA_CON_EL_COMITE_DE_SELECCION_-_193.csv": {
+                "descripcion": "Convocatoria Pública Externa N°2 / 2018 - Postulantes Habilitados para entrevista",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/RRHH/convocatorias/CPE%2002-HABILITADOS%20A%20ENTREVISTA%20CON%20EL%20COMITE%20DE%20SELECCION%20-%20193.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+            },
+            "Notificacion_de_Resultados.csv": {
+                "descripcion": "Notificación de Resultados",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/RRHH/convocatorias/Notificacion%20de%20Resultados.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/recursos-humanos/convocatorias-publicas"
+            }
+        },
+        "Certificaciones": {
+            "CERTIFICACION_ESTADISTICAS_Colores.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DS/CERTIFICACION%20ESTADISTICAS%20Colores.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/certificaciones"
+            },
+            "CERTIFICADO_INE.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DS/CERTIFICADO%20INE.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/certificaciones"
+            },
+            "CERTIFICADO_PENSIONES.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/UNE/DP/CERTIFICADO%20PENSIONES.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/institucional/certificaciones"
+            }
+        },
+        "Registro_para_consultores": {
+            "0362-12-RAPSDPC_COMPLEMENTA_RADPC432-2011_PROCEDIMIENTOS_CONSULTORES.csv": {
+                "descripcion": "Resolución Administrativa APS/DPC/DJ/N° 362-2012",
+                "url_descarga": "http://aplicaciones.aps.gob.bo/ResolucionesABM/Datos/Resoluciones/0362-12-RAPSDPC%20COMPLEMENTA%20RADPC432-2011%20PROCEDIMIENTOS%20CONSULTORES.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/proteccion-al-ciudadano/registro-para-consultores"
+            }
+        },
+        "Normativa": {
+            "Constitucion_Politica_del_Estado.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Constitucion_Politica_del_Estado.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "Ley_1732.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Ley_1732.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "Ley_3785.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Ley_3785.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "Ley_065.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/Ley_065.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "ALP-LEY-430.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DJ/normativa/pensiones/ALP-LEY-430.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "ALP-LEY-985.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DJ/normativa/pensiones/ALP-LEY-985.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "Ley_N_1267_de_fecha_20_de_diciembre_de_2019.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DJ/normativa/pensiones/Ley%20N%201267%20de%20fecha%2020%20de%20diciembre%20de%202019.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "LEY1613.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DJ/normativa/pensiones/LEY1613.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_778.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_778.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_822.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_822.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_1570.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_1570.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_1885.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_1885.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_1888.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_1888.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_29423.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_29423.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_27991.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_27991.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_29537.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_29537.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_29400.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/renta_dignidad/PRINCIPALES/DS_29400.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_27824.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_27824.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_27577.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_27577.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_27324.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_27324.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_26069.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_26069.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_28888.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_28888.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_29194.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_29194.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_25174.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_25174.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_24668.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_24668.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_24469.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_24469.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_24586.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_24586.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_25293.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_25293.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_26400.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/DS_26400.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "045-DS-26222.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/045-DS-26222.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "046-DS_26221-21-07-2001.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/pensiones/PRINCIPALES/046-DS 26221-21-07-2001.pdf",
+                "fecha_actualizacion": "2001-07-21",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS5503.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DJ/normativa/pensiones/DS5503.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS55161988NCPP.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DJ/normativa/pensiones/DS55161988NCPP.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "DS_5643_MANECGI_29.06.2026.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/DS%205643%20MANECGI%2029.06.2026.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "ANEXO_I_DS_5643_2026-1.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/ANEXO%20I%20DS%205643%202026-1.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "ANEXO_II_DS_5643_2026.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/ANEXO%20II%20DS%205643%202026.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "Principios_de_Derecho_Administrativo.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRINCIPIOS DERECHO ADMINISTRATIVO/Principios_de_Derecho_Administrativo.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "PA_2009-2010.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES ADMINISTRATIVOS/PA_2009-2010.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "PA_2011-2012.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES ADMINISTRATIVOS/PA_2011-2012.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "PA_2013-2014.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES ADMINISTRATIVOS/PA_2013-2014.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "PA_2015-2016.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES ADMINISTRATIVOS/PA_2015-2016.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "PA_2018.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/PRECEDENTES ADMINISTRATIVOS/PA_2018.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2009.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2009.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2010.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2010.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2011.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2011.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2012.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2012.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2013.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2013.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2014.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2014.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2015.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2015.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2016.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2016.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2017.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2017.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "RMJ_2018.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/RMJ_2018.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "020-RJ-06-2003.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES JERARQUICAS/020-RJ-06-2003.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "039-R._MINISTERIAL_n°_150_de_fecha_13-09-2005.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES BIMISTERIALES/039-R. MINISTERIAL n° 150 de fecha 13-09-2005.pdf",
+                "fecha_actualizacion": "2005-09-13",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "041-R._MINISTERIAL_266-05.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES BIMISTERIALES/041-R. MINISTERIAL 266-05.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "044-R._BIMINISTERIAL_n°24_de_fecha_25-01-2011.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES BIMISTERIALES/044-R. BIMINISTERIAL n°24 de fecha 25-01-2011.pdf",
+                "fecha_actualizacion": "2011-01-25",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "024-RESOLUCION_MINISTERIAL_547.2006_TOPE_DE_CC_(PLANILLA_DE_CC).csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/024-RESOLUCION MINISTERIAL 547.2006 TOPE DE CC (PLANILLA DE CC).pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "036-R._MINISTERIAL_n°21_de_fecha_13-09-2005.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/036-R. MINISTERIAL n°21 de fecha 13-09-2005.pdf",
+                "fecha_actualizacion": "2005-09-13",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "037-R._MINISTERIAL_n°_752_05_01_2006.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/037-R. MINISTERIAL n° 752 05 01 2006.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "038-R._MINISTERIAL_n°_485_03_11_2006.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/038-R. MINISTERIAL n° 485 03 11 2006.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "040-R._MINISTERIAL_384-04.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/040-R. MINISTERIAL 384-04.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "042-R._MINISTERIAL_231-04.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/042-R. MINISTERIAL 231-04.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "043-R._MINISTERIAL_157-00.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/043-R. MINISTERIAL 157-00.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            },
+            "053-0188-02_RESOLUCION_MINISTERIAL_MINISTERIO_DE_HACIENDA.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/files/webdocs/DJ/normativa/ministerio/RESOLUCIONES MINISTERIALES/053-0188-02 RESOLUCION MINISTERIAL MINISTERIO DE HACIENDA.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa"
+            }
+        },
+        "Normativa_Internacional": {
+            "ACUERDO_APLICACION_ESPANOL_SEPTIEMBRE_2009-2.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/ACUERDO_APLICACION_ESPANOL_SEPTIEMBRE_2009-2.pdf",
+                "fecha_actualizacion": "2009-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa-internacional"
+            },
+            "CONVENIO_MULTILATERAL_ESPANOL-2.csv": {
+                "descripcion": "Ver",
+                "url_descarga": "https://www.aps.gob.bo/images/webdocs/DP/CONVENIO_MULTILATERAL_ESPANOL-2.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.aps.gob.bo/index.php/pensiones/normativa-internacional"
+            }
+        }
+    }
+}
