@@ -1,2564 +1,451 @@
 {
-  "__meta__": {
-    "schema_version": "2.2",
-    "fuente": {
-      "id_fuente": "mdryt",
-      "nombre": "Ministerio de Desarrollo Rural y Tierras",
-      "base_url": "https://ruralytierras.gob.bo/",
-      "entrypoints": [
-        "https://ruralytierras.gob.bo/index.php/datos/",
-        "https://ruralytierras.gob.bo/index.php/estadisticas/",
-        "https://ruralytierras.gob.bo/index.php/reportes-de-estadisticas/",
-        "https://ruralytierras.gob.bo/index.php/boletines/",
-        "https://ruralytierras.gob.bo/index.php/memoria-intitucional/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
-        "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
-      ]
-    },
-    "ejecucion": {
-      "paginas_visitadas": 150,
-      "archivos_encontrados": 43,
-      "errores": 1,
-      "motivo_parada": "max_pages",
-      "duracion_segundos": 79.065
-    },
-    "generado_utc": "2026-08-17T04:27:04.109627+00:00"
-  },
-  "paginas": [
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/estadisticas/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/reportes-de-estadisticas/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/boletines/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/memoria-intitucional/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/",
-      "title": "MDRyT",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/informes-de-viaje-al-exterior/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Informes de Viaje al Exterior"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Reseña Historica"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/pei-descargable/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Plan Estratégico Institucional (PEI)"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Normativa Externa"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa-interna/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Normativa Interna"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "depth": 2,
-      "path": [
-        "Normativa Externa"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "depth": 2,
-      "path": [
-        "Normativa Externa"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Inicio"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Objetivos Institucionales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Auditoria"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/17068-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Denuncias por Hechos de Corrupción"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/lista-tramites-page/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Tramites"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/lista-servicios-page/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Servicios"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/lista-comunicados-page/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Comunicados"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/escala-salarial/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Escala Salarial"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/manual-de-organizacion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Manual de Organización Funcional (MOF)"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/poais/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Plan Operativo Anual Individual (POAI) / Perfil de Cargo"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/manuales-de-procedimiento/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Manuales de Procedimiento"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/contratos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Contratos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/lista-direcciones-page/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Direcciones"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "depth": 1,
-      "path": [
-        "Mapa del sítio"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/descripcion-de-las-etapas-del-proceso-como-pruebas-escritas-entrevistas-evaluaciones-etc/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Descripción de las etapas del proceso, como pruebas escritas, entrevistas, evaluaciones, etc"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-categoria-programatica/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Ejecución presupuestaria por categoría programática"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-fuente-de-financiamiento/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Ejecución presupuestaria por fuente de financiamiento"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-grupo-de-gasto/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Ejecución presupuestaria por grupo de gasto"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-unidad-organizacional/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Ejecución presupuestaria por unidad organizacional"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/informes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Informes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/informes-periodicos-sobre-el-avance-y-cumplimiento-de-los-contratos-adjudicados/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Informes periódicos sobre el avance y cumplimiento de los contratos adjudicados"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-actual-aprobado/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto actual aprobado"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-por-categoria-programatica/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto aprobado por categoría programática"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-por-grupo-de-gastos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto aprobado por grupo de gastos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-por-unidad-organizacional/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto aprobado por unidad organizacional"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-unidad-organizacional/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto aprobado unidad organizacional"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-por-categoria-programatica/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto por categoría programática"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto-por-fuente-de-financiamiento/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Presupuesto por fuente de financiamiento"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/programas-y-proyectos-de-inversion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Programas y Proyectos de Inversión"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/revistas/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Revistas"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-recursos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "PRESUPUESTO INSTITUCIONAL DE RECURSOS"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-gastos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "PRESUPUESTO INSTITUCIONAL DE GASTOS"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto/fuente-de-financiamiento-2025-09-04/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "FUENTE DE FINANCIAMIENTO - 2025-09-04"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/presupuesto/estado-de-ejecucion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "ESTADO DE LA EJECUCION PRESUPUESTARIA DE GASTOS"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Ipsum Dato Estadistico"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00089-2025-rendicion-publica-de-cuentas-inicial-2025/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Informe 00089-2025 Rendición Pública de Cuentas Inicial 2025"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00026-2025-rendicion-publica-de-cuentas-final-2024/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Informe 00026-2025 Rendición Pública de Cuentas Final 2024"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-0034-2024-rendicion-publica-de-cuentas-inicial-2024/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Informe 0034-2024 Rendición Pública de Cuentas Inicial 2024"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/viaje/lorem-titulo-del-informe-de-viaje-al-exterior/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem titulo del Informe de Viaje al exterior"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Sanidad e Inocuidad Alimentaria (SENASAG)"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Seguro Agrario \"Pachamama\"Seguro Agrario \"Pachamama\""
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Crédito Productivo SIBOLIVIA"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Saneamiento y Titulación de Tierras"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/boletin/16876/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Boletin Informativo 1"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/boletin/lorem-boletin-informativo-lorem/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem boletin informativo lorem"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/boletin/boletin-informativo/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Boletin Informativo"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20445/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20445"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/decretos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Decretos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/leyes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Leyes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/resolucion-ministerial/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Resolución Ministerial"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/resoluciones/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Resoluciones"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-3525/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 3525"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-2341/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 2341"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-n-2061/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY N° 2061"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-2027/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 2027"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-1715/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 1715"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-1178/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 1178"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-n-906/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY N° 906"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-830/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 830"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-395/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 395"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-144/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 144"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-n-045/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY N° 045"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-no-031/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY Nº 031"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/ley-n-004/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "LEY N° 004"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-29611/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 29611"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-no-29315/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO Nº 29315"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-no-23318-a/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO Nº 23318-A"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-4857/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 4857"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-4701/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 4701"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2852/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 2852"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2851/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 2851"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2493/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 2493"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-1858/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 1858"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/constitucion-politica-del-estado/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "CONSTITUCIÓN POLÍTICA DEL ESTADO"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-1922/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "DECRETO SUPREMO N° 1922"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa/normativa-1/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Normativa Externa"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/normativa-inter/13278/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Normativa Interna"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/documentos/resolucion-ministerial-con-el-que-se-aprueba-el-pei-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Ipsum Resolución Ministerial con el que se aprueba el PEI"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/documentos/resolucion-ministerial-con-el-que-se-aprueba-el-pei/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Ipsum documentos del PEI"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/2024/03/28/hola-mundo/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/",
-      "depth": 2,
-      "path": [
-        "Inicio",
-        "Ver todos los comunicados"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/sanidad-agropecuaria-e-inocuidad-alimentaria/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/",
-      "depth": 2,
-      "path": [
-        "Inicio",
-        "sanidad agropecuaria e inocuidad alimentaria"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/tecnologia-infraestructura-y-servicios-rurales-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/",
-      "depth": 2,
-      "path": [
-        "Inicio",
-        "tecnologia infraestructura y servicios rurales 2"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/tecnologia-infraestructura-y-servicios-rurales/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/",
-      "depth": 2,
-      "path": [
-        "Inicio",
-        "tecnologia infraestructura y servicios rurales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/financiamiento-y-apoyo-a-la-produccion-4/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/",
-      "depth": 2,
-      "path": [
-        "Inicio",
-        "financiamiento y apoyo a la produccion 4"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/?in=6750",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/",
-      "depth": 2,
-      "path": [
-        "Inicio",
-        "UCAB"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/financiamiento-y-apoyo-a-la-produccion-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/lista-servicios-page/",
-      "depth": 2,
-      "path": [
-        "Servicios"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/financiamiento-y-apoyo-a-la-produccion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/lista-servicios-page/",
-      "depth": 2,
-      "path": [
-        "Servicios"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/servicio/gestion-y-acceso-a-la-tierra/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/lista-servicios-page/",
-      "depth": 2,
-      "path": [
-        "Servicios"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/analisis-externo-oportunidades-y-amenazas/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Análisis externo: Oportunidades y Amenazas"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/analisis-interno-fortalezas-y-debilidades/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Análisis interno: Fortalezas y Debilidades"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/articulos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Artículos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Banco de Trabajo de Investigación"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/componentes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Componentes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/cpe/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "CPE"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/cursos-de-capacitacion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Cursos de Capacitación"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/dependencia/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Dependencia"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/descripcion-de-proyectos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Descripción de proyectos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/direccion-de-correo-electronico-para-consultas-generales/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Dirección de correo electrónico para consultas generales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/direcciones-de-la-oficina-central-y-oficinas-regionales/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Direcciones de la oficina central y oficinas regionales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/documentos-de-convocatoria-2/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Documentos de Convocatoria"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/explicacion-del-proceso-de-seleccion-que-se-llevara-a-cabo-para-cubrir-las-vacantes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Explicación del proceso de selección que se llevara a cabo para cubrir las vacantes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/formulario-de-inscripcion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Formulario de inscripción"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/funciones-y-atribuciones/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Funciones y atribuciones"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/lista-herramientas-page/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Herramientas y Servicios Digitales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/horario-de-atencion-al-publico/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Horario de atención al público"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/linea-del-tiempo-que-muestra-las-fases-del-proceso-de-contratacion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Linea del tiempo que muestra las fases del proceso de contratación"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/lista-de-contratos-adjudicados-de-bienes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lista de contratos adjudicados de bienes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/listado-de-internos-por-unidad-organizacional/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Listado de internos por unidad organizacional"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/mapa-de-ubicacion-central-y-sucursales/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Mapa de ubicación central y sucursales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/nomina-de-empresas-que-se-adjudicaron-procesos-de-contratacion-de-bienes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Nómina de empresas que se adjudicaron procesos de contratación de bienes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/objetivo-del-area-o-unidad-organizacional/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Objetivo del área o unidad organizacional"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/plan-de-trabajo-y-cronograma-de-los-proyectos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Plan de trabajo y cronograma de los proyectos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/redes-sociales-y-medios-de-comunicacion/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Redes sociales y medios de comunicación"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/reglamentos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Reglamentos externos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/reglamentos-internos/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Reglamentos Internos"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/resportes/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Resportes"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/tratados-internacionales/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Tratados internacionales"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/category/sin-categoria/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Sin categoría"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/tramite/regularizacion-y-saneamiento-de-tierras/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Regularización y Saneamiento de Tierras"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/tramite/tramite1/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Crédito SiBolivia"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/pei/titulo-lorem-del-plan-estrategico-institucional/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Plan Estratégico Institucional MDRyT 2021-2025"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/auditoria/7475/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Ipsum Auditoria"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/auditoria/17060/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Auditoria ejemplo"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/contrato/17048/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "Lorem Titulo Contrato"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20495/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20495"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20494/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "SERVICIO DE LIMPIEZA PARA DEPENDENCIAS DEL MINISTERIO DE DESARROLLO RURAL Y TIERRAS"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20493/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "SERVICIO DE PROVISI?N DE PASAJES A?REOS PARA EL VICEMINISTERIO DE TIERRAS"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20492/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "SERVICIO DE PROVISI?N DE PASAJES A?REOS NACIONALES PARA EL VICEMINISTERIO DE DESARROLLO AGROPECUARIO"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20491/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20491"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20490/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20490"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20489/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20489"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20488/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "ADQUISICI?N DE NEUM?TICOS PARA LOS VEH?CULOS VICEMINISTERIO DE COCA Y DESARROLLO INTEGRAL"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20487/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "SERVICIO DE PROVISI?N DE PASAJES A?REOS NACIONALES PARA EL VICEMINISTERIO DE DESARROLLO AGROPECUARIO"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20485/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20485"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20484/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "ADQUISICI?N DE BATERIAS PARA EL PARQUE AUTOMOTOR DEL VCDI"
-      ]
-    },
-    {
-      "url": "https://ruralytierras.gob.bo/index.php/convocatoria/20483/",
-      "title": "MDRyT",
-      "parent_url": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "depth": 2,
-      "path": [
-        "Mapa del sítio",
-        "20483"
-      ]
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "lorem-ipsum.csv": {
+                        "descripcion": "Descargar Archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/2025/01/lorem-ipsum.pdf",
+                        "fecha_actualizacion": "2025-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/datos/"
+                    },
+                    "1.-Memoria-Institucional-al-2024.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/1.-Memoria-Institucional-al-2024.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/memoria-intitucional/"
+                    },
+                    "EJECUCION-PRESUPUESTARIA-GASTOS-2025-09-04.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/EJECUCION-PRESUPUESTARIA-GASTOS-2025-09-04.pdf",
+                        "fecha_actualizacion": "2025-09-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
+                    },
+                    "FUENTE-DE-FINANCIAMIENTO-2025-09-04.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/FUENTE-DE-FINANCIAMIENTO-2025-09-04.pdf",
+                        "fecha_actualizacion": "2025-09-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
+                    },
+                    "PTO-INSTITUCIONAL-DE-GASTOS.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/PTO-INSTITUCIONAL-DE-GASTOS.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
+                    },
+                    "PTO-INSTITUCIONAL-RECURSOS.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/PTO-INSTITUCIONAL-RECURSOS.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
+                    },
+                    "Informe-00089-2025-Rendicion-Publica-de-Cuentas-Inicial-2025.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Informe-00089-2025-Rendicion-Publica-de-Cuentas-Inicial-2025.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
+                    },
+                    "Informe-0034-2024-Rendicion-Publica-de-Cuentas-Inicial-2024.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Informe-0034-2024-Rendicion-Publica-de-Cuentas-Inicial-2024.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
+                    },
+                    "Informe-00026-2025-Rendicion-Publica-de-Cuentas-Final-2024.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Informe-00026-2025-Rendicion-Publica-de-Cuentas-Final-2024.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "MDRyT.csv": {
+                        "descripcion": "MDRyT",
+                        "url_descarga": "https://ruralytierras.gob.bo/index.php/datos/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Normativa_Externa": {
+            "Ley-2341.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-2341.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-2061.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-2061.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-2027.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-2027.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-1715.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-1715.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-1178.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-1178.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-906.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-906.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-830.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-830.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-395.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-395.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-144.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-144.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/"
+            },
+            "Ley-45.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-45.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "Ley-031.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-031.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "ley-004.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/ley-004.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-29611.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-29611.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-29315.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-29315.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-23318-A.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-23318-A.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-4857.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-4857.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-4701.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-4701.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-2852.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-2852.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-2851.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-2851.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
+            },
+            "DS-2493.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-2493.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
+            },
+            "DS-1858.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-1858.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
+            },
+            "CPE.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/CPE.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
+            },
+            "DS-1922.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-1922.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
+            }
+        },
+        "Inicio": {
+            "1-REQUISITOS-DOCUMENTALES-PARA-LA-OBTENCION-O-RENOVACION-DE-REGISTRO-SANITARIO-PROCESADORAS.csv": {
+                "descripcion": "Sanidad para Producir y Exportar Certificamos la calidad sanitaria de tus productos para el mercado nacional e internacional. Realiza tus trámites de registro sanitario, permisos de exportación y control de plagas de forma ágil y segura. Actualizado hace 521541 mins",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/1-REQUISITOS-DOCUMENTALES-PARA-LA-OBTENCION-O-RENOVACION-DE-REGISTRO-SANITARIO-PROCESADORAS.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/"
+            }
+        },
+        "Auditoria": {
+            "Lorem-Ipsum2025.csv": {
+                "descripcion": "Descargar Archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/2024/11/Lorem-Ipsum2025.pdf",
+                "fecha_actualizacion": "2024-11",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/"
+            }
+        },
+        "Escala_Salarial": {
+            "RM197-Escala-Salarial.csv": {
+                "descripcion": "Resolucion Ministerial Nª 197",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/RM197-Escala-Salarial.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/escala-salarial/"
+            },
+            "129-2024-APRUEBA-LA-ESCALA-SALARIAL-2024-MDRYTSENASAG-Y-PACU.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/129-2024-APRUEBA-LA-ESCALA-SALARIAL-2024-MDRYTSENASAG-Y-PACU.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/escala-salarial/"
+            }
+        },
+        "Manual_de_Organización_Funcional_(MOF)": {
+            "RM-082-Manual-de-Organizacion-y-Funciones.csv": {
+                "descripcion": "Manual de Organización y Funciones 2023 - Resolución Ministerial Nª 082",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/RM-082-Manual-de-Organizacion-y-Funciones.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/manual-de-organizacion/"
+            }
+        },
+        "Plan_Operativo_Anual_Individual_(POAI)_Perfil_de_Cargo": {
+            "171-2025-RM-TOMO-4-APROBACION-DE-POAIS-2025-VCDI-_-MDRYT_0001.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-4-APROBACION-DE-POAIS-2025-VCDI-_-MDRYT_0001.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/poais/"
+            },
+            "171-2025-RM-TOMO-1-APROBACION-DE-POAIS-2025-CENTRAL-_-MDRYT_0001.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-1-APROBACION-DE-POAIS-2025-CENTRAL-_-MDRYT_0001.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/poais/"
+            },
+            "171-2025-RM-TOMO-2-APROBACION-DE-POAIS-2025-CENTRAL-_-MDRYT_0001.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-2-APROBACION-DE-POAIS-2025-CENTRAL-_-MDRYT_0001.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/poais/"
+            },
+            "171-2025-RM-TOMO-3-APROBACION-DE-POAIS-2025-VCDI-_-MDRYT_0001.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-3-APROBACION-DE-POAIS-2025-VCDI-_-MDRYT_0001.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/poais/"
+            }
+        },
+        "Manuales_de_Procedimiento": {
+            "494-2023-MANUAL-DE-PROCESOS-Y-PROCEDIMIENTOS-1.csv": {
+                "descripcion": "Manual de Procesos y Procedimientos 2023 - Resolucion Ministerial Nª 494",
+                "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/494-2023-MANUAL-DE-PROCESOS-Y-PROCEDIMIENTOS-1.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ruralytierras.gob.bo/index.php/manuales-de-procedimiento/"
+            }
+        },
+        "Mapa_del_sítio": {
+            "Componentes": {
+                "ley-n-164-comprimido.csv": {
+                    "descripcion": "Descargar PDF",
+                    "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/2024/04/ley-n-164-comprimido.pdf",
+                    "fecha_actualizacion": "2024-04",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://ruralytierras.gob.bo/index.php/componentes/"
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "MDRyT.csv": {
+                        "descripcion": "MDRyT",
+                        "url_descarga": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ruralytierras.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            },
+            "Lorem_Ipsum_Dato_Estadistico": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "MDRyT.csv": {
+                            "descripcion": "MDRyT",
+                            "url_descarga": "https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "Sanidad_e_Inocuidad_Alimentaria_(SENASAG)": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "MDRyT.csv": {
+                            "descripcion": "MDRyT",
+                            "url_descarga": "https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "Seguro_Agrario_\"Pachamama\"Seguro_Agrario_\"Pachamama\"": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "MDRyT.csv": {
+                            "descripcion": "MDRyT",
+                            "url_descarga": "https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "Crédito_Productivo_SIBOLIVIA": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "MDRyT.csv": {
+                            "descripcion": "MDRyT",
+                            "url_descarga": "https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "Saneamiento_y_Titulación_de_Tierras": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "MDRyT.csv": {
+                            "descripcion": "MDRyT",
+                            "url_descarga": "https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        }
     }
-  ],
-  "archivos": [
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar Archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/2025/01/lorem-ipsum.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/datos/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/datos/",
-        "https://ruralytierras.gob.bo/index.php/informes-de-viaje-al-exterior/",
-        "https://ruralytierras.gob.bo/index.php/pei-descargable/",
-        "https://ruralytierras.gob.bo/index.php/normativa-interna/",
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/",
-        "https://ruralytierras.gob.bo/",
-        "https://ruralytierras.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
-        "https://ruralytierras.gob.bo/index.php/contratos/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-recursos/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-gastos/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/fuente-de-financiamiento-2025-09-04/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/estado-de-ejecucion/",
-        "https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/",
-        "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00089-2025-rendicion-publica-de-cuentas-inicial-2025/",
-        "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00026-2025-rendicion-publica-de-cuentas-final-2024/",
-        "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-0034-2024-rendicion-publica-de-cuentas-inicial-2024/",
-        "https://ruralytierras.gob.bo/index.php/viaje/lorem-titulo-del-informe-de-viaje-al-exterior/",
-        "https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/",
-        "https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/",
-        "https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/",
-        "https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/",
-        "https://ruralytierras.gob.bo/index.php/boletin/16876/",
-        "https://ruralytierras.gob.bo/index.php/boletin/lorem-boletin-informativo-lorem/",
-        "https://ruralytierras.gob.bo/index.php/boletin/boletin-informativo/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20445/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-3525/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-2341/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-2061/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-2027/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-1715/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-1178/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-906/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-830/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-395/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-144/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-045/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-031/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-004/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-29611/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-no-29315/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-no-23318-a/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-4857/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-4701/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2852/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2851/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2493/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-1858/",
-        "https://ruralytierras.gob.bo/index.php/normativa/constitucion-politica-del-estado/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-1922/",
-        "https://ruralytierras.gob.bo/index.php/normativa/normativa-1/",
-        "https://ruralytierras.gob.bo/index.php/normativa-inter/13278/",
-        "https://ruralytierras.gob.bo/index.php/documentos/resolucion-ministerial-con-el-que-se-aprueba-el-pei-2/",
-        "https://ruralytierras.gob.bo/index.php/documentos/resolucion-ministerial-con-el-que-se-aprueba-el-pei/",
-        "https://ruralytierras.gob.bo/index.php/2024/03/28/hola-mundo/",
-        "https://ruralytierras.gob.bo/?in=6750",
-        "https://ruralytierras.gob.bo/index.php/articulos/",
-        "https://ruralytierras.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
-        "https://ruralytierras.gob.bo/index.php/category/sin-categoria/",
-        "https://ruralytierras.gob.bo/index.php/pei/titulo-lorem-del-plan-estrategico-institucional/",
-        "https://ruralytierras.gob.bo/index.php/auditoria/7475/",
-        "https://ruralytierras.gob.bo/index.php/auditoria/17060/",
-        "https://ruralytierras.gob.bo/index.php/contrato/17048/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20495/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20494/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20493/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20492/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20491/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20490/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20489/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20488/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20487/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20485/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20484/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20483/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": "2025-01",
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/1.-Memoria-Institucional-al-2024.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/memoria-intitucional/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/memoria-intitucional/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/EJECUCION-PRESUPUESTARIA-GASTOS-2025-09-04.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": "2025-09-04",
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/FUENTE-DE-FINANCIAMIENTO-2025-09-04.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": "2025-09-04",
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/PTO-INSTITUCIONAL-DE-GASTOS.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/PTO-INSTITUCIONAL-RECURSOS.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Informe-00089-2025-Rendicion-Publica-de-Cuentas-Inicial-2025.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Informe-0034-2024-Rendicion-Publica-de-Cuentas-Inicial-2024.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Informe-00026-2025-Rendicion-Publica-de-Cuentas-Final-2024.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-2341.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-2061.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-2027.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-1715.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-1178.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-906.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-830.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-395.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-144.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-45.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/Ley-031.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/ley-004.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-29611.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-29315.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-23318-A.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-4857.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-4701.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-2852.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-2851.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-2493.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-1858.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/CPE.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/DS-1922.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Normativa Externa"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Sanidad para Producir y Exportar Certificamos la calidad sanitaria de tus productos para el mercado nacional e internacional. Realiza tus trámites de registro sanitario, permisos de exportación y control de plagas de forma ágil y segura. Actualizado hace 517935 mins",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/1-REQUISITOS-DOCUMENTALES-PARA-LA-OBTENCION-O-RENOVACION-DE-REGISTRO-SANITARIO-PROCESADORAS.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-recursos/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-gastos/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/fuente-de-financiamiento-2025-09-04/",
-        "https://ruralytierras.gob.bo/index.php/presupuesto/estado-de-ejecucion/",
-        "https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/",
-        "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00089-2025-rendicion-publica-de-cuentas-inicial-2025/",
-        "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00026-2025-rendicion-publica-de-cuentas-final-2024/",
-        "https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-0034-2024-rendicion-publica-de-cuentas-inicial-2024/",
-        "https://ruralytierras.gob.bo/index.php/viaje/lorem-titulo-del-informe-de-viaje-al-exterior/",
-        "https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/",
-        "https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/",
-        "https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/",
-        "https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/",
-        "https://ruralytierras.gob.bo/index.php/boletin/16876/",
-        "https://ruralytierras.gob.bo/index.php/boletin/lorem-boletin-informativo-lorem/",
-        "https://ruralytierras.gob.bo/index.php/boletin/boletin-informativo/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20445/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-3525/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-2341/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-2061/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-2027/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-1715/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-1178/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-906/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-830/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-395/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-144/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-045/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-no-031/",
-        "https://ruralytierras.gob.bo/index.php/normativa/ley-n-004/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-29611/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-no-29315/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-no-23318-a/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-4857/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-4701/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2852/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2851/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-2493/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-1858/",
-        "https://ruralytierras.gob.bo/index.php/normativa/constitucion-politica-del-estado/",
-        "https://ruralytierras.gob.bo/index.php/normativa/decreto-supremo-n-1922/",
-        "https://ruralytierras.gob.bo/index.php/normativa/normativa-1/",
-        "https://ruralytierras.gob.bo/index.php/normativa-inter/13278/",
-        "https://ruralytierras.gob.bo/index.php/documentos/resolucion-ministerial-con-el-que-se-aprueba-el-pei-2/",
-        "https://ruralytierras.gob.bo/index.php/documentos/resolucion-ministerial-con-el-que-se-aprueba-el-pei/",
-        "https://ruralytierras.gob.bo/index.php/2024/03/28/hola-mundo/",
-        "https://ruralytierras.gob.bo/?in=6750",
-        "https://ruralytierras.gob.bo/index.php/category/sin-categoria/",
-        "https://ruralytierras.gob.bo/index.php/pei/titulo-lorem-del-plan-estrategico-institucional/",
-        "https://ruralytierras.gob.bo/index.php/auditoria/7475/",
-        "https://ruralytierras.gob.bo/index.php/auditoria/17060/",
-        "https://ruralytierras.gob.bo/index.php/contrato/17048/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20495/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20494/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20493/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20492/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20491/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20490/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20489/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20488/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20487/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20485/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20484/",
-        "https://ruralytierras.gob.bo/index.php/convocatoria/20483/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Inicio"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar Archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/2024/11/Lorem-Ipsum2025.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": "2024-11",
-      "ruta": [
-        "Auditoria"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Resolucion Ministerial Nª 197",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/RM197-Escala-Salarial.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/escala-salarial/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/escala-salarial/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Escala Salarial"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/129-2024-APRUEBA-LA-ESCALA-SALARIAL-2024-MDRYTSENASAG-Y-PACU.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/escala-salarial/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/escala-salarial/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Escala Salarial"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Manual de Organización y Funciones 2023 - Resolución Ministerial Nª 082",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/RM-082-Manual-de-Organizacion-y-Funciones.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/manual-de-organizacion/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/manual-de-organizacion/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Manual de Organización Funcional (MOF)"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-2-APROBACION-DE-POAIS-2025-CENTRAL-_-MDRYT_0001.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/poais/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/poais/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Plan Operativo Anual Individual (POAI) / Perfil de Cargo"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-3-APROBACION-DE-POAIS-2025-VCDI-_-MDRYT_0001.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/poais/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/poais/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Plan Operativo Anual Individual (POAI) / Perfil de Cargo"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-4-APROBACION-DE-POAIS-2025-VCDI-_-MDRYT_0001.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/poais/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/poais/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Plan Operativo Anual Individual (POAI) / Perfil de Cargo"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar archivo",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/171-2025-RM-TOMO-1-APROBACION-DE-POAIS-2025-CENTRAL-_-MDRYT_0001.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/poais/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/poais/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Plan Operativo Anual Individual (POAI) / Perfil de Cargo"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Manual de Procesos y Procedimientos 2023 - Resolucion Ministerial Nª 494",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/494-2023-MANUAL-DE-PROCESOS-Y-PROCEDIMIENTOS-1.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/manuales-de-procedimiento/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/manuales-de-procedimiento/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "Manuales de Procedimiento"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "Descargar PDF",
-      "url_descarga": "https://ruralytierras.gob.bo/wp-content/uploads/2024/04/ley-n-164-comprimido.pdf",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/componentes/",
-      "origenes": [
-        "https://ruralytierras.gob.bo/index.php/componentes/"
-      ],
-      "tipo_archivo": "pdf",
-      "extension": ".pdf",
-      "fecha_actualizacion": "2024-04",
-      "ruta": [
-        "Mapa del sítio",
-        "Componentes"
-      ],
-      "metodo_deteccion": "url_extension",
-      "content_type": null,
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    }
-  ],
-  "datasets_web": [
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "MDRyT",
-      "url": "https://ruralytierras.gob.bo/index.php/datos/",
-      "url_origen": null,
-      "ruta": [],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": true,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "MDRyT",
-      "url": "https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "ruta": [
-        "Mapa del sítio",
-        "Lorem Ipsum Dato Estadistico"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "exportable_data_page"
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "MDRyT",
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "ruta": [
-        "Mapa del sítio",
-        "Sanidad e Inocuidad Alimentaria (SENASAG)"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "exportable_data_page"
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "MDRyT",
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "ruta": [
-        "Mapa del sítio",
-        "Seguro Agrario \"Pachamama\"Seguro Agrario \"Pachamama\""
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "exportable_data_page"
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "MDRyT",
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "ruta": [
-        "Mapa del sítio",
-        "Crédito Productivo SIBOLIVIA"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "exportable_data_page"
-    },
-    {
-      "id_fuente": "mdryt",
-      "descripcion": "MDRyT",
-      "url": "https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/",
-      "url_origen": "https://ruralytierras.gob.bo/index.php/mapa-de-sitio/",
-      "ruta": [
-        "Mapa del sítio",
-        "Saneamiento y Titulación de Tierras"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "exportable_data_page"
-    }
-  ],
-  "errores": [
-    "https://ruralytierras.gob.bo/index.php/aprobacion-del-poa-documento-normativo/ -> HTTPError: 500 Server Error: Internal Server Error for url: https://ruralytierras.gob.bo/index.php/aprobacion-del-poa-documento-normativo/"
-  ]
 }

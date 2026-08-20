@@ -1,2248 +1,537 @@
 {
-  "__meta__": {
-    "schema_version": "2.2",
-    "fuente": {
-      "id_fuente": "senamhi",
-      "nombre": "Servicio Nacional de Meteorología e Hidrología",
-      "base_url": "https://wis.senamhi.gob.bo/oapi/",
-      "entrypoints": [
-        "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-        "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-        "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-        "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-        "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-        "https://onsc.senamhi.gob.bo/public/public-stations-info-export",
-        "https://onsc.senamhi.gob.bo/public/public-stations",
-        "https://onsc.senamhi.gob.bo/public/public-geoanalisys"
-      ]
-    },
-    "ejecucion": {
-      "paginas_visitadas": 150,
-      "archivos_encontrados": 11,
-      "errores": 9,
-      "motivo_parada": "max_pages",
-      "duracion_segundos": 103.611
-    },
-    "generado_utc": "2026-08-17T04:45:55.339174+00:00"
-  },
-  "paginas": [
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "title": "Collections",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "title": "Stations",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "title": "Data notifications",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "title": "Discovery metadata",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://onsc.senamhi.gob.bo/public/public-stations-info-export",
-      "title": "SenamhiProject",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://onsc.senamhi.gob.bo/public/public-stations",
-      "title": "SenamhiProject",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://onsc.senamhi.gob.bo/public/public-geoanalisys",
-      "title": "SenamhiProject",
-      "parent_url": null,
-      "depth": 0,
-      "path": []
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections",
-      "title": "Collections",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "depth": 1,
-      "path": [
-        "Collections"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations",
-      "title": "Stations",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "depth": 1,
-      "path": [
-        "Stations"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "depth": 1,
-      "path": [
-        "Observations in json format for urn:wmo:md:bo-senamhi:51lca7"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages",
-      "title": "Data notifications",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "depth": 1,
-      "path": [
-        "Data notifications"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata",
-      "title": "Discovery metadata",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "depth": 1,
-      "path": [
-        "Discovery metadata"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations/queryables",
-      "title": "Stations",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "depth": 1,
-      "path": [
-        "Display Queryables of \"Stations\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations/schema",
-      "title": "Stations",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "depth": 1,
-      "path": [
-        "Display Schema of \"Stations\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations/schema?f=html",
-      "title": "Stations",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "depth": 1,
-      "path": [
-        "Schema of collection in HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations/queryables?f=html",
-      "title": "Stations",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "depth": 1,
-      "path": [
-        "Queryables for this collection as HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/queryables",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "depth": 1,
-      "path": [
-        "Display Queryables of \"Observations in json format for urn:wmo:md:bo-senamhi:51lca7\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/schema",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "depth": 1,
-      "path": [
-        "Display Schema of \"Observations in json format for urn:wmo:md:bo-senamhi:51lca7\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=html",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "depth": 1,
-      "path": [
-        "This document as HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/schema?f=html",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "depth": 1,
-      "path": [
-        "Schema of collection in HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/queryables?f=html",
-      "title": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "depth": 1,
-      "path": [
-        "Queryables for this collection as HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages/queryables",
-      "title": "Data notifications",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "depth": 1,
-      "path": [
-        "Display Queryables of \"Data notifications\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages/schema",
-      "title": "Data notifications",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "depth": 1,
-      "path": [
-        "Display Schema of \"Data notifications\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages/schema?f=html",
-      "title": "Data notifications",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "depth": 1,
-      "path": [
-        "Schema of collection in HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages/queryables?f=html",
-      "title": "Data notifications",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "depth": 1,
-      "path": [
-        "Queryables for this collection as HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/queryables",
-      "title": "Discovery metadata",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "depth": 1,
-      "path": [
-        "Display Queryables of \"Discovery metadata\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema",
-      "title": "Discovery metadata",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "depth": 1,
-      "path": [
-        "Display Schema of \"Discovery metadata\""
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema?f=html",
-      "title": "Discovery metadata",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "depth": 1,
-      "path": [
-        "Schema of collection in HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/queryables?f=html",
-      "title": "Discovery metadata",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "depth": 1,
-      "path": [
-        "Queryables for this collection as HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi",
-      "title": "Home",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "depth": 1,
-      "path": [
-        "oapi"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi?f=html",
-      "title": "Home",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "depth": 1,
-      "path": [
-        "The landing page of this server as HTML ( text/html )"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "title": "Processes",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi",
-      "depth": 2,
-      "path": [
-        "oapi",
-        "View the processes in this service"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "title": "Dataset Information",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
-      "title": "pygeometa metadata generation",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "pygeometa metadata generation"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
-      "title": "Query OSCAR and return station metadata for wis2box",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Query OSCAR and return station metadata for wis2box"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info?f=html",
-      "title": "Dataset Information",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "depth": 4,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information",
-        "Process description as HTML (text/html)"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate?f=html",
-      "title": "pygeometa metadata generation",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
-      "depth": 4,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "pygeometa metadata generation",
-        "Process description as HTML (text/html)"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "title": "Jobs",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi",
-      "depth": 2,
-      "path": [
-        "oapi",
-        "Browse jobs"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/openapi?f=html",
-      "title": "Swagger UI - WIS2 in a box API",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi",
-      "depth": 2,
-      "path": [
-        "oapi",
-        "Swagger UI"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/openapi?f=html&ui=redoc",
-      "title": "ReDoc - WIS2 in a box API",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi",
-      "depth": 2,
-      "path": [
-        "oapi",
-        "ReDoc"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/conformance?f=html",
-      "title": "Conformance",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi",
-      "depth": 2,
-      "path": [
-        "oapi",
-        "View the conformance classes of this service"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes",
-      "title": "Processes",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Processes"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/station-info",
-      "title": "Station Information",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Station Information"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/mappings-info",
-      "title": "Get available mapping templates in the system",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Get available mapping templates in the system"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pywis-topics-list",
-      "title": "List WIS2 topics",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "List WIS2 topics"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pywis-topics-validate",
-      "title": "Validate WIS2 topics",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Validate WIS2 topics"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pywcmp-wis2-wcmp2-ets",
-      "title": "WCMP2 ETS validator",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "WCMP2 ETS validator"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pywcmp-wis2-wcmp2-kpi",
-      "title": "WCMP2 KPI evaluator",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "WCMP2 KPI evaluator"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/wmo-get-ra",
-      "title": "Get WMO RA by geometry",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Get WMO RA by geometry"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/bufr2geojson",
-      "title": "Convert BUFR to geoJSON",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Convert BUFR to geoJSON"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/cap2geojson",
-      "title": "Convert CAP XML to geoJSON",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Convert CAP XML to geoJSON"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs?f=html",
-      "title": "Jobs",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "depth": 4,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information",
-        "Jobs list as HTML (text/html)"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature?f=html",
-      "title": "Query OSCAR and return station metadata for wis2box",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
-      "depth": 4,
-      "path": [
-        "oapi",
-        "View the processes in this service",
-        "Query OSCAR and return station metadata for wis2box",
-        "Process description as HTML (text/html)"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/7ca62bcc-8643-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "7ca62bcc-8643-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/7c87f85a-8643-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "7c87f85a-8643-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/796d2988-8643-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "796d2988-8643-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/793543f6-8643-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "793543f6-8643-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/7716f470-8643-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "7716f470-8643-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/75dd857e-8643-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "75dd857e-8643-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/703c07c6-8643-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "703c07c6-8643-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/701c4c60-8643-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "701c4c60-8643-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/5bbc5256-8643-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "5bbc5256-8643-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/5b9dfacc-8643-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "5b9dfacc-8643-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/596a6f74-8643-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "596a6f74-8643-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/580b0684-8643-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "580b0684-8643-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/1a835666-863b-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "1a835666-863b-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/1a608802-863b-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "1a608802-863b-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/16f640b2-863b-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "16f640b2-863b-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/16d6d5ec-863b-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "16d6d5ec-863b-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/11b672b6-863b-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "11b672b6-863b-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/119739c8-863b-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "119739c8-863b-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0ee0a908-863b-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0ee0a908-863b-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0dff5a98-863b-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0dff5a98-863b-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0a699e70-863b-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0a699e70-863b-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0a42efb4-863b-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0a42efb4-863b-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0818ad0a-863b-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0818ad0a-863b-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/06e2ca1a-863b-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "06e2ca1a-863b-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/03d66a02-863b-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "03d66a02-863b-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0311a0be-863b-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0311a0be-863b-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0046c8f0-863b-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0046c8f0-863b-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/0006df10-863b-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "0006df10-863b-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/fbf7ed7e-863a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "fbf7ed7e-863a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/f93e17de-863a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "f93e17de-863a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/b67ca9e0-8632-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "b67ca9e0-8632-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/b65e4f4a-8632-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "b65e4f4a-8632-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/b354d166-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "b354d166-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/b32fb2f0-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "b32fb2f0-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/ac92d12a-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "ac92d12a-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/ac50b57e-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "ac50b57e-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/a94abc4e-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "a94abc4e-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/a92528da-8632-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "a92528da-8632-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/a5c9daf0-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "a5c9daf0-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/a5a3df80-8632-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "a5a3df80-8632-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/a2bc23fe-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "a2bc23fe-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/a29e5658-8632-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "a29e5658-8632-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/9f57c290-8632-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "9f57c290-8632-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/9f39a33c-8632-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "9f39a33c-8632-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/9c4f2c5a-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "9c4f2c5a-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/9c2b6388-8632-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "9c2b6388-8632-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/99d064b2-8632-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "99d064b2-8632-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/98db2ccc-8632-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "98db2ccc-8632-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/55619682-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "55619682-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/55226f48-862a-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "55226f48-862a-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/5212bc68-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "5212bc68-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/51dd097e-862a-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "51dd097e-862a-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/4bf64548-862a-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "4bf64548-862a-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/4bbc5bf8-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "4bbc5bf8-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/491741ec-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "491741ec-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/48568614-862a-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "48568614-862a-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/45df1b94-862a-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "45df1b94-862a-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/44e8dcca-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "44e8dcca-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/41f16a64-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "41f16a64-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/41b0edd6-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "41b0edd6-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/3f480336-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "3f480336-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/3e585dd6-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "3e585dd6-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/3b5390d8-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "3b5390d8-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/3b34dd32-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "3b34dd32-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/35d730f6-862a-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "35d730f6-862a-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/3520eb48-862a-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "3520eb48-862a-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/f863f90a-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "f863f90a-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/f8452e9e-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "f8452e9e-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/f4bded42-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "f4bded42-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/f49f6d36-8621-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "f49f6d36-8621-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/ef65ea2a-8621-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "ef65ea2a-8621-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/ef4733fa-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "ef4733fa-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/ebfa859e-8621-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "ebfa859e-8621-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/ebdc1ba4-8621-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "ebdc1ba4-8621-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/e8675bdc-8621-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "e8675bdc-8621-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/e8491384-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "e8491384-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/e4ee9042-8621-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "e4ee9042-8621-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/e4ac5aa6-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "e4ac5aa6-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/e1bb3f10-8621-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "e1bb3f10-8621-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/e19727d8-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "e19727d8-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/de96635a-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "de96635a-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/de5cb880-8621-11f1-9650-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "de5cb880-8621-11f1-9650-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/daba34c8-8621-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "daba34c8-8621-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/d8c0e0d6-8621-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "d8c0e0d6-8621-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/9b016afc-8619-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "9b016afc-8619-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/9ae244a6-8619-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "9ae244a6-8619-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/95e8770e-8619-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "95e8770e-8619-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/95c56cb4-8619-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "95c56cb4-8619-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/92696cd2-8619-11f1-9663-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "92696cd2-8619-11f1-9663-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/924b5ac6-8619-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "924b5ac6-8619-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/8f2c86a8-8619-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "8f2c86a8-8619-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/8f0ea746-8619-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "8f0ea746-8619-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/8c2ff868-8619-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "8c2ff868-8619-11f1-bc1c-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/8c05c34a-8619-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "8c05c34a-8619-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/890fad54-8619-11f1-aef5-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "890fad54-8619-11f1-aef5-8ac26e760c88"
-      ]
-    },
-    {
-      "url": "https://wis.senamhi.gob.bo/oapi/jobs/88f12da2-8619-11f1-bc1c-8ac26e760c88",
-      "title": "Job status",
-      "parent_url": "https://wis.senamhi.gob.bo/oapi/jobs",
-      "depth": 3,
-      "path": [
-        "oapi",
-        "Browse jobs",
-        "88f12da2-8619-11f1-bc1c-8ac26e760c88"
-      ]
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "collections.csv": {
+                        "descripcion": "collections",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html"
+                    },
+                    "stations.csv": {
+                        "descripcion": "stations",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html"
+                    },
+                    "urn_wmo_md_bo-senamhi_51lca7.csv": {
+                        "descripcion": "urn:wmo:md:bo-senamhi:51lca7",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html"
+                    },
+                    "messages.csv": {
+                        "descripcion": "messages",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html"
+                    },
+                    "discovery-metadata.csv": {
+                        "descripcion": "discovery-metadata",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Collections.csv": {
+                        "descripcion": "Collections",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "metodo_deteccion": "ogc_collection_catalog",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Stations.csv": {
+                        "descripcion": "Stations",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7.csv": {
+                        "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Data_notifications.csv": {
+                        "descripcion": "Data notifications",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Discovery_metadata.csv": {
+                        "descripcion": "Discovery metadata",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "The_landing_page_of_this_server_as_JSON_(_application_json_)": {
+            "oapi.csv": {
+                "descripcion": "oapi",
+                "url_descarga": "https://wis.senamhi.gob.bo/oapi?f=json",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "JSON",
+                "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html"
+            }
+        },
+        "oapi": {
+            "View_the_processes_in_this_service": {
+                "Dataset_Information": {
+                    "dataset-info.csv": {
+                        "descripcion": "dataset-info",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info"
+                    },
+                    "Jobs_list_as_JSON_(application_json)": {
+                        "jobs.csv": {
+                            "descripcion": "jobs",
+                            "url_descarga": "https://wis.senamhi.gob.bo/oapi/jobs?f=json",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "JSON",
+                            "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Dataset_Information.csv": {
+                                "descripcion": "Dataset Information",
+                                "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Process_description_as_HTML_(text_html)": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Dataset_Information.csv": {
+                                    "descripcion": "Dataset Information",
+                                    "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info?f=html",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 2,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "pygeometa_metadata_generation": {
+                    "pygeometa-metadata-generate.csv": {
+                        "descripcion": "pygeometa-metadata-generate",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "pygeometa_metadata_generation.csv": {
+                                "descripcion": "pygeometa metadata generation",
+                                "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Process_description_as_HTML_(text_html)": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "pygeometa_metadata_generation.csv": {
+                                    "descripcion": "pygeometa metadata generation",
+                                    "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate?f=html",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 2,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "processes.csv": {
+                    "descripcion": "processes",
+                    "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes?f=json",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "JSON",
+                    "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html"
+                },
+                "Query_OSCAR_and_return_station_metadata_for_wis2box": {
+                    "oscar2feature.csv": {
+                        "descripcion": "oscar2feature",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature?f=json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Query_OSCAR_and_return_station_metadata_for_wis2box.csv": {
+                                "descripcion": "Query OSCAR and return station metadata for wis2box",
+                                "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Process_description_as_HTML_(text_html)": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Query_OSCAR_and_return_station_metadata_for_wis2box.csv": {
+                                    "descripcion": "Query OSCAR and return station metadata for wis2box",
+                                    "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature?f=html",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 2,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Station_Information": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Station_Information.csv": {
+                                "descripcion": "Station Information",
+                                "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/station-info",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "WCMP2_ETS_validator": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WCMP2_ETS_validator.csv": {
+                                "descripcion": "WCMP2 ETS validator",
+                                "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/pywcmp-wis2-wcmp2-ets",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "Collections": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Collections.csv": {
+                        "descripcion": "Collections",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "metodo_deteccion": "ogc_collection_catalog",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Stations": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Stations.csv": {
+                        "descripcion": "Stations",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/stations",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7.csv": {
+                        "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Data_notifications": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Data_notifications.csv": {
+                        "descripcion": "Data notifications",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/messages",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Discovery_metadata": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Discovery_metadata.csv": {
+                        "descripcion": "Discovery metadata",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Display_Schema_of_\"Stations\"": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Stations.csv": {
+                        "descripcion": "Stations",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/stations/schema",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Schema_of_collection_in_HTML_(_text_html_)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Stations.csv": {
+                        "descripcion": "Stations",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/stations/schema?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7.csv": {
+                        "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/schema?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Data_notifications.csv": {
+                        "descripcion": "Data notifications",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/messages/schema?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Discovery_metadata.csv": {
+                        "descripcion": "Discovery metadata",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Display_Schema_of_\"Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7\"": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7.csv": {
+                        "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/schema",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "This_document_as_HTML_(_text_html_)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Observations_in_json_format_for_urn_wmo_md_bo-senamhi_51lca7.csv": {
+                        "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
+                        "metodo_deteccion": "ogc_api_collection",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Display_Schema_of_\"Data_notifications\"": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Data_notifications.csv": {
+                        "descripcion": "Data notifications",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/messages/schema",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Display_Schema_of_\"Discovery_metadata\"": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Discovery_metadata.csv": {
+                        "descripcion": "Discovery metadata",
+                        "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
     }
-  ],
-  "archivos": [
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "collections",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/collections?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "stations",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "urn:wmo:md:bo-senamhi:51lca7",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "messages",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "discovery-metadata",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "oapi",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "The landing page of this server as JSON ( application/json )"
-      ],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "dataset-info",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/processes/dataset-info"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information"
-      ],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "pygeometa-metadata-generate",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "pygeometa metadata generation"
-      ],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "processes",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/processes?f=html"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "oapi",
-        "View the processes in this service"
-      ],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "jobs",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/jobs?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/processes/dataset-info"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information",
-        "Jobs list as JSON (application/json)"
-      ],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "oscar2feature",
-      "url_descarga": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature?f=json",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
-      "origenes": [
-        "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature"
-      ],
-      "tipo_archivo": "json",
-      "extension": ".json",
-      "fecha_actualizacion": null,
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Query OSCAR and return station metadata for wis2box"
-      ],
-      "metodo_deteccion": "content_type",
-      "content_type": "application/json",
-      "contenido_zip": [],
-      "zip_inspeccion": null,
-      "zip_bytes_descargados": 0
-    }
-  ],
-  "datasets_web": [
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Collections",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "url_origen": null,
-      "ruta": [],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_collection_catalog"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Stations",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "url_origen": null,
-      "ruta": [],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "url_origen": null,
-      "ruta": [],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Data notifications",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "url_origen": null,
-      "ruta": [],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Discovery metadata",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "url_origen": null,
-      "ruta": [],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Collections",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "ruta": [
-        "Collections"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_collection_catalog"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Stations",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "ruta": [
-        "Stations"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "ruta": [
-        "Observations in json format for urn:wmo:md:bo-senamhi:51lca7"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Data notifications",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "ruta": [
-        "Data notifications"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Discovery metadata",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections?f=html",
-      "ruta": [
-        "Discovery metadata"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Stations",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations/schema",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "ruta": [
-        "Display Schema of \"Stations\""
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Stations",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/stations/schema?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
-      "ruta": [
-        "Schema of collection in HTML ( text/html )"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/schema",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "ruta": [
-        "Display Schema of \"Observations in json format for urn:wmo:md:bo-senamhi:51lca7\""
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "ruta": [
-        "This document as HTML ( text/html )"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": false,
-      "tablas_detectadas": 0,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "ogc_api_collection"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Observations in json format for urn:wmo:md:bo-senamhi:51lca7",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7/schema?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
-      "ruta": [
-        "Schema of collection in HTML ( text/html )"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Data notifications",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages/schema",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "ruta": [
-        "Display Schema of \"Data notifications\""
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Data notifications",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/messages/schema?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
-      "ruta": [
-        "Schema of collection in HTML ( text/html )"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Discovery metadata",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "ruta": [
-        "Display Schema of \"Discovery metadata\""
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Discovery metadata",
-      "url": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-      "ruta": [
-        "Schema of collection in HTML ( text/html )"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 1,
-      "permite_exportar": false,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Dataset Information",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "pygeometa metadata generation",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "pygeometa metadata generation"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Query OSCAR and return station metadata for wis2box",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Query OSCAR and return station metadata for wis2box"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Dataset Information",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/dataset-info",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Dataset Information",
-        "Process description as HTML (text/html)"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "pygeometa metadata generation",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "pygeometa metadata generation",
-        "Process description as HTML (text/html)"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Station Information",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/station-info",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Station Information"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "WCMP2 ETS validator",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/pywcmp-wis2-wcmp2-ets",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes?f=html",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "WCMP2 ETS validator"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    },
-    {
-      "id_fuente": "senamhi",
-      "descripcion": "Query OSCAR and return station metadata for wis2box",
-      "url": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature?f=html",
-      "url_origen": "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature",
-      "ruta": [
-        "oapi",
-        "View the processes in this service",
-        "Query OSCAR and return station metadata for wis2box",
-        "Process description as HTML (text/html)"
-      ],
-      "fecha_referencia": null,
-      "tiene_tabla_html": true,
-      "tablas_detectadas": 2,
-      "permite_exportar": true,
-      "tiene_filtros": false,
-      "metodo_deteccion": "data_html_table"
-    }
-  ],
-  "errores": [
-    "https://wis.senamhi.gob.bo/oapi/processes/wis2box-csv2bufr -> HTTPError: 401 Client Error: Unauthorized for url: https://wis.senamhi.gob.bo/oapi/processes/wis2box-csv2bufr",
-    "https://wis.senamhi.gob.bo/oapi/processes/wis2box-publish_dataset -> HTTPError: 401 Client Error: Unauthorized for url: https://wis.senamhi.gob.bo/oapi/processes/wis2box-publish_dataset",
-    "https://wis.senamhi.gob.bo/oapi/processes/wis2box-unpublish_dataset -> HTTPError: 401 Client Error: Unauthorized for url: https://wis.senamhi.gob.bo/oapi/processes/wis2box-unpublish_dataset",
-    "https://wis.senamhi.gob.bo/oapi/processes/wis2box-bufr2bufr -> HTTPError: 401 Client Error: Unauthorized for url: https://wis.senamhi.gob.bo/oapi/processes/wis2box-bufr2bufr",
-    "https://wis.senamhi.gob.bo/oapi/processes/wis2box-publish_data -> HTTPError: 401 Client Error: Unauthorized for url: https://wis.senamhi.gob.bo/oapi/processes/wis2box-publish_data",
-    "https://wis.senamhi.gob.bo/oapi/processes/dataset-info/execution?f=json -> HTTPError: 405 Client Error: METHOD NOT ALLOWED for url: https://wis.senamhi.gob.bo/oapi/processes/dataset-info/execution?f=json",
-    "https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate/execution?f=json -> HTTPError: 405 Client Error: METHOD NOT ALLOWED for url: https://wis.senamhi.gob.bo/oapi/processes/pygeometa-metadata-generate/execution?f=json",
-    "https://wis.senamhi.gob.bo/oapi/processes/wis2box-synop2bufr -> HTTPError: 401 Client Error: Unauthorized for url: https://wis.senamhi.gob.bo/oapi/processes/wis2box-synop2bufr",
-    "https://wis.senamhi.gob.bo/oapi/processes/oscar2feature/execution?f=json -> HTTPError: 405 Client Error: METHOD NOT ALLOWED for url: https://wis.senamhi.gob.bo/oapi/processes/oscar2feature/execution?f=json"
-  ]
 }
