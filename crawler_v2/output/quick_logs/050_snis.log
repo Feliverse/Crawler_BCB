@@ -1,0 +1,266 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Sistema Nacional de Información en Salud
+URL configurada: https://snis.minsalud.gob.bo/
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Original: https://snis.minsalud.gob.bo/
+  Utilizada: https://snis.minsalud.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://snis.minsalud.gob.bo/
+
+URL de trabajo: https://snis.minsalud.gob.bo/
+Seeds: 6
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[SNIS] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://snis.minsalud.gob.bo/
+[SNIS] t=   0.9s | pag=  1 | files=   9 | data=  0 | cola=  50 | prio= 0 | https://snis.minsalud.gob.bo/publicaciones/
+[SNIS] t=   1.7s | pag=  2 | files=   9 | data=  0 | cola=  62 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx
+[SNIS] t=   2.7s | pag=  3 | files=   9 | data=  0 | cola=  64 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx
+[SNIS] t=   3.0s | pag=  4 | files=   9 | data=  0 | cola=  65 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx
+[SNIS] t=   3.3s | pag=  5 | files=   9 | data=  0 | cola=  66 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx
+[SNIS] t=   3.6s | pag=  6 | files=   9 | data=  0 | cola=  67 | prio= 1 | https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021
+[SNIS] t=   3.9s | pag=  7 | files=   9 | data=  0 | cola=  67 | prio= 1 | https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios
+[SNIS] t=   4.2s | pag=  8 | files=   9 | data=  0 | cola=  66 | prio= 1 | https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria
+[SNIS] t=   4.6s | pag=  9 | files=   9 | data=  0 | cola=  65 | prio= 1 | https://snis.minsalud.gob.bo/fichas-epidemiologicas
+[SNIS] t=   5.0s | pag= 10 | files=   9 | data=  0 | cola=  70 | prio= 1 | https://estadisticas.minsalud.gob.bo/
+[SNIS] DATASETS=1 | data_html_table | https://estadisticas.minsalud.gob.bo/
+[SNIS] t=   5.2s | pag= 11 | files=   9 | data=  1 | cola=  88 | prio= 1 | https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx
+[SNIS] DATASETS=2 | data_html_table | https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx
+[SNIS] t=   5.6s | pag= 12 | files=   9 | data=  2 | cola= 106 | prio= 1 | https://snis.minsalud.gob.bo/estadisticas-sip
+[SNIS] t=   5.9s | pag= 13 | files=   9 | data=  2 | cola= 110 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] DATASETS=3 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] t=   6.2s | pag= 14 | files=  18 | data=  3 | cola= 136 | prio= 1 | http://siccaf.minsalud.gob.bo/snis/
+[SNIS] t=   7.1s | pag= 15 | files=  18 | data=  3 | cola= 136 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/search
+[SNIS] t=   7.8s | pag= 16 | files=  18 | data=  3 | cola= 136 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos
+[SNIS] t=   9.0s | pag= 17 | files=  18 | data=  3 | cola= 178 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales
+[SNIS] t=   9.7s | pag= 18 | files=  18 | data=  3 | cola= 178 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/88-sip
+[SNIS] t=  10.6s | pag= 19 | files=  18 | data=  3 | cola= 182 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones
+[SNIS] t=  11.5s | pag= 20 | files=  18 | data=  3 | cola= 192 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/105-sus
+[SNIS] t=  12.4s | pag= 21 | files=  18 | data=  3 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones
+[SNIS] t=  13.2s | pag= 22 | files=  18 | data=  3 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/94-asis
+[SNIS] t=  14.1s | pag= 23 | files=  18 | data=  3 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/4-boletines
+[SNIS] t=  14.8s | pag= 24 | files=  18 | data=  3 | cola= 206 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud
+[SNIS] t=  15.7s | pag= 25 | files=  18 | data=  3 | cola= 206 | prio= 1 | https://estadisticas.minsalud.gob.bo/Default.aspx
+[SNIS] DATASETS=4 | data_html_table | https://estadisticas.minsalud.gob.bo/Default.aspx
+[SNIS] t=  15.9s | pag= 26 | files=  18 | data=  4 | cola= 205 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2026.aspx
+[SNIS] DATASETS=5 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2026.aspx
+[SNIS] t=  16.2s | pag= 27 | files=  18 | data=  5 | cola= 204 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2026.aspx
+[SNIS] DATASETS=6 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2026.aspx
+[SNIS] t=  16.6s | pag= 28 | files=  18 | data=  6 | cola= 203 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2025.aspx
+[SNIS] DATASETS=7 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2025.aspx
+[SNIS] t=  17.0s | pag= 29 | files=  18 | data=  7 | cola= 202 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2025.aspx
+[SNIS] DATASETS=8 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2025.aspx
+[SNIS] t=  17.2s | pag= 30 | files=  18 | data=  8 | cola= 201 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302a.aspx
+[SNIS] DATASETS=9 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302a.aspx
+[SNIS] t=  18.9s | pag= 31 | files=  18 | data=  9 | cola= 200 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302b.aspx
+[SNIS] DATASETS=10 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2026_302b.aspx
+[SNIS] t=  19.3s | pag= 32 | files=  18 | data= 10 | cola= 199 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302a.aspx
+[SNIS] t=  19.6s | pag= 33 | files=  18 | data= 11 | cola= 198 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2025_302b.aspx
+[SNIS] t=  19.9s | pag= 34 | files=  18 | data= 12 | cola= 197 | prio= 1 | https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=112&id=951&m=0&task=download.send
+[SNIS] t=  28.9s | pag= 34 | files=  19 | data= 12 | cola= 196 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/117-notificacion-inmediata
+[SNIS] t=  30.5s | pag= 35 | files=  19 | data= 12 | cola= 213 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/118-inmunoprevenibles
+[SNIS] t=  31.4s | pag= 36 | files=  19 | data= 12 | cola= 214 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/119-enfermedades-transmitidas-por-vectores
+[SNIS] t=  32.2s | pag= 37 | files=  19 | data= 12 | cola= 215 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/120-tuberculosis-y-lepra
+[SNIS] t=  33.0s | pag= 38 | files=  19 | data= 12 | cola= 215 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/121-mortalidad-materna
+[SNIS] t=  33.8s | pag= 39 | files=  19 | data= 12 | cola= 215 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2024.aspx
+[SNIS] t=  34.0s | pag= 40 | files=  19 | data= 12 | cola= 216 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2023.aspx
+[SNIS] t=  34.3s | pag= 41 | files=  19 | data= 12 | cola= 217 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2022.aspx
+[SNIS] t=  34.6s | pag= 42 | files=  19 | data= 12 | cola= 218 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2021.aspx
+[SNIS] t=  34.8s | pag= 43 | files=  19 | data= 12 | cola= 219 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2020.aspx
+[SNIS] t=  35.1s | pag= 44 | files=  19 | data= 12 | cola= 219 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2019.aspx
+[SNIS] t=  35.3s | pag= 45 | files=  19 | data= 12 | cola= 220 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2018.aspx
+[SNIS] t=  35.6s | pag= 46 | files=  19 | data= 12 | cola= 221 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2017.aspx
+[SNIS] t=  35.9s | pag= 47 | files=  19 | data= 12 | cola= 222 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2016.aspx
+[SNIS] t=  36.1s | pag= 48 | files=  19 | data= 12 | cola= 223 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2015.aspx
+[SNIS] t=  36.3s | pag= 49 | files=  19 | data= 12 | cola= 224 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2014_2.aspx
+[SNIS] t=  36.9s | pag= 50 | files=  19 | data= 13 | cola= 223 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2013.aspx
+[SNIS] t=  37.4s | pag= 51 | files=  19 | data= 14 | cola= 222 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2012.aspx
+[SNIS] t=  38.1s | pag= 52 | files=  19 | data= 15 | cola= 221 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2011.aspx
+[SNIS] t=  38.7s | pag= 53 | files=  19 | data= 16 | cola= 220 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2010.aspx
+[SNIS] t=  39.2s | pag= 54 | files=  19 | data= 17 | cola= 219 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2009.aspx
+[SNIS] t=  39.7s | pag= 55 | files=  19 | data= 18 | cola= 218 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2008.aspx
+[SNIS] t=  40.3s | pag= 56 | files=  19 | data= 19 | cola= 217 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2007.aspx
+[SNIS] t=  40.8s | pag= 57 | files=  19 | data= 20 | cola= 216 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2001.aspx
+[SNIS] t=  41.4s | pag= 58 | files=  19 | data= 21 | cola= 215 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2024.aspx
+[SNIS] t=  41.7s | pag= 59 | files=  19 | data= 21 | cola= 216 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2023.aspx
+[SNIS] t=  42.0s | pag= 60 | files=  19 | data= 21 | cola= 217 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2022.aspx
+[SNIS] t=  42.4s | pag= 61 | files=  19 | data= 21 | cola= 218 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2021.aspx
+[SNIS] t=  42.6s | pag= 62 | files=  19 | data= 21 | cola= 219 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2020.aspx
+[SNIS] t=  43.0s | pag= 63 | files=  19 | data= 21 | cola= 220 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2019.aspx
+[SNIS] t=  43.3s | pag= 64 | files=  19 | data= 21 | cola= 220 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2018.aspx
+[SNIS] t=  43.6s | pag= 65 | files=  19 | data= 21 | cola= 221 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2017.aspx
+[SNIS] t=  44.0s | pag= 66 | files=  19 | data= 21 | cola= 222 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2016.aspx
+[SNIS] t=  44.3s | pag= 67 | files=  19 | data= 21 | cola= 223 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2015.aspx
+[SNIS] t=  44.5s | pag= 68 | files=  19 | data= 21 | cola= 224 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2014_2.aspx
+[SNIS] t=  44.8s | pag= 69 | files=  19 | data= 22 | cola= 223 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2013.aspx
+[SNIS] t=  45.3s | pag= 70 | files=  19 | data= 23 | cola= 222 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2012.aspx
+[SNIS] t=  45.6s | pag= 71 | files=  19 | data= 24 | cola= 221 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2011.aspx
+[SNIS] DATASETS=25 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2011.aspx
+[SNIS] t=  46.0s | pag= 72 | files=  19 | data= 25 | cola= 220 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2010.aspx
+[SNIS] t=  46.3s | pag= 73 | files=  19 | data= 26 | cola= 219 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2009.aspx
+[SNIS] t=  46.7s | pag= 74 | files=  19 | data= 27 | cola= 218 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2008.aspx
+[SNIS] t=  47.2s | pag= 75 | files=  19 | data= 28 | cola= 217 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2007.aspx
+[SNIS] t=  47.7s | pag= 76 | files=  19 | data= 29 | cola= 216 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2001.aspx
+[SNIS] t=  48.2s | pag= 77 | files=  19 | data= 30 | cola= 215 | prio= 1 | https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=491&m=0&task=download.send
+[SNIS] t=  57.0s | pag= 77 | files=  20 | data= 30 | cola= 214 | prio= 1 | https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=493&m=0&task=download.send
+[SNIS] t=  65.9s | pag= 77 | files=  21 | data= 30 | cola= 213 | prio= 1 | https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=494&m=0&task=download.send
+[SNIS] t=  74.9s | pag= 77 | files=  22 | data= 30 | cola= 212 | prio= 1 | https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=492&m=0&task=download.send
+[SNIS] t=  83.9s | pag= 77 | files=  23 | data= 30 | cola= 211 | prio= 1 | https://snis.minsalud.gob.bo/component/jdownloads/?Itemid=101&catid=88&id=495&m=0&task=download.send
+[SNIS] t=  92.8s | pag= 77 | files=  24 | data= 30 | cola= 210 | prio= 1 | http://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] t= 103.0s | pag= 77 | files=  24 | data= 30 | cola= 209 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2026.aspx
+[SNIS] t= 104.2s | pag= 78 | files=  24 | data= 31 | cola= 208 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2025.aspx
+[SNIS] t= 105.2s | pag= 79 | files=  24 | data= 32 | cola= 207 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2024.aspx
+[SNIS] t= 106.3s | pag= 80 | files=  24 | data= 33 | cola= 206 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2023.aspx
+[SNIS] t= 107.1s | pag= 81 | files=  24 | data= 34 | cola= 205 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2022.aspx
+[SNIS] t= 108.0s | pag= 82 | files=  24 | data= 35 | cola= 204 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2021.aspx
+[SNIS] t= 108.9s | pag= 83 | files=  24 | data= 36 | cola= 203 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2020.aspx
+[SNIS] t= 109.6s | pag= 84 | files=  24 | data= 37 | cola= 202 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2019.aspx
+[SNIS] t= 110.3s | pag= 85 | files=  24 | data= 38 | cola= 201 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2018.aspx
+[SNIS] t= 111.1s | pag= 86 | files=  24 | data= 39 | cola= 200 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Estructura_2017.aspx
+[SNIS] t= 111.9s | pag= 87 | files=  24 | data= 40 | cola= 199 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2026.aspx
+[SNIS] t= 112.0s | pag= 88 | files=  24 | data= 41 | cola= 198 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2025.aspx
+[SNIS] t= 112.4s | pag= 89 | files=  24 | data= 42 | cola= 197 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2024.aspx
+[SNIS] t= 112.8s | pag= 90 | files=  24 | data= 43 | cola= 196 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2023.aspx
+[SNIS] t= 113.1s | pag= 91 | files=  24 | data= 44 | cola= 195 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2022.aspx
+[SNIS] t= 113.5s | pag= 92 | files=  24 | data= 45 | cola= 194 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2021.aspx
+[SNIS] t= 113.8s | pag= 93 | files=  24 | data= 46 | cola= 193 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2020.aspx
+[SNIS] t= 114.2s | pag= 94 | files=  24 | data= 47 | cola= 192 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2019.aspx
+[SNIS] t= 114.4s | pag= 95 | files=  24 | data= 48 | cola= 191 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2018.aspx
+[SNIS] t= 114.8s | pag= 96 | files=  24 | data= 49 | cola= 190 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2017.aspx
+[SNIS] DATASETS=50 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2017.aspx
+[SNIS] t= 115.2s | pag= 97 | files=  24 | data= 50 | cola= 189 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2016.aspx
+[SNIS] t= 115.5s | pag= 98 | files=  24 | data= 51 | cola= 188 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2015.aspx
+[SNIS] t= 115.9s | pag= 99 | files=  24 | data= 52 | cola= 187 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2014.aspx
+[SNIS] t= 116.2s | pag=100 | files=  24 | data= 53 | cola= 186 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2013.aspx
+[SNIS] t= 116.5s | pag=101 | files=  24 | data= 54 | cola= 185 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2012.aspx
+[SNIS] t= 116.8s | pag=102 | files=  24 | data= 55 | cola= 184 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/WF_Reporte_Gral_2011.aspx
+[SNIS] t= 117.2s | pag=103 | files=  24 | data= 56 | cola= 183 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/18-guias
+[SNIS] t= 118.8s | pag=104 | files=  24 | data= 56 | cola= 200 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/19-manuales
+[SNIS] t= 119.8s | pag=105 | files=  24 | data= 56 | cola= 205 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/110-normas
+[SNIS] t= 120.7s | pag=106 | files=  24 | data= 56 | cola= 205 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/91-documentos-cai-nacional-2016
+[SNIS] t= 121.8s | pag=107 | files=  24 | data= 56 | cola= 216 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/96-taller-fortalecimiento-herramientas-informaticas
+[SNIS] t= 122.6s | pag=108 | files=  24 | data= 56 | cola= 222 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/104-documentos-cai-nacional-2018
+[SNIS] t= 123.5s | pag=109 | files=  24 | data= 56 | cola= 233 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/106-planes-de-contingencia-sistemas-snis
+[SNIS] t= 124.5s | pag=110 | files=  24 | data= 56 | cola= 235 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/107-taller-socializacion-de-instrumentos-a-la-seguridad-social-a-corto-plazo
+[SNIS] t= 125.5s | pag=111 | files=  24 | data= 56 | cola= 240 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/81-sumi
+[SNIS] t= 126.2s | pag=112 | files=  24 | data= 56 | cola= 242 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/45-2003
+[SNIS] t= 127.2s | pag=113 | files=  24 | data= 56 | cola= 242 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/47-2004
+[SNIS] t= 128.0s | pag=114 | files=  24 | data= 56 | cola= 244 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/51-2005
+[SNIS] t= 128.8s | pag=115 | files=  24 | data= 56 | cola= 244 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/102-2018
+[SNIS] t= 129.6s | pag=116 | files=  24 | data= 56 | cola= 244 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/111-produccion-de-servicios
+[SNIS] t= 130.5s | pag=117 | files=  24 | data= 56 | cola= 246 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/116-fichas-epidemiologicas
+[SNIS] t= 131.2s | pag=118 | files=  24 | data= 56 | cola= 250 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2024.aspx
+[SNIS] t= 131.6s | pag=119 | files=  24 | data= 57 | cola= 249 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2024.aspx
+[SNIS] t= 131.8s | pag=120 | files=  24 | data= 58 | cola= 248 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2023.aspx
+[SNIS] t= 132.1s | pag=121 | files=  24 | data= 59 | cola= 247 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2023.aspx
+[SNIS] t= 132.4s | pag=122 | files=  24 | data= 60 | cola= 246 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2022.aspx
+[SNIS] t= 132.8s | pag=123 | files=  24 | data= 61 | cola= 245 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2022.aspx
+[SNIS] t= 133.0s | pag=124 | files=  24 | data= 62 | cola= 244 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2021.aspx
+[SNIS] t= 133.2s | pag=125 | files=  24 | data= 63 | cola= 243 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2021.aspx
+[SNIS] t= 133.4s | pag=126 | files=  24 | data= 64 | cola= 242 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2020.aspx
+[SNIS] t= 133.8s | pag=127 | files=  24 | data= 65 | cola= 241 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2019.aspx
+[SNIS] t= 134.2s | pag=128 | files=  24 | data= 66 | cola= 240 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2019.aspx
+[SNIS] t= 134.6s | pag=129 | files=  24 | data= 67 | cola= 239 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2018.aspx
+[SNIS] t= 135.0s | pag=130 | files=  24 | data= 68 | cola= 238 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2018.aspx
+[SNIS] t= 135.4s | pag=131 | files=  24 | data= 69 | cola= 237 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2017.aspx
+[SNIS] t= 135.8s | pag=132 | files=  24 | data= 70 | cola= 236 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2017.aspx
+[SNIS] t= 136.2s | pag=133 | files=  24 | data= 71 | cola= 235 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2016.aspx
+[SNIS] t= 136.6s | pag=134 | files=  24 | data= 72 | cola= 234 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2016.aspx
+[SNIS] t= 137.1s | pag=135 | files=  24 | data= 73 | cola= 233 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301_2015.aspx
+[SNIS] t= 137.4s | pag=136 | files=  24 | data= 74 | cola= 232 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2015.aspx
+[SNIS] DATASETS=75 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes/Form_301b_2015.aspx
+[SNIS] t= 137.8s | pag=137 | files=  24 | data= 75 | cola= 231 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302a.aspx
+[SNIS] t= 138.3s | pag=138 | files=  24 | data= 76 | cola= 230 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2024_302b.aspx
+[SNIS] t= 138.6s | pag=139 | files=  24 | data= 77 | cola= 229 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302a.aspx
+[SNIS] t= 139.0s | pag=140 | files=  24 | data= 78 | cola= 228 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2023_302b.aspx
+[SNIS] t= 139.2s | pag=141 | files=  24 | data= 79 | cola= 227 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302a.aspx
+[SNIS] t= 139.6s | pag=142 | files=  24 | data= 80 | cola= 226 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2022_302b.aspx
+[SNIS] t= 140.0s | pag=143 | files=  24 | data= 81 | cola= 225 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302a.aspx
+[SNIS] t= 140.3s | pag=144 | files=  24 | data= 82 | cola= 224 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2021_302b.aspx
+[SNIS] t= 140.5s | pag=145 | files=  24 | data= 83 | cola= 223 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302a.aspx
+[SNIS] t= 140.9s | pag=146 | files=  24 | data= 84 | cola= 222 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2020_302b.aspx
+[SNIS] t= 141.3s | pag=147 | files=  24 | data= 85 | cola= 221 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2019_302a.aspx
+[SNIS] t= 141.7s | pag=148 | files=  24 | data= 86 | cola= 220 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302a.aspx
+[SNIS] t= 142.0s | pag=149 | files=  24 | data= 87 | cola= 219 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2018_302b.aspx
+[SNIS] t= 142.3s | pag=150 | files=  24 | data= 88 | cola= 218 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302a.aspx
+[SNIS] t= 142.8s | pag=151 | files=  24 | data= 89 | cola= 217 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2017_302b.aspx
+[SNIS] t= 143.2s | pag=152 | files=  24 | data= 90 | cola= 216 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302a.aspx
+[SNIS] t= 143.6s | pag=153 | files=  24 | data= 91 | cola= 215 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2016_302b.aspx
+[SNIS] t= 144.0s | pag=154 | files=  24 | data= 92 | cola= 214 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302a.aspx
+[SNIS] t= 144.4s | pag=155 | files=  24 | data= 93 | cola= 213 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Vigi_2015_302b.aspx
+[SNIS] t= 144.7s | pag=156 | files=  24 | data= 94 | cola= 212 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/82-paquetes-prestaciones
+[SNIS] t= 146.3s | pag=157 | files=  24 | data= 94 | cola= 213 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/83-protocolos
+[SNIS] t= 147.1s | pag=158 | files=  24 | data= 94 | cola= 213 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/84-sumi
+[SNIS] t= 148.0s | pag=159 | files=  24 | data= 94 | cola= 213 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/46-pservicios-03
+[SNIS] t= 148.9s | pag=160 | files=  24 | data= 94 | cola= 216 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/48-pservicios-04
+[SNIS] t= 149.8s | pag=161 | files=  24 | data= 94 | cola= 225 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/49-vepidemiologicacancer-04
+[SNIS] t= 150.5s | pag=162 | files=  24 | data= 94 | cola= 224 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/50-vepidemiologica-04
+[SNIS] t= 151.4s | pag=163 | files=  24 | data= 94 | cola= 257 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/52-pservicios-05
+[SNIS] t= 152.2s | pag=164 | files=  24 | data= 94 | cola= 268 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/103-vigilancia-epidemiologica
+[SNIS] t= 153.0s | pag=165 | files=  24 | data= 94 | cola= 270 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/112-produccion-de-servicios
+[SNIS] t= 153.9s | pag=166 | files=  24 | data= 94 | cola= 270 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/113-vigilancia-epidemiologica
+[SNIS] t= 154.7s | pag=167 | files=  24 | data= 94 | cola= 269 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/115-hechos-vitales
+[SNIS] t= 155.6s | pag=168 | files=  24 | data= 94 | cola= 268 | prio=10 | https://snis.minsalud.gob.bo/circulares
+[SNIS] t= 155.9s | pag=169 | files=  24 | data= 94 | cola= 270 | prio=10 | https://snis.minsalud.gob.bo/publicaciones
+[SNIS] t= 156.9s | pag=170 | files=  24 | data= 94 | cola= 269 | prio=10 | https://snis.minsalud.gob.bo/instrumentos
+[SNIS] t= 157.2s | pag=171 | files=  24 | data= 94 | cola= 295 | prio=10 | https://snis.minsalud.gob.bo/software
+[SNIS] t= 158.4s | pag=172 | files=  24 | data= 94 | cola= 357 | prio=10 | https://snis.minsalud.gob.bo/conociendo-al-snis-ve
+[SNIS] t= 158.7s | pag=173 | files=  24 | data= 94 | cola= 359 | prio=10 | https://snis.minsalud.gob.bo/areas-funcionales
+[SNIS] t= 159.0s | pag=174 | files=  24 | data= 94 | cola= 367 | prio= 1 | https://snis.minsalud.gob.bo/areas-funcionales/21-areas-funcionales/vigilancia-epidemiologica/17-sistema-vigilancia-nutricional-comunitario
+[SNIS] t= 159.3s | pag=175 | files=  24 | data= 94 | cola= 366 | prio= 1 | https://snis.minsalud.gob.bo/areas-funcionales/vigilancia-epidemiologica/hechos-vitales
+[SNIS] t= 159.7s | pag=176 | files=  24 | data= 94 | cola= 365 | prio= 1 | https://snis.minsalud.gob.bo/areas-funcionales/produccion-de-servicios/nivel-ii-y-iii
+[SNIS] t= 160.1s | pag=177 | files=  24 | data= 94 | cola= 364 | prio= 1 | https://snis.minsalud.gob.bo/areas-funcionales/produccion-de-servicios/nivel-i
+[SNIS] t= 160.4s | pag=178 | files=  24 | data= 94 | cola= 363 | prio= 1 | https://snis.minsalud.gob.bo/areas-funcionales/vigilancia-epidemiologica/morbilidad
+[SNIS] t= 160.8s | pag=179 | files=  24 | data= 94 | cola= 362 | prio=10 | https://snis.minsalud.gob.bo/contactos
+[SNIS] t= 161.2s | pag=180 | files=  24 | data= 94 | cola= 369 | prio=10 | https://snis.minsalud.gob.bo/52-boletin-carpeta-familiar
+[SNIS] t= 161.7s | pag=181 | files=  24 | data= 94 | cola= 368 | prio=10 | https://snis.minsalud.gob.bo/54-boletin-hechos-vitales
+[SNIS] t= 162.1s | pag=182 | files=  24 | data= 94 | cola= 367 | prio=10 | https://snis.minsalud.gob.bo/?start=4
+[SNIS] t= 162.4s | pag=183 | files=  24 | data= 94 | cola= 367 | prio=10 | https://snis.minsalud.gob.bo/conociendo-al-snis-ve/organigrama
+[SNIS] t= 162.8s | pag=184 | files=  24 | data= 94 | cola= 366 | prio=10 | https://snis.minsalud.gob.bo/conociendo-al-snis-ve/objetivos-y-funciones
+[SNIS] t= 163.2s | pag=185 | files=  24 | data= 94 | cola= 365 | prio=10 | https://snis.minsalud.gob.bo/conociendo-al-snis-ve/mision-y-vision
+[SNIS] t= 163.6s | pag=186 | files=  24 | data= 94 | cola= 364 | prio=10 | https://snis.minsalud.gob.bo/instrumentos/sistematizacion
+[SNIS] t= 164.0s | pag=187 | files=  24 | data= 94 | cola= 363 | prio=10 | https://snis.minsalud.gob.bo/instrumentos/consolidacion
+[SNIS] t= 164.4s | pag=188 | files=  24 | data= 94 | cola= 375 | prio=10 | https://snis.minsalud.gob.bo/instrumentos/captacion
+[SNIS] t= 164.8s | pag=189 | files=  24 | data= 94 | cola= 374 | prio=10 | https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/43-noticia-principal
+[SNIS] t= 165.1s | pag=190 | files=  24 | data= 94 | cola= 373 | prio=10 | https://sus.minsalud.gob.bo/
+[SNIS] t= 165.8s | pag=191 | files=  24 | data= 94 | cola= 373 | prio=10 | https://snis.minsalud.gob.bo/material-sus
+[SNIS] t= 166.1s | pag=192 | files=  24 | data= 94 | cola= 382 | prio=10 | https://www.minsalud.gob.bo/programas-de-salud/sistema-unico-de-salud/46-sus/3590-busque-en-su-zona-el-centro-de-salud-mas-cercano-con-google-maps
+[SNIS] t= 166.9s | pag=192 | files=  24 | data= 94 | cola= 381 | prio=10 | https://snis.minsalud.gob.bo/reporte-de-atenciones-sus-002
+[SNIS] t= 167.3s | pag=193 | files=  24 | data= 94 | cola= 381 | prio=10 | https://snis.minsalud.gob.bo/soaps
+[SNIS] t= 168.1s | pag=194 | files=  24 | data= 94 | cola= 420 | prio=10 | https://snis.minsalud.gob.bo/tutoruial-llenado-ficha-covid19
+[SNIS] t= 168.3s | pag=194 | files=  24 | data= 94 | cola= 419 | prio=10 | https://snis.minsalud.gob.bo/orientacion-causa-muerte-covid
+[SNIS] t= 169.4s | pag=195 | files=  24 | data= 94 | cola= 422 | prio=10 | https://snis.minsalud.gob.bo/alerta-epidemiologica
+[SNIS] t= 169.8s | pag=196 | files=  24 | data= 94 | cola= 423 | prio=10 | https://snis.minsalud.gob.bo/principales-indicadores-en-salud
+[SNIS] t= 170.2s | pag=197 | files=  24 | data= 94 | cola= 423 | prio=10 | https://snis.minsalud.gob.bo/indicadores-demograficos
+[SNIS] t= 170.5s | pag=198 | files=  24 | data= 94 | cola= 423 | prio=10 | https://snis.minsalud.gob.bo/perfiles-de-morbilidad
+[SNIS] t= 170.9s | pag=199 | files=  24 | data= 94 | cola= 423 | prio=10 | https://snis.minsalud.gob.bo/menu-indice-salud
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              snis
+Páginas visitadas:   200
+Archivos encontrados:   24
+Datasets web:         94
+Errores:              3
+Motivo de parada:     max_pages
+Duración:             171.44 s
+
+Formatos:
+  - PDF    : 15
+  - XLSX   : 9
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\snis.json
+
+Trazabilidad:
+  Ejecución: 79
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

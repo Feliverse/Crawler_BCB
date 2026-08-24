@@ -6,7 +6,8 @@
                 "url_descarga": "https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://data360.worldbank.org/en/atlas/electricity-access/"
+                "url_origen": "https://data360.worldbank.org/en/atlas/electricity-access/",
+                "metodo_deteccion": "url_extension"
             },
             "REPORTE_Y_CONSULTAS": {
                 "CONTENIDO_WEB": {
@@ -16,6 +17,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -31,14 +33,16 @@
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/399f7262c01cf21e4918b6b22627ac19-0050012026/related/Global-Monthly-July-2026.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-1-Highlights.csv": {
                 "descripcion": "Highlights",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Chapter-1-Highlights.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-1-charts-data.csv": {
                 "descripcion": "Charts and Data",
@@ -46,98 +50,105 @@
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
                 "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
-                "contenido_zip": [
-                    "GEP-June-2026-Chapter 1-Fig1.11-1.13 .xlsx",
-                    "GEP-June-2026-Chapter1-Box-1.1.xlsx",
-                    "GEP-June-2026-Chapter1-Box-1.2.xlsx",
-                    "GEP-Jun-2026-Table-1-1.xlsx",
-                    "GEP-Jun-2026-Table-Statistical-Appendix.xlsx",
-                    "GEP-June-2026-Chapter1-Fig1.1-1.10.xlsx"
-                ]
+                "zip_inspeccion": "range_not_supported",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-2-Highlights.csv": {
                 "descripcion": "Highlights",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Chapter-2-Highlights.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-2-charts-data.csv": {
                 "descripcion": "Charts and Data",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Chapter-2-charts-data.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "range_not_supported",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Box-2-1.csv": {
                 "descripcion": "Box",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Box-2-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2026-Chapter2-Box1.csv": {
                 "descripcion": "Charts",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-June-2026-Chapter2-Box1.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-2-Box-LIC-table.csv": {
                 "descripcion": "Data",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Chapter-2-Box-LIC-table.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Box-1-1.csv": {
                 "descripcion": "Box",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Box-1-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2026-Chapter1-Box-1-1.csv": {
                 "descripcion": "Charts",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-June-2026-Chapter1-Box-1-1.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Box-1-2.csv": {
                 "descripcion": "Box",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Box-1-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2026-Chapter1-Box-1-2.csv": {
                 "descripcion": "Charts",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-June-2026-Chapter1-Box-1-2.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-3-highlights.csv": {
                 "descripcion": "Highlights",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Chapter-3-highlights.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2026-Chapter3-Fig3-1-B3-1-1.csv": {
                 "descripcion": "Charts",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-June-2026-Chapter3-Fig3-1-B3-1-1.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Chapter-4-highlights.csv": {
                 "descripcion": "Highlights",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Chapter-4-highlights.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2026-Chapter4-Fig4-1-A4-2-1.csv": {
                 "descripcion": "Charts",
@@ -145,248 +156,303 @@
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
                 "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
-                "contenido_zip": [
-                    "GEP-June-2026-Chapter4-Fig4.9-A4.2.1.xlsx",
-                    "GEP-June-2026-Chapter4-Fig4.1-4.8.xlsx"
-                ]
+                "zip_inspeccion": "range_not_supported",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-Box-3-1.csv": {
                 "descripcion": "Box",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-Box-3-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2026-Chapter3-FigB3-1-1.csv": {
                 "descripcion": "Charts",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-June-2026-Chapter3-FigB3-1-1.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2022-Topical-Issue-2.csv": {
                 "descripcion": "Impact of COVID-19 on global income inequality",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/cb15f6d7442eadedf75bb95c4fdec1b3-0350012022/related/Global-Economic-Prospects-January-2022-Topical-Issue-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "9781464815539.csv": {
                 "descripcion": "June 2020, Special Focus",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/33748/9781464815539.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2019.csv": {
                 "descripcion": "Jan. 2019, Chapter 3",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2019.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2022-Topical-Issue-1.csv": {
                 "descripcion": "Global stagflation",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/18ad707266f7740bced755498ae0307a-0350012022/related/Global-Economic-Prospects-June-2022-Topical-Issue-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2021-Topical-Issue-2.csv": {
                 "descripcion": "Emerging inflation pressures: Cause for alarm?",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/600223300a3685fe68016a484ee867fb-0350012021/related/Global-Economic-Prospects-June-2021-Topical-Issue-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2020.csv": {
                 "descripcion": "Jan. 2020, SF 2",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2020.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2019.csv": {
                 "descripcion": "June 2019, SF 1.2",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2019.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-January-2023-Topical-Issue-2.csv": {
                 "descripcion": "Small states: Overlapping crises, multiple challenges",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/38030/GEP-January-2023-Topical-Issue-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "9781464816123.csv": {
                 "descripcion": "Jan. 2021, Box 1.4",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/34710/9781464816123.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2018.csv": {
                 "descripcion": "June 2018, Box 1.1",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2018.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2018.csv": {
                 "descripcion": "Jan. 2018, Box 1.1",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2018.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2016.csv": {
                 "descripcion": "Jan. 2016, Chapter 3",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2016.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2024-Topical-Issue-1-Box3-1.csv": {
                 "descripcion": "Public investment dynamics around adverse events",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/f43fb9163f5e4704740c30b614a9ad59-0050012024/related/GEP-June-2024-Topical-Issue-1-Box3-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2024-Topical-Issue-1-Box3-2.csv": {
                 "descripcion": "Macroeconomic impacts of public investment: A literature review",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/f43fb9163f5e4704740c30b614a9ad59-0050012024/related/GEP-June-2024-Topical-Issue-1-Box3-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jan-2024-Box3-1.csv": {
                 "descripcion": "Sparking investment accelerations: Lessons from country case studies",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/661f109500bf58fa36a4a46eeace6786-0050012024/related/GEP-Jan-2024-Box3-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-January-2023-Topical-Issue-1.csv": {
                 "descripcion": "Investment growth after the pandemic",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/38030/GEP-January-2023-Topical-Issue-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2017.csv": {
                 "descripcion": "Jan. 2017, Chapter 3",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2017.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2016.csv": {
                 "descripcion": "June 2016, SF 2",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2016.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2015.csv": {
                 "descripcion": "Jan. 2015, Chapter 3",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2015.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2015.csv": {
                 "descripcion": "June 2015, Box 1.3",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2015.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2024-Topical-Issue-2.csv": {
                 "descripcion": "Fiscal challenges in small states: Weathering storms, rebuilding resilience",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/f43fb9163f5e4704740c30b614a9ad59-0050012024/related/GEP-June-2024-Topical-Issue-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jan-2024-Box4-1.csv": {
                 "descripcion": "How does procyclical fiscal policy affect output growth?",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/661f109500bf58fa36a4a46eeace6786-0050012024/related/GEP-Jan-2024-Box4-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jan-2024-Box4-2.csv": {
                 "descripcion": "Do fiscal rules and sovereign wealth funds make a difference? Lessons from country case studies",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/661f109500bf58fa36a4a46eeace6786-0050012024/related/GEP-Jan-2024-Box4-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2022-Topical-Issue-1.csv": {
                 "descripcion": "Resolving high debt after the pandemic: Lessons from past episodes of debt relief",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/cb15f6d7442eadedf75bb95c4fdec1b3-0350012022/related/Global-Economic-Prospects-January-2022-Topical-Issue-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2017.csv": {
                 "descripcion": "June 2017, Special Focus 1",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2017.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2022-Topical-Issue-2.csv": {
                 "descripcion": "Russia’s invasion of Ukraine: Implications for energy markets and activity",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/18ad707266f7740bced755498ae0307a-0350012022/related/Global-Economic-Prospects-June-2022-Topical-Issue-2.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2022-Topical-Issue-3.csv": {
                 "descripcion": "Commodity price cycles: Drivers and policies",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/cb15f6d7442eadedf75bb95c4fdec1b3-0350012022/related/Global-Economic-Prospects-January-2022-Topical-Issue-3.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2021-Topical-Issue-1.csv": {
                 "descripcion": "High trade costs: Causes and remedies",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/600223300a3685fe68016a484ee867fb-0350012021/related/Global-Economic-Prospects-June-2021-Topical-Issue-1.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-All-Charts-Data.csv": {
                 "descripcion": "All charts and data (Zip)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-All-Charts-Data.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "contenido_zip": [
+                    "GEP-June-2026-Chapter1-Fig1.1-1.10.xlsx",
+                    "GEP-June-2026-Chapter 1-Fig1.11-1.13 .xlsx",
+                    "GEP-June-2026-Chapter1-Box-1.1.xlsx",
+                    "GEP-June-2026-Chapter1-Box-1.2.xlsx",
+                    "GEP-June-2026-Chapter2-SSA.xlsx",
+                    "GEP-June-2026-Chapter2-Box1.xlsx",
+                    "GEP-June-2026-Chapter2-EAP.xlsx",
+                    "GEP-June-2026-Chapter2-ECA.xlsx",
+                    "GEP-June-2026-Chapter2-LAC.xlsx",
+                    "GEP-June-2026-Chapter2-MNA.xlsx",
+                    "GEP-June-2026-Chapter2-Overview.xlsx",
+                    "GEP-June-2026-Chapter2-SAR.xlsx",
+                    "GEP-June-2026-Chapter3-Fig3.1-B3.1.1.xlsx",
+                    "GEP-June-2026-Chapter4-Fig4.9-A4.2.1.xlsx",
+                    "GEP-June-2026-Chapter4-Fig4.1-4.8.xlsx",
+                    "GEP-Jun-2026-GDP-growth-data.xlsx"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 67427,
+                "metodo_deteccion": "url_extension"
             },
             "GEP-January-2023-All-Charts.csv": {
                 "descripcion": "Jan. 2023",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/38030/GEP-January-2023-All-Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2022-All-Charts.csv": {
                 "descripcion": "June 2022",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/37224/Global-Economic-Prospects-June-2022-All-Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2022-All-charts.csv": {
                 "descripcion": "Jan. 2022",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/36519/Global-Economic-Prospects-January-2022-All-charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2021-All-charts.csv": {
                 "descripcion": "June 2021",
@@ -412,259 +478,308 @@
                     "GEP-June-2021-Chapter1-Fig1.1-1.10.xlsx",
                     "GEP-June-2021-Chapter1-Fig1.11-1.20.xlsx",
                     "GEP-June-2021-Chapter1-Box1.xlsx"
-                ]
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 67542,
+                "metodo_deteccion": "url_extension"
             },
             "211612Charts.csv": {
                 "descripcion": "Jan. 2021",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/34710/211612Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "211553Charts.csv": {
                 "descripcion": "June 2020",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/33748/211553Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "211469Charts.csv": {
                 "descripcion": "Jan. 2020",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/33044/211469Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "211398Charts.csv": {
                 "descripcion": "June 2019",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/31655/211398Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "211386Charts.csv": {
                 "descripcion": "Jan. 2019",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/31066/211386Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "211257Charts.csv": {
                 "descripcion": "June 2018",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/29801/211257Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-Jan-2018-Charts.csv": {
                 "descripcion": "Jan. 2018",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/28932/Global-Economic-Prospects-Jan-2018-Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2017-Charts.csv": {
                 "descripcion": "June 2017",
                 "url_descarga": "https://pubdocs.worldbank.org/en/240811493655483229/Global-Economic-Prospects-June-2017-Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2017-Charts.csv": {
                 "descripcion": "Jan. 2017",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/25823/Global-Economic-Prospects-January-2017-Charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2016-all-charts.csv": {
                 "descripcion": "June 2016",
                 "url_descarga": "https://pubdocs.worldbank.org/en/436531484060034226/Global-Economic-Prospects-June-2016-all-charts.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "http_error",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-January-2023.csv": {
                 "descripcion": "January 2023",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/38030/GEP-January-2023.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "9781464818431.csv": {
                 "descripcion": "June 2022",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/37224/9781464818431.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "9781464817601.csv": {
                 "descripcion": "January 2022",
                 "url_descarga": "https://openknowledge.worldbank.org/bitstream/handle/10986/36519/9781464817601.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2021.csv": {
                 "descripcion": "June 2021",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/600223300a3685fe68016a484ee867fb-0350012021/original/Global-Economic-Prospects-June-2021.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2014.csv": {
                 "descripcion": "June 2014",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2014.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2014.csv": {
                 "descripcion": "January 2014",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2014.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2013.csv": {
                 "descripcion": "June 2013",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2013.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2013.csv": {
                 "descripcion": "January 2013",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2013.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2012.csv": {
                 "descripcion": "June 2012",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2012.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2012.csv": {
                 "descripcion": "January 2012",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2012.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2011.csv": {
                 "descripcion": "June 2011",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2011.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2011.csv": {
                 "descripcion": "January 2011",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2011.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-June-2010.csv": {
                 "descripcion": "June 2010",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-June-2010.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-January-2010.csv": {
                 "descripcion": "January 2010",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-January-2010.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2009.csv": {
                 "descripcion": "2009",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2009.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2008.csv": {
                 "descripcion": "2008",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2008.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2007.csv": {
                 "descripcion": "2007",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2007.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2006.csv": {
                 "descripcion": "2006",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2006.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2005.csv": {
                 "descripcion": "2005",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2005.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2004.csv": {
                 "descripcion": "2004",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2004.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2003.csv": {
                 "descripcion": "2003",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2003.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "Global-Economic-Prospects-2002.csv": {
                 "descripcion": "2002",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/4aa0b654ecdbaf8302d5901aaada3fbf-0350012021/related/Global-Economic-Prospects-2002.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jun-2026-gdp-growth.csv": {
                 "descripcion": "June '26 (PDF)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2b672b3b0415d6b66c45b66579db4ef5-0050012026/related/GEP-Jun-2026-gdp-growth.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-Jan-2026-gdp-growth.csv": {
                 "descripcion": "Jan '26 (PDF)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/7ce50b5aa95bef66048680bba9926ec8-0050012026/related/GEP-Jan-2026-gdp-growth.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-June-2025-gdp-growth.csv": {
                 "descripcion": "June '25 (PDF)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/8bf0b62ec6bcb886d97295ad930059e9-0050012025/related/GEP-June-2025-gdp-growth.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-January-2025-gdp-growth.csv": {
                 "descripcion": "Jan '25 (PDF)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/c50bc3c87bc2666b9e5fa6699b0b2849-0050012025/related/GEP-January-2025-gdp-growth.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-GDP-growth-2020-2024.csv": {
                 "descripcion": "2020-24 (zip)",
@@ -672,25 +787,30 @@
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
                 "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
-                "contenido_zip": [
-                    "GEP-January-2020-gdp-growth.pdf",
-                    "GEP-January-2021-gdp-growth.pdf",
-                    "GEP-June-2020-gdp-growth.pdf",
-                    "GEP-June-2021-gdp-growth.pdf",
-                    "GEP-June-2022-gdp-growth.pdf",
-                    "GEP-January-2022-gdp-growth.pdf",
-                    "GEP-January-2023-gdp-growth.pdf",
-                    "GEP-June-2023-gdp-growth.pdf",
-                    "GEP-January-2024-gdp-growth.pdf",
-                    "GEP-June-2024-gdp-growth.pdf"
-                ]
+                "zip_inspeccion": "range_not_supported",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-GDP-growth-2015-2019.csv": {
                 "descripcion": "2015-19 (zip)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2d83dc6f2b64291e7c6943d1b6a2eea9-0350012021/related/GEP-GDP-growth-2015-2019.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "contenido_zip": [
+                    "GEP-June-2018-gdp-growth.pdf",
+                    "GEP-January-2018-gdp-growth.pdf",
+                    "GEP-June-2017-gdp-growth.pdf",
+                    "GEP-January-2017-gdp-growth.pdf",
+                    "GEP-June-2016-gdp-growth.pdf",
+                    "GEP-January-2016-gdp-growth.pdf",
+                    "GEP-June-2015-gdp-growth.pdf",
+                    "GEP-January-2015-gdp-growth.pdf",
+                    "GEP-June-2019-gdp-growth.pdf",
+                    "GEP-January-2019-gdp-growth.pdf"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 66672,
+                "metodo_deteccion": "url_extension"
             },
             "GEP-GDP-growth-2010-2014.csv": {
                 "descripcion": "2010-14 (zip)",
@@ -709,7 +829,10 @@
                     "GEP-January-2011-gdp-growth.pdf",
                     "GEP-June-2010-gdp-growth.pdf",
                     "GEP-January-2010-gdp-growth.pdf"
-                ]
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 66672,
+                "metodo_deteccion": "url_extension"
             },
             "GEP-GDP-growth-2005-2009.csv": {
                 "descripcion": "2005-09 (zip)",
@@ -717,20 +840,17 @@
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
                 "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
-                "contenido_zip": [
-                    "GEP-2009-gdp-growth.pdf",
-                    "GEP-2008-gdp-growth.pdf",
-                    "GEP-2007-gdp-growth.pdf",
-                    "GEP-2006-gdp-growth.pdf",
-                    "GEP-2005-gdp-growth.pdf"
-                ]
+                "zip_inspeccion": "range_not_supported",
+                "metodo_deteccion": "url_extension"
             },
             "GEP-GDP-growth-2000-2004.csv": {
                 "descripcion": "2000-04 (zip)",
                 "url_descarga": "https://thedocs.worldbank.org/en/doc/2d83dc6f2b64291e7c6943d1b6a2eea9-0350012021/related/GEP-GDP-growth-2000-2004.zip",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "ZIP",
-                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects"
+                "url_origen": "https://www.worldbank.org/en/publication/global-economic-prospects",
+                "zip_inspeccion": "range_not_supported",
+                "metodo_deteccion": "url_extension"
             }
         },
         "https_www.worldbank.org_en_publication_wdr2026": {
@@ -740,112 +860,128 @@
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/0c3320b04832ac7407cd0fba03949383-0050062026/original/AI-and-services-trade-draft-July2026.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Can-EdTech-Close-Learning-Gaps.csv": {
                     "descripcion": "Can EdTech Close Learning Gaps? Global Evidence from Digital Interventions",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/2fba81cd6cd60d2f54532fc7062395fb-0050062026/original/Can-EdTech-Close-Learning-Gaps.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Competition-in-AI-Markets.csv": {
                     "descripcion": "Competition in AI Markets",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/0ca2bca6f3a6ee0c91a10296a4bc3624-0050062026/original/Competition-in-AI-Markets.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "AI-adoption-in-developing-countries.csv": {
                     "descripcion": "AI Adoption in Developing Countries: Lessons from the Adoption of other Advanced Digital Technologies",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/d531dfdd855a57988e33c464d780cae1-0050062026/original/AI-adoption-in-developing-countries.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "De-risking-the-digital-foundations-of-AI.csv": {
                     "descripcion": "De-Risking the Digital Foundations of AI Capital, Risk, and the Diffusion of AI",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/d776dd11259371ea90e280a6b4a196f9-0050062026/original/De-risking-the-digital-foundations-of-AI.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Adopting-Fast-and-Slow.csv": {
                     "descripcion": "Adopting Fast and Slow: Cross-Country Evidence on Business Adoption of Artificial Intelligence",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/ec0b4de6941eb645d2ef5d99a6e43799-0050062026/original/Adopting-Fast-and-Slow.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Concentrated-production.csv": {
                     "descripcion": "Concentrated Production, Distributed daptation: Pathways for AI Use in Low- and Middle-Income Countries",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/6272d3bceb8df105bd809019a53bffe8-0050062026/original/Concentrated-production.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "IDU-d89e6ddc-79e8-4e3e-b298-5e8a2bb816b4.csv": {
                     "descripcion": "Disruption without Dividend ? How the Digital Divide and Task Differences Split GenAI’s Global Impact",
                     "url_descarga": "https://documents1.worldbank.org/curated/en/099505503022622875/pdf/IDU-d89e6ddc-79e8-4e3e-b298-5e8a2bb816b4.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Expertise-automation-Gmyrek-Segura-Winkler-Yu.csv": {
                     "descripcion": "Generative AI and the Global Redistribution of Expertise",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/161f78cea5d8157fdec44251db9cf166-0050062026/original/Expertise-automation-Gmyrek-Segura-Winkler-Yu.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Cross-country-Labor-Demand-in-the-age-of-GenAI-0727.csv": {
                     "descripcion": "Who Takes the Hit? The Uneven Impacts of Generative AI on Labor Demand Across Countries",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/07f7fe676b8331172af31de2c3fc11e1-0050062026/original/Cross-country-Labor-Demand-in-the-age-of-GenAI-0727.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "The-AI-Exposure-of-Export-Linked-Jobs.csv": {
                     "descripcion": "The AI Exposure of Export-Linked Jobs",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/9df559d23a6d80b3dfa2c4bc808f3a20-0050062026/original/The-AI-Exposure-of-Export-Linked-Jobs.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Now-hiring-Firm-Level-Li-etal.csv": {
                     "descripcion": "Now Hiring: Firm-Level Adoption of Generative AI in China",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/cbdef4ef57efdbb3c29aa4c07edf860b-0050062026/original/Now-hiring-Firm-Level-Li-etal.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "How-Is-Government-Using-AI-final.csv": {
                     "descripcion": "How Is Government Using Artificial Intelligence?",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/a2d967023f2d5cba345a3a2b9d72f837-0050062026/original/How-Is-Government-Using-AI-final.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "The-Global-Landscape-of-AI.csv": {
                     "descripcion": "The Global Landscape of National AI Strategies",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/f74e811954e7a2a0045cd6330c967590-0050062026/original/The-Global-Landscape-of-AI.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Artificial-Intelligence-Interventions.csv": {
                     "descripcion": "Artificial Intelligence Interventions to Support Frontline Healthcare Workers in Low-Resource Settings: A Review",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/ae79099bd924fb298c1922e640f5ac4d-0050062026/original/Artificial-Intelligence-Interventions.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 },
                 "AI-Adoption-Among-Frontier-Firms.csv": {
                     "descripcion": "AI Adoption Among Frontier Firms in Emerging Markets",
                     "url_descarga": "https://thedocs.worldbank.org/en/doc/eb0c4ff411fe0b8cca09c4587ba27eb7-0050062026/original/AI-Adoption-Among-Frontier-Firms.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers"
+                    "url_origen": "https://www.worldbank.org/en/publication/wdr2026/brief/world-development-report-2026-background-papers",
+                    "metodo_deteccion": "url_extension"
                 }
             }
         },
@@ -858,6 +994,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -876,6 +1013,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -894,6 +1032,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -912,6 +1051,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -930,6 +1070,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,

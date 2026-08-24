@@ -1,0 +1,239 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Industria Farmac�utica Sigma
+URL configurada: https://www.sigmacorp.com.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://www.sigmacorp.com.bo/
+  Utilizada: https://www.sigmacorp.com.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.sigmacorp.com.bo/
+
+URL de trabajo: https://www.sigmacorp.com.bo/
+Seeds: 1
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_16_SIGMA] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[RETRY_16_SIGMA] t=   6.1s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.sigmacorp.com.bo/
+[RETRY_16_SIGMA] t=   8.2s | pag=  1 | files=   0 | data=  0 | cola=  20 | prio=10 | https://www.sigmacorp.com.bo/noticias/sigma-nutraceuticos-coordina-con-el-ministerio-de-salud-la-donacion-de-10-000-unidades-de-carmelo-y-nutribebe-a-familias-afectadas-por-desastres-naturales-en-samaipata
+[RETRY_16_SIGMA] t=   9.1s | pag=  2 | files=   0 | data=  0 | cola=  20 | prio=10 | https://www.sigmacorp.com.bo/noticias/sigmacorp-y-gih-pioneros-en-productos-naturales-para-la-salud-ahora-juntos
+[RETRY_16_SIGMA] t=   9.6s | pag=  3 | files=   0 | data=  0 | cola=  19 | prio=10 | https://www.sigmacorp.com.bo/noticias/durante-la-pandemia-del-covid-19-los-suplementos-nutricionales-mantienen-saludables-a-los-bebes
+[RETRY_16_SIGMA] t=  10.3s | pag=  4 | files=   0 | data=  0 | cola=  18 | prio=10 | https://www.sigmacorp.com.bo/noticias/bolivia-redujo-el-indice-de-desnutricion-a-15-1
+[RETRY_16_SIGMA] t=  11.0s | pag=  5 | files=   0 | data=  0 | cola=  17 | prio=10 | https://www.sigmacorp.com.bo/noticias/lanzamiento-del-complemento-nutricional-para-el-adulto-mayor-carmelo
+[RETRY_16_SIGMA] t=  11.8s | pag=  6 | files=   0 | data=  0 | cola=  16 | prio=10 | https://www.sigmacorp.com.bo/noticias/alcaldia-de-santa-cruz-lanza-complemento-alimenticio-para-combatir-la-desnutricion
+[RETRY_16_SIGMA] t=  12.3s | pag=  7 | files=   0 | data=  0 | cola=  15 | prio=10 | https://www.sigmacorp.com.bo/noticias/alimento-complementario-nutribebe-beneficio-a-mas-de-7-millones-de-ninos-bolivianos
+[RETRY_16_SIGMA] t=  13.0s | pag=  8 | files=   0 | data=  0 | cola=  14 | prio=50 | https://www.sigmacorp.com.bo/nutraceutics
+[RETRY_16_SIGMA] t=  13.7s | pag=  9 | files=   0 | data=  0 | cola=  13 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad
+[RETRY_16_SIGMA] t=  14.6s | pag= 10 | files=   0 | data=  0 | cola=  44 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics
+[RETRY_16_SIGMA] t=  15.3s | pag= 11 | files=   0 | data=  0 | cola=  55 | prio=50 | https://www.sigmacorp.com.bo/maquila
+[RETRY_16_SIGMA] t=  16.1s | pag= 12 | files=   0 | data=  0 | cola=  54 | prio=50 | https://www.sigmacorp.com.bo/rse
+[RETRY_16_SIGMA] t=  16.5s | pag= 13 | files=   0 | data=  0 | cola=  55 | prio=50 | https://www.sigmacorp.com.bo/recursos/farmacovigilancia
+[RETRY_16_SIGMA] t=  17.2s | pag= 14 | files=   0 | data=  0 | cola=  54 | prio=50 | https://admin.sigmacorp.com.bo/
+[RETRY_16_SIGMA] t=  18.2s | pag= 15 | files=   0 | data=  0 | cola=  54 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-jabonosas/solucion-jabonosa-2-100ml
+[RETRY_16_SIGMA] t=  19.4s | pag= 16 | files=   0 | data=  0 | cola=  55 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-jabonosas/solucion-jabonosa-2-1-l
+[RETRY_16_SIGMA] t=  19.7s | pag= 17 | files=   0 | data=  0 | cola=  54 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-jabonosas/solucion-jabonosa-2-5-l
+[RETRY_16_SIGMA] t=  20.5s | pag= 18 | files=   0 | data=  0 | cola=  53 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-jabonosas/solucion-jabonosa-4-1-l
+[RETRY_16_SIGMA] t=  20.9s | pag= 19 | files=   0 | data=  0 | cola=  52 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-jabonosas/solucion-jabonosa-4-5-l
+[RETRY_16_SIGMA] t=  21.7s | pag= 20 | files=   0 | data=  0 | cola=  51 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidro-0-5-100ml
+[RETRY_16_SIGMA] t=  22.4s | pag= 21 | files=   0 | data=  0 | cola=  51 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidro-0-5-400ml
+[RETRY_16_SIGMA] t=  23.1s | pag= 22 | files=   0 | data=  0 | cola=  50 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidro-0-5-50ml
+[RETRY_16_SIGMA] t=  23.5s | pag= 23 | files=   0 | data=  0 | cola=  49 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidro-0-5-5-l
+[RETRY_16_SIGMA] t=  24.9s | pag= 24 | files=   0 | data=  0 | cola=  48 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidro-1-1-l
+[RETRY_16_SIGMA] t=  25.4s | pag= 25 | files=   0 | data=  0 | cola=  47 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidro-1-5-l
+[RETRY_16_SIGMA] t=  26.2s | pag= 26 | files=   0 | data=  0 | cola=  46 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-1-100ml
+[RETRY_16_SIGMA] t=  26.9s | pag= 27 | files=   0 | data=  0 | cola=  45 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-1-400ml
+[RETRY_16_SIGMA] t=  27.7s | pag= 28 | files=   0 | data=  0 | cola=  44 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-1-50ml
+[RETRY_16_SIGMA] t=  28.1s | pag= 29 | files=   0 | data=  0 | cola=  43 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-2-100ml
+[RETRY_16_SIGMA] t=  29.0s | pag= 30 | files=   0 | data=  0 | cola=  42 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-2-1-l
+[RETRY_16_SIGMA] t=  29.7s | pag= 31 | files=   0 | data=  0 | cola=  41 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-2-400ml
+[RETRY_16_SIGMA] t=  30.5s | pag= 32 | files=   0 | data=  0 | cola=  40 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-2-50-ml
+[RETRY_16_SIGMA] t=  31.2s | pag= 33 | files=   0 | data=  0 | cola=  39 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-2-5-l
+[RETRY_16_SIGMA] t=  31.6s | pag= 34 | files=   0 | data=  0 | cola=  38 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-4-1-l
+[RETRY_16_SIGMA] t=  32.5s | pag= 35 | files=   0 | data=  0 | cola=  37 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas/solucion-hidroalcoholica-4-5-l
+[RETRY_16_SIGMA] t=  33.0s | pag= 36 | files=   0 | data=  0 | cola=  36 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/septi/septi-clorex-1
+[RETRY_16_SIGMA] t=  33.5s | pag= 37 | files=   0 | data=  0 | cola=  36 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/septi/septi-clorex-1-l
+[RETRY_16_SIGMA] t=  34.3s | pag= 38 | files=   0 | data=  0 | cola=  35 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/septi/septi-clorex-5-l
+[RETRY_16_SIGMA] t=  34.7s | pag= 39 | files=   0 | data=  0 | cola=  34 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/buclorex
+[RETRY_16_SIGMA] t=  35.5s | pag= 40 | files=   0 | data=  0 | cola=  34 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/clorex-2-solucion-hidroalcoholica
+[RETRY_16_SIGMA] t=  36.2s | pag= 41 | files=   0 | data=  0 | cola=  33 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/clorex-2-solucion-jabonosa
+[RETRY_16_SIGMA] t=  36.7s | pag= 42 | files=   0 | data=  0 | cola=  32 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/clorex-4-solucion-hidroalcoholica
+[RETRY_16_SIGMA] t=  37.4s | pag= 43 | files=   0 | data=  0 | cola=  31 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/clorex-4-solucion-jabonosa
+[RETRY_16_SIGMA] t=  37.9s | pag= 44 | files=   0 | data=  0 | cola=  30 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/clorex-comprimido
+[RETRY_16_SIGMA] t=  38.8s | pag= 45 | files=   0 | data=  0 | cola=  29 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/clorex-gel
+[RETRY_16_SIGMA] t=  39.3s | pag= 46 | files=   0 | data=  0 | cola=  28 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex/enjuague-bucal
+[RETRY_16_SIGMA] t=  40.2s | pag= 47 | files=   0 | data=  0 | cola=  27 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios
+[RETRY_16_SIGMA] t=  40.7s | pag= 48 | files=   0 | data=  0 | cola=  34 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antialergicos
+[RETRY_16_SIGMA] t=  41.1s | pag= 49 | files=   0 | data=  0 | cola=  35 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones
+[RETRY_16_SIGMA] t=  42.0s | pag= 50 | files=   0 | data=  0 | cola=  37 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antivirales
+[RETRY_16_SIGMA] t=  42.4s | pag= 51 | files=   0 | data=  0 | cola=  37 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/cardiologos
+[RETRY_16_SIGMA] t=  43.3s | pag= 52 | files=   0 | data=  0 | cola=  38 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/dermatologicos
+[RETRY_16_SIGMA] t=  43.7s | pag= 53 | files=   0 | data=  0 | cola=  39 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales
+[RETRY_16_SIGMA] t=  44.7s | pag= 54 | files=   0 | data=  0 | cola=  44 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos
+[RETRY_16_SIGMA] t=  45.0s | pag= 55 | files=   0 | data=  0 | cola=  46 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/neurologicos
+[RETRY_16_SIGMA] t=  46.0s | pag= 56 | files=   0 | data=  0 | cola=  46 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia
+[RETRY_16_SIGMA] t=  46.4s | pag= 57 | files=   0 | data=  0 | cola=  49 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia
+[RETRY_16_SIGMA] t=  47.4s | pag= 58 | files=   0 | data=  0 | cola=  63 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia
+[RETRY_16_SIGMA] t=  47.7s | pag= 59 | files=   0 | data=  0 | cola=  65 | prio=50 | https://www.sigmacorp.com.bo/rse/donaciones-a-brigadas-de-rastrillaje-en-cochabamba
+[RETRY_16_SIGMA] t=  48.5s | pag= 60 | files=   0 | data=  0 | cola=  65 | prio=50 | https://www.sigmacorp.com.bo/rse/donaciones-a-la-policia-nacional
+[RETRY_16_SIGMA] t=  48.9s | pag= 61 | files=   0 | data=  0 | cola=  64 | prio=50 | https://admin.sigmacorp.com.bo/admin
+[RETRY_16_SIGMA] t=  49.3s | pag= 62 | files=   0 | data=  0 | cola=  63 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/
+[RETRY_16_SIGMA] t=  50.3s | pag= 62 | files=   0 | data=  0 | cola=  62 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-jabonosas
+[RETRY_16_SIGMA] t=  51.5s | pag= 62 | files=   0 | data=  0 | cola=  61 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/soluciones-hidroalcoholicas
+[RETRY_16_SIGMA] t=  52.9s | pag= 62 | files=   0 | data=  0 | cola=  60 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/septi
+[RETRY_16_SIGMA] t=  54.1s | pag= 62 | files=   0 | data=  0 | cola=  59 | prio=50 | https://www.sigmacorp.com.bo/bioseguridad/clorex
+[RETRY_16_SIGMA] t=  55.2s | pag= 62 | files=   0 | data=  0 | cola=  58 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/anginova
+[RETRY_16_SIGMA] t=  57.3s | pag= 63 | files=   0 | data=  0 | cola=  67 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/betamex
+[RETRY_16_SIGMA] t=  58.0s | pag= 64 | files=   0 | data=  0 | cola=  66 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/dexametasona-sigma
+[RETRY_16_SIGMA] t=  58.7s | pag= 65 | files=   0 | data=  0 | cola=  65 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/diclogel
+[RETRY_16_SIGMA] t=  59.1s | pag= 66 | files=   0 | data=  0 | cola=  64 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/pirofen
+[RETRY_16_SIGMA] t=  59.8s | pag= 67 | files=   0 | data=  0 | cola=  63 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/frixo-fort
+[RETRY_16_SIGMA] t=  60.6s | pag= 68 | files=   0 | data=  0 | cola=  62 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/sigma-brom-100
+[RETRY_16_SIGMA] t=  61.3s | pag= 69 | files=   0 | data=  0 | cola=  61 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/trabit
+[RETRY_16_SIGMA] t=  62.4s | pag= 70 | files=   0 | data=  0 | cola=  60 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antialergicos/alergito-gotas
+[RETRY_16_SIGMA] t=  62.7s | pag= 71 | files=   0 | data=  0 | cola=  62 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antialergicos/sinalerg
+[RETRY_16_SIGMA] t=  63.4s | pag= 72 | files=   0 | data=  0 | cola=  61 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/positrin
+[RETRY_16_SIGMA] t=  64.3s | pag= 73 | files=   0 | data=  0 | cola=  64 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/taxonid
+[RETRY_16_SIGMA] t=  64.8s | pag= 74 | files=   0 | data=  0 | cola=  63 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/hostess-suspension
+[RETRY_16_SIGMA] t=  65.7s | pag= 75 | files=   0 | data=  0 | cola=  62 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antivirales/sigmavir
+[RETRY_16_SIGMA] t=  66.1s | pag= 76 | files=   0 | data=  0 | cola=  63 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/cardiologos/digoxina-sigma
+[RETRY_16_SIGMA] t=  66.9s | pag= 77 | files=   0 | data=  0 | cola=  65 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/cardiologos/sigmaspirin
+[RETRY_16_SIGMA] t=  67.3s | pag= 78 | files=   0 | data=  0 | cola=  64 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/dermatologicos/dermatotal-crema
+[RETRY_16_SIGMA] t=  68.3s | pag= 79 | files=   0 | data=  0 | cola=  66 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/dermatologicos/biafine-emulsion
+[RETRY_16_SIGMA] t=  69.0s | pag= 80 | files=   0 | data=  0 | cola=  65 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/acydone-gel
+[RETRY_16_SIGMA] t=  69.5s | pag= 81 | files=   0 | data=  0 | cola=  71 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/adecuan
+[RETRY_16_SIGMA] t=  70.3s | pag= 82 | files=   0 | data=  0 | cola=  70 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/flatulen-gotas
+[RETRY_16_SIGMA] t=  71.1s | pag= 83 | files=   0 | data=  0 | cola=  69 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/flatulen-100
+[RETRY_16_SIGMA] t=  71.6s | pag= 84 | files=   0 | data=  0 | cola=  68 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/digesflat-plus
+[RETRY_16_SIGMA] t=  72.1s | pag= 85 | files=   0 | data=  0 | cola=  67 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/bacilor
+[RETRY_16_SIGMA] t=  73.1s | pag= 86 | files=   0 | data=  0 | cola=  66 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/florgynal
+[RETRY_16_SIGMA] t=  73.5s | pag= 87 | files=   0 | data=  0 | cola=  69 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/gynophilus
+[RETRY_16_SIGMA] t=  74.5s | pag= 88 | files=   0 | data=  0 | cola=  68 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/saforelle
+[RETRY_16_SIGMA] t=  74.9s | pag= 89 | files=   0 | data=  0 | cola=  67 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/neurologicos/noopiram
+[RETRY_16_SIGMA] t=  75.7s | pag= 90 | files=   0 | data=  0 | cola=  68 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/clorex-2
+[RETRY_16_SIGMA] t=  76.1s | pag= 91 | files=   0 | data=  0 | cola=  72 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/clorex-gel
+[RETRY_16_SIGMA] t=  76.8s | pag= 92 | files=   0 | data=  0 | cola=  71 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/clorex-5mg
+[RETRY_16_SIGMA] t=  77.2s | pag= 93 | files=   0 | data=  0 | cola=  70 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/clorex-enjuague-bucal
+[RETRY_16_SIGMA] t=  77.9s | pag= 94 | files=   0 | data=  0 | cola=  69 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/bacticor
+[RETRY_16_SIGMA] t=  78.6s | pag= 95 | files=   0 | data=  0 | cola=  84 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/lubricol
+[RETRY_16_SIGMA] t=  79.3s | pag= 96 | files=   0 | data=  0 | cola=  83 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/nafazol
+[RETRY_16_SIGMA] t=  80.1s | pag= 97 | files=   0 | data=  0 | cola=  82 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/biocortil
+[RETRY_16_SIGMA] t=  80.8s | pag= 98 | files=   0 | data=  0 | cola=  81 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/ciprocol
+[RETRY_16_SIGMA] t=  81.5s | pag= 99 | files=   0 | data=  0 | cola=  80 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/cloracol
+[RETRY_16_SIGMA] t=  82.4s | pag=100 | files=   0 | data=  0 | cola=  79 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/cloracol-compuesto
+[RETRY_16_SIGMA] t=  83.1s | pag=101 | files=   0 | data=  0 | cola=  78 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/gentamicol
+[RETRY_16_SIGMA] t=  83.8s | pag=102 | files=   0 | data=  0 | cola=  77 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/gentamicol-compuesto
+[RETRY_16_SIGMA] t=  84.5s | pag=103 | files=   0 | data=  0 | cola=  76 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/glaucol-t
+[RETRY_16_SIGMA] t=  85.2s | pag=104 | files=   0 | data=  0 | cola=  75 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/neobet
+[RETRY_16_SIGMA] t=  85.9s | pag=105 | files=   0 | data=  0 | cola=  74 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/sigmaprednol
+[RETRY_16_SIGMA] t=  86.9s | pag=106 | files=   0 | data=  0 | cola=  73 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/tobracol
+[RETRY_16_SIGMA] t=  87.6s | pag=107 | files=   0 | data=  0 | cola=  72 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/tobracol-compuesto
+[RETRY_16_SIGMA] t=  88.4s | pag=108 | files=   0 | data=  0 | cola=  71 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/vorizol-vist
+[RETRY_16_SIGMA] t=  89.1s | pag=109 | files=   0 | data=  0 | cola=  70 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/flow-0-4
+[RETRY_16_SIGMA] t=  89.5s | pag=110 | files=   0 | data=  0 | cola=  73 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/ribacil
+[RETRY_16_SIGMA] t=  90.2s | pag=111 | files=   0 | data=  0 | cola=  72 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/uvamin-retard
+[RETRY_16_SIGMA] t=  91.9s | pag=112 | files=   0 | data=  0 | cola=  71 | prio=50 | https://www.sigmacorp.com.bo/rse/
+[RETRY_16_SIGMA] t=  92.4s | pag=112 | files=   0 | data=  0 | cola=  70 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/
+[RETRY_16_SIGMA] t=  93.8s | pag=112 | files=   0 | data=  0 | cola=  69 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/anginova
+[RETRY_16_SIGMA] t=  95.0s | pag=112 | files=   0 | data=  0 | cola=  68 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios
+[RETRY_16_SIGMA] t=  96.4s | pag=112 | files=   0 | data=  0 | cola=  67 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/betamex
+[RETRY_16_SIGMA] t=  97.5s | pag=112 | files=   0 | data=  0 | cola=  66 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/dexametasona-sigma
+[RETRY_16_SIGMA] t=  98.9s | pag=112 | files=   0 | data=  0 | cola=  65 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/diclogel
+[RETRY_16_SIGMA] t= 100.1s | pag=112 | files=   0 | data=  0 | cola=  64 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/pirofen
+[RETRY_16_SIGMA] t= 101.3s | pag=112 | files=   0 | data=  0 | cola=  63 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/frixo-fort
+[RETRY_16_SIGMA] t= 102.6s | pag=112 | files=   0 | data=  0 | cola=  62 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/sigma-brom-100
+[RETRY_16_SIGMA] t= 103.8s | pag=112 | files=   0 | data=  0 | cola=  61 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/analgesicos-antiinflamatorios/analgesicos-antiinflamatorios/trabit
+[RETRY_16_SIGMA] t= 105.0s | pag=112 | files=   0 | data=  0 | cola=  60 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antialergicos/antialergicos/alergito-gotas
+[RETRY_16_SIGMA] t= 106.1s | pag=112 | files=   0 | data=  0 | cola=  59 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antialergicos/antialergicos
+[RETRY_16_SIGMA] t= 107.4s | pag=112 | files=   0 | data=  0 | cola=  58 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antialergicos/antialergicos/sinalerg
+[RETRY_16_SIGMA] t= 108.6s | pag=112 | files=   0 | data=  0 | cola=  57 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/antiinfecciones/positrin
+[RETRY_16_SIGMA] t= 109.8s | pag=112 | files=   0 | data=  0 | cola=  56 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/antiinfecciones
+[RETRY_16_SIGMA] t= 111.2s | pag=112 | files=   0 | data=  0 | cola=  55 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/antiinfecciones/taxonid
+[RETRY_16_SIGMA] t= 112.4s | pag=112 | files=   0 | data=  0 | cola=  54 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antiinfecciones/antiinfecciones/hostess-suspension
+[RETRY_16_SIGMA] t= 113.6s | pag=112 | files=   0 | data=  0 | cola=  53 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antivirales/antivirales/sigmavir
+[RETRY_16_SIGMA] t= 114.9s | pag=112 | files=   0 | data=  0 | cola=  52 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/antivirales/antivirales
+[RETRY_16_SIGMA] t= 116.2s | pag=112 | files=   0 | data=  0 | cola=  51 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/cardiologos/cardiologos/digoxina-sigma
+[RETRY_16_SIGMA] t= 117.5s | pag=112 | files=   0 | data=  0 | cola=  50 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/cardiologos/cardiologos
+[RETRY_16_SIGMA] t= 118.8s | pag=112 | files=   0 | data=  0 | cola=  49 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/cardiologos/cardiologos/sigmaspirin
+[RETRY_16_SIGMA] t= 120.1s | pag=112 | files=   0 | data=  0 | cola=  48 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/dermatologicos/dermatologicos/dermatotal-crema
+[RETRY_16_SIGMA] t= 121.3s | pag=112 | files=   0 | data=  0 | cola=  47 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/dermatologicos/dermatologicos
+[RETRY_16_SIGMA] t= 122.8s | pag=112 | files=   0 | data=  0 | cola=  46 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/dermatologicos/dermatologicos/biafine-emulsion
+[RETRY_16_SIGMA] t= 124.0s | pag=112 | files=   0 | data=  0 | cola=  45 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales/acydone-gel
+[RETRY_16_SIGMA] t= 125.2s | pag=112 | files=   0 | data=  0 | cola=  44 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales
+[RETRY_16_SIGMA] t= 126.6s | pag=112 | files=   0 | data=  0 | cola=  43 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales/adecuan
+[RETRY_16_SIGMA] t= 127.9s | pag=112 | files=   0 | data=  0 | cola=  42 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales/flatulen-gotas
+[RETRY_16_SIGMA] t= 129.3s | pag=112 | files=   0 | data=  0 | cola=  41 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales/flatulen-100
+[RETRY_16_SIGMA] t= 130.7s | pag=112 | files=   0 | data=  0 | cola=  40 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales/digesflat-plus
+[RETRY_16_SIGMA] t= 132.0s | pag=112 | files=   0 | data=  0 | cola=  39 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/gastrointestinales/gastrointestinales/bacilor
+[RETRY_16_SIGMA] t= 133.2s | pag=112 | files=   0 | data=  0 | cola=  38 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/ginecologicos/florgynal
+[RETRY_16_SIGMA] t= 134.5s | pag=112 | files=   0 | data=  0 | cola=  37 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/ginecologicos
+[RETRY_16_SIGMA] t= 136.1s | pag=112 | files=   0 | data=  0 | cola=  36 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/ginecologicos/gynophilus
+[RETRY_16_SIGMA] t= 137.2s | pag=112 | files=   0 | data=  0 | cola=  35 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/ginecologicos/ginecologicos/saforelle
+[RETRY_16_SIGMA] t= 138.4s | pag=112 | files=   0 | data=  0 | cola=  34 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/neurologicos/neurologicos/noopiram
+[RETRY_16_SIGMA] t= 139.7s | pag=112 | files=   0 | data=  0 | cola=  33 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/neurologicos/neurologicos
+[RETRY_16_SIGMA] t= 140.9s | pag=112 | files=   0 | data=  0 | cola=  32 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/odontologia/clorex-2
+[RETRY_16_SIGMA] t= 142.2s | pag=112 | files=   0 | data=  0 | cola=  31 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/odontologia
+[RETRY_16_SIGMA] t= 143.7s | pag=112 | files=   0 | data=  0 | cola=  30 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/odontologia/clorex-gel
+[RETRY_16_SIGMA] t= 145.1s | pag=112 | files=   0 | data=  0 | cola=  29 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/odontologia/clorex-5mg
+[RETRY_16_SIGMA] t= 146.3s | pag=112 | files=   0 | data=  0 | cola=  28 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/odontologia/odontologia/clorex-enjuague-bucal
+[RETRY_16_SIGMA] t= 147.4s | pag=112 | files=   0 | data=  0 | cola=  27 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/bacticor
+[RETRY_16_SIGMA] t= 148.6s | pag=112 | files=   0 | data=  0 | cola=  26 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia
+[RETRY_16_SIGMA] t= 150.2s | pag=112 | files=   0 | data=  0 | cola=  25 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/lubricol
+[RETRY_16_SIGMA] t= 151.5s | pag=112 | files=   0 | data=  0 | cola=  24 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/nafazol
+[RETRY_16_SIGMA] t= 152.8s | pag=112 | files=   0 | data=  0 | cola=  23 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/biocortil
+[RETRY_16_SIGMA] t= 154.0s | pag=112 | files=   0 | data=  0 | cola=  22 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/ciprocol
+[RETRY_16_SIGMA] t= 155.3s | pag=112 | files=   0 | data=  0 | cola=  21 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/cloracol
+[RETRY_16_SIGMA] t= 156.6s | pag=112 | files=   0 | data=  0 | cola=  20 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/cloracol-compuesto
+[RETRY_16_SIGMA] t= 157.7s | pag=112 | files=   0 | data=  0 | cola=  19 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/gentamicol
+[RETRY_16_SIGMA] t= 159.1s | pag=112 | files=   0 | data=  0 | cola=  18 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/gentamicol-compuesto
+[RETRY_16_SIGMA] t= 160.3s | pag=112 | files=   0 | data=  0 | cola=  17 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/glaucol-t
+[RETRY_16_SIGMA] t= 161.5s | pag=112 | files=   0 | data=  0 | cola=  16 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/neobet
+[RETRY_16_SIGMA] t= 162.7s | pag=112 | files=   0 | data=  0 | cola=  15 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/sigmaprednol
+[RETRY_16_SIGMA] t= 164.0s | pag=112 | files=   0 | data=  0 | cola=  14 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/tobracol
+[RETRY_16_SIGMA] t= 165.1s | pag=112 | files=   0 | data=  0 | cola=  13 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/tobracol-compuesto
+[RETRY_16_SIGMA] t= 166.3s | pag=112 | files=   0 | data=  0 | cola=  12 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/oftalmologia/oftalmologia/vorizol-vist
+[RETRY_16_SIGMA] t= 167.5s | pag=112 | files=   0 | data=  0 | cola=  11 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/urologia/flow-0-4
+[RETRY_16_SIGMA] t= 168.7s | pag=112 | files=   0 | data=  0 | cola=  10 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/urologia
+[RETRY_16_SIGMA] t= 170.1s | pag=112 | files=   0 | data=  0 | cola=   9 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/urologia/ribacil
+[RETRY_16_SIGMA] t= 171.3s | pag=112 | files=   0 | data=  0 | cola=   8 | prio=50 | https://www.sigmacorp.com.bo/pharmaceutics-products/urologia/urologia/uvamin-retard
+[RETRY_16_SIGMA] t= 172.4s | pag=112 | files=   0 | data=  0 | cola=   7 | prio=70 | https://www.sigmacorp.com.bo/about
+[RETRY_16_SIGMA] t= 174.3s | pag=113 | files=   0 | data=  0 | cola=   6 | prio=70 | https://www.sigmacorp.com.bo/recursos/contacto
+[RETRY_16_SIGMA] t= 174.8s | pag=114 | files=   0 | data=  0 | cola=   5 | prio=70 | https://www.sigmacorp.com.bo/eventos
+[RETRY_16_SIGMA] t= 175.4s | pag=115 | files=   0 | data=  0 | cola=   6 | prio=10 | https://www.sigmacorp.com.bo/eventos/donacion-de-alimentos-a-manzana-roja
+[RETRY_16_SIGMA] t= 175.9s | pag=116 | files=   0 | data=  0 | cola=   6 | prio=70 | https://www.sigmacorp.com.bo/noticias
+[RETRY_16_SIGMA] t= 176.9s | pag=117 | files=   0 | data=  0 | cola=   5 | prio=70 | https://www.sigmacorp.com.bo/noticias/sigmacorp-y-unicef-juntos-por-los-ninos-en-el-teleton-2025
+[RETRY_16_SIGMA] t= 177.4s | pag=118 | files=   0 | data=  0 | cola=   4 | prio=70 | https://www.sigmacorp.com.bo/noticias/sigmacorp-y-unicef-juntos-por-los-ninos
+[RETRY_16_SIGMA] t= 178.7s | pag=119 | files=   0 | data=  0 | cola=   3 | prio=70 | https://www.sigmacorp.com.bo/noticias/revolucionando-la-salud-sigmacorp-une-fuerzas-con-krtl-international
+[RETRY_16_SIGMA] t= 179.3s | pag=120 | files=   0 | data=  0 | cola=   2 | prio=70 | https://www.sigmacorp.com.bo/noticias/
+[RETRY_16_SIGMA] t= 179.9s | pag=120 | files=   0 | data=  0 | cola=   1 | prio=70 | https://www.sigmacorp.com.bo/eventos/donacion-a-ff-aa
+[RETRY_16_SIGMA] t= 181.8s | pag=121 | files=   0 | data=  0 | cola=   0 | prio=70 | https://www.sigmacorp.com.bo/eventos/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_16_sigma
+P�ginas visitadas:   121
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              67
+Motivo de parada:     frontier_exhausted
+Duraci�n:             182.37 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_16_sigma.json
+
+Trazabilidad:
+  Ejecuci�n: 111
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

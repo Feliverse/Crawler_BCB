@@ -1,0 +1,42 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Fondo Monetario Internacional
+URL configurada: https://www.imf.org
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - forbidden      | HTTP=403 | https://www.imf.org/
+    - forbidden      | HTTP=403 | https://imf.org/
+    - forbidden      | HTTP=403 | http://www.imf.org/
+    - forbidden      | HTTP=403 | http://imf.org/
+
+URL de trabajo: https://www.imf.org
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_30_FMI] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.imf.org/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_30_fmi
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duración:             1.05 s
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_30_fmi.json
+
+Trazabilidad:
+  Ejecución: 58
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

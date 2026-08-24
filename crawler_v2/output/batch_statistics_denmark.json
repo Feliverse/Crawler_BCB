@@ -7,14 +7,16 @@
                     "url_descarga": "https://www.kk.dk/sites/default/files/2025-07/Bilag%202.%20Analyse%20af%20faktorer%2C%20der%20p%C3%A5virker%20om%20elever%20best%C3%A5r%20dansk%20og%20matematik.pdf",
                     "fecha_actualizacion": "2025-07",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet"
+                    "url_origen": "https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Bilag_1._Pixi_-_Analyse_af_faktorer,_der_påvirker_om_elever_består_dansk_og_matematik.csv": {
                     "descripcion": "her",
                     "url_descarga": "https://www.kk.dk/sites/default/files/2025-07/Bilag%201.%20Pixi%20-%20Analyse%20af%20faktorer%2C%20der%20p%C3%A5virker%20om%20elever%20best%C3%A5r%20dansk%20og%20matematik.pdf",
                     "fecha_actualizacion": "2025-07",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet"
+                    "url_origen": "https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet",
+                    "metodo_deteccion": "url_extension"
                 }
             }
         },
@@ -27,6 +29,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.dst.dk/da/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "data_html_table",
                         "tiene_tabla_html": true,
                         "tablas_detectadas": 2,
@@ -46,6 +49,26 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": true
+                        }
+                    }
+                }
+            },
+            "ste_1909_1982": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Statistiske_Efterretninger_1909-1982_-_Danmarks_Statistik.csv": {
+                            "descripcion": "Statistiske Efterretninger 1909-1982 - Danmarks Statistik",
+                            "url_descarga": "https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1909-1982",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -64,6 +87,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -82,10 +106,11 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "data_html_table",
                             "tiene_tabla_html": true,
                             "tablas_detectadas": 1,
-                            "permite_exportar": false,
+                            "permite_exportar": true,
                             "tiene_filtros": true
                         }
                     }
@@ -102,6 +127,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "data_html_table",
                             "tiene_tabla_html": true,
                             "tablas_detectadas": 1,
@@ -120,6 +146,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,

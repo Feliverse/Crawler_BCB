@@ -1,0 +1,216 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Federaci�n Internacional de F�tbol Asociaci�n
+URL configurada: https://inside.fifa.com/en/official-documents
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://inside.fifa.com/en/official-documents
+  Utilizada: https://inside.fifa.com/en/official-documents
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://inside.fifa.com/en/official-documents
+
+URL de trabajo: https://inside.fifa.com/en/official-documents
+Seeds: 3
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_07_FIFA] SITEMAP | docs=6 | urls=5000 | en_cola=5000 | errores=0
+[RETRY_07_FIFA] t=  20.0s | pag=  0 | files=   0 | data=  0 | cola=5002 | prio= 0 | https://inside.fifa.com/en/official-documents
+[RETRY_07_FIFA] t=  20.4s | pag=  1 | files=   0 | data=  0 | cola=5009 | prio= 0 | https://inside.fifa.com/en/legal/documents
+[RETRY_07_FIFA] t=  25.7s | pag=  2 | files=   0 | data=  0 | cola=5020 | prio= 0 | https://inside.fifa.com/organisation/divisions/finances
+[RETRY_07_FIFA] t=  28.1s | pag=  3 | files=   4 | data=  0 | cola=5025 | prio=10 | https://inside.fifa.com/legal/documents
+[RETRY_07_FIFA] t=  33.9s | pag=  4 | files=   4 | data=  0 | cola=5024 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025
+[RETRY_07_FIFA] t=  37.9s | pag=  5 | files=   5 | data=  0 | cola=5029 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2024
+[RETRY_07_FIFA] t=  42.4s | pag=  6 | files=   6 | data=  0 | cola=5033 | prio=10 | https://inside.fifa.com/official-documents/annual-report-2023
+[RETRY_07_FIFA] t=  49.1s | pag=  7 | files=   7 | data=  0 | cola=5035 | prio=10 | https://publications.fifa.com/en/annual-report-2022
+[RETRY_07_FIFA] t=  52.7s | pag=  8 | files=   8 | data=  0 | cola=5110 | prio=10 | https://publications.fifa.com/en/annual-report-2021
+[RETRY_07_FIFA] t=  54.1s | pag=  9 | files=   9 | data=  0 | cola=5166 | prio=10 | https://publications.fifa.com/en/annual-report-2020/
+[RETRY_07_FIFA] t=  55.7s | pag= 10 | files=  10 | data=  0 | cola=5195 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/highlights
+[RETRY_07_FIFA] t=  60.8s | pag= 11 | files=  10 | data=  0 | cola=5194 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/roll-of-honour-2025
+[RETRY_07_FIFA] t=  65.5s | pag= 12 | files=  10 | data=  0 | cola=5193 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025
+[RETRY_07_FIFA] t=  69.4s | pag= 13 | files=  10 | data=  0 | cola=5198 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance
+[RETRY_07_FIFA] t=  73.7s | pag= 14 | files=  10 | data=  0 | cola=5206 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials
+[RETRY_07_FIFA] t=  75.3s | pag= 15 | files=  10 | data=  0 | cola=5209 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/in-memoriam
+[RETRY_07_FIFA] t=  79.9s | pag= 16 | files=  10 | data=  0 | cola=5208 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2024/highlights
+[RETRY_07_FIFA] t=  83.5s | pag= 17 | files=  10 | data=  0 | cola=5207 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2024/roll-of-honour-2024
+[RETRY_07_FIFA] t=  88.0s | pag= 18 | files=  10 | data=  0 | cola=5206 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2024/2024-at-a-glance
+[RETRY_07_FIFA] t=  93.1s | pag= 19 | files=  10 | data=  0 | cola=5214 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2024/financials
+[RETRY_07_FIFA] t=  97.6s | pag= 20 | files=  10 | data=  0 | cola=5217 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2024/in-memoriam
+[RETRY_07_FIFA] t= 102.3s | pag= 21 | files=  10 | data=  0 | cola=5216 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2023/highlights
+[RETRY_07_FIFA] t= 106.9s | pag= 22 | files=  10 | data=  0 | cola=5215 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2023/roll-of-honour-2023
+[RETRY_07_FIFA] t= 111.2s | pag= 23 | files=  10 | data=  0 | cola=5214 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2023/in-memoriam
+[RETRY_07_FIFA] t= 114.7s | pag= 24 | files=  10 | data=  0 | cola=5213 | prio=10 | https://publications.fifa.com/en/annual-report-2022/
+[RETRY_07_FIFA] t= 116.7s | pag= 25 | files=  10 | data=  0 | cola=5212 | prio=10 | https://publications.fifa.com/es/annual-report-2022/
+[RETRY_07_FIFA] t= 119.1s | pag= 26 | files=  11 | data=  0 | cola=5284 | prio=10 | https://publications.fifa.com/fr/annual-report-2022/
+[RETRY_07_FIFA] t= 121.4s | pag= 27 | files=  12 | data=  0 | cola=5356 | prio=10 | https://publications.fifa.com/en/annual-report-2022/highlights-2022/
+[RETRY_07_FIFA] t= 123.2s | pag= 28 | files=  12 | data=  0 | cola=5355 | prio=10 | https://publications.fifa.com/en/annual-report-2022/roll-of-honor/
+[RETRY_07_FIFA] t= 124.7s | pag= 29 | files=  12 | data=  0 | cola=5354 | prio=10 | https://publications.fifa.com/en/annual-report-2022/executive-forewords/presidents-foreword/
+[RETRY_07_FIFA] t= 126.4s | pag= 30 | files=  12 | data=  0 | cola=5353 | prio=10 | https://publications.fifa.com/en/annual-report-2022/executive-forewords/ar22-greater-than-secretary-general-foreword/
+[RETRY_07_FIFA] t= 128.5s | pag= 31 | files=  12 | data=  0 | cola=5352 | prio=10 | https://publications.fifa.com/en/annual-report-2022/executive-forewords/looking-ahead-2022/
+[RETRY_07_FIFA] t= 130.0s | pag= 32 | files=  12 | data=  0 | cola=5351 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/summary-2022/
+[RETRY_07_FIFA] t= 131.3s | pag= 33 | files=  12 | data=  0 | cola=5350 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/fifa-world-cup-qatar-2022-summary/
+[RETRY_07_FIFA] t= 131.8s | pag= 34 | files=  12 | data=  0 | cola=5349 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/fifa-club-world-cup-2021/
+[RETRY_07_FIFA] t= 133.2s | pag= 35 | files=  12 | data=  0 | cola=5348 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/blue-stars-fifa-youth-cup-2022/
+[RETRY_07_FIFA] t= 134.5s | pag= 36 | files=  12 | data=  0 | cola=5347 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/fifa-u-20-womens-world-cup/
+[RETRY_07_FIFA] t= 136.3s | pag= 37 | files=  12 | data=  0 | cola=5349 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/fifa-u-17-womens-world-cup-india/
+[RETRY_07_FIFA] t= 138.1s | pag= 38 | files=  12 | data=  0 | cola=5348 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/fifa-world-cup-2026-host-city-announcement/
+[RETRY_07_FIFA] t= 138.7s | pag= 39 | files=  12 | data=  0 | cola=5347 | prio=10 | https://publications.fifa.com/en/annual-report-2022/2022-at-a-glance/fifa/
+[RETRY_07_FIFA] t= 140.7s | pag= 40 | files=  12 | data=  0 | cola=5346 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/social-responsibility-and-education/
+[RETRY_07_FIFA] t= 142.5s | pag= 41 | files=  12 | data=  0 | cola=5346 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/fifa-forward/
+[RETRY_07_FIFA] t= 144.3s | pag= 42 | files=  12 | data=  0 | cola=5345 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/technical-development-2022/
+[RETRY_07_FIFA] t= 145.7s | pag= 43 | files=  12 | data=  0 | cola=5344 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/womens-football-2022/
+[RETRY_07_FIFA] t= 147.2s | pag= 44 | files=  13 | data=  0 | cola=5343 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/professional-football-2022/
+[RETRY_07_FIFA] t= 148.9s | pag= 45 | files=  13 | data=  0 | cola=5342 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/fifa-legends/
+[RETRY_07_FIFA] t= 150.7s | pag= 46 | files=  13 | data=  0 | cola=5341 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/corporate-governance-administration/
+[RETRY_07_FIFA] t= 152.4s | pag= 47 | files=  13 | data=  0 | cola=5340 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/fifa-foundation-2022/
+[RETRY_07_FIFA] t= 154.4s | pag= 48 | files=  13 | data=  0 | cola=5347 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/fifa-museum-2022/
+[RETRY_07_FIFA] t= 156.3s | pag= 49 | files=  13 | data=  0 | cola=5346 | prio=10 | https://publications.fifa.com/en/annual-report-2022/around-fifa-2022/fifa-statistics/
+[RETRY_07_FIFA] t= 157.7s | pag= 50 | files=  13 | data=  0 | cola=5345 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-world-cup-quatar-2022/fifa-world-cup-qatar-2022-in-numbers/
+[RETRY_07_FIFA] t= 158.2s | pag= 51 | files=  13 | data=  0 | cola=5344 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-world-cup-quatar-2022/fifa-world-cup-qatar-2022-football-unites-the-world/
+[RETRY_07_FIFA] t= 159.9s | pag= 52 | files=  13 | data=  0 | cola=5345 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-world-cup-quatar-2022/fifa-world-cup-qatar-2022-fifa-fan-experience/
+[RETRY_07_FIFA] t= 161.3s | pag= 53 | files=  13 | data=  0 | cola=5344 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-world-cup-quatar-2022/fifa-executive-summit/
+[RETRY_07_FIFA] t= 162.5s | pag= 54 | files=  13 | data=  0 | cola=5343 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-world-cup-quatar-2022/fifa-world-cup-qatar-2022-social-impact/
+[RETRY_07_FIFA] t= 164.1s | pag= 55 | files=  13 | data=  0 | cola=5342 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-world-cup-quatar-2022/fifa-world-cup-qatar-2022-in-pictures/
+[RETRY_07_FIFA] t= 165.4s | pag= 56 | files=  13 | data=  0 | cola=5341 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-womens-world-cup-australia-new-zealand-2023/
+[RETRY_07_FIFA] t= 166.6s | pag= 57 | files=  13 | data=  0 | cola=5340 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-u-20-world-cup-indonesia-2023/
+[RETRY_07_FIFA] t= 168.0s | pag= 58 | files=  13 | data=  0 | cola=5339 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/fifa-u-17-world-cup-peru-2023/
+[RETRY_07_FIFA] t= 169.8s | pag= 59 | files=  13 | data=  0 | cola=5338 | prio=10 | https://publications.fifa.com/en/annual-report-2022/tournaments-and-events/olympic-football-tournaments-paris-2024/
+[RETRY_07_FIFA] t= 171.1s | pag= 60 | files=  14 | data=  0 | cola=5337 | prio=10 | https://publications.fifa.com/en/annual-report-2022/governance-2022/72nd-fifa-congress/
+[RETRY_07_FIFA] t= 173.2s | pag= 61 | files=  14 | data=  0 | cola=5338 | prio=10 | https://publications.fifa.com/en/annual-report-2022/governance-2022/fifa-council-meeting/
+[RETRY_07_FIFA] t= 175.0s | pag= 62 | files=  18 | data=  0 | cola=5338 | prio=10 | https://publications.fifa.com/en/annual-report-2022/governance-2022/fifa-legal-and-compliance/
+[RETRY_07_FIFA] t= 177.0s | pag= 63 | files=  19 | data=  0 | cola=5342 | prio=10 | https://publications.fifa.com/en/annual-report-2022/governance-2022/foreword-of-the-chairperson-of-the-gacc/
+[RETRY_07_FIFA] t= 178.8s | pag= 64 | files=  19 | data=  0 | cola=5341 | prio=10 | https://publications.fifa.com/en/annual-report-2022/governance-2022/compensation-2022/
+[RETRY_07_FIFA] t= 180.7s | pag= 65 | files=  19 | data=  0 | cola=5340 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/foreword-by-the-chairperson-of-the-finance-committee/
+[RETRY_07_FIFA] t= 182.1s | pag= 66 | files=  19 | data=  0 | cola=5339 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-cycle-in-review/2022-financial-highlights/
+[RETRY_07_FIFA] t= 183.4s | pag= 67 | files=  19 | data=  0 | cola=5338 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-cycle-in-review/2019-2022-revenue/
+[RETRY_07_FIFA] t= 184.7s | pag= 68 | files=  19 | data=  0 | cola=5337 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-cycle-in-review/2019-2022-investments-expenses/
+[RETRY_07_FIFA] t= 186.1s | pag= 69 | files=  21 | data=  0 | cola=5336 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-cycle-in-review/balance-sheet-2019-2022/
+[RETRY_07_FIFA] t= 186.9s | pag= 70 | files=  21 | data=  0 | cola=5335 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-cycle-in-review/2019-2022-budget-comparison/
+[RETRY_07_FIFA] t= 188.6s | pag= 71 | files=  21 | data=  0 | cola=5334 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2023-2026-cycle-budget-and-2024-detailed-budget/
+[RETRY_07_FIFA] t= 190.0s | pag= 72 | files=  21 | data=  0 | cola=5333 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/consolidated-statement-of-comprehensive-income-2022/
+[RETRY_07_FIFA] t= 190.7s | pag= 73 | files=  21 | data=  0 | cola=5339 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/balance-sheet-2022/
+[RETRY_07_FIFA] t= 192.2s | pag= 74 | files=  21 | data=  0 | cola=5349 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/cash-flow-statement-2022/
+[RETRY_07_FIFA] t= 193.9s | pag= 75 | files=  21 | data=  0 | cola=5348 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/changes-in-reserves-2022/
+[RETRY_07_FIFA] t= 195.3s | pag= 76 | files=  21 | data=  0 | cola=5347 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/
+[RETRY_07_FIFA] t= 197.2s | pag= 77 | files=  21 | data=  0 | cola=5350 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/1-revenue-from-television-broadcasting-rights-2022/
+[RETRY_07_FIFA] DATASETS=1 | data_html_table | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/1-revenue-from-television-broadcasting-rights-2022/
+[RETRY_07_FIFA] t= 199.0s | pag= 78 | files=  21 | data=  1 | cola=5349 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/2-revenue-from-marketing-rights-2022/
+[RETRY_07_FIFA] DATASETS=2 | data_html_table | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/2-revenue-from-marketing-rights-2022/
+[RETRY_07_FIFA] t= 200.5s | pag= 79 | files=  21 | data=  2 | cola=5348 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/3-revenue-from-licensing-rights-2022/
+[RETRY_07_FIFA] t= 201.9s | pag= 80 | files=  21 | data=  2 | cola=5347 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/29-financial-risk-management-2022/
+[RETRY_07_FIFA] t= 202.9s | pag= 81 | files=  21 | data=  2 | cola=5346 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/30-hedging-activities-and-derivative-financial-2022/
+[RETRY_07_FIFA] t= 203.5s | pag= 82 | files=  21 | data=  2 | cola=5345 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/31-personnel-expenses-2022/
+[RETRY_07_FIFA] t= 204.4s | pag= 83 | files=  21 | data=  2 | cola=5344 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/4-revenue-from-hospitality-accommodation-rights-2022/
+[RETRY_07_FIFA] t= 205.1s | pag= 84 | files=  21 | data=  2 | cola=5343 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/5-other-revenue-2022/
+[RETRY_07_FIFA] t= 206.0s | pag= 85 | files=  21 | data=  2 | cola=5342 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/6-other-income-2022/
+[RETRY_07_FIFA] t= 207.6s | pag= 86 | files=  21 | data=  2 | cola=5341 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/7-competitions-and-events-2022/
+[RETRY_07_FIFA] t= 208.5s | pag= 87 | files=  21 | data=  2 | cola=5340 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/22-financial-assets-2022/
+[RETRY_07_FIFA] t= 209.3s | pag= 88 | files=  21 | data=  2 | cola=5339 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/19-inventories-2022/
+[RETRY_07_FIFA] t= 210.1s | pag= 89 | files=  21 | data=  2 | cola=5338 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/36-post-balance-sheet-events-2022/
+[RETRY_07_FIFA] t= 210.9s | pag= 90 | files=  21 | data=  2 | cola=5337 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/28-reserves-2022/
+[RETRY_07_FIFA] t= 212.4s | pag= 91 | files=  21 | data=  2 | cola=5336 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/notes-2022/32-contingent-liabilities-2022/
+[RETRY_07_FIFA] t= 214.1s | pag= 92 | files=  21 | data=  2 | cola=5335 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/finance/reports-to-the-fifa-congress-2022/
+[RETRY_07_FIFA] t= 216.2s | pag= 93 | files=  23 | data=  2 | cola=5334 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-financials/consolidated-statement-of-comprehensive-income-2019-2022/
+[RETRY_07_FIFA] t= 217.5s | pag= 94 | files=  23 | data=  2 | cola=5345 | prio=10 | https://publications.fifa.com/en/annual-report-2022/finances/2019-2022-financials/notes-2019-2022/
+[RETRY_07_FIFA] t= 218.8s | pag= 95 | files=  23 | data=  2 | cola=5344 | prio=10 | https://publications.fifa.com/en/annual-report-2022/in-memoriam-2022/
+[RETRY_07_FIFA] t= 220.1s | pag= 96 | files=  23 | data=  2 | cola=5343 | prio=10 | https://www.fifa.com/legal/data-protection-portal/
+[RETRY_07_FIFA] t= 225.5s | pag= 97 | files=  23 | data=  2 | cola=5342 | prio=10 | https://publications.fifa.com/en/cookies/
+[RETRY_07_FIFA] t= 226.5s | pag= 98 | files=  23 | data=  2 | cola=5343 | prio=10 | https://publications.fifa.com/en/annual-report-2021/
+[RETRY_07_FIFA] t= 228.6s | pag= 99 | files=  23 | data=  2 | cola=5342 | prio=10 | https://publications.fifa.com/es/annual-report-2021/
+[RETRY_07_FIFA] t= 230.0s | pag=100 | files=  24 | data=  2 | cola=5394 | prio=10 | https://publications.fifa.com/de/annual-report-2021/
+[RETRY_07_FIFA] t= 231.7s | pag=101 | files=  25 | data=  2 | cola=5449 | prio=10 | https://publications.fifa.com/fr/annual-report-2021/
+[RETRY_07_FIFA] t= 233.1s | pag=102 | files=  26 | data=  2 | cola=5501 | prio=10 | https://publications.fifa.com/en/annual-report-2021/highlights/
+[RETRY_07_FIFA] t= 234.4s | pag=103 | files=  26 | data=  2 | cola=5500 | prio=10 | https://publications.fifa.com/en/annual-report-2021/forewords/
+[RETRY_07_FIFA] t= 236.2s | pag=104 | files=  26 | data=  2 | cola=5499 | prio=10 | https://publications.fifa.com/en/annual-report-2021/looking-ahead/
+[RETRY_07_FIFA] t= 237.5s | pag=105 | files=  26 | data=  2 | cola=5498 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-at-a-glance/semblence-of-normality/
+[RETRY_07_FIFA] t= 239.1s | pag=106 | files=  26 | data=  2 | cola=5497 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-at-a-glance/the-return-to-football/
+[RETRY_07_FIFA] t= 240.5s | pag=107 | files=  26 | data=  2 | cola=5496 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-at-a-glance/the-best-fifa-football-awards/
+[RETRY_07_FIFA] t= 241.9s | pag=108 | files=  26 | data=  2 | cola=5495 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-at-a-glance/the-future-of-football/
+[RETRY_07_FIFA] t= 243.3s | pag=109 | files=  26 | data=  2 | cola=5494 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-at-a-glance/covid-19/
+[RETRY_07_FIFA] t= 244.5s | pag=110 | files=  26 | data=  2 | cola=5493 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-at-a-glance/presidents-vision-2020-2023/
+[RETRY_07_FIFA] t= 245.9s | pag=111 | files=  26 | data=  2 | cola=5492 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/technical-development-2021/
+[RETRY_07_FIFA] t= 247.3s | pag=112 | files=  26 | data=  2 | cola=5491 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/professional-football-2021/
+[RETRY_07_FIFA] t= 248.5s | pag=113 | files=  26 | data=  2 | cola=5490 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/womens-football-2021/
+[RETRY_07_FIFA] t= 249.8s | pag=114 | files=  26 | data=  2 | cola=5489 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/maximising-global-impact/
+[RETRY_07_FIFA] t= 251.4s | pag=115 | files=  26 | data=  2 | cola=5488 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/social-responsibility/
+[RETRY_07_FIFA] t= 254.1s | pag=116 | files=  26 | data=  2 | cola=5487 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/afghanistan/
+[RETRY_07_FIFA] t= 255.2s | pag=117 | files=  26 | data=  2 | cola=5486 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/safeguarding-child-protection/
+[RETRY_07_FIFA] t= 256.6s | pag=118 | files=  26 | data=  2 | cola=5485 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/anti-discrimination/
+[RETRY_07_FIFA] t= 263.6s | pag=119 | files=  26 | data=  2 | cola=5484 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/sustainability-environment/
+[RETRY_07_FIFA] t= 265.0s | pag=120 | files=  26 | data=  2 | cola=5483 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/fifa-climate-strategy/
+[RETRY_07_FIFA] t= 266.4s | pag=121 | files=  26 | data=  2 | cola=5482 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/reachout/
+[RETRY_07_FIFA] t= 267.8s | pag=122 | files=  26 | data=  2 | cola=5481 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/actogether-and-safehome/
+[RETRY_07_FIFA] t= 269.6s | pag=123 | files=  26 | data=  2 | cola=5480 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/beyond-the-pitch-2021/
+[RETRY_07_FIFA] t= 270.4s | pag=124 | files=  26 | data=  2 | cola=5479 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/more-milestones-2021/
+[RETRY_07_FIFA] t= 271.8s | pag=125 | files=  26 | data=  2 | cola=5478 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/fifa-foundation-2021/
+[RETRY_07_FIFA] t= 273.0s | pag=126 | files=  26 | data=  2 | cola=5477 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/governance-administration/
+[RETRY_07_FIFA] t= 274.4s | pag=127 | files=  26 | data=  2 | cola=5476 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/museum/
+[RETRY_07_FIFA] t= 275.8s | pag=128 | files=  26 | data=  2 | cola=5475 | prio=10 | https://publications.fifa.com/en/annual-report-2021/around-fifa/statistics/
+[RETRY_07_FIFA] t= 277.5s | pag=129 | files=  26 | data=  2 | cola=5474 | prio=10 | https://publications.fifa.com/en/annual-report-2021/tournaments-events/fifa-world-cup-qatar-2022/
+[RETRY_07_FIFA] t= 278.8s | pag=130 | files=  26 | data=  2 | cola=5473 | prio=10 | https://publications.fifa.com/en/annual-report-2021/tournaments-events/road-to-qatar/
+[RETRY_07_FIFA] t= 280.4s | pag=131 | files=  26 | data=  2 | cola=5472 | prio=10 | https://publications.fifa.com/en/annual-report-2021/tournaments-events/fifa-womens-world-cup-australia-new-zealand/
+[RETRY_07_FIFA] t= 282.0s | pag=132 | files=  26 | data=  2 | cola=5471 | prio=10 | https://publications.fifa.com/en/annual-report-2021/football-governance/foreword-by-chairperson/
+[RETRY_07_FIFA] t= 283.7s | pag=133 | files=  26 | data=  2 | cola=5470 | prio=10 | https://publications.fifa.com/en/annual-report-2021/football-governance/71st-fifa-congress/
+[RETRY_07_FIFA] t= 285.2s | pag=134 | files=  26 | data=  2 | cola=5469 | prio=10 | https://publications.fifa.com/en/annual-report-2021/football-governance/fifa-council-2021/
+[RETRY_07_FIFA] t= 286.9s | pag=135 | files=  26 | data=  2 | cola=5468 | prio=10 | https://publications.fifa.com/en/annual-report-2021/football-governance/legal/
+[RETRY_07_FIFA] t= 288.5s | pag=136 | files=  26 | data=  2 | cola=5467 | prio=10 | https://publications.fifa.com/en/annual-report-2021/football-governance/compliance/
+[RETRY_07_FIFA] t= 289.8s | pag=137 | files=  26 | data=  2 | cola=5466 | prio=10 | https://publications.fifa.com/en/annual-report-2021/football-governance/compensation-2021/
+[RETRY_07_FIFA] t= 291.3s | pag=138 | files=  26 | data=  2 | cola=5465 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/forword-by-the-chairman-of-the-finance-committee/
+[RETRY_07_FIFA] t= 292.2s | pag=139 | files=  26 | data=  2 | cola=5464 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financials-in-review/
+[RETRY_07_FIFA] t= 293.5s | pag=140 | files=  28 | data=  2 | cola=5463 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2023-budget/
+[RETRY_07_FIFA] t= 294.6s | pag=141 | files=  28 | data=  2 | cola=5462 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/consolidated-statement-of-comprehensive-income/
+[RETRY_07_FIFA] t= 296.0s | pag=142 | files=  28 | data=  2 | cola=5471 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/balance-sheet-2021/
+[RETRY_07_FIFA] t= 297.2s | pag=143 | files=  28 | data=  2 | cola=5484 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/cash-flow-statement-2021/
+[RETRY_07_FIFA] t= 298.5s | pag=144 | files=  28 | data=  2 | cola=5483 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/changes-in-reserves/
+[RETRY_07_FIFA] t= 300.0s | pag=145 | files=  28 | data=  2 | cola=5482 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/
+[RETRY_07_FIFA] t= 300.9s | pag=146 | files=  28 | data=  2 | cola=5487 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/1-revenue-from-television-broadcasting-rights/
+[RETRY_07_FIFA] DATASETS=3 | data_html_table | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/1-revenue-from-television-broadcasting-rights/
+[RETRY_07_FIFA] t= 302.0s | pag=147 | files=  28 | data=  3 | cola=5486 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/2-revenue-from-marketing-rights/
+[RETRY_07_FIFA] DATASETS=4 | data_html_table | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/2-revenue-from-marketing-rights/
+[RETRY_07_FIFA] t= 303.8s | pag=148 | files=  28 | data=  4 | cola=5485 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/3-revenue-from-licensing-rights/
+[RETRY_07_FIFA] t= 305.2s | pag=149 | files=  28 | data=  4 | cola=5484 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/29-financial-risk-management/
+[RETRY_07_FIFA] t= 306.7s | pag=150 | files=  28 | data=  4 | cola=5483 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/30-hedging-activities-and-derivative-financial-instruments/
+[RETRY_07_FIFA] t= 308.1s | pag=151 | files=  28 | data=  4 | cola=5482 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/31-personnel-expenses/
+[RETRY_07_FIFA] t= 309.6s | pag=152 | files=  28 | data=  4 | cola=5481 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/notes/6-other-income/
+[RETRY_07_FIFA] t= 311.1s | pag=153 | files=  28 | data=  4 | cola=5480 | prio=10 | https://publications.fifa.com/en/annual-report-2021/2021-financials-and-2023-budget/2021-financial-statements/reports-to-the-fifa-congress/
+[RETRY_07_FIFA] t= 312.8s | pag=154 | files=  30 | data=  4 | cola=5479 | prio=10 | https://publications.fifa.com/en/annual-report-2021/in-memoriam/
+[RETRY_07_FIFA] t= 314.4s | pag=155 | files=  30 | data=  4 | cola=5478 | prio=10 | https://publications.fifa.com/es/annual-report-2020/
+[RETRY_07_FIFA] t= 315.9s | pag=156 | files=  31 | data=  4 | cola=5504 | prio=10 | https://publications.fifa.com/de/annual-report-2020/
+[RETRY_07_FIFA] t= 317.4s | pag=157 | files=  32 | data=  4 | cola=5530 | prio=10 | https://publications.fifa.com/fr/annual-report-2020/
+[RETRY_07_FIFA] t= 318.7s | pag=158 | files=  33 | data=  4 | cola=5556 | prio=10 | https://publications.fifa.com/en/annual-report-2020/foreword/
+[RETRY_07_FIFA] t= 319.9s | pag=159 | files=  33 | data=  4 | cola=5555 | prio=10 | https://publications.fifa.com/en/annual-report-2020/2020-at-a-glance/
+[RETRY_07_FIFA] t= 321.3s | pag=160 | files=  33 | data=  4 | cola=5554 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-united-against-covid-19/covid-19-relief-plan/
+[RETRY_07_FIFA] t= 322.2s | pag=161 | files=  33 | data=  4 | cola=5553 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-united-against-covid-19/first-responders/
+[RETRY_07_FIFA] t= 323.6s | pag=162 | files=  33 | data=  4 | cola=5552 | prio=10 | https://publications.fifa.com/en/annual-report-2020/return-to-football/we-will-win/
+[RETRY_07_FIFA] t= 324.8s | pag=163 | files=  33 | data=  4 | cola=5552 | prio=10 | https://publications.fifa.com/en/annual-report-2020/return-to-football/the-best-fifa-football-awards-2020/
+[RETRY_07_FIFA] t= 326.1s | pag=164 | files=  33 | data=  4 | cola=5551 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-global-game/the-vision-2020-2023/
+[RETRY_07_FIFA] t= 327.7s | pag=165 | files=  33 | data=  4 | cola=5550 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-global-game/beyond-the-pitch/
+[RETRY_07_FIFA] t= 328.5s | pag=166 | files=  33 | data=  4 | cola=5549 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-global-game/fifa-foundation/
+[RETRY_07_FIFA] t= 329.3s | pag=167 | files=  33 | data=  4 | cola=5548 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/fifa-forward-programme/
+[RETRY_07_FIFA] t= 330.7s | pag=168 | files=  33 | data=  4 | cola=5548 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/technical-development/
+[RETRY_07_FIFA] t= 331.5s | pag=169 | files=  33 | data=  4 | cola=5548 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/professional-football/
+[RETRY_07_FIFA] t= 333.0s | pag=170 | files=  33 | data=  4 | cola=5547 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/womens-football/
+[RETRY_07_FIFA] t= 334.4s | pag=171 | files=  33 | data=  4 | cola=5548 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/fwc-qatar-2022/
+[RETRY_07_FIFA] t= 335.7s | pag=172 | files=  33 | data=  4 | cola=5547 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/fifae/
+[RETRY_07_FIFA] t= 336.9s | pag=173 | files=  33 | data=  4 | cola=5546 | prio=10 | https://publications.fifa.com/en/annual-report-2020/the-football-landscape-2020/fifa-museum/
+[RETRY_07_FIFA] t= 338.2s | pag=174 | files=  33 | data=  4 | cola=5545 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-governance-2020/foreword-tomaz-vesel/
+[RETRY_07_FIFA] t= 339.5s | pag=175 | files=  33 | data=  4 | cola=5544 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-governance-2020/70th-fifa-congress/
+[RETRY_07_FIFA] t= 340.6s | pag=176 | files=  33 | data=  4 | cola=5543 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-governance-2020/fifa-council/
+[RETRY_07_FIFA] t= 342.2s | pag=177 | files=  33 | data=  4 | cola=5542 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-governance-2020/fifa-administration/
+[RETRY_07_FIFA] t= 343.4s | pag=178 | files=  33 | data=  4 | cola=5541 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-governance-2020/legal-and-compliance/
+[RETRY_07_FIFA] t= 344.9s | pag=179 | files=  33 | data=  4 | cola=5541 | prio=10 | https://publications.fifa.com/en/annual-report-2020/football-governance-2020/compensation/
+[RETRY_07_FIFA] t= 345.5s | pag=180 | files=  33 | data=  4 | cola=5540 | prio=10 | https://publications.fifa.com/en/annual-report-2020/2020-financials-and-2022-budget/foreword-alejandro-dominguez/
+[RETRY_07_FIFA] t= 346.5s | pag=181 | files=  33 | data=  4 | cola=5539 | prio=10 | https://publications.fifa.com/en/annual-report-2020/2020-financials-and-2022-budget/2020-financials-in-review/
+[RETRY_07_FIFA] t= 347.7s | pag=182 | files=  33 | data=  4 | cola=5538 | prio=10 | https://publications.fifa.com/en/annual-report-2020/2020-financials-and-2022-budget/2022-budget/
+[RETRY_07_FIFA] t= 349.2s | pag=183 | files=  33 | data=  4 | cola=5537 | prio=10 | https://publications.fifa.com/en/annual-report-2020/2020-financials-and-2022-budget/2020-financial-statements-and-annexe/
+[RETRY_07_FIFA] t= 350.3s | pag=184 | files=  35 | data=  4 | cola=5536 | prio=10 | https://publications.fifa.com/en/annual-report-2020/obituaries-20/
+[RETRY_07_FIFA] t= 351.2s | pag=185 | files=  35 | data=  4 | cola=5535 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/summary
+

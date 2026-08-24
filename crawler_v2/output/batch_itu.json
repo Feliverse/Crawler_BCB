@@ -8,14 +8,16 @@
                         "url_descarga": "https://www.itu.int/dms_pub/itu-s/md/26/cl/c/S26-CL-C-0035%21%21PDF-E.pdf",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "PDF",
-                        "url_origen": "https://www.itu.int/en/Pages/default.aspx"
+                        "url_origen": "https://www.itu.int/en/Pages/default.aspx",
+                        "metodo_deteccion": "url_extension"
                     },
                     "ITU-WSIS-global-digital-compact-objectives.csv": {
                         "descripcion": "ITU and WSIS activities",
                         "url_descarga": "https://www.itu.int/en/Documents/ITU-WSIS-global-digital-compact-objectives.pdf",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "PDF",
-                        "url_origen": "https://www.itu.int/en/Pages/default.aspx"
+                        "url_origen": "https://www.itu.int/en/Pages/default.aspx",
+                        "metodo_deteccion": "url_extension"
                     }
                 }
             }
@@ -26,15 +28,17 @@
                 "url_descarga": "https://www.itu.int/hub/wp-content/uploads/sites/4/2023/03/Privacy-Notice-for-ITU-Free-Publication-download-form.pdf",
                 "fecha_actualizacion": "2023-03",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.itu.int/hub/pubs/"
+                "url_origen": "https://www.itu.int/hub/pubs/",
+                "metodo_deteccion": "url_extension"
             },
-            "ITU-R_Publications": {
+            "General_Secretariat_&_Telecom": {
                 "S-GEN-CAT.OL-2025-PDF-E.csv": {
                     "descripcion": "Publication Catalogue",
                     "url_descarga": "https://www.itu.int/dms_pub/itu-s/opb/gen/S-GEN-CAT.OL-2025-PDF-E.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.itu.int/en/publications/ITU-R/Pages/default.aspx"
+                    "url_origen": "https://www.itu.int/en/publications/gs/Pages/default.aspx",
+                    "metodo_deteccion": "url_extension"
                 }
             }
         },
@@ -47,6 +51,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.itu.int/en/Pages/default.aspx",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,

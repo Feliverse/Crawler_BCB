@@ -1,0 +1,42 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Hidrocarburos y Energías
+URL configurada: https://www.hidrocarburos.gob.bo
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - request_error  | HTTP=- | https://www.hidrocarburos.gob.bo/
+    - request_error  | HTTP=- | https://hidrocarburos.gob.bo/
+    - request_error  | HTTP=- | http://www.hidrocarburos.gob.bo/
+    - request_error  | HTTP=- | http://hidrocarburos.gob.bo/
+
+URL de trabajo: https://www.hidrocarburos.gob.bo
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_40_MHE] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.hidrocarburos.gob.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_40_mhe
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duración:             0.70 s
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_40_mhe.json
+
+Trazabilidad:
+  Ejecución: 69
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

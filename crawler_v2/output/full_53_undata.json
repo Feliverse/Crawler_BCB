@@ -1,0 +1,4222 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "SYB68_1_202511_Population,_Surface_Area_and_Density.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_1_202511_Population, Surface Area and Density.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_1_202511_Population,_Surface_Area_and_Density_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_1_202511_Population, Surface Area and Density.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_327_202511_International_Migrants_and_Refugees.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_327_202511_International Migrants and Refugees.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_327_202511_International_Migrants_and_Refugees_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_327_202511_International Migrants and Refugees.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_246_202511_Population_Growth,_Fertility_and_Mortality_Indicators.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_246_202511_Population Growth, Fertility and Mortality Indicators.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_246_202511_Population_Growth,_Fertility_and_Mortality_Indicators_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_246_202511_Population Growth, Fertility and Mortality Indicators.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB61_253_Population_Growth_Rates_in_Urban_areas_and_Capital_cities.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB61_253_Population Growth Rates in Urban areas and Capital cities.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB61_253_Population_Growth_Rates_in_Urban_areas_and_Capital_cities_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB61_253_Population Growth Rates in Urban areas and Capital cities.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_230_202511_GDP_and_GDP_Per_Capita.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_230_202511_GDP and GDP Per Capita.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_230_202511_GDP_and_GDP_Per_Capita_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_230_202511_GDP and GDP Per Capita.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_153_202511_Gross_Value_Added_by_Economic_Activity.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_153_202511_Gross Value Added by Economic Activity.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_153_202511_Gross_Value_Added_by_Economic_Activity_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_153_202511_Gross Value Added by Economic Activity.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_309_202511_Education.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_309_202511_Education.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_309_202511_Education_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_309_202511_Education.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_323_202511_Teaching_Staff_in_Education.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_323_202511_Teaching Staff in Education.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_323_202511_Teaching_Staff_in_education.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_323_202511_Teaching Staff in education.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_245_202511_Public_expenditure_on_education_and_access_to_computers.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_245_202511_Public expenditure on education and access to computers.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_245_202511_Public_expenditure_on_education_and_access_to_computers_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_245_202511_Public expenditure on education and access to computers.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_329_202511_Labour_Force_and_Unemployment.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_329_202511_Labour Force and Unemployment.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_329_202511_Labour_Force_and_Unemployment_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_329_202511_Labour Force and Unemployment.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_200_202511_Employment.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_200_202511_Employment.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_200_202511_Employment_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_200_202511_Employment.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_128_202511_Consumer_Price_Index.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_128_202511_Consumer Price Index.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_128_202511_Consumer_Price_Index_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_128_202511_Consumer Price Index.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_12_202511_Agricultural_Index.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_12_202511_Agricultural Index.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_12_202511_Agricultural_Index_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_12_202511_Agricultural Index.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_123_202511_Total_Imports_Exports_and_Balance_of_Trade.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_123_202511_Total Imports Exports and Balance of Trade.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_123_202511_Total_Imports_Exports_and_Balance_of_Trade_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_123_202511_Total Imports Exports and Balance of Trade.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_330_202511_Major_Trading_Partners.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_330_202511_Major Trading Partners.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_330_202511_Major_Trading_Partners_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_330_202511_Major Trading Partners.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_263_202511_Production,_Trade_and_Supply_of_Energy.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_263_202511_Production, Trade and Supply of Energy.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_263_202511_Production,_Trade_and_Supply_of_Energy_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_263_202511_Production, Trade and Supply of Energy.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_328_202511_Intentional_homicides_and_other_crimes.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_328_202511_Intentional homicides and other crimes.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_328_202511_Intentional_homicides_and_other_crimes_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_328_202511_Intentional homicides and other crimes.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_317_202511_Seats_held_by_women_in_Parliament.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_317_202511_Seats held by women in Parliament.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_317_202511_Seats_held_by_women_in_Parliament_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_317_202511_Seats held by women in Parliament.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_319_202511_Ratio_of_girls_to_boys_in_education.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_319_202511_Ratio of girls to boys in education.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_319_202511_Ratio_of_girls_to_boys_in_education_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_319_202511_Ratio of girls to boys in education.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_154_202511_Health_Personnel.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_154_202511_Health Personnel.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_154_202511_Health_Personnel_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_154_202511_Health Personnel.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_325_202511_Expenditure_on_health.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_325_202511_Expenditure on health.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_325_202511_Expenditure_on_health_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_325_202511_Expenditure on health.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_285_202511_Research_and_Development_Expenditure_and_Staff.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_285_202511_Research and Development Expenditure and Staff.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_285_202511_Research_and_Development_Expenditure_and_Staff_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_285_202511_Research and Development Expenditure and Staff.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_264_202511_Patents.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_264_202511_Patents.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_264_202511_Patents_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_264_202511_Patents.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_125_202511_Balance_of_Payments.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_125_202511_Balance of Payments.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_125_202511_Balance_of_Payments_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_125_202511_Balance of Payments.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_130_202511_Exchange_Rates.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_130_202511_Exchange Rates.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_130_202511_Exchange_Rates_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_130_202511_Exchange Rates.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_145_202511_Land.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_145_202511_Land.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_145_202511_Land_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_145_202511_Land.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_310_202511_Carbon_Dioxide_Emission_Estimates.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_310_202511_Carbon Dioxide Emission Estimates.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_310_202511_Carbon_Dioxide_Emission_Estimates_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_310_202511_Carbon Dioxide Emission Estimates.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_315_202511_Water_and_Sanitation_Services.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_315_202511_Water and Sanitation Services.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_315_202511_Water_and_Sanitation_Services_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_315_202511_Water and Sanitation Services.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_313_202511_Threatened_Species.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_313_202511_Threatened Species.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_313_202511_Threatened_Species_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_313_202511_Threatened Species.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_314_202511_Internet_Usage.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_314_202511_Internet Usage.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_314_202511_Internet_Usage_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_314_202511_Internet Usage.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_176_202511_Tourist-Visitors_Arrival_and_Expenditure.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_176_202511_Tourist-Visitors Arrival and Expenditure.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_176_202511_Tourist-Visitors_Arrival_and_Expenditure_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_176_202511_Tourist-Visitors Arrival and Expenditure.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_226_202511_Net_Disbursements_from_Official_ODA_to_Recipients.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_226_202511_Net Disbursements from Official ODA to Recipients.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_226_202511_Net_Disbursements_from_Official_ODA_to_Recipients_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_226_202511_Net Disbursements from Official ODA to Recipients.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_223_202511_Net_Disbursements_from_Official_ODA_from_Donors.csv": {
+                        "descripcion": "PDF",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/PDFs/SYB68_223_202511_Net Disbursements from Official ODA from Donors.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SYB68_223_202511_Net_Disbursements_from_Official_ODA_from_Donors_2.csv": {
+                        "descripcion": "CSV",
+                        "url_descarga": "https://data.un.org/_Docs/SYB/CSV/SYB68_223_202511_Net Disbursements from Official ODA from Donors.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.un.org/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNdata.csv": {
+                        "descripcion": "UNdata",
+                        "url_descarga": "https://data.un.org/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Feedback.aspx": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNdata_|_feedback.csv": {
+                        "descripcion": "UNdata | feedback",
+                        "url_descarga": "https://data.un.org/Feedback.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Web_Service": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "https_data.un.org_ws.csv": {
+                        "descripcion": "https://data.un.org/ws",
+                        "url_descarga": "https://data.un.org/ws",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 3,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Afghanistan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/af.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Albania": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/al.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Algeria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/dz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "American_Samoa": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/as.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Andorra": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ad.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Angola": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ao.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Anguilla": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ai.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Antigua_and_Barbuda": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ag.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Argentina": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ar.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Armenia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/am.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Aruba": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/aw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Australia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/au.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Austria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/at.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Azerbaijan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/az.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bahamas": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bs.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bahrain": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bh.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bangladesh": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bd.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Barbados": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bb.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Belarus": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/by.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Belgium": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/be.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Belize": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Benin": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bj.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bermuda": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bhutan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bt.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bolivia_(Plurinational_State_of)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bo.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bonaire,_Sint_Eustatius_and_Saba": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bq.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 4,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bosnia_and_Herzegovina": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ba.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Botswana": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Brazil": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/br.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "British_Virgin_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/vg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Brunei_Darussalam": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Bulgaria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Burkina_Faso": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bf.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Burundi": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/bi.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cabo_Verde": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cv.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cambodia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kh.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cameroon": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Canada": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ca.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cayman_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ky.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Central_African_Republic": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cf.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Chad": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/td.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Channel_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/jg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Chile": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cl.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "China": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "China,_Hong_Kong_SAR": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/hk.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "China,_Macao_SAR": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mo.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Colombia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/co.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Comoros": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/km.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Congo": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cook_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ck.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Costa_Rica": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Croatia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/hr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cuba": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cu.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Curaçao": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cyprus": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cy.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Czechia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Côte_d’Ivoire": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ci.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Democratic_People's_Republic_of_Korea": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kp.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Democratic_Republic_of_the_Congo": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/cd.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Denmark": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/dk.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Djibouti": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/dj.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Dominica": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/dm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Dominican_Republic": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/do.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Ecuador": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ec.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Egypt": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/eg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "El_Salvador": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sv.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Equatorial_Guinea": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gq.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Eritrea": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/er.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Estonia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ee.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Eswatini": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Ethiopia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/et.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Falkland_Islands_(Malvinas)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/fk.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Faroe_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/fo.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Fiji": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/fj.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Finland": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/fi.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "France": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/fr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "French_Guiana": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gf.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "French_Polynesia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pf.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Gabon": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ga.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Gambia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Georgia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ge.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Germany": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/de.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Ghana": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gh.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Gibraltar": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gi.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Greece": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Greenland": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gl.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Grenada": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gd.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Guadeloupe": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gp.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Guam": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gu.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Guatemala": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gt.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Guinea": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Guinea-Bissau": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Guyana": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/gy.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Haiti": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ht.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Holy_See": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/va.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 4,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Honduras": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/hn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Hungary": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/hu.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Iceland": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/is.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "India": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/in.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Indonesia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/id.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Iran_(Islamic_Republic_of)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ir.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Iraq": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/iq.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Ireland": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ie.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Isle_of_Man": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/im.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Israel": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/il.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Italy": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/it.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Jamaica": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/jm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Japan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/jp.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Jordan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/jo.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Kazakhstan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Kenya": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ke.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Kiribati": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ki.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Kuwait": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Kyrgyzstan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Lao_People's_Democratic_Republic": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/la.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Latvia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/lv.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Lebanon": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/lb.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Lesotho": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ls.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Liberia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/lr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Libya": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ly.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Liechtenstein": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/li.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Lithuania": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/lt.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Luxembourg": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/lu.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Madagascar": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Malawi": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Malaysia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/my.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Maldives": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mv.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mali": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ml.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Malta": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mt.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Marshall_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mh.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Martinique": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mq.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mauritania": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mauritius": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mu.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mayotte": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/yt.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 4,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mexico": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mx.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Micronesia_(Federated_States_of)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/fm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Monaco": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mc.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mongolia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Montenegro": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/me.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Montserrat": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ms.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Morocco": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ma.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Mozambique": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Myanmar": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Namibia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/na.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Nauru": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/nr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Nepal": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/np.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Netherlands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/nl.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "New_Caledonia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/nc.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "New_Zealand": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/nz.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Nicaragua": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ni.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Niger": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ne.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Nigeria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ng.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Niue": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/nu.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Northern_Mariana_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/mp.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Norway": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/no.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Oman": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/om.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Pakistan": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pk.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Palau": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Panama": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pa.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Papua_New_Guinea": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Paraguay": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/py.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Peru": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pe.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Philippines": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ph.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Poland": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pl.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Portugal": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pt.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Puerto_Rico": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Qatar": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/qa.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Republic_of_Korea": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kr.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Republic_of_Moldova": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/md.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Romania": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ro.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Russian_Federation": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ru.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Rwanda": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/rw.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Réunion": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/re.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Saint_Helena": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sh.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Saint_Kitts_and_Nevis": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/kn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Saint_Lucia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/lc.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Saint_Pierre_and_Miquelon": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/pm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Saint_Vincent_and_the_Grenadines": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/vc.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Samoa": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/ws.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "San_Marino": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sm.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Sao_Tome_and_Principe": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/st.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Saudi_Arabia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sa.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Senegal": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sn.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Serbia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/rs.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Seychelles": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sc.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Sierra_Leone": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sl.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Singapore": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sg.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Sint_Maarten_(Dutch_part)": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sx.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Slovakia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sk.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Slovenia": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/si.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Solomon_Islands": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "UNData_app.csv": {
+                        "descripcion": "UNData app",
+                        "url_descarga": "https://data.un.org/en/iso/sb.html",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.un.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

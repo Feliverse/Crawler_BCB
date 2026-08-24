@@ -1,0 +1,79 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Comisión Nacional de Defensa de la Competencia
+URL configurada: https://www.cndc.bo
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+
+
+Resolución de fuente:
+  Original: https://www.cndc.bo
+  Utilizada: https://www.cndc.bo/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.cndc.bo/
+
+URL de trabajo: https://www.cndc.bo/
+Seeds: 1
+Máx páginas: 10000
+Máx archivos: 100000
+Máx profundidad: 20
+
+[FULL_22_CNDC] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.cndc.bo/
+[FULL_22_CNDC] DATASETS=1 | data_chart | https://www.cndc.bo/
+[FULL_22_CNDC] t=   1.4s | pag=  1 | files=   0 | data=  1 | cola=  20 | prio=10 | https://www.cndc.bo/estadisticas/
+[FULL_22_CNDC] DATASETS=2 | interactive_data_page | https://www.cndc.bo/estadisticas/
+[FULL_22_CNDC] t=   1.8s | pag=  2 | files=   0 | data=  2 | cola=  19 | prio=10 | https://www.cndc.bo/historico-generacion/
+[FULL_22_CNDC] DATASETS=3 | data_chart | https://www.cndc.bo/historico-generacion/
+[FULL_22_CNDC] t=   2.3s | pag=  3 | files=   0 | data=  3 | cola=  18 | prio=10 | https://www.cndc.bo/historico-demanda/
+[FULL_22_CNDC] DATASETS=4 | data_chart | https://www.cndc.bo/historico-demanda/
+[FULL_22_CNDC] t=   3.3s | pag=  4 | files=   0 | data=  4 | cola=  17 | prio=10 | https://www.cndc.bo/historico-potencia/
+[FULL_22_CNDC] DATASETS=5 | data_chart | https://www.cndc.bo/historico-potencia/
+[FULL_22_CNDC] t=   3.8s | pag=  5 | files=   0 | data=  5 | cola=  16 | prio=10 | https://www.cndc.bo/historico-potencia-punta/
+[FULL_22_CNDC] DATASETS=6 | data_chart | https://www.cndc.bo/historico-potencia-punta/
+[FULL_22_CNDC] t=   4.6s | pag=  6 | files=   0 | data=  6 | cola=  15 | prio=10 | https://www.cndc.bo/historico-monomicos/
+[FULL_22_CNDC] DATASETS=7 | data_chart | https://www.cndc.bo/historico-monomicos/
+[FULL_22_CNDC] t=   5.1s | pag=  7 | files=   0 | data=  7 | cola=  14 | prio=10 | https://www.cndc.bo/historico-costo-marginal/
+[FULL_22_CNDC] t=   6.1s | pag=  8 | files=   0 | data=  7 | cola=  13 | prio=10 | https://www.cndc.bo/publicaciones/plan-electrico-referencial-bolivia-2035/
+[FULL_22_CNDC] t=   7.1s | pag=  9 | files=   0 | data=  7 | cola=  12 | prio=10 | https://www.cndc.bo/publicaciones/plan-electrico-de-bolivia-2025/
+[FULL_22_CNDC] t=   7.7s | pag= 10 | files=   0 | data=  7 | cola=  11 | prio=10 | https://www.cndc.bo/publicaciones/plan-optimo-de-expansion-del-sin-2012-2022/
+[FULL_22_CNDC] t=   8.3s | pag= 11 | files=   0 | data=  7 | cola=  10 | prio=50 | https://www.cndc.bo/dashboard-operativo/
+[FULL_22_CNDC] DATASETS=8 | exportable_data_page | https://www.cndc.bo/dashboard-operativo/
+[FULL_22_CNDC] t=   9.0s | pag= 12 | files=   0 | data=  8 | cola=   9 | prio=50 | https://www.cndc.bo/resultados-operativos/
+[FULL_22_CNDC] t=   9.6s | pag= 13 | files=   0 | data=  8 | cola=   8 | prio=50 | https://www.cndc.bo/mem/
+[FULL_22_CNDC] t=  10.6s | pag= 14 | files=   0 | data=  8 | cola=   8 | prio=50 | https://www.cndc.bo/actividades-institucionales/
+[FULL_22_CNDC] t=  11.3s | pag= 15 | files=   0 | data=  8 | cola=   8 | prio=50 | https://www.cndc.bo/memoria-anual/
+[FULL_22_CNDC] t=  11.9s | pag= 16 | files=   0 | data=  8 | cola=   7 | prio=50 | https://www.cndc.bo/resultados-operativos/marco-legal/normas-operativas/
+[FULL_22_CNDC] t=  12.6s | pag= 17 | files=  86 | data=  8 | cola=   6 | prio=50 | https://www.cndc.bo/sobre-el-cndc/
+[FULL_22_CNDC] t=  13.0s | pag= 18 | files=  86 | data=  8 | cola=   8 | prio=50 | https://www.cndc.bo/diagramas/
+[FULL_22_CNDC] t=  13.8s | pag= 19 | files=  86 | data=  8 | cola=   7 | prio=50 | https://www.cndc.bo/agentes-del-mem/
+[FULL_22_CNDC] t=  14.9s | pag= 20 | files=  86 | data=  8 | cola=   6 | prio=50 | https://www.cndc.bo/resultados-operativos/marco-legal/
+[FULL_22_CNDC] t=  15.3s | pag= 21 | files=  93 | data=  8 | cola=   5 | prio=50 | https://www.cndc.bo/mem-registro/
+[FULL_22_CNDC] t=  16.3s | pag= 22 | files=  93 | data=  8 | cola=   4 | prio=50 | https://www.cndc.bo/sistema-gestion-calidad/
+[FULL_22_CNDC] t=  17.3s | pag= 23 | files=  93 | data=  8 | cola=   3 | prio=50 | https://www.cndc.bo/sistema-gestion-seguridad/
+[FULL_22_CNDC] t=  18.1s | pag= 24 | files=  93 | data=  8 | cola=   2 | prio=50 | https://www.cndc.bo/organismo-inspeccion-smec/
+[FULL_22_CNDC] t=  18.9s | pag= 25 | files=  93 | data=  8 | cola=   1 | prio=70 | https://www.cndc.bo/contacto/
+[FULL_22_CNDC] t=  19.7s | pag= 26 | files=  93 | data=  8 | cola=   0 | prio=70 | https://www.cndc.bo/evento/
+[FULL_22_CNDC] DATASETS=9 | exportable_data_page | https://www.cndc.bo/evento/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_22_cndc
+Páginas visitadas:   27
+Archivos encontrados:  102
+Datasets web:         9
+Errores:              0
+Motivo de parada:     frontier_exhausted
+Duración:             20.63 s
+
+Formatos:
+  - PDF    : 102
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_22_cndc.json
+
+Trazabilidad:
+  Ejecución: 43
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

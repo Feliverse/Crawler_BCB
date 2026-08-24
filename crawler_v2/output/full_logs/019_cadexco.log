@@ -1,0 +1,42 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Cámara de Exportadores de Cochabamba
+URL configurada: https://www.cadexco.org.bo
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - request_error  | HTTP=- | https://www.cadexco.org.bo/
+    - request_error  | HTTP=- | https://cadexco.org.bo/
+    - request_error  | HTTP=- | http://www.cadexco.org.bo/
+    - request_error  | HTTP=- | http://cadexco.org.bo/
+
+URL de trabajo: https://www.cadexco.org.bo
+Seeds: 1
+Máx páginas: 10000
+Máx archivos: 100000
+Máx profundidad: 20
+
+[FULL_19_CADEXCO] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.cadexco.org.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_19_cadexco
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duración:             0.63 s
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_19_cadexco.json
+
+Trazabilidad:
+  Ejecución: 39
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

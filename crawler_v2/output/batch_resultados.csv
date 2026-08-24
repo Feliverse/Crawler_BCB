@@ -1,5 +1,5 @@
 ﻿fila_excel;fuente;institucion;url;crawler_asignado;http;robots;paginas;archivos;datasets;documentos;errores;motivo_parada;duracion;resultado;detalle
-3;ADA;ADA Bolivia;https://www.adascz.com.bo;Brami;200;permitido;0;1076;1;1077;0;max_pages;0;exitoso;Generó contratos JSON
+3;ADA;ADA Bolivia;https://www.adascz.com.bo;Brami;200;permitido;0;1078;1;1079;0;max_pages;0;exitoso;Generó contratos JSON
 4;AE;Autoridad de Fiscalizacion de Electricidad dey Tecnologia Nuclear;https://aetn.gob.bo;Rolando;200;validado previamente;;;;282;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
 5;ANAPO;Asociación de Productores de Oleaginosas y Trigo;https://www.anapobolivia.org;Alex;200;permitido;0;0;9;9;0;max_pages;0;exitoso;Generó contratos JSON
 6;APS;Autoridad de Fiscalización y Control de Pensiones y Seguros;https://www.aps.gob.bo;Alex;200;permitido;0;86;0;86;0;max_pages;0;exitoso;Generó contratos JSON
@@ -16,7 +16,7 @@
 17;BM;Banco Mundial;https://www.worldbank.org;Alex;200;permitido;0;109;6;115;0;max_pages;0;exitoso;Generó contratos JSON
 18;BOLCEREALES;Bolcereales;https://www.bolsadecereales.com;Douglas;403;no comprobado;0;0;0;0;0;;0;fuente denegada;HTTP 403 Forbidden
 19;CADEXCO;Cámara de Exportadores de Cochabamba;https://www.cadexco.org.bo;Brami;;no comprobado;0;0;0;0;0;;0;REVISAR;"Error HTTP: HTTPSConnectionPool(host='www.cadexco.org.bo', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.cadexco.org.bo', port=443): Failed to resolve 'www.cadexco.org.bo' ([Errno 11001] getaddrinfo failed)""))"
-20;CEPAL;Comisión Económica para América Latina y el Caribe;https://www.cepal.org;Alex;404;no comprobado;0;0;0;0;0;;0;REVISAR;HTTP 404
+20;CEPAL;Comisión Económica para América Latina y el Caribe;https://www.cepal.org;Alex;200;permitido;0;25;8;33;0;max_pages;0;exitoso;Generó contratos JSON
 21;CEPROBOL;Centro Promoción Bolivia;https://www.ceprobol.gob.bo;Douglas;;no comprobado;0;0;0;0;0;;0;REVISAR;"Error HTTP: HTTPSConnectionPool(host='www.ceprobol.gob.bo', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.ceprobol.gob.bo', port=443): Failed to resolve 'www.ceprobol.gob.bo' ([Errno 11001] getaddrinfo failed)""))"
 22;CNDC;Comisión Nacional de Defensa de la Competencia;https://www.cndc.bo;Brami;200;permitido;0;93;8;101;0;max_pages;0;exitoso;Generó contratos JSON
 23;Data.Gov;Portal de Datos Abiertos USA;https://www.data.gov;Rolando;200;validado previamente;;;;1986;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
@@ -32,22 +32,22 @@
 33;IBCH;Instituto Boliviano del Cemento y Hormigón;https://www.ibch.org.bo;Douglas;;no comprobado;0;0;0;0;0;;0;REVISAR;"Error HTTP: HTTPSConnectionPool(host='www.ibch.org.bo', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.ibch.org.bo', port=443): Failed to resolve 'www.ibch.org.bo' ([Errno 11001] getaddrinfo failed)""))"
 34;ICCO;International Cocoa Organization;https://www.icco.org;Brami;200;permitido;0;16;7;23;1;max_pages;0;exitoso;Generó contratos JSON
 35;INE;Instituto Nacional de Estadística;https://www.ine.gob.bo;Douglas;200;permitido;0;118;15;133;0;max_pages;0;exitoso;Generó contratos JSON
-36;ITU;International Telecommunication Union;https://www.itu.int;Brami;200;permitido;0;4;1;5;2;max_pages;0;exitoso;Generó contratos JSON
+36;ITU;International Telecommunication Union;https://www.itu.int;Brami;200;permitido;0;4;1;5;0;max_pages;0;exitoso;Generó contratos JSON
 37;MDRyT;Ministerio de Desarrollo Rural y Tierras;https://www.ruralytierras.gob.bo;Rolando;200;validado previamente;;;;50;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
-38;MDRyT/OAP;Ministerio de Desarrollo Rural y Tierras - OAP;https://www.ruralytierras.gob.bo;Brami;200;permitido;0;28;1;29;0;max_pages;0;exitoso;Generó contratos JSON
+38;MDRyT/OAP;Ministerio de Desarrollo Rural y Tierras - OAP;https://www.ruralytierras.gob.bo;Brami;;no comprobado;0;0;0;0;0;;0;REVISAR;Error HTTP: HTTPSConnectionPool(host='www.ruralytierras.gob.bo', port=443): Read timed out. (read timeout=6)
 39;MEFP;Ministerio de Economía y Finanzas Públicas;https://www.economiayfinanzas.gob.bo;Alex;;no comprobado;0;0;0;0;0;;0;REVISAR;Error HTTP: HTTPSConnectionPool(host='www.economiayfinanzas.gob.bo', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
 40;MHE;Ministerio de Hidrocarburos y Energías;https://www.hidrocarburos.gob.bo;Douglas;;no comprobado;0;0;0;0;0;;0;REVISAR;Error HTTP: HTTPSConnectionPool(host='www.hidrocarburos.gob.bo', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
 41;Min. Educación;Ministerio de Educación;https://www.minedu.gob.bo;Rolando;200;validado previamente;;;;113;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
 42;MMYM;Ministerio de Minería y Metalurgia;https://www.mineria.gob.bo;Alex;200;permitido;0;86;0;86;0;max_pages;0;exitoso;Generó contratos JSON
 43;OMC;Organización Mundial del Comercio;https://www.wto.org;Alex;200;permitido;0;10;7;17;3;max_pages;0;exitoso;Generó contratos JSON
-44;OTROS HISTÓRICOS/BANCO MUNDIAL/DOING BUSINESS;Doing Business (Banco Mundial);https://www.doingbusiness.org;Brami;200;permitido;0;11;9;20;3;max_pages;0;exitoso;Generó contratos JSON
+44;OTROS HISTÓRICOS/BANCO MUNDIAL/DOING BUSINESS;Doing Business (Banco Mundial);https://www.doingbusiness.org;Brami;200;permitido;0;8;9;17;0;max_pages;0;exitoso;Generó contratos JSON
 45;SABSA;Servicios de Aeropuertos Bolivianos S.A.;https://www.sabsa.aero;Brami;;no comprobado;0;0;0;0;0;;0;REVISAR;"Error HTTP: HTTPSConnectionPool(host='www.sabsa.aero', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.sabsa.aero', port=443): Failed to resolve 'www.sabsa.aero' ([Errno 11001] getaddrinfo failed)""))"
-46;SENAMHI;Servicio Nacional de Meteorología e Hidrología;https://www.senamhi.gob.bo;Rolando;200;validado previamente;;;;38;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
+46;SENAMHI;Servicio Nacional de Meteorología e Hidrología;https://www.senamhi.gob.bo;Rolando;200;validado previamente;;;;5;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
 47;SEPREC;Servicio Plurinacional de Registro de Comercio;https://www.seprec.gob.bo;Douglas;200;sin bloqueo;0;81;1;82;0;max_pages;0;exitoso;Generó contratos JSON
 48;SICOES;Sistema de Contrataciones Estatales;https://www.sicoes.gob.bo;Brami;200;sin bloqueo;0;0;0;0;0;frontier_exhausted;0;sin enlace directo;HTTP accesible pero no se detectaron recursos
 49;SIGMA;Industria Farmacéutica Sigma;https://www.sigmacorp.com.bo;Rolando;200;validado previamente;;;;0;;validado previamente;;sin enlace directo;Resultado reutilizado de pruebas anteriores
 50;SNIS;Sistema Nacional de Información en Salud;https://snis.minsalud.gob.bo;Rolando;200;validado previamente;;;;100;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
-51;Statistics Denmark;Danmarks Statistik;https://www.dst.dk;Alex;200;permitido;0;2;6;8;0;max_pages;0;exitoso;Generó contratos JSON
+51;Statistics Denmark;Danmarks Statistik;https://www.dst.dk;Alex;200;permitido;0;2;7;9;0;max_pages;0;exitoso;Generó contratos JSON
 52;TRANSTATS;US Bureau of Transportation Statistics;https://www.transtats.bts.gov;Rolando;200;validado previamente;;;;101;;validado previamente;;exitoso;Resultado reutilizado de pruebas anteriores
 53;UNDATA;United Nations Data;https://data.un.org;Douglas;200;permitido;0;66;19;85;0;max_pages;0;exitoso;Generó contratos JSON
 54;VIPFE;Viceministerio de Inversión Pública y Financiamiento Externo;https://www.vipfe.gob.bo;Alex;;no comprobado;0;0;0;0;0;;0;REVISAR;"Error HTTP: HTTPSConnectionPool(host='www.vipfe.gob.bo', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(""HTTPSConnection(host='www.vipfe.gob.bo', port=443): Failed to resolve 'www.vipfe.gob.bo' ([Errno 11001] getaddrinfo failed)""))"

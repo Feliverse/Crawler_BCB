@@ -1,0 +1,42 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Economía y Finanzas Públicas
+URL configurada: https://www.economiayfinanzas.gob.bo
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - request_error  | HTTP=- | https://www.economiayfinanzas.gob.bo/
+    - request_error  | HTTP=- | https://economiayfinanzas.gob.bo/
+    - request_error  | HTTP=- | http://www.economiayfinanzas.gob.bo/
+    - request_error  | HTTP=- | http://economiayfinanzas.gob.bo/
+
+URL de trabajo: https://www.economiayfinanzas.gob.bo
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_39_MEFP] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.economiayfinanzas.gob.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_39_mefp
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duración:             1.01 s
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_39_mefp.json
+
+Trazabilidad:
+  Ejecución: 68
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

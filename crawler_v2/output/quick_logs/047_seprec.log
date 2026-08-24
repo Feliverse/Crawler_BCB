@@ -1,0 +1,235 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Servicio Plurinacional de Registro de Comercio
+URL configurada: https://www.seprec.gob.bo
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Original: https://www.seprec.gob.bo
+  Utilizada: https://www.seprec.gob.bo/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.seprec.gob.bo/
+
+URL de trabajo: https://www.seprec.gob.bo/
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_47_SEPREC] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.seprec.gob.bo/
+[FULL_47_SEPREC] t=   2.1s | pag=  1 | files=   1 | data=  0 | cola=  54 | prio=10 | https://www.seprec.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/
+[FULL_47_SEPREC] t=   3.3s | pag=  2 | files=   1 | data=  0 | cola=  53 | prio=10 | https://www.seprec.gob.bo/index.php/pei-descargable/
+[FULL_47_SEPREC] t=   4.0s | pag=  3 | files=   2 | data=  0 | cola=  52 | prio=10 | https://www.seprec.gob.bo/index.php/tipo-de-unidad-economica/
+[FULL_47_SEPREC] t=   4.7s | pag=  4 | files=   2 | data=  0 | cola=  51 | prio=10 | https://www.seprec.gob.bo/index.php/datos/
+[FULL_47_SEPREC] DATASETS=1 | data_html_table | https://www.seprec.gob.bo/index.php/datos/
+[FULL_47_SEPREC] t=   5.5s | pag=  5 | files=  14 | data=  1 | cola=  50 | prio=10 | https://www.seprec.gob.bo/index.php/boletines/
+[FULL_47_SEPREC] t=   6.3s | pag=  6 | files=  18 | data=  1 | cola=  49 | prio=10 | https://www.seprec.gob.bo/index.php/informes-de-viaje-al-exterior/
+[FULL_47_SEPREC] t=   7.1s | pag=  7 | files=  20 | data=  1 | cola=  48 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-amplia-hasta-el-31-de-julio-el-plazo-para-la-renovacion-de-la-matricula-de-comercio-en-apoyo-a-la-formalizacion-y-reactivacion-economica/
+[FULL_47_SEPREC] t=   8.0s | pag=  8 | files=  20 | data=  1 | cola=  47 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/rendicion-publica-de-cuentas-final-seprec-reporta-perdida-millonaria-superior-a-bs-58-millones-en-la-gestion-2025/
+[FULL_47_SEPREC] t=   8.8s | pag=  9 | files=  20 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/
+[FULL_47_SEPREC] t=   9.5s | pag= 10 | files=  20 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/memoria-intitucional/
+[FULL_47_SEPREC] t=  10.3s | pag= 11 | files=  21 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/aprobacion-del-poa-documento-normativo/
+[FULL_47_SEPREC] t=  11.1s | pag= 12 | files=  28 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
+[FULL_47_SEPREC] t=  12.0s | pag= 13 | files=  43 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/politicas-de-la-calidad/
+[FULL_47_SEPREC] t=  12.8s | pag= 14 | files=  43 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/
+[FULL_47_SEPREC] t=  13.7s | pag= 15 | files=  71 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/rendicion-publica-de-cuentas/
+[FULL_47_SEPREC] t=  14.5s | pag= 16 | files=  78 | data=  1 | cola=  39 | prio=50 | https://www.seprec.gob.bo/index.php/17068-2/
+[FULL_47_SEPREC] t=  15.4s | pag= 17 | files=  80 | data=  1 | cola=  38 | prio=50 | https://www.seprec.gob.bo/index.php/que-es-registro-de-comercio/
+[FULL_47_SEPREC] t=  16.2s | pag= 18 | files=  80 | data=  1 | cola=  37 | prio=50 | https://www.seprec.gob.bo/index.php/registro-de-comercio-en-el-estado-plurinacional/
+[FULL_47_SEPREC] t=  17.1s | pag= 19 | files=  80 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/preguntas-frecuentes/
+[FULL_47_SEPREC] t=  17.8s | pag= 20 | files=  80 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/folleto-guia-de-tramites/
+[FULL_47_SEPREC] t=  18.5s | pag= 21 | files=  81 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/
+[FULL_47_SEPREC] t=  19.4s | pag= 22 | files=  81 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/lista-herramientas-page/
+[FULL_47_SEPREC] t=  20.2s | pag= 23 | files=  81 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/lista-comunicados-page/
+[FULL_47_SEPREC] t=  21.1s | pag= 24 | files=  81 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/
+[FULL_47_SEPREC] t=  21.9s | pag= 25 | files=  81 | data=  1 | cola=  55 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-supera-las-184-mil-transacciones-financieras-a-traves-de-la-pasarela-de-pagos-y-consolida-la-desburocratizacion-de-tramites/
+[FULL_47_SEPREC] t=  22.6s | pag= 26 | files=  81 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/revistas/
+[FULL_47_SEPREC] t=  23.5s | pag= 27 | files=  84 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/campanas-y-actividades/
+[FULL_47_SEPREC] t=  24.3s | pag= 28 | files=  84 | data=  1 | cola=  59 | prio=10 | https://www.seprec.gob.bo/index.php/campania/encuesta-anual-unidades-economicas/
+[FULL_47_SEPREC] t=  25.0s | pag= 29 | files=  84 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/constitucion-politica-del-estado/
+[FULL_47_SEPREC] t=  25.8s | pag= 30 | files=  85 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/leyes-2/
+[FULL_47_SEPREC] t=  26.6s | pag= 31 | files=  90 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/decretos-supremos/
+[FULL_47_SEPREC] t=  27.3s | pag= 32 | files=  92 | data=  1 | cola=  56 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/
+[FULL_47_SEPREC] t=  28.1s | pag= 33 | files= 102 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/
+[FULL_47_SEPREC] t=  29.0s | pag= 34 | files= 107 | data=  1 | cola=  59 | prio=50 | https://www.seprec.gob.bo/index.php/organigrama/
+[FULL_47_SEPREC] t=  29.7s | pag= 35 | files= 107 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/nomina-de-servidores-publicos-2/
+[FULL_47_SEPREC] t=  30.5s | pag= 36 | files= 107 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/escala-salarial/
+[FULL_47_SEPREC] t=  31.4s | pag= 37 | files= 108 | data=  1 | cola=  56 | prio=50 | https://www.seprec.gob.bo/index.php/manual-de-organizacion/
+[FULL_47_SEPREC] t=  32.1s | pag= 38 | files= 109 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/poais/
+[FULL_47_SEPREC] t=  32.9s | pag= 39 | files= 111 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/manuales-de-procedimiento/
+[FULL_47_SEPREC] t=  33.7s | pag= 40 | files= 116 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/contrataciones/
+[FULL_47_SEPREC] t=  34.5s | pag= 41 | files= 116 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/listado-de-convocatorias-vigentes-de-bienes-y-servicios/
+[FULL_47_SEPREC] t=  35.4s | pag= 42 | files= 157 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/proveedores-2/
+[FULL_47_SEPREC] t=  36.1s | pag= 43 | files= 160 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/lista-direcciones-page/
+[FULL_47_SEPREC] t=  37.0s | pag= 44 | files= 160 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/enlaces-de-interes/
+[FULL_47_SEPREC] t=  37.7s | pag= 45 | files= 160 | data=  1 | cola=  48 | prio=50 | https://seprec.gob.bo/index.php/normativa-inter/ra-seprec-203-2026/
+[FULL_47_SEPREC] t=  40.1s | pag= 46 | files= 160 | data=  1 | cola=  47 | prio=50 | https://tramites.seprec.gob.bo/
+[FULL_47_SEPREC] t=  41.6s | pag= 47 | files= 160 | data=  1 | cola=  46 | prio=50 | https://miempresa.seprec.gob.bo/
+[FULL_47_SEPREC] t=  43.2s | pag= 48 | files= 160 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recibe-la-certificacion-iso-90012015-y-ratifica-su-compromiso-con-la-calidad-y-la-mejora-continua/
+[FULL_47_SEPREC] t=  44.0s | pag= 49 | files= 160 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-amplia-hasta-el-30-de-junio-el-plazo-para-la-renovacion-de-la-matricula-de-comercio/
+[FULL_47_SEPREC] t=  44.7s | pag= 50 | files= 160 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-agiliza-los-tramites-empresariales-y-supera-las-200-000-transacciones-en-2025/
+[FULL_47_SEPREC] t=  45.6s | pag= 51 | files= 160 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recuerda-renovacion-de-matricula-de-comercio-para-sectores-agroproductivos-vence-el-31-de-diciembre/
+[FULL_47_SEPREC] t=  46.4s | pag= 52 | files= 160 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/cdn-cgi/l/email-protection
+[FULL_47_SEPREC] t=  46.7s | pag= 52 | files= 160 | data=  1 | cola=  40 | prio=50 | https://seprec.gob.bo/index.php/tramite1/
+[FULL_47_SEPREC] t=  48.8s | pag= 53 | files= 160 | data=  1 | cola=  40 | prio=50 | https://seprec.gob.bo/index.php/tramite2/
+[FULL_47_SEPREC] t=  50.2s | pag= 54 | files= 160 | data=  1 | cola=  39 | prio=50 | https://seprec.gob.bo/index.php/tramite10/
+[FULL_47_SEPREC] t=  51.3s | pag= 55 | files= 160 | data=  1 | cola=  38 | prio=50 | https://seprec.gob.bo/index.php/tramite53/
+[FULL_47_SEPREC] t=  52.4s | pag= 56 | files= 160 | data=  1 | cola=  37 | prio=50 | https://seprec.gob.bo/index.php/lista-direcciones-page/
+[FULL_47_SEPREC] t=  53.5s | pag= 56 | files= 160 | data=  1 | cola=  36 | prio=50 | https://seprec.gob.bo/index.php/tramite51/
+[FULL_47_SEPREC] t=  55.7s | pag= 57 | files= 160 | data=  1 | cola=  35 | prio=50 | https://www.seprec.gob.bo/index.php/tramite1
+[FULL_47_SEPREC] t=  56.7s | pag= 57 | files= 160 | data=  1 | cola=  33 | prio=50 | https://www.seprec.gob.bo/index.php/tramite3/
+[FULL_47_SEPREC] t=  58.9s | pag= 58 | files= 160 | data=  1 | cola=  32 | prio=50 | https://www.seprec.gob.bo/index.php/tramite4/
+[FULL_47_SEPREC] t=  59.7s | pag= 59 | files= 160 | data=  1 | cola=  31 | prio=50 | https://www.seprec.gob.bo/index.php/tramite5/
+[FULL_47_SEPREC] t=  60.6s | pag= 60 | files= 160 | data=  1 | cola=  30 | prio=50 | https://www.seprec.gob.bo/index.php/tramite6/
+[FULL_47_SEPREC] t=  61.3s | pag= 61 | files= 160 | data=  1 | cola=  29 | prio=50 | https://www.seprec.gob.bo/index.php/tramite7/
+[FULL_47_SEPREC] t=  62.2s | pag= 62 | files= 160 | data=  1 | cola=  28 | prio=50 | https://www.seprec.gob.bo/index.php/tramite8/
+[FULL_47_SEPREC] t=  63.4s | pag= 63 | files= 160 | data=  1 | cola=  27 | prio=50 | https://www.seprec.gob.bo/index.php/tramite9/
+[FULL_47_SEPREC] t=  64.3s | pag= 64 | files= 160 | data=  1 | cola=  25 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/2/
+[FULL_47_SEPREC] t=  65.2s | pag= 65 | files= 160 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/3/
+[FULL_47_SEPREC] t=  66.0s | pag= 66 | files= 160 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/7/
+[FULL_47_SEPREC] t=  66.8s | pag= 67 | files= 160 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-insta-a-sociedades-anonimas-a-publicar-sus-memorias-anuales-hasta-el-31-de-diciembre-de-2025/
+[FULL_47_SEPREC] t=  67.6s | pag= 68 | files= 160 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recuerda-a-empresas-agricolas-ganaderas-gomeras-y-agroindustriales-renovar-su-matricula-de-comercio-antes-del-30-de-noviembre/
+[FULL_47_SEPREC] t=  68.5s | pag= 69 | files= 160 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/beni-potencia-su-crecimiento-empresarial-y-se-consolida-como-referente-en-la-amazonia-boliviana/
+[FULL_47_SEPREC] t=  69.3s | pag= 70 | files= 160 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/page/2/
+[FULL_47_SEPREC] t=  70.2s | pag= 71 | files= 160 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/page/3/
+[FULL_47_SEPREC] t=  71.0s | pag= 72 | files= 160 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/leyes-2/page/2/
+[FULL_47_SEPREC] t=  71.8s | pag= 73 | files= 162 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/2/
+[FULL_47_SEPREC] t=  72.7s | pag= 74 | files= 172 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/3/
+[FULL_47_SEPREC] t=  73.6s | pag= 75 | files= 182 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/6/
+[FULL_47_SEPREC] t=  74.3s | pag= 76 | files= 191 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/page/2/
+[FULL_47_SEPREC] t=  75.1s | pag= 77 | files= 191 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/page/3/
+[FULL_47_SEPREC] t=  76.0s | pag= 78 | files= 192 | data=  1 | cola=  56 | prio=50 | https://seprec.gob.bo/index.php/lista-servicios-page/
+[FULL_47_SEPREC] t=  77.1s | pag= 78 | files= 192 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/tramite11/
+[FULL_47_SEPREC] t=  79.0s | pag= 79 | files= 192 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/tramite12/
+[FULL_47_SEPREC] t=  79.7s | pag= 80 | files= 192 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/tramite13/
+[FULL_47_SEPREC] t=  80.4s | pag= 81 | files= 192 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/tramite14/
+[FULL_47_SEPREC] t=  81.6s | pag= 82 | files= 192 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/tramite15/
+[FULL_47_SEPREC] t=  82.3s | pag= 83 | files= 192 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/tramite16/
+[FULL_47_SEPREC] t=  82.9s | pag= 84 | files= 192 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/tramite17/
+[FULL_47_SEPREC] t=  83.7s | pag= 85 | files= 192 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/tramite18/
+[FULL_47_SEPREC] t=  84.5s | pag= 86 | files= 192 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/tramite19/
+[FULL_47_SEPREC] t=  85.1s | pag= 87 | files= 192 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/tramite20/
+[FULL_47_SEPREC] t=  85.7s | pag= 88 | files= 192 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/1/
+[FULL_47_SEPREC] t=  86.8s | pag= 88 | files= 192 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/4/
+[FULL_47_SEPREC] t=  88.8s | pag= 89 | files= 192 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/tramite21/
+[FULL_47_SEPREC] t=  89.6s | pag= 90 | files= 192 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/tramite22/
+[FULL_47_SEPREC] t=  90.5s | pag= 91 | files= 192 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/tramite23/
+[FULL_47_SEPREC] t=  91.2s | pag= 92 | files= 192 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/tramite24/
+[FULL_47_SEPREC] t=  92.0s | pag= 93 | files= 192 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/tramite25/
+[FULL_47_SEPREC] t=  92.7s | pag= 94 | files= 192 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/tramite26/
+[FULL_47_SEPREC] t=  93.5s | pag= 95 | files= 192 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/tramite27/
+[FULL_47_SEPREC] t=  94.3s | pag= 96 | files= 192 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/tramite28/
+[FULL_47_SEPREC] t=  95.0s | pag= 97 | files= 192 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/tramite29/
+[FULL_47_SEPREC] t=  95.9s | pag= 98 | files= 192 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/tramite30/
+[FULL_47_SEPREC] t=  96.8s | pag= 99 | files= 192 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/5/
+[FULL_47_SEPREC] t=  97.7s | pag=100 | files= 192 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/tramite61/
+[FULL_47_SEPREC] t=  98.6s | pag=101 | files= 192 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/tramite62/
+[FULL_47_SEPREC] t=  99.3s | pag=102 | files= 192 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/6/
+[FULL_47_SEPREC] t= 100.2s | pag=103 | files= 192 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-destaca-el-aporte-emprendedor-del-departamento-de-potosi-en-conmemoracion-a-su-aniversario/
+[FULL_47_SEPREC] t= 101.0s | pag=104 | files= 192 | data=  1 | cola=  56 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recibe-el-sello-de-inclusividad-por-promover-la-insercion-laboral-de-tutores-y-de-personas-con-discapacidad/
+[FULL_47_SEPREC] t= 101.7s | pag=105 | files= 192 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/aplicacion-movil-del-seprec-facilita-el-acceso-digital-a-servicios-empresariales/
+[FULL_47_SEPREC] t= 102.5s | pag=106 | files= 192 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-mantiene-costos-accesibles-y-estables-desde-el-inicio-de-sus-operaciones-promoviendo-la-formalizacion-empresarial-en-bolivia/
+[FULL_47_SEPREC] t= 103.4s | pag=107 | files= 192 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-capacita-a-municipios-de-sipe-sipe-filadelfia-y-sorocachi-sobre-la-creacion-e-inscripcion-de-empresas-publicas/
+[FULL_47_SEPREC] t= 104.2s | pag=108 | files= 192 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/obras-para-el-desarrollo-entregan-65-viviendas-y-enlosetado-en-tika-belen-y-romero-pampa-oruro/
+[FULL_47_SEPREC] t= 104.9s | pag=109 | files= 192 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-refuerza-su-rol-empresarial-con-formacion-en-la-vuce/
+[FULL_47_SEPREC] t= 105.7s | pag=110 | files= 192 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-garantiza-costos-reducidos-y-tramites-gratuitos-para-promover-la-formalizacion-empresarial/
+[FULL_47_SEPREC] t= 106.5s | pag=111 | files= 192 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/pando-registra-4-437-inscripciones-empresariales-en-las-ultimas-dos-decadas-y-consolida-su-aporte-al-desarrollo-del-pais/
+[FULL_47_SEPREC] t= 107.3s | pag=112 | files= 192 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/santa-cruz-concentra-el-299-de-las-empresas-registradas-en-la-base-empresarial-del-seprec/
+[FULL_47_SEPREC] t= 108.0s | pag=113 | files= 192 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/page/1/
+[FULL_47_SEPREC] t= 109.2s | pag=113 | files= 192 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/bolivia-participo-en-la-xix-edicion-de-la-convencion-y-feria-internacional-informatica-2024-y-el-iv-encuentro-nacional-sobre-observatorios-de-ciencia-tecnologia-e-innovacion-en-la-habana-cuba/
+[FULL_47_SEPREC] t= 110.7s | pag=114 | files= 192 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/la-agetic-lleva-adelante-su-rendicion-publica-de-cuentas-inicial-2024/
+[FULL_47_SEPREC] t= 111.5s | pag=115 | files= 192 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/el-ministerio-de-la-presidencia-y-la-agetic-conmemoran-el-8m-con-una-nuevageneracion-de-ninas-y-adolescentes-en-la-ciencia-y-la-tecnologia/
+[FULL_47_SEPREC] t= 112.2s | pag=116 | files= 192 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/leyes-2/page/1/
+[FULL_47_SEPREC] t= 113.1s | pag=116 | files= 192 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/1/
+[FULL_47_SEPREC] t= 115.2s | pag=116 | files= 192 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/4/
+[FULL_47_SEPREC] t= 116.9s | pag=117 | files= 202 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/5/
+[FULL_47_SEPREC] t= 117.6s | pag=118 | files= 212 | data=  1 | cola=  39 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/page/1/
+[FULL_47_SEPREC] t= 118.6s | pag=118 | files= 212 | data=  1 | cola=  38 | prio=50 | https://www.seprec.gob.bo/index.php/tramite31/
+[FULL_47_SEPREC] t= 120.6s | pag=119 | files= 212 | data=  1 | cola=  37 | prio=50 | https://www.seprec.gob.bo/index.php/tramite32/
+[FULL_47_SEPREC] t= 121.5s | pag=120 | files= 212 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/tramite33/
+[FULL_47_SEPREC] t= 122.2s | pag=121 | files= 212 | data=  1 | cola=  35 | prio=50 | https://www.seprec.gob.bo/index.php/tramite34/
+[FULL_47_SEPREC] t= 123.6s | pag=122 | files= 212 | data=  1 | cola=  34 | prio=50 | https://www.seprec.gob.bo/index.php/tramite35/
+[FULL_47_SEPREC] t= 124.5s | pag=123 | files= 212 | data=  1 | cola=  33 | prio=50 | https://www.seprec.gob.bo/index.php/tramite36/
+[FULL_47_SEPREC] t= 125.3s | pag=124 | files= 212 | data=  1 | cola=  32 | prio=50 | https://www.seprec.gob.bo/index.php/tramite37/
+[FULL_47_SEPREC] t= 126.1s | pag=125 | files= 212 | data=  1 | cola=  31 | prio=50 | https://www.seprec.gob.bo/index.php/tramite38/
+[FULL_47_SEPREC] t= 126.8s | pag=126 | files= 212 | data=  1 | cola=  30 | prio=50 | https://www.seprec.gob.bo/index.php/tramite39/
+[FULL_47_SEPREC] t= 127.5s | pag=127 | files= 212 | data=  1 | cola=  29 | prio=50 | https://www.seprec.gob.bo/index.php/tramite40/
+[FULL_47_SEPREC] t= 128.4s | pag=128 | files= 212 | data=  1 | cola=  28 | prio=50 | https://www.seprec.gob.bo/index.php/tramite41/
+[FULL_47_SEPREC] t= 129.2s | pag=129 | files= 212 | data=  1 | cola=  27 | prio=50 | https://www.seprec.gob.bo/index.php/tramite42/
+[FULL_47_SEPREC] t= 130.0s | pag=130 | files= 212 | data=  1 | cola=  26 | prio=50 | https://www.seprec.gob.bo/index.php/tramite43/
+[FULL_47_SEPREC] t= 130.8s | pag=131 | files= 212 | data=  1 | cola=  25 | prio=50 | https://www.seprec.gob.bo/index.php/tramite44/
+[FULL_47_SEPREC] t= 131.5s | pag=132 | files= 212 | data=  1 | cola=  24 | prio=50 | https://www.seprec.gob.bo/index.php/tramite45/
+[FULL_47_SEPREC] t= 132.4s | pag=133 | files= 212 | data=  1 | cola=  23 | prio=50 | https://www.seprec.gob.bo/index.php/tramite46/
+[FULL_47_SEPREC] t= 133.0s | pag=134 | files= 212 | data=  1 | cola=  22 | prio=50 | https://www.seprec.gob.bo/index.php/tramite47/
+[FULL_47_SEPREC] t= 133.8s | pag=135 | files= 212 | data=  1 | cola=  21 | prio=50 | https://www.seprec.gob.bo/index.php/tramite48/
+[FULL_47_SEPREC] t= 134.7s | pag=136 | files= 212 | data=  1 | cola=  20 | prio=50 | https://www.seprec.gob.bo/index.php/tramite49/
+[FULL_47_SEPREC] t= 135.5s | pag=137 | files= 212 | data=  1 | cola=  19 | prio=50 | https://www.seprec.gob.bo/index.php/tramite50/
+[FULL_47_SEPREC] t= 136.4s | pag=138 | files= 212 | data=  1 | cola=  18 | prio=50 | https://www.seprec.gob.bo/index.php/tramite52/
+[FULL_47_SEPREC] t= 137.3s | pag=139 | files= 212 | data=  1 | cola=  17 | prio=50 | https://www.seprec.gob.bo/index.php/tramite54/
+[FULL_47_SEPREC] t= 138.2s | pag=140 | files= 212 | data=  1 | cola=  16 | prio=50 | https://www.seprec.gob.bo/index.php/tramite55/
+[FULL_47_SEPREC] t= 139.0s | pag=141 | files= 212 | data=  1 | cola=  15 | prio=50 | https://www.seprec.gob.bo/index.php/tramite56/
+[FULL_47_SEPREC] t= 139.9s | pag=142 | files= 212 | data=  1 | cola=  14 | prio=50 | https://www.seprec.gob.bo/index.php/tramite57/
+[FULL_47_SEPREC] t= 140.7s | pag=143 | files= 212 | data=  1 | cola=  13 | prio=50 | https://www.seprec.gob.bo/index.php/tramite58/
+[FULL_47_SEPREC] t= 141.6s | pag=144 | files= 212 | data=  1 | cola=  12 | prio=50 | https://www.seprec.gob.bo/index.php/tramite59/
+[FULL_47_SEPREC] t= 142.4s | pag=145 | files= 212 | data=  1 | cola=  11 | prio=50 | https://www.seprec.gob.bo/index.php/tramite60/
+[FULL_47_SEPREC] t= 143.3s | pag=146 | files= 212 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/
+[FULL_47_SEPREC] t= 144.0s | pag=147 | files= 212 | data=  1 | cola=   9 | prio=70 | https://www.seprec.gob.bo/index.php/formulario-de-contacto/
+[FULL_47_SEPREC] t= 144.9s | pag=148 | files= 212 | data=  1 | cola=   8 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/
+[FULL_47_SEPREC] t= 145.7s | pag=149 | files= 212 | data=  1 | cola=  19 | prio=10 | https://www.seprec.gob.bo/index.php/galeria/seprec-recibe-certificacion-iso-90012015-de-ibnorca/
+[FULL_47_SEPREC] t= 146.6s | pag=150 | files= 212 | data=  1 | cola=  18 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-de-videos/
+[FULL_47_SEPREC] t= 147.5s | pag=151 | files= 212 | data=  1 | cola=  17 | prio=70 | https://www.seprec.gob.bo/index.php/nomina-de-autoridades/
+[FULL_47_SEPREC] t= 148.4s | pag=152 | files= 213 | data=  1 | cola=  16 | prio=70 | https://www.seprec.gob.bo/index.php/campania/beneficiario-final/
+[FULL_47_SEPREC] t= 149.2s | pag=153 | files= 213 | data=  1 | cola=  15 | prio=70 | https://www.seprec.gob.bo/index.php/campania/renovaciones-2025/
+[FULL_47_SEPREC] t= 150.1s | pag=154 | files= 213 | data=  1 | cola=  14 | prio=70 | https://www.seprec.gob.bo/index.php/campania/renovaciones-2024/
+[FULL_47_SEPREC] t= 150.9s | pag=155 | files= 213 | data=  1 | cola=  13 | prio=70 | https://www.seprec.gob.bo/index.php/campania/lorem-campana-3/
+[FULL_47_SEPREC] t= 151.6s | pag=156 | files= 213 | data=  1 | cola=  12 | prio=70 | https://www.seprec.gob.bo/index.php/campania/lorem-campana-2/
+[FULL_47_SEPREC] t= 152.4s | pag=157 | files= 213 | data=  1 | cola=  11 | prio=70 | https://www.seprec.gob.bo/index.php/campania/campana-covid/
+[FULL_47_SEPREC] t= 153.2s | pag=158 | files= 213 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-y-el-bid-en-reunion-internacional/
+[FULL_47_SEPREC] t= 154.1s | pag=159 | files= 213 | data=  1 | cola=   9 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-estuvo-presente-en-la-feria-universitaria-de-la-upds-en-tarija-promoviendo-la-formalizacion-empresarial-y-el-emprendimiento/
+[FULL_47_SEPREC] t= 155.0s | pag=160 | files= 213 | data=  1 | cola=   8 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-fortalece-la-formacion-de-futuros-profesionales/
+[FULL_47_SEPREC] t= 155.9s | pag=161 | files= 213 | data=  1 | cola=   7 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-fortalece-el-dialogo-con-el-sector-empresarial-se-sostuvo-una-reunion-de-coordinacion-con-miembros-de-cabolcorp-para-analizar-propuestas-orientadas-al-mejoramiento-de-los-procedimientos-regis/
+[FULL_47_SEPREC] t= 156.7s | pag=162 | files= 213 | data=  1 | cola=   6 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-y-cablock-impulsan-la-innovacion-tecnologica/
+[FULL_47_SEPREC] t= 157.7s | pag=163 | files= 213 | data=  1 | cola=   5 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-presente-en-la-feria-interinstitucional-multiservicios-en-trinidad/
+[FULL_47_SEPREC] t= 158.5s | pag=164 | files= 213 | data=  1 | cola=   4 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-y-ministerio-de-trabajo-avanzan-en-acciones-de-interoperabilidad-para-optimizar-procesos-modernizar-la-atencion-y-brindar-servicios-mas-agiles-y-eficientes-a-la-ciudadania-y-al-sector-empresar/
+[FULL_47_SEPREC] t= 159.2s | pag=165 | files= 213 | data=  1 | cola=   3 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-presente-en-el-seminario-como-crear-una-empresa-en-bolivia/
+[FULL_47_SEPREC] t= 160.0s | pag=166 | files= 213 | data=  1 | cola=   2 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-aemp-uif-caulp-impulsan-el-primer-ciclo-de-capacitaciones-sobre-beneficiario-final-en-el-marco-de-las-recomendaciones-del-gafi/
+[FULL_47_SEPREC] t= 160.7s | pag=167 | files= 213 | data=  1 | cola=   1 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/page/2/
+[FULL_47_SEPREC] t= 161.4s | pag=168 | files= 213 | data=  1 | cola=  11 | prio=10 | https://www.seprec.gob.bo/index.php/galeria/recepcion-de-datos-fundempresa/
+[FULL_47_SEPREC] t= 162.2s | pag=169 | files= 213 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/page/3/
+[FULL_47_SEPREC] t= 162.9s | pag=170 | files= 213 | data=  1 | cola=  11 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/alianzas-que-impulsan-el-desarrollo-empresarial-trabajamos-junto-al-colegio-de-contadores-para-fortalecer-la-formalizacion-y-brindar-mayor-seguridad-juridica-empresarial-en-el-pais/
+[FULL_47_SEPREC] t= 163.8s | pag=171 | files= 213 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/bolivia-produce-seprec-presente-en-la-inauguracion-de-la-feria-bolivia-produce-fomentando-el-emprendimiento-y-el-desarrollo-productivo-del-pais/
+[FULL_47_SEPREC] t= 164.7s | pag=172 | files= 213 | data=  1 | cola=   9 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-dirnoplu-impulsando-la-modernizacion-institucional/
+[FULL_47_SEPREC] t= 165.6s | pag=173 | files= 213 | data=  1 | cola=   8 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-recibe-el-sello-de-inclusividad-por-promover-la-insercion-laboral-de-tutores-y-de-personas-con-discapacidad/
+[FULL_47_SEPREC] t= 166.5s | pag=174 | files= 213 | data=  1 | cola=   7 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/servicio-social-comunitario-descolonizador-y-despatriarcalizador-en-la-muela-del-diablo-comunidad-de-chiaraque/
+[FULL_47_SEPREC] t= 167.3s | pag=175 | files= 213 | data=  1 | cola=   6 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/rendicion-de-cuentas-inicial-2024/
+[FULL_47_SEPREC] t= 168.2s | pag=176 | files= 213 | data=  1 | cola=   5 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/rendicion-de-cuentas-inicial-2023/
+[FULL_47_SEPREC] t= 169.0s | pag=177 | files= 213 | data=  1 | cola=   4 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-servidores-participaran-en-el-censo-nacional-2024/
+[FULL_47_SEPREC] t= 170.8s | pag=178 | files= 213 | data=  1 | cola=   3 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/inicio-de-actividades/
+[FULL_47_SEPREC] t= 171.7s | pag=179 | files= 213 | data=  1 | cola=   2 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/page/1/
+[FULL_47_SEPREC] t= 173.0s | pag=179 | files= 213 | data=  1 | cola=   1 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/galeria-congreso-agetic-2024/
+[FULL_47_SEPREC] t= 174.7s | pag=180 | files= 213 | data=  1 | cola=   0 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/8171/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_47_seprec
+Páginas visitadas:   181
+Archivos encontrados:  213
+Datasets web:         1
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duración:             175.53 s
+
+Formatos:
+  - PDF    : 213
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_47_seprec.json
+
+Trazabilidad:
+  Ejecución: 76
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

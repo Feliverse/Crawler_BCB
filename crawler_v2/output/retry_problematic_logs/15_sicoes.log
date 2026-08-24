@@ -1,0 +1,48 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Sistema de Contrataciones Estatales
+URL configurada: https://www.sicoes.gob.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://www.sicoes.gob.bo/
+  Utilizada: https://www.sicoes.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.sicoes.gob.bo/
+
+URL de trabajo: https://www.sicoes.gob.bo/
+Seeds: 1
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_15_SICOES] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[RETRY_15_SICOES] t=   3.3s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.sicoes.gob.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_15_sicoes
+P�ginas visitadas:   1
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              0
+Motivo de parada:     frontier_exhausted
+Duraci�n:             4.01 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_15_sicoes.json
+
+Trazabilidad:
+  Ejecuci�n: 110
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

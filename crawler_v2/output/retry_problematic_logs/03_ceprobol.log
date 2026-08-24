@@ -1,0 +1,314 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Centro de Promoci�n Bolivia
+URL configurada: https://produccion.gob.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://produccion.gob.bo/
+  Utilizada: https://produccion.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://produccion.gob.bo/
+
+URL de trabajo: https://produccion.gob.bo/
+Seeds: 1
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_03_CEPROBOL] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=1
+[RETRY_03_CEPROBOL] t=   6.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://produccion.gob.bo/
+[RETRY_03_CEPROBOL] DATASETS=1 | exportable_data_page | https://produccion.gob.bo/
+[RETRY_03_CEPROBOL] t=   9.7s | pag=  1 | files=   1 | data=  1 | cola= 474 | prio=10 | https://produccion.gob.bo/resena-historica/
+[RETRY_03_CEPROBOL] t=  10.0s | pag=  2 | files=   1 | data=  1 | cola= 473 | prio=10 | https://produccion.gob.bo/category/sin-categoria/
+[RETRY_03_CEPROBOL] DATASETS=2 | exportable_data_page | https://produccion.gob.bo/category/sin-categoria/
+[RETRY_03_CEPROBOL] t=  12.7s | pag=  3 | files=   1 | data=  2 | cola= 472 | prio=10 | https://produccion.gob.bo/boletin/
+[RETRY_03_CEPROBOL] t=  13.0s | pag=  4 | files=   7 | data=  2 | cola= 477 | prio=10 | https://produccion.gob.bo/datos/
+[RETRY_03_CEPROBOL] DATASETS=3 | data_html_table | https://produccion.gob.bo/datos/
+[RETRY_03_CEPROBOL] t=  13.5s | pag=  5 | files=   7 | data=  3 | cola= 498 | prio=10 | https://produccion.gob.bo/viaje/
+[RETRY_03_CEPROBOL] t=  14.0s | pag=  6 | files=  13 | data=  3 | cola= 497 | prio=10 | https://produccion.gob.bo/nota_prensa/rueda-de-negocios-conecta-productiva-abre-mercado-a-la-agricultura-familiar-y-supera-los-bs-470-mil-en-intenciones-de-negocio/
+[RETRY_03_CEPROBOL] t=  14.6s | pag=  7 | files=  13 | data=  3 | cola= 496 | prio=10 | https://produccion.gob.bo/nota_prensa/el-ministro-oscar-mario-justiniano-presenta-en-el-foro-de-cainco-las-perspectivas-economicas-y-ratifica-la-importancia-de-la-alianza-publico-privada/
+[RETRY_03_CEPROBOL] t=  15.2s | pag=  8 | files=  13 | data=  3 | cola= 495 | prio=10 | https://produccion.gob.bo/nota_prensa/el-presidente-rodrigo-paz-impulsa-historica-integracion-vial-y-aerea-entre-la-chiquitania-y-brasil-en-el-aniversario-de-san-ignacio-de-velasco/
+[RETRY_03_CEPROBOL] t=  15.5s | pag=  9 | files=  13 | data=  3 | cola= 494 | prio=10 | https://produccion.gob.bo/nota_prensa/feria-la-caserita-organizada-por-el-ministerio-de-desarrollo-productivo-impulsa-la-reactivacion-economica-de-pequenos-productores-en-la-paz/
+[RETRY_03_CEPROBOL] t=  15.9s | pag= 10 | files=  13 | data=  3 | cola= 493 | prio=10 | https://produccion.gob.bo/nota_prensa/bolivia-cierra-la-lii-reunion-del-consejo-agropecuario-del-sur-con-un-balance-exitoso-y-pone-la-mirada-en-mercados-globales/
+[RETRY_03_CEPROBOL] t=  16.3s | pag= 11 | files=  13 | data=  3 | cola= 492 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-y-codepcoca-la-paz-instalan-mesas-tecnicas-para-atender-demandas-historicas-del-sector/
+[RETRY_03_CEPROBOL] t=  16.8s | pag= 12 | files=  13 | data=  3 | cola= 491 | prio=10 | https://produccion.gob.bo/nota_prensa/bolivia-presenta-informe-de-gestion-y-transfiere-la-presidencia-pro-tempore-de-la-rada-a-brasil/
+[RETRY_03_CEPROBOL] t=  17.4s | pag= 13 | files=  13 | data=  3 | cola= 490 | prio=10 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-gestiona-recursos-para-fortalecer-el-sector-camelido-y-proyecta-a-san-andres-de-machaca-hacia-mercados-internacionales/
+[RETRY_03_CEPROBOL] t=  17.9s | pag= 14 | files=  13 | data=  3 | cola= 489 | prio=10 | https://produccion.gob.bo/nota_prensa/historica-inversion-en-tarija-presidente-rodrigo-paz-promulga-ley-para-la-construccion-de-la-planta-de-tratamiento-de-aguas-residuales/
+[RETRY_03_CEPROBOL] t=  18.2s | pag= 15 | files=  13 | data=  3 | cola= 488 | prio=10 | https://produccion.gob.bo/nota_prensa/existe-suficiente-produccion-de-carne-de-res-para-garantizar-el-mercado-interno-y-los-compromisos-de-exportacion/
+[RETRY_03_CEPROBOL] DATASETS=4 | exportable_data_page | https://produccion.gob.bo/nota_prensa/existe-suficiente-produccion-de-carne-de-res-para-garantizar-el-mercado-interno-y-los-compromisos-de-exportacion/
+[RETRY_03_CEPROBOL] t=  18.8s | pag= 16 | files=  13 | data=  4 | cola= 487 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-y-comite-multisectorial-dialogan-sobre-las-medidas-para-la-reactivacion-economica-del-pais/
+[RETRY_03_CEPROBOL] t=  19.4s | pag= 17 | files=  13 | data=  4 | cola= 486 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-presentara-este-martes-un-informe-sobre-presunto-esquema-millonario-de-corrupcion-en-emapa/
+[RETRY_03_CEPROBOL] t=  19.9s | pag= 18 | files=  13 | data=  4 | cola= 485 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-entrega-125-activos-productivos-a-mujeres-emprendedoras-en-santa-cruz-para-fortalecer-su-independencia-economica/
+[RETRY_03_CEPROBOL] t=  20.5s | pag= 19 | files=  13 | data=  4 | cola= 484 | prio=10 | https://produccion.gob.bo/nota_prensa/en-bolivia-hay-mas-de-394-mil-empresas-registradas-una-cifra-historica-resultado-de-las-medidas-de-apoyo-al-sector-privado-y-productivo/
+[RETRY_03_CEPROBOL] t=  21.1s | pag= 20 | files=  13 | data=  4 | cola= 483 | prio=10 | https://produccion.gob.bo/nota_prensa/la-primera-rueda-de-negocios-artesanal-cierra-con-una-historica-intencion-de-compras-de-bs-16-millones-en-sucre/
+[RETRY_03_CEPROBOL] t=  21.7s | pag= 21 | files=  13 | data=  4 | cola= 482 | prio=10 | https://produccion.gob.bo/nota_prensa/1500-nuevas-unidades-economicas-se-inscriben-en-bolivia-durante-julio-un-mes-de-crecimiento-empresarial/
+[RETRY_03_CEPROBOL] t=  22.1s | pag= 22 | files=  13 | data=  4 | cola= 481 | prio=10 | https://produccion.gob.bo/nota_prensa/presidente-arce-el-legado-mas-poderoso-que-dejamos-es-el-inicio-de-la-industrializacion-como-camino-irreversible-hacia-nuestra-independencia-economica/
+[RETRY_03_CEPROBOL] t=  22.5s | pag= 23 | files=  13 | data=  4 | cola= 480 | prio=10 | https://produccion.gob.bo/nota_prensa/insumos-bolivia-presente-en-el-lanzamiento-del-catalogo-de-oferta-exportable-de-las-empresas-publicas-impulsando-la-industrializacion-en-los-mercados-internacionales/
+[RETRY_03_CEPROBOL] DATASETS=5 | exportable_data_page | https://produccion.gob.bo/nota_prensa/insumos-bolivia-presente-en-el-lanzamiento-del-catalogo-de-oferta-exportable-de-las-empresas-publicas-impulsando-la-industrializacion-en-los-mercados-internacionales/
+[RETRY_03_CEPROBOL] t=  22.8s | pag= 24 | files=  13 | data=  5 | cola= 479 | prio=10 | https://produccion.gob.bo/nota_prensa/bolivia-se-abre-al-turismo-historico-al-conmemorar-los-90-anos-de-la-firma-de-la-paz-del-chaco/
+[RETRY_03_CEPROBOL] t=  23.1s | pag= 25 | files=  13 | data=  5 | cola= 478 | prio=10 | https://produccion.gob.bo/nota_prensa/ministro-mamani-asiste-a-peticion-de-informe-oral-pero-la-comision-de-economia-plural-produccion-e-industria-de-diputados-suspende-la-sesion-por-falta-de-quorum/
+[RETRY_03_CEPROBOL] t=  23.6s | pag= 26 | files=  13 | data=  5 | cola= 477 | prio=10 | https://produccion.gob.bo/nota_prensa/con-los-puentes-aereos-el-gobierno-impulsa-el-abastecimiento-de-mercados-y-la-rebaja-de-precios-de-productos-de-la-canasta-familiar/
+[RETRY_03_CEPROBOL] t=  24.1s | pag= 27 | files=  13 | data=  5 | cola= 476 | prio=10 | https://produccion.gob.bo/nota_prensa/llegan-a-la-paz-268-mil-kilos-de-carne-de-pollo-para-abastecer-el-mercado-interno-a-precio-justo/
+[RETRY_03_CEPROBOL] t=  24.5s | pag= 28 | files=  13 | data=  5 | cola= 475 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-y-sector-privado-acuerdan-garantizar-carne-a-precio-justo-y-apertura-controlada-de-exportacion-sin-afectar-el-mercado-interno/
+[RETRY_03_CEPROBOL] DATASETS=6 | exportable_data_page | https://produccion.gob.bo/nota_prensa/gobierno-y-sector-privado-acuerdan-garantizar-carne-a-precio-justo-y-apertura-controlada-de-exportacion-sin-afectar-el-mercado-interno/
+[RETRY_03_CEPROBOL] t=  25.0s | pag= 29 | files=  13 | data=  6 | cola= 474 | prio=10 | https://produccion.gob.bo/nota_prensa/industrializacion-avanza-10-nuevas-plantas-apoyo-a-mujeres-productoras-impulso-a-la-produccion-nacional-y-mas-de-400-mil-unidades-economicas-beneficiadas-hasta-2025/
+[RETRY_03_CEPROBOL] t=  25.5s | pag= 30 | files=  13 | data=  6 | cola= 473 | prio=10 | https://produccion.gob.bo/nota_prensa/son-29-supermercados-tiendas-y-comercios-privados-que-se-suman-a-la-iniciativa-consume-lo-nuestro/
+[RETRY_03_CEPROBOL] t=  25.9s | pag= 31 | files=  13 | data=  6 | cola= 472 | prio=10 | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-del-huevo-semana-22-2025/
+[RETRY_03_CEPROBOL] DATASETS=7 | exportable_data_page | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-del-huevo-semana-22-2025/
+[RETRY_03_CEPROBOL] t=  28.5s | pag= 32 | files=  13 | data=  7 | cola= 471 | prio=10 | https://produccion.gob.bo/boletin/dinamica-del-sector-avicola-presentacion-informativa-iv-2025/
+[RETRY_03_CEPROBOL] DATASETS=8 | exportable_data_page | https://produccion.gob.bo/boletin/dinamica-del-sector-avicola-presentacion-informativa-iv-2025/
+[RETRY_03_CEPROBOL] t=  30.7s | pag= 33 | files=  13 | data=  8 | cola= 470 | prio=10 | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-del-huevo-semana-19-2025/
+[RETRY_03_CEPROBOL] DATASETS=9 | exportable_data_page | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-del-huevo-semana-19-2025/
+[RETRY_03_CEPROBOL] t=  32.9s | pag= 34 | files=  13 | data=  9 | cola= 469 | prio=10 | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-de-la-harina-de-trigo/
+[RETRY_03_CEPROBOL] DATASETS=10 | exportable_data_page | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-de-la-harina-de-trigo/
+[RETRY_03_CEPROBOL] t=  35.2s | pag= 35 | files=  13 | data= 10 | cola= 468 | prio=10 | https://produccion.gob.bo/boletin/comportamiento-de-la-cadena-productiva-del-huevo/
+[RETRY_03_CEPROBOL] t=  37.4s | pag= 36 | files=  13 | data= 11 | cola= 467 | prio=10 | https://produccion.gob.bo/boletin/complejo-productivo-de-la-cana-de-azucar/
+[RETRY_03_CEPROBOL] t=  40.0s | pag= 37 | files=  13 | data= 12 | cola= 466 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-importaciones/
+[RETRY_03_CEPROBOL] t=  42.4s | pag= 38 | files=  13 | data= 13 | cola= 465 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-exportaciones/
+[RETRY_03_CEPROBOL] t=  44.8s | pag= 39 | files=  13 | data= 14 | cola= 464 | prio=10 | https://produccion.gob.bo/datos/informacion-productiva-pecuaria/
+[RETRY_03_CEPROBOL] t=  47.1s | pag= 40 | files=  13 | data= 15 | cola= 463 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-registro-de-comercio/
+[RETRY_03_CEPROBOL] t=  49.6s | pag= 41 | files=  13 | data= 16 | cola= 462 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-medianas-y-grandes/
+[RETRY_03_CEPROBOL] t=  52.0s | pag= 42 | files=  13 | data= 17 | cola= 461 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-mypes/
+[RETRY_03_CEPROBOL] t=  54.3s | pag= 43 | files=  13 | data= 18 | cola= 460 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-estimacion-ues/
+[RETRY_03_CEPROBOL] t=  56.8s | pag= 44 | files=  13 | data= 19 | cola= 459 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-mapeo-de-unidades-economicas/
+[RETRY_03_CEPROBOL] t=  59.2s | pag= 45 | files=  13 | data= 20 | cola= 458 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-volumen/
+[RETRY_03_CEPROBOL] t=  61.8s | pag= 46 | files=  13 | data= 21 | cola= 457 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-valor/
+[RETRY_03_CEPROBOL] t=  64.5s | pag= 47 | files=  13 | data= 22 | cola= 456 | prio=10 | https://produccion.gob.bo/datos/page/2/
+[RETRY_03_CEPROBOL] t=  64.8s | pag= 48 | files=  13 | data= 23 | cola= 474 | prio=10 | https://produccion.gob.bo/datos/page/3/
+[RETRY_03_CEPROBOL] t=  65.3s | pag= 49 | files=  13 | data= 24 | cola= 492 | prio=10 | https://produccion.gob.bo/datos/page/4/
+[RETRY_03_CEPROBOL] DATASETS=25 | data_html_table | https://produccion.gob.bo/datos/page/4/
+[RETRY_03_CEPROBOL] t=  65.7s | pag= 50 | files=  13 | data= 25 | cola= 494 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-importaciones-ranking-productos-mas-importados-de-bolivia/
+[RETRY_03_CEPROBOL] t=  68.1s | pag= 51 | files=  13 | data= 26 | cola= 493 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-importaciones-siiu-rev-3/
+[RETRY_03_CEPROBOL] t=  70.4s | pag= 52 | files=  13 | data= 27 | cola= 492 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-importaciones-grandes-categorias/
+[RETRY_03_CEPROBOL] t=  72.8s | pag= 53 | files=  13 | data= 28 | cola= 491 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-importaciones-cuode/
+[RETRY_03_CEPROBOL] t=  75.3s | pag= 54 | files=  13 | data= 29 | cola= 490 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-exportacion-ranking-productos-mas-exportados-de-bolivia/
+[RETRY_03_CEPROBOL] t=  77.5s | pag= 55 | files=  13 | data= 30 | cola= 489 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-exportacion-clasificacion-industrial-internacional-uniforme/
+[RETRY_03_CEPROBOL] t=  79.9s | pag= 56 | files=  13 | data= 31 | cola= 488 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-exportacion-grandes-categorias/
+[RETRY_03_CEPROBOL] t=  82.9s | pag= 57 | files=  13 | data= 32 | cola= 487 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-exportacion-actividad-economica/
+[RETRY_03_CEPROBOL] t=  85.5s | pag= 58 | files=  13 | data= 33 | cola= 486 | prio=10 | https://produccion.gob.bo/datos/censos-y-encuestas-de-interes-productivo-encuestas-ena-2008/
+[RETRY_03_CEPROBOL] t=  88.0s | pag= 59 | files=  13 | data= 34 | cola= 485 | prio=10 | https://produccion.gob.bo/datos/censos-y-encuestas-de-interes-productivo-encuestas-bd-enc-hogares/
+[RETRY_03_CEPROBOL] t=  90.3s | pag= 60 | files=  13 | data= 35 | cola= 484 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/descargas_encuestas.php
+[RETRY_03_CEPROBOL] t=  97.1s | pag= 61 | files=  54 | data= 35 | cola= 493 | prio=10 | https://produccion.gob.bo/datos/censos-y-encuestas-de-interes-productivo-encuestas-eaim/
+[RETRY_03_CEPROBOL] t=  99.7s | pag= 62 | files=  54 | data= 36 | cola= 492 | prio=10 | https://produccion.gob.bo/datos/censos-y-encuestas-de-interes-productivo-encuestas-mypes-2007/
+[RETRY_03_CEPROBOL] t= 101.9s | pag= 63 | files=  54 | data= 37 | cola= 491 | prio=10 | https://produccion.gob.bo/datos/informacion-productiva-complejos-productivos/
+[RETRY_03_CEPROBOL] t= 104.2s | pag= 64 | files=  54 | data= 38 | cola= 490 | prio=10 | https://produccion.gob.bo/datos/informacion-productiva-produccion-agricola-informacion-a-nivel-municipal/
+[RETRY_03_CEPROBOL] t= 106.6s | pag= 65 | files=  54 | data= 39 | cola= 489 | prio=10 | https://produccion.gob.bo/datos/informacion-productiva-produccion-agricola-produccion-anual/
+[RETRY_03_CEPROBOL] t= 108.9s | pag= 66 | files=  54 | data= 40 | cola= 488 | prio=10 | https://produccion.gob.bo/datos/precios-nacionales-e-internacionales-tipos-de-cambio/
+[RETRY_03_CEPROBOL] t= 111.7s | pag= 67 | files=  54 | data= 41 | cola= 487 | prio=10 | https://produccion.gob.bo/datos/precios-nacionales-e-internacionales-precios-internacionales/
+[RETRY_03_CEPROBOL] t= 114.1s | pag= 68 | files=  54 | data= 42 | cola= 486 | prio=10 | https://produccion.gob.bo/datos/precios-nacionales-e-internacionales-precios-mensuales-al-consumidor/
+[RETRY_03_CEPROBOL] t= 116.2s | pag= 69 | files=  54 | data= 43 | cola= 485 | prio=10 | https://produccion.gob.bo/datos/precios-nacionales-e-internacionales-precios-diarios-mayoristas/
+[RETRY_03_CEPROBOL] t= 119.1s | pag= 70 | files=  54 | data= 44 | cola= 484 | prio=10 | https://produccion.gob.bo/datos/actividad-economica-indice-de-precios-al-consumidor-ipc/
+[RETRY_03_CEPROBOL] t= 121.5s | pag= 71 | files=  54 | data= 45 | cola= 483 | prio=10 | https://produccion.gob.bo/datos/actividad-economica-empleos-y-salarios/
+[RETRY_03_CEPROBOL] t= 123.8s | pag= 72 | files=  54 | data= 46 | cola= 482 | prio=10 | https://produccion.gob.bo/datos/poblacion-privada-de-libertad-a-nivel-nacional-agosto-2025/
+[RETRY_03_CEPROBOL] t= 126.2s | pag= 73 | files=  54 | data= 47 | cola= 481 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/boletinRegistroComercio.php
+[RETRY_03_CEPROBOL] t= 126.8s | pag= 74 | files=  54 | data= 47 | cola= 480 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/boletines.php
+[RETRY_03_CEPROBOL] t= 127.3s | pag= 75 | files= 188 | data= 47 | cola= 479 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/boletines2.php
+[RETRY_03_CEPROBOL] t= 127.5s | pag= 76 | files= 287 | data= 47 | cola= 479 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/boletinesprecios.php
+[RETRY_03_CEPROBOL] t= 127.8s | pag= 77 | files= 361 | data= 48 | cola= 478 | prio=10 | https://siip.produccion.gob.bo/noticias/files/2021-3ae06-presentacion-Tarija-Boletines.pptx
+[RETRY_03_CEPROBOL] t= 128.0s | pag= 77 | files= 361 | data= 48 | cola= 477 | prio=50 | https://produccion.gob.bo/institucional/
+[RETRY_03_CEPROBOL] t= 128.6s | pag= 78 | files= 361 | data= 48 | cola= 476 | prio=50 | https://produccion.gob.bo/41-2/
+[RETRY_03_CEPROBOL] t= 129.1s | pag= 79 | files= 361 | data= 48 | cola= 475 | prio=50 | https://produccion.gob.bo/objetivos-institucionales/
+[RETRY_03_CEPROBOL] t= 129.6s | pag= 80 | files= 361 | data= 48 | cola= 474 | prio=50 | https://produccion.gob.bo/memorias-institucionales/
+[RETRY_03_CEPROBOL] t= 130.0s | pag= 81 | files= 371 | data= 48 | cola= 483 | prio=50 | https://produccion.gob.bo/?post_type=pei
+[RETRY_03_CEPROBOL] t= 130.5s | pag= 82 | files= 375 | data= 48 | cola= 486 | prio=50 | https://produccion.gob.bo/plan-operativo-anual/
+[RETRY_03_CEPROBOL] t= 130.9s | pag= 83 | files= 375 | data= 48 | cola= 485 | prio=50 | https://produccion.gob.bo/?post_type=presupuesto
+[RETRY_03_CEPROBOL] t= 131.3s | pag= 84 | files= 375 | data= 48 | cola= 485 | prio=50 | https://produccion.gob.bo/programas-proyectos-inversion/
+[RETRY_03_CEPROBOL] t= 131.7s | pag= 85 | files= 376 | data= 48 | cola= 484 | prio=50 | https://produccion.gob.bo/fuentes-financiamiento/
+[RETRY_03_CEPROBOL] t= 132.2s | pag= 86 | files= 377 | data= 48 | cola= 484 | prio=50 | https://produccion.gob.bo/auditorias/
+[RETRY_03_CEPROBOL] t= 132.8s | pag= 87 | files= 387 | data= 48 | cola= 496 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-n-015-2026-de-03-de-julio-de-2026/
+[RETRY_03_CEPROBOL] t= 133.2s | pag= 88 | files= 387 | data= 48 | cola= 495 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-no-014-2026-de-29-de-junio-de-2026/
+[RETRY_03_CEPROBOL] t= 133.6s | pag= 89 | files= 387 | data= 48 | cola= 494 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-no-012-2026-de-26-de-junio-de-2026/
+[RETRY_03_CEPROBOL] t= 134.3s | pag= 90 | files= 387 | data= 48 | cola= 493 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-no-01-1-2026-de-26-de-junio-de-2026/
+[RETRY_03_CEPROBOL] t= 134.5s | pag= 91 | files= 387 | data= 48 | cola= 492 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-no-010-2026-de-26-de-junio-de-2026/
+[RETRY_03_CEPROBOL] t= 135.0s | pag= 92 | files= 387 | data= 48 | cola= 491 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-n-009-2026-de-29-de-mayo-de-2026/
+[RETRY_03_CEPROBOL] t= 135.5s | pag= 93 | files= 387 | data= 48 | cola= 490 | prio=10 | https://produccion.gob.bo/auditorias/mdprya-uai-inf-n-007-2026-de-21-de-mayo-de-2026/
+[RETRY_03_CEPROBOL] t= 135.8s | pag= 94 | files= 387 | data= 48 | cola= 489 | prio=50 | https://produccion.gob.bo/rendicion-publica-de-cuentas/
+[RETRY_03_CEPROBOL] t= 136.3s | pag= 95 | files= 397 | data= 48 | cola= 501 | prio=50 | https://produccion.gob.bo/formulario-de-denuncias/
+[RETRY_03_CEPROBOL] t= 136.9s | pag= 96 | files= 397 | data= 48 | cola= 500 | prio=50 | https://produccion.gob.bo/formulario-acceso-de-la-informacion/
+[RETRY_03_CEPROBOL] t= 137.4s | pag= 97 | files= 397 | data= 48 | cola= 499 | prio=50 | https://produccion.gob.bo/tramites-y-servicios/
+[RETRY_03_CEPROBOL] t= 137.8s | pag= 98 | files= 397 | data= 48 | cola= 498 | prio=50 | https://produccion.gob.bo/tramite/
+[RETRY_03_CEPROBOL] t= 138.3s | pag= 99 | files= 397 | data= 48 | cola= 497 | prio=50 | https://produccion.gob.bo/comunicacion/
+[RETRY_03_CEPROBOL] t= 138.6s | pag=100 | files= 397 | data= 48 | cola= 496 | prio=50 | https://produccion.gob.bo/comunicados/
+[RETRY_03_CEPROBOL] t= 139.1s | pag=101 | files= 399 | data= 48 | cola= 505 | prio=50 | https://produccion.gob.bo/nota_prensa/
+[RETRY_03_CEPROBOL] t= 139.9s | pag=102 | files= 399 | data= 48 | cola= 507 | prio=50 | https://produccion.gob.bo/articulos/
+[RETRY_03_CEPROBOL] t= 140.3s | pag=103 | files= 400 | data= 48 | cola= 506 | prio=50 | https://produccion.gob.bo/revista/
+[RETRY_03_CEPROBOL] t= 140.9s | pag=104 | files= 413 | data= 48 | cola= 510 | prio=50 | https://produccion.gob.bo/campania/
+[RETRY_03_CEPROBOL] t= 141.3s | pag=105 | files= 413 | data= 48 | cola= 513 | prio=50 | https://dgaj.produccion.gob.bo/
+[RETRY_03_CEPROBOL] t= 142.5s | pag=106 | files= 626 | data= 48 | cola= 513 | prio=50 | https://produccion.gob.bo/normativa-inter/
+[RETRY_03_CEPROBOL] t= 143.4s | pag=107 | files= 633 | data= 48 | cola= 520 | prio=50 | https://produccion.gob.bo/organigrama/
+[RETRY_03_CEPROBOL] t= 143.9s | pag=108 | files= 634 | data= 48 | cola= 519 | prio=50 | https://produccion.gob.bo/escala_salarial/
+[RETRY_03_CEPROBOL] t= 144.3s | pag=109 | files= 635 | data= 48 | cola= 518 | prio=50 | https://produccion.gob.bo/manual_organizacion/
+[RETRY_03_CEPROBOL] t= 144.8s | pag=110 | files= 635 | data= 48 | cola= 517 | prio=50 | https://produccion.gob.bo/empleo/
+[RETRY_03_CEPROBOL] t= 145.3s | pag=111 | files= 635 | data= 48 | cola= 519 | prio=50 | https://produccion.gob.bo/poa_individual/
+[RETRY_03_CEPROBOL] t= 145.6s | pag=112 | files= 636 | data= 48 | cola= 519 | prio=50 | https://produccion.gob.bo/procedimientos/
+[RETRY_03_CEPROBOL] t= 146.1s | pag=113 | files= 636 | data= 48 | cola= 518 | prio=50 | https://produccion.gob.bo/terminos-de-referencia/
+[RETRY_03_CEPROBOL] t= 146.8s | pag=114 | files= 637 | data= 48 | cola= 518 | prio=50 | https://produccion.gob.bo/convocatoria/
+[RETRY_03_CEPROBOL] t= 147.7s | pag=115 | files= 637 | data= 48 | cola= 517 | prio=50 | https://produccion.gob.bo/proveedores/
+[RETRY_03_CEPROBOL] t= 147.9s | pag=116 | files= 638 | data= 48 | cola= 516 | prio=50 | https://produccion.gob.bo/direccion-2/
+[RETRY_03_CEPROBOL] t= 148.3s | pag=117 | files= 638 | data= 48 | cola= 515 | prio=50 | https://produccion.gob.bo/viceministerio/
+[RETRY_03_CEPROBOL] t= 148.8s | pag=118 | files= 638 | data= 48 | cola= 519 | prio=50 | https://produccion.gob.bo/entidades/
+[RETRY_03_CEPROBOL] t= 149.4s | pag=119 | files= 638 | data= 48 | cola= 526 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-verifica-en-territorio-afectaciones-por-nevadas-en-comunidades-de-cocapata/
+[RETRY_03_CEPROBOL] t= 149.9s | pag=120 | files= 638 | data= 48 | cola= 525 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-impulsa-la-rueda-de-negocios-conecta-productiva-en-la-paz-para-fortalecer-a-la-agricultura-familiar/
+[RETRY_03_CEPROBOL] t= 150.3s | pag=121 | files= 638 | data= 48 | cola= 524 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-impulsa-la-rueda-de-negocios-conecta-productiva-para-articular-a-agricultores-con-empresas-gastronomicas/
+[RETRY_03_CEPROBOL] t= 150.7s | pag=122 | files= 638 | data= 48 | cola= 523 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-y-corea-del-sur-consolidan-alianza-para-la-ejecucion-de-proyectos-de-mitigacion-climatica-y-gestion-de-residuos/
+[RETRY_03_CEPROBOL] t= 151.1s | pag=123 | files= 638 | data= 48 | cola= 522 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-fortalece-alianzas-en-el-mercosur-en-favor-de-la-agricultura-familiar/
+[RETRY_03_CEPROBOL] t= 151.5s | pag=124 | files= 638 | data= 48 | cola= 521 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-la-empresa-alere-s-r-l-firman-convenio-para-impulsar-la-produccion-de-diesel-local-para-el-agro-cruceno/
+[RETRY_03_CEPROBOL] t= 152.0s | pag=125 | files= 638 | data= 48 | cola= 520 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-koica-y-onu-mujeres-entregan-mas-de-bs-18-millones-en-equipos-a-emprendedoras-crucenas-para-fortalecer-sus-unidades-productivas/
+[RETRY_03_CEPROBOL] t= 152.6s | pag=126 | files= 638 | data= 48 | cola= 519 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministro-oscar-mario-justiniano-coordina-agenda-de-trabajo-con-asambleistas-nacionales-para-potenciar-la-produccion-en-las-regiones/
+[RETRY_03_CEPROBOL] t= 153.0s | pag=127 | files= 638 | data= 48 | cola= 518 | prio=50 | https://produccion.gob.bo/nota_prensa/epsas-descarta-alerta-roja-y-garantiza-agua-hasta-la-proxima-epoca-de-lluvias/
+[RETRY_03_CEPROBOL] t= 153.3s | pag=128 | files= 638 | data= 48 | cola= 517 | prio=50 | https://produccion.gob.bo/nota_prensa/senapi-clausura-su-stand-y-concurso-en-la-feria-internacional-del-libro-con-mas-de-100-obras-registradas/
+[RETRY_03_CEPROBOL] t= 153.7s | pag=129 | files= 638 | data= 48 | cola= 516 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-el-alto-no-es-sinonimo-de-conflicto-es-sinonimo-de-trabajo-y-emprendimiento/
+[RETRY_03_CEPROBOL] t= 154.2s | pag=130 | files= 638 | data= 48 | cola= 515 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-refuerza-el-apoyo-en-barrio-lindo-con-un-nuevo-lote-de-insumos-entregado-a-la-gobernacion-crucena-para-bomberos-y-familias-afectadas/
+[RETRY_03_CEPROBOL] t= 154.7s | pag=131 | files= 638 | data= 48 | cola= 514 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-despliega-apoyo-logistico-para-atender-la-emergencia-por-incendio-en-barrio-lindo-y-anuncia-alivio-financiero-para-comerciantes-afectados/
+[RETRY_03_CEPROBOL] t= 155.1s | pag=132 | files= 638 | data= 48 | cola= 513 | prio=50 | https://produccion.gob.bo/nota_prensa/el-presidente-rodrigo-paz-inicia-obras-del-nuevo-sistema-de-agua-potable-en-padilla-con-bs-188-millones-para-garantizar-suministro-continuo/
+[RETRY_03_CEPROBOL] t= 155.6s | pag=133 | files= 638 | data= 48 | cola= 512 | prio=50 | https://produccion.gob.bo/nota_prensa/tras-reunion-con-el-sector-inmobiliario-el-gobierno-nacional-ratifica-seguridad-juridica-y-anuncia-sanciones-a-empresas-con-contratos-irregulares/
+[RETRY_03_CEPROBOL] t= 156.0s | pag=134 | files= 638 | data= 48 | cola= 511 | prio=50 | https://produccion.gob.bo/nota_prensa/ministerio-de-desarrollo-productivo-rural-y-agua-y-unicef-coordinan-acciones-para-impulsar-el-programa-de-saneamiento-sostenible-descentralizado-rural-en-potosi/
+[RETRY_03_CEPROBOL] t= 156.4s | pag=135 | files= 638 | data= 48 | cola= 510 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-y-brasil-acuerdan-agenda-de-trabajo-para-reactivar-el-comercio-regional-y-la-inversion/
+[RETRY_03_CEPROBOL] t= 156.9s | pag=136 | files= 638 | data= 48 | cola= 509 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-lanza-el-programa-ibex-y-conforma-el-consejo-de-competitividad-industrial-para-impulsar-las-exportaciones-en-bolivia/
+[RETRY_03_CEPROBOL] t= 157.3s | pag=137 | files= 638 | data= 48 | cola= 508 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-y-la-union-europea-trabajan-nueva-estrategia-para-impulsar-el-desarrollo-sostenible-en-zonas-productoras-de-coca/
+[RETRY_03_CEPROBOL] t= 157.8s | pag=138 | files= 638 | data= 48 | cola= 507 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-koica-y-onu-mujeres-entregan-equipamiento-industrial-a-193-unidades-productivas-lideradas-por-mujeres-en-el-alto-y-viacha/
+[RETRY_03_CEPROBOL] t= 158.2s | pag=139 | files= 638 | data= 48 | cola= 506 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-instala-la-feria-bolivia-produce-en-oruro-con-venta-directa-y-precios-accesibles/
+[RETRY_03_CEPROBOL] t= 158.7s | pag=140 | files= 638 | data= 48 | cola= 505 | prio=50 | https://produccion.gob.bo/nota_prensa/santa-cruz-acoge-el-taller-de-planificacion-sectorial-2026-2030-para-consolidar-la-agenda-productiva-territorial/
+[RETRY_03_CEPROBOL] t= 159.3s | pag=141 | files= 638 | data= 48 | cola= 504 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-y-municipios-crucenos-impulsan-proyectos-para-reactivar-la-produccion-en-el-departamento/
+[RETRY_03_CEPROBOL] t= 159.8s | pag=142 | files= 638 | data= 48 | cola= 503 | prio=50 | https://produccion.gob.bo/nota_prensa/oruro-acogera-la-feria-bolivia-produce-con-venta-directa-del-productor-al-consumidor-y-precios-accesibles/
+[RETRY_03_CEPROBOL] t= 160.1s | pag=143 | files= 638 | data= 48 | cola= 502 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-y-productores-del-beni-coordinan-acciones-en-beneficio-del-sector-agropecuario/
+[RETRY_03_CEPROBOL] t= 160.6s | pag=144 | files= 638 | data= 48 | cola= 501 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministro-oscar-mario-justiniano-coordina-acciones-con-fegabeni-para-agilizar-tramites-y-fortalecer-la-produccion-ganadera/
+[RETRY_03_CEPROBOL] t= 161.1s | pag=145 | files= 638 | data= 48 | cola= 500 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-fortalece-el-dialogo-en-beni-para-construir-una-politica-nacional-de-recursos-hidricos-desde-los-territorios/
+[RETRY_03_CEPROBOL] t= 161.8s | pag=146 | files= 638 | data= 48 | cola= 499 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-moderniza-epsas-con-la-entrega-de-75-vehiculos-de-trabajo-para-fortalecer-el-servicio-de-agua-potable/
+[RETRY_03_CEPROBOL] t= 162.1s | pag=147 | files= 638 | data= 48 | cola= 498 | prio=50 | https://produccion.gob.bo/nota_prensa/en-el-43-aniversario-de-adepcoca-el-gobierno-nacional-reafirma-su-compromiso-con-los-yungas-impulsando-una-gestion-agil-y-moderna/
+[RETRY_03_CEPROBOL] t= 162.6s | pag=148 | files= 638 | data= 48 | cola= 497 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-entrega-la-presa-taypichaca-para-garantizar-el-suministro-de-agua-a-846-mil-habitantes-en-tres-municipios-de-la-paz/
+[RETRY_03_CEPROBOL] t= 163.3s | pag=149 | files= 638 | data= 48 | cola= 496 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-entrega-bs-25-millones-para-proyectos-agricolas-resilientes-en-beneficio-de-familias-productoras-de-la-paz/
+[RETRY_03_CEPROBOL] t= 163.8s | pag=150 | files= 638 | data= 48 | cola= 495 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-y-la-embajada-de-canada-coordinan-el-inicio-del-proyecto-compete-para-fortalecer-a-empresas-lideradas-por-mujeres/
+[RETRY_03_CEPROBOL] t= 164.4s | pag=151 | files= 638 | data= 48 | cola= 494 | prio=50 | https://produccion.gob.bo/nota_prensa/ministerio-de-desarrollo-productivo-lanza-la-9na-feria-plurinacional-de-la-artesania-que-se-realizara-en-santa-cruz/
+[RETRY_03_CEPROBOL] t= 164.7s | pag=152 | files= 638 | data= 48 | cola= 493 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-y-la-fao-realizan-visita-tecnica-a-la-cadena-productiva-de-carne-para-impulsar-la-ganaderia-sostenible/
+[RETRY_03_CEPROBOL] t= 165.1s | pag=153 | files= 638 | data= 48 | cola= 492 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-visita-ferrotodo-y-evalua-plan-para-proyectar-el-acero-boliviano-al-exterior/
+[RETRY_03_CEPROBOL] t= 165.5s | pag=154 | files= 638 | data= 48 | cola= 491 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-hacia-la-vanguardia-tecnologica-presentan-el-foro-internacional-agrotech-2026-para-la-transformacion-digital-del-agro/
+[RETRY_03_CEPROBOL] t= 165.9s | pag=155 | files= 638 | data= 48 | cola= 490 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-es-sede-del-consejo-agropecuario-del-sur-tras-13-anos-y-reactiva-su-liderazgo-productivo-regional/
+[RETRY_03_CEPROBOL] t= 166.4s | pag=156 | files= 638 | data= 48 | cola= 489 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-inaugura-mastermeat-2026-y-reafirma-la-importancia-de-generar-condiciones-de-competitividad-para-el-agro/
+[RETRY_03_CEPROBOL] t= 166.9s | pag=157 | files= 638 | data= 48 | cola= 488 | prio=50 | https://produccion.gob.bo/nota_prensa/tras-13-anos-bolivia-vuelve-a-ser-sede-de-la-redpa-para-coordinar-las-politicas-agropecuarias-del-sur/
+[RETRY_03_CEPROBOL] t= 167.5s | pag=158 | files= 638 | data= 48 | cola= 487 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-impulsa-la-calidad-industrial-y-el-comercio-exterior-con-taller-internacional-sobre-competitividad/
+[RETRY_03_CEPROBOL] t= 167.9s | pag=159 | files= 638 | data= 48 | cola= 486 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-impulsa-la-construccion-del-sistema-de-riego-copajira-para-fortalecer-la-produccion-agricola/
+[RETRY_03_CEPROBOL] t= 168.4s | pag=160 | files= 638 | data= 48 | cola= 485 | prio=50 | https://produccion.gob.bo/nota_prensa/%f0%9d%90%86%f0%9d%90%a8%f0%9d%90%9b%f0%9d%90%a2%f0%9d%90%9e%f0%9d%90%ab%f0%9d%90%a7%f0%9d%90%a8-%f0%9d%90%b2-%f0%9d%90%82%f0%9d%90%80%f0%9d%90%8d%f0%9d%90%84%f0%9d%90%81-%f0%9d%90%9a%f0%9d%90%9c/
+[RETRY_03_CEPROBOL] t= 168.7s | pag=161 | files= 638 | data= 48 | cola= 484 | prio=50 | https://produccion.gob.bo/nota_prensa/en-el-dia-del-consumo-nacional-de-la-quinua-el-gobierno-fomenta-el-consumo-interno-y-la-competitividad-de-la-quinua-real-boliviana/
+[RETRY_03_CEPROBOL] t= 169.2s | pag=162 | files= 638 | data= 48 | cola= 483 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-y-confeagro-coordinan-acciones-para-reactivar-el-sector-agropecuario-tras-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 169.7s | pag=163 | files= 638 | data= 48 | cola= 482 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-logra-aprobacion-por-unanimidad-en-diputados-del-financiamiento-para-el-programa-de-agricultura-sostenible-agrosustentar/
+[RETRY_03_CEPROBOL] t= 170.0s | pag=164 | files= 638 | data= 48 | cola= 481 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-fortalece-la-gestion-integral-del-agua-con-la-firma-de-seis-convenios-de-preinversion-que-beneficiaran-a-1-699-familias/
+[RETRY_03_CEPROBOL] t= 170.4s | pag=165 | files= 638 | data= 48 | cola= 480 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-y-productores-relanzan-la-quinua-boliviana-y-convocan-a-la-gran-feria-nacional-del-consumo-este-7-de-julio/
+[RETRY_03_CEPROBOL] t= 170.9s | pag=166 | files= 638 | data= 48 | cola= 479 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-y-municipios-del-norte-paceno-fortalecen-coordinacion-para-ejecutar-proyectos-productivos-y-de-riego/
+[RETRY_03_CEPROBOL] t= 171.3s | pag=167 | files= 638 | data= 48 | cola= 478 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-lanza-moderna-plataforma-digital-de-hidrantes-para-optimizar-la-respuesta-ante-incendios-en-la-paz-y-el-alto/
+[RETRY_03_CEPROBOL] t= 171.8s | pag=168 | files= 638 | data= 48 | cola= 477 | prio=50 | https://produccion.gob.bo/nota_prensa/la-direccion-general-de-la-coca-anticipa-atencion-al-publico-desde-las-0730-de-la-manana-y-amplia-ventanillas-de-servicio/
+[RETRY_03_CEPROBOL] t= 172.4s | pag=169 | files= 638 | data= 48 | cola= 476 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-impulsa-la-formacion-especializada-para-fortalecer-la-gestion-de-los-recursos-hidricos/
+[RETRY_03_CEPROBOL] t= 172.8s | pag=170 | files= 638 | data= 48 | cola= 475 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-consolida-la-interconexion-misicuni-y-lleva-agua-potable-a-mas-de-106-mil-habitantes-de-la-zona-sur-de-cochabamba/
+[RETRY_03_CEPROBOL] t= 173.4s | pag=171 | files= 638 | data= 48 | cola= 474 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-justiniano-coordina-acciones-con-la-csutcb-santa-cruz-para-fortalecer-la-produccion-y-garantizar-seguridad-juridica/
+[RETRY_03_CEPROBOL] t= 173.7s | pag=172 | files= 638 | data= 48 | cola= 473 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-codepro-coordinan-acciones-para-reactivar-al-sector-productivo-y-mitigar-riesgos-climaticos/
+[RETRY_03_CEPROBOL] t= 174.3s | pag=173 | files= 638 | data= 48 | cola= 472 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-inspecciona-avance-de-obras-de-la-planta-de-tratamiento-de-aguas-residuales-en-copacabana/
+[RETRY_03_CEPROBOL] t= 174.6s | pag=174 | files= 638 | data= 48 | cola= 471 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-inspecciona-proyecto-de-agua-potable-en-el-alto-que-beneficiara-a-mas-de-2-800-familias-y-sumara-1-500-nuevas-conexiones/
+[RETRY_03_CEPROBOL] t= 174.9s | pag=175 | files= 638 | data= 48 | cola= 470 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-finaliza-el-puente-aereo-tras-transportar-mas-de-mil-toneladas-de-alimentos-y-agradece-el-apoyo-internacional/
+[RETRY_03_CEPROBOL] t= 175.4s | pag=176 | files= 638 | data= 48 | cola= 469 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-fortalece-el-acceso-al-agua-potable-con-la-entrega-de-registros-a-10-entidades-prestadoras-en-la-paz/
+[RETRY_03_CEPROBOL] t= 175.9s | pag=177 | files= 638 | data= 48 | cola= 468 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-impulsa-el-acceso-al-agua-potable-con-el-mejoramiento-de-la-red-primaria-en-el-distrito-7-de-viacha/
+[RETRY_03_CEPROBOL] t= 176.2s | pag=178 | files= 638 | data= 48 | cola= 467 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-da-inicio-a-las-obras-del-sistema-de-riego-cristalani-para-transformar-la-produccion-agricola-en-cairoma/
+[RETRY_03_CEPROBOL] t= 176.6s | pag=179 | files= 638 | data= 48 | cola= 466 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-gobernacion-firman-acuerdo-en-yapacani-santa-cruz-vuelve-a-la-normalidad-con-todas-sus-vias-expeditas/
+[RETRY_03_CEPROBOL] t= 177.0s | pag=180 | files= 638 | data= 48 | cola= 465 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-recibe-el-ano-nuevo-andino-amazonico-y-del-chaco-5534-junto-a-comunidades-del-ayllu-hampaturi/
+[RETRY_03_CEPROBOL] t= 177.5s | pag=181 | files= 638 | data= 48 | cola= 464 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-rural-y-agua-reafirma-la-politica-cero-tolerancia-tras-detectar-irregularidades-en-fiscalizaciones-a-empresas-publicas/
+[RETRY_03_CEPROBOL] t= 177.9s | pag=182 | files= 638 | data= 48 | cola= 463 | prio=50 | https://produccion.gob.bo/nota_prensa/rendicion-de-cuentas-inicial-2026-el-ministerio-de-desarrollo-productivo-rural-y-agua-proyecta-inversion-de-bs-2-719-millones-para-el-fortalecimiento-del-sector/
+[RETRY_03_CEPROBOL] t= 178.4s | pag=183 | files= 638 | data= 48 | cola= 462 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-rural-y-agua-coordina-acciones-con-jica-para-fortalecer-la-comercializacion-en-el-sector-agropecuario/
+[RETRY_03_CEPROBOL] t= 178.8s | pag=184 | files= 638 | data= 48 | cola= 461 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-la-cao-coordinan-propuestas-normativas-para-fortalecer-el-financiamiento-productivo-en-bolivia/
+[RETRY_03_CEPROBOL] t= 179.2s | pag=185 | files= 638 | data= 48 | cola= 460 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-inspecciona-la-venta-de-pollo-a-bs-18-en-emapa-y-destaca-el-apoyo-internacional/
+[RETRY_03_CEPROBOL] t= 179.7s | pag=186 | files= 638 | data= 48 | cola= 459 | prio=50 | https://produccion.gob.bo/nota_prensa/carla-faval-asume-la-direccion-general-ejecutiva-de-senatex/
+[RETRY_03_CEPROBOL] t= 180.1s | pag=187 | files= 638 | data= 48 | cola= 458 | prio=50 | https://produccion.gob.bo/nota_prensa/mediante-coordinacion-internacional-el-gobierno-nacional-refuerza-el-puente-aereo-y-emapa-comercializa-el-kilo-de-carne-de-pollo-a-bs-18/
+[RETRY_03_CEPROBOL] t= 180.5s | pag=188 | files= 638 | data= 48 | cola= 457 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-reactiva-la-feria-bolivia-produce-en-la-paz-para-mitigar-el-impacto-de-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 180.9s | pag=189 | files= 638 | data= 48 | cola= 456 | prio=50 | https://produccion.gob.bo/nota_prensa/con-una-inversion-de-mas-de-bs-10-millones-gobierno-da-inicio-a-tres-proyectos-de-alcantarillado-sanitario-en-cajuata-para-beneficio-de-542-familias/
+[RETRY_03_CEPROBOL] t= 181.4s | pag=190 | files= 638 | data= 48 | cola= 455 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-productores-de-frutas-de-la-provincia-ichilo-firman-acuerdo-para-impulsar-la-comercializacion-directa-y-la-exportacion/
+[RETRY_03_CEPROBOL] t= 182.0s | pag=191 | files= 638 | data= 48 | cola= 454 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-instala-mesa-de-trabajo-con-productores-de-la-provincia-ichilo-para-coordinar-acciones-conjuntas-y-atender-sus-demandas/
+[RETRY_03_CEPROBOL] t= 182.6s | pag=192 | files= 638 | data= 48 | cola= 453 | prio=50 | https://produccion.gob.bo/nota_prensa/policia-resulta-herido-por-arma-de-fuego-tras-violenta-resistencia-de-bloqueadores-en-san-julian/
+[RETRY_03_CEPROBOL] t= 183.0s | pag=193 | files= 638 | data= 48 | cola= 452 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-y-alcaldia-de-la-paz-coordinan-vuelo-solidario-para-transportar-carne-de-pollo-y-mitigar-la-escasez-causada-por-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 183.7s | pag=194 | files= 638 | data= 48 | cola= 451 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-activa-plan-de-contingencia-vial-para-proveer-de-alimentos-a-la-paz-y-el-alto/
+[RETRY_03_CEPROBOL] t= 184.1s | pag=195 | files= 638 | data= 48 | cola= 450 | prio=50 | https://produccion.gob.bo/nota_prensa/de-bolivia-al-mundo-y-del-mundo-a-bolivia-cooperacion-regional-fortalece-el-sector-de-agua-y-saneamiento/
+[RETRY_03_CEPROBOL] t= 184.4s | pag=196 | files= 638 | data= 48 | cola= 449 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-destaca-el-potencial-de-los-frutos-amazonicos-en-la-semana-mundial-de-la-nutricion-y-promueve-declaratoria-internacional/
+[RETRY_03_CEPROBOL] t= 185.0s | pag=197 | files= 638 | data= 48 | cola= 448 | prio=50 | https://produccion.gob.bo/nota_prensa/de-bolivia-al-mundo-y-del-mundo-a-bolivia-cooperacion-regional-fortalece-el-sector-de-agua-y-saneamiento-2/
+[RETRY_03_CEPROBOL] t= 185.5s | pag=198 | files= 638 | data= 48 | cola= 447 | prio=50 | https://produccion.gob.bo/nota_prensa/san-julian-gobierno-y-gobernacion-de-santa-cruz-logran-acuerdo-con-la-federacion-de-interculturales-regional-guarayos-para-levantar-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 185.8s | pag=199 | files= 638 | data= 48 | cola= 446 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-gobernacion-y-la-federacion-de-interculturales-berlin-firman-acuerdo-para-levantar-bloqueos-tras-consenso-de-11-puntos/
+[RETRY_03_CEPROBOL] t= 186.2s | pag=200 | files= 638 | data= 48 | cola= 445 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-interviene-estaciones-de-servicio-en-el-norte-de-la-paz-tras-detectar-una-red-de-reventa-de-combustible-y-desarticular-un-boicot-contra-productores-y-mineros/
+[RETRY_03_CEPROBOL] t= 186.7s | pag=201 | files= 638 | data= 48 | cola= 444 | prio=50 | https://produccion.gob.bo/nota_prensa/comunidades-de-comarapa-reciben-registros-de-riego-y-expresan-su-desacuerdo-con-los-bloqueos-por-los-perjuicios-al-sector/
+[RETRY_03_CEPROBOL] t= 187.2s | pag=202 | files= 638 | data= 48 | cola= 443 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-gobernacion-y-sectores-de-san-julian-articulan-agenda-productiva-y-priorizan-el-dialogo-para-levantar-bloqueos/
+[RETRY_03_CEPROBOL] t= 187.6s | pag=203 | files= 638 | data= 48 | cola= 442 | prio=50 | https://produccion.gob.bo/nota_prensa/impulsamos-el-desarrollo-integral-en-el-norte-de-la-paz/
+[RETRY_03_CEPROBOL] t= 188.1s | pag=204 | files= 638 | data= 48 | cola= 441 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-a-traves-de-emapa-despliega-puntos-moviles-para-la-venta-de-carne-de-pollo-y-refuerza-abastecimiento-en-la-paz-y-viacha/
+[RETRY_03_CEPROBOL] t= 188.6s | pag=205 | files= 638 | data= 48 | cola= 440 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-convoca-a-dialogo-a-la-federacion-tupac-katari-y-reprograma-instalacion-del-consejo-economico-social/
+[RETRY_03_CEPROBOL] t= 189.1s | pag=206 | files= 638 | data= 48 | cola= 439 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-coordina-y-articula-agenda-de-desarrollo-economico-en-chuquisaca/
+[RETRY_03_CEPROBOL] t= 190.0s | pag=207 | files= 638 | data= 48 | cola= 438 | prio=50 | https://produccion.gob.bo/nota_prensa/llega-ayuda-humanitaria-de-chile-a-el-alto-mientras-el-gobierno-nacional-intensifica-el-puente-aereo-para-abastecer-a-la-poblacion-afectada-por-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 190.5s | pag=208 | files= 638 | data= 48 | cola= 437 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-avanza-en-la-ejecucion-de-proyectos-de-desarrollo-agropecuario-junto-a-la-cooperacion-alemana-giz/
+[RETRY_03_CEPROBOL] t= 191.0s | pag=209 | files= 638 | data= 48 | cola= 436 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-intensifica-el-puente-aereo-para-el-abastecimiento-de-alimentos-con-el-apoyo-de-una-aeronave-de-la-republica-argentina/
+[RETRY_03_CEPROBOL] t= 191.6s | pag=210 | files= 638 | data= 48 | cola= 435 | prio=50 | https://produccion.gob.bo/nota_prensa/ministro-oscar-mario-justiniano-informa-que-se-refuerza-el-puente-aereo-de-alimentos-pero-advierte-que-es-insuficiente-e-insta-al-dialogo-para-levantar-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 191.9s | pag=211 | files= 638 | data= 48 | cola= 434 | prio=50 | https://produccion.gob.bo/nota_prensa/del-productor-al-consumidor-gobierno-inaugura-la-feria-la-caserita-para-dinamizar-la-economia-de-pequenos-productores/
+[RETRY_03_CEPROBOL] t= 192.3s | pag=212 | files= 638 | data= 48 | cola= 433 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-y-municipios-de-los-yungas-coordinan-acciones-para-fortalecer-el-desarrollo-productivo/
+[RETRY_03_CEPROBOL] t= 192.9s | pag=213 | files= 638 | data= 48 | cola= 432 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-refuerza-puente-aereo-arriba-carne-de-res-a-la-paz-para-combatir-el-desabastecimiento/
+[RETRY_03_CEPROBOL] t= 193.4s | pag=214 | files= 638 | data= 48 | cola= 431 | prio=50 | https://produccion.gob.bo/nota_prensa/bloqueos-en-carreteras-perjudican-a-la-poblacion-y-elevan-precios-de-la-canasta-familiar/
+[RETRY_03_CEPROBOL] t= 193.7s | pag=215 | files= 638 | data= 48 | cola= 430 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-impulsa-la-innovacion-y-sostenibilidad-del-sector-agropecuario/
+[RETRY_03_CEPROBOL] t= 194.3s | pag=216 | files= 638 | data= 48 | cola= 429 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-intensifica-puente-aereo-para-garantizar-el-abastecimiento-de-carne-de-pollo-y-res-en-la-paz-y-el-alto/
+[RETRY_03_CEPROBOL] t= 194.6s | pag=217 | files= 638 | data= 48 | cola= 428 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-activa-puente-aereo-para-garantizar-el-abastecimiento-de-carne-de-pollo-en-la-paz-frente-a-los-bloqueos/
+[RETRY_03_CEPROBOL] t= 195.2s | pag=218 | files= 638 | data= 48 | cola= 427 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-rural-y-agua-entrega-puente-vehicular-en-san-lucas-para-impulsar-el-desarrollo-agricola-y-la-integracion/
+[RETRY_03_CEPROBOL] t= 195.6s | pag=219 | files= 638 | data= 48 | cola= 426 | prio=50 | https://produccion.gob.bo/nota_prensa/viceministerio-de-la-micro-pequena-empresa-y-artesania-impulsa-alianzas-para-la-transformacion-digital-del-sector-productivo/
+[RETRY_03_CEPROBOL] t= 196.0s | pag=220 | files= 638 | data= 48 | cola= 425 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-boliviano-impulsa-en-alemania-cooperacion-estrategica-para-una-industria-sostenible-y-una-gestion-moderna-de-residuos/
+[RETRY_03_CEPROBOL] t= 196.3s | pag=221 | files= 638 | data= 48 | cola= 424 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-coordina-acciones-para-la-ejecucion-del-censo-agropecuario-2026/
+[RETRY_03_CEPROBOL] t= 196.8s | pag=222 | files= 638 | data= 48 | cola= 423 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-toma-acciones-ante-muestras-de-contaminacion-de-agua-en-trinidad-para-garantizar-suministro-seguro/
+[RETRY_03_CEPROBOL] t= 197.2s | pag=223 | files= 638 | data= 48 | cola= 422 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-entrega-puentes-vehiculares-en-san-lucas-para-fortalecer-la-produccion-de-mas-de-3-000-familias-chuquisaquenas/
+[RETRY_03_CEPROBOL] t= 197.6s | pag=224 | files= 638 | data= 48 | cola= 421 | prio=50 | https://produccion.gob.bo/nota_prensa/la-asamblea-expresa-respaldo-mayoritario-y-consolida-voto-de-confianza-al-ministro-oviedo/
+[RETRY_03_CEPROBOL] t= 198.1s | pag=225 | files= 638 | data= 48 | cola= 420 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-y-francia-acuerdan-acciones-estrategicas-contra-enfermedades-zoonoticas-bajo-el-enfoque-una-sola-salud/
+[RETRY_03_CEPROBOL] t= 198.4s | pag=226 | files= 638 | data= 48 | cola= 419 | prio=50 | https://produccion.gob.bo/nota_prensa/el-gobierno-y-onu-mujeres-coordinan-politicas-de-fortalecimiento-al-sector-productivo-con-enfoque-de-genero/
+[RETRY_03_CEPROBOL] t= 198.9s | pag=227 | files= 638 | data= 48 | cola= 418 | prio=50 | https://produccion.gob.bo/nota_prensa/visita-guiada-tecnica-fortalece-cooperacion-boliviano-alemana-en-gestion-de-residuos/
+[RETRY_03_CEPROBOL] t= 199.3s | pag=228 | files= 638 | data= 48 | cola= 417 | prio=50 | https://produccion.gob.bo/nota_prensa/bolivia-y-alemania-fortalecen-cooperacion-en-economia-circular-y-gestion-de-residuos/
+[RETRY_03_CEPROBOL] t= 199.7s | pag=229 | files= 638 | data= 48 | cola= 416 | prio=50 | https://produccion.gob.bo/nota_prensa/el-fondo-mi-bolivia-lechera-busca-garantizar-la-soberania-alimentaria-y-potenciar-la-produccion-nacional/
+[RETRY_03_CEPROBOL] t= 200.4s | pag=230 | files= 638 | data= 48 | cola= 415 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-socializa-beneficios-de-la-ley-1720-ante-productores-del-norte-de-santa-cruz/
+[RETRY_03_CEPROBOL] t= 200.8s | pag=231 | files= 638 | data= 48 | cola= 414 | prio=50 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-acompana-la-presentacion-de-la-ley-de-emprendimientos-emergentes-para-reactivar-la-economia/
+[RETRY_03_CEPROBOL] t= 201.2s | pag=232 | files= 638 | data= 48 | cola= 413 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-impulsa-la-produccion-nacional-con-la-feria-hecho-en-bolivia-consume-lo-nuestro/
+[RETRY_03_CEPROBOL] t= 201.8s | pag=233 | files= 638 | data= 48 | cola= 412 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-destaca-la-primera-feria-del-agua-de-potosi/
+[RETRY_03_CEPROBOL] t= 202.3s | pag=234 | files= 638 | data= 48 | cola= 411 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-cooperacion-internacional-activan-segunda-fase-del-sirwash-desde-potosi/
+[RETRY_03_CEPROBOL] t= 202.8s | pag=235 | files= 638 | data= 48 | cola= 410 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-inaugura-dialogo-internacional-para-captar-financiamiento-verde-y-consolidar-su-nueva-agenda-forestal/
+[RETRY_03_CEPROBOL] t= 203.3s | pag=236 | files= 638 | data= 48 | cola= 409 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-fortalece-el-subsidio-universal-prenatal-con-la-entrega-de-harina-fortificada-a-mas-de-21-000-madres-gestantes/
+[RETRY_03_CEPROBOL] t= 203.8s | pag=237 | files= 638 | data= 48 | cola= 408 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-impulsa-exportaciones-con-nueva-oficina-de-senavex-en-santa-cruz/
+[RETRY_03_CEPROBOL] t= 204.2s | pag=238 | files= 638 | data= 48 | cola= 407 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-entrega-purificador-de-agua-para-fortalecer-el-acceso-a-agua-segura-en-samaipata/
+[RETRY_03_CEPROBOL] t= 204.7s | pag=239 | files= 638 | data= 48 | cola= 406 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-entrega-titulos-ejecutoriales-en-santa-cruz-y-destaca-impacto-de-la-ley-1720-que-impulsa-el-acceso-a-financiamiento-para-pequenos-productores/
+[RETRY_03_CEPROBOL] t= 205.2s | pag=240 | files= 638 | data= 48 | cola= 405 | prio=50 | https://produccion.gob.bo/nota_prensa/viceministra-viviana-mariscal-lidera-entrega-de-equipos-para-mejorar-el-acceso-al-agua-potable-a-comunidades-del-municipio-de-el-torno/
+[RETRY_03_CEPROBOL] t= 205.7s | pag=241 | files= 638 | data= 48 | cola= 404 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-fortalece-la-gestion-integral-del-agua-con-entrega-de-registros-y-licencias-en-cochabamba/
+[RETRY_03_CEPROBOL] t= 206.2s | pag=242 | files= 638 | data= 48 | cola= 403 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-nacional-y-sectores-campesinos-de-provincias-del-beni-alcanzan-acuerdo-sobre-la-ley-1720/
+[RETRY_03_CEPROBOL] t= 206.6s | pag=243 | files= 638 | data= 48 | cola= 402 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-y-la-federacion-de-interculturales-de-santa-cruz-coordinan-acciones-para-fortalecer-el-sector-productivo-regional/
+[RETRY_03_CEPROBOL] t= 207.1s | pag=244 | files= 638 | data= 48 | cola= 401 | prio=50 | https://produccion.gob.bo/nota_prensa/mas-de-200-productores-participan-en-la-primera-version-de-la-feria-bolivia-produce-en-el-alto/
+[RETRY_03_CEPROBOL] t= 207.6s | pag=245 | files= 638 | data= 48 | cola= 400 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-impulsa-construccion-de-nueva-represa-en-hampaturi-con-enfoque-integral-de-manejo-de-cuencas/
+[RETRY_03_CEPROBOL] t= 208.0s | pag=246 | files= 638 | data= 48 | cola= 399 | prio=50 | https://produccion.gob.bo/nota_prensa/presidente-rodrigo-paz-promulga-leyes-para-impulsar-la-produccion-y-mejorar-el-acceso-a-financiamiento-para-productores/
+[RETRY_03_CEPROBOL] t= 208.5s | pag=247 | files= 638 | data= 48 | cola= 398 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-confirmo-caudal-optimo-de-agua-en-las-represas-garantizando-el-abastecimiento-en-la-paz-y-el-alto-y-anuncia-la-construccion-de-una-nueva-presa/
+[RETRY_03_CEPROBOL] t= 208.9s | pag=248 | files= 638 | data= 48 | cola= 397 | prio=50 | https://produccion.gob.bo/nota_prensa/rendicion-publica-de-cuentas-final-2025-el-ministerio-de-desarrollo-productivo-rural-y-agua-proyecta-nuevo-ciclo-de-fortalecimiento-institucional-para-revertir-baja-ejecucion-y-proyectos-paralizados/
+[RETRY_03_CEPROBOL] t= 209.4s | pag=249 | files= 638 | data= 48 | cola= 396 | prio=50 | https://produccion.gob.bo/nota_prensa/gobierno-inicia-el-trabajo-de-actualizacion-del-reglamento-social-de-agua-y-saneamiento-para-garantizar-la-sostenibilidad-y-eficiencia-de-los-servicios-basicos/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_03_ceprobol
+P�ginas visitadas:   250
+Archivos encontrados:  638
+Datasets web:         48
+Errores:              1
+Motivo de parada:     max_pages
+Duraci�n:             209.97 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 597
+  - RAR    : 30
+  - ZIP    : 11
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_03_ceprobol.json
+
+Trazabilidad:
+  Ejecuci�n: 92
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

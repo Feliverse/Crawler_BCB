@@ -1,0 +1,242 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Registro de Comercio de Bolivia
+URL configurada: https://www.seprec.gob.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://www.seprec.gob.bo/
+  Utilizada: https://www.seprec.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.seprec.gob.bo/
+
+URL de trabajo: https://www.seprec.gob.bo/
+Seeds: 1
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_10_FUNDEMPRESA] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[RETRY_10_FUNDEMPRESA] t=   7.3s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.seprec.gob.bo/
+[RETRY_10_FUNDEMPRESA] t=   9.4s | pag=  1 | files=   1 | data=  0 | cola=  54 | prio=10 | https://www.seprec.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/
+[RETRY_10_FUNDEMPRESA] t=  10.2s | pag=  2 | files=   1 | data=  0 | cola=  53 | prio=10 | https://www.seprec.gob.bo/index.php/pei-descargable/
+[RETRY_10_FUNDEMPRESA] t=  11.0s | pag=  3 | files=   2 | data=  0 | cola=  52 | prio=10 | https://www.seprec.gob.bo/index.php/tipo-de-unidad-economica/
+[RETRY_10_FUNDEMPRESA] t=  11.8s | pag=  4 | files=   2 | data=  0 | cola=  51 | prio=10 | https://www.seprec.gob.bo/index.php/datos/
+[RETRY_10_FUNDEMPRESA] DATASETS=1 | data_html_table | https://www.seprec.gob.bo/index.php/datos/
+[RETRY_10_FUNDEMPRESA] t=  12.5s | pag=  5 | files=  14 | data=  1 | cola=  50 | prio=10 | https://www.seprec.gob.bo/index.php/boletines/
+[RETRY_10_FUNDEMPRESA] t=  13.3s | pag=  6 | files=  18 | data=  1 | cola=  49 | prio=10 | https://www.seprec.gob.bo/index.php/informes-de-viaje-al-exterior/
+[RETRY_10_FUNDEMPRESA] t=  14.2s | pag=  7 | files=  20 | data=  1 | cola=  48 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-amplia-hasta-el-31-de-julio-el-plazo-para-la-renovacion-de-la-matricula-de-comercio-en-apoyo-a-la-formalizacion-y-reactivacion-economica/
+[RETRY_10_FUNDEMPRESA] t=  15.0s | pag=  8 | files=  20 | data=  1 | cola=  47 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/rendicion-publica-de-cuentas-final-seprec-reporta-perdida-millonaria-superior-a-bs-58-millones-en-la-gestion-2025/
+[RETRY_10_FUNDEMPRESA] t=  15.7s | pag=  9 | files=  20 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/
+[RETRY_10_FUNDEMPRESA] t=  16.5s | pag= 10 | files=  20 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/memoria-intitucional/
+[RETRY_10_FUNDEMPRESA] t=  18.5s | pag= 11 | files=  21 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/aprobacion-del-poa-documento-normativo/
+[RETRY_10_FUNDEMPRESA] t=  19.2s | pag= 12 | files=  28 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
+[RETRY_10_FUNDEMPRESA] t=  20.1s | pag= 13 | files=  43 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/politicas-de-la-calidad/
+[RETRY_10_FUNDEMPRESA] t=  20.9s | pag= 14 | files=  43 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/
+[RETRY_10_FUNDEMPRESA] t=  21.8s | pag= 15 | files=  71 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/rendicion-publica-de-cuentas/
+[RETRY_10_FUNDEMPRESA] t=  22.6s | pag= 16 | files=  78 | data=  1 | cola=  39 | prio=50 | https://www.seprec.gob.bo/index.php/17068-2/
+[RETRY_10_FUNDEMPRESA] t=  23.5s | pag= 17 | files=  80 | data=  1 | cola=  38 | prio=50 | https://www.seprec.gob.bo/index.php/que-es-registro-de-comercio/
+[RETRY_10_FUNDEMPRESA] t=  24.3s | pag= 18 | files=  80 | data=  1 | cola=  37 | prio=50 | https://www.seprec.gob.bo/index.php/registro-de-comercio-en-el-estado-plurinacional/
+[RETRY_10_FUNDEMPRESA] t=  25.0s | pag= 19 | files=  80 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/preguntas-frecuentes/
+[RETRY_10_FUNDEMPRESA] t=  25.7s | pag= 20 | files=  80 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/folleto-guia-de-tramites/
+[RETRY_10_FUNDEMPRESA] t=  26.4s | pag= 21 | files=  81 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/
+[RETRY_10_FUNDEMPRESA] t=  27.3s | pag= 22 | files=  81 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/lista-herramientas-page/
+[RETRY_10_FUNDEMPRESA] t=  28.0s | pag= 23 | files=  81 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/lista-comunicados-page/
+[RETRY_10_FUNDEMPRESA] t=  28.9s | pag= 24 | files=  81 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/
+[RETRY_10_FUNDEMPRESA] t=  29.8s | pag= 25 | files=  81 | data=  1 | cola=  55 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-supera-las-184-mil-transacciones-financieras-a-traves-de-la-pasarela-de-pagos-y-consolida-la-desburocratizacion-de-tramites/
+[RETRY_10_FUNDEMPRESA] t=  30.6s | pag= 26 | files=  81 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/revistas/
+[RETRY_10_FUNDEMPRESA] t=  31.4s | pag= 27 | files=  84 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/campanas-y-actividades/
+[RETRY_10_FUNDEMPRESA] t=  32.2s | pag= 28 | files=  84 | data=  1 | cola=  59 | prio=10 | https://www.seprec.gob.bo/index.php/campania/encuesta-anual-unidades-economicas/
+[RETRY_10_FUNDEMPRESA] t=  32.9s | pag= 29 | files=  84 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/constitucion-politica-del-estado/
+[RETRY_10_FUNDEMPRESA] t=  33.7s | pag= 30 | files=  85 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/leyes-2/
+[RETRY_10_FUNDEMPRESA] t=  34.4s | pag= 31 | files=  90 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/decretos-supremos/
+[RETRY_10_FUNDEMPRESA] t=  35.3s | pag= 32 | files=  92 | data=  1 | cola=  56 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/
+[RETRY_10_FUNDEMPRESA] t=  36.3s | pag= 33 | files= 102 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/
+[RETRY_10_FUNDEMPRESA] t=  37.1s | pag= 34 | files= 107 | data=  1 | cola=  59 | prio=50 | https://www.seprec.gob.bo/index.php/organigrama/
+[RETRY_10_FUNDEMPRESA] t=  37.9s | pag= 35 | files= 107 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/nomina-de-servidores-publicos-2/
+[RETRY_10_FUNDEMPRESA] t=  38.7s | pag= 36 | files= 107 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/escala-salarial/
+[RETRY_10_FUNDEMPRESA] t=  39.5s | pag= 37 | files= 108 | data=  1 | cola=  56 | prio=50 | https://www.seprec.gob.bo/index.php/manual-de-organizacion/
+[RETRY_10_FUNDEMPRESA] t=  40.3s | pag= 38 | files= 109 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/poais/
+[RETRY_10_FUNDEMPRESA] t=  41.1s | pag= 39 | files= 111 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/manuales-de-procedimiento/
+[RETRY_10_FUNDEMPRESA] t=  41.9s | pag= 40 | files= 116 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/contrataciones/
+[RETRY_10_FUNDEMPRESA] t=  42.7s | pag= 41 | files= 116 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/listado-de-convocatorias-vigentes-de-bienes-y-servicios/
+[RETRY_10_FUNDEMPRESA] t=  43.5s | pag= 42 | files= 157 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/proveedores-2/
+[RETRY_10_FUNDEMPRESA] t=  44.4s | pag= 43 | files= 160 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/lista-direcciones-page/
+[RETRY_10_FUNDEMPRESA] t=  45.2s | pag= 44 | files= 160 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/enlaces-de-interes/
+[RETRY_10_FUNDEMPRESA] t=  46.0s | pag= 45 | files= 160 | data=  1 | cola=  48 | prio=50 | https://seprec.gob.bo/index.php/normativa-inter/ra-seprec-203-2026/
+[RETRY_10_FUNDEMPRESA] t=  48.5s | pag= 46 | files= 160 | data=  1 | cola=  47 | prio=50 | https://tramites.seprec.gob.bo/
+[RETRY_10_FUNDEMPRESA] t=  50.1s | pag= 47 | files= 160 | data=  1 | cola=  46 | prio=50 | https://miempresa.seprec.gob.bo/
+[RETRY_10_FUNDEMPRESA] t=  51.6s | pag= 48 | files= 160 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recibe-la-certificacion-iso-90012015-y-ratifica-su-compromiso-con-la-calidad-y-la-mejora-continua/
+[RETRY_10_FUNDEMPRESA] t=  52.5s | pag= 49 | files= 160 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-amplia-hasta-el-30-de-junio-el-plazo-para-la-renovacion-de-la-matricula-de-comercio/
+[RETRY_10_FUNDEMPRESA] t=  54.0s | pag= 50 | files= 160 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-agiliza-los-tramites-empresariales-y-supera-las-200-000-transacciones-en-2025/
+[RETRY_10_FUNDEMPRESA] t=  54.8s | pag= 51 | files= 160 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recuerda-renovacion-de-matricula-de-comercio-para-sectores-agroproductivos-vence-el-31-de-diciembre/
+[RETRY_10_FUNDEMPRESA] t=  55.6s | pag= 52 | files= 160 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/cdn-cgi/l/email-protection
+[RETRY_10_FUNDEMPRESA] t=  56.0s | pag= 52 | files= 160 | data=  1 | cola=  40 | prio=50 | https://seprec.gob.bo/index.php/tramite1/
+[RETRY_10_FUNDEMPRESA] t=  58.4s | pag= 53 | files= 160 | data=  1 | cola=  40 | prio=50 | https://seprec.gob.bo/index.php/tramite2/
+[RETRY_10_FUNDEMPRESA] t=  59.5s | pag= 54 | files= 160 | data=  1 | cola=  39 | prio=50 | https://seprec.gob.bo/index.php/tramite10/
+[RETRY_10_FUNDEMPRESA] t=  60.7s | pag= 55 | files= 160 | data=  1 | cola=  38 | prio=50 | https://seprec.gob.bo/index.php/tramite53/
+[RETRY_10_FUNDEMPRESA] t=  61.8s | pag= 56 | files= 160 | data=  1 | cola=  37 | prio=50 | https://seprec.gob.bo/index.php/lista-direcciones-page/
+[RETRY_10_FUNDEMPRESA] t=  62.9s | pag= 56 | files= 160 | data=  1 | cola=  36 | prio=50 | https://seprec.gob.bo/index.php/tramite51/
+[RETRY_10_FUNDEMPRESA] t=  65.4s | pag= 57 | files= 160 | data=  1 | cola=  35 | prio=50 | https://www.seprec.gob.bo/index.php/tramite1
+[RETRY_10_FUNDEMPRESA] t=  66.5s | pag= 57 | files= 160 | data=  1 | cola=  33 | prio=50 | https://www.seprec.gob.bo/index.php/tramite3/
+[RETRY_10_FUNDEMPRESA] t=  68.1s | pag= 58 | files= 160 | data=  1 | cola=  32 | prio=50 | https://www.seprec.gob.bo/index.php/tramite4/
+[RETRY_10_FUNDEMPRESA] t=  69.0s | pag= 59 | files= 160 | data=  1 | cola=  31 | prio=50 | https://www.seprec.gob.bo/index.php/tramite5/
+[RETRY_10_FUNDEMPRESA] t=  69.8s | pag= 60 | files= 160 | data=  1 | cola=  30 | prio=50 | https://www.seprec.gob.bo/index.php/tramite6/
+[RETRY_10_FUNDEMPRESA] t=  70.5s | pag= 61 | files= 160 | data=  1 | cola=  29 | prio=50 | https://www.seprec.gob.bo/index.php/tramite7/
+[RETRY_10_FUNDEMPRESA] t=  71.2s | pag= 62 | files= 160 | data=  1 | cola=  28 | prio=50 | https://www.seprec.gob.bo/index.php/tramite8/
+[RETRY_10_FUNDEMPRESA] t=  72.0s | pag= 63 | files= 160 | data=  1 | cola=  27 | prio=50 | https://www.seprec.gob.bo/index.php/tramite9/
+[RETRY_10_FUNDEMPRESA] t=  72.8s | pag= 64 | files= 160 | data=  1 | cola=  25 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/2/
+[RETRY_10_FUNDEMPRESA] t=  73.6s | pag= 65 | files= 160 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/3/
+[RETRY_10_FUNDEMPRESA] t=  74.5s | pag= 66 | files= 160 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/7/
+[RETRY_10_FUNDEMPRESA] t=  75.4s | pag= 67 | files= 160 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-insta-a-sociedades-anonimas-a-publicar-sus-memorias-anuales-hasta-el-31-de-diciembre-de-2025/
+[RETRY_10_FUNDEMPRESA] t=  76.2s | pag= 68 | files= 160 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recuerda-a-empresas-agricolas-ganaderas-gomeras-y-agroindustriales-renovar-su-matricula-de-comercio-antes-del-30-de-noviembre/
+[RETRY_10_FUNDEMPRESA] t=  77.0s | pag= 69 | files= 160 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/beni-potencia-su-crecimiento-empresarial-y-se-consolida-como-referente-en-la-amazonia-boliviana/
+[RETRY_10_FUNDEMPRESA] t=  77.9s | pag= 70 | files= 160 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/page/2/
+[RETRY_10_FUNDEMPRESA] t=  78.8s | pag= 71 | files= 160 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/page/3/
+[RETRY_10_FUNDEMPRESA] t=  79.6s | pag= 72 | files= 160 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/leyes-2/page/2/
+[RETRY_10_FUNDEMPRESA] t=  80.5s | pag= 73 | files= 162 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/2/
+[RETRY_10_FUNDEMPRESA] t=  81.1s | pag= 74 | files= 172 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/3/
+[RETRY_10_FUNDEMPRESA] t=  81.9s | pag= 75 | files= 182 | data=  1 | cola=  58 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/6/
+[RETRY_10_FUNDEMPRESA] t=  82.7s | pag= 76 | files= 191 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/page/2/
+[RETRY_10_FUNDEMPRESA] t=  83.5s | pag= 77 | files= 196 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/page/3/
+[RETRY_10_FUNDEMPRESA] t=  84.3s | pag= 78 | files= 196 | data=  1 | cola=  56 | prio=50 | https://seprec.gob.bo/index.php/lista-servicios-page/
+[RETRY_10_FUNDEMPRESA] t=  85.5s | pag= 78 | files= 196 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/tramite11/
+[RETRY_10_FUNDEMPRESA] t=  87.2s | pag= 79 | files= 196 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/tramite12/
+[RETRY_10_FUNDEMPRESA] t=  88.0s | pag= 80 | files= 196 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/tramite13/
+[RETRY_10_FUNDEMPRESA] t=  88.7s | pag= 81 | files= 196 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/tramite14/
+[RETRY_10_FUNDEMPRESA] t=  89.5s | pag= 82 | files= 196 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/tramite15/
+[RETRY_10_FUNDEMPRESA] t=  90.3s | pag= 83 | files= 196 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/tramite16/
+[RETRY_10_FUNDEMPRESA] t=  90.9s | pag= 84 | files= 196 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/tramite17/
+[RETRY_10_FUNDEMPRESA] t=  91.6s | pag= 85 | files= 196 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/tramite18/
+[RETRY_10_FUNDEMPRESA] t=  92.3s | pag= 86 | files= 196 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/tramite19/
+[RETRY_10_FUNDEMPRESA] t=  92.9s | pag= 87 | files= 196 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/tramite20/
+[RETRY_10_FUNDEMPRESA] t=  93.6s | pag= 88 | files= 196 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/1/
+[RETRY_10_FUNDEMPRESA] t=  94.5s | pag= 88 | files= 196 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/4/
+[RETRY_10_FUNDEMPRESA] t=  96.2s | pag= 89 | files= 196 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/tramite21/
+[RETRY_10_FUNDEMPRESA] t=  96.7s | pag= 90 | files= 196 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/tramite22/
+[RETRY_10_FUNDEMPRESA] t=  97.4s | pag= 91 | files= 196 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/tramite23/
+[RETRY_10_FUNDEMPRESA] t=  98.1s | pag= 92 | files= 196 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/tramite24/
+[RETRY_10_FUNDEMPRESA] t=  98.8s | pag= 93 | files= 196 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/tramite25/
+[RETRY_10_FUNDEMPRESA] t=  99.6s | pag= 94 | files= 196 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/tramite26/
+[RETRY_10_FUNDEMPRESA] t= 100.3s | pag= 95 | files= 196 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/tramite27/
+[RETRY_10_FUNDEMPRESA] t= 100.9s | pag= 96 | files= 196 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/tramite28/
+[RETRY_10_FUNDEMPRESA] t= 101.7s | pag= 97 | files= 196 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/tramite29/
+[RETRY_10_FUNDEMPRESA] t= 102.5s | pag= 98 | files= 196 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/tramite30/
+[RETRY_10_FUNDEMPRESA] t= 103.3s | pag= 99 | files= 196 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/5/
+[RETRY_10_FUNDEMPRESA] t= 104.2s | pag=100 | files= 196 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/tramite61/
+[RETRY_10_FUNDEMPRESA] t= 104.8s | pag=101 | files= 196 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/tramite62/
+[RETRY_10_FUNDEMPRESA] t= 105.6s | pag=102 | files= 196 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/page/6/
+[RETRY_10_FUNDEMPRESA] t= 106.3s | pag=103 | files= 196 | data=  1 | cola=  57 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-destaca-el-aporte-emprendedor-del-departamento-de-potosi-en-conmemoracion-a-su-aniversario/
+[RETRY_10_FUNDEMPRESA] t= 107.0s | pag=104 | files= 196 | data=  1 | cola=  56 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-recibe-el-sello-de-inclusividad-por-promover-la-insercion-laboral-de-tutores-y-de-personas-con-discapacidad/
+[RETRY_10_FUNDEMPRESA] t= 107.8s | pag=105 | files= 196 | data=  1 | cola=  55 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/aplicacion-movil-del-seprec-facilita-el-acceso-digital-a-servicios-empresariales/
+[RETRY_10_FUNDEMPRESA] t= 108.5s | pag=106 | files= 196 | data=  1 | cola=  54 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-mantiene-costos-accesibles-y-estables-desde-el-inicio-de-sus-operaciones-promoviendo-la-formalizacion-empresarial-en-bolivia/
+[RETRY_10_FUNDEMPRESA] t= 109.3s | pag=107 | files= 196 | data=  1 | cola=  53 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-capacita-a-municipios-de-sipe-sipe-filadelfia-y-sorocachi-sobre-la-creacion-e-inscripcion-de-empresas-publicas/
+[RETRY_10_FUNDEMPRESA] t= 109.9s | pag=108 | files= 196 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/obras-para-el-desarrollo-entregan-65-viviendas-y-enlosetado-en-tika-belen-y-romero-pampa-oruro/
+[RETRY_10_FUNDEMPRESA] t= 110.5s | pag=109 | files= 196 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-refuerza-su-rol-empresarial-con-formacion-en-la-vuce/
+[RETRY_10_FUNDEMPRESA] t= 111.2s | pag=110 | files= 196 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-garantiza-costos-reducidos-y-tramites-gratuitos-para-promover-la-formalizacion-empresarial/
+[RETRY_10_FUNDEMPRESA] t= 111.9s | pag=111 | files= 196 | data=  1 | cola=  49 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/pando-registra-4-437-inscripciones-empresariales-en-las-ultimas-dos-decadas-y-consolida-su-aporte-al-desarrollo-del-pais/
+[RETRY_10_FUNDEMPRESA] t= 112.7s | pag=112 | files= 196 | data=  1 | cola=  48 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/santa-cruz-concentra-el-299-de-las-empresas-registradas-en-la-base-empresarial-del-seprec/
+[RETRY_10_FUNDEMPRESA] t= 113.9s | pag=113 | files= 196 | data=  1 | cola=  47 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/page/1/
+[RETRY_10_FUNDEMPRESA] t= 115.0s | pag=113 | files= 196 | data=  1 | cola=  46 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/bolivia-participo-en-la-xix-edicion-de-la-convencion-y-feria-internacional-informatica-2024-y-el-iv-encuentro-nacional-sobre-observatorios-de-ciencia-tecnologia-e-innovacion-en-la-habana-cuba/
+[RETRY_10_FUNDEMPRESA] t= 117.0s | pag=114 | files= 196 | data=  1 | cola=  45 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/la-agetic-lleva-adelante-su-rendicion-publica-de-cuentas-inicial-2024/
+[RETRY_10_FUNDEMPRESA] t= 118.1s | pag=115 | files= 196 | data=  1 | cola=  44 | prio=50 | https://www.seprec.gob.bo/index.php/nota_prensa/el-ministerio-de-la-presidencia-y-la-agetic-conmemoran-el-8m-con-una-nuevageneracion-de-ninas-y-adolescentes-en-la-ciencia-y-la-tecnologia/
+[RETRY_10_FUNDEMPRESA] t= 119.0s | pag=116 | files= 196 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/leyes-2/page/1/
+[RETRY_10_FUNDEMPRESA] t= 120.1s | pag=116 | files= 196 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/1/
+[RETRY_10_FUNDEMPRESA] t= 122.1s | pag=116 | files= 196 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/4/
+[RETRY_10_FUNDEMPRESA] t= 124.1s | pag=117 | files= 206 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/normativa-interna/page/5/
+[RETRY_10_FUNDEMPRESA] t= 124.9s | pag=118 | files= 216 | data=  1 | cola=  39 | prio=50 | https://www.seprec.gob.bo/index.php/reglamentos-especificos/page/1/
+[RETRY_10_FUNDEMPRESA] t= 125.9s | pag=118 | files= 216 | data=  1 | cola=  38 | prio=50 | https://www.seprec.gob.bo/index.php/tramite31/
+[RETRY_10_FUNDEMPRESA] t= 127.8s | pag=119 | files= 216 | data=  1 | cola=  37 | prio=50 | https://www.seprec.gob.bo/index.php/tramite32/
+[RETRY_10_FUNDEMPRESA] t= 128.6s | pag=120 | files= 216 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/tramite33/
+[RETRY_10_FUNDEMPRESA] t= 129.4s | pag=121 | files= 216 | data=  1 | cola=  35 | prio=50 | https://www.seprec.gob.bo/index.php/tramite34/
+[RETRY_10_FUNDEMPRESA] t= 130.3s | pag=122 | files= 216 | data=  1 | cola=  34 | prio=50 | https://www.seprec.gob.bo/index.php/tramite35/
+[RETRY_10_FUNDEMPRESA] t= 131.1s | pag=123 | files= 216 | data=  1 | cola=  33 | prio=50 | https://www.seprec.gob.bo/index.php/tramite36/
+[RETRY_10_FUNDEMPRESA] t= 131.8s | pag=124 | files= 216 | data=  1 | cola=  32 | prio=50 | https://www.seprec.gob.bo/index.php/tramite37/
+[RETRY_10_FUNDEMPRESA] t= 132.6s | pag=125 | files= 216 | data=  1 | cola=  31 | prio=50 | https://www.seprec.gob.bo/index.php/tramite38/
+[RETRY_10_FUNDEMPRESA] t= 133.3s | pag=126 | files= 216 | data=  1 | cola=  30 | prio=50 | https://www.seprec.gob.bo/index.php/tramite39/
+[RETRY_10_FUNDEMPRESA] t= 134.1s | pag=127 | files= 216 | data=  1 | cola=  29 | prio=50 | https://www.seprec.gob.bo/index.php/tramite40/
+[RETRY_10_FUNDEMPRESA] t= 134.9s | pag=128 | files= 216 | data=  1 | cola=  28 | prio=50 | https://www.seprec.gob.bo/index.php/tramite41/
+[RETRY_10_FUNDEMPRESA] t= 135.8s | pag=129 | files= 216 | data=  1 | cola=  27 | prio=50 | https://www.seprec.gob.bo/index.php/tramite42/
+[RETRY_10_FUNDEMPRESA] t= 136.7s | pag=130 | files= 216 | data=  1 | cola=  26 | prio=50 | https://www.seprec.gob.bo/index.php/tramite43/
+[RETRY_10_FUNDEMPRESA] t= 137.4s | pag=131 | files= 216 | data=  1 | cola=  25 | prio=50 | https://www.seprec.gob.bo/index.php/tramite44/
+[RETRY_10_FUNDEMPRESA] t= 138.2s | pag=132 | files= 216 | data=  1 | cola=  24 | prio=50 | https://www.seprec.gob.bo/index.php/tramite45/
+[RETRY_10_FUNDEMPRESA] t= 138.9s | pag=133 | files= 216 | data=  1 | cola=  23 | prio=50 | https://www.seprec.gob.bo/index.php/tramite46/
+[RETRY_10_FUNDEMPRESA] t= 139.6s | pag=134 | files= 216 | data=  1 | cola=  22 | prio=50 | https://www.seprec.gob.bo/index.php/tramite47/
+[RETRY_10_FUNDEMPRESA] t= 140.5s | pag=135 | files= 216 | data=  1 | cola=  21 | prio=50 | https://www.seprec.gob.bo/index.php/tramite48/
+[RETRY_10_FUNDEMPRESA] t= 141.3s | pag=136 | files= 216 | data=  1 | cola=  20 | prio=50 | https://www.seprec.gob.bo/index.php/tramite49/
+[RETRY_10_FUNDEMPRESA] t= 142.1s | pag=137 | files= 216 | data=  1 | cola=  19 | prio=50 | https://www.seprec.gob.bo/index.php/tramite50/
+[RETRY_10_FUNDEMPRESA] t= 143.0s | pag=138 | files= 216 | data=  1 | cola=  18 | prio=50 | https://www.seprec.gob.bo/index.php/tramite52/
+[RETRY_10_FUNDEMPRESA] t= 143.8s | pag=139 | files= 216 | data=  1 | cola=  17 | prio=50 | https://www.seprec.gob.bo/index.php/tramite54/
+[RETRY_10_FUNDEMPRESA] t= 144.7s | pag=140 | files= 216 | data=  1 | cola=  16 | prio=50 | https://www.seprec.gob.bo/index.php/tramite55/
+[RETRY_10_FUNDEMPRESA] t= 145.6s | pag=141 | files= 216 | data=  1 | cola=  15 | prio=50 | https://www.seprec.gob.bo/index.php/tramite56/
+[RETRY_10_FUNDEMPRESA] t= 146.4s | pag=142 | files= 216 | data=  1 | cola=  14 | prio=50 | https://www.seprec.gob.bo/index.php/tramite57/
+[RETRY_10_FUNDEMPRESA] t= 147.1s | pag=143 | files= 216 | data=  1 | cola=  13 | prio=50 | https://www.seprec.gob.bo/index.php/tramite58/
+[RETRY_10_FUNDEMPRESA] t= 147.9s | pag=144 | files= 216 | data=  1 | cola=  12 | prio=50 | https://www.seprec.gob.bo/index.php/tramite59/
+[RETRY_10_FUNDEMPRESA] t= 148.6s | pag=145 | files= 216 | data=  1 | cola=  11 | prio=50 | https://www.seprec.gob.bo/index.php/tramite60/
+[RETRY_10_FUNDEMPRESA] t= 149.4s | pag=146 | files= 216 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/
+[RETRY_10_FUNDEMPRESA] t= 150.2s | pag=147 | files= 216 | data=  1 | cola=   9 | prio=70 | https://www.seprec.gob.bo/index.php/formulario-de-contacto/
+[RETRY_10_FUNDEMPRESA] t= 151.0s | pag=148 | files= 216 | data=  1 | cola=   8 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/
+[RETRY_10_FUNDEMPRESA] t= 151.9s | pag=149 | files= 216 | data=  1 | cola=  19 | prio=10 | https://www.seprec.gob.bo/index.php/galeria/seprec-recibe-certificacion-iso-90012015-de-ibnorca/
+[RETRY_10_FUNDEMPRESA] t= 152.8s | pag=150 | files= 216 | data=  1 | cola=  18 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-de-videos/
+[RETRY_10_FUNDEMPRESA] t= 153.6s | pag=151 | files= 216 | data=  1 | cola=  17 | prio=70 | https://www.seprec.gob.bo/index.php/nomina-de-autoridades/
+[RETRY_10_FUNDEMPRESA] t= 154.5s | pag=152 | files= 217 | data=  1 | cola=  16 | prio=70 | https://www.seprec.gob.bo/index.php/campania/beneficiario-final/
+[RETRY_10_FUNDEMPRESA] t= 155.2s | pag=153 | files= 217 | data=  1 | cola=  15 | prio=70 | https://www.seprec.gob.bo/index.php/campania/renovaciones-2025/
+[RETRY_10_FUNDEMPRESA] t= 156.0s | pag=154 | files= 217 | data=  1 | cola=  14 | prio=70 | https://www.seprec.gob.bo/index.php/campania/renovaciones-2024/
+[RETRY_10_FUNDEMPRESA] t= 156.8s | pag=155 | files= 217 | data=  1 | cola=  13 | prio=70 | https://www.seprec.gob.bo/index.php/campania/lorem-campana-3/
+[RETRY_10_FUNDEMPRESA] t= 157.6s | pag=156 | files= 217 | data=  1 | cola=  12 | prio=70 | https://www.seprec.gob.bo/index.php/campania/lorem-campana-2/
+[RETRY_10_FUNDEMPRESA] t= 158.5s | pag=157 | files= 217 | data=  1 | cola=  11 | prio=70 | https://www.seprec.gob.bo/index.php/campania/campana-covid/
+[RETRY_10_FUNDEMPRESA] t= 159.4s | pag=158 | files= 217 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-y-el-bid-en-reunion-internacional/
+[RETRY_10_FUNDEMPRESA] t= 160.3s | pag=159 | files= 217 | data=  1 | cola=   9 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-estuvo-presente-en-la-feria-universitaria-de-la-upds-en-tarija-promoviendo-la-formalizacion-empresarial-y-el-emprendimiento/
+[RETRY_10_FUNDEMPRESA] t= 161.0s | pag=160 | files= 217 | data=  1 | cola=   8 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-fortalece-la-formacion-de-futuros-profesionales/
+[RETRY_10_FUNDEMPRESA] t= 161.8s | pag=161 | files= 217 | data=  1 | cola=   7 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-fortalece-el-dialogo-con-el-sector-empresarial-se-sostuvo-una-reunion-de-coordinacion-con-miembros-de-cabolcorp-para-analizar-propuestas-orientadas-al-mejoramiento-de-los-procedimientos-regis/
+[RETRY_10_FUNDEMPRESA] t= 162.8s | pag=162 | files= 217 | data=  1 | cola=   6 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-y-cablock-impulsan-la-innovacion-tecnologica/
+[RETRY_10_FUNDEMPRESA] t= 163.6s | pag=163 | files= 217 | data=  1 | cola=   5 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-presente-en-la-feria-interinstitucional-multiservicios-en-trinidad/
+[RETRY_10_FUNDEMPRESA] t= 164.4s | pag=164 | files= 217 | data=  1 | cola=   4 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-y-ministerio-de-trabajo-avanzan-en-acciones-de-interoperabilidad-para-optimizar-procesos-modernizar-la-atencion-y-brindar-servicios-mas-agiles-y-eficientes-a-la-ciudadania-y-al-sector-empresar/
+[RETRY_10_FUNDEMPRESA] t= 165.1s | pag=165 | files= 217 | data=  1 | cola=   3 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-presente-en-el-seminario-como-crear-una-empresa-en-bolivia/
+[RETRY_10_FUNDEMPRESA] t= 165.9s | pag=166 | files= 217 | data=  1 | cola=   2 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-aemp-uif-caulp-impulsan-el-primer-ciclo-de-capacitaciones-sobre-beneficiario-final-en-el-marco-de-las-recomendaciones-del-gafi/
+[RETRY_10_FUNDEMPRESA] t= 166.7s | pag=167 | files= 217 | data=  1 | cola=   1 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/page/2/
+[RETRY_10_FUNDEMPRESA] t= 167.6s | pag=168 | files= 217 | data=  1 | cola=  11 | prio=10 | https://www.seprec.gob.bo/index.php/galeria/recepcion-de-datos-fundempresa/
+[RETRY_10_FUNDEMPRESA] t= 168.3s | pag=169 | files= 217 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/page/3/
+[RETRY_10_FUNDEMPRESA] t= 169.1s | pag=170 | files= 217 | data=  1 | cola=  11 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/alianzas-que-impulsan-el-desarrollo-empresarial-trabajamos-junto-al-colegio-de-contadores-para-fortalecer-la-formalizacion-y-brindar-mayor-seguridad-juridica-empresarial-en-el-pais/
+[RETRY_10_FUNDEMPRESA] t= 170.0s | pag=171 | files= 217 | data=  1 | cola=  10 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/bolivia-produce-seprec-presente-en-la-inauguracion-de-la-feria-bolivia-produce-fomentando-el-emprendimiento-y-el-desarrollo-productivo-del-pais/
+[RETRY_10_FUNDEMPRESA] t= 170.8s | pag=172 | files= 217 | data=  1 | cola=   9 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-dirnoplu-impulsando-la-modernizacion-institucional/
+[RETRY_10_FUNDEMPRESA] t= 171.5s | pag=173 | files= 217 | data=  1 | cola=   8 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-recibe-el-sello-de-inclusividad-por-promover-la-insercion-laboral-de-tutores-y-de-personas-con-discapacidad/
+[RETRY_10_FUNDEMPRESA] t= 172.4s | pag=174 | files= 217 | data=  1 | cola=   7 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/servicio-social-comunitario-descolonizador-y-despatriarcalizador-en-la-muela-del-diablo-comunidad-de-chiaraque/
+[RETRY_10_FUNDEMPRESA] t= 173.8s | pag=175 | files= 217 | data=  1 | cola=   6 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/rendicion-de-cuentas-inicial-2024/
+[RETRY_10_FUNDEMPRESA] t= 174.6s | pag=176 | files= 217 | data=  1 | cola=   5 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/rendicion-de-cuentas-inicial-2023/
+[RETRY_10_FUNDEMPRESA] t= 175.6s | pag=177 | files= 217 | data=  1 | cola=   4 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/seprec-servidores-participaran-en-el-censo-nacional-2024/
+[RETRY_10_FUNDEMPRESA] t= 176.5s | pag=178 | files= 217 | data=  1 | cola=   3 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/inicio-de-actividades/
+[RETRY_10_FUNDEMPRESA] t= 177.3s | pag=179 | files= 217 | data=  1 | cola=   2 | prio=70 | https://www.seprec.gob.bo/index.php/galeria-multimedia/page/1/
+[RETRY_10_FUNDEMPRESA] t= 178.4s | pag=179 | files= 217 | data=  1 | cola=   1 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/galeria-congreso-agetic-2024/
+[RETRY_10_FUNDEMPRESA] t= 180.0s | pag=180 | files= 217 | data=  1 | cola=   0 | prio=70 | https://www.seprec.gob.bo/index.php/galeria/8171/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_10_fundempresa
+P�ginas visitadas:   181
+Archivos encontrados:  217
+Datasets web:         1
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duraci�n:             180.57 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 217
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_10_fundempresa.json
+
+Trazabilidad:
+  Ejecuci�n: 103
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

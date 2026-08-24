@@ -1,0 +1,261 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Desarrollo Rural y Tierras - OAP
+URL configurada: https://www.ruralytierras.gob.bo
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Original: https://www.ruralytierras.gob.bo
+  Utilizada: https://ruralytierras.gob.bo/
+  Fallback: sí
+  Intentos: 2
+    - http_error     | HTTP=500 | https://www.ruralytierras.gob.bo/
+    - usable         | HTTP=200 | https://ruralytierras.gob.bo/
+
+URL de trabajo: https://ruralytierras.gob.bo/
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_38_MDRYT_OAP] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://ruralytierras.gob.bo/
+[FULL_38_MDRYT_OAP] t=   1.6s | pag=  1 | files=   2 | data=  0 | cola=  54 | prio=10 | https://ruralytierras.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/
+[FULL_38_MDRYT_OAP] t=   1.9s | pag=  2 | files=   2 | data=  0 | cola=  53 | prio=10 | https://ruralytierras.gob.bo/index.php/pei-descargable/
+[FULL_38_MDRYT_OAP] t=   2.3s | pag=  3 | files=   2 | data=  0 | cola=  52 | prio=10 | https://ruralytierras.gob.bo/index.php/datos/
+[FULL_38_MDRYT_OAP] DATASETS=1 | data_html_table | https://ruralytierras.gob.bo/index.php/datos/
+[FULL_38_MDRYT_OAP] t=   2.8s | pag=  4 | files=   2 | data=  1 | cola=  51 | prio=10 | https://ruralytierras.gob.bo/index.php/informes-de-viaje-al-exterior/
+[FULL_38_MDRYT_OAP] t=   3.3s | pag=  5 | files=   2 | data=  1 | cola=  50 | prio=50 | https://ruralytierras.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/
+[FULL_38_MDRYT_OAP] t=   3.8s | pag=  6 | files=   2 | data=  1 | cola=  49 | prio=50 | https://ruralytierras.gob.bo/index.php/memoria-intitucional/
+[FULL_38_MDRYT_OAP] t=   4.3s | pag=  7 | files=   3 | data=  1 | cola=  48 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
+[FULL_38_MDRYT_OAP] t=   4.8s | pag=  8 | files=   7 | data=  1 | cola=  47 | prio=50 | https://ruralytierras.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/
+[FULL_38_MDRYT_OAP] t=   5.3s | pag=  9 | files=   8 | data=  1 | cola=  46 | prio=50 | https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/
+[FULL_38_MDRYT_OAP] t=   5.8s | pag= 10 | files=  11 | data=  1 | cola=  45 | prio=50 | https://ruralytierras.gob.bo/index.php/17068-2/
+[FULL_38_MDRYT_OAP] t=   6.3s | pag= 11 | files=  11 | data=  1 | cola=  45 | prio=50 | https://ruralytierras.gob.bo/index.php/formulario-de-solicitud-de-informacion/
+[FULL_38_MDRYT_OAP] t=   6.7s | pag= 12 | files=  11 | data=  1 | cola=  44 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-tramites-page/
+[FULL_38_MDRYT_OAP] t=   7.2s | pag= 13 | files=  11 | data=  1 | cola=  43 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-servicios-page/
+[FULL_38_MDRYT_OAP] t=   7.7s | pag= 14 | files=  11 | data=  1 | cola=  45 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-comunicados-page/
+[FULL_38_MDRYT_OAP] t=   8.2s | pag= 15 | files=  11 | data=  1 | cola=  44 | prio=50 | https://ruralytierras.gob.bo/index.php/comunicados-de-prensa/
+[FULL_38_MDRYT_OAP] t=   8.7s | pag= 16 | files=  11 | data=  1 | cola=  48 | prio=50 | https://ruralytierras.gob.bo/index.php/normativa-externa/
+[FULL_38_MDRYT_OAP] t=   9.0s | pag= 17 | files=  20 | data=  1 | cola=  49 | prio=50 | https://ruralytierras.gob.bo/index.php/normativa-interna/
+[FULL_38_MDRYT_OAP] t=   9.5s | pag= 18 | files=  20 | data=  1 | cola=  48 | prio=50 | https://ruralytierras.gob.bo/index.php/personal/
+[FULL_38_MDRYT_OAP] t=   9.9s | pag= 19 | files=  20 | data=  1 | cola=  47 | prio=50 | https://ruralytierras.gob.bo/index.php/nomina-de-servidores-publicos/
+[FULL_38_MDRYT_OAP] t=  10.4s | pag= 20 | files=  20 | data=  1 | cola=  49 | prio=50 | https://ruralytierras.gob.bo/index.php/escala-salarial/
+[FULL_38_MDRYT_OAP] t=  10.9s | pag= 21 | files=  22 | data=  1 | cola=  48 | prio=50 | https://ruralytierras.gob.bo/index.php/manual-de-organizacion/
+[FULL_38_MDRYT_OAP] t=  11.4s | pag= 22 | files=  23 | data=  1 | cola=  47 | prio=50 | https://ruralytierras.gob.bo/index.php/poais/
+[FULL_38_MDRYT_OAP] t=  11.9s | pag= 23 | files=  27 | data=  1 | cola=  46 | prio=50 | https://ruralytierras.gob.bo/index.php/manuales-de-procedimiento/
+[FULL_38_MDRYT_OAP] t=  12.4s | pag= 24 | files=  28 | data=  1 | cola=  45 | prio=50 | https://ruralytierras.gob.bo/index.php/contrataciones/
+[FULL_38_MDRYT_OAP] t=  12.9s | pag= 25 | files=  28 | data=  1 | cola=  44 | prio=50 | https://ruralytierras.gob.bo/index.php/listado-de-convocatorias-vigentes-de-bienes-y-servicios/
+[FULL_38_MDRYT_OAP] t=  13.3s | pag= 26 | files=  28 | data=  1 | cola=  46 | prio=50 | https://ruralytierras.gob.bo/index.php/contratos/
+[FULL_38_MDRYT_OAP] t=  13.8s | pag= 27 | files=  28 | data=  1 | cola=  45 | prio=50 | https://ruralytierras.gob.bo/index.php/proveedores/
+[FULL_38_MDRYT_OAP] t=  14.3s | pag= 28 | files=  28 | data=  1 | cola=  47 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-direcciones-page/
+[FULL_38_MDRYT_OAP] t=  14.7s | pag= 29 | files=  28 | data=  1 | cola=  46 | prio=50 | https://ruralytierras.gob.bo/index.php/enlaces-de-interes/
+[FULL_38_MDRYT_OAP] t=  15.1s | pag= 30 | files=  28 | data=  1 | cola=  46 | prio=50 | https://correo.ruralytierras.gob.bo/
+[FULL_38_MDRYT_OAP] t=  15.3s | pag= 30 | files=  28 | data=  1 | cola=  45 | prio=50 | http://sigeconsultas.ruralytierras.gob.bo/
+[FULL_38_MDRYT_OAP] t=  25.8s | pag= 30 | files=  28 | data=  1 | cola=  44 | prio=50 | http://sigec.ruralytierras.gob.bo/
+[FULL_38_MDRYT_OAP] t=  36.2s | pag= 30 | files=  28 | data=  1 | cola=  43 | prio=50 | http://sicop.ruralytierras.gob.bo/
+[FULL_38_MDRYT_OAP] t=  46.7s | pag= 30 | files=  28 | data=  1 | cola=  42 | prio=50 | http://sial.ruralytierras.gob.bo/
+[FULL_38_MDRYT_OAP] t=  57.1s | pag= 30 | files=  28 | data=  1 | cola=  41 | prio=50 | https://ruralytierras.gob.bo/index.php/2024/03/28/hola-mundo/
+[FULL_38_MDRYT_OAP] t=  58.9s | pag= 31 | files=  28 | data=  1 | cola=  40 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/sanidad-agropecuaria-e-inocuidad-alimentaria/
+[FULL_38_MDRYT_OAP] t=  59.2s | pag= 32 | files=  28 | data=  1 | cola=  40 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/tecnologia-infraestructura-y-servicios-rurales-2/
+[FULL_38_MDRYT_OAP] t=  59.6s | pag= 33 | files=  28 | data=  1 | cola=  39 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/tecnologia-infraestructura-y-servicios-rurales/
+[FULL_38_MDRYT_OAP] t=  60.1s | pag= 34 | files=  28 | data=  1 | cola=  38 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/financiamiento-y-apoyo-a-la-produccion-4/
+[FULL_38_MDRYT_OAP] t=  60.4s | pag= 35 | files=  28 | data=  1 | cola=  37 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17633/
+[FULL_38_MDRYT_OAP] t=  60.9s | pag= 36 | files=  28 | data=  1 | cola=  36 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17632/
+[FULL_38_MDRYT_OAP] t=  61.5s | pag= 37 | files=  28 | data=  1 | cola=  35 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17631/
+[FULL_38_MDRYT_OAP] t=  61.9s | pag= 38 | files=  28 | data=  1 | cola=  34 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17629/
+[FULL_38_MDRYT_OAP] t=  62.3s | pag= 39 | files=  28 | data=  1 | cola=  33 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17628/
+[FULL_38_MDRYT_OAP] t=  62.8s | pag= 40 | files=  28 | data=  1 | cola=  32 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17627/
+[FULL_38_MDRYT_OAP] t=  63.3s | pag= 41 | files=  28 | data=  1 | cola=  31 | prio=50 | https://www.ruralytierras.gob.bo/index.php?in=6750
+[FULL_38_MDRYT_OAP] t=  65.0s | pag= 42 | files=  28 | data=  1 | cola=  30 | prio=50 | https://ruralytierras.gob.bo/index.php/terminos-y-condiciones/
+[FULL_38_MDRYT_OAP] t=  65.3s | pag= 43 | files=  28 | data=  1 | cola=  29 | prio=50 | https://ruralytierras.gob.bo/index.php/politica-privacidad/
+[FULL_38_MDRYT_OAP] DATASETS=2 | data_chart | https://ruralytierras.gob.bo/index.php/politica-privacidad/
+[FULL_38_MDRYT_OAP] t=  65.7s | pag= 44 | files=  28 | data=  2 | cola=  28 | prio=50 | https://ruralytierras.gob.bo/index.php/mapa-de-sitio/
+[FULL_38_MDRYT_OAP] DATASETS=3 | data_chart | https://ruralytierras.gob.bo/index.php/mapa-de-sitio/
+[FULL_38_MDRYT_OAP] t=  66.7s | pag= 45 | files=  28 | data=  3 | cola= 922 | prio=10 | https://ruralytierras.gob.bo/index.php/boletines/
+[FULL_38_MDRYT_OAP] t=  67.0s | pag= 46 | files=  28 | data=  3 | cola= 921 | prio=10 | https://ruralytierras.gob.bo/index.php/estadisticas/
+[FULL_38_MDRYT_OAP] t=  67.3s | pag= 47 | files=  28 | data=  3 | cola= 920 | prio=10 | https://ruralytierras.gob.bo/index.php/informes/
+[FULL_38_MDRYT_OAP] t=  67.8s | pag= 48 | files=  28 | data=  3 | cola= 919 | prio=10 | https://ruralytierras.gob.bo/index.php/informes-periodicos-sobre-el-avance-y-cumplimiento-de-los-contratos-adjudicados/
+[FULL_38_MDRYT_OAP] t=  68.2s | pag= 49 | files=  28 | data=  3 | cola= 918 | prio=10 | https://ruralytierras.gob.bo/index.php/reportes-de-estadisticas/
+[FULL_38_MDRYT_OAP] t=  68.6s | pag= 50 | files=  28 | data=  3 | cola= 917 | prio=10 | https://ruralytierras.gob.bo/index.php/convocatoria/20445/
+[FULL_38_MDRYT_OAP] t=  69.1s | pag= 51 | files=  28 | data=  3 | cola= 916 | prio=10 | https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/
+[FULL_38_MDRYT_OAP] DATASETS=4 | exportable_data_page | https://ruralytierras.gob.bo/index.php/datos/tecnologia-1/
+[FULL_38_MDRYT_OAP] t=  69.7s | pag= 52 | files=  28 | data=  4 | cola= 915 | prio=10 | https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00089-2025-rendicion-publica-de-cuentas-inicial-2025/
+[FULL_38_MDRYT_OAP] t=  70.1s | pag= 53 | files=  28 | data=  4 | cola= 914 | prio=10 | https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00026-2025-rendicion-publica-de-cuentas-final-2024/
+[FULL_38_MDRYT_OAP] t=  70.4s | pag= 54 | files=  28 | data=  4 | cola= 913 | prio=10 | https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-0034-2024-rendicion-publica-de-cuentas-inicial-2024/
+[FULL_38_MDRYT_OAP] t=  70.9s | pag= 55 | files=  28 | data=  4 | cola= 912 | prio=10 | https://ruralytierras.gob.bo/index.php/viaje/lorem-titulo-del-informe-de-viaje-al-exterior/
+[FULL_38_MDRYT_OAP] t=  71.3s | pag= 56 | files=  28 | data=  4 | cola= 911 | prio=10 | https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/
+[FULL_38_MDRYT_OAP] DATASETS=5 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/
+[FULL_38_MDRYT_OAP] t=  71.8s | pag= 57 | files=  28 | data=  5 | cola= 910 | prio=10 | https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/
+[FULL_38_MDRYT_OAP] DATASETS=6 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/
+[FULL_38_MDRYT_OAP] t=  72.2s | pag= 58 | files=  28 | data=  6 | cola= 909 | prio=10 | https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/
+[FULL_38_MDRYT_OAP] DATASETS=7 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/
+[FULL_38_MDRYT_OAP] t=  72.7s | pag= 59 | files=  28 | data=  7 | cola= 908 | prio=10 | https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/
+[FULL_38_MDRYT_OAP] DATASETS=8 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/
+[FULL_38_MDRYT_OAP] t=  73.2s | pag= 60 | files=  28 | data=  8 | cola= 907 | prio=10 | https://ruralytierras.gob.bo/index.php/boletin/16876/
+[FULL_38_MDRYT_OAP] t=  73.7s | pag= 61 | files=  28 | data=  8 | cola= 906 | prio=10 | https://ruralytierras.gob.bo/index.php/boletin/lorem-boletin-informativo-lorem/
+[FULL_38_MDRYT_OAP] t=  74.2s | pag= 62 | files=  28 | data=  8 | cola= 905 | prio=10 | https://ruralytierras.gob.bo/index.php/boletin/boletin-informativo/
+[FULL_38_MDRYT_OAP] t=  74.6s | pag= 63 | files=  28 | data=  8 | cola= 904 | prio=10 | https://ruralytierras.gob.bo/index.php/servidor_publico/apaza-mercado-efrain/
+[FULL_38_MDRYT_OAP] DATASETS=9 | exportable_data_page | https://ruralytierras.gob.bo/index.php/servidor_publico/apaza-mercado-efrain/
+[FULL_38_MDRYT_OAP] t=  75.0s | pag= 64 | files=  28 | data=  9 | cola= 903 | prio=10 | https://ruralytierras.gob.bo/index.php/servidor_publico/mercado-miranda-gonzalo-wilson/
+[FULL_38_MDRYT_OAP] DATASETS=10 | exportable_data_page | https://ruralytierras.gob.bo/index.php/servidor_publico/mercado-miranda-gonzalo-wilson/
+[FULL_38_MDRYT_OAP] t=  75.4s | pag= 65 | files=  28 | data= 10 | cola= 902 | prio=10 | https://ruralytierras.gob.bo/index.php/servidor_publico/banegas-mercado-jesus-gabriel/
+[FULL_38_MDRYT_OAP] t=  75.9s | pag= 66 | files=  28 | data= 11 | cola= 901 | prio=10 | https://ruralytierras.gob.bo/index.php/servidor_publico/lucana-mercado-dayana/
+[FULL_38_MDRYT_OAP] t=  76.3s | pag= 67 | files=  28 | data= 12 | cola= 900 | prio=50 | https://ruralytierras.gob.bo/index.php/formulario-de-denuncias/
+[FULL_38_MDRYT_OAP] t=  76.6s | pag= 68 | files=  28 | data= 12 | cola= 899 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/financiamiento-y-apoyo-a-la-produccion-2/
+[FULL_38_MDRYT_OAP] t=  77.1s | pag= 69 | files=  28 | data= 12 | cola= 898 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/financiamiento-y-apoyo-a-la-produccion/
+[FULL_38_MDRYT_OAP] t=  77.5s | pag= 70 | files=  28 | data= 12 | cola= 897 | prio=50 | https://ruralytierras.gob.bo/index.php/servicio/gestion-y-acceso-a-la-tierra/
+[FULL_38_MDRYT_OAP] t=  77.9s | pag= 71 | files=  28 | data= 12 | cola= 896 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17625/
+[FULL_38_MDRYT_OAP] t=  78.4s | pag= 72 | files=  28 | data= 12 | cola= 895 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17624/
+[FULL_38_MDRYT_OAP] t=  78.9s | pag= 73 | files=  28 | data= 12 | cola= 894 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/17626/
+[FULL_38_MDRYT_OAP] t=  79.2s | pag= 74 | files=  28 | data= 12 | cola= 893 | prio=50 | https://ruralytierras.gob.bo/index.php/nota_prensa/en-tarija-acuerdan-concluir-este-ano-el-saneamiento-en-carapari/
+[FULL_38_MDRYT_OAP] t=  79.6s | pag= 75 | files=  28 | data= 12 | cola= 892 | prio=50 | https://ruralytierras.gob.bo/index.php/comunicados-de-prensa/page/2/
+[FULL_38_MDRYT_OAP] t=  80.2s | pag= 76 | files=  28 | data= 12 | cola= 892 | prio=50 | https://ruralytierras.gob.bo/index.php/normativa-externa/page/2/
+[FULL_38_MDRYT_OAP] t=  80.6s | pag= 77 | files=  38 | data= 12 | cola= 892 | prio=50 | https://ruralytierras.gob.bo/index.php/normativa-externa/page/3/
+[FULL_38_MDRYT_OAP] t=  81.2s | pag= 78 | files=  42 | data= 12 | cola= 891 | prio=50 | https://ruralytierras.gob.bo/index.php/nomina-de-servidores-publicos/page/2/
+[FULL_38_MDRYT_OAP] t=  81.6s | pag= 79 | files=  42 | data= 12 | cola= 892 | prio=50 | https://ruralytierras.gob.bo/index.php/nomina-de-servidores-publicos/page/3/
+[FULL_38_MDRYT_OAP] t=  82.0s | pag= 80 | files=  42 | data= 12 | cola= 892 | prio=50 | https://ruralytierras.gob.bo/index.php/nomina-de-servidores-publicos/page/55/
+[FULL_38_MDRYT_OAP] t=  82.5s | pag= 81 | files=  42 | data= 12 | cola= 893 | prio=50 | https://ruralytierras.gob.bo/index.php/listado-de-convocatorias-vigentes-de-bienes-y-servicios/page/2/
+[FULL_38_MDRYT_OAP] t=  82.9s | pag= 82 | files=  42 | data= 12 | cola= 894 | prio=50 | https://ruralytierras.gob.bo/index.php/listado-de-convocatorias-vigentes-de-bienes-y-servicios/page/3/
+[FULL_38_MDRYT_OAP] t=  83.3s | pag= 83 | files=  42 | data= 12 | cola= 894 | prio=50 | https://ruralytierras.gob.bo/index.php/listado-de-convocatorias-vigentes-de-bienes-y-servicios/page/7/
+[FULL_38_MDRYT_OAP] t=  83.7s | pag= 84 | files=  42 | data= 12 | cola= 894 | prio=50 | https://ruralytierras.gob.bo/index.php/proveedores/page/2/
+[FULL_38_MDRYT_OAP] t=  84.2s | pag= 85 | files=  42 | data= 12 | cola= 895 | prio=50 | https://ruralytierras.gob.bo/index.php/proveedores/page/3/
+[FULL_38_MDRYT_OAP] t=  84.6s | pag= 86 | files=  42 | data= 12 | cola= 895 | prio=50 | https://ruralytierras.gob.bo/index.php/proveedores/page/10/
+[FULL_38_MDRYT_OAP] t=  85.0s | pag= 87 | files=  42 | data= 12 | cola= 896 | prio=50 | https://ruralytierras.gob.bo/index.php/enlaces-de-interes/page/2/
+[FULL_38_MDRYT_OAP] t=  85.5s | pag= 88 | files=  42 | data= 12 | cola= 896 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-servicios-page
+[FULL_38_MDRYT_OAP] t=  86.2s | pag= 88 | files=  42 | data= 12 | cola= 895 | prio=50 | https://ruralytierras.gob.bo/index.php/analisis-externo-oportunidades-y-amenazas/
+[FULL_38_MDRYT_OAP] t=  87.7s | pag= 89 | files=  42 | data= 12 | cola= 894 | prio=50 | https://ruralytierras.gob.bo/index.php/analisis-interno-fortalezas-y-debilidades/
+[FULL_38_MDRYT_OAP] t=  88.2s | pag= 90 | files=  42 | data= 12 | cola= 893 | prio=50 | https://ruralytierras.gob.bo/index.php/articulos/
+[FULL_38_MDRYT_OAP] t=  88.7s | pag= 91 | files=  42 | data= 12 | cola= 892 | prio=50 | https://ruralytierras.gob.bo/index.php/banco-de-trabajo-de-investigacion/
+[FULL_38_MDRYT_OAP] t=  89.1s | pag= 92 | files=  42 | data= 12 | cola= 891 | prio=50 | https://ruralytierras.gob.bo/index.php/campanas-y-actividades/
+[FULL_38_MDRYT_OAP] t=  89.6s | pag= 93 | files=  42 | data= 12 | cola= 890 | prio=50 | https://ruralytierras.gob.bo/index.php/componentes/
+[FULL_38_MDRYT_OAP] t=  90.0s | pag= 94 | files=  43 | data= 12 | cola= 889 | prio=50 | https://ruralytierras.gob.bo/index.php/cpe/
+[FULL_38_MDRYT_OAP] t=  90.3s | pag= 95 | files=  43 | data= 12 | cola= 888 | prio=50 | https://ruralytierras.gob.bo/index.php/cursos-de-capacitacion/
+[FULL_38_MDRYT_OAP] t=  90.9s | pag= 96 | files=  43 | data= 12 | cola= 887 | prio=50 | https://ruralytierras.gob.bo/index.php/decretos/
+[FULL_38_MDRYT_OAP] t=  91.3s | pag= 97 | files=  43 | data= 12 | cola= 886 | prio=50 | https://ruralytierras.gob.bo/index.php/dependencia/
+[FULL_38_MDRYT_OAP] t=  91.8s | pag= 98 | files=  43 | data= 12 | cola= 885 | prio=50 | https://ruralytierras.gob.bo/index.php/descripcion-de-convocatorias/
+[FULL_38_MDRYT_OAP] t=  92.3s | pag= 99 | files=  43 | data= 12 | cola= 884 | prio=50 | https://ruralytierras.gob.bo/index.php/descripcion-de-las-etapas-del-proceso-como-pruebas-escritas-entrevistas-evaluaciones-etc/
+[FULL_38_MDRYT_OAP] t=  92.8s | pag=100 | files=  43 | data= 12 | cola= 883 | prio=50 | https://ruralytierras.gob.bo/index.php/descripcion-de-proyectos/
+[FULL_38_MDRYT_OAP] t=  93.3s | pag=101 | files=  43 | data= 12 | cola= 882 | prio=50 | https://ruralytierras.gob.bo/index.php/direccion-de-correo-electronico-para-consultas-generales/
+[FULL_38_MDRYT_OAP] t=  93.7s | pag=102 | files=  43 | data= 12 | cola= 881 | prio=50 | https://ruralytierras.gob.bo/index.php/direcciones-de-la-oficina-central-y-oficinas-regionales/
+[FULL_38_MDRYT_OAP] t=  94.2s | pag=103 | files=  43 | data= 12 | cola= 880 | prio=50 | https://ruralytierras.gob.bo/index.php/documentos-de-convocatoria-2/
+[FULL_38_MDRYT_OAP] t=  94.7s | pag=104 | files=  43 | data= 12 | cola= 879 | prio=50 | https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-categoria-programatica/
+[FULL_38_MDRYT_OAP] t=  95.1s | pag=105 | files=  43 | data= 12 | cola= 878 | prio=50 | https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-fuente-de-financiamiento/
+[FULL_38_MDRYT_OAP] t=  95.6s | pag=106 | files=  43 | data= 12 | cola= 877 | prio=50 | https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-grupo-de-gasto/
+[FULL_38_MDRYT_OAP] t=  96.1s | pag=107 | files=  43 | data= 12 | cola= 876 | prio=50 | https://ruralytierras.gob.bo/index.php/ejecucion-presupuestaria-por-unidad-organizacional/
+[FULL_38_MDRYT_OAP] t=  96.6s | pag=108 | files=  43 | data= 12 | cola= 875 | prio=50 | https://ruralytierras.gob.bo/index.php/explicacion-del-proceso-de-seleccion-que-se-llevara-a-cabo-para-cubrir-las-vacantes/
+[FULL_38_MDRYT_OAP] t=  97.0s | pag=109 | files=  43 | data= 12 | cola= 874 | prio=50 | https://ruralytierras.gob.bo/index.php/formulario-de-inscripcion/
+[FULL_38_MDRYT_OAP] t=  97.5s | pag=110 | files=  43 | data= 12 | cola= 873 | prio=50 | https://ruralytierras.gob.bo/index.php/fotografias/
+[FULL_38_MDRYT_OAP] t=  98.0s | pag=111 | files=  43 | data= 12 | cola= 872 | prio=50 | https://ruralytierras.gob.bo/index.php/funciones-y-atribuciones/
+[FULL_38_MDRYT_OAP] t=  98.5s | pag=112 | files=  43 | data= 12 | cola= 871 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-herramientas-page/
+[FULL_38_MDRYT_OAP] t=  99.0s | pag=113 | files=  43 | data= 12 | cola= 870 | prio=50 | https://ruralytierras.gob.bo/index.php/horario-de-atencion-al-publico/
+[FULL_38_MDRYT_OAP] t=  99.6s | pag=114 | files=  43 | data= 12 | cola= 869 | prio=50 | https://ruralytierras.gob.bo/index.php/leyes/
+[FULL_38_MDRYT_OAP] t=  99.8s | pag=115 | files=  43 | data= 12 | cola= 868 | prio=50 | https://ruralytierras.gob.bo/index.php/linea-del-tiempo-que-muestra-las-fases-del-proceso-de-contratacion/
+[FULL_38_MDRYT_OAP] t= 100.3s | pag=116 | files=  43 | data= 12 | cola= 867 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-de-contratos-adjudicados-de-bienes/
+[FULL_38_MDRYT_OAP] t= 100.9s | pag=117 | files=  43 | data= 12 | cola= 866 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-de-documentos-y-requisitos-necesarios-para-participar-en-las-convocatorias/
+[FULL_38_MDRYT_OAP] t= 101.3s | pag=118 | files=  43 | data= 12 | cola= 865 | prio=50 | https://ruralytierras.gob.bo/index.php/listado-de-convocatorias-abiertas-o-proximas-a-abrirse-para-distintos-puesto-y-cargos-dentro-de-la-entidad-estatal/
+[FULL_38_MDRYT_OAP] t= 101.8s | pag=119 | files=  43 | data= 12 | cola= 864 | prio=50 | https://ruralytierras.gob.bo/index.php/listado-de-internos-por-unidad-organizacional/
+[FULL_38_MDRYT_OAP] t= 102.3s | pag=120 | files=  43 | data= 12 | cola= 863 | prio=50 | https://ruralytierras.gob.bo/index.php/mapa-de-ubicacion-central-y-sucursales/
+[FULL_38_MDRYT_OAP] t= 102.7s | pag=121 | files=  43 | data= 12 | cola= 862 | prio=50 | https://ruralytierras.gob.bo/index.php/multimedia/
+[FULL_38_MDRYT_OAP] t= 105.0s | pag=122 | files=  43 | data= 12 | cola= 861 | prio=50 | https://ruralytierras.gob.bo/index.php/nomina-de-empresas-que-se-adjudicaron-procesos-de-contratacion-de-bienes/
+[FULL_38_MDRYT_OAP] t= 105.5s | pag=123 | files=  43 | data= 12 | cola= 860 | prio=50 | https://ruralytierras.gob.bo/index.php/objetivo-del-area-o-unidad-organizacional/
+[FULL_38_MDRYT_OAP] t= 106.0s | pag=124 | files=  43 | data= 12 | cola= 859 | prio=50 | https://ruralytierras.gob.bo/index.php/oportunidad-de-empleo/
+[FULL_38_MDRYT_OAP] t= 106.4s | pag=125 | files=  43 | data= 12 | cola= 858 | prio=50 | https://ruralytierras.gob.bo/index.php/lista-notas-prensa-page/
+[FULL_38_MDRYT_OAP] t= 106.9s | pag=126 | files=  43 | data= 12 | cola= 858 | prio=50 | https://ruralytierras.gob.bo/index.php/perfiles-de-cargo/
+[FULL_38_MDRYT_OAP] t= 107.3s | pag=127 | files=  43 | data= 12 | cola= 857 | prio=50 | https://ruralytierras.gob.bo/index.php/perfiles-requeridos/
+[FULL_38_MDRYT_OAP] t= 107.7s | pag=128 | files=  43 | data= 12 | cola= 856 | prio=50 | https://ruralytierras.gob.bo/index.php/plan-de-trabajo-y-cronograma-de-los-proyectos/
+[FULL_38_MDRYT_OAP] t= 108.2s | pag=129 | files=  43 | data= 12 | cola= 855 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-actual-aprobado/
+[FULL_38_MDRYT_OAP] t= 108.6s | pag=130 | files=  43 | data= 12 | cola= 854 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-por-categoria-programatica/
+[FULL_38_MDRYT_OAP] t= 109.1s | pag=131 | files=  43 | data= 12 | cola= 853 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-por-grupo-de-gastos/
+[FULL_38_MDRYT_OAP] t= 109.5s | pag=132 | files=  43 | data= 12 | cola= 852 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-por-unidad-organizacional/
+[FULL_38_MDRYT_OAP] t= 110.0s | pag=133 | files=  43 | data= 12 | cola= 851 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-aprobado-unidad-organizacional/
+[FULL_38_MDRYT_OAP] t= 110.4s | pag=134 | files=  43 | data= 12 | cola= 850 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-por-categoria-programatica/
+[FULL_38_MDRYT_OAP] t= 110.8s | pag=135 | files=  43 | data= 12 | cola= 849 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto-por-fuente-de-financiamiento/
+[FULL_38_MDRYT_OAP] t= 111.2s | pag=136 | files=  43 | data= 12 | cola= 848 | prio=50 | https://ruralytierras.gob.bo/index.php/aprobacion-del-poa-documento-normativo/
+[FULL_38_MDRYT_OAP] t= 113.3s | pag=136 | files=  43 | data= 12 | cola= 847 | prio=50 | https://ruralytierras.gob.bo/index.php/programas-y-proyectos-de-inversion/
+[FULL_38_MDRYT_OAP] t= 114.8s | pag=137 | files=  43 | data= 12 | cola= 846 | prio=50 | https://ruralytierras.gob.bo/index.php/redes-sociales-y-medios-de-comunicacion/
+[FULL_38_MDRYT_OAP] t= 115.3s | pag=138 | files=  43 | data= 12 | cola= 845 | prio=50 | https://ruralytierras.gob.bo/index.php/reglamentos/
+[FULL_38_MDRYT_OAP] t= 115.7s | pag=139 | files=  43 | data= 12 | cola= 844 | prio=50 | https://ruralytierras.gob.bo/index.php/reglamentos-internos/
+[FULL_38_MDRYT_OAP] t= 116.1s | pag=140 | files=  43 | data= 12 | cola= 843 | prio=50 | https://ruralytierras.gob.bo/index.php/resolucion-ministerial/
+[FULL_38_MDRYT_OAP] t= 116.5s | pag=141 | files=  43 | data= 12 | cola= 842 | prio=50 | https://ruralytierras.gob.bo/index.php/resoluciones/
+[FULL_38_MDRYT_OAP] t= 117.0s | pag=142 | files=  43 | data= 12 | cola= 841 | prio=50 | https://ruralytierras.gob.bo/index.php/resportes/
+[FULL_38_MDRYT_OAP] t= 117.3s | pag=143 | files=  43 | data= 12 | cola= 840 | prio=50 | https://ruralytierras.gob.bo/index.php/revistas/
+[FULL_38_MDRYT_OAP] t= 117.9s | pag=144 | files=  43 | data= 12 | cola= 839 | prio=50 | https://ruralytierras.gob.bo/index.php/tratados-internacionales/
+[FULL_38_MDRYT_OAP] t= 118.7s | pag=145 | files=  43 | data= 12 | cola= 838 | prio=50 | https://ruralytierras.gob.bo/index.php/category/sin-categoria/
+[FULL_38_MDRYT_OAP] t= 119.1s | pag=146 | files=  43 | data= 12 | cola= 837 | prio=50 | https://ruralytierras.gob.bo/index.php/tramite/regularizacion-y-saneamiento-de-tierras/
+[FULL_38_MDRYT_OAP] t= 119.5s | pag=147 | files=  43 | data= 12 | cola= 836 | prio=50 | https://ruralytierras.gob.bo/index.php/tramite/tramite1/
+[FULL_38_MDRYT_OAP] t= 119.9s | pag=148 | files=  43 | data= 12 | cola= 835 | prio=50 | https://ruralytierras.gob.bo/index.php/pei/titulo-lorem-del-plan-estrategico-institucional/
+[FULL_38_MDRYT_OAP] t= 120.4s | pag=149 | files=  43 | data= 12 | cola= 834 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-recursos/
+[FULL_38_MDRYT_OAP] t= 120.7s | pag=150 | files=  43 | data= 12 | cola= 833 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto/presupuesto-institucional-de-gastos/
+[FULL_38_MDRYT_OAP] t= 121.3s | pag=151 | files=  43 | data= 12 | cola= 832 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto/fuente-de-financiamiento-2025-09-04/
+[FULL_38_MDRYT_OAP] t= 121.6s | pag=152 | files=  43 | data= 12 | cola= 831 | prio=50 | https://ruralytierras.gob.bo/index.php/presupuesto/estado-de-ejecucion/
+[FULL_38_MDRYT_OAP] t= 122.1s | pag=153 | files=  43 | data= 12 | cola= 830 | prio=50 | https://ruralytierras.gob.bo/index.php/auditoria/7475/
+[FULL_38_MDRYT_OAP] t= 122.5s | pag=154 | files=  43 | data= 12 | cola= 829 | prio=50 | https://ruralytierras.gob.bo/index.php/auditoria/17060/
+[FULL_38_MDRYT_OAP] t= 122.9s | pag=155 | files=  43 | data= 12 | cola= 828 | prio=50 | https://ruralytierras.gob.bo/index.php/contrato/17048/
+[FULL_38_MDRYT_OAP] t= 123.5s | pag=156 | files=  43 | data= 12 | cola= 827 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20495/
+[FULL_38_MDRYT_OAP] t= 123.9s | pag=157 | files=  43 | data= 12 | cola= 826 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20494/
+[FULL_38_MDRYT_OAP] t= 124.5s | pag=158 | files=  43 | data= 12 | cola= 825 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20493/
+[FULL_38_MDRYT_OAP] t= 124.8s | pag=159 | files=  43 | data= 12 | cola= 824 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20492/
+[FULL_38_MDRYT_OAP] t= 125.3s | pag=160 | files=  43 | data= 12 | cola= 823 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20491/
+[FULL_38_MDRYT_OAP] t= 125.7s | pag=161 | files=  43 | data= 12 | cola= 822 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20490/
+[FULL_38_MDRYT_OAP] t= 126.2s | pag=162 | files=  43 | data= 12 | cola= 821 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20489/
+[FULL_38_MDRYT_OAP] t= 126.5s | pag=163 | files=  43 | data= 12 | cola= 820 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20488/
+[FULL_38_MDRYT_OAP] t= 127.0s | pag=164 | files=  43 | data= 12 | cola= 819 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20487/
+[FULL_38_MDRYT_OAP] t= 127.3s | pag=165 | files=  43 | data= 12 | cola= 818 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20485/
+[FULL_38_MDRYT_OAP] t= 127.8s | pag=166 | files=  43 | data= 12 | cola= 817 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20484/
+[FULL_38_MDRYT_OAP] t= 128.2s | pag=167 | files=  43 | data= 12 | cola= 816 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20483/
+[FULL_38_MDRYT_OAP] t= 128.6s | pag=168 | files=  43 | data= 12 | cola= 815 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20482/
+[FULL_38_MDRYT_OAP] t= 129.2s | pag=169 | files=  43 | data= 12 | cola= 814 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20481/
+[FULL_38_MDRYT_OAP] t= 129.6s | pag=170 | files=  43 | data= 12 | cola= 813 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20480/
+[FULL_38_MDRYT_OAP] t= 130.1s | pag=171 | files=  43 | data= 12 | cola= 812 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20479/
+[FULL_38_MDRYT_OAP] t= 130.5s | pag=172 | files=  43 | data= 12 | cola= 811 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20478/
+[FULL_38_MDRYT_OAP] t= 130.9s | pag=173 | files=  43 | data= 12 | cola= 810 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20477/
+[FULL_38_MDRYT_OAP] t= 131.3s | pag=174 | files=  43 | data= 12 | cola= 809 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20476/
+[FULL_38_MDRYT_OAP] t= 131.7s | pag=175 | files=  43 | data= 12 | cola= 808 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20475/
+[FULL_38_MDRYT_OAP] t= 132.2s | pag=176 | files=  43 | data= 12 | cola= 807 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20474/
+[FULL_38_MDRYT_OAP] t= 132.6s | pag=177 | files=  43 | data= 12 | cola= 806 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20473/
+[FULL_38_MDRYT_OAP] t= 133.0s | pag=178 | files=  43 | data= 12 | cola= 805 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20472/
+[FULL_38_MDRYT_OAP] t= 133.5s | pag=179 | files=  43 | data= 12 | cola= 804 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20471/
+[FULL_38_MDRYT_OAP] t= 134.0s | pag=180 | files=  43 | data= 12 | cola= 803 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20470/
+[FULL_38_MDRYT_OAP] t= 134.4s | pag=181 | files=  43 | data= 12 | cola= 802 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20469/
+[FULL_38_MDRYT_OAP] t= 134.8s | pag=182 | files=  43 | data= 12 | cola= 801 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20468/
+[FULL_38_MDRYT_OAP] t= 135.3s | pag=183 | files=  43 | data= 12 | cola= 800 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20467/
+[FULL_38_MDRYT_OAP] t= 135.8s | pag=184 | files=  43 | data= 12 | cola= 799 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20466/
+[FULL_38_MDRYT_OAP] t= 136.2s | pag=185 | files=  43 | data= 12 | cola= 798 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20465/
+[FULL_38_MDRYT_OAP] t= 136.7s | pag=186 | files=  43 | data= 12 | cola= 797 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20464/
+[FULL_38_MDRYT_OAP] t= 137.1s | pag=187 | files=  43 | data= 12 | cola= 796 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20463/
+[FULL_38_MDRYT_OAP] t= 137.6s | pag=188 | files=  43 | data= 12 | cola= 795 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20462/
+[FULL_38_MDRYT_OAP] t= 138.0s | pag=189 | files=  43 | data= 12 | cola= 794 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20461/
+[FULL_38_MDRYT_OAP] t= 138.4s | pag=190 | files=  43 | data= 12 | cola= 793 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20460/
+[FULL_38_MDRYT_OAP] t= 138.9s | pag=191 | files=  43 | data= 12 | cola= 792 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20459/
+[FULL_38_MDRYT_OAP] t= 139.3s | pag=192 | files=  43 | data= 12 | cola= 791 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20458/
+[FULL_38_MDRYT_OAP] t= 139.6s | pag=193 | files=  43 | data= 12 | cola= 790 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20457/
+[FULL_38_MDRYT_OAP] t= 140.0s | pag=194 | files=  43 | data= 12 | cola= 789 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20456/
+[FULL_38_MDRYT_OAP] t= 140.5s | pag=195 | files=  43 | data= 12 | cola= 788 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20455/
+[FULL_38_MDRYT_OAP] t= 140.9s | pag=196 | files=  43 | data= 12 | cola= 787 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20454/
+[FULL_38_MDRYT_OAP] t= 141.3s | pag=197 | files=  43 | data= 12 | cola= 786 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20453/
+[FULL_38_MDRYT_OAP] t= 141.9s | pag=198 | files=  43 | data= 12 | cola= 785 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20452/
+[FULL_38_MDRYT_OAP] t= 142.3s | pag=199 | files=  43 | data= 12 | cola= 784 | prio=50 | https://ruralytierras.gob.bo/index.php/convocatoria/20451/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_38_mdryt_oap
+Páginas visitadas:   200
+Archivos encontrados:   43
+Datasets web:         12
+Errores:              6
+Motivo de parada:     max_pages
+Duración:             142.72 s
+
+Formatos:
+  - PDF    : 43
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_38_mdryt_oap.json
+
+Trazabilidad:
+  Ejecución: 66
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,263 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Doing Business (Banco Mundial)
+URL configurada: https://www.doingbusiness.org
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Original: https://www.doingbusiness.org
+  Utilizada: https://www.worldbank.org/en/businessready
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.doingbusiness.org/
+
+URL de trabajo: https://www.worldbank.org/en/businessready
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.worldbank.org/en/businessready
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=1 | exportable_data_page | https://www.worldbank.org/en/businessready
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   1.2s | pag=  1 | files=   3 | data=  1 | cola=  36 | prio=10 | https://www.worldbank.org/en/businessready/publications
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=2 | exportable_data_page | https://www.worldbank.org/en/businessready/publications
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   2.4s | pag=  2 | files=   3 | data=  2 | cola=  48 | prio=10 | https://www.worldbank.org/en/businessready/data
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=3 | exportable_data_page | https://www.worldbank.org/en/businessready/data
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   2.8s | pag=  3 | files=   3 | data=  3 | cola=  47 | prio=10 | https://openknowledge.worldbank.org/server/api/core/bitstreams/77ab6e06-9934-435c-a84e-03a4c99bbe48/content
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   4.6s | pag=  3 | files=   4 | data=  3 | cola=  46 | prio=10 | https://www.worldbank.org/en/businessready/publications-2024
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=4 | exportable_data_page | https://www.worldbank.org/en/businessready/publications-2024
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   5.4s | pag=  4 | files=   5 | data=  4 | cola=  53 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099713409192521874
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   6.4s | pag=  5 | files=   5 | data=  4 | cola=  56 | prio=10 | https://blogs.worldbank.org/en/opendata/measuring-what-matters-for-business--the-new-b-ready-data-in-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=5 | exportable_data_page | https://blogs.worldbank.org/en/opendata/measuring-what-matters-for-business--the-new-b-ready-data-in-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   7.4s | pag=  6 | files=   5 | data=  5 | cola=  74 | prio=10 | https://blogs.worldbank.org/en/opendata/data-insights-on-tax-digitalization--why-direct-e-payments-matte
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=6 | data_chart | https://blogs.worldbank.org/en/opendata/data-insights-on-tax-digitalization--why-direct-e-payments-matte
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   7.7s | pag=  7 | files=   5 | data=  6 | cola=  84 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099749206272536498
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   8.0s | pag=  8 | files=   5 | data=  6 | cola=  84 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099637505162530462
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   8.5s | pag=  9 | files=   5 | data=  6 | cola= 346 | prio=10 | https://blogs.worldbank.org/en/opendata/minimum-wage-policies-through-the-lens-of-data-driven-insights
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   8.8s | pag= 10 | files=   6 | data=  6 | cola= 350 | prio=10 | https://blogs.worldbank.org/en/opendata/data-driven-transparency--the-need-for-easy-access-to-laws-and-r
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   9.2s | pag= 11 | files=   7 | data=  6 | cola= 352 | prio=10 | https://blogs.worldbank.org/en/developmenttalk/data-for-reforms--leveraging-the-b-ready-2024-report-for-enhance
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=7 | data_html_table | https://blogs.worldbank.org/en/developmenttalk/data-for-reforms--leveraging-the-b-ready-2024-report-for-enhance
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   9.5s | pag= 12 | files=   8 | data=  7 | cola= 355 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099549410232445878/099549410232445878
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=   9.9s | pag= 13 | files=   8 | data=  7 | cola= 355 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099825001082425972/idu1f91ae60616eb614fd61866c1278bcc8c700e
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  10.5s | pag= 14 | files=   8 | data=  7 | cola= 355 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099714208022336419/idu06895913c0ec5204ba608c7e0d2e7ccdbd214
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  10.9s | pag= 15 | files=   8 | data=  7 | cola= 355 | prio=10 | https://openknowledge.worldbank.org/bitstreams/8416d46f-58c0-4366-acd8-61ca75d3c773/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  12.3s | pag= 16 | files=   8 | data=  7 | cola= 354 | prio=10 | https://openknowledge.worldbank.org/bitstreams/59926823-c45f-4ac6-ad38-aec3bdd73645/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  12.6s | pag= 17 | files=   8 | data=  7 | cola= 353 | prio=10 | https://openknowledge.worldbank.org/bitstreams/5d633072-baa4-4c19-8e8c-8203f1564e25/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  13.0s | pag= 18 | files=   8 | data=  7 | cola= 352 | prio=10 | https://openknowledge.worldbank.org/bitstreams/cf39e815-5431-4b19-b2a3-191436612051/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  13.4s | pag= 19 | files=   8 | data=  7 | cola= 351 | prio=10 | https://openknowledge.worldbank.org/bitstreams/b02052ec-b06f-4dbf-b362-066941586a3a/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  13.9s | pag= 20 | files=   8 | data=  7 | cola= 350 | prio=10 | https://www.worldbank.org/en/research
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=8 | data_chart | https://www.worldbank.org/en/research
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  15.0s | pag= 21 | files=   8 | data=  8 | cola= 418 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  15.2s | pag= 22 | files=   8 | data=  8 | cola= 431 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports/documentdetail/099713409192521874
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  15.4s | pag= 23 | files=   8 | data=  8 | cola= 430 | prio=10 | https://blogs.worldbank.org/en/opendata
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  15.9s | pag= 24 | files=   8 | data=  8 | cola= 531 | prio=10 | https://blogs.worldbank.org/fr/opendata/nouvelles-donnees-b-ready-ajoutees-indicateurs-developpement-mesurent-ce-qui-compte-vraiment-pour-entreprises
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=9 | exportable_data_page | https://blogs.worldbank.org/fr/opendata/nouvelles-donnees-b-ready-ajoutees-indicateurs-developpement-mesurent-ce-qui-compte-vraiment-pour-entreprises
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  16.1s | pag= 25 | files=   8 | data=  9 | cola= 537 | prio=10 | https://blogs.worldbank.org/es/opendata/measuring-what-matters-for-business--the-new-b-ready-data-in-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=10 | exportable_data_page | https://blogs.worldbank.org/es/opendata/measuring-what-matters-for-business--the-new-b-ready-data-in-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  16.4s | pag= 26 | files=   8 | data= 10 | cola= 543 | prio=10 | https://blogs.worldbank.org/ar/opendata/measuring-what-matters-for-business--the-new-b-ready-data-in-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  17.6s | pag= 27 | files=   8 | data= 11 | cola= 548 | prio=10 | https://blogs.worldbank.org/zh/opendata/measuring-what-matters-for-business--the-new-b-ready-data-in-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  18.0s | pag= 28 | files=   8 | data= 12 | cola= 551 | prio=10 | https://databank.worldbank.org/id/6e88c9a7
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  21.2s | pag= 29 | files=   8 | data= 13 | cola= 562 | prio=10 | https://blogs.worldbank.org/fr/opendata/numerisation-services-fiscaux-pourquoi-developper-telepaiement-direct
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  22.2s | pag= 30 | files=   9 | data= 14 | cola= 568 | prio=10 | https://blogs.worldbank.org/es/opendata/data-insights-on-tax-digitalization--why-direct-e-payments-matte
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  22.6s | pag= 31 | files=   9 | data= 15 | cola= 572 | prio=10 | https://blogs.worldbank.org/ar/opendata/data-insights-on-tax-digitalization--why-direct-e-payments-matte
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  22.9s | pag= 32 | files=   9 | data= 16 | cola= 577 | prio=10 | https://blogs.worldbank.org/en/opendata/can-economies-strengthen-financial-integrity-without-restricting
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  24.0s | pag= 33 | files=   9 | data= 17 | cola= 580 | prio=10 | https://openknowledge.worldbank.org/entities/publication/d2a7e4bb-8b72-40b1-8ff8-60d3fa5256db
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  25.3s | pag= 34 | files=   9 | data= 17 | cola= 579 | prio=10 | https://openknowledge.worldbank.org/entities/publication/1656fd44-0125-599b-9698-277bb84be4ca
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  25.7s | pag= 35 | files=   9 | data= 17 | cola= 578 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports/documentdetail/099749206272536498
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  26.2s | pag= 36 | files=   9 | data= 17 | cola= 577 | prio=10 | https://www.worldbank.org/en/topic/health/overview
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  26.8s | pag= 37 | files=   9 | data= 17 | cola= 628 | prio=10 | https://www.worldbank.org/en/about/annual-report
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  27.2s | pag= 38 | files=   9 | data= 17 | cola= 661 | prio=10 | https://www.worldbank.org/en/programs/accountability/data-privacy
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  27.5s | pag= 39 | files=  12 | data= 17 | cola= 665 | prio=10 | https://data.worldbank.org/
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  28.5s | pag= 40 | files=  12 | data= 17 | cola= 711 | prio=10 | https://data.worldbank.org/country
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  28.8s | pag= 41 | files=  12 | data= 17 | cola= 974 | prio=10 | https://data.worldbank.org/indicator
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  29.2s | pag= 42 | files=  12 | data= 18 | cola=1303 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports/documentdetail/099637505162530462
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  29.3s | pag= 43 | files=  12 | data= 18 | cola=1302 | prio=10 | https://blogs.worldbank.org/fr/opendata/politiques-salaire-minimum-donnees
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  29.7s | pag= 44 | files=  12 | data= 18 | cola=1303 | prio=10 | https://blogs.worldbank.org/es/opendata/minimum-wage-policies-through-the-lens-of-data-driven-insights
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  30.0s | pag= 45 | files=  12 | data= 18 | cola=1304 | prio=10 | https://blogs.worldbank.org/ar/opendata/minimum-wage-policies-through-the-lens-of-data-driven-insights
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  31.2s | pag= 46 | files=  12 | data= 18 | cola=1305 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports/documentdetail/099549410232445878
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  31.6s | pag= 47 | files=  12 | data= 18 | cola=1304 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports/documentdetail/099825001082425972
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  32.2s | pag= 48 | files=  12 | data= 18 | cola=1303 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports/documentdetail/099714208022336419
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  32.8s | pag= 49 | files=  12 | data= 18 | cola=1302 | prio=10 | https://openknowledge.worldbank.org/entities/publication/e96798d7-a81d-44ea-8287-1b4d6ea83f75
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  34.3s | pag= 50 | files=  12 | data= 18 | cola=1301 | prio=10 | https://openknowledge.worldbank.org/entities/publication/c35564b6-20e5-4606-a9df-d5735f8481d3
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  34.8s | pag= 51 | files=  12 | data= 18 | cola=1300 | prio=10 | https://openknowledge.worldbank.org/entities/publication/98b8f3d6-6544-4f9f-b6ac-df9299c7ff92
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  35.3s | pag= 52 | files=  12 | data= 18 | cola=1299 | prio=10 | https://openknowledge.worldbank.org/entities/publication/90bd2d7f-9fdb-456d-b257-662c60f37835
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  35.9s | pag= 53 | files=  12 | data= 18 | cola=1298 | prio=10 | https://openknowledge.worldbank.org/entities/publication/2807ed57-114f-42f9-b455-12625354383c
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  36.3s | pag= 54 | files=  12 | data= 18 | cola=1297 | prio=10 | https://openknowledge.worldbank.org/entities/publication/c9723b60-b532-438f-9e1c-ea016ca5912a
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  36.7s | pag= 55 | files=  12 | data= 18 | cola=1296 | prio=10 | https://openknowledge.worldbank.org/entities/publication/36565aae-1380-44c7-8d49-0dae7901cde2
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  37.1s | pag= 56 | files=  12 | data= 18 | cola=1295 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentlist?admreg_key=119222%5E1927319%5E1927320&order=desc&srt=docdt
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  37.7s | pag= 57 | files=  12 | data= 18 | cola=1296 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentlist?admreg_key=119225&order=desc&srt=docdt
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  38.7s | pag= 58 | files=  12 | data= 18 | cola=1296 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentlist?admreg_key=119226&order=desc&srt=docdt
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  39.2s | pag= 59 | files=  12 | data= 18 | cola=1296 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentlist?admreg_key=119228&order=desc&srt=docdt
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  39.8s | pag= 60 | files=  12 | data= 18 | cola=1296 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentlist?admreg_key=119229&order=desc&srt=docdt
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  40.3s | pag= 61 | files=  12 | data= 18 | cola=1296 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentlist?admreg_key=119231&order=desc&srt=docdt
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  40.6s | pag= 62 | files=  12 | data= 18 | cola=1296 | prio=10 | https://openknowledge.worldbank.org/handle/10986/1
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  41.1s | pag= 63 | files=  12 | data= 18 | cola=1295 | prio=10 | https://openknowledge.worldbank.org/handle/10986/11863
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  41.5s | pag= 64 | files=  12 | data= 18 | cola=1294 | prio=10 | https://www.doingbusiness.org/en/about-us/global-indicators
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  42.1s | pag= 64 | files=  12 | data= 18 | cola=1293 | prio=10 | https://www.worldbank.org/en/research/publication/how-to-order-world-bank-publications
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  42.9s | pag= 65 | files=  13 | data= 18 | cola=1293 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/992881468337274796/world-bank-open-access-policy-for-formal-publications
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  43.3s | pag= 66 | files=  13 | data= 18 | cola=1293 | prio=10 | https://documents.worldbank.org/pt/publication/documents-reports
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  43.6s | pag= 67 | files=  13 | data= 18 | cola=1295 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/docadvancesearch
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  43.9s | pag= 68 | files=  13 | data= 18 | cola=1294 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099503310092520301
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  44.2s | pag= 69 | files=  13 | data= 18 | cola=1294 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099122125121523841
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  44.6s | pag= 70 | files=  13 | data= 18 | cola=1294 | prio=10 | https://countryhistoricalprofiles.worldbank.org/
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  45.5s | pag= 71 | files=  13 | data= 18 | cola=1293 | prio=10 | https://prosperitydata360.worldbank.org/en/home
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  48.3s | pag= 72 | files=  13 | data= 19 | cola=1308 | prio=10 | https://datatopics.worldbank.org/sdgatlas/
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  49.8s | pag= 73 | files=  13 | data= 20 | cola=1328 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/disclosure
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  50.2s | pag= 74 | files=  13 | data= 20 | cola=1328 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/api
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  50.7s | pag= 75 | files=  13 | data= 20 | cola=1334 | prio=10 | https://documents.worldbank.org/en/publication/documents-reports/faqs
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  51.1s | pag= 76 | files=  13 | data= 20 | cola=1335 | prio=10 | https://blogs.worldbank.org/fr/opendata
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  51.5s | pag= 77 | files=  13 | data= 20 | cola=1356 | prio=10 | https://blogs.worldbank.org/es/opendata
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  51.8s | pag= 78 | files=  13 | data= 20 | cola=1373 | prio=10 | https://blogs.worldbank.org/ar/opendata
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  52.1s | pag= 79 | files=  13 | data= 20 | cola=1389 | prio=10 | https://blogs.worldbank.org/ru/opendata
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  52.5s | pag= 80 | files=  13 | data= 20 | cola=1403 | prio=10 | https://blogs.worldbank.org/zh/opendata
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  52.7s | pag= 81 | files=  13 | data= 20 | cola=1402 | prio=10 | https://blogs.worldbank.org/en/opendata/who-moves-up-and-why--a-closer-look-at-the-new-world-bank-group-
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  53.1s | pag= 82 | files=  18 | data= 21 | cola=1411 | prio=10 | https://blogs.worldbank.org/en/opendata/the-atlas-of-global-development-2026-shows-the-world-at-a-critic
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  53.5s | pag= 83 | files=  18 | data= 21 | cola=1410 | prio=10 | https://blogs.worldbank.org/en/opendata/how-well-does-ai-speak-your-language-
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  53.9s | pag= 84 | files=  18 | data= 21 | cola=1410 | prio=10 | https://blogs.worldbank.org/en/opendata/commodity-prices-broadly-unchanged-in-july---pink-sheet
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  54.3s | pag= 85 | files=  19 | data= 21 | cola=1409 | prio=10 | https://blogs.worldbank.org/en/opendata/the-world-is-urbanizing-fast---the-window-to-get-it-right-is-nar
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  54.6s | pag= 86 | files=  19 | data= 21 | cola=1409 | prio=10 | https://blogs.worldbank.org/en/opendata/tracking-the-changing-role-of-foreign-direct-investment-and-remi
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  55.0s | pag= 87 | files=  19 | data= 21 | cola=1409 | prio=10 | https://blogs.worldbank.org/en/opendata/global-food-security-monitoring-goes-dark
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  55.2s | pag= 88 | files=  20 | data= 21 | cola=1414 | prio=10 | https://blogs.worldbank.org/en/opendata/what-four-charts-reveal-about-the-global-jobs-challenge
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  55.6s | pag= 89 | files=  20 | data= 22 | cola=1414 | prio=10 | https://blogs.worldbank.org/en/opendata/understanding-country-income--world-bank-group-income-classifica
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  56.0s | pag= 90 | files=  20 | data= 23 | cola=1418 | prio=10 | https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  56.3s | pag= 91 | files=  20 | data= 24 | cola=1429 | prio=10 | https://blogs.worldbank.org/en/opendata/new-world-bank-group-country-classifications-income-level-fy24
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=25 | exportable_data_page | https://blogs.worldbank.org/en/opendata/new-world-bank-group-country-classifications-income-level-fy24
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  56.7s | pag= 92 | files=  21 | data= 25 | cola=1435 | prio=10 | https://blogs.worldbank.org/en/opendata/new-world-bank-country-classifications-income-level-2022-2023
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  57.1s | pag= 93 | files=  26 | data= 26 | cola=1435 | prio=10 | https://blogs.worldbank.org/en/opendata/new-world-bank-country-classifications-income-level-2021-2022
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  57.4s | pag= 94 | files=  26 | data= 27 | cola=1435 | prio=10 | https://blogs.worldbank.org/en/opendata/new-world-bank-country-classifications-income-level-2020-2021
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  57.6s | pag= 95 | files=  26 | data= 28 | cola=1438 | prio=10 | https://blogs.worldbank.org/en/opendata/the-global-internet-gap--what-the-data-tells-us
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  58.0s | pag= 96 | files=  26 | data= 28 | cola=1439 | prio=10 | https://blogs.worldbank.org/en/opendata/shared-prosperity-constitutes-both-income-growth-and-inequality-
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  58.2s | pag= 97 | files=  26 | data= 29 | cola=1443 | prio=10 | https://blogs.worldbank.org/en/opendata/extreme-poverty--hard-won-gains--new-risks-ahead
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  58.6s | pag= 98 | files=  26 | data= 29 | cola=1445 | prio=10 | https://blogs.worldbank.org/en/opendata/failed-twice--weak-learning-in-school--few-skills-learned-on-the
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  58.9s | pag= 99 | files=  26 | data= 29 | cola=1447 | prio=10 | https://blogs.worldbank.org/en/opendata/can-we-even-measure-progress--the-state-of-development-data
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  59.2s | pag=100 | files=  26 | data= 29 | cola=1447 | prio=10 | https://blogs.worldbank.org/en/opendata/measuring-development-in-years--how-far-countries-are-from-advan
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  59.4s | pag=101 | files=  26 | data= 30 | cola=1450 | prio=10 | https://blogs.worldbank.org/en/opendata/you-can-t-course-correct-what-you-can-t-see--how-data-and-visual
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  59.7s | pag=102 | files=  26 | data= 30 | cola=1450 | prio=10 | https://blogs.worldbank.org/en/opendata/how-should-countries-set-realistic-and-ambitious-development-tar
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  60.0s | pag=103 | files=  27 | data= 31 | cola=1449 | prio=10 | https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  60.2s | pag=104 | files=  28 | data= 32 | cola=1454 | prio=10 | https://blogs.worldbank.org/en/opendata/september-2025-global-poverty-update-from-the-world-bank--new-da
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  60.7s | pag=105 | files=  28 | data= 33 | cola=1455 | prio=10 | https://blogs.worldbank.org/en/opendata/a-dashboard-for-aggregated-poverty-data-for-regional--income--fr
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  60.9s | pag=106 | files=  28 | data= 33 | cola=1457 | prio=10 | https://blogs.worldbank.org/en/opendata/june-2025-global-poverty-update-from-the-world-bank--2021-ppps-a
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  61.3s | pag=107 | files=  28 | data= 34 | cola=1461 | prio=10 | https://blogs.worldbank.org/en/opendata/september-2024-global-poverty-update-from-the-world-bank--revise
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  61.7s | pag=108 | files=  28 | data= 35 | cola=1464 | prio=10 | https://blogs.worldbank.org/en/opendata/march-2024-global-poverty-update-from-the-world-bank--first-esti
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  62.1s | pag=109 | files=  29 | data= 35 | cola=1467 | prio=10 | https://blogs.worldbank.org/en/opendata/societal-poverty-measures-poverty-and-inequality-platform-pip
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  62.4s | pag=110 | files=  29 | data= 36 | cola=1471 | prio=10 | https://blogs.worldbank.org/en/opendata/illustrating-gap-between-global-extreme-poor-and-global-emissions
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  62.6s | pag=111 | files=  29 | data= 37 | cola=1477 | prio=10 | https://blogs.worldbank.org/en/opendata/updated-estimates-prosperity-gap
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  62.9s | pag=112 | files=  29 | data= 38 | cola=1486 | prio=10 | https://blogs.worldbank.org/en/opendata/september-2023-global-poverty-update-world-bank-new-data-poverty-during-pandemic-asia
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  63.3s | pag=113 | files=  29 | data= 39 | cola=1487 | prio=10 | https://blogs.worldbank.org/en/opendata/using-pips-statistics-online-sol-your-poverty-and-inequality-analysis
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  63.7s | pag=114 | files=  30 | data= 40 | cola=1488 | prio=10 | https://blogs.worldbank.org/en/opendata/how-use-pips-api
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  64.0s | pag=115 | files=  30 | data= 41 | cola=1489 | prio=10 | https://blogs.worldbank.org/en/opendata/how-use-pips-statistics-online-sol
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  64.5s | pag=116 | files=  30 | data= 42 | cola=1488 | prio=10 | https://blogs.worldbank.org/en/opendata/how-use-pips-poverty-calculator-page
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  64.8s | pag=117 | files=  30 | data= 43 | cola=1488 | prio=10 | https://blogs.worldbank.org/en/opendata/how-use-pips-country-profiles-page
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  65.1s | pag=118 | files=  30 | data= 44 | cola=1488 | prio=10 | https://blogs.worldbank.org/en/opendata/how-use-pip-homepage
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  65.4s | pag=119 | files=  30 | data= 45 | cola=1487 | prio=10 | https://blogs.worldbank.org/en/opendata/beverage-prices-retreat-as-supplies-recover
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  65.9s | pag=120 | files=  30 | data= 46 | cola=1488 | prio=10 | https://blogs.worldbank.org/en/opendata/precious-metals-retreat-from-record-highs
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  66.1s | pag=121 | files=  30 | data= 47 | cola=1490 | prio=10 | https://blogs.worldbank.org/en/opendata/coal-s-unexpected-comeback--middle-east-conflict-drives-a-return
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  66.5s | pag=122 | files=  30 | data= 48 | cola=1494 | prio=10 | https://blogs.worldbank.org/en/opendata/metal-prices-surge-as-supply-pressures-intensify
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  66.9s | pag=123 | files=  30 | data= 49 | cola=1495 | prio=10 | https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-natural-gas-prices-surging
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=50 | exportable_data_page | https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-natural-gas-prices-surging
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  67.2s | pag=124 | files=  30 | data= 50 | cola=1495 | prio=10 | https://blogs.worldbank.org/en/opendata/food-prices-feel-the-heat-as-war-in-the-middle-east-rattles-comm
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  67.5s | pag=125 | files=  30 | data= 51 | cola=1495 | prio=10 | https://blogs.worldbank.org/en/opendata/strait-of-hormuz-disruption-sends-oil-prices-surging
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  67.9s | pag=126 | files=  30 | data= 52 | cola=1494 | prio=10 | https://blogs.worldbank.org/en/opendata/fertilizer-prices-surge-as-strait-of-hormuz-disruptions-tighten-
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  68.5s | pag=127 | files=  30 | data= 53 | cola=1493 | prio=10 | https://blogs.worldbank.org/en/opendata/steady-gains-in-agricultural-raw-material-prices
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  68.8s | pag=128 | files=  30 | data= 54 | cola=1492 | prio=10 | https://blogs.worldbank.org/en/opendata/declining-trends-in-national-inequality
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  69.1s | pag=129 | files=  30 | data= 54 | cola=1497 | prio=10 | https://blogs.worldbank.org/en/opendata/three-ways-to-use-the-prosperity-gap-index
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  69.4s | pag=130 | files=  30 | data= 55 | cola=1499 | prio=10 | https://blogs.worldbank.org/en/opendata/the-prosperity-gap-incorporates-a-penalty-for-high-inequality
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  69.7s | pag=131 | files=  30 | data= 56 | cola=1499 | prio=10 | https://blogs.worldbank.org/en/opendata/global-prosperity-gap--the-world-bank-s-new-measure-for-shared-p
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  70.0s | pag=132 | files=  30 | data= 56 | cola=1500 | prio=10 | https://blogs.worldbank.org/en/opendata/the-demographic-profile-of-the-global-poor--who-are-the-poor-and
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  70.4s | pag=133 | files=  30 | data= 56 | cola=1504 | prio=10 | https://blogs.worldbank.org/en/opendata/the-geography-of-high-inequality--monitoring-the-world-bank-s-ne
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  70.9s | pag=134 | files=  30 | data= 57 | cola=1506 | prio=10 | https://blogs.worldbank.org/en/opendata/filling-the-gaps-in-survey-data-for-a-world-free-of-poverty-on-a
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  71.1s | pag=135 | files=  30 | data= 58 | cola=1508 | prio=10 | https://blogs.worldbank.org/en/opendata/getting-to-zero--focusing-on-ida-countries-for-ending-poverty
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  71.5s | pag=136 | files=  31 | data= 59 | cola=1517 | prio=10 | https://blogs.worldbank.org/en/opendata/the-disconnect-between-regions-at-risk-from-climate-related-haza
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  71.9s | pag=137 | files=  33 | data= 60 | cola=1521 | prio=10 | https://blogs.worldbank.org/en/opendata/global-poverty-and-climate-goals-will-remain-out-of-reach-with-b
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  72.3s | pag=138 | files=  33 | data= 61 | cola=1521 | prio=10 | https://blogs.worldbank.org/en/opendata/a-higher-standard-of-poverty-in-a-changing-world--the-world-bank
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  72.6s | pag=139 | files=  33 | data= 62 | cola=1526 | prio=10 | https://blogs.worldbank.org/en/opendata/the-polycrisis-behind-a-lost-decade-of-poverty-reduction
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  72.9s | pag=140 | files=  34 | data= 63 | cola=1528 | prio=10 | https://blogs.worldbank.org/en/opendata/blueprint-for-change--ending-poverty-on-a-livable-planet-is-poss
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  73.2s | pag=141 | files=  34 | data= 64 | cola=1528 | prio=10 | https://blogs.worldbank.org/en/opendata/new-international-comparison-program-data-sheds-light-on-global-
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  73.5s | pag=142 | files=  35 | data= 65 | cola=1534 | prio=10 | https://blogs.worldbank.org/en/opendata/demystifying-icp-purchasing-power-parity-calculations-using-python-global-results
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  73.9s | pag=143 | files=  37 | data= 66 | cola=1541 | prio=10 | https://blogs.worldbank.org/en/opendata/demystifying-icp-purchasing-power-parity-calculations-using-python-regional-results
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  74.2s | pag=144 | files=  39 | data= 67 | cola=1545 | prio=10 | https://blogs.worldbank.org/en/opendata/how-much-do-countries-spend-education-and-how-do-price-levels-education-compare-three
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  74.4s | pag=145 | files=  39 | data= 68 | cola=1544 | prio=10 | https://blogs.worldbank.org/en/opendata/local-prices-global-economy-how-data-international-comparison-program-help-us-monitor
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  74.8s | pag=146 | files=  41 | data= 69 | cola=1559 | prio=10 | https://blogs.worldbank.org/en/opendata/size-asia-and-pacific-economy-based-purchasing-power-parities-results-international
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  75.0s | pag=147 | files=  42 | data= 70 | cola=1561 | prio=10 | https://blogs.worldbank.org/en/opendata/purchasing-power-parities-policy-making-visual-guide-using-data-international-comparison
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  75.3s | pag=148 | files=  42 | data= 71 | cola=1564 | prio=10 | https://blogs.worldbank.org/en/opendata/international-debt-report-2025--when-relief-isn-t-enough---lmics
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  75.7s | pag=149 | files=  42 | data= 72 | cola=1564 | prio=10 | https://blogs.worldbank.org/en/opendata/introducing-the-new-guide-to-the-international-debt-statistics--
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  76.0s | pag=150 | files=  42 | data= 72 | cola=1567 | prio=10 | https://blogs.worldbank.org/en/opendata/international-debt-report-2024--low--and-middle-income-countries
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  76.3s | pag=151 | files=  42 | data= 72 | cola=1567 | prio=10 | https://blogs.worldbank.org/en/opendata/the-data-behind-the-international-debt-report-2023
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  76.6s | pag=152 | files=  43 | data= 73 | cola=1571 | prio=10 | https://blogs.worldbank.org/en/opendata/celebrating-50-years-international-debt-report
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  77.0s | pag=153 | files=  43 | data= 74 | cola=1570 | prio=10 | https://blogs.worldbank.org/en/opendata/international-debt-statistics-2022-multilateral-institutions-paved-way-highest-level-net
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] DATASETS=75 | data_chart | https://blogs.worldbank.org/en/opendata/international-debt-statistics-2022-multilateral-institutions-paved-way-highest-level-net
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  77.3s | pag=154 | files=  44 | data= 75 | cola=1576 | prio=10 | https://blogs.worldbank.org/en/opendata/international-debt-statistics-2021-debt-accumulation-low-and-middle-income-countries
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  77.6s | pag=155 | files=  45 | data= 76 | cola=1580 | prio=10 | https://blogs.worldbank.org/en/opendata/international-debt-statistics-2020-promoting-debt-transparency-through-newly-published
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  78.0s | pag=156 | files=  45 | data= 77 | cola=1582 | prio=10 | https://blogs.worldbank.org/en/opendata/international-debt-statistics-2019-external-debt-stocks-end-2017-stood-over-7-trillion
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  78.3s | pag=157 | files=  45 | data= 78 | cola=1587 | prio=10 | https://databank.worldbank.org/home
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  79.5s | pag=158 | files=  45 | data= 79 | cola=1635 | prio=10 | https://databank.worldbank.org/App_Controls/
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  80.0s | pag=158 | files=  45 | data= 79 | cola=1634 | prio=10 | https://www.worldbank.org/en/topic/health/publication/from-double-shock-to-double-recovery-health-financing-in-the-time-of-covid-19
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  80.4s | pag=159 | files=  48 | data= 79 | cola=1648 | prio=10 | https://www.worldbank.org/en/topic/health/publication/unlocking-power-healthy-longevity
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  80.9s | pag=160 | files=  48 | data= 79 | cola=1694 | prio=10 | https://www.worldbank.org/en/topic/nutrition/publication/investment-framework-nutrition
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  81.1s | pag=161 | files=  48 | data= 79 | cola=1699 | prio=10 | https://www.worldbank.org/en/topic/health/publication/change-cannot-wait-building-resilient-health-systems-in-the-shadow-of-covid-19
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  81.4s | pag=162 | files=  49 | data= 79 | cola=1702 | prio=10 | https://www.worldbank.org/en/topic/health/publication/walking-the-walk-reimagining-primary-health-care-after-covid-19-a-health-nutrition-and-population-global-practice-flagsh
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  81.6s | pag=163 | files=  49 | data= 79 | cola=1702 | prio=10 | https://www.worldbank.org/en/topic/health/publication/government-resources-projections-health-financing-report
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  82.0s | pag=164 | files=  49 | data= 80 | cola=1711 | prio=10 | https://www.worldbank.org/en/topic/health/publication/budget-execution-in-health-from-bottlenecks-to-solutions
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  82.3s | pag=165 | files=  49 | data= 80 | cola=1724 | prio=10 | https://data360.worldbank.org/en/int/people/health-nutrition--population
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  83.6s | pag=166 | files=  49 | data= 80 | cola=1739 | prio=10 | https://www.worldbank.org/en/topic/universalhealthcoverage/publication/2025-global-monitoring-report-gmr
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  84.0s | pag=167 | files=  49 | data= 81 | cola=1742 | prio=10 | https://www.worldbank.org/en/topic/health/publication/digital-in-health-unlocking-the-value-for-everyone
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  84.3s | pag=168 | files=  53 | data= 81 | cola=1749 | prio=10 | https://www.worldbank.org/en/publication/human-capital-report
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  84.6s | pag=169 | files=  54 | data= 82 | cola=1776 | prio=10 | https://www.worldbank.org/en/programs/service-delivery-indicators
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  84.9s | pag=170 | files=  55 | data= 83 | cola=1785 | prio=10 | https://www.worldbank.org/en/about/annual-report/leadership-perspectives
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  85.3s | pag=171 | files=  55 | data= 83 | cola=1787 | prio=10 | https://www.worldbank.org/en/about/annual-report/creating-jobs-growing-economies
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  85.8s | pag=172 | files=  55 | data= 83 | cola=1787 | prio=10 | https://www.worldbank.org/en/about/annual-report/strategic-priorities
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  86.1s | pag=173 | files=  55 | data= 83 | cola=1787 | prio=10 | https://www.worldbank.org/en/about/annual-report/driving-accountability-impact
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  86.3s | pag=174 | files=  55 | data= 83 | cola=1787 | prio=10 | https://www.worldbank.org/en/about/annual-report/financial-summary
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  86.7s | pag=175 | files=  55 | data= 83 | cola=1790 | prio=10 | https://www.worldbank.org/en/about/annual-report/results-by-region
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  87.0s | pag=176 | files=  56 | data= 83 | cola=1798 | prio=10 | https://www.worldbank.org/en/about/annual-report/results-by-theme
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  87.3s | pag=177 | files=  57 | data= 83 | cola=1813 | prio=10 | https://www.worldbank.org/en/about/annual-report/one-world-bank-group
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  87.6s | pag=178 | files=  57 | data= 83 | cola=1825 | prio=10 | https://www.worldbank.org/en/about/annual-report/world-bank
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  88.2s | pag=179 | files=  58 | data= 84 | cola=1846 | prio=10 | https://www.worldbank.org/en/about/annual-report/ifc
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  88.5s | pag=180 | files=  58 | data= 85 | cola=1853 | prio=10 | https://www.worldbank.org/en/about/annual-report/miga
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  88.9s | pag=181 | files=  58 | data= 85 | cola=1858 | prio=10 | https://www.worldbank.org/en/about/annual-report/icsid
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  89.1s | pag=182 | files=  58 | data= 86 | cola=1866 | prio=10 | https://www.worldbank.org/en/about/annual-report.print
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  89.4s | pag=183 | files=  58 | data= 86 | cola=1865 | prio=10 | https://www.worldbank.org/en/about/annual-report/world-bank-group-downloads
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  89.7s | pag=184 | files=  58 | data= 86 | cola=1867 | prio=10 | https://openknowledge.worldbank.org/bitstreams/20a71338-e4c2-4661-b01d-1398d5a3a4c4/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  90.9s | pag=185 | files=  58 | data= 86 | cola=1866 | prio=10 | https://openknowledge.worldbank.org/bitstreams/af1e5a39-e9c0-4e94-92bc-0f0360950b6e/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  92.0s | pag=186 | files=  58 | data= 86 | cola=1865 | prio=10 | https://www.worldbank.org/en/publication/world-bank-sustainability-review
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  92.3s | pag=187 | files=  62 | data= 86 | cola=1873 | prio=10 | https://openknowledge.worldbank.org/bitstreams/8f0a032b-3b5f-4d5a-83b8-8e87d67c81b8/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  92.8s | pag=188 | files=  62 | data= 86 | cola=1872 | prio=10 | https://openknowledge.worldbank.org/bitstreams/81cc0008-ac1a-4276-9476-57350db6db9f/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  93.1s | pag=189 | files=  62 | data= 86 | cola=1871 | prio=10 | https://openknowledge.worldbank.org/bitstreams/f5b3c5bb-adaf-4e1f-bc4b-bb5384b52509/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  93.6s | pag=190 | files=  62 | data= 86 | cola=1870 | prio=10 | https://openknowledge.worldbank.org/bitstreams/6c54d5e6-9733-4fb5-b0fa-0e37339c1b94/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  94.0s | pag=191 | files=  62 | data= 86 | cola=1869 | prio=10 | https://openknowledge.worldbank.org/bitstreams/df01022d-a003-4448-b57d-ddf03f5c3e6f/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  94.3s | pag=192 | files=  62 | data= 86 | cola=1868 | prio=10 | https://openknowledge.worldbank.org/bitstreams/3d92cc9b-426d-49d6-a11d-e28e3dff3674/download
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  94.7s | pag=193 | files=  62 | data= 86 | cola=1867 | prio=10 | https://policies.worldbank.org/en/policies/all/ppfdetail/2540b75e-3536-40e0-b9e4-27833d3248fe
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  95.8s | pag=194 | files=  62 | data= 86 | cola=1869 | prio=10 | https://data360.worldbank.org/en/economies
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  96.1s | pag=195 | files=  62 | data= 86 | cola=1868 | prio=10 | https://data360.worldbank.org/en/search
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  96.3s | pag=196 | files=  62 | data= 86 | cola=1867 | prio=10 | https://data360.worldbank.org/en/about
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  96.6s | pag=197 | files=  63 | data= 86 | cola=1871 | prio=10 | https://data360.worldbank.org/en/theme/people
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  96.9s | pag=198 | files=  63 | data= 87 | cola=1870 | prio=10 | https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS?end=2023&locations=1W&start=1972&view=chart
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  97.9s | pag=199 | files=  63 | data= 88 | cola=1883 | prio=10 | https://data360.worldbank.org/en/theme/prosperity
+[FULL_44_OTROS_HISTORICOS_BANCO_MUNDIAL_DOING_BUSINESS] t=  98.1s | pag=199 | files=  63 | data= 88 | cola=1882 | prio=10 | https://data.worldbank.org/indicator/SI.POV.DDAY?end=2023&locations=1W&start=1981&view=chart
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_44_otros_historicos_banco_mundial_doing_business
+Páginas visitadas:   200
+Archivos encontrados:   63
+Datasets web:         89
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             98.49 s
+
+Formatos:
+  - PDF    : 50
+  - XLS    : 5
+  - XLSX   : 6
+  - ZIP    : 2
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_44_otros_historicos_banco_mundial_doing_business.json
+
+Trazabilidad:
+  Ejecución: 73
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

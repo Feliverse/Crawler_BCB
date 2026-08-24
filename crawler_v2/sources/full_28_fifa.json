@@ -1,0 +1,26 @@
+{
+  "id_fuente": "full_28_fifa",
+  "nombre": "Federación Internacional de Fútbol Asociación",
+  "base_url": "https://www.fifa.com",
+  "allowed_domains": [
+    "fifa.com"
+  ],
+  "entrypoints": [
+    "https://www.fifa.com"
+  ],
+  "auto_url_variants": true,
+  "max_pages": 10000,
+  "max_depth": 20,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  }
+}

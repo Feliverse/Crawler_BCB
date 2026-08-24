@@ -1,0 +1,2034 @@
+{
+    "ESTADISTICAS": {
+        "Building_statistical_capacity": {
+            "Statistics-Denmark-building-statistical-capacity.csv": {
+                "descripcion": "Read more on building statistical capacity (pdf)",
+                "url_descarga": "https://www.dst.dk/-/media/Kontorer/19-International-Raadgivning/Statistics-Denmark-building-statistical-capacity.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.dst.dk/en/consulting/building-statistical-capacity",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Annual_reports": {
+            "Annual-Report-2020---readable-version---spreads.csv": {
+                "descripcion": "Annual-Report-2020---readable-version---spreads.pdf",
+                "url_descarga": "https://www.dst.dk/-/media/Kontorer/19-International-Raadgivning/Annual-reports/Annual-Report-2020---readable-version---spreads.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                "metodo_deteccion": "url_extension"
+            },
+            "Annual_Report_2025_web_pdf": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=3675513386985&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2025_-_print": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=4772913386986&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2024_spread_for_web_pdf": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=242777494384&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2024_-_print": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=455497494383&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2023_web_pdf": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=765021501730&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2023_-_print": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=539181501731&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2022_web_pdf": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=87923110165&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2022_-_print": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=83232110166&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2021_web_pdf": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=76499104684&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2021_-_print": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=96443104369&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "Annual_Report_2020_-_print": {
+                "GetArchiveFile.csv": {
+                    "descripcion": "GetArchiveFile.aspx",
+                    "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=intconsult&fi=2367587291&fo=0",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.dst.dk/en/consulting/annual-reports",
+                    "metodo_deteccion": "content_type",
+                    "content_type": "application/pdf"
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Annual_reports_-_Statistics_Denmark.csv": {
+                        "descripcion": "Annual reports - Statistics Denmark",
+                        "url_descarga": "https://www.dst.dk/en/consulting/annual-reports",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "projects": {
+            "Practical-information-for-visitors-coming-from-abroad_new.csv": {
+                "descripcion": "Guide to Statistics Denmark",
+                "url_descarga": "https://www.dst.dk/-/media/Kontorer/19-International-Raadgivning/Practical-information-for-visitors-coming-from-abroad_new.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.dst.dk/en/consulting/projects?en=",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Data_for_research_and_analysis": {
+            "Microdata_schemes_Read_about_the_different_schemes_and_gain_insight_into_our_price_agreements": {
+                "Thesis_Scheme_for_Educational_Institutions_Read_about_the_Thesis_Scheme": {
+                    "ReglerforadgangtilpseudonymiseredemikrodataunderDanmarksStatistiksspecialeordningpdf.csv": {
+                        "descripcion": "Rules for access to pseudonymized microdata under Statistics Denmark's thesis scheme (in Danish, pdf)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/ReglerforadgangtilpseudonymiseredemikrodataunderDanmarksStatistiksspecialeordningpdf.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/specialeordningen-til-uddannelsesinstitutioner",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Vejledning_Datasikkerhedsregler_under_Specialeordningen_herunder_regler_for_hjemtagning_af_analyseresultater_og_sanktioner_ved_databrud_pdf": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=8649410222464&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/specialeordningen-til-uddannelsesinstitutioner",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Thesis_Scheme_for_Educational_Institutions_-_Statistics_Denmark.csv": {
+                                "descripcion": "Thesis Scheme for Educational Institutions - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/specialeordningen-til-uddannelsesinstitutioner",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "Prices_and_price_agreements_Gain_insight_into_our_different_price_agreements": {
+                    "Denmark's_Data_Portal's_databank_of_basic_data": {
+                        "Bestillingsliste.csv": {
+                            "descripcion": "Bestillingsliste",
+                            "url_descarga": "http://www.dst.dk/extranet/forskningvariabellister/Bestillingsliste.xlsx",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "XLSX",
+                            "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Grunddataoversigt.csv": {
+                                    "descripcion": "Grunddataoversigt",
+                                    "url_descarga": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/priser-og-prisaftaler",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        },
+                        "Info": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "ADOP_-_Adoptioner_fra_CPR.csv": {
+                                        "descripcion": "ADOP - Adoptioner fra CPR",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/ADOP%20-%20Adoptioner%20fra%20CPR.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AEFB_-_Ældredokumentation_forebyggende_hjemmebesøg.csv": {
+                                        "descripcion": "AEFB - Ældredokumentation forebyggende hjemmebesøg",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AEFB%20-%20%C3%86ldredokumentation%20forebyggende%20hjemmebes%C3%B8g.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AEFV_-_Ældredokumentation_visiteret_hjemmehjælp_frit_valg.csv": {
+                                        "descripcion": "AEFV - Ældredokumentation visiteret hjemmehjælp frit valg",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AEFV%20-%20%C3%86ldredokumentation%20visiteret%20hjemmehj%C3%A6lp%20frit%20valg.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AEHJSP_-_Ældredokumentation_-_hjemmesygepleje_i_eget_hjem.csv": {
+                                        "descripcion": "AEHJSP - Ældredokumentation - hjemmesygepleje i eget hjem",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AEHJSP%20-%20%C3%86ldredokumentation%20-%20hjemmesygepleje%20i%20eget%20hjem.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AELH_-_Ældredokumentation_leveret_hjemmehjælp.csv": {
+                                        "descripcion": "AELH - Ældredokumentation leveret hjemmehjælp",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AELH%20-%20%C3%86ldredokumentation%20leveret%20hjemmehj%C3%A6lp.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AEPB_-_Ældredokumentation_visiteret_hjemmehjælp_plejebolig.csv": {
+                                        "descripcion": "AEPB - Ældredokumentation visiteret hjemmehjælp plejebolig",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AEPB%20-%20%C3%86ldredokumentation%20visiteret%20hjemmehj%C3%A6lp%20plejebolig.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AEPI_-_Ældredokumentation_borgere_på_plejehjem_bolig_(imputeret).csv": {
+                                        "descripcion": "AEPI - Ældredokumentation borgere på plejehjem bolig (imputeret)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AEPI%20-%20%C3%86ldredokumentation%20borgere%20p%C3%A5%20plejehjem%20bolig%20(imputeret).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AEREHAB_-_Ældredokumentation_-_Rehabilitering.csv": {
+                                        "descripcion": "AEREHAB - Ældredokumentation - Rehabilitering",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AEREHAB%20-%20%C3%86ldredokumentation%20-%20Rehabilitering.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AERH_-_Ældredokumentation_Rehabilitering_månedsvis.csv": {
+                                        "descripcion": "AERH - Ældredokumentation Rehabilitering månedsvis",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AERH%20-%20%C3%86ldredokumentation%20Rehabilitering%20m%C3%A5nedsvis.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AETR_-_Ældredokumentation_genoptræning_vedligeholdelsestræning.csv": {
+                                        "descripcion": "AETR - Ældredokumentation genoptræning vedligeholdelsestræning",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AETR%20-%20%C3%86ldredokumentation%20genoptr%C3%A6ning%20vedligeholdelsestr%C3%A6ning.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AKAS_-_A-kasse_medlemmer.csv": {
+                                        "descripcion": "AKAS - A-kasse medlemmer",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AKAS%20-%20A-kasse%20medlemmer.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AKM_-_Arbejdsklassifikationsmodulet.csv": {
+                                        "descripcion": "AKM - Arbejdsklassifikationsmodulet",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AKM%20-%20Arbejdsklassifikationsmodulet.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AKU_-_Arbejdskraftundersøgelse.csv": {
+                                        "descripcion": "AKU - Arbejdskraftundersøgelse",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AKU%20-%20Arbejdskraftunders%C3%B8gelse.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AMFO_-_Arbejdsmarkedsforanstaltninger_(AMFORA).csv": {
+                                        "descripcion": "AMFO - Arbejdsmarkedsforanstaltninger (AMFORA)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AMFO%20-%20Arbejdsmarkedsforanstaltninger%20(AMFORA).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AMRTN_-_Arbejdsmarkedsregnskab_med_timenormering.csv": {
+                                        "descripcion": "AMRTN - Arbejdsmarkedsregnskab med timenormering",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AMRTN%20-%20Arbejdsmarkedsregnskab%20med%20timenormering.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "AMRUN_-_Arbejdsmarkedsregnskab_uden_timenormering.csv": {
+                                        "descripcion": "AMRUN - Arbejdsmarkedsregnskab uden timenormering",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/AMRUN%20-%20Arbejdsmarkedsregnskab%20uden%20timenormering.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "ATF_-_Små_og_mellemstore_virksomheders_adgang_til_finansiering.csv": {
+                                        "descripcion": "ATF - Små og mellemstore virksomheders adgang til finansiering",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/ATF%20-%20Sm%C3%A5%20og%20mellemstore%20virksomheders%20adgang%20til%20finansiering.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BARSELSDAGPENGE_-_Barselsdagpenge.csv": {
+                                        "descripcion": "BARSELSDAGPENGE - Barselsdagpenge",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BARSELSDAGPENGE%20-%20Barselsdagpenge.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BARSEL_FORAELDRE_-_Barsel_foraeldre.csv": {
+                                        "descripcion": "BARSEL_FORAELDRE - Barsel_foraeldre",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BARSEL_FORAELDRE%20-%20Barsel_foraeldre.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBRB_-_Bygge_og_boligregister_(BED)_-_bygninger.csv": {
+                                        "descripcion": "BBRB - Bygge og boligregister (BED) - bygninger",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBRB%20-%20Bygge%20og%20boligregister%20(BED)%20-%20bygninger.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBRBYGNING_-_BBR_bygninger.csv": {
+                                        "descripcion": "BBRBYGNING - BBR bygninger",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBRBYGNING%20-%20BBR%20bygninger.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBRE_-_Bygge_og_boligregister_(BED)_-_enheder.csv": {
+                                        "descripcion": "BBRE - Bygge og boligregister (BED) - enheder",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBRE%20-%20Bygge%20og%20boligregister%20(BED)%20-%20enheder.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBREJENDOM_-_BBR_Ejendom.csv": {
+                                        "descripcion": "BBREJENDOM - BBR Ejendom",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBREJENDOM%20-%20BBR%20Ejendom.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBREJENDOM_BFE_-_BBR_Ejendom_BFE.csv": {
+                                        "descripcion": "BBREJENDOM_BFE - BBR Ejendom BFE",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBREJENDOM_BFE%20-%20BBR%20Ejendom%20BFE.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBRENHED_-_BBR_enhed.csv": {
+                                        "descripcion": "BBRENHED - BBR enhed",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBRENHED%20-%20BBR%20enhed.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBRJORD_-_BBR_Jord.csv": {
+                                        "descripcion": "BBRJORD - BBR Jord",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBRJORD%20-%20BBR%20Jord.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBR_ADG_-_Adgangsadressereference.csv": {
+                                        "descripcion": "BBR_ADG - Adgangsadressereference",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBR_ADG%20-%20Adgangsadressereference.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBR_EJD_-_Ejendomsreference.csv": {
+                                        "descripcion": "BBR_EJD - Ejendomsreference",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBR_EJD%20-%20Ejendomsreference.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BBR_ENH_-_Boligerhvervenheds_adressereference.csv": {
+                                        "descripcion": "BBR_ENH - Boligerhvervenheds adressereference",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BBR_ENH%20-%20Boligerhvervenheds%20adressereference.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BC_-_Beskæftigede_CRAM.csv": {
+                                        "descripcion": "BC - Beskæftigede CRAM",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BC%20-%20Besk%C3%A6ftigede%20CRAM.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BEF_-_Befolkningen.csv": {
+                                        "descripcion": "BEF - Befolkningen",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BEF%20-%20Befolkningen.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BEFADR_-_Adresseregister.csv": {
+                                        "descripcion": "BEFADR - Adresseregister",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BEFADR%20-%20Adresseregister.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BEFBOP_-_Bopælsændringer.csv": {
+                                        "descripcion": "BEFBOP - Bopælsændringer",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BEFBOP%20-%20Bop%C3%A6ls%C3%A6ndringer.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BFL_-_Detaljeret_lønmodtagerdata_fra_e-Indkomst.csv": {
+                                        "descripcion": "BFL - Detaljeret lønmodtagerdata fra e-Indkomst",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BFL%20-%20Detaljeret%20l%C3%B8nmodtagerdata%20fra%20e-Indkomst.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BFLBR_-_Aggregerede_lønmodtagerdata_på_brancher_(127)_tom._2019_kvt.4.csv": {
+                                        "descripcion": "BFLBR - Aggregerede lønmodtagerdata på brancher (127) tom. 2019 kvt.4",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BFLBR%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20brancher%20(127)%20tom.%202019%20kvt.4.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BFLBRTI_-_Aggregerede_lønmodtagerdata_på_brancher_(10)_tom._2019_kvt._4.csv": {
+                                        "descripcion": "BFLBRTI - Aggregerede lønmodtagerdata på brancher (10) tom. 2019 kvt. 4",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BFLBRTI%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20brancher%20(10)%20tom.%202019%20kvt.%204.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BFLKOM_-_Aggregerede_lønmodtagerdata_på_kommune_tom._2019_kvt._4.csv": {
+                                        "descripcion": "BFLKOM - Aggregerede lønmodtagerdata på kommune tom. 2019 kvt. 4",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BFLKOM%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20kommune%20tom.%202019%20kvt.%204.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BFLSEK_-_Aggregerede_lønmodtagerdata_på_sektor_branche_region_tom._kvt.4_i_2019.csv": {
+                                        "descripcion": "BFLSEK - Aggregerede lønmodtagerdata på sektor branche region tom. kvt.4 i 2019",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BFLSEK%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20sektor%20branche%20region%20tom.%20kvt.4%20%20i%202019.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BIB_-_Udlån_på_folkebiblioteker.csv": {
+                                        "descripcion": "BIB - Udlån på folkebiblioteker",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BIB%20-%20Udl%C3%A5n%20p%C3%A5%20folkebiblioteker.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOBO_-_Børnetilskud_barn.csv": {
+                                        "descripcion": "BOBO - Børnetilskud barn",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOBO%20-%20B%C3%B8rnetilskud%20barn.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOERNFB_-_Børnepasning_0-5_årige_(Indskrevne_Børn).csv": {
+                                        "descripcion": "BOERNFB - Børnepasning 0-5 årige (Indskrevne Børn)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOERNFB%20-%20B%C3%B8rnepasning%200-5%20%C3%A5rige%20(Indskrevne%20B%C3%B8rn).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOERNFP_-_Børnepasning_0-5_årige_(Ansat_personale).csv": {
+                                        "descripcion": "BOERNFP - Børnepasning 0-5 årige (Ansat personale)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOERNFP%20-%20B%C3%B8rnepasning%200-5%20%C3%A5rige%20(Ansat%20personale).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOERNINS_-_Børnepasning_0-5_år_(inst).csv": {
+                                        "descripcion": "BOERNINS - Børnepasning 0-5 år (inst)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOERNINS%20-%20B%C3%B8rnepasning%200-5%20%C3%A5r%20(inst).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOERNPRI_-_Børnepasning_0_år-skolestart_(modtagere_af_tilskud_til_privat_børnepasning).csv": {
+                                        "descripcion": "BOERNPRI - Børnepasning 0 år-skolestart (modtagere af tilskud til privat børnepasning)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOERNPRI%20-%20B%C3%B8rnepasning%200%20%C3%A5r-skolestart%20(modtagere%20af%20tilskud%20til%20privat%20b%C3%B8rnepasning).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOERNSB_-_Børnepasning_over_5_år_(Indskrevne_Børn).csv": {
+                                        "descripcion": "BOERNSB - Børnepasning over 5 år (Indskrevne Børn)",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOERNSB%20-%20B%C3%B8rnepasning%20over%205%20%C3%A5r%20(Indskrevne%20B%C3%B8rn).html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOFAMYD_-_Børnefamilieydelser_og_tilskud.csv": {
+                                        "descripcion": "BOFAMYD - Børnefamilieydelser og tilskud",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOFAMYD%20-%20B%C3%B8rnefamilieydelser%20og%20tilskud.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    },
+                                    "BOL_-_Boligtællingen.csv": {
+                                        "descripcion": "BOL - Boligtællingen",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/Datasaetlister/BOL%20-%20Boligt%C3%A6llingen.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "BFL": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "BFL_-_Detaljeret_lønmodtagerdata_fra_e-Indkomst.csv": {
+                                        "descripcion": "BFL - Detaljeret lønmodtagerdata fra e-Indkomst",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/BFL%20-%20Detaljeret%20l%C3%B8nmodtagerdata%20fra%20e-Indkomst.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "BFLBR": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "BFLBR_-_Aggregerede_lønmodtagerdata_på_brancher_(127)_tom._2019_kvt.4.csv": {
+                                        "descripcion": "BFLBR - Aggregerede lønmodtagerdata på brancher (127) tom. 2019 kvt.4",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/BFLBR%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20brancher%20(127)%20tom.%202019%20kvt.4.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "BFLBRTI": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "BFLBRTI_-_Aggregerede_lønmodtagerdata_på_brancher_(10)_tom._2019_kvt._4.csv": {
+                                        "descripcion": "BFLBRTI - Aggregerede lønmodtagerdata på brancher (10) tom. 2019 kvt. 4",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/BFLBRTI%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20brancher%20(10)%20tom.%202019%20kvt.%204.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "BFLKOM": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "BFLKOM_-_Aggregerede_lønmodtagerdata_på_kommune_tom._2019_kvt._4.csv": {
+                                        "descripcion": "BFLKOM - Aggregerede lønmodtagerdata på kommune tom. 2019 kvt. 4",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/BFLKOM%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20kommune%20tom.%202019%20kvt.%204.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "BFLSEK": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "BFLSEK_-_Aggregerede_lønmodtagerdata_på_sektor_branche_region_tom._kvt.4_i_2019.csv": {
+                                        "descripcion": "BFLSEK - Aggregerede lønmodtagerdata på sektor branche region tom. kvt.4 i 2019",
+                                        "url_descarga": "https://www.dst.dk/extranet/ForskningVariabellister/BFLSEK%20-%20Aggregerede%20l%C3%B8nmodtagerdata%20p%C3%A5%20sektor%20branche%20region%20tom.%20kvt.4%20%20i%202019.html",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/extranet/forskningvariabellister/Oversigt%20over%20registre.html",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_html_table",
+                                        "tiene_tabla_html": true,
+                                        "tablas_detectadas": 1,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Prices_and_price_agreements_-_Statistics_Denmark.csv": {
+                                "descripcion": "Prices and price agreements - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/priser-og-prisaftaler",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 7,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "New_Pricing_Model_Read_about_the_pricing_model": {
+                    "Datapakker_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=9845310710706&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/prismodel",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "Projektdatabaser_og_den_nye_prismodel_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=7252811411941&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/prismodel",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "New_Pricing_Model_-_Statistics_Denmark.csv": {
+                                "descripcion": "New Pricing Model - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger/prismodel",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            },
+            "generelt_om_data": {
+                "registre_og_referencetyper": {
+                    "Kvalitet-af-sammenhng-i-data-10-centrale-personstatistikregistre-19812021-2-maj-2024.csv": {
+                        "descripcion": "Read more on Documentation for the use of registers (in Danish)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Kvalitet-af-sammenhng-i-data-10-centrale-personstatistikregistre-19812021-2-maj-2024.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/registre-og-referencetyper",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Datapakkerpdf.csv": {
+                        "descripcion": "Datapackages (pdf - in Danish)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Datapakkerpdf.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/registre-og-referencetyper",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Data-Warehouse_digital_final2.csv": {
+                        "descripcion": "this brochure (pdf)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Data-Warehouse_digital_final2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/registre-og-referencetyper",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Oplg-ved-prsentationen-af-Erhvervsstatistisk-Datavarehus-30-november-2023.csv": {
+                        "descripcion": "the presentationen of The Data Warehouse for Business Statistics on 30 November 2023 (pdf)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Oplg-ved-prsentationen-af-Erhvervsstatistisk-Datavarehus-30-november-2023.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/registre-og-referencetyper",
+                        "metodo_deteccion": "url_extension"
+                    }
+                },
+                "Documentation_of_data_Read_about_how_data_is_documented_in_Denmark’s_Data_Portal": {
+                    "Brugervejledning-til-Hjkvalitetsdokumentation-p-hjemmesiden-2017.csv": {
+                        "descripcion": "Read more about the application of the high-quality documentation (pdf, in Danish)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Brugervejledning-til-Hjkvalitetsdokumentation-p-hjemmesiden-2017.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/dokumentation-af-data",
+                        "metodo_deteccion": "url_extension"
+                    }
+                },
+                "Data_from_other_sources_See_what_data_you_can_access_from_other_statistical_authorities": {
+                    "Variabler--Personer-og-virksomheder--IRTE-URTE-PANTv2.csv": {
+                        "descripcion": "Variabelliste - IRTE URTE og PANT (pdf)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Variabler--Personer-og-virksomheder--IRTE-URTE-PANTv2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-1_FTS2010_survey.csv": {
+                        "descripcion": "Bilag 1_FTS2010_survey",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-1_FTS2010_survey.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-2_FTS2015_survey.csv": {
+                        "descripcion": "Bilag 2_FTS2015_survey",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-2_FTS2015_survey.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-3_FTS2021_survey.csv": {
+                        "descripcion": "Bilag 3_FTS2021_survey",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-3_FTS2021_survey.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-7FTS2010metodedokumentation-inkl-stikpop.csv": {
+                        "descripcion": "Bilag 7_FTS2010_metodedokumentation",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-7FTS2010metodedokumentation-inkl-stikpop.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-8_FTS2015_metodedokumentation.csv": {
+                        "descripcion": "Bilag 8_FTS2015_metodedokumentation",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-8_FTS2015_metodedokumentation.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-9_FST2021_metodedokumentation.csv": {
+                        "descripcion": "Bilag 9_FST2021_metodedokumentation",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-9_FST2021_metodedokumentation.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-14_FTS2021_temaoversigt_survey.csv": {
+                        "descripcion": "Bilag 14_FTS2021_temaoversigt_survey",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-14_FTS2021_temaoversigt_survey.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-15_FTS2010_2015_2021_dataark.csv": {
+                        "descripcion": "Bilag 15_FTS2010_2015_2021_dataark",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-15_FTS2010_2015_2021_dataark.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bilag-16_FTS2010_2015_2021_surveyoversigt.csv": {
+                        "descripcion": "Bilag 16_FTS2010_2015_2021_surveyoversigt",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/Bilag-16_FTS2010_2015_2021_surveyoversigt.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Kodebog_(xlxs)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=71743109435&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "XLSX",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                        }
+                    },
+                    "Regnskabsdata_-_Feltbeskrivelser_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=pris&fi=23616109489&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "Stamdata_-_Feltbeskrivelser_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=pris&fi=32854109490&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "UDD-koder": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=14649105005&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "XLSX",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Data_from_other_sources_-_Statistics_Denmark.csv": {
+                                "descripcion": "Data from other sources - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            },
+            "autorisering_af_institutioner": {
+                "User_roles": {
+                    "DDV-Brugerroller.csv": {
+                        "descripcion": "See table of the rights of user roles in DDP App (pdf, in Danish)",
+                        "url_descarga": "https://www.dst.dk/-/media/Kontorer/13-Forskning-og-Metode/DDV-Brugerroller.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/brugeradgang/brugerroller",
+                        "metodo_deteccion": "url_extension"
+                    }
+                },
+                "Databehandleraftale_(pdf)": {
+                    "GetArchiveFile.csv": {
+                        "descripcion": "GetArchiveFile.aspx",
+                        "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=33168104632&fo=0",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                        "metodo_deteccion": "content_type",
+                        "content_type": "application/pdf"
+                    }
+                },
+                "Access_to_business_data": {
+                    "Skabelon_til_anmodning_om_dispensation_til_erhvervsdata_med_begraenset_adgang_(docx)_docx": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=4633792230&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "DOCX",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/projektindstilling/adgang-til-erhvervsdata",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Access_to_business_data_-_Statistics_Denmark.csv": {
+                                "descripcion": "Access to business data - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/projektindstilling/adgang-til-erhvervsdata",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "Please_refer_to_Statistics_Denmark’s_Data_confidentiality_policy_and_Information_security_policy": {
+                    "Statistics_Denmark's_Information_security_policy_2026_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=formid&fi=83605109272&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/OmDS/kvalitet-og-styring/datasikkerhed-i-danmarks-statistik",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Information_security_and_data_confidentiality_-_Statistics_Denmark.csv": {
+                                "descripcion": "Information security and data confidentiality - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/OmDS/kvalitet-og-styring/datasikkerhed-i-danmarks-statistik",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Authorisation_of_institutions_-_Statistics_Denmark.csv": {
+                            "descripcion": "Authorisation of institutions - Statistics Denmark",
+                            "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": true
+                        }
+                    }
+                }
+            },
+            "Dansk": {
+                "Data_til_myndigheder": {
+                    "Når_data_bliver_til_en_ekstra_lærer_i_klasselokalet": {
+                        "Bilag_2._Analyse_af_faktorer,_der_påvirker_om_elever_består_dansk_og_matematik.csv": {
+                            "descripcion": "Bilag 2. Analyse af faktorer, der påvirker om elever består dansk og matematik.pdf",
+                            "url_descarga": "https://www.kk.dk/sites/default/files/2025-07/Bilag%202.%20Analyse%20af%20faktorer%2C%20der%20p%C3%A5virker%20om%20elever%20best%C3%A5r%20dansk%20og%20matematik.pdf",
+                            "fecha_actualizacion": "2025-07",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "Bilag_1._Pixi_-_Analyse_af_faktorer,_der_påvirker_om_elever_består_dansk_og_matematik.csv": {
+                            "descripcion": "her",
+                            "url_descarga": "https://www.kk.dk/sites/default/files/2025-07/Bilag%201.%20Pixi%20-%20Analyse%20af%20faktorer%2C%20der%20p%C3%A5virker%20om%20elever%20best%C3%A5r%20dansk%20og%20matematik.pdf",
+                            "fecha_actualizacion": "2025-07",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet",
+                            "metodo_deteccion": "url_extension"
+                        }
+                    }
+                },
+                "Autorisering_af_institutioner_Se,_hvordan_du_får_autorisation,_og_få_hjælp_til_ansøgningsprocessen": {
+                    "Regler_for_adgang_til_pseudonymiserede_mikrodata_under_Danmarks_Statistiks_specialeordning_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=3391210222463&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "Oversigt_over_autoriserede_institutioner_(excel)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=942968795887&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "XLSX",
+                            "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                        }
+                    },
+                    "Læs_om_muligheden_for_at_søge_dispensation_under_Adgang_til_erhvervsdata": {
+                        "Se_oversigten_over_erhvervsdata_med_begrænset_adgang_i_Danmarks_Statistik_(Excel)": {
+                            "GetArchiveFile.csv": {
+                                "descripcion": "GetArchiveFile.aspx",
+                                "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=1050710151192&fo=0",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "XLSX",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/projektindstilling/adgang-til-erhvervsdata",
+                                "metodo_deteccion": "content_type",
+                                "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+                            }
+                        },
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Adgang_til_erhvervsdata_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Adgang til erhvervsdata - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/projektindstilling/adgang-til-erhvervsdata",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Autorisering_af_institutioner_-_Danmarks_Statistik.csv": {
+                                "descripcion": "Autorisering af institutioner - Danmarks Statistik",
+                                "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/autorisering-af-institutioner",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": true
+                            }
+                        }
+                    }
+                },
+                "Om_dataindsamling_fra_virksomheder": {
+                    "Informationssikkerhed_og_datafortrolighed": {
+                        "Datafortrolighedspolitik_(pdf)": {
+                            "GetArchiveFile.csv": {
+                                "descripcion": "GetArchiveFile.aspx",
+                                "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=%7B2%7D&fi=formid&fo=datafortrolighed--pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.dst.dk/da/OmDS/kvalitet-og-styring/datasikkerhed-i-danmarks-statistik",
+                                "metodo_deteccion": "content_type",
+                                "content_type": "application/pdf"
+                            }
+                        },
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Informationssikkerhed_og_datafortrolighed_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Informationssikkerhed og datafortrolighed - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/OmDS/kvalitet-og-styring/datasikkerhed-i-danmarks-statistik",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/Indberet/om-indberetning",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Om_dataindsamling_fra_virksomheder_-_Danmarks_Statistik.csv": {
+                                "descripcion": "Om dataindsamling fra virksomheder - Danmarks Statistik",
+                                "url_descarga": "https://www.dst.dk/da/Indberet/om-indberetning",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Læs_om_behandling_af_indsamlede_individdata_om_personer_og_virksomheder": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Databeskyttelse_af_indberettede_oplysninger_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Databeskyttelse af indberettede oplysninger - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/Indberet/vejledning-til-digital-indberetning/beskyttelse-af-persondata",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/Indberet/om-indberetning",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        },
+                        "Sikkerhedscertifikater_til_krypteret_kommunikation": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Sikkerhedscertifikater_til_krypteret_kommunikation_-_Danmarks_Statistik.csv": {
+                                        "descripcion": "Sikkerhedscertifikater til krypteret kommunikation - Danmarks Statistik",
+                                        "url_descarga": "https://www.dst.dk/da/Indberet/vejledning-til-digital-indberetning/download-af-sikkerhedscertifikater",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.dst.dk/da/Indberet/vejledning-til-digital-indberetning/beskyttelse-af-persondata",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Om_DDV_App": {
+                    "Læs_mere_under_Regler_for_hjemtagelse_af_analyseresultater": {
+                        "Vejledning_i_datasikkerhedsreglerne_under_Mikrodataordningerne_herunder_for_hjemsendelse_af_analyseresultater_og_sanktioner_ved_databru_pdf": {
+                            "GetArchiveFile.csv": {
+                                "descripcion": "GetArchiveFile.aspx",
+                                "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=158751994932&fo=0",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed/regler-for-hjemtagelse-af-analyseresultater",
+                                "metodo_deteccion": "content_type",
+                                "content_type": "application/pdf"
+                            }
+                        },
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Regler_for_hjemtagelse_af_analyseresultater_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Regler for hjemtagelse af analyseresultater - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed/regler-for-hjemtagelse-af-analyseresultater",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/om-danmarks-datavindue/om-ddv-app",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Rammeaftale_med_DeiC": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Rammeaftale_med_DeiC_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Rammeaftale med DeiC - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/om-danmarks-datavindue/rammeaftale-med-deic",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/om-danmarks-datavindue/om-ddv-app",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "nyt_og_meddelelser": {
+                    "Nyt_om_grunddata_-_1._kvartal_2025": {
+                        "Gå_til_Dokumentation_af_dataindsamlingen_til_Elevregistret_2024_(pdf)": {
+                            "GetArchiveFile.csv": {
+                                "descripcion": "GetArchiveFile.aspx",
+                                "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=kvaldel&fi=645097600039&fo=0",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser/2025/nyt-om-grunddata-1-kvartal-2025",
+                                "metodo_deteccion": "content_type",
+                                "content_type": "application/pdf"
+                            }
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Nyt_og_meddelelser_-_Danmarks_Statistik.csv": {
+                                "descripcion": "Nyt og meddelelser - Danmarks Statistik",
+                                "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 1,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Nyt_om_grunddata_-_2._kvartal_2025": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Nyt_om_grunddata_-_2._kvartal_2025_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Nyt om grunddata - 2. kvartal 2025 - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser/2025/nyt-om-grunddata-2-kvartal-2025",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": false,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "2026": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "2026_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "2026 - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser/2026",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": false,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "2025": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "2025_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "2025 - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser/2025",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": false,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Brugeradgang_Få_hjælp_til_login_i_DDV_App_og_læs_om_de_forskellige_brugerroller_og_certificering": {
+                    "Certificering_af_brugere_Læs_om_certificering_af_brugere_i_datasikkerhedsreglerne": {
+                        "Danmarks_Datavindues_datasikkerhedsregler_under_mikrodataordningerne_(pdf)": {
+                            "GetArchiveFile.csv": {
+                                "descripcion": "GetArchiveFile.aspx",
+                                "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=2486967504&fo=0",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/brugeradgang/certificering-af-brugere",
+                                "metodo_deteccion": "content_type",
+                                "content_type": "application/pdf"
+                            }
+                        }
+                    }
+                },
+                "Historiske_publikationsserier": {
+                    "ste_1983_2022": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Statistiske_Efterretninger_1983-2022_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Statistiske Efterretninger 1983-2022 - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1983-2022",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": true
+                                }
+                            }
+                        }
+                    },
+                    "StatMed": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Statistiske_Meddelelser_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Statistiske Meddelelser - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "Mikrodataordninger_Læs_om_de_forskellige_mikrodataordninger_og_få_indblik_i_vores_prisaftaler": {
+                    "Priser_og_aftalevilkår_Få_indblik_i_vores_forskellige_prisaftaler": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Priser_og_prisaftaler_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Priser og prisaftaler - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger/priser-og-prisaftaler",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 7,
+                                    "permite_exportar": false,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Specialeordningen_til_uddannelsesinstitutioner_Læs_om_Specialeordningen": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Specialeordningen_til_uddannelsesinstitutioner_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Specialeordningen til uddannelsesinstitutioner - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger/specialeordningen-til-uddannelsesinstitutioner",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Ny_prismodel_Læs_om_prismodellen": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Ny_prismodel_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Ny prismodel - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger/prismodel",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "generelt_om_data": {
+                    "Data_fra_andre_kilder_Se,_hvilke_data_du_kan_få_adgang_til_fra_andre_statistikmyndigheder": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Data_fra_andre_kilder_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Data fra andre kilder - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/generelt-om-data/data-fra-andre-kilder",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/generelt-om-data",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Databestilling_Se_hvordan_du_bestiller_data_i_DDV_App": {
+                    "Tilknytning_af_eksterne_data_Læs,_hvordan_du_kobler_ekstern_data_til_dit_projekt": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Tilknytning_af_eksterne_data_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Tilknytning af eksterne data - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/databestilling/tilknytning-af-eksterne-data",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/databestilling",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Regler_og_datasikkerhed_Bliv_klogere_på_Danmarks_Statistiks_datasikkerheds-_og_hjemtagelsesregler": {
+                    "regler_for_arbejdet_med_mikrodata": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Regler_for_arbejdet_med_mikrodata_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Regler for arbejdet med mikrodata - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed/regler-for-arbejdet-med-mikrodata",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "sanktionsregler": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Sanktionsregler_-_Danmarks_Statistik.csv": {
+                                    "descripcion": "Sanktionsregler - Danmarks Statistik",
+                                    "url_descarga": "https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed/sanktionsregler",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 2,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "About_the_DDP_App": {
+                "Read_more_under_Rules_on_transfer_of_analysis_results": {
+                    "Rules_for_data_safety_under_the_microdata_schemes_(pdf)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=38014105383&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/regler-og-datasikkerhed/regler-for-hjemtagelse-af-analyseresultater",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "Statistics_Denmark’s_Data_Confidentiality_Policy": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=%7B2%7D&fi=formid&fo=dataconfidentiality--pdf",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/regler-og-datasikkerhed/regler-for-hjemtagelse-af-analyseresultater",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Rules_on_transfer_of_analysis_results_-_Statistics_Denmark.csv": {
+                                "descripcion": "Rules on transfer of analysis results - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/regler-og-datasikkerhed/regler-for-hjemtagelse-af-analyseresultater",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/om-danmarks-datavindue/om-ddv-app",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 1,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "Framework_agreement_with_DeiC": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Framework_agreement_with_DeiC_-_Statistics_Denmark.csv": {
+                                "descripcion": "Framework agreement with DeiC - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/om-danmarks-datavindue/rammeaftale-med-deic",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/om-danmarks-datavindue/om-ddv-app",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            },
+            "Data_order_See_how_you_order_data_in_DDP_App": {
+                "Linking_of_external_data_Read_how_you_link_external_data_to_your_project": {
+                    "this_guide_for_DDV_upload_(pdf,_in_Danish)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=3942639397&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/databestilling/tilknytning-af-eksterne-data",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Linking_of_external_data_-_Statistics_Denmark.csv": {
+                                "descripcion": "Linking of external data - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/databestilling/tilknytning-af-eksterne-data",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/databestilling",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 1,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            },
+            "Analysis_platform_Read_about_The_research_machine,_Hosted_server_and_High_Performance_Computing": {
+                "The_research_machine_Read_about_the_research_machine_and_get_help_and_guidance_using_it": {
+                    "Connection_to_research_servers_at_Statistics_Denmark_from_abroad": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=8313168148&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/analyseplatform/forskermaskinen",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    }
+                },
+                "Hosted_server_Read_about_the_option_of_having_your_own_server_located_at_Statistics_Denmark": {
+                    "Read_about_prices,_terms_and_requirements_to_IT_equipment_for_hosted_servers_(pdf,_in_Danish)": {
+                        "GetArchiveFile.csv": {
+                            "descripcion": "GetArchiveFile.aspx",
+                            "url_descarga": "https://www.dst.dk/Site/Dst/SingleFiles/GetArchiveFile.aspx?ext=forskning&fi=5454367972&fo=0",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/analyseplatform/hosted-server",
+                            "metodo_deteccion": "content_type",
+                            "content_type": "application/pdf"
+                        }
+                    }
+                }
+            },
+            "Rules_and_Data_Security_Get_updated_on_Statistics_Denmark's_data_security_and_transfer_rules": {
+                "sanktionsregler": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Sanction_rules_-_Statistics_Denmark.csv": {
+                                "descripcion": "Sanction rules - Statistics Denmark",
+                                "url_descarga": "https://www.dst.dk/en/TilSalg/data-til-forskning/regler-og-datasikkerhed/sanktionsregler",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.dst.dk/en/TilSalg/data-til-forskning/regler-og-datasikkerhed",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 2,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "StatBank_API_-_Statistics_Denmark.csv": {
+                        "descripcion": "StatBank API - Statistics Denmark",
+                        "url_descarga": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "API": {
+            "StatBank_Denmark_-_Subjects": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "StatBank_Denmark_-_Subjects.csv": {
+                            "descripcion": "StatBank Denmark - Subjects",
+                            "url_descarga": "https://api.statbank.dk/v1/subjects?format=JSON&lang=en",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://api.statbank.dk/v1/subjects?format=JSON&lang=en",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "registros_detectados": 10,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "documentacion_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                            "metodo_http": "GET"
+                        }
+                    }
+                }
+            },
+            "StatBank_Denmark_-_Tables": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "StatBank_Denmark_-_Tables.csv": {
+                            "descripcion": "StatBank Denmark - Tables",
+                            "url_descarga": "https://api.statbank.dk/v1/tables?format=JSON&lang=en",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://api.statbank.dk/v1/tables?format=JSON&lang=en",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "registros_detectados": 2311,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "documentacion_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                            "metodo_http": "GET"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

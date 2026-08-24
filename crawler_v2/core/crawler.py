@@ -16,29 +16,20 @@ from urllib.parse import (
 )
 
 from bs4 import BeautifulSoup
-
-from requests.exceptions import (
-    RequestException,
-    Timeout,
-)
+from requests.exceptions import RequestException, Timeout
 
 from adapters.generic import GenericAdapter
 
+from core.api_detector import ApiDetector
+from core.api_identity import ApiIdentity
+from core.api_pagination import ApiPagination
+from core.api_policy import ApiPolicy
 from core.data_detector import DataDetector
-
-from core.file_detector import (
-    FileDetection,
-    FileDetector,
-)
-
+from core.file_detector import FileDetection, FileDetector
 from core.http_client import HttpClient
-
-from core.metadata import (
-    clean_text,
-    extract_date,
-    filename_from_url,
-)
-
+from core.metadata import clean_text, extract_date, filename_from_url
+from core.openapi_discovery import OpenApiDiscovery
+from core.sitemap_discovery import SitemapDiscovery
 from core.zip_inspector import ZipInspector
 
 
@@ -51,6 +42,23 @@ TRACKING_PARAMETERS = {
     "fbclid",
     "gclid",
 }
+
+
+API_URL_HINTS = (
+    "/api/",
+    "/api?",
+    "/oapi/",
+    "/v1/",
+    "/v2/",
+    "/v3/",
+    "/graphql",
+    "/openapi",
+    "/swagger",
+    "api.",
+    "format=json",
+    "f=json",
+    "f=geojson",
+)
 
 
 # ============================================================
@@ -69,84 +77,58 @@ class PageRecord:
 @dataclass
 class DataPageRecord:
     id_fuente: str
-
     descripcion: str
-
     url: str
-
     url_origen: str | None
-
     ruta: list[str]
-
     fecha_referencia: str | None
-
     tiene_tabla_html: bool
-
     tablas_detectadas: int
-
     permite_exportar: bool
-
     tiene_filtros: bool
-
     metodo_deteccion: str
+
+    tipo_recurso: str = "web"
+    formato: str | None = None
+    registros_detectados: int | None = None
+    es_openapi: bool | None = None
+    es_geojson: bool | None = None
+    tiene_paginacion: bool | None = None
+    documentacion_url: str | None = None
+    metodo_http: str | None = None
 
 
 @dataclass
 class FileRecord:
     id_fuente: str
-
     descripcion: str
-
     url_descarga: str
-
     url_origen: str
-
     origenes: list[str]
-
     tipo_archivo: str | None
-
     extension: str | None
-
     fecha_actualizacion: str | None
-
     ruta: list[str]
-
     metodo_deteccion: str | None
-
     content_type: str | None = None
-
-    contenido_zip: list[str] = field(
-        default_factory=list
-    )
-
+    contenido_zip: list[str] = field(default_factory=list)
     zip_inspeccion: str | None = None
-
     zip_bytes_descargados: int = 0
 
 
 @dataclass
 class CrawlResult:
-    pages: list[PageRecord] = field(
-        default_factory=list
-    )
-
-    files: list[FileRecord] = field(
-        default_factory=list
-    )
-
-    data_pages: list[DataPageRecord] = field(
-        default_factory=list
-    )
-
-    errors: list[str] = field(
-        default_factory=list
-    )
-
-    stop_reason: str = (
-        "frontier_exhausted"
-    )
-
+    pages: list[PageRecord] = field(default_factory=list)
+    files: list[FileRecord] = field(default_factory=list)
+    data_pages: list[DataPageRecord] = field(default_factory=list)
+    errors: list[str] = field(default_factory=list)
+    stop_reason: str = "frontier_exhausted"
     duration_seconds: float = 0.0
+
+    sitemap_documents: int = 0
+    sitemap_urls_discovered: int = 0
+    sitemap_urls_queued: int = 0
+    sitemap_errors: int = 0
 
 
 # ============================================================
@@ -161,33 +143,190 @@ class Crawler:
         detector: FileDetector,
         adapter: GenericAdapter,
     ) -> None:
+
         self.config = config
-
         self.client = client
-
         self.detector = detector
-
         self.adapter = adapter
 
-        self.zip_inspector = ZipInspector(
+        self.zip_inspector = ZipInspector(client)
+        self.data_detector = DataDetector()
+        self.api_detector = ApiDetector()
+        self.api_policy = ApiPolicy()
+        self.api_identity = ApiIdentity()
+        self.api_pagination = ApiPagination()
+        self.openapi_discovery = OpenApiDiscovery()
+        self.sitemap_discovery = SitemapDiscovery(
             client
-        )
-
-        self.data_detector = (
-            DataDetector()
         )
 
         self.source_id = str(
             config["id_fuente"]
         )
 
-        self.allowed_domains = tuple(
-            domain.lower()
-            for domain in config.get(
+        # ====================================================
+        # SITEMAPS
+        # ====================================================
+
+        self.discover_sitemaps = bool(
+            config.get(
+                "discover_sitemaps",
+                True,
+            )
+        )
+
+        try:
+            self.max_sitemap_urls = max(
+                0,
+                int(
+                    config.get(
+                        "max_sitemap_urls",
+                        10000,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.max_sitemap_urls = 10000
+
+        try:
+            self.max_sitemap_documents = max(
+                1,
+                int(
+                    config.get(
+                        "max_sitemap_documents",
+                        100,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.max_sitemap_documents = 100
+
+        try:
+            self.max_sitemap_bytes = max(
+                1_000_000,
+                int(
+                    config.get(
+                        "max_sitemap_bytes",
+                        20_000_000,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.max_sitemap_bytes = 20_000_000
+
+        # ====================================================
+        # API CONFIGURADA / OPENAPI
+        # ====================================================
+
+        self.api_endpoints: dict[str, dict] = {}
+
+        self.api_documentation: list[
+            tuple[str, str]
+        ] = []
+
+        self.openapi_endpoints: dict[
+            str,
+            dict,
+        ] = {}
+
+        self.openapi_documents_seen: set[
+            str
+        ] = set()
+
+        # ====================================================
+        # PAGINACIÓN API
+        # ====================================================
+
+        pagination_config = (
+            config.get(
+                "api_pagination",
+                {},
+            )
+            or {}
+        )
+
+        if not isinstance(
+            pagination_config,
+            dict,
+        ):
+            pagination_config = {}
+
+        self.api_pagination_enabled = bool(
+            pagination_config.get(
+                "enabled",
+                False,
+            )
+        )
+
+        try:
+
+            pagination_max_pages = int(
+                pagination_config.get(
+                    "max_pages",
+                    10,
+                )
+            )
+
+        except (
+            TypeError,
+            ValueError,
+        ):
+
+            pagination_max_pages = 10
+
+        self.api_pagination_max_pages = max(
+            1,
+            pagination_max_pages,
+        )
+
+        # URL paginada -> contexto del dataset padre.
+        self.pagination_context_by_url: dict[
+            str,
+            dict,
+        ] = {}
+
+        # Dataset -> número de páginas procesadas.
+        self.pagination_pages_by_identity: dict[
+            str,
+            int,
+        ] = {}
+
+        # ====================================================
+        # DOMINIOS
+        # ====================================================
+
+        allowed_domains = {
+            str(domain).lower()
+            for domain
+            in config.get(
                 "allowed_domains",
                 [],
             )
+            if domain
+        }
+
+        self._load_api_configuration(
+            allowed_domains
         )
+
+        self.allowed_domains = tuple(
+            sorted(
+                allowed_domains
+            )
+        )
+
+        # ====================================================
+        # ESTADO
+        # ====================================================
 
         self.visited: set[str] = set()
 
@@ -198,9 +337,181 @@ class Crawler:
             FileRecord,
         ] = {}
 
+        self.data_index_by_identity: dict[
+            str,
+            int,
+        ] = {}
+
+        self.api_skipped = 0
+
         self.sequence = (
             itertools.count()
         )
+
+    # ========================================================
+    # CONFIGURACIÓN API
+    # ========================================================
+
+    def _load_api_configuration(
+        self,
+        allowed_domains: set[str],
+    ) -> None:
+
+        endpoints = (
+            self.config.get(
+                "api_endpoints",
+                [],
+            )
+            or []
+        )
+
+        for item in endpoints:
+
+            if isinstance(
+                item,
+                str,
+            ):
+
+                metadata = {
+                    "url": item,
+                    "descripcion": "",
+                    "method": "GET",
+                    "documentation_url": None,
+                }
+
+            elif isinstance(
+                item,
+                dict,
+            ):
+
+                if not item.get(
+                    "enabled",
+                    True,
+                ):
+                    continue
+
+                metadata = dict(
+                    item
+                )
+
+            else:
+                continue
+
+            raw_url = str(
+                metadata.get(
+                    "url",
+                    "",
+                )
+            ).strip()
+
+            normalized = (
+                self.normalize_url(
+                    raw_url
+                )
+            )
+
+            if not normalized:
+                continue
+
+            metadata[
+                "url"
+            ] = normalized
+
+            metadata[
+                "method"
+            ] = str(
+                metadata.get(
+                    "method",
+                    "GET",
+                )
+            ).strip().upper()
+
+            metadata[
+                "_declared"
+            ] = True
+
+            self.api_endpoints[
+                normalized
+            ] = metadata
+
+            hostname = (
+                urlparse(
+                    normalized
+                ).hostname
+                or ""
+            ).lower()
+
+            if hostname:
+
+                allowed_domains.add(
+                    hostname
+                )
+
+                if hostname.startswith(
+                    "www."
+                ):
+                    allowed_domains.add(
+                        hostname[4:]
+                    )
+
+            documentation_url = (
+                metadata.get(
+                    "documentation_url"
+                )
+            )
+
+            if not documentation_url:
+                continue
+
+            normalized_doc = (
+                self.normalize_url(
+                    str(
+                        documentation_url
+                    )
+                )
+            )
+
+            if not normalized_doc:
+                continue
+
+            description = (
+                clean_text(
+                    str(
+                        metadata.get(
+                            "descripcion",
+                            "",
+                        )
+                    )
+                )
+                or "API"
+            )
+
+            self.api_documentation.append(
+                (
+                    normalized_doc,
+                    description,
+                )
+            )
+
+            doc_hostname = (
+                urlparse(
+                    normalized_doc
+                ).hostname
+                or ""
+            ).lower()
+
+            if doc_hostname:
+
+                allowed_domains.add(
+                    doc_hostname
+                )
+
+                if doc_hostname.startswith(
+                    "www."
+                ):
+                    allowed_domains.add(
+                        doc_hostname[4:]
+                    )
 
     # ========================================================
     # URL
@@ -215,12 +526,16 @@ class Crawler:
         if not url:
             return None
 
-        value = url.strip()
+        value = (
+            url.strip()
+        )
 
         if not value:
             return None
 
-        lowered = value.lower()
+        lowered = (
+            value.lower()
+        )
 
         if lowered.startswith(
             (
@@ -232,10 +547,13 @@ class Crawler:
         ):
             return None
 
-        if value.startswith("#"):
+        if value.startswith(
+            "#"
+        ):
             return None
 
         if base_url:
+
             value = urljoin(
                 base_url,
                 value,
@@ -245,10 +563,13 @@ class Crawler:
             value
         )
 
-        if parsed.scheme.lower() not in {
-            "http",
-            "https",
-        }:
+        if (
+            parsed.scheme.lower()
+            not in {
+                "http",
+                "https",
+            }
+        ):
             return None
 
         if not parsed.hostname:
@@ -263,9 +584,11 @@ class Crawler:
         )
 
         try:
+
             port = parsed.port
 
         except ValueError:
+
             return None
 
         if (
@@ -279,9 +602,11 @@ class Crawler:
                 and port == 443
             )
         ):
+
             netloc = hostname
 
         else:
+
             netloc = (
                 f"{hostname}:{port}"
             )
@@ -300,6 +625,7 @@ class Crawler:
             parsed.query,
             keep_blank_values=True,
         ):
+
             if (
                 key.lower()
                 in TRACKING_PARAMETERS
@@ -340,12 +666,10 @@ class Crawler:
         url: str,
     ) -> bool:
 
-        parsed = urlparse(
-            url
-        )
-
         hostname = (
-            parsed.hostname
+            urlparse(
+                url
+            ).hostname
             or ""
         ).strip().lower()
 
@@ -364,33 +688,27 @@ class Crawler:
             return False
 
         try:
-            ip = ipaddress.ip_address(
-                hostname
+
+            ip = (
+                ipaddress.ip_address(
+                    hostname
+                )
             )
 
         except ValueError:
-            # Dominio DNS normal.
+
             return True
 
-        if ip.is_private:
-            return False
-
-        if ip.is_loopback:
-            return False
-
-        if ip.is_link_local:
-            return False
-
-        if ip.is_multicast:
-            return False
-
-        if ip.is_unspecified:
-            return False
-
-        if ip.is_reserved:
-            return False
-
-        return True
+        return not any(
+            (
+                ip.is_private,
+                ip.is_loopback,
+                ip.is_link_local,
+                ip.is_multicast,
+                ip.is_unspecified,
+                ip.is_reserved,
+            )
+        )
 
     def is_allowed(
         self,
@@ -420,6 +738,801 @@ class Crawler:
         return False
 
     # ========================================================
+    # API
+    # ========================================================
+
+    @staticmethod
+    def _looks_like_api_url(
+        url: str,
+    ) -> bool:
+
+        lowered = (
+            url.lower()
+        )
+
+        return any(
+            hint in lowered
+            for hint in API_URL_HINTS
+        )
+
+    def _pagination_context_for(
+        self,
+        url: str,
+    ) -> dict | None:
+
+        normalized = (
+            self.normalize_url(
+                url
+            )
+        )
+
+        if not normalized:
+            return None
+
+        return (
+            self.pagination_context_by_url
+            .get(
+                normalized
+            )
+        )
+
+    def _api_metadata_for(
+        self,
+        current_url: str,
+        final_url: str,
+    ) -> dict | None:
+
+        for url in (
+            current_url,
+            final_url,
+        ):
+
+            normalized = (
+                self.normalize_url(
+                    url
+                )
+            )
+
+            if not normalized:
+                continue
+
+            pagination_context = (
+                self.pagination_context_by_url
+                .get(
+                    normalized
+                )
+            )
+
+            if pagination_context:
+
+                metadata = (
+                    pagination_context.get(
+                        "metadata"
+                    )
+                )
+
+                if isinstance(
+                    metadata,
+                    dict,
+                ):
+                    return metadata
+
+            if (
+                normalized
+                in self.api_endpoints
+            ):
+
+                return (
+                    self.api_endpoints[
+                        normalized
+                    ]
+                )
+
+            if (
+                normalized
+                in self.openapi_endpoints
+            ):
+
+                return (
+                    self.openapi_endpoints[
+                        normalized
+                    ]
+                )
+
+        return None
+
+    def _prefer_api_detection(
+        self,
+        current_url: str,
+        final_url: str,
+        metadata: dict | None,
+    ) -> bool:
+
+        if metadata is not None:
+            return True
+
+        return (
+            self._looks_like_api_url(
+                current_url
+            )
+            or
+            self._looks_like_api_url(
+                final_url
+            )
+        )
+
+    def _allow_discovered_url(
+        self,
+        url: str,
+    ) -> bool:
+
+        normalized = (
+            self.normalize_url(
+                url
+            )
+        )
+
+        if not normalized:
+            return False
+
+        declared = (
+            normalized
+            in self.api_endpoints
+        )
+
+        known_api = (
+            declared
+            or normalized
+            in self.openapi_endpoints
+            or self._looks_like_api_url(
+                normalized
+            )
+        )
+
+        if not known_api:
+            return True
+
+        decision = (
+            self.api_policy
+            .should_follow_discovered(
+                normalized,
+                declared=declared,
+            )
+        )
+
+        if decision.allowed:
+            return True
+
+        self.api_skipped += 1
+
+        if (
+            self.api_skipped <= 10
+            or self.api_skipped % 50 == 0
+        ):
+
+            print(
+                f"[{self.source_id.upper()}] "
+                f"API OMITIDA | "
+                f"{decision.reason} | "
+                f"{normalized}",
+                flush=True,
+            )
+
+        return False
+
+    def _should_register_api(
+        self,
+        url: str,
+        detection,
+        metadata: dict | None,
+    ) -> bool:
+
+        declared = bool(
+            metadata
+            and metadata.get(
+                "_declared",
+                False,
+            )
+        )
+
+        decision = (
+            self.api_policy
+            .should_register_api(
+                url,
+                detection,
+                declared=declared,
+            )
+        )
+
+        return (
+            decision.allowed
+        )
+
+    # ========================================================
+    # OPENAPI
+    # ========================================================
+
+    def _discover_openapi(
+        self,
+        queue: list,
+        response,
+        document_url: str,
+    ) -> None:
+
+        normalized_document = (
+            self.normalize_url(
+                document_url
+            )
+        )
+
+        if not normalized_document:
+            return
+
+        if (
+            normalized_document
+            in self.openapi_documents_seen
+        ):
+            return
+
+        self.openapi_documents_seen.add(
+            normalized_document
+        )
+
+        try:
+
+            max_endpoints = int(
+                self.config.get(
+                    "max_openapi_endpoints",
+                    40,
+                )
+            )
+
+        except (
+            TypeError,
+            ValueError,
+        ):
+
+            max_endpoints = 40
+
+        max_endpoints = max(
+            1,
+            max_endpoints,
+        )
+
+        discovery = (
+            self.openapi_discovery.discover(
+                response,
+                normalized_document,
+                max_endpoints=(
+                    max_endpoints
+                ),
+            )
+        )
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"OPENAPI | "
+            f"version={discovery.version or '?'} | "
+            f"GET={len(discovery.endpoints)} | "
+            f"ejecutables="
+            f"{len(discovery.executable_endpoints)} | "
+            f"omitidos="
+            f"{discovery.skipped_endpoints}",
+            flush=True,
+        )
+
+        queued = 0
+
+        for endpoint in (
+            discovery.executable_endpoints
+        ):
+
+            normalized = (
+                self.normalize_url(
+                    endpoint.url
+                )
+            )
+
+            if not normalized:
+                continue
+
+            if not self.is_public_web_url(
+                normalized
+            ):
+                continue
+
+            # OpenAPI no puede ampliar silenciosamente
+            # el dominio permitido.
+            if not self.is_allowed(
+                normalized
+            ):
+
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"OPENAPI OMITIDO | "
+                    f"dominio_no_permitido | "
+                    f"{normalized}",
+                    flush=True,
+                )
+
+                continue
+
+            policy = (
+                self.api_policy
+                .should_follow_discovered(
+                    normalized,
+                    declared=False,
+                )
+            )
+
+            if not policy.allowed:
+                continue
+
+            if (
+                normalized
+                in self.api_endpoints
+            ):
+                continue
+
+            description = (
+                endpoint.summary
+                or endpoint.operation_id
+                or endpoint.path
+            )
+
+            self.openapi_endpoints[
+                normalized
+            ] = {
+                "url": normalized,
+                "descripcion": description,
+                "method": "GET",
+                "documentation_url": (
+                    normalized_document
+                ),
+                "_declared": False,
+                "_openapi_discovered": True,
+            }
+
+            before = len(
+                self.queued
+            )
+
+            self._queue_page(
+                queue,
+                url=normalized,
+                depth=0,
+                parent_url=(
+                    normalized_document
+                ),
+                path=(
+                    "API",
+                    "OpenAPI",
+                    description,
+                ),
+                text=description,
+                priority_override=2,
+            )
+
+            if (
+                len(
+                    self.queued
+                )
+                > before
+            ):
+                queued += 1
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"OPENAPI | "
+            f"nuevos_en_cola={queued}",
+            flush=True,
+        )
+
+    # ========================================================
+    # PAGINACIÓN API
+    # ========================================================
+
+    def _accumulate_paginated_response(
+        self,
+        result: CrawlResult,
+        identity: str,
+        detection,
+    ) -> bool:
+
+        existing_index = (
+            self.data_index_by_identity
+            .get(
+                identity
+            )
+        )
+
+        if existing_index is None:
+            return False
+
+        existing = (
+            result.data_pages[
+                existing_index
+            ]
+        )
+
+        page_records = getattr(
+            detection,
+            "records_count",
+            None,
+        )
+
+        if page_records is not None:
+
+            if (
+                existing.registros_detectados
+                is None
+            ):
+                existing.registros_detectados = 0
+
+            existing.registros_detectados += (
+                page_records
+            )
+
+        existing.tiene_paginacion = True
+
+        if (
+            not existing.formato
+            and getattr(
+                detection,
+                "format",
+                None,
+            )
+        ):
+
+            existing.formato = (
+                detection.format
+            )
+
+        return True
+
+    def _queue_next_api_page(
+        self,
+        queue: list,
+        *,
+        response,
+        current_url: str,
+        current_path: tuple[str, ...],
+        metadata: dict | None,
+        identity: str,
+        continuation: bool,
+    ) -> None:
+
+        if not self.api_pagination_enabled:
+            return
+
+        # ----------------------------------------------------
+        # CONTABILIZAR PÁGINA PROCESADA
+        # ----------------------------------------------------
+
+        if continuation:
+
+            processed_pages = (
+                self.pagination_pages_by_identity
+                .get(
+                    identity,
+                    1,
+                )
+                + 1
+            )
+
+            self.pagination_pages_by_identity[
+                identity
+            ] = processed_pages
+
+        else:
+
+            processed_pages = (
+                self.pagination_pages_by_identity
+                .setdefault(
+                    identity,
+                    1,
+                )
+            )
+
+        pagination = (
+            self.api_pagination.detect(
+                response,
+                current_url,
+            )
+        )
+
+        if not pagination.has_pagination:
+            return
+
+        if not pagination.next_url:
+            return
+
+        if (
+            processed_pages
+            >= self.api_pagination_max_pages
+        ):
+
+            print(
+                f"[{self.source_id.upper()}] "
+                f"API PAGINACION | "
+                f"limite="
+                f"{self.api_pagination_max_pages} | "
+                f"{identity}",
+                flush=True,
+            )
+
+            return
+
+        next_url = (
+            self.normalize_url(
+                pagination.next_url,
+                current_url,
+            )
+        )
+
+        if not next_url:
+            return
+
+        if not self.is_public_web_url(
+            next_url
+        ):
+            return
+
+        if not self.is_allowed(
+            next_url
+        ):
+
+            print(
+                f"[{self.source_id.upper()}] "
+                f"API PAGINACION OMITIDA | "
+                f"dominio_no_permitido | "
+                f"{next_url}",
+                flush=True,
+            )
+
+            return
+
+        policy = (
+            self.api_policy
+            .should_follow_discovered(
+                next_url,
+                declared=False,
+            )
+        )
+
+        if not policy.allowed:
+
+            print(
+                f"[{self.source_id.upper()}] "
+                f"API PAGINACION OMITIDA | "
+                f"{policy.reason} | "
+                f"{next_url}",
+                flush=True,
+            )
+
+            return
+
+        if (
+            next_url in self.visited
+            or next_url in self.queued
+        ):
+            return
+
+        # La siguiente página pertenece al MISMO dataset.
+        self.pagination_context_by_url[
+            next_url
+        ] = {
+            "identity": identity,
+            "metadata": metadata,
+        }
+
+        before = len(
+            self.queued
+        )
+
+        self._queue_page(
+            queue,
+            url=next_url,
+            depth=0,
+            parent_url=current_url,
+            path=current_path,
+            text="API pagination",
+            priority_override=3,
+        )
+
+        # Adapter o algún filtro pudo impedir agregarla.
+        if (
+            len(
+                self.queued
+            )
+            <= before
+        ):
+
+            self.pagination_context_by_url.pop(
+                next_url,
+                None,
+            )
+
+            return
+
+        page_label = (
+            processed_pages
+            + 1
+        )
+
+        if (
+            pagination.total_pages
+            is not None
+        ):
+
+            page_text = (
+                f"pagina={page_label}/"
+                f"{pagination.total_pages}"
+            )
+
+        else:
+
+            page_text = (
+                f"pagina={page_label}"
+            )
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"API PAGINACION | "
+            f"{pagination.method or 'next'} | "
+            f"{page_text} | "
+            f"{next_url}",
+            flush=True,
+        )
+
+    # ========================================================
+    # PROCESAMIENTO API
+    # ========================================================
+
+    def _process_api_response(
+        self,
+        *,
+        queue: list,
+        result: CrawlResult,
+        response,
+        current_url: str,
+        final_url: str,
+        parent_url: str | None,
+        current_path: tuple[str, ...],
+        metadata: dict | None,
+    ) -> bool:
+
+        detection = (
+            self.api_detector.detect(
+                response
+            )
+        )
+
+        if not detection.is_api:
+            return False
+
+        # ----------------------------------------------------
+        # OPENAPI
+        # ----------------------------------------------------
+
+        if detection.is_openapi:
+
+            if self.config.get(
+                "discover_openapi_endpoints",
+                True,
+            ):
+
+                self._discover_openapi(
+                    queue,
+                    response,
+                    final_url,
+                )
+
+            return True
+
+        # ----------------------------------------------------
+        # CONTINUACIÓN PAGINADA
+        # ----------------------------------------------------
+
+        pagination_context = (
+            self._pagination_context_for(
+                current_url
+            )
+            or
+            self._pagination_context_for(
+                final_url
+            )
+        )
+
+        continuation = (
+            pagination_context
+            is not None
+        )
+
+        if continuation:
+
+            identity = str(
+                pagination_context.get(
+                    "identity",
+                    "",
+                )
+            )
+
+            registered = False
+
+            if identity:
+
+                registered = (
+                    self._accumulate_paginated_response(
+                        result,
+                        identity,
+                        detection,
+                    )
+                )
+
+            # Si por alguna razón no existe el registro padre,
+            # se registra normalmente.
+            if not registered:
+
+                registered = (
+                    self._register_api_response(
+                        result=result,
+                        current_url=current_url,
+                        final_url=final_url,
+                        parent_url=parent_url,
+                        current_path=current_path,
+                        metadata=metadata,
+                        detection=detection,
+                    )
+                )
+
+                identity = (
+                    self.api_identity
+                    .canonical_key(
+                        final_url
+                    )
+                )
+
+        else:
+
+            registered = (
+                self._register_api_response(
+                    result=result,
+                    current_url=current_url,
+                    final_url=final_url,
+                    parent_url=parent_url,
+                    current_path=current_path,
+                    metadata=metadata,
+                    detection=detection,
+                )
+            )
+
+            identity = (
+                self.api_identity
+                .canonical_key(
+                    final_url
+                )
+            )
+
+        # ----------------------------------------------------
+        # BUSCAR NEXT
+        # ----------------------------------------------------
+
+        if registered:
+
+            self._queue_next_api_page(
+                queue,
+                response=response,
+                current_url=final_url,
+                current_path=current_path,
+                metadata=metadata,
+                identity=identity,
+                continuation=continuation,
+            )
+
+        return True
+
+    # ========================================================
     # LÍMITES
     # ========================================================
 
@@ -428,16 +1541,18 @@ class Crawler:
         depth: int,
     ) -> bool:
 
-        max_depth = self.config.get(
-            "max_depth"
+        max_depth = (
+            self.config.get(
+                "max_depth"
+            )
         )
 
-        if max_depth is None:
-            return False
-
         return (
-            depth
-            >= int(max_depth)
+            max_depth is not None
+            and depth
+            >= int(
+                max_depth
+            )
         )
 
     def _max_pages_reached(
@@ -445,33 +1560,330 @@ class Crawler:
         result: CrawlResult,
     ) -> bool:
 
-        max_pages = self.config.get(
-            "max_pages"
+        max_pages = (
+            self.config.get(
+                "max_pages"
+            )
         )
 
-        if max_pages is None:
-            return False
-
         return (
-            len(result.pages)
-            >= int(max_pages)
+            max_pages is not None
+            and len(
+                result.pages
+            )
+            >= int(
+                max_pages
+            )
         )
 
     def _max_files_reached(
         self,
     ) -> bool:
 
-        max_files = self.config.get(
-            "max_files"
+        max_files = (
+            self.config.get(
+                "max_files"
+            )
         )
-
-        if max_files is None:
-            return False
 
         return (
-            len(self.files_by_url)
-            >= int(max_files)
+            max_files is not None
+            and len(
+                self.files_by_url
+            )
+            >= int(
+                max_files
+            )
         )
+
+    # ========================================================
+    # DATASETS
+    # ========================================================
+
+    def _register_data_page(
+        self,
+        result: CrawlResult,
+        record: DataPageRecord,
+    ) -> None:
+
+        normalized = (
+            self.normalize_url(
+                record.url
+            )
+        )
+
+        if not normalized:
+            return
+
+        record.url = (
+            normalized
+        )
+
+        identity = (
+            self.api_identity
+            .canonical_key(
+                normalized
+            )
+        )
+
+        existing_index = (
+            self.data_index_by_identity
+            .get(
+                identity
+            )
+        )
+
+        # ----------------------------------------------------
+        # DATASET NUEVO
+        # ----------------------------------------------------
+
+        if existing_index is None:
+
+            result.data_pages.append(
+                record
+            )
+
+            self.data_index_by_identity[
+                identity
+            ] = (
+                len(
+                    result.data_pages
+                )
+                - 1
+            )
+
+            total = len(
+                result.data_pages
+            )
+
+            if (
+                total <= 10
+                or total % 25 == 0
+            ):
+
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"DATASETS={total} | "
+                    f"{record.metodo_deteccion} | "
+                    f"{normalized}",
+                    flush=True,
+                )
+
+            return
+
+        # ----------------------------------------------------
+        # MISMO DATASET, MEJOR REPRESENTACIÓN
+        # ----------------------------------------------------
+
+        existing = (
+            result.data_pages[
+                existing_index
+            ]
+        )
+
+        if not (
+            self.api_identity
+            .should_replace(
+                existing,
+                record,
+            )
+        ):
+            return
+
+        if (
+            not record.ruta
+            and existing.ruta
+        ):
+
+            record.ruta = list(
+                existing.ruta
+            )
+
+        if (
+            not record.url_origen
+            and existing.url_origen
+        ):
+
+            record.url_origen = (
+                existing.url_origen
+            )
+
+        if (
+            record.registros_detectados
+            is None
+            and
+            existing.registros_detectados
+            is not None
+        ):
+
+            record.registros_detectados = (
+                existing.registros_detectados
+            )
+
+        result.data_pages[
+            existing_index
+        ] = record
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"DATASET ACTUALIZADO | "
+            f"{existing.url} -> "
+            f"{record.url}",
+            flush=True,
+        )
+
+    def _register_api_response(
+        self,
+        *,
+        result: CrawlResult,
+        current_url: str,
+        final_url: str,
+        parent_url: str | None,
+        current_path: tuple[str, ...],
+        metadata: dict | None,
+        detection,
+    ) -> bool:
+
+        if not self._should_register_api(
+            final_url,
+            detection,
+            metadata,
+        ):
+            return False
+
+        description = ""
+
+        documentation_url = None
+
+        method = "GET"
+
+        if metadata:
+
+            description = clean_text(
+                str(
+                    metadata.get(
+                        "descripcion",
+                        "",
+                    )
+                )
+            )
+
+            documentation_url = (
+                metadata.get(
+                    "documentation_url"
+                )
+            )
+
+            method = str(
+                metadata.get(
+                    "method",
+                    "GET",
+                )
+            ).upper()
+
+        if not description:
+
+            description = (
+                filename_from_url(
+                    final_url
+                )
+                or final_url
+            )
+
+        path = list(
+            current_path
+        )
+
+        if not path:
+
+            path = [
+                "API",
+                description,
+            ]
+
+        record = DataPageRecord(
+            id_fuente=(
+                self.source_id
+            ),
+
+            descripcion=(
+                description
+            ),
+
+            url=(
+                final_url
+            ),
+
+            url_origen=(
+                parent_url
+                or current_url
+            ),
+
+            ruta=(
+                path
+            ),
+
+            fecha_referencia=(
+                extract_date(
+                    final_url,
+                    description,
+                )
+            ),
+
+            tiene_tabla_html=False,
+
+            tablas_detectadas=0,
+
+            permite_exportar=True,
+
+            tiene_filtros=bool(
+                detection.has_pagination
+            ),
+
+            metodo_deteccion=(
+                detection.reason
+                or "api_response"
+            ),
+
+            tipo_recurso="api",
+
+            formato=(
+                detection.format
+            ),
+
+            registros_detectados=(
+                detection.records_count
+            ),
+
+            es_openapi=False,
+
+            es_geojson=(
+                detection.is_geojson
+            ),
+
+            tiene_paginacion=(
+                detection.has_pagination
+            ),
+
+            documentacion_url=(
+                str(
+                    documentation_url
+                )
+                if documentation_url
+                else None
+            ),
+
+            metodo_http=(
+                method
+            ),
+        )
+
+        self._register_data_page(
+            result,
+            record,
+        )
+
+        return True
 
     # ========================================================
     # ARCHIVOS
@@ -496,21 +1908,11 @@ class Crawler:
         if not normalized:
             return
 
-        # Evita registrar IP privadas,
-        # localhost, etc.
         if not self.is_public_web_url(
             normalized
         ):
-            print(
-                f"[{self.source_id.upper()}] "
-                f"DESCARTADO URL PRIVADA | "
-                f"{normalized}",
-                flush=True,
-            )
-
             return
 
-        # Dedupe de archivos.
         existing = (
             self.files_by_url.get(
                 normalized
@@ -524,6 +1926,7 @@ class Crawler:
                 and source_page
                 not in existing.origenes
             ):
+
                 existing.origenes.append(
                     source_page
                 )
@@ -533,20 +1936,14 @@ class Crawler:
         if self._max_files_reached():
             return
 
-        description = clean_text(
-            description
-        )
-
-        if not description:
-            description = (
-                filename_from_url(
-                    normalized
-                )
+        description = (
+            clean_text(
+                description
             )
-
-        # ----------------------------------------------------
-        # ZIP
-        # ----------------------------------------------------
+            or filename_from_url(
+                normalized
+            )
+        )
 
         contenido_zip = []
 
@@ -554,18 +1951,14 @@ class Crawler:
 
         zip_bytes = 0
 
-        if detection.file_type == "zip":
-
-            print(
-                f"[{self.source_id.upper()}] "
-                f"ZIP REMOTO | "
-                f"inspeccionando índice | "
-                f"{normalized}",
-                flush=True,
-            )
+        if (
+            detection.file_type
+            == "zip"
+        ):
 
             zip_result = (
-                self.zip_inspector.inspect(
+                self.zip_inspector
+                .inspect(
                     normalized
                 )
             )
@@ -582,27 +1975,22 @@ class Crawler:
                 zip_result.bytes_downloaded
             )
 
-            print(
-                f"[{self.source_id.upper()}] "
-                f"ZIP | "
-                f"estado={zip_status} | "
-                f"internos={len(contenido_zip)} | "
-                f"bytes={zip_bytes}",
-                flush=True,
-            )
-
-        # ----------------------------------------------------
-        # REGISTRO
-        # ----------------------------------------------------
-
         record = FileRecord(
-            id_fuente=self.source_id,
+            id_fuente=(
+                self.source_id
+            ),
 
-            descripcion=description,
+            descripcion=(
+                description
+            ),
 
-            url_descarga=normalized,
+            url_descarga=(
+                normalized
+            ),
 
-            url_origen=source_page,
+            url_origen=(
+                source_page
+            ),
 
             origenes=[
                 source_page
@@ -652,22 +2040,6 @@ class Crawler:
             normalized
         ] = record
 
-        total = len(
-            self.files_by_url
-        )
-
-        if (
-            total <= 10
-            or total % 25 == 0
-        ):
-            print(
-                f"[{self.source_id.upper()}] "
-                f"ARCHIVOS={total} | "
-                f"{record.tipo_archivo or '?'} | "
-                f"{normalized}",
-                flush=True,
-            )
-
     # ========================================================
     # COLA
     # ========================================================
@@ -698,10 +2070,10 @@ class Crawler:
         ):
             return
 
-        if normalized in self.visited:
-            return
-
-        if normalized in self.queued:
+        if (
+            normalized in self.visited
+            or normalized in self.queued
+        ):
             return
 
         if not self.is_allowed(
@@ -714,20 +2086,16 @@ class Crawler:
         ):
             return
 
-        if priority_override is not None:
+        priority = (
+            priority_override
+            if priority_override
+            is not None
 
-            priority = (
-                priority_override
+            else self.adapter.priority(
+                normalized,
+                text,
             )
-
-        else:
-
-            priority = (
-                self.adapter.priority(
-                    normalized,
-                    text,
-                )
-            )
+        )
 
         heapq.heappush(
             queue,
@@ -748,6 +2116,182 @@ class Crawler:
         )
 
     # ========================================================
+    # SITEMAP SEEDS
+    # ========================================================
+
+    def _queue_sitemap_seeds(
+        self,
+        queue: list,
+        result: CrawlResult,
+    ) -> None:
+
+        if not self.discover_sitemaps:
+            return
+
+        if self.max_sitemap_urls <= 0:
+            return
+
+        base_url = str(
+            self.config.get(
+                "base_url",
+                "",
+            )
+            or ""
+        ).strip()
+
+        if not base_url:
+            return
+
+        discovery = self.sitemap_discovery.discover(
+            base_url=base_url,
+            allowed_domains=self.allowed_domains,
+            max_sitemaps=self.max_sitemap_documents,
+            max_urls=self.max_sitemap_urls,
+            max_document_bytes=self.max_sitemap_bytes,
+        )
+
+        result.sitemap_documents = len(
+            discovery.sitemap_documents
+        )
+
+        result.sitemap_urls_discovered = len(
+            discovery.urls
+        )
+
+        result.sitemap_errors = len(
+            discovery.errors
+        )
+
+        for error in discovery.errors:
+            result.errors.append(
+                f"SITEMAP -> {error}"
+            )
+
+        queued = 0
+
+        for sitemap_url in discovery.urls:
+
+            if not self._allow_discovered_url(
+                sitemap_url
+            ):
+                continue
+
+            before = len(
+                self.queued
+            )
+
+            self._queue_page(
+                queue,
+                url=sitemap_url,
+                depth=0,
+                parent_url=None,
+                path=(),
+                text="sitemap",
+                priority_override=25,
+            )
+
+            if len(
+                self.queued
+            ) > before:
+                queued += 1
+
+        result.sitemap_urls_queued = queued
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"SITEMAP | "
+            f"docs={result.sitemap_documents} | "
+            f"urls={result.sitemap_urls_discovered} | "
+            f"en_cola={result.sitemap_urls_queued} | "
+            f"errores={result.sitemap_errors}",
+            flush=True,
+        )
+
+    # ========================================================
+    # API SEEDS
+    # ========================================================
+
+    def _queue_api_seeds(
+        self,
+        queue: list,
+        result: CrawlResult,
+    ) -> None:
+
+        for (
+            endpoint,
+            metadata,
+        ) in self.api_endpoints.items():
+
+            method = str(
+                metadata.get(
+                    "method",
+                    "GET",
+                )
+            ).upper()
+
+            if method != "GET":
+
+                result.errors.append(
+                    (
+                        "API método no soportado: "
+                        f"{method} -> "
+                        f"{endpoint}"
+                    )
+                )
+
+                continue
+
+            description = (
+                clean_text(
+                    str(
+                        metadata.get(
+                            "descripcion",
+                            "",
+                        )
+                    )
+                )
+                or "API"
+            )
+
+            self._queue_page(
+                queue,
+                url=endpoint,
+                depth=0,
+                parent_url=None,
+                path=(
+                    "API",
+                    description,
+                ),
+                text=description,
+                priority_override=0,
+            )
+
+        if not self.config.get(
+            "crawl_api_documentation",
+            True,
+        ):
+            return
+
+        for (
+            documentation_url,
+            description,
+        ) in self.api_documentation:
+
+            self._queue_page(
+                queue,
+                url=documentation_url,
+                depth=0,
+                parent_url=None,
+                path=(
+                    "API",
+                    description,
+                    "Documentacion",
+                ),
+                text=description,
+                priority_override=5,
+            )
+
+    # ========================================================
     # CRAWL
     # ========================================================
 
@@ -755,7 +2299,9 @@ class Crawler:
         self,
     ) -> CrawlResult:
 
-        result = CrawlResult()
+        result = (
+            CrawlResult()
+        )
 
         started = (
             time.monotonic()
@@ -774,24 +2320,15 @@ class Crawler:
             ]
         )
 
-        # ----------------------------------------------------
+        # ====================================================
         # SEEDS
-        # ----------------------------------------------------
+        # ====================================================
 
         for entrypoint in entrypoints:
 
-            normalized = (
-                self.normalize_url(
-                    entrypoint
-                )
-            )
-
-            if not normalized:
-                continue
-
             self._queue_page(
                 queue,
-                url=normalized,
+                url=entrypoint,
                 depth=0,
                 parent_url=None,
                 path=(),
@@ -799,15 +2336,26 @@ class Crawler:
                 priority_override=0,
             )
 
-        # ----------------------------------------------------
+        self._queue_sitemap_seeds(
+            queue,
+            result,
+        )
+
+        self._queue_api_seeds(
+            queue,
+            result,
+        )
+
+        # ====================================================
         # LOOP PRINCIPAL
-        # ----------------------------------------------------
+        # ====================================================
 
         while queue:
 
             if self._max_pages_reached(
                 result
             ):
+
                 result.stop_reason = (
                     "max_pages"
                 )
@@ -837,7 +2385,10 @@ class Crawler:
                 current_url
             )
 
-            if current_url in self.visited:
+            if (
+                current_url
+                in self.visited
+            ):
                 continue
 
             elapsed = (
@@ -850,17 +2401,19 @@ class Crawler:
                 f"t={elapsed:6.1f}s | "
                 f"pag={len(result.pages):3} | "
                 f"files={len(self.files_by_url):4} | "
+                f"data={len(result.data_pages):3} | "
                 f"cola={len(queue):4} | "
                 f"prio={priority:2} | "
                 f"{current_url}",
                 flush=True,
             )
 
-            # ------------------------------------------------
-            # REQUEST
-            # ------------------------------------------------
+            # =================================================
+            # HTTP
+            # =================================================
 
             try:
+
                 response = (
                     self.client.get(
                         current_url
@@ -869,19 +2422,9 @@ class Crawler:
 
             except Timeout:
 
-                message = (
+                result.errors.append(
                     f"TIMEOUT -> "
                     f"{current_url}"
-                )
-
-                result.errors.append(
-                    message
-                )
-
-                print(
-                    f"[{self.source_id.upper()}] "
-                    f"{message}",
-                    flush=True,
                 )
 
                 self.visited.add(
@@ -892,21 +2435,12 @@ class Crawler:
 
             except RequestException as exc:
 
-                message = (
-                    f"{current_url} -> "
-                    f"{type(exc).__name__}: "
-                    f"{exc}"
-                )
-
                 result.errors.append(
-                    message
-                )
-
-                print(
-                    f"[{self.source_id.upper()}] "
-                    f"ERROR -> "
-                    f"{current_url}",
-                    flush=True,
+                    (
+                        f"{current_url} -> "
+                        f"{type(exc).__name__}: "
+                        f"{exc}"
+                    )
                 )
 
                 self.visited.add(
@@ -915,11 +2449,8 @@ class Crawler:
 
                 continue
 
-            # ------------------------------------------------
-            # RESPUESTA
-            # ------------------------------------------------
-
             try:
+
                 final_url = (
                     self.normalize_url(
                         response.url
@@ -934,45 +2465,34 @@ class Crawler:
 
                     continue
 
-                # ============================================
-                # DEDUPE DE REDIRECTS
-                # ============================================
-                #
-                # Ejemplo BBV:
-                #
-                # www2.bbv.com.bo/estadisticas/
-                # www2.bbv.com.bo/bbv-insight/
-                #
-                # podían terminar ambos en:
-                #
-                # www.bbv.com.bo/
-                #
-                # Si esa URL final ya fue procesada,
-                # no repetimos toda la página.
-                # ============================================
+                # ------------------------------------------------
+                # REDIRECT DEDUPE
+                # ------------------------------------------------
 
                 if (
-                    final_url in self.visited
-                    and final_url != current_url
+                    final_url
+                    in self.visited
+
+                    and final_url
+                    != current_url
                 ):
+
                     self.visited.add(
                         current_url
                     )
 
                     continue
 
-                # ------------------------------------------------
-                # DOMINIO
-                # ------------------------------------------------
-
                 if not self.is_allowed(
                     final_url
                 ):
 
                     result.errors.append(
-                        "Redirect fuera del dominio permitido: "
-                        f"{current_url} -> "
-                        f"{final_url}"
+                        (
+                            "Redirect fuera del dominio permitido: "
+                            f"{current_url} -> "
+                            f"{final_url}"
+                        )
                     )
 
                     self.visited.add(
@@ -989,12 +2509,51 @@ class Crawler:
                     final_url
                 )
 
-                # ------------------------------------------------
-                # ¿LA RESPUESTA ES UN ARCHIVO?
-                # ------------------------------------------------
+                content_type = (
+                    response.headers.get(
+                        "Content-Type",
+                        "",
+                    )
+                    .lower()
+                )
+
+                metadata = (
+                    self._api_metadata_for(
+                        current_url,
+                        final_url,
+                    )
+                )
+
+                # =================================================
+                # API
+                # =================================================
+
+                if self._prefer_api_detection(
+                    current_url,
+                    final_url,
+                    metadata,
+                ):
+
+                    if self._process_api_response(
+                        queue=queue,
+                        result=result,
+                        response=response,
+                        current_url=current_url,
+                        final_url=final_url,
+                        parent_url=parent_url,
+                        current_path=current_path,
+                        metadata=metadata,
+                    ):
+
+                        continue
+
+                # =================================================
+                # ARCHIVO
+                # =================================================
 
                 response_detection = (
-                    self.detector.detect_response(
+                    self.detector
+                    .detect_response(
                         response
                     )
                 )
@@ -1024,38 +2583,39 @@ class Crawler:
 
                     continue
 
-                # ------------------------------------------------
-                # SOLO HTML
-                # ------------------------------------------------
-
-                content_type = (
-                    response.headers
-                    .get(
-                        "Content-Type",
-                        "",
-                    )
-                    .lower()
-                )
+                # =================================================
+                # NO HTML
+                # =================================================
 
                 if (
                     "html"
                     not in content_type
-                    and
-                    "xhtml"
+
+                    and "xhtml"
                     not in content_type
                 ):
+
+                    self._process_api_response(
+                        queue=queue,
+                        result=result,
+                        response=response,
+                        current_url=current_url,
+                        final_url=final_url,
+                        parent_url=parent_url,
+                        current_path=current_path,
+                        metadata=metadata,
+                    )
+
                     continue
 
-                html = response.text
+                # =================================================
+                # HTML
+                # =================================================
 
                 soup = BeautifulSoup(
-                    html,
+                    response.text,
                     "html.parser",
                 )
-
-                # ------------------------------------------------
-                # TITLE
-                # ------------------------------------------------
 
                 title = ""
 
@@ -1068,132 +2628,105 @@ class Crawler:
                         )
                     )
 
-                # ------------------------------------------------
-                # PÁGINA
-                # ------------------------------------------------
-
-                page_record = PageRecord(
-                    url=final_url,
-
-                    title=title,
-
-                    parent_url=parent_url,
-
-                    depth=depth,
-
-                    path=list(
-                        current_path
-                    ),
-                )
-
                 result.pages.append(
-                    page_record
-                )
-
-                # =================================================
-                # DETECCIÓN DE DATASETS WEB
-                # =================================================
-                #
-                # El adapter puede decidir que una página NO
-                # debe analizarse como dataset.
-                #
-                # BBV usa esto para evitar que las fichas de
-                # participantes sean consideradas datasets.
-                # =================================================
-
-                should_detect_data = (
-                    self.adapter.should_detect_data(
-                        final_url,
-                        title,
+                    PageRecord(
+                        url=final_url,
+                        title=title,
+                        parent_url=parent_url,
+                        depth=depth,
+                        path=list(
+                            current_path
+                        ),
                     )
                 )
 
-                if should_detect_data:
+                # =================================================
+                # DATASET HTML
+                # =================================================
+
+                if (
+                    self.adapter
+                    .should_detect_data(
+                        final_url,
+                        title,
+                    )
+                ):
 
                     data_detection = (
-                        self.data_detector.detect(
+                        self.data_detector
+                        .detect(
                             soup,
                             title,
                             final_url,
                         )
                     )
 
-                else:
-
-                    data_detection = None
-
-                if (
-                    data_detection is not None
-                    and data_detection.is_data_page
-                ):
-
-                    data_record = DataPageRecord(
-                        id_fuente=self.source_id,
-
-                        descripcion=(
-                            title
-                            or final_url
-                        ),
-
-                        url=final_url,
-
-                        url_origen=parent_url,
-
-                        ruta=list(
-                            current_path
-                        ),
-
-                        fecha_referencia=(
-                            extract_date(
-                                final_url,
-                                title,
-                            )
-                        ),
-
-                        tiene_tabla_html=(
-                            data_detection.has_table
-                        ),
-
-                        tablas_detectadas=(
-                            data_detection.tables_count
-                        ),
-
-                        permite_exportar=(
-                            data_detection.has_export
-                        ),
-
-                        tiene_filtros=(
-                            data_detection.has_filters
-                        ),
-
-                        metodo_deteccion=(
-                            data_detection.reason
-                            or "data_page"
-                        ),
-                    )
-
-                    result.data_pages.append(
-                        data_record
-                    )
-
-                    total_data = len(
-                        result.data_pages
-                    )
-
                     if (
-                        total_data <= 10
-                        or total_data % 25 == 0
+                        data_detection
+                        .is_data_page
                     ):
-                        print(
-                            f"[{self.source_id.upper()}] "
-                            f"DATASETS={total_data} | "
-                            f"{data_record.metodo_deteccion} | "
-                            f"{final_url}",
-                            flush=True,
+
+                        self._register_data_page(
+                            result,
+
+                            DataPageRecord(
+                                id_fuente=(
+                                    self.source_id
+                                ),
+
+                                descripcion=(
+                                    title
+                                    or final_url
+                                ),
+
+                                url=(
+                                    final_url
+                                ),
+
+                                url_origen=(
+                                    parent_url
+                                ),
+
+                                ruta=list(
+                                    current_path
+                                ),
+
+                                fecha_referencia=(
+                                    extract_date(
+                                        final_url,
+                                        title,
+                                    )
+                                ),
+
+                                tiene_tabla_html=(
+                                    data_detection
+                                    .has_table
+                                ),
+
+                                tablas_detectadas=(
+                                    data_detection
+                                    .tables_count
+                                ),
+
+                                permite_exportar=(
+                                    data_detection
+                                    .has_export
+                                ),
+
+                                tiene_filtros=(
+                                    data_detection
+                                    .has_filters
+                                ),
+
+                                metodo_deteccion=(
+                                    data_detection.reason
+                                    or "data_page"
+                                ),
+                            ),
                         )
 
                 # =================================================
-                # LINKS <a href="">
+                # LINKS
                 # =================================================
 
                 for anchor in soup.find_all(
@@ -1201,21 +2734,23 @@ class Crawler:
                     href=True,
                 ):
 
-                    href = anchor.get(
-                        "href"
-                    )
-
-                    if not href:
-                        continue
-
                     target = (
                         self.normalize_url(
-                            href,
+                            str(
+                                anchor.get(
+                                    "href"
+                                )
+                            ),
                             final_url,
                         )
                     )
 
                     if not target:
+                        continue
+
+                    if not self._allow_discovered_url(
+                        target
+                    ):
                         continue
 
                     text = clean_text(
@@ -1225,37 +2760,60 @@ class Crawler:
                         )
                     )
 
-                    # ---------------------------------------------
-                    # ARCHIVO DIRECTO
-                    # ---------------------------------------------
-
                     detection = (
-                        self.detector.detect_url(
+                        self.detector
+                        .detect_url(
                             target
                         )
                     )
 
+                    # -----------------------------------------
+                    # ARCHIVO
+                    # -----------------------------------------
+
                     if detection.is_file:
+
+                        if (
+                            target
+                            in self.api_endpoints
+
+                            or target
+                            in self.openapi_endpoints
+                        ):
+
+                            if not self._max_depth_reached(
+                                depth
+                            ):
+
+                                self._queue_page(
+                                    queue,
+                                    url=target,
+                                    depth=(
+                                        depth + 1
+                                    ),
+                                    parent_url=(
+                                        final_url
+                                    ),
+                                    path=current_path,
+                                    text=text,
+                                    priority_override=0,
+                                )
+
+                            continue
 
                         self._register_file(
                             url=target,
-
-                            source_page=(
-                                final_url
-                            ),
-
+                            source_page=final_url,
                             description=text,
-
                             path=current_path,
-
                             detection=detection,
                         )
 
                         continue
 
-                    # ---------------------------------------------
-                    # <a download="">
-                    # ---------------------------------------------
+                    # -----------------------------------------
+                    # DOWNLOAD
+                    # -----------------------------------------
 
                     download_name = (
                         anchor.get(
@@ -1265,22 +2823,20 @@ class Crawler:
 
                     if download_name:
 
-                        hint_detection = (
-                            self.detector.detect_url(
+                        hint = (
+                            self.detector
+                            .detect_url(
                                 str(
                                     download_name
                                 )
                             )
                         )
 
-                        if hint_detection.is_file:
+                        if hint.is_file:
 
                             self._register_file(
                                 url=target,
-
-                                source_page=(
-                                    final_url
-                                ),
+                                source_page=final_url,
 
                                 description=(
                                     text
@@ -1291,16 +2847,10 @@ class Crawler:
 
                                 path=current_path,
 
-                                detection=(
-                                    hint_detection
-                                ),
+                                detection=hint,
                             )
 
                             continue
-
-                    # ---------------------------------------------
-                    # PROFUNDIDAD
-                    # ---------------------------------------------
 
                     if self._max_depth_reached(
                         depth
@@ -1308,7 +2858,8 @@ class Crawler:
                         continue
 
                     child_path = (
-                        self.adapter.extend_path(
+                        self.adapter
+                        .extend_path(
                             current_path,
                             text,
                             target,
@@ -1317,19 +2868,12 @@ class Crawler:
 
                     self._queue_page(
                         queue,
-
                         url=target,
-
                         depth=(
                             depth + 1
                         ),
-
-                        parent_url=(
-                            final_url
-                        ),
-
+                        parent_url=final_url,
                         path=child_path,
-
                         text=text,
                     )
 
@@ -1343,6 +2887,7 @@ class Crawler:
                     "iframe",
                     src=True,
                 ):
+
                     embedded.append(
                         (
                             tag.get(
@@ -1356,6 +2901,7 @@ class Crawler:
                     "embed",
                     src=True,
                 ):
+
                     embedded.append(
                         (
                             tag.get(
@@ -1369,6 +2915,7 @@ class Crawler:
                     "object",
                     data=True,
                 ):
+
                     embedded.append(
                         (
                             tag.get(
@@ -1395,25 +2942,51 @@ class Crawler:
                     if not target:
                         continue
 
+                    if not self._allow_discovered_url(
+                        target
+                    ):
+                        continue
+
                     detection = (
-                        self.detector.detect_url(
+                        self.detector
+                        .detect_url(
                             target
                         )
                     )
 
                     if detection.is_file:
 
+                        if (
+                            target
+                            in self.api_endpoints
+
+                            or target
+                            in self.openapi_endpoints
+                        ):
+
+                            if not self._max_depth_reached(
+                                depth
+                            ):
+
+                                self._queue_page(
+                                    queue,
+                                    url=target,
+                                    depth=(
+                                        depth + 1
+                                    ),
+                                    parent_url=final_url,
+                                    path=current_path,
+                                    text=label,
+                                    priority_override=0,
+                                )
+
+                            continue
+
                         self._register_file(
                             url=target,
-
-                            source_page=(
-                                final_url
-                            ),
-
+                            source_page=final_url,
                             description=label,
-
                             path=current_path,
-
                             detection=detection,
                         )
 
@@ -1426,29 +2999,67 @@ class Crawler:
 
                     self._queue_page(
                         queue,
-
                         url=target,
-
                         depth=(
                             depth + 1
                         ),
-
-                        parent_url=(
-                            final_url
-                        ),
-
+                        parent_url=final_url,
                         path=current_path,
-
                         text=label,
                     )
+
+            except RequestException as exc:
+
+                result.errors.append(
+                    (
+                        "ERROR DE LECTURA -> "
+                        f"{current_url} -> "
+                        f"{type(exc).__name__}: "
+                        f"{exc}"
+                    )
+                )
+
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"ERROR DE LECTURA | "
+                    f"{type(exc).__name__} | "
+                    f"{current_url}",
+                    flush=True,
+                )
+
+                continue
+
+            except (
+                ValueError,
+                UnicodeError,
+            ) as exc:
+
+                result.errors.append(
+                    (
+                        "ERROR DE CONTENIDO -> "
+                        f"{current_url} -> "
+                        f"{type(exc).__name__}: "
+                        f"{exc}"
+                    )
+                )
+
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"ERROR DE CONTENIDO | "
+                    f"{type(exc).__name__} | "
+                    f"{current_url}",
+                    flush=True,
+                )
+
+                continue
 
             finally:
 
                 response.close()
 
-        # ========================================================
+        # ====================================================
         # FINAL
-        # ========================================================
+        # ====================================================
 
         result.files = list(
             self.files_by_url.values()

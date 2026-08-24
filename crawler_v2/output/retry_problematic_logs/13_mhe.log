@@ -1,0 +1,50 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Hidrocarburos y Energ�as
+URL configurada: https://www.mhe.gob.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Estado: no se encontr� URL alternativa utilizable
+  Intentos: 4
+    - request_error  | HTTP=- | https://www.mhe.gob.bo/
+    - request_error  | HTTP=- | https://mhe.gob.bo/
+    - request_error  | HTTP=- | http://www.mhe.gob.bo/
+    - request_error  | HTTP=- | http://mhe.gob.bo/
+
+URL de trabajo: https://www.mhe.gob.bo/
+Seeds: 2
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_13_MHE] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[RETRY_13_MHE] t=   3.5s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.mhe.gob.bo/
+[RETRY_13_MHE] t=   4.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.mhe.gob.bo/marco-normativ/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_13_mhe
+P�ginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              2
+Motivo de parada:     frontier_exhausted
+Duraci�n:             4.77 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_13_mhe.json
+
+Trazabilidad:
+  Ejecuci�n: 108
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

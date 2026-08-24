@@ -1,6 +1,6 @@
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from batch_test_all import crawl_one
+from Crawler_BCB.crawler_v2.batch_full_crawl_all_live import crawl_one
 
 
 FUENTES = [

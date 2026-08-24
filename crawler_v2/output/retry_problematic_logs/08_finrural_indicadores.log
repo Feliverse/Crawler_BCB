@@ -1,0 +1,211 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: FINRURAL Bolivia
+URL configurada: https://www.finrural.org.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://www.finrural.org.bo/
+  Utilizada: https://www.finrural.org.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.finrural.org.bo/
+
+URL de trabajo: https://www.finrural.org.bo/
+Seeds: 2
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_08_FINRURAL_INDICADORES] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=2
+[RETRY_08_FINRURAL_INDICADORES] t=   8.3s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.finrural.org.bo/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=1 | data_html_table | https://www.finrural.org.bo/
+[RETRY_08_FINRURAL_INDICADORES] t=  10.1s | pag=  1 | files=   0 | data=  1 | cola=  22 | prio= 0 | https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/
+[RETRY_08_FINRURAL_INDICADORES] t=  11.2s | pag=  2 | files= 126 | data=  1 | cola= 147 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_01_2026-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  11.3s | pag=  2 | files= 126 | data=  1 | cola= 146 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_02_2026-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  12.5s | pag=  2 | files= 126 | data=  1 | cola= 145 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_03_2026-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  13.7s | pag=  2 | files= 126 | data=  1 | cola= 144 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_04_2026-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  14.9s | pag=  2 | files= 126 | data=  1 | cola= 143 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_05_2026-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  16.0s | pag=  2 | files= 126 | data=  1 | cola= 142 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_06_2026-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  17.3s | pag=  2 | files= 126 | data=  1 | cola= 141 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_01_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  18.4s | pag=  2 | files= 126 | data=  1 | cola= 140 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_02_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  19.6s | pag=  2 | files= 126 | data=  1 | cola= 139 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_03_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  20.9s | pag=  2 | files= 126 | data=  1 | cola= 138 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_04_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  22.2s | pag=  2 | files= 126 | data=  1 | cola= 137 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_05_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  23.4s | pag=  2 | files= 126 | data=  1 | cola= 136 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_06_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  24.6s | pag=  2 | files= 126 | data=  1 | cola= 135 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_07_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  25.8s | pag=  2 | files= 126 | data=  1 | cola= 134 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_08_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  27.3s | pag=  2 | files= 126 | data=  1 | cola= 133 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_09_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  28.6s | pag=  2 | files= 126 | data=  1 | cola= 132 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_10_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  29.7s | pag=  2 | files= 126 | data=  1 | cola= 131 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_11_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  31.2s | pag=  2 | files= 126 | data=  1 | cola= 130 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_12_2025-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  32.4s | pag=  2 | files= 126 | data=  1 | cola= 129 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_01_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  33.7s | pag=  2 | files= 126 | data=  1 | cola= 128 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_02_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  34.9s | pag=  2 | files= 126 | data=  1 | cola= 127 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_03_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  36.1s | pag=  2 | files= 126 | data=  1 | cola= 126 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_04_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  37.3s | pag=  2 | files= 126 | data=  1 | cola= 125 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_05_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  38.5s | pag=  2 | files= 126 | data=  1 | cola= 124 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_06_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  39.7s | pag=  2 | files= 126 | data=  1 | cola= 123 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_07_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  41.7s | pag=  2 | files= 126 | data=  1 | cola= 122 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_08_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  43.3s | pag=  2 | files= 126 | data=  1 | cola= 121 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_09_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  44.6s | pag=  2 | files= 126 | data=  1 | cola= 120 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_10_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  45.8s | pag=  2 | files= 126 | data=  1 | cola= 119 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_11_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  47.2s | pag=  2 | files= 126 | data=  1 | cola= 118 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2024/financiera_12_2024-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  48.3s | pag=  2 | files= 126 | data=  1 | cola= 117 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_01_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  49.6s | pag=  2 | files= 126 | data=  1 | cola= 116 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_02_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  50.8s | pag=  2 | files= 126 | data=  1 | cola= 115 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_03_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  52.1s | pag=  2 | files= 126 | data=  1 | cola= 114 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_04_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  53.5s | pag=  2 | files= 126 | data=  1 | cola= 113 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_05_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  54.6s | pag=  2 | files= 126 | data=  1 | cola= 112 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_06_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  55.9s | pag=  2 | files= 126 | data=  1 | cola= 111 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_07_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  57.2s | pag=  2 | files= 126 | data=  1 | cola= 110 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_08_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  58.4s | pag=  2 | files= 126 | data=  1 | cola= 109 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_09_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  59.6s | pag=  2 | files= 126 | data=  1 | cola= 108 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_10_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  60.7s | pag=  2 | files= 126 | data=  1 | cola= 107 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_11_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  62.1s | pag=  2 | files= 126 | data=  1 | cola= 106 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_12_2023-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  63.1s | pag=  2 | files= 126 | data=  1 | cola= 105 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_01_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  64.3s | pag=  2 | files= 126 | data=  1 | cola= 104 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_02_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  65.5s | pag=  2 | files= 126 | data=  1 | cola= 103 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_03_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  66.8s | pag=  2 | files= 126 | data=  1 | cola= 102 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_04_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  68.0s | pag=  2 | files= 126 | data=  1 | cola= 101 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_05_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  69.7s | pag=  2 | files= 126 | data=  1 | cola= 100 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_06_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  71.1s | pag=  2 | files= 126 | data=  1 | cola=  99 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_07_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  72.6s | pag=  2 | files= 126 | data=  1 | cola=  98 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_08_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  74.0s | pag=  2 | files= 126 | data=  1 | cola=  97 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_09_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  75.2s | pag=  2 | files= 126 | data=  1 | cola=  96 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_10_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  76.5s | pag=  2 | files= 126 | data=  1 | cola=  95 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_11_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  77.7s | pag=  2 | files= 126 | data=  1 | cola=  94 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2022/financiera_12_2022-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  79.0s | pag=  2 | files= 126 | data=  1 | cola=  93 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_01_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  80.5s | pag=  2 | files= 126 | data=  1 | cola=  92 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_02_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  81.8s | pag=  2 | files= 126 | data=  1 | cola=  91 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_03_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  83.0s | pag=  2 | files= 126 | data=  1 | cola=  90 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_04_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  84.5s | pag=  2 | files= 126 | data=  1 | cola=  89 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_05_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  85.9s | pag=  2 | files= 126 | data=  1 | cola=  88 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_06_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  87.2s | pag=  2 | files= 126 | data=  1 | cola=  87 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_07_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  88.4s | pag=  2 | files= 126 | data=  1 | cola=  86 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_08_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  89.7s | pag=  2 | files= 126 | data=  1 | cola=  85 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_09_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  90.9s | pag=  2 | files= 126 | data=  1 | cola=  84 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_10_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  92.1s | pag=  2 | files= 126 | data=  1 | cola=  83 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_11_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  93.2s | pag=  2 | files= 126 | data=  1 | cola=  82 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2021/financiera_12_2021-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  94.5s | pag=  2 | files= 126 | data=  1 | cola=  81 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_01_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  95.7s | pag=  2 | files= 126 | data=  1 | cola=  80 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_02_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  96.9s | pag=  2 | files= 126 | data=  1 | cola=  79 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_03_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  98.2s | pag=  2 | files= 126 | data=  1 | cola=  78 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_04_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t=  99.4s | pag=  2 | files= 126 | data=  1 | cola=  77 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_05_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 100.6s | pag=  2 | files= 126 | data=  1 | cola=  76 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_06_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 102.0s | pag=  2 | files= 126 | data=  1 | cola=  75 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_07_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 103.3s | pag=  2 | files= 126 | data=  1 | cola=  74 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_08_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 104.6s | pag=  2 | files= 126 | data=  1 | cola=  73 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_09_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 105.8s | pag=  2 | files= 126 | data=  1 | cola=  72 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_10_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 107.0s | pag=  2 | files= 126 | data=  1 | cola=  71 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_11_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 108.3s | pag=  2 | files= 126 | data=  1 | cola=  70 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2020/financiera_12_2020-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 109.6s | pag=  2 | files= 126 | data=  1 | cola=  69 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_01_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 111.0s | pag=  2 | files= 126 | data=  1 | cola=  68 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_02_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 112.1s | pag=  2 | files= 126 | data=  1 | cola=  67 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_03_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 113.5s | pag=  2 | files= 126 | data=  1 | cola=  66 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_04_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 114.6s | pag=  2 | files= 126 | data=  1 | cola=  65 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_05_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 115.8s | pag=  2 | files= 126 | data=  1 | cola=  64 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_06_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 117.0s | pag=  2 | files= 126 | data=  1 | cola=  63 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_07_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 118.0s | pag=  2 | files= 126 | data=  1 | cola=  62 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_08_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 119.2s | pag=  2 | files= 126 | data=  1 | cola=  61 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_09_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 120.4s | pag=  2 | files= 126 | data=  1 | cola=  60 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_10_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 121.7s | pag=  2 | files= 126 | data=  1 | cola=  59 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_11_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 122.9s | pag=  2 | files= 126 | data=  1 | cola=  58 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_12_2019-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 124.0s | pag=  2 | files= 126 | data=  1 | cola=  57 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_01_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 125.2s | pag=  2 | files= 126 | data=  1 | cola=  56 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_02_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 126.4s | pag=  2 | files= 126 | data=  1 | cola=  55 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_03_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 127.6s | pag=  2 | files= 126 | data=  1 | cola=  54 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_04_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 128.9s | pag=  2 | files= 126 | data=  1 | cola=  53 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_05_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 130.2s | pag=  2 | files= 126 | data=  1 | cola=  52 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_06_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 131.5s | pag=  2 | files= 126 | data=  1 | cola=  51 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_07_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 132.6s | pag=  2 | files= 126 | data=  1 | cola=  50 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_08_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 133.9s | pag=  2 | files= 126 | data=  1 | cola=  49 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_09_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 135.4s | pag=  2 | files= 126 | data=  1 | cola=  48 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_10_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 136.7s | pag=  2 | files= 126 | data=  1 | cola=  47 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_11_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 137.9s | pag=  2 | files= 126 | data=  1 | cola=  46 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_12_2018-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 139.1s | pag=  2 | files= 126 | data=  1 | cola=  45 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_01_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 140.2s | pag=  2 | files= 126 | data=  1 | cola=  44 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_02_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 141.4s | pag=  2 | files= 126 | data=  1 | cola=  43 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_03_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 142.7s | pag=  2 | files= 126 | data=  1 | cola=  42 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_04_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 144.0s | pag=  2 | files= 126 | data=  1 | cola=  41 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_05_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 145.3s | pag=  2 | files= 126 | data=  1 | cola=  40 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_06_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 146.4s | pag=  2 | files= 126 | data=  1 | cola=  39 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_07_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 147.6s | pag=  2 | files= 126 | data=  1 | cola=  38 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_08_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 148.8s | pag=  2 | files= 126 | data=  1 | cola=  37 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_09_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 150.0s | pag=  2 | files= 126 | data=  1 | cola=  36 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_10_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 151.2s | pag=  2 | files= 126 | data=  1 | cola=  35 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_11_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 152.6s | pag=  2 | files= 126 | data=  1 | cola=  34 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2017/financiera_12_2017-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 153.8s | pag=  2 | files= 126 | data=  1 | cola=  33 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_01_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 154.9s | pag=  2 | files= 126 | data=  1 | cola=  32 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_02_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 156.1s | pag=  2 | files= 126 | data=  1 | cola=  31 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_03_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 157.5s | pag=  2 | files= 126 | data=  1 | cola=  30 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_04_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 158.7s | pag=  2 | files= 126 | data=  1 | cola=  29 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_05_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 159.8s | pag=  2 | files= 126 | data=  1 | cola=  28 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_06_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 161.2s | pag=  2 | files= 126 | data=  1 | cola=  27 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_07_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 162.4s | pag=  2 | files= 126 | data=  1 | cola=  26 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_08_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 163.7s | pag=  2 | files= 126 | data=  1 | cola=  25 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_09_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 164.9s | pag=  2 | files= 126 | data=  1 | cola=  24 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_10_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 166.1s | pag=  2 | files= 126 | data=  1 | cola=  23 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_11_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 167.3s | pag=  2 | files= 126 | data=  1 | cola=  22 | prio=10 | https://www.finrural.org.bo/archivos/info_financiera/2016/financiera_12_2016-pdf.sha
+[RETRY_08_FINRURAL_INDICADORES] t= 168.7s | pag=  2 | files= 126 | data=  1 | cola=  21 | prio=50 | https://www.finrural.org.bo/sostenibilidad/
+[RETRY_08_FINRURAL_INDICADORES] t= 170.6s | pag=  3 | files= 129 | data=  1 | cola=  20 | prio=50 | https://www.finrural.org.bo/estructura-organizacional/
+[RETRY_08_FINRURAL_INDICADORES] t= 171.0s | pag=  4 | files= 129 | data=  1 | cola=  19 | prio=50 | https://www.finrural.org.bo/cidre-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=2 | data_html_table | https://www.finrural.org.bo/cidre-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 173.8s | pag=  5 | files= 129 | data=  2 | cola=  18 | prio=50 | https://www.finrural.org.bo/crecer-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=3 | data_html_table | https://www.finrural.org.bo/crecer-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 176.5s | pag=  6 | files= 129 | data=  3 | cola=  17 | prio=50 | https://www.finrural.org.bo/diaconia-frif-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=4 | data_html_table | https://www.finrural.org.bo/diaconia-frif-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 179.2s | pag=  7 | files= 129 | data=  4 | cola=  16 | prio=50 | https://www.finrural.org.bo/fondeco-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=5 | data_html_table | https://www.finrural.org.bo/fondeco-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 182.2s | pag=  8 | files= 129 | data=  5 | cola=  15 | prio=50 | https://www.finrural.org.bo/fubode-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=6 | data_html_table | https://www.finrural.org.bo/fubode-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 182.6s | pag=  9 | files= 129 | data=  6 | cola=  14 | prio=50 | https://www.finrural.org.bo/idepro-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=7 | data_html_table | https://www.finrural.org.bo/idepro-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 185.2s | pag= 10 | files= 129 | data=  7 | cola=  13 | prio=50 | https://www.finrural.org.bo/impro-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=8 | data_html_table | https://www.finrural.org.bo/impro-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 187.7s | pag= 11 | files= 129 | data=  8 | cola=  12 | prio=50 | https://www.finrural.org.bo/pro-mujer-ifd/
+[RETRY_08_FINRURAL_INDICADORES] DATASETS=9 | data_html_table | https://www.finrural.org.bo/pro-mujer-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 190.5s | pag= 12 | files= 129 | data=  9 | cola=  11 | prio=50 | https://www.finrural.org.bo/que-son-las-ifd/
+[RETRY_08_FINRURAL_INDICADORES] t= 191.3s | pag= 13 | files= 129 | data=  9 | cola=  10 | prio=50 | https://www.finrural.org.bo/glosario-de-microfinanzas/
+[RETRY_08_FINRURAL_INDICADORES] t= 192.8s | pag= 14 | files= 129 | data=  9 | cola=   9 | prio=50 | https://www.finrural.org.bo/manifiesto-de-las-microfinanzas/
+[RETRY_08_FINRURAL_INDICADORES] t= 193.5s | pag= 15 | files= 130 | data=  9 | cola=   8 | prio=50 | https://www.finrural.org.bo/servicios-a-asociadas/
+[RETRY_08_FINRURAL_INDICADORES] t= 194.4s | pag= 16 | files= 130 | data=  9 | cola=   8 | prio=50 | https://www.finrural.org.bo/iniciativas-2/
+[RETRY_08_FINRURAL_INDICADORES] t= 195.2s | pag= 17 | files= 130 | data=  9 | cola=   7 | prio=50 | https://www.finrural.org.bo/instituciones-aliadas/
+[RETRY_08_FINRURAL_INDICADORES] t= 196.2s | pag= 18 | files= 130 | data=  9 | cola=   6 | prio=50 | https://www.finrural.org.bo/entidades-de-cooperacion/
+[RETRY_08_FINRURAL_INDICADORES] t= 197.1s | pag= 19 | files= 130 | data=  9 | cola=   5 | prio=50 | https://www.finrural.org.bo/enlaces-de-interes/
+[RETRY_08_FINRURAL_INDICADORES] t= 197.8s | pag= 20 | files= 130 | data=  9 | cola=   4 | prio=50 | https://www.finrural.org.bo/bolsa-de-trabajo/
+[RETRY_08_FINRURAL_INDICADORES] t= 198.7s | pag= 21 | files= 130 | data=  9 | cola=   3 | prio=50 | https://www.finrural.org.bo/servicios-a-asociadas/mensajeria-sms/
+[RETRY_08_FINRURAL_INDICADORES] t= 199.7s | pag= 22 | files= 130 | data=  9 | cola=   2 | prio=70 | https://www.finrural.org.bo/historia/
+[RETRY_08_FINRURAL_INDICADORES] t= 200.6s | pag= 23 | files= 130 | data=  9 | cola=   1 | prio=70 | https://www.finrural.org.bo/mision-y-vision/
+[RETRY_08_FINRURAL_INDICADORES] t= 201.0s | pag= 24 | files= 130 | data=  9 | cola=   0 | prio=70 | https://www.finrural.org.bo/eventos/
+[RETRY_08_FINRURAL_INDICADORES] t= 201.8s | pag= 25 | files= 130 | data=  9 | cola=   0 | prio=50 | https://oficina.finrural.org.bo/index.php/apps/calendar/embed/W7cHxmtyHG5THWap
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_08_finrural_indicadores
+P�ginas visitadas:   26
+Archivos encontrados:  130
+Datasets web:         9
+Errores:              2
+Motivo de parada:     frontier_exhausted
+Duraci�n:             203.52 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 130
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_08_finrural_indicadores.json
+
+Trazabilidad:
+  Ejecuci�n: 101
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

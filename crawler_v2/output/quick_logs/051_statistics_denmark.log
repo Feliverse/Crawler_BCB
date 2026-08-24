@@ -1,0 +1,164 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Danmarks Statistik
+URL configurada: https://www.dst.dk
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Original: https://www.dst.dk
+  Utilizada: https://www.dst.dk/da/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.dst.dk/
+
+URL de trabajo: https://www.dst.dk/da/
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_51_STATISTICS_DENMARK] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.dst.dk/da/
+[FULL_51_STATISTICS_DENMARK] t=   4.5s | pag=  1 | files=   0 | data=  0 | cola=  83 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier
+[FULL_51_STATISTICS_DENMARK] t=   4.9s | pag=  2 | files=   0 | data=  0 | cola=  90 | prio=10 | https://www.dst.dk/da/TilSalg
+[FULL_51_STATISTICS_DENMARK] t=   5.3s | pag=  3 | files=   0 | data=  0 | cola=  90 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning
+[FULL_51_STATISTICS_DENMARK] t=   5.9s | pag=  4 | files=   0 | data=  0 | cola= 101 | prio=10 | https://www.dst.dk/da/TilSalg/interview
+[FULL_51_STATISTICS_DENMARK] t=   6.4s | pag=  5 | files=   0 | data=  0 | cola= 112 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-myndigheder
+[FULL_51_STATISTICS_DENMARK] t=   6.8s | pag=  6 | files=   0 | data=  0 | cola= 115 | prio=10 | https://www.dst.dk/da/Indberet/om-indberetning
+[FULL_51_STATISTICS_DENMARK] DATASETS=1 | data_html_table | https://www.dst.dk/da/Indberet/om-indberetning
+[FULL_51_STATISTICS_DENMARK] t=   7.4s | pag=  7 | files=   0 | data=  1 | cola= 123 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1983-2022
+[FULL_51_STATISTICS_DENMARK] DATASETS=2 | exportable_data_page | https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1983-2022
+[FULL_51_STATISTICS_DENMARK] t=   8.0s | pag=  8 | files=   0 | data=  2 | cola= 172 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1909-1982
+[FULL_51_STATISTICS_DENMARK] t=   8.5s | pag=  9 | files=   0 | data=  2 | cola= 171 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/statistikservice
+[FULL_51_STATISTICS_DENMARK] DATASETS=3 | exportable_data_page | https://www.dst.dk/da/Statistik/historiske-publikationsserier/statistikservice
+[FULL_51_STATISTICS_DENMARK] t=   9.2s | pag= 10 | files=   0 | data=  3 | cola= 221 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed
+[FULL_51_STATISTICS_DENMARK] DATASETS=4 | data_html_table | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed
+[FULL_51_STATISTICS_DENMARK] t=  10.0s | pag= 11 | files=   0 | data=  4 | cola= 291 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning
+[FULL_51_STATISTICS_DENMARK] t=  10.4s | pag= 12 | files=   0 | data=  4 | cola= 350 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/om-danmarks-datavindue/om-ddv-app
+[FULL_51_STATISTICS_DENMARK] t=  10.9s | pag= 13 | files=   0 | data=  4 | cola= 354 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser
+[FULL_51_STATISTICS_DENMARK] DATASETS=5 | data_html_table | https://www.dst.dk/da/TilSalg/data-til-forskning/nyt-og-meddelelser
+[FULL_51_STATISTICS_DENMARK] t=  17.6s | pag= 14 | files=   0 | data=  5 | cola= 405 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/brugeradgang
+[FULL_51_STATISTICS_DENMARK] t=  18.0s | pag= 15 | files=   0 | data=  5 | cola= 407 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/mikrodataordninger
+[FULL_51_STATISTICS_DENMARK] t=  18.4s | pag= 16 | files=   0 | data=  5 | cola= 410 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/generelt-om-data
+[FULL_51_STATISTICS_DENMARK] t=  18.9s | pag= 17 | files=   0 | data=  5 | cola= 414 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/autorisering-af-institutioner
+[FULL_51_STATISTICS_DENMARK] DATASETS=6 | exportable_data_page | https://www.dst.dk/da/TilSalg/data-til-forskning/autorisering-af-institutioner
+[FULL_51_STATISTICS_DENMARK] t=  19.5s | pag= 18 | files=   0 | data=  6 | cola= 421 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/projektindstilling
+[FULL_51_STATISTICS_DENMARK] t=  20.0s | pag= 19 | files=   0 | data=  6 | cola= 427 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/databestilling
+[FULL_51_STATISTICS_DENMARK] t=  20.5s | pag= 20 | files=   0 | data=  6 | cola= 430 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/analyseplatform
+[FULL_51_STATISTICS_DENMARK] t=  21.0s | pag= 21 | files=   0 | data=  6 | cola= 432 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/om-danmarks-datavindue
+[FULL_51_STATISTICS_DENMARK] t=  21.5s | pag= 22 | files=   0 | data=  6 | cola= 431 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/regler-og-datasikkerhed
+[FULL_51_STATISTICS_DENMARK] t=  22.1s | pag= 23 | files=   0 | data=  6 | cola= 432 | prio=10 | https://www.dst.dk/da/TilSalg/interview/indsamling-af-data
+[FULL_51_STATISTICS_DENMARK] t=  22.6s | pag= 24 | files=   0 | data=  6 | cola= 431 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning/danmarks-datavindue
+[FULL_51_STATISTICS_DENMARK] t=  23.3s | pag= 24 | files=   0 | data=  6 | cola= 430 | prio=10 | https://www.dst.dk/da/TilSalg/perspektiv/2026/naar-data-bliver-til-en-ekstra-laerer-i-klasselokalet
+[FULL_51_STATISTICS_DENMARK] t=  25.5s | pag= 25 | files=   2 | data=  6 | cola= 431 | prio=10 | https://www.dst.dk/da/OmDS/organisation/udvalg/raadgivende-udvalg/erhvervsdataindsamling
+[FULL_51_STATISTICS_DENMARK] t=  26.1s | pag= 26 | files=   2 | data=  6 | cola= 439 | prio=10 | https://www.dst.dk/da/OmDS/kvalitet-og-styring/datasikkerhed-i-danmarks-statistik
+[FULL_51_STATISTICS_DENMARK] DATASETS=7 | exportable_data_page | https://www.dst.dk/da/OmDS/kvalitet-og-styring/datasikkerhed-i-danmarks-statistik
+[FULL_51_STATISTICS_DENMARK] t=  26.6s | pag= 27 | files=   2 | data=  7 | cola= 447 | prio=10 | https://www.dst.dk/da/Indberet/vejledning-til-digital-indberetning/beskyttelse-af-persondata
+[FULL_51_STATISTICS_DENMARK] DATASETS=8 | exportable_data_page | https://www.dst.dk/da/Indberet/vejledning-til-digital-indberetning/beskyttelse-af-persondata
+[FULL_51_STATISTICS_DENMARK] t=  27.2s | pag= 28 | files=   2 | data=  8 | cola= 453 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=1
+[FULL_51_STATISTICS_DENMARK] DATASET ACTUALIZADO | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed -> https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=1
+[FULL_51_STATISTICS_DENMARK] t=  27.8s | pag= 29 | files=   2 | data=  8 | cola= 452 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=2
+[FULL_51_STATISTICS_DENMARK] t=  28.4s | pag= 30 | files=   2 | data=  8 | cola= 501 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=3
+[FULL_51_STATISTICS_DENMARK] t=  28.9s | pag= 31 | files=   2 | data=  8 | cola= 550 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=4
+[FULL_51_STATISTICS_DENMARK] t=  29.5s | pag= 32 | files=   2 | data=  8 | cola= 599 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=5
+[FULL_51_STATISTICS_DENMARK] t=  30.1s | pag= 33 | files=   2 | data=  8 | cola= 648 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=6
+[FULL_51_STATISTICS_DENMARK] t=  30.6s | pag= 34 | files=   2 | data=  8 | cola= 697 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=7
+[FULL_51_STATISTICS_DENMARK] t=  31.0s | pag= 35 | files=   2 | data=  8 | cola= 746 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=8
+[FULL_51_STATISTICS_DENMARK] t=  31.6s | pag= 36 | files=   2 | data=  8 | cola= 795 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=9
+[FULL_51_STATISTICS_DENMARK] t=  32.1s | pag= 37 | files=   2 | data=  8 | cola= 844 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=10
+[FULL_51_STATISTICS_DENMARK] t=  32.7s | pag= 38 | files=   2 | data=  8 | cola= 893 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=11
+[FULL_51_STATISTICS_DENMARK] t=  33.3s | pag= 39 | files=   2 | data=  8 | cola= 942 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=12
+[FULL_51_STATISTICS_DENMARK] t=  33.8s | pag= 40 | files=   2 | data=  8 | cola= 991 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=13
+[FULL_51_STATISTICS_DENMARK] t=  34.5s | pag= 41 | files=   2 | data=  8 | cola=1040 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=14
+[FULL_51_STATISTICS_DENMARK] t=  35.1s | pag= 42 | files=   2 | data=  8 | cola=1089 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=15
+[FULL_51_STATISTICS_DENMARK] t=  35.7s | pag= 43 | files=   2 | data=  8 | cola=1138 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=16
+[FULL_51_STATISTICS_DENMARK] t=  36.2s | pag= 44 | files=   2 | data=  8 | cola=1187 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=17
+[FULL_51_STATISTICS_DENMARK] t=  36.8s | pag= 45 | files=   2 | data=  8 | cola=1236 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=18
+[FULL_51_STATISTICS_DENMARK] t=  37.2s | pag= 46 | files=   2 | data=  8 | cola=1285 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=19
+[FULL_51_STATISTICS_DENMARK] t=  37.7s | pag= 47 | files=   2 | data=  8 | cola=1334 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=20
+[FULL_51_STATISTICS_DENMARK] t=  38.3s | pag= 48 | files=   2 | data=  8 | cola=1383 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed?page=21
+[FULL_51_STATISTICS_DENMARK] t=  38.9s | pag= 49 | files=   2 | data=  8 | cola=1422 | prio=10 | https://www.dst.dk/en/kontakt
+[FULL_51_STATISTICS_DENMARK] t=  39.4s | pag= 50 | files=   2 | data=  8 | cola=1425 | prio=10 | https://www.dst.dk/en/Statistik
+[FULL_51_STATISTICS_DENMARK] t=  40.1s | pag= 51 | files=   2 | data=  8 | cola=1424 | prio=10 | https://www.dst.dk/en/Statistik/emner
+[FULL_51_STATISTICS_DENMARK] t=  40.6s | pag= 52 | files=   2 | data=  8 | cola=1450 | prio=10 | https://www.dst.dk/en/Statistik/laer-om-statistik
+[FULL_51_STATISTICS_DENMARK] t=  41.1s | pag= 53 | files=   2 | data=  8 | cola=1455 | prio=10 | https://www.dst.dk/en/consulting/building-statistical-capacity
+[FULL_51_STATISTICS_DENMARK] t=  41.8s | pag= 54 | files=   3 | data=  8 | cola=1455 | prio=10 | https://www.dst.dk/en/consulting/annual-reports
+[FULL_51_STATISTICS_DENMARK] DATASETS=9 | exportable_data_page | https://www.dst.dk/en/consulting/annual-reports
+[FULL_51_STATISTICS_DENMARK] t=  42.3s | pag= 55 | files=   4 | data=  9 | cola=1465 | prio=10 | https://www.dst.dk/en/consulting/projects?en=
+[FULL_51_STATISTICS_DENMARK] t=  42.8s | pag= 56 | files=   5 | data=  9 | cola=1470 | prio=10 | https://www.dst.dk/en/OmDS/danmarks-statistiks-rolle-og-opgave
+[FULL_51_STATISTICS_DENMARK] t=  43.4s | pag= 57 | files=   5 | data=  9 | cola=1471 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning/om-danmarks-datavindue/om-ddv-app
+[FULL_51_STATISTICS_DENMARK] t=  44.0s | pag= 58 | files=   5 | data=  9 | cola=1473 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning/mikrodataordninger
+[FULL_51_STATISTICS_DENMARK] t=  44.8s | pag= 59 | files=   5 | data=  9 | cola=1476 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning/generelt-om-data
+[FULL_51_STATISTICS_DENMARK] t=  48.0s | pag= 60 | files=   5 | data=  9 | cola=1480 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner
+[FULL_51_STATISTICS_DENMARK] DATASETS=10 | exportable_data_page | https://www.dst.dk/en/TilSalg/data-til-forskning/autorisering-af-institutioner
+[FULL_51_STATISTICS_DENMARK] t=  64.0s | pag= 61 | files=   5 | data= 10 | cola=1482 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning/projektindstilling
+
+Trazabilidad:
+  Ejecución: 80
+  Estado:    ERROR
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 905, in _error_catcher
+    yield
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1022, in _raw_read
+    data = self._fp_read(amt, read1=read1) if not fp_closed else b""
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1005, in _fp_read
+    return self._fp.read(amt) if amt is not None else self._fp.read()
+           ~~~~~~~~~~~~~^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 479, in read
+    s = self.fp.read(amt)
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1267, in stream
+    data = self.read(amt=amt, decode_content=decode_content)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1110, in read
+    data = self._raw_read(amt)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1021, in _raw_read
+    with self._error_catcher():
+         ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 910, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.dst.dk', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 636, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2451, in crawl
+    response.text,
+    ^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 1066, in text
+    if not self.content:
+           ^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 1042, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 943, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.dst.dk', port=443): Read timed out.

@@ -1,0 +1,278 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Instituto Boliviano del Cemento y el Hormig�n
+URL configurada: https://www.ibch.com/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://www.ibch.com/
+  Utilizada: https://www.ibch.com/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.ibch.com/
+
+URL de trabajo: https://www.ibch.com/
+Seeds: 2
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_11_IBCH] SITEMAP | docs=16 | urls=103 | en_cola=101 | errores=4
+[RETRY_11_IBCH] t=  28.1s | pag=  0 | files=   0 | data=  0 | cola= 102 | prio= 0 | https://www.ibch.com/
+[RETRY_11_IBCH] t=  30.0s | pag=  1 | files=   9 | data=  0 | cola= 112 | prio= 0 | https://www.ibch.com/about-us/
+[RETRY_11_IBCH] t=  31.5s | pag=  2 | files=   9 | data=  0 | cola= 114 | prio=10 | https://www.ibch.com/pavimentos/publicaciones
+[RETRY_11_IBCH] t=  33.4s | pag=  3 | files=   9 | data=  0 | cola= 113 | prio=25 | https://www.ibch.com/sitemap.html
+[RETRY_11_IBCH] t=  34.1s | pag=  4 | files=   9 | data=  0 | cola= 121 | prio=25 | https://www.ibch.com/categoria-producto/software/
+[RETRY_11_IBCH] t=  35.4s | pag=  5 | files=   9 | data=  0 | cola= 121 | prio=25 | https://www.ibch.com/categoria-producto/cursos/
+[RETRY_11_IBCH] t=  36.5s | pag=  6 | files=   9 | data=  0 | cola= 124 | prio=25 | https://www.ibch.com/download/dossier-pavimentos-rigidos/
+[RETRY_11_IBCH] t=  37.6s | pag=  7 | files=   9 | data=  0 | cola= 124 | prio=10 | https://www.ibch.com/download-category/pavimentos/
+[RETRY_11_IBCH] t=  38.8s | pag=  8 | files=   9 | data=  0 | cola= 123 | prio=25 | https://www.ibch.com/download/diseno-pavimentos-metodo-pca/
+[RETRY_11_IBCH] t=  39.9s | pag=  9 | files=   9 | data=  0 | cola= 122 | prio=25 | https://www.ibch.com/download/manual-sobrecarpetas-aashto/
+[RETRY_11_IBCH] t=  41.0s | pag= 10 | files=   9 | data=  0 | cola= 121 | prio=25 | https://www.ibch.com/download/el-estado-del-arte-del-suelocemento-en-estructuras-de-pavimentos/
+[RETRY_11_IBCH] t=  42.1s | pag= 11 | files=   9 | data=  0 | cola= 120 | prio=25 | https://www.ibch.com/download/pavimentos-unicapa-de-alto-desempeno/
+[RETRY_11_IBCH] t=  43.2s | pag= 12 | files=   9 | data=  0 | cola= 119 | prio=25 | https://www.ibch.com/download/juntas-en-pavimentos-urbanos/
+[RETRY_11_IBCH] t=  44.3s | pag= 13 | files=   9 | data=  0 | cola= 118 | prio=25 | https://www.ibch.com/download/recomendaciones-constructivas/
+[RETRY_11_IBCH] t=  45.4s | pag= 14 | files=   9 | data=  0 | cola= 117 | prio=25 | https://www.ibch.com/download/diseno-y-construccion-de-viviendas-de-bloques-de-hormigon/
+[RETRY_11_IBCH] t=  46.5s | pag= 15 | files=   9 | data=  0 | cola= 117 | prio=10 | https://www.ibch.com/download-category/vivienda/
+[RETRY_11_IBCH] t=  47.6s | pag= 16 | files=   9 | data=  0 | cola= 116 | prio=25 | https://www.ibch.com/download/introduccion-e-impacto-ambiental/
+[RETRY_11_IBCH] t=  48.7s | pag= 17 | files=   9 | data=  0 | cola= 115 | prio=25 | https://www.ibch.com/download/diseno-de-mezclas-para-bloques-prensados-de-tierra/
+[RETRY_11_IBCH] t=  49.7s | pag= 18 | files=   9 | data=  0 | cola= 114 | prio=25 | https://www.ibch.com/download/diseno-de-mezclas-para-bloques-prensados-de-tierra-2/
+[RETRY_11_IBCH] t=  50.9s | pag= 19 | files=   9 | data=  0 | cola= 113 | prio=25 | https://www.ibch.com/download/diseno-de-mezclas-para-bloques-prensados-de-tierra-3/
+[RETRY_11_IBCH] t=  52.0s | pag= 20 | files=   9 | data=  0 | cola= 112 | prio=25 | https://www.ibch.com/download/materiales-petreos-naturales/
+[RETRY_11_IBCH] t=  53.1s | pag= 21 | files=   9 | data=  0 | cola= 111 | prio=25 | https://www.ibch.com/download/diseno-y-control-de-mezclas-de-concreto/
+[RETRY_11_IBCH] t=  54.2s | pag= 22 | files=   9 | data=  0 | cola= 111 | prio=10 | https://www.ibch.com/download-category/mezclas/
+[RETRY_11_IBCH] t=  55.2s | pag= 23 | files=   9 | data=  0 | cola= 110 | prio=25 | https://www.ibch.com/download/introduccion-dipav-3/
+[RETRY_11_IBCH] t=  56.3s | pag= 24 | files=   9 | data=  0 | cola= 110 | prio=10 | https://www.ibch.com/download-category/dipav/
+[RETRY_11_IBCH] t=  57.3s | pag= 25 | files=   9 | data=  0 | cola= 109 | prio=25 | https://www.ibch.com/download/presentacion-dipav/
+[RETRY_11_IBCH] t=  58.4s | pag= 26 | files=   9 | data=  0 | cola= 108 | prio=25 | https://www.ibch.com/download/estudio-experimental-sobre-residuos-solidos-para-la-reutilizacion-de-botellas-pet-en-bloques-de-concreto/
+[RETRY_11_IBCH] t=  59.4s | pag= 27 | files=   9 | data=  0 | cola= 107 | prio=25 | https://www.ibch.com/download/inovacion-tecnologica-y-diseno-de-materiales-td-35/
+[RETRY_11_IBCH] t=  60.5s | pag= 28 | files=   9 | data=  0 | cola= 106 | prio=25 | https://www.ibch.com/download/caminos-rurales-de-hormigon-adaptables-al-crecimiento-del-transito/
+[RETRY_11_IBCH] t=  61.6s | pag= 29 | files=   9 | data=  0 | cola= 105 | prio=25 | https://www.ibch.com/download/estatutos-ibch/
+[RETRY_11_IBCH] t=  62.6s | pag= 30 | files=  10 | data=  0 | cola= 105 | prio=10 | https://www.ibch.com/download-category/documentos/
+[RETRY_11_IBCH] t=  63.7s | pag= 31 | files=  10 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/download/caracteristicas-tecnicoambientales-de-baldosas-ecologicas-de-concreto-no-convencional-para-areas-exteriores/
+[RETRY_11_IBCH] t=  64.7s | pag= 32 | files=  10 | data=  0 | cola= 104 | prio=10 | https://www.ibch.com/download-category/arquitectura/
+[RETRY_11_IBCH] t=  65.8s | pag= 33 | files=  10 | data=  0 | cola= 103 | prio=25 | https://www.ibch.com/download/presentaciones-jornadas/
+[RETRY_11_IBCH] t=  67.0s | pag= 34 | files=  10 | data=  0 | cola= 102 | prio=25 | https://www.ibch.com/producto/curso-diseno-de-pavimentos-rigidos-y-flexibles/
+[RETRY_11_IBCH] t=  68.1s | pag= 35 | files=  10 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/producto/curso-diseno-de-sobrecarpetas-recapados-aashto-93/
+[RETRY_11_IBCH] t=  69.3s | pag= 36 | files=  10 | data=  0 | cola= 106 | prio=25 | https://www.ibch.com/producto/software-de-diseno-de-pavimentos-dipav-3-0/
+[RETRY_11_IBCH] t=  70.4s | pag= 37 | files=  10 | data=  0 | cola= 105 | prio=25 | https://www.ibch.com/producto/diseno-y-construccion-de-bases-de-suelo-cemento/
+[RETRY_11_IBCH] t=  71.5s | pag= 38 | files=  10 | data=  0 | cola= 107 | prio=25 | https://www.ibch.com/producto/pavimentos-de-adoquines-de-hormigon/
+[RETRY_11_IBCH] t=  72.6s | pag= 39 | files=  10 | data=  0 | cola= 109 | prio=25 | https://www.ibch.com/courses/diseno-de-pavimentos-rigidos-y-flexibles/
+[RETRY_11_IBCH] t=  73.8s | pag= 40 | files=  10 | data=  0 | cola= 115 | prio=25 | https://www.ibch.com/courses/diseno-de-sobrecarpetas-recapados-aashto-93/
+[RETRY_11_IBCH] t=  74.9s | pag= 41 | files=  10 | data=  0 | cola= 119 | prio=25 | https://www.ibch.com/courses/pavimentos-de-adoquines-de-hormigon/
+[RETRY_11_IBCH] t=  76.1s | pag= 42 | files=  10 | data=  0 | cola= 121 | prio=25 | https://www.ibch.com/courses/diseno-y-construccion-de-bases-de-suelo-cemento/
+[RETRY_11_IBCH] t=  77.2s | pag= 43 | files=  10 | data=  0 | cola= 126 | prio=25 | https://www.ibch.com/a1n1/
+[RETRY_11_IBCH] t=  78.3s | pag= 44 | files=  11 | data=  0 | cola= 126 | prio=10 | https://www.ibch.com/category/boletin/
+[RETRY_11_IBCH] t=  79.5s | pag= 45 | files=  21 | data=  0 | cola= 127 | prio=10 | https://www.ibch.com/category/boletin/page/2/
+[RETRY_11_IBCH] t=  80.6s | pag= 46 | files=  31 | data=  0 | cola= 126 | prio=10 | https://www.ibch.com/category/boletin/page/3/
+[RETRY_11_IBCH] t=  81.8s | pag= 47 | files=  33 | data=  0 | cola= 125 | prio=25 | https://www.ibch.com/a1n2/
+[RETRY_11_IBCH] t=  82.8s | pag= 48 | files=  33 | data=  0 | cola= 124 | prio=25 | https://www.ibch.com/a1n3/
+[RETRY_11_IBCH] t=  83.9s | pag= 49 | files=  33 | data=  0 | cola= 123 | prio=25 | https://www.ibch.com/a2n4/
+[RETRY_11_IBCH] t=  85.0s | pag= 50 | files=  33 | data=  0 | cola= 122 | prio=25 | https://www.ibch.com/a3n5/
+[RETRY_11_IBCH] t=  86.1s | pag= 51 | files=  33 | data=  0 | cola= 121 | prio=25 | https://www.ibch.com/a4n5/
+[RETRY_11_IBCH] t=  87.1s | pag= 52 | files=  33 | data=  0 | cola= 120 | prio=25 | https://www.ibch.com/a5n6/
+[RETRY_11_IBCH] t=  88.2s | pag= 53 | files=  33 | data=  0 | cola= 119 | prio=25 | https://www.ibch.com/a6n7/
+[RETRY_11_IBCH] t=  89.4s | pag= 54 | files=  33 | data=  0 | cola= 118 | prio=25 | https://www.ibch.com/a8n8/
+[RETRY_11_IBCH] t=  90.4s | pag= 55 | files=  33 | data=  0 | cola= 117 | prio=25 | https://www.ibch.com/a9n9/
+[RETRY_11_IBCH] t=  91.6s | pag= 56 | files=  33 | data=  0 | cola= 116 | prio=25 | https://www.ibch.com/a10n10/
+[RETRY_11_IBCH] t=  92.7s | pag= 57 | files=  33 | data=  0 | cola= 115 | prio=25 | https://www.ibch.com/a11n11/
+[RETRY_11_IBCH] t=  93.8s | pag= 58 | files=  33 | data=  0 | cola= 114 | prio=25 | https://www.ibch.com/a12n12/
+[RETRY_11_IBCH] t=  94.8s | pag= 59 | files=  33 | data=  0 | cola= 113 | prio=25 | https://www.ibch.com/a13n13/
+[RETRY_11_IBCH] t=  96.0s | pag= 60 | files=  33 | data=  0 | cola= 112 | prio=25 | https://www.ibch.com/a14n14/
+[RETRY_11_IBCH] t=  97.2s | pag= 61 | files=  33 | data=  0 | cola= 111 | prio=25 | https://www.ibch.com/a15n15/
+[RETRY_11_IBCH] t=  98.2s | pag= 62 | files=  33 | data=  0 | cola= 110 | prio=25 | https://www.ibch.com/a16n16/
+[RETRY_11_IBCH] t=  99.3s | pag= 63 | files=  33 | data=  0 | cola= 109 | prio=25 | https://www.ibch.com/a17n17/
+[RETRY_11_IBCH] t= 100.4s | pag= 64 | files=  33 | data=  0 | cola= 108 | prio=25 | https://www.ibch.com/a18n18/
+[RETRY_11_IBCH] t= 101.5s | pag= 65 | files=  33 | data=  0 | cola= 107 | prio=25 | https://www.ibch.com/a20n20/
+[RETRY_11_IBCH] t= 102.6s | pag= 66 | files=  33 | data=  0 | cola= 106 | prio=25 | https://www.ibch.com/a21n21/
+[RETRY_11_IBCH] t= 103.6s | pag= 67 | files=  33 | data=  0 | cola= 105 | prio=25 | https://www.ibch.com/a22n22/
+[RETRY_11_IBCH] t= 104.7s | pag= 68 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/curso-pavimentos-de-adoquines-de-hormigon/
+[RETRY_11_IBCH] t= 105.9s | pag= 69 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/curso-diseno-y-construccion-de-bases-de-suelo-cemento/
+[RETRY_11_IBCH] t= 107.0s | pag= 70 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/curso-construccion-evaluacion-y-restauracion-de-pavimentos-rigidos/
+[RETRY_11_IBCH] t= 108.1s | pag= 71 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/curso-diseno-de-pavimentos-metodo-aashto-93-con-el-software-dipav-3/
+[RETRY_11_IBCH] t= 109.2s | pag= 72 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/tecnico-de-pruebas-en-el-hormigon-en-obra-grado-i/
+[RETRY_11_IBCH] t= 110.5s | pag= 73 | files=  33 | data=  0 | cola= 105 | prio=25 | https://www.ibch.com/supervisor-especializado-en-obras-de-hormigon/
+[RETRY_11_IBCH] t= 111.6s | pag= 74 | files=  33 | data=  0 | cola= 105 | prio=25 | https://www.ibch.com/a23n23/
+[RETRY_11_IBCH] t= 112.7s | pag= 75 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/ciclo-de-conferencias-virtuales-pavimentos-en-concreto/
+[RETRY_11_IBCH] t= 113.7s | pag= 76 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/pub/
+[RETRY_11_IBCH] t= 114.9s | pag= 77 | files=  33 | data=  0 | cola= 105 | prio=25 | https://www.ibch.com/gallery/
+[RETRY_11_IBCH] t= 116.0s | pag= 78 | files=  33 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/pavimentos/videos/
+[RETRY_11_IBCH] t= 117.1s | pag= 79 | files=  33 | data=  0 | cola= 102 | prio=25 | https://www.ibch.com/about-us/links/
+[RETRY_11_IBCH] t= 118.2s | pag= 80 | files=  33 | data=  0 | cola= 101 | prio=25 | https://www.ibch.com/cart/
+[RETRY_11_IBCH] t= 119.3s | pag= 81 | files=  33 | data=  0 | cola= 100 | prio=25 | https://www.ibch.com/checkout/
+[RETRY_11_IBCH] t= 120.7s | pag= 81 | files=  33 | data=  0 | cola=  99 | prio=25 | https://www.ibch.com/my-account/
+[RETRY_11_IBCH] t= 122.7s | pag= 82 | files=  33 | data=  0 | cola=  99 | prio=25 | https://www.ibch.com/vivienda/
+[RETRY_11_IBCH] t= 123.6s | pag= 83 | files=  33 | data=  0 | cola=  98 | prio=25 | https://www.ibch.com/diseno-mezclas/
+[RETRY_11_IBCH] t= 124.6s | pag= 84 | files=  33 | data=  0 | cola=  97 | prio=25 | https://www.ibch.com/pavimentos/galeria-de-proyectos/
+[RETRY_11_IBCH] t= 126.2s | pag= 85 | files=  33 | data=  0 | cola=  96 | prio=25 | https://www.ibch.com/pavimentos/
+[RETRY_11_IBCH] t= 127.1s | pag= 86 | files=  33 | data=  0 | cola=  96 | prio=10 | https://www.ibch.com/wp-content/uploads/2022/07/Ventajas_Pav_Rigido.ppsx
+[RETRY_11_IBCH] t= 127.6s | pag= 86 | files=  33 | data=  0 | cola=  95 | prio=25 | https://www.ibch.com/dipav/
+[RETRY_11_IBCH] t= 129.9s | pag= 87 | files=  33 | data=  0 | cola=  94 | prio=25 | https://www.ibch.com/videos-ensayos-en-obra/
+[RETRY_11_IBCH] t= 130.7s | pag= 88 | files=  33 | data=  0 | cola=  93 | prio=25 | https://www.ibch.com/dipav/tutoriales/
+[RETRY_11_IBCH] t= 131.8s | pag= 89 | files=  33 | data=  0 | cola=  92 | prio=25 | https://www.ibch.com/hormigon-premezclado/
+[RETRY_11_IBCH] t= 132.9s | pag= 90 | files=  34 | data=  0 | cola=  91 | prio=25 | https://www.ibch.com/contactos/
+[RETRY_11_IBCH] t= 134.2s | pag= 91 | files=  34 | data=  0 | cola=  90 | prio=25 | https://www.ibch.com/pavimentos/dossier/
+[RETRY_11_IBCH] t= 135.2s | pag= 92 | files=  34 | data=  0 | cola=  89 | prio=25 | https://www.ibch.com/escritorio/
+[RETRY_11_IBCH] t= 136.3s | pag= 93 | files=  34 | data=  0 | cola=  89 | prio=25 | https://www.ibch.com/registro-de-estudiante/
+[RETRY_11_IBCH] t= 137.3s | pag= 94 | files=  34 | data=  0 | cola=  88 | prio=25 | https://www.ibch.com/pagina-de-registro-para-instructores/
+[RETRY_11_IBCH] t= 138.3s | pag= 95 | files=  34 | data=  0 | cola=  87 | prio=25 | https://www.ibch.com/comprar/
+[RETRY_11_IBCH] t= 139.6s | pag= 96 | files=  34 | data=  0 | cola=  91 | prio=25 | https://www.ibch.com/cursos/
+[RETRY_11_IBCH] t= 140.8s | pag= 97 | files=  34 | data=  0 | cola=  90 | prio=25 | https://www.ibch.com/abotunel/
+[RETRY_11_IBCH] t= 141.9s | pag= 98 | files=  34 | data=  0 | cola=  89 | prio=25 | https://www.ibch.com/proximos-eventos/
+[RETRY_11_IBCH] t= 143.1s | pag= 99 | files=  34 | data=  0 | cola=  88 | prio=25 | https://www.ibch.com/certificaciones-aci-ibch/
+[RETRY_11_IBCH] t= 144.0s | pag=100 | files=  34 | data=  0 | cola=  87 | prio=25 | https://www.ibch.com/boletin/
+[RETRY_11_IBCH] t= 145.3s | pag=101 | files=  34 | data=  0 | cola=  88 | prio=10 | https://www.ibch.com/boletin/page/2/
+[RETRY_11_IBCH] t= 146.5s | pag=102 | files=  34 | data=  0 | cola=  88 | prio=10 | https://www.ibch.com/boletin/page/3/
+[RETRY_11_IBCH] t= 147.7s | pag=103 | files=  34 | data=  0 | cola=  87 | prio=10 | https://www.ibch.com/boletin/page/1/
+[RETRY_11_IBCH] t= 149.2s | pag=103 | files=  34 | data=  0 | cola=  86 | prio=25 | https://www.ibch.com/certificado-de-tutor/
+[RETRY_11_IBCH] t= 151.3s | pag=104 | files=  34 | data=  0 | cola=  85 | prio=25 | https://www.ibch.com/cart-2/
+[RETRY_11_IBCH] t= 152.0s | pag=105 | files=  34 | data=  0 | cola=  84 | prio=25 | https://www.ibch.com/checkout-2/
+[RETRY_11_IBCH] t= 153.0s | pag=106 | files=  34 | data=  0 | cola=  83 | prio=25 | https://www.ibch.com/about-us/nuestro-equipo/
+[RETRY_11_IBCH] t= 154.1s | pag=107 | files=  34 | data=  0 | cola=  84 | prio=25 | https://www.ibch.com/about-us/en/
+[RETRY_11_IBCH] t= 155.2s | pag=108 | files=  34 | data=  0 | cola=  83 | prio=25 | https://www.ibch.com/about-us/en/our-team/
+[RETRY_11_IBCH] t= 156.2s | pag=109 | files=  34 | data=  0 | cola=  82 | prio=25 | https://www.ibch.com/jornadas-internacionales/
+[RETRY_11_IBCH] t= 157.5s | pag=110 | files=  35 | data=  0 | cola=  87 | prio=25 | https://www.ibch.com/jornadas-internacionales/encuesta-de-satisfaccion/
+[RETRY_11_IBCH] t= 158.8s | pag=111 | files=  35 | data=  0 | cola=  86 | prio=25 | https://www.ibch.com/arena-normalizada/
+[RETRY_11_IBCH] t= 159.7s | pag=112 | files=  39 | data=  0 | cola=  85 | prio=25 | https://www.ibch.com/tutor-certificate-verification/
+[RETRY_11_IBCH] t= 160.8s | pag=113 | files=  39 | data=  0 | cola=  84 | prio=50 | http://ibch.com/arena-normalizada
+[RETRY_11_IBCH] t= 163.3s | pag=113 | files=  39 | data=  0 | cola=  83 | prio=50 | http://www.ibch.com/dipav/
+[RETRY_11_IBCH] t= 165.8s | pag=113 | files=  39 | data=  0 | cola=  82 | prio=50 | https://www.ibch.com/cursos/curso-construccion-evaluacion-y-restauracion-de-pavimentos-rigidos/
+[RETRY_11_IBCH] t= 168.5s | pag=113 | files=  39 | data=  0 | cola=  81 | prio=50 | http://www.ibch.com/cursos/curso-diseno-de-pavimentos-metodo-aashto-93-con-el-software-dipav-3/
+[RETRY_11_IBCH] t= 171.7s | pag=113 | files=  39 | data=  0 | cola=  80 | prio=50 | https://www.ibch.com/cursos/curso-diseno-y-construccion-de-bases-de-suelo-cemento/
+[RETRY_11_IBCH] t= 174.4s | pag=113 | files=  39 | data=  0 | cola=  79 | prio=50 | https://www.ibch.com/aci/tecnico-de-pruebas-en-el-hormigon-en-obra-grado-i/
+[RETRY_11_IBCH] t= 177.1s | pag=113 | files=  39 | data=  0 | cola=  78 | prio=50 | https://www.ibch.com/aci/supervisor-especializado-en-obras-de-hormigon/
+[RETRY_11_IBCH] t= 179.6s | pag=113 | files=  39 | data=  0 | cola=  77 | prio=50 | https://www.ibch.com/pavimentos
+[RETRY_11_IBCH] t= 182.3s | pag=113 | files=  39 | data=  0 | cola=  76 | prio=50 | https://www.ibch.com/aci
+[RETRY_11_IBCH] t= 184.2s | pag=113 | files=  39 | data=  0 | cola=  75 | prio=50 | https://www.ibch.com/category/cursos/
+[RETRY_11_IBCH] t= 186.4s | pag=114 | files=  39 | data=  0 | cola=  74 | prio=50 | https://www.ibch.com/wp-content/uploads/miembros/soboce.html
+[RETRY_11_IBCH] t= 187.4s | pag=115 | files=  39 | data=  0 | cola=  73 | prio=50 | https://www.ibch.com/wp-content/uploads/miembros/itacamba.html
+[RETRY_11_IBCH] t= 187.7s | pag=116 | files=  39 | data=  0 | cola=  72 | prio=50 | https://www.ibch.com/wp-content/uploads/miembros/fancesa.html
+[RETRY_11_IBCH] t= 188.3s | pag=117 | files=  39 | data=  0 | cola=  71 | prio=50 | https://www.ibch.com/sitemap-misc.html
+[RETRY_11_IBCH] t= 189.2s | pag=117 | files=  39 | data=  0 | cola=  70 | prio=50 | https://www.ibch.com/wpdmcategory-sitemap.html
+[RETRY_11_IBCH] t= 190.9s | pag=117 | files=  39 | data=  0 | cola=  69 | prio=50 | https://www.ibch.com/course-category-sitemap.html
+[RETRY_11_IBCH] t= 192.7s | pag=117 | files=  39 | data=  0 | cola=  68 | prio=50 | https://www.ibch.com/productcat-sitemap.html
+[RETRY_11_IBCH] t= 194.3s | pag=117 | files=  39 | data=  0 | cola=  67 | prio=50 | https://www.ibch.com/wpdmpro-sitemap.html
+[RETRY_11_IBCH] t= 196.0s | pag=117 | files=  39 | data=  0 | cola=  66 | prio=50 | https://www.ibch.com/product-sitemap.html
+[RETRY_11_IBCH] t= 197.6s | pag=117 | files=  39 | data=  0 | cola=  65 | prio=50 | https://www.ibch.com/courses-sitemap.html
+[RETRY_11_IBCH] t= 199.1s | pag=117 | files=  39 | data=  0 | cola=  64 | prio=50 | https://www.ibch.com/post-sitemap.html
+[RETRY_11_IBCH] t= 200.9s | pag=117 | files=  39 | data=  0 | cola=  63 | prio=50 | https://www.ibch.com/page-sitemap.html
+[RETRY_11_IBCH] t= 202.8s | pag=117 | files=  39 | data=  0 | cola=  62 | prio=50 | https://www.ibch.com/categoria-producto/software/?add-to-cart=2667
+[RETRY_11_IBCH] t= 204.8s | pag=118 | files=  39 | data=  0 | cola=  62 | prio=50 | https://www.ibch.com/categoria-producto/cursos/?add-to-cart=2381
+[RETRY_11_IBCH] t= 205.9s | pag=119 | files=  39 | data=  0 | cola=  62 | prio=50 | https://www.ibch.com/categoria-producto/cursos/?add-to-cart=2437
+[RETRY_11_IBCH] t= 207.0s | pag=120 | files=  39 | data=  0 | cola=  62 | prio=50 | https://www.ibch.com/categoria-producto/cursos/?add-to-cart=3283
+[RETRY_11_IBCH] t= 208.1s | pag=121 | files=  39 | data=  0 | cola=  62 | prio=50 | https://www.ibch.com/categoria-producto/cursos/?add-to-cart=3292
+[RETRY_11_IBCH] t= 209.3s | pag=122 | files=  39 | data=  0 | cola=  62 | prio=50 | https://www.ibch.com/producto/curso-diseno-de-pavimentos-rigidos-y-flexibles/?add-to-cart=2437
+[RETRY_11_IBCH] t= 210.5s | pag=123 | files=  39 | data=  0 | cola=  61 | prio=50 | https://www.ibch.com/producto/curso-diseno-de-pavimentos-rigidos-y-flexibles/?add-to-cart=3283
+[RETRY_11_IBCH] t= 211.9s | pag=124 | files=  39 | data=  0 | cola=  60 | prio=50 | https://www.ibch.com/producto/curso-diseno-de-pavimentos-rigidos-y-flexibles/?add-to-cart=3292
+[RETRY_11_IBCH] t= 213.3s | pag=125 | files=  39 | data=  0 | cola=  59 | prio=50 | https://www.ibch.com/producto/curso-diseno-de-sobrecarpetas-recapados-aashto-93/?add-to-cart=2381
+[RETRY_11_IBCH] t= 214.5s | pag=126 | files=  39 | data=  0 | cola=  58 | prio=50 | https://www.ibch.com/producto/curso-diseno-de-sobrecarpetas-recapados-aashto-93/?add-to-cart=3292
+[RETRY_11_IBCH] t= 215.6s | pag=127 | files=  39 | data=  0 | cola=  57 | prio=50 | https://www.ibch.com/producto/curso-diseno-de-sobrecarpetas-recapados-aashto-93/?add-to-cart=3283
+[RETRY_11_IBCH] t= 216.8s | pag=128 | files=  39 | data=  0 | cola=  56 | prio=50 | https://www.ibch.com/producto/diseno-y-construccion-de-bases-de-suelo-cemento/?add-to-cart=2437
+[RETRY_11_IBCH] t= 217.9s | pag=129 | files=  39 | data=  0 | cola=  55 | prio=50 | https://www.ibch.com/producto/diseno-y-construccion-de-bases-de-suelo-cemento/?add-to-cart=3292
+[RETRY_11_IBCH] t= 219.1s | pag=130 | files=  39 | data=  0 | cola=  54 | prio=50 | https://www.ibch.com/producto/diseno-y-construccion-de-bases-de-suelo-cemento/?add-to-cart=2381
+[RETRY_11_IBCH] t= 220.5s | pag=131 | files=  39 | data=  0 | cola=  53 | prio=50 | https://www.ibch.com/producto/pavimentos-de-adoquines-de-hormigon/?add-to-cart=3283
+[RETRY_11_IBCH] t= 221.6s | pag=132 | files=  39 | data=  0 | cola=  52 | prio=50 | https://www.ibch.com/producto/pavimentos-de-adoquines-de-hormigon/?add-to-cart=2437
+[RETRY_11_IBCH] t= 222.7s | pag=133 | files=  39 | data=  0 | cola=  51 | prio=50 | https://www.ibch.com/producto/pavimentos-de-adoquines-de-hormigon/?add-to-cart=2381
+[RETRY_11_IBCH] t= 223.8s | pag=134 | files=  39 | data=  0 | cola=  50 | prio=50 | https://www.ibch.com/courses/
+[RETRY_11_IBCH] t= 225.0s | pag=135 | files=  39 | data=  0 | cola=  50 | prio=50 | https://www.ibch.com/course-category/diseno/?tutor-course-filter-category=49
+[RETRY_11_IBCH] t= 226.2s | pag=136 | files=  39 | data=  0 | cola=  50 | prio=50 | https://www.ibch.com/profile/mijail-ansel-vega-sola?view=student
+[RETRY_11_IBCH] t= 228.0s | pag=137 | files=  39 | data=  0 | cola=  50 | prio=50 | https://www.ibch.com/profile/vladimir-hugo-pardo-tupa?view=student
+[RETRY_11_IBCH] t= 229.7s | pag=138 | files=  39 | data=  0 | cola=  50 | prio=50 | https://www.ibch.com/profile/sergiomarcelo?view=student
+[RETRY_11_IBCH] t= 231.6s | pag=139 | files=  39 | data=  0 | cola=  50 | prio=50 | https://www.ibch.com/escritorio/retrieve-password
+[RETRY_11_IBCH] t= 233.8s | pag=140 | files=  39 | data=  0 | cola=  49 | prio=50 | https://www.ibch.com/registro-de-estudiante/?enrol_course_id=2376&redirect_to=https%3A%2F%2Fwww.ibch.com%2Fcourses%2Fdiseno-de-pavimentos-rigidos-y-flexibles%2F
+[RETRY_11_IBCH] t= 235.0s | pag=141 | files=  39 | data=  0 | cola=  48 | prio=50 | https://www.ibch.com/profile/daniel-petroche?view=student
+[RETRY_11_IBCH] t= 236.9s | pag=142 | files=  39 | data=  0 | cola=  48 | prio=50 | https://www.ibch.com/profile/jhamil-vera?view=student
+[RETRY_11_IBCH] t= 239.0s | pag=143 | files=  39 | data=  0 | cola=  48 | prio=50 | https://www.ibch.com/profile/elmer-roman-diaz-ruiz?view=student
+[RETRY_11_IBCH] t= 241.0s | pag=144 | files=  39 | data=  0 | cola=  48 | prio=50 | https://www.ibch.com/profile/vladimir-eduardo-ortiz-tapia?view=student
+[RETRY_11_IBCH] t= 242.9s | pag=145 | files=  39 | data=  0 | cola=  48 | prio=50 | https://www.ibch.com/registro-de-estudiante/?enrol_course_id=2425&redirect_to=https%3A%2F%2Fwww.ibch.com%2Fcourses%2Fdiseno-de-sobrecarpetas-recapados-aashto-93%2F
+[RETRY_11_IBCH] t= 244.2s | pag=146 | files=  39 | data=  0 | cola=  47 | prio=50 | https://www.ibch.com/profile/alvaro-ticona-aguirre?view=student
+[RETRY_11_IBCH] t= 246.0s | pag=147 | files=  39 | data=  0 | cola=  47 | prio=50 | https://www.ibch.com/profile/juan-jose-huaynoca-romero?view=student
+[RETRY_11_IBCH] t= 247.9s | pag=148 | files=  39 | data=  0 | cola=  47 | prio=50 | https://www.ibch.com/registro-de-estudiante/?enrol_course_id=3289&redirect_to=https%3A%2F%2Fwww.ibch.com%2Fcourses%2Fpavimentos-de-adoquines-de-hormigon%2F
+[RETRY_11_IBCH] t= 248.9s | pag=149 | files=  39 | data=  0 | cola=  46 | prio=50 | https://www.ibch.com/profile/ivanarmando548?view=student
+[RETRY_11_IBCH] t= 250.7s | pag=150 | files=  39 | data=  0 | cola=  46 | prio=50 | https://www.ibch.com/profile/jhon-jairo-caceres-villarroel?view=student
+[RETRY_11_IBCH] t= 252.5s | pag=151 | files=  39 | data=  0 | cola=  46 | prio=50 | https://www.ibch.com/profile/byron-perez?view=student
+[RETRY_11_IBCH] t= 254.7s | pag=152 | files=  39 | data=  0 | cola=  46 | prio=50 | https://www.ibch.com/profile/sergio-ivan-reyes-arreaga?view=student
+[RETRY_11_IBCH] t= 256.5s | pag=153 | files=  39 | data=  0 | cola=  46 | prio=50 | https://www.ibch.com/profile/ivan-rimber-flores-cosme?view=student
+[RETRY_11_IBCH] t= 258.7s | pag=154 | files=  39 | data=  0 | cola=  46 | prio=50 | https://www.ibch.com/registro-de-estudiante/?enrol_course_id=3280&redirect_to=https%3A%2F%2Fwww.ibch.com%2Fcourses%2Fdiseno-y-construccion-de-bases-de-suelo-cemento%2F
+[RETRY_11_IBCH] t= 260.0s | pag=155 | files=  39 | data=  0 | cola=  45 | prio=50 | https://www.ibch.com/wp-content/uploads/tripticos/adoquines/
+[RETRY_11_IBCH] t= 260.2s | pag=156 | files=  39 | data=  0 | cola=  44 | prio=50 | https://www.ibch.com/wp-content/uploads/tripticos/bases/
+[RETRY_11_IBCH] t= 260.8s | pag=157 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.ibch.com/wp-content/uploads/tripticos/restauracion/
+[RETRY_11_IBCH] t= 261.3s | pag=158 | files=  39 | data=  0 | cola=  42 | prio=50 | https://www.ibch.com/wp-content/uploads/tripticos/dipav/
+[RETRY_11_IBCH] t= 261.7s | pag=159 | files=  39 | data=  0 | cola=  41 | prio=50 | https://www.ibch.com/category/aci/
+[RETRY_11_IBCH] t= 263.0s | pag=160 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.ibch.com/wp-content/uploads/tripticos/tecnico/
+[RETRY_11_IBCH] t= 263.3s | pag=161 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.ibch.com/wp-content/uploads/tripticos/supervisor/
+[RETRY_11_IBCH] t= 263.7s | pag=162 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.ibch.com/pub/page/2/
+[RETRY_11_IBCH] t= 265.0s | pag=163 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.ibch.com/pub/page/3/
+[RETRY_11_IBCH] t= 266.2s | pag=164 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.ibch.com/my-account/lost-password/
+[RETRY_11_IBCH] t= 267.4s | pag=165 | files=  39 | data=  0 | cola=  35 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fescritorio%2F
+[RETRY_11_IBCH] t= 268.5s | pag=166 | files=  39 | data=  0 | cola=  34 | prio=50 | https://www.ibch.com/comprar/?add-to-cart=2381
+[RETRY_11_IBCH] t= 269.6s | pag=167 | files=  39 | data=  0 | cola=  33 | prio=50 | https://www.ibch.com/comprar/?add-to-cart=2437
+[RETRY_11_IBCH] t= 270.7s | pag=168 | files=  39 | data=  0 | cola=  32 | prio=50 | https://www.ibch.com/comprar/?add-to-cart=3283
+[RETRY_11_IBCH] t= 271.9s | pag=169 | files=  39 | data=  0 | cola=  31 | prio=50 | https://www.ibch.com/comprar/?add-to-cart=3292
+[RETRY_11_IBCH] t= 273.0s | pag=170 | files=  39 | data=  0 | cola=  30 | prio=50 | https://www.ibch.com/comprar/?add-to-cart=2667
+[RETRY_11_IBCH] t= 274.1s | pag=171 | files=  39 | data=  0 | cola=  29 | prio=50 | https://www.ibch.com/about-us/nuestro-equipo
+[RETRY_11_IBCH] t= 275.7s | pag=171 | files=  39 | data=  0 | cola=  28 | prio=50 | https://www.ibch.com/about-us/en/our-team
+[RETRY_11_IBCH] t= 278.5s | pag=171 | files=  39 | data=  0 | cola=  27 | prio=50 | https://www.ibch.com/team/lev-khazanovich/
+[RETRY_11_IBCH] t= 280.6s | pag=172 | files=  40 | data=  0 | cola=  26 | prio=50 | https://www.ibch.com/team/jeffery-roesler/
+[RETRY_11_IBCH] t= 281.7s | pag=173 | files=  41 | data=  0 | cola=  25 | prio=50 | https://www.ibch.com/team/marcelo-alfaro/
+[RETRY_11_IBCH] t= 282.8s | pag=174 | files=  42 | data=  0 | cola=  24 | prio=50 | https://www.ibch.com/team/alvaro-uria/
+[RETRY_11_IBCH] t= 283.9s | pag=175 | files=  43 | data=  0 | cola=  23 | prio=50 | https://www.ibch.com/team/christian-rojas/
+[RETRY_11_IBCH] t= 285.1s | pag=176 | files=  44 | data=  0 | cola=  22 | prio=50 | https://www.ibch.com/team/oscar-trujillo/
+[RETRY_11_IBCH] t= 286.2s | pag=177 | files=  45 | data=  0 | cola=  21 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&remove_item=7edccc661418aeb5761dbcdc06ad490c
+[RETRY_11_IBCH] t= 287.3s | pag=178 | files=  45 | data=  0 | cola=  21 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&remove_item=7b66b4fd401a271a1c7224027ce111bc
+[RETRY_11_IBCH] t= 288.5s | pag=179 | files=  45 | data=  0 | cola=  22 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&remove_item=6547884cea64550284728eb26b0947ef
+[RETRY_11_IBCH] t= 289.6s | pag=180 | files=  45 | data=  0 | cola=  22 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&remove_item=c819904dde95535c60452b16c1c494f6
+[RETRY_11_IBCH] t= 292.9s | pag=181 | files=  45 | data=  0 | cola=  22 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&remove_item=cfcce0621b49c983991ead4c3d4d3b6b
+[RETRY_11_IBCH] t= 294.5s | pag=182 | files=  45 | data=  0 | cola=  22 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fcourses%2F
+[RETRY_11_IBCH] t= 295.9s | pag=183 | files=  45 | data=  0 | cola=  21 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fcourse-category%2Fdiseno%2F%3Ftutor-course-filter-category%3D49
+[RETRY_11_IBCH] t= 297.2s | pag=184 | files=  45 | data=  0 | cola=  20 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fmijail-ansel-vega-sola%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 298.6s | pag=185 | files=  45 | data=  0 | cola=  19 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fvladimir-hugo-pardo-tupa%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 299.6s | pag=186 | files=  45 | data=  0 | cola=  18 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fsergiomarcelo%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 300.6s | pag=187 | files=  45 | data=  0 | cola=  17 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fdaniel-petroche%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 301.7s | pag=188 | files=  45 | data=  0 | cola=  16 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fjhamil-vera%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 302.9s | pag=189 | files=  45 | data=  0 | cola=  15 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Felmer-roman-diaz-ruiz%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 303.9s | pag=190 | files=  45 | data=  0 | cola=  14 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fvladimir-eduardo-ortiz-tapia%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 304.9s | pag=191 | files=  45 | data=  0 | cola=  13 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Falvaro-ticona-aguirre%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 306.1s | pag=192 | files=  45 | data=  0 | cola=  12 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fjuan-jose-huaynoca-romero%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 307.2s | pag=193 | files=  45 | data=  0 | cola=  11 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fivanarmando548%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 308.3s | pag=194 | files=  45 | data=  0 | cola=  10 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fjhon-jairo-caceres-villarroel%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 309.3s | pag=195 | files=  45 | data=  0 | cola=   9 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fbyron-perez%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 310.4s | pag=196 | files=  45 | data=  0 | cola=   8 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fsergio-ivan-reyes-arreaga%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 311.5s | pag=197 | files=  45 | data=  0 | cola=   7 | prio=50 | https://www.ibch.com/registro-de-estudiante/?redirect_to=https%3A%2F%2Fwww.ibch.com%2Fprofile%2Fivan-rimber-flores-cosme%2F%3Fview%3Dstudent
+[RETRY_11_IBCH] t= 312.6s | pag=198 | files=  45 | data=  0 | cola=   6 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&undo_item=7edccc661418aeb5761dbcdc06ad490c
+[RETRY_11_IBCH] t= 314.0s | pag=199 | files=  45 | data=  0 | cola=   5 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&undo_item=7b66b4fd401a271a1c7224027ce111bc
+[RETRY_11_IBCH] t= 315.3s | pag=200 | files=  45 | data=  0 | cola=   4 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&add-to-cart=2381&remove_item=7b66b4fd401a271a1c7224027ce111bc
+[RETRY_11_IBCH] t= 316.7s | pag=201 | files=  45 | data=  0 | cola=   3 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&undo_item=6547884cea64550284728eb26b0947ef
+[RETRY_11_IBCH] t= 318.0s | pag=202 | files=  45 | data=  0 | cola=   2 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&undo_item=c819904dde95535c60452b16c1c494f6
+[RETRY_11_IBCH] t= 319.3s | pag=203 | files=  45 | data=  0 | cola=   1 | prio=50 | https://www.ibch.com/cart/?_wpnonce=6f82af9a9c&undo_item=cfcce0621b49c983991ead4c3d4d3b6b
+[RETRY_11_IBCH] t= 320.8s | pag=204 | files=  45 | data=  0 | cola=   0 | prio=70 | https://www.ibch.com/category/eventos/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              retry_11_ibch
+P�ginas visitadas:   205
+Archivos encontrados:   45
+Datasets web:         0
+Errores:              7
+Motivo de parada:     frontier_exhausted
+Duraci�n:             321.91 s
+Sitemaps procesados:  16
+URLs por sitemap:     103
+URLs sitemap en cola: 101
+
+Formatos:
+  - PDF    : 45
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\retry_11_ibch.json
+
+Trazabilidad:
+  Ejecuci�n: 106
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+

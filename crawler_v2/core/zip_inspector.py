@@ -1,63 +1,150 @@
 from __future__ import annotations
 
 import struct
+
 from dataclasses import dataclass
-from urllib.parse import urlparse
 
 from requests.exceptions import RequestException
 
 
-EOCD_SIGNATURE = b"PK\x05\x06"
-CENTRAL_SIGNATURE = b"PK\x01\x02"
+EOCD_SIGNATURE = (
+    b"PK\x05\x06"
+)
 
+CENTRAL_SIGNATURE = (
+    b"PK\x01\x02"
+)
+
+# EOCD:
+#
+# 22 bytes mínimos
+# +
+# comentario ZIP máximo de 65535 bytes
+#
 MAX_EOCD_SEARCH = 65557
 
+
+# ============================================================
+# RESULTADO
+# ============================================================
 
 @dataclass
 class ZipInspectionResult:
     files: list[str]
+
     status: str
+
     bytes_downloaded: int = 0
 
 
+# ============================================================
+# ZIP INSPECTOR
+# ============================================================
+
 class ZipInspector:
-    def __init__(self, client) -> None:
+    """
+    Inspecciona archivos ZIP remotos mediante HTTP Range.
+
+    El objetivo es obtener el índice interno del ZIP sin
+    descargar deliberadamente el archivo completo.
+
+    Todas las solicitudes pasan por HttpClient para respetar:
+
+    - timeout
+    - sesión común
+    - User-Agent
+    - temporizador aleatorio
+    - futuras políticas HTTP del crawler
+    """
+
+    def __init__(
+        self,
+        client,
+    ) -> None:
+
         self.client = client
 
-    def inspect(self, url: str) -> ZipInspectionResult:
-        """
-        Obtiene el listado interno del ZIP intentando usar HTTP Range.
+    # ========================================================
+    # INSPECCIÓN
+    # ========================================================
 
-        NO descarga deliberadamente el ZIP completo.
+    def inspect(
+        self,
+        url: str,
+    ) -> ZipInspectionResult:
+        """
+        Obtiene el listado interno del ZIP utilizando
+        solicitudes HTTP Range.
+
+        Flujo:
+
+        1. Descarga solamente el final del ZIP.
+        2. Localiza EOCD.
+        3. Obtiene ubicación del directorio central.
+        4. Descarga únicamente ese rango.
+        5. Extrae nombres de archivos.
+
+        No descarga deliberadamente el ZIP completo.
         """
 
         try:
-            tail_result = self._get_tail(url)
+
+            tail_result = (
+                self._get_tail(
+                    url
+                )
+            )
 
             if tail_result is None:
+
                 return ZipInspectionResult(
                     files=[],
-                    status="range_not_supported",
+                    status=(
+                        "range_not_supported"
+                    ),
                 )
 
-            tail, total_size, downloaded = tail_result
+            (
+                tail,
+                total_size,
+                downloaded,
+            ) = tail_result
 
-            eocd_position = tail.rfind(
-                EOCD_SIGNATURE
+            # =================================================
+            # EOCD
+            # =================================================
+
+            eocd_position = (
+                tail.rfind(
+                    EOCD_SIGNATURE
+                )
             )
 
             if eocd_position < 0:
+
                 return ZipInspectionResult(
                     files=[],
-                    status="eocd_not_found",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "eocd_not_found"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
 
-            if len(tail) < eocd_position + 22:
+            if (
+                len(tail)
+                < eocd_position + 22
+            ):
+
                 return ZipInspectionResult(
                     files=[],
-                    status="invalid_eocd",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "invalid_eocd"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
 
             (
@@ -75,31 +162,82 @@ class ZipInspector:
                 eocd_position,
             )
 
-            if signature != EOCD_SIGNATURE:
+            if (
+                signature
+                != EOCD_SIGNATURE
+            ):
+
                 return ZipInspectionResult(
                     files=[],
-                    status="invalid_eocd",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "invalid_eocd"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
 
-            # ZIP64 requiere otra lógica.
+            # =================================================
+            # ZIP MULTIDISCO
+            # =================================================
+
             if (
-                central_size == 0xFFFFFFFF
-                or central_offset == 0xFFFFFFFF
-                or entries_total == 0xFFFF
+                disk_number != 0
+                or central_disk != 0
             ):
+
                 return ZipInspectionResult(
                     files=[],
-                    status="zip64_not_supported",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "multidisk_not_supported"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
+
+            # =================================================
+            # ZIP64
+            # =================================================
+
+            if (
+                central_size
+                == 0xFFFFFFFF
+                or central_offset
+                == 0xFFFFFFFF
+                or entries_total
+                == 0xFFFF
+            ):
+
+                return ZipInspectionResult(
+                    files=[],
+                    status=(
+                        "zip64_not_supported"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
+                )
+
+            # =================================================
+            # VACÍO
+            # =================================================
 
             if central_size <= 0:
+
                 return ZipInspectionResult(
                     files=[],
-                    status="empty_zip",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "empty_zip"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
+
+            # =================================================
+            # DIRECTORIO CENTRAL
+            # =================================================
 
             central_end = (
                 central_offset
@@ -107,89 +245,147 @@ class ZipInspector:
                 - 1
             )
 
-            if central_end >= total_size:
+            if (
+                central_offset < 0
+                or central_end
+                >= total_size
+            ):
+
                 return ZipInspectionResult(
                     files=[],
-                    status="invalid_central_directory",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "invalid_central_directory"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
 
-            central_data = self._get_range(
-                url,
-                central_offset,
-                central_end,
+            central_data = (
+                self._get_range(
+                    url,
+                    central_offset,
+                    central_end,
+                )
             )
 
             if central_data is None:
+
                 return ZipInspectionResult(
                     files=[],
-                    status="central_directory_unavailable",
-                    bytes_downloaded=downloaded,
+                    status=(
+                        "central_directory_unavailable"
+                    ),
+                    bytes_downloaded=(
+                        downloaded
+                    ),
                 )
 
             downloaded += len(
                 central_data
             )
 
-            names = self._parse_central_directory(
-                central_data
+            names = (
+                self._parse_central_directory(
+                    central_data
+                )
             )
 
             return ZipInspectionResult(
                 files=names,
                 status="ok",
-                bytes_downloaded=downloaded,
+                bytes_downloaded=(
+                    downloaded
+                ),
             )
 
         except RequestException:
+
             return ZipInspectionResult(
                 files=[],
                 status="http_error",
             )
 
         except Exception:
+
             return ZipInspectionResult(
                 files=[],
-                status="inspection_error",
+                status=(
+                    "inspection_error"
+                ),
             )
+
+    # ========================================================
+    # OBTENER FINAL DEL ZIP
+    # ========================================================
 
     def _get_tail(
         self,
         url: str,
-    ) -> tuple[bytes, int, int] | None:
+    ) -> tuple[
+        bytes,
+        int,
+        int,
+    ] | None:
+
         headers = {
             "Range": (
-                f"bytes=-{MAX_EOCD_SEARCH}"
+                f"bytes=-"
+                f"{MAX_EOCD_SEARCH}"
             )
         }
 
-        response = self.client.session.get(
-            url,
-            headers=headers,
-            timeout=self.client.timeout,
-            allow_redirects=True,
-            stream=True,
+        # IMPORTANTE:
+        #
+        # Antes:
+        #
+        # self.client.session.get(...)
+        #
+        # Eso evitaba HttpClient._wait().
+        #
+        # Ahora TODA solicitud pasa por HttpClient.get()
+        # y por lo tanto respeta el random delay.
+
+        response = (
+            self.client.get(
+                url,
+                headers=headers,
+            )
         )
 
         try:
-            # Para garantizar que no descargamos todo,
-            # exigimos HTTP 206.
-            if response.status_code != 206:
+
+            # Un servidor que soporta Range debe responder 206.
+            #
+            # Si devuelve 200, podría estar enviando el archivo
+            # completo. No lo procesamos para evitar descargar
+            # deliberadamente todo el ZIP.
+
+            if (
+                response.status_code
+                != 206
+            ):
                 return None
 
-            content_range = response.headers.get(
-                "Content-Range",
-                "",
+            content_range = (
+                response.headers.get(
+                    "Content-Range",
+                    "",
+                )
             )
 
-            total_size = self._total_size_from_content_range(
-                content_range
+            total_size = (
+                self._total_size_from_content_range(
+                    content_range
+                )
             )
 
             if total_size is None:
                 return None
 
-            data = response.content
+            data = (
+                response.content
+            )
 
             return (
                 data,
@@ -198,7 +394,12 @@ class ZipInspector:
             )
 
         finally:
+
             response.close()
+
+    # ========================================================
+    # OBTENER RANGO
+    # ========================================================
 
     def _get_range(
         self,
@@ -206,43 +407,71 @@ class ZipInspector:
         start: int,
         end: int,
     ) -> bytes | None:
+
+        if start < 0:
+            return None
+
+        if end < start:
+            return None
+
         headers = {
             "Range": (
-                f"bytes={start}-{end}"
+                f"bytes="
+                f"{start}-"
+                f"{end}"
             )
         }
 
-        response = self.client.session.get(
-            url,
-            headers=headers,
-            timeout=self.client.timeout,
-            allow_redirects=True,
-            stream=True,
+        response = (
+            self.client.get(
+                url,
+                headers=headers,
+            )
         )
 
         try:
-            if response.status_code != 206:
+
+            if (
+                response.status_code
+                != 206
+            ):
                 return None
 
             return response.content
 
         finally:
+
             response.close()
+
+    # ========================================================
+    # CONTENT-RANGE
+    # ========================================================
 
     @staticmethod
     def _total_size_from_content_range(
         value: str,
     ) -> int | None:
-        # Ejemplo:
-        # bytes 100-200/5000
+        """
+        Ejemplo esperado:
+
+            Content-Range:
+            bytes 100-200/5000
+
+        Devuelve:
+
+            5000
+        """
 
         if "/" not in value:
             return None
 
-        total_text = value.rsplit(
-            "/",
-            1,
-        )[1].strip()
+        total_text = (
+            value.rsplit(
+                "/",
+                1,
+            )[1]
+            .strip()
+        )
 
         if (
             not total_text
@@ -251,17 +480,29 @@ class ZipInspector:
             return None
 
         try:
-            return int(
+
+            total_size = int(
                 total_text
             )
 
         except ValueError:
+
             return None
+
+        if total_size <= 0:
+            return None
+
+        return total_size
+
+    # ========================================================
+    # DIRECTORIO CENTRAL
+    # ========================================================
 
     @staticmethod
     def _parse_central_directory(
         data: bytes,
     ) -> list[str]:
+
         files: list[str] = []
 
         position = 0
@@ -270,35 +511,50 @@ class ZipInspector:
             position + 46
             <= len(data)
         ):
+
+            # Cada entrada del directorio central debe iniciar
+            # con PK\x01\x02.
+
             if (
-                data[position:position + 4]
+                data[
+                    position:
+                    position + 4
+                ]
                 != CENTRAL_SIGNATURE
             ):
                 break
 
-            flags = struct.unpack_from(
-                "<H",
-                data,
-                position + 8,
-            )[0]
+            flags = (
+                struct.unpack_from(
+                    "<H",
+                    data,
+                    position + 8,
+                )[0]
+            )
 
-            filename_length = struct.unpack_from(
-                "<H",
-                data,
-                position + 28,
-            )[0]
+            filename_length = (
+                struct.unpack_from(
+                    "<H",
+                    data,
+                    position + 28,
+                )[0]
+            )
 
-            extra_length = struct.unpack_from(
-                "<H",
-                data,
-                position + 30,
-            )[0]
+            extra_length = (
+                struct.unpack_from(
+                    "<H",
+                    data,
+                    position + 30,
+                )[0]
+            )
 
-            comment_length = struct.unpack_from(
-                "<H",
-                data,
-                position + 32,
-            )[0]
+            comment_length = (
+                struct.unpack_from(
+                    "<H",
+                    data,
+                    position + 32,
+                )[0]
+            )
 
             filename_start = (
                 position + 46
@@ -309,7 +565,10 @@ class ZipInspector:
                 + filename_length
             )
 
-            if filename_end > len(data):
+            if (
+                filename_end
+                > len(data)
+            ):
                 break
 
             raw_name = data[
@@ -317,32 +576,51 @@ class ZipInspector:
                 filename_end
             ]
 
+            # Bit 11:
+            # nombre codificado en UTF-8.
+
             if flags & 0x800:
+
                 encoding = "utf-8"
+
             else:
+
                 encoding = "cp437"
 
             try:
-                filename = raw_name.decode(
-                    encoding
+
+                filename = (
+                    raw_name.decode(
+                        encoding
+                    )
                 )
 
             except UnicodeDecodeError:
-                filename = raw_name.decode(
-                    "utf-8",
-                    errors="replace",
+
+                filename = (
+                    raw_name.decode(
+                        "utf-8",
+                        errors="replace",
+                    )
                 )
 
             filename = (
                 filename
-                .replace("\\", "/")
+                .replace(
+                    "\\",
+                    "/",
+                )
                 .strip()
             )
 
-            # No guardamos carpetas vacías.
+            # No guardamos entradas que sean únicamente
+            # directorios.
+
             if (
                 filename
-                and not filename.endswith("/")
+                and not filename.endswith(
+                    "/"
+                )
             ):
                 files.append(
                     filename

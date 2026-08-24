@@ -1,0 +1,314 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "manual-de-organizacion-y-funciones-mof-resolucion-administrativa-080-2024.csv": {
+                        "descripcion": "MANUAL DE ORGANIZACION Y FUNCIONES (MOF) - RESOLUCIÓN ADMINISTRATIVA 080-2024",
+                        "url_descarga": "https://naabol.gob.bo/download/65/manual-de-organizacion-y-funciones/4768/manual-de-organizacion-y-funciones-mof-resolucion-administrativa-080-2024.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "manual-de-procesos-de-naabol-primera-seccion.csv": {
+                        "descripcion": "MANUAL DE PROCESOS DE NAABOL PRIMERA SECCIÓN",
+                        "url_descarga": "https://naabol.gob.bo/download/70/1ra-seccion/5139/manual-de-procesos-de-naabol-primera-seccion.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n1-a-planificacion-y-gestion-estrategica-version-2024-v-2-3.csv": {
+                        "descripcion": "ANEXO N°1 a) PLANIFICACIÓN Y GESTIÓN ESTRATEGICA VERSIÓN 2024 - v.2",
+                        "url_descarga": "https://naabol.gob.bo/download/77/unidad-nacional-de-planificacion-anexo1/5195/anexo-n1-a-planificacion-y-gestion-estrategica-version-2024-v-2-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-1-inciso-b-sistema-integrado-de-gestion-version-2026-v-2.csv": {
+                        "descripcion": "ANEXO N° 1 INCISO b) SISTEMA INTEGRADO DE GESTIÒN VERSIÒN 2026- v.2",
+                        "url_descarga": "https://naabol.gob.bo/download/77/unidad-nacional-de-planificacion-anexo1/9940/anexo-n-1-inciso-b-sistema-integrado-de-gestion-version-2026-v-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n2-control-interno-ejecucion-de-auditorias-y-seguimientos-version-2023-v-1-2.csv": {
+                        "descripcion": "ANEXO N°2 CONTROL INTERNO- EJECUCIÓN DE AUDITORIAS Y SEGUIMIENTOS VERSIÓN 2023 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/78/unidad-de-auditoria-interna-anexo2/5197/anexo-n2-control-interno-ejecucion-de-auditorias-y-seguimientos-version-2023-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n3-comunicacion-institucional-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°3 COMUNICACIÓN INSTITUCIONAL VERSIÓN 2024 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/89/unidad-de-comunicacion-institucional-anexo-3/5198/anexo-n3-comunicacion-institucional-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n4-gestion-de-tecnologias-de-la-informacion-y-comunicacion-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°4 GESTIÓN DE TECNOLOGIAS DE LA INFORMACIÓN Y COMUNICACIÓN VERSIÓN 2024 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/79/unidad-de-tecnologias-de-informacion-y-comunicacion-anexo-4/5199/anexo-n4-gestion-de-tecnologias-de-la-informacion-y-comunicacion-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n5-a-gestion-de-recursos-humanos-planillas-salariales-version-2024-v-3-2.csv": {
+                        "descripcion": "ANEXO N°5 a) GESTIÓN DE RECURSOS HUMANOS - PLANILLAS SALARIALES VERSIÓN 2024 - v.3",
+                        "url_descarga": "https://naabol.gob.bo/download/80/unidad-nacional-de-recursos-humanos-anexo-5/5200/anexo-n5-a-gestion-de-recursos-humanos-planillas-salariales-version-2024-v-3-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n5-b-gestion-de-recursos-humanos-declaracion-jurada-de-bienes-y-rentas-version-2022-v-3-2.csv": {
+                        "descripcion": "ANEXO N°5 b) GESTIÓN DE RECURSOS HUMANOS - DECLARACIÓN JURADA DE BIENES Y RENTAS VERSIÓN 2022 - v.3",
+                        "url_descarga": "https://naabol.gob.bo/download/80/unidad-nacional-de-recursos-humanos-anexo-5/5201/anexo-n5-b-gestion-de-recursos-humanos-declaracion-jurada-de-bienes-y-rentas-version-2022-v-3-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n5-c-gestion-de-recursos-humanos-regimen-laboral-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°5 c) GESTIÓN DE RECURSOS HUMANOS - REGIMEN LABORAL VERSIÓN 2024 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/80/unidad-nacional-de-recursos-humanos-anexo-5/5202/anexo-n5-c-gestion-de-recursos-humanos-regimen-laboral-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-5-inciso-d-gestion-de-recursos-humanos-contratacion-de-personal-eventual-version-2026-v-1-1.csv": {
+                        "descripcion": "ANEXO N° 5 INCISO d) GESTIÒN DE RECURSOS HUMANOS - CONTRATACIÓN DE PERSONAL EVENTUAL VERSIÒN 2026 -v.1 (1)",
+                        "url_descarga": "https://naabol.gob.bo/download/80/unidad-nacional-de-recursos-humanos-anexo-5/9099/anexo-n-5-inciso-d-gestion-de-recursos-humanos-contratacion-de-personal-eventual-version-2026-v-1-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-6-inciso-a-gestion-financiera-gasto-corriente-y-de-inversion-en-oficina-central-y-oficinas-regionales-version-2025-v-3.csv": {
+                        "descripcion": "ANEXO N° 6 INCISO a) GESTIÒN FINANCIERA - GASTO CORRIENTE Y DE INVERSIÒN EN OFICINA CENTRAL Y OFICINAS REGIONALES VERSIÒN 2025 -v.3",
+                        "url_descarga": "https://naabol.gob.bo/download/81/unidad-nacional-financiera-anexo-6/8813/anexo-n-6-inciso-a-gestion-financiera-gasto-corriente-y-de-inversion-en-oficina-central-y-oficinas-regionales-version-2025-v-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-6-inciso-c-gestion-financiera-recaudaciones-version-2025-v-3.csv": {
+                        "descripcion": "ANEXO N° 6 INCISO c) GESTIÒN FINANCIERA - RECAUDACIONES VERSIÒN 2025 -v.3",
+                        "url_descarga": "https://naabol.gob.bo/download/81/unidad-nacional-financiera-anexo-6/8814/anexo-n-6-inciso-c-gestion-financiera-recaudaciones-version-2025-v-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-6-inciso-gestion-financiera-gestion-de-cuentas-corrientes-fiscales-y-firmas-autorizadas-2026-v-1.csv": {
+                        "descripcion": "ANEXO N° 6 INCISO ) GESTIÓN FINANCIERA - GESTION DE CUENTAS CORRIENTES FISCALES Y FIRMAS AUTORIZADAS 2026 -v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/81/unidad-nacional-financiera-anexo-6/10185/anexo-n-6-inciso-gestion-financiera-gestion-de-cuentas-corrientes-fiscales-y-firmas-autorizadas-2026-v-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n6-b-gestion-financiera-presupuesto-version-2023-v-1-2.csv": {
+                        "descripcion": "ANEXO N°6 b) GESTIÓN FINANCIERA - PRESUPUESTO VERSIÓN 2023 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/81/unidad-nacional-financiera-anexo-6/5204/anexo-n6-b-gestion-financiera-presupuesto-version-2023-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n7-a-administracion-de-bienes-y-servicios-almacenes-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°7 a) ADMINISTRACIÓN DE BIENES Y SERVICIOS - ALMACENES VERSIÓN 2024- v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/82/unidad-nacional-administrativa-anexo-7/5206/anexo-n7-a-administracion-de-bienes-y-servicios-almacenes-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n7-b-administracion-de-bienes-y-servicios-disposicion-de-bienes-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°7 b) ADMINISTRACIÓN DE BIENES Y SERVICIOS - DISPOSICIÒN DE BIENES VERSIÓN 2024- v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/82/unidad-nacional-administrativa-anexo-7/5207/anexo-n7-b-administracion-de-bienes-y-servicios-disposicion-de-bienes-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-7-inciso-c-administracion-de-bienes-y-servicios-contrataciones-version-2025-v-2.csv": {
+                        "descripcion": "ANEXO N° 7 INCISO C) ADMINISTRACIÓN DE BIENES Y SERVICIOS -CONTRATACIONES VERSIÓN 2025 -v.2",
+                        "url_descarga": "https://naabol.gob.bo/download/82/unidad-nacional-administrativa-anexo-7/8682/anexo-n-7-inciso-c-administracion-de-bienes-y-servicios-contrataciones-version-2025-v-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-8-inciso-a-gestion-comercial-servicios-aeronauticos-version-2025-v-5.csv": {
+                        "descripcion": "ANEXO N° 8 INCISO A) GESTIÓN COMERCIAL - SERVICIOS AERONAUTICOS VERSIÓN 2025 -v.5",
+                        "url_descarga": "https://naabol.gob.bo/download/83/unidad-nacional-comercial-anexo-8/8681/anexo-n-8-inciso-a-gestion-comercial-servicios-aeronauticos-version-2025-v-5.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-8-inciso-b-gestion-comercial-politicas-comerciales-servicios-no-aeronauticos-version-2026-v-5.csv": {
+                        "descripcion": "ANEXO N° 8 INCISO b) GESTIÒN COMERCIAL - POLÍTICAS COMERCIALES SERVICIOS NO AERONAUTICOS VERSIÒN 2026 -v.5",
+                        "url_descarga": "https://naabol.gob.bo/download/83/unidad-nacional-comercial-anexo-8/9030/anexo-n-8-inciso-b-gestion-comercial-politicas-comerciales-servicios-no-aeronauticos-version-2026-v-5.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n9-a-gestion-de-analisis-analisis-juridico-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°9 a) GESTIÒN DE ANÀLISIS - ANÁLISIS JURÌDICO VERSIÓN 2024 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/84/unidad-nacional-de-analisis-juridico-anexo-9/5210/anexo-n9-a-gestion-de-analisis-analisis-juridico-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n10-a-gestion-juridica-acciones-judiciales-y-administrativas-version-2024-v-1-2.csv": {
+                        "descripcion": "ANEXO N°10 a) GESTIÒN JURÌDICA - ACCIONES JUDICIALES Y ADMINISTRATIVAS VERSIÓN 2024 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/85/unidad-nacional-de-gestion-juridica-anexo-10/5211/anexo-n10-a-gestion-juridica-acciones-judiciales-y-administrativas-version-2024-v-1-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n11-a-navegacion-aerea-servicio-de-informacion-aeronautica-version-2024-v-2-2.csv": {
+                        "descripcion": "ANEXO N°11 a) NAVEGACIÒN AEREA - SERVICIO DE INFORMACIÒN AERONÁUTICA VERSIÓN 2024 - v.2",
+                        "url_descarga": "https://naabol.gob.bo/download/86/unidad-nacional-de-navegacion-aerea-anexo-11/5212/anexo-n11-a-navegacion-aerea-servicio-de-informacion-aeronautica-version-2024-v-2-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n11-b-navegacion-aerea-transito-aereo-centro-de-control-de-area-de-la-paz-operaciones-de-sobrevuelo-version-2025-v-1-1.csv": {
+                        "descripcion": "ANEXO N°11 b) NAVEGACIÓN AEREA -TRANSITO AEREO - CENTRO DE CONTROL DE AREA DE LA PAZ - OPERACIONES DE SOBREVUELO VERSIÓN 2025 - v.1 (1)",
+                        "url_descarga": "https://naabol.gob.bo/download/86/unidad-nacional-de-navegacion-aerea-anexo-11/7155/anexo-n11-b-navegacion-aerea-transito-aereo-centro-de-control-de-area-de-la-paz-operaciones-de-sobrevuelo-version-2025-v-1-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-11-inciso-c-navegacion-aerea-servicio-de-meteorologia-aeronautica-version-2026-v-1.csv": {
+                        "descripcion": "ANEXO N° 11 INCISO c) NAVEGACIÒN AEREA -SERVICIO DE METEOROLOGIA AERONAUTICA VERSIÒN 2026 - v.1",
+                        "url_descarga": "https://naabol.gob.bo/download/86/unidad-nacional-de-navegacion-aerea-anexo-11/9941/anexo-n-11-inciso-c-navegacion-aerea-servicio-de-meteorologia-aeronautica-version-2026-v-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n-12-inciso-a-servicios-aeroportuarios-carga-y-correo-aereo-version-2025-v-2.csv": {
+                        "descripcion": "ANEXO N° 12 INCISO A) SERVICIOS AEROPORTUARIOS - CARGA Y CORREO AEREO VERSIÓN 2025 -v.2",
+                        "url_descarga": "https://naabol.gob.bo/download/87/unidad-nacional-de-servicios-aeroportuarios-anexo-12/8683/anexo-n-12-inciso-a-servicios-aeroportuarios-carga-y-correo-aereo-version-2025-v-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n13-a-desarrollo-y-mantenimiento-aeroportuario-desarrollo-aeroportuario-version-2025-v-1-4.csv": {
+                        "descripcion": "ANEXO N°13 a) DESARROLLO Y MANTENIMIENTO AEROPORTUARIO - DESARROLLO AEROPORTUARIO VERSIÓN 2025 - v.1 (4)",
+                        "url_descarga": "https://naabol.gob.bo/download/109/unidad-nacional-de-desarrollo-aeroportuario/7145/anexo-n13-a-desarrollo-y-mantenimiento-aeroportuario-desarrollo-aeroportuario-version-2025-v-1-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "anexo-n14-b-desarrollo-y-mantenimiento-aeroportuario-mantenimiento-aeroportuario-version-2025-v-1-3.csv": {
+                        "descripcion": "ANEXO N°14 b) DESARROLLO Y MANTENIMIENTO AEROPORTUARIO - MANTENIMIENTO AEROPORTUARIO VERSIÓN 2025 - v.1 (3)",
+                        "url_descarga": "https://naabol.gob.bo/download/110/unidad-nacional-de-mantenimiento-aeroportuario/7146/anexo-n14-b-desarrollo-y-mantenimiento-aeroportuario-mantenimiento-aeroportuario-version-2025-v-1-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "r-a-naabol-dnj-ra-n048-2025.csv": {
+                        "descripcion": "R.A. NAABOL - DNJ- RA N°048 2025",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7922/r-a-naabol-dnj-ra-n048-2025.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-4-direccion-regional-cochabamba.csv": {
+                        "descripcion": "TOMO 4 - DIRECCION REGIONAL COCHABAMBA",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/8478/tomo-4-direccion-regional-cochabamba.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-1-oficina-central.csv": {
+                        "descripcion": "TOMO 1 - OFICINA CENTRAL",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7923/tomo-1-oficina-central.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-2-direccion-regional-la-paz.csv": {
+                        "descripcion": "TOMO 2 DIRECCION REGIONAL LA PAZ",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7924/tomo-2-direccion-regional-la-paz.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-3-direccion-regional-la-paz.csv": {
+                        "descripcion": "TOMO 3 - DIRECCION REGIONAL LA PAZ",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7930/tomo-3-direccion-regional-la-paz.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-5-direccion-regional-cochabamba.csv": {
+                        "descripcion": "TOMO 5 - DIRECCION REGIONAL COCHABAMBA",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7935/tomo-5-direccion-regional-cochabamba.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-6-direccion-regional-santa-cruz.csv": {
+                        "descripcion": "TOMO 6 - DIRECCION REGIONAL SANTA CRUZ",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7925/tomo-6-direccion-regional-santa-cruz.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-7-direccion-regional-santa-cruz.csv": {
+                        "descripcion": "TOMO 7 - DIRECCION REGIONAL SANTA CRUZ",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7936/tomo-7-direccion-regional-santa-cruz.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-8-direccion-regional-beni.csv": {
+                        "descripcion": "TOMO 8 - DIRECCION REGIONAL BENI",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7929/tomo-8-direccion-regional-beni.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tomo-9-direccion-regional-beni-1.csv": {
+                        "descripcion": "TOMO 9 - DIRECCION REGIONAL BENI (1)",
+                        "url_descarga": "https://naabol.gob.bo/download/68/manual-de-puestos/7928/tomo-9-direccion-regional-beni-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/manuales-tecnicos/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            }
+        }
+    }
+}

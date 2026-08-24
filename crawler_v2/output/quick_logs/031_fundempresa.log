@@ -1,0 +1,43 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Registro de Comercio de Bolivia
+URL configurada: https://www.fundempresa.org.bo
+Timeout HTTP: 10 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resolución de fuente:
+  Original: https://www.fundempresa.org.bo
+  Utilizada: http://www.fundempresa.org.bo/
+  Fallback: sí
+  Intentos: 3
+    - request_error  | HTTP=- | https://www.fundempresa.org.bo/
+    - request_error  | HTTP=- | https://fundempresa.org.bo/
+    - usable         | HTTP=200 | http://www.fundempresa.org.bo/
+
+URL de trabajo: http://www.fundempresa.org.bo/
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[FULL_31_FUNDEMPRESA] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | http://www.fundempresa.org.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_31_fundempresa
+Páginas visitadas:   1
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              0
+Motivo de parada:     frontier_exhausted
+Duración:             1.08 s
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_31_fundempresa.json
+
+Trazabilidad:
+  Ejecución: 59
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,228 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: C�mara de Exportadores de Cochabamba
+URL configurada: https://cadexco.bo/
+Timeout HTTP: 12 s
+Pausa HTTP:   aleatoria 0.15s - 0.35s
+
+
+Resoluci�n de fuente:
+  Original: https://cadexco.bo/
+  Utilizada: https://cadexco.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://cadexco.bo/
+
+URL de trabajo: https://cadexco.bo/
+Seeds: 1
+M�x p�ginas: 250
+M�x archivos: 30000
+M�x profundidad: 8
+Sitemaps: activo
+M�x URLs sitemap: 5000
+
+[RETRY_02_CADEXCO] SITEMAP | docs=6 | urls=215 | en_cola=214 | errores=0
+[RETRY_02_CADEXCO] t=  16.7s | pag=  0 | files=   0 | data=  0 | cola= 214 | prio= 0 | https://cadexco.bo/
+[RETRY_02_CADEXCO] t=  17.5s | pag=  1 | files=   0 | data=  0 | cola= 214 | prio=25 | https://cadexco.bo/tarjetas/
+[RETRY_02_CADEXCO] t=  18.8s | pag=  2 | files=   0 | data=  0 | cola= 213 | prio=25 | https://cadexco.bo/contacto/
+[RETRY_02_CADEXCO] t=  20.4s | pag=  3 | files=   0 | data=  0 | cola= 212 | prio=25 | https://cadexco.bo/directorio/
+[RETRY_02_CADEXCO] t=  22.0s | pag=  4 | files=   0 | data=  0 | cola= 211 | prio=25 | https://cadexco.bo/estatutos/
+[RETRY_02_CADEXCO] t=  23.4s | pag=  5 | files=   0 | data=  0 | cola= 210 | prio=25 | https://cadexco.bo/page-title-version-4/
+[RETRY_02_CADEXCO] t=  24.9s | pag=  6 | files=   0 | data=  0 | cola= 209 | prio=25 | https://cadexco.bo/historia/
+[RETRY_02_CADEXCO] t=  26.4s | pag=  7 | files=   0 | data=  0 | cola= 208 | prio=25 | https://cadexco.bo/home-5/
+[RETRY_02_CADEXCO] t=  28.4s | pag=  8 | files=   1 | data=  0 | cola= 207 | prio=25 | https://cadexco.bo/nuestraentidad/
+[RETRY_02_CADEXCO] t=  30.0s | pag=  9 | files=   1 | data=  0 | cola= 206 | prio=25 | https://cadexco.bo/gestion/
+[RETRY_02_CADEXCO] t=  31.6s | pag= 10 | files=   1 | data=  0 | cola= 205 | prio=25 | https://cadexco.bo/promocion/
+[RETRY_02_CADEXCO] t=  33.2s | pag= 11 | files=   1 | data=  0 | cola= 204 | prio=25 | https://cadexco.bo/requsitos/
+[RETRY_02_CADEXCO] t=  34.8s | pag= 12 | files=   1 | data=  0 | cola= 203 | prio=25 | https://cadexco.bo/event-directory/
+[RETRY_02_CADEXCO] t=  36.2s | pag= 13 | files=   1 | data=  0 | cola= 202 | prio=25 | https://cadexco.bo/asesoramiento/
+[RETRY_02_CADEXCO] t=  37.9s | pag= 14 | files=   1 | data=  0 | cola= 201 | prio=25 | https://cadexco.bo/calendario/
+[RETRY_02_CADEXCO] t=  39.5s | pag= 15 | files=   1 | data=  0 | cola= 206 | prio=25 | https://cadexco.bo/operaciones-pre-y-post-embarque/
+[RETRY_02_CADEXCO] t=  40.9s | pag= 16 | files=   1 | data=  0 | cola= 205 | prio=25 | https://cadexco.bo/promocion-comercial/
+[RETRY_02_CADEXCO] t=  42.0s | pag= 17 | files=   1 | data=  0 | cola= 204 | prio=25 | https://cadexco.bo/actualizacion/
+[RETRY_02_CADEXCO] t=  43.4s | pag= 18 | files=   1 | data=  0 | cola= 203 | prio=25 | https://cadexco.bo/noticias/
+[RETRY_02_CADEXCO] t=  44.9s | pag= 19 | files=   1 | data=  0 | cola= 202 | prio=25 | https://cadexco.bo/acuerdos/
+[RETRY_02_CADEXCO] t=  46.2s | pag= 20 | files=   3 | data=  0 | cola= 201 | prio=25 | https://cadexco.bo/inteligencia/
+[RETRY_02_CADEXCO] t=  47.4s | pag= 21 | files=   8 | data=  0 | cola= 200 | prio=25 | https://cadexco.bo/tarjeta/
+[RETRY_02_CADEXCO] t=  49.0s | pag= 22 | files=   8 | data=  0 | cola= 199 | prio=25 | https://cadexco.bo/cochabamba/
+[RETRY_02_CADEXCO] t=  50.6s | pag= 23 | files=   8 | data=  0 | cola= 198 | prio=25 | https://cadexco.bo/circulares/
+[RETRY_02_CADEXCO] t=  52.1s | pag= 24 | files=   8 | data=  0 | cola= 197 | prio=25 | https://cadexco.bo/memoria/
+[RETRY_02_CADEXCO] t=  53.5s | pag= 25 | files=  15 | data=  0 | cola= 196 | prio=25 | https://cadexco.bo/publicaciones/
+[RETRY_02_CADEXCO] t=  55.2s | pag= 26 | files=  15 | data=  0 | cola= 195 | prio=25 | https://cadexco.bo/demanda/
+[RETRY_02_CADEXCO] t=  56.6s | pag= 27 | files=  15 | data=  0 | cola= 195 | prio=25 | https://cadexco.bo/rse-2/
+[RETRY_02_CADEXCO] t=  58.2s | pag= 28 | files=  15 | data=  0 | cola= 194 | prio=25 | https://cadexco.bo/lcoext/
+[RETRY_02_CADEXCO] t=  59.8s | pag= 29 | files=  16 | data=  0 | cola= 193 | prio=25 | https://cadexco.bo/ltributaria/
+[RETRY_02_CADEXCO] t=  61.4s | pag= 30 | files=  16 | data=  0 | cola= 192 | prio=25 | https://cadexco.bo/extruc/
+[RETRY_02_CADEXCO] t=  63.0s | pag= 31 | files=  16 | data=  0 | cola= 191 | prio=25 | https://cadexco.bo/bolex/
+[RETRY_02_CADEXCO] t=  64.5s | pag= 32 | files=  16 | data=  0 | cola= 190 | prio=25 | https://cadexco.bo/fcf/
+[RETRY_02_CADEXCO] t=  65.9s | pag= 33 | files=  16 | data=  0 | cola= 189 | prio=25 | https://cadexco.bo/pral/
+[RETRY_02_CADEXCO] t=  68.9s | pag= 34 | files=  16 | data=  0 | cola= 215 | prio=25 | https://cadexco.bo/frfrde/
+[RETRY_02_CADEXCO] t=  70.4s | pag= 35 | files=  16 | data=  0 | cola= 219 | prio=25 | https://cadexco.bo/olyde/
+[RETRY_02_CADEXCO] t=  71.8s | pag= 36 | files=  16 | data=  0 | cola= 218 | prio=25 | https://cadexco.bo/flplfose/
+[RETRY_02_CADEXCO] t=  73.6s | pag= 37 | files=  16 | data=  0 | cola= 218 | prio=25 | https://cadexco.bo/mayma/
+[RETRY_02_CADEXCO] t=  75.6s | pag= 38 | files=  16 | data=  0 | cola= 225 | prio=25 | https://cadexco.bo/cotete/
+[RETRY_02_CADEXCO] t=  77.4s | pag= 39 | files=  16 | data=  0 | cola= 228 | prio=25 | https://cadexco.bo/arva/
+[RETRY_02_CADEXCO] t=  79.0s | pag= 40 | files=  16 | data=  0 | cola= 228 | prio=25 | https://cadexco.bo/cusum/
+[RETRY_02_CADEXCO] t=  80.6s | pag= 41 | files=  16 | data=  0 | cola= 229 | prio=25 | https://cadexco.bo/enem/
+[RETRY_02_CADEXCO] t=  86.3s | pag= 42 | files=  16 | data=  0 | cola= 320 | prio=25 | https://cadexco.bo/mapicece/
+[RETRY_02_CADEXCO] t=  88.3s | pag= 43 | files=  16 | data=  0 | cola= 323 | prio=25 | https://cadexco.bo/minome/
+[RETRY_02_CADEXCO] t=  90.2s | pag= 44 | files=  16 | data=  0 | cola= 337 | prio=25 | https://cadexco.bo/prdeinqude/
+[RETRY_02_CADEXCO] t=  92.2s | pag= 45 | files=  16 | data=  0 | cola= 344 | prio=25 | https://cadexco.bo/lifopa/
+[RETRY_02_CADEXCO] t=  94.1s | pag= 46 | files=  16 | data=  0 | cola= 349 | prio=25 | https://cadexco.bo/ser/
+[RETRY_02_CADEXCO] t=  95.8s | pag= 47 | files=  16 | data=  0 | cola= 350 | prio=25 | https://cadexco.bo/soad/
+[RETRY_02_CADEXCO] t=  97.6s | pag= 48 | files=  16 | data=  0 | cola= 353 | prio=25 | https://cadexco.bo/prva/
+[RETRY_02_CADEXCO] t=  99.1s | pag= 49 | files=  16 | data=  0 | cola= 352 | prio=25 | https://cadexco.bo/capacitacion-empresarial/
+[RETRY_02_CADEXCO] t= 100.7s | pag= 50 | files=  16 | data=  0 | cola= 351 | prio=25 | https://cadexco.bo/directorio-de-negocios/
+[RETRY_02_CADEXCO] t= 102.1s | pag= 51 | files=  16 | data=  0 | cola= 350 | prio=25 | https://cadexco.bo/calendar/
+[RETRY_02_CADEXCO] t= 103.6s | pag= 52 | files=  16 | data=  0 | cola= 349 | prio=25 | https://cadexco.bo/fsa/
+[RETRY_02_CADEXCO] t= 105.2s | pag= 53 | files=  16 | data=  0 | cola= 348 | prio=25 | https://cadexco.bo/asamblea/
+[RETRY_02_CADEXCO] t= 106.8s | pag= 54 | files=  16 | data=  0 | cola= 347 | prio=25 | https://cadexco.bo/fbusiness/
+[RETRY_02_CADEXCO] t= 108.9s | pag= 55 | files=  16 | data=  0 | cola= 346 | prio=25 | https://cadexco.bo/fbusinessi1/
+[RETRY_02_CADEXCO] t= 110.7s | pag= 56 | files=  16 | data=  0 | cola= 346 | prio=25 | https://cadexco.bo/fbusinessin/
+[RETRY_02_CADEXCO] t= 112.3s | pag= 57 | files=  16 | data=  0 | cola= 345 | prio=25 | https://cadexco.bo/expoexport1/
+[RETRY_02_CADEXCO] t= 113.9s | pag= 58 | files=  16 | data=  0 | cola= 344 | prio=25 | https://cadexco.bo/excontruccion/
+[RETRY_02_CADEXCO] t= 115.4s | pag= 59 | files=  16 | data=  0 | cola= 343 | prio=25 | https://cadexco.bo/asamb-21/
+[RETRY_02_CADEXCO] t= 117.1s | pag= 60 | files=  16 | data=  0 | cola= 342 | prio=25 | https://cadexco.bo/tpp/
+[RETRY_02_CADEXCO] t= 118.5s | pag= 61 | files=  16 | data=  0 | cola= 341 | prio=25 | https://cadexco.bo/form45b/
+[RETRY_02_CADEXCO] t= 120.0s | pag= 62 | files=  16 | data=  0 | cola= 340 | prio=25 | https://cadexco.bo/form45a/
+[RETRY_02_CADEXCO] t= 121.6s | pag= 63 | files=  16 | data=  0 | cola= 339 | prio=25 | https://cadexco.bo/ruedadenegocios/
+[RETRY_02_CADEXCO] t= 123.1s | pag= 64 | files=  16 | data=  0 | cola= 339 | prio=25 | https://cadexco.bo/publicaciones/premiacion-al-merito-exportador-2024/
+[RETRY_02_CADEXCO] t= 124.5s | pag= 65 | files=  16 | data=  0 | cola= 338 | prio=25 | https://cadexco.bo/publicaciones/encuentro-nacional-de-exportadores-enex-2025/
+[RETRY_02_CADEXCO] t= 126.2s | pag= 66 | files=  16 | data=  0 | cola= 337 | prio=25 | https://cadexco.bo/evento/expoalimenta/
+[RETRY_02_CADEXCO] t= 128.1s | pag= 67 | files=  16 | data=  0 | cola= 337 | prio=25 | https://cadexco.bo/evento/expocorma-2/
+[RETRY_02_CADEXCO] t= 129.9s | pag= 68 | files=  16 | data=  0 | cola= 336 | prio=25 | https://cadexco.bo/evento/expocorma-2-2/
+[RETRY_02_CADEXCO] t= 131.7s | pag= 69 | files=  16 | data=  0 | cola= 335 | prio=25 | https://cadexco.bo/evento/expocorma-2-3/
+[RETRY_02_CADEXCO] t= 133.6s | pag= 70 | files=  16 | data=  0 | cola= 334 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2/
+[RETRY_02_CADEXCO] t= 135.5s | pag= 71 | files=  16 | data=  0 | cola= 333 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2/
+[RETRY_02_CADEXCO] t= 137.2s | pag= 72 | files=  16 | data=  0 | cola= 332 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2/
+[RETRY_02_CADEXCO] t= 138.7s | pag= 73 | files=  16 | data=  0 | cola= 331 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2/
+[RETRY_02_CADEXCO] t= 140.2s | pag= 74 | files=  16 | data=  0 | cola= 330 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 141.9s | pag= 75 | files=  16 | data=  0 | cola= 329 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 143.9s | pag= 76 | files=  16 | data=  0 | cola= 328 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 145.5s | pag= 77 | files=  16 | data=  0 | cola= 327 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 147.3s | pag= 78 | files=  16 | data=  0 | cola= 326 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 149.0s | pag= 79 | files=  16 | data=  0 | cola= 325 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 150.9s | pag= 80 | files=  16 | data=  0 | cola= 324 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 152.6s | pag= 81 | files=  16 | data=  0 | cola= 323 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 154.4s | pag= 82 | files=  16 | data=  0 | cola= 322 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 155.7s | pag= 83 | files=  16 | data=  0 | cola= 321 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 157.7s | pag= 84 | files=  16 | data=  0 | cola= 320 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 159.7s | pag= 85 | files=  16 | data=  0 | cola= 319 | prio=25 | https://cadexco.bo/evento/expoalimenta-2/
+[RETRY_02_CADEXCO] t= 161.4s | pag= 86 | files=  16 | data=  0 | cola= 319 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 163.5s | pag= 87 | files=  16 | data=  0 | cola= 318 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 165.4s | pag= 88 | files=  16 | data=  0 | cola= 317 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3/
+[RETRY_02_CADEXCO] t= 166.8s | pag= 89 | files=  16 | data=  0 | cola= 316 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2/
+[RETRY_02_CADEXCO] t= 168.4s | pag= 90 | files=  16 | data=  0 | cola= 315 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2/
+[RETRY_02_CADEXCO] t= 170.3s | pag= 91 | files=  16 | data=  0 | cola= 314 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2/
+[RETRY_02_CADEXCO] t= 171.8s | pag= 92 | files=  16 | data=  0 | cola= 313 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2/
+[RETRY_02_CADEXCO] t= 173.6s | pag= 93 | files=  16 | data=  0 | cola= 312 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 175.4s | pag= 94 | files=  16 | data=  0 | cola= 311 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 176.9s | pag= 95 | files=  16 | data=  0 | cola= 310 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 178.8s | pag= 96 | files=  16 | data=  0 | cola= 309 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 180.7s | pag= 97 | files=  16 | data=  0 | cola= 308 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 182.4s | pag= 98 | files=  16 | data=  0 | cola= 307 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 184.1s | pag= 99 | files=  16 | data=  0 | cola= 306 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-2-2-2/
+[RETRY_02_CADEXCO] t= 185.9s | pag=100 | files=  16 | data=  0 | cola= 305 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3/
+[RETRY_02_CADEXCO] t= 187.7s | pag=101 | files=  16 | data=  0 | cola= 304 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-2/
+[RETRY_02_CADEXCO] t= 189.3s | pag=102 | files=  16 | data=  0 | cola= 303 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3/
+[RETRY_02_CADEXCO] t= 191.0s | pag=103 | files=  16 | data=  0 | cola= 302 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-4/
+[RETRY_02_CADEXCO] t= 193.0s | pag=104 | files=  16 | data=  0 | cola= 301 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-2/
+[RETRY_02_CADEXCO] t= 194.5s | pag=105 | files=  16 | data=  0 | cola= 300 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3/
+[RETRY_02_CADEXCO] t= 196.3s | pag=106 | files=  16 | data=  0 | cola= 299 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-2/
+[RETRY_02_CADEXCO] t= 198.0s | pag=107 | files=  16 | data=  0 | cola= 298 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-3/
+[RETRY_02_CADEXCO] t= 199.8s | pag=108 | files=  16 | data=  0 | cola= 297 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4/
+[RETRY_02_CADEXCO] t= 201.4s | pag=109 | files=  16 | data=  0 | cola= 296 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4-2/
+[RETRY_02_CADEXCO] t= 203.3s | pag=110 | files=  16 | data=  0 | cola= 295 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4-2-2-2/
+[RETRY_02_CADEXCO] t= 204.8s | pag=111 | files=  16 | data=  0 | cola= 294 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4-2-2-3/
+[RETRY_02_CADEXCO] t= 206.5s | pag=112 | files=  16 | data=  0 | cola= 293 | prio=25 | https://cadexco.bo/evento/natural-organic-products-europe/
+[RETRY_02_CADEXCO] t= 208.2s | pag=113 | files=  16 | data=  0 | cola= 292 | prio=25 | https://cadexco.bo/evento/fruit-logistica/
+[RETRY_02_CADEXCO] t= 210.1s | pag=114 | files=  16 | data=  0 | cola= 291 | prio=25 | https://cadexco.bo/evento/vitafoods-international-presencial-online/
+[RETRY_02_CADEXCO] t= 211.6s | pag=115 | files=  16 | data=  0 | cola= 290 | prio=25 | https://cadexco.bo/evento/apas-show/
+[RETRY_02_CADEXCO] t= 213.0s | pag=116 | files=  16 | data=  0 | cola= 289 | prio=25 | https://cadexco.bo/evento/expo-antad-alimentaria-mexico/
+[RETRY_02_CADEXCO] t= 214.6s | pag=117 | files=  16 | data=  0 | cola= 288 | prio=25 | https://cadexco.bo/evento/the-summer-fancy-food-show/
+[RETRY_02_CADEXCO] t= 216.4s | pag=118 | files=  16 | data=  0 | cola= 287 | prio=25 | https://cadexco.bo/evento/fi-ingredients-southamerica/
+[RETRY_02_CADEXCO] t= 218.1s | pag=119 | files=  16 | data=  0 | cola= 286 | prio=25 | https://cadexco.bo/evento/western-foodservice-and-hospitality-expo/
+[RETRY_02_CADEXCO] t= 219.8s | pag=120 | files=  16 | data=  0 | cola= 285 | prio=25 | https://cadexco.bo/evento/biofach-india/
+[RETRY_02_CADEXCO] t= 221.7s | pag=121 | files=  16 | data=  0 | cola= 284 | prio=25 | https://cadexco.bo/evento/sana/
+[RETRY_02_CADEXCO] t= 223.3s | pag=122 | files=  16 | data=  0 | cola= 283 | prio=25 | https://cadexco.bo/evento/americas-food-beverage-show-conference/
+[RETRY_02_CADEXCO] t= 225.1s | pag=123 | files=  16 | data=  0 | cola= 282 | prio=25 | https://cadexco.bo/evento/natural-products-expo-east-all-things-organics/
+[RETRY_02_CADEXCO] t= 227.0s | pag=124 | files=  16 | data=  0 | cola= 281 | prio=25 | https://cadexco.bo/evento/eurofruit/
+[RETRY_02_CADEXCO] t= 228.2s | pag=125 | files=  16 | data=  0 | cola= 280 | prio=25 | https://cadexco.bo/evento/feria-internacional-artesanias/
+[RETRY_02_CADEXCO] t= 229.9s | pag=126 | files=  16 | data=  0 | cola= 279 | prio=25 | https://cadexco.bo/evento/bazaar-berlin/
+[RETRY_02_CADEXCO] t= 231.5s | pag=127 | files=  16 | data=  0 | cola= 278 | prio=25 | https://cadexco.bo/evento/agropecruz/
+[RETRY_02_CADEXCO] t= 233.1s | pag=128 | files=  16 | data=  0 | cola= 277 | prio=25 | https://cadexco.bo/evento/grocery-innovations-canada/
+[RETRY_02_CADEXCO] t= 234.9s | pag=129 | files=  16 | data=  0 | cola= 276 | prio=25 | https://cadexco.bo/evento/fima-agricola/
+[RETRY_02_CADEXCO] t= 236.9s | pag=130 | files=  16 | data=  0 | cola= 275 | prio=25 | https://cadexco.bo/evento/genera/
+[RETRY_02_CADEXCO] t= 238.5s | pag=131 | files=  16 | data=  0 | cola= 274 | prio=25 | https://cadexco.bo/evento/francal/
+[RETRY_02_CADEXCO] t= 240.4s | pag=132 | files=  16 | data=  0 | cola= 273 | prio=25 | https://cadexco.bo/evento/international-floriculture-expo/
+[RETRY_02_CADEXCO] t= 242.1s | pag=133 | files=  16 | data=  0 | cola= 272 | prio=25 | https://cadexco.bo/evento/agriflor-ecuador/
+[RETRY_02_CADEXCO] t= 244.0s | pag=134 | files=  16 | data=  0 | cola= 271 | prio=25 | https://cadexco.bo/evento/domotex-hannover/
+[RETRY_02_CADEXCO] t= 245.8s | pag=135 | files=  16 | data=  0 | cola= 270 | prio=25 | https://cadexco.bo/evento/fimma/
+[RETRY_02_CADEXCO] t= 247.4s | pag=136 | files=  16 | data=  0 | cola= 269 | prio=25 | https://cadexco.bo/evento/feicom-batimat/
+[RETRY_02_CADEXCO] t= 248.9s | pag=137 | files=  16 | data=  0 | cola= 268 | prio=25 | https://cadexco.bo/evento/mosbuild/
+[RETRY_02_CADEXCO] t= 250.4s | pag=138 | files=  16 | data=  0 | cola= 267 | prio=25 | https://cadexco.bo/evento/eurobois/
+[RETRY_02_CADEXCO] t= 252.1s | pag=139 | files=  16 | data=  0 | cola= 266 | prio=25 | https://cadexco.bo/evento/spoga/
+[RETRY_02_CADEXCO] t= 253.9s | pag=140 | files=  16 | data=  0 | cola= 265 | prio=25 | https://cadexco.bo/evento/fitecma/
+[RETRY_02_CADEXCO] t= 255.5s | pag=141 | files=  16 | data=  0 | cola= 264 | prio=25 | https://cadexco.bo/evento/timber-expo/
+[RETRY_02_CADEXCO] t= 257.3s | pag=142 | files=  16 | data=  0 | cola= 263 | prio=25 | https://cadexco.bo/evento/coverings/
+[RETRY_02_CADEXCO] t= 259.0s | pag=143 | files=  16 | data=  0 | cola= 262 | prio=25 | https://cadexco.bo/evento/informex-usa/
+[RETRY_02_CADEXCO] t= 260.7s | pag=144 | files=  16 | data=  0 | cola= 261 | prio=25 | https://cadexco.bo/evento/expo-pack-procesa/
+[RETRY_02_CADEXCO] t= 262.6s | pag=145 | files=  16 | data=  0 | cola= 260 | prio=25 | https://cadexco.bo/evento/luxe-pack/
+[RETRY_02_CADEXCO] t= 264.4s | pag=146 | files=  16 | data=  0 | cola= 259 | prio=25 | https://cadexco.bo/evento/feria-internacional-del-libro-de-buenos-aires/
+[RETRY_02_CADEXCO] t= 265.9s | pag=147 | files=  16 | data=  0 | cola= 258 | prio=25 | https://cadexco.bo/evento/expocomer/
+[RETRY_02_CADEXCO] t= 267.3s | pag=148 | files=  16 | data=  0 | cola= 257 | prio=25 | https://cadexco.bo/evento/modern-bakery-moscow-moscu/
+[RETRY_02_CADEXCO] t= 268.9s | pag=149 | files=  16 | data=  0 | cola= 256 | prio=25 | https://cadexco.bo/evento/tecnofidta/
+[RETRY_02_CADEXCO] t= 270.2s | pag=150 | files=  16 | data=  0 | cola= 255 | prio=25 | https://cadexco.bo/evento/expocomer-2/
+[RETRY_02_CADEXCO] t= 271.8s | pag=151 | files=  16 | data=  0 | cola= 254 | prio=25 | https://cadexco.bo/evento/mosbuild-2/
+[RETRY_02_CADEXCO] t= 273.2s | pag=152 | files=  16 | data=  0 | cola= 253 | prio=25 | https://cadexco.bo/evento/feicom-batimat-2/
+[RETRY_02_CADEXCO] t= 274.8s | pag=153 | files=  16 | data=  0 | cola= 252 | prio=25 | https://cadexco.bo/evento/alimentaria/
+[RETRY_02_CADEXCO] t= 276.5s | pag=154 | files=  16 | data=  0 | cola= 251 | prio=25 | https://cadexco.bo/evento/coverings-2/
+[RETRY_02_CADEXCO] t= 278.1s | pag=155 | files=  16 | data=  0 | cola= 250 | prio=25 | https://cadexco.bo/evento/fruit-logistica-2/
+[RETRY_02_CADEXCO] t= 279.6s | pag=156 | files=  16 | data=  0 | cola= 249 | prio=25 | https://cadexco.bo/evento/agropecruz-2/
+[RETRY_02_CADEXCO] t= 281.4s | pag=157 | files=  16 | data=  0 | cola= 248 | prio=25 | https://cadexco.bo/evento/feria-internacional-artesanias-2/
+[RETRY_02_CADEXCO] t= 283.0s | pag=158 | files=  16 | data=  0 | cola= 247 | prio=25 | https://cadexco.bo/evento/sial-canada/
+[RETRY_02_CADEXCO] t= 284.6s | pag=159 | files=  16 | data=  0 | cola= 246 | prio=25 | https://cadexco.bo/evento/fima-agricola-2/
+[RETRY_02_CADEXCO] t= 286.3s | pag=160 | files=  16 | data=  0 | cola= 245 | prio=25 | https://cadexco.bo/evento/feria-internacional-del-libro-de-buenos-aires-2/
+[RETRY_02_CADEXCO] t= 288.1s | pag=161 | files=  16 | data=  0 | cola= 244 | prio=25 | https://cadexco.bo/evento/feria-apas-show/
+[RETRY_02_CADEXCO] t= 290.1s | pag=162 | files=  16 | data=  0 | cola= 243 | prio=25 | https://cadexco.bo/evento/informex-usa-2/
+[RETRY_02_CADEXCO] t= 291.8s | pag=163 | files=  16 | data=  0 | cola= 242 | prio=25 | https://cadexco.bo/evento/ifia-japan/
+[RETRY_02_CADEXCO] t= 293.4s | pag=164 | files=  16 | data=  0 | cola= 241 | prio=25 | https://cadexco.bo/evento/sial-china/
+[RETRY_02_CADEXCO] t= 295.2s | pag=165 | files=  16 | data=  0 | cola= 240 | prio=25 | https://cadexco.bo/evento/expo-antad-alimentaria-mexico-2/
+[RETRY_02_CADEXCO] t= 296.8s | pag=166 | files=  16 | data=  0 | cola= 239 | prio=25 | https://cadexco.bo/evento/alimentec/
+[RETRY_02_CADEXCO] t= 298.4s | pag=167 | files=  16 | data=  0 | cola= 238 | prio=25 | https://cadexco.bo/evento/floriexpo/
+[RETRY_02_CADEXCO] t= 300.0s | pag=168 | files=  16 | data=  0 | cola= 237 | prio=25 | https://cadexco.bo/evento/the-summer-fancy-food-show-2/
+[RETRY_02_CADEXCO] t= 301.6s | pag=169 | files=  16 | data=  0 | cola= 236 | prio=25 | https://cadexco.bo/evento/genera-2/
+[RETRY_02_CADEXCO] t= 303.2s | pag=170 | files=  16 | data=  0 | cola= 235 | prio=25 | https://cadexco.bo/evento/expo-pack/
+[RETRY_02_CADEXCO] t= 304.7s | pag=171 | files=  16 | data=  0 | cola= 234 | prio=25 | https://cadexco.bo/evento/luxe-pack-2/
+[RETRY_02_CADEXCO] t= 306.3s | pag=172 | files=  16 | data=  0 | cola= 233 | prio=25 | https://cadexco.bo/evento/spoga-2/
+[RETRY_02_CADEXCO] t= 307.8s | pag=173 | files=  16 | data=  0 | cola= 232 | prio=25 | https://cadexco.bo/evento/food-ingredients-south-america/
+[RETRY_02_CADEXCO] t= 309.4s | pag=174 | files=  16 | data=  0 | cola= 231 | prio=25 | https://cadexco.bo/evento/western-foodservice-hospitality-expo/
+[RETRY_02_CADEXCO] t= 311.1s | pag=175 | files=  16 | data=  0 | cola= 230 | prio=25 | https://cadexco.bo/evento/biofach-india-2/
+[RETRY_02_CADEXCO] t= 312.9s | pag=176 | files=  16 | data=  0 | cola= 229 | prio=25 | https://cadexco.bo/evento/sana-2/
+[RETRY_02_CADEXCO] t= 314.5s | pag=177 | files=  16 | data=  0 | cola= 228 | prio=25 | https://cadexco.bo/evento/americas-food-beverage-show-conference-2/
+[RETRY_02_CADEXCO] t= 316.4s | pag=178 | files=  16 | data=  0 | cola= 227 | prio=25 | https://cadexco.bo/evento/ibie/
+[RETRY_02_CADEXCO] t= 318.1s | pag=179 | files=  16 | data=  0 | cola= 226 | prio=25 | https://cadexco.bo/evento/natural-products-expo-east/
+[RETRY_02_CADEXCO] t= 319.8s | pag=180 | files=  16 | data=  0 | cola= 225 | prio=25 | https://cadexco.bo/evento/eurofruit-2/
+[RETRY_02_CADEXCO] t= 321.3s | pag=181 | files=  16 | data=  0 | cola= 224 | prio=25 | https://cadexco.bo/evento/timber-expo-2/
+[RETRY_02_CADEXCO] t= 322.8s | pag=182 | files=  16 | data=  0 | cola= 223 | prio=25 | https://cadexco.bo/evento/agriflor/
+[RETRY_02_CADEXCO] t= 324.5s | pag=183 | files=  16 | data=  0 | cola= 222 | prio=25 | https://cadexco.bo/evento/sial/
+[RETRY_02_CADEXCO] t= 326.3s | pag=184 | files=  16 | data=  0 | cola= 221 | prio=25 | https://cadexco.bo/evento/grocery-innovations-canada-2/
+[RETRY_02_CADEXCO] t= 328.1s | pag=185 | files=  16 | data=  0 | cola= 220 | prio=25 | https://cadexco.bo/evento/bazaar-berlin-2/
+[RETRY_02_CADEXCO] t= 329.9s | pag=186 | files=  16 | data=  0 | cola= 219 | prio=25 | https://cadexco.bo/evento/domotex-hannover-2/
+[RETRY_02_CADEXCO] t= 331.6s | pag=187 | files=  16 | data=  0 | cola= 218 | prio=25 | https://cadexco.bo/evento/natural-organic-products-europe-2/
+[RETRY_02_CADEXCO] t= 333.3s | pag=188 | files=  16 | data=  0 | cola= 217 | prio=25 | https://cadexco.bo/evento/expo-proveedores-de-gastronomia-y-hoteles-aguas-calientes-2024/
+[RETRY_02_CADEXCO] t= 335.1s | pag=189 | files=  16 | data=  0 | cola= 217 | prio=25 | https://cadexco.bo/evento/plmas-world-of-private-label/
+[RETRY_02_CADEXCO] t= 336.8s | pag=190 | files=  16 | data=  0 | cola= 216 | prio=25 | https://cadexco.bo/evento/ift-first/
+[RETRY_02_CADEXCO] t= 338.3s | pag=191 | files=  16 | data=  0 | cola= 215 | prio=25 | https://cadexco.bo/evento/fispal-food-service/
+[RETRY_02_CADEXCO] t= 339.8s | pag=192 | files=  16 | data=  0 | cola= 214 | prio=25 | https://cadexco.bo/evento/food-ingredients-south-america-2/
+[RETRY_02_CADEXCO] t= 341.3s | pag=193 | files=  16 | data=  0 | cola= 213 | prio=25 | https://cadexco.bo/evento/expomeat/
+[RETRY_02_CADEXCO] t= 342.8s | pag=194 | files=  16 | data=  0 | cola= 212 | prio=25 | https://cadexco.bo/evento/natural-tech/
+[RETRY_02_CADEXCO] t= 344.4s | pag=195 | files=  16 | data=  0 | cola= 211 | prio=25 | https://cadexco.bo/evento/expomeat-2/
+[RETRY_02_CADEXCO] t= 346.2s | pag=196 | files=  16 | data=  0 | cola= 210 | prio=25 | https://cadexco.bo/evento/salimat-abanca-salon-de-alimentacion-del-atlantico/
+[RETRY_02_CADEXCO] t= 347.8s | pag=197 | files=  16 | data=  0 | cola= 209 | prio=25 | https://cadexco.bo/evento/bioterra/
+[RETRY_02_CADEXCO] t= 349.3s | pag=198 | files=  16 | data=  0 | cola= 208 | prio=25 | https://cadexco.bo/evento/mencatur/
+[RETRY_02_CADEXCO] t= 350.7s | pag=199 | files=  16 | data=  0 | cola= 207 | prio=25 | https://cadexco.bo/evento/fruit-attraction/
+[RETRY_02_CADEXCO] t= 352.4s | pag=200 | files=  16 | data=  0 | cola= 206 | prio=25 | https://cadexco.bo/evento/fancy-food-show/
+[RETRY_02_CADEXCO] t= 354.0s | pag=201 | files=  16 | data=  0 | cola= 205 | prio=25 | https://cadexco.bo/evento/sial-paris/
+

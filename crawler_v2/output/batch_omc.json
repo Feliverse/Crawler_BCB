@@ -6,7 +6,8 @@
                 "url_descarga": "https://www.wto.org/english/res_e/booksp_e/tariffprofiles2026.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm"
+                "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                "metodo_deteccion": "url_extension"
             },
             "TariffProfilesSummary_E.csv": {
                 "descripcion": "Summary tariff tables (MS excel format)",
@@ -18,7 +19,10 @@
                     "Summ_ag_EN_WTP25.xlsx",
                     "Summ_all_EN_WTP25.xlsx",
                     "Summ_nonag_EN_WTP25.xlsx"
-                ]
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65870,
+                "metodo_deteccion": "url_extension"
             },
             "TradeSummary_E.csv": {
                 "descripcion": "Summary trade tables (MS excel format)",
@@ -28,7 +32,10 @@
                 "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
                 "contenido_zip": [
                     "Summ_Trade_EN_WTP25.xlsx"
-                ]
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 47060,
+                "metodo_deteccion": "url_extension"
             },
             "TariffProfiles_E.csv": {
                 "descripcion": "All individual country/territory tariff profiles (MS excel format)",
@@ -190,7 +197,10 @@
                     "ZA_E.xlsx",
                     "ZM_E.xlsx",
                     "ZW_E.xlsx"
-                ]
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 79480,
+                "metodo_deteccion": "url_extension"
             },
             "publications": {
                 "wto_publications_catalogue_e.csv": {
@@ -198,7 +208,8 @@
                     "url_descarga": "https://www.wto.org/english/res_e/publications_e/wto_publications_catalogue_e.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.wto.org/english/res_e/publications_e/publications_e.htm"
+                    "url_origen": "https://www.wto.org/english/res_e/publications_e/publications_e.htm",
+                    "metodo_deteccion": "url_extension"
                 },
                 "WTO_iLibrary": {
                     "wto_ilibrary_brochure_e.csv": {
@@ -206,7 +217,8 @@
                         "url_descarga": "https://www.wto.org/english/res_e/publications_e/wto_ilibrary_brochure_e.pdf",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "PDF",
-                        "url_origen": "https://www.wto.org/english/res_e/publications_e/ilibrary_e.htm"
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/ilibrary_e.htm",
+                        "metodo_deteccion": "url_extension"
                     }
                 }
             },
@@ -217,7 +229,8 @@
                         "url_descarga": "http://www.wto.org/library/rss/podcasts_e.xml",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "XML",
-                        "url_origen": "https://www.wto.org/english/res_e/doload_e/doload_e.htm"
+                        "url_origen": "https://www.wto.org/english/res_e/doload_e/doload_e.htm",
+                        "metodo_deteccion": "url_extension"
                     }
                 },
                 "REPORTE_Y_CONSULTAS": {
@@ -228,6 +241,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -244,7 +258,8 @@
                 "url_descarga": "https://stats.wto.org/Areas/TimeSeries/src/assets/WTO_Multilateral_Trade_Negotiations_Categories_2023-06-26.pdf",
                 "fecha_actualizacion": "2023-06-26",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm"
+                "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                "metodo_deteccion": "url_extension"
             },
             "français": {
                 "TariffProfilesSummary_F.csv": {
@@ -257,7 +272,10 @@
                         "Summ_ag_FR_WTP25.xlsx",
                         "Summ_all_FR_WTP25.xlsx",
                         "Summ_nonag_FR_WTP25.xlsx"
-                    ]
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65870,
+                    "metodo_deteccion": "url_extension"
                 },
                 "REPORTE_Y_CONSULTAS": {
                     "CONTENIDO_WEB": {
@@ -267,6 +285,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -282,7 +301,8 @@
                     "url_descarga": "https://docs.wto.org/dol2fe/Pages/SS/directdoc.aspx?Open=True&filename=q%3A%2FG%2FMA%2F367.pdf",
                     "fecha_actualizacion": "No disponible",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://ttd.wto.org/en"
+                    "url_origen": "https://ttd.wto.org/en",
+                    "metodo_deteccion": "url_pattern"
                 },
                 "REPORTE_Y_CONSULTAS": {
                     "CONTENIDO_WEB": {
@@ -292,6 +312,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -309,6 +330,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.wto.org/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -326,6 +348,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -344,6 +367,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -362,6 +386,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "exportable_data_page",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,

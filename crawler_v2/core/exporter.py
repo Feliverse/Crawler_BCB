@@ -18,16 +18,12 @@ def normalize_key(
     value: object,
     fallback: str = "SIN_NOMBRE",
 ) -> str:
-    """
-    Normaliza un texto para utilizarlo como llave dentro
-    del árbol JSON.
-
-    Mantiene letras, números, acentos y signos útiles,
-    pero reemplaza espacios y separadores por "_".
-    """
 
     text = unquote(
-        str(value or "")
+        str(
+            value
+            or ""
+        )
     ).strip()
 
     if not text:
@@ -49,7 +45,10 @@ def normalize_key(
         "._- "
     )
 
-    return text or fallback
+    return (
+        text
+        or fallback
+    )
 
 
 # ============================================================
@@ -62,17 +61,10 @@ def build_leaf_name(
     url: str,
     fallback: str = "RECURSO",
 ) -> str:
-    """
-    El estándar utilizado por el crawler BCB representa
-    cada recurso final mediante una llave terminada en .csv,
-    aunque la URL real pueda apuntar a PDF, XLSX, JSON, etc.
-
-    La extensión .csv pertenece al identificador jerárquico,
-    NO modifica la URL real del recurso.
-    """
 
     parsed = urlparse(
-        url or ""
+        url
+        or ""
     )
 
     filename = unquote(
@@ -82,12 +74,16 @@ def build_leaf_name(
     ).strip()
 
     if filename:
-        base_name = filename.rsplit(
-            ".",
-            1,
-        )[0]
+
+        base_name = (
+            filename.rsplit(
+                ".",
+                1,
+            )[0]
+        )
 
     else:
+
         base_name = (
             description
             or fallback
@@ -98,21 +94,19 @@ def build_leaf_name(
         fallback=fallback,
     )
 
-    return f"{normalized}.csv"
+    return (
+        f"{normalized}.csv"
+    )
 
 
 # ============================================================
-# EVITAR SOBREESCRITURA DE RECURSOS
+# EVITAR SOBREESCRITURA
 # ============================================================
 
 def unique_leaf_name(
     container: dict,
     desired_name: str,
 ) -> str:
-    """
-    Si dos recursos terminan generando la misma llave,
-    agrega un sufijo incremental para no perder ninguno.
-    """
 
     if desired_name not in container:
         return desired_name
@@ -120,16 +114,25 @@ def unique_leaf_name(
     if desired_name.lower().endswith(
         ".csv"
     ):
-        base = desired_name[:-4]
+
+        base = (
+            desired_name[:-4]
+        )
+
         extension = ".csv"
 
     else:
-        base = desired_name
+
+        base = (
+            desired_name
+        )
+
         extension = ""
 
     counter = 2
 
     while True:
+
         candidate = (
             f"{base}_{counter}"
             f"{extension}"
@@ -142,29 +145,26 @@ def unique_leaf_name(
 
 
 # ============================================================
-# NORMALIZAR RUTA JERÁRQUICA
+# RUTA JERÁRQUICA
 # ============================================================
 
 def normalize_route(
     route: object,
 ) -> list[str]:
-    """
-    Convierte la ruta interna del crawler en ramas válidas
-    para el árbol jerárquico.
-
-    También evita generar:
-
-        ESTADISTICAS
-            └── ESTADISTICAS
-    """
 
     if not isinstance(
         route,
-        (list, tuple),
+        (
+            list,
+            tuple,
+        ),
     ):
+
         return []
 
-    normalized_route: list[str] = []
+    normalized_route: list[
+        str
+    ] = []
 
     for item in route:
 
@@ -204,27 +204,37 @@ def ensure_path(
     root: dict,
     path: list[str],
 ) -> dict:
-    """
-    Crea recursivamente una ruta dentro del árbol y devuelve
-    el último nodo.
-    """
 
     current = root
 
     for key in path:
 
         if key not in current:
-            current[key] = {}
 
-        existing = current[key]
+            current[
+                key
+            ] = {}
+
+        existing = (
+            current[
+                key
+            ]
+        )
 
         if not isinstance(
             existing,
             dict,
         ):
-            current[key] = {}
 
-        current = current[key]
+            current[
+                key
+            ] = {}
+
+        current = (
+            current[
+                key
+            ]
+        )
 
     return current
 
@@ -236,20 +246,22 @@ def ensure_path(
 def normalize_date_value(
     value: object,
 ) -> str:
-    """
-    El visor BCB considera 'No disponible' como ausencia
-    de fecha.
-    """
 
     if value is None:
-        return "No disponible"
+
+        return (
+            "No disponible"
+        )
 
     text = str(
         value
     ).strip()
 
     if not text:
-        return "No disponible"
+
+        return (
+            "No disponible"
+        )
 
     return text
 
@@ -299,51 +311,59 @@ def add_file_to_tree(
         or ""
     ).strip()
 
-    update_date = normalize_date_value(
-        data.get(
-            "fecha_actualizacion"
+    update_date = (
+        normalize_date_value(
+            data.get(
+                "fecha_actualizacion"
+            )
         )
     )
 
-    route = normalize_route(
-        data.get(
-            "ruta",
-            [],
+    route = (
+        normalize_route(
+            data.get(
+                "ruta",
+                [],
+            )
         )
     )
-
-    # --------------------------------------------------------
-    # Si el crawler pudo determinar la jerarquía,
-    # la respetamos.
-    #
-    # Si no existe ruta, utilizamos el mismo fallback
-    # conceptual del crawler BCB.
-    # --------------------------------------------------------
 
     if route:
+
         destination_path = route
 
     else:
+
         destination_path = [
             "OTROS",
             "DOCUMENTOS_GENERALES",
             "VARIOS",
         ]
 
-    destination = ensure_path(
-        statistics_root,
-        destination_path,
+    destination = (
+        ensure_path(
+            statistics_root,
+            destination_path,
+        )
     )
 
-    leaf_name = build_leaf_name(
-        description=description,
-        url=download_url,
-        fallback="DOCUMENTO",
+    leaf_name = (
+        build_leaf_name(
+            description=(
+                description
+            ),
+            url=(
+                download_url
+            ),
+            fallback="DOCUMENTO",
+        )
     )
 
-    leaf_name = unique_leaf_name(
-        destination,
-        leaf_name,
+    leaf_name = (
+        unique_leaf_name(
+            destination,
+            leaf_name,
+        )
     )
 
     leaf = {
@@ -352,7 +372,9 @@ def add_file_to_tree(
             or leaf_name[:-4]
         ),
 
-        "url_descarga": download_url,
+        "url_descarga": (
+            download_url
+        ),
 
         "fecha_actualizacion": (
             update_date
@@ -370,18 +392,65 @@ def add_file_to_tree(
         ),
     }
 
-    # --------------------------------------------------------
-    # ZIP
-    # --------------------------------------------------------
-
-    zip_content = data.get(
-        "contenido_zip"
+    zip_content = (
+        data.get(
+            "contenido_zip"
+        )
     )
 
     if zip_content:
+
         leaf[
             "contenido_zip"
         ] = zip_content
+
+    zip_status = (
+        data.get(
+            "zip_inspeccion"
+        )
+    )
+
+    if zip_status is not None:
+
+        leaf[
+            "zip_inspeccion"
+        ] = zip_status
+
+    zip_bytes = (
+        data.get(
+            "zip_bytes_descargados"
+        )
+    )
+
+    if zip_bytes:
+
+        leaf[
+            "zip_bytes_descargados"
+        ] = zip_bytes
+
+    detection_method = (
+        data.get(
+            "metodo_deteccion"
+        )
+    )
+
+    if detection_method is not None:
+
+        leaf[
+            "metodo_deteccion"
+        ] = detection_method
+
+    content_type = (
+        data.get(
+            "content_type"
+        )
+    )
+
+    if content_type:
+
+        leaf[
+            "content_type"
+        ] = content_type
 
     destination[
         leaf_name
@@ -389,7 +458,7 @@ def add_file_to_tree(
 
 
 # ============================================================
-# DATASETS / TABLAS / APIs / CONSULTAS WEB
+# DATASETS / TABLAS / APIs
 # ============================================================
 
 def add_dataset_to_tree(
@@ -436,29 +505,54 @@ def add_dataset_to_tree(
     )
 
     if reference_date is None:
-        reference_date = data.get(
-            "fecha_actualizacion"
+
+        reference_date = (
+            data.get(
+                "fecha_actualizacion"
+            )
         )
 
-    update_date = normalize_date_value(
-        reference_date
+    update_date = (
+        normalize_date_value(
+            reference_date
+        )
     )
 
-    route = normalize_route(
+    route = (
+        normalize_route(
+            data.get(
+                "ruta",
+                [],
+            )
+        )
+    )
+
+    # ========================================================
+    # TIPO DE RECURSO
+    # ========================================================
+
+    resource_type = str(
         data.get(
-            "ruta",
-            [],
+            "tipo_recurso",
+            "web",
         )
-    )
+        or "web"
+    ).strip().lower()
 
-    # --------------------------------------------------------
-    # Los datasets web siguen la misma idea del BCB:
-    #
-    # REPORTE_Y_CONSULTAS
-    #     └── CONTENIDO_WEB
-    # --------------------------------------------------------
+    api_format = str(
+        data.get(
+            "formato",
+            "",
+        )
+        or ""
+    ).strip().lower()
+
+    # ========================================================
+    # RUTA
+    # ========================================================
 
     if route:
+
         destination_path = [
             *route,
             "REPORTE_Y_CONSULTAS",
@@ -466,27 +560,52 @@ def add_dataset_to_tree(
         ]
 
     else:
+
         destination_path = [
             "OTROS",
             "REPORTE_Y_CONSULTAS",
             "CONTENIDO_WEB",
         ]
 
-    destination = ensure_path(
-        statistics_root,
-        destination_path,
+    destination = (
+        ensure_path(
+            statistics_root,
+            destination_path,
+        )
     )
 
-    leaf_name = build_leaf_name(
-        description=description,
-        url="",
-        fallback="DATASET_WEB",
+    leaf_name = (
+        build_leaf_name(
+            description=(
+                description
+            ),
+            url="",
+            fallback="DATASET_WEB",
+        )
     )
 
-    leaf_name = unique_leaf_name(
-        destination,
-        leaf_name,
+    leaf_name = (
+        unique_leaf_name(
+            destination,
+            leaf_name,
+        )
     )
+
+    # ========================================================
+    # TIPO ARCHIVO
+    # ========================================================
+
+    if resource_type == "api":
+
+        exported_type = "API"
+
+    else:
+
+        exported_type = "WEB"
+
+    # ========================================================
+    # LEAF
+    # ========================================================
 
     leaf = {
         "descripcion": (
@@ -494,32 +613,41 @@ def add_dataset_to_tree(
             or leaf_name[:-4]
         ),
 
-        # ----------------------------------------------------
-        # IMPORTANTE:
-        #
-        # El frontend existente exige url_descarga,
-        # aunque sea una página HTML/API.
-        # ----------------------------------------------------
-
-        "url_descarga": dataset_url,
+        "url_descarga": (
+            dataset_url
+        ),
 
         "fecha_actualizacion": (
             update_date
         ),
 
-        "tipo_archivo": "WEB",
+        "tipo_archivo": (
+            exported_type
+        ),
 
         "url_origen": (
             origin_url
             or dataset_url
         ),
+
+        "tipo_recurso": (
+            resource_type
+        ),
     }
 
-    # --------------------------------------------------------
-    # Metadata adicional.
-    # El visor BCB la ignorará si no la necesita,
-    # pero otros robots podrán utilizarla.
-    # --------------------------------------------------------
+    # ========================================================
+    # FORMATO API
+    # ========================================================
+
+    if api_format:
+
+        leaf[
+            "formato"
+        ] = api_format
+
+    # ========================================================
+    # METADATA COMÚN
+    # ========================================================
 
     optional_fields = (
         "metodo_deteccion",
@@ -527,15 +655,24 @@ def add_dataset_to_tree(
         "tablas_detectadas",
         "permite_exportar",
         "tiene_filtros",
+        "registros_detectados",
+        "es_openapi",
+        "es_geojson",
+        "tiene_paginacion",
+        "documentacion_url",
+        "metodo_http",
     )
 
     for field_name in optional_fields:
 
-        value = data.get(
-            field_name
+        value = (
+            data.get(
+                field_name
+            )
         )
 
         if value is not None:
+
             leaf[
                 field_name
             ] = value
@@ -555,36 +692,6 @@ def export_result(
     result: CrawlResult,
     output_dir: Path,
 ) -> Path:
-    """
-    Exporta el resultado utilizando el estándar jerárquico
-    definido por el crawler BCB de referencia.
-
-    SALIDA:
-
-    {
-        "ESTADISTICAS": {
-            "...": {
-                "...": {
-                    "Documento.csv": {
-                        "descripcion": "...",
-                        "url_descarga": "..."
-                    }
-                }
-            }
-        }
-    }
-
-    Ya no se exportan como raíz:
-
-        __meta__
-        paginas
-        archivos
-        datasets_web
-        errores
-
-    Esa información sigue existiendo durante la ejecución
-    del crawler y continúa mostrándose en consola.
-    """
 
     output_dir.mkdir(
         parents=True,
@@ -596,17 +703,15 @@ def export_result(
         / f"{config['id_fuente']}.json"
     )
 
-    # ========================================================
-    # RAÍZ ESTÁNDAR
-    # ========================================================
-
     payload: dict = {
         "ESTADISTICAS": {}
     }
 
-    statistics_root = payload[
-        "ESTADISTICAS"
-    ]
+    statistics_root = (
+        payload[
+            "ESTADISTICAS"
+        ]
+    )
 
     # ========================================================
     # ARCHIVOS
@@ -620,7 +725,7 @@ def export_result(
         )
 
     # ========================================================
-    # DATASETS WEB
+    # DATASETS / APIs
     # ========================================================
 
     for data_record in result.data_pages:

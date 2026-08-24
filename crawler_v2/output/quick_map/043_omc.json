@@ -1,0 +1,2623 @@
+{
+    "ESTADISTICAS": {
+        "world_tariff_profiles_2026_e.htm": {
+            "tariffprofiles2026.csv": {
+                "descripcion": "Download PDF",
+                "url_descarga": "https://www.wto.org/english/res_e/booksp_e/tariffprofiles2026.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                "metodo_deteccion": "url_extension"
+            },
+            "TariffProfilesSummary_E.csv": {
+                "descripcion": "Summary tariff tables (MS excel format)",
+                "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/TariffProfilesSummary_E.zip",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                "contenido_zip": [
+                    "Summ_ag_EN_WTP25.xlsx",
+                    "Summ_all_EN_WTP25.xlsx",
+                    "Summ_nonag_EN_WTP25.xlsx"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65870,
+                "metodo_deteccion": "url_extension"
+            },
+            "TradeSummary_E.csv": {
+                "descripcion": "Summary trade tables (MS excel format)",
+                "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/TradeSummary_E.zip",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                "contenido_zip": [
+                    "Summ_Trade_EN_WTP25.xlsx"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 47060,
+                "metodo_deteccion": "url_extension"
+            },
+            "TariffProfiles_E.csv": {
+                "descripcion": "All individual country/territory tariff profiles (MS excel format)",
+                "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/TariffProfiles_E.zip",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                "contenido_zip": [
+                    "AE_E.xlsx",
+                    "AF_E.xlsx",
+                    "AG_E.xlsx",
+                    "AL_E.xlsx",
+                    "AM_E.xlsx",
+                    "AO_E.xlsx",
+                    "AR_E.xlsx",
+                    "AU_E.xlsx",
+                    "AZ_E.xlsx",
+                    "BA_E.xlsx",
+                    "BB_E.xlsx",
+                    "BD_E.xlsx",
+                    "BF_E.xlsx",
+                    "BH_E.xlsx",
+                    "BI_E.xlsx",
+                    "BJ_E.xlsx",
+                    "BN_E.xlsx",
+                    "BO_E.xlsx",
+                    "BR_E.xlsx",
+                    "BS_E.xlsx",
+                    "BT_E.xlsx",
+                    "BW_E.xlsx",
+                    "BY_E.xlsx",
+                    "BZ_E.xlsx",
+                    "CA_E.xlsx",
+                    "CD_E.xlsx",
+                    "CE_E.xlsx",
+                    "CF_E.xlsx",
+                    "CG_E.xlsx",
+                    "CH_E.xlsx",
+                    "CI_E.xlsx",
+                    "CK_E.xlsx",
+                    "CL_E.xlsx",
+                    "CM_E.xlsx",
+                    "CN_E.xlsx",
+                    "CO_E.xlsx",
+                    "CR_E.xlsx",
+                    "CT_E.xlsx",
+                    "CU_E.xlsx",
+                    "CV_E.xlsx",
+                    "DJ_E.xlsx",
+                    "DM_E.xlsx",
+                    "DO_E.xlsx",
+                    "EC_E.xlsx",
+                    "EG_E.xlsx",
+                    "FJ_E.xlsx",
+                    "FM_E.xlsx",
+                    "GA_E.xlsx",
+                    "GB_E.xlsx",
+                    "GD_E.xlsx",
+                    "GE_E.xlsx",
+                    "GH_E.xlsx",
+                    "GM_E.xlsx",
+                    "GN_E.xlsx",
+                    "GT_E.xlsx",
+                    "GW_E.xlsx",
+                    "GY_E.xlsx",
+                    "HK_E.xlsx",
+                    "HN_E.xlsx",
+                    "HT_E.xlsx",
+                    "ID_E.xlsx",
+                    "IL_E.xlsx",
+                    "IN_E.xlsx",
+                    "IS_E.xlsx",
+                    "JM_E.xlsx",
+                    "JO_E.xlsx",
+                    "JP_E.xlsx",
+                    "KE_E.xlsx",
+                    "KG_E.xlsx",
+                    "KH_E.xlsx",
+                    "KI_E.xlsx",
+                    "KM_E.xlsx",
+                    "KN_E.xlsx",
+                    "KR_E.xlsx",
+                    "KW_E.xlsx",
+                    "KZ_E.xlsx",
+                    "LA_E.xlsx",
+                    "LB_E.xlsx",
+                    "LC_E.xlsx",
+                    "LK_E.xlsx",
+                    "LR_E.xlsx",
+                    "LS_E.xlsx",
+                    "LY_E.xlsx",
+                    "MA_E.xlsx",
+                    "MD_E.xlsx",
+                    "ME_E.xlsx",
+                    "MG_E.xlsx",
+                    "MK_E.xlsx",
+                    "ML_E.xlsx",
+                    "MM_E.xlsx",
+                    "MN_E.xlsx",
+                    "MO_E.xlsx",
+                    "MR_E.xlsx",
+                    "MU_E.xlsx",
+                    "MV_E.xlsx",
+                    "MW_E.xlsx",
+                    "MX_E.xlsx",
+                    "MY_E.xlsx",
+                    "MZ_E.xlsx",
+                    "NA_E.xlsx",
+                    "NE_E.xlsx",
+                    "NG_E.xlsx",
+                    "NI_E.xlsx",
+                    "NO_E.xlsx",
+                    "NP_E.xlsx",
+                    "NR_E.xlsx",
+                    "NZ_E.xlsx",
+                    "OM_E.xlsx",
+                    "PA_E.xlsx",
+                    "PE_E.xlsx",
+                    "PG_E.xlsx",
+                    "PH_E.xlsx",
+                    "PK_E.xlsx",
+                    "PW_E.xlsx",
+                    "PY_E.xlsx",
+                    "QA_E.xlsx",
+                    "RS_E.xlsx",
+                    "RU_E.xlsx",
+                    "RW_E.xlsx",
+                    "SA_E.xlsx",
+                    "SB_E.xlsx",
+                    "SC_E.xlsx",
+                    "SG_E.xlsx",
+                    "SL_E.xlsx",
+                    "SN_E.xlsx",
+                    "SO_E.xlsx",
+                    "SR_E.xlsx",
+                    "SS_E.xlsx",
+                    "SV_E.xlsx",
+                    "SZ_E.xlsx",
+                    "TD_E.xlsx",
+                    "TG_E.xlsx",
+                    "TH_E.xlsx",
+                    "TJ_E.xlsx",
+                    "TL_E.xlsx",
+                    "TN_E.xlsx",
+                    "TO_E.xlsx",
+                    "TR_E.xlsx",
+                    "TT_E.xlsx",
+                    "TZ_E.xlsx",
+                    "UA_E.xlsx",
+                    "UG_E.xlsx",
+                    "US_E.xlsx",
+                    "UY_E.xlsx",
+                    "VC_E.xlsx",
+                    "VE_E.xlsx",
+                    "VN_E.xlsx",
+                    "VU_E.xlsx",
+                    "WS_E.xlsx",
+                    "YE_E.xlsx",
+                    "ZA_E.xlsx",
+                    "ZM_E.xlsx",
+                    "ZW_E.xlsx"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 79480,
+                "metodo_deteccion": "url_extension"
+            },
+            "publications": {
+                "wto_publications_catalogue_e.csv": {
+                    "descripcion": "Publications catalogue",
+                    "url_descarga": "https://www.wto.org/english/res_e/publications_e/wto_publications_catalogue_e.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.wto.org/english/res_e/publications_e/publications_e.htm",
+                    "metodo_deteccion": "url_extension"
+                },
+                "WTO_iLibrary": {
+                    "wto_ilibrary_brochure_e.csv": {
+                        "descripcion": "wto_ilibrary_brochure_e.pdf",
+                        "url_descarga": "https://www.wto.org/english/res_e/publications_e/wto_ilibrary_brochure_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/ilibrary_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "documents,_data_and_resources": {
+                "Guide_to_downloading": {
+                    "podcasts_e.csv": {
+                        "descripcion": "http://www.wto.org/library/rss/podcasts_e.xml",
+                        "url_descarga": "http://www.wto.org/library/rss/podcasts_e.xml",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XML",
+                        "url_origen": "https://www.wto.org/english/res_e/doload_e/doload_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    }
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "WTO_|_documents_and_resources_gateway.csv": {
+                            "descripcion": "WTO | documents and resources gateway",
+                            "url_descarga": "https://www.wto.org/english/res_e/res_e.htm",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        },
+        "More_on_tariffs": {
+            "WTO_Multilateral_Trade_Negotiations_Categories_2023-06-26.csv": {
+                "descripcion": "Find out more",
+                "url_descarga": "https://stats.wto.org/Areas/TimeSeries/src/assets/WTO_Multilateral_Trade_Negotiations_Categories_2023-06-26.pdf",
+                "fecha_actualizacion": "2023-06-26",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                "metodo_deteccion": "url_extension"
+            },
+            "français": {
+                "TariffProfilesSummary_F.csv": {
+                    "descripcion": "Tableaux récapitulatifs",
+                    "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/tariff_profiles/TariffProfilesSummary_F.zip",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "ZIP",
+                    "url_origen": "https://www.wto.org/french/tratop_f/tariffs_f/tariff_data_f.htm",
+                    "contenido_zip": [
+                        "Summ_ag_FR_WTP25.xlsx",
+                        "Summ_all_FR_WTP25.xlsx",
+                        "Summ_nonag_FR_WTP25.xlsx"
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65870,
+                    "metodo_deteccion": "url_extension"
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "OMC_|_Droits_de_douane_-_Trouver_des_données_tarifaires.csv": {
+                            "descripcion": "OMC | Droits de douane - Trouver des données tarifaires",
+                            "url_descarga": "https://www.wto.org/french/tratop_f/tariffs_f/tariff_data_f.htm",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "WTO_Tariff_&_Trade_Data_platform": {
+                "directdoc.csv": {
+                    "descripcion": "G/MA/367",
+                    "url_descarga": "https://docs.wto.org/dol2fe/Pages/SS/directdoc.aspx?Open=True&filename=q%3A%2FG%2FMA%2F367.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://ttd.wto.org/en",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "Tariff_actions_Tracking_changes_of_effectivly_applied_duties": {
+                    "Methodology-Note-for-the-WTO-IMF-Tariff-Tracker.csv": {
+                        "descripcion": "Methodology Note for the WTO-IMF Tariff Tracker",
+                        "url_descarga": "https://ttd.wto.org/download-static/Methodology-Note-for-the-WTO-IMF-Tariff-Tracker.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ttd.wto.org/en/reports/tariff-actions",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_Tariff_&_Trade_Data_|_Reports_Tariff_actions.csv": {
+                                "descripcion": "WTO Tariff & Trade Data | Reports / Tariff actions",
+                                "url_descarga": "https://ttd.wto.org/en/reports/tariff-actions",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://ttd.wto.org/en",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Download_HS_6-digit_datasets": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Tariff_&_Trade_Data_|_Download_-_Tariff_actions.csv": {
+                                    "descripcion": "WTO Tariff & Trade Data | Download - Tariff actions",
+                                    "url_descarga": "https://ttd.wto.org/en/download/tariff-actions/six-digit",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://ttd.wto.org/en/reports/tariff-actions",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Download_GTAP_sector_files": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Tariff_&_Trade_Data_|_Download_-_Tariff_actions.csv": {
+                                    "descripcion": "WTO Tariff & Trade Data | Download - Tariff actions",
+                                    "url_descarga": "https://ttd.wto.org/en/download/tariff-actions/gtap",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://ttd.wto.org/en/reports/tariff-actions",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "User's_guide": {
+                    "users-guide.csv": {
+                        "descripcion": "users-guide",
+                        "url_descarga": "https://ttd.wto.org/download-static/users-guide",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ttd.wto.org/en",
+                        "metodo_deteccion": "content_type",
+                        "content_type": "application/pdf"
+                    }
+                },
+                "Terms_of_use": {
+                    "terms-of-use.csv": {
+                        "descripcion": "terms-of-use",
+                        "url_descarga": "https://ttd.wto.org/download-static/terms-of-use",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ttd.wto.org/en",
+                        "metodo_deteccion": "content_type",
+                        "content_type": "application/pdf"
+                    }
+                },
+                "wto_imf_tariff_tracker": {
+                    "Trade_data_reveal_changing_patterns_in_electric_vehicles_market": {
+                        "1": {
+                            "blog_dta_14may24_e.csv": {
+                                "descripcion": "download data",
+                                "url_descarga": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_14may24_e.xlsx",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "XLSX",
+                                "url_origen": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_14may24_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "WTO_Blog_|_Data_Blog_-_Trade_data_reveal_changing_patterns_in_electric_vehicles_market.csv": {
+                                        "descripcion": "WTO Blog | Data Blog - Trade data reveal changing patterns in electric vehicles market",
+                                        "url_descarga": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_14may24_e.htm",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://ttd.wto.org/en/news-blog/et-et-ipsam-eos-consequatur-en",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            },
+                            "FR_Français": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Blog_de_l'OMC_|_Les_données_commerciales_révèlent_une_évolution_de_la_structure_du_marché_des_véhicules_électriques.csv": {
+                                            "descripcion": "Blog de l'OMC | Les données commerciales révèlent une évolution de la structure du marché des véhicules électriques",
+                                            "url_descarga": "https://www.wto.org/french/blogs_f/data_blog_f/blog_dta_14may24_f.htm",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_14may24_e.htm",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": false
+                                        }
+                                    }
+                                }
+                            },
+                            "ES_Español": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Blog_de_la_OMC_|_Los_datos_sobre_el_comercio_revelan_un_cambio_en_las_pautas_del_mercado_de_vehículos_eléctricos.csv": {
+                                            "descripcion": "Blog de la OMC | Los datos sobre el comercio revelan un cambio en las pautas del mercado de vehículos eléctricos",
+                                            "url_descarga": "https://www.wto.org/spanish/blogs_s/data_blog_s/blog_dta_14may24_s.htm",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_14may24_e.htm",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "WTO_Tariff_&_Trade_Data.csv": {
+                            "descripcion": "WTO Tariff & Trade Data",
+                            "url_descarga": "https://ttd.wto.org/en",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                },
+                "Download": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_Tariff_&_Trade_Data_|_Download.csv": {
+                                "descripcion": "WTO Tariff & Trade Data | Download",
+                                "url_descarga": "https://ttd.wto.org/en/download",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://ttd.wto.org/en",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Download_indicators_data": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Tariff_&_Trade_Data_|_Download_-_Indicators.csv": {
+                                    "descripcion": "WTO Tariff & Trade Data | Download - Indicators",
+                                    "url_descarga": "https://ttd.wto.org/en/download/indicators",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://ttd.wto.org/en/download",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Download_IDB_data": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Tariff_&_Trade_Data_|_Download_-_IDB.csv": {
+                                    "descripcion": "WTO Tariff & Trade Data | Download - IDB",
+                                    "url_descarga": "https://ttd.wto.org/en/download/idb",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://ttd.wto.org/en/download",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Download_CTS_data": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Tariff_&_Trade_Data_|_Download_-_CTS.csv": {
+                                    "descripcion": "WTO Tariff & Trade Data | Download - CTS",
+                                    "url_descarga": "https://ttd.wto.org/en/download/cts",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://ttd.wto.org/en/download",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Data_availability_Data_coverage_at_a_glance": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_Tariff_&_Trade_Data_|_Data_availability_-_Overall_data_coverage.csv": {
+                                "descripcion": "WTO Tariff & Trade Data | Data availability - Overall data coverage",
+                                "url_descarga": "https://ttd.wto.org/en/resources/data-availability/applied-tariffs-and-imports",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://ttd.wto.org/en",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 1,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "See_full_data_coverage": {
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_Tariff_&_Trade_Data_|_Data_availability_-_IDB.csv": {
+                                "descripcion": "WTO Tariff & Trade Data | Data availability - IDB",
+                                "url_descarga": "https://ttd.wto.org/en/resources/data-availability/tariffs-and-import-notifications",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://ttd.wto.org/en",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_html_table",
+                                "tiene_tabla_html": true,
+                                "tablas_detectadas": 1,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "cts": {
+                    "Data_availability>_CTS_–_HS_version_of_final_bound_tariffs": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Tariff_&_Trade_Data_|_Data_availability_-_CTS.csv": {
+                                    "descripcion": "WTO Tariff & Trade Data | Data availability - CTS",
+                                    "url_descarga": "https://ttd.wto.org/en/resources/data-availability/hs-version-of-final-bound-tariff",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://ttd.wto.org/en/data/cts",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_html_table",
+                                    "tiene_tabla_html": true,
+                                    "tablas_detectadas": 1,
+                                    "permite_exportar": false,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Trade_Statistics": {
+                "International_trade_statistics_1952_to_current_day": {
+                    "wto_2000_international_trade_statistics_2000.csv": {
+                        "descripcion": "WTO International Trade Statistics 2000",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/wto_2000_international_trade_statistics_2000.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "wto_annual_report_1999_international_trade_statistics.csv": {
+                        "descripcion": "WTO Annual Report 1999 - International Trade Statistics",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/wto_annual_report_1999_international_trade_statistics.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "wto_annual_report_1998.csv": {
+                        "descripcion": "WTO Annual Report 1998 - Special topic: Globalization and trade",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/wto_annual_report_1998.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "annual_report_1997_volume_i_special_topic_trade_and_competition_policy.csv": {
+                        "descripcion": "WTO Annual Report 1997 - Volume I - Special topic: Trade and Competition Policy",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/annual_report_1997_volume_i_special_topic_trade_and_competition_policy.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "annual_report_1997_volume_ii.csv": {
+                        "descripcion": "WTO Annual Report 1997 - Volume II",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/annual_report_1997_volume_ii.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "annual_report_1996_volume_i.csv": {
+                        "descripcion": "WTO Annual Report 1996 - Volume I",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/annual_report_1996_volume_i.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "wto_1996_annual_report_volume_ii.csv": {
+                        "descripcion": "WTO Annual Report 1996 - Volume II",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/wto_1996_annual_report_volume_ii.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1995_trends_and_statistics.csv": {
+                        "descripcion": "WTO Annual Report 1995 - International Trade: Trends and Statistics",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1995_trends_and_statistics.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_statistics_international_trade_1993.csv": {
+                        "descripcion": "GATT International Trade - 1993",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_statistics_international_trade_1993.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_91-92.csv": {
+                        "descripcion": "GATT International Trade - 1991-92",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_91-92.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_90_91_volume_i.csv": {
+                        "descripcion": "GATT International Trade - 1990-91 Volume I",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_90_91_volume_i.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_90_91_volume_ii.csv": {
+                        "descripcion": "GATT International Trade - 1990-91 Volume II",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_90_91_volume_ii.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_89_90_volume_ii.csv": {
+                        "descripcion": "GATT International Trade - 1989-90 Volume II",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_89_90_volume_ii.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_89_90_volume_i.csv": {
+                        "descripcion": "GATT International Trade - 1989-90 Volume I",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_89_90_volume_i.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_88_89_volume_ii.csv": {
+                        "descripcion": "GATT International Trade - 1988-89 Volume II",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_88_89_volume_ii.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "GATT_Le_Commerce_International_en_85-86.csv": {
+                        "descripcion": "GATT International Trade - 1988-89 Volume I",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/GATT_Le_Commerce_International_en_85-86.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_87_88_volume_i.csv": {
+                        "descripcion": "GATT International Trade - 1987-88 Volume I",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_87_88_volume_i.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1986_87.csv": {
+                        "descripcion": "GATT International Trade - 1986-87",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1986_87.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1984_85.csv": {
+                        "descripcion": "GATT International Trade - 1984-85",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1984_85.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1983_84.csv": {
+                        "descripcion": "GATT International Trade - 1983-84",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1983_84.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1982_1983.csv": {
+                        "descripcion": "GATT International Trade - 1982-1983",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1982_1983.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1981_82.csv": {
+                        "descripcion": "GATT International Trade - 1981-82",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1981_82.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1980_81.csv": {
+                        "descripcion": "GATT International Trade - 1980-81",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1980_81.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1978_79.csv": {
+                        "descripcion": "GATT International Trade - 1978-79",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1978_79.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1976_77.csv": {
+                        "descripcion": "GATT International Trade - 1976-77",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1976_77.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1976_77.csv": {
+                        "descripcion": "GATT International Trade - 1976-77",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1976_77.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1975_76.csv": {
+                        "descripcion": "GATT International Trade - 1975 76",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1975_76.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1973_74.csv": {
+                        "descripcion": "GATT International Trade - 1973 74",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1973_74.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1972.csv": {
+                        "descripcion": "GATT International Trade - 1972",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1972.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1971.csv": {
+                        "descripcion": "GATT International Trade - 1971",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1971.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1970.csv": {
+                        "descripcion": "GATT International Trade - 1970",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1970.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1969.csv": {
+                        "descripcion": "GATT International Trade - 1969",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1969.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1968.csv": {
+                        "descripcion": "GATT International Trade - 1968",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1968.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1966_gatt_report_1967.csv": {
+                        "descripcion": "GATT International Trade - 1966 GATT Report 1967",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1966_gatt_report_1967.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1966.csv": {
+                        "descripcion": "GATT International Trade - 1966",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1966.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1965.csv": {
+                        "descripcion": "GATT International Trade - 1965",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1965.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1964.csv": {
+                        "descripcion": "GATT International Trade - 1964",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1964.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1963.csv": {
+                        "descripcion": "GATT International Trade - 1963",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1963.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1962.csv": {
+                        "descripcion": "GATT International Trade - 1962",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1962.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_international_trade_1960.csv": {
+                        "descripcion": "GATT International Trade - 1960",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_international_trade_1960.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1959.csv": {
+                        "descripcion": "GATT International Trade - 1959",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1959.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "gatt_trends_in_international_trade.csv": {
+                        "descripcion": "GATT Trends in International Trade",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/gatt_trends_in_international_trade.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1957_58.csv": {
+                        "descripcion": "GATT International Trade - 1957-58",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1957_58.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1956.csv": {
+                        "descripcion": "GATT International Trade - 1956",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1956.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1955_2.csv": {
+                        "descripcion": "GATT International Trade - 1955",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1955_2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "international_trade_1954.csv": {
+                        "descripcion": "GATT International Trade - 1954",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/international_trade_1954.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Le_Commerce_International_en_1953.csv": {
+                        "descripcion": "GATT International Trade - 1953",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/Le_Commerce_International_en_1953.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Le_Commerce_international_1952.csv": {
+                        "descripcion": "GATT International Trade - 1952",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/Le_Commerce_international_1952.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/publicationsarchives_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "International_Trade_Statistics_2001-2015": {
+                        "World_Trade_Statistical_Review": {
+                            "flyeransta2016_e.csv": {
+                                "descripcion": "WTO statistical publications flyer",
+                                "url_descarga": "https://www.wto.org/english/res_e/booksp_e/flyeransta2016_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_01_e.csv": {
+                                "descripcion": "Introduction",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_01_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_02_e.csv": {
+                                "descripcion": "Trends in world trade: Looking back over the past ten years",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_02_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_03_e.csv": {
+                                "descripcion": "World trade in 2015-16",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_03_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_04_e.csv": {
+                                "descripcion": "Trade in goods and services",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_04_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_05_e.csv": {
+                                "descripcion": "Trading patterns: Global and regional perspectives",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_05_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_06_e.csv": {
+                                "descripcion": "Developing economies' participation in global trade",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_06_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_07_e.csv": {
+                                "descripcion": "Trade policy developments",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_07_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_08_e.csv": {
+                                "descripcion": "Composition, definitions & methodology",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_08_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "WTO_Chapter_09_tables_e.csv": {
+                                "descripcion": "Statistical tables",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/WTO_Chapter_09_tables_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "tableswts2016_e.csv": {
+                                "descripcion": "All Excel tables in zip format",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/tableswts2016_e.zip",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "ZIP",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "contenido_zip": [
+                                    "tableswts2016_e/a01.xls",
+                                    "tableswts2016_e/a02.xls",
+                                    "tableswts2016_e/a03.xls",
+                                    "tableswts2016_e/a04.xls",
+                                    "tableswts2016_e/a05.xls",
+                                    "tableswts2016_e/a06.xls",
+                                    "tableswts2016_e/a07.xls",
+                                    "tableswts2016_e/a08.xls",
+                                    "tableswts2016_e/a09.xls",
+                                    "tableswts2016_e/a10a.xls",
+                                    "tableswts2016_e/a10b.xls",
+                                    "tableswts2016_e/a10c.xls",
+                                    "tableswts2016_e/a11.xls",
+                                    "tableswts2016_e/a12.xls",
+                                    "tableswts2016_e/a13.xls",
+                                    "tableswts2016_e/a14.xls",
+                                    "tableswts2016_e/a15.xls",
+                                    "tableswts2016_e/a16.xls",
+                                    "tableswts2016_e/a17.xls",
+                                    "tableswts2016_e/a18.xls",
+                                    "tableswts2016_e/a19.xls",
+                                    "tableswts2016_e/a20.xls",
+                                    "tableswts2016_e/a21.xls",
+                                    "tableswts2016_e/a22.xls",
+                                    "tableswts2016_e/a23.xls",
+                                    "tableswts2016_e/a24.xls",
+                                    "tableswts2016_e/a25.xls",
+                                    "tableswts2016_e/a26.xls",
+                                    "tableswts2016_e/a27.xls",
+                                    "tableswts2016_e/a28.xls",
+                                    "tableswts2016_e/a29.xls",
+                                    "tableswts2016_e/a30.xls",
+                                    "tableswts2016_e/a31.xls",
+                                    "tableswts2016_e/a32.xls",
+                                    "tableswts2016_e/a33.xls",
+                                    "tableswts2016_e/a34.xls",
+                                    "tableswts2016_e/a35.xls",
+                                    "tableswts2016_e/a36.xls",
+                                    "tableswts2016_e/a37.xls",
+                                    "tableswts2016_e/a38.xls",
+                                    "tableswts2016_e/a39.xls",
+                                    "tableswts2016_e/a40.xls",
+                                    "tableswts2016_e/a41.xls",
+                                    "tableswts2016_e/a42.xls",
+                                    "tableswts2016_e/a43.xls",
+                                    "tableswts2016_e/a44.xls",
+                                    "tableswts2016_e/a45.xls",
+                                    "tableswts2016_e/a46.xls",
+                                    "tableswts2016_e/a47.xls",
+                                    "tableswts2016_e/a48.xls",
+                                    "tableswts2016_e/a49.xls",
+                                    "tableswts2016_e/a50.xls",
+                                    "tableswts2016_e/a51.xls",
+                                    "tableswts2016_e/a52.xls",
+                                    "tableswts2016_e/a53.xls",
+                                    "tableswts2016_e/a54.xls",
+                                    "tableswts2016_e/a55a.xls",
+                                    "tableswts2016_e/a55b.xls",
+                                    "tableswts2016_e/a56.xls",
+                                    "tableswts2016_e/a57.xls",
+                                    "tableswts2016_e/a58.xls",
+                                    "tableswts2016_e/a59.xls",
+                                    "tableswts2016_e/a60.xls",
+                                    "tableswts2016_e/a61.xls",
+                                    "tableswts2016_e/a62.xls",
+                                    "tableswts2016_e/a63.xls",
+                                    "tableswts2016_e/a64.xls",
+                                    "tableswts2016_e/a65.xls",
+                                    "tableswts2016_e/a66.xls",
+                                    "tableswts2016_e/a67.xls",
+                                    "tableswts2016_e/a68.xls",
+                                    "tableswts2016_e/a69.xls"
+                                ],
+                                "zip_inspeccion": "ok",
+                                "zip_bytes_descargados": 73220,
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "wts2016_e.csv": {
+                                "descripcion": "World Trade Statistics 2016",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts2016_e.pdf",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "WTO_|_Trade_Statistics_-_World_Trade_Statistical_Review_2016.csv": {
+                                        "descripcion": "WTO | Trade Statistics - World Trade Statistical Review 2016",
+                                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/wts2016_e/wts16_toc_e.htm",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.wto.org/english/res_e/statis_e/its_e.htm",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "World_Trade_Statistical_Review_since_2016": {
+                        "interactive_tool": {
+                            "statistics2023_e.csv": {
+                                "descripcion": "Download excel tables",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/statistics2023_e.zip",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "ZIP",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/statistics2023_e.htm",
+                                "contenido_zip": [
+                                    "Statistical Tables_Table of Contents.xlsx",
+                                    "Table 1 Growth in the volume of world merchandise exports and production, 2010-2023.xlsx",
+                                    "Table 10 Ratio of exports of goods and commercial services to GDP of the least-developed countries, 2023.xls",
+                                    "Table 11 Merchandise exports and imports of least-developed countries, 2023.xls",
+                                    "Table 12 Exports and imports of commercial services of least-developed countries, 2023.xls",
+                                    "Table 13 Top 10 exporters and importers of agricultural products, 2023.xls",
+                                    "Table 14 Top 10 exporters and importers of food, 2023.xls",
+                                    "Table 15 Top 10 exporters and importers of fuels and mining products, 2023.xls",
+                                    "Table 16 Top 10 exporters and importers of manufactures, 2023.xls",
+                                    "Table 17 Top 10 exporters and importers of iron and steel, 2023.xls",
+                                    "Table 18 Top 10 exporters and importers of chemicals, 2023.xls",
+                                    "Table 19 Top 10 exporters and importers of office and telecom equipment, 2023.xls",
+                                    "Table 2 Growth in the volume of world merchandise trade by selected region and economy, 2010-2023.xlsx",
+                                    "Table 20 Top 10 exporters and importers of automotive products, 2023.xls",
+                                    "Table 21 Top 10 exporters and importers of textiles, 2023.xls",
+                                    "Table 22 Top 10 exporters and importers of clothing, 2023.xls",
+                                    "Table 23 World trade in commercial services by category, 2023.xls",
+                                    "Table 24 Growth of commercial services exports by category and by region, 2010-2023.xls",
+                                    "Table 25 World trade in goods-related services by region, 2023.xls",
+                                    "Table 26 Major exporters and importers of goods-related services, 2023.xls",
+                                    "Table 27 Major exporters and importers of manufacturing services on physical imputs owned by others, 2022 and 2023.xls",
+                                    "Table 28 Major exporters and importers of maintenance and repair services, 2022 and 2023.xls",
+                                    "Table 29 World trade in transport by region, 2023.xls",
+                                    "Table 3 World merchandise trade and trade in commercial services by region and selected economy, 2010-2023.xls",
+                                    "Table 30 Leading exporters and importers of transport, 2023.xls",
+                                    "Table 31 World trade in travel by region, 2023.xls",
+                                    "Table 32 Leading exporters and importers of travel, 2023.xls",
+                                    "Table 33 World trade in other commerical services by region, 2023.xls",
+                                    "Table 34 Leading exporters and importers of other commercial services, 2023.xls",
+                                    "Table 35 World exports of construction by region, 2022 and 2023.xls",
+                                    "Table 36 Major exporters and importers of construction, 2022 and 2023.xls",
+                                    "Table 37 World exports of insurance and pension services by region, 2022 and 2023.xls",
+                                    "Table 38 Major exporters and importers of insurance and pension services, 2022 and 2023.xls",
+                                    "Table 39 World exports of financial services by region, 2022 and 2023.xls",
+                                    "Table 4 World merchandise exports by region and selected economy, 1948, 1953, 1963, 1973, 1983, 1993, 2003 and 2023.xls",
+                                    "Table 40 Major exporters and importers of financial services, 2022 and 2023.xls",
+                                    "Table 41 World receipts of charges for the use of intellectual property n.i.e. by region, 2022 and 2023.xls",
+                                    "Table 42 Major exporters and importers of charges for the use of intellectual property n.i.e., 2022 and 2023.xls",
+                                    "Table 43 World exports of telecommunications, computer and information services by region, 2022 and 2023.xls",
+                                    "Table 44 Major exporters and importers of telecommunications, computer and information services, 2022 and 2023.xls",
+                                    "Table 45 Major exporters and importers of telecommunications services, 2022 and 2023.xls",
+                                    "Table 46 Major exporters and importers of computer services, 2022 and 2023.xls",
+                                    "Table 47 World exports of other business services by region, 2022 and 2023.xls",
+                                    "Table 48 Major exporters and importers of other business services, 2022 and 2023.xls",
+                                    "Table 49 Trade in other business services by category in selected economies, 2022.xls",
+                                    "Table 5 World merchandise imports by region and selected economy, 1948, 1953, 1963, 1973, 1983, 1993, 2003 and 2023.xls",
+                                    "Table 50 World exports of personal, cultural and recreational services by region, 2022 and 2023.xls",
+                                    "Table 51 Major exporters and importers of personal, cultural and recreational services, 2022 and 2023.xls",
+                                    "Table 52 Major exporters and importers of audio-visual and related services, 2022 and 2023.xls",
+                                    "Table 53 Leading exporters and importers of intermediate goods, 2022.xls",
+                                    "Table 54a World merchandise exports and gross domestic product, 1950-2023.xlsx",
+                                    "Table 54b World merchandise exports and gross domestic product, 1950-2023.xlsx",
+                                    "Table 55 Merchandise trade by selected groups of economies, 2013-2023.xls",
+                                    "Table 56 Trade in commercial services by selected groups of economies, 2013-2023.xls",
+                                    "Table 57 World merchandise exports by region and selected economy, 2013-2023.xls",
+                                    "Table 58 World merchandise imports by region and selected economy, 2013-2023.xls",
+                                    "Table 59 World exports of commercial services by region and selected economy, 2013-2023.xls",
+                                    "Table 6 Leading exporters and importers in world merchandise trade, 2023.xls",
+                                    "Table 60 World imports of commercial services by region and selected economy, 2013-2023.xls",
+                                    "Table 61 World merchandise exports of intermediate goods by region and selected economy, 2012-2022.xls",
+                                    "Table 62 World merchandise imports of intermediate goods by region and selected economy, 2012-2022.xls",
+                                    "Table 7 Leading exporters and importers in world merchandise trade (excluding intra-EU trade), 2023.xls",
+                                    "Table 8 Leading exporters and importers in world trade in commercial services, 2023.xls",
+                                    "Table 9 Leading exporters and importers in world trade in commercial services (excluding intra-EU trade), 2023.xls"
+                                ],
+                                "zip_inspeccion": "ok",
+                                "zip_bytes_descargados": 73842,
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "WTO_|_World_Trade_Statistics_2023.csv": {
+                                        "descripcion": "WTO | World Trade Statistics 2023",
+                                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/statistics2023_e.htm",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://www.wto.org/english/res_e/statis_e/wts_e.htm",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            },
+                            "español": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "OMC_|_Estadísticas_del_comercio_mundial_2023.csv": {
+                                            "descripcion": "OMC | Estadísticas del comercio mundial 2023",
+                                            "url_descarga": "https://www.wto.org/spanish/res_s/statis_s/statistics2023_s.htm",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://www.wto.org/english/res_e/statis_e/statistics2023_e.htm",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": false
+                                        }
+                                    }
+                                }
+                            },
+                            "français": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "OMC_|_Statistiques_du_commerce_mondial_2023.csv": {
+                                            "descripcion": "OMC | Statistiques du commerce mondial 2023",
+                                            "url_descarga": "https://www.wto.org/french/res_f/statis_f/statistics2023_f.htm",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://www.wto.org/english/res_e/statis_e/statistics2023_e.htm",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "World_Trade_Statistics_–_Key_insights_and_trends": {
+                    "world_trade_statistics_e.csv": {
+                        "descripcion": "Download excel tables",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/world_trade_statistics_e.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/world_trade_statistics_e.htm",
+                        "contenido_zip": [
+                            "Statistical Tables 2026/Statistical Tables_Table of Contents.xlsx",
+                            "Statistical Tables 2026/Table 1 Growth in the volume of world merchandise exports and production, 2010-2024.xlsx",
+                            "Statistical Tables 2026/Table 10 Ratio of exports of goods and commercial services to GDP of the least-developed countries, 2025.xls",
+                            "Statistical Tables 2026/Table 11 Merchandise exports and imports of least-developed countries, 2025.xls",
+                            "Statistical Tables 2026/Table 12 Exports and imports of commercial services of least-developed countries, 2025.xls",
+                            "Statistical Tables 2026/Table 13 Top 10 exporters and importers of agricultural products, 2025.xls",
+                            "Statistical Tables 2026/Table 14 Top 10 exporters and importers of food, 2025.xls",
+                            "Statistical Tables 2026/Table 15 Top 10 exporters and importers of fuels and mining products, 2025.xls",
+                            "Statistical Tables 2026/Table 16 Top 10 exporters and importers of manufactures, 2025.xls",
+                            "Statistical Tables 2026/Table 17 Top 10 exporters and importers of iron and steel, 2025.xls",
+                            "Statistical Tables 2026/Table 18 Top 10 exporters and importers of chemicals, 2025.xls",
+                            "Statistical Tables 2026/Table 19 Top 10 exporters and importers of office and telecom equipment, 2025.xls",
+                            "Statistical Tables 2026/Table 2 Growth in the volume of world merchandise trade by selected region and economy, 2010-2025.xls",
+                            "Statistical Tables 2026/Table 20 Top 10 exporters and importers of automotive products, 2025.xls",
+                            "Statistical Tables 2026/Table 21 Top 10 exporters and importers of textiles, 2025.xls",
+                            "Statistical Tables 2026/Table 22 Top 10 exporters and importers of clothing, 2025.xls",
+                            "Statistical Tables 2026/Table 23 World trade in commercial services by category, 2025.xls",
+                            "Statistical Tables 2026/Table 24 Growth of commercial services exports by category and by region, 2010-2025.xls",
+                            "Statistical Tables 2026/Table 25 World trade in goods-related services by region, 2025.xls",
+                            "Statistical Tables 2026/Table 26 Major exporters and importers of goods-related services, 2025.xls",
+                            "Statistical Tables 2026/Table 27 Major exporters and importers of manufacturing services on physical inputs owned by others, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 28 Major exporters and importers of maintenance and repair services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 29 World trade in transport by region, 2025.xls",
+                            "Statistical Tables 2026/Table 3 World merchandise trade and trade in commercial services by region and selected economy, 2010-2025.xls",
+                            "Statistical Tables 2026/Table 30 Leading exporters and importers of transport, 2025.xls",
+                            "Statistical Tables 2026/Table 31 World trade in travel by region, 2025.xls",
+                            "Statistical Tables 2026/Table 32 Leading exporters and importers of travel, 2025.xls",
+                            "Statistical Tables 2026/Table 33 World trade in other commercial services by region, 2025.xls",
+                            "Statistical Tables 2026/Table 34 Leading exporters and importers of other commercial services, 2025.xls",
+                            "Statistical Tables 2026/Table 35 World exports of construction by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 36 Major exporters and importers of construction, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 37 World exports of insurance and pension services by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 38 Major exporters and importers of insurance and pension services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 39 World exports of financial services by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 4 World merchandise exports by region and selected economy, 1948, 1953, 1963, 1973, 1983, 1993, 2003 and 2025.xls",
+                            "Statistical Tables 2026/Table 40 Major exporters and importers of financial services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 41 World receipts of charges for the use of intellectual property n.i.e. by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 42 Major exporters and importers of charges for the use of intellectual property n.i.e., 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 43 World exports of telecommunications, computer and information services by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 44 Major exporters and importers of telecommunications, computer and information services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 45 Major exporters and importers of telecommunications services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 46 Major exporters and importers of computer services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 47 World exports of other business services by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 48 Major exporters and importers of other business services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 49 Trade in other business services by category in selected economies, 2024.xls",
+                            "Statistical Tables 2026/Table 5 World merchandise imports by region and selected economy, 1948, 1953, 1963, 1973, 1983, 1993, 2003 and 2025.xls",
+                            "Statistical Tables 2026/Table 50 World exports of personal, cultural and recreational services by region, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 51 Major exporters and importers of personal, cultural and recreational services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 52 Major exporters and importers of audio-visual and related services, 2024 and 2025.xls",
+                            "Statistical Tables 2026/Table 53 Leading exporters and importers of intermediate goods, 2025.xls",
+                            "Statistical Tables 2026/Table 54a World merchandise exports and gross domestic product, 1950-2024.xlsx",
+                            "Statistical Tables 2026/Table 54b World merchandise exports and gross domestic product, 1950-2024.xlsx",
+                            "Statistical Tables 2026/Table 55 Merchandise trade by selected groups of economies, 2015-2025.xls",
+                            "Statistical Tables 2026/Table 56 Trade in commercial services by selected groups of economies, 2015-2025.xls",
+                            "Statistical Tables 2026/Table 57 World merchandise exports by region and selected economy, 2015-2025.xls",
+                            "Statistical Tables 2026/Table 58 World merchandise imports by region and selected economy, 2015-2025.xls",
+                            "Statistical Tables 2026/Table 59 World exports of commercial services by region and selected economy, 2015-2025.xls",
+                            "Statistical Tables 2026/Table 6 Leading exporters and importers in world merchandise trade, 2025.xls",
+                            "Statistical Tables 2026/Table 60 World imports of commercial services by region and selected economy, 2015-2025.xls",
+                            "Statistical Tables 2026/Table 61 World merchandise exports of intermediate goods by region and selected economy, 2014-2024.xls",
+                            "Statistical Tables 2026/Table 62 World merchandise imports of intermediate goods by region and selected economy, 2014-2024.xls",
+                            "Statistical Tables 2026/Table 7 Leading exporters and importers in world merchandise trade (excluding intra-EU trade), 2025.xls",
+                            "Statistical Tables 2026/Table 8 Leading exporters and importers in world trade in commercial services, 2025.xls",
+                            "Statistical Tables 2026/Table 9 Leading exporters and importers in world trade in commercial services (excluding intra-EU trade), 2025.xls"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 77007,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_|_World_Trade_Statistics_2025.csv": {
+                                "descripcion": "WTO | World Trade Statistics 2025",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/world_trade_statistics_e.htm",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "español": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "OMC_|_Estadísticas_del_comercio_mundial_2025.csv": {
+                                    "descripcion": "OMC | Estadísticas del comercio mundial 2025",
+                                    "url_descarga": "https://www.wto.org/spanish/res_s/statis_s/world_trade_statistics_s.htm",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.wto.org/english/res_e/statis_e/world_trade_statistics_e.htm",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "français": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "OMC_|_Statistiques_du_commerce_mondial_2025.csv": {
+                                    "descripcion": "OMC | Statistiques du commerce mondial 2025",
+                                    "url_descarga": "https://www.wto.org/french/res_f/statis_f/world_trade_statistics_f.htm",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.wto.org/english/res_e/statis_e/world_trade_statistics_e.htm",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Handbook_on_Measuring_Digital_Trade": {
+                    "digital_trade_2023_e.csv": {
+                        "descripcion": "Download PDF",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_2023_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_chforeword_e.csv": {
+                        "descripcion": "Acknowledgements, foreword and executive summary",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_chforeword_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_ch1_e.csv": {
+                        "descripcion": "Introduction",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_ch1_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_ch2_e.csv": {
+                        "descripcion": "The conceptual framework for measuring digital trade",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_ch2_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_ch3_e.csv": {
+                        "descripcion": "Digitally ordered trade",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_ch3_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_ch4_e.csv": {
+                        "descripcion": "Digitally delivered trade",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_ch4_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_ch5_e.csv": {
+                        "descripcion": "Digital intermediation platforms (DIPs)",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_ch5_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_ch6_e.csv": {
+                        "descripcion": "Case studies",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_ch6_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_channex_e.csv": {
+                        "descripcion": "Annexes",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_channex_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "digital_trade_23_chbibliography_e.csv": {
+                        "descripcion": "Bibliography",
+                        "url_descarga": "https://www.wto.org/english/res_e/booksp_e/digital_trade_23_chbibliography_e.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/publications_e/digital_trade_2023_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "español": {
+                        "digital_trade_2023_s.csv": {
+                            "descripcion": "Descargar la PDF",
+                            "url_descarga": "https://www.wto.org/spanish/res_s/booksp_s/digital_trade_2023_s.pdf",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.wto.org/spanish/res_s/publications_s/digital_trade_2023_s.htm",
+                            "metodo_deteccion": "url_extension"
+                        }
+                    },
+                    "français": {
+                        "digital_trade_2023_f.csv": {
+                            "descripcion": "Télécharger le PDF",
+                            "url_descarga": "https://www.wto.org/french/res_f/booksp_f/digital_trade_2023_f.pdf",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://www.wto.org/french/res_f/publications_f/digital_trade_2023_f.htm",
+                            "metodo_deteccion": "url_extension"
+                        }
+                    }
+                },
+                "Bulk_download_of_select_services_datasets": {
+                    "OECD-WTO_BATIS_data_BPM6-1.csv": {
+                        "descripcion": "data",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_data_BPM6-1.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "OECD-WTO_BATIS_BPM6_December2025_bulk.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65668,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_BATIS_codes_BPM6-1.csv": {
+                        "descripcion": "codes",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_codes_BPM6-1.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "OECD-WTO_BATIS_BPM6_December2025_codes.xlsx"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 31487,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_Batis_methodology_BPM6.csv": {
+                        "descripcion": "methodological paper",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_Batis_methodology_BPM6.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_BATIS_data.csv": {
+                        "descripcion": "data",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_data.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "OECD-WTO_BATIS_data.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65662,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_BATIS_codes.csv": {
+                        "descripcion": "codes",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_codes.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "OECD-WTO_BATIS_codes.xlsx"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 21153,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_Batis_methodology.csv": {
+                        "descripcion": "methodological paper",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_Batis_methodology.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_imports.csv": {
+                        "descripcion": "imports",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_imports.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "TISMOS_Imports.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65657,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_exports.csv": {
+                        "descripcion": "exports",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_exports.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "TISMOS_Exports.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65657,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_codes.csv": {
+                        "descripcion": "codes",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_codes.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_methodology.csv": {
+                        "descripcion": "methodological paper",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_methodology.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_addendum_FATS.csv": {
+                        "descripcion": "FATS output dataset",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_addendum_FATS.csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos.csv": {
+                        "descripcion": "Download all",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                        "contenido_zip": [
+                            "TiSMoS.csv",
+                            "TISMOS_addendum_FATS.csv",
+                            "TiSMoS_codes.xlsx",
+                            "Tismos_methodology.pdf"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65958,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_|_Trade_Statistics_-_Bulk_download_of_select_services_datasets.csv": {
+                                "descripcion": "WTO | Trade Statistics - Bulk download of select services datasets",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "español": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "OMC_|_Recursos_-_Descarga_de_determinados_conjuntos_de_datos_sobre_los_servicios.csv": {
+                                    "descripcion": "OMC | Recursos - Descarga de determinados conjuntos de datos sobre los servicios",
+                                    "url_descarga": "https://www.wto.org/spanish/res_s/statis_s/trade_datasets_s.htm",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "français": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "OMC_|_Ressources_-_Téléchargement_en_bloc_de_certains_ensembles_de_données_sur_les_services.csv": {
+                                    "descripcion": "OMC | Ressources - Téléchargement en bloc de certains ensembles de données sur les services",
+                                    "url_descarga": "https://www.wto.org/french/res_f/statis_f/trade_datasets_f.htm",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_datasets_e.htm",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    }
+                },
+                "Strait_of_Hormuz_Trade_Tracker": {
+                    "methodological_notes.docx.csv": {
+                        "descripcion": "Methodology",
+                        "url_descarga": "https://datalab.wto.org/sites/default/files/2026-03/methodological_notes.docx_.pdf",
+                        "fecha_actualizacion": "2026-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://datalab.wto.org/Strait-of-Hormuz-Trade-Tracker",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Hormuz_Tracker_insights_15_June_2026_(1).csv": {
+                        "descripcion": "Previous Insights",
+                        "url_descarga": "https://datalab.wto.org/sites/default/files/2026-06/Hormuz%20Tracker%20insights_15%20June%202026%20%281%29.pdf",
+                        "fecha_actualizacion": "2026-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://datalab.wto.org/Strait-of-Hormuz-Trade-Tracker",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Strait_of_Hormuz_Trade_Tracker_|_Data_Lab.csv": {
+                                "descripcion": "Strait of Hormuz Trade Tracker | Data Lab",
+                                "url_descarga": "https://datalab.wto.org/Strait-of-Hormuz-Trade-Tracker",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "Handy_Statistics": {
+                    "world_trade_growth.csv": {
+                        "descripcion": "world_trade_growth.xlsx",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/trade_evolution_e/world_trade_growth.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_evolution_e/evolution_trade_wto_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "world_trade_values.csv": {
+                        "descripcion": "world_trade_values.xlsx",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/trade_evolution_e/world_trade_values.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/trade_evolution_e/evolution_trade_wto_e.htm",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_|_Evolution_of_trade_under_the_WTO_handy_statistics.csv": {
+                                "descripcion": "WTO | Evolution of trade under the WTO: handy statistics",
+                                "url_descarga": "https://www.wto.org/english/res_e/statis_e/trade_evolution_e/evolution_trade_wto_e.htm",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "Data_Lab": {
+                    "Data_partnerships": {
+                        "ABRAMS_world_trade_wiki_data.csv": {
+                            "descripcion": "ABRAMS world trade wiki data.xlsx",
+                            "url_descarga": "https://datalab.wto.org/sites/default/files/2023-01/ABRAMS%20world%20trade%20wiki%20data.xlsx",
+                            "fecha_actualizacion": "2023-01",
+                            "tipo_archivo": "XLSX",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "Abrams_-_Form.csv": {
+                            "descripcion": "Abrams - Form.docx",
+                            "url_descarga": "https://datalab.wto.org/sites/default/files/2023-01/Abrams%20-%20Form.docx",
+                            "fecha_actualizacion": "2023-01",
+                            "tipo_archivo": "DOCX",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "Detailed_presentation_for_website.csv": {
+                            "descripcion": "Detailed presentation for website.docx",
+                            "url_descarga": "https://datalab.wto.org/sites/default/files/2023-11/Detailed%20presentation%20for%20website.docx",
+                            "fecha_actualizacion": "2023-11",
+                            "tipo_archivo": "DOCX",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "Detailed_presentation_for_website_Interos.csv": {
+                            "descripcion": "Detailed presentation for website_Interos.docx",
+                            "url_descarga": "https://datalab.wto.org/sites/default/files/2023-05/Detailed%20presentation%20for%20website_Interos.docx",
+                            "fecha_actualizacion": "2023-05",
+                            "tipo_archivo": "DOCX",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "ersd_research_note3_small_business_and_climate_change.csv": {
+                            "descripcion": "Small Business and Climate Change – Research Note #3",
+                            "url_descarga": "https://www.wto.org/english/tratop_e/msmes_e/ersd_research_note3_small_business_and_climate_change.pdf",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "PDF",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "Meta_-_about_data_for_good_lmcg_edits_0.csv": {
+                            "descripcion": "Meta - about data for good_lmcg edits_0.docx",
+                            "url_descarga": "https://datalab.wto.org/sites/default/files/2023-01/Meta%20-%20about%20data%20for%20good_lmcg%20edits_0.docx",
+                            "fecha_actualizacion": "2023-01",
+                            "tipo_archivo": "DOCX",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "P44_DetailedDescription.csv": {
+                            "descripcion": "P44_DetailedDescription.docx",
+                            "url_descarga": "https://datalab.wto.org/sites/default/files/2023-05/P44_DetailedDescription.docx",
+                            "fecha_actualizacion": "2023-05",
+                            "tipo_archivo": "DOCX",
+                            "url_origen": "https://datalab.wto.org/data-partnerships",
+                            "metodo_deteccion": "url_extension"
+                        },
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Global_Trade_Data_Portal.csv": {
+                                    "descripcion": "WTO Global Trade Data Portal",
+                                    "url_descarga": "https://datalab.wto.org/data-partnerships",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://datalab.wto.org/",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "Real-time_data": {
+                        "Wheat_dashboard": {
+                            "WTO_IGC_dashboard_Methodology_201023_Uploaded2.csv": {
+                                "descripcion": "Methodology",
+                                "url_descarga": "https://datalab.wto.org/sites/default/files/2023-11/WTO_IGC_dashboard_Methodology_201023_Uploaded2.pdf",
+                                "fecha_actualizacion": "2023-11",
+                                "tipo_archivo": "PDF",
+                                "url_origen": "https://datalab.wto.org/real-time-data-based-on-non-wto-data-sources",
+                                "metodo_deteccion": "url_extension"
+                            },
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Wheat_maritime_trade_&_food_security_|_Data_Lab.csv": {
+                                        "descripcion": "Wheat maritime trade & food security | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/real-time-data-based-on-non-wto-data-sources",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/real-time-data",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "Real-time_data_based_on_non-WTO_data_sources_|_Data_Lab.csv": {
+                                    "descripcion": "Real-time data based on non-WTO data sources | Data Lab",
+                                    "url_descarga": "https://datalab.wto.org/real-time-data",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://datalab.wto.org/",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "data_chart",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": false,
+                                    "tiene_filtros": false
+                                }
+                            }
+                        }
+                    },
+                    "WTO_trade_data": {
+                        "other_WTO_data": {
+                            "Food_processing_and_global_trade_flows_What_are_the_trends?_2_December_2025": {
+                                "s41430-022-01099-1.csv": {
+                                    "descripcion": "critics argue",
+                                    "url_descarga": "https://www.nature.com/articles/s41430-022-01099-1.pdf",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "PDF",
+                                    "url_origen": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_02dec25_226_e.htm",
+                                    "metodo_deteccion": "url_extension"
+                                },
+                                "HS2022_food_codes_list.csv": {
+                                    "descripcion": "here",
+                                    "url_descarga": "https://www.wto.org/english/news_e/news_docs/HS2022_food_codes_list.xlsx",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "XLSX",
+                                    "url_origen": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_02dec25_226_e.htm",
+                                    "metodo_deteccion": "url_extension"
+                                },
+                                "blog_db_data_e.csv": {
+                                    "descripcion": "Download data used in figures",
+                                    "url_descarga": "https://www.wto.org/english/news_e/news_docs/blog_db_data_e.xlsx",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "XLSX",
+                                    "url_origen": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_02dec25_226_e.htm",
+                                    "metodo_deteccion": "url_extension"
+                                },
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "WTO_Blog_|_Data_Blog_-_Food_processing_and_global_trade_flows_What_are_the_trends?.csv": {
+                                            "descripcion": "WTO Blog | Data Blog - Food processing and global trade flows: What are the trends?",
+                                            "url_descarga": "https://www.wto.org/english/blogs_e/data_blog_e/blog_dta_02dec25_226_e.htm",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://data.wto.org/en",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": false
+                                        }
+                                    }
+                                }
+                            },
+                            "Catalogue": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                                            "descripcion": "Trade Data Datasets - WTO Data Portal",
+                                            "url_descarga": "https://data.wto.org/en/dataset/",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://data.wto.org/en",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": true
+                                        }
+                                    }
+                                }
+                            },
+                            "Trade_in_Goods": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                                            "descripcion": "Trade Data Datasets - WTO Data Portal",
+                                            "url_descarga": "https://data.wto.org/en/dataset/?groups=goods",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://data.wto.org/en",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": true
+                                        }
+                                    }
+                                }
+                            },
+                            "Trade_in_Services": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                                            "descripcion": "Trade Data Datasets - WTO Data Portal",
+                                            "url_descarga": "https://data.wto.org/en/dataset/?groups=services",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://data.wto.org/en",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": true
+                                        }
+                                    }
+                                }
+                            },
+                            "article_shortcut_Notifications_Trade-related_laws,_regulations,_measures,_or_policies": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                                            "descripcion": "Trade Data Datasets - WTO Data Portal",
+                                            "url_descarga": "https://data.wto.org/en/dataset/?tags=Notifications",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://data.wto.org/en",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": true
+                                        }
+                                    }
+                                }
+                            },
+                            "View_all_→": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                                            "descripcion": "Trade Data Datasets - WTO Data Portal",
+                                            "url_descarga": "https://data.wto.org/dataset?sort=metadata_modified+desc",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://data.wto.org/en",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": true
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "WTO_Data_Lab_—_Where_data_innovation_meets_global_trade.csv": {
+                                "descripcion": "WTO Data Lab — Where data innovation meets global trade",
+                                "url_descarga": "https://datalab.wto.org/",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "data_chart",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": false,
+                                "tiene_filtros": false
+                            }
+                        }
+                    },
+                    "Open_data_sources": {
+                        "REPORTE_Y_CONSULTAS": {
+                            "CONTENIDO_WEB": {
+                                "WTO_Global_Trade_Data_Portal.csv": {
+                                    "descripcion": "WTO Global Trade Data Portal",
+                                    "url_descarga": "https://datalab.wto.org/resource-library",
+                                    "fecha_actualizacion": "No disponible",
+                                    "tipo_archivo": "WEB",
+                                    "url_origen": "https://datalab.wto.org/",
+                                    "tipo_recurso": "web",
+                                    "metodo_deteccion": "exportable_data_page",
+                                    "tiene_tabla_html": false,
+                                    "tablas_detectadas": 0,
+                                    "permite_exportar": true,
+                                    "tiene_filtros": true
+                                }
+                            }
+                        },
+                        "Global": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Global_|_Data_Lab.csv": {
+                                        "descripcion": "Global | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/135",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Yearly": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Yearly_|_Data_Lab.csv": {
+                                        "descripcion": "Yearly | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/8",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Regional": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Regional_|_Data_Lab.csv": {
+                                        "descripcion": "Regional | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/137",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Country_specific": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Country_specific_|_Data_Lab.csv": {
+                                        "descripcion": "Country specific | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/136",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Imports_and_exports": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Imports_and_exports_|_Data_Lab.csv": {
+                                        "descripcion": "Imports and exports | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/161",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Trade": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Trade_|_Data_Lab.csv": {
+                                        "descripcion": "Trade | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/37",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "OECD_Members": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "OECD_Members_|_Data_Lab.csv": {
+                                        "descripcion": "OECD Members | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/138",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Costa_Rica": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Costa_Rica_|_Data_Lab.csv": {
+                                        "descripcion": "Costa Rica | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/167",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Lithuania": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Lithuania_|_Data_Lab.csv": {
+                                        "descripcion": "Lithuania | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/169",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Developing_economies": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Developing_economies_|_Data_Lab.csv": {
+                                        "descripcion": "Developing economies | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/140",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Donor_countries": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Donor_countries_|_Data_Lab.csv": {
+                                        "descripcion": "Donor countries | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/141",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Climate_change_indicators": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Climate_change_indicators_|_Data_Lab.csv": {
+                                        "descripcion": "Climate change indicators | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/11",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Trade_statistics": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Trade_statistics_|_Data_Lab.csv": {
+                                        "descripcion": "Trade statistics | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/36",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Value_of_imports_and_exports": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Value_of_imports_and_exports_|_Data_Lab.csv": {
+                                        "descripcion": "Value of imports and exports | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/155",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "exportable_data_page",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": true,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "China": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "China_|_Data_Lab.csv": {
+                                        "descripcion": "China | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/143",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "United_States": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "United_States_|_Data_Lab.csv": {
+                                        "descripcion": "United States | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/144",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Japan": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Japan_|_Data_Lab.csv": {
+                                        "descripcion": "Japan | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/146",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Non-OECD": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Non-OECD_|_Data_Lab.csv": {
+                                        "descripcion": "Non-OECD | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/165",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "BRICS": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "BRICS_|_Data_Lab.csv": {
+                                        "descripcion": "BRICS | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/166",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Indonesia": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Indonesia_|_Data_Lab.csv": {
+                                        "descripcion": "Indonesia | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/168",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Europe": {
+                            "REPORTE_Y_CONSULTAS": {
+                                "CONTENIDO_WEB": {
+                                    "Europe_|_Data_Lab.csv": {
+                                        "descripcion": "Europe | Data Lab",
+                                        "url_descarga": "https://datalab.wto.org/taxonomy/term/151",
+                                        "fecha_actualizacion": "No disponible",
+                                        "tipo_archivo": "WEB",
+                                        "url_origen": "https://datalab.wto.org/resource-library",
+                                        "tipo_recurso": "web",
+                                        "metodo_deteccion": "data_chart",
+                                        "tiene_tabla_html": false,
+                                        "tablas_detectadas": 0,
+                                        "permite_exportar": false,
+                                        "tiene_filtros": false
+                                    }
+                                }
+                            }
+                        },
+                        "Financial": {
+                            "International_Organisation": {
+                                "REPORTE_Y_CONSULTAS": {
+                                    "CONTENIDO_WEB": {
+                                        "International_Organisation_|_Data_Lab.csv": {
+                                            "descripcion": "International Organisation | Data Lab",
+                                            "url_descarga": "https://datalab.wto.org/taxonomy/term/1",
+                                            "fecha_actualizacion": "No disponible",
+                                            "tipo_archivo": "WEB",
+                                            "url_origen": "https://datalab.wto.org/taxonomy/term/17",
+                                            "tipo_recurso": "web",
+                                            "metodo_deteccion": "exportable_data_page",
+                                            "tiene_tabla_html": false,
+                                            "tablas_detectadas": 0,
+                                            "permite_exportar": true,
+                                            "tiene_filtros": false
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "WTO_|_Global_trade_statistics.csv": {
+                            "descripcion": "WTO | Global trade statistics",
+                            "url_descarga": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "WTO_|_Tariff_and_trade_data.csv": {
+                        "descripcion": "WTO | Tariff and trade data",
+                        "url_descarga": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.wto.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            },
+            "español": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "OMC_|_Aranceles_-_Cómo_obtener_datos_arancelarios.csv": {
+                            "descripcion": "OMC | Aranceles - Cómo obtener datos arancelarios",
+                            "url_descarga": "https://www.wto.org/spanish/tratop_s/tariffs_s/tariff_data_s.htm",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "WTO_Tariff_&_Trade_Data_Platform": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "WTO_Tariff_&_Trade_Data_|_Data_at_HS_6-digit_level.csv": {
+                            "descripcion": "WTO Tariff & Trade Data | Data at HS 6-digit level",
+                            "url_descarga": "https://ttd.wto.org/en/download/six-digit",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

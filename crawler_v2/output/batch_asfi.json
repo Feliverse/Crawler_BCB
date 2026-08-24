@@ -6,7 +6,8 @@
                 "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-09/Breve%20Rese%C3%B1a%20de%20la%20Regulaci%C3%B3n%20y%20Supervisi%C3%B3n%20Financiera%20en%20el%20Bicentenario%20de%20Bolivia.pdf",
                 "fecha_actualizacion": "2025-09",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/resena-historica"
+                "url_origen": "https://www.asfi.gob.bo/la/resena-historica",
+                "metodo_deteccion": "url_extension"
             }
         },
         "Mercado_de_Valores": {
@@ -15,21 +16,24 @@
                 "url_descarga": "https://servdmzw.asfi.gob.bo/CircularValores/Circulares/CircularesMV.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores"
+                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores",
+                "metodo_deteccion": "url_extension"
             },
             "Indice.csv": {
                 "descripcion": "Recopilación de Normas para el Mercado de Valores (RNMV)",
                 "url_descarga": "https://servdmzw.asfi.gob.bo/CircularValores/Textos/Indice.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores"
+                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores",
+                "metodo_deteccion": "url_extension"
             },
             "CartasCirculares.csv": {
                 "descripcion": "Cartas Circulares - Normas Contables",
                 "url_descarga": "https://servdmzw.asfi.gob.bo/CircularValores/ManualNCMV/CartasCirculares/CartasCirculares.pdf",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores"
+                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores",
+                "metodo_deteccion": "url_extension"
             }
         },
         "Estadísticas_Sobre_Supervisión_de_Legitimación_de_Ganancias_Ilícitas_y_Financiamiento_del_Terrorismo": {
@@ -38,21 +42,24 @@
                 "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-03/Intermediaci%C3%B3n%20Financiera%20Diciembre%202025.pdf",
                 "fecha_actualizacion": "2026-03",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo"
+                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                "metodo_deteccion": "url_extension"
             },
             "Mercado_de_Valores_Junio_2026.csv": {
                 "descripcion": "Mercado de Valores Junio 2026.pdf",
                 "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Mercado%20de%20Valores%20Junio%202026.pdf",
                 "fecha_actualizacion": "2026-07",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo"
+                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                "metodo_deteccion": "url_extension"
             },
             "Servicios_Financieros_Complementarios_Junio_2026.csv": {
                 "descripcion": "Servicios Financieros Complementarios Junio 2026.pdf",
                 "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Servicios%20Financieros%20Complementarios%20Junio%202026.pdf",
                 "fecha_actualizacion": "2026-07",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo"
+                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                "metodo_deteccion": "url_extension"
             },
             "REPORTE_Y_CONSULTAS": {
                 "CONTENIDO_WEB": {
@@ -62,6 +69,7 @@
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
                         "url_origen": "https://www.asfi.gob.bo/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "data_html_table",
                         "tiene_tabla_html": true,
                         "tablas_detectadas": 1,
@@ -77,7 +85,8 @@
                 "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Presentaci%C3%B3n%20de%20Inclusi%C3%B3n%20Financiera%20a%20Junio_2026.pdf",
                 "fecha_actualizacion": "2026-07",
                 "tipo_archivo": "PDF",
-                "url_origen": "https://www.asfi.gob.bo/node/1008"
+                "url_origen": "https://www.asfi.gob.bo/node/1008",
+                "metodo_deteccion": "url_extension"
             }
         },
         "Boletín_Trimestral_de_Actualización_y_Emisión_de_Normativa": {
@@ -87,14 +96,16 @@
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-04/Bolet%C3%ADn%2071%20-%20marzo%202026.pdf",
                     "fecha_actualizacion": "2026-04",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/la/boletin-trimestral-actualizacion-y-emision-normativa-2026"
+                    "url_origen": "https://www.asfi.gob.bo/la/boletin-trimestral-actualizacion-y-emision-normativa-2026",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Boletín_72_-_junio_2026.csv": {
                     "descripcion": "Boletín 72 - junio 2026.pdf",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Bolet%C3%ADn%2072%20-%20junio%202026.pdf",
                     "fecha_actualizacion": "2026-07",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/la/boletin-trimestral-actualizacion-y-emision-normativa-2026"
+                    "url_origen": "https://www.asfi.gob.bo/la/boletin-trimestral-actualizacion-y-emision-normativa-2026",
+                    "metodo_deteccion": "url_extension"
                 }
             }
         },
@@ -105,63 +116,72 @@
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-02/Evaluaci%C3%B3n%20del%20Sistema%20Financiero%20a%20Diciembre%20de%202025.pdf",
                     "fecha_actualizacion": "2026-02",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Las_Plataformas_de_Intercambio_de_Activos_Virtuales.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-01/Las%20Plataformas%20de%20Intercambio%20de%20Activos%20Virtuales.pdf",
                     "fecha_actualizacion": "2026-01",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Ciberseguridad_y_Gestión_de_Riesgos_en_la_Digitación_de_los_Servicios_Financieros.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-12/Ciberseguridad_y_Gesti%C3%B3n_de_Riesgos_en_la_Digitaci%C3%B3n_de_los_Servicios_Financieros.pdf",
                     "fecha_actualizacion": "2025-12",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Evaluación_del_Sistema_Financiero_a_Septiembre_de_2025.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-11/Evaluaci%C3%B3n%20del%20Sistema%20Financiero%20a%20Septiembre%20de%202025.pdf",
                     "fecha_actualizacion": "2025-11",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "10_Años_Encuesta_Nacional_Servicios_Financieros.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/10_A%C3%B1os_Encuesta_Nacional_Servicios_Financieros.pdf",
                     "fecha_actualizacion": "2025-10-10",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Entorno_Controlado_de_Pruebas_Hacia_un_Sistema_Financiero_Inclusivo_y_Seguro_en_Bolivia.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Entorno%20Controlado%20de%20Pruebas%20Hacia%20un%20Sistema%20Financiero%20Inclusivo%20y%20Seguro%20en%20Bolivia.pdf",
                     "fecha_actualizacion": "2025-10",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Evaluación_del_Sistema_Financiero_al_30_de_Junio_del_2025.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-09/Evaluaci%C3%B3n%20del%20Sistema%20Financiero%20al%2030%20de%20Junio%20del%202025.pdf",
                     "fecha_actualizacion": "2025-09",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Empresas_de_tecnología_financiera_en_Bolivia_Un_nuevo_horizonte_para_la_innovación_financiera.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-07/Empresas%20de%20tecnolog%C3%ADa%20financiera%20en%20Bolivia%20Un%20nuevo%20horizonte%20para%20la%20innovaci%C3%B3n%20financiera.pdf",
                     "fecha_actualizacion": "2025-07",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 },
                 "Bonos_sociales_con_enfoque_de_género_Impulsando_el_acceso_de_las_mujeres_al_crédito_en_Bolivia.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-07/Bonos%20sociales%20con%20enfoque%20de%20g%C3%A9nero%20Impulsando%20el%20acceso%20de%20las%20mujeres%20al%20cr%C3%A9dito%20en%20Bolivia.pdf",
                     "fecha_actualizacion": "2025-07",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines"
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
                 }
             }
         },
@@ -176,7 +196,10 @@
                     "contenido_zip": [
                         "Formulas_Indicadores/Formulas_Indicadores.ods",
                         "Formulas_Indicadores/Formulas_Indicadores.xls"
-                    ]
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65878,
+                    "metodo_deteccion": "url_extension"
                 }
             }
         }

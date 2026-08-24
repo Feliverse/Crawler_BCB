@@ -1,0 +1,257 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Asociación de Productores de Oleaginosas y Trigo
+URL configurada: https://www.anapobolivia.org
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+
+
+Resolución de fuente:
+  Original: https://www.anapobolivia.org
+  Utilizada: https://anapobolivia.org/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.anapobolivia.org/
+
+URL de trabajo: https://anapobolivia.org/
+Seeds: 1
+Máx páginas: 10000
+Máx archivos: 100000
+Máx profundidad: 20
+
+[FULL_5_ANAPO] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://anapobolivia.org/
+[FULL_5_ANAPO] DATASETS=1 | exportable_data_page | https://anapobolivia.org/
+[FULL_5_ANAPO] t=   2.3s | pag=  1 | files=   0 | data=  1 | cola=  53 | prio=10 | https://anapobolivia.org/estadisticas/
+[FULL_5_ANAPO] t=   3.8s | pag=  2 | files=   0 | data=  1 | cola=  60 | prio=10 | https://anapobolivia.org/clima/
+[FULL_5_ANAPO] t=   5.0s | pag=  3 | files=   0 | data=  1 | cola=  62 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2025/
+[FULL_5_ANAPO] DATASETS=2 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2025/?auto_viewer=true
+[FULL_5_ANAPO] t=   6.6s | pag=  4 | files=   0 | data=  2 | cola=  61 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2024/
+[FULL_5_ANAPO] DATASETS=3 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2024/?auto_viewer=true
+[FULL_5_ANAPO] t=   8.4s | pag=  5 | files=   0 | data=  3 | cola=  60 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2023/
+[FULL_5_ANAPO] DATASETS=4 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2023/?auto_viewer=true
+[FULL_5_ANAPO] t=   9.9s | pag=  6 | files=   0 | data=  4 | cola=  59 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2022/
+[FULL_5_ANAPO] DATASETS=5 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2022/?auto_viewer=true
+[FULL_5_ANAPO] t=  11.5s | pag=  7 | files=   0 | data=  5 | cola=  58 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2021/
+[FULL_5_ANAPO] DATASETS=6 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2021/?auto_viewer=true
+[FULL_5_ANAPO] t=  12.7s | pag=  8 | files=   0 | data=  6 | cola=  57 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2020/
+[FULL_5_ANAPO] DATASETS=7 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2020/?auto_viewer=true
+[FULL_5_ANAPO] t=  14.4s | pag=  9 | files=   0 | data=  7 | cola=  56 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2019/
+[FULL_5_ANAPO] DATASETS=8 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2019/?auto_viewer=true
+[FULL_5_ANAPO] t=  16.0s | pag= 10 | files=   0 | data=  8 | cola=  55 | prio=10 | https://anapobolivia.org/pdfviewer/estadisticas-2018/
+[FULL_5_ANAPO] DATASETS=9 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2018/?auto_viewer=true
+[FULL_5_ANAPO] t=  17.3s | pag= 11 | files=   0 | data=  9 | cola=  54 | prio=50 | https://anapobolivia.org/acerca-de/
+[FULL_5_ANAPO] t=  18.6s | pag= 12 | files=   0 | data=  9 | cola=  54 | prio=50 | https://anapobolivia.org/hitos-institucionales/
+[FULL_5_ANAPO] t=  20.1s | pag= 13 | files=   0 | data=  9 | cola=  53 | prio=50 | https://anapobolivia.org/personal-anapo/
+[FULL_5_ANAPO] t=  21.4s | pag= 14 | files=   0 | data=  9 | cola=  55 | prio=50 | https://anapobolivia.org/filiales/
+[FULL_5_ANAPO] t=  22.6s | pag= 15 | files=   0 | data=  9 | cola=  55 | prio=50 | https://anapobolivia.org/expresidentes/
+[FULL_5_ANAPO] t=  24.0s | pag= 16 | files=   0 | data=  9 | cola=  54 | prio=50 | https://anapobolivia.org/expo-soya/
+[FULL_5_ANAPO] t=  25.6s | pag= 17 | files=   0 | data=  9 | cola=  57 | prio=50 | https://anapobolivia.org/exposoya-chiquitania/
+[FULL_5_ANAPO] t=  27.2s | pag= 18 | files=   0 | data=  9 | cola=  56 | prio=50 | https://anapobolivia.org/dia-nacional-del-girasol/
+[FULL_5_ANAPO] t=  28.7s | pag= 19 | files=   0 | data=  9 | cola=  59 | prio=50 | https://anapobolivia.org/dia-nacional-del-trigo/
+[FULL_5_ANAPO] t=  30.2s | pag= 20 | files=   0 | data=  9 | cola=  62 | prio=50 | https://anapobolivia.org/expo-agro-norte/
+[FULL_5_ANAPO] t=  31.9s | pag= 21 | files=   0 | data=  9 | cola=  65 | prio=50 | https://anapobolivia.org/congreso-internacional-de-la-soya/
+[FULL_5_ANAPO] t=  33.1s | pag= 22 | files=   0 | data=  9 | cola=  66 | prio=50 | https://anapobolivia.org/congreso-internacional-de-agricultura-sostenible/
+[FULL_5_ANAPO] t=  34.2s | pag= 23 | files=   0 | data=  9 | cola=  66 | prio=50 | https://anapobolivia.org/programa-exportacion/
+[FULL_5_ANAPO] t=  35.6s | pag= 24 | files=   0 | data=  9 | cola=  65 | prio=50 | https://anapobolivia.org/programa-de-mejoramiento-genetico-pmgo/
+[FULL_5_ANAPO] t=  37.0s | pag= 25 | files=   0 | data=  9 | cola=  64 | prio=50 | https://anapobolivia.org/programa-soya-sostenible-pss/
+[FULL_5_ANAPO] t=  38.3s | pag= 26 | files=   0 | data=  9 | cola=  63 | prio=50 | https://anapobolivia.org/red-experimental-de-nutricion-de-cultivos/
+[FULL_5_ANAPO] t=  39.5s | pag= 27 | files=   0 | data=  9 | cola=  62 | prio=50 | https://anapobolivia.org/programas/
+[FULL_5_ANAPO] t=  40.9s | pag= 28 | files=   0 | data=  9 | cola=  61 | prio=50 | https://anapobolivia.org/manuales-tecnicos/
+[FULL_5_ANAPO] t=  42.5s | pag= 29 | files=   0 | data=  9 | cola=  63 | prio=50 | https://anapobolivia.org/hojas-divulgativas/
+[FULL_5_ANAPO] t=  44.1s | pag= 30 | files=   0 | data=  9 | cola=  68 | prio=50 | https://anapobolivia.org/cartillas-informativas/
+[FULL_5_ANAPO] t=  45.9s | pag= 31 | files=   0 | data=  9 | cola=  74 | prio=50 | https://anapobolivia.org/normativas/
+[FULL_5_ANAPO] t=  47.2s | pag= 32 | files=  98 | data=  9 | cola=  73 | prio=50 | https://anapobolivia.org/memorias-anuales/
+[FULL_5_ANAPO] t=  48.5s | pag= 33 | files=  98 | data=  9 | cola=  81 | prio=50 | https://anapobolivia.org/investigacion-tecnologica/
+[FULL_5_ANAPO] t=  50.1s | pag= 34 | files=  98 | data=  9 | cola=  80 | prio=50 | https://anapobolivia.org/gestion-de-caminos/
+[FULL_5_ANAPO] t=  51.2s | pag= 35 | files=  98 | data=  9 | cola=  79 | prio=50 | https://anapobolivia.org/colecturia-de-impuestos/
+[FULL_5_ANAPO] t=  52.8s | pag= 36 | files=  98 | data=  9 | cola=  81 | prio=50 | https://anapobolivia.org/abastecimiento-diesel/
+[FULL_5_ANAPO] t=  54.2s | pag= 37 | files=  98 | data=  9 | cola=  80 | prio=50 | https://anapobolivia.org/complejo-semillero/
+[FULL_5_ANAPO] t=  55.5s | pag= 38 | files=  98 | data=  9 | cola=  79 | prio=50 | https://anapobolivia.org/comercializacion-de-semillas/
+[FULL_5_ANAPO] t=  56.9s | pag= 39 | files=  98 | data=  9 | cola=  80 | prio=50 | https://anapobolivia.org/comercializacion-de-semillas/comercializacion-de-semillas-soya/
+[FULL_5_ANAPO] t=  58.7s | pag= 40 | files=  99 | data=  9 | cola=  85 | prio=50 | https://anapobolivia.org/comercializacion-de-semillas/comercializacion-de-semillas-trigo/
+[FULL_5_ANAPO] t=  60.0s | pag= 41 | files=  99 | data=  9 | cola=  87 | prio=50 | https://anapobolivia.org/asesoria-legal/
+[FULL_5_ANAPO] t=  61.6s | pag= 42 | files=  99 | data=  9 | cola=  86 | prio=50 | https://anapobolivia.org/servicios-laborales/
+[FULL_5_ANAPO] t=  63.2s | pag= 43 | files=  99 | data=  9 | cola=  85 | prio=50 | https://anapobolivia.org/abastecimiento-de-fertilizantes/
+[FULL_5_ANAPO] t=  64.9s | pag= 44 | files=  99 | data=  9 | cola=  87 | prio=50 | https://anapobolivia.org/soya-y-vida/
+[FULL_5_ANAPO] t=  66.6s | pag= 45 | files=  99 | data=  9 | cola=  87 | prio=50 | https://anapobolivia.org/quiero-afiliarme/
+[FULL_5_ANAPO] t=  67.8s | pag= 46 | files=  99 | data=  9 | cola=  88 | prio=50 | https://anapobolivia.org/con-la-liberacion-de-la-soya-hb4-y-bolivia-da-paso-tecnologico-para-ubicar-al-pais-entre-los-mayores-productores-del-mundo/
+[FULL_5_ANAPO] t=  69.2s | pag= 47 | files=  99 | data=  9 | cola=  89 | prio=10 | https://anapobolivia.org/anapo-reporta-disminucion-de-la-produccion-de-la-soya-de-verano-2025-2026-debido-a-las-lluvias/
+[FULL_5_ANAPO] t=  70.3s | pag= 48 | files=  99 | data=  9 | cola=  89 | prio=50 | https://anapobolivia.org/en-10-anos-la-soya-genero-mas-de-us-12-000-millones-en-exportaciones-y-aporto-a-la-seguridad-alimentaria-del-pais/
+[FULL_5_ANAPO] t=  72.0s | pag= 49 | files=  99 | data=  9 | cola=  90 | prio=50 | https://anapobolivia.org/nuevo/capacitaciones
+[FULL_5_ANAPO] t=  73.5s | pag= 50 | files=  99 | data=  9 | cola=  89 | prio=50 | https://anapobolivia.org/afiliacion/
+[FULL_5_ANAPO] t=  75.0s | pag= 51 | files=  99 | data=  9 | cola=  88 | prio=50 | https://anapobolivia.org/quiero-afiliarme//
+[FULL_5_ANAPO] t=  77.1s | pag= 51 | files=  99 | data=  9 | cola=  87 | prio=50 | https://anapobolivia.org/nuevo/clima/
+[FULL_5_ANAPO] t=  79.3s | pag= 51 | files=  99 | data=  9 | cola=  86 | prio=50 | https://anapobolivia.org/nuevo/manuales-tecnicos/
+[FULL_5_ANAPO] t=  81.6s | pag= 51 | files=  99 | data=  9 | cola=  85 | prio=50 | https://anapobolivia.org/nuevo/hojas-divulgativas/
+[FULL_5_ANAPO] t=  83.8s | pag= 51 | files=  99 | data=  9 | cola=  84 | prio=50 | https://anapobolivia.org/nuevo/normativas/
+[FULL_5_ANAPO] t=  85.8s | pag= 51 | files=  99 | data=  9 | cola=  83 | prio=50 | https://anapobolivia.org/anapo-el-ds-5676-castiga-al-pequeno-productor-motiva-mas-al-desvio-de-diesel-y-subira-el-precio-de-los-alimentos/
+[FULL_5_ANAPO] t=  87.5s | pag= 52 | files=  99 | data=  9 | cola=  83 | prio=50 | https://anapobolivia.org/anapo-proyecta-una-buena-produccion-del-girasol-en-este-invierno-pero-la-cosecha-esta-en-peligro-por-la-falta-de-diesel/
+[FULL_5_ANAPO] t=  88.7s | pag= 53 | files=  99 | data=  9 | cola=  82 | prio=50 | https://anapobolivia.org/anapo-realiza-el-dia-nacional-del-girasol-y-destaca-al-cultivo-como-el-cuarto-rubro-no-tradicional-de-exportacion/
+[FULL_5_ANAPO] t=  90.3s | pag= 54 | files=  99 | data=  9 | cola=  81 | prio=50 | https://anapobolivia.org/pdfviewer/pronostico-minetti-13-de-julio-de-2026/
+[FULL_5_ANAPO] t=  91.5s | pag= 55 | files=  99 | data=  9 | cola=  80 | prio=50 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-261/
+[FULL_5_ANAPO] t=  92.9s | pag= 56 | files=  99 | data=  9 | cola=  79 | prio=50 | https://anapobolivia.org/pdfviewer/precipitacion-20-abril-2026/
+[FULL_5_ANAPO] t=  94.4s | pag= 57 | files=  99 | data=  9 | cola=  78 | prio=50 | https://anapobolivia.org/nuevo/expresidentes/
+[FULL_5_ANAPO] t=  96.1s | pag= 57 | files=  99 | data=  9 | cola=  77 | prio=50 | https://anapobolivia.org/nuevo/filiales/
+[FULL_5_ANAPO] t=  98.4s | pag= 57 | files=  99 | data=  9 | cola=  76 | prio=50 | https://anapobolivia.org/nuevo/personal-anapo/
+[FULL_5_ANAPO] t= 101.0s | pag= 57 | files=  99 | data=  9 | cola=  75 | prio=50 | https://anapobolivia.org/anapo-la-restriccion-a-la-exportacion-de/
+[FULL_5_ANAPO] t= 104.3s | pag= 58 | files=  99 | data=  9 | cola=  76 | prio=50 | https://anapobolivia.org/exposoya-2024-acto-central/
+[FULL_5_ANAPO] t= 105.1s | pag= 59 | files=  99 | data=  9 | cola=  77 | prio=50 | https://anapobolivia.org/exposoya-2023-productores-reiteran-demanda-por-biotecnologia-y-el-desarrollo-de-la-exportacion-por-puerto-busch/
+[FULL_5_ANAPO] t= 106.6s | pag= 60 | files=  99 | data=  9 | cola=  76 | prio=50 | https://anapobolivia.org/exposoya-2022-llega-con-5-nuevas-variedades-desarrolladas-para-reducir-perdidas/
+[FULL_5_ANAPO] t= 108.1s | pag= 61 | files=  99 | data=  9 | cola=  75 | prio=50 | https://anapobolivia.org/anapo-el-girasol-consolida-su-papel-clave-en-la-exportacion-con-valor-agregado/
+[FULL_5_ANAPO] t= 109.4s | pag= 62 | files=  99 | data=  9 | cola=  75 | prio=50 | https://anapobolivia.org/dia-del-girasol-destacan-que-su-exportacion-es-con-valor-agregado-y-genera-mas-divisas-para-el-estado/
+[FULL_5_ANAPO] t= 110.9s | pag= 63 | files=  99 | data=  9 | cola=  75 | prio=50 | https://anapobolivia.org/dia-del-girasol-destacan-que-su-exportacion-es-con-valor-agregado-y-genera-mas-divisas-para-el-estado-2/
+[FULL_5_ANAPO] t= 112.5s | pag= 64 | files=  99 | data=  9 | cola=  75 | prio=50 | https://anapobolivia.org/anapo-celebra-el-dia-nacional-de-girasol-un-cultivo-en-incremento-en-los-ultimos-anos/
+[FULL_5_ANAPO] t= 114.1s | pag= 65 | files=  99 | data=  9 | cola=  74 | prio=50 | https://anapobolivia.org/anapo-plantea-plan-nacional-de-produccion-de-trigo-para-alcanzar-la-soberania-alimentaria/
+[FULL_5_ANAPO] t= 115.2s | pag= 66 | files=  99 | data=  9 | cola=  74 | prio=50 | https://anapobolivia.org/dia-del-trigo-productores-plantean-acelerar-la-aprobacion-de-la-semilla-hb4-tolerante-a-la-sequia/
+[FULL_5_ANAPO] t= 116.3s | pag= 67 | files=  99 | data=  9 | cola=  73 | prio=50 | https://anapobolivia.org/dia-nacional-del-trigo-productores-piden-al-gobierno-que-apruebe-tecnologia-hb4-para-acabar-con-el-deficit/
+[FULL_5_ANAPO] t= 117.5s | pag= 68 | files=  99 | data=  9 | cola=  72 | prio=50 | https://anapobolivia.org/en-el-dia-nacional-del-trigo-anapo-propone-pacto-productivo-para-aumentar-la-produccion-del-grano/
+[FULL_5_ANAPO] t= 119.0s | pag= 69 | files=  99 | data=  9 | cola=  71 | prio=50 | https://anapobolivia.org/agricultores-del-norte-integrado-de-santa-cruz-reafirmaron-la-sostenibilidad-en-la-exposoya-del-norte/
+[FULL_5_ANAPO] t= 120.1s | pag= 70 | files=  99 | data=  9 | cola=  72 | prio=10 | https://anapobolivia.org/en-reuniones-con-candidatos-anapo-planteo-liberar-las-exportaciones-y-acelerar-el-uso-de-la-biotecnologia/
+[FULL_5_ANAPO] t= 121.7s | pag= 71 | files=  99 | data=  9 | cola=  72 | prio=50 | https://anapobolivia.org/exposoya-del-norte-fortalece-el-aporte-de-la-zona-integrada-de-santa-cruz-a-la-produccion-del-pais/
+[FULL_5_ANAPO] t= 122.9s | pag= 72 | files=  99 | data=  9 | cola=  71 | prio=50 | https://anapobolivia.org/expo-agro-del-norte-2023-realza-el-esfuerzo-de-los-productores-por-promover-cultivos-sostenibles/
+[FULL_5_ANAPO] t= 124.3s | pag= 73 | files=  99 | data=  9 | cola=  71 | prio=50 | https://anapobolivia.org/productores-del-norte-consolidan-la-expo-agro-y-fortalecen-el-cultivo-de-soya-apta-para-la-region/
+[FULL_5_ANAPO] t= 125.3s | pag= 74 | files=  99 | data=  9 | cola=  70 | prio=50 | https://anapobolivia.org/el-vi-congreso-internacional-de-la-soya-cierra-con-elreto-de-afirmar-al-pais-como-referente-en-soya-sostenible/
+[FULL_5_ANAPO] t= 126.6s | pag= 75 | files=  99 | data=  9 | cola=  70 | prio=50 | https://anapobolivia.org/v-congreso-internacional-de-la-soya-ratifica-el-valor-de-la-biotecnologia-para-mejorar-la-productividad-en-equilibrio-con-el-medio-ambiente/
+[FULL_5_ANAPO] t= 127.7s | pag= 76 | files=  99 | data=  9 | cola=  69 | prio=50 | https://anapobolivia.org/pdfviewer/programa-1er-congreso-internacional-de-agricultura-sostenible/?auto_viewer=true
+[FULL_5_ANAPO] t= 128.8s | pag= 77 | files=  99 | data=  9 | cola=  68 | prio=50 | https://anapobolivia.org/pdfviewer/recomendaciones-tecnicas-para-el-cultivo-de-soya-2024/
+[FULL_5_ANAPO] t= 130.2s | pag= 78 | files=  99 | data=  9 | cola=  67 | prio=50 | https://anapobolivia.org/pdfviewer/manual-de-recomendaciones-tecnicas-en-el-cultivo-de-trigo-2022/
+[FULL_5_ANAPO] t= 131.7s | pag= 79 | files=  99 | data=  9 | cola=  66 | prio=50 | https://anapobolivia.org/pdfviewer/recomendaciones-tecnicas-para-el-cultivo-del-girasol-2020/
+[FULL_5_ANAPO] t= 133.0s | pag= 80 | files=  99 | data=  9 | cola=  65 | prio=50 | https://anapobolivia.org/pdfviewer/manejo-de-plagas-y-enfermedades-de-la-soya-con-bioinsumos/
+[FULL_5_ANAPO] t= 134.0s | pag= 81 | files=  99 | data=  9 | cola=  64 | prio=50 | https://anapobolivia.org/pdfviewer/recomendaciones-para-el-manejo-de-enfermedades-y-plagas-en-trigo-y-sorgo-con-bioinsumos/
+[FULL_5_ANAPO] t= 135.0s | pag= 82 | files=  99 | data=  9 | cola=  63 | prio=50 | https://anapobolivia.org/pdfviewer/jopo-orobanche-spp-caracteristicas-y-manejo-en-el-cultivo-de-girasol/
+[FULL_5_ANAPO] t= 136.1s | pag= 83 | files=  99 | data=  9 | cola=  62 | prio=50 | https://anapobolivia.org/pdfviewer/programa-de-nutricion-de-cultivos-de-anapo/
+[FULL_5_ANAPO] t= 137.4s | pag= 84 | files=  99 | data=  9 | cola=  61 | prio=50 | https://anapobolivia.org/pdfviewer/recomendaciones-para-evitar-perdidas-en-cosecha/
+[FULL_5_ANAPO] t= 138.8s | pag= 85 | files=  99 | data=  9 | cola=  60 | prio=50 | https://anapobolivia.org/pdfviewer/chinches-en-el-cultivo-de-soya/
+[FULL_5_ANAPO] t= 140.4s | pag= 86 | files=  99 | data=  9 | cola=  59 | prio=50 | https://anapobolivia.org/pdfviewer/recomendaciones-de-fertilizacion-para-los-distintos-cultivos-y-sistemas-de-produccion-2025/
+[FULL_5_ANAPO] t= 141.9s | pag= 87 | files=  99 | data=  9 | cola=  58 | prio=50 | https://anapobolivia.org/pdfviewer/obligaciones-tributarias-de-los-productores-agropecuarios/
+[FULL_5_ANAPO] t= 143.5s | pag= 88 | files=  99 | data=  9 | cola=  57 | prio=50 | https://anapobolivia.org/pdfviewer/requisitos-para-obtener-la-tarjeta-de-control-de-la-anh/
+[FULL_5_ANAPO] t= 144.9s | pag= 89 | files=  99 | data=  9 | cola=  56 | prio=50 | https://anapobolivia.org/cartillas-informativas/2/
+[FULL_5_ANAPO] t= 148.3s | pag= 90 | files=  99 | data=  9 | cola=  58 | prio=50 | https://anapobolivia.org/cartillas-informativas/3/
+[FULL_5_ANAPO] t= 149.6s | pag= 91 | files=  99 | data=  9 | cola=  60 | prio=50 | https://anapobolivia.org/cartillas-informativas/4/
+[FULL_5_ANAPO] t= 150.9s | pag= 92 | files=  99 | data=  9 | cola=  62 | prio=50 | https://anapobolivia.org/cartillas-informativas/5/
+[FULL_5_ANAPO] t= 152.6s | pag= 93 | files=  99 | data=  9 | cola=  64 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2025/
+[FULL_5_ANAPO] t= 153.5s | pag= 94 | files=  99 | data=  9 | cola=  63 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2024/
+[FULL_5_ANAPO] t= 154.9s | pag= 95 | files=  99 | data=  9 | cola=  62 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2023/
+[FULL_5_ANAPO] t= 156.3s | pag= 96 | files=  99 | data=  9 | cola=  61 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2022/
+[FULL_5_ANAPO] t= 157.6s | pag= 97 | files=  99 | data=  9 | cola=  60 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2021/
+[FULL_5_ANAPO] t= 158.9s | pag= 98 | files=  99 | data=  9 | cola=  59 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2020/
+[FULL_5_ANAPO] t= 161.4s | pag= 99 | files=  99 | data=  9 | cola=  58 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2019/
+[FULL_5_ANAPO] t= 163.0s | pag=100 | files=  99 | data=  9 | cola=  57 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2018/
+[FULL_5_ANAPO] t= 164.4s | pag=101 | files=  99 | data=  9 | cola=  56 | prio=50 | https://anapobolivia.org/pdfviewer/memoria-anual-2017/
+[FULL_5_ANAPO] t= 165.9s | pag=102 | files=  99 | data=  9 | cola=  55 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/obligaciones-tributarias-de-productores-agropecuarios/
+[FULL_5_ANAPO] t= 167.3s | pag=102 | files=  99 | data=  9 | cola=  54 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/requisitos-tramite-nit-rau-y-certificado-de-no-imponibilidad/
+[FULL_5_ANAPO] t= 168.8s | pag=102 | files=  99 | data=  9 | cola=  53 | prio=50 | https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-soya/
+[FULL_5_ANAPO] t= 170.7s | pag=102 | files=  99 | data=  9 | cola=  52 | prio=50 | https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-trigo/
+[FULL_5_ANAPO] t= 172.5s | pag=102 | files=  99 | data=  9 | cola=  51 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr19/?auto_viewer=true
+[FULL_5_ANAPO] t= 174.4s | pag=102 | files=  99 | data=  9 | cola=  50 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr49/?auto_viewer=true
+[FULL_5_ANAPO] t= 175.9s | pag=102 | files=  99 | data=  9 | cola=  49 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr82/?auto_viewer=true
+[FULL_5_ANAPO] t= 177.5s | pag=102 | files=  99 | data=  9 | cola=  48 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr75/?auto_viewer=true
+[FULL_5_ANAPO] t= 179.4s | pag=102 | files=  99 | data=  9 | cola=  47 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojalb233/?auto_viewer=true
+[FULL_5_ANAPO] t= 181.4s | pag=102 | files=  99 | data=  9 | cola=  46 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojamunasqa/?auto_viewer=true
+[FULL_5_ANAPO] t= 183.0s | pag=102 | files=  99 | data=  9 | cola=  45 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/trigo_triunfo/?auto_viewer=true
+[FULL_5_ANAPO] t= 184.5s | pag=102 | files=  99 | data=  9 | cola=  44 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/trigo_sossego/?auto_viewer=true
+[FULL_5_ANAPO] t= 186.5s | pag=102 | files=  99 | data=  9 | cola=  43 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/trigo_amplitud/?auto_viewer=true
+[FULL_5_ANAPO] t= 188.0s | pag=102 | files=  99 | data=  9 | cola=  42 | prio=50 | https://anapobolivia.org/pdfviewer/comercializacion-urea-abril/
+[FULL_5_ANAPO] t= 190.0s | pag=103 | files=  99 | data=  9 | cola=  41 | prio=50 | https://anapobolivia.org/pdfviewer/comercializacion-potasio-agosto-2024/
+[FULL_5_ANAPO] t= 191.4s | pag=104 | files=  99 | data=  9 | cola=  40 | prio=50 | https://anapobolivia.org/pdfviewer/comercializacion-urea-de-liberacion-lenta-npk-20-08-15-y-npk-20-20-20/
+[FULL_5_ANAPO] t= 192.8s | pag=105 | files=  99 | data=  9 | cola=  39 | prio=50 | https://anapobolivia.org/nuevo/receta/
+[FULL_5_ANAPO] t= 194.5s | pag=106 | files=  99 | data=  9 | cola=  38 | prio=50 | https://anapobolivia.org/nuevo/afiliacion-persona-natural/
+[FULL_5_ANAPO] t= 196.4s | pag=107 | files=  99 | data=  9 | cola=  37 | prio=50 | https://anapobolivia.org/nuevo/afiliacion-persona-juridica/
+[FULL_5_ANAPO] t= 198.0s | pag=107 | files=  99 | data=  9 | cola=  36 | prio=50 | https://anapobolivia.org/con-biotecnologia-bolivia-subiria-en-30-la-produccion-de-soya-e-igualaria-en-productividad-a-paises-del-mercosur/
+[FULL_5_ANAPO] t= 199.7s | pag=108 | files=  99 | data=  9 | cola=  36 | prio=50 | https://anapobolivia.org/a-dias-de-su-apertura-exposoya-2026-evidencia-mayor-interes-en-innovacion-tecnologica-para-la-soya-sostenible/
+[FULL_5_ANAPO] t= 201.1s | pag=109 | files=  99 | data=  9 | cola=  35 | prio=50 | https://anapobolivia.org/anapo-alerta-que-la-escasez-de-diesel-pone-en-vilo-la-cosecha-de-invierno-y-amenaza-la-seguridad-alimentaria/
+[FULL_5_ANAPO] t= 202.6s | pag=110 | files=  99 | data=  9 | cola=  35 | prio=50 | https://anapobolivia.org/anapo-muestra-a-lideres-de-opinion-de-todo-el-pais-como-bolivia-puede-liderar-una-produccion-de-soya-sostenible-y-competitiva/
+[FULL_5_ANAPO] t= 205.2s | pag=111 | files=  99 | data=  9 | cola=  34 | prio=50 | https://anapobolivia.org/con-el-impulso-de-anapo-y-cadex-el-gobierno-de-bolivia-firma-el-protocolo-sanitario-para-la-exportacion-de-sorgo-a-china/
+[FULL_5_ANAPO] t= 206.2s | pag=112 | files=  99 | data=  9 | cola=  34 | prio=50 | https://anapobolivia.org/anapo-preve-que-la-produccion-de-soya-deeste-verano-disminuira-en-600-mil-toneladas/
+[FULL_5_ANAPO] t= 207.2s | pag=113 | files=  99 | data=  9 | cola=  34 | prio=50 | https://anapobolivia.org/productores-realzan-el-impacto-de-la-rotacion-de-cultivos-en-el-dia-nacional-de-la-agricultura-sostenible/
+[FULL_5_ANAPO] t= 208.9s | pag=114 | files=  99 | data=  9 | cola=  34 | prio=10 | https://anapobolivia.org/candidatos-respaldan-demandas-de-anapo-biotecnologia-seguridad-juridica-libre-exportacion-y-acceso-a-diesel/
+[FULL_5_ANAPO] t= 210.0s | pag=115 | files=  99 | data=  9 | cola=  34 | prio=50 | https://anapobolivia.org/anapo-reafirma-la-produccion-sostenible-con-la-siembra-directa-y-la-rotacion-de-cultivos/
+[FULL_5_ANAPO] t= 211.4s | pag=116 | files=  99 | data=  9 | cola=  34 | prio=50 | https://anapobolivia.org/la-uagrm-y-anapo-anuncian-la-i-fexpo-yabare-que-mostrara-los-avances-en-investigacion-de-cultivos-alternativos/
+[FULL_5_ANAPO] t= 212.8s | pag=117 | files=  99 | data=  9 | cola=  33 | prio=50 | https://anapobolivia.org/anapo-inicia-un-ciclo-renovado-conabraham-nogales-como-presidente/
+[FULL_5_ANAPO] t= 214.4s | pag=118 | files=  99 | data=  9 | cola=  32 | prio=50 | https://anapobolivia.org/exposoya-del-norte-impulsa-la-innovacion-para-fortalecer-la-agricultura-sostenible/
+[FULL_5_ANAPO] t= 215.9s | pag=119 | files=  99 | data=  9 | cola=  31 | prio=50 | https://anapobolivia.org/anapo-plantea-agenda-productivapara-trabajar-con-el-nuevo-gobierno/
+[FULL_5_ANAPO] t= 217.0s | pag=120 | files=  99 | data=  9 | cola=  31 | prio=50 | https://anapobolivia.org/fexpo-yabare-la-uagrm-y-anapo-exponen-tecnicas-eficientes-de-fertilizacion-que-fomentan-el-cuidado-del-suelo/
+[FULL_5_ANAPO] t= 218.6s | pag=121 | files=  99 | data=  9 | cola=  30 | prio=50 | https://anapobolivia.org/de-flor-a-simbolo-el-girasol-convierte-asan-julian-la-capital-crucena-del-cultivo/
+[FULL_5_ANAPO] t= 219.9s | pag=122 | files=  99 | data=  9 | cola=  29 | prio=50 | https://anapobolivia.org/pdfviewer/recomendaciones-de-fertilizacion-para-los-distintos-cultivos-y-sistemas-de-produccion/
+[FULL_5_ANAPO] t= 221.4s | pag=123 | files=  99 | data=  9 | cola=  28 | prio=50 | https://anapobolivia.org/pdfviewer/programa-de-produccion-de-alimentos-y-restitucion-de-bosques/
+[FULL_5_ANAPO] t= 222.5s | pag=124 | files=  99 | data=  9 | cola=  27 | prio=50 | https://anapobolivia.org/pdfviewer/usos-de-equipos-de-aplicacion/
+[FULL_5_ANAPO] t= 223.7s | pag=125 | files=  99 | data=  9 | cola=  26 | prio=50 | https://anapobolivia.org/pdfviewer/buenas-practicas-ambientales-en-agricultura/
+[FULL_5_ANAPO] t= 225.0s | pag=126 | files=  99 | data=  9 | cola=  25 | prio=50 | https://anapobolivia.org/pdfviewer/gestion-de-residuos-y-contaminacion-de-aguas/
+[FULL_5_ANAPO] t= 226.6s | pag=127 | files=  99 | data=  9 | cola=  24 | prio=50 | https://anapobolivia.org/pdfviewer/cosecha-de-soya/
+[FULL_5_ANAPO] t= 228.3s | pag=128 | files=  99 | data=  9 | cola=  23 | prio=50 | https://anapobolivia.org/pdfviewer/manual-de-guia-sobre-el-tema-servidumbral/
+[FULL_5_ANAPO] t= 229.5s | pag=129 | files=  99 | data=  9 | cola=  22 | prio=50 | https://anapobolivia.org/pdfviewer/tratamiento-de-semillas/
+[FULL_5_ANAPO] t= 231.3s | pag=130 | files=  99 | data=  9 | cola=  21 | prio=50 | https://anapobolivia.org/pdfviewer/manejo-del-suelo-en-el-cultivo-de-la-soya/
+[FULL_5_ANAPO] t= 232.8s | pag=131 | files=  99 | data=  9 | cola=  20 | prio=50 | https://anapobolivia.org/pdfviewer/variedades-en-el-cultivo-de-soya/
+[FULL_5_ANAPO] t= 234.4s | pag=132 | files=  99 | data=  9 | cola=  19 | prio=50 | https://anapobolivia.org/pdfviewer/enfermedades-del-cultivo-de-soya/
+[FULL_5_ANAPO] t= 235.8s | pag=133 | files=  99 | data=  9 | cola=  18 | prio=50 | https://anapobolivia.org/pdfviewer/plagas-en-el-cultivo-de-soya/
+[FULL_5_ANAPO] t= 237.4s | pag=134 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/gobierno-libera-880-mil-toneladas-de-grano-de-soya-para-exportacion-pero-productores-esperan-una-apertura-total/
+[FULL_5_ANAPO] t= 238.7s | pag=135 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/dia-nacional-del-trigo-plantea-agenda-para-recuperar-la-produccion-nacional-y-fortalecer-la-seguridad-alimentaria/
+[FULL_5_ANAPO] t= 239.8s | pag=136 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/anapo-preve-que-la-produccion-de-soya-llegara-a-23-millones-de-toneladas/
+[FULL_5_ANAPO] t= 241.4s | pag=137 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/el-legado-de-las-mujeres-en-la-biotecnologia/
+[FULL_5_ANAPO] t= 242.6s | pag=138 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/abraham-nogales-es-el-nuevo-presidente-de-anapo-y-anuncia-enfoque-en-la-competitividad-y-la-seguridad-juridica/
+[FULL_5_ANAPO] t= 244.1s | pag=139 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/anapo-sequia-causa-la-mayor-crisis-de-la-decada-con-una-caida-del-70-en-la-produccion-de-cultivos-de-invierno/
+[FULL_5_ANAPO] t= 245.5s | pag=140 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/anapo-valora-el-dialogo-con-rodrigo-paz-y-ve-con-expectativa-la-reunion-empresarial-del-7-de-noviembre/
+[FULL_5_ANAPO] t= 247.0s | pag=141 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/anapo-respalda-desalojos-de-predios-avasallados-ypide-se-restituya-el-estado-de-derecho-en-el-agro-cruceno/
+[FULL_5_ANAPO] t= 248.2s | pag=142 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/anapo-impulsa-el-dia-nacional-del-trigo-para-fortalecer-una-produccion-nacional-que-hoy-cubre-solo-el-11-del-consumo/
+[FULL_5_ANAPO] t= 249.8s | pag=143 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/denuncian-tranca-ilegal-en-san-pedro-que-afecta-a-mas-de-70-mil-hectareas-productivas/
+[FULL_5_ANAPO] t= 251.0s | pag=144 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/anapo-resalta-necesidad-de-avances-en-biotecnologia-para-asegurar-abastecimiento-en-nueva-planta-de-biodiesel/
+[FULL_5_ANAPO] t= 252.5s | pag=145 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/filial-de-anapo-en-san-julian-ya-tiene-modernas-oficinas-para-atender-a-sus-productores-asociados/
+[FULL_5_ANAPO] t= 253.9s | pag=146 | files=  99 | data=  9 | cola=  17 | prio=50 | https://anapobolivia.org/practicas-de-nutricion-de-cultivos-suben-hasta-en-50-la-productividad-y-promueven-un-futuro-sostenible/
+[FULL_5_ANAPO] t= 255.0s | pag=147 | files=  99 | data=  9 | cola=  16 | prio=50 | https://anapobolivia.org/anapo-exige-desalojo-inmediato-ante-nuevo-avasallamiento-en-ascension-de-guarayos/
+[FULL_5_ANAPO] t= 256.5s | pag=148 | files=  99 | data=  9 | cola=  16 | prio=50 | https://anapobolivia.org/produccion-de-granos-en-2025-llega-a-56-mm-de-toneladas-y-anapo-preve-impulso-con-la-liberacion-plena-de-exportaciones/
+[FULL_5_ANAPO] t= 257.8s | pag=149 | files=  99 | data=  9 | cola=  16 | prio=50 | https://anapobolivia.org/anapo-plantea-la-ruta-de-reactivacion-el-agro-puede-ser-la-principal-fuente-de-divisas-que-bolivia-necesita/
+[FULL_5_ANAPO] t= 259.0s | pag=150 | files=  99 | data=  9 | cola=  16 | prio=50 | https://anapobolivia.org/anapo-cuestiona-la-tardia-decision-para-la-autorizacion-de-exportacion-de-grano-de-soya/
+[FULL_5_ANAPO] t= 260.3s | pag=151 | files=  99 | data=  9 | cola=  16 | prio=50 | https://anapobolivia.org/v-congreso-internacional-de-la-soya/
+[FULL_5_ANAPO] t= 261.8s | pag=152 | files=  99 | data=  9 | cola=  15 | prio=50 | https://anapobolivia.org/anapo-exige-al-gobierno-actuar-con-urgencia-ante-el-avasallamiento-armado-en-hacienda-santa-rita/
+[FULL_5_ANAPO] t= 263.2s | pag=153 | files=  99 | data=  9 | cola=  14 | prio=50 | https://anapobolivia.org/muestran-rostros-de-avasalladores-de-guarayosy-apuntan-al-viceministro-ramiro-guerrero/
+[FULL_5_ANAPO] t= 264.8s | pag=154 | files=  99 | data=  9 | cola=  14 | prio=10 | https://anapobolivia.org/anapo-aplaude-los-esfuerzos-para-mejorar-el-abastecimiento-de-diesel-y-pide-combatir-el-mercado-negro/
+[FULL_5_ANAPO] t= 265.9s | pag=155 | files=  99 | data=  9 | cola=  14 | prio=50 | https://anapobolivia.org/anapo-expresa-su-apoyo-a-productores-afectados-por-robo-de-soya-y-exige-sanciones-ejemplares/
+[FULL_5_ANAPO] t= 267.3s | pag=156 | files=  99 | data=  9 | cola=  14 | prio=50 | https://anapobolivia.org/anapo-advierte-que-la-falta-de-diesel-pone-en-riesgo-la-seguridad-alimentaria-del-pais/
+[FULL_5_ANAPO] t= 268.8s | pag=157 | files=  99 | data=  9 | cola=  14 | prio=50 | https://anapobolivia.org/vi-congreso-internacional-de-la-soya-un-encuentro-clave-para-el-sector/
+[FULL_5_ANAPO] t= 270.3s | pag=158 | files=  99 | data=  9 | cola=  13 | prio=50 | https://anapobolivia.org/anapo-solicita-a-hidrocarburos-ypfb-y-anh-urgentereunion-para-coordinar-la-entrega-de-diesel-a-productores/
+[FULL_5_ANAPO] t= 271.9s | pag=159 | files=  99 | data=  9 | cola=  12 | prio=50 | https://anapobolivia.org/productores-esperan-la-liberacion-plena-de-exportaciones-para-garantizar-certidumbre-y-potenciar-la-produccion/
+[FULL_5_ANAPO] t= 273.5s | pag=160 | files=  99 | data=  9 | cola=  11 | prio=50 | https://anapobolivia.org/anapo-exige-desalojo-inmediato-y-aprehension-de-avasalladores-que-toman-por-sexta-vez-el-predio-santa-rita-en-guarayos/
+[FULL_5_ANAPO] t= 275.2s | pag=161 | files=  99 | data=  9 | cola=  10 | prio=70 | https://anapobolivia.org/directorio/
+[FULL_5_ANAPO] t= 276.7s | pag=162 | files=  99 | data=  9 | cola=   9 | prio=70 | https://anapobolivia.org/anapo-noticias/
+[FULL_5_ANAPO] t= 278.2s | pag=163 | files=  99 | data=  9 | cola=  14 | prio=50 | https://anapobolivia.org/pdfviewer/liberan-la-soya-hb4-e-inicia-el-camino-para-el-acceso-de-los-productores-a-la-biotecnologia/
+[FULL_5_ANAPO] t= 279.8s | pag=164 | files=  99 | data=  9 | cola=  13 | prio=50 | https://anapobolivia.org/pdfviewer/exposoya-innovacion-tecnologica-para-una-agricultura-sostenible/
+[FULL_5_ANAPO] t= 281.7s | pag=165 | files=  99 | data=  9 | cola=  12 | prio=50 | https://anapobolivia.org/pdfviewer/anapo-propone-una-agenda-de-cinco-puntos-urgentes-para-fortalecer-la-economia-y-la-soberania-alimentaria/
+[FULL_5_ANAPO] t= 283.4s | pag=166 | files=  99 | data=  9 | cola=  11 | prio=50 | https://anapobolivia.org/pdfviewer/24326/
+[FULL_5_ANAPO] t= 284.9s | pag=167 | files=  99 | data=  9 | cola=  10 | prio=50 | https://anapobolivia.org/pdfviewer/el-vi-congreso-marca-la-agenda-de-la-soya-con-innovacion-y-sostenibilidad/
+[FULL_5_ANAPO] t= 286.8s | pag=168 | files=  99 | data=  9 | cola=   9 | prio=70 | https://anapobolivia.org/asume-nuevo-directorio-de-anapo-y-llama-a-liberar-las-exportaciones-y-destrabar-la-economia-productiva/
+[FULL_5_ANAPO] t= 288.0s | pag=169 | files=  99 | data=  9 | cola=   9 | prio=50 | https://anapobolivia.org/anapo-alerta-sobre-la-urgencia-de-diesel-en-mayo-para-garantizar-la-cosecha-y-siembra-de-granos-estrategicos/
+[FULL_5_ANAPO] t= 289.4s | pag=170 | files=  99 | data=  9 | cola=   9 | prio=50 | https://anapobolivia.org/pequenos-productores-respaldan-la-ley-1720-para-impulsar-al-sector-productivo/
+[FULL_5_ANAPO] t= 290.7s | pag=171 | files=  99 | data=  9 | cola=   9 | prio=50 | https://anapobolivia.org/anapo-apuntala-la-ejecucion-de-puerto-busch-clave-para-el-desarrollo-productivo-y-la-competitividad-del-pais/
+[FULL_5_ANAPO] t= 292.3s | pag=172 | files=  99 | data=  9 | cola=   9 | prio=50 | https://anapobolivia.org/nutricion-de-cultivos-aumenta-rendimientos-hasta-en-20-y-ayuda-a-mitigar-los-impactos-del-exceso-de-lluvias/
+[FULL_5_ANAPO] t= 293.4s | pag=173 | files=  99 | data=  9 | cola=   9 | prio=50 | https://anapobolivia.org/anapo-respalda-la-ley-157-pequenos-agricultores-apuntan-a-acceder-a-financiamiento-bancario/
+[FULL_5_ANAPO] t= 295.0s | pag=174 | files=  99 | data=  9 | cola=   8 | prio=70 | https://anapobolivia.org/nuevo/anapo-noticias/
+[FULL_5_ANAPO] t= 296.7s | pag=174 | files=  99 | data=  9 | cola=   7 | prio=70 | https://anapobolivia.org/nuevo/noticias-3
+[FULL_5_ANAPO] t= 299.0s | pag=175 | files=  99 | data=  9 | cola=   6 | prio=70 | https://anapobolivia.org/pdfviewer/un-grano-de-oro-en-la-historia/
+[FULL_5_ANAPO] t= 300.4s | pag=176 | files=  99 | data=  9 | cola=   5 | prio=70 | https://anapobolivia.org/nuevo/directorio/
+[FULL_5_ANAPO] t= 301.9s | pag=176 | files=  99 | data=  9 | cola=   4 | prio=70 | https://anapobolivia.org/nuevo/pdfviewer/resolucion-normativa-de-directorio-no-102400000024-actualizacion-de-la-cuota-fija-por-hectarea-del-regimen-agropecuario-unificado-rau-gestion-2023/
+[FULL_5_ANAPO] t= 303.6s | pag=176 | files=  99 | data=  9 | cola=   3 | prio=70 | https://anapobolivia.org/anapo-descarta-importacion-de-grano-de-soya-con-eventos-de-biotecnologia-no-autorizados-en-bolivia/
+[FULL_5_ANAPO] t= 305.3s | pag=177 | files=  99 | data=  9 | cola=   2 | prio=70 | https://anapobolivia.org/renueva-parte-de-su-directorio-durante-2026-2027-anapo-profundizara-acciones-para-concretar-la-agenda-productiva/
+[FULL_5_ANAPO] t= 306.7s | pag=178 | files=  99 | data=  9 | cola=   1 | prio=70 | https://anapobolivia.org/exposoya-2024-el-evento-celebra-30-anos-y-homenajea-a-munasqa-por-su-aporte-tecnologico-a-los-productores/
+[FULL_5_ANAPO] t= 308.1s | pag=179 | files=  99 | data=  9 | cola=   0 | prio=70 | https://anapobolivia.org/pdfviewer/nuevo-directorio-2026-2027-asume-el-desafio-de-reactivar-el-pais-desde-el-campo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              full_5_anapo
+Páginas visitadas:   180
+Archivos encontrados:   99
+Datasets web:         9
+Errores:              14
+Motivo de parada:     frontier_exhausted
+Duración:             309.64 s
+
+Formatos:
+  - PDF    : 99
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\full_5_anapo.json
+
+Trazabilidad:
+  Ejecución: 26
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

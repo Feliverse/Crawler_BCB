@@ -1,0 +1,62 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Banco Central de Bolivia
+URL configurada: https://www.bcb.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+
+
+Resolución de fuente:
+  Original: https://www.bcb.gob.bo/
+  Utilizada: https://www.bcb.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.bcb.gob.bo/
+
+URL de trabajo: https://www.bcb.gob.bo/
+Seeds: 1
+Máx páginas: 200
+Máx archivos: 20000
+Máx profundidad: 6
+
+[BCB] t=   0.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.bcb.gob.bo/
+[BCB] t=   2.5s | pag=  1 | files=  17 | data=  0 | cola= 106 | prio= 2 | https://www.bcb.gob.bo/?q=pub_memorias-institucionales
+[BCB] t=   3.6s | pag=  2 | files= 111 | data=  0 | cola= 156 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-diario
+[BCB] t=   4.8s | pag=  3 | files= 111 | data=  0 | cola= 155 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-semanal
+[BCB] t=   5.8s | pag=  4 | files= 121 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos
+[BCB] t=   7.0s | pag=  5 | files= 131 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informes-sobre-inversion
+[BCB] t=   8.6s | pag=  6 | files= 131 | data=  0 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?q=reservas_internacionales_bcb
+[BCB] t=   9.7s | pag=  7 | files= 139 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=marco-normativo
+[BCB] t=  11.0s | pag=  8 | files= 143 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=informes-deuda-externa-publica
+[BCB] t=  12.5s | pag=  9 | files= 143 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Festados-de-la-deuda-externa
+[BCB] t=  13.5s | pag= 10 | files= 143 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera
+[BCB] t=  14.7s | pag= 11 | files= 152 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=operaciones-mercado-abierto
+[BCB] t=  16.0s | pag= 12 | files= 152 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informe-vigilancia-sistema-pagos
+[BCB] t=  17.1s | pag= 13 | files= 152 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-balanza-pagos
+[BCB] t=  18.5s | pag= 14 | files= 152 | data=  0 | cola= 158 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-deuda-externa-privada
+[BCB] t=  19.7s | pag= 15 | files= 152 | data=  0 | cola= 157 | prio= 2 | https://www.bcb.gob.bo/?q=boletines-mensuales
+[BCB] t=  21.1s | pag= 16 | files= 164 | data=  0 | cola= 165 | prio= 2 | https://www.bcb.gob.bo/?q=reporte-estadistico
+[BCB] DATASETS=1 | exportable_data_page | https://www.bcb.gob.bo/?q=reporte-estadistico
+[BCB] t=  22.2s | pag= 17 | files= 197 | data=  1 | cola= 173 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria
+[BCB] t=  23.6s | pag= 18 | files= 204 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia
+[BCB] t=  25.0s | pag= 19 | files= 214 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense
+[BCB] t=  26.6s | pag= 20 | files= 214 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense-serie-de-tiempo
+[BCB] t=  28.0s | pag= 21 | files= 214 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fvalor-referencial-de-compra-del-d%C3%B3lar-estadounidense-3
+[BCB] t=  29.5s | pag= 22 | files= 214 | data=  1 | cola= 174 | prio= 2 | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[BCB] DATASETS=2 | data_html_table | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[BCB] t=  30.9s | pag= 23 | files= 214 | data=  2 | cola= 176 | prio= 2 | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[BCB] DATASETS=3 | data_html_table | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[BCB] t=  32.0s | pag= 24 | files= 214 | data=  3 | cola= 186 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fverificador-de-n%C3%BAmero-de-serie
+[BCB] t=  33.0s | pag= 25 | files= 214 | data=  3 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/calculadora-ufv/
+[BCB] t=  34.0s | pag= 26 | files= 214 | data=  3 | cola= 184 | prio= 2 | https://www.bcb.gob.bo/?q=encuesta_publicaciones
+[BCB] t=  35.5s | pag= 27 | files= 214 | data=  3 | cola= 183 | prio= 2 | https://www.bcb.gob.bo/?q=pub_boletin-estadistico
+[BCB] t=  36.9s | pag= 28 | files= 389 | data=  3 | cola= 190 | prio= 2 | https://www.bcb.gob.bo/?q=publicaciones_dtr
+[BCB] t=  38.0s | pag= 29 | files= 399 | data=  3 | cola= 200 | prio= 2 | https://www.bcb.gob.bo/?q=pub_documentos-trabajo
+[BCB] DATASETS=4 | exportable_data_page | https://www.bcb.gob.bo/?q=pub_documentos-trabajo
+[BCB] t=  39.2s | pag= 30 | files= 429 | data=  4 | cola= 203 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=pub_memorias-institucionales
+[BCB] t=  40.3s | pag= 31 | files= 539 | data=  4 | cola= 202 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=pub_memorias-institucionales
+[BCB] t= 106.5s | pag= 32 | files= 614 | data=  4 | cola= 201 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=pub_memorias-institucionales
+[BCB] t= 289.2s | pag= 33 | files= 686 | data=  4 | cola= 200 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=pub_memorias-institucionales
+
+[BATCH] TIMEOUT DE FUENTE

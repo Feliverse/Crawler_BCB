@@ -1,215 +1,225 @@
 {
     "ESTADISTICAS": {
-        "Estadísticas": {
-            "XXV_Reunión_del_Comité_Ejecutivo_de_la_Conferencia_Estadística_de_las_Américas_de_la_CEPAL": {
-                "2600349s_ce.25_programa_preliminar_3-ago.csv": {
-                    "descripcion": "Programa preliminar",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2600349s_ce.25_programa_preliminar_3-ago.pdf",
-                    "fecha_actualizacion": "2026-08",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "2600349e_ce.25_preliminary_programme_3-ago.csv": {
-                    "descripcion": "Preliminary Programme",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2600349e_ce.25_preliminary_programme_3-ago.pdf",
-                    "fecha_actualizacion": "2026-08",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "2600332s_ce.25_temario_provisional.csv": {
-                    "descripcion": "Temario provisional",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600332s_ce.25_temario_provisional.pdf",
-                    "fecha_actualizacion": "2026-07",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "2600332e_ce.25_provisional_agenda.csv": {
-                    "descripcion": "Provisional agenda",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600332e_ce.25_provisional_agenda.pdf",
-                    "fecha_actualizacion": "2026-07",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "2600331s_ce.25_temario_provisional_anotado.csv": {
-                    "descripcion": "Temario provisional anotado",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600331s_ce.25_temario_provisional_anotado.pdf",
-                    "fecha_actualizacion": "2026-07",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "2600331e_ce.25_annotated_provisional_agenda.csv": {
-                    "descripcion": "Annotated Provisional agenda",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600331e_ce.25_annotated_provisional_agenda.pdf",
-                    "fecha_actualizacion": "2026-07",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "2600413s_informativo-general.csv": {
-                    "descripcion": "Informativo general",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/events/files/2600413s_informativo-general.pdf",
-                    "fecha_actualizacion": "No disponible",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal"
-                },
-                "REPORTE_Y_CONSULTAS": {
-                    "CONTENIDO_WEB": {
-                        "XXV_Reunión_del_Comité_Ejecutivo_de_la_Conferencia_Estadística_de_las_Américas_de_la_CEPAL_|_CEPAL.csv": {
-                            "descripcion": "XXV Reunión del Comité Ejecutivo de la Conferencia Estadística de las Américas de la CEPAL | CEPAL",
-                            "url_descarga": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
-                            "fecha_actualizacion": "No disponible",
-                            "tipo_archivo": "WEB",
-                            "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
-                            "metodo_deteccion": "data_html_table",
-                            "tiene_tabla_html": true,
-                            "tablas_detectadas": 3,
-                            "permite_exportar": false,
-                            "tiene_filtros": false
-                        }
+        "XXV_Reunión_del_Comité_Ejecutivo_de_la_Conferencia_Estadísti": {
+            "2600349s_ce.25_programa_preliminar_3-ago.csv": {
+                "descripcion": "Programa preliminar",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2600349s_ce.25_programa_preliminar_3-ago.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "2600349e_ce.25_preliminary_programme_3-ago.csv": {
+                "descripcion": "Preliminary Programme",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2600349e_ce.25_preliminary_programme_3-ago.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "2600332s_ce.25_temario_provisional.csv": {
+                "descripcion": "Temario provisional",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600332s_ce.25_temario_provisional.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "2600332e_ce.25_provisional_agenda.csv": {
+                "descripcion": "Provisional agenda",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600332e_ce.25_provisional_agenda.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "2600331s_ce.25_temario_provisional_anotado.csv": {
+                "descripcion": "Temario provisional anotado",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600331s_ce.25_temario_provisional_anotado.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "2600331e_ce.25_annotated_provisional_agenda.csv": {
+                "descripcion": "Annotated Provisional agenda",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-07/2600331e_ce.25_annotated_provisional_agenda.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "evento-paralelo-trabajo-cuidado.csv": {
+                "descripcion": "Hacer visible el valor del trabajo de cuidado: experiencias para fortalecer la producción y el uso de estadísticas de uso del tiempo (Sala Enrique Iglesias)",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/evento-paralelo-trabajo-cuidado.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "evento-paralelo-impactos-el-nino.csv": {
+                "descripcion": "La contribución de las Oficinas Nacionales de Estadística a la prevención y mitigación de los impactos de El Niño (sala Enrique Iglesias)",
+                "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/evento-paralelo-impactos-el-nino.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "2600413s_informativo-general.csv": {
+                "descripcion": "Informativo general",
+                "url_descarga": "https://www.cepal.org/sites/default/files/events/files/2600413s_informativo-general.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "XXV_Reunión_del_Comité_Ejecutivo_de_la_Conferencia_Estadística_de_las_Américas_de_la_CEPAL_|_CEPAL.csv": {
+                        "descripcion": "XXV Reunión del Comité Ejecutivo de la Conferencia Estadística de las Américas de la CEPAL | CEPAL",
+                        "url_descarga": "https://www.cepal.org/es/eventos/xxv-reunion-comite-ejecutivo-la-conferencia-estadistica-americas-la-cepal",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 3,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
                     }
                 }
-            },
+            }
+        },
+        "Estadísticas": {
             "taller_fortalecimiento_ideg_informacion_geoespacial_innovacion_territorial_infraestructura": {
                 "miercoles-22-taller-vias-estrategicas-un-igif-guatemala-julio-2026.csv": {
                     "descripcion": "Plan Nacional de Desarrollo: K’atun Nuestra Guatemala 2032 – 2052 SEGEPLAN Dirección de Planificación Territorial",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/miercoles-22-taller-vias-estrategicas-un-igif-guatemala-julio-2026.pdf",
                     "fecha_actualizacion": "2026-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "1.1-segeplan.csv": {
                     "descripcion": "Historia y situación actual de la IDE de Guatemala SEGEPLAN Dirección de Planificación Territorial",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/1.1-segeplan.pdf",
                     "fecha_actualizacion": "2026-08-01",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "2.1-maga.csv": {
                     "descripcion": "MAGA Inga. Andrea Samayoa Encargada del Laboratorio de SIG",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2.1-maga.pdf",
                     "fecha_actualizacion": "2026-08-02",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "2.2-marn.csv": {
                     "descripcion": "MARN Inga. Melany Ramírez Dirección de Análisis Geoespacial y Cambio Climático",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2.2-marn.pdf",
                     "fecha_actualizacion": "2026-08-02",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "2.5-municipalidad-guatemala.csv": {
                     "descripcion": "Municipalidad de Guatemala Dirección de Catastro Ing. Mauricio Borrayo Analista POT",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/2.5-municipalidad-guatemala.pdf",
                     "fecha_actualizacion": "2026-08-02",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "3.1-cepal.csv": {
                     "descripcion": "CEPAL – Alvaro Monett Asesor Regional en Gestión de Información Geoespacial",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/3.1-cepal.pdf",
                     "fecha_actualizacion": "2026-08-03",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "3.2-dane-colombia.csv": {
                     "descripcion": "Colombia Elkin Ramírez Director Técnico de Geoestadística, Departamento Administrativo Nacional de Estadística de Colombia (DANE)",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/3.2-dane-colombia.pdf",
                     "fecha_actualizacion": "2026-08-03",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "4.2-cepal.csv": {
                     "descripcion": "CEPAL- Daniel Taccari Jefe de unidad de Innovación y Difusión Estadística y ODS",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/4.2-cepal.pdf",
                     "fecha_actualizacion": "2026-08-04",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "4.1-cepal.csv": {
                     "descripcion": "CEPAL – Alvaro Monett Asesor Regional en Gestión de Información Geoespacial",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/4.1-cepal.pdf",
                     "fecha_actualizacion": "2026-08-04",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "4.3-costa-rica.csv": {
                     "descripcion": "Costa Rica Luis Carlos Paniagua Coordinador unidad de Cartografía Instituto Nacional de Estadística y Censos (INEC)",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/4.3-costa-rica.pdf",
                     "fecha_actualizacion": "2026-08-04",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "4.4-ine.csv": {
                     "descripcion": "Christian Núñez Jefe departamento de Geografía y Geomática Instituto Geográfico Nacional",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/4.4-ine.pdf",
                     "fecha_actualizacion": "2026-08-04",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "5.1-nota_conceptual_conversatorio_geoespacial.csv": {
                     "descripcion": "Sesión 5: Fortalecimiento de capacidades para la gestión de la información geoespacial.",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/5.1-nota_conceptual_conversatorio_geoespacial.pdf",
                     "fecha_actualizacion": "2026-08-05",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "grupo-1-resultados.csv": {
                     "descripcion": "Trabajo grupal (1): Evaluación de la situación actual de Guatemala según vías estratégicas del Marco Integrado: Todas las personas asistentes",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/grupo-1-resultados.pdf",
                     "fecha_actualizacion": "2026-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "grupo-2-financiamiento-datos.csv": {
                     "descripcion": "Trabajo grupal (2) Evaluación de la situación actual de Guatemala en torno a las Vías Estratégicas del Marco Integrado: Todas las personas asistentes",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/grupo-2-financiamiento-datos.pdf",
                     "fecha_actualizacion": "2026-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "grupo-3-innovacion-estandares.csv": {
                     "descripcion": "Trabajo grupal (3) Evaluación de la situación actual de Guatemala en torno a las Vías Estratégicas del Marco Integrado: Todas las personas asistentes",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/grupo-3-innovacion-estandares.pdf",
                     "fecha_actualizacion": "2026-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 },
                 "grupo-4-alianzas-capacidades-comunicacion.csv": {
                     "descripcion": "Trabajo grupal (4) Evaluación de la situación actual de Guatemala en torno a las Vías Estratégicas del Marco Integrado: Todas las personas asistentes",
                     "url_descarga": "https://www.cepal.org/sites/default/files/2026-08/grupo-4-alianzas-capacidades-comunicacion.pdf",
                     "fecha_actualizacion": "2026-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura"
-                }
-            },
-            "A._Acerca_de_Estadísticas": {
-                "proyecto-programa-trabajo-cepal-2024-lc.ses_.39.6-esp.csv": {
-                    "descripcion": "2024: Proyecto de programa de trabajo del sistema de la CEPAL / Estadísticas",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/static/files/proyecto-programa-trabajo-cepal-2024-lc.ses_.39.6-esp.pdf",
-                    "fecha_actualizacion": "No disponible",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas/acerca-estadisticas"
-                },
-                "proyecto-programa-trabajo-cepal-2025-lc.plen_.37.3-esp.csv": {
-                    "descripcion": "2025: Proyecto de programa de trabajo del sistema de la CEPAL / Estadísticas",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/static/files/proyecto-programa-trabajo-cepal-2025-lc.plen_.37.3-esp.pdf",
-                    "fecha_actualizacion": "No disponible",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas/acerca-estadisticas"
-                },
-                "proyecto-programa-trabajo-cepal-2026-lc.ses_.40.6-esp.csv": {
-                    "descripcion": "2026: Proyecto de programa de trabajo del sistema de la CEPAL / Estadísticas",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/static/files/proyecto-programa-trabajo-cepal-2026-lc.ses_.40.6-esp.pdf",
-                    "fecha_actualizacion": "No disponible",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas/acerca-estadisticas"
-                },
-                "proyecto-programa-trabajo-cepal-2027-lc.plen_.38.3-esp.csv": {
-                    "descripcion": "2027: Proyecto de programa de trabajo del sistema de la CEPAL / Estadísticas",
-                    "url_descarga": "https://www.cepal.org/sites/default/files/static/files/proyecto-programa-trabajo-cepal-2027-lc.plen_.38.3-esp.pdf",
-                    "fecha_actualizacion": "No disponible",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas/acerca-estadisticas"
+                    "url_origen": "https://www.cepal.org/es/eventos/taller-fortalecimiento-ideg-informacion-geoespacial-innovacion-territorial-infraestructura",
+                    "metodo_deteccion": "url_extension"
                 }
             },
             "REPORTE_Y_CONSULTAS": {
@@ -219,7 +229,8 @@
                         "url_descarga": "https://www.cepal.org/es/areas-trabajo/estadisticas",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
-                        "url_origen": "https://www.cepal.org/es",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "data_chart",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -237,6 +248,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "data_chart",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -255,6 +267,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "data_chart",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -273,6 +286,7 @@
                             "fecha_actualizacion": "No disponible",
                             "tipo_archivo": "WEB",
                             "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                            "tipo_recurso": "web",
                             "metodo_deteccion": "data_chart",
                             "tiene_tabla_html": false,
                             "tablas_detectadas": 0,
@@ -288,10 +302,11 @@
                 "CONTENIDO_WEB": {
                     "Comisión_Económica_para_América_Latina_y_el_Caribe.csv": {
                         "descripcion": "Comisión Económica para América Latina y el Caribe",
-                        "url_descarga": "https://www.cepal.org/es",
+                        "url_descarga": "https://www.cepal.org/",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
-                        "url_origen": "https://www.cepal.org/es",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "data_chart",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -303,7 +318,8 @@
                         "url_descarga": "https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
-                        "url_origen": "https://www.cepal.org/es",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "data_chart",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
@@ -321,7 +337,8 @@
                         "url_descarga": "https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122",
                         "fecha_actualizacion": "No disponible",
                         "tipo_archivo": "WEB",
-                        "url_origen": "https://www.cepal.org/es",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
                         "metodo_deteccion": "exportable_data_page",
                         "tiene_tabla_html": false,
                         "tablas_detectadas": 0,
