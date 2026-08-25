@@ -19,6 +19,7 @@ Crawler en Python para recorrer automaticamente el portal del Banco Central de B
 
 ```bash
 pip install -r requirements.txt
+playwright install chromium
 ```
 
 ## Uso

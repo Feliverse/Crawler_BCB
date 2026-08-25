@@ -1,34 +1,52 @@
 {
-  "ROOT": {
-    "Quiero_afiliarme": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memorias_Anuales.csv": {
-            "descripcion": "Memorias Anuales",
-            "url_descarga": "https://anapobolivia.org/memorias-anuales/"
-          }
+    "documentos": {
+        "Quiero_afiliarme": {},
+        "Datos_del_clima": {
+            "Datos_del_clima": {
+                "Datos_del_clima": {
+                    "pdfviewer": {
+                        "pronostico-minetti-13-de-julio-de-2026": {
+                            "descripcion": "Documento embebido",
+                            "url_descarga": "https://anapobolivia.org/pdfviewer/pronostico-minetti-13-de-julio-de-2026/",
+                            "tipo": "iframe"
+                        },
+                        "el-senor-del-clima-no-261": {
+                            "descripcion": "Documento embebido",
+                            "url_descarga": "https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-261/",
+                            "tipo": "iframe"
+                        },
+                        "precipitacion-20-abril-2026": {
+                            "descripcion": "Documento embebido",
+                            "url_descarga": "https://anapobolivia.org/pdfviewer/precipitacion-20-abril-2026/",
+                            "tipo": "iframe"
+                        }
+                    }
+                }
+            }
+        },
+        "Ver_más": {
+            "Ver_más": {
+                "Ver_más": {
+                    "pdfviewer": {
+                        "pronostico-minetti-13-de-julio-de-2026": {
+                            "descripcion": "Documento embebido",
+                            "url_descarga": "https://anapobolivia.org/pdfviewer/pronostico-minetti-13-de-julio-de-2026/",
+                            "tipo": "iframe"
+                        },
+                        "el-senor-del-clima-no-261": {
+                            "descripcion": "Documento embebido",
+                            "url_descarga": "https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-261/",
+                            "tipo": "iframe"
+                        },
+                        "precipitacion-20-abril-2026": {
+                            "descripcion": "Documento embebido",
+                            "url_descarga": "https://anapobolivia.org/pdfviewer/precipitacion-20-abril-2026/",
+                            "tipo": "iframe"
+                        }
+                    }
+                }
+            }
         }
-      }
     },
-    "Datos_del_clima": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memorias_Anuales.csv": {
-            "descripcion": "Memorias Anuales",
-            "url_descarga": "https://anapobolivia.org/memorias-anuales/"
-          }
-        }
-      }
-    },
-    "Ver_más": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memorias_Anuales.csv": {
-            "descripcion": "Memorias Anuales",
-            "url_descarga": "https://anapobolivia.org/memorias-anuales/"
-          }
-        }
-      }
-    }
-  }
+    "paginas_con_contenido_relevante": []
 }

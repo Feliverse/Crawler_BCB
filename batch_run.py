@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
-import os
-import sys
-import json
-import subprocess
-import time
 import argparse
-from pathlib import Path
-from urllib.parse import urlparse
-
 import csv
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import json
+from pathlib import Path
+import subprocess
+import sys
+import time
+from urllib.parse import urlparse
 
 
 def normalize_name(url: str) -> str:
@@ -16,125 +15,210 @@ def normalize_name(url: str) -> str:
     key = (p.netloc + p.path).strip('/').replace('/', '_')
     if not key:
         key = p.netloc or 'root'
-    # keep only safe chars
     return ''.join(c if c.isalnum() or c in ('_', '-') else '_' for c in key)
 
 
-def read_urls_from_csv(path: Path, column_name: str = 'BASE_URL'):
+def read_urls_from_csv(path: Path, column_name: str = 'BASE_URL') -> list[str]:
     urls = []
     with path.open('r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        if reader.fieldnames:
-            # try header-based
-            header = [h.strip().upper() for h in reader.fieldnames]
-            key = None
-            for h in reader.fieldnames:
-                if h.strip().upper() == column_name.upper():
-                    key = h
-                    break
-            if key:
-                for row in reader:
-                    val = row.get(key)
-                    if val:
-                        urls.append(val.strip())
-                return urls
-        # fallback: read first column
-    with path.open('r', encoding='utf-8') as f:
-        for i, line in enumerate(f):
-            if i == 0:
-                # skip header if it looks like one (contains non-url text)
-                first = line.strip()
-                if not (first.startswith('http') or first.startswith('https')):
-                    continue
-            val = line.strip().split(',')[0].strip()
-            if val:
-                urls.append(val)
+        reader = csv.reader(f)
+        rows = [row for row in reader if row]
+
+    if not rows:
+        return urls
+
+    header = [cell.strip().upper() for cell in rows[0]]
+    valid_columns = {column_name.upper(), 'URL', 'LINK', 'WEBSITE'}
+    col_idx = None
+
+    for idx, name in enumerate(header):
+        if name in valid_columns:
+            col_idx = idx
+            break
+
+    if col_idx is not None:
+        for row in rows[1:]:
+            if len(row) > col_idx and row[col_idx].strip():
+                urls.append(row[col_idx].strip())
+        return urls
+
+    start_idx = 0
+    first_val = rows[0][0].strip().lower()
+    if not (first_val.startswith('http://') or first_val.startswith('https://')):
+        start_idx = 1
+
+    for row in rows[start_idx:]:
+        if row and row[0].strip():
+            urls.append(row[0].strip())
+
     return urls
 
 
-def run_main_for_url(url: str, project_dir: Path, timeout: int = 300):
-    env = os.environ.copy()
-    env['BASE_URL'] = url
+def process_url(
+    url: str,
+    project_dir: Path,
+    outputs_dir: Path,
+    extra_args: list[str],
+    depth: int,
+    timeout: int,
+) -> tuple[str, dict]:
+    """Worker function executed in parallel by each thread."""
+    name = normalize_name(url)
+    out_path = outputs_dir / f"{name}.json"
+    tables_dir = outputs_dir / 'tables' / name
 
-    proc = subprocess.run([sys.executable, 'main.py'], cwd=str(project_dir), env=env, capture_output=True, text=True, timeout=timeout)
-    return proc.returncode, proc.stdout, proc.stderr
+    # Build command line arguments for main.py
+    cmd = [
+        sys.executable,
+        'main.py',
+        '--url',
+        url,
+        '--depth',
+        str(depth),
+        '--output',
+        str(out_path),
+        '--tables-dir',
+        str(tables_dir),
+    ]
+    if extra_args:
+        cmd.extend(extra_args)
+
+    print(f"[START] Scraping: {url}")
+
+    try:
+        proc = subprocess.run(
+            cmd,
+            cwd=str(project_dir),
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+        )
+    except subprocess.TimeoutExpired:
+        print(f"[TIMEOUT] {url}")
+        return url, {'error': 'timeout', 'timeout': True}
+
+    if out_path.exists():
+        try:
+            with out_path.open('r', encoding='utf-8') as f:
+                data = json.load(f)
+        except Exception as e:
+            data = None
+            print(f"[ERROR] Failed to read output JSON for {url}: {e}")
+
+        print(f"[DONE] Finished: {url}")
+        return url, {
+            'returncode': proc.returncode,
+            'stdout': proc.stdout,
+            'stderr': proc.stderr,
+            'data_file': str(out_path.name),
+            'data': data,
+        }
+    else:
+        print(f"[FAILED] No output produced for: {url}")
+        return url, {
+            'returncode': proc.returncode,
+            'stdout': proc.stdout,
+            'stderr': proc.stderr,
+            'error': f"Output file {out_path.name} was not generated",
+        }
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Run main.py for multiple BASE_URL values from an .xlsx file and aggregate outputs.')
-    parser.add_argument('csv', nargs='?', default='fuentes.csv', help='Path to CSV file with URLs (column named BASE_URL or first column)')
-    parser.add_argument('-o', '--output', default='super_output.json', help='Aggregated output JSON file')
-    parser.add_argument('--delay', type=float, default=1.2, help='Delay between runs in seconds')
+    parser = argparse.ArgumentParser(
+        description='Run main.py for multiple URLs concurrently from a CSV file.'
+    )
+    parser.add_argument(
+        'csv',
+        nargs='?',
+        default='fuentes.csv',
+        help='Path to CSV file with URLs',
+    )
+    parser.add_argument(
+        '-o',
+        '--output',
+        default='super_output.json',
+        help='Aggregated output JSON file',
+    )
+    parser.add_argument(
+        '-w',
+        '--workers',
+        type=int,
+        default=4,
+        help='Number of concurrent threads/crawlers to run in parallel (default: 4)',
+    )
+    parser.add_argument(
+        '--timeout',
+        type=int,
+        default=300,
+        help='Timeout per URL in seconds (default: 300)',
+    )
+    parser.add_argument(
+        '--depth',
+        type=int,
+        default=4,
+        help='Maximum crawl depth for each URL (default: 4)',
+    )
+    parser.add_argument(
+        '--exclude-keywords',
+        default='',
+        help='Exclude keywords string or file path to pass down to main.py',
+    )
+    parser.add_argument(
+        '--ignore-robots',
+        action='store_true',
+        help='Bypass robots.txt checks across all target sites'
+    )
     args = parser.parse_args()
 
     project_dir = Path(__file__).parent
     csv_path = Path(args.csv)
+
     if not csv_path.exists():
         print(f"CSV file not found: {csv_path}")
         sys.exit(2)
 
     urls = read_urls_from_csv(csv_path)
     if not urls:
-        print("No URLs found in the Excel file.")
+        print("No valid URLs found in the CSV file.")
         sys.exit(1)
 
-    aggregated = {}
     outputs_dir = project_dir / 'batch_outputs'
     outputs_dir.mkdir(exist_ok=True)
 
-    for url in urls:
-        print(f"Running main.py for: {url}")
-        try:
-            rc, out, err = run_main_for_url(url, project_dir)
-        except subprocess.TimeoutExpired as e:
-            aggregated[url] = {'error': 'timeout', 'timeout': True}
-            continue
+    extra_crawler_args = []
+    if args.exclude_keywords:
+        extra_crawler_args.extend(['--exclude-keywords', args.exclude_keywords])
 
-        mapa_file = project_dir / 'mapa_global.json'
-        if mapa_file.exists():
-            try:
-                with mapa_file.open('r', encoding='utf-8') as f:
-                    data = json.load(f)
-            except Exception as e:
-                data = None
-                print(f"Failed to read mapa_global.json for {url}: {e}")
+    print(
+        f"Starting batch crawler: {len(urls)} URLs across {args.workers} worker threads.\n"
+    )
 
-            name = normalize_name(url)
-            out_path = outputs_dir / f"{name}.json"
-            try:
-                with out_path.open('w', encoding='utf-8') as f:
-                    json.dump(data, f, ensure_ascii=False, indent=2)
-            except Exception as e:
-                print(f"Failed to write individual output for {url}: {e}")
+    aggregated = {}
 
-            aggregated[url] = {
-                'returncode': rc,
-                'stdout': out,
-                'stderr': err,
-                'data_file': str(out_path.name),
-                'data': data
-            }
-            # remove the mapa file so next run starts fresh
-            try:
-                mapa_file.unlink()
-            except Exception:
-                pass
-        else:
-            aggregated[url] = {
-                'returncode': rc,
-                'stdout': out,
-                'stderr': err,
-                'error': 'mapa_global.json not produced'
-            }
+    # Execute crawler instances in parallel
+    with ThreadPoolExecutor(max_workers=args.workers) as executor:
+        futures = [
+            executor.submit(
+                process_url,
+                url,
+                project_dir,
+                outputs_dir,
+                extra_crawler_args,
+                args.depth,
+                args.timeout,
+            )
+            for url in urls
+        ]
 
-        time.sleep(args.delay)
+        for future in as_completed(futures):
+            url, result = future.result()
+            aggregated[url] = result
 
-    # write aggregated
     out_file = project_dir / args.output
     with out_file.open('w', encoding='utf-8') as f:
         json.dump(aggregated, f, ensure_ascii=False, indent=2)
 
-    print(f"Aggregated results written to: {out_file}")
+    print(f"\nCompleted all sites! Aggregated results written to: {out_file}")
 
 
 if __name__ == '__main__':

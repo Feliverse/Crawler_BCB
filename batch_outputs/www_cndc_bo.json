@@ -1,256 +1,517 @@
 {
-  "ROOT": {
-    "Contacto": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
+    "documentos": {
+        "Inicio": {
+            "Encuentro_Ejecutivo_2026": {
+                "DOCUMENTOS": {
+                    "VARIOS": {
+                        "evento": {
+                            "descripcion": "Encuentro Ejecutivo 2026",
+                            "url_descarga": "https://www.cndc.bo/evento/",
+                            "tipo": "iframe"
+                        }
+                    }
+                }
+            },
+            "uploads": {
+                "marco-legal": {
+                    "normas": {
+                        "AETN_337_2026_NOp00_-_Anexo": {
+                            "descripcion": "AETN_337_2026%20NOp00%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_337_2026%20NOp00%20-%20Anexo.pdf"
+                        },
+                        "AETN_337_2026_NOp00_-_Resol": {
+                            "descripcion": "AETN_337_2026%20NOp00%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_337_2026%20NOp00%20-%20Resol.pdf"
+                        },
+                        "AETN_218_20_CDM_-_Anexo": {
+                            "descripcion": "AETN_218_20%20CDM%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_218_20%20CDM%20-%20Anexo.pdf"
+                        },
+                        "AETN_218_20_CDM_-_Resol": {
+                            "descripcion": "AETN_218_20%20CDM%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_218_20%20CDM%20-%20Resol.pdf"
+                        },
+                        "AETN-R-0356-23_NOp01_-_Anexo": {
+                            "descripcion": "AETN-R-0356-23%20NOp01%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN-R-0356-23%20NOp01%20-%20Anexo.pdf"
+                        },
+                        "AETN-R-0356-23_NOp01_-_Resol": {
+                            "descripcion": "AETN-R-0356-23%20NOp01%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN-R-0356-23%20NOp01%20-%20Resol.pdf"
+                        },
+                        "AE_226_2012_NOp02_-_Anexo": {
+                            "descripcion": "AE_226_2012%20NOp02%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_226_2012%20NOp02%20-%20Anexo.pdf"
+                        },
+                        "AE_226_2012_NOp02_-_Resol": {
+                            "descripcion": "AE_226_2012%20NOp02%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_226_2012%20NOp02%20-%20Resol.pdf"
+                        },
+                        "AE_317_2015_NOp02_-_Resol": {
+                            "descripcion": "AE_317_2015%20NOp02%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_317_2015%20NOp02%20-%20Resol.pdf"
+                        },
+                        "AE_348_2017_NOp03_-_Anexo": {
+                            "descripcion": "AE_348_2017%20NOp03%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_348_2017%20NOp03%20-%20Anexo.pdf"
+                        },
+                        "AE_348_2017_NOp03_-_Resol": {
+                            "descripcion": "AE_348_2017%20NOp03%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_348_2017%20NOp03%20-%20Resol.pdf"
+                        },
+                        "AE_141_2012_NOp04_-_Anexo": {
+                            "descripcion": "AE_141_2012%20NOp04%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_141_2012%20NOp04%20-%20Anexo.pdf"
+                        },
+                        "AE_141_2012_NOp04_-_Resol": {
+                            "descripcion": "AE_141_2012%20NOp04%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_141_2012%20NOp04%20-%20Resol.pdf"
+                        },
+                        "AE_380_2013_NOp04_-_Resol": {
+                            "descripcion": "AE_380_2013%20NOp04%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_380_2013%20NOp04%20-%20Resol.pdf"
+                        },
+                        "AETN-120_2025_Nop_5_Anexo": {
+                            "descripcion": "AETN-120_2025_Nop_5_Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN-120_2025_Nop_5_Anexo.pdf"
+                        },
+                        "AETN-120_2025_Nop_5_Resol": {
+                            "descripcion": "AETN-120_2025_Nop_5_Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN-120_2025_Nop_5_Resol.pdf"
+                        },
+                        "AETN_79_2025_Nop_6_Norma": {
+                            "descripcion": "AETN_79_2025_Nop_6_Norma.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_79_2025_Nop_6_Norma.pdf"
+                        },
+                        "AETN_79_2025_Nop_6_Res": {
+                            "descripcion": "AETN_79_2025_Nop_6_Res.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_79_2025_Nop_6_Res.pdf"
+                        },
+                        "CNDC512_25_InstructivosRestitucionSIN": {
+                            "descripcion": "CNDC512_25_InstructivosRestitucionSIN.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/CNDC512_25_InstructivosRestitucionSIN.pdf"
+                        },
+                        "CNDC_512_25": {
+                            "descripcion": "CNDC_512_25.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/CNDC_512_25.pdf"
+                        },
+                        "AETN_223_24_NOp7_Anexo": {
+                            "descripcion": "AETN_223_24_NOp7_Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_223_24_NOp7_Anexo.pdf"
+                        },
+                        "AETN_223_24_NOp7_Resol": {
+                            "descripcion": "AETN_223_24_NOp7_Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_223_24_NOp7_Resol.pdf"
+                        },
+                        "AE_669_2016_NOp08_-_Anexo": {
+                            "descripcion": "AE_669_2016%20NOp08%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_669_2016%20NOp08%20-%20Anexo.pdf"
+                        },
+                        "AE_669_2016_NOp08_-_Resol": {
+                            "descripcion": "AE_669_2016%20NOp08%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_669_2016%20NOp08%20-%20Resol.pdf"
+                        },
+                        "AE_653_2012_NOp09_-_Anexo": {
+                            "descripcion": "AE_653_2012%20NOp09%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_653_2012%20NOp09%20-%20Anexo.pdf"
+                        },
+                        "AE_653_2012_NOp09_-_Resol": {
+                            "descripcion": "AE_653_2012%20NOp09%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_653_2012%20NOp09%20-%20Resol.pdf"
+                        },
+                        "AE_060_2010_NOp10_-_Anexo": {
+                            "descripcion": "AE_060_2010%20NOp10%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_060_2010%20NOp10%20-%20Anexo.pdf"
+                        },
+                        "AE_060_2010_NOp10_-_Resol": {
+                            "descripcion": "AE_060_2010%20NOp10%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_060_2010%20NOp10%20-%20Resol.pdf"
+                        },
+                        "anexoNormaOperativaN11": {
+                            "descripcion": "anexoNormaOperativaN11.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/anexoNormaOperativaN11.pdf"
+                        },
+                        "resolNormaOperativaN11": {
+                            "descripcion": "resolNormaOperativaN11.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/resolNormaOperativaN11.pdf"
+                        },
+                        "AE_062_2010_NOp12_-_Anexo": {
+                            "descripcion": "AE_062_2010%20NOp12%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_062_2010%20NOp12%20-%20Anexo.pdf"
+                        },
+                        "AE_062_2010_NOp12_-_Resol": {
+                            "descripcion": "AE_062_2010%20NOp12%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_062_2010%20NOp12%20-%20Resol.pdf"
+                        },
+                        "AETN_215_21_NOp13_-_Anexo": {
+                            "descripcion": "AETN_215_21%20NOp13%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_215_21%20NOp13%20-%20Anexo.pdf"
+                        },
+                        "AETN_215_21_NOp13_-_Resol": {
+                            "descripcion": "AETN_215_21%20NOp13%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_215_21%20NOp13%20-%20Resol.pdf"
+                        },
+                        "AE_062_2010_NOp14_-_Anexo": {
+                            "descripcion": "AE_062_2010%20NOp14%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_062_2010%20NOp14%20-%20Anexo.pdf"
+                        },
+                        "AE_062_2010_NOp14_-_Resol": {
+                            "descripcion": "AE_062_2010%20NOp14%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_062_2010%20NOp14%20-%20Resol.pdf"
+                        },
+                        "AETN_451_2026_NOP15_Anexo": {
+                            "descripcion": "AETN_451_2026_NOP15_Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_451_2026_NOP15_Anexo.pdf"
+                        },
+                        "AETN_451_2026_NOP15_Resol": {
+                            "descripcion": "AETN_451_2026_NOP15_Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_451_2026_NOP15_Resol.pdf"
+                        },
+                        "AE_083_2010_NOp16_-_Anexo": {
+                            "descripcion": "AE_083_2010%20NOp16%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_083_2010%20NOp16%20-%20Anexo.pdf"
+                        },
+                        "AE_083_2010_NOp16_-_Resol": {
+                            "descripcion": "AE_083_2010%20NOp16%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_083_2010%20NOp16%20-%20Resol.pdf"
+                        },
+                        "AETN_R_0417_23_NOp17_-_Anexo": {
+                            "descripcion": "AETN_R_0417_23%20NOp17%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_R_0417_23%20NOp17%20-%20Anexo.pdf"
+                        },
+                        "AETN_R_0417_23_NOp17_-_Resol": {
+                            "descripcion": "AETN_R_0417_23%20NOp17%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_R_0417_23%20NOp17%20-%20Resol.pdf"
+                        },
+                        "AE_376_2010_NOp18_-_Anexo": {
+                            "descripcion": "AE_376_2010%20NOp18%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_376_2010%20NOp18%20-%20Anexo.pdf"
+                        },
+                        "AE_376_2010_NOp18_-_Resol": {
+                            "descripcion": "AE_376_2010%20NOp18%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_376_2010%20NOp18%20-%20Resol.pdf"
+                        },
+                        "AE_305_2012_NOp19_-_Anexo": {
+                            "descripcion": "AE_305_2012%20NOp19%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_305_2012%20NOp19%20-%20Anexo.pdf"
+                        },
+                        "AE_305_2012_NOp19_-_Resol": {
+                            "descripcion": "AE_305_2012%20NOp19%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_305_2012%20NOp19%20-%20Resol.pdf"
+                        },
+                        "AE_151_2014_NOp19_-_Resol": {
+                            "descripcion": "AE_151_2014%20NOp19%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_151_2014%20NOp19%20-%20Resol.pdf"
+                        },
+                        "AETN_381_2025_NOp20_-_Anexo": {
+                            "descripcion": "AETN_381_2025%20NOp20%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_381_2025%20NOp20%20-%20Anexo.pdf"
+                        },
+                        "AETN_381_2025_NOp20_-_Resol": {
+                            "descripcion": "AETN_381_2025%20NOp20%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_381_2025%20NOp20%20-%20Resol.pdf"
+                        },
+                        "SSDE_150_2001_NOp21_-_Anexo": {
+                            "descripcion": "SSDE_150_2001%20NOp21%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_150_2001%20NOp21%20-%20Anexo.pdf"
+                        },
+                        "SSDE_150_2001_NOp21_-_Resol": {
+                            "descripcion": "SSDE_150_2001%20NOp21%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_150_2001%20NOp21%20-%20Resol.pdf"
+                        },
+                        "SSDE_039_2002_NOp22_-_Anexo": {
+                            "descripcion": "SSDE_039_2002%20NOp22%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_039_2002%20NOp22%20-%20Anexo.pdf"
+                        },
+                        "SSDE_039_2002_NOp22_-_Resol": {
+                            "descripcion": "SSDE_039_2002%20NOp22%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_039_2002%20NOp22%20-%20Resol.pdf"
+                        },
+                        "SSDE_089_2002_NOp22_-_Anexo": {
+                            "descripcion": "SSDE_089_2002%20NOp22%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_089_2002%20NOp22%20-%20Anexo.pdf"
+                        },
+                        "SSDE_089_2002_NOp22_-_Resol": {
+                            "descripcion": "SSDE_089_2002%20NOp22%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_089_2002%20NOp22%20-%20Resol.pdf"
+                        },
+                        "SSDE_041_2002_NOp23_-_Anexo": {
+                            "descripcion": "SSDE_041_2002%20NOp23%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_041_2002%20NOp23%20-%20Anexo.pdf"
+                        },
+                        "SSDE_041_2002_NOp23_-_Resol": {
+                            "descripcion": "SSDE_041_2002%20NOp23%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_041_2002%20NOp23%20-%20Resol.pdf"
+                        },
+                        "anexoNormaOperativaN25": {
+                            "descripcion": "anexoNormaOperativaN25.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/anexoNormaOperativaN25.pdf"
+                        },
+                        "resolNormaOperativaN25": {
+                            "descripcion": "resolNormaOperativaN25.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/resolNormaOperativaN25.pdf"
+                        },
+                        "SSDE_094_2003_NOp26_-_Anexo": {
+                            "descripcion": "SSDE_094_2003%20NOp26%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_094_2003%20NOp26%20-%20Anexo.pdf"
+                        },
+                        "SSDE_094_2003_NOp26_-_Resol": {
+                            "descripcion": "SSDE_094_2003%20NOp26%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/SSDE_094_2003%20NOp26%20-%20Resol.pdf"
+                        },
+                        "AETN_340_25_NOp27_-_Anexo": {
+                            "descripcion": "AETN_340_25%20NOp27%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_340_25%20NOp27%20-%20Anexo.pdf"
+                        },
+                        "AETN_340_25_NOp27_-_Resol": {
+                            "descripcion": "AETN_340_25%20NOp27%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_340_25%20NOp27%20-%20Resol.pdf"
+                        },
+                        "AETN_32_2021_NOp29_-_Anexo": {
+                            "descripcion": "AETN_32_2021%20NOp29%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_32_2021%20NOp29%20-%20Anexo.pdf"
+                        },
+                        "AETN_32_2021_NOp29_-_Resol": {
+                            "descripcion": "AETN_32_2021%20NOp29%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_32_2021%20NOp29%20-%20Resol.pdf"
+                        },
+                        "anexoNormaOperativaN30": {
+                            "descripcion": "anexoNormaOperativaN30.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/anexoNormaOperativaN30.pdf"
+                        },
+                        "resolNormaOperativaN30": {
+                            "descripcion": "resolNormaOperativaN30.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/resolNormaOperativaN30.pdf"
+                        },
+                        "AE_058_2009_NOp31_-_Anexo": {
+                            "descripcion": "AE_058_2009%20NOp31%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_058_2009%20NOp31%20-%20Anexo.pdf"
+                        },
+                        "AE_058_2009_NOp31_-_Resol": {
+                            "descripcion": "AE_058_2009%20NOp31%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_058_2009%20NOp31%20-%20Resol.pdf"
+                        },
+                        "AE_094_2009_NOp32_-_Anexo": {
+                            "descripcion": "AE_094_2009%20NOp32%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_094_2009%20NOp32%20-%20Anexo.pdf"
+                        },
+                        "AE_094_2009_NOp32_-_Resol": {
+                            "descripcion": "AE_094_2009%20NOp32%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_094_2009%20NOp32%20-%20Resol.pdf"
+                        },
+                        "AE_167_2009_NOp33_-_Anexo": {
+                            "descripcion": "AE_167_2009%20NOp33%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_167_2009%20NOp33%20-%20Anexo.pdf"
+                        },
+                        "AE_167_2009_NOp33_-_Resol": {
+                            "descripcion": "AE_167_2009%20NOp33%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_167_2009%20NOp33%20-%20Resol.pdf"
+                        },
+                        "AE_504_2012_NOp34_-_Anexo": {
+                            "descripcion": "AE_504_2012%20NOp34%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_504_2012%20NOp34%20-%20Anexo.pdf"
+                        },
+                        "AE_504_2012_NOp34_-_Resol": {
+                            "descripcion": "AE_504_2012%20NOp34%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_504_2012%20NOp34%20-%20Resol.pdf"
+                        },
+                        "AE_R_620_14_NOp34_-_Resol": {
+                            "descripcion": "AE_R_620_14%20NOp34%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AE_R_620_14%20NOp34%20-%20Resol.pdf"
+                        },
+                        "AETN_275_2022_NOp35_-_Anexo": {
+                            "descripcion": "AETN_275_2022%20NOp35%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_275_2022%20NOp35%20-%20Anexo.pdf"
+                        },
+                        "AETN_275_2022_NOp35_-_Resol": {
+                            "descripcion": "AETN_275_2022%20NOp35%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_275_2022%20NOp35%20-%20Resol.pdf"
+                        },
+                        "AETN_388_2026_NOp36_-_Anexo": {
+                            "descripcion": "AETN_388_2026%20NOp36%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_388_2026%20NOp36%20-%20Anexo.pdf"
+                        },
+                        "AETN_388_2026_NOp36_-_Resol": {
+                            "descripcion": "AETN_388_2026%20NOp36%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_388_2026%20NOp36%20-%20Resol.pdf"
+                        },
+                        "anexoNormaOperativaN37": {
+                            "descripcion": "anexoNormaOperativaN37.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/anexoNormaOperativaN37.pdf"
+                        },
+                        "resolNormaOperativaN37": {
+                            "descripcion": "resolNormaOperativaN37.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/resolNormaOperativaN37.pdf"
+                        },
+                        "AETN_339_2026_NOp38_-_Anexo": {
+                            "descripcion": "AETN_339_2026%20NOp38%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_339_2026%20NOp38%20-%20Anexo.pdf"
+                        },
+                        "AETN_339_2026_NOp38_-_Resol": {
+                            "descripcion": "AETN_339_2026%20NOp38%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_339_2026%20NOp38%20-%20Resol.pdf"
+                        },
+                        "AETN_431_2026_NOp39_-_Anexo": {
+                            "descripcion": "AETN_431_2026%20NOp39%20-%20Anexo.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_431_2026%20NOp39%20-%20Anexo.pdf"
+                        },
+                        "AETN_431_2026_NOp39_-_Resol": {
+                            "descripcion": "AETN_431_2026%20NOp39%20-%20Resol.pdf",
+                            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/normas/AETN_431_2026%20NOp39%20-%20Resol.pdf"
+                        }
+                    }
+                }
+            },
+            "Abrir_actividad": {
+                "evento": {
+                    "presentaciones": {
+                        "CNDC_Revista_Discurso_EID": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/CNDC_Revista_Discurso_EID.pdf"
+                        },
+                        "01-modelos-optimizacion": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/01-modelos-optimizacion.pdf"
+                        },
+                        "02-flexibilidad-operativa-agc": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/02-flexibilidad-operativa-agc.pdf"
+                        },
+                        "03-gestion-declaraciones-rpa": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/03-gestion-declaraciones-rpa.pdf"
+                        },
+                        "04-desafios-smec": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/04-desafios-smec.pdf"
+                        },
+                        "05-pronostico-energias-renovables": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/05-pronostico-energias-renovables.pdf"
+                        },
+                        "06-generacion-distribuida": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/06-generacion-distribuida.pdf"
+                        },
+                        "07-sitio-web-institucional": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/07-sitio-web-institucional.pdf"
+                        },
+                        "03-nota-de-prensa": {
+                            "descripcion": "Descargar PDF↓",
+                            "url_descarga": "https://www.cndc.bo/evento/presentaciones/03-nota-de-prensa.pdf"
+                        }
+                    }
+                },
+                "Abrir_actividad": {
+                    "embed": {
+                        "MQoqO8KgKWo": {
+                            "descripcion": "Encuentro Ejecutivo CNDC 2026",
+                            "url_descarga": "https://www.youtube.com/embed/MQoqO8KgKWo",
+                            "tipo": "iframe"
+                        }
+                    }
+                }
+            }
+        },
+        "Dashboard_Operativo": {},
+        "Resultados_Operativos": {},
+        "Estadísticas": {}
     },
-    "Inicio": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual_CNDC_2025_disponible.csv": {
-            "descripcion": "Memoria Anual CNDC 2025 disponible",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          },
-          "Plan_Eléctrico_Referencial_Bolivia_2035.csv": {
-            "descripcion": "Plan Eléctrico Referencial Bolivia 2035",
-            "url_descarga": "https://www.cndc.bo/publicaciones/plan-electrico-referencial-bolivia-2035/"
-          },
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
+    "paginas_con_contenido_relevante": [
+        {
+            "pagina": "Dashboard_Operativo",
+            "titulo": "Dashboard Operativo – CNDC – Comité  Nacional de Despacho de Carga",
+            "url": "https://www.cndc.bo/dashboard-operativo/",
+            "coincide_palabra_clave": true,
+            "num_tablas_detectadas": 1,
+            "tablas": [
+                {
+                    "filas": [
+                        [
+                            "Central",
+                            "MMpc",
+                            "%"
+                        ],
+                        [
+                            "Cargando…"
+                        ]
+                    ],
+                    "truncada": false,
+                    "total_filas_original": 2
+                }
+            ]
+        },
+        {
+            "pagina": "Resultados_Operativos",
+            "titulo": "Resultados Operativos – CNDC – Comité  Nacional de Despacho de Carga",
+            "url": "https://www.cndc.bo/resultados-operativos/",
+            "coincide_palabra_clave": true,
+            "num_tablas_detectadas": 1,
+            "tablas": [
+                {
+                    "filas": [
+                        [
+                            "Documento",
+                            "Última Publicación",
+                            "Periodicidad",
+                            "Acceso"
+                        ],
+                        [
+                            "Plan Referencial de Expansión del SIN",
+                            "2025",
+                            "Bi-Anual",
+                            "Pública"
+                        ],
+                        [
+                            "Informe de Análisis Eléctrico — Programación Mediano Plazo",
+                            "Nov 2025",
+                            "Semestral",
+                            "Pública 2do Nivel"
+                        ],
+                        [
+                            "Informe de Índices de Calidad de Transmisión",
+                            "Ene 2026",
+                            "Anual",
+                            "Pública 2do Nivel"
+                        ],
+                        [
+                            "Informe Estadística de Desempeño",
+                            "2025",
+                            "Anual",
+                            "Pública 2do Nivel"
+                        ],
+                        [
+                            "Estudio de Determinación de Reserva Rotante",
+                            "Jul 2025",
+                            "Anual",
+                            "Pública 2do Nivel"
+                        ],
+                        [
+                            "Capacidad de Alojamiento Solar y Eólica",
+                            "2025",
+                            "Anual",
+                            "Pública 2do Nivel"
+                        ]
+                    ],
+                    "truncada": false,
+                    "total_filas_original": 7
+                }
+            ]
+        },
+        {
+            "pagina": "Estadísticas",
+            "titulo": "Estadísticas – CNDC – Comité  Nacional de Despacho de Carga",
+            "url": "https://www.cndc.bo/estadisticas/",
+            "coincide_palabra_clave": true,
+            "num_tablas_detectadas": 0
+        },
+        {
+            "pagina": "Memoria Anual CNDC 2025 disponible",
+            "titulo": "Memoria Anual – CNDC – Comité  Nacional de Despacho de Carga",
+            "url": "https://www.cndc.bo/memoria-anual/",
+            "coincide_palabra_clave": true,
+            "num_tablas_detectadas": 0
         }
-      }
-    },
-    "Dashboard_Operativo": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Resultados_Operativos": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Estadísticas": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Portal_Agentes_MEM": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Encuentro_Ejecutivo_2026": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Memoria_Anual_CNDC_2025_disponible": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Ver_histórico": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Ver_todas_las_publicaciones": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Ver_estadísticas_históricas": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Ver_historial_de_eventos": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Plan_Eléctrico_Referencial_Bolivia_2035": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Plan_Eléctrico_de_Bolivia_2025": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Plan_Óptimo_de_Expansión_del_SIN_2012-2022": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Ver_publicaciones_de_GP": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "El_CNDC": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Conocer_el_CNDC": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Memoria_Anual": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Actividades_Institucionales": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Diagramas_del_SIN": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Agentes_del_MEM": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Marco_Legal": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Descargar.csv": {
-            "descripcion": "Descargar",
-            "url_descarga": "https://www.cndc.bo/wp-content/uploads/marco-legal/CPE.pdf"
-          },
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    },
-    "Normas_Operativas": {
-      "REPORTE_Y_CONSULTAS": {
-        "CONTENIDO_WEB": {
-          "Memoria_Anual.csv": {
-            "descripcion": "Memoria Anual",
-            "url_descarga": "https://www.cndc.bo/memoria-anual/"
-          }
-        }
-      }
-    }
-  }
+    ]
 }
