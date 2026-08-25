@@ -1,0 +1,42 @@
+{
+  "id_fuente": "sicoes",
+  "nombre": "Sistema de Contrataciones Estatales",
+  "base_url": "https://www.sicoes.gob.bo/",
+  "allowed_domains": [
+    "sicoes.gob.bo"
+  ],
+  "entrypoints": [
+    "https://www.sicoes.gob.bo/contrat/procesos.php",
+    "https://www.sicoes.gob.bo/"
+  ],
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "high_priority_keywords": [
+    "contrat",
+    "procesos",
+    "formularios",
+    "cuce",
+    "datos"
+  ],
+  "force_data_url_patterns": [
+    "/contrat/procesos.php"
+  ],
+  "max_query_params": 12
+}

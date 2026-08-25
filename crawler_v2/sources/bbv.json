@@ -1,11 +1,15 @@
 {
   "id_fuente": "bbv",
   "nombre": "Bolsa Boliviana de Valores",
-  "base_url": "https://www.bbv.com.bo/",
+  "base_url": "https://www2.bbv.com.bo/",
+  "fallback_urls": [
+    "https://www.bbv.com.bo/"
+  ],
   "allowed_domains": [
     "bbv.com.bo"
   ],
   "entrypoints": [
+    "https://www2.bbv.com.bo/",
     "https://www.bbv.com.bo/estadisticas/",
     "https://www.bbv.com.bo/mercados/",
     "https://www.bbv.com.bo/estado-del-mercado/",
@@ -14,12 +18,26 @@
     "https://www.bbv.com.bo/mercados/fondos-de-inversion/",
     "https://www.bbv.com.bo/mercados/calificaciones-de-riesgo/reportes-de-calificacion/",
     "https://www.bbv.com.bo/acerca-de-la-bolsa/informacion-financiera/",
-    "https://www.bbv.com.bo/acerca-de-la-bolsa/informacion-financiera-2024/",
     "https://www.bbv.com.bo/Publicacionv3/View_Publicacion/Resumen_diario_Fecha.aspx"
   ],
-  "max_depth": 5,
-  "max_pages": 150,
-  "max_files": 5000,
-  "request_timeout": 12,
-  "delay_seconds": 0.3
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "adapter": "bbv"
 }

@@ -36,8 +36,15 @@ def build_adapter(
         )
     ).strip().lower()
 
+    adapter_id = str(
+        config.get(
+            "adapter",
+            source_id,
+        )
+    ).strip().lower()
+
     adapter_class = ADAPTERS.get(
-        source_id,
+        adapter_id,
         GenericAdapter,
     )
 

@@ -1,0 +1,69 @@
+{
+  "id_fuente": "fmi",
+  "nombre": "Fondo Monetario Internacional",
+  "base_url": "https://www.imf.org/external/datamapper/",
+  "allowed_domains": [
+    "imf.org"
+  ],
+  "entrypoints": [
+    "https://www.imf.org/external/datamapper/datasets",
+    "https://www.imf.org/external/datamapper/api/"
+  ],
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "api_endpoints": [
+    {
+      "url": "https://www.imf.org/external/datamapper/api/v2/indicators",
+      "descripcion": "IMF DataMapper - Indicadores",
+      "method": "GET",
+      "documentation_url": "https://www.imf.org/external/datamapper/api/"
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/api/v2/countries",
+      "descripcion": "IMF DataMapper - Países",
+      "method": "GET",
+      "documentation_url": "https://www.imf.org/external/datamapper/api/"
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/api/v2/regions",
+      "descripcion": "IMF DataMapper - Regiones",
+      "method": "GET",
+      "documentation_url": "https://www.imf.org/external/datamapper/api/"
+    },
+    {
+      "url": "https://www.imf.org/external/datamapper/api/v2/groups",
+      "descripcion": "IMF DataMapper - Grupos analíticos",
+      "method": "GET",
+      "documentation_url": "https://www.imf.org/external/datamapper/api/"
+    }
+  ],
+  "high_priority_keywords": [
+    "datamapper",
+    "dataset",
+    "api",
+    "data"
+  ],
+  "include_url_patterns": [
+    "/external/datamapper/"
+  ],
+  "force_data_url_patterns": [
+    "/external/datamapper/datasets"
+  ]
+}

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+
 from urllib.parse import (
     parse_qs,
     unquote,
@@ -47,12 +48,16 @@ HIGH_PRIORITY_KEYWORDS = (
     "downloads",
     "archivo",
     "archivos",
+    "documento",
+    "documentos",
     "cifras",
     "economica",
     "economicas",
     "financiera",
     "financieras",
     "mercado",
+    "catalogo",
+    "catalog",
     "excel",
     "csv",
     "xlsx",
@@ -109,6 +114,20 @@ STATIC_EXTENSIONS = (
     ".mov",
 )
 
+# Archivos auxiliares que no son páginas HTML navegables ni datasets
+# finales útiles por sí mismos. Se omiten de la frontera para evitar que
+# el crawler consuma tiempo GET por GET en checksums/firmas.
+NON_NAVIGABLE_SIDECAR_EXTENSIONS = (
+    ".sha",
+    ".sha1",
+    ".sha224",
+    ".sha256",
+    ".sha384",
+    ".sha512",
+    ".md5",
+    ".sig",
+)
+
 GENERIC_LABELS = {
     "",
     "leer mas",
@@ -126,11 +145,205 @@ GENERIC_LABELS = {
 
 
 class GenericAdapter:
+    """
+    Adapter genérico configurable.
+
+    La mayor parte de las fuentes deben poder resolverse con este adapter
+    más un archivo JSON de configuración. Los adapters específicos quedan
+    reservados para comportamientos que no se puedan expresar mediante:
+
+    - entrypoints
+    - allowed_domains
+    - prioridades adicionales
+    - inclusión/exclusión de rutas
+    - configuración de detección de datos
+    """
+
     def __init__(
         self,
         config: dict,
     ) -> None:
         self.config = config
+
+        self.high_priority_keywords = self._merge_tokens(
+            HIGH_PRIORITY_KEYWORDS,
+            config.get(
+                "high_priority_keywords",
+                [],
+            ),
+        )
+
+        self.low_priority_keywords = self._merge_tokens(
+            LOW_PRIORITY_KEYWORDS,
+            config.get(
+                "low_priority_keywords",
+                [],
+            ),
+        )
+
+        self.ignore_keywords = self._merge_tokens(
+            IGNORE_KEYWORDS,
+            config.get(
+                "ignore_url_patterns",
+                [],
+            ),
+        )
+
+        self.include_url_patterns = tuple(
+            self._clean_tokens(
+                config.get(
+                    "include_url_patterns",
+                    [],
+                )
+            )
+        )
+
+        try:
+            self.max_query_params = max(
+                0,
+                int(
+                    config.get(
+                        "max_query_params",
+                        8,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.max_query_params = 8
+
+        self.seed_urls = {
+            self._canonical_for_scope(
+                url
+            )
+            for url in [
+                config.get(
+                    "base_url",
+                    "",
+                ),
+                *(
+                    config.get(
+                        "entrypoints",
+                        [],
+                    )
+                    or []
+                ),
+            ]
+            if str(
+                url
+                or ""
+            ).strip()
+        }
+
+    @staticmethod
+    def _clean_tokens(
+        values,
+    ) -> list[str]:
+        if isinstance(
+            values,
+            str,
+        ):
+            values = [
+                values
+            ]
+
+        if not isinstance(
+            values,
+            (
+                list,
+                tuple,
+                set,
+            ),
+        ):
+            return []
+
+        result: list[str] = []
+
+        for value in values:
+            token = str(
+                value
+                or ""
+            ).strip().lower()
+
+            if (
+                token
+                and token not in result
+            ):
+                result.append(
+                    token
+                )
+
+        return result
+
+    @classmethod
+    def _merge_tokens(
+        cls,
+        base: tuple[str, ...],
+        extra,
+    ) -> tuple[str, ...]:
+        values = list(
+            base
+        )
+
+        for token in cls._clean_tokens(
+            extra
+        ):
+            if token not in values:
+                values.append(
+                    token
+                )
+
+        return tuple(
+            values
+        )
+
+    @staticmethod
+    def _canonical_for_scope(
+        url: str,
+    ) -> str:
+        value = str(
+            url
+            or ""
+        ).strip()
+
+        if not value:
+            return ""
+
+        parsed = urlparse(
+            value
+        )
+
+        scheme = (
+            parsed.scheme.lower()
+        )
+
+        hostname = (
+            parsed.hostname
+            or ""
+        ).lower()
+
+        path = (
+            parsed.path
+            or "/"
+        )
+
+        if (
+            not scheme
+            or not hostname
+        ):
+            return (
+                value
+                .rstrip("/")
+                .lower()
+            )
+
+        return (
+            f"{scheme}://"
+            f"{hostname}"
+            f"{path}"
+        ).rstrip("/").lower()
 
     @staticmethod
     def _searchable_text(
@@ -138,20 +351,79 @@ class GenericAdapter:
         text: str,
     ) -> str:
         return (
-            unquote(url)
+            unquote(
+                url
+            )
             + " "
             + text
         ).lower()
+
+    def _matches_include_scope(
+        self,
+        url: str,
+    ) -> bool:
+        if not self.include_url_patterns:
+            return True
+
+        canonical = (
+            self._canonical_for_scope(
+                url
+            )
+        )
+
+        if canonical in self.seed_urls:
+            return True
+
+        lowered = (
+            unquote(
+                url
+            )
+            .lower()
+        )
+
+        return any(
+            pattern in lowered
+            for pattern
+            in self.include_url_patterns
+        )
 
     def should_follow(
         self,
         url: str,
     ) -> bool:
-        lowered = url.lower()
+        lowered = (
+            unquote(
+                url
+            )
+            .lower()
+        )
 
-        if any(
-            token in lowered
-            for token in IGNORE_KEYWORDS
+        canonical = (
+            self._canonical_for_scope(
+                url
+            )
+        )
+
+        is_explicit_seed = (
+            canonical
+            in self.seed_urls
+        )
+
+        # Un entrypoint explícitamente configurado puede ser inspeccionado
+        # aunque su URL contenga una palabra normalmente ignorada.
+        # Los enlaces descubiertos hacia login/logout siguen bloqueados.
+        if (
+            not is_explicit_seed
+            and any(
+                token in lowered
+                for token
+                in self.ignore_keywords
+            )
+        ):
+            return False
+
+        if not self._matches_include_scope(
+            url
         ):
             return False
 
@@ -169,13 +441,23 @@ class GenericAdapter:
         ):
             return False
 
+        if path.endswith(
+            NON_NAVIGABLE_SIDECAR_EXTENSIONS
+        ):
+            return False
+
         query = parse_qs(
             parsed.query
         )
 
         # Evita URLs generadas con cantidades absurdas
         # de filtros o parámetros.
-        if len(query) > 8:
+        if (
+            self.max_query_params > 0
+            and len(
+                query
+            ) > self.max_query_params
+        ):
             return False
 
         return True
@@ -185,14 +467,17 @@ class GenericAdapter:
         url: str,
         text: str,
     ) -> int:
-        searchable = self._searchable_text(
-            url,
-            text,
+        searchable = (
+            self._searchable_text(
+                url,
+                text,
+            )
         )
 
         if any(
             keyword in searchable
-            for keyword in HIGH_PRIORITY_KEYWORDS
+            for keyword
+            in self.high_priority_keywords
         ):
             return 10
 
@@ -209,6 +494,7 @@ class GenericAdapter:
             or "pagina" in query
             or "__pagina__" in query
             or "limitstart" in query
+            or "offset" in query
         ):
             page_numbers = re.findall(
                 r"\d+",
@@ -217,8 +503,11 @@ class GenericAdapter:
 
             if page_numbers:
                 largest = max(
-                    int(value)
-                    for value in page_numbers
+                    int(
+                        value
+                    )
+                    for value
+                    in page_numbers
                 )
 
                 if largest > 100:
@@ -228,7 +517,8 @@ class GenericAdapter:
 
         if any(
             keyword in searchable
-            for keyword in LOW_PRIORITY_KEYWORDS
+            for keyword
+            in self.low_priority_keywords
         ):
             return 70
 
@@ -247,7 +537,9 @@ class GenericAdapter:
             cleaned
             and cleaned.lower()
             not in GENERIC_LABELS
-            and len(cleaned) <= 100
+            and len(
+                cleaned
+            ) <= 100
         ):
             return cleaned
 
@@ -263,8 +555,14 @@ class GenericAdapter:
 
         slug = (
             slug
-            .replace("-", " ")
-            .replace("_", " ")
+            .replace(
+                "-",
+                " ",
+            )
+            .replace(
+                "_",
+                " ",
+            )
         )
 
         return (
@@ -298,8 +596,27 @@ class GenericAdapter:
             label,
         )
 
-        # Evita rutas enormes por navegación repetitiva.
-        return new_path[-6:]
+        try:
+            max_route_depth = max(
+                1,
+                int(
+                    self.config.get(
+                        "max_route_depth",
+                        6,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            max_route_depth = 6
+
+        return (
+            new_path[
+                -max_route_depth:
+            ]
+        )
 
     def should_detect_data(
         self,
@@ -307,11 +624,9 @@ class GenericAdapter:
         title: str,
     ) -> bool:
         """
-        Por defecto todas las páginas HTML pueden ser
-        evaluadas por DataDetector.
-
-        Los adapters específicos pueden sobrescribir este
-        comportamiento para evitar falsos datasets.
+        Por defecto todas las páginas HTML pueden ser evaluadas por
+        DataDetector. Los adapters específicos pueden sobrescribir este
+        comportamiento cuando una fuente requiera una regla más estricta.
         """
 
         return True

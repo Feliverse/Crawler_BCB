@@ -1,25 +1,40 @@
 {
   "id_fuente": "senamhi",
   "nombre": "Servicio Nacional de Meteorología e Hidrología",
-
   "base_url": "https://wis.senamhi.gob.bo/oapi/",
-
   "allowed_domains": [
     "senamhi.gob.bo"
   ],
-
   "entrypoints": [
     "https://wis.senamhi.gob.bo/oapi/collections?f=html",
     "https://wis.senamhi.gob.bo/oapi/collections/stations?f=html",
     "https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html",
     "https://wis.senamhi.gob.bo/oapi/collections/messages?f=html",
     "https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html",
-
     "https://onsc.senamhi.gob.bo/public/public-stations-info-export",
     "https://onsc.senamhi.gob.bo/public/public-stations",
     "https://onsc.senamhi.gob.bo/public/public-geoanalisys"
   ],
-
+  "max_depth": 4,
+  "max_pages": 150,
+  "max_files": 5000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "adapter": "senamhi",
   "api_endpoints": [
     {
       "url": "https://wis.senamhi.gob.bo/oapi/collections?f=json",
@@ -27,24 +42,5 @@
       "method": "GET",
       "documentation_url": "https://wis.senamhi.gob.bo/oapi/"
     }
-  ],
-
-  "crawl_api_documentation": true,
-
-  "api_pagination": {
-  "enabled": true,
-  "max_pages": 10
-  },
-
-  "auto_url_variants": true,
-
-  "max_depth": 4,
-  "max_pages": 150,
-  "max_files": 5000,
-
-  "request_timeout": 15,
-
-  "delay_seconds": 0.3,
-  "random_delay_min": 0.3,
-  "random_delay_max": 0.9
+  ]
 }

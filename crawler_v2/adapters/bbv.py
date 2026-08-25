@@ -20,6 +20,9 @@ HIGH_PRIORITY = (
     "reportes-de-calificacion",
     "resumen_diario",
     "informacion-financiera",
+    "boletin",
+    "bolsames",
+    "estadisticas",
 )
 
 
@@ -29,6 +32,7 @@ MEDIUM_PRIORITY = (
     "publicaciones",
     "boletin",
     "reporte",
+    "wp-content/uploads",
 )
 
 
@@ -41,34 +45,9 @@ LOW_PRIORITY = (
 )
 
 
-class BbvAdapter(GenericAdapter):
-
-    def should_follow(
-        self,
-        url: str,
-    ) -> bool:
-
-        if not super().should_follow(
-            url
-        ):
-            return False
-
-        parsed = urlparse(
-            url
-        )
-
-        hostname = (
-            parsed.hostname
-            or ""
-        ).lower()
-
-        if hostname not in {
-            "bbv.com.bo",
-            "www.bbv.com.bo",
-        }:
-            return False
-
-        return True
+class BbvAdapter(
+    GenericAdapter
+):
 
     def priority(
         self,
@@ -84,29 +63,29 @@ class BbvAdapter(GenericAdapter):
 
         if any(
             keyword in searchable
-            for keyword in HIGH_PRIORITY
+            for keyword
+            in HIGH_PRIORITY
         ):
             return 1
 
         if any(
             keyword in searchable
-            for keyword in MEDIUM_PRIORITY
+            for keyword
+            in MEDIUM_PRIORITY
         ):
             return 10
 
-        # Las fichas individuales pueden tener documentos
-        # importantes, por eso NO se eliminan.
-        # Simplemente se procesan después de estadísticas
-        # y mercados.
         if (
-            "/participantes-del-mercado/participante/"
+            "/participantes-del-mercado/"
+            "participante/"
             in searchable
         ):
             return 90
 
         if any(
             keyword in searchable
-            for keyword in LOW_PRIORITY
+            for keyword
+            in LOW_PRIORITY
         ):
             return 80
 
@@ -130,21 +109,13 @@ class BbvAdapter(GenericAdapter):
             or ""
         ).lower()
 
-        # Ejemplo:
-        #
-        # /participantes-del-mercado/participante/
-        # ?participante=BIA-emi
-        #
-        # Estas páginas tienen tablas, pero son fichas
-        # descriptivas de entidades, no datasets estadísticos.
         if (
-            "/participantes-del-mercado/participante/"
+            "/participantes-del-mercado/"
+            "participante/"
             in path
         ):
             return False
 
-        # El detalle de noticias del resumen diario tampoco
-        # debe clasificarse como dataset.
         if (
             "noticias_fecha.aspx"
             in path

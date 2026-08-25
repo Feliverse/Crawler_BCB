@@ -1,0 +1,40 @@
+{
+  "id_fuente": "undata",
+  "nombre": "United Nations Data",
+  "base_url": "https://data.un.org/",
+  "allowed_domains": [
+    "data.un.org"
+  ],
+  "entrypoints": [
+    "https://data.un.org/"
+  ],
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "high_priority_keywords": [
+    "data",
+    "dataset",
+    "download",
+    "csv",
+    "statistics"
+  ],
+  "force_data_url_patterns": [
+    "data.un.org"
+  ]
+}

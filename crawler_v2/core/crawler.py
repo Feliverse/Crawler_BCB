@@ -21,6 +21,7 @@ from requests.exceptions import RequestException, Timeout
 from adapters.generic import GenericAdapter
 
 from core.api_detector import ApiDetector
+from core.api_discovery import ApiReferenceDiscovery
 from core.api_identity import ApiIdentity
 from core.api_pagination import ApiPagination
 from core.api_policy import ApiPolicy
@@ -122,6 +123,9 @@ class CrawlResult:
     files: list[FileRecord] = field(default_factory=list)
     data_pages: list[DataPageRecord] = field(default_factory=list)
     errors: list[str] = field(default_factory=list)
+    # Fallos de sondeos API descubiertos automáticamente.
+    # Se conservan para diagnóstico, pero NO son errores de la fuente.
+    api_probe_errors: list[str] = field(default_factory=list)
     stop_reason: str = "frontier_exhausted"
     duration_seconds: float = 0.0
 
@@ -150,8 +154,9 @@ class Crawler:
         self.adapter = adapter
 
         self.zip_inspector = ZipInspector(client)
-        self.data_detector = DataDetector()
+        self.data_detector = DataDetector(config)
         self.api_detector = ApiDetector()
+        self.api_reference_discovery = ApiReferenceDiscovery()
         self.api_policy = ApiPolicy()
         self.api_identity = ApiIdentity()
         self.api_pagination = ApiPagination()
@@ -222,6 +227,43 @@ class Crawler:
             ValueError,
         ):
             self.max_sitemap_bytes = 20_000_000
+
+        # ====================================================
+        # DESCUBRIMIENTO GENÉRICO DE REFERENCIAS API
+        # ====================================================
+
+        self.discover_api_references = bool(
+            config.get(
+                "discover_api_references",
+                True,
+            )
+        )
+
+        try:
+            self.max_api_candidates_per_page = max(
+                0,
+                int(
+                    config.get(
+                        "max_api_candidates_per_page",
+                        50,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.max_api_candidates_per_page = 50
+
+        self.api_reference_urls_seen: set[
+            str
+        ] = set()
+
+        # URLs que llegaron a la frontera EXCLUSIVAMENTE como
+        # referencias API oportunistas descubiertas en HTML/JS.
+        # Si una de ellas falla, se registra como sondeo fallido
+        # y no como error estructural de la fuente.
+        self.api_reference_urls_queued: set[str] = set()
 
         # ====================================================
         # API CONFIGURADA / OPENAPI
@@ -755,6 +797,96 @@ class Crawler:
             for hint in API_URL_HINTS
         )
 
+    def _request_headers_for(
+        self,
+        url: str,
+    ) -> dict[str, str] | None:
+        """
+        Cabeceras específicas para endpoints API.
+
+        Las páginas HTML normales conservan las cabeceras comunes del
+        HttpClient. Los endpoints API declarados, descubiertos por OpenAPI,
+        paginados o reconocibles por URL usan una identificación
+        transparente y un Accept orientado a datos.
+
+        Se puede sobrescribir por fuente mediante:
+        "api_request_headers": {"User-Agent": "...", "Accept": "..."}
+        """
+
+        normalized = (
+            self.normalize_url(
+                url
+            )
+        )
+
+        if not normalized:
+            return None
+
+        is_api_request = (
+            normalized
+            in self.api_endpoints
+            or normalized
+            in self.openapi_endpoints
+            or normalized
+            in self.pagination_context_by_url
+            or self._looks_like_api_url(
+                normalized
+            )
+        )
+
+        if not is_api_request:
+            return None
+
+        headers = {
+            "User-Agent": (
+                "PublicDataCrawler/1.0"
+            ),
+            "Accept": (
+                "application/json,"
+                "application/geo+json;q=0.95,"
+                "application/xml;q=0.9,"
+                "text/csv;q=0.85,"
+                "*/*;q=0.5"
+            ),
+        }
+
+        configured_headers = (
+            self.config.get(
+                "api_request_headers",
+                {},
+            )
+            or {}
+        )
+
+        if isinstance(
+            configured_headers,
+            dict,
+        ):
+            for (
+                key,
+                value,
+            ) in configured_headers.items():
+
+                header_name = str(
+                    key
+                    or ""
+                ).strip()
+
+                header_value = str(
+                    value
+                    or ""
+                ).strip()
+
+                if (
+                    header_name
+                    and header_value
+                ):
+                    headers[
+                        header_name
+                    ] = header_value
+
+        return headers
+
     def _pagination_context_for(
         self,
         url: str,
@@ -947,6 +1079,191 @@ class Crawler:
         return (
             decision.allowed
         )
+
+    # ========================================================
+    # REFERENCIAS API EN HTML
+    # ========================================================
+
+    def _queue_html_api_references(
+        self,
+        queue: list,
+        *,
+        soup: BeautifulSoup,
+        page_url: str,
+        depth: int,
+    ) -> None:
+
+        if not self.discover_api_references:
+            return
+
+        if self.max_api_candidates_per_page <= 0:
+            return
+
+        candidates = (
+            self.api_reference_discovery
+            .discover(
+                soup,
+                page_url,
+                max_candidates=(
+                    self.max_api_candidates_per_page
+                ),
+            )
+        )
+
+        if not candidates:
+            return
+
+        queued = 0
+
+        for candidate in candidates:
+
+            normalized = (
+                self.normalize_url(
+                    candidate.url,
+                    page_url,
+                )
+            )
+
+            if not normalized:
+                continue
+
+            if (
+                normalized
+                in self.api_reference_urls_seen
+            ):
+                continue
+
+            self.api_reference_urls_seen.add(
+                normalized
+            )
+
+            if not self.is_public_web_url(
+                normalized
+            ):
+                continue
+
+            if not self.is_allowed(
+                normalized
+            ):
+                continue
+
+            if not self._allow_discovered_url(
+                normalized
+            ):
+                continue
+
+            before = len(
+                self.queued
+            )
+
+            self._queue_page(
+                queue,
+                url=normalized,
+                depth=(
+                    depth + 1
+                ),
+                parent_url=page_url,
+                path=(
+                    "API",
+                    "DESCUBIERTA",
+                ),
+                text=(
+                    candidate.reason
+                ),
+                priority_override=1,
+            )
+
+            if (
+                len(
+                    self.queued
+                )
+                > before
+            ):
+
+                self.api_reference_urls_queued.add(
+                    normalized
+                )
+
+                queued += 1
+
+                if queued <= 10:
+
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"API REFERENCIA | "
+                        f"{candidate.reason} | "
+                        f"{normalized}",
+                        flush=True,
+                    )
+
+        if queued > 10:
+
+            print(
+                f"[{self.source_id.upper()}] "
+                f"API REFERENCIA | "
+                f"nuevas_en_cola={queued}",
+                flush=True,
+            )
+
+    # ========================================================
+    # ERRORES DE SONDEO API
+    # ========================================================
+
+    def _is_optional_api_probe(
+        self,
+        url: str,
+    ) -> bool:
+        """
+        True solo para referencias API oportunistas descubiertas
+        automáticamente en HTML/JS.
+
+        Nunca degrada a "sondeo opcional" una API declarada, un
+        endpoint OpenAPI confirmado ni una continuación paginada.
+        """
+
+        normalized = self.normalize_url(url)
+
+        if not normalized:
+            return False
+
+        if normalized in self.api_endpoints:
+            return False
+
+        if normalized in self.openapi_endpoints:
+            return False
+
+        if normalized in self.pagination_context_by_url:
+            return False
+
+        return normalized in self.api_reference_urls_queued
+
+    def _record_crawl_error(
+        self,
+        result: CrawlResult,
+        url: str,
+        message: str,
+    ) -> None:
+        """
+        Separa fallos reales de la fuente de fallos de exploración
+        oportunista de APIs. Ambos quedan trazables.
+        """
+
+        if self._is_optional_api_probe(url):
+            result.api_probe_errors.append(message)
+
+            count = len(result.api_probe_errors)
+
+            if count <= 10 or count % 50 == 0:
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"API SONDEO FALLIDO | "
+                    f"{url}",
+                    flush=True,
+                )
+
+            return
+
+        result.errors.append(message)
 
     # ========================================================
     # OPENAPI
@@ -2416,15 +2733,21 @@ class Crawler:
 
                 response = (
                     self.client.get(
-                        current_url
+                        current_url,
+                        headers=(
+                            self._request_headers_for(
+                                current_url
+                            )
+                        ),
                     )
                 )
 
             except Timeout:
 
-                result.errors.append(
-                    f"TIMEOUT -> "
-                    f"{current_url}"
+                self._record_crawl_error(
+                    result,
+                    current_url,
+                    f"TIMEOUT -> {current_url}",
                 )
 
                 self.visited.add(
@@ -2435,12 +2758,14 @@ class Crawler:
 
             except RequestException as exc:
 
-                result.errors.append(
+                self._record_crawl_error(
+                    result,
+                    current_url,
                     (
                         f"{current_url} -> "
                         f"{type(exc).__name__}: "
                         f"{exc}"
-                    )
+                    ),
                 )
 
                 self.visited.add(
@@ -2487,12 +2812,14 @@ class Crawler:
                     final_url
                 ):
 
-                    result.errors.append(
+                    self._record_crawl_error(
+                        result,
+                        current_url,
                         (
                             "Redirect fuera del dominio permitido: "
                             f"{current_url} -> "
                             f"{final_url}"
-                        )
+                        ),
                     )
 
                     self.visited.add(
@@ -2726,6 +3053,21 @@ class Crawler:
                         )
 
                 # =================================================
+                # REFERENCIAS API EXPUESTAS EN EL HTML / JS INLINE
+                # =================================================
+
+                if not self._max_depth_reached(
+                    depth
+                ):
+
+                    self._queue_html_api_references(
+                        queue,
+                        soup=soup,
+                        page_url=final_url,
+                        depth=depth,
+                    )
+
+                # =================================================
                 # LINKS
                 # =================================================
 
@@ -2878,6 +3220,75 @@ class Crawler:
                     )
 
                 # =================================================
+                # FORM ACTIONS (GET)
+                # =================================================
+
+                if not self._max_depth_reached(
+                    depth
+                ):
+
+                    for form in soup.find_all(
+                        "form",
+                        action=True,
+                    ):
+
+                        method = str(
+                            form.get(
+                                "method",
+                                "get",
+                            )
+                            or "get"
+                        ).strip().lower()
+
+                        # No se ejecutan formularios POST de manera
+                        # genérica: pueden crear efectos laterales o
+                        # requerir parámetros/CSRF. Un adapter puede
+                        # implementarlos cuando sea estrictamente
+                        # necesario y seguro.
+                        if method not in {
+                            "",
+                            "get",
+                        }:
+                            continue
+
+                        target = self.normalize_url(
+                            str(
+                                form.get(
+                                    "action"
+                                )
+                            ),
+                            final_url,
+                        )
+
+                        if not target:
+                            continue
+
+                        if not self._allow_discovered_url(
+                            target
+                        ):
+                            continue
+
+                        child_path = (
+                            self.adapter
+                            .extend_path(
+                                current_path,
+                                "Formulario",
+                                target,
+                            )
+                        )
+
+                        self._queue_page(
+                            queue,
+                            url=target,
+                            depth=(
+                                depth + 1
+                            ),
+                            parent_url=final_url,
+                            path=child_path,
+                            text="Formulario",
+                        )
+
+                # =================================================
                 # IFRAME / EMBED / OBJECT
                 # =================================================
 
@@ -3010,13 +3421,15 @@ class Crawler:
 
             except RequestException as exc:
 
-                result.errors.append(
+                self._record_crawl_error(
+                    result,
+                    current_url,
                     (
                         "ERROR DE LECTURA -> "
                         f"{current_url} -> "
                         f"{type(exc).__name__}: "
                         f"{exc}"
-                    )
+                    ),
                 )
 
                 print(
@@ -3034,13 +3447,15 @@ class Crawler:
                 UnicodeError,
             ) as exc:
 
-                result.errors.append(
+                self._record_crawl_error(
+                    result,
+                    current_url,
                     (
                         "ERROR DE CONTENIDO -> "
                         f"{current_url} -> "
                         f"{type(exc).__name__}: "
                         f"{exc}"
-                    )
+                    ),
                 )
 
                 print(
@@ -3064,6 +3479,14 @@ class Crawler:
         result.files = list(
             self.files_by_url.values()
         )
+
+        if result.api_probe_errors:
+            print(
+                f"[{self.source_id.upper()}] "
+                f"API SONDEOS FALLIDOS | "
+                f"total={len(result.api_probe_errors)}",
+                flush=True,
+            )
 
         result.duration_seconds = (
             time.monotonic()

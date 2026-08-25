@@ -81,7 +81,48 @@ def parse_args() -> argparse.Namespace:
         ),
     )
 
-    return parser.parse_args()
+    parser.add_argument(
+        "--max-pages",
+        type=int,
+        help="Límite temporal de páginas para esta ejecución.",
+    )
+
+    parser.add_argument(
+        "--max-files",
+        type=int,
+        help="Límite temporal de archivos para esta ejecución.",
+    )
+
+    parser.add_argument(
+        "--max-depth",
+        type=int,
+        help="Límite temporal de profundidad para esta ejecución.",
+    )
+
+    args = parser.parse_args()
+
+    if args.max_pages is not None and args.max_pages < 1:
+        parser.error("--max-pages debe ser >= 1")
+
+    if args.max_files is not None and args.max_files < 1:
+        parser.error("--max-files debe ser >= 1")
+
+    if args.max_depth is not None and args.max_depth < 0:
+        parser.error("--max-depth debe ser >= 0")
+
+    if (
+        args.full
+        and (
+            args.max_pages is not None
+            or args.max_files is not None
+            or args.max_depth is not None
+        )
+    ):
+        parser.error(
+            "--full no puede combinarse con límites temporales."
+        )
+
+    return args
 
 
 # ============================================================
@@ -134,6 +175,53 @@ def optional_float(
     )
 
 
+def optional_bool(
+    value,
+    default: bool = True,
+) -> bool:
+
+    if value is None:
+        return default
+
+    if isinstance(
+        value,
+        bool,
+    ):
+        return value
+
+    if isinstance(
+        value,
+        (int, float),
+    ):
+        return bool(
+            value
+        )
+
+    normalized = str(
+        value
+    ).strip().lower()
+
+    if normalized in {
+        "1",
+        "true",
+        "yes",
+        "si",
+        "sí",
+        "on",
+    }:
+        return True
+
+    if normalized in {
+        "0",
+        "false",
+        "no",
+        "off",
+    }:
+        return False
+
+    return default
+
+
 # ============================================================
 # HTTP
 # ============================================================
@@ -141,6 +229,14 @@ def optional_float(
 def build_http_client(
     config: dict,
 ) -> HttpClient:
+
+    ca_bundle = str(
+        config.get(
+            "ca_bundle",
+            "",
+        )
+        or ""
+    ).strip()
 
     return HttpClient(
         timeout=int(
@@ -172,8 +268,21 @@ def build_http_client(
                 )
             )
         ),
-    )
 
+        verify_ssl=(
+            optional_bool(
+                config.get(
+                    "verify_ssl"
+                ),
+                True,
+            )
+        ),
+
+        ca_bundle=(
+            ca_bundle
+            or None
+        ),
+    )
 
 def get_delay_range(
     config: dict,
@@ -327,6 +436,11 @@ def print_summary(
     )
 
     print(
+        f"Sondeos API fallidos: "
+        f"{len(getattr(result, 'api_probe_errors', []) or [])}"
+    )
+
+    print(
         f"Motivo de parada:     "
         f"{result.stop_reason}"
     )
@@ -350,6 +464,78 @@ def print_summary(
         f"URLs sitemap en cola: "
         f"{getattr(result, 'sitemap_urls_queued', 0)}"
     )
+
+    if result.errors:
+
+        print()
+        print(
+            "Detalle de errores:"
+        )
+
+        max_error_details = 20
+
+        for error in result.errors[
+            :max_error_details
+        ]:
+
+            print(
+                f"  - {error}"
+            )
+
+        remaining_errors = (
+            len(result.errors)
+            - max_error_details
+        )
+
+        if remaining_errors > 0:
+
+            print(
+                "  - "
+                f"... {remaining_errors} "
+                "errores adicionales "
+                "no mostrados."
+            )
+
+    api_probe_errors = (
+        getattr(
+            result,
+            "api_probe_errors",
+            [],
+        )
+        or []
+    )
+
+    if api_probe_errors:
+
+        print()
+        print(
+            "Sondeos API fallidos "
+            "(diagnóstico, no error de fuente):"
+        )
+
+        max_probe_details = 10
+
+        for error in api_probe_errors[
+            :max_probe_details
+        ]:
+
+            print(
+                f"  - {error}"
+            )
+
+        remaining_probes = (
+            len(api_probe_errors)
+            - max_probe_details
+        )
+
+        if remaining_probes > 0:
+
+            print(
+                "  - "
+                f"... {remaining_probes} "
+                "sondeos adicionales "
+                "no mostrados."
+            )
 
     if result.files:
 
@@ -446,6 +632,17 @@ def main() -> None:
             "max_depth"
         ] = None
 
+    else:
+
+        if args.max_pages is not None:
+            config["max_pages"] = args.max_pages
+
+        if args.max_files is not None:
+            config["max_files"] = args.max_files
+
+        if args.max_depth is not None:
+            config["max_depth"] = args.max_depth
+
     # ========================================================
     # TRAZABILIDAD
     # ========================================================
@@ -519,6 +716,37 @@ def main() -> None:
             f"aleatoria "
             f"{minimum_delay:.2f}s - "
             f"{maximum_delay:.2f}s"
+        )
+
+        ca_bundle = str(
+            config.get(
+                "ca_bundle",
+                "",
+            )
+            or ""
+        ).strip()
+
+        if ca_bundle:
+            tls_text = (
+                f"CA personalizada: "
+                f"{ca_bundle}"
+            )
+        elif optional_bool(
+            config.get(
+                "verify_ssl"
+            ),
+            True,
+        ):
+            tls_text = "activa"
+        else:
+            tls_text = (
+                "desactivada por configuración "
+                "de la fuente"
+            )
+
+        print(
+            f"Verificación TLS: "
+            f"{tls_text}"
         )
 
         print()
@@ -605,6 +833,11 @@ def main() -> None:
 
                 print(
                     "Modo: FULL"
+                )
+
+                print(
+                    "ADVERTENCIA: FULL elimina "
+                    "max_pages, max_files y max_depth."
                 )
 
             else:

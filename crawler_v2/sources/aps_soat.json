@@ -1,0 +1,46 @@
+{
+  "id_fuente": "aps_soat",
+  "nombre": "APS - Seguros SOAT",
+  "base_url": "https://www.aps.gob.bo/",
+  "fallback_urls": [
+  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral",
+  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT"
+  ],
+  "allowed_domains": [
+    "aps.gob.bo"
+  ],
+  "entrypoints": [
+  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral",
+  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT",
+  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas",
+  "https://www.aps.gob.bo/"
+  ],
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "high_priority_keywords": [
+    "soat",
+    "seguro",
+    "estadistica",
+    "boletin"
+  ],
+  "data_keywords": [
+    "soat"
+  ]
+}

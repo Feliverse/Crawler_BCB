@@ -1,0 +1,59 @@
+{
+  "id_fuente": "vipfe",
+  "nombre": "Viceministerio de Inversión Pública y Financiamiento Externo",
+  "base_url": "https://www.planificacion.gob.bo/",
+  "fallback_urls": [
+    "https://www.planificacion.gob.bo/page/content/1464",
+    "https://www.planificacion.gob.bo/institucion/vipfe/info",
+    "https://sisin.planificacion.gob.bo/"
+  ],
+  "allowed_domains": [
+    "planificacion.gob.bo"
+  ],
+  "entrypoints": [
+    "https://www.planificacion.gob.bo/page/content/1464",
+    "https://www.planificacion.gob.bo/institucion/vipfe/info",
+    "https://sisin.planificacion.gob.bo/",
+    "https://sisin8.planificacion.gob.bo/bsn/ktr1/login/login/index.php",
+    "https://sisin.planificacion.gob.bo/docs/220420261401_COMUNICADO%2000002_0001.pdf",
+    "https://sisin.planificacion.gob.bo/docs/020120251949_PROGRAMACION_FINANCIERA_2025.pdf",
+    "https://www.planificacion.gob.bo/"
+  ],
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "legacy_url": "https://www.vipfe.gob.bo",
+  "high_priority_keywords": [
+    "vipfe",
+    "sisin",
+    "inversion",
+    "proyectos",
+    "manual",
+    "publicacion",
+    "reporte",
+    "comunicado",
+    "instructivo",
+    "presupuesto"
+  ],
+  "force_data_url_patterns": [
+    "sisin.planificacion.gob.bo",
+    "sisin8.planificacion.gob.bo",
+    "/page/content/1464"
+  ]
+}

@@ -117,6 +117,54 @@ class DataPageDetection:
 
 class DataDetector:
 
+    def __init__(
+        self,
+        config: dict | None = None,
+    ) -> None:
+        self.config = config or {}
+
+        self.extra_data_keywords = self._config_tokens(
+            "data_keywords"
+        )
+
+        self.extra_strong_paths = self._config_tokens(
+            "data_url_patterns"
+        )
+
+        self.force_data_patterns = self._config_tokens(
+            "force_data_url_patterns"
+        )
+
+    def _config_tokens(
+        self,
+        key: str,
+    ) -> tuple[str, ...]:
+        values = self.config.get(
+            key,
+            [],
+        )
+
+        if isinstance(values, str):
+            values = [values]
+
+        if not isinstance(
+            values,
+            (list, tuple, set),
+        ):
+            return ()
+
+        result: list[str] = []
+
+        for value in values:
+            token = str(
+                value or ""
+            ).strip().lower()
+
+            if token and token not in result:
+                result.append(token)
+
+        return tuple(result)
+
     # ========================================================
     # CONTENIDO PRINCIPAL
     # ========================================================
@@ -523,12 +571,23 @@ class DataDetector:
 
         keyword_found = any(
             keyword in context
-            for keyword in DATA_KEYWORDS
+            for keyword in (
+                *DATA_KEYWORDS,
+                *self.extra_data_keywords,
+            )
         )
 
         strong_path = any(
             path in lowered_url
-            for path in STRONG_DATA_PATHS
+            for path in (
+                *STRONG_DATA_PATHS,
+                *self.extra_strong_paths,
+            )
+        )
+
+        forced_data_page = any(
+            pattern in lowered_url
+            for pattern in self.force_data_patterns
         )
 
         structured_data_page = any(
@@ -573,6 +632,26 @@ class DataDetector:
                 main
             )
         )
+
+        # ====================================================
+        # CASO CONFIGURADO - PÁGINA DE DATOS CONOCIDA
+        # ====================================================
+
+        if forced_data_page:
+
+            return DataPageDetection(
+                is_data_page=True,
+
+                has_table=has_table,
+
+                has_export=has_export,
+
+                has_filters=has_filters,
+
+                tables_count=tables_count,
+
+                reason="configured_data_page",
+            )
 
         # ====================================================
         # CASO 0 - OGC / PYGeoAPI

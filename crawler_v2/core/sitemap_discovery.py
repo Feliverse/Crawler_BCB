@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import gzip
 import ipaddress
+import time
 import xml.etree.ElementTree as ET
 
 from collections import deque
@@ -250,6 +251,8 @@ class SitemapDiscovery:
         self,
         base_url: str,
         allowed_domains: tuple[str, ...],
+        *,
+        request_timeout: float | None = None,
     ) -> list[str]:
         origin = self._origin(base_url)
 
@@ -262,6 +265,7 @@ class SitemapDiscovery:
             response = self.client.get(
                 robots_url,
                 raise_for_status=False,
+                timeout=request_timeout,
             )
 
         except RequestException:
@@ -323,6 +327,48 @@ class SitemapDiscovery:
             response.close()
 
     # ========================================================
+    # LECTURA LIMITADA
+    # ========================================================
+
+    @staticmethod
+    def _read_limited(
+        response,
+        max_bytes: int,
+    ) -> bytes:
+        """
+        Lee como máximo max_bytes + 1 bytes.
+
+        Evita descargar un documento enorme cuando el servidor no declara
+        Content-Length o lo declara incorrectamente.
+        """
+
+        limit = max(
+            1,
+            int(
+                max_bytes
+            ),
+        )
+
+        content = bytearray()
+
+        for chunk in response.iter_content(
+            chunk_size=64 * 1024
+        ):
+            if not chunk:
+                continue
+
+            content.extend(
+                chunk
+            )
+
+            if len(content) > limit:
+                break
+
+        return bytes(
+            content
+        )
+
+    # ========================================================
     # DISCOVERY
     # ========================================================
 
@@ -334,8 +380,58 @@ class SitemapDiscovery:
         max_sitemaps: int = 100,
         max_urls: int = 10000,
         max_document_bytes: int = 20_000_000,
+        request_timeout: float | None = None,
+        max_seconds: float = 20.0,
     ) -> SitemapDiscoveryResult:
         result = SitemapDiscoveryResult()
+
+        try:
+            default_request_timeout = min(
+                float(
+                    self.client.timeout
+                ),
+                5.0,
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            default_request_timeout = 5.0
+
+        if request_timeout is None:
+            request_timeout = (
+                default_request_timeout
+            )
+
+        try:
+            request_timeout = max(
+                0.5,
+                float(
+                    request_timeout
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            request_timeout = (
+                default_request_timeout
+            )
+
+        try:
+            max_seconds = max(
+                1.0,
+                float(
+                    max_seconds
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            max_seconds = 20.0
+
+        started = time.monotonic()
 
         normalized_base = self._normalize(
             base_url
@@ -361,9 +457,29 @@ class SitemapDiscovery:
         # robots.txt
         # ----------------------------------------------------
 
+        remaining = (
+            max_seconds
+            - (
+                time.monotonic()
+                - started
+            )
+        )
+
+        robots_timeout = max(
+            0.5,
+            min(
+                request_timeout,
+                max(
+                    0.5,
+                    remaining,
+                ),
+            ),
+        )
+
         for sitemap_url in self._robots_sitemaps(
             normalized_base,
             allowed_domains,
+            request_timeout=robots_timeout,
         ):
             pending.append(
                 (
@@ -425,6 +541,19 @@ class SitemapDiscovery:
                 explicit,
             ) = pending.popleft()
 
+            elapsed = (
+                time.monotonic()
+                - started
+            )
+
+            remaining = (
+                max_seconds
+                - elapsed
+            )
+
+            if remaining <= 0:
+                break
+
             if sitemap_url in processed_sitemaps:
                 continue
 
@@ -433,9 +562,18 @@ class SitemapDiscovery:
             )
 
             try:
+                effective_timeout = max(
+                    0.5,
+                    min(
+                        request_timeout,
+                        remaining,
+                    ),
+                )
+
                 response = self.client.get(
                     sitemap_url,
                     raise_for_status=False,
+                    timeout=effective_timeout,
                 )
 
             except RequestException as exc:
@@ -493,7 +631,10 @@ class SitemapDiscovery:
                         continue
 
                 try:
-                    content = response.content
+                    content = self._read_limited(
+                        response,
+                        max_document_bytes,
+                    )
 
                 except RequestException as exc:
                     result.errors.append(
@@ -528,6 +669,20 @@ class SitemapDiscovery:
                         "",
                     ),
                 )
+
+                if (
+                    len(content)
+                    > max_document_bytes
+                ):
+                    result.errors.append(
+                        (
+                            f"{sitemap_url} -> "
+                            "sitemap descomprimido demasiado grande "
+                            f"({len(content)} bytes)"
+                        )
+                    )
+
+                    continue
 
                 try:
                     root = ET.fromstring(
