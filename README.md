@@ -1,85 +1,117 @@
-# Crawler BCB
+# Crawler BCB - Metales
 
-Crawler en Python para recorrer automaticamente el portal del Banco Central de Bolivia (BCB), detectar las secciones activas del menu de estadisticas y recolectar enlaces a archivos descargables.
+Este proyecto extrae cotizaciones de metales del Banco Central de Bolivia (BCB) para un rango de fechas configurable, con una interfaz web para validación y exportación.
 
-## Que hace
+## Objetivo
 
-- Consulta la pagina principal del BCB.
-- Descubre dinamicamente las secciones disponibles dentro del menu de Estadisticas.
-- Recorre cada seccion encontrada.
-- Extrae enlaces a archivos con extensiones `.xlsx`, `.xls`, `.csv` y `.sav`.
-- Genera un archivo JSON con el mapa de resultados.
+Automatizar la consulta a la página:
 
-## Requisitos
+https://www.bcb.gob.bo/librerias/indicadores/metales/anteriores.php
 
-- Python 3.9 o superior.
-- Dependencias listadas en `requirements.txt`.
+sin tener que cambiar fechas manualmente en la web.
 
-## Instalacion
+## Stack
 
-```bash
-pip install -r requirements.txt
+- Python 3.12+
+- requests
+- BeautifulSoup + lxml
+- Playwright (fallback para páginas con render JS)
+- SQLite + SQLAlchemy
+- Streamlit para validación visual
+
+## Instalación
+
+En PowerShell:
+
+```powershell
+cd "C:\Users\ELITEBOOK\Desktop\Pasantía Programas\Datax\Crawler_BCB"
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r crawler\requirements.txt
+python -m pip install -r requirements_streamlit.txt
+playwright install
 ```
 
-## Uso
+## Ejecutar el crawler por línea de comandos
 
-Ejecuta el crawler desde la carpeta del proyecto:
-
-```bash
-python crawler_BCB.py
+```powershell
+python cli.py 2023-01-01 2023-01-10
 ```
 
-Al finalizar, se crea o sobreescribe el archivo `mapa_estadisticas_bcb.json` en la raiz del proyecto.
+Con fallback de navegador:
 
-## Estructura de salida
-
-El JSON generado organiza la informacion como un arbol jerarquico. La raiz suele ser `ESTADISTICAS` y debajo aparecen categorias, ramas intermedias y documentos en hojas.
-
-```json
-{
-  "ESTADISTICAS": {
-    "Categoria": {
-      "Rama": {
-        "Subrama": {
-          "Documento": {
-            "descripcion": "Nombre visible",
-            "url_descarga": "https://..."
-          }
-        }
-      }
-    }
-  }
-}
+```powershell
+python cli.py 2023-01-01 2023-01-10 --playwright
 ```
 
-El archivo `mapa_estadisticas_bcb.csv` aplana esa misma informacion para abrirla en Excel.
+Modo concurrente:
 
-## Notas tecnicas
-
-- El script usa un `User-Agent` de navegador para reducir bloqueos basicos.
-- Incluye una pausa de 1.5 segundos entre secciones para ser mas amable con el servidor.
-- Si el sitio cambia su estructura HTML, puede ser necesario ajustar los selectores del crawler.
-
-## Archivos principales
-
-- `crawler_BCB.py`: logica principal del crawler.
-- `mapa_estadisticas_bcb.json`: salida jerarquica generada por la ejecucion.
-- `mapa_estadisticas_bcb.csv`: salida plana para Excel.
-- `requirements.txt`: dependencias del proyecto.
-
-## Frontend de Revision
-
-Se incluyo un visor web estatico en la carpeta `web/` con Tailwind CDN para explorar el JSON jerarquico.
-
-Para abrirlo correctamente, sirvelo desde un servidor local en vez de abrir `index.html` directamente con `file://`.
-
-Ejemplo con Python:
-
-```bash
-cd web
-python -m http.server 8000
+```powershell
+python cli.py 2023-01-01 2023-01-31 --async --concurrency 5
 ```
 
-Luego abre `http://localhost:8000` en el navegador.
+## Ejecutar la interfaz web
 
-El frontend carga por defecto `../mapa_estadisticas_bcb.json` y tambien permite subir un JSON local desde la interfaz.
+```powershell
+cd "C:\Users\ELITEBOOK\Desktop\Pasantía Programas\Datax\Crawler_BCB"
+.\.venv\Scripts\streamlit.exe run streamlit_app.py --server.headless true --server.address 127.0.0.1 --server.port 8504
+```
+
+Luego abre:
+
+```text
+http://127.0.0.1:8504
+```
+
+## Salida
+
+Los datos se guardan en SQLite en:
+
+```text
+crawler_data.sqlite
+```
+
+La tabla principal es:
+
+```text
+metales
+```
+
+También puedes descargar los resultados desde la UI como:
+- CSV
+- Excel
+
+## Estructura del proyecto
+
+```text
+Crawler_BCB/
+├── cli.py
+├── streamlit_app.py
+├── crawler/
+│   ├── __init__.py
+│   ├── async_collector.py
+│   ├── collector.py
+│   ├── config.py
+│   ├── models.py
+│   ├── parser.py
+│   ├── requirements.txt
+│   ├── storage.py
+│   └── storage_sqlalchemy.py
+├── tests/
+│   └── test_parser.py
+├── crawler_data.sqlite
+├── README.md
+├── requirements_streamlit.txt
+└── web/
+```
+
+## Notas importantes
+
+- El sitio puede requerir manipulación de formularios y render JS.
+- El fallback de Playwright está pensado para esos casos.
+- Si la estructura HTML del sitio cambia, es probable que necesites ajustar el parser.
+- La UI es ideal para validación rápida antes de automatizar un rango grande.
+
+## Siguiente mejora recomendada
+
+- Hacerlo correr en automático en intervalos (por ejemplo, cada noche) y guardar historial semanal o mensual.
