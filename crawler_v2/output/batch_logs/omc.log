@@ -1,0 +1,93 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Organización Mundial del Comercio
+URL configurada: https://www.wto.org/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.wto.org/
+  Utilizada: https://www.wto.org/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.wto.org/
+
+URL de trabajo: https://www.wto.org/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[OMC] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[OMC] t=   7.8s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.wto.org/
+[OMC] t=   9.2s | pag=  1 | files=   0 | data=  0 | cola=  32 | prio= 0 | https://stats.wto.org/
+[OMC] t=  10.9s | pag=  2 | files=   0 | data=  0 | cola=  31 | prio=10 | http://www.wto.org/english/tratop_e/tratop_e.htm
+[OMC] t=  12.3s | pag=  3 | files=   0 | data=  0 | cola=  40 | prio=10 | https://www.wto.org/english/res_e/statis_e/hormuz_global_trade_e.htm
+[OMC] API REFERENCIA | inline_script_reference | https://tmdb-admin.wto.org/api/public/hormuz-measures
+[OMC] t=  13.5s | pag=  4 | files=   2 | data=  0 | cola=  51 | prio= 1 | https://tmdb-admin.wto.org/api/public/hormuz-measures
+[OMC] DATASETS=1 | json_api | https://tmdb-admin.wto.org/api/public/hormuz-measures
+[OMC] t=  16.7s | pag=  4 | files=   2 | data=  1 | cola=  50 | prio=10 | https://www.wto.org/english/res_e/publications_e/world-tariff-profiles-2026_e.htm
+[OMC] t=  24.1s | pag=  5 | files=   6 | data=  1 | cola=  53 | prio=10 | https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm
+[OMC] DATASETS=2 | exportable_data_page | https://www.wto.org/english/tratop_e/tariffs_e/tariff_data_e.htm
+[OMC] t=  25.4s | pag=  6 | files=   7 | data=  2 | cola=  68 | prio=10 | https://www.wto.org/english/tratop_e/devel_e/a4t_e/aid4trade_e.htm
+[OMC] t=  26.3s | pag=  7 | files=   7 | data=  2 | cola=  80 | prio=10 | https://www.wto.org/english/tratop_e/dda_e/dda_e.htm
+[OMC] t=  27.5s | pag=  8 | files=   7 | data=  2 | cola= 123 | prio=10 | https://www.wto.org/english/tratop_e/devel_e/build_tr_capa_e.htm
+[OMC] t=  28.6s | pag=  9 | files=   7 | data=  2 | cola= 134 | prio=10 | https://www.wto.org/english/thewto_e/whatis_e/tif_e/agrm1_e.htm
+[OMC] t=  29.6s | pag= 10 | files=   7 | data=  2 | cola= 143 | prio=10 | https://www.wto.org/spanish/res_s/statis_s/hormuz_global_trade_s.htm
+[OMC] API REFERENCIA | inline_script_reference | https://tmdb-admin.wto.org/api/public/hormuz-measures-es
+[OMC] t=  30.5s | pag= 11 | files=   7 | data=  2 | cola= 154 | prio= 1 | https://tmdb-admin.wto.org/api/public/hormuz-measures-es
+[OMC] DATASETS=3 | json_api | https://tmdb-admin.wto.org/api/public/hormuz-measures-es
+[OMC] t=  33.2s | pag= 11 | files=   7 | data=  3 | cola= 153 | prio=10 | https://www.wto.org/french/res_f/statis_f/hormuz_global_trade_f.htm
+[OMC] API REFERENCIA | inline_script_reference | https://tmdb-admin.wto.org/api/public/hormuz-measures-fr
+[OMC] t=  34.0s | pag= 12 | files=   7 | data=  3 | cola= 164 | prio= 1 | https://tmdb-admin.wto.org/api/public/hormuz-measures-fr
+[OMC] DATASETS=4 | json_api | https://tmdb-admin.wto.org/api/public/hormuz-measures-fr
+[OMC] t=  36.2s | pag= 12 | files=   7 | data=  4 | cola= 163 | prio=10 | https://ttd.wto.org/en/reports/monthly-trade-dashoard
+[OMC] t=  37.6s | pag= 13 | files=   7 | data=  4 | cola= 179 | prio=10 | https://datalab.wto.org/Strait-of-Hormuz-Trade-Tracker
+[OMC] DATASETS=5 | exportable_data_page | https://datalab.wto.org/Strait-of-Hormuz-Trade-Tracker
+[OMC] t=  39.1s | pag= 14 | files=   9 | data=  5 | cola= 184 | prio=10 | https://www.wto.org/english/tratop_e/tpr_e/trade_monitoring_e.htm
+[OMC] t=  40.3s | pag= 15 | files=  16 | data=  5 | cola= 196 | prio=10 | https://www.wto.org/english/res_e/statis_e/hormuz_global_trade_maritime_resources_e.htm
+[OMC] t=  41.1s | pag= 16 | files=  16 | data=  5 | cola= 195 | prio=10 | https://www.wto.org/english/res_e/publications_e/publications_e.htm
+[OMC] t=  41.9s | pag= 17 | files=  17 | data=  5 | cola= 205 | prio=10 | https://www.wto.org/spanish/tratop_s/tariffs_s/tariff_data_s.htm
+[OMC] DATASETS=6 | exportable_data_page | https://www.wto.org/spanish/tratop_s/tariffs_s/tariff_data_s.htm
+[OMC] t=  43.2s | pag= 18 | files=  17 | data=  6 | cola= 215 | prio=10 | https://www.wto.org/french/tratop_f/tariffs_f/tariff_data_f.htm
+[OMC] DATASETS=7 | exportable_data_page | https://www.wto.org/french/tratop_f/tariffs_f/tariff_data_f.htm
+[OMC] t=  46.2s | pag= 19 | files=  18 | data=  7 | cola= 225 | prio=10 | https://ttd.wto.org/
+[OMC] DATASETS=8 | exportable_data_page | https://ttd.wto.org/en
+[OMC] t=  48.6s | pag= 20 | files=  19 | data=  8 | cola= 228 | prio=10 | http://data.wto.org/
+[OMC] t=  49.8s | pag= 20 | files=  19 | data=  8 | cola= 227 | prio=10 | https://www.wto.org/english/res_e/statis_e/statis_e.htm
+[OMC] DATASETS=9 | exportable_data_page | https://www.wto.org/english/res_e/statis_e/statis_e.htm
+[OMC] t=  50.9s | pag= 21 | files=  19 | data=  9 | cola= 242 | prio=10 | https://www.wto.org/english/res_e/statis_e/data_members_notifications_e.htm
+[OMC] t=  51.7s | pag= 22 | files=  19 | data=  9 | cola= 244 | prio=10 | https://ttd.wto.org/en/download/six-digit
+[OMC] DATASETS=10 | exportable_data_page | https://ttd.wto.org/en/download/six-digit
+[OMC] t=  57.6s | pag= 23 | files=  19 | data= 10 | cola= 243 | prio=10 | https://www.wto.org/english/tratop_e/devel_e/a4t_e/about_aid4trade_e.htm
+[OMC] t=  58.1s | pag= 24 | files=  21 | data= 10 | cola= 243 | prio=10 | https://www.wto.org/english/res_e/publications_e/publications_by_subject.htm?pub_subject=AID&pub_type=A4TGLANCE
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              omc
+Páginas visitadas:   25
+Archivos encontrados:   21
+Datasets web:         10
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             59.89 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 17
+  - ZIP    : 4
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\omc.json
+
+Trazabilidad:
+  Ejecución: 199
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

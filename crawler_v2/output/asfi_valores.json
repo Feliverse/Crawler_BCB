@@ -1,0 +1,520 @@
+{
+    "ESTADISTICAS": {
+        "Mercado_de_Valores": {
+            "CircularesMV.csv": {
+                "descripcion": "Circulares - Mercado de Valores",
+                "url_descarga": "https://servdmzw.asfi.gob.bo/CircularValores/Circulares/CircularesMV.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores",
+                "metodo_deteccion": "url_extension"
+            },
+            "Indice.csv": {
+                "descripcion": "Recopilación de Normas para el Mercado de Valores (RNMV)",
+                "url_descarga": "https://servdmzw.asfi.gob.bo/CircularValores/Textos/Indice.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores",
+                "metodo_deteccion": "url_extension"
+            },
+            "CartasCirculares.csv": {
+                "descripcion": "Cartas Circulares - Normas Contables",
+                "url_descarga": "https://servdmzw.asfi.gob.bo/CircularValores/ManualNCMV/CartasCirculares/CartasCirculares.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/la/mercado-valores",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Estadísticas_Sobre_Supervisión_de_Legitimación_de_Ganancias_Ilícitas_y_Financiamiento_del_Terrorismo": {
+            "Intermediación_Financiera_Diciembre_2025.csv": {
+                "descripcion": "Intermediación Financiera Diciembre 2025.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-03/Intermediaci%C3%B3n%20Financiera%20Diciembre%202025.pdf",
+                "fecha_actualizacion": "2026-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                "metodo_deteccion": "url_extension"
+            },
+            "Mercado_de_Valores_Junio_2026.csv": {
+                "descripcion": "Mercado de Valores Junio 2026.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Mercado%20de%20Valores%20Junio%202026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                "metodo_deteccion": "url_extension"
+            },
+            "Servicios_Financieros_Complementarios_Junio_2026.csv": {
+                "descripcion": "Servicios Financieros Complementarios Junio 2026.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Servicios%20Financieros%20Complementarios%20Junio%202026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Estadísticas_Sobre_Supervisión_de_Legitimación_de_Ganancias_Ilícitas_y_Financiamiento_del_Terrorismo_|_ASFI.csv": {
+                        "descripcion": "Estadísticas Sobre Supervisión de Legitimación de Ganancias Ilícitas y Financiamiento del Terrorismo | ASFI",
+                        "url_descarga": "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.asfi.gob.bo/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Intermediación_Financiera": {
+            "Boletines_Estadísticos": {
+                "Formulas_Indicadores.csv": {
+                    "descripcion": "Formulas_Indicadores.zip",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Formulas_Indicadores.zip",
+                    "fecha_actualizacion": "2026-07",
+                    "tipo_archivo": "ZIP",
+                    "url_origen": "https://www.asfi.gob.bo/pb/boletines-estadisticos",
+                    "contenido_zip": [
+                        "Formulas_Indicadores/Formulas_Indicadores.ods",
+                        "Formulas_Indicadores/Formulas_Indicadores.xls"
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65878,
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        },
+        "Boletines_Estadísticos": {
+            "Gestión_2026": {
+                "Boletín_-_Enero_2026.csv": {
+                    "descripcion": "Boletín - Enero 2026.zip",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Bolet%C3%ADn%20-%20Enero%202026.zip",
+                    "fecha_actualizacion": "2026-07",
+                    "tipo_archivo": "ZIP",
+                    "url_origen": "https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026",
+                    "contenido_zip": [
+                        "Boletín - Enero 2026/Boletín - Enero 2026_f.ods",
+                        "Boletín - Enero 2026/Boletín - Enero 2026_f.xlsx"
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65888,
+                    "metodo_deteccion": "url_extension"
+                },
+                "Boletín_-_Febrero_2026.csv": {
+                    "descripcion": "Boletín - Febrero 2026.zip",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Bolet%C3%ADn%20-%20Febrero%202026.zip",
+                    "fecha_actualizacion": "2026-07",
+                    "tipo_archivo": "ZIP",
+                    "url_origen": "https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026",
+                    "contenido_zip": [
+                        "Boletín - Febrero 2026/Boletín - Febrero 2026_f.ods",
+                        "Boletín - Febrero 2026/Boletín - Febrero 2026_f.xlsx"
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65898,
+                    "metodo_deteccion": "url_extension"
+                },
+                "Boletín_-_Marzo_2026.csv": {
+                    "descripcion": "Boletín - Marzo 2026.zip",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Bolet%C3%ADn%20-%20Marzo%202026.zip",
+                    "fecha_actualizacion": "2026-07",
+                    "tipo_archivo": "ZIP",
+                    "url_origen": "https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026",
+                    "contenido_zip": [
+                        "Boletín Trimestral - Marzo/Boletín Trimestral - Marzo__2026_f.ods",
+                        "Boletín Trimestral - Marzo/Boletín Trimestral - Marzo__2026_f.xlsx"
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65930,
+                    "metodo_deteccion": "url_extension"
+                },
+                "Boletín_-_Abril_2026.csv": {
+                    "descripcion": "Boletín - Abril 2026.zip",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Bolet%C3%ADn%20-%20Abril%202026.zip",
+                    "fecha_actualizacion": "2026-07",
+                    "tipo_archivo": "ZIP",
+                    "url_origen": "https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026",
+                    "contenido_zip": [
+                        "Boletín - Abril 2026/Boletín - Abril 2026_f.ods",
+                        "Boletín - Abril 2026/Boletín - Abril 2026_f.xlsx"
+                    ],
+                    "zip_inspeccion": "ok",
+                    "zip_bytes_descargados": 65888,
+                    "metodo_deteccion": "url_extension"
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Boletines_Estadísticos_Mercado_de_Valores_-_2026_|_ASFI.csv": {
+                            "descripcion": "Boletines Estadísticos Mercado de Valores - 2026 | ASFI",
+                            "url_descarga": "https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.asfi.gob.bo/pb/boletines-estadisticos-mercado-valores",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_html_table",
+                            "tiene_tabla_html": true,
+                            "tablas_detectadas": 1,
+                            "permite_exportar": false,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        },
+        "Reporte_de_Inclusión_Financiera": {
+            "Presentación_de_Inclusión_Financiera_a_Junio_2026.csv": {
+                "descripcion": "Presentación de Inclusión Financiera a Junio_2026.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Presentaci%C3%B3n%20de%20Inclusi%C3%B3n%20Financiera%20a%20Junio_2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1008",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Anuario_Estadístico": {
+            "Anuario_Estadístico_2025.csv": {
+                "descripcion": "Anuario_Estadístico 2025.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Anuario_Estad%C3%ADstico%202025.zip",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "ANV_Anuario Estadístico 2025.ods",
+                    "ANV_Anuario Estadístico 2025.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65714,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2024.csv": {
+                "descripcion": "Anuario Estadístico_2024.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Anuario%20Estad%C3%ADstico_2024.zip",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2024/Anuario Estadístico 2024.ods",
+                    "Anuario Estadístico 2024/Anuario Estadístico 2024.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65904,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2023.csv": {
+                "descripcion": "Anuario Estadístico_2023.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Anuario%20Estad%C3%ADstico_2023.zip",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2023/Anuario Estadístico 2023.ods",
+                    "Anuario Estadístico 2023/Anuario Estadístico 2023.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65904,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2022.csv": {
+                "descripcion": "Anuario Estadístico_2022.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Anuario%20Estad%C3%ADstico_2022.zip",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2022/Anuario Estadístico 2022.ods",
+                    "Anuario Estadístico 2022/Anuario Estadístico 2022.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65904,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2021.csv": {
+                "descripcion": "Anuario Estadístico_2021.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-07/Anuario%20Estad%C3%ADstico_2021.zip",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2021/Anuario Estadístico 2021.ods",
+                    "Anuario Estadístico 2021/Anuario Estadístico 2021.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65904,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2020.csv": {
+                "descripcion": "Anuario Estadístico 2020.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202020.zip",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2020.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65707,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2019.csv": {
+                "descripcion": "Anuario Estadístico 2019.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202019.zip",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2019.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65707,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2018.csv": {
+                "descripcion": "Anuario Estadístico 2018.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202018.zip",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2018.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65707,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2015.csv": {
+                "descripcion": "Anuario Estadístico 2015.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202015.zip",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2015.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65707,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2017.csv": {
+                "descripcion": "Anuario Estadístico 2017.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202017.zip",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2017.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65707,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2016.csv": {
+                "descripcion": "Anuario Estadístico 2016.zip",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202016.zip",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "contenido_zip": [
+                    "Anuario Estadístico 2016.xlsm"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65707,
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2014.csv": {
+                "descripcion": "Anuario Estadístico 2014.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202014.pdf",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2013.csv": {
+                "descripcion": "Anuario Estadístico 2013.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202013.pdf",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2012.csv": {
+                "descripcion": "Anuario Estadístico 2012.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202012.pdf",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2011.csv": {
+                "descripcion": "Anuario Estadístico 2011.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202011.pdf",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2010.csv": {
+                "descripcion": "Anuario Estadístico 2010.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202010.pdf",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_Estadístico_2009.csv": {
+                "descripcion": "Anuario Estadístico 2009.pdf",
+                "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Anuario%20Estad%C3%ADstico%202009.pdf",
+                "fecha_actualizacion": "2025-10",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.asfi.gob.bo/node/1006",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Publicaciones": {
+            "Editoriales_del_boletin_estadístico": {
+                "Evaluación_del_Sistema_Financiero_a_Diciembre_de_2025.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-02/Evaluaci%C3%B3n%20del%20Sistema%20Financiero%20a%20Diciembre%20de%202025.pdf",
+                    "fecha_actualizacion": "2026-02",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Las_Plataformas_de_Intercambio_de_Activos_Virtuales.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2026-01/Las%20Plataformas%20de%20Intercambio%20de%20Activos%20Virtuales.pdf",
+                    "fecha_actualizacion": "2026-01",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Ciberseguridad_y_Gestión_de_Riesgos_en_la_Digitación_de_los_Servicios_Financieros.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-12/Ciberseguridad_y_Gesti%C3%B3n_de_Riesgos_en_la_Digitaci%C3%B3n_de_los_Servicios_Financieros.pdf",
+                    "fecha_actualizacion": "2025-12",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Evaluación_del_Sistema_Financiero_a_Septiembre_de_2025.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-11/Evaluaci%C3%B3n%20del%20Sistema%20Financiero%20a%20Septiembre%20de%202025.pdf",
+                    "fecha_actualizacion": "2025-11",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "10_Años_Encuesta_Nacional_Servicios_Financieros.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/10_A%C3%B1os_Encuesta_Nacional_Servicios_Financieros.pdf",
+                    "fecha_actualizacion": "2025-10-10",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Entorno_Controlado_de_Pruebas_Hacia_un_Sistema_Financiero_Inclusivo_y_Seguro_en_Bolivia.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-10/Entorno%20Controlado%20de%20Pruebas%20Hacia%20un%20Sistema%20Financiero%20Inclusivo%20y%20Seguro%20en%20Bolivia.pdf",
+                    "fecha_actualizacion": "2025-10",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Evaluación_del_Sistema_Financiero_al_30_de_Junio_del_2025.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-09/Evaluaci%C3%B3n%20del%20Sistema%20Financiero%20al%2030%20de%20Junio%20del%202025.pdf",
+                    "fecha_actualizacion": "2025-09",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Empresas_de_tecnología_financiera_en_Bolivia_Un_nuevo_horizonte_para_la_innovación_financiera.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-07/Empresas%20de%20tecnolog%C3%ADa%20financiera%20en%20Bolivia%20Un%20nuevo%20horizonte%20para%20la%20innovaci%C3%B3n%20financiera.pdf",
+                    "fecha_actualizacion": "2025-07",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bonos_sociales_con_enfoque_de_género_Impulsando_el_acceso_de_las_mujeres_al_crédito_en_Bolivia.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-07/Bonos%20sociales%20con%20enfoque%20de%20g%C3%A9nero%20Impulsando%20el%20acceso%20de%20las%20mujeres%20al%20cr%C3%A9dito%20en%20Bolivia.pdf",
+                    "fecha_actualizacion": "2025-07",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.asfi.gob.bo/pagina-lista-boletines",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        },
+        "Registro_en_el_Mercado_de_Valores": {
+            "Documentos_y_formularios": {
+                "Formato_de_colocación_de_valores.csv": {
+                    "descripcion": "Formato de colocación de valores.xls",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Formato%20de%20colocaci%C3%B3n%20de%20valores.xls",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "XLS",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Formulario_de_tasas_de_regulación.csv": {
+                    "descripcion": "Formulario de tasas de regulación.doc",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Formulario%20de%20tasas%20de%20regulaci%C3%B3n.doc",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "DOC",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Formulario_de_registro_y_actualización_de_firmas.csv": {
+                    "descripcion": "Formulario de registro y actualización de firmas.doc",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Formulario%20de%20registro%20y%20actualizaci%C3%B3n%20de%20firmas.doc",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "DOC",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Tarjeta_de_Registro_-_Auditor_Interno.csv": {
+                    "descripcion": "Tarjeta de Registro - Auditor Interno.xls",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Tarjeta%20de%20Registro%20-%20Auditor%20Interno.xls",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "XLS",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Tarjeta_de_Registro_-_Responsable_de_Gestión_de_Riesgos.csv": {
+                    "descripcion": "Tarjeta de Registro - Responsable de Gestión de Riesgos.xls",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Tarjeta%20de%20Registro%20-%20Responsable%20de%20Gesti%C3%B3n%20de%20Riesgos.xls",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "XLS",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Anexo_1_Auditor_Interno_-_Información.csv": {
+                    "descripcion": "Anexo 1 Auditor Interno - Información.doc",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Anexo%201%20Auditor%20Interno%20-%20Informaci%C3%B3n.doc",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "DOC",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Anexo_2_Responsable_de_Gestión_de_Riesgos_–_Información.csv": {
+                    "descripcion": "Anexo 2 Responsable de Gestión de Riesgos – Información.doc",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Anexo%202%20Responsable%20de%20Gesti%C3%B3n%20de%20Riesgos%20%E2%80%93%20Informaci%C3%B3n.doc",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "DOC",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Anexos_3,_4_y_5_-_Endeudamiento_y_Conflicto_de_Intereses.csv": {
+                    "descripcion": "Anexos 3, 4 y 5 - Endeudamiento y Conflicto de Intereses.docx",
+                    "url_descarga": "https://www.asfi.gob.bo/sites/default/files/2025-08/Anexos%203%2C%204%20y%205%20-%20Endeudamiento%20y%20Conflicto%20de%20Intereses.docx",
+                    "fecha_actualizacion": "2025-08",
+                    "tipo_archivo": "DOCX",
+                    "url_origen": "https://www.asfi.gob.bo/la/documentos-y-formularios",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        }
+    }
+}

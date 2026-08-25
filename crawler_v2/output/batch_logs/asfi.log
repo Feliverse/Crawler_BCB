@@ -1,0 +1,81 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Autoridad de Supervisión del Sistema Financiero
+URL configurada: https://www.asfi.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.asfi.gob.bo/
+  Utilizada: https://www.asfi.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.asfi.gob.bo/
+
+URL de trabajo: https://www.asfi.gob.bo/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ASFI] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[ASFI] t=   4.2s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.asfi.gob.bo/
+[ASFI] t=   5.4s | pag=  1 | files=   0 | data=  0 | cola= 103 | prio= 0 | https://www.asfi.gob.bo/pb/estadisticas-intermediacion-financiera
+[ASFI] t=   6.0s | pag=  2 | files=   0 | data=  0 | cola= 110 | prio= 0 | https://www.asfi.gob.bo/pb/estadisticas-mercado-valores
+[ASFI] t=   6.4s | pag=  3 | files=   0 | data=  0 | cola= 114 | prio= 0 | https://www.asfi.gob.bo/la/anuario-estadistico
+[ASFI] t=  20.2s | pag=  4 | files=  17 | data=  0 | cola= 113 | prio= 2 | https://www.asfi.gob.bo/la/mercado-valores
+[ASFI] t=  20.9s | pag=  5 | files=  20 | data=  0 | cola= 112 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-0
+[ASFI] t=  21.6s | pag=  6 | files=  20 | data=  0 | cola= 113 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-1
+[ASFI] t=  22.1s | pag=  7 | files=  20 | data=  0 | cola= 115 | prio= 2 | https://www.asfi.gob.bo/pb/registro-mercado-valores
+[ASFI] t=  23.0s | pag=  8 | files=  20 | data=  0 | cola= 116 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-2
+[ASFI] t=  23.9s | pag=  9 | files=  20 | data=  0 | cola= 120 | prio= 2 | https://www.asfi.gob.bo/pb/datos-sobre-reclamos-y-consultas-atendidas
+[ASFI] t=  24.7s | pag= 10 | files=  20 | data=  0 | cola= 121 | prio= 2 | https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
+[ASFI] DATASETS=1 | data_html_table | https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
+[ASFI] t=  25.1s | pag= 11 | files=  23 | data=  1 | cola= 120 | prio= 2 | https://www.asfi.gob.bo/pb/boletines-estadisticos
+[ASFI] t=  26.7s | pag= 12 | files=  24 | data=  1 | cola= 132 | prio= 2 | https://www.asfi.gob.bo/la/principales-indicadores-financieros
+[ASFI] t=  27.7s | pag= 13 | files=  24 | data=  1 | cola= 131 | prio= 2 | https://www.asfi.gob.bo/pb/boletines-estadisticos-mercado-valores
+[ASFI] t=  28.2s | pag= 14 | files=  24 | data=  1 | cola= 142 | prio= 2 | https://www.asfi.gob.bo/la/reportes-dinamicos
+[ASFI] t=  28.7s | pag= 15 | files=  24 | data=  1 | cola= 141 | prio= 2 | https://www.asfi.gob.bo/pb/estadisticas-reclamos
+[ASFI] t=  29.4s | pag= 16 | files=  24 | data=  1 | cola= 179 | prio= 2 | https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026
+[ASFI] DATASETS=2 | data_html_table | https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026
+[ASFI] t=  36.1s | pag= 17 | files=  28 | data=  2 | cola= 178 | prio=10 | https://www.asfi.gob.bo/pb/boletin-trimestral-actualizacion-y-emision-normativa
+[ASFI] t=  36.7s | pag= 18 | files=  28 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/pb/puntos-atenci%C3%B3n-financiera
+[ASFI] t=  37.5s | pag= 19 | files=  28 | data=  2 | cola= 198 | prio=10 | https://www.asfi.gob.bo/node/1008
+[ASFI] t=  38.0s | pag= 20 | files=  29 | data=  2 | cola= 197 | prio=10 | https://www.asfi.gob.bo/node/1011
+[ASFI] t=  38.7s | pag= 21 | files=  29 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/node/1006
+[ASFI] t=  39.3s | pag= 22 | files=  29 | data=  2 | cola= 195 | prio=10 | https://www.asfi.gob.bo/pagina-lista-boletines
+[ASFI] t=  39.9s | pag= 23 | files=  38 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/la/hechos-relevantes
+[ASFI] t=  40.3s | pag= 24 | files=  38 | data=  2 | cola= 207 | prio=10 | https://www.asfi.gob.bo/la/documentos-y-formularios
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              asfi
+Páginas visitadas:   25
+Archivos encontrados:   46
+Datasets web:         2
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             40.89 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DOC    : 4
+  - DOCX   : 1
+  - PDF    : 22
+  - XLS    : 3
+  - ZIP    : 16
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\asfi.json
+
+Trazabilidad:
+  Ejecución: 162
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

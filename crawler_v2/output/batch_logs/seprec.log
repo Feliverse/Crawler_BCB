@@ -1,0 +1,123 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Servicio Plurinacional de Registro de Comercio
+URL configurada: https://www.seprec.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.seprec.gob.bo/
+  Utilizada: https://www.seprec.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.seprec.gob.bo/
+
+URL de trabajo: https://www.seprec.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SEPREC] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[SEPREC] t=   7.6s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.seprec.gob.bo/
+[SEPREC] t=   9.1s | pag=  1 | files=   1 | data=  0 | cola=  54 | prio=10 | https://www.seprec.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/321
+[SEPREC] t=   9.8s | pag=  2 | files=   1 | data=  0 | cola=  54 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/321
+[SEPREC] t=  10.6s | pag=  2 | files=   1 | data=  0 | cola=  53 | prio=10 | https://www.seprec.gob.bo/index.php/pei-descargable/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/401
+[SEPREC] t=  11.8s | pag=  3 | files=   2 | data=  0 | cola=  53 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/401
+[SEPREC] t=  12.4s | pag=  3 | files=   2 | data=  0 | cola=  52 | prio=10 | https://www.seprec.gob.bo/index.php/aprobacion-del-poa-documento-normativo/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/337
+[SEPREC] t=  13.4s | pag=  4 | files=   9 | data=  0 | cola=  52 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/337
+[SEPREC] t=  14.2s | pag=  4 | files=   9 | data=  0 | cola=  51 | prio=10 | https://www.seprec.gob.bo/index.php/que-es-registro-de-comercio/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19413
+[SEPREC] t=  15.5s | pag=  5 | files=   9 | data=  0 | cola=  51 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19413
+[SEPREC] t=  16.3s | pag=  5 | files=   9 | data=  0 | cola=  50 | prio=10 | https://www.seprec.gob.bo/index.php/registro-de-comercio-en-el-estado-plurinacional/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19431
+[SEPREC] t=  17.1s | pag=  6 | files=   9 | data=  0 | cola=  50 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19431
+[SEPREC] t=  17.9s | pag=  6 | files=   9 | data=  0 | cola=  49 | prio=10 | https://www.seprec.gob.bo/index.php/tipo-de-unidad-economica/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19434
+[SEPREC] t=  19.2s | pag=  7 | files=   9 | data=  0 | cola=  49 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19434
+[SEPREC] t=  20.3s | pag=  7 | files=   9 | data=  0 | cola=  48 | prio=10 | https://www.seprec.gob.bo/index.php/datos/
+[SEPREC] DATASETS=1 | data_html_table | https://www.seprec.gob.bo/index.php/datos/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/915
+[SEPREC] t=  21.2s | pag=  8 | files=  21 | data=  1 | cola=  48 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/915
+[SEPREC] t=  22.0s | pag=  8 | files=  21 | data=  1 | cola=  47 | prio=10 | https://www.seprec.gob.bo/index.php/boletines/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/348
+[SEPREC] t=  23.6s | pag=  9 | files=  25 | data=  1 | cola=  47 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/348
+[SEPREC] t=  24.3s | pag=  9 | files=  25 | data=  1 | cola=  46 | prio=10 | https://www.seprec.gob.bo/index.php/informes-de-viaje-al-exterior/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17082
+[SEPREC] t=  25.5s | pag= 10 | files=  27 | data=  1 | cola=  46 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17082
+[SEPREC] t=  26.5s | pag= 10 | files=  27 | data=  1 | cola=  45 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-amplia-hasta-el-31-de-julio-el-plazo-para-la-renovacion-de-la-matricula-de-comercio-en-apoyo-a-la-formalizacion-y-reactivacion-economica/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66363
+[SEPREC] t=  27.5s | pag= 11 | files=  27 | data=  1 | cola=  45 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66363
+[SEPREC] t=  28.2s | pag= 11 | files=  27 | data=  1 | cola=  44 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/rendicion-publica-de-cuentas-final-seprec-reporta-perdida-millonaria-superior-a-bs-58-millones-en-la-gestion-2025/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66217
+[SEPREC] t=  28.9s | pag= 12 | files=  27 | data=  1 | cola=  44 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66217
+[SEPREC] t=  29.8s | pag= 12 | files=  27 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/328
+[SEPREC] t=  30.6s | pag= 13 | files=  27 | data=  1 | cola=  43 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/328
+[SEPREC] t=  31.6s | pag= 13 | files=  27 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/memoria-intitucional/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/493
+[SEPREC] t=  32.6s | pag= 14 | files=  28 | data=  1 | cola=  42 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/493
+[SEPREC] t=  33.1s | pag= 14 | files=  28 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/393
+[SEPREC] t=  34.1s | pag= 15 | files=  43 | data=  1 | cola=  41 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/393
+[SEPREC] t=  35.0s | pag= 15 | files=  43 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/politicas-de-la-calidad/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17487
+[SEPREC] t=  36.1s | pag= 16 | files=  43 | data=  1 | cola=  40 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17487
+[SEPREC] t=  37.2s | pag= 16 | files=  43 | data=  1 | cola=  39 | prio=50 | https://www.seprec.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/449
+[SEPREC] t=  38.3s | pag= 17 | files=  71 | data=  1 | cola=  39 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/449
+[SEPREC] t=  39.4s | pag= 17 | files=  71 | data=  1 | cola=  38 | prio=50 | https://www.seprec.gob.bo/index.php/rendicion-publica-de-cuentas/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17073
+[SEPREC] t=  40.2s | pag= 18 | files=  78 | data=  1 | cola=  38 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17073
+[SEPREC] t=  41.0s | pag= 18 | files=  78 | data=  1 | cola=  37 | prio=50 | https://www.seprec.gob.bo/index.php/17068-2/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17068
+[SEPREC] t=  41.8s | pag= 19 | files=  80 | data=  1 | cola=  37 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17068
+[SEPREC] t=  42.6s | pag= 19 | files=  80 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/preguntas-frecuentes/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19507
+[SEPREC] t=  43.9s | pag= 20 | files=  80 | data=  1 | cola=  42 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19507
+[SEPREC] t=  44.9s | pag= 20 | files=  80 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/folleto-guia-de-tramites/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/56906
+[SEPREC] t=  45.9s | pag= 21 | files=  81 | data=  1 | cola=  41 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/56906
+[SEPREC] t=  46.7s | pag= 21 | files=  81 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/4351
+[SEPREC] t=  47.7s | pag= 22 | files=  81 | data=  1 | cola=  53 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/4351
+[SEPREC] t=  48.7s | pag= 22 | files=  81 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/lista-herramientas-page/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/13880
+[SEPREC] t=  49.6s | pag= 23 | files=  81 | data=  1 | cola=  52 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/13880
+[SEPREC] t=  50.2s | pag= 23 | files=  81 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/lista-comunicados-page/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/1191
+[SEPREC] t=  51.1s | pag= 24 | files=  81 | data=  1 | cola=  51 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/1191
+[SEPREC] t=  51.8s | pag= 24 | files=  81 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/
+[SEPREC] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/297
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              seprec
+Páginas visitadas:   25
+Archivos encontrados:   81
+Datasets web:         1
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             53.01 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 81
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\seprec.json
+
+Trazabilidad:
+  Ejecución: 202
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

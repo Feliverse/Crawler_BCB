@@ -1,0 +1,82 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Instituto Boliviano de Comercio Exterior / Cámara Agropecuaria del Oriente
+URL configurada: https://www.ibce.org.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.ibce.org.bo/
+  Utilizada: https://ibce.org.bo/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.ibce.org.bo/
+
+URL de trabajo: https://ibce.org.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[IBCE] SITEMAP | docs=1 | urls=60 | en_cola=60 | errores=0
+[IBCE] t=   6.6s | pag=  0 | files=   0 | data=  0 | cola=  60 | prio= 0 | https://ibce.org.bo/
+[IBCE] t=   8.4s | pag=  1 | files=   2 | data=  0 | cola= 147 | prio=10 | https://www.ibce.org.bo/informacion-estudios-mercado.php
+[IBCE] DATASETS=1 | exportable_data_page | https://ibce.org.bo/informacion-estudios-mercado.php
+[IBCE] t=   9.3s | pag=  2 | files=   2 | data=  1 | cola= 165 | prio=10 | https://www.ibce.org.bo/informacion-estadisticas-bolivia.php
+[IBCE] DATASETS=2 | exportable_data_page | https://ibce.org.bo/informacion-estadisticas-bolivia.php
+[IBCE] t=  10.3s | pag=  3 | files=   6 | data=  2 | cola= 165 | prio=10 | https://www.ibce.org.bo/informacion-estadisticas-departamentos.php
+[IBCE] DATASETS=3 | exportable_data_page | https://ibce.org.bo/informacion-estadisticas-departamentos.php
+[IBCE] t=  11.2s | pag=  4 | files=  24 | data=  3 | cola= 164 | prio=10 | https://www.ibce.org.bo/servicios-asistencia-acceso-mercados.php
+[IBCE] DATASETS=4 | exportable_data_page | https://ibce.org.bo/servicios-asistencia-acceso-mercados.php
+[IBCE] t=  12.1s | pag=  5 | files=  24 | data=  4 | cola= 163 | prio=10 | https://www.ibce.org.bo/servicios-publicite-comercio-exterior.php
+[IBCE] t=  13.1s | pag=  6 | files=  24 | data=  4 | cola= 163 | prio=10 | https://www.ibce.org.bo/servicios-publicite-ibcecifras.php
+[IBCE] t=  14.1s | pag=  7 | files=  24 | data=  4 | cola= 162 | prio=10 | https://www.ibce.org.bo/haga-negocios-banco-profesionales.php
+[IBCE] DATASETS=5 | exportable_data_page | https://ibce.org.bo/haga-negocios-banco-profesionales.php
+[IBCE] t=  15.1s | pag=  8 | files=  24 | data=  5 | cola= 203 | prio=10 | https://www.ibce.org.bo/publicaciones.php
+[IBCE] t=  15.9s | pag=  9 | files=  24 | data=  5 | cola= 206 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=7&publicacion=informe_especial
+[IBCE] t=  16.6s | pag= 10 | files=  24 | data=  5 | cola= 213 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=1&publicacion=comercioexterior
+[IBCE] t=  18.0s | pag= 11 | files=  24 | data=  5 | cola= 227 | prio=10 | https://www.ibce.org.bo/publicaciones-columnas.php
+[IBCE] t=  19.3s | pag= 12 | files=  24 | data=  5 | cola= 243 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario
+[IBCE] t=  19.9s | pag= 13 | files=  24 | data=  5 | cola= 246 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=4&publicacion=libros
+[IBCE] t=  20.9s | pag= 14 | files=  24 | data=  5 | cola= 263 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=5&publicacion=documentosInteres
+[IBCE] t=  21.6s | pag= 15 | files=  24 | data=  5 | cola= 283 | prio=10 | https://www.ibce.org.bo/publicaciones-ibcecifras.php
+[IBCE] t=  22.3s | pag= 16 | files=  24 | data=  5 | cola= 299 | prio=10 | https://www.ibce.org.bo/publicaciones-buenas-noticias.php
+[IBCE] t=  23.5s | pag= 17 | files=  24 | data=  5 | cola= 311 | prio=10 | https://www.ibce.org.bo/publicaciones-ibcemail.php
+[IBCE] t=  24.2s | pag= 18 | files=  24 | data=  5 | cola= 326 | prio=10 | https://www.ibce.org.bo/publicaciones-transporte-logistica.php
+[IBCE] DATASETS=6 | exportable_data_page | https://ibce.org.bo/publicaciones-transporte-logistica.php
+[IBCE] t=  25.0s | pag= 19 | files=  24 | data=  6 | cola= 340 | prio=10 | https://www.ibce.org.bo/publicaciones-agroavances.php
+[IBCE] t=  26.0s | pag= 20 | files=  24 | data=  6 | cola= 339 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=2&publicacion=revistaexportemos
+[IBCE] DATASETS=7 | exportable_data_page | https://ibce.org.bo/publicaciones-ibce.php?opcion=2&publicacion=revistaexportemos
+[IBCE] t=  27.2s | pag= 21 | files=  24 | data=  7 | cola= 355 | prio=10 | https://ibce.org.bo/publicaciones-descarga.php?id=2573&opcion=1
+[IBCE] t=  28.0s | pag= 22 | files=  25 | data=  7 | cola= 354 | prio=10 | https://ibce.org.bo/publicaciones-descarga.php?id=2571&opcion=1
+[IBCE] t=  28.6s | pag= 23 | files=  27 | data=  7 | cola= 353 | prio=10 | https://ibce.org.bo/publicaciones-descarga.php?id=2570&opcion=1
+[IBCE] t=  29.1s | pag= 24 | files=  29 | data=  7 | cola= 352 | prio=10 | https://ibce.org.bo/publicaciones-descarga.php?id=2565&opcion=1
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              ibce
+Páginas visitadas:   25
+Archivos encontrados:   31
+Datasets web:         7
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             30.19 s
+Sitemaps procesados:  1
+URLs por sitemap:     60
+URLs sitemap en cola: 60
+
+Formatos:
+  - PDF    : 31
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ibce.json
+
+Trazabilidad:
+  Ejecución: 188
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

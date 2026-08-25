@@ -1,0 +1,86 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Federación Internacional de Fútbol Asociación
+URL configurada: https://inside.fifa.com/official-documents
+Timeout HTTP: 20 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://inside.fifa.com/official-documents
+  Utilizada: https://inside.fifa.com/official-documents
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://inside.fifa.com/official-documents
+
+URL de trabajo: https://inside.fifa.com/official-documents
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[FIFA] SITEMAP | docs=6 | urls=5427 | en_cola=0 | errores=1
+[FIFA] t=  20.3s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://inside.fifa.com/official-documents
+[FIFA] DATASETS=1 | configured_data_page | https://inside.fifa.com/official-documents
+[FIFA] t=  21.3s | pag=  1 | files=   0 | data=  1 | cola=   0 | prio= 0 | https://inside.fifa.com/official-documents/annual-report/2025
+[FIFA] DATASETS=2 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025
+[FIFA] t=  25.4s | pag=  2 | files=   1 | data=  2 | cola=   5 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/highlights
+[FIFA] DATASETS=3 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/highlights
+[FIFA] t=  29.4s | pag=  3 | files=   1 | data=  3 | cola=   4 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/roll-of-honour-2025
+[FIFA] DATASETS=4 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/roll-of-honour-2025
+[FIFA] t=  33.8s | pag=  4 | files=   1 | data=  4 | cola=   3 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025
+[FIFA] DATASETS=5 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025
+[FIFA] t=  38.8s | pag=  5 | files=   1 | data=  5 | cola=   8 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance
+[FIFA] DATASETS=6 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance
+[FIFA] t=  44.1s | pag=  6 | files=   1 | data=  6 | cola=  16 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials
+[FIFA] DATASETS=7 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials
+[FIFA] t=  49.4s | pag=  7 | files=   1 | data=  7 | cola=  19 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/in-memoriam
+[FIFA] DATASETS=8 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/in-memoriam
+[FIFA] t=  55.1s | pag=  8 | files=   1 | data=  8 | cola=  18 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/summary
+[FIFA] DATASETS=9 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/summary
+[FIFA] t=  64.0s | pag=  9 | files=   1 | data=  9 | cola=  17 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/facts-and-figures
+[FIFA] DATASETS=10 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/facts-and-figures
+[FIFA] t=  70.0s | pag= 10 | files=   1 | data= 10 | cola=  16 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/fan-culture-moments
+[FIFA] t=  78.3s | pag= 11 | files=   1 | data= 11 | cola=  15 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/technology-and-innovation
+[FIFA] t=  83.2s | pag= 12 | files=   1 | data= 12 | cola=  14 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/commercial-and-broadcast
+[FIFA] t=  89.2s | pag= 13 | files=   1 | data= 13 | cola=  13 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025/what-the-world-said
+[FIFA] t=  94.0s | pag= 14 | files=   1 | data= 14 | cola=  12 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-beach-soccer-world-cup-seychelles-2025
+[FIFA] t=  98.0s | pag= 15 | files=   1 | data= 15 | cola=  11 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-u20-world-cup-chile-2025
+[FIFA] t= 102.8s | pag= 16 | files=   1 | data= 16 | cola=  10 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-u-17-womens-world-cup-morocco-2025
+[FIFA] t= 107.2s | pag= 17 | files=   1 | data= 17 | cola=   9 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-u-17-world-cup-qatar-2025
+[FIFA] t= 108.8s | pag= 18 | files=   1 | data= 18 | cola=   8 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-futsal-womens-world-cup-philippines-2025
+[FIFA] t= 113.2s | pag= 19 | files=   1 | data= 19 | cola=   7 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-arab-cup-qatar-2025
+[FIFA] t= 117.7s | pag= 20 | files=   1 | data= 20 | cola=   6 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-intercontinental-cup-2025
+[FIFA] t= 122.0s | pag= 21 | files=   1 | data= 21 | cola=   5 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-best-awards-2025
+[FIFA] t= 126.7s | pag= 22 | files=   1 | data= 22 | cola=   4 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-womens-champions-cup-fifa-unites-womens-series-2025
+[FIFA] t= 131.8s | pag= 23 | files=   1 | data= 23 | cola=   3 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/foreword-by-the-chairperson-of-the-finance-committee
+[FIFA] t= 138.7s | pag= 24 | files=   1 | data= 24 | cola=   2 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review
+[FIFA] DATASETS=25 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fifa
+Páginas visitadas:   25
+Archivos encontrados:    1
+Datasets web:         25
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             142.44 s
+Sitemaps procesados:  6
+URLs por sitemap:     5427
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fifa.json
+
+Trazabilidad:
+  Ejecución: 184
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

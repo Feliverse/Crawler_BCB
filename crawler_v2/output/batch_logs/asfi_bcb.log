@@ -1,0 +1,80 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: ASFI / Banco Central de Bolivia
+URL configurada: https://www.bcb.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.bcb.gob.bo/
+  Utilizada: https://www.bcb.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.bcb.gob.bo/
+
+URL de trabajo: https://www.bcb.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ASFI_BCB] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[ASFI_BCB] t=   9.1s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.bcb.gob.bo/
+[ASFI_BCB] t=  11.3s | pag=  1 | files=  16 | data=  0 | cola= 106 | prio= 2 | https://www.bcb.gob.bo/?q=pub_memorias-institucionales
+[ASFI_BCB] t=  12.7s | pag=  2 | files= 110 | data=  0 | cola= 156 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-diario
+[ASFI_BCB] t=  13.9s | pag=  3 | files= 110 | data=  0 | cola= 155 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-semanal
+[ASFI_BCB] t=  15.3s | pag=  4 | files= 120 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos
+[ASFI_BCB] t=  16.8s | pag=  5 | files= 130 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informes-sobre-inversion
+[ASFI_BCB] t=  18.1s | pag=  6 | files= 130 | data=  0 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?q=reservas_internacionales_bcb
+[ASFI_BCB] t=  19.5s | pag=  7 | files= 138 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=marco-normativo
+[ASFI_BCB] t=  21.2s | pag=  8 | files= 142 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=informes-deuda-externa-publica
+[ASFI_BCB] t=  22.7s | pag=  9 | files= 142 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Festados-de-la-deuda-externa
+[ASFI_BCB] t=  24.3s | pag= 10 | files= 142 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera
+[ASFI_BCB] t=  25.5s | pag= 11 | files= 151 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=operaciones-mercado-abierto
+[ASFI_BCB] t=  26.6s | pag= 12 | files= 151 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informe-vigilancia-sistema-pagos
+[ASFI_BCB] t=  27.9s | pag= 13 | files= 151 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-balanza-pagos
+[ASFI_BCB] t=  29.4s | pag= 14 | files= 151 | data=  0 | cola= 158 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-deuda-externa-privada
+[ASFI_BCB] t=  30.7s | pag= 15 | files= 151 | data=  0 | cola= 157 | prio= 2 | https://www.bcb.gob.bo/?q=boletines-mensuales
+[ASFI_BCB] t=  32.1s | pag= 16 | files= 163 | data=  0 | cola= 165 | prio= 2 | https://www.bcb.gob.bo/?q=reporte-estadistico
+[ASFI_BCB] DATASETS=1 | exportable_data_page | https://www.bcb.gob.bo/?q=reporte-estadistico
+[ASFI_BCB] t=  33.6s | pag= 17 | files= 196 | data=  1 | cola= 173 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria
+[ASFI_BCB] t=  34.7s | pag= 18 | files= 203 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia
+[ASFI_BCB] t=  36.1s | pag= 19 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense
+[ASFI_BCB] t=  37.9s | pag= 20 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense-serie-de-tiempo
+[ASFI_BCB] t=  39.3s | pag= 21 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fvalor-referencial-de-compra-del-d%C3%B3lar-estadounidense-3
+[ASFI_BCB] t=  41.0s | pag= 22 | files= 213 | data=  1 | cola= 174 | prio= 2 | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[ASFI_BCB] DATASETS=2 | data_html_table | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[ASFI_BCB] t=  42.3s | pag= 23 | files= 213 | data=  2 | cola= 176 | prio= 2 | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[ASFI_BCB] DATASETS=3 | data_html_table | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[ASFI_BCB] t=  43.9s | pag= 24 | files= 213 | data=  3 | cola= 188 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fverificador-de-n%C3%BAmero-de-serie
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              asfi_bcb
+Páginas visitadas:   25
+Archivos encontrados:  213
+Datasets web:         3
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             45.59 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - ODS    : 10
+  - PDF    : 188
+  - XLSX   : 15
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\asfi_bcb.json
+
+Trazabilidad:
+  Ejecución: 163
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,85 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Economía y Finanzas Públicas
+URL configurada: https://www.economiayfinanzas.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: desactivada por configuración de la fuente
+
+
+Resolución de fuente:
+  Original: https://www.economiayfinanzas.gob.bo/
+  Utilizada: https://www.economiayfinanzas.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.economiayfinanzas.gob.bo/
+
+URL de trabajo: https://www.economiayfinanzas.gob.bo/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[MEFP] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[MEFP] t=   4.0s | pag=  0 | files=   0 | data=  0 | cola=   2 | prio= 0 | https://www.economiayfinanzas.gob.bo/
+[MEFP] t=   4.9s | pag=  1 | files=  20 | data=  0 | cola= 136 | prio= 0 | https://media.economiayfinanzas.gob.bo/boletines
+[MEFP] DATASETS=1 | statistical_html_table | https://media.economiayfinanzas.gob.bo/boletines
+[MEFP] t=   7.5s | pag=  2 | files=  40 | data=  1 | cola= 268 | prio= 0 | https://www.economiayfinanzas.gob.bo/boletines
+[MEFP] DATASETS=2 | statistical_html_table | https://www.economiayfinanzas.gob.bo/boletines
+[MEFP] t=   8.4s | pag=  3 | files=  40 | data=  2 | cola= 394 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/datos-generales
+[MEFP] DATASETS=3 | data_chart | https://www.economiayfinanzas.gob.bo/index.php/datos-generales
+[MEFP] t=   8.8s | pag=  4 | files=  40 | data=  3 | cola= 393 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/resena-historica
+[MEFP] t=   9.7s | pag=  5 | files=  40 | data=  3 | cola= 392 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/informe-gestion
+[MEFP] t=  10.5s | pag=  6 | files=  41 | data=  3 | cola= 392 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/node/223
+[MEFP] t=  11.0s | pag=  7 | files=  41 | data=  3 | cola= 391 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/informes-auditoria-interna
+[MEFP] t=  11.4s | pag=  8 | files=  51 | data=  3 | cola= 406 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/boletines
+[MEFP] DATASETS=4 | statistical_html_table | https://www.economiayfinanzas.gob.bo/index.php/boletines
+[MEFP] t=  11.8s | pag=  9 | files=  51 | data=  4 | cola= 417 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion
+[MEFP] t=  12.4s | pag= 10 | files=  57 | data=  4 | cola= 418 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/indicadores-de-endeudamiento-referenciales
+[MEFP] DATASETS=5 | data_chart | https://www.economiayfinanzas.gob.bo/index.php/indicadores-de-endeudamiento-referenciales
+[MEFP] t=  13.0s | pag= 11 | files=  57 | data=  5 | cola= 417 | prio=10 | http://vmpc.economiayfinanzas.gob.bo/financiera0.asp
+[MEFP] t=  13.8s | pag= 12 | files=  57 | data=  5 | cola= 417 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/sistema_integral_de_pensiones_recaudacion
+[MEFP] t=  14.1s | pag= 13 | files=  59 | data=  5 | cola= 420 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/sistema_integral_de_pensiones_invalidez_y_muerte
+[MEFP] t=  15.0s | pag= 14 | files=  62 | data=  5 | cola= 421 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/sistema_integral_de_pensiones_inversiones
+[MEFP] t=  15.7s | pag= 15 | files=  65 | data=  5 | cola= 423 | prio=10 | https://www.economiayfinanzas.gob.bo/biblioteca-economica-financiera
+[MEFP] t=  16.5s | pag= 16 | files=  69 | data=  5 | cola= 423 | prio=10 | https://media.economiayfinanzas.gob.bo/datos-generales
+[MEFP] DATASETS=6 | data_chart | https://media.economiayfinanzas.gob.bo/datos-generales
+[MEFP] t=  17.2s | pag= 17 | files=  69 | data=  6 | cola= 523 | prio=10 | https://media.economiayfinanzas.gob.bo/resena-historica
+[MEFP] t=  18.1s | pag= 18 | files=  69 | data=  6 | cola= 522 | prio=10 | https://media.economiayfinanzas.gob.bo/informe-gestion
+[MEFP] t=  19.0s | pag= 19 | files=  70 | data=  6 | cola= 522 | prio=10 | https://media.economiayfinanzas.gob.bo/node/223
+[MEFP] t=  19.7s | pag= 20 | files=  70 | data=  6 | cola= 521 | prio=10 | https://media.economiayfinanzas.gob.bo/informes-auditoria-interna
+[MEFP] t=  20.3s | pag= 21 | files=  70 | data=  6 | cola= 536 | prio=10 | https://media.economiayfinanzas.gob.bo/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion
+[MEFP] t=  20.9s | pag= 22 | files=  76 | data=  6 | cola= 537 | prio=10 | https://media.economiayfinanzas.gob.bo/indicadores-de-endeudamiento-referenciales
+[MEFP] DATASETS=7 | data_chart | https://media.economiayfinanzas.gob.bo/indicadores-de-endeudamiento-referenciales
+[MEFP] t=  21.6s | pag= 23 | files=  76 | data=  7 | cola= 536 | prio=10 | https://media.economiayfinanzas.gob.bo/sistema_integral_de_pensiones_recaudacion
+[MEFP] t=  22.6s | pag= 24 | files=  78 | data=  7 | cola= 539 | prio=10 | https://media.economiayfinanzas.gob.bo/sistema_integral_de_pensiones_invalidez_y_muerte
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mefp
+Páginas visitadas:   25
+Archivos encontrados:   81
+Datasets web:         7
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             23.31 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DOCX   : 2
+  - PDF    : 65
+  - RAR    : 1
+  - XLSX   : 13
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mefp.json
+
+Trazabilidad:
+  Ejecución: 194
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

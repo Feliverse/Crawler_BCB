@@ -1,0 +1,135 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Instituto Nacional de Estadística
+URL configurada: https://www.ine.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.ine.gob.bo/
+  Utilizada: https://www.ine.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.ine.gob.bo/
+
+URL de trabajo: https://www.ine.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[INE] SITEMAP | docs=14 | urls=126 | en_cola=125 | errores=1
+[INE] t=  18.8s | pag=  0 | files=   0 | data=  0 | cola= 125 | prio= 0 | https://www.ine.gob.bo/
+[INE] DATASETS=1 | data_chart | https://www.ine.gob.bo/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37551
+[INE] t=  20.4s | pag=  1 | files=   0 | data=  1 | cola= 267 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37551
+[INE] t=  21.4s | pag=  1 | files=   0 | data=  1 | cola= 266 | prio=10 | https://www.ine.gob.bo/index.php/bolivia/resena-historica/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/70881
+[INE] t=  23.3s | pag=  2 | files=   0 | data=  1 | cola= 267 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/70881
+[INE] t=  24.3s | pag=  2 | files=   0 | data=  1 | cola= 266 | prio=10 | https://www.ine.gob.bo/index.php/institucion/planificacion/planificacion-estrategica-pei/informes-de-gestion/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/53529
+[INE] t=  25.3s | pag=  3 | files=   0 | data=  1 | cola= 270 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/53529
+[INE] t=  26.4s | pag=  3 | files=   0 | data=  1 | cola= 269 | prio=10 | https://www.ine.gob.bo/index.php/bolivia/aspectos-historicos/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/36738
+[INE] t=  28.0s | pag=  4 | files=   0 | data=  1 | cola= 269 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/36738
+[INE] t=  28.7s | pag=  4 | files=   0 | data=  1 | cola= 268 | prio=10 | https://www.ine.gob.bo/index.php/institucion/planificacion/planificacion-operativa-poa/reportes-de-seguimiento-y-evaluacion-pei/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39123
+[INE] t=  30.3s | pag=  5 | files=   6 | data=  1 | cola= 270 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39123
+[INE] t=  31.3s | pag=  5 | files=   6 | data=  1 | cola= 269 | prio=10 | https://www.ine.gob.bo/index.php/institucion/planificacion/planificacion-operativa-poa/reportes-de-seguimiento-y-evaluacion-poa/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39126
+[INE] t=  32.6s | pag=  6 | files=   6 | data=  1 | cola= 270 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39126
+[INE] t=  33.4s | pag=  6 | files=   6 | data=  1 | cola= 269 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/36802
+[INE] t=  34.7s | pag=  7 | files=   6 | data=  1 | cola= 279 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/36802
+[INE] t=  35.4s | pag=  7 | files=   6 | data=  1 | cola= 278 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/36804
+[INE] t=  36.6s | pag=  8 | files=   6 | data=  1 | cola= 278 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/36804
+[INE] t=  37.2s | pag=  8 | files=   6 | data=  1 | cola= 277 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39539
+[INE] t=  38.7s | pag=  9 | files=   6 | data=  1 | cola= 277 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39539
+[INE] t=  39.7s | pag=  9 | files=   6 | data=  1 | cola= 276 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/producto-interno-bruto-anual-intro/
+[INE] DATASETS=2 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/producto-interno-bruto-anual-intro/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37371
+[INE] t=  41.1s | pag= 10 | files=   6 | data=  2 | cola= 290 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37371
+[INE] t=  42.3s | pag= 10 | files=   6 | data=  2 | cola= 289 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-final-y-demanda-final/
+[INE] DATASETS=3 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-final-y-demanda-final/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/46222
+[INE] t=  43.3s | pag= 11 | files=   6 | data=  3 | cola= 295 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/46222
+[INE] t=  43.9s | pag= 11 | files=   6 | data=  3 | cola= 294 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-total-y-demanda-total/
+[INE] DATASETS=4 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-total-y-demanda-total/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/46227
+[INE] t=  45.4s | pag= 12 | files=   6 | data=  4 | cola= 300 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/46227
+[INE] t=  46.4s | pag= 12 | files=   6 | data=  4 | cola= 299 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/valor-agregado-bruto-segun-actividad-economica/
+[INE] DATASETS=5 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/valor-agregado-bruto-segun-actividad-economica/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37388
+[INE] t=  47.6s | pag= 13 | files=   6 | data=  5 | cola= 305 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37388
+[INE] t=  48.7s | pag= 13 | files=   6 | data=  5 | cola= 304 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/serie-historica-del-producto-interno-bruto/
+[INE] DATASETS=6 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/serie-historica-del-producto-interno-bruto/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37392
+[INE] t=  50.0s | pag= 14 | files=   6 | data=  6 | cola= 308 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/37392
+[INE] t=  50.7s | pag= 14 | files=   6 | data=  6 | cola= 307 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-trimestral/producto-interno-bruto-trimestral-intro/
+[INE] DATASETS=7 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-trimestral/producto-interno-bruto-trimestral-intro/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39547
+[INE] t=  52.2s | pag= 15 | files=   6 | data=  7 | cola= 330 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39547
+[INE] t=  53.0s | pag= 15 | files=   6 | data=  7 | cola= 329 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39573
+[INE] t=  54.4s | pag= 16 | files=   6 | data=  7 | cola= 329 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39573
+[INE] t=  55.2s | pag= 16 | files=   6 | data=  7 | cola= 328 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental-introduccion/
+[INE] DATASETS=8 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental-introduccion/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39576
+[INE] t=  56.2s | pag= 17 | files=   6 | data=  8 | cola= 329 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39576
+[INE] t=  57.0s | pag= 17 | files=   6 | data=  8 | cola= 328 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental/
+[INE] DATASETS=9 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39582
+[INE] t=  58.2s | pag= 18 | files=   6 | data=  9 | cola= 379 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39582
+[INE] t=  59.3s | pag= 18 | files=   6 | data=  9 | cola= 378 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/formacion-bruta-de-capital-fijo/
+[INE] DATASETS=10 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/formacion-bruta-de-capital-fijo/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39590
+[INE] t=  60.7s | pag= 19 | files=   6 | data= 10 | cola= 385 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39590
+[INE] t=  61.8s | pag= 19 | files=   6 | data= 10 | cola= 384 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/cuentas-consolidadas-de-la-nacion/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39603
+[INE] t=  63.0s | pag= 20 | files=  10 | data= 11 | cola= 385 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39603
+[INE] t=  63.7s | pag= 20 | files=  10 | data= 11 | cola= 384 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/cuadro-de-cuentas-economicas-integradas/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39617
+[INE] t=  64.8s | pag= 21 | files=  37 | data= 12 | cola= 385 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39617
+[INE] t=  65.9s | pag= 21 | files=  37 | data= 12 | cola= 384 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39679
+[INE] t=  67.3s | pag= 22 | files=  37 | data= 12 | cola= 384 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39679
+[INE] t=  67.9s | pag= 22 | files=  37 | data= 12 | cola= 383 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-introduccion/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39681
+[INE] t=  69.8s | pag= 23 | files=  38 | data= 13 | cola= 383 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39681
+[INE] t=  70.7s | pag= 23 | files=  38 | data= 13 | cola= 382 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-formacion-bruta-de-capital-fijo/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39689
+[INE] t=  72.2s | pag= 24 | files=  65 | data= 14 | cola= 383 | prio= 1 | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39689
+[INE] t=  73.0s | pag= 24 | files=  65 | data= 14 | cola= 382 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-insumo-producto/
+[INE] API REFERENCIA | html_link_reference | https://www.ine.gob.bo/index.php/wp-json/wp/v2/pages/39710
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              ine
+Páginas visitadas:   25
+Archivos encontrados:  118
+Datasets web:         15
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             74.36 s
+Sitemaps procesados:  14
+URLs por sitemap:     126
+URLs sitemap en cola: 125
+
+Formatos:
+  - PDF    : 7
+  - XLSX   : 111
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ine.json
+
+Trazabilidad:
+  Ejecución: 191
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

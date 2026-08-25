@@ -1,0 +1,122 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Servicios de Aeropuertos Bolivianos S.A. - Fuente histórica / NAABOL
+URL configurada: https://naabol.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://naabol.gob.bo/
+  Utilizada: https://naabol.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://naabol.gob.bo/
+
+URL de trabajo: https://naabol.gob.bo/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SABSA] SITEMAP | docs=13 | urls=1465 | en_cola=1462 | errores=0
+[SABSA] t=  20.6s | pag=  0 | files=   0 | data=  0 | cola=1464 | prio= 0 | https://naabol.gob.bo/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/pages/31
+[SABSA] API REFERENCIA | inline_script_reference | https://naabol.gob.bo/wp-json/elementskit/v1/
+[SABSA] t=  22.4s | pag=  1 | files=   0 | data=  0 | cola=1472 | prio= 0 | https://naabol.gob.bo/manuales-tecnicos/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/pages/230
+[SABSA] t=  23.9s | pag=  2 | files=  38 | data=  0 | cola=1472 | prio= 0 | https://naabol.gob.bo/psdi-y-pei/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/pages/86
+[SABSA] t=  25.3s | pag=  3 | files=  38 | data=  0 | cola=1472 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/pages/31
+[SABSA] t=  26.5s | pag=  3 | files=  38 | data=  0 | cola=1471 | prio= 1 | https://naabol.gob.bo/wp-json/elementskit/v1/
+[SABSA] t=  27.6s | pag=  3 | files=  38 | data=  0 | cola=1470 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/pages/230
+[SABSA] t=  29.0s | pag=  3 | files=  38 | data=  0 | cola=1469 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/pages/86
+[SABSA] t=  30.3s | pag=  3 | files=  38 | data=  0 | cola=1468 | prio=10 | http://ais.naabol.gob.bo/
+[SABSA] t=  32.1s | pag=  4 | files=  38 | data=  0 | cola=1467 | prio=10 | https://naabol.gob.bo/slider_aeropuertos/"
+[SABSA] t=  32.9s | pag=  5 | files=  38 | data=  0 | cola=1466 | prio=25 | https://naabol.gob.bo/gobierno-licita-obras-por-bs-1-959-016-para-mejorar-el-aeropuerto-de-santa-ana-del-yacuma/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/821
+[SABSA] t=  34.4s | pag=  6 | files=  38 | data=  0 | cola=1466 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/821
+[SABSA] t=  35.4s | pag=  6 | files=  38 | data=  0 | cola=1465 | prio=25 | https://naabol.gob.bo/gobierno-mejora-el-aeropuerto-de-alcantari-con-la-entrega-de-un-puente-de-abordaje/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/825
+[SABSA] t=  36.9s | pag=  7 | files=  38 | data=  0 | cola=1465 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/825
+[SABSA] t=  38.2s | pag=  7 | files=  38 | data=  0 | cola=1464 | prio=25 | https://naabol.gob.bo/naabol-entrega-obras-y-equipos-para-el-aeropuerto-de-viru-viru-con-una-inversion-de-bs-2-498-022-413-2184/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/828
+[SABSA] t=  40.0s | pag=  8 | files=  38 | data=  0 | cola=1464 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/828
+[SABSA] t=  40.8s | pag=  8 | files=  38 | data=  0 | cola=1463 | prio=25 | https://naabol.gob.bo/gobierno-firma-contrato-y-da-el-primer-paso-para-implementar-el-hub-en-el-aeropuerto-internacional-de-de-viru-viru/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/836
+[SABSA] t=  42.4s | pag=  9 | files=  38 | data=  0 | cola=1463 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/836
+[SABSA] t=  43.4s | pag=  9 | files=  38 | data=  0 | cola=1462 | prio=25 | https://naabol.gob.bo/gobierno-licita-obras-de-mantenimiento-para-los-aeropuertos-de-el-alto-y-tarija/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/839
+[SABSA] t=  45.3s | pag= 10 | files=  38 | data=  0 | cola=1462 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/839
+[SABSA] t=  46.4s | pag= 10 | files=  38 | data=  0 | cola=1461 | prio=25 | https://naabol.gob.bo/gobierno-fortalece-los-aeropuertos-de-bolivia-con-equipos-de-comunicacion-y-seguridad-de-red-de-datos-y-video/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/847
+[SABSA] t=  47.9s | pag= 11 | files=  38 | data=  0 | cola=1461 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/847
+[SABSA] t=  49.2s | pag= 11 | files=  38 | data=  0 | cola=1460 | prio=25 | https://naabol.gob.bo/gobierno-invierte-bs-3-613-110-para-dotar-de-equipos-de-seguridad-comunicacion-y-accesorios-al-aeropuerto-internacional-de-viru-viru/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/850
+[SABSA] t=  50.8s | pag= 12 | files=  38 | data=  0 | cola=1460 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/850
+[SABSA] t=  51.8s | pag= 12 | files=  38 | data=  0 | cola=1459 | prio=25 | https://naabol.gob.bo/con-una-inversion-de-bs-5-786-76206-gobierno-entrega-equipos-e-insumos-para-el-aeropuerto-de-cochabamba/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/853
+[SABSA] t=  53.3s | pag= 13 | files=  38 | data=  0 | cola=1459 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/853
+[SABSA] t=  54.1s | pag= 13 | files=  38 | data=  0 | cola=1458 | prio=25 | https://naabol.gob.bo/en-su-segundo-aniversario-naabol-celebra-con-millonaria-inversion-en-3-aeropuertos-internacionales/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/856
+[SABSA] t=  56.0s | pag= 14 | files=  38 | data=  0 | cola=1458 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/856
+[SABSA] t=  57.2s | pag= 14 | files=  38 | data=  0 | cola=1457 | prio=25 | https://naabol.gob.bo/dgac-y-naabol-ratifican-que-la-avioneta-que-cayo-en-argentina-cumplio-protocolos-legales-hasta-rio-negro/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/859
+[SABSA] t=  59.0s | pag= 15 | files=  38 | data=  0 | cola=1457 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/859
+[SABSA] t=  59.9s | pag= 15 | files=  38 | data=  0 | cola=1456 | prio=25 | https://naabol.gob.bo/naabol-amplia-denuncia-por-invasion-de-2-aeropuertos-contra-8-personas-7-son-de-creemos/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/862
+[SABSA] t=  61.5s | pag= 16 | files=  38 | data=  0 | cola=1456 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/862
+[SABSA] t=  62.7s | pag= 16 | files=  38 | data=  0 | cola=1455 | prio=25 | https://naabol.gob.bo/naabol-disminuye-el-tiempo-de-abordaje-en-vuelos-con-conexion-en-el-aeropuerto-de-viru-viru/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/865
+[SABSA] t=  64.2s | pag= 17 | files=  38 | data=  0 | cola=1455 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/865
+[SABSA] t=  65.1s | pag= 17 | files=  38 | data=  0 | cola=1454 | prio=25 | https://naabol.gob.bo/sindicato-de-sabsa-firma-acta-de-acuerdo-y-pasa-a-trabajar-a-naabol/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/868
+[SABSA] t=  66.7s | pag= 18 | files=  38 | data=  0 | cola=1454 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/868
+[SABSA] t=  67.6s | pag= 18 | files=  38 | data=  0 | cola=1453 | prio=25 | https://naabol.gob.bo/540-trabajadores-de-sabsa-firman-contratos-laborales-con-naabol/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/872
+[SABSA] t=  69.3s | pag= 19 | files=  38 | data=  0 | cola=1453 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/872
+[SABSA] t=  70.1s | pag= 19 | files=  38 | data=  0 | cola=1452 | prio=25 | https://naabol.gob.bo/ministro-montano-rinde-peticion-de-informe-oral-por-el-caso-aasana-y-la-creacion-de-naabol/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/881
+[SABSA] t=  71.8s | pag= 20 | files=  38 | data=  0 | cola=1452 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/881
+[SABSA] t=  72.7s | pag= 20 | files=  38 | data=  0 | cola=1451 | prio=25 | https://naabol.gob.bo/trabajadores-de-naabol-ya-cuentan-con-seguro-medico-en-la-caja-cordes/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/884
+[SABSA] t=  74.5s | pag= 21 | files=  38 | data=  0 | cola=1451 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/884
+[SABSA] t=  75.5s | pag= 21 | files=  38 | data=  0 | cola=1450 | prio=25 | https://naabol.gob.bo/naabol-ya-cuenta-con-todo-su-staff-tecnico-en-todo-el-pais-hoy-incorporaron-a-90-ex-funcionarios-de-aasana-santa-cruz/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/887
+[SABSA] t=  77.0s | pag= 22 | files=  38 | data=  0 | cola=1450 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/887
+[SABSA] t=  77.8s | pag= 22 | files=  38 | data=  0 | cola=1449 | prio=25 | https://naabol.gob.bo/gobierno-levanta-plan-de-contingencia-en-aeropuertos-del-pais-extrabajadores-de-asaana-reciben-sus-contratos-para-formar-parte-de-naabol/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/890
+[SABSA] t=  79.7s | pag= 23 | files=  38 | data=  0 | cola=1449 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/890
+[SABSA] t=  81.0s | pag= 23 | files=  38 | data=  0 | cola=1448 | prio=25 | https://naabol.gob.bo/naabol-aglutina-en-su-staff-personal-estrictamente-tecnico-con-anos-de-experiencia-de-la-ex-aasana/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/894
+[SABSA] t=  82.3s | pag= 24 | files=  38 | data=  0 | cola=1448 | prio= 1 | https://naabol.gob.bo/wp-json/wp/v2/posts/894
+[SABSA] t=  83.1s | pag= 24 | files=  38 | data=  0 | cola=1447 | prio=25 | https://naabol.gob.bo/regionales-de-naabol-juran-con-el-compromiso-de-trabajar-para-garantizar-los-servicios-aereos-de-bolivia/
+[SABSA] API REFERENCIA | html_link_reference | https://naabol.gob.bo/wp-json/wp/v2/posts/897
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              sabsa
+Páginas visitadas:   25
+Archivos encontrados:   38
+Datasets web:         0
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             84.51 s
+Sitemaps procesados:  13
+URLs por sitemap:     1465
+URLs sitemap en cola: 1462
+
+Formatos:
+  - PDF    : 38
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\sabsa.json
+
+Trazabilidad:
+  Ejecución: 200
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

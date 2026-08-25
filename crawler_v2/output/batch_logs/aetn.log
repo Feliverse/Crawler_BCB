@@ -1,0 +1,130 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Autoridad de Fiscalización de Electricidad y Tecnología Nuclear
+URL configurada: https://www.aetn.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.aetn.gob.bo/
+  Utilizada: https://aetn.gob.bo/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.aetn.gob.bo/
+
+URL de trabajo: https://aetn.gob.bo/
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[AETN] SITEMAP | docs=22 | urls=178 | en_cola=173 | errores=0
+[AETN] t=  20.1s | pag=  0 | files=   0 | data=  0 | cola= 178 | prio= 0 | https://aetn.gob.bo/
+[AETN] t=  21.1s | pag=  1 | files=   0 | data=  0 | cola= 185 | prio= 0 | https://anuariodig.aetn.gob.bo/informacion-estadistica/
+[AETN] DATASETS=1 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/
+[AETN] t=  22.1s | pag=  2 | files=   0 | data=  1 | cola= 306 | prio= 0 | https://aetn.gob.bo/datos-y-estadisticas/
+[AETN] DATASETS=2 | statistical_html_table | https://aetn.gob.bo/datos-y-estadisticas/
+[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/58
+[AETN] t=  22.9s | pag=  3 | files=   5 | data=  2 | cola= 306 | prio= 0 | https://aetn.gob.bo/boletines/
+[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/60
+[AETN] t=  23.9s | pag=  4 | files=  11 | data=  2 | cola= 306 | prio= 0 | https://aetn.gob.bo/tarifas-vigentes/
+[AETN] DATASETS=3 | data_html_table | https://aetn.gob.bo/tarifas-vigentes/
+[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/597
+[AETN] t=  24.8s | pag=  5 | files=  21 | data=  3 | cola= 308 | prio= 0 | https://aetn.gob.bo/tarifa-dignidad/
+[AETN] DATASETS=4 | data_html_table | https://aetn.gob.bo/tarifa-dignidad/
+[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/523
+[AETN] t=  25.9s | pag=  6 | files=  26 | data=  4 | cola= 308 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/58
+[AETN] t=  26.6s | pag=  6 | files=  26 | data=  4 | cola= 307 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/60
+[AETN] t=  27.6s | pag=  6 | files=  26 | data=  4 | cola= 306 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/597
+[AETN] t=  28.4s | pag=  6 | files=  26 | data=  4 | cola= 305 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/523
+[AETN] t=  29.1s | pag=  6 | files=  26 | data=  4 | cola= 304 | prio=10 | https://anuariodig.aetn.gob.bo/
+[AETN] DATASETS=5 | data_chart | https://anuariodig.aetn.gob.bo/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/5
+[AETN] t=  29.9s | pag=  7 | files=  26 | data=  5 | cola= 310 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/5
+[AETN] t=  31.0s | pag=  7 | files=  26 | data=  5 | cola= 309 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/
+[AETN] DATASETS=6 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/103
+[AETN] t=  31.8s | pag=  8 | files=  26 | data=  6 | cola= 309 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/103
+[AETN] t=  32.5s | pag=  8 | files=  26 | data=  6 | cola= 308 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/
+[AETN] DATASETS=7 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/501
+[AETN] t=  33.7s | pag=  9 | files=  26 | data=  7 | cola= 308 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/501
+[AETN] t=  34.0s | pag=  9 | files=  26 | data=  7 | cola= 307 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/potencia-instalada-y-efectiva-al-31-de-diciembre-del-2024/
+[AETN] DATASETS=8 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/potencia-instalada-y-efectiva-al-31-de-diciembre-del-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/502
+[AETN] t=  34.8s | pag= 10 | files=  26 | data=  8 | cola= 307 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/502
+[AETN] t=  35.4s | pag= 10 | files=  26 | data=  8 | cola= 306 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-centrales-hidroelectricas-mw-periodo-1997-2024/
+[AETN] DATASETS=9 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-centrales-hidroelectricas-mw-periodo-1997-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/503
+[AETN] t=  36.7s | pag= 11 | files=  26 | data=  9 | cola= 306 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/503
+[AETN] t=  37.1s | pag= 11 | files=  26 | data=  9 | cola= 305 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-las-centrales-termoelectricas-mw-periodo-1997-2024/
+[AETN] DATASETS=10 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-las-centrales-termoelectricas-mw-periodo-1997-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/504
+[AETN] t=  38.3s | pag= 12 | files=  26 | data= 10 | cola= 305 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/504
+[AETN] t=  38.9s | pag= 12 | files=  26 | data= 10 | cola= 304 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/generacion-bruta-gwh-gestion-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/505
+[AETN] t=  39.8s | pag= 13 | files=  26 | data= 11 | cola= 304 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/505
+[AETN] t=  40.4s | pag= 13 | files=  26 | data= 11 | cola= 303 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-mensual-de-la-generacion-bruta-gwh-gestion-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/506
+[AETN] t=  41.7s | pag= 14 | files=  26 | data= 12 | cola= 303 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/506
+[AETN] t=  42.4s | pag= 14 | files=  26 | data= 12 | cola= 302 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-anual-de-la-generacion-bruta-gwh-periodo-1992-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/507
+[AETN] t=  43.7s | pag= 15 | files=  26 | data= 13 | cola= 302 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/507
+[AETN] t=  44.2s | pag= 15 | files=  26 | data= 13 | cola= 301 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/ventas-de-electricidad-a-consumidor-final-en-bolivia-mwh-gestion-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/508
+[AETN] t=  45.5s | pag= 16 | files=  26 | data= 14 | cola= 301 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/508
+[AETN] t=  46.1s | pag= 16 | files=  26 | data= 14 | cola= 300 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-en-bolivia-sin-y-sa-gwh-periodo-1970-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/509
+[AETN] t=  46.9s | pag= 17 | files=  26 | data= 15 | cola= 300 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/509
+[AETN] t=  47.8s | pag= 17 | files=  26 | data= 15 | cola= 299 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/454
+[AETN] t=  48.7s | pag= 18 | files=  26 | data= 16 | cola= 299 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/454
+[AETN] t=  49.2s | pag= 18 | files=  26 | data= 16 | cola= 298 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-y-efectiva-al-31-de-diciembre-de-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/455
+[AETN] t=  50.1s | pag= 19 | files=  26 | data= 17 | cola= 298 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/455
+[AETN] t=  50.7s | pag= 19 | files=  26 | data= 17 | cola= 297 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-hidroelectricas/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/456
+[AETN] t=  51.7s | pag= 20 | files=  26 | data= 18 | cola= 297 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/456
+[AETN] t=  52.1s | pag= 20 | files=  26 | data= 18 | cola= 296 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-termoelectricas/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/457
+[AETN] t=  52.9s | pag= 21 | files=  26 | data= 19 | cola= 296 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/457
+[AETN] t=  53.4s | pag= 21 | files=  26 | data= 19 | cola= 295 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-de-energias-alternativas/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/458
+[AETN] t=  54.3s | pag= 22 | files=  26 | data= 20 | cola= 295 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/458
+[AETN] t=  54.7s | pag= 22 | files=  26 | data= 20 | cola= 294 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-hidroelectricas-de-generacion-al-31-de-diciembre-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/459
+[AETN] t=  55.9s | pag= 23 | files=  26 | data= 21 | cola= 294 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/459
+[AETN] t=  56.3s | pag= 23 | files=  26 | data= 21 | cola= 293 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-termoelectricas-de-generacion-al-31-de-diciembre-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/460
+[AETN] t=  57.5s | pag= 24 | files=  26 | data= 22 | cola= 293 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/460
+[AETN] t=  58.0s | pag= 24 | files=  26 | data= 22 | cola= 292 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/lineas-de-transmision-reconocidas-como-parte-del-s-t-i-al-31-de-diciembre-de-2024/
+[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/461
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              aetn
+Páginas visitadas:   25
+Archivos encontrados:   26
+Datasets web:         23
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             58.88 s
+Sitemaps procesados:  22
+URLs por sitemap:     178
+URLs sitemap en cola: 173
+
+Formatos:
+  - PDF    : 26
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\aetn.json
+
+Trazabilidad:
+  Ejecución: 160
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

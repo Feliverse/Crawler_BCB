@@ -1,0 +1,78 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Educación
+URL configurada: https://www.minedu.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.minedu.gob.bo/
+  Utilizada: https://www.minedu.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.minedu.gob.bo/
+
+URL de trabajo: https://www.minedu.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[MINEDU] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[MINEDU] t=   4.2s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.minedu.gob.bo/
+[MINEDU] API REFERENCIA | html_link_reference | https://www.minedu.gob.bo/index.php?format=json&option=com_ajax&plugin=arktypography
+[MINEDU] t=   6.2s | pag=  1 | files=   6 | data=  0 | cola= 102 | prio= 1 | https://www.minedu.gob.bo/index.php?format=json&option=com_ajax&plugin=arktypography
+[MINEDU] t=   6.9s | pag=  1 | files=   6 | data=  0 | cola= 101 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=933&id=89&option=com_content&view=categories
+[MINEDU] t=   8.3s | pag=  2 | files=   6 | data=  0 | cola= 209 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=1087&id=283&layout=blog&option=com_content&view=category
+[MINEDU] t=   9.1s | pag=  3 | files=   6 | data=  0 | cola= 224 | prio=10 | https://aulaprofe.minedu.gob.bo/evento/bases-para-la-implementacion-de-la-educacion-inclusiva
+[MINEDU] t=  10.1s | pag=  4 | files=   6 | data=  0 | cola= 223 | prio=10 | https://red.minedu.gob.bo/documento
+[MINEDU] t=  11.0s | pag=  5 | files=   6 | data=  0 | cola= 322 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=854&catid=182%3Anoticias&id=8430%3Aministerio-de-educacion-junto-a-38-universidades-impulsa-la-transformacion-digital-de-la-educacion-superior-en-bolivia&option=com_content&view=article
+[MINEDU] t=  12.0s | pag=  6 | files=   6 | data=  0 | cola= 327 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=854&catid=182%3Anoticias&id=8428%3Aministro-de-educacion-celebra-el-bicentenario-del-historico-colegio-nacional-junin-en-sucre&option=com_content&view=article
+[MINEDU] t=  12.7s | pag=  7 | files=   6 | data=  0 | cola= 326 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=854&catid=182%3Anoticias&id=8425%3Aministro-de-educacion-posesiona-a-alejandra-bonifaz-como-nueva-viceministra-de-educacion-alternativa-y-especial&option=com_content&view=article
+[MINEDU] t=  13.5s | pag=  8 | files=   6 | data=  0 | cola= 325 | prio=10 | http://seie.minedu.gob.bo/
+[MINEDU] t=  14.6s | pag=  9 | files=  26 | data=  0 | cola= 335 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=933&catid=93&id=8338&option=com_content&view=article
+[MINEDU] t=  15.5s | pag= 10 | files=  27 | data=  0 | cola= 334 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=712&id=113&option=com_content&view=categories
+[MINEDU] t=  16.4s | pag= 11 | files=  27 | data=  0 | cola= 333 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=714&id=102&option=com_content&view=categories
+[MINEDU] t=  17.0s | pag= 12 | files=  27 | data=  0 | cola= 332 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=715&id=129&option=com_content&view=categories
+[MINEDU] t=  17.9s | pag= 13 | files=  27 | data=  0 | cola= 331 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=716&id=145&option=com_content&view=categories
+[MINEDU] t=  18.9s | pag= 14 | files=  27 | data=  0 | cola= 330 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=1087&catid=283&id=4273%3Aministerio-de-educacion-del-estado-plurinacional-de-bolivia-2018&option=com_content&view=article
+[MINEDU] t=  19.9s | pag= 15 | files=  28 | data=  0 | cola= 329 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=1087&catid=283&id=4271%3Arendicion-de-cuentas-del-viceministerio-de-educacion-regular-gestion-2018&option=com_content&view=article
+[MINEDU] t=  22.0s | pag= 16 | files=  29 | data=  0 | cola= 328 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=1087&catid=283&id=4270%3Arendicion-de-cuentas-del-viceministerio-de-educacion-alternativa-y-especial-gestion-2018&option=com_content&view=article
+[MINEDU] t=  23.1s | pag= 17 | files=  30 | data=  0 | cola= 327 | prio=10 | https://www.minedu.gob.bo/index.php?Itemid=1087&catid=283&id=4269%3Arendicion-de-cuentas-del-viceministerio-de-educacion-superior-de-formacion-profesional-gestion-2018&option=com_content&view=article
+[MINEDU] t=  23.9s | pag= 18 | files=  31 | data=  0 | cola= 326 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/18
+[MINEDU] t=  24.2s | pag= 19 | files=  31 | data=  0 | cola= 327 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/20
+[MINEDU] t=  25.1s | pag= 20 | files=  31 | data=  0 | cola= 338 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/23
+[MINEDU] t=  26.1s | pag= 21 | files=  31 | data=  0 | cola= 357 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/24
+[MINEDU] t=  26.8s | pag= 22 | files=  31 | data=  0 | cola= 417 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/25
+[MINEDU] t=  27.6s | pag= 23 | files=  31 | data=  0 | cola= 479 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/26
+[MINEDU] t=  28.2s | pag= 24 | files=  31 | data=  0 | cola= 506 | prio=10 | https://red.minedu.gob.bo/documento/tipoFuente/29
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              minedu
+Páginas visitadas:   25
+Archivos encontrados:   31
+Datasets web:         0
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             28.70 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DOCX   : 1
+  - PDF    : 30
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\minedu.json
+
+Trazabilidad:
+  Ejecución: 196
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

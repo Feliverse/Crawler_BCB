@@ -1,0 +1,50 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Sistema de Contrataciones Estatales
+URL configurada: https://www.sicoes.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.sicoes.gob.bo/
+  Utilizada: https://www.sicoes.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.sicoes.gob.bo/
+
+URL de trabajo: https://www.sicoes.gob.bo/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SICOES] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[SICOES] t=   4.4s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.sicoes.gob.bo/
+[SICOES] t=   5.1s | pag=  1 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.sicoes.gob.bo/contrat/procesos.php
+[SICOES] DATASETS=1 | configured_data_page | https://www.sicoes.gob.bo/contrat/procesos.php
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              sicoes
+Páginas visitadas:   2
+Archivos encontrados:    0
+Datasets web:         1
+Errores:              0
+Motivo de parada:     frontier_exhausted
+Duración:             5.58 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\sicoes.json
+
+Trazabilidad:
+  Ejecución: 203
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

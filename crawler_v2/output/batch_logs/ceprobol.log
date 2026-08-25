@@ -1,0 +1,83 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Centro Promoción Bolivia - Fuente histórica / Ministerio de Desarrollo Productivo
+URL configurada: https://produccion.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://produccion.gob.bo/
+  Utilizada: https://produccion.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://produccion.gob.bo/
+
+URL de trabajo: https://produccion.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[CEPROBOL] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=1
+[CEPROBOL] t=   6.1s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://produccion.gob.bo/
+[CEPROBOL] DATASETS=1 | exportable_data_page | https://produccion.gob.bo/
+[CEPROBOL] t=   9.4s | pag=  1 | files=   1 | data=  1 | cola= 477 | prio=10 | https://produccion.gob.bo/resena-historica/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/pages/243
+[CEPROBOL] t=   9.8s | pag=  2 | files=   1 | data=  1 | cola= 477 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/pages/243
+[CEPROBOL] t=  10.9s | pag=  2 | files=   1 | data=  1 | cola= 476 | prio=10 | https://produccion.gob.bo/category/sin-categoria/
+[CEPROBOL] DATASETS=2 | exportable_data_page | https://produccion.gob.bo/category/sin-categoria/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/categories/1
+[CEPROBOL] t=  14.3s | pag=  3 | files=   1 | data=  2 | cola= 476 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/categories/1
+[CEPROBOL] t=  14.5s | pag=  3 | files=   1 | data=  2 | cola= 475 | prio=10 | https://produccion.gob.bo/boletin/
+[CEPROBOL] t=  15.9s | pag=  4 | files=   7 | data=  2 | cola= 480 | prio=10 | https://produccion.gob.bo/datos/
+[CEPROBOL] DATASETS=3 | data_html_table | https://produccion.gob.bo/datos/
+[CEPROBOL] t=  17.0s | pag=  5 | files=   7 | data=  3 | cola= 501 | prio=10 | https://produccion.gob.bo/viaje/
+[CEPROBOL] t=  18.4s | pag=  6 | files=  13 | data=  3 | cola= 500 | prio=10 | https://produccion.gob.bo/nota_prensa/rueda-de-negocios-conecta-productiva-abre-mercado-a-la-agricultura-familiar-y-supera-los-bs-470-mil-en-intenciones-de-negocio/
+[CEPROBOL] t=  19.6s | pag=  7 | files=  13 | data=  3 | cola= 499 | prio=10 | https://produccion.gob.bo/nota_prensa/el-ministro-oscar-mario-justiniano-presenta-en-el-foro-de-cainco-las-perspectivas-economicas-y-ratifica-la-importancia-de-la-alianza-publico-privada/
+[CEPROBOL] t=  20.5s | pag=  8 | files=  13 | data=  3 | cola= 498 | prio=10 | https://produccion.gob.bo/nota_prensa/el-presidente-rodrigo-paz-impulsa-historica-integracion-vial-y-aerea-entre-la-chiquitania-y-brasil-en-el-aniversario-de-san-ignacio-de-velasco/
+[CEPROBOL] t=  21.3s | pag=  9 | files=  13 | data=  3 | cola= 497 | prio=10 | https://produccion.gob.bo/nota_prensa/bolivia-y-brasil-acuerdan-agenda-de-trabajo-para-reactivar-el-comercio-regional-y-la-inversion/
+[CEPROBOL] t=  22.3s | pag= 10 | files=  13 | data=  3 | cola= 496 | prio=10 | https://produccion.gob.bo/nota_prensa/el-gobierno-lanza-el-programa-ibex-y-conforma-el-consejo-de-competitividad-industrial-para-impulsar-las-exportaciones-en-bolivia/
+[CEPROBOL] t=  23.4s | pag= 11 | files=  13 | data=  3 | cola= 495 | prio=10 | https://produccion.gob.bo/nota_prensa/feria-la-caserita-organizada-por-el-ministerio-de-desarrollo-productivo-impulsa-la-reactivacion-economica-de-pequenos-productores-en-la-paz/
+[CEPROBOL] t=  24.7s | pag= 12 | files=  13 | data=  3 | cola= 494 | prio=10 | https://produccion.gob.bo/nota_prensa/bolivia-cierra-la-lii-reunion-del-consejo-agropecuario-del-sur-con-un-balance-exitoso-y-pone-la-mirada-en-mercados-globales/
+[CEPROBOL] t=  25.4s | pag= 13 | files=  13 | data=  3 | cola= 493 | prio=10 | https://produccion.gob.bo/nota_prensa/el-ministerio-de-desarrollo-productivo-impulsa-la-calidad-industrial-y-el-comercio-exterior-con-taller-internacional-sobre-competitividad/
+[CEPROBOL] t=  26.4s | pag= 14 | files=  13 | data=  3 | cola= 492 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-y-productores-de-frutas-de-la-provincia-ichilo-firman-acuerdo-para-impulsar-la-comercializacion-directa-y-la-exportacion/
+[CEPROBOL] t=  27.5s | pag= 15 | files=  13 | data=  3 | cola= 491 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-y-codepcoca-la-paz-instalan-mesas-tecnicas-para-atender-demandas-historicas-del-sector/
+[CEPROBOL] t=  28.4s | pag= 16 | files=  13 | data=  3 | cola= 490 | prio=10 | https://produccion.gob.bo/nota_prensa/bolivia-presenta-informe-de-gestion-y-transfiere-la-presidencia-pro-tempore-de-la-rada-a-brasil/
+[CEPROBOL] t=  29.3s | pag= 17 | files=  13 | data=  3 | cola= 489 | prio=10 | https://produccion.gob.bo/nota_prensa/el-gobierno-nacional-gestiona-recursos-para-fortalecer-el-sector-camelido-y-proyecta-a-san-andres-de-machaca-hacia-mercados-internacionales/
+[CEPROBOL] t=  30.2s | pag= 18 | files=  13 | data=  3 | cola= 488 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-impulsa-exportaciones-con-nueva-oficina-de-senavex-en-santa-cruz/
+[CEPROBOL] t=  31.3s | pag= 19 | files=  13 | data=  3 | cola= 487 | prio=10 | https://produccion.gob.bo/nota_prensa/historica-inversion-en-tarija-presidente-rodrigo-paz-promulga-ley-para-la-construccion-de-la-planta-de-tratamiento-de-aguas-residuales/
+[CEPROBOL] t=  32.1s | pag= 20 | files=  13 | data=  3 | cola= 486 | prio=10 | https://produccion.gob.bo/nota_prensa/eba-fortalece-su-presencia-estrategica-con-una-vision-orientada-a-la-eficiencia-y-la-exportacion/
+[CEPROBOL] t=  33.1s | pag= 21 | files=  13 | data=  3 | cola= 485 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-y-sector-productivo-avanzan-en-agenda-de-liberacion-de-exportaciones-y-fortalecimiento-de-la-competitividad/
+[CEPROBOL] t=  33.9s | pag= 22 | files=  13 | data=  3 | cola= 484 | prio=10 | https://produccion.gob.bo/nota_prensa/el-cebu-boliviano-fortalece-su-proyeccion-internacional-como-producto-estrategico-de-exportacion/
+[CEPROBOL] t=  35.0s | pag= 23 | files=  13 | data=  3 | cola= 483 | prio=10 | https://produccion.gob.bo/nota_prensa/gobierno-elimina-trabas-a-la-exportacion-de-soya-y-deja-sin-efecto-el-control-de-precios-y-cupos-en-subproductos/
+[CEPROBOL] DATASETS=4 | exportable_data_page | https://produccion.gob.bo/nota_prensa/gobierno-elimina-trabas-a-la-exportacion-de-soya-y-deja-sin-efecto-el-control-de-precios-y-cupos-en-subproductos/
+[CEPROBOL] t=  36.2s | pag= 24 | files=  13 | data=  4 | cola= 482 | prio=10 | https://produccion.gob.bo/nota_prensa/ministro-justiniano-se-reune-con-sectores-productivos-para-impulsar-la-produccion-y-las-exportaciones/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              ceprobol
+Páginas visitadas:   25
+Archivos encontrados:   13
+Datasets web:         4
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             37.13 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 13
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ceprobol.json
+
+Trazabilidad:
+  Ejecución: 176
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,61 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Fondo Monetario Internacional
+URL configurada: https://www.imf.org/external/datamapper/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - forbidden      | HTTP=403 | https://www.imf.org/external/datamapper/
+    - forbidden      | HTTP=403 | https://imf.org/external/datamapper/
+    - forbidden      | HTTP=403 | http://www.imf.org/external/datamapper/
+    - forbidden      | HTTP=403 | http://imf.org/external/datamapper/
+
+URL de trabajo: https://www.imf.org/external/datamapper/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[FMI] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[FMI] t=   5.0s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.imf.org/external/datamapper/datasets
+[FMI] t=   6.3s | pag=  0 | files=   0 | data=  0 | cola=   4 | prio= 0 | https://www.imf.org/external/datamapper/api/
+[FMI] t=   7.8s | pag=  1 | files=   0 | data=  0 | cola=   6 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/indicators
+[FMI] DATASETS=1 | json_api | https://www.imf.org/external/datamapper/api/v2/indicators
+[FMI] t=   9.3s | pag=  1 | files=   0 | data=  1 | cola=   5 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/countries
+[FMI] DATASETS=2 | json_api | https://www.imf.org/external/datamapper/api/v2/countries
+[FMI] t=  10.1s | pag=  1 | files=   0 | data=  2 | cola=   4 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/regions
+[FMI] DATASETS=3 | json_api | https://www.imf.org/external/datamapper/api/v2/regions
+[FMI] t=  11.7s | pag=  1 | files=   0 | data=  3 | cola=   3 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/groups
+[FMI] DATASETS=4 | json_api | https://www.imf.org/external/datamapper/api/v2/groups
+[FMI] t=  12.9s | pag=  1 | files=   0 | data=  4 | cola=   2 | prio=10 | https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH
+[FMI] t=  14.4s | pag=  1 | files=   0 | data=  4 | cola=   1 | prio=10 | https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH/USA/CHN
+[FMI] t=  16.2s | pag=  1 | files=   0 | data=  4 | cola=   0 | prio=10 | https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH?periods=2019%2C2020
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fmi
+Páginas visitadas:   1
+Archivos encontrados:    0
+Datasets web:         4
+Errores:              1
+Motivo de parada:     frontier_exhausted
+Duración:             18.09 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fmi.json
+
+Trazabilidad:
+  Ejecución: 186
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

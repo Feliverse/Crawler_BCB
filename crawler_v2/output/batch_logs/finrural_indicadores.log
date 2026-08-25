@@ -1,0 +1,141 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: FINRURAL Bolivia - Indicadores
+URL configurada: https://www.finrural.org.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.finrural.org.bo/
+  Utilizada: https://www.finrural.org.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.finrural.org.bo/
+
+URL de trabajo: https://www.finrural.org.bo/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[FINRURAL_INDICADORES] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=2
+[FINRURAL_INDICADORES] t=   9.0s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.finrural.org.bo/
+[FINRURAL_INDICADORES] DATASETS=1 | data_html_table | https://www.finrural.org.bo/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/30
+[FINRURAL_INDICADORES] API REFERENCIA | inline_script_reference | https://www.finrural.org.bo/wp-json/elementskit/v1/
+[FINRURAL_INDICADORES] t=  10.5s | pag=  1 | files=   0 | data=  1 | cola=  24 | prio= 0 | https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/
+[FINRURAL_INDICADORES] DATASETS=2 | configured_data_page | https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/847
+[FINRURAL_INDICADORES] t=  11.6s | pag=  2 | files= 126 | data=  2 | cola=  24 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/30
+[FINRURAL_INDICADORES] t=  12.8s | pag=  2 | files= 126 | data=  2 | cola=  23 | prio= 1 | https://www.finrural.org.bo/wp-json/elementskit/v1/
+[FINRURAL_INDICADORES] API SONDEO FALLIDO | https://www.finrural.org.bo/wp-json/elementskit/v1/
+[FINRURAL_INDICADORES] t=  14.0s | pag=  2 | files= 126 | data=  2 | cola=  22 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/847
+[FINRURAL_INDICADORES] t=  16.1s | pag=  2 | files= 126 | data=  2 | cola=  21 | prio=50 | https://www.finrural.org.bo/sostenibilidad/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/1344
+[FINRURAL_INDICADORES] t=  17.2s | pag=  3 | files= 129 | data=  2 | cola=  21 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/1344
+[FINRURAL_INDICADORES] t=  17.9s | pag=  3 | files= 129 | data=  2 | cola=  20 | prio=50 | https://www.finrural.org.bo/estructura-organizacional/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/243
+[FINRURAL_INDICADORES] t=  18.8s | pag=  4 | files= 129 | data=  2 | cola=  20 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/243
+[FINRURAL_INDICADORES] t=  19.5s | pag=  4 | files= 129 | data=  2 | cola=  19 | prio=50 | https://www.finrural.org.bo/cidre-ifd/
+[FINRURAL_INDICADORES] DATASETS=3 | data_html_table | https://www.finrural.org.bo/cidre-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/448
+[FINRURAL_INDICADORES] API REFERENCIA | inline_script_reference | https://www.finrural.org.bo/wp-json/embedpress/v1/analytics/
+[FINRURAL_INDICADORES] t=  20.7s | pag=  5 | files= 129 | data=  3 | cola=  20 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/448
+[FINRURAL_INDICADORES] t=  23.8s | pag=  5 | files= 129 | data=  3 | cola=  19 | prio= 1 | https://www.finrural.org.bo/wp-json/embedpress/v1/analytics/
+[FINRURAL_INDICADORES] API SONDEO FALLIDO | https://www.finrural.org.bo/wp-json/embedpress/v1/analytics/
+[FINRURAL_INDICADORES] t=  25.0s | pag=  5 | files= 129 | data=  3 | cola=  18 | prio=50 | https://www.finrural.org.bo/crecer-ifd/
+[FINRURAL_INDICADORES] DATASETS=4 | data_html_table | https://www.finrural.org.bo/crecer-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/634
+[FINRURAL_INDICADORES] t=  26.7s | pag=  6 | files= 129 | data=  4 | cola=  18 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/634
+[FINRURAL_INDICADORES] t=  29.6s | pag=  6 | files= 129 | data=  4 | cola=  17 | prio=50 | https://www.finrural.org.bo/diaconia-frif-ifd/
+[FINRURAL_INDICADORES] DATASETS=5 | data_html_table | https://www.finrural.org.bo/diaconia-frif-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/663
+[FINRURAL_INDICADORES] t=  30.7s | pag=  7 | files= 129 | data=  5 | cola=  17 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/663
+[FINRURAL_INDICADORES] t=  33.7s | pag=  7 | files= 129 | data=  5 | cola=  16 | prio=50 | https://www.finrural.org.bo/fondeco-ifd/
+[FINRURAL_INDICADORES] DATASETS=6 | data_html_table | https://www.finrural.org.bo/fondeco-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/669
+[FINRURAL_INDICADORES] t=  37.1s | pag=  8 | files= 129 | data=  6 | cola=  16 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/669
+[FINRURAL_INDICADORES] t=  39.8s | pag=  8 | files= 129 | data=  6 | cola=  15 | prio=50 | https://www.finrural.org.bo/fubode-ifd/
+[FINRURAL_INDICADORES] DATASETS=7 | data_html_table | https://www.finrural.org.bo/fubode-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/682
+[FINRURAL_INDICADORES] t=  40.5s | pag=  9 | files= 129 | data=  7 | cola=  15 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/682
+[FINRURAL_INDICADORES] t=  43.7s | pag=  9 | files= 129 | data=  7 | cola=  14 | prio=50 | https://www.finrural.org.bo/idepro-ifd/
+[FINRURAL_INDICADORES] DATASETS=8 | data_html_table | https://www.finrural.org.bo/idepro-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/681
+[FINRURAL_INDICADORES] t=  44.4s | pag= 10 | files= 129 | data=  8 | cola=  14 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/681
+[FINRURAL_INDICADORES] t=  47.5s | pag= 10 | files= 129 | data=  8 | cola=  13 | prio=50 | https://www.finrural.org.bo/impro-ifd/
+[FINRURAL_INDICADORES] DATASETS=9 | data_html_table | https://www.finrural.org.bo/impro-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/704
+[FINRURAL_INDICADORES] t=  48.5s | pag= 11 | files= 129 | data=  9 | cola=  13 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/704
+[FINRURAL_INDICADORES] t=  51.5s | pag= 11 | files= 129 | data=  9 | cola=  12 | prio=50 | https://www.finrural.org.bo/pro-mujer-ifd/
+[FINRURAL_INDICADORES] DATASETS=10 | data_html_table | https://www.finrural.org.bo/pro-mujer-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/713
+[FINRURAL_INDICADORES] t=  55.1s | pag= 12 | files= 129 | data= 10 | cola=  12 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/713
+[FINRURAL_INDICADORES] t=  58.1s | pag= 12 | files= 129 | data= 10 | cola=  11 | prio=50 | https://www.finrural.org.bo/que-son-las-ifd/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/268
+[FINRURAL_INDICADORES] t=  59.1s | pag= 13 | files= 129 | data= 10 | cola=  11 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/268
+[FINRURAL_INDICADORES] t=  60.2s | pag= 13 | files= 129 | data= 10 | cola=  10 | prio=50 | https://www.finrural.org.bo/glosario-de-microfinanzas/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/1166
+[FINRURAL_INDICADORES] t=  61.9s | pag= 14 | files= 129 | data= 10 | cola=  10 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/1166
+[FINRURAL_INDICADORES] t=  62.8s | pag= 14 | files= 129 | data= 10 | cola=   9 | prio=50 | https://www.finrural.org.bo/manifiesto-de-las-microfinanzas/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/1706
+[FINRURAL_INDICADORES] t=  63.7s | pag= 15 | files= 130 | data= 10 | cola=   9 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/1706
+[FINRURAL_INDICADORES] t=  64.9s | pag= 15 | files= 130 | data= 10 | cola=   8 | prio=50 | https://www.finrural.org.bo/servicios-a-asociadas/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/262
+[FINRURAL_INDICADORES] t=  66.2s | pag= 16 | files= 130 | data= 10 | cola=   9 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/262
+[FINRURAL_INDICADORES] t=  67.6s | pag= 16 | files= 130 | data= 10 | cola=   8 | prio=50 | https://www.finrural.org.bo/iniciativas-2/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/293
+[FINRURAL_INDICADORES] t=  69.0s | pag= 17 | files= 130 | data= 10 | cola=   8 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/293
+[FINRURAL_INDICADORES] t=  70.3s | pag= 17 | files= 130 | data= 10 | cola=   7 | prio=50 | https://www.finrural.org.bo/instituciones-aliadas/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/270
+[FINRURAL_INDICADORES] t=  71.5s | pag= 18 | files= 130 | data= 10 | cola=   7 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/270
+[FINRURAL_INDICADORES] t=  72.4s | pag= 18 | files= 130 | data= 10 | cola=   6 | prio=50 | https://www.finrural.org.bo/entidades-de-cooperacion/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/332
+[FINRURAL_INDICADORES] t=  73.2s | pag= 19 | files= 130 | data= 10 | cola=   6 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/332
+[FINRURAL_INDICADORES] t=  74.5s | pag= 19 | files= 130 | data= 10 | cola=   5 | prio=50 | https://www.finrural.org.bo/enlaces-de-interes/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/272
+[FINRURAL_INDICADORES] t=  75.9s | pag= 20 | files= 130 | data= 10 | cola=   5 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/272
+[FINRURAL_INDICADORES] t=  76.7s | pag= 20 | files= 130 | data= 10 | cola=   4 | prio=50 | https://www.finrural.org.bo/bolsa-de-trabajo/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/396
+[FINRURAL_INDICADORES] t=  77.7s | pag= 21 | files= 130 | data= 10 | cola=   4 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/396
+[FINRURAL_INDICADORES] t=  78.5s | pag= 21 | files= 130 | data= 10 | cola=   3 | prio=50 | https://www.finrural.org.bo/servicios-a-asociadas/mensajeria-sms/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/941
+[FINRURAL_INDICADORES] t=  80.0s | pag= 22 | files= 130 | data= 10 | cola=   3 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/941
+[FINRURAL_INDICADORES] t=  81.2s | pag= 22 | files= 130 | data= 10 | cola=   2 | prio=70 | https://www.finrural.org.bo/historia/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/146
+[FINRURAL_INDICADORES] t=  82.6s | pag= 23 | files= 130 | data= 10 | cola=   2 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/146
+[FINRURAL_INDICADORES] t=  83.5s | pag= 23 | files= 130 | data= 10 | cola=   1 | prio=70 | https://www.finrural.org.bo/mision-y-vision/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/219
+[FINRURAL_INDICADORES] t=  84.8s | pag= 24 | files= 130 | data= 10 | cola=   1 | prio= 1 | https://www.finrural.org.bo/wp-json/wp/v2/pages/219
+[FINRURAL_INDICADORES] t=  86.2s | pag= 24 | files= 130 | data= 10 | cola=   0 | prio=70 | https://www.finrural.org.bo/eventos/
+[FINRURAL_INDICADORES] API REFERENCIA | html_link_reference | https://www.finrural.org.bo/wp-json/wp/v2/pages/264
+[FINRURAL_INDICADORES] API SONDEOS FALLIDOS | total=2
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              finrural_indicadores
+Páginas visitadas:   25
+Archivos encontrados:  130
+Datasets web:         10
+Errores:              2
+Motivo de parada:     max_pages
+Duración:             87.34 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 130
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\finrural_indicadores.json
+
+Trazabilidad:
+  Ejecución: 185
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

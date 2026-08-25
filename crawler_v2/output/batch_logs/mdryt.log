@@ -1,0 +1,128 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Desarrollo Rural y Tierras
+URL configurada: https://ruralytierras.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://ruralytierras.gob.bo/
+  Utilizada: https://ruralytierras.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://ruralytierras.gob.bo/
+
+URL de trabajo: https://ruralytierras.gob.bo/
+Seeds: 8
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[MDRYT] SITEMAP | docs=18 | urls=235 | en_cola=226 | errores=0
+[MDRYT] t=  20.0s | pag=  0 | files=   0 | data=  0 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/
+[MDRYT] t=  21.3s | pag=  1 | files=   2 | data=  0 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/datos/
+[MDRYT] DATASETS=1 | data_html_table | https://ruralytierras.gob.bo/index.php/datos/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/915
+[MDRYT] t=  22.0s | pag=  2 | files=   2 | data=  1 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/estadisticas/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/919
+[MDRYT] t=  22.8s | pag=  3 | files=   2 | data=  1 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/reportes-de-estadisticas/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/432
+[MDRYT] t=  23.8s | pag=  4 | files=   2 | data=  1 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/boletines/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/348
+[MDRYT] t=  24.5s | pag=  5 | files=   2 | data=  1 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/memoria-intitucional/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/493
+[MDRYT] t=  25.6s | pag=  6 | files=   3 | data=  1 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/393
+[MDRYT] t=  26.1s | pag=  7 | files=   7 | data=  1 | cola= 233 | prio= 0 | https://ruralytierras.gob.bo/index.php/rendicion-publica-de-cuentas/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/17073
+[MDRYT] t=  26.8s | pag=  8 | files=  10 | data=  1 | cola= 233 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/915
+[MDRYT] t=  27.4s | pag=  8 | files=  10 | data=  1 | cola= 232 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/919
+[MDRYT] t=  28.1s | pag=  8 | files=  10 | data=  1 | cola= 231 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/432
+[MDRYT] t=  29.0s | pag=  8 | files=  10 | data=  1 | cola= 230 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/348
+[MDRYT] t=  29.7s | pag=  8 | files=  10 | data=  1 | cola= 229 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/493
+[MDRYT] t=  30.4s | pag=  8 | files=  10 | data=  1 | cola= 228 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/393
+[MDRYT] t=  31.2s | pag=  8 | files=  10 | data=  1 | cola= 227 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/17073
+[MDRYT] t=  31.9s | pag=  8 | files=  10 | data=  1 | cola= 226 | prio=25 | https://ruralytierras.gob.bo/index.php/informes/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/313
+[MDRYT] t=  33.0s | pag=  9 | files=  10 | data=  1 | cola= 226 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/313
+[MDRYT] t=  33.8s | pag=  9 | files=  10 | data=  1 | cola= 225 | prio=25 | https://ruralytierras.gob.bo/index.php/reglamentos/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/472
+[MDRYT] t=  34.8s | pag= 10 | files=  10 | data=  1 | cola= 225 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/472
+[MDRYT] t=  35.7s | pag= 10 | files=  10 | data=  1 | cola= 224 | prio=25 | https://ruralytierras.gob.bo/index.php/resoluciones/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/477
+[MDRYT] t=  36.5s | pag= 11 | files=  10 | data=  1 | cola= 224 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/477
+[MDRYT] t=  37.0s | pag= 11 | files=  10 | data=  1 | cola= 223 | prio=25 | https://ruralytierras.gob.bo/index.php/galeria-multimedia/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/8169
+[MDRYT] t=  37.6s | pag= 12 | files=  10 | data=  1 | cola= 223 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/8169
+[MDRYT] t=  38.1s | pag= 12 | files=  10 | data=  1 | cola= 222 | prio=25 | https://ruralytierras.gob.bo/index.php/galeria/comunicado/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/galeria/20678
+[MDRYT] t=  39.0s | pag= 13 | files=  10 | data=  1 | cola= 222 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/galeria/20678
+[MDRYT] t=  39.6s | pag= 13 | files=  10 | data=  1 | cola= 221 | prio=25 | https://ruralytierras.gob.bo/index.php/mapa-de-sitio/
+[MDRYT] DATASETS=2 | data_chart | https://ruralytierras.gob.bo/index.php/mapa-de-sitio/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/5809
+[MDRYT] t=  41.0s | pag= 14 | files=  10 | data=  2 | cola= 411 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/pages/5809
+[MDRYT] t=  41.5s | pag= 14 | files=  10 | data=  2 | cola= 410 | prio= 2 | https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00089-2025-rendicion-publica-de-cuentas-inicial-2025/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/rendicion_cuenta/17656
+[MDRYT] t=  42.0s | pag= 15 | files=  10 | data=  2 | cola= 410 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/rendicion_cuenta/17656
+[MDRYT] t=  42.9s | pag= 15 | files=  10 | data=  2 | cola= 409 | prio= 2 | https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-00026-2025-rendicion-publica-de-cuentas-final-2024/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/rendicion_cuenta/17654
+[MDRYT] t=  44.0s | pag= 16 | files=  10 | data=  2 | cola= 409 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/rendicion_cuenta/17654
+[MDRYT] t=  44.6s | pag= 16 | files=  10 | data=  2 | cola= 408 | prio= 2 | https://ruralytierras.gob.bo/index.php/rendicion_cuenta/informe-0034-2024-rendicion-publica-de-cuentas-inicial-2024/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/rendicion_cuenta/17651
+[MDRYT] t=  45.5s | pag= 17 | files=  10 | data=  2 | cola= 408 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/rendicion_cuenta/17651
+[MDRYT] t=  46.3s | pag= 17 | files=  10 | data=  2 | cola= 407 | prio= 2 | https://ruralytierras.gob.bo/index.php/viaje/lorem-titulo-del-informe-de-viaje-al-exterior/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/viaje/17113
+[MDRYT] t=  47.3s | pag= 18 | files=  10 | data=  2 | cola= 407 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/viaje/17113
+[MDRYT] t=  48.2s | pag= 18 | files=  10 | data=  2 | cola= 406 | prio= 2 | https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/
+[MDRYT] DATASETS=3 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/sanidad-e-inocuidad-alimentaria-senasag/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17591
+[MDRYT] t=  49.4s | pag= 19 | files=  10 | data=  3 | cola= 406 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17591
+[MDRYT] t=  50.3s | pag= 19 | files=  10 | data=  3 | cola= 405 | prio= 2 | https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/
+[MDRYT] DATASETS=4 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/seguro-agrario-pachamamaseguro-agrario-pachamama/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17589
+[MDRYT] t=  51.1s | pag= 20 | files=  10 | data=  4 | cola= 405 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17589
+[MDRYT] t=  52.0s | pag= 20 | files=  10 | data=  4 | cola= 404 | prio= 2 | https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/
+[MDRYT] DATASETS=5 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/credito-productivo-sibolivia/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17587
+[MDRYT] t=  53.1s | pag= 21 | files=  10 | data=  5 | cola= 404 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17587
+[MDRYT] t=  54.0s | pag= 21 | files=  10 | data=  5 | cola= 403 | prio= 2 | https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/
+[MDRYT] DATASETS=6 | exportable_data_page | https://ruralytierras.gob.bo/index.php/indicador/lorem-indicadores-2/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17107
+[MDRYT] t=  54.8s | pag= 22 | files=  10 | data=  6 | cola= 403 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/indicador/17107
+[MDRYT] t=  55.8s | pag= 22 | files=  10 | data=  6 | cola= 402 | prio= 2 | https://ruralytierras.gob.bo/index.php/boletin/16876/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/boletin/16876
+[MDRYT] t=  56.4s | pag= 23 | files=  10 | data=  6 | cola= 402 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/boletin/16876
+[MDRYT] t=  57.2s | pag= 23 | files=  10 | data=  6 | cola= 401 | prio= 2 | https://ruralytierras.gob.bo/index.php/boletin/lorem-boletin-informativo-lorem/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/boletin/16875
+[MDRYT] t=  58.3s | pag= 24 | files=  10 | data=  6 | cola= 401 | prio= 1 | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/boletin/16875
+[MDRYT] t=  59.2s | pag= 24 | files=  10 | data=  6 | cola= 400 | prio= 2 | https://ruralytierras.gob.bo/index.php/boletin/boletin-informativo/
+[MDRYT] API REFERENCIA | html_link_reference | https://ruralytierras.gob.bo/index.php/wp-json/wp/v2/boletin/10339
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mdryt
+Páginas visitadas:   25
+Archivos encontrados:   10
+Datasets web:         6
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             60.11 s
+Sitemaps procesados:  18
+URLs por sitemap:     235
+URLs sitemap en cola: 226
+
+Formatos:
+  - PDF    : 10
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mdryt.json
+
+Trazabilidad:
+  Ejecución: 193
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

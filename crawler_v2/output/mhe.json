@@ -1,0 +1,255 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Principios-Institucionales-MHE.csv": {
+                        "descripcion": "PRINCIPIOS INSTITUCIONALES",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/09/Principios-Institucionales-MHE.pdf",
+                        "fecha_actualizacion": "2025-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Valores-Institucionales-MHE.csv": {
+                        "descripcion": "VALORES INSTITUCIONALES",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/09/Valores-Institucionales-MHE.pdf",
+                        "fecha_actualizacion": "2025-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OBJETIVOS-Y-ESTRATEGIAS-INSTITUCIONALES-MHE.csv": {
+                        "descripcion": "OBJETIVOS Y ESTRATEGIAS INSTITUCIONALES",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/09/OBJETIVOS-Y-ESTRATEGIAS-INSTITUCIONALES-MHE.pdf",
+                        "fecha_actualizacion": "2025-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "RM-050-2024.csv": {
+                        "descripcion": "RESOLUCIÓN MINISTERIAL N°050-2024",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2026/01/RM-050-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "resultados_indicadores_produccion_22.csv": {
+                        "descripcion": "YPFB REFINACIÓN – INDICADORES DE PRODUCCIÓN",
+                        "url_descarga": "https://wwwt.ypfbrefinacion.com.bo/files/publicaciones/resultados_indicadores_produccion_22.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DS55952028NCPP.csv": {
+                        "descripcion": "DECRETO SUPREMO N° 5595",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2026/05/DS55952028NCPP.pdf",
+                        "fecha_actualizacion": "2026-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "reglamento-tranca-cero.csv": {
+                        "descripcion": "REGLAMENTO TRANCA CERO",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2026/05/reglamento-tranca-cero.pdf",
+                        "fecha_actualizacion": "2026-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Version-Final-BEN-2020-2024-low0.csv": {
+                        "descripcion": "Version-Final-BEN-2020-2024-low0.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/10/Version-Final-BEN-2020-2024-low0.pdf",
+                        "fecha_actualizacion": "2025-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BEN-2019-2023-FINAL-low.csv": {
+                        "descripcion": "BEN-2019-2023-FINAL-low.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/03/BEN-2019-2023-FINAL-low.pdf",
+                        "fecha_actualizacion": "2025-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BEN-2018-2022-comprimido-1.csv": {
+                        "descripcion": "BEN-2018-2022-comprimido-1.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2023/12/BEN-2018-2022-comprimido-1.pdf",
+                        "fecha_actualizacion": "2023-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BEN-2006-2021-comprimido.csv": {
+                        "descripcion": "BEN-2006-2021-comprimido.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2023/01/BEN-2006-2021-comprimido.pdf",
+                        "fecha_actualizacion": "2023-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "4.BEN-2006-2020-low.csv": {
+                        "descripcion": "4.BEN-2006-2020-low.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/01/4.BEN-2006-2020-low.pdf",
+                        "fecha_actualizacion": "2025-01-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BED-2023-FINAL-1-low.csv": {
+                        "descripcion": "BED-2023-FINAL-1-low.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/03/BED-2023-FINAL-1-low.pdf",
+                        "fecha_actualizacion": "2025-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BED-2022-comprimido.csv": {
+                        "descripcion": "BED-2022-comprimido.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2023/12/BED-2022-comprimido.pdf",
+                        "fecha_actualizacion": "2023-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BED-2021-c.csv": {
+                        "descripcion": "BED-2021-c.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2023/04/BED-2021-c.pdf",
+                        "fecha_actualizacion": "2023-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Version-Final-BED-2024-low.csv": {
+                        "descripcion": "Version-Final-BED-2024-low.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/10/Version-Final-BED-2024-low.pdf",
+                        "fecha_actualizacion": "2025-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ANALISIS-ENERGETICO-REGIONAL-2013-2023.csv": {
+                        "descripcion": "ANALISIS-ENERGETICO-REGIONAL-2013-2023.pdf",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2025/01/ANALISIS-ENERGETICO-REGIONAL-2013-2023.pdf",
+                        "fecha_actualizacion": "2025-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "RPCF_-_2020_Aprobado.csv": {
+                        "descripcion": "Informe de la Audiencia de Rendición Pública de Cuentas Final – 2020",
+                        "url_descarga": "https://www.mhe.gob.bo/wp-content/uploads/2021/04/RPCF_-_2020_Aprobado.pdf",
+                        "fecha_actualizacion": "2021-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mhe.gob.bo/2021/03/10/informe-rpc-2020/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "VICEMINISTERIO_DE_PLANIFICACIÓN_Y_DESARROLLO_ENERGÉTICO_-_MHE.csv": {
+                        "descripcion": "VICEMINISTERIO DE PLANIFICACIÓN Y DESARROLLO ENERGÉTICO - MHE",
+                        "url_descarga": "https://www.mhe.gob.bo/vmpde/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/vmpde/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "MAPA_DEL_SITIO_-_MHE.csv": {
+                        "descripcion": "MAPA DEL SITIO - MHE",
+                        "url_descarga": "https://www.mhe.gob.bo/mapa-del-sitio/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/mapa-del-sitio/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "periodico_-_MHE.csv": {
+                        "descripcion": "periodico - MHE",
+                        "url_descarga": "https://www.mhe.gob.bo/2021/02/19/periodico/",
+                        "fecha_actualizacion": "2021-02-19",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/2021/02/19/periodico/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "INFORME_RPC_2020_-_MHE.csv": {
+                        "descripcion": "INFORME RPC 2020 - MHE",
+                        "url_descarga": "https://www.mhe.gob.bo/2021/03/10/informe-rpc-2020/",
+                        "fecha_actualizacion": "2021-03-10",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/2021/03/10/informe-rpc-2020/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Inicio_de_la_perforación_del_pozo_San_Miguel_X2ST_-_MHE.csv": {
+                        "descripcion": "Inicio de la perforación del pozo San Miguel X2ST - MHE",
+                        "url_descarga": "https://www.mhe.gob.bo/2021/04/06/inicio-de-la-perforacion-del-pozo-san-miguel-x2st/",
+                        "fecha_actualizacion": "2021-04-06",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/2021/04/06/inicio-de-la-perforacion-del-pozo-san-miguel-x2st/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Rendición_Pública_de_Cuentas_-_Inicial_2021_-_MHE.csv": {
+                        "descripcion": "Rendición Pública de Cuentas - Inicial 2021 - MHE",
+                        "url_descarga": "https://www.mhe.gob.bo/2021/04/08/rendicion-publica-de-cuentas-inicial-2021/",
+                        "fecha_actualizacion": "2021-04-08",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/2021/04/08/rendicion-publica-de-cuentas-inicial-2021/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "REPORTE_DIARIO_DE_PRECIOS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Produccion,_Recaudaciones_e_Incentivos.csv": {
+                        "descripcion": "Produccion, Recaudaciones e Incentivos",
+                        "url_descarga": "https://upstream.mhe.gob.bo/preciosPublic/2025",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mhe.gob.bo/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

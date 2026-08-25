@@ -1,0 +1,122 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Minería y Metalurgia
+URL configurada: https://www.mineria.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.mineria.gob.bo/
+  Utilizada: https://www.mineria.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.mineria.gob.bo/
+
+URL de trabajo: https://www.mineria.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[MMYM] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=1
+[MMYM] t=  11.3s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.mineria.gob.bo/
+[MMYM] t=  13.5s | pag=  1 | files=   0 | data=  0 | cola=  40 | prio=10 | https://www.mineria.gob.bo/index.php/declaracion-de-la-mision-vision-valores-y-principios-de-la-entidad/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/309
+[MMYM] t=  14.5s | pag=  2 | files=   0 | data=  0 | cola=  40 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/309
+[MMYM] t=  15.8s | pag=  2 | files=   0 | data=  0 | cola=  39 | prio=10 | https://www.mineria.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/321
+[MMYM] t=  17.0s | pag=  3 | files=   0 | data=  0 | cola=  39 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/321
+[MMYM] t=  18.3s | pag=  3 | files=   0 | data=  0 | cola=  38 | prio=10 | https://www.mineria.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/328
+[MMYM] t=  19.5s | pag=  4 | files=   0 | data=  0 | cola=  38 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/328
+[MMYM] t=  20.7s | pag=  4 | files=   0 | data=  0 | cola=  37 | prio=10 | https://www.mineria.gob.bo/index.php/memoria-intitucional/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/493
+[MMYM] t=  22.2s | pag=  5 | files=   7 | data=  0 | cola=  37 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/493
+[MMYM] t=  23.2s | pag=  5 | files=   7 | data=  0 | cola=  36 | prio=10 | https://www.mineria.gob.bo/index.php/pei-descargable/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/401
+[MMYM] t=  24.7s | pag=  6 | files=  10 | data=  0 | cola=  36 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/401
+[MMYM] t=  25.9s | pag=  6 | files=  10 | data=  0 | cola=  35 | prio=10 | https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/393
+[MMYM] t=  27.3s | pag=  7 | files=  20 | data=  0 | cola=  36 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/393
+[MMYM] t=  28.0s | pag=  7 | files=  20 | data=  0 | cola=  35 | prio=10 | https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/449
+[MMYM] t=  29.2s | pag=  8 | files=  30 | data=  0 | cola=  36 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/449
+[MMYM] t=  30.4s | pag=  8 | files=  30 | data=  0 | cola=  35 | prio=10 | https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/377
+[MMYM] t=  31.6s | pag=  9 | files=  39 | data=  0 | cola=  35 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/377
+[MMYM] t=  32.5s | pag=  9 | files=  39 | data=  0 | cola=  34 | prio=10 | https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17073
+[MMYM] t=  33.5s | pag= 10 | files=  49 | data=  0 | cola=  35 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17073
+[MMYM] t=  34.8s | pag= 10 | files=  49 | data=  0 | cola=  34 | prio=10 | https://www.mineria.gob.bo/index.php/17068-2/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17068
+[MMYM] t=  36.3s | pag= 11 | files=  49 | data=  0 | cola=  34 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17068
+[MMYM] t=  37.3s | pag= 11 | files=  49 | data=  0 | cola=  33 | prio=10 | https://www.mineria.gob.bo/index.php/formulario-de-solicitud-de-informacion/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17076
+[MMYM] t=  38.5s | pag= 12 | files=  49 | data=  0 | cola=  33 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17076
+[MMYM] t=  39.6s | pag= 12 | files=  49 | data=  0 | cola=  32 | prio=10 | https://www.mineria.gob.bo/index.php/lista-comunicados-page/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/1191
+[MMYM] t=  41.1s | pag= 13 | files=  59 | data=  0 | cola=  34 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/1191
+[MMYM] t=  42.3s | pag= 13 | files=  59 | data=  0 | cola=  33 | prio=10 | https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17089
+[MMYM] t=  43.9s | pag= 14 | files=  68 | data=  0 | cola=  34 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/17089
+[MMYM] t=  45.0s | pag= 14 | files=  68 | data=  0 | cola=  33 | prio=10 | https://www.mineria.gob.bo/index.php/comunicados-de-prensa/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/297
+[MMYM] t=  46.3s | pag= 15 | files=  68 | data=  0 | cola=  40 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/297
+[MMYM] t=  47.3s | pag= 15 | files=  68 | data=  0 | cola=  39 | prio=10 | https://www.mineria.gob.bo/index.php/galeria-multimedia/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/8169
+[MMYM] t=  48.9s | pag= 16 | files=  68 | data=  0 | cola=  40 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/8169
+[MMYM] t=  49.8s | pag= 16 | files=  68 | data=  0 | cola=  39 | prio=10 | https://www.mineria.gob.bo/index.php/boletines/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/348
+[MMYM] t=  51.2s | pag= 17 | files=  80 | data=  0 | cola=  40 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/348
+[MMYM] t=  52.4s | pag= 17 | files=  80 | data=  0 | cola=  39 | prio=10 | https://www.mineria.gob.bo/index.php/campanas-y-actividades/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/385
+[MMYM] t=  53.9s | pag= 18 | files=  80 | data=  0 | cola=  41 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/385
+[MMYM] t=  55.0s | pag= 18 | files=  80 | data=  0 | cola=  40 | prio=10 | https://www.mineria.gob.bo/index.php/historico-cotizaciones-minerales/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/369
+[MMYM] t=  56.4s | pag= 19 | files=  80 | data=  0 | cola=  43 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/369
+[MMYM] t=  57.7s | pag= 19 | files=  80 | data=  0 | cola=  42 | prio=10 | https://www.mineria.gob.bo/index.php/normativa-externa/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/13276
+[MMYM] t=  59.3s | pag= 20 | files=  90 | data=  0 | cola=  43 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/13276
+[MMYM] t=  60.4s | pag= 20 | files=  90 | data=  0 | cola=  42 | prio=10 | https://www.mineria.gob.bo/index.php/normativa-interna/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/13274
+[MMYM] t=  61.9s | pag= 21 | files= 100 | data=  0 | cola=  45 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/13274
+[MMYM] t=  63.1s | pag= 21 | files= 100 | data=  0 | cola=  44 | prio=10 | https://www.mineria.gob.bo/index.php/personal/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/6919
+[MMYM] t=  65.4s | pag= 22 | files= 100 | data=  0 | cola=  44 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/6919
+[MMYM] t=  66.2s | pag= 22 | files= 100 | data=  0 | cola=  43 | prio=10 | https://www.mineria.gob.bo/index.php/escala-salarial/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/529
+[MMYM] t=  67.5s | pag= 23 | files= 101 | data=  0 | cola=  43 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/529
+[MMYM] t=  68.7s | pag= 23 | files= 101 | data=  0 | cola=  42 | prio=10 | https://www.mineria.gob.bo/index.php/manual-de-organizacion/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/537
+[MMYM] t=  70.2s | pag= 24 | files= 102 | data=  0 | cola=  42 | prio= 1 | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/537
+[MMYM] t=  71.1s | pag= 24 | files= 102 | data=  0 | cola=  41 | prio=10 | https://www.mineria.gob.bo/index.php/poais/
+[MMYM] API REFERENCIA | html_link_reference | https://www.mineria.gob.bo/index.php/wp-json/wp/v2/pages/624
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mmym
+Páginas visitadas:   25
+Archivos encontrados:  103
+Datasets web:         0
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             72.56 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 103
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mmym.json
+
+Trazabilidad:
+  Ejecución: 198
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

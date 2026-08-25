@@ -1,0 +1,79 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Asociación de Instituciones Financieras de Microfinanzas de Bolivia
+URL configurada: https://asofinbolivia.com/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://asofinbolivia.com/
+  Utilizada: https://asofinbolivia.com/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://asofinbolivia.com/
+
+URL de trabajo: https://asofinbolivia.com/
+Seeds: 8
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ASOFIN] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[ASOFIN] t=   6.3s | pag=  0 | files=   0 | data=  0 | cola=   7 | prio= 0 | https://asofinbolivia.com/
+[ASOFIN] t=   9.3s | pag=  1 | files=   0 | data=  0 | cola=  40 | prio= 0 | https://asofinbolivia.com/index.php/indicadores-financieros-2/
+[ASOFIN] t=  10.7s | pag=  2 | files=   0 | data=  0 | cola=  39 | prio= 0 | https://asofinbolivia.com/index.php/indicadores-sociales/
+[ASOFIN] t=  12.3s | pag=  3 | files=   0 | data=  0 | cola=  38 | prio= 0 | https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html
+[ASOFIN] DATASETS=1 | data_chart | https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html
+[ASOFIN] t=  19.7s | pag=  4 | files=   0 | data=  1 | cola=  37 | prio= 0 | https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html
+[ASOFIN] DATASETS=2 | data_chart | https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html
+[ASOFIN] t=  21.0s | pag=  5 | files=   0 | data=  2 | cola=  36 | prio= 0 | https://asofinbolivia.com/index.php/category/boletin_financiero/
+[ASOFIN] t=  23.0s | pag=  6 | files=   0 | data=  2 | cola=  45 | prio= 0 | https://asofinbolivia.com/index.php/category/boletin_social/
+[ASOFIN] t=  24.8s | pag=  7 | files=   0 | data=  2 | cola=  51 | prio= 0 | https://asofinbolivia.com/index.php/category/documentos/
+[ASOFIN] t=  26.6s | pag=  8 | files=   0 | data=  2 | cola=  61 | prio= 1 | https://www.asofinbolivia.com/index.php/indicadores-financieros-2
+[ASOFIN] t=  29.9s | pag=  8 | files=   0 | data=  2 | cola=  60 | prio= 1 | https://www.asofinbolivia.com/index.php/indicadores-sociales
+[ASOFIN] t=  32.9s | pag=  8 | files=   0 | data=  2 | cola=  59 | prio= 2 | https://www.asofinbolivia.com/index.php/boletines/
+[ASOFIN] t=  38.0s | pag=  9 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/2/
+[ASOFIN] t=  39.1s | pag= 10 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/2/
+[ASOFIN] t=  41.7s | pag= 11 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/3/
+[ASOFIN] t=  43.6s | pag= 12 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/49/
+[ASOFIN] t=  45.7s | pag= 13 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/3/
+[ASOFIN] t=  46.9s | pag= 14 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/4/
+[ASOFIN] t=  49.2s | pag= 15 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/5/
+[ASOFIN] t=  51.0s | pag= 16 | files=   0 | data=  2 | cola= 259 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/48/
+[ASOFIN] t=  53.7s | pag= 17 | files=   0 | data=  2 | cola= 258 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/47/
+[ASOFIN] t=  55.5s | pag= 18 | files=   0 | data=  2 | cola= 257 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/4/
+[ASOFIN] t=  56.7s | pag= 19 | files=   0 | data=  2 | cola= 256 | prio= 3 | https://asofinbolivia.com/index.php/2026/08/13/no-251/
+[ASOFIN] t=  58.2s | pag= 20 | files=   1 | data=  2 | cola= 255 | prio= 3 | https://asofinbolivia.com/index.php/2026/08/13/no-250/
+[ASOFIN] t=  59.8s | pag= 21 | files=   2 | data=  2 | cola= 254 | prio= 3 | https://asofinbolivia.com/index.php/2026/06/08/no-249/
+[ASOFIN] t=  61.7s | pag= 22 | files=   3 | data=  2 | cola= 253 | prio= 3 | https://asofinbolivia.com/index.php/2026/05/13/no-248/
+[ASOFIN] t=  63.6s | pag= 23 | files=   4 | data=  2 | cola= 252 | prio= 3 | https://asofinbolivia.com/index.php/2026/03/31/no-247/
+[ASOFIN] t=  65.0s | pag= 24 | files=   5 | data=  2 | cola= 251 | prio= 3 | https://asofinbolivia.com/index.php/2026/03/11/no-246/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              asofin
+Páginas visitadas:   25
+Archivos encontrados:    6
+Datasets web:         2
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             66.70 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 6
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\asofin.json
+
+Trazabilidad:
+  Ejecución: 166
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

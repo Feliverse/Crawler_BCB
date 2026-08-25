@@ -1,0 +1,135 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Banco Mundial
+URL configurada: https://www.worldbank.org/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.worldbank.org/
+  Utilizada: https://www.worldbank.org/ext/en/home
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.worldbank.org/
+
+URL de trabajo: https://www.worldbank.org/ext/en/home
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[BM] SITEMAP | docs=8 | urls=10000 | en_cola=9999 | errores=0
+[BM] t=   9.1s | pag=  0 | files=   0 | data=  0 | cola=10001 | prio= 0 | https://www.worldbank.org/ext/en/home
+[BM] t=   9.2s | pag=  1 | files=   0 | data=  0 | cola=10022 | prio= 0 | https://data.worldbank.org/
+[BM] API REFERENCIA | inline_script_reference | https://api.worldbank.org/v2/en/
+[BM] t=  10.1s | pag=  2 | files=   0 | data=  0 | cola=10074 | prio= 0 | https://databank.worldbank.org/
+[BM] DATASETS=1 | exportable_data_page | https://databank.worldbank.org/
+[BM] t=  11.5s | pag=  3 | files=   0 | data=  1 | cola=10127 | prio= 1 | https://api.worldbank.org/v2/en/
+[BM] API SONDEO FALLIDO | https://api.worldbank.org/v2/en/
+[BM] t=  12.9s | pag=  3 | files=   0 | data=  1 | cola=10126 | prio=10 | https://data360.worldbank.org/en/people
+[BM] DATASETS=2 | exportable_data_page | https://data360.worldbank.org/en/people
+[BM] API REFERENCIA | html_link_reference | https://data360api.worldbank.org/
+[BM] API REFERENCIA | html_link_reference | https://webapi.worldbank.org/
+[BM] API REFERENCIA | html_data-api-url | https://extdataportal.worldbank.org/api/data360/metadata/codelist?type=REF_AREA
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/hierarchy?type=country
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/dimensions
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/data
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/hierarchy?id=HCL_TOPICS_D360&type=site
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/get_entities_by_id
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/adminmetadata
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/entity_count
+[BM] API REFERENCIA | nuevas_en_cola=12
+[BM] t=  14.2s | pag=  4 | files=   0 | data=  2 | cola=10154 | prio= 1 | https://data360api.worldbank.org/
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/
+[BM] t=  15.3s | pag=  4 | files=   0 | data=  2 | cola=10153 | prio= 1 | https://webapi.worldbank.org/
+[BM] API SONDEO FALLIDO | https://webapi.worldbank.org/
+[BM] t=  16.7s | pag=  4 | files=   0 | data=  2 | cola=10152 | prio= 1 | https://extdataportal.worldbank.org/api/data360/metadata/codelist?type=REF_AREA
+[BM] t=  18.7s | pag=  4 | files=   0 | data=  2 | cola=10151 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/hierarchy?type=country
+[BM] t=  19.9s | pag=  4 | files=   0 | data=  2 | cola=10150 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/dimensions
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/dimensions
+[BM] t=  20.8s | pag=  4 | files=   0 | data=  2 | cola=10149 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/data
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/data
+[BM] t=  22.1s | pag=  4 | files=   0 | data=  2 | cola=10148 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/hierarchy?id=HCL_TOPICS_D360&type=site
+[BM] t=  23.1s | pag=  4 | files=   0 | data=  2 | cola=10147 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/get_entities_by_id
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/get_entities_by_id
+[BM] t=  23.8s | pag=  4 | files=   0 | data=  2 | cola=10146 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/adminmetadata
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/adminmetadata
+[BM] t=  24.9s | pag=  4 | files=   0 | data=  2 | cola=10145 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/entity_count
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/entity_count
+[BM] t=  26.2s | pag=  4 | files=   0 | data=  2 | cola=10144 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/entities_by_economy_topic_tag
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/entities_by_economy_topic_tag
+[BM] t=  27.5s | pag=  4 | files=   0 | data=  2 | cola=10143 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/economy_analytics
+[BM] API SONDEO FALLIDO | https://data360api.worldbank.org/data360/portal/v1/economy_analytics
+[BM] t=  28.8s | pag=  4 | files=   0 | data=  2 | cola=10142 | prio=10 | https://data360.worldbank.org/en/prosperity
+[BM] DATASETS=3 | exportable_data_page | https://data360.worldbank.org/en/prosperity
+[BM] t=  29.6s | pag=  5 | files=   0 | data=  3 | cola=10141 | prio=10 | https://data360.worldbank.org/en/planet
+[BM] DATASETS=4 | exportable_data_page | https://data360.worldbank.org/en/planet
+[BM] t=  30.3s | pag=  6 | files=   0 | data=  4 | cola=10140 | prio=10 | https://data360.worldbank.org/en/infrastructure
+[BM] DATASETS=5 | exportable_data_page | https://data360.worldbank.org/en/infrastructure
+[BM] t=  30.8s | pag=  7 | files=   0 | data=  5 | cola=10139 | prio=10 | https://data360.worldbank.org/en/digital
+[BM] DATASETS=6 | exportable_data_page | https://data360.worldbank.org/en/digital
+[BM] t=  31.4s | pag=  8 | files=   0 | data=  6 | cola=10138 | prio=10 | https://data360.worldbank.org/en/atlas/electricity-access/
+[BM] DATASETS=7 | exportable_data_page | https://data360.worldbank.org/en/atlas/electricity-access/
+[BM] t=  32.0s | pag=  9 | files=   1 | data=  7 | cola=10147 | prio=10 | https://openknowledge.worldbank.org/bitstreams/8e6bcf71-89a1-443b-bbe9-6c39a496d7ab/download
+[BM] t=  33.3s | pag= 10 | files=   1 | data=  7 | cola=10146 | prio=10 | https://data360.worldbank.org/en/economies
+[BM] t=  34.0s | pag= 11 | files=   1 | data=  7 | cola=10145 | prio=10 | https://data360.worldbank.org/en/search
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/int/data360/file/download
+[BM] API REFERENCIA | inline_script_reference | https://data360api.worldbank.org/data360/portal/v1/search
+[BM] t=  34.4s | pag= 12 | files=   1 | data=  7 | cola=10146 | prio= 1 | https://data360api.worldbank.org/data360/int/data360/file/download
+[BM] t=  35.4s | pag= 12 | files=   1 | data=  7 | cola=10145 | prio= 1 | https://data360api.worldbank.org/data360/portal/v1/search
+[BM] t=  36.9s | pag= 12 | files=   1 | data=  7 | cola=10144 | prio=10 | https://data360.worldbank.org/en/about
+[BM] t=  37.7s | pag= 13 | files=   2 | data=  7 | cola=10147 | prio=10 | https://data.worldbank.org/country
+[BM] DATASETS=8 | interactive_data_page | https://data.worldbank.org/country
+[BM] t=  38.7s | pag= 14 | files=   2 | data=  8 | cola=10410 | prio=10 | https://data.worldbank.org/indicator
+[BM] DATASETS=9 | exportable_data_page | https://data.worldbank.org/indicator
+[BM] t=  39.4s | pag= 15 | files=   2 | data=  9 | cola=10738 | prio=10 | https://data360.worldbank.org/en/theme/people
+[BM] t=  39.7s | pag= 15 | files=   2 | data=  9 | cola=10737 | prio=10 | https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS?end=2023&locations=1W&start=1972&view=chart
+[BM] DATASETS=10 | exportable_data_page | https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS?end=2023&locations=1W&start=1972&view=chart
+[BM] t=  40.5s | pag= 16 | files=   2 | data= 10 | cola=10750 | prio=10 | https://data360.worldbank.org/en/theme/prosperity
+[BM] t=  41.5s | pag= 16 | files=   2 | data= 10 | cola=10749 | prio=10 | https://data.worldbank.org/indicator/SI.POV.DDAY?end=2023&locations=1W&start=1981&view=chart
+[BM] t=  42.1s | pag= 17 | files=   2 | data= 11 | cola=10762 | prio=10 | https://data360.worldbank.org/en/theme/planet
+[BM] t=  43.1s | pag= 17 | files=   2 | data= 11 | cola=10761 | prio=10 | https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5?end=2023&locations=1W&start=1960&view=chart
+[BM] t=  43.6s | pag= 18 | files=   2 | data= 12 | cola=10773 | prio=10 | https://data360.worldbank.org/en/theme/infrastructure
+[BM] t=  44.4s | pag= 18 | files=   2 | data= 12 | cola=10772 | prio=10 | https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?end=2023&locations=1W&start=1990&view=chart
+[BM] t=  44.9s | pag= 19 | files=   2 | data= 13 | cola=10784 | prio=10 | https://data360.worldbank.org/en/theme/digital
+[BM] t=  45.8s | pag= 19 | files=   2 | data= 13 | cola=10783 | prio=10 | https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2023&locations=1W&start=1990&view=chart
+[BM] t=  46.5s | pag= 20 | files=   2 | data= 14 | cola=10796 | prio=10 | https://data360.worldbank.org/en/atlas
+[BM] t=  47.8s | pag= 21 | files=   2 | data= 14 | cola=10811 | prio=10 | https://data.worldbank.org/products/wdi
+[BM] t=  53.5s | pag= 22 | files=   4 | data= 15 | cola=10945 | prio=10 | https://www.worldbank.org/en/programs/statistical-performance-indicators
+[BM] t=  54.5s | pag= 23 | files=   4 | data= 15 | cola=10954 | prio=10 | https://datacatalog.worldbank.org/search/dataset/0037798
+[BM] API REFERENCIA | inline_script_reference | https://api.worldbank.org/v2/en/sources/15/series/all/metadata?format=json&page=1&per_page=20000
+[BM] API REFERENCIA | inline_script_reference | https://api.worldbank.org/v2/en/sources/15/series/all/metadata?page=1
+[BM] t=  59.4s | pag= 24 | files=   5 | data= 16 | cola=10986 | prio= 1 | https://api.worldbank.org/v2/en/sources/15/series/all/metadata?format=json&page=1&per_page=20000
+[BM] t=  60.4s | pag= 24 | files=   5 | data= 17 | cola=10985 | prio= 1 | https://api.worldbank.org/v2/en/sources/15/series/all/metadata?page=1
+[BM] t=  61.8s | pag= 24 | files=   5 | data= 17 | cola=10984 | prio=10 | https://microdata.worldbank.org/
+[BM] API SONDEOS FALLIDOS | total=12
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              bm
+Páginas visitadas:   25
+Archivos encontrados:    5
+Datasets web:         17
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             63.19 s
+Sitemaps procesados:  8
+URLs por sitemap:     10000
+URLs sitemap en cola: 9999
+
+Formatos:
+  - PDF    : 2
+  - ZIP    : 3
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\bm.json
+
+Trazabilidad:
+  Ejecución: 172
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

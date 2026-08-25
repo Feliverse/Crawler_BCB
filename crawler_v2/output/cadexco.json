@@ -1,0 +1,155 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "re007.csv": {
+                        "descripcion": "Descargar PDF",
+                        "url_descarga": "http://cadexco.bo/esp/download/re007.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/lcoext/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ResolucionBiMinisterial_005_2018.csv": {
+                        "descripcion": "ResolucionBiMinisterial_005_2018",
+                        "url_descarga": "http://vcie.produccion.gob.bo/siexco/web/bundles/portal/noticias/ResolucionBiMinisterial_005_2018.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/home-5/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Acuerdo_Bolivia_Venezuela.csv": {
+                        "descripcion": "Acuerdo Bolivia – Venezuela",
+                        "url_descarga": "http://www.cadexco.bo/esp/acuerdos/download/acuerdos/Acuerdo_Bolivia_Venezuela.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/acuerdos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Acuerdo_Bolivia_Venezuela_Anexos.csv": {
+                        "descripcion": "Anexos",
+                        "url_descarga": "http://www.cadexco.bo/esp/acuerdos/download/acuerdos/Acuerdo_Bolivia_Venezuela_Anexos.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/acuerdos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Product-factsheet-wine-nordic-countries-_CBI.csv": {
+                        "descripcion": "Product-factsheet-wine-nordic-countries- CBI.pdf (PDF – 505 Kb)",
+                        "url_descarga": "http://cadexco.bo/actual/boletin-inteligencia/Product-factsheet-wine-nordic-countries-%20CBI.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/inteligencia/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "product-factsheet-linseeds-europe-vegetable-oils-oilseeds.csv": {
+                        "descripcion": "product-factsheet-linseeds-europe-vegetable-oils-oilseeds.pdf (PDF – 561 Kb )",
+                        "url_descarga": "http://cadexco.bo/actual/boletin-inteligencia/product-factsheet-linseeds-europe-vegetable-oils-oilseeds.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/inteligencia/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Channels-segments-europe-footwear-2015.csv": {
+                        "descripcion": "Channels-segments-europe-footwear-2015.pdf (PDF – 210 Kb)",
+                        "url_descarga": "http://cadexco.bo/actual/boletin-inteligencia/Channels-segments-europe-footwear-2015.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/inteligencia/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "trade-statistics-europe-cut-flowers-foliage.csv": {
+                        "descripcion": "trade-statistics-europe-cut-flowers-foliage.pdf (PDF – 210 Kb)",
+                        "url_descarga": "http://cadexco.bo/actual/boletin-inteligencia/trade-statistics-europe-cut-flowers-foliage.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/inteligencia/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "buyer-requirements-europe-cacao-_CBI.csv": {
+                        "descripcion": "buyer-requirements-europe-cacao- CBI.pdf (PDF – 267 Kb)",
+                        "url_descarga": "http://cadexco.bo/actual/boletin-inteligencia/buyer-requirements-europe-cacao-%20CBI.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/inteligencia/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "MEMORIA-ENEX-PMEX-2024.csv": {
+                        "descripcion": "MEMORIA-ENEX-PMEX-2024.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/MEMORIA-ENEX-PMEX-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "MEMORIA_ANUAL_2022.csv": {
+                        "descripcion": "MEMORIA_ANUAL_2022.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/MEMORIA_ANUAL_2022.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cadexco-Memoria-Anual-2024.csv": {
+                        "descripcion": "Cadexco-Memoria-Anual-2024.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/Cadexco-Memoria-Anual-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "MEMORIA2017.csv": {
+                        "descripcion": "MEMORIA2017.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/MEMORIA2017.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "mem2018.csv": {
+                        "descripcion": "mem2018.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/mem2018.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "mem2019.csv": {
+                        "descripcion": "mem2019.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/mem2019.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "memoria2020.csv": {
+                        "descripcion": "memoria2020.pdf",
+                        "url_descarga": "https://cadexco.bo/wp-content/uploads/2026/01/memoria2020.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://cadexco.bo/memoria/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Exportaciones_de_Cochabamba_–_cadexco.csv": {
+                        "descripcion": "Exportaciones de Cochabamba – cadexco",
+                        "url_descarga": "https://cadexco.bo/cochabamba/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://cadexco.bo/cochabamba/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

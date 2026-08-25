@@ -1,0 +1,122 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Asociación de Productores de Oleaginosas y Trigo
+URL configurada: https://www.anapobolivia.org/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.anapobolivia.org/
+  Utilizada: https://anapobolivia.org/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.anapobolivia.org/
+
+URL de trabajo: https://anapobolivia.org/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ANAPO] SITEMAP | docs=11 | urls=796 | en_cola=474 | errores=0
+[ANAPO] t=  14.6s | pag=  0 | files=   0 | data=  0 | cola= 474 | prio= 0 | https://anapobolivia.org/
+[ANAPO] DATASETS=1 | exportable_data_page | https://anapobolivia.org/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/17474
+[ANAPO] t=  16.3s | pag=  1 | files=   0 | data=  1 | cola= 483 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/17474
+[ANAPO] t=  17.6s | pag=  1 | files=   0 | data=  1 | cola= 482 | prio=25 | https://anapobolivia.org/anapo-resalta-necesidad-de-avances-en-biotecnologia-para-asegurar-abastecimiento-en-nueva-planta-de-biodiesel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/18624
+[ANAPO] t=  19.1s | pag=  2 | files=   0 | data=  1 | cola= 482 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/18624
+[ANAPO] t=  19.9s | pag=  2 | files=   0 | data=  1 | cola= 481 | prio=25 | https://anapobolivia.org/exposoya-2022-llega-con-5-nuevas-variedades-desarrolladas-para-reducir-perdidas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20927
+[ANAPO] t=  21.5s | pag=  3 | files=   0 | data=  1 | cola= 481 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20927
+[ANAPO] t=  22.7s | pag=  3 | files=   0 | data=  1 | cola= 480 | prio=25 | https://anapobolivia.org/v-congreso-internacional-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/4329
+[ANAPO] t=  23.9s | pag=  4 | files=   0 | data=  1 | cola= 480 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/4329
+[ANAPO] t=  24.8s | pag=  4 | files=   0 | data=  1 | cola= 479 | prio=25 | https://anapobolivia.org/practicas-de-nutricion-de-cultivos-suben-hasta-en-50-la-productividad-y-promueven-un-futuro-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/18627
+[ANAPO] t=  26.4s | pag=  5 | files=   0 | data=  1 | cola= 479 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/18627
+[ANAPO] t=  27.6s | pag=  5 | files=   0 | data=  1 | cola= 478 | prio=25 | https://anapobolivia.org/exposoya-2024-el-evento-celebra-30-anos-y-homenajea-a-munasqa-por-su-aporte-tecnologico-a-los-productores/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/18614
+[ANAPO] t=  28.8s | pag=  6 | files=   0 | data=  1 | cola= 478 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/18614
+[ANAPO] t=  29.8s | pag=  6 | files=   0 | data=  1 | cola= 477 | prio=25 | https://anapobolivia.org/anapo-preve-que-la-produccion-de-soya-deeste-verano-disminuira-en-600-mil-toneladas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/19080
+[ANAPO] t=  31.0s | pag=  7 | files=   0 | data=  1 | cola= 477 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/19080
+[ANAPO] t=  31.9s | pag=  7 | files=   0 | data=  1 | cola= 476 | prio=25 | https://anapobolivia.org/dia-nacional-del-trigo-productores-piden-al-gobierno-que-apruebe-tecnologia-hb4-para-acabar-con-el-deficit/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/4360
+[ANAPO] t=  33.6s | pag=  8 | files=   0 | data=  1 | cola= 476 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/4360
+[ANAPO] t=  34.6s | pag=  8 | files=   0 | data=  1 | cola= 475 | prio=25 | https://anapobolivia.org/exposoya-2023-productores-reiteran-demanda-por-biotecnologia-y-el-desarrollo-de-la-exportacion-por-puerto-busch/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20920
+[ANAPO] t=  35.8s | pag=  9 | files=   0 | data=  1 | cola= 475 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20920
+[ANAPO] t=  36.6s | pag=  9 | files=   0 | data=  1 | cola= 474 | prio=25 | https://anapobolivia.org/anapo-sequia-causa-la-mayor-crisis-de-la-decada-con-una-caida-del-70-en-la-produccion-de-cultivos-de-invierno/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20262
+[ANAPO] t=  38.1s | pag= 10 | files=   0 | data=  1 | cola= 474 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20262
+[ANAPO] t=  39.2s | pag= 10 | files=   0 | data=  1 | cola= 473 | prio=25 | https://anapobolivia.org/anapo-reafirma-la-produccion-sostenible-con-la-siembra-directa-y-la-rotacion-de-cultivos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/21799
+[ANAPO] t=  40.4s | pag= 11 | files=   0 | data=  1 | cola= 473 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/21799
+[ANAPO] t=  41.5s | pag= 11 | files=   0 | data=  1 | cola= 472 | prio=25 | https://anapobolivia.org/exposoya-del-norte-fortalece-el-aporte-de-la-zona-integrada-de-santa-cruz-a-la-produccion-del-pais/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/21820
+[ANAPO] t=  42.6s | pag= 12 | files=   0 | data=  1 | cola= 472 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/21820
+[ANAPO] t=  43.9s | pag= 12 | files=   0 | data=  1 | cola= 471 | prio=25 | https://anapobolivia.org/la-uagrm-y-anapo-anuncian-la-i-fexpo-yabare-que-mostrara-los-avances-en-investigacion-de-cultivos-alternativos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20064
+[ANAPO] t=  45.5s | pag= 13 | files=   0 | data=  1 | cola= 471 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20064
+[ANAPO] t=  46.3s | pag= 13 | files=   0 | data=  1 | cola= 470 | prio=25 | https://anapobolivia.org/expo-agro-del-norte-2023-realza-el-esfuerzo-de-los-productores-por-promover-cultivos-sostenibles/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20089
+[ANAPO] t=  47.7s | pag= 14 | files=   0 | data=  1 | cola= 470 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20089
+[ANAPO] t=  48.7s | pag= 14 | files=   0 | data=  1 | cola= 469 | prio=25 | https://anapobolivia.org/exposoya-2024-acto-central/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/19057
+[ANAPO] t=  50.1s | pag= 15 | files=   0 | data=  1 | cola= 469 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/19057
+[ANAPO] t=  51.1s | pag= 15 | files=   0 | data=  1 | cola= 468 | prio=25 | https://anapobolivia.org/anapo-celebra-el-dia-nacional-de-girasol-un-cultivo-en-incremento-en-los-ultimos-anos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22850
+[ANAPO] t=  52.9s | pag= 16 | files=   0 | data=  1 | cola= 468 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22850
+[ANAPO] t=  53.7s | pag= 16 | files=   0 | data=  1 | cola= 467 | prio=25 | https://anapobolivia.org/fexpo-yabare-la-uagrm-y-anapo-exponen-tecnicas-eficientes-de-fertilizacion-que-fomentan-el-cuidado-del-suelo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22821
+[ANAPO] t=  55.2s | pag= 17 | files=   0 | data=  1 | cola= 467 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22821
+[ANAPO] t=  55.9s | pag= 17 | files=   0 | data=  1 | cola= 466 | prio=25 | https://anapobolivia.org/dia-del-girasol-destacan-que-su-exportacion-es-con-valor-agregado-y-genera-mas-divisas-para-el-estado-2/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22859
+[ANAPO] t=  57.3s | pag= 18 | files=   0 | data=  1 | cola= 466 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22859
+[ANAPO] t=  58.5s | pag= 18 | files=   0 | data=  1 | cola= 465 | prio=25 | https://anapobolivia.org/dia-del-trigo-productores-plantean-acelerar-la-aprobacion-de-la-semilla-hb4-tolerante-a-la-sequia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22883
+[ANAPO] t=  59.8s | pag= 19 | files=   0 | data=  1 | cola= 465 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22883
+[ANAPO] t=  60.8s | pag= 19 | files=   0 | data=  1 | cola= 464 | prio=25 | https://anapobolivia.org/en-el-dia-nacional-del-trigo-anapo-propone-pacto-productivo-para-aumentar-la-produccion-del-grano/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22891
+[ANAPO] t=  62.1s | pag= 20 | files=   0 | data=  1 | cola= 464 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22891
+[ANAPO] t=  63.0s | pag= 20 | files=   0 | data=  1 | cola= 463 | prio=25 | https://anapobolivia.org/productores-del-norte-consolidan-la-expo-agro-y-fortalecen-el-cultivo-de-soya-apta-para-la-region/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22905
+[ANAPO] t=  64.5s | pag= 21 | files=   0 | data=  1 | cola= 463 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22905
+[ANAPO] t=  65.1s | pag= 21 | files=   0 | data=  1 | cola= 462 | prio=25 | https://anapobolivia.org/dia-del-girasol-destacan-que-su-exportacion-es-con-valor-agregado-y-genera-mas-divisas-para-el-estado/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/4366
+[ANAPO] t=  66.5s | pag= 22 | files=   0 | data=  1 | cola= 462 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/4366
+[ANAPO] t=  67.7s | pag= 22 | files=   0 | data=  1 | cola= 461 | prio=25 | https://anapobolivia.org/anapo-muestra-a-lideres-de-opinion-de-todo-el-pais-como-bolivia-puede-liderar-una-produccion-de-soya-sostenible-y-competitiva/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23248
+[ANAPO] t=  68.9s | pag= 23 | files=   0 | data=  1 | cola= 461 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23248
+[ANAPO] t=  69.9s | pag= 23 | files=   0 | data=  1 | cola= 460 | prio=25 | https://anapobolivia.org/con-el-impulso-de-anapo-y-cadex-el-gobierno-de-bolivia-firma-el-protocolo-sanitario-para-la-exportacion-de-sorgo-a-china/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23270
+[ANAPO] t=  71.5s | pag= 24 | files=   0 | data=  1 | cola= 460 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23270
+[ANAPO] t=  72.1s | pag= 24 | files=   0 | data=  1 | cola= 459 | prio=25 | https://anapobolivia.org/v-congreso-internacional-de-la-soya-ratifica-el-valor-de-la-biotecnologia-para-mejorar-la-productividad-en-equilibrio-con-el-medio-ambiente/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23303
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              anapo
+Páginas visitadas:   25
+Archivos encontrados:    0
+Datasets web:         1
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             73.28 s
+Sitemaps procesados:  11
+URLs por sitemap:     796
+URLs sitemap en cola: 474
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\anapo.json
+
+Trazabilidad:
+  Ejecución: 159
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

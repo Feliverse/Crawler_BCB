@@ -1,0 +1,50 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Federación de Ganaderos de Santa Cruz
+URL configurada: https://fegasacruz.org/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://fegasacruz.org/
+  Utilizada: https://fegasacruz.org/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://fegasacruz.org/
+
+URL de trabajo: https://fegasacruz.org/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[FEGASACRUZ] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[FEGASACRUZ] t=  24.0s | pag=  0 | files=   0 | data=  0 | cola=   2 | prio= 0 | https://fegasacruz.org/
+[FEGASACRUZ] t=  24.9s | pag=  1 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://fegasacruz.org/estadisticas/
+[FEGASACRUZ] t=  32.4s | pag=  1 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://fegasacruz.org/images/2024/Boletin_7.pdf
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fegasacruz
+Páginas visitadas:   1
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              2
+Motivo de parada:     frontier_exhausted
+Duración:             40.87 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fegasacruz.json
+
+Trazabilidad:
+  Ejecución: 183
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

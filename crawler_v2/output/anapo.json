@@ -1,0 +1,23 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Inicio_-_Anapo_Bolivia.csv": {
+                        "descripcion": "Inicio - Anapo Bolivia",
+                        "url_descarga": "https://anapobolivia.org/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://anapobolivia.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

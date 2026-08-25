@@ -1,0 +1,82 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Industria Farmacéutica Sigma
+URL configurada: https://www.sigmacorp.com.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.sigmacorp.com.bo/
+  Utilizada: https://www.sigmacorp.com.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.sigmacorp.com.bo/
+
+URL de trabajo: https://www.sigmacorp.com.bo/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SIGMA] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[SIGMA] t=   6.9s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.sigmacorp.com.bo/
+[SIGMA] t=   9.6s | pag=  1 | files=   0 | data=  0 | cola=  23 | prio= 0 | https://www.sigmacorp.com.bo/en/pharmaceutics
+[SIGMA] DATASETS=1 | configured_data_page | https://www.sigmacorp.com.bo/en/pharmaceutics
+[SIGMA] t=  10.5s | pag=  2 | files=   0 | data=  1 | cola=  42 | prio= 0 | https://www.sigmacorp.com.bo/en/nutraceutics
+[SIGMA] DATASETS=2 | configured_data_page | https://www.sigmacorp.com.bo/en/nutraceutics
+[SIGMA] t=  11.7s | pag=  3 | files=   0 | data=  2 | cola=  41 | prio= 0 | https://www.sigmacorp.com.bo/en/bioseguridad
+[SIGMA] DATASETS=3 | configured_data_page | https://www.sigmacorp.com.bo/en/bioseguridad
+[SIGMA] t=  12.9s | pag=  4 | files=   0 | data=  3 | cola=  72 | prio=10 | https://www.sigmacorp.com.bo/nutraceutics
+[SIGMA] DATASETS=4 | configured_data_page | https://www.sigmacorp.com.bo/nutraceutics
+[SIGMA] t=  13.7s | pag=  5 | files=   0 | data=  4 | cola=  71 | prio=10 | https://www.sigmacorp.com.bo/bioseguridad
+[SIGMA] DATASETS=5 | configured_data_page | https://www.sigmacorp.com.bo/bioseguridad
+[SIGMA] t=  14.8s | pag=  6 | files=   0 | data=  5 | cola= 102 | prio=10 | https://www.sigmacorp.com.bo/pharmaceutics
+[SIGMA] DATASETS=6 | configured_data_page | https://www.sigmacorp.com.bo/pharmaceutics
+[SIGMA] t=  15.5s | pag=  7 | files=   0 | data=  6 | cola= 113 | prio=10 | https://www.sigmacorp.com.bo/noticias/sigma-nutraceuticos-coordina-con-el-ministerio-de-salud-la-donacion-de-10-000-unidades-de-carmelo-y-nutribebe-a-familias-afectadas-por-desastres-naturales-en-samaipata
+[SIGMA] t=  16.7s | pag=  8 | files=   0 | data=  6 | cola= 113 | prio=10 | https://www.sigmacorp.com.bo/noticias/sigmacorp-y-gih-pioneros-en-productos-naturales-para-la-salud-ahora-juntos
+[SIGMA] t=  17.6s | pag=  9 | files=   0 | data=  6 | cola= 112 | prio=10 | https://www.sigmacorp.com.bo/noticias/durante-la-pandemia-del-covid-19-los-suplementos-nutricionales-mantienen-saludables-a-los-bebes
+[SIGMA] t=  18.7s | pag= 10 | files=   0 | data=  6 | cola= 111 | prio=10 | https://www.sigmacorp.com.bo/noticias/bolivia-redujo-el-indice-de-desnutricion-a-15-1
+[SIGMA] t=  19.7s | pag= 11 | files=   0 | data=  6 | cola= 110 | prio=10 | https://www.sigmacorp.com.bo/noticias/lanzamiento-del-complemento-nutricional-para-el-adulto-mayor-carmelo
+[SIGMA] t=  21.0s | pag= 12 | files=   0 | data=  6 | cola= 109 | prio=10 | https://www.sigmacorp.com.bo/noticias/alcaldia-de-santa-cruz-lanza-complemento-alimenticio-para-combatir-la-desnutricion
+[SIGMA] t=  24.1s | pag= 13 | files=   0 | data=  6 | cola= 108 | prio=10 | https://www.sigmacorp.com.bo/noticias/alimento-complementario-nutribebe-beneficio-a-mas-de-7-millones-de-ninos-bolivianos
+[SIGMA] t=  25.0s | pag= 14 | files=   0 | data=  6 | cola= 107 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/analgesics-anti-inflammatories
+[SIGMA] DATASETS=7 | configured_data_page | https://www.sigmacorp.com.bo/en/pharmaceutics-products/analgesics-anti-inflammatories
+[SIGMA] t=  26.1s | pag= 15 | files=   0 | data=  7 | cola= 115 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/anti-infections
+[SIGMA] DATASETS=8 | configured_data_page | https://www.sigmacorp.com.bo/en/pharmaceutics-products/anti-infections
+[SIGMA] t=  26.7s | pag= 16 | files=   0 | data=  8 | cola= 117 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/antiallergic
+[SIGMA] DATASETS=9 | configured_data_page | https://www.sigmacorp.com.bo/en/pharmaceutics-products/antiallergic
+[SIGMA] t=  27.7s | pag= 17 | files=   0 | data=  9 | cola= 118 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/antivirals
+[SIGMA] DATASETS=10 | configured_data_page | https://www.sigmacorp.com.bo/en/pharmaceutics-products/antivirals
+[SIGMA] t=  28.3s | pag= 18 | files=   0 | data= 10 | cola= 118 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/cardiologists
+[SIGMA] t=  29.5s | pag= 19 | files=   0 | data= 11 | cola= 119 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/dermatological
+[SIGMA] t=  30.6s | pag= 20 | files=   0 | data= 12 | cola= 120 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/gastrointestinal-en
+[SIGMA] t=  31.7s | pag= 21 | files=   0 | data= 13 | cola= 125 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/gynecological
+[SIGMA] t=  32.9s | pag= 22 | files=   0 | data= 14 | cola= 127 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/neurological
+[SIGMA] t=  33.9s | pag= 23 | files=   0 | data= 15 | cola= 127 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/odontology
+[SIGMA] t=  35.0s | pag= 24 | files=   0 | data= 16 | cola= 130 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/ophthalmology
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              sigma
+Páginas visitadas:   25
+Archivos encontrados:    0
+Datasets web:         17
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             36.16 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\sigma.json
+
+Trazabilidad:
+  Ejecución: 204
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

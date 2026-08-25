@@ -1,0 +1,430 @@
+{
+    "ESTADISTICAS": {
+        "https_data360.worldbank.org_en_atlas_electricity-access": {
+            "Metadata-07-01-01.csv": {
+                "descripcion": "SDG Indicator 7.1.1 Metadata (Proportion of population with access to electricity)",
+                "url_descarga": "https://unstats.un.org/sdgs/metadata/files/Metadata-07-01-01.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://data360.worldbank.org/en/atlas/electricity-access/",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Access_to_Electricity_Who_Remains_Without_Power?_|_Atlas_of_Global_Development.csv": {
+                        "descripcion": "Access to Electricity: Who Remains Without Power? | Atlas of Global Development",
+                        "url_descarga": "https://data360.worldbank.org/en/atlas/electricity-access/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "ABOUT": {
+            "de65051a-a1ee-410e-aba8-9c302f59be2f.csv": {
+                "descripcion": "WBG Policy on Development Data Quality",
+                "url_descarga": "https://ppfdocuments.azureedge.net/de65051a-a1ee-410e-aba8-9c302f59be2f.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://data360.worldbank.org/en/about",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Visit_WDI_Website": {
+            "WDI_EXCEL.csv": {
+                "descripcion": "Excel download",
+                "url_descarga": "https://databank.worldbank.org/data/download/WDI_EXCEL.zip",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://datatopics.worldbank.org/world-development-indicators/",
+                "contenido_zip": [
+                    "WDIEXCEL.xlsx"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65616,
+                "metodo_deteccion": "url_extension"
+            },
+            "WDI_CSV.csv": {
+                "descripcion": "CSV download",
+                "url_descarga": "https://databank.worldbank.org/data/download/WDI_CSV.zip",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://datatopics.worldbank.org/world-development-indicators/",
+                "contenido_zip": [
+                    "WDICSV.csv",
+                    "WDICountry.csv",
+                    "WDISeries.csv",
+                    "WDIcountry-series.csv",
+                    "WDIfootnote.csv",
+                    "WDIseries-time.csv"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 65924,
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "WDI_-_Home.csv": {
+                        "descripcion": "WDI - Home",
+                        "url_descarga": "https://datatopics.worldbank.org/world-development-indicators/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Global_economic_monitor": {
+            "GemDataEXTR.csv": {
+                "descripcion": "Excel file",
+                "url_descarga": "https://datacatalogfiles.worldbank.org/ddh-published/0037798/DR0092042/GemDataEXTR.zip",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "ZIP",
+                "url_origen": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+                "contenido_zip": [
+                    "Core CPI, not seas. adj..xlsx",
+                    "Core CPI, seas. adj..xlsx",
+                    "CPI Price, % y-o-y, median weighted, seas. adj..xlsx",
+                    "CPI Price, % y-o-y, nominal, seas. adj..xlsx",
+                    "CPI Price, nominal, not seas. adj..xlsx",
+                    "CPI Price, nominal, seas. adj..xlsx",
+                    "Exchange rate, new LCU per USD extended backward, period average.xlsx",
+                    "Exchange rate, old LCU per USD extended forward, period average.xlsx",
+                    "Exports Merchandise, Customs, constant 2010 US$, millions, not seas. adj..xlsx",
+                    "Exports Merchandise, Customs, constant 2010 US$, millions, seas. adj..xlsx",
+                    "Exports Merchandise, Customs, current US$, millions, not seas. adj..xlsx",
+                    "Exports Merchandise, Customs, current US$, millions, seas. adj..xlsx",
+                    "Exports Merchandise, Customs, Price, US$, not seas. adj..xlsx",
+                    "Exports Merchandise, Customs, Price, US$, seas. adj..xlsx",
+                    "Foreign Reserves, Months Import Cover, Goods.xlsx",
+                    "GDP at market prices, constant 2010 LCU, millions, seas. adj..xlsx",
+                    "GDP at market prices, constant 2010 US$, millions, seas. adj..xlsx",
+                    "GDP at market prices, current LCU, millions, seas. adj..xlsx",
+                    "GDP at market prices, current US$, millions, seas. adj..xlsx",
+                    "GDP Deflator at Market Prices, LCU.xlsx",
+                    "Imports Merchandise, Customs, constant 2010 US$, millions, not seas. adj..xlsx",
+                    "Imports Merchandise, Customs, constant 2010 US$, millions, seas. adj..xlsx",
+                    "Imports Merchandise, Customs, current US$, millions, not seas. adj..xlsx",
+                    "Imports Merchandise, Customs, current US$, millions, seas. adj..xlsx",
+                    "Imports Merchandise, Customs, Price, US$, not seas. adj..xlsx",
+                    "Imports Merchandise, Customs, Price, US$, seas. adj..xlsx",
+                    "Industrial Production, constant 2010 US$, not seas. adj..xlsx",
+                    "Industrial Production, constant 2010 US$, seas. adj..xlsx",
+                    "Official exchange rate, LCU per USD, period average.xlsx",
+                    "Retail Sales Volume Index, seas. adj..xlsx",
+                    "Stock Markets, LCU.xlsx",
+                    "Stock Markets, US$.xlsx",
+                    "Terms of Trade.xlsx",
+                    "Total Reserves.xlsx",
+                    "Unemployment Rate, seas. adj..xlsx"
+                ],
+                "zip_inspeccion": "ok",
+                "zip_bytes_descargados": 69022,
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Global_Economic_Monitor_-_World_Bank_Data_Catalog.csv": {
+                        "descripcion": "Global Economic Monitor - World Bank Data Catalog",
+                        "url_descarga": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "DataBank_|_The_World_Bank.csv": {
+                        "descripcion": "DataBank | The World Bank",
+                        "url_descarga": "https://databank.worldbank.org/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://databank.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "People": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Theme_|_People_|_World_Bank_Data360.csv": {
+                        "descripcion": "Theme | People | World Bank Data360",
+                        "url_descarga": "https://data360.worldbank.org/en/people",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Prosperity": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Theme_|_Prosperity_|_World_Bank_Data360.csv": {
+                        "descripcion": "Theme | Prosperity | World Bank Data360",
+                        "url_descarga": "https://data360.worldbank.org/en/prosperity",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Planet": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Theme_|_Planet_|_World_Bank_Data360.csv": {
+                        "descripcion": "Theme | Planet | World Bank Data360",
+                        "url_descarga": "https://data360.worldbank.org/en/planet",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Infrastructure": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Theme_|_Infrastructure_|_World_Bank_Data360.csv": {
+                        "descripcion": "Theme | Infrastructure | World Bank Data360",
+                        "url_descarga": "https://data360.worldbank.org/en/infrastructure",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Digital": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Theme_|_Digital_|_World_Bank_Data360.csv": {
+                        "descripcion": "Theme | Digital | World Bank Data360",
+                        "url_descarga": "https://data360.worldbank.org/en/digital",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/ext/en/home",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Economy": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Countries_|_Data.csv": {
+                        "descripcion": "Countries | Data",
+                        "url_descarga": "https://data.worldbank.org/country",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "interactive_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Indicator": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Indicators_|_Data.csv": {
+                        "descripcion": "Indicators | Data",
+                        "url_descarga": "https://data.worldbank.org/indicator",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "SE.PRM.CMPT.FE.ZS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Primary_completion_rate,_female_(%_of_relevant_age_group)_-_World_|_Data.csv": {
+                        "descripcion": "Primary completion rate, female (% of relevant age group) - World | Data",
+                        "url_descarga": "https://data.worldbank.org/indicator/SE.PRM.CMPT.FE.ZS?end=2023&locations=1W&start=1972&view=chart",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "SI.POV.DDAY": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Poverty_headcount_ratio_at_$3.00_a_day_(2021_PPP)_(%_of_population)_-_World_|_Data.csv": {
+                        "descripcion": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population) - World | Data",
+                        "url_descarga": "https://data.worldbank.org/indicator/SI.POV.DDAY?end=2023&locations=1W&start=1981&view=chart",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "EN.GHG.CO2.MT.CE.AR5": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Carbon_dioxide_(CO2)_emissions_(total)_excluding_LULUCF_(Mt_CO2e)_-_World_|_Data.csv": {
+                        "descripcion": "Carbon dioxide (CO2) emissions (total) excluding LULUCF (Mt CO2e) - World | Data",
+                        "url_descarga": "https://data.worldbank.org/indicator/EN.GHG.CO2.MT.CE.AR5?end=2023&locations=1W&start=1960&view=chart",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "EG.ELC.ACCS.ZS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Access_to_electricity_(%_of_population)_-_World_|_Data.csv": {
+                        "descripcion": "Access to electricity (% of population) - World | Data",
+                        "url_descarga": "https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?end=2023&locations=1W&start=1990&view=chart",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "IT.NET.USER.ZS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Individuals_using_the_Internet_(%_of_population)_-_World_|_Data.csv": {
+                        "descripcion": "Individuals using the Internet (% of population) - World | Data",
+                        "url_descarga": "https://data.worldbank.org/indicator/IT.NET.USER.ZS?end=2023&locations=1W&start=1990&view=chart",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "API": {
+            "DESCUBIERTA": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "metadata.csv": {
+                            "descripcion": "metadata",
+                            "url_descarga": "https://api.worldbank.org/v2/en/sources/15/series/all/metadata?format=json&page=1&per_page=20000",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://datacatalog.worldbank.org/search/dataset/0037798/global-economic-monitor",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": true,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": true,
+                            "metodo_http": "GET"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

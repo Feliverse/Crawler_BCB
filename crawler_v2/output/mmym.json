@@ -1,0 +1,856 @@
+{
+    "ESTADISTICAS": {
+        "Memoria_Intitucional": {
+            "MI-EMV-2024-1.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-EMV-2024-1.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            },
+            "MI-FOFIM-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-FOFIM-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            },
+            "MI-SENARECOM-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-SENARECOM-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            },
+            "MI-SERGEOMIN-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-SERGEOMIN-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            },
+            "MI-AJAM-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-AJAM-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            },
+            "MI-COMIBOL-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-COMIBOL-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            },
+            "MI-MMM-2020-2025.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MI-MMM-2020-2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/memoria-intitucional/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Plan_Estratégico_Institucional_(PEI)": {
+            "pei2021-2025.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/pei2021-2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/pei-descargable/",
+                "metodo_deteccion": "url_extension"
+            },
+            "pei2016-2020.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/pei2016-2020.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/pei-descargable/",
+                "metodo_deteccion": "url_extension"
+            },
+            "pei-mmm.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/pei-mmm.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/pei-descargable/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Presupuesto_Institucional": {
+            "EJECUCION-PRESUPUESTARIA-MMM_-FEB-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/EJECUCION-PRESUPUESTARIA-MMM_-FEB-2026.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "EJECUCION-PRESUPUESTARIA-MMM_-MAR-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/EJECUCION-PRESUPUESTARIA-MMM_-MAR-2026.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "CUADROS-ABR.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/05/CUADROS-ABR.pdf",
+                "fecha_actualizacion": "2026-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "CUADROS-MAY-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/CUADROS-MAY-2026.pdf",
+                "fecha_actualizacion": "2026-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "EJECUCION-JUNIO-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/EJECUCION-JUNIO-2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "PresupInstitucional_FteFin_76.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/PresupInstitucional_FteFin_76.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Reporte-EjePresup_CatProg_0825.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Reporte-EjePresup_CatProg_0825.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Informe-Ejecucion-Presupuestaria_072025.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Informe-Ejecucion-Presupuestaria_072025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "EEPG.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/EEPG.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            },
+            "EJECUCION-PRESUPUESTARIA-DIC-2025_RESUMEN-EJECUTIVO.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/EJECUCION-PRESUPUESTARIA-DIC-2025_RESUMEN-EJECUTIVO.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Auditoria": {
+            "INF_MMM_UAI_-N°005_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-N°005_2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF_MMM_UAI_-RELV-N°001_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-RELV-N°001_2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF_MMM_UAI_-SEG-N°001_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-SEG-N°001_2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF_MMM_UAI_-SEG-N°002_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_-SEG-N°002_2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF_MMM_UAI_N°006_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/INF_MMM_UAI_N°006__2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF-MMM-UAI-AU-N°001_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/INF-MMM-UAI-AU-N°001_2026.pdf",
+                "fecha_actualizacion": "2026-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF-MMM-UAI-N°002_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/INF-MMM-UAI-N°002_2026.pdf",
+                "fecha_actualizacion": "2026-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INF-MMM-UAI-AU-N°003_2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/INF-MMM-UAI-AU-N°003_2026.pdf",
+                "fecha_actualizacion": "2026-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "inf-mmm-uai-au-n004-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/inf-mmm-uai-au-n004-2026.pdf",
+                "fecha_actualizacion": "2026-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RE-003-2025.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RE-003-2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Rendicion_de_Cuentas": {
+            "1.-INFORME-RPCI-2026-MMM-c.csv": {
+                "descripcion": "1. INFORME RPCI 2026 MMM c",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/1.-INFORME-RPCI-2026-MMM-c.pdf",
+                "fecha_actualizacion": "2026-04-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "2.-PPT_RPCI_2026-MMM-dd.csv": {
+                "descripcion": "2. PPT_RPCI_2026-MMM dd",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/2.-PPT_RPCI_2026-MMM-dd.pdf",
+                "fecha_actualizacion": "2026-04-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "3.-PPT_RPCI_2026-AJAM-d.csv": {
+                "descripcion": "3. PPT_RPCI_2026-AJAM d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/3.-PPT_RPCI_2026-AJAM-d.pdf",
+                "fecha_actualizacion": "2026-04-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "4.-PPT_RPCI_2026-COMIBOL-d.csv": {
+                "descripcion": "4. PPT_RPCI_2026-COMIBOL d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/4.-PPT_RPCI_2026-COMIBOL-d.pdf",
+                "fecha_actualizacion": "2026-04-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "5.-PPT_RPCI-2026_SERGEOMIN-d.csv": {
+                "descripcion": "5. PPT_RPCI-2026_SERGEOMIN d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/5.-PPT_RPCI-2026_SERGEOMIN-d.pdf",
+                "fecha_actualizacion": "2026-04-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "6.-PPT_RPCI_2026-SENARECOM-d.csv": {
+                "descripcion": "6. PPT_RPCI_2026-SENARECOM d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/6.-PPT_RPCI_2026-SENARECOM-d.pdf",
+                "fecha_actualizacion": "2026-04-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "7.-PPT_RPCI_2026-FOFIM-d.csv": {
+                "descripcion": "7. PPT_RPCI_2026-FOFIM d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/7.-PPT_RPCI_2026-FOFIM-d.pdf",
+                "fecha_actualizacion": "2026-04-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "8.-PPT_RPCI_2026-E.S.-MUTUN-d.csv": {
+                "descripcion": "8. PPT_RPCI_2026-E.S. MUTUN d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/8.-PPT_RPCI_2026-E.S.-MUTUN-d.pdf",
+                "fecha_actualizacion": "2026-04-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            },
+            "9.-PPT_RPCI-2026-EMV-d.csv": {
+                "descripcion": "9. PPT_RPCI-2026-EMV d",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/9.-PPT_RPCI-2026-EMV-d.pdf",
+                "fecha_actualizacion": "2026-04-09",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/presentaciones-rpcf-2026-mmm/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Historico_de_Rendición_Pública_de_Cuentas": {
+            "ARPCF2025.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/ARPCF2025.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "H_MMM_Presentacion_RPCI_2025-1.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/H_MMM_Presentacion_RPCI_2025-1.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpci2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpci2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpcf2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpcf2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpci2023.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpci2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpcf2023.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpcf2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpci2022.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpci2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpcf2022.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpcf2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "rpci2021.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/rpci2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            },
+            "arpcf2021.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/arpcf2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/rendicion-publica-de-cuentas/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Comunicados": {
+            "Sabiasque.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/08/Sabiasque.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "tu_experiencia_importa.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/08/tu_experiencia_importa.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "comunicado2026-08-02.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/08/comunicado2026-08-02.pdf",
+                "fecha_actualizacion": "2026-08-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Comunicado-2026-07-27.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/Comunicado-2026-07-27.pdf",
+                "fecha_actualizacion": "2026-07-27",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "comunicado-oficial-2026.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/comunicado-oficial-2026.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "cumbre_minera.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/cumbre_minera.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "comunicado-2026-07-09.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/comunicado-2026-07-09.pdf",
+                "fecha_actualizacion": "2026-07-09",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Cronograma-79.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/Cronograma-79.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "comunicado-2026-06-20.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/comunicado-2026-06-20.pdf",
+                "fecha_actualizacion": "2026-06-20",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            },
+            "informacion2026-06-19.csv": {
+                "descripcion": "Descargar PDF",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/informacion2026-06-19.pdf",
+                "fecha_actualizacion": "2026-06-19",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/lista-comunicados-page/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Banco_de_Trabajos_Publicados": {
+            "Anuario-2025.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/Anuario-2025.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Dossier-Mineria-2024.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier-Mineria-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Dossier-Mineria-1980-2023.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier-Mineria-1980-2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Dossier-Mineria-2022.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier-Mineria-2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Dossier_1980-2021.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier_1980-2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario-2024.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario-Estadistico-2023.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-Estadistico-2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario-2022.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario_2021.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario_2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Boletines": {
+            "Boletin_3T-2025.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1T_2025.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T_2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1S-2025.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_3T-2024.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1T-2024.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1S-2024.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin-3T-2023.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-3T-2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin-1T-2023.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1T-2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin-1S-2023.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1S-2023.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin3T-2022.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin3T-2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1T-2022.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1S-2022.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Normativa_Nacional": {
+            "DS55952028NCPP-1.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/05/DS55952028NCPP-1.pdf",
+                "fecha_actualizacion": "2026-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "nueva_constitucion_politica_del_estado.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/nueva_constitucion_politica_del_estado.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "DECRETO-SUPREMO-2200.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/DECRETO-SUPREMO-2200.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "DECRETO-SUPREMO-4947.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/DECRETO-SUPREMO-4947.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "DECRETO-SUPREMO1801.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/DECRETO-SUPREMO1801.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "LEY-367.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-367.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "LEY-535.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-535.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "LEY-845.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-845.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "LEY-1140.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-1140.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            },
+            "LEY-1257-APRUEBA-EL-CONVENIO-169-DE-LA-OIT.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/02/LEY-1257-APRUEBA-EL-CONVENIO-169-DE-LA-OIT.pdf",
+                "fecha_actualizacion": "2026-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-externa/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Normativa_Interna": {
+            "R.M-N°123-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/08/R.M-N°123-2026.pdf",
+                "fecha_actualizacion": "2026-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RE-SP-2026-1.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/07/RE-SP-2026-1.pdf",
+                "fecha_actualizacion": "2026-07",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RESOLUCION-MINISTERIAL-N°092_2026-RE-STE.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/RESOLUCION-MINISTERIAL-N°092_2026-RE-STE.pdf",
+                "fecha_actualizacion": "2026-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RESOLUCION-MINISTERIAL-N°091_2026-RE-SCI.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/RESOLUCION-MINISTERIAL-N°091_2026-RE-SCI.pdf",
+                "fecha_actualizacion": "2026-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "rm-90-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/06/rm-90-2026.pdf",
+                "fecha_actualizacion": "2026-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RM-079-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/05/RM-079-2026.pdf",
+                "fecha_actualizacion": "2026-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RM069-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/05/RM069-2026.pdf",
+                "fecha_actualizacion": "2026-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RIAVyAC-MMM-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/RIAVyAC-MMM-2026.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RECBySEE-MMM-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/RECBySEE-MMM-2024.pdf",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            },
+            "RM046-2026.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/03/RM046-2026.pdf",
+                "fecha_actualizacion": "2026-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/normativa-interna/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Escala_Salarial": {
+            "RM-N°172-2024-ESCALA-SALARIAL-MMM-2024.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RM-N°172-2024-ESCALA-SALARIAL-MMM-2024.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/escala-salarial/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Manual_de_Organización_Funcional_(MOF)": {
+            "MOF-MMM-2022.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/MOF-MMM-2022.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/manual-de-organizacion/",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Plan_Operativo_Anual_Individual_(POAI)_Perfil_de_Cargo": {
+            "RESOLUCION-MINISTERIAL-0171-2025-APROBACION-POAIs-2025.csv": {
+                "descripcion": "Descargar archivo",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/RESOLUCION-MINISTERIAL-0171-2025-APROBACION-POAIs-2025.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/poais/",
+                "metodo_deteccion": "url_extension"
+            }
+        }
+    }
+}

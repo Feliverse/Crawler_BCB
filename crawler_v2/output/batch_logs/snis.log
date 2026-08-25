@@ -1,0 +1,79 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Sistema Nacional de Información en Salud
+URL configurada: https://snis.minsalud.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://snis.minsalud.gob.bo/
+  Utilizada: https://snis.minsalud.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://snis.minsalud.gob.bo/
+
+URL de trabajo: https://snis.minsalud.gob.bo/
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SNIS] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[SNIS] t=   5.5s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://snis.minsalud.gob.bo/
+[SNIS] t=   6.8s | pag=  1 | files=   9 | data=  0 | cola=  50 | prio= 0 | https://snis.minsalud.gob.bo/publicaciones/
+[SNIS] t=   8.3s | pag=  2 | files=   9 | data=  0 | cola=  62 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx
+[SNIS] t=   9.1s | pag=  3 | files=   9 | data=  0 | cola=  64 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx
+[SNIS] t=   9.7s | pag=  4 | files=   9 | data=  0 | cola=  65 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx
+[SNIS] t=  10.1s | pag=  5 | files=   9 | data=  0 | cola=  66 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx
+[SNIS] t=  10.5s | pag=  6 | files=   9 | data=  0 | cola=  67 | prio= 1 | https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021
+[SNIS] t=  11.1s | pag=  7 | files=   9 | data=  0 | cola=  67 | prio= 1 | https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios
+[SNIS] t=  11.7s | pag=  8 | files=   9 | data=  0 | cola=  66 | prio= 1 | https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria
+[SNIS] t=  12.5s | pag=  9 | files=   9 | data=  0 | cola=  65 | prio= 1 | https://snis.minsalud.gob.bo/fichas-epidemiologicas
+[SNIS] t=  13.2s | pag= 10 | files=   9 | data=  0 | cola=  70 | prio= 1 | https://estadisticas.minsalud.gob.bo/
+[SNIS] DATASETS=1 | data_html_table | https://estadisticas.minsalud.gob.bo/
+[SNIS] t=  13.5s | pag= 11 | files=   9 | data=  1 | cola=  88 | prio= 1 | https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx
+[SNIS] DATASETS=2 | data_html_table | https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx
+[SNIS] t=  14.1s | pag= 12 | files=   9 | data=  2 | cola= 106 | prio= 1 | https://snis.minsalud.gob.bo/estadisticas-sip
+[SNIS] t=  15.2s | pag= 13 | files=   9 | data=  2 | cola= 110 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] DATASETS=3 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] t=  15.9s | pag= 14 | files=  18 | data=  3 | cola= 136 | prio= 1 | http://siccaf.minsalud.gob.bo/snis/
+[SNIS] t=  16.9s | pag= 15 | files=  18 | data=  3 | cola= 136 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/search
+[SNIS] t=  18.2s | pag= 16 | files=  18 | data=  3 | cola= 136 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos
+[SNIS] t=  20.3s | pag= 17 | files=  18 | data=  3 | cola= 178 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales
+[SNIS] t=  21.6s | pag= 18 | files=  18 | data=  3 | cola= 178 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/88-sip
+[SNIS] t=  22.9s | pag= 19 | files=  18 | data=  3 | cola= 182 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones
+[SNIS] t=  24.4s | pag= 20 | files=  18 | data=  3 | cola= 192 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/105-sus
+[SNIS] t=  25.9s | pag= 21 | files=  18 | data=  3 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones
+[SNIS] t=  27.3s | pag= 22 | files=  18 | data=  3 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/94-asis
+[SNIS] t=  28.7s | pag= 23 | files=  18 | data=  3 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/4-boletines
+[SNIS] t=  29.7s | pag= 24 | files=  18 | data=  3 | cola= 206 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              snis
+Páginas visitadas:   25
+Archivos encontrados:   18
+Datasets web:         3
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             30.79 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 9
+  - XLSX   : 9
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\snis.json
+
+Trazabilidad:
+  Ejecución: 205
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

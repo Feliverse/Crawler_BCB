@@ -1,0 +1,94 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Portal de Datos Abiertos USA
+URL configurada: https://data.gov/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://data.gov/
+  Utilizada: https://data.gov/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://data.gov/
+
+URL de trabajo: https://data.gov/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[DATAGOV] SITEMAP | docs=1 | urls=292 | en_cola=291 | errores=0
+[DATAGOV] t=   6.5s | pag=  0 | files=   0 | data=  0 | cola= 292 | prio= 0 | https://data.gov/
+[DATAGOV] DATASETS=1 | data_chart | https://data.gov/
+[DATAGOV] t=   7.9s | pag=  1 | files=   0 | data=  1 | cola= 307 | prio= 0 | https://catalog.data.gov/dataset/
+[DATAGOV] DATASETS=2 | exportable_data_page | https://catalog.data.gov/
+[DATAGOV] t=   9.8s | pag=  2 | files=   0 | data=  2 | cola= 340 | prio=10 | https://data.gov/metrics
+[DATAGOV] DATASETS=3 | data_html_table | https://data.gov/metrics/
+[DATAGOV] t=  11.2s | pag=  3 | files=  10 | data=  3 | cola= 365 | prio=10 | https://data.gov/open-gov
+[DATAGOV] DATASETS=4 | exportable_data_page | https://data.gov/open-gov/
+[DATAGOV] t=  12.2s | pag=  4 | files=  12 | data=  4 | cola= 364 | prio=10 | https://data.gov/contact
+[DATAGOV] t=  13.3s | pag=  5 | files=  12 | data=  4 | cola= 367 | prio=10 | https://catalog.data.gov/?sort=popularity
+[DATAGOV] DATASETS=5 | exportable_data_page | https://catalog.data.gov/?sort=popularity
+[DATAGOV] t=  14.3s | pag=  6 | files=  12 | data=  5 | cola= 385 | prio=10 | https://catalog.data.gov/?sort=last_harvested_date
+[DATAGOV] DATASETS=6 | exportable_data_page | https://catalog.data.gov/?sort=last_harvested_date
+[DATAGOV] t=  14.8s | pag=  7 | files=  12 | data=  6 | cola= 404 | prio=10 | https://catalog.data.gov/organization
+[DATAGOV] t=  15.9s | pag=  8 | files=  12 | data=  6 | cola= 429 | prio=10 | https://catalog.data.gov/?spatial_filter=geospatial
+[DATAGOV] DATASETS=7 | exportable_data_page | https://catalog.data.gov/?spatial_filter=geospatial
+[DATAGOV] t=  16.6s | pag=  9 | files=  14 | data=  7 | cola= 468 | prio=10 | https://catalog.data.gov/code
+[DATAGOV] DATASETS=8 | data_html_table | https://catalog.data.gov/code
+[DATAGOV] t=  17.5s | pag= 10 | files=  14 | data=  8 | cola= 510 | prio=10 | https://resources.data.gov/
+[DATAGOV] t=  19.5s | pag= 11 | files=  14 | data=  8 | cola= 601 | prio=10 | https://resources.data.gov/categories/data-management-governance/
+[DATAGOV] DATASETS=9 | data_chart | https://resources.data.gov/categories/data-management-governance/
+[DATAGOV] t=  20.6s | pag= 12 | files=  28 | data=  9 | cola= 620 | prio=10 | https://resources.data.gov/categories/data-tools/
+[DATAGOV] DATASETS=10 | exportable_data_page | https://resources.data.gov/categories/data-tools/
+[DATAGOV] t=  21.4s | pag= 13 | files=  29 | data= 10 | cola= 633 | prio=10 | https://resources.data.gov/categories/data-incubator/
+[DATAGOV] t=  22.5s | pag= 14 | files=  29 | data= 11 | cola= 637 | prio=10 | https://resources.data.gov/categories/guidance/
+[DATAGOV] t=  23.9s | pag= 15 | files=  98 | data= 12 | cola= 642 | prio=10 | https://resources.data.gov/categories/case-studies-examples/
+[DATAGOV] t=  25.1s | pag= 16 | files= 102 | data= 13 | cola= 655 | prio=10 | https://resources.data.gov/categories/skills-development/
+[DATAGOV] t=  26.2s | pag= 17 | files= 104 | data= 13 | cola= 668 | prio=10 | https://catalog.data.gov/dataset/fy-2025-disability-compensation-recipients-by-county
+[DATAGOV] t=  27.0s | pag= 18 | files= 107 | data= 14 | cola= 677 | prio=10 | https://catalog.data.gov/organization/va
+[DATAGOV] t=  28.6s | pag= 19 | files= 107 | data= 15 | cola= 695 | prio=10 | https://catalog.data.gov/dataset/2015-16-harassment-or-bullying-by-basis-category-civil-rights-data-collection
+[DATAGOV] t=  29.2s | pag= 20 | files= 113 | data= 16 | cola= 703 | prio=10 | https://catalog.data.gov/organization/ed
+[DATAGOV] t=  30.2s | pag= 21 | files= 113 | data= 17 | cola= 713 | prio=10 | https://catalog.data.gov/dataset/supply-chain-greenhouse-gas-emission-factors-v1-3-by-naics-6
+[DATAGOV] t=  31.3s | pag= 22 | files= 115 | data= 18 | cola= 718 | prio=10 | https://catalog.data.gov/organization/epa
+[DATAGOV] t=  32.8s | pag= 23 | files= 122 | data= 19 | cola= 736 | prio=10 | https://catalog.data.gov/dataset/2017-18-arrests-civil-rights-data-collection
+[DATAGOV] t=  33.7s | pag= 24 | files= 129 | data= 20 | cola= 741 | prio=10 | https://catalog.data.gov/dataset/electric-vehicle-population-data
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              datagov
+Páginas visitadas:   25
+Archivos encontrados:  134
+Datasets web:         21
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             34.84 s
+Sitemaps procesados:  1
+URLs por sitemap:     292
+URLs sitemap en cola: 291
+
+Formatos:
+  - CSV    : 20
+  - DOCX   : 1
+  - GEOJSON: 1
+  - JSON   : 3
+  - KML    : 1
+  - KMZ    : 1
+  - PARQUET: 1
+  - PDF    : 90
+  - XLSX   : 14
+  - XML    : 2
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\datagov.json
+
+Trazabilidad:
+  Ejecución: 178
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

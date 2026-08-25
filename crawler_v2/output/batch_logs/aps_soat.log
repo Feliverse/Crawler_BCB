@@ -1,0 +1,52 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: APS - Seguros SOAT
+URL configurada: https://www.aps.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - request_error  | HTTP=- | https://www.aps.gob.bo/
+    - request_error  | HTTP=- | https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral
+    - request_error  | HTTP=- | https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT
+    - request_error  | HTTP=- | https://aps.gob.bo/
+
+URL de trabajo: https://www.aps.gob.bo/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[APS_SOAT] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[APS_SOAT] t=  20.4s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral
+[APS_SOAT] t=  36.1s | pag=  0 | files=   0 | data=  0 | cola=   2 | prio= 0 | https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT
+[APS_SOAT] t=  51.5s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas
+[APS_SOAT] t=  67.4s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.aps.gob.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              aps_soat
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              4
+Motivo de parada:     frontier_exhausted
+Duración:             82.96 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\aps_soat.json
+
+Trazabilidad:
+  Ejecución: 164
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,85 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Comisión Económica para América Latina y el Caribe
+URL configurada: https://www.cepal.org/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.cepal.org/
+  Utilizada: https://www.cepal.org/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.cepal.org/
+
+URL de trabajo: https://www.cepal.org/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[CEPAL] SITEMAP | docs=7 | urls=10000 | en_cola=10000 | errores=0
+[CEPAL] t=  13.7s | pag=  0 | files=   0 | data=  0 | cola=10002 | prio= 0 | https://www.cepal.org/
+[CEPAL] DATASETS=1 | data_chart | https://www.cepal.org/
+[CEPAL] t=  14.3s | pag=  1 | files=   0 | data=  1 | cola=10107 | prio= 0 | https://statistics.cepal.org/portal/cepalstat/
+[CEPAL] t=  15.4s | pag=  2 | files=   0 | data=  1 | cola=10106 | prio= 0 | https://www.cepal.org/es/datos-y-estadisticas
+[CEPAL] t=  16.1s | pag=  3 | files=   0 | data=  1 | cola=10109 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas
+[CEPAL] DATASETS=2 | data_chart | https://www.cepal.org/es/areas-trabajo/estadisticas
+[CEPAL] t=  17.0s | pag=  4 | files=   0 | data=  2 | cola=10149 | prio=10 | https://www.cepal.org/es/publicaciones
+[CEPAL] t=  17.9s | pag=  5 | files=   0 | data=  2 | cola=10189 | prio=10 | https://statistics.cepal.org/portal/cepalstat/index.html?lang=es
+[CEPAL] t=  18.4s | pag=  6 | files=   0 | data=  2 | cola=10188 | prio=10 | https://statistics.cepal.org/
+[CEPAL] t=  19.6s | pag=  6 | files=   0 | data=  2 | cola=10187 | prio=10 | https://repositorio.cepal.org/entities/publication/47abc7c1-89b3-4e89-a386-a9ca0a9a31c0
+[CEPAL] t=  21.2s | pag=  7 | files=   0 | data=  2 | cola=10217 | prio=10 | https://www.cepal.org/es/publicaciones/90268-estudio-economico-america-latina-caribe-2026-crecimiento-productividad-un
+[CEPAL] t=  21.9s | pag=  8 | files=   0 | data=  2 | cola=10233 | prio=10 | https://www.cepal.org/es/publicaciones/90219-rupturas-oportunidades-propuestas-que-america-latina-caribe-prospere-la-nueva
+[CEPAL] t=  22.9s | pag=  9 | files=   0 | data=  2 | cola=10247 | prio=10 | https://www.cepal.org/es/publicaciones/90189-impactos-america-latina-caribe-hostilidades-recientes-la-republica-islamica-iran
+[CEPAL] t=  23.5s | pag= 10 | files=   0 | data=  2 | cola=10257 | prio=10 | https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122
+[CEPAL] DATASETS=3 | exportable_data_page | https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122
+[CEPAL] t=  24.5s | pag= 11 | files=   0 | data=  3 | cola=10287 | prio=10 | https://www.cepal.org/es/publicaciones/90154-la-inversion-extranjera-directa-america-latina-caribe-2026-navegando-nuevo
+[CEPAL] t=  24.9s | pag= 12 | files=   0 | data=  3 | cola=10293 | prio=10 | https://www.cepal.org/es/publicaciones/90130-75-anos-la-sede-subregional-la-cepal-mexico-historia-logros-desafios
+[CEPAL] t=  25.6s | pag= 13 | files=   0 | data=  3 | cola=10303 | prio=10 | https://www.cepal.org/es/publicaciones/90011-revista-cepal-148-50-anos-planteando-desafios-desarrollo-america-latina-caribe
+[CEPAL] t=  26.5s | pag= 14 | files=   0 | data=  3 | cola=10318 | prio=10 | https://www.cepal.org/es/publicaciones/89986-estadisticas-tributarias-america-latina-caribe-2026
+[CEPAL] t=  27.5s | pag= 15 | files=   0 | data=  3 | cola=10327 | prio=10 | https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es
+[CEPAL] DATASETS=4 | statistical_chart | https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es
+[CEPAL] API REFERENCIA | inline_script_reference | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
+[CEPAL] t=  28.9s | pag= 16 | files=   0 | data=  4 | cola=10327 | prio= 1 | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
+[CEPAL] API SONDEO FALLIDO | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
+[CEPAL] t=  30.1s | pag= 16 | files=   0 | data=  4 | cola=10326 | prio=10 | https://www.cepal.org/es/temas/redatam
+[CEPAL] DATASETS=5 | data_chart | https://www.cepal.org/es/temas/redatam
+[CEPAL] t=  31.0s | pag= 17 | files=   0 | data=  5 | cola=10343 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales
+[CEPAL] t=  31.8s | pag= 18 | files=   0 | data=  5 | cola=10362 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas
+[CEPAL] t=  32.4s | pag= 19 | files=   0 | data=  5 | cola=10380 | prio=10 | https://www.cepal.org/es/temas/estadisticas-ambientales
+[CEPAL] DATASETS=6 | data_chart | https://www.cepal.org/es/temas/estadisticas-ambientales
+[CEPAL] t=  33.1s | pag= 20 | files=   0 | data=  6 | cola=10398 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods
+[CEPAL] DATASETS=7 | data_chart | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods
+[CEPAL] t=  34.1s | pag= 21 | files=   0 | data=  7 | cola=10415 | prio=10 | https://www.cepal.org/es/temas/institucionalidad-estadistica
+[CEPAL] DATASETS=8 | data_chart | https://www.cepal.org/es/temas/institucionalidad-estadistica
+[CEPAL] t=  35.1s | pag= 22 | files=   0 | data=  8 | cola=10429 | prio=10 | https://www.cepal.org/es/notas/cepal-participa-la-xx-version-jornadas-idera-infraestructura-datos-geoespaciales-la-republica
+[CEPAL] t=  35.9s | pag= 23 | files=   0 | data=  8 | cola=10430 | prio=10 | https://www.cepal.org/es/notas/la-cepal-presenta-su-estrategia-regional-asistencia-tecnica-estadisticas-economicas-directores
+[CEPAL] t=  37.4s | pag= 24 | files=   0 | data=  8 | cola=10433 | prio=10 | https://www.cepal.org/es/publicaciones/90121-estructura-productiva-dinamicas-recientes-actividades-servicios-america-latina
+[CEPAL] API SONDEOS FALLIDOS | total=1
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              cepal
+Páginas visitadas:   25
+Archivos encontrados:    0
+Datasets web:         8
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             37.89 s
+Sitemaps procesados:  7
+URLs por sitemap:     10000
+URLs sitemap en cola: 10000
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\cepal.json
+
+Trazabilidad:
+  Ejecución: 175
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

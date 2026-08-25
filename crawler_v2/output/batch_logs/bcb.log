@@ -1,0 +1,80 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Banco Central de Bolivia
+URL configurada: https://www.bcb.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.bcb.gob.bo/
+  Utilizada: https://www.bcb.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.bcb.gob.bo/
+
+URL de trabajo: https://www.bcb.gob.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[BCB] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[BCB] t=   8.7s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.bcb.gob.bo/
+[BCB] t=  10.8s | pag=  1 | files=  16 | data=  0 | cola= 106 | prio= 2 | https://www.bcb.gob.bo/?q=pub_memorias-institucionales
+[BCB] t=  11.7s | pag=  2 | files= 110 | data=  0 | cola= 156 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-diario
+[BCB] t=  13.0s | pag=  3 | files= 110 | data=  0 | cola= 155 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-semanal
+[BCB] t=  14.1s | pag=  4 | files= 120 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos
+[BCB] t=  15.5s | pag=  5 | files= 130 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informes-sobre-inversion
+[BCB] t=  16.9s | pag=  6 | files= 130 | data=  0 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?q=reservas_internacionales_bcb
+[BCB] t=  18.0s | pag=  7 | files= 138 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=marco-normativo
+[BCB] t=  19.1s | pag=  8 | files= 142 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=informes-deuda-externa-publica
+[BCB] t=  20.4s | pag=  9 | files= 142 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Festados-de-la-deuda-externa
+[BCB] t=  21.9s | pag= 10 | files= 142 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera
+[BCB] t=  23.2s | pag= 11 | files= 151 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=operaciones-mercado-abierto
+[BCB] t=  24.7s | pag= 12 | files= 151 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informe-vigilancia-sistema-pagos
+[BCB] t=  25.9s | pag= 13 | files= 151 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-balanza-pagos
+[BCB] t=  27.0s | pag= 14 | files= 151 | data=  0 | cola= 158 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-deuda-externa-privada
+[BCB] t=  28.4s | pag= 15 | files= 151 | data=  0 | cola= 157 | prio= 2 | https://www.bcb.gob.bo/?q=boletines-mensuales
+[BCB] t=  29.9s | pag= 16 | files= 163 | data=  0 | cola= 165 | prio= 2 | https://www.bcb.gob.bo/?q=reporte-estadistico
+[BCB] DATASETS=1 | exportable_data_page | https://www.bcb.gob.bo/?q=reporte-estadistico
+[BCB] t=  31.3s | pag= 17 | files= 196 | data=  1 | cola= 173 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria
+[BCB] t=  32.8s | pag= 18 | files= 203 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia
+[BCB] t=  34.3s | pag= 19 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense
+[BCB] t=  35.8s | pag= 20 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense-serie-de-tiempo
+[BCB] t=  37.2s | pag= 21 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fvalor-referencial-de-compra-del-d%C3%B3lar-estadounidense-3
+[BCB] t=  38.3s | pag= 22 | files= 213 | data=  1 | cola= 174 | prio= 2 | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[BCB] DATASETS=2 | data_html_table | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[BCB] t=  39.9s | pag= 23 | files= 213 | data=  2 | cola= 176 | prio= 2 | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[BCB] DATASETS=3 | data_html_table | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[BCB] t=  40.8s | pag= 24 | files= 213 | data=  3 | cola= 188 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fverificador-de-n%C3%BAmero-de-serie
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              bcb
+Páginas visitadas:   25
+Archivos encontrados:  213
+Datasets web:         3
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             42.21 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - ODS    : 10
+  - PDF    : 188
+  - XLSX   : 15
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\bcb.json
+
+Trazabilidad:
+  Ejecución: 171
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,88 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Danmarks Statistik
+URL configurada: https://www.dst.dk/
+Timeout HTTP: 20 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.dst.dk/
+  Utilizada: https://www.dst.dk/da/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.dst.dk/
+
+URL de trabajo: https://www.dst.dk/da/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[STATISTICS_DENMARK] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[STATISTICS_DENMARK] t=   8.9s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.dst.dk/da/
+[STATISTICS_DENMARK] t=  13.5s | pag=  1 | files=   0 | data=  0 | cola=  89 | prio= 0 | https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api
+[STATISTICS_DENMARK] DATASETS=1 | data_html_table | https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api
+[STATISTICS_DENMARK] t=  13.8s | pag=  2 | files=   0 | data=  1 | cola= 146 | prio= 0 | https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken
+[STATISTICS_DENMARK] t=  15.0s | pag=  3 | files=   0 | data=  1 | cola= 146 | prio= 0 | https://www.statbank.dk/
+[STATISTICS_DENMARK] DATASETS=2 | configured_data_page | https://www.statbank.dk/statbank5a/default.asp
+[STATISTICS_DENMARK] t=  17.0s | pag=  4 | files=   0 | data=  2 | cola= 145 | prio= 0 | https://api.statbank.dk/v1/subjects?format=JSON&lang=en
+[STATISTICS_DENMARK] DATASETS=3 | json_api | https://api.statbank.dk/v1/subjects?format=JSON&lang=en
+[STATISTICS_DENMARK] t=  18.8s | pag=  4 | files=   0 | data=  3 | cola= 144 | prio= 0 | https://api.statbank.dk/v1/tables?format=JSON&lang=en
+[STATISTICS_DENMARK] DATASETS=4 | json_api | https://api.statbank.dk/v1/tables?format=JSON&lang=en
+[STATISTICS_DENMARK] t=  21.6s | pag=  4 | files=   0 | data=  4 | cola= 143 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier
+[STATISTICS_DENMARK] t=  21.9s | pag=  5 | files=   0 | data=  4 | cola= 150 | prio=10 | https://www.dst.dk/da/TilSalg
+[STATISTICS_DENMARK] t=  22.6s | pag=  6 | files=   0 | data=  4 | cola= 149 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-forskning
+[STATISTICS_DENMARK] t=  23.3s | pag=  7 | files=   0 | data=  4 | cola= 159 | prio=10 | https://www.dst.dk/da/TilSalg/interview
+[STATISTICS_DENMARK] t=  24.0s | pag=  8 | files=   0 | data=  4 | cola= 169 | prio=10 | https://www.dst.dk/da/TilSalg/data-til-myndigheder
+[STATISTICS_DENMARK] t=  25.1s | pag=  9 | files=   0 | data=  4 | cola= 172 | prio=10 | https://www.dst.dk/da/Indberet/om-indberetning
+[STATISTICS_DENMARK] DATASETS=5 | data_html_table | https://www.dst.dk/da/Indberet/om-indberetning
+[STATISTICS_DENMARK] t=  26.2s | pag= 10 | files=   0 | data=  5 | cola= 180 | prio=10 | https://www.dst.dk/en/kontakt
+[STATISTICS_DENMARK] t=  27.1s | pag= 11 | files=   0 | data=  5 | cola= 183 | prio=10 | https://www.dst.dk/da/Statistik/hjaelp-til-statistikbanken/api
+[STATISTICS_DENMARK] DATASETS=6 | data_html_table | https://www.dst.dk/da/Statistik/hjaelp-til-statistikbanken/api
+[STATISTICS_DENMARK] t=  27.8s | pag= 12 | files=   0 | data=  6 | cola= 185 | prio=10 | https://www.dst.dk/en/Statistik
+[STATISTICS_DENMARK] t=  28.5s | pag= 13 | files=   0 | data=  6 | cola= 184 | prio=10 | https://www.dst.dk/en/Statistik/emner
+[STATISTICS_DENMARK] t=  29.2s | pag= 14 | files=   0 | data=  6 | cola= 210 | prio=10 | https://www.dst.dk/en/Statistik/laer-om-statistik
+[STATISTICS_DENMARK] t=  30.1s | pag= 15 | files=   0 | data=  6 | cola= 215 | prio=10 | https://www.dst.dk/en/TilSalg/data-til-forskning
+[STATISTICS_DENMARK] t=  30.9s | pag= 16 | files=   0 | data=  6 | cola= 224 | prio=10 | https://www.dst.dk/en/consulting/building-statistical-capacity
+[STATISTICS_DENMARK] t=  32.0s | pag= 17 | files=   1 | data=  6 | cola= 224 | prio=10 | https://www.dst.dk/en/consulting/annual-reports
+[STATISTICS_DENMARK] DATASETS=7 | exportable_data_page | https://www.dst.dk/en/consulting/annual-reports
+[STATISTICS_DENMARK] t=  32.8s | pag= 18 | files=   2 | data=  7 | cola= 234 | prio=10 | https://www.dst.dk/en/consulting/projects?en=
+[STATISTICS_DENMARK] t=  33.5s | pag= 19 | files=   3 | data=  7 | cola= 239 | prio=10 | https://www.dst.dk/en/OmDS/danmarks-statistiks-rolle-og-opgave
+[STATISTICS_DENMARK] t=  34.3s | pag= 20 | files=   3 | data=  7 | cola= 239 | prio=10 | https://api.statbank.dk/console
+[STATISTICS_DENMARK] DATASETS=8 | configured_data_page | https://api.statbank.dk/console
+[STATISTICS_DENMARK] t=  35.3s | pag= 21 | files=   3 | data=  8 | cola= 238 | prio=10 | https://api.statbank.dk/
+[STATISTICS_DENMARK] t=  36.7s | pag= 21 | files=   3 | data=  8 | cola= 237 | prio=10 | https://www.statbank.dk/statbank5a/default.asp?w=1920
+[STATISTICS_DENMARK] DATASETS=9 | configured_data_page | https://www.statbank.dk/statbank5a/default.asp?w=1920
+[STATISTICS_DENMARK] t=  37.6s | pag= 22 | files=   3 | data=  9 | cola= 236 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1983-2022
+[STATISTICS_DENMARK] DATASETS=10 | exportable_data_page | https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1983-2022
+[STATISTICS_DENMARK] t=  40.9s | pag= 23 | files=   3 | data= 10 | cola= 285 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1909-1982
+[STATISTICS_DENMARK] t=  41.2s | pag= 24 | files=   3 | data= 10 | cola= 284 | prio=10 | https://www.dst.dk/da/Statistik/historiske-publikationsserier/statistikservice
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              statistics_denmark
+Páginas visitadas:   25
+Archivos encontrados:    3
+Datasets web:         11
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             41.97 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 3
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\statistics_denmark.json
+
+Trazabilidad:
+  Ejecución: 206
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

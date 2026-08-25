@@ -1,0 +1,150 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Comisión_Económica_para_América_Latina_y_el_Caribe.csv": {
+                        "descripcion": "Comisión Económica para América Latina y el Caribe",
+                        "url_descarga": "https://www.cepal.org/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "CEPALSTAT_Carousel.csv": {
+                        "descripcion": "CEPALSTAT Carousel",
+                        "url_descarga": "https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Estadísticas": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Estadísticas_|_CEPAL.csv": {
+                        "descripcion": "Estadísticas | CEPAL",
+                        "url_descarga": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            },
+            "Estadísticas_ambientales": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Estadísticas_ambientales_|_CEPAL.csv": {
+                            "descripcion": "Estadísticas ambientales | CEPAL",
+                            "url_descarga": "https://www.cepal.org/es/temas/estadisticas-ambientales",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_chart",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": false,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "Indicadores_de_los_Objetivos_de_Desarrollo_Sostenible_(ODS)": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Indicadores_de_los_Objetivos_de_Desarrollo_Sostenible_(ODS)_|_CEPAL.csv": {
+                            "descripcion": "Indicadores de los Objetivos de Desarrollo Sostenible (ODS) | CEPAL",
+                            "url_descarga": "https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_chart",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": false,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "Institucionalidad_estadística": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Institucionalidad_estadística_|_CEPAL.csv": {
+                            "descripcion": "Institucionalidad estadística | CEPAL",
+                            "url_descarga": "https://www.cepal.org/es/temas/institucionalidad-estadistica",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.cepal.org/es/areas-trabajo/estadisticas",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_chart",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": false,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        },
+        "Notas_de_Población_Vol._53_N°_122": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Notas_de_Población_Vol._53_N°_122_|_CEPAL.csv": {
+                        "descripcion": "Notas de Población Vol. 53 N° 122 | CEPAL",
+                        "url_descarga": "https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.cepal.org/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "REDATAM": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "REDATAM_|_CEPAL.csv": {
+                        "descripcion": "REDATAM | CEPAL",
+                        "url_descarga": "https://www.cepal.org/es/temas/redatam",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.cepal.org/es/dados-estatisticas-espanhol",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_chart",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

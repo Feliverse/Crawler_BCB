@@ -1,0 +1,127 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Cámara de Exportadores de Cochabamba
+URL configurada: https://cadexco.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://cadexco.bo/
+  Utilizada: https://cadexco.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://cadexco.bo/
+
+URL de trabajo: https://cadexco.bo/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[CADEXCO] SITEMAP | docs=6 | urls=215 | en_cola=211 | errores=0
+[CADEXCO] t=  19.9s | pag=  0 | files=   0 | data=  0 | cola= 214 | prio= 0 | https://cadexco.bo/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/16
+[CADEXCO] t=  21.2s | pag=  1 | files=   0 | data=  0 | cola= 215 | prio= 0 | https://cadexco.bo/publicaciones/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4303
+[CADEXCO] t=  23.3s | pag=  2 | files=   0 | data=  0 | cola= 215 | prio= 0 | https://cadexco.bo/cochabamba/
+[CADEXCO] DATASETS=1 | statistical_chart | https://cadexco.bo/cochabamba/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4288
+[CADEXCO] t=  25.5s | pag=  3 | files=   0 | data=  1 | cola= 215 | prio= 0 | https://cadexco.bo/lcoext/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4460
+[CADEXCO] t=  27.8s | pag=  4 | files=   1 | data=  1 | cola= 215 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/16
+[CADEXCO] t=  29.6s | pag=  4 | files=   1 | data=  1 | cola= 214 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4303
+[CADEXCO] t=  31.3s | pag=  4 | files=   1 | data=  1 | cola= 213 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4288
+[CADEXCO] t=  33.0s | pag=  4 | files=   1 | data=  1 | cola= 212 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4460
+[CADEXCO] t=  34.7s | pag=  4 | files=   1 | data=  1 | cola= 211 | prio=25 | https://cadexco.bo/tarjetas/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/posts/8119
+[CADEXCO] t=  36.9s | pag=  5 | files=   1 | data=  1 | cola= 211 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/posts/8119
+[CADEXCO] t=  39.1s | pag=  5 | files=   1 | data=  1 | cola= 210 | prio=25 | https://cadexco.bo/contacto/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/302
+[CADEXCO] t=  41.3s | pag=  6 | files=   1 | data=  1 | cola= 210 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/302
+[CADEXCO] t=  42.7s | pag=  6 | files=   1 | data=  1 | cola= 209 | prio=25 | https://cadexco.bo/directorio/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/324
+[CADEXCO] t=  44.6s | pag=  7 | files=   1 | data=  1 | cola= 209 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/324
+[CADEXCO] t=  46.1s | pag=  7 | files=   1 | data=  1 | cola= 208 | prio=25 | https://cadexco.bo/estatutos/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/2043
+[CADEXCO] t=  48.0s | pag=  8 | files=   1 | data=  1 | cola= 208 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/2043
+[CADEXCO] t=  50.1s | pag=  8 | files=   1 | data=  1 | cola= 207 | prio=25 | https://cadexco.bo/page-title-version-4/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3384
+[CADEXCO] t=  52.3s | pag=  9 | files=   1 | data=  1 | cola= 207 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3384
+[CADEXCO] t=  53.8s | pag=  9 | files=   1 | data=  1 | cola= 206 | prio=25 | https://cadexco.bo/historia/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3389
+[CADEXCO] t=  55.9s | pag= 10 | files=   1 | data=  1 | cola= 206 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3389
+[CADEXCO] t=  57.6s | pag= 10 | files=   1 | data=  1 | cola= 205 | prio=25 | https://cadexco.bo/home-5/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3480
+[CADEXCO] t=  60.1s | pag= 11 | files=   2 | data=  1 | cola= 205 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3480
+[CADEXCO] t=  62.0s | pag= 11 | files=   2 | data=  1 | cola= 204 | prio=25 | https://cadexco.bo/nuestraentidad/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3593
+[CADEXCO] t=  64.2s | pag= 12 | files=   2 | data=  1 | cola= 204 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3593
+[CADEXCO] t=  65.9s | pag= 12 | files=   2 | data=  1 | cola= 203 | prio=25 | https://cadexco.bo/gestion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3735
+[CADEXCO] t=  68.3s | pag= 13 | files=   2 | data=  1 | cola= 203 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3735
+[CADEXCO] t=  69.8s | pag= 13 | files=   2 | data=  1 | cola= 202 | prio=25 | https://cadexco.bo/promocion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3740
+[CADEXCO] t=  71.9s | pag= 14 | files=   2 | data=  1 | cola= 202 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3740
+[CADEXCO] t=  73.1s | pag= 14 | files=   2 | data=  1 | cola= 201 | prio=25 | https://cadexco.bo/requsitos/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3791
+[CADEXCO] t=  75.3s | pag= 15 | files=   2 | data=  1 | cola= 201 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3791
+[CADEXCO] t=  77.0s | pag= 15 | files=   2 | data=  1 | cola= 200 | prio=25 | https://cadexco.bo/event-directory/
+[CADEXCO] t=  77.9s | pag= 15 | files=   2 | data=  1 | cola= 199 | prio=25 | https://cadexco.bo/asesoramiento/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4036
+[CADEXCO] t=  80.6s | pag= 16 | files=   2 | data=  1 | cola= 199 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4036
+[CADEXCO] t=  81.6s | pag= 16 | files=   2 | data=  1 | cola= 198 | prio=25 | https://cadexco.bo/calendario/
+[CADEXCO] t=  82.1s | pag= 16 | files=   2 | data=  1 | cola= 197 | prio=25 | https://cadexco.bo/operaciones-pre-y-post-embarque/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4105
+[CADEXCO] t=  84.9s | pag= 17 | files=   2 | data=  1 | cola= 197 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4105
+[CADEXCO] t=  86.0s | pag= 17 | files=   2 | data=  1 | cola= 196 | prio=25 | https://cadexco.bo/promocion-comercial/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4168
+[CADEXCO] t=  87.8s | pag= 18 | files=   2 | data=  1 | cola= 196 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4168
+[CADEXCO] t=  89.5s | pag= 18 | files=   2 | data=  1 | cola= 195 | prio=25 | https://cadexco.bo/actualizacion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4192
+[CADEXCO] t=  91.7s | pag= 19 | files=   2 | data=  1 | cola= 195 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4192
+[CADEXCO] t=  93.0s | pag= 19 | files=   2 | data=  1 | cola= 194 | prio=25 | https://cadexco.bo/noticias/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4199
+[CADEXCO] t=  95.0s | pag= 20 | files=   2 | data=  1 | cola= 194 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4199
+[CADEXCO] t=  96.3s | pag= 20 | files=   2 | data=  1 | cola= 193 | prio=25 | https://cadexco.bo/acuerdos/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4268
+[CADEXCO] t=  98.4s | pag= 21 | files=   4 | data=  1 | cola= 193 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4268
+[CADEXCO] t=  99.6s | pag= 21 | files=   4 | data=  1 | cola= 192 | prio=25 | https://cadexco.bo/inteligencia/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4273
+[CADEXCO] t= 101.5s | pag= 22 | files=   9 | data=  1 | cola= 192 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4273
+[CADEXCO] t= 102.6s | pag= 22 | files=   9 | data=  1 | cola= 191 | prio=25 | https://cadexco.bo/tarjeta/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4281
+[CADEXCO] t= 105.0s | pag= 23 | files=   9 | data=  1 | cola= 191 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4281
+[CADEXCO] t= 106.7s | pag= 23 | files=   9 | data=  1 | cola= 190 | prio=25 | https://cadexco.bo/circulares/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4296
+[CADEXCO] t= 108.7s | pag= 24 | files=   9 | data=  1 | cola= 190 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4296
+[CADEXCO] t= 110.4s | pag= 24 | files=   9 | data=  1 | cola= 189 | prio=25 | https://cadexco.bo/memoria/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4299
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              cadexco
+Páginas visitadas:   25
+Archivos encontrados:   16
+Datasets web:         1
+Errores:              2
+Motivo de parada:     max_pages
+Duración:             112.80 s
+Sitemaps procesados:  6
+URLs por sitemap:     215
+URLs sitemap en cola: 211
+
+Formatos:
+  - PDF    : 16
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\cadexco.json
+
+Trazabilidad:
+  Ejecución: 174
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,88 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Doing Business / Business Ready - Banco Mundial
+URL configurada: https://www.worldbank.org/en/businessready
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.worldbank.org/en/businessready
+  Utilizada: https://www.worldbank.org/en/businessready
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.worldbank.org/en/businessready
+
+URL de trabajo: https://www.worldbank.org/en/businessready
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[DOING_BUSINESS] SITEMAP | docs=8 | urls=10000 | en_cola=4 | errores=0
+[DOING_BUSINESS] t=   8.5s | pag=  0 | files=   0 | data=  0 | cola=   4 | prio= 0 | https://www.worldbank.org/en/businessready
+[DOING_BUSINESS] DATASETS=1 | configured_data_page | https://www.worldbank.org/en/businessready
+[DOING_BUSINESS] t=   9.8s | pag=  1 | files=   3 | data=  1 | cola=  23 | prio=10 | https://www.worldbank.org/en/businessready/about-us/faq
+[DOING_BUSINESS] DATASETS=2 | configured_data_page | https://www.worldbank.org/en/businessready/about-us/faq
+[DOING_BUSINESS] t=  10.9s | pag=  2 | files=   6 | data=  2 | cola=  22 | prio=10 | https://www.worldbank.org/en/businessready/about-us/our-mission
+[DOING_BUSINESS] DATASETS=3 | configured_data_page | https://www.worldbank.org/en/businessready/about-us/our-mission
+[DOING_BUSINESS] t=  11.3s | pag=  3 | files=   6 | data=  3 | cola=  21 | prio=10 | https://www.worldbank.org/en/businessready/about-us/project-milestones
+[DOING_BUSINESS] DATASETS=4 | configured_data_page | https://www.worldbank.org/en/businessready/about-us/project-milestones
+[DOING_BUSINESS] t=  12.2s | pag=  4 | files=   7 | data=  4 | cola=  20 | prio=10 | https://www.worldbank.org/en/businessready/about-us/meet-the-team
+[DOING_BUSINESS] DATASETS=5 | configured_data_page | https://www.worldbank.org/en/businessready/about-us/meet-the-team
+[DOING_BUSINESS] t=  13.2s | pag=  5 | files=   7 | data=  5 | cola= 121 | prio=10 | https://www.worldbank.org/en/businessready/data
+[DOING_BUSINESS] DATASETS=6 | configured_data_page | https://www.worldbank.org/en/businessready/data
+[DOING_BUSINESS] t=  13.6s | pag=  6 | files=   7 | data=  6 | cola= 120 | prio=10 | https://www.worldbank.org/en/businessready/engagements
+[DOING_BUSINESS] DATASETS=7 | configured_data_page | https://www.worldbank.org/en/businessready/engagements
+[DOING_BUSINESS] t=  14.2s | pag=  7 | files=   7 | data=  7 | cola= 119 | prio=10 | https://www.worldbank.org/en/businessready/engagements/global-contributors
+[DOING_BUSINESS] DATASETS=8 | configured_data_page | https://www.worldbank.org/en/businessready/engagements/global-contributors
+[DOING_BUSINESS] t=  14.6s | pag=  8 | files=   7 | data=  8 | cola= 118 | prio=10 | https://www.worldbank.org/en/businessready/engagements/governments
+[DOING_BUSINESS] DATASETS=9 | configured_data_page | https://www.worldbank.org/en/businessready/engagements/governments
+[DOING_BUSINESS] t=  15.1s | pag=  9 | files=   8 | data=  9 | cola= 118 | prio=10 | https://www.worldbank.org/en/businessready/topic/business-entry
+[DOING_BUSINESS] DATASETS=10 | configured_data_page | https://www.worldbank.org/en/businessready/topic/business-entry
+[DOING_BUSINESS] t=  16.1s | pag= 10 | files=   8 | data= 10 | cola= 117 | prio=10 | https://www.worldbank.org/en/businessready/topic/utility-services
+[DOING_BUSINESS] t=  17.0s | pag= 11 | files=   8 | data= 11 | cola= 116 | prio=10 | https://www.worldbank.org/en/businessready/topic/business-location
+[DOING_BUSINESS] t=  17.7s | pag= 12 | files=   8 | data= 12 | cola= 115 | prio=10 | https://www.worldbank.org/en/businessready/topic/labor
+[DOING_BUSINESS] t=  18.1s | pag= 13 | files=   8 | data= 13 | cola= 114 | prio=10 | https://www.worldbank.org/en/businessready/topic/financial-services
+[DOING_BUSINESS] t=  18.9s | pag= 14 | files=   8 | data= 14 | cola= 113 | prio=10 | https://www.worldbank.org/en/businessready/topic/international-trade
+[DOING_BUSINESS] t=  19.7s | pag= 15 | files=   8 | data= 15 | cola= 112 | prio=10 | https://www.worldbank.org/en/businessready/topic/taxation
+[DOING_BUSINESS] t=  20.4s | pag= 16 | files=   8 | data= 16 | cola= 111 | prio=10 | https://www.worldbank.org/en/businessready/topic/dispute-resolution
+[DOING_BUSINESS] t=  20.9s | pag= 17 | files=   8 | data= 17 | cola= 110 | prio=10 | https://www.worldbank.org/en/businessready/topic/market-competition
+[DOING_BUSINESS] t=  21.4s | pag= 18 | files=   8 | data= 18 | cola= 109 | prio=10 | https://www.worldbank.org/en/businessready/topic/business-insolvency
+[DOING_BUSINESS] t=  22.0s | pag= 19 | files=   8 | data= 19 | cola= 108 | prio=10 | https://www.worldbank.org/en/businessready/about-us/covered-economies
+[DOING_BUSINESS] t=  22.8s | pag= 20 | files=   8 | data= 20 | cola= 107 | prio=10 | https://www.worldbank.org/en/businessready/search
+[DOING_BUSINESS] t=  23.2s | pag= 21 | files=   8 | data= 21 | cola= 106 | prio=10 | https://www.worldbank.org/en/businessready/about-us/meet-the-team/team-members/norman-loayza
+[DOING_BUSINESS] t=  24.1s | pag= 22 | files=   8 | data= 22 | cola= 105 | prio=10 | https://www.worldbank.org/en/businessready/about-us/meet-the-team/team-members/valeria-perotti
+[DOING_BUSINESS] t=  24.7s | pag= 23 | files=   8 | data= 23 | cola= 104 | prio=10 | https://www.worldbank.org/en/businessready/about-us/meet-the-team/team-members/kirsten-hommann
+[DOING_BUSINESS] t=  25.4s | pag= 24 | files=   8 | data= 24 | cola= 103 | prio=10 | https://www.worldbank.org/en/businessready/about-us/meet-the-team/team-members/klaus-koch-saldarriaga
+[DOING_BUSINESS] DATASETS=25 | configured_data_page | https://www.worldbank.org/en/businessready/about-us/meet-the-team/team-members/klaus-koch-saldarriaga
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              doing_business
+Páginas visitadas:   25
+Archivos encontrados:    8
+Datasets web:         25
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             26.07 s
+Sitemaps procesados:  8
+URLs por sitemap:     10000
+URLs sitemap en cola: 4
+
+Formatos:
+  - PDF    : 6
+  - XLSX   : 1
+  - ZIP    : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\doing_business.json
+
+Trazabilidad:
+  Ejecución: 180
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

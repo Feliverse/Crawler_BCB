@@ -1,0 +1,83 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes
+URL configurada: https://www.att.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.att.gob.bo/
+  Utilizada: https://www.att.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.att.gob.bo/
+
+URL de trabajo: https://www.att.gob.bo/
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ATT] SITEMAP | docs=1 | urls=1 | en_cola=0 | errores=0
+[ATT] t=   3.5s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.att.gob.bo/
+[ATT] t=   4.3s | pag=  1 | files=   0 | data=  0 | cola=  81 | prio= 0 | https://www.att.gob.bo/en/estadistica-sectorial
+[ATT] DATASETS=1 | data_html_table | https://www.att.gob.bo/en/estadistica-sectorial
+[ATT] t=   4.9s | pag=  2 | files=   1 | data=  1 | cola= 132 | prio= 0 | https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia
+[ATT] DATASETS=2 | data_html_table | https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia
+[ATT] t=   5.5s | pag=  3 | files=  24 | data=  2 | cola= 131 | prio= 0 | https://www.att.gob.bo/en/informacion-estadistica-sector-telecomunicaciones
+[ATT] t=   6.4s | pag=  4 | files=  24 | data=  2 | cola= 132 | prio= 0 | https://www.att.gob.bo/serie-historica
+[ATT] DATASETS=3 | statistical_html_table | https://www.att.gob.bo/serie-historica
+[ATT] t=   7.1s | pag=  5 | files=  28 | data=  3 | cola= 131 | prio= 0 | https://www.att.gob.bo/telecomunicaciones
+[ATT] t=   7.6s | pag=  6 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/index.php/en/postal
+[ATT] t=   8.0s | pag=  7 | files=  28 | data=  3 | cola= 163 | prio= 2 | https://www.att.gob.bo/index.php/en/telecomunicaciones
+[ATT] t=   8.8s | pag=  8 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes
+[ATT] t=   9.4s | pag=  9 | files=  28 | data=  3 | cola= 163 | prio= 2 | https://www.att.gob.bo/index.php/en/informacion-estadistica-sector-telecomunicaciones
+[ATT] t=  10.0s | pag= 10 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes-0
+[ATT] DATASETS=4 | data_html_table | https://www.att.gob.bo/index.php/en/transportes-0
+[ATT] t=  10.4s | pag= 11 | files=  34 | data=  4 | cola= 161 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-uolo
+[ATT] t=  11.0s | pag= 12 | files=  34 | data=  4 | cola= 164 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-postal-uolo
+[ATT] t=  11.9s | pag= 13 | files=  34 | data=  4 | cola= 167 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-urf
+[ATT] DATASETS=5 | data_html_table | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-urf
+[ATT] t=  12.6s | pag= 14 | files=  67 | data=  5 | cola= 166 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-postal-urf
+[ATT] DATASETS=6 | data_html_table | https://www.att.gob.bo/index.php/en/normativa-sector-postal-urf
+[ATT] t=  13.0s | pag= 15 | files=  76 | data=  6 | cola= 165 | prio= 2 | https://www.att.gob.bo/index.php/en/requisitos-tele
+[ATT] DATASETS=7 | data_html_table | https://www.att.gob.bo/index.php/en/requisitos-tele
+[ATT] t=  13.6s | pag= 16 | files= 100 | data=  7 | cola= 164 | prio= 2 | https://www.att.gob.bo/telecomunicaciones/usuario
+[ATT] t=  14.6s | pag= 17 | files= 100 | data=  7 | cola= 181 | prio= 2 | https://www.att.gob.bo/transportes/usuario
+[ATT] t=  15.3s | pag= 18 | files= 100 | data=  7 | cola= 184 | prio= 2 | https://www.att.gob.bo/postal/usuario
+[ATT] t=  15.8s | pag= 19 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/transportes
+[ATT] t=  16.3s | pag= 20 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/postal
+[ATT] t=  17.0s | pag= 21 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/en/33-operadores-postales-cuentan-con-licencia-vigente-en-bolivia
+[ATT] t=  17.8s | pag= 22 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/en/postal
+[ATT] t=  18.3s | pag= 23 | files= 100 | data=  7 | cola= 190 | prio= 2 | https://www.att.gob.bo/en/telecomunicaciones
+[ATT] t=  18.8s | pag= 24 | files= 100 | data=  7 | cola= 189 | prio= 2 | https://www.att.gob.bo/en/transportes
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              att
+Páginas visitadas:   25
+Archivos encontrados:  100
+Datasets web:         7
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             19.26 s
+Sitemaps procesados:  1
+URLs por sitemap:     1
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 97
+  - XLSX   : 3
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\att.json
+
+Trazabilidad:
+  Ejecución: 169
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

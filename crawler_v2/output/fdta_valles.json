@@ -1,0 +1,454 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Abril_Pairumani_2023.csv": {
+                        "descripcion": "Datos Agrometereológicos",
+                        "url_descarga": "https://fundacionvalles.org/wp-content/uploads/2024/07/Abril_Pairumani_2023.pdf",
+                        "fecha_actualizacion": "2024-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/repositorio-virtual/publicaciones/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Publicaciones_-_Fundación_Valles.csv": {
+                        "descripcion": "Publicaciones - Fundación Valles",
+                        "url_descarga": "https://fundacionvalles.org/repositorio-virtual/publicaciones/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://fundacionvalles.org/repositorio-virtual/publicaciones/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "11.1_Producción_de_Hortalizas": {
+            "Calidad_y_certificacion_-_cartilla1.pdf": {
+                "calidad-y-certificacion-cartilla1-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/calidad-y-certificacion-cartilla1-pdf/?filename=Calidad+y+certificacion+-+cartilla1.pdf&ind=62bcaadad5025&refresh=6a8cfd491930b1787624777&wpdmdl=10020",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/calidad-y-certificacion-cartilla1-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Calidad+y+certificacion+%26%238211%3B+cartilla1.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcalidad-y-certificacion-cartilla1-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/calidad-y-certificacion-cartilla1-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Calidad+y+certificacion+%26%238211%3B+cartilla1.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcalidad-y-certificacion-cartilla1-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/calidad-y-certificacion-cartilla1-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Preparacion_y_desinfeccion_de_almacigo_para_Hortalizas_-_cartilla2.pdf": {
+                "preparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/preparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf/?filename=Preparacion+y+desinfeccion+de+almacigo+para+Hortalizas+-+cartilla2.pdf&ind=62bcaad1c166e&refresh=6a8cfd4d988431787624781&wpdmdl=10012",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/preparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Preparacion+y+desinfeccion+de+almacigo+para+Hortalizas+%26%238211%3B+cartilla2.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fpreparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/preparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Preparacion+y+desinfeccion+de+almacigo+para+Hortalizas+%26%238211%3B+cartilla2.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fpreparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/preparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Almacigo_y_sistemas_de_trasplante_de_Cebolla_-_cartilla3.pdf": {
+                "almacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/almacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf/?filename=Almacigo+y+sistemas+de+trasplante+de+Cebolla+-+cartilla3.pdf&ind=62bcaaddefcf4&refresh=6a8cfd535001f1787624787&wpdmdl=10023",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/almacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Almacigo+y+sistemas+de+trasplante+de+Cebolla+%26%238211%3B+cartilla3.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Falmacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/almacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Almacigo+y+sistemas+de+trasplante+de+Cebolla+%26%238211%3B+cartilla3.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Falmacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/almacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Produccion_de_Plantines_en_Bandejas_-_cartilla4.pdf": {
+                "produccion-de-plantines-en-bandejas-cartilla4-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/produccion-de-plantines-en-bandejas-cartilla4-pdf/?filename=Produccion+de+Plantines+en+Bandejas+-+cartilla4.pdf&ind=62bcaad0b5098&refresh=6a8cfd57cb9851787624791&wpdmdl=10011",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/produccion-de-plantines-en-bandejas-cartilla4-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Produccion+de+Plantines+en+Bandejas+%26%238211%3B+cartilla4.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fproduccion-de-plantines-en-bandejas-cartilla4-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/produccion-de-plantines-en-bandejas-cartilla4-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Produccion+de+Plantines+en+Bandejas+%26%238211%3B+cartilla4.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fproduccion-de-plantines-en-bandejas-cartilla4-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/produccion-de-plantines-en-bandejas-cartilla4-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Cultivo_bajo_invernadero_y_construccion_de_invernaderos_-_cartilla5.pdf": {
+                "cultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/cultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf/?filename=Cultivo+bajo+invernadero+y+construccion+de+invernaderos+-+cartilla5.pdf&ind=62bcaad7b57a0&refresh=6a8cfd5c838b41787624796&wpdmdl=10017",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/cultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Cultivo+bajo+invernadero+y+construccion+de+invernaderos+%26%238211%3B+cartilla5.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/cultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Cultivo+bajo+invernadero+y+construccion+de+invernaderos+%26%238211%3B+cartilla5.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/cultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Analisis,_manejo_y_Fertilizacion_de_Suelos_-_cartilla6.pdf": {
+                "analisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/analisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf/?filename=Analisis%2C+manejo+y+Fertilizacion+de+Suelos+-+cartilla6.pdf&ind=62bcaadcedd84&refresh=6a8cfd60d55f51787624800&wpdmdl=10022",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/analisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Analisis%2C+manejo+y+Fertilizacion+de+Suelos+%26%238211%3B+cartilla6.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fanalisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/analisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Analisis%2C+manejo+y+Fertilizacion+de+Suelos+%26%238211%3B+cartilla6.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fanalisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/analisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Eficiencia_del_uso_de_Agua_y_Sistemas_de_Riego_-_cartilla7.pdf": {
+                "eficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/eficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf/?filename=Eficiencia+del+uso+de+Agua+y+Sistemas+de+Riego+-+cartilla7.pdf&ind=62bcaad6a464c&refresh=6a8cfd65065c01787624805&wpdmdl=10016",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/eficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Eficiencia+del+uso+de+Agua+y+Sistemas+de+Riego+%26%238211%3B+cartilla7.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Feficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/eficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Eficiencia+del+uso+de+Agua+y+Sistemas+de+Riego+%26%238211%3B+cartilla7.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Feficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/eficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Manejo_Integrado_de_Plagas_-_cartilla8.pdf": {
+                "manejo-integrado-de-plagas-cartilla8-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/manejo-integrado-de-plagas-cartilla8-pdf/?filename=Manejo+Integrado+de+Plagas+-+cartilla8.pdf&ind=62bcaad4da9fe&refresh=6a8cfd692b2981787624809&wpdmdl=10015",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/manejo-integrado-de-plagas-cartilla8-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Manejo+Integrado+de+Plagas+%26%238211%3B+cartilla8.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fmanejo-integrado-de-plagas-cartilla8-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/manejo-integrado-de-plagas-cartilla8-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Manejo+Integrado+de+Plagas+%26%238211%3B+cartilla8.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fmanejo-integrado-de-plagas-cartilla8-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/manejo-integrado-de-plagas-cartilla8-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Buenas_practicas_Agricolas_y_de_Manufactura_-_cartilla9.pdf": {
+                "buenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/buenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf/?filename=Buenas+practicas+Agricolas+y+de+Manufactura+-+cartilla9.pdf&ind=62bcaadbe523f&refresh=6a8cfd6ce734f1787624812&wpdmdl=10021",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/buenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Buenas+practicas+Agricolas+y+de+Manufactura+%26%238211%3B+cartilla9.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fbuenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/buenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Buenas+practicas+Agricolas+y+de+Manufactura+%26%238211%3B+cartilla9.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fbuenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/buenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "Manejo_integrado_del_cultivo_de_cebolla_-_cartilla11.pdf": {
+                "manejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://fundacionvalles.org/download/manejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf/?filename=Manejo+integrado+del+cultivo+de+cebolla+-+cartilla11.pdf&ind=62bcaad2cce2d&refresh=6a8cfd7112afd1787624817&wpdmdl=10013",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/manejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "sharer.csv": {
+                    "descripcion": "sharer.php",
+                    "url_descarga": "http://www.facebook.com/sharer.php?t=Manejo+integrado+del+cultivo+de+cebolla+%26%238211%3B+cartilla11.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fmanejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/manejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                },
+                "share.csv": {
+                    "descripcion": "share",
+                    "url_descarga": "http://twitter.com/share?text=Manejo+integrado+del+cultivo+de+cebolla+%26%238211%3B+cartilla11.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fmanejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf%2F",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://fundacionvalles.org/download/manejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf/",
+                    "metodo_deteccion": "url_pattern"
+                }
+            },
+            "2": {
+                "Manejo_integrado_de_cultivo_de_tomate_-_cartilla12.pdf": {
+                    "manejo-integrado-de-cultivo-de-tomate-cartilla12-pdf.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://fundacionvalles.org/download/manejo-integrado-de-cultivo-de-tomate-cartilla12-pdf/?filename=Manejo+integrado+de+cultivo+de+tomate+-+cartilla12.pdf&ind=62bcaad3cee68&refresh=6a8cfd79b82d61787624825&wpdmdl=10014",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/manejo-integrado-de-cultivo-de-tomate-cartilla12-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "sharer.csv": {
+                        "descripcion": "sharer.php",
+                        "url_descarga": "http://www.facebook.com/sharer.php?t=Manejo+integrado+de+cultivo+de+tomate+%26%238211%3B+cartilla12.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fmanejo-integrado-de-cultivo-de-tomate-cartilla12-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/manejo-integrado-de-cultivo-de-tomate-cartilla12-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "share.csv": {
+                        "descripcion": "share",
+                        "url_descarga": "http://twitter.com/share?text=Manejo+integrado+de+cultivo+de+tomate+%26%238211%3B+cartilla12.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fmanejo-integrado-de-cultivo-de-tomate-cartilla12-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/manejo-integrado-de-cultivo-de-tomate-cartilla12-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    }
+                },
+                "Costos_de_produccion_-_cartilla13.pdf": {
+                    "costos-de-produccion-cartilla13-pdf.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://fundacionvalles.org/download/costos-de-produccion-cartilla13-pdf/?filename=Costos+de+produccion+-+cartilla13.pdf&ind=62bcaad8bd193&refresh=6a8cfd7e185da1787624830&wpdmdl=10018",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/costos-de-produccion-cartilla13-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "sharer.csv": {
+                        "descripcion": "sharer.php",
+                        "url_descarga": "http://www.facebook.com/sharer.php?t=Costos+de+produccion+%26%238211%3B+cartilla13.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcostos-de-produccion-cartilla13-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/costos-de-produccion-cartilla13-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "share.csv": {
+                        "descripcion": "share",
+                        "url_descarga": "http://twitter.com/share?text=Costos+de+produccion+%26%238211%3B+cartilla13.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcostos-de-produccion-cartilla13-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/costos-de-produccion-cartilla13-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    }
+                },
+                "Cosecha_y_poscosecha_de_hortalizas_-_cartilla14.pdf": {
+                    "cosecha-y-poscosecha-de-hortalizas-cartilla14-pdf.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://fundacionvalles.org/download/cosecha-y-poscosecha-de-hortalizas-cartilla14-pdf/?filename=Cosecha+y+poscosecha+de+hortalizas+-+cartilla14.pdf&ind=62bcaad9c905a&refresh=6a8cfd820649c1787624834&wpdmdl=10019",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/cosecha-y-poscosecha-de-hortalizas-cartilla14-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "sharer.csv": {
+                        "descripcion": "sharer.php",
+                        "url_descarga": "http://www.facebook.com/sharer.php?t=Cosecha+y+poscosecha+de+hortalizas+%26%238211%3B+cartilla14.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcosecha-y-poscosecha-de-hortalizas-cartilla14-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/cosecha-y-poscosecha-de-hortalizas-cartilla14-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "share.csv": {
+                        "descripcion": "share",
+                        "url_descarga": "http://twitter.com/share?text=Cosecha+y+poscosecha+de+hortalizas+%26%238211%3B+cartilla14.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fcosecha-y-poscosecha-de-hortalizas-cartilla14-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/cosecha-y-poscosecha-de-hortalizas-cartilla14-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    }
+                },
+                "Productos_y_mercados_-_cartilla15.pdf": {
+                    "productos-y-mercados-cartilla15-pdf.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/?filename=Productos+y+mercados+-+cartilla15.pdf&ind=62bcaacfb1f90&refresh=6a8cfd865478c1787624838&wpdmdl=10010",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "sharer.csv": {
+                        "descripcion": "sharer.php",
+                        "url_descarga": "http://www.facebook.com/sharer.php?t=Productos+y+mercados+%26%238211%3B+cartilla15.pdf&u=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fproductos-y-mercados-cartilla15-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "share.csv": {
+                        "descripcion": "share",
+                        "url_descarga": "http://twitter.com/share?text=Productos+y+mercados+%26%238211%3B+cartilla15.pdf&url=https%3A%2F%2Ffundacionvalles.org%2Fdownload%2Fproductos-y-mercados-cartilla15-pdf%2F",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/",
+                        "metodo_deteccion": "url_pattern"
+                    },
+                    "REPORTE_Y_CONSULTAS": {
+                        "CONTENIDO_WEB": {
+                            "Productos_y_mercados_–_cartilla15.pdf_-_Fundación_Valles.csv": {
+                                "descripcion": "Productos y mercados – cartilla15.pdf - Fundación Valles",
+                                "url_descarga": "https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/",
+                                "fecha_actualizacion": "No disponible",
+                                "tipo_archivo": "WEB",
+                                "url_origen": "https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/?cp=2",
+                                "tipo_recurso": "web",
+                                "metodo_deteccion": "exportable_data_page",
+                                "tiene_tabla_html": false,
+                                "tablas_detectadas": 0,
+                                "permite_exportar": true,
+                                "tiene_filtros": false
+                            }
+                        }
+                    }
+                },
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Producción_de_Hortalizas_-_Fundación_Valles.csv": {
+                            "descripcion": "Producción de Hortalizas - Fundación Valles",
+                            "url_descarga": "https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/?cp=2",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Producción_de_Hortalizas_-_Fundación_Valles.csv": {
+                        "descripcion": "Producción de Hortalizas - Fundación Valles",
+                        "url_descarga": "https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://fundacionvalles.org/repositorio-virtual/publicaciones/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

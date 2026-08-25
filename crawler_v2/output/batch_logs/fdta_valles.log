@@ -1,0 +1,108 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Fundación para el Desarrollo Tecnológico Agropecuario de los Valles
+URL configurada: https://fundacionvalles.org/repositorio-virtual/publicaciones/
+Timeout HTTP: 20 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://fundacionvalles.org/repositorio-virtual/publicaciones/
+  Utilizada: https://fundacionvalles.org/repositorio-virtual/publicaciones/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://fundacionvalles.org/repositorio-virtual/publicaciones/
+
+URL de trabajo: https://fundacionvalles.org/repositorio-virtual/publicaciones/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[FDTA_VALLES] SITEMAP | docs=4 | urls=0 | en_cola=0 | errores=1
+[FDTA_VALLES] t=  20.9s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://fundacionvalles.org/repositorio-virtual/publicaciones/
+[FDTA_VALLES] DATASETS=1 | configured_data_page | https://fundacionvalles.org/repositorio-virtual/publicaciones/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/11038
+[FDTA_VALLES] t=  26.5s | pag=  1 | files=   1 | data=  1 | cola=  43 | prio= 0 | https://fundacionvalles.org/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/6
+[FDTA_VALLES] t=  30.6s | pag=  2 | files=   1 | data=  1 | cola=  49 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/11038
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/11038
+[FDTA_VALLES] t=  32.7s | pag=  2 | files=   1 | data=  1 | cola=  48 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/6
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/6
+[FDTA_VALLES] t=  36.1s | pag=  2 | files=   1 | data=  1 | cola=  47 | prio=10 | https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/10828
+[FDTA_VALLES] t=  41.9s | pag=  3 | files=   1 | data=  1 | cola=  47 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/10828
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/10828
+[FDTA_VALLES] t=  43.8s | pag=  3 | files=   1 | data=  1 | cola=  46 | prio=10 | https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/
+[FDTA_VALLES] DATASETS=2 | exportable_data_page | https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/10006
+[FDTA_VALLES] t=  49.6s | pag=  4 | files=   1 | data=  2 | cola=  57 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/10006
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/10006
+[FDTA_VALLES] t=  51.6s | pag=  4 | files=   1 | data=  2 | cola=  56 | prio=10 | https://fundacionvalles.org/repositorio-virtual/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/11001
+[FDTA_VALLES] t=  57.3s | pag=  5 | files=   1 | data=  2 | cola=  56 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/11001
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/11001
+[FDTA_VALLES] t=  59.2s | pag=  5 | files=   1 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/transforma-tu-cosecha-con-nuestro-kit-de-manuales-agricolas/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/posts/11803
+[FDTA_VALLES] t=  66.4s | pag=  6 | files=   1 | data=  2 | cola=  55 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/posts/11803
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/posts/11803
+[FDTA_VALLES] t=  68.3s | pag=  6 | files=   1 | data=  2 | cola=  54 | prio=10 | https://fundacionvalles.org/download/calidad-y-certificacion-cartilla1-pdf/
+[FDTA_VALLES] t=  73.8s | pag=  7 | files=   4 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/preparacion-y-desinfeccion-de-almacigo-para-hortalizas-cartilla2-pdf/
+[FDTA_VALLES] t=  79.6s | pag=  8 | files=   7 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/almacigo-y-sistemas-de-trasplante-de-cebolla-cartilla3-pdf/
+[FDTA_VALLES] t=  84.1s | pag=  9 | files=  10 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/produccion-de-plantines-en-bandejas-cartilla4-pdf/
+[FDTA_VALLES] t=  88.8s | pag= 10 | files=  13 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/cultivo-bajo-invernadero-y-construccion-de-invernaderos-cartilla5-pdf/
+[FDTA_VALLES] t=  93.1s | pag= 11 | files=  16 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/analisis-manejo-y-fertilizacion-de-suelos-cartilla6-pdf/
+[FDTA_VALLES] t=  97.2s | pag= 12 | files=  19 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/eficiencia-del-uso-de-agua-y-sistemas-de-riego-cartilla7-pdf/
+[FDTA_VALLES] t= 101.4s | pag= 13 | files=  22 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/manejo-integrado-de-plagas-cartilla8-pdf/
+[FDTA_VALLES] t= 105.2s | pag= 14 | files=  25 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/buenas-practicas-agricolas-y-de-manufactura-cartilla9-pdf/
+[FDTA_VALLES] t= 109.3s | pag= 15 | files=  28 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/download/manejo-integrado-del-cultivo-de-cebolla-cartilla11-pdf/
+[FDTA_VALLES] t= 113.6s | pag= 16 | files=  31 | data=  2 | cola=  55 | prio=10 | https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/?cp=2
+[FDTA_VALLES] DATASETS=3 | exportable_data_page | https://fundacionvalles.org/programas-y-proyectos/mercados-rurales/produccion-de-hortalizas/?cp=2
+[FDTA_VALLES] t= 117.8s | pag= 17 | files=  31 | data=  3 | cola=  58 | prio=10 | https://fundacionvalles.org/download/manejo-integrado-de-cultivo-de-tomate-cartilla12-pdf/
+[FDTA_VALLES] t= 122.3s | pag= 18 | files=  34 | data=  3 | cola=  57 | prio=10 | https://fundacionvalles.org/download/costos-de-produccion-cartilla13-pdf/
+[FDTA_VALLES] t= 126.3s | pag= 19 | files=  37 | data=  3 | cola=  56 | prio=10 | https://fundacionvalles.org/download/cosecha-y-poscosecha-de-hortalizas-cartilla14-pdf/
+[FDTA_VALLES] t= 130.6s | pag= 20 | files=  40 | data=  3 | cola=  55 | prio=10 | https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/
+[FDTA_VALLES] DATASETS=4 | exportable_data_page | https://fundacionvalles.org/download/productos-y-mercados-cartilla15-pdf/
+[FDTA_VALLES] t= 134.9s | pag= 21 | files=  43 | data=  4 | cola=  54 | prio=50 | https://fundacionvalles.org/tutoriales/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/11610
+[FDTA_VALLES] t= 138.9s | pag= 22 | files=  43 | data=  4 | cola=  54 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/11610
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/11610
+[FDTA_VALLES] t= 140.9s | pag= 22 | files=  43 | data=  4 | cola=  53 | prio=50 | https://fundacionvalles.org/estructura/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/9661
+[FDTA_VALLES] t= 146.9s | pag= 23 | files=  43 | data=  4 | cola=  53 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/9661
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/9661
+[FDTA_VALLES] t= 148.9s | pag= 23 | files=  43 | data=  4 | cola=  52 | prio=50 | https://fundacionvalles.org/plan-estrategico-institucional/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/9782
+[FDTA_VALLES] t= 154.6s | pag= 24 | files=  43 | data=  4 | cola=  52 | prio= 1 | https://fundacionvalles.org/wp-json/wp/v2/pages/9782
+[FDTA_VALLES] API SONDEO FALLIDO | https://fundacionvalles.org/wp-json/wp/v2/pages/9782
+[FDTA_VALLES] t= 156.5s | pag= 24 | files=  43 | data=  4 | cola=  51 | prio=50 | https://fundacionvalles.org/que-hacemos/modelo-de-intervencion/
+[FDTA_VALLES] API REFERENCIA | html_link_reference | https://fundacionvalles.org/wp-json/wp/v2/pages/9681
+[FDTA_VALLES] API SONDEOS FALLIDOS | total=9
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fdta_valles
+Páginas visitadas:   25
+Archivos encontrados:   43
+Datasets web:         4
+Errores:              1
+Motivo de parada:     max_pages
+Duración:             162.41 s
+Sitemaps procesados:  4
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 43
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fdta_valles.json
+
+Trazabilidad:
+  Ejecución: 182
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

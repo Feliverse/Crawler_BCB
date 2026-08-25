@@ -1,0 +1,64 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Viceministerio de Inversión Pública y Financiamiento Externo
+URL configurada: https://www.planificacion.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.planificacion.gob.bo/
+  Utilizada: https://www.planificacion.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.planificacion.gob.bo/
+
+URL de trabajo: https://www.planificacion.gob.bo/
+Seeds: 7
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[VIPFE] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[VIPFE] t=   3.5s | pag=  0 | files=   0 | data=  0 | cola=   6 | prio= 0 | https://www.planificacion.gob.bo/
+[VIPFE] t=   4.2s | pag=  1 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.planificacion.gob.bo/page/content/1464
+[VIPFE] DATASETS=1 | configured_data_page | https://www.planificacion.gob.bo/page/content/1464
+[VIPFE] t=   5.0s | pag=  2 | files=   0 | data=  1 | cola=   4 | prio= 0 | https://www.planificacion.gob.bo/institucion/vipfe/info
+[VIPFE] t=   5.5s | pag=  3 | files=   0 | data=  1 | cola=   3 | prio= 0 | https://sisin.planificacion.gob.bo/
+[VIPFE] DATASETS=2 | configured_data_page | https://sisin.planificacion.gob.bo/
+[VIPFE] t=   6.7s | pag=  4 | files=   0 | data=  2 | cola=   2 | prio= 0 | https://sisin8.planificacion.gob.bo/bsn/ktr1/login/login/index.php
+[VIPFE] DATASETS=3 | configured_data_page | https://sisin8.planificacion.gob.bo/bsn/ktr1/login/login/index.php
+[VIPFE] t=   7.6s | pag=  5 | files=   3 | data=  3 | cola=   3 | prio= 0 | https://sisin.planificacion.gob.bo/docs/220420261401_COMUNICADO%2000002_0001.pdf
+[VIPFE] t=   8.4s | pag=  5 | files=   4 | data=  3 | cola=   2 | prio= 0 | https://sisin.planificacion.gob.bo/docs/020120251949_PROGRAMACION_FINANCIERA_2025.pdf
+[VIPFE] t=   9.2s | pag=  5 | files=   5 | data=  3 | cola=   1 | prio=10 | https://capacitacion.planificacion.gob.bo/
+[VIPFE] t=  10.2s | pag=  6 | files=   5 | data=  3 | cola=   0 | prio=50 | https://tpp.planificacion.gob.bo/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              vipfe
+Páginas visitadas:   7
+Archivos encontrados:    5
+Datasets web:         3
+Errores:              0
+Motivo de parada:     frontier_exhausted
+Duración:             11.05 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DOCX   : 1
+  - PDF    : 3
+  - XLSX   : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\vipfe.json
+
+Trazabilidad:
+  Ejecución: 209
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

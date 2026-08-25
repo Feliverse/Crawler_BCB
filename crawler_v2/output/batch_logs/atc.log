@@ -1,0 +1,76 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Administradora de Tarjetas de Crédito / Red Enlace
+URL configurada: https://www.redenlace.com.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.redenlace.com.bo/
+  Utilizada: https://www.redenlace.com.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.redenlace.com.bo/
+
+URL de trabajo: https://www.redenlace.com.bo/
+Seeds: 1
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ATC] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[ATC] t=   3.8s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.redenlace.com.bo/
+[ATC] t=   4.7s | pag=  1 | files=   0 | data=  0 | cola=  42 | prio=10 | https://www.redenlace.com.bo/sobre-red-enlace/memorias
+[ATC] t=   5.2s | pag=  2 | files=  12 | data=  0 | cola=  41 | prio=10 | https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia
+[ATC] t=   6.1s | pag=  3 | files=  31 | data=  0 | cola=  40 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera
+[ATC] t=   6.6s | pag=  4 | files=  31 | data=  0 | cola=  41 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/aprendiendo-con-red-enlace
+[ATC] t=   7.0s | pag=  5 | files=  31 | data=  0 | cola=  40 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera
+[ATC] t=   7.6s | pag=  6 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/solicitud-de-reembolso-activos-virtuales
+[ATC] t=   8.3s | pag=  7 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/punto-de-reclamo
+[ATC] t=   9.1s | pag=  8 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios
+[ATC] t=   9.9s | pag=  9 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte
+[ATC] t=  10.7s | pag= 10 | files=  39 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace
+[ATC] t=  11.6s | pag= 11 | files=  39 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes
+[ATC] t=  12.6s | pag= 12 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/afiliate-en-linea
+[ATC] t=  13.5s | pag= 13 | files=  39 | data=  0 | cola=  42 | prio=50 | https://portal.redenlace.com.bo/
+[ATC] t=  14.2s | pag= 14 | files=  39 | data=  0 | cola=  41 | prio=50 | https://afiliaciones.redenlace.com.bo/Solicitud/Externo/Mantenimiento
+[ATC] t=  15.4s | pag= 15 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/quiero-cobrar-con-tarjeta-en-mi-negocio
+[ATC] t=  16.2s | pag= 16 | files=  39 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/quiero-cobrar-por-internet-en-mi-tienda-virtual
+[ATC] t=  16.7s | pag= 17 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/activos-virtuales
+[ATC] t=  17.1s | pag= 18 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/varias-formas-de-cobrar-con-red-enlace
+[ATC] t=  17.9s | pag= 19 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/pix
+[ATC] t=  18.5s | pag= 19 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/la-red-mas-segura-de-bolivia
+[ATC] t=  19.1s | pag= 20 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/enlazate-online
+[ATC] t=  19.7s | pag= 21 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/red-enlace-acepta-las-exclusivas-tarjetas-american-express
+[ATC] t=  20.5s | pag= 22 | files=  39 | data=  0 | cola=  35 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog
+[ATC] t=  21.0s | pag= 23 | files=  39 | data=  0 | cola=  34 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/declaracion-de-privacidad-y-confidencialidad-de-la-informacion-de-la-app-de-portal-de-comercios
+[ATC] t=  21.5s | pag= 24 | files=  39 | data=  0 | cola=  33 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              atc
+Páginas visitadas:   25
+Archivos encontrados:   39
+Datasets web:         0
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             22.19 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 39
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\atc.json
+
+Trazabilidad:
+  Ejecución: 168
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

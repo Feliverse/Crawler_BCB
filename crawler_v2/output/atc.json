@@ -1,0 +1,324 @@
+{
+    "ESTADISTICAS": {
+        "Memorias": {
+            "32_memoria-anual-2025-1.csv": {
+                "descripcion": "32_memoria-anual-2025-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/32_memoria-anual-2025-1.pdf",
+                "fecha_actualizacion": "2025-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "28_gestion-2024-1.csv": {
+                "descripcion": "28_gestion-2024-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/28_gestion-2024-1.pdf",
+                "fecha_actualizacion": "2024-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "24_gestion-2023-1.csv": {
+                "descripcion": "24_gestion-2023-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/24_gestion-2023-1.pdf",
+                "fecha_actualizacion": "2023-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "18_gestion-2022-1.csv": {
+                "descripcion": "18_gestion-2022-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/18_gestion-2022-1.pdf",
+                "fecha_actualizacion": "2022-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "15_gestion-2021-3.csv": {
+                "descripcion": "15_gestion-2021-3.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/15_gestion-2021-3.pdf",
+                "fecha_actualizacion": "2021-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "14_gestion-2020-2.csv": {
+                "descripcion": "14_gestion-2020-2.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/14_gestion-2020-2.pdf",
+                "fecha_actualizacion": "2020-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "11_memoria-2019-2.csv": {
+                "descripcion": "11_memoria-2019-2.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/11_memoria-2019-2.pdf",
+                "fecha_actualizacion": "2019-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "4_gestion-2018-1.csv": {
+                "descripcion": "4_gestion-2018-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/4_gestion-2018-1.pdf",
+                "fecha_actualizacion": "2018-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "3_gestion-2017-3.csv": {
+                "descripcion": "3_gestion-2017-3.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/3_gestion-2017-3.pdf",
+                "fecha_actualizacion": "2017-03",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "2_gestion-2016-1.csv": {
+                "descripcion": "2_gestion-2016-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/2_gestion-2016-1.pdf",
+                "fecha_actualizacion": "2016-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "6_gestion-2015-1.csv": {
+                "descripcion": "6_gestion-2015-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/6_gestion-2015-1.pdf",
+                "fecha_actualizacion": "2015-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            },
+            "5_gestion-2014-1.csv": {
+                "descripcion": "5_gestion-2014-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/5_gestion-2014-1.pdf",
+                "fecha_actualizacion": "2014-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Documentos_relacionados_al_Contrato_de_Adquirencia": {
+            "67_terminos-y-condiciones-del-uso-del-punto-de-venta-electronico-pos.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES DEL USO DEL PUNTO DE VENTA ELECTRÓNICO (PO...",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-del-uso-del-punto-de-venta-electronico-pos.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-de-transacciones-bajo-la-modalidad-de-debito-automatico.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES DE TRANSACCIONES BAJO LA MODALIDAD DE DÉBI...",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-de-transacciones-bajo-la-modalidad-de-debito-automatico.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-del-plan-cuotas-financiado-por-el-banco.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES DEL PLAN CUOTAS FINANCIADO POR EL BANCO",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-del-plan-cuotas-financiado-por-el-banco.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-del-plan-cuotas-financiado-por-la-empresa-aceptante.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES DEL PLAN CUOTAS FINANCIADO POR LA EMPRESA A...",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-del-plan-cuotas-financiado-por-la-empresa-aceptante.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-a-la-habilitacion-de-retiro-de-efectivo.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES A LA HABILITACIÓN DE RETIRO DE EFECTIVO",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-a-la-habilitacion-de-retiro-de-efectivo.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-del-servicio-de-mipos.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES DEL SERVICIO DE Mi•POS",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-del-servicio-de-mipos.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-al-servicio-de-transacciones-sin-tarjeta-presente.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES AL SERVICIO DE TRANSACCIONES SIN TARJETA PR...",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-al-servicio-de-transacciones-sin-tarjeta-presente.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-del-uso-del-virtual-terminal-e-invoicing.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES DEL USO DEL VIRTUAL TERMINAL E INVOICING",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-del-uso-del-virtual-terminal-e-invoicing.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-a-la-liquidacion-de-transacciones-a-traves-de-cybersource.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES A LA LIQUIDACION DE TRANSACCIONES A TRAVÉS...",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-a-la-liquidacion-de-transacciones-a-traves-de-cybersource.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_definiciones.csv": {
+                "descripcion": "Definiciones",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_definiciones.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_guia-de-contracargo-mastercard.csv": {
+                "descripcion": "GUÍA DE CONTRACARGO - MASTERCARD",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_guia-de-contracargo-mastercard.PDF",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_reglas-basicas-de-visa-y-reglas-de-productos-y-servicios-visa.csv": {
+                "descripcion": "Reglas Básicas de Visa y Reglas de Productos y Servicios Visa",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_reglas-basicas-de-visa-y-reglas-de-productos-y-servicios-visa.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-amex.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES AMEX",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-amex.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-para-cuentahabientes-pix.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES PARA CUENTAHABIENTES PIX",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-para-cuentahabientes-pix.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-para-aceptantes-pix.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES PARA ACEPTANTES PIX",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-para-aceptantes-pix.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-atc-con-comercio-procesamiento-de-operaciones-vinculadas-a-billeteras-de-activos-virtuales-asfi.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES - ATC CON COMERCIO - PROCESAMIENTO DE OPERA...",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-atc-con-comercio-procesamiento-de-operaciones-vinculadas-a-billeteras-de-activos-virtuales-asfi.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_terminos-y-condiciones-onboarding-digital.csv": {
+                "descripcion": "TERMINOS Y CONDICIONES ONBOARDING DIGITAL",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_terminos-y-condiciones-onboarding-digital.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_politica-de-eliminacion-de-datos-onboarding-digital.csv": {
+                "descripcion": "POLÍTICA DE ELIMINACIÓN DE DATOS ONBOARDING DIGITAL",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_politica-de-eliminacion-de-datos-onboarding-digital.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            },
+            "67_tarifario.csv": {
+                "descripcion": "TARIFARIO",
+                "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/67_tarifario.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Educación_Financiera": {
+            "programa_de_educacion_financiera": {
+                "78_programa-de-educacion-financiera-2022.csv": {
+                    "descripcion": "Programa de Educación Financiera 2022",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2022.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2021.csv": {
+                    "descripcion": "Programa de Educación Financiera 2021",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2021.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2020.csv": {
+                    "descripcion": "Programa de Educación Financiera 2020",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2020.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2019.csv": {
+                    "descripcion": "Programa de Educación Financiera 2019",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2019.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2023.csv": {
+                    "descripcion": "Programa de Educacion Financiera 2023",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2023.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2024.csv": {
+                    "descripcion": "Programa de Educación Financiera 2024",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2024.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2025.csv": {
+                    "descripcion": "Programa de Educación Financiera 2025",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2025.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                },
+                "78_programa-de-educacion-financiera-2026.csv": {
+                    "descripcion": "Programa de Educación Financiera 2026",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/78_programa-de-educacion-financiera-2026.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        }
+    }
+}

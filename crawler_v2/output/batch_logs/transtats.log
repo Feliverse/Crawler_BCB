@@ -1,0 +1,75 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: US Bureau of Transportation Statistics - TranStats
+URL configurada: https://www.transtats.bts.gov/
+Timeout HTTP: 20 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.transtats.bts.gov/
+  Utilizada: https://www.transtats.bts.gov/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.transtats.bts.gov/
+
+URL de trabajo: https://www.transtats.bts.gov/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1500
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[TRANSTATS] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[TRANSTATS] t=   6.8s | pag=  0 | files=   0 | data=  0 | cola=   2 | prio= 0 | https://www.transtats.bts.gov/
+[TRANSTATS] t=   9.2s | pag=  1 | files=   0 | data=  0 | cola=  54 | prio= 0 | https://www.transtats.bts.gov/DataIndex.asp
+[TRANSTATS] t=  10.4s | pag=  2 | files=   0 | data=  0 | cola= 110 | prio= 0 | https://www.transtats.bts.gov/Employment/
+[TRANSTATS] DATASETS=1 | data_html_table | https://www.transtats.bts.gov/Employment/
+[TRANSTATS] t=  13.0s | pag=  3 | files=   0 | data=  1 | cola= 164 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_Qr5p=N8vn6v10&Z1qr_VQ=E&f7owrp6_VQF=D
+[TRANSTATS] t=  13.7s | pag=  4 | files=   0 | data=  1 | cola= 182 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_Qr5p=Zn4v6vzr&Z1qr_VQ=F&f7owrp6_VQF=D
+[TRANSTATS] t=  14.9s | pag=  5 | files=   0 | data=  1 | cola= 194 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_Qr5p=Uvtu9nB&Z1qr_VQ=G&f7owrp6_VQF=D
+[TRANSTATS] t=  15.6s | pag=  6 | files=   0 | data=  1 | cola= 209 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_Qr5p=g4n05v6&Z1qr_VQ=H&f7owrp6_VQF=D
+[TRANSTATS] t=  16.5s | pag=  7 | files=   0 | data=  1 | cola= 212 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_Qr5p=envy&Z1qr_VQ=I&f7owrp6_VQF=D
+[TRANSTATS] t=  18.0s | pag=  8 | files=   0 | data=  1 | cola= 214 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_Qr5p=cv2ryv0r&Z1qr_VQ=J&f7owrp6_VQF=D
+[TRANSTATS] t=  19.4s | pag=  9 | files=   0 | data=  1 | cola= 214 | prio= 1 | https://www.transtats.bts.gov/Databases.asp?Z1qr_Qr5p=Ovxr%2Fcrqr564vn0&Z1qr_VQ=K&f7owrp6_VQF=D
+[TRANSTATS] t=  22.0s | pag= 10 | files=   0 | data=  1 | cola= 213 | prio= 1 | https://www.transtats.bts.gov/Databases.asp?Z1qr_Qr5p=b6ur4&Z1qr_VQ=MM&f7owrp6_VQF=D
+[TRANSTATS] t=  22.9s | pag= 11 | files=   0 | data=  1 | cola= 227 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=fnsr6B&f7owrp6_VQ=E
+[TRANSTATS] t=  24.1s | pag= 12 | files=   0 | data=  1 | cola= 236 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=S4rvtu6%EF%BF%BDg4n052146&f7owrp6_VQ=F
+[TRANSTATS] t=  25.1s | pag= 13 | files=   0 | data=  1 | cola= 238 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=cn55r0tr4%EF%BF%BDg4n8ry&f7owrp6_VQ=G
+[TRANSTATS] t=  26.2s | pag= 14 | files=   0 | data=  1 | cola= 238 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=V0s4n5647p674r&f7owrp6_VQ=H
+[TRANSTATS] t=  27.7s | pag= 15 | files=   0 | data=  1 | cola= 243 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=Rp101zvp%2FSv0n0pvny&f7owrp6_VQ=I
+[TRANSTATS] t=  29.6s | pag= 15 | files=   0 | data=  1 | cola= 242 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=f1pvny%2FQrz1t4n2uvp&f7owrp6_VQ=J
+[TRANSTATS] t=  32.3s | pag= 15 | files=   0 | data=  1 | cola= 241 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=R0r4tB&f7owrp6_VQ=K
+[TRANSTATS] t=  34.4s | pag= 16 | files=   0 | data=  1 | cola= 241 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=R08v410zr06&f7owrp6_VQ=L
+[TRANSTATS] t=  35.3s | pag= 17 | files=   0 | data=  1 | cola= 241 | prio= 1 | https://www.transtats.bts.gov/databases.asp?Z1qr_VQF=D&f7owrp6_Qr5p=an6v10ny%EF%BF%BDfrp74v6B&f7owrp6_VQ=M
+[TRANSTATS] t=  36.0s | pag= 18 | files=   0 | data=  1 | cola= 241 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=N&yv5614qr4=QNgNONfR
+[TRANSTATS] t=  36.8s | pag= 19 | files=   0 | data=  1 | cola= 241 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=O&yv5614qr4=QNgNONfR
+[TRANSTATS] t=  37.7s | pag= 20 | files=   0 | data=  1 | cola= 241 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=P&yv5614qr4=QNgNONfR
+[TRANSTATS] t=  38.7s | pag= 21 | files=   0 | data=  1 | cola= 260 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=Q&yv5614qr4=QNgNONfR
+[TRANSTATS] t=  39.7s | pag= 22 | files=   0 | data=  1 | cola= 259 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=R&yv5614qr4=QNgNONfR
+[TRANSTATS] t=  40.5s | pag= 23 | files=   0 | data=  1 | cola= 260 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=S&yv5614qr4=QNgNONfR
+[TRANSTATS] t=  41.5s | pag= 24 | files=   0 | data=  1 | cola= 265 | prio= 1 | https://www.transtats.bts.gov/dataindex.asp?v0qrA=T&yv5614qr4=QNgNONfR
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              transtats
+Páginas visitadas:   25
+Archivos encontrados:    0
+Datasets web:         1
+Errores:              0
+Motivo de parada:     max_pages
+Duración:             42.44 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\transtats.json
+
+Trazabilidad:
+  Ejecución: 207
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
