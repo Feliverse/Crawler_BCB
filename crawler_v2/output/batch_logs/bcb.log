@@ -1,0 +1,996 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Banco Central de Bolivia
+URL configurada: https://www.bcb.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.bcb.gob.bo/
+  Utilizada: https://www.bcb.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.bcb.gob.bo/
+
+URL de trabajo: https://www.bcb.gob.bo/
+Seeds: 1
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[BCB] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[BCB] t=   9.6s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.bcb.gob.bo/
+[BCB] t=  11.9s | pag=  1 | files=  16 | data=  0 | cola= 106 | prio= 2 | https://www.bcb.gob.bo/?q=pub_memorias-institucionales
+[BCB] t=  12.9s | pag=  2 | files= 110 | data=  0 | cola= 156 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-diario
+[BCB] t=  14.3s | pag=  3 | files= 110 | data=  0 | cola= 155 | prio= 2 | https://www.bcb.gob.bo/?q=moneda-mercado-semanal
+[BCB] t=  15.6s | pag=  4 | files= 120 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos
+[BCB] t=  17.3s | pag=  5 | files= 130 | data=  0 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informes-sobre-inversion
+[BCB] t=  18.4s | pag=  6 | files= 130 | data=  0 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?q=reservas_internacionales_bcb
+[BCB] t=  19.7s | pag=  7 | files= 138 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=marco-normativo
+[BCB] t=  20.7s | pag=  8 | files= 142 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=informes-deuda-externa-publica
+[BCB] t=  22.0s | pag=  9 | files= 142 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Festados-de-la-deuda-externa
+[BCB] t=  23.4s | pag= 10 | files= 142 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera
+[BCB] t=  24.5s | pag= 11 | files= 151 | data=  0 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?q=operaciones-mercado-abierto
+[BCB] t=  26.0s | pag= 12 | files= 151 | data=  0 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?q=pub_informe-vigilancia-sistema-pagos
+[BCB] t=  27.4s | pag= 13 | files= 151 | data=  0 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-balanza-pagos
+[BCB] t=  28.5s | pag= 14 | files= 151 | data=  0 | cola= 158 | prio= 2 | https://www.bcb.gob.bo/?q=pub_reporte-deuda-externa-privada
+[BCB] t=  30.4s | pag= 15 | files= 151 | data=  0 | cola= 157 | prio= 2 | https://www.bcb.gob.bo/?q=boletines-mensuales
+[BCB] t=  31.4s | pag= 16 | files= 163 | data=  0 | cola= 165 | prio= 2 | https://www.bcb.gob.bo/?q=reporte-estadistico
+[BCB] DATASETS=1 | exportable_data_page | https://www.bcb.gob.bo/?q=reporte-estadistico
+[BCB] t=  32.9s | pag= 17 | files= 196 | data=  1 | cola= 173 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria
+[BCB] t=  34.2s | pag= 18 | files= 203 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia
+[BCB] t=  35.3s | pag= 19 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense
+[BCB] t=  36.9s | pag= 20 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense-serie-de-tiempo
+[BCB] t=  38.6s | pag= 21 | files= 213 | data=  1 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fvalor-referencial-de-compra-del-d%C3%B3lar-estadounidense-3
+[BCB] t=  40.4s | pag= 22 | files= 213 | data=  1 | cola= 174 | prio= 2 | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[BCB] DATASETS=2 | data_html_table | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos
+[BCB] t=  42.2s | pag= 23 | files= 213 | data=  2 | cola= 176 | prio= 2 | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[BCB] DATASETS=3 | data_html_table | https://www.bcb.gob.bo/?q=indicadores_inflacion
+[BCB] t=  43.5s | pag= 24 | files= 213 | data=  3 | cola= 188 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fverificador-de-n%C3%BAmero-de-serie
+[BCB] t=  44.6s | pag= 25 | files= 213 | data=  3 | cola= 187 | prio= 2 | https://www.bcb.gob.bo/calculadora-ufv/
+[BCB] t=  45.7s | pag= 26 | files= 213 | data=  3 | cola= 186 | prio= 2 | https://www.bcb.gob.bo/?q=encuesta_publicaciones
+[BCB] t=  47.4s | pag= 27 | files= 213 | data=  3 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?q=pub_boletin-estadistico
+[BCB] t=  48.5s | pag= 28 | files= 388 | data=  3 | cola= 192 | prio= 2 | https://www.bcb.gob.bo/?q=publicaciones_dtr
+[BCB] t=  49.9s | pag= 29 | files= 398 | data=  3 | cola= 202 | prio= 2 | https://www.bcb.gob.bo/?q=pub_documentos-trabajo
+[BCB] DATASETS=4 | exportable_data_page | https://www.bcb.gob.bo/?q=pub_documentos-trabajo
+[BCB] t=  51.4s | pag= 30 | files= 428 | data=  4 | cola= 205 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=pub_memorias-institucionales
+[BCB] t=  52.7s | pag= 31 | files= 538 | data=  4 | cola= 204 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=pub_memorias-institucionales
+[BCB] t= 119.8s | pag= 32 | files= 613 | data=  4 | cola= 203 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=pub_memorias-institucionales
+[BCB] t= 301.4s | pag= 33 | files= 685 | data=  4 | cola= 202 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=pub_memorias-institucionales
+[BCB] t= 403.7s | pag= 34 | files= 725 | data=  4 | cola= 201 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=moneda-mercado-semanal
+[BCB] t= 405.6s | pag= 35 | files= 735 | data=  4 | cola= 200 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=moneda-mercado-semanal
+[BCB] t= 407.1s | pag= 36 | files= 745 | data=  4 | cola= 199 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=moneda-mercado-semanal
+[BCB] t= 408.7s | pag= 37 | files= 755 | data=  4 | cola= 198 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=moneda-mercado-semanal
+[BCB] t= 410.3s | pag= 38 | files= 765 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=moneda-mercado-semanal
+[BCB] t= 411.7s | pag= 39 | files= 775 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=moneda-mercado-semanal
+[BCB] t= 413.1s | pag= 40 | files= 785 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=moneda-mercado-semanal
+[BCB] t= 414.3s | pag= 41 | files= 795 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=moneda-mercado-semanal
+[BCB] t= 415.6s | pag= 42 | files= 805 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=110&q=moneda-mercado-semanal
+[BCB] t= 417.0s | pag= 43 | files= 815 | data=  4 | cola= 204 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=informe-vigilancia-sistema-pagos
+[BCB] t= 418.2s | pag= 44 | files= 820 | data=  4 | cola= 203 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=informe-de-estabilidad-financiera
+[BCB] t= 419.5s | pag= 45 | files= 830 | data=  4 | cola= 202 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=informe-de-estabilidad-financiera
+[BCB] t= 421.2s | pag= 46 | files= 840 | data=  4 | cola= 201 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=informe-de-estabilidad-financiera
+[BCB] t= 422.8s | pag= 47 | files= 849 | data=  4 | cola= 200 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=boletines-mensuales
+[BCB] t= 424.4s | pag= 48 | files= 861 | data=  4 | cola= 199 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=boletines-mensuales
+[BCB] t= 425.8s | pag= 49 | files= 873 | data=  4 | cola= 198 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=boletines-mensuales
+[BCB] t= 427.6s | pag= 50 | files= 885 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=boletines-mensuales
+[BCB] t= 428.7s | pag= 51 | files= 897 | data=  4 | cola= 196 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=boletines-mensuales
+[BCB] t= 429.9s | pag= 52 | files= 909 | data=  4 | cola= 196 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=boletines-mensuales
+[BCB] t= 431.0s | pag= 53 | files= 921 | data=  4 | cola= 196 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=boletines-mensuales
+[BCB] t= 432.8s | pag= 54 | files= 933 | data=  4 | cola= 196 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=boletines-mensuales
+[BCB] t= 434.0s | pag= 55 | files= 945 | data=  4 | cola= 196 | prio= 2 | https://www.bcb.gob.bo/?page=19&q=boletines-mensuales
+[BCB] t= 435.5s | pag= 56 | files= 946 | data=  4 | cola= 201 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=reporte-estadistico
+[BCB] t= 436.7s | pag= 57 | files= 976 | data=  4 | cola= 200 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=reporte-estadistico
+[BCB] t= 438.4s | pag= 58 | files=1006 | data=  4 | cola= 199 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=reporte-estadistico
+[BCB] t= 440.1s | pag= 59 | files=1036 | data=  4 | cola= 198 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=reporte-estadistico
+[BCB] t= 441.6s | pag= 60 | files=1066 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=reporte-estadistico
+[BCB] t= 442.9s | pag= 61 | files=1096 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=reporte-estadistico
+[BCB] t= 444.7s | pag= 62 | files=1126 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=reporte-estadistico
+[BCB] t= 446.4s | pag= 63 | files=1156 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=reporte-estadistico
+[BCB] t= 447.7s | pag= 64 | files=1186 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=16&q=reporte-estadistico
+[BCB] t= 449.2s | pag= 65 | files=1190 | data=  4 | cola= 199 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=pub_serie-compendios-encuentro-economistas-bolivia
+[BCB] t= 450.7s | pag= 66 | files=1193 | data=  4 | cola= 198 | prio= 2 | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Ffaqs
+[BCB] t= 452.3s | pag= 67 | files=1193 | data=  4 | cola= 198 | prio= 2 | https://www.bcb.gob.bo/?q=servicios%2Fufv%2Freglamentos
+[BCB] t= 454.9s | pag= 68 | files=1196 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/librerias/indicadores/ufv/ultimo.php
+[BCB] t= 455.9s | pag= 69 | files=1196 | data=  4 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] DATASETS=5 | data_html_table | https://www.bcb.gob.bo/?q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 457.4s | pag= 70 | files=1196 | data=  5 | cola= 205 | prio= 2 | https://www.bcb.gob.bo/?q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] DATASETS=6 | data_html_table | https://www.bcb.gob.bo/?q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 458.9s | pag= 71 | files=1196 | data=  6 | cola= 213 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=indicadores_inflacion
+[BCB] t= 460.4s | pag= 72 | files=1196 | data=  6 | cola= 212 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=indicadores_inflacion
+[BCB] t= 461.6s | pag= 73 | files=1196 | data=  6 | cola= 211 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=indicadores_inflacion
+[BCB] t= 463.4s | pag= 74 | files=1196 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=indicadores_inflacion
+[BCB] t= 464.9s | pag= 75 | files=1196 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=indicadores_inflacion
+[BCB] t= 466.6s | pag= 76 | files=1196 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=indicadores_inflacion
+[BCB] t= 468.3s | pag= 77 | files=1196 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=indicadores_inflacion
+[BCB] t= 469.7s | pag= 78 | files=1196 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=indicadores_inflacion
+[BCB] t= 471.7s | pag= 79 | files=1196 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=18&q=indicadores_inflacion
+[BCB] t= 473.0s | pag= 80 | files=1196 | data=  6 | cola= 213 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=pub_boletin-estadistico
+[BCB] t= 474.2s | pag= 81 | files=1206 | data=  6 | cola= 212 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=pub_boletin-estadistico
+[BCB] t= 475.8s | pag= 82 | files=1216 | data=  6 | cola= 211 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=pub_boletin-estadistico
+[BCB] t= 477.7s | pag= 83 | files=1226 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=pub_boletin-estadistico
+[BCB] t= 479.0s | pag= 84 | files=1236 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=pub_boletin-estadistico
+[BCB] t= 480.7s | pag= 85 | files=1246 | data=  6 | cola= 208 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=pub_boletin-estadistico
+[BCB] t= 482.4s | pag= 86 | files=1270 | data=  6 | cola= 207 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=pub_boletin-estadistico
+[BCB] t= 483.9s | pag= 87 | files=1420 | data=  6 | cola= 206 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=pub_boletin-estadistico
+[BCB] t= 485.0s | pag= 88 | files=1525 | data=  6 | cola= 205 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=publicaciones_dtr
+[BCB] t= 486.7s | pag= 89 | files=1531 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=9&q=moneda-mercado-semanal
+[BCB] t= 488.1s | pag= 90 | files=1541 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=10&q=moneda-mercado-semanal
+[BCB] t= 489.7s | pag= 91 | files=1551 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=11&q=moneda-mercado-semanal
+[BCB] t= 490.9s | pag= 92 | files=1561 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=12&q=moneda-mercado-semanal
+[BCB] t= 492.1s | pag= 93 | files=1571 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=109&q=moneda-mercado-semanal
+[BCB] t= 493.4s | pag= 94 | files=1576 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=102&q=moneda-mercado-semanal
+[BCB] t= 494.7s | pag= 95 | files=1586 | data=  6 | cola= 212 | prio= 2 | https://www.bcb.gob.bo/?page=103&q=moneda-mercado-semanal
+[BCB] t= 496.1s | pag= 96 | files=1596 | data=  6 | cola= 211 | prio= 2 | https://www.bcb.gob.bo/?page=104&q=moneda-mercado-semanal
+[BCB] t= 497.6s | pag= 97 | files=1603 | data=  6 | cola= 210 | prio= 2 | https://www.bcb.gob.bo/?page=105&q=moneda-mercado-semanal
+[BCB] t= 499.3s | pag= 98 | files=1612 | data=  6 | cola= 209 | prio= 2 | https://www.bcb.gob.bo/?page=106&q=moneda-mercado-semanal
+[BCB] t= 500.9s | pag= 99 | files=1622 | data=  6 | cola= 208 | prio= 2 | https://www.bcb.gob.bo/?page=107&q=moneda-mercado-semanal
+[BCB] t= 502.5s | pag=100 | files=1632 | data=  6 | cola= 207 | prio= 2 | https://www.bcb.gob.bo/?page=108&q=moneda-mercado-semanal
+[BCB] t= 503.7s | pag=101 | files=1642 | data=  6 | cola= 206 | prio= 2 | https://www.bcb.gob.bo/?page=9&q=boletines-mensuales
+[BCB] t= 505.0s | pag=102 | files=1654 | data=  6 | cola= 205 | prio= 2 | https://www.bcb.gob.bo/?page=10&q=boletines-mensuales
+[BCB] t= 506.5s | pag=103 | files=1666 | data=  6 | cola= 204 | prio= 2 | https://www.bcb.gob.bo/?page=11&q=boletines-mensuales
+[BCB] t= 508.0s | pag=104 | files=1678 | data=  6 | cola= 203 | prio= 2 | https://www.bcb.gob.bo/?page=12&q=boletines-mensuales
+[BCB] t= 509.5s | pag=105 | files=1690 | data=  6 | cola= 202 | prio= 2 | https://www.bcb.gob.bo/?page=18&q=boletines-mensuales
+[BCB] t= 510.7s | pag=106 | files=1702 | data=  6 | cola= 201 | prio= 2 | https://www.bcb.gob.bo/?page=13&q=boletines-mensuales
+[BCB] t= 512.5s | pag=107 | files=1714 | data=  6 | cola= 200 | prio= 2 | https://www.bcb.gob.bo/?page=14&q=boletines-mensuales
+[BCB] t= 514.0s | pag=108 | files=1726 | data=  6 | cola= 199 | prio= 2 | https://www.bcb.gob.bo/?page=15&q=boletines-mensuales
+[BCB] t= 515.3s | pag=109 | files=1738 | data=  6 | cola= 198 | prio= 2 | https://www.bcb.gob.bo/?page=16&q=boletines-mensuales
+[BCB] t= 516.6s | pag=110 | files=1750 | data=  6 | cola= 197 | prio= 2 | https://www.bcb.gob.bo/?page=17&q=boletines-mensuales
+[BCB] t= 518.1s | pag=111 | files=1762 | data=  6 | cola= 196 | prio= 2 | https://www.bcb.gob.bo/?page=9&q=reporte-estadistico
+[BCB] t= 519.4s | pag=112 | files=1783 | data=  6 | cola= 195 | prio= 2 | https://www.bcb.gob.bo/?page=10&q=reporte-estadistico
+[BCB] t= 521.0s | pag=113 | files=1803 | data=  6 | cola= 194 | prio= 2 | https://www.bcb.gob.bo/?page=11&q=reporte-estadistico
+[BCB] t= 522.2s | pag=114 | files=1823 | data=  6 | cola= 193 | prio= 2 | https://www.bcb.gob.bo/?page=12&q=reporte-estadistico
+[BCB] t= 523.7s | pag=115 | files=1843 | data=  6 | cola= 192 | prio= 2 | https://www.bcb.gob.bo/?page=15&q=reporte-estadistico
+[BCB] t= 525.1s | pag=116 | files=1853 | data=  6 | cola= 191 | prio= 2 | https://www.bcb.gob.bo/?page=13&q=reporte-estadistico
+[BCB] t= 526.5s | pag=117 | files=1870 | data=  6 | cola= 190 | prio= 2 | https://www.bcb.gob.bo/?page=14&q=reporte-estadistico
+[BCB] t= 527.8s | pag=118 | files=1880 | data=  6 | cola= 189 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 529.4s | pag=119 | files=1880 | data=  6 | cola= 188 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 530.9s | pag=120 | files=1880 | data=  6 | cola= 187 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 532.6s | pag=121 | files=1880 | data=  6 | cola= 186 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 534.3s | pag=122 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 535.8s | pag=123 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 537.2s | pag=124 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 538.8s | pag=125 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 540.0s | pag=126 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=18&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 541.5s | pag=127 | files=1880 | data=  6 | cola= 189 | prio= 2 | https://www.bcb.gob.bo/?page=1&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 542.9s | pag=128 | files=1880 | data=  6 | cola= 188 | prio= 2 | https://www.bcb.gob.bo/?page=2&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 544.2s | pag=129 | files=1880 | data=  6 | cola= 187 | prio= 2 | https://www.bcb.gob.bo/?page=3&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 545.6s | pag=130 | files=1880 | data=  6 | cola= 186 | prio= 2 | https://www.bcb.gob.bo/?page=4&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 547.4s | pag=131 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=5&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 549.0s | pag=132 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=6&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 550.7s | pag=133 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=7&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 552.0s | pag=134 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=8&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 553.5s | pag=135 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=18&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 555.1s | pag=136 | files=1880 | data=  6 | cola= 189 | prio= 2 | https://www.bcb.gob.bo/?page=9&q=indicadores_inflacion
+[BCB] t= 556.4s | pag=137 | files=1880 | data=  6 | cola= 188 | prio= 2 | https://www.bcb.gob.bo/?page=10&q=indicadores_inflacion
+[BCB] t= 558.0s | pag=138 | files=1880 | data=  6 | cola= 187 | prio= 2 | https://www.bcb.gob.bo/?page=11&q=indicadores_inflacion
+[BCB] t= 559.3s | pag=139 | files=1880 | data=  6 | cola= 186 | prio= 2 | https://www.bcb.gob.bo/?page=12&q=indicadores_inflacion
+[BCB] t= 560.8s | pag=140 | files=1880 | data=  6 | cola= 185 | prio= 2 | https://www.bcb.gob.bo/?page=17&q=indicadores_inflacion
+[BCB] t= 562.3s | pag=141 | files=1880 | data=  6 | cola= 184 | prio= 2 | https://www.bcb.gob.bo/?page=13&q=indicadores_inflacion
+[BCB] t= 563.5s | pag=142 | files=1880 | data=  6 | cola= 183 | prio= 2 | https://www.bcb.gob.bo/?page=14&q=indicadores_inflacion
+[BCB] t= 565.0s | pag=143 | files=1880 | data=  6 | cola= 182 | prio= 2 | https://www.bcb.gob.bo/?page=15&q=indicadores_inflacion
+[BCB] t= 566.8s | pag=144 | files=1880 | data=  6 | cola= 181 | prio= 2 | https://www.bcb.gob.bo/?page=16&q=indicadores_inflacion
+[BCB] t= 568.5s | pag=145 | files=1880 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=13&q=moneda-mercado-semanal
+[BCB] t= 569.7s | pag=146 | files=1890 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=14&q=moneda-mercado-semanal
+[BCB] t= 571.2s | pag=147 | files=1900 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=15&q=moneda-mercado-semanal
+[BCB] t= 572.7s | pag=148 | files=1910 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=16&q=moneda-mercado-semanal
+[BCB] t= 574.4s | pag=149 | files=1920 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=101&q=moneda-mercado-semanal
+[BCB] t= 576.1s | pag=150 | files=1930 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=98&q=moneda-mercado-semanal
+[BCB] t= 577.2s | pag=151 | files=1940 | data=  6 | cola= 182 | prio= 2 | https://www.bcb.gob.bo/?page=99&q=moneda-mercado-semanal
+[BCB] t= 578.7s | pag=152 | files=1946 | data=  6 | cola= 181 | prio= 2 | https://www.bcb.gob.bo/?page=100&q=moneda-mercado-semanal
+[BCB] t= 579.9s | pag=153 | files=1956 | data=  6 | cola= 180 | prio= 2 | https://www.bcb.gob.bo/?page=9&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 581.1s | pag=154 | files=1956 | data=  6 | cola= 179 | prio= 2 | https://www.bcb.gob.bo/?page=10&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 582.7s | pag=155 | files=1956 | data=  6 | cola= 178 | prio= 2 | https://www.bcb.gob.bo/?page=11&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 583.9s | pag=156 | files=1956 | data=  6 | cola= 177 | prio= 2 | https://www.bcb.gob.bo/?page=12&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 585.6s | pag=157 | files=1956 | data=  6 | cola= 176 | prio= 2 | https://www.bcb.gob.bo/?page=17&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 587.2s | pag=158 | files=1956 | data=  6 | cola= 175 | prio= 2 | https://www.bcb.gob.bo/?page=13&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 588.7s | pag=159 | files=1956 | data=  6 | cola= 174 | prio= 2 | https://www.bcb.gob.bo/?page=14&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 590.4s | pag=160 | files=1956 | data=  6 | cola= 173 | prio= 2 | https://www.bcb.gob.bo/?page=15&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 592.2s | pag=161 | files=1956 | data=  6 | cola= 172 | prio= 2 | https://www.bcb.gob.bo/?page=16&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=0
+[BCB] t= 593.9s | pag=162 | files=1956 | data=  6 | cola= 171 | prio= 2 | https://www.bcb.gob.bo/?page=9&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 595.6s | pag=163 | files=1956 | data=  6 | cola= 170 | prio= 2 | https://www.bcb.gob.bo/?page=10&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 597.2s | pag=164 | files=1956 | data=  6 | cola= 169 | prio= 2 | https://www.bcb.gob.bo/?page=11&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 598.3s | pag=165 | files=1956 | data=  6 | cola= 168 | prio= 2 | https://www.bcb.gob.bo/?page=12&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 604.3s | pag=166 | files=1956 | data=  6 | cola= 167 | prio= 2 | https://www.bcb.gob.bo/?page=17&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 605.6s | pag=167 | files=1956 | data=  6 | cola= 166 | prio= 2 | https://www.bcb.gob.bo/?page=13&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 607.0s | pag=168 | files=1956 | data=  6 | cola= 165 | prio= 2 | https://www.bcb.gob.bo/?page=14&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 608.4s | pag=169 | files=1956 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=15&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 609.9s | pag=170 | files=1956 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=16&q=indicadores_inflacion&qt-indicadores_de_inflaci_n=1
+[BCB] t= 611.2s | pag=171 | files=1956 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=17&q=moneda-mercado-semanal
+[BCB] t= 612.9s | pag=172 | files=1966 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=18&q=moneda-mercado-semanal
+[BCB] t= 614.4s | pag=173 | files=1976 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=19&q=moneda-mercado-semanal
+[BCB] t= 616.2s | pag=174 | files=1986 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=20&q=moneda-mercado-semanal
+[BCB] t= 617.9s | pag=175 | files=1996 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=97&q=moneda-mercado-semanal
+[BCB] t= 619.7s | pag=176 | files=2006 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=94&q=moneda-mercado-semanal
+[BCB] t= 621.2s | pag=177 | files=2013 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=95&q=moneda-mercado-semanal
+[BCB] t= 622.6s | pag=178 | files=2023 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=96&q=moneda-mercado-semanal
+[BCB] t= 624.3s | pag=179 | files=2033 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=21&q=moneda-mercado-semanal
+[BCB] t= 625.7s | pag=180 | files=2043 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=22&q=moneda-mercado-semanal
+[BCB] t= 626.8s | pag=181 | files=2053 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=23&q=moneda-mercado-semanal
+[BCB] t= 628.0s | pag=182 | files=2063 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=24&q=moneda-mercado-semanal
+[BCB] t= 629.7s | pag=183 | files=2073 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=93&q=moneda-mercado-semanal
+[BCB] t= 631.1s | pag=184 | files=2083 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=90&q=moneda-mercado-semanal
+[BCB] t= 632.3s | pag=185 | files=2093 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=91&q=moneda-mercado-semanal
+[BCB] t= 633.8s | pag=186 | files=2103 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=92&q=moneda-mercado-semanal
+[BCB] t= 634.9s | pag=187 | files=2113 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=25&q=moneda-mercado-semanal
+[BCB] t= 636.2s | pag=188 | files=2123 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=26&q=moneda-mercado-semanal
+[BCB] t= 637.9s | pag=189 | files=2133 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=27&q=moneda-mercado-semanal
+[BCB] t= 639.4s | pag=190 | files=2143 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=28&q=moneda-mercado-semanal
+[BCB] t= 641.1s | pag=191 | files=2153 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=89&q=moneda-mercado-semanal
+[BCB] t= 642.7s | pag=192 | files=2158 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=86&q=moneda-mercado-semanal
+[BCB] t= 644.4s | pag=193 | files=2168 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=87&q=moneda-mercado-semanal
+[BCB] t= 645.7s | pag=194 | files=2178 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=88&q=moneda-mercado-semanal
+[BCB] t= 646.9s | pag=195 | files=2188 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=29&q=moneda-mercado-semanal
+[BCB] t= 648.3s | pag=196 | files=2198 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=30&q=moneda-mercado-semanal
+[BCB] t= 649.6s | pag=197 | files=2208 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=31&q=moneda-mercado-semanal
+[BCB] t= 651.4s | pag=198 | files=2218 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=32&q=moneda-mercado-semanal
+[BCB] t= 652.8s | pag=199 | files=2228 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=85&q=moneda-mercado-semanal
+[BCB] t= 654.3s | pag=200 | files=2238 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=82&q=moneda-mercado-semanal
+[BCB] t= 655.9s | pag=201 | files=2248 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=83&q=moneda-mercado-semanal
+[BCB] t= 657.4s | pag=202 | files=2258 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=84&q=moneda-mercado-semanal
+[BCB] t= 658.8s | pag=203 | files=2263 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=33&q=moneda-mercado-semanal
+[BCB] t= 660.3s | pag=204 | files=2273 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=34&q=moneda-mercado-semanal
+[BCB] t= 661.8s | pag=205 | files=2283 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=35&q=moneda-mercado-semanal
+[BCB] t= 663.0s | pag=206 | files=2293 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=36&q=moneda-mercado-semanal
+[BCB] t= 664.8s | pag=207 | files=2303 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=81&q=moneda-mercado-semanal
+[BCB] t= 666.2s | pag=208 | files=2313 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=78&q=moneda-mercado-semanal
+[BCB] t= 667.8s | pag=209 | files=2323 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=79&q=moneda-mercado-semanal
+[BCB] t= 669.4s | pag=210 | files=2333 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=80&q=moneda-mercado-semanal
+[BCB] t= 670.7s | pag=211 | files=2343 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=37&q=moneda-mercado-semanal
+[BCB] t= 672.5s | pag=212 | files=2353 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=38&q=moneda-mercado-semanal
+[BCB] t= 673.8s | pag=213 | files=2363 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=39&q=moneda-mercado-semanal
+[BCB] t= 675.0s | pag=214 | files=2373 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=40&q=moneda-mercado-semanal
+[BCB] t= 676.5s | pag=215 | files=2383 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=77&q=moneda-mercado-semanal
+[BCB] t= 677.9s | pag=216 | files=2393 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=74&q=moneda-mercado-semanal
+[BCB] t= 679.1s | pag=217 | files=2400 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=75&q=moneda-mercado-semanal
+[BCB] t= 680.7s | pag=218 | files=2410 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=76&q=moneda-mercado-semanal
+[BCB] t= 681.9s | pag=219 | files=2420 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=41&q=moneda-mercado-semanal
+[BCB] t= 683.6s | pag=220 | files=2430 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=42&q=moneda-mercado-semanal
+[BCB] t= 684.9s | pag=221 | files=2440 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=43&q=moneda-mercado-semanal
+[BCB] t= 686.4s | pag=222 | files=2450 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=44&q=moneda-mercado-semanal
+[BCB] t= 687.9s | pag=223 | files=2460 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=73&q=moneda-mercado-semanal
+[BCB] t= 689.4s | pag=224 | files=2470 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=70&q=moneda-mercado-semanal
+[BCB] t= 690.9s | pag=225 | files=2480 | data=  6 | cola= 164 | prio= 2 | https://www.bcb.gob.bo/?page=71&q=moneda-mercado-semanal
+[BCB] t= 692.4s | pag=226 | files=2490 | data=  6 | cola= 163 | prio= 2 | https://www.bcb.gob.bo/?page=72&q=moneda-mercado-semanal
+[BCB] t= 693.7s | pag=227 | files=2500 | data=  6 | cola= 162 | prio= 2 | https://www.bcb.gob.bo/?page=45&q=moneda-mercado-semanal
+[BCB] t= 694.9s | pag=228 | files=2510 | data=  6 | cola= 161 | prio= 2 | https://www.bcb.gob.bo/?page=46&q=moneda-mercado-semanal
+[BCB] t= 696.3s | pag=229 | files=2520 | data=  6 | cola= 160 | prio= 2 | https://www.bcb.gob.bo/?page=47&q=moneda-mercado-semanal
+[BCB] t= 697.7s | pag=230 | files=2530 | data=  6 | cola= 159 | prio= 2 | https://www.bcb.gob.bo/?page=48&q=moneda-mercado-semanal
+[BCB] t= 699.5s | pag=231 | files=2540 | data=  6 | cola= 158 | prio= 2 | https://www.bcb.gob.bo/?page=69&q=moneda-mercado-semanal
+[BCB] t= 701.2s | pag=232 | files=2550 | data=  6 | cola= 157 | prio= 2 | https://www.bcb.gob.bo/?page=66&q=moneda-mercado-semanal
+[BCB] t= 702.9s | pag=233 | files=2560 | data=  6 | cola= 156 | prio= 2 | https://www.bcb.gob.bo/?page=67&q=moneda-mercado-semanal
+[BCB] t= 704.4s | pag=234 | files=2570 | data=  6 | cola= 155 | prio= 2 | https://www.bcb.gob.bo/?page=68&q=moneda-mercado-semanal
+[BCB] t= 706.2s | pag=235 | files=2580 | data=  6 | cola= 154 | prio=10 | https://www.bcb.gob.bo/?q=content%2Freporte-de-inflaci%C3%B3n-y-pol%C3%ADtica-monetaria
+[BCB] t= 707.5s | pag=236 | files=2580 | data=  6 | cola= 154 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fprograma-monetario-0
+[BCB] t= 708.8s | pag=237 | files=2582 | data=  6 | cola= 153 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fprograma-monetario
+[BCB] t= 710.4s | pag=238 | files=2582 | data=  6 | cola= 153 | prio=10 | https://www.bcb.gob.bo/?q=publicacion-omas
+[BCB] t= 712.2s | pag=239 | files=2582 | data=  6 | cola= 152 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fsector-externo-0
+[BCB] t= 713.7s | pag=240 | files=2672 | data=  6 | cola= 153 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fsector-monetario
+[BCB] DATASETS=7 | exportable_data_page | https://www.bcb.gob.bo/?q=content%2Fsector-monetario
+[BCB] t= 715.2s | pag=241 | files=2729 | data=  7 | cola= 152 | prio=10 | https://www.bcb.gob.bo/?q=pub_reporte-saldos-flujos
+[BCB] t= 716.6s | pag=242 | files=2729 | data=  7 | cola= 151 | prio=10 | https://www.bcb.gob.bo/?q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos
+[BCB] t= 717.9s | pag=243 | files=2795 | data=  7 | cola= 158 | prio=10 | https://www.bcb.gob.bo/?q=encuesta-expectativas-economicas
+[BCB] t= 719.2s | pag=244 | files=2795 | data=  7 | cola= 158 | prio=10 | https://www.bcb.gob.bo/bcb_tco_publico_detalle_historico.php
+[BCB] t= 720.5s | pag=245 | files=2795 | data=  7 | cola= 158 | prio=10 | https://www.bcb.gob.bo/?q=inflacion_mensual
+[BCB] DATASETS=8 | data_html_table | https://www.bcb.gob.bo/?q=inflacion_mensual
+[BCB] t= 721.8s | pag=246 | files=2795 | data=  8 | cola= 166 | prio=10 | https://www.bcb.gob.bo/?q=inflacion_anual
+[BCB] DATASETS=9 | data_html_table | https://www.bcb.gob.bo/?q=inflacion_anual
+[BCB] t= 723.3s | pag=247 | files=2795 | data=  9 | cola= 169 | prio=10 | https://www.bcb.gob.bo/?page=1&q=pub_documentos-trabajo
+[BCB] t= 724.8s | pag=248 | files=2825 | data=  9 | cola= 168 | prio=10 | https://www.bcb.gob.bo/?page=2&q=pub_documentos-trabajo
+[BCB] t= 726.4s | pag=249 | files=2855 | data=  9 | cola= 167 | prio=10 | https://www.bcb.gob.bo/?page=3&q=pub_documentos-trabajo
+[BCB] t= 727.6s | pag=250 | files=2885 | data=  9 | cola= 166 | prio=10 | https://www.bcb.gob.bo/?page=4&q=pub_documentos-trabajo
+[BCB] t= 729.1s | pag=251 | files=2903 | data=  9 | cola= 165 | prio=10 | https://www.bcb.gob.bo/reporte-inflacion-politica-monetaria-embed
+[BCB] t= 730.2s | pag=252 | files=2905 | data=  9 | cola= 164 | prio=10 | https://www.bcb.gob.bo/apec-programa-monetario-embed
+[BCB] t= 731.8s | pag=253 | files=2919 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/implementacion-del-sexto-manual
+[BCB] t= 733.3s | pag=254 | files=2923 | data=  9 | cola= 162 | prio=10 | https://www.bcb.gob.bo/?q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=0
+[BCB] t= 734.9s | pag=255 | files=2923 | data=  9 | cola= 165 | prio=10 | https://www.bcb.gob.bo/?q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=1
+[BCB] t= 736.7s | pag=256 | files=2923 | data=  9 | cola= 168 | prio=10 | https://www.bcb.gob.bo/?page=1&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos
+[BCB] t= 738.2s | pag=257 | files=2973 | data=  9 | cola= 167 | prio=10 | https://www.bcb.gob.bo/?page=2&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos
+[BCB] t= 739.6s | pag=258 | files=3025 | data=  9 | cola= 166 | prio=10 | https://www.bcb.gob.bo/?page=3&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos
+[BCB] t= 740.8s | pag=259 | files=3059 | data=  9 | cola= 165 | prio=10 | https://www.bcb.gob.bo/?page=4&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos
+[BCB] t= 743.4s | pag=260 | files=3061 | data=  9 | cola= 164 | prio=10 | https://www.bcb.gob.bo/?q=pub_avance-cifras-rbp
+[BCB] t= 744.5s | pag=261 | files=3061 | data=  9 | cola= 165 | prio=10 | https://www.bcb.gob.bo/?q=pub_avance-cifras-rbpiv
+[BCB] t= 745.5s | pag=262 | files=3061 | data=  9 | cola= 168 | prio=10 | https://www.bcb.gob.bo/bcb_tco_publico_descargar_csv.php
+[BCB] t= 746.7s | pag=262 | files=3062 | data=  9 | cola= 167 | prio=10 | https://www.bcb.gob.bo/?page=1&q=inflacion_mensual
+[BCB] t= 748.7s | pag=263 | files=3062 | data=  9 | cola= 166 | prio=10 | https://www.bcb.gob.bo/?page=2&q=inflacion_mensual
+[BCB] t= 749.7s | pag=264 | files=3062 | data=  9 | cola= 165 | prio=10 | https://www.bcb.gob.bo/?page=3&q=inflacion_mensual
+[BCB] t= 751.4s | pag=265 | files=3062 | data=  9 | cola= 164 | prio=10 | https://www.bcb.gob.bo/?page=4&q=inflacion_mensual
+[BCB] t= 753.0s | pag=266 | files=3062 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/?page=5&q=inflacion_mensual
+[BCB] t= 754.1s | pag=267 | files=3062 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/?page=6&q=inflacion_mensual
+[BCB] t= 755.6s | pag=268 | files=3062 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/?page=7&q=inflacion_mensual
+[BCB] t= 756.9s | pag=269 | files=3062 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/?page=8&q=inflacion_mensual
+[BCB] t= 758.2s | pag=270 | files=3062 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/?page=18&q=inflacion_mensual
+[BCB] t= 759.5s | pag=271 | files=3062 | data=  9 | cola= 167 | prio=10 | https://www.bcb.gob.bo/?page=1&q=inflacion_anual
+[BCB] t= 761.3s | pag=272 | files=3062 | data=  9 | cola= 166 | prio=10 | https://www.bcb.gob.bo/?page=2&q=inflacion_anual
+[BCB] t= 762.8s | pag=273 | files=3062 | data=  9 | cola= 165 | prio=10 | https://www.bcb.gob.bo/?page=3&q=inflacion_anual
+[BCB] t= 764.5s | pag=274 | files=3062 | data=  9 | cola= 164 | prio=10 | https://www.bcb.gob.bo/?page=4&q=inflacion_anual
+[BCB] t= 765.8s | pag=275 | files=3062 | data=  9 | cola= 163 | prio=10 | https://www.bcb.gob.bo/?page=1&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=0
+[BCB] t= 767.1s | pag=276 | files=3062 | data=  9 | cola= 162 | prio=10 | https://www.bcb.gob.bo/?page=2&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=0
+[BCB] t= 768.9s | pag=277 | files=3062 | data=  9 | cola= 161 | prio=10 | https://www.bcb.gob.bo/?page=3&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=0
+[BCB] t= 770.6s | pag=278 | files=3062 | data=  9 | cola= 160 | prio=10 | https://www.bcb.gob.bo/?page=4&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=0
+[BCB] t= 772.2s | pag=279 | files=3062 | data=  9 | cola= 159 | prio=10 | https://www.bcb.gob.bo/?page=1&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=1
+[BCB] t= 773.8s | pag=280 | files=3062 | data=  9 | cola= 158 | prio=10 | https://www.bcb.gob.bo/?page=2&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=1
+[BCB] t= 775.3s | pag=281 | files=3062 | data=  9 | cola= 157 | prio=10 | https://www.bcb.gob.bo/?page=3&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=1
+[BCB] t= 776.7s | pag=282 | files=3062 | data=  9 | cola= 156 | prio=10 | https://www.bcb.gob.bo/?page=4&q=content%2Favance-de-cifras-del-reporte-de-balanza-de-pagos&qt-avance_de_cifras_del_reporte_de_=1
+[BCB] t= 778.2s | pag=283 | files=3062 | data=  9 | cola= 155 | prio=10 | https://www.bcb.gob.bo/?page=1&q=pub_avance-cifras-rbp
+[BCB] t= 779.4s | pag=284 | files=3062 | data=  9 | cola= 154 | prio=10 | https://www.bcb.gob.bo/?page=2&q=pub_avance-cifras-rbp
+[BCB] t= 780.7s | pag=285 | files=3062 | data=  9 | cola= 153 | prio=10 | https://www.bcb.gob.bo/?page=1&q=pub_avance-cifras-rbpiv
+[BCB] t= 781.8s | pag=286 | files=3062 | data=  9 | cola= 152 | prio=10 | https://www.bcb.gob.bo/?page=2&q=pub_avance-cifras-rbpiv
+[BCB] t= 783.4s | pag=287 | files=3062 | data=  9 | cola= 151 | prio=10 | https://www.bcb.gob.bo/?page=3&q=pub_avance-cifras-rbpiv
+[BCB] t= 785.0s | pag=288 | files=3062 | data=  9 | cola= 150 | prio=10 | https://www.bcb.gob.bo/?page=4&q=pub_avance-cifras-rbpiv
+[BCB] t= 786.2s | pag=289 | files=3062 | data=  9 | cola= 149 | prio=10 | https://www.bcb.gob.bo/?page=9&q=inflacion_mensual
+[BCB] t= 787.6s | pag=290 | files=3062 | data=  9 | cola= 148 | prio=10 | https://www.bcb.gob.bo/?page=10&q=inflacion_mensual
+[BCB] t= 788.9s | pag=291 | files=3062 | data=  9 | cola= 147 | prio=10 | https://www.bcb.gob.bo/?page=11&q=inflacion_mensual
+[BCB] t= 790.5s | pag=292 | files=3062 | data=  9 | cola= 146 | prio=10 | https://www.bcb.gob.bo/?page=12&q=inflacion_mensual
+[BCB] t= 791.6s | pag=293 | files=3062 | data=  9 | cola= 145 | prio=10 | https://www.bcb.gob.bo/?page=17&q=inflacion_mensual
+[BCB] t= 792.8s | pag=294 | files=3062 | data=  9 | cola= 144 | prio=10 | https://www.bcb.gob.bo/?page=13&q=inflacion_mensual
+[BCB] t= 794.0s | pag=295 | files=3062 | data=  9 | cola= 143 | prio=10 | https://www.bcb.gob.bo/?page=14&q=inflacion_mensual
+[BCB] t= 795.4s | pag=296 | files=3062 | data=  9 | cola= 142 | prio=10 | https://www.bcb.gob.bo/?page=15&q=inflacion_mensual
+[BCB] t= 796.9s | pag=297 | files=3062 | data=  9 | cola= 141 | prio=10 | https://www.bcb.gob.bo/?page=16&q=inflacion_mensual
+[BCB] t= 798.4s | pag=298 | files=3062 | data=  9 | cola= 140 | prio=15 | https://www.bcb.gob.bo/?q=informe_auditoria_informatica
+[BCB] t= 799.8s | pag=299 | files=3072 | data=  9 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?q=informe_auditorias_finacieras
+[BCB] t= 801.1s | pag=300 | files=3082 | data=  9 | cola= 146 | prio=15 | https://www.bcb.gob.bo/?q=informe_auditorias_operativas
+[BCB] t= 802.7s | pag=301 | files=3092 | data=  9 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?q=informe_auditorias_especiales
+[BCB] t= 804.4s | pag=302 | files=3102 | data=  9 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?q=informe_actividades
+[BCB] t= 805.6s | pag=303 | files=3112 | data=  9 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?q=informe_seguimiento
+[BCB] t= 807.1s | pag=304 | files=3122 | data=  9 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?q=ipm
+[BCB] t= 808.5s | pag=305 | files=3122 | data=  9 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?q=boletin_informativo_omm
+[BCB] t= 809.9s | pag=306 | files=3132 | data=  9 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?q=informe_auditoria_relevamiento
+[BCB] t= 811.2s | pag=307 | files=3142 | data=  9 | cola= 170 | prio=15 | https://www.bcb.gob.bo/?q=otros_informes
+[BCB] t= 812.6s | pag=308 | files=3152 | data=  9 | cola= 170 | prio=15 | https://www.bcb.gob.bo/?q=pub_boletin-mensual
+[BCB] DATASETS=10 | exportable_data_page | https://www.bcb.gob.bo/?q=pub_boletin-mensual
+[BCB] t= 814.3s | pag=309 | files=3213 | data= 10 | cola= 178 | prio=15 | https://www.bcb.gob.bo/?q=pub_boletin-sector-externo
+[BCB] t= 815.5s | pag=310 | files=3223 | data= 10 | cola= 181 | prio=15 | https://www.bcb.gob.bo/?q=informes-resultados-viajes-oficiales
+[BCB] t= 816.7s | pag=311 | files=3233 | data= 10 | cola= 189 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_auditoria_informatica
+[BCB] t= 818.3s | pag=312 | files=3243 | data= 10 | cola= 188 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informe_auditoria_informatica
+[BCB] t= 819.6s | pag=313 | files=3253 | data= 10 | cola= 187 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informe_auditoria_informatica
+[BCB] t= 821.0s | pag=314 | files=3263 | data= 10 | cola= 186 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informe_auditoria_informatica
+[BCB] t= 822.6s | pag=315 | files=3271 | data= 10 | cola= 185 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_auditorias_finacieras
+[BCB] t= 824.3s | pag=316 | files=3281 | data= 10 | cola= 184 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informe_auditorias_finacieras
+[BCB] t= 827.8s | pag=317 | files=3291 | data= 10 | cola= 183 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informe_auditorias_finacieras
+[BCB] t= 829.2s | pag=318 | files=3301 | data= 10 | cola= 182 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informe_auditorias_finacieras
+[BCB] t= 830.4s | pag=319 | files=3302 | data= 10 | cola= 181 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_auditorias_operativas
+[BCB] t= 832.7s | pag=320 | files=3312 | data= 10 | cola= 180 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informe_auditorias_operativas
+[BCB] t= 834.2s | pag=321 | files=3322 | data= 10 | cola= 179 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informe_auditorias_operativas
+[BCB] t= 835.4s | pag=322 | files=3332 | data= 10 | cola= 178 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informe_auditorias_operativas
+[BCB] t= 836.9s | pag=323 | files=3342 | data= 10 | cola= 177 | prio=15 | https://www.bcb.gob.bo/?page=5&q=informe_auditorias_operativas
+[BCB] t= 838.0s | pag=324 | files=3352 | data= 10 | cola= 176 | prio=15 | https://www.bcb.gob.bo/?page=6&q=informe_auditorias_operativas
+[BCB] t= 839.5s | pag=325 | files=3362 | data= 10 | cola= 175 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_auditorias_especiales
+[BCB] t= 840.9s | pag=326 | files=3372 | data= 10 | cola= 174 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informe_auditorias_especiales
+[BCB] t= 842.4s | pag=327 | files=3382 | data= 10 | cola= 173 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informe_auditorias_especiales
+[BCB] t= 843.8s | pag=328 | files=3392 | data= 10 | cola= 172 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informe_auditorias_especiales
+[BCB] t= 845.2s | pag=329 | files=3402 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=5&q=informe_auditorias_especiales
+[BCB] t= 846.9s | pag=330 | files=3412 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=6&q=informe_auditorias_especiales
+[BCB] t= 848.5s | pag=331 | files=3422 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=7&q=informe_auditorias_especiales
+[BCB] t= 849.6s | pag=332 | files=3432 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=8&q=informe_auditorias_especiales
+[BCB] t= 851.1s | pag=333 | files=3442 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=19&q=informe_auditorias_especiales
+[BCB] t= 852.5s | pag=334 | files=3447 | data= 10 | cola= 176 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_actividades
+[BCB] t= 854.1s | pag=335 | files=3452 | data= 10 | cola= 175 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_seguimiento
+[BCB] t= 855.4s | pag=336 | files=3462 | data= 10 | cola= 174 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informe_seguimiento
+[BCB] t= 856.7s | pag=337 | files=3472 | data= 10 | cola= 173 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informe_seguimiento
+[BCB] t= 858.3s | pag=338 | files=3482 | data= 10 | cola= 172 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informe_seguimiento
+[BCB] t= 860.0s | pag=339 | files=3492 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=5&q=informe_seguimiento
+[BCB] t= 861.3s | pag=340 | files=3502 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=6&q=informe_seguimiento
+[BCB] t= 862.6s | pag=341 | files=3512 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=7&q=informe_seguimiento
+[BCB] t= 863.8s | pag=342 | files=3522 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=8&q=informe_seguimiento
+[BCB] t= 865.5s | pag=343 | files=3532 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=42&q=informe_seguimiento
+[BCB] t= 866.9s | pag=344 | files=3537 | data= 10 | cola= 178 | prio=15 | https://www.bcb.gob.bo/?page=1&q=boletin_informativo_omm
+[BCB] t= 868.4s | pag=345 | files=3541 | data= 10 | cola= 177 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informe_auditoria_relevamiento
+[BCB] t= 870.0s | pag=346 | files=3551 | data= 10 | cola= 176 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informe_auditoria_relevamiento
+[BCB] t= 871.6s | pag=347 | files=3561 | data= 10 | cola= 175 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informe_auditoria_relevamiento
+[BCB] t= 873.3s | pag=348 | files=3571 | data= 10 | cola= 174 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informe_auditoria_relevamiento
+[BCB] t= 875.0s | pag=349 | files=3581 | data= 10 | cola= 173 | prio=15 | https://www.bcb.gob.bo/?page=5&q=informe_auditoria_relevamiento
+[BCB] t= 876.2s | pag=350 | files=3587 | data= 10 | cola= 172 | prio=15 | https://www.bcb.gob.bo/?page=1&q=otros_informes
+[BCB] t= 877.8s | pag=351 | files=3592 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=1&q=pub_boletin-mensual
+[BCB] t= 879.6s | pag=352 | files=3654 | data= 10 | cola= 170 | prio=15 | https://www.bcb.gob.bo/?page=2&q=pub_boletin-mensual
+[BCB] t= 881.0s | pag=353 | files=3716 | data= 10 | cola= 169 | prio=15 | https://www.bcb.gob.bo/?page=3&q=pub_boletin-mensual
+[BCB] t= 882.4s | pag=354 | files=3717 | data= 10 | cola= 168 | prio=15 | https://www.bcb.gob.bo/?page=4&q=pub_boletin-mensual
+[BCB] t= 883.6s | pag=355 | files=3718 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=5&q=pub_boletin-mensual
+[BCB] t= 885.3s | pag=356 | files=3719 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=6&q=pub_boletin-mensual
+[BCB] t= 886.6s | pag=357 | files=3720 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=7&q=pub_boletin-mensual
+[BCB] t= 888.3s | pag=358 | files=3721 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=8&q=pub_boletin-mensual
+[BCB] t= 889.9s | pag=359 | files=3722 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=216&q=pub_boletin-mensual
+[BCB] t= 891.4s | pag=360 | files=3723 | data= 10 | cola= 174 | prio=15 | https://www.bcb.gob.bo/?page=1&q=pub_boletin-sector-externo
+[BCB] t= 893.0s | pag=361 | files=3733 | data= 10 | cola= 173 | prio=15 | https://www.bcb.gob.bo/?page=2&q=pub_boletin-sector-externo
+[BCB] t= 894.3s | pag=362 | files=3743 | data= 10 | cola= 172 | prio=15 | https://www.bcb.gob.bo/?page=3&q=pub_boletin-sector-externo
+[BCB] t= 896.0s | pag=363 | files=3805 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=4&q=pub_boletin-sector-externo
+[BCB] t= 897.2s | pag=364 | files=3815 | data= 10 | cola= 170 | prio=15 | https://www.bcb.gob.bo/?page=1&q=informes-resultados-viajes-oficiales
+[BCB] t= 898.8s | pag=365 | files=3825 | data= 10 | cola= 169 | prio=15 | https://www.bcb.gob.bo/?page=2&q=informes-resultados-viajes-oficiales
+[BCB] t= 900.0s | pag=366 | files=3835 | data= 10 | cola= 168 | prio=15 | https://www.bcb.gob.bo/?page=3&q=informes-resultados-viajes-oficiales
+[BCB] t= 901.5s | pag=367 | files=3845 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=4&q=informes-resultados-viajes-oficiales
+[BCB] t= 903.1s | pag=368 | files=3855 | data= 10 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?page=5&q=informes-resultados-viajes-oficiales
+[BCB] t= 904.6s | pag=369 | files=3865 | data= 10 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?page=6&q=informes-resultados-viajes-oficiales
+[BCB] t= 905.9s | pag=370 | files=3875 | data= 10 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?page=7&q=informes-resultados-viajes-oficiales
+[BCB] t= 907.3s | pag=371 | files=3885 | data= 10 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?page=8&q=informes-resultados-viajes-oficiales
+[BCB] t= 908.7s | pag=372 | files=3895 | data= 10 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?page=52&q=informes-resultados-viajes-oficiales
+[BCB] t= 910.1s | pag=373 | files=3899 | data= 10 | cola= 173 | prio=15 | https://www.bcb.gob.bo/?page=9&q=informe_auditorias_especiales
+[BCB] t= 911.6s | pag=374 | files=3909 | data= 10 | cola= 172 | prio=15 | https://www.bcb.gob.bo/?page=10&q=informe_auditorias_especiales
+[BCB] t= 913.7s | pag=375 | files=3919 | data= 10 | cola= 171 | prio=15 | https://www.bcb.gob.bo/?page=11&q=informe_auditorias_especiales
+[BCB] t= 915.2s | pag=376 | files=3929 | data= 10 | cola= 170 | prio=15 | https://www.bcb.gob.bo/?page=12&q=informe_auditorias_especiales
+[BCB] t= 917.0s | pag=377 | files=3939 | data= 10 | cola= 169 | prio=15 | https://www.bcb.gob.bo/?page=18&q=informe_auditorias_especiales
+[BCB] t= 918.4s | pag=378 | files=3949 | data= 10 | cola= 168 | prio=15 | https://www.bcb.gob.bo/?page=13&q=informe_auditorias_especiales
+[BCB] t= 920.0s | pag=379 | files=3959 | data= 10 | cola= 167 | prio=15 | https://www.bcb.gob.bo/?page=14&q=informe_auditorias_especiales
+[BCB] t= 921.6s | pag=380 | files=3969 | data= 10 | cola= 166 | prio=15 | https://www.bcb.gob.bo/?page=15&q=informe_auditorias_especiales
+[BCB] t= 922.8s | pag=381 | files=3979 | data= 10 | cola= 165 | prio=15 | https://www.bcb.gob.bo/?page=16&q=informe_auditorias_especiales
+[BCB] t= 924.5s | pag=382 | files=3989 | data= 10 | cola= 164 | prio=15 | https://www.bcb.gob.bo/?page=17&q=informe_auditorias_especiales
+[BCB] t= 925.8s | pag=383 | files=3999 | data= 10 | cola= 163 | prio=15 | https://www.bcb.gob.bo/?page=9&q=informe_seguimiento
+[BCB] t= 927.1s | pag=384 | files=4009 | data= 10 | cola= 163 | prio=15 | https://www.bcb.gob.bo/?page=10&q=informe_seguimiento
+[BCB] t= 928.3s | pag=385 | files=4019 | data= 10 | cola= 163 | prio=15 | https://www.bcb.gob.bo/?page=11&q=informe_seguimiento
+[BCB] t= 929.7s | pag=386 | files=4029 | data= 10 | cola= 163 | prio=15 | https://www.bcb.gob.bo/?page=12&q=informe_seguimiento
+[BCB] t= 931.4s | pag=387 | files=4039 | data= 10 | cola= 163 | prio=15 | https://www.bcb.gob.bo/?page=41&q=informe_seguimiento
+[BCB] t= 932.9s | pag=388 | files=4049 | data= 10 | cola= 162 | prio=15 | https://www.bcb.gob.bo/?page=34&q=informe_seguimiento
+[BCB] t= 934.5s | pag=389 | files=4059 | data= 10 | cola= 165 | prio=15 | https://www.bcb.gob.bo/?page=35&q=informe_seguimiento
+[BCB] t= 936.1s | pag=390 | files=4069 | data= 10 | cola= 164 | prio=15 | https://www.bcb.gob.bo/?page=36&q=informe_seguimiento
+[BCB] t= 937.7s | pag=391 | files=4079 | data= 10 | cola= 163 | prio=15 | https://www.bcb.gob.bo/?page=37&q=informe_seguimiento
+[BCB] t= 939.0s | pag=392 | files=4089 | data= 10 | cola= 162 | prio=15 | https://www.bcb.gob.bo/?page=38&q=informe_seguimiento
+[BCB] t= 941.0s | pag=393 | files=4099 | data= 10 | cola= 161 | prio=15 | https://www.bcb.gob.bo/?page=39&q=informe_seguimiento
+[BCB] t= 942.6s | pag=394 | files=4109 | data= 10 | cola= 160 | prio=15 | https://www.bcb.gob.bo/?page=40&q=informe_seguimiento
+[BCB] t= 943.9s | pag=395 | files=4119 | data= 10 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?page=9&q=pub_boletin-mensual
+[BCB] t= 945.4s | pag=396 | files=4120 | data= 10 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?page=10&q=pub_boletin-mensual
+[BCB] t= 947.1s | pag=397 | files=4121 | data= 10 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?page=11&q=pub_boletin-mensual
+[BCB] t= 948.8s | pag=398 | files=4122 | data= 10 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?page=12&q=pub_boletin-mensual
+[BCB] t= 950.1s | pag=399 | files=4123 | data= 10 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?page=215&q=pub_boletin-mensual
+[BCB] t= 951.5s | pag=400 | files=4124 | data= 10 | cola= 158 | prio=15 | https://www.bcb.gob.bo/?page=208&q=pub_boletin-mensual
+[BCB] t= 952.8s | pag=401 | files=4125 | data= 10 | cola= 161 | prio=15 | https://www.bcb.gob.bo/?page=209&q=pub_boletin-mensual
+[BCB] t= 954.1s | pag=402 | files=4126 | data= 10 | cola= 160 | prio=15 | https://www.bcb.gob.bo/?page=210&q=pub_boletin-mensual
+[BCB] t= 956.0s | pag=403 | files=4127 | data= 10 | cola= 159 | prio=15 | https://www.bcb.gob.bo/?page=211&q=pub_boletin-mensual
+[BCB] t= 957.4s | pag=404 | files=4128 | data= 10 | cola= 158 | prio=15 | https://www.bcb.gob.bo/?page=212&q=pub_boletin-mensual
+[BCB] t= 959.0s | pag=405 | files=4129 | data= 10 | cola= 157 | prio=15 | https://www.bcb.gob.bo/?page=213&q=pub_boletin-mensual
+[BCB] t= 960.3s | pag=406 | files=4130 | data= 10 | cola= 156 | prio=15 | https://www.bcb.gob.bo/?page=214&q=pub_boletin-mensual
+[BCB] t= 961.9s | pag=407 | files=4131 | data= 10 | cola= 155 | prio=15 | https://www.bcb.gob.bo/?page=9&q=informes-resultados-viajes-oficiales
+[BCB] t= 963.1s | pag=408 | files=4141 | data= 10 | cola= 155 | prio=15 | https://www.bcb.gob.bo/?page=10&q=informes-resultados-viajes-oficiales
+[BCB] t= 964.4s | pag=409 | files=4151 | data= 10 | cola= 155 | prio=15 | https://www.bcb.gob.bo/?page=11&q=informes-resultados-viajes-oficiales
+[BCB] t= 965.6s | pag=410 | files=4161 | data= 10 | cola= 155 | prio=15 | https://www.bcb.gob.bo/?page=12&q=informes-resultados-viajes-oficiales
+[BCB] t= 966.8s | pag=411 | files=4171 | data= 10 | cola= 155 | prio=15 | https://www.bcb.gob.bo/?page=51&q=informes-resultados-viajes-oficiales
+[BCB] t= 968.6s | pag=412 | files=4181 | data= 10 | cola= 154 | prio=15 | https://www.bcb.gob.bo/?page=44&q=informes-resultados-viajes-oficiales
+[BCB] t= 970.0s | pag=413 | files=4191 | data= 10 | cola= 157 | prio=15 | https://www.bcb.gob.bo/?page=45&q=informes-resultados-viajes-oficiales
+[BCB] t= 971.4s | pag=414 | files=4201 | data= 10 | cola= 156 | prio=15 | https://www.bcb.gob.bo/?page=46&q=informes-resultados-viajes-oficiales
+[BCB] t= 972.8s | pag=415 | files=4211 | data= 10 | cola= 155 | prio=15 | https://www.bcb.gob.bo/?page=47&q=informes-resultados-viajes-oficiales
+[BCB] t= 974.1s | pag=416 | files=4221 | data= 10 | cola= 154 | prio=15 | https://www.bcb.gob.bo/?page=48&q=informes-resultados-viajes-oficiales
+[BCB] t= 975.5s | pag=417 | files=4231 | data= 10 | cola= 153 | prio=15 | https://www.bcb.gob.bo/?page=49&q=informes-resultados-viajes-oficiales
+[BCB] t= 976.9s | pag=418 | files=4241 | data= 10 | cola= 152 | prio=15 | https://www.bcb.gob.bo/?page=50&q=informes-resultados-viajes-oficiales
+[BCB] t= 978.6s | pag=419 | files=4251 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=13&q=informe_seguimiento
+[BCB] t= 980.0s | pag=420 | files=4261 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=14&q=informe_seguimiento
+[BCB] t= 981.3s | pag=421 | files=4271 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=15&q=informe_seguimiento
+[BCB] t= 982.8s | pag=422 | files=4281 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=16&q=informe_seguimiento
+[BCB] t= 984.2s | pag=423 | files=4291 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=33&q=informe_seguimiento
+[BCB] t= 986.0s | pag=424 | files=4301 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=30&q=informe_seguimiento
+[BCB] t= 987.2s | pag=425 | files=4311 | data= 10 | cola= 153 | prio=15 | https://www.bcb.gob.bo/?page=31&q=informe_seguimiento
+[BCB] t= 988.9s | pag=426 | files=4321 | data= 10 | cola= 152 | prio=15 | https://www.bcb.gob.bo/?page=32&q=informe_seguimiento
+[BCB] t= 990.4s | pag=427 | files=4331 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=13&q=pub_boletin-mensual
+[BCB] t= 991.6s | pag=428 | files=4332 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=14&q=pub_boletin-mensual
+[BCB] t= 993.0s | pag=429 | files=4333 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=15&q=pub_boletin-mensual
+[BCB] t= 994.3s | pag=430 | files=4334 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=16&q=pub_boletin-mensual
+[BCB] t= 995.8s | pag=431 | files=4335 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=207&q=pub_boletin-mensual
+[BCB] t= 997.5s | pag=432 | files=4336 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=204&q=pub_boletin-mensual
+[BCB] t= 999.3s | pag=433 | files=4337 | data= 10 | cola= 153 | prio=15 | https://www.bcb.gob.bo/?page=205&q=pub_boletin-mensual
+[BCB] t=1000.7s | pag=434 | files=4338 | data= 10 | cola= 152 | prio=15 | https://www.bcb.gob.bo/?page=206&q=pub_boletin-mensual
+[BCB] t=1002.6s | pag=435 | files=4339 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=13&q=informes-resultados-viajes-oficiales
+[BCB] t=1003.8s | pag=436 | files=4349 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=14&q=informes-resultados-viajes-oficiales
+[BCB] t=1005.0s | pag=437 | files=4359 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=15&q=informes-resultados-viajes-oficiales
+[BCB] t=1006.3s | pag=438 | files=4369 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=16&q=informes-resultados-viajes-oficiales
+[BCB] t=1008.0s | pag=439 | files=4379 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=43&q=informes-resultados-viajes-oficiales
+[BCB] t=1009.1s | pag=440 | files=4389 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=40&q=informes-resultados-viajes-oficiales
+[BCB] t=1010.7s | pag=441 | files=4399 | data= 10 | cola= 153 | prio=15 | https://www.bcb.gob.bo/?page=41&q=informes-resultados-viajes-oficiales
+[BCB] t=1012.2s | pag=442 | files=4409 | data= 10 | cola= 152 | prio=15 | https://www.bcb.gob.bo/?page=42&q=informes-resultados-viajes-oficiales
+[BCB] t=1013.7s | pag=443 | files=4419 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=17&q=informe_seguimiento
+[BCB] t=1015.0s | pag=444 | files=4429 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=18&q=informe_seguimiento
+[BCB] t=1016.7s | pag=445 | files=4439 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=19&q=informe_seguimiento
+[BCB] t=1018.4s | pag=446 | files=4449 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=20&q=informe_seguimiento
+[BCB] t=1020.2s | pag=447 | files=4459 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=29&q=informe_seguimiento
+[BCB] t=1021.6s | pag=448 | files=4469 | data= 10 | cola= 151 | prio=15 | https://www.bcb.gob.bo/?page=26&q=informe_seguimiento
+[BCB] t=1022.8s | pag=449 | files=4479 | data= 10 | cola= 150 | prio=15 | https://www.bcb.gob.bo/?page=27&q=informe_seguimiento
+[BCB] t=1024.1s | pag=450 | files=4489 | data= 10 | cola= 149 | prio=15 | https://www.bcb.gob.bo/?page=28&q=informe_seguimiento
+[BCB] t=1025.8s | pag=451 | files=4499 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=17&q=pub_boletin-mensual
+[BCB] t=1027.0s | pag=452 | files=4500 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=18&q=pub_boletin-mensual
+[BCB] t=1028.7s | pag=453 | files=4501 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=19&q=pub_boletin-mensual
+[BCB] t=1030.0s | pag=454 | files=4502 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=20&q=pub_boletin-mensual
+[BCB] t=1031.6s | pag=455 | files=4503 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=203&q=pub_boletin-mensual
+[BCB] t=1033.2s | pag=456 | files=4504 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=200&q=pub_boletin-mensual
+[BCB] t=1034.7s | pag=457 | files=4505 | data= 10 | cola= 150 | prio=15 | https://www.bcb.gob.bo/?page=201&q=pub_boletin-mensual
+[BCB] t=1036.3s | pag=458 | files=4506 | data= 10 | cola= 149 | prio=15 | https://www.bcb.gob.bo/?page=202&q=pub_boletin-mensual
+[BCB] t=1037.8s | pag=459 | files=4507 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=17&q=informes-resultados-viajes-oficiales
+[BCB] t=1039.2s | pag=460 | files=4517 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=18&q=informes-resultados-viajes-oficiales
+[BCB] t=1040.5s | pag=461 | files=4527 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=19&q=informes-resultados-viajes-oficiales
+[BCB] t=1041.7s | pag=462 | files=4537 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=20&q=informes-resultados-viajes-oficiales
+[BCB] t=1043.6s | pag=463 | files=4547 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=39&q=informes-resultados-viajes-oficiales
+[BCB] t=1045.0s | pag=464 | files=4557 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=36&q=informes-resultados-viajes-oficiales
+[BCB] t=1046.5s | pag=465 | files=4567 | data= 10 | cola= 150 | prio=15 | https://www.bcb.gob.bo/?page=37&q=informes-resultados-viajes-oficiales
+[BCB] t=1048.1s | pag=466 | files=4577 | data= 10 | cola= 149 | prio=15 | https://www.bcb.gob.bo/?page=38&q=informes-resultados-viajes-oficiales
+[BCB] t=1049.7s | pag=467 | files=4587 | data= 10 | cola= 148 | prio=15 | https://www.bcb.gob.bo/?page=21&q=informe_seguimiento
+[BCB] t=1051.1s | pag=468 | files=4597 | data= 10 | cola= 147 | prio=15 | https://www.bcb.gob.bo/?page=22&q=informe_seguimiento
+[BCB] t=1052.8s | pag=469 | files=4607 | data= 10 | cola= 146 | prio=15 | https://www.bcb.gob.bo/?page=23&q=informe_seguimiento
+[BCB] t=1054.6s | pag=470 | files=4617 | data= 10 | cola= 145 | prio=15 | https://www.bcb.gob.bo/?page=24&q=informe_seguimiento
+[BCB] t=1056.1s | pag=471 | files=4627 | data= 10 | cola= 144 | prio=15 | https://www.bcb.gob.bo/?page=25&q=informe_seguimiento
+[BCB] t=1057.7s | pag=472 | files=4637 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=21&q=pub_boletin-mensual
+[BCB] t=1059.2s | pag=473 | files=4638 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=22&q=pub_boletin-mensual
+[BCB] t=1061.0s | pag=474 | files=4639 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=23&q=pub_boletin-mensual
+[BCB] t=1062.4s | pag=475 | files=4640 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=24&q=pub_boletin-mensual
+[BCB] t=1064.1s | pag=476 | files=4641 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=199&q=pub_boletin-mensual
+[BCB] t=1065.7s | pag=477 | files=4642 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=196&q=pub_boletin-mensual
+[BCB] t=1067.1s | pag=478 | files=4643 | data= 10 | cola= 145 | prio=15 | https://www.bcb.gob.bo/?page=197&q=pub_boletin-mensual
+[BCB] t=1068.7s | pag=479 | files=4644 | data= 10 | cola= 144 | prio=15 | https://www.bcb.gob.bo/?page=198&q=pub_boletin-mensual
+[BCB] t=1070.3s | pag=480 | files=4645 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=21&q=informes-resultados-viajes-oficiales
+[BCB] t=1072.1s | pag=481 | files=4655 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=22&q=informes-resultados-viajes-oficiales
+[BCB] t=1073.4s | pag=482 | files=4665 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=23&q=informes-resultados-viajes-oficiales
+[BCB] t=1074.6s | pag=483 | files=4675 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=24&q=informes-resultados-viajes-oficiales
+[BCB] t=1076.7s | pag=484 | files=4685 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=35&q=informes-resultados-viajes-oficiales
+[BCB] t=1078.3s | pag=485 | files=4695 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=32&q=informes-resultados-viajes-oficiales
+[BCB] t=1079.8s | pag=486 | files=4705 | data= 10 | cola= 144 | prio=15 | https://www.bcb.gob.bo/?page=33&q=informes-resultados-viajes-oficiales
+[BCB] t=1081.5s | pag=487 | files=4715 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=34&q=informes-resultados-viajes-oficiales
+[BCB] t=1083.0s | pag=488 | files=4725 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=25&q=pub_boletin-mensual
+[BCB] t=1084.2s | pag=489 | files=4726 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=26&q=pub_boletin-mensual
+[BCB] t=1085.4s | pag=490 | files=4727 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=27&q=pub_boletin-mensual
+[BCB] t=1087.2s | pag=491 | files=4728 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=28&q=pub_boletin-mensual
+[BCB] t=1089.4s | pag=492 | files=4729 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=195&q=pub_boletin-mensual
+[BCB] t=1090.6s | pag=493 | files=4730 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=192&q=pub_boletin-mensual
+[BCB] t=1091.8s | pag=494 | files=4731 | data= 10 | cola= 144 | prio=15 | https://www.bcb.gob.bo/?page=193&q=pub_boletin-mensual
+[BCB] t=1093.0s | pag=495 | files=4732 | data= 10 | cola= 143 | prio=15 | https://www.bcb.gob.bo/?page=194&q=pub_boletin-mensual
+[BCB] t=1095.0s | pag=496 | files=4733 | data= 10 | cola= 142 | prio=15 | https://www.bcb.gob.bo/?page=25&q=informes-resultados-viajes-oficiales
+[BCB] t=1096.4s | pag=497 | files=4743 | data= 10 | cola= 141 | prio=15 | https://www.bcb.gob.bo/?page=26&q=informes-resultados-viajes-oficiales
+[BCB] t=1098.2s | pag=498 | files=4753 | data= 10 | cola= 140 | prio=15 | https://www.bcb.gob.bo/?page=27&q=informes-resultados-viajes-oficiales
+[BCB] t=1099.4s | pag=499 | files=4763 | data= 10 | cola= 139 | prio=15 | https://www.bcb.gob.bo/?page=28&q=informes-resultados-viajes-oficiales
+[BCB] t=1100.9s | pag=500 | files=4773 | data= 10 | cola= 138 | prio=15 | https://www.bcb.gob.bo/?page=31&q=informes-resultados-viajes-oficiales
+[BCB] t=1102.4s | pag=501 | files=4783 | data= 10 | cola= 137 | prio=15 | https://www.bcb.gob.bo/?page=29&q=informes-resultados-viajes-oficiales
+[BCB] t=1103.8s | pag=502 | files=4793 | data= 10 | cola= 136 | prio=15 | https://www.bcb.gob.bo/?page=30&q=informes-resultados-viajes-oficiales
+[BCB] t=1105.4s | pag=503 | files=4803 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=29&q=pub_boletin-mensual
+[BCB] t=1107.0s | pag=504 | files=4804 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=30&q=pub_boletin-mensual
+[BCB] t=1108.8s | pag=505 | files=4805 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=31&q=pub_boletin-mensual
+[BCB] t=1110.0s | pag=506 | files=4806 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=32&q=pub_boletin-mensual
+[BCB] t=1111.4s | pag=507 | files=4807 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=191&q=pub_boletin-mensual
+[BCB] t=1112.7s | pag=508 | files=4808 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=188&q=pub_boletin-mensual
+[BCB] t=1114.0s | pag=509 | files=4809 | data= 10 | cola= 137 | prio=15 | https://www.bcb.gob.bo/?page=189&q=pub_boletin-mensual
+[BCB] t=1115.2s | pag=510 | files=4810 | data= 10 | cola= 136 | prio=15 | https://www.bcb.gob.bo/?page=190&q=pub_boletin-mensual
+[BCB] t=1116.7s | pag=511 | files=4811 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=33&q=pub_boletin-mensual
+[BCB] t=1118.2s | pag=512 | files=4812 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=34&q=pub_boletin-mensual
+[BCB] t=1119.6s | pag=513 | files=4813 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=35&q=pub_boletin-mensual
+[BCB] t=1121.2s | pag=514 | files=4814 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=36&q=pub_boletin-mensual
+[BCB] t=1122.7s | pag=515 | files=4815 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=187&q=pub_boletin-mensual
+[BCB] t=1124.2s | pag=516 | files=4816 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=184&q=pub_boletin-mensual
+[BCB] t=1125.5s | pag=517 | files=4817 | data= 10 | cola= 137 | prio=15 | https://www.bcb.gob.bo/?page=185&q=pub_boletin-mensual
+[BCB] t=1127.1s | pag=518 | files=4817 | data= 10 | cola= 136 | prio=15 | https://www.bcb.gob.bo/?page=186&q=pub_boletin-mensual
+[BCB] t=1128.4s | pag=519 | files=4818 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=37&q=pub_boletin-mensual
+[BCB] t=1129.7s | pag=520 | files=4819 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=38&q=pub_boletin-mensual
+[BCB] t=1131.4s | pag=521 | files=4820 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=39&q=pub_boletin-mensual
+[BCB] t=1133.5s | pag=522 | files=4821 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=40&q=pub_boletin-mensual
+[BCB] t=1134.9s | pag=523 | files=4822 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=183&q=pub_boletin-mensual
+[BCB] t=1136.4s | pag=524 | files=4823 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=180&q=pub_boletin-mensual
+[BCB] t=1137.8s | pag=525 | files=4824 | data= 10 | cola= 137 | prio=15 | https://www.bcb.gob.bo/?page=181&q=pub_boletin-mensual
+[BCB] t=1139.0s | pag=526 | files=4825 | data= 10 | cola= 136 | prio=15 | https://www.bcb.gob.bo/?page=182&q=pub_boletin-mensual
+[BCB] t=1140.3s | pag=527 | files=4826 | data= 10 | cola= 135 | prio=15 | https://www.bcb.gob.bo/?page=41&q=pub_boletin-mensual
+[BCB] t=1141.7s | pag=528 | files=4827 | data= 10 | cola= 134 | prio=15 | https://www.bcb.gob.bo/?page=42&q=pub_boletin-mensual
+[BCB] t=1143.3s | pag=529 | files=4828 | data= 10 | cola= 133 | prio=15 | https://www.bcb.gob.bo/?page=43&q=pub_boletin-mensual
+[BCB] t=1144.5s | pag=530 | files=4829 | data= 10 | cola= 132 | prio=15 | https://www.bcb.gob.bo/?page=44&q=pub_boletin-mensual
+[BCB] t=1146.0s | pag=531 | files=4830 | data= 10 | cola= 131 | prio=15 | https://www.bcb.gob.bo/?page=179&q=pub_boletin-mensual
+[BCB] t=1147.2s | pag=532 | files=4831 | data= 10 | cola= 130 | prio=15 | https://www.bcb.gob.bo/?page=176&q=pub_boletin-mensual
+[BCB] t=1148.5s | pag=533 | files=4832 | data= 10 | cola= 129 | prio=15 | https://www.bcb.gob.bo/?page=177&q=pub_boletin-mensual
+[BCB] t=1149.9s | pag=534 | files=4833 | data= 10 | cola= 128 | prio=15 | https://www.bcb.gob.bo/?page=178&q=pub_boletin-mensual
+[BCB] t=1151.2s | pag=535 | files=4834 | data= 10 | cola= 127 | prio=50 | https://www.bcb.gob.bo/content/sala-de-prensa
+[BCB] t=1152.5s | pag=536 | files=4834 | data= 10 | cola= 131 | prio=50 | https://www.bcb.gob.bo/?q=constitucion-politica-estado
+[BCB] t=1154.0s | pag=537 | files=4835 | data= 10 | cola= 130 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fleyes-0
+[BCB] t=1155.4s | pag=538 | files=4842 | data= 10 | cola= 129 | prio=50 | https://www.bcb.gob.bo/?q=circulares-externas
+[BCB] t=1156.5s | pag=539 | files=4842 | data= 10 | cola= 128 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fvalores-y-principios
+[BCB] t=1157.7s | pag=540 | files=4843 | data= 10 | cola= 127 | prio=50 | https://www.bcb.gob.bo/?q=planificacion_estrategica
+[BCB] t=1159.2s | pag=541 | files=4844 | data= 10 | cola= 126 | prio=50 | https://www.bcb.gob.bo/?q=poa-ppto-programados
+[BCB] t=1160.7s | pag=542 | files=4854 | data= 10 | cola= 126 | prio=40 | https://www.bcb.gob.bo/?page=1&q=poa-ppto-programados
+[BCB] t=1162.4s | pag=543 | files=4861 | data= 10 | cola= 125 | prio=50 | https://www.bcb.gob.bo/?q=poa-ppto-ejecutados
+[BCB] t=1164.0s | pag=544 | files=4974 | data= 10 | cola= 125 | prio=40 | https://www.bcb.gob.bo/?page=1&q=poa-ppto-ejecutados
+[BCB] t=1165.2s | pag=545 | files=5007 | data= 10 | cola= 124 | prio=50 | https://www.bcb.gob.bo/?q=institucional%2Festructura
+[BCB] t=1166.8s | pag=546 | files=5008 | data= 10 | cola= 123 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fmanual-de-procesos
+[BCB] t=1168.6s | pag=547 | files=5009 | data= 10 | cola= 122 | prio=50 | https://www.bcb.gob.bo/?q=Manual+de+Organizaci%C3%B3n+y+funciones
+[BCB] t=1170.2s | pag=548 | files=5027 | data= 10 | cola= 121 | prio=50 | https://www.bcb.gob.bo/?q=ESCALA+SALARIAL
+[BCB] t=1172.0s | pag=549 | files=5028 | data= 10 | cola= 120 | prio=50 | https://www.bcb.gob.bo/?q=estados-financieros
+[BCB] t=1173.4s | pag=550 | files=5028 | data= 10 | cola= 119 | prio=50 | https://www.bcb.gob.bo/?q=rendicion-inicial
+[BCB] t=1175.0s | pag=551 | files=5039 | data= 10 | cola= 118 | prio=50 | https://registros.bcb.gob.bo/survey/start/3a3f6edc-7091-4e99-b48d-2348b87cd1ef
+[BCB] t=1175.4s | pag=551 | files=5039 | data= 10 | cola= 117 | prio=50 | https://registros.bcb.gob.bo/survey/start/e26a4fa7-d1ea-46ee-883c-021156f95c1f
+[BCB] t=1176.3s | pag=551 | files=5039 | data= 10 | cola= 116 | prio=50 | https://www.bcb.gob.bo/?q=apoyo-nacional-produccion-empleo
+[BCB] t=1178.0s | pag=552 | files=5082 | data= 10 | cola= 148 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-digitalizaci%C3%B3n-de-documentos-del-archivo-central-e-intermedio-del-bcb-%E2%80%93-0
+[BCB] t=1179.5s | pag=553 | files=5082 | data= 10 | cola= 148 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-recurrente-de-transporte-y-custodia-de-material-monetario-producto-de-la-venta-de-0
+[BCB] t=1180.6s | pag=553 | files=5082 | data= 10 | cola= 147 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-recurrente-de-fotocopiado-de-documentos-en-oficinas-del-bcb-en-la-paz-gestion-2026
+[BCB] t=1182.6s | pag=553 | files=5082 | data= 10 | cola= 146 | prio=40 | https://www.bcb.gob.bo/?page=1&q=apoyo-nacional-produccion-empleo
+[BCB] t=1185.2s | pag=554 | files=5125 | data= 10 | cola= 165 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fconsultores-individuales-de-l%C3%ADnea-para-inteligencia-de-datos
+[BCB] t=1186.6s | pag=555 | files=5125 | data= 10 | cola= 164 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-recurrente-de-carguio-para-el-traslado-de-material-monetario-gesti%C3%B3n-2026
+[BCB] t=1187.8s | pag=555 | files=5125 | data= 10 | cola= 163 | prio=40 | https://www.bcb.gob.bo/?page=2&q=apoyo-nacional-produccion-empleo
+[BCB] t=1190.3s | pag=556 | files=5171 | data= 10 | cola= 182 | prio=40 | https://www.bcb.gob.bo/?page=3&q=apoyo-nacional-produccion-empleo
+[BCB] t=1192.1s | pag=557 | files=5220 | data= 10 | cola= 201 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-digitalizaci%C3%B3n-de-documentos-del-archivo-central-e-intermedio-del-bcb-%E2%80%93-gestion
+[BCB] t=1193.4s | pag=558 | files=5220 | data= 10 | cola= 200 | prio=40 | https://www.bcb.gob.bo/?page=4&q=apoyo-nacional-produccion-empleo
+[BCB] t=1195.0s | pag=559 | files=5264 | data= 10 | cola= 218 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-encuadernaci%C3%B3n-empastada-y-reencuadernaci%C3%B3n-de-documentos-del-bcb-%E2%80%93-gesti%C3%B3n-2026
+[BCB] t=1196.4s | pag=560 | files=5264 | data= 10 | cola= 217 | prio=40 | https://www.bcb.gob.bo/?page=5&q=apoyo-nacional-produccion-empleo
+[BCB] t=1198.1s | pag=561 | files=5305 | data= 10 | cola= 236 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-ips-para-firewall-de-equipos-core-de-data-center
+[BCB] t=1199.1s | pag=561 | files=5305 | data= 10 | cola= 235 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-digitalizaci%C3%B3n-cinco-5-personas-para-la-digitalizaci%C3%B3n-cargado-de-registros-y
+[BCB] t=1201.3s | pag=561 | files=5305 | data= 10 | cola= 234 | prio=40 | https://www.bcb.gob.bo/?page=6&q=apoyo-nacional-produccion-empleo
+[BCB] t=1203.9s | pag=562 | files=5351 | data= 10 | cola= 254 | prio=40 | https://www.bcb.gob.bo/?page=7&q=apoyo-nacional-produccion-empleo
+[BCB] t=1205.4s | pag=563 | files=5388 | data= 10 | cola= 273 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-soporte-para-infraestructura-de-base-de-datos
+[BCB] t=1206.8s | pag=564 | files=5388 | data= 10 | cola= 272 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-cargu%C3%ADo-para-el-traslado-de-material-monetario-1
+[BCB] t=1208.4s | pag=565 | files=5388 | data= 10 | cola= 271 | prio=10 | https://www.bcb.gob.bo/?q=content%2Festructuras-met%C3%A1licas-acabadas-para-almacenamiento-de-material-monetario-0
+[BCB] t=1209.3s | pag=565 | files=5388 | data= 10 | cola= 270 | prio=40 | https://www.bcb.gob.bo/?page=8&q=apoyo-nacional-produccion-empleo
+[BCB] t=1211.8s | pag=566 | files=5407 | data= 10 | cola= 280 | prio=40 | https://www.bcb.gob.bo/?page=9&q=apoyo-nacional-produccion-empleo
+[BCB] t=1213.3s | pag=567 | files=5427 | data= 10 | cola= 290 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-carguio-para-traslado-de-material-monetario-0
+[BCB] t=1214.3s | pag=567 | files=5427 | data= 10 | cola= 289 | prio=40 | https://www.bcb.gob.bo/?page=10&q=apoyo-nacional-produccion-empleo
+[BCB] t=1216.7s | pag=568 | files=5449 | data= 10 | cola= 298 | prio=40 | https://www.bcb.gob.bo/?page=11&q=apoyo-nacional-produccion-empleo
+[BCB] t=1218.2s | pag=569 | files=5466 | data= 10 | cola= 305 | prio=40 | https://www.bcb.gob.bo/?page=12&q=apoyo-nacional-produccion-empleo
+[BCB] t=1219.9s | pag=570 | files=5490 | data= 10 | cola= 315 | prio=40 | https://www.bcb.gob.bo/?page=13&q=apoyo-nacional-produccion-empleo
+[BCB] t=1221.5s | pag=571 | files=5505 | data= 10 | cola= 322 | prio=40 | https://www.bcb.gob.bo/?page=14&q=apoyo-nacional-produccion-empleo
+[BCB] t=1223.1s | pag=572 | files=5523 | data= 10 | cola= 331 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-encuadernaci%C3%B3n-empastada-y-reencuadernaci%C3%B3n-de-documentos-del-bcb-%E2%80%93-gesti%C3%B3n-2025
+[BCB] t=1224.1s | pag=572 | files=5523 | data= 10 | cola= 330 | prio=15 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-refrigerio-para-el-xviii-encuentro-de-economistas
+[BCB] t=1226.2s | pag=572 | files=5523 | data= 10 | cola= 329 | prio=15 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-elaboraci%C3%B3n-de-material-promocional-para-el-xviii-encuentro-de-economistas-%E2%80%93
+[BCB] t=1228.6s | pag=572 | files=5523 | data= 10 | cola= 328 | prio=40 | https://www.bcb.gob.bo/?page=15&q=apoyo-nacional-produccion-empleo
+[BCB] t=1231.4s | pag=573 | files=5546 | data= 10 | cola= 337 | prio=40 | https://www.bcb.gob.bo/?page=16&q=apoyo-nacional-produccion-empleo
+[BCB] t=1232.7s | pag=574 | files=5567 | data= 10 | cola= 347 | prio=40 | https://www.bcb.gob.bo/?page=17&q=apoyo-nacional-produccion-empleo
+[BCB] t=1234.3s | pag=575 | files=5593 | data= 10 | cola= 357 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-transporte-y-custodia-de-material-monetario-producto-de-la-venta-de-bonos-en-0
+[BCB] t=1235.3s | pag=575 | files=5593 | data= 10 | cola= 356 | prio=40 | https://www.bcb.gob.bo/?page=18&q=apoyo-nacional-produccion-empleo
+[BCB] t=1237.6s | pag=576 | files=5612 | data= 10 | cola= 365 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-carguio-para-traslado-de-material-monetario
+[BCB] t=1238.6s | pag=576 | files=5612 | data= 10 | cola= 364 | prio=40 | https://www.bcb.gob.bo/?page=19&q=apoyo-nacional-produccion-empleo
+[BCB] t=1240.7s | pag=577 | files=5631 | data= 10 | cola= 373 | prio=40 | https://www.bcb.gob.bo/?page=20&q=apoyo-nacional-produccion-empleo
+[BCB] t=1242.1s | pag=578 | files=5653 | data= 10 | cola= 383 | prio=40 | https://www.bcb.gob.bo/?page=21&q=apoyo-nacional-produccion-empleo
+[BCB] t=1243.8s | pag=579 | files=5664 | data= 10 | cola= 388 | prio=40 | https://www.bcb.gob.bo/?page=22&q=apoyo-nacional-produccion-empleo
+[BCB] t=1245.3s | pag=580 | files=5680 | data= 10 | cola= 396 | prio=40 | https://www.bcb.gob.bo/?page=23&q=apoyo-nacional-produccion-empleo
+[BCB] t=1247.0s | pag=581 | files=5701 | data= 10 | cola= 405 | prio=40 | https://www.bcb.gob.bo/?page=24&q=apoyo-nacional-produccion-empleo
+[BCB] t=1248.6s | pag=582 | files=5723 | data= 10 | cola= 414 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-recurrente-de-transporte-y-custodia-de-material-monetario-producto-de-la-venta-de
+[BCB] t=1249.5s | pag=582 | files=5723 | data= 10 | cola= 413 | prio=40 | https://www.bcb.gob.bo/?page=25&q=apoyo-nacional-produccion-empleo
+[BCB] t=1252.2s | pag=583 | files=5745 | data= 10 | cola= 422 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-transporte-de-material-monetario-moneda-nacional-nivel-nacional
+[BCB] t=1253.4s | pag=583 | files=5745 | data= 10 | cola= 421 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fadquisici%C3%B3n-de-carros-para-el-transporte-de-material-monetario-0
+[BCB] t=1255.5s | pag=583 | files=5745 | data= 10 | cola= 420 | prio=40 | https://www.bcb.gob.bo/?page=26&q=apoyo-nacional-produccion-empleo
+[BCB] t=1257.9s | pag=584 | files=5772 | data= 10 | cola= 430 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-instalacion-de-redes-de-datos-y-redes-electricas-internas-para-los-equipos-de-0
+[BCB] t=1259.0s | pag=584 | files=5772 | data= 10 | cola= 429 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-instalaci%C3%B3n-de-redes-de-datos-y-redes-electricas-internas-para-los-equipos-de
+[BCB] t=1261.1s | pag=584 | files=5772 | data= 10 | cola= 428 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-instalaci%C3%B3n-de-redes-de-datos-vertical-para-la-comunicaci%C3%B3n-de-los-sistemas-de
+[BCB] t=1263.0s | pag=584 | files=5772 | data= 10 | cola= 427 | prio=40 | https://www.bcb.gob.bo/?page=27&q=apoyo-nacional-produccion-empleo
+[BCB] t=1265.2s | pag=585 | files=5791 | data= 10 | cola= 436 | prio=40 | https://www.bcb.gob.bo/?page=28&q=apoyo-nacional-produccion-empleo
+[BCB] t=1266.9s | pag=586 | files=5813 | data= 10 | cola= 446 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fadquisici%C3%B3n-de-carros-para-el-transporte-de-material-monetario
+[BCB] t=1268.2s | pag=586 | files=5813 | data= 10 | cola= 445 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fprovisi%C3%B3n-e-instalaci%C3%B3n-de-un-sistema-de-video-vigilancia-y-alarmas-para-archivo-central
+[BCB] t=1270.1s | pag=586 | files=5813 | data= 10 | cola= 444 | prio=40 | https://www.bcb.gob.bo/?page=29&q=apoyo-nacional-produccion-empleo
+[BCB] t=1272.3s | pag=587 | files=5837 | data= 10 | cola= 454 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-suscripci%C3%B3n-protecci%C3%B3n-de-datos-dlp
+[BCB] t=1273.6s | pag=587 | files=5837 | data= 10 | cola= 453 | prio=40 | https://www.bcb.gob.bo/?page=30&q=apoyo-nacional-produccion-empleo
+[BCB] t=1276.3s | pag=588 | files=5862 | data= 10 | cola= 463 | prio=40 | https://www.bcb.gob.bo/?page=31&q=apoyo-nacional-produccion-empleo
+[BCB] t=1277.6s | pag=589 | files=5881 | data= 10 | cola= 472 | prio=15 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-refrigerio-para-el-xvii-encuentro-de-economistas
+[BCB] t=1278.5s | pag=589 | files=5881 | data= 10 | cola= 471 | prio=40 | https://www.bcb.gob.bo/?page=32&q=apoyo-nacional-produccion-empleo
+[BCB] t=1281.0s | pag=590 | files=5904 | data= 10 | cola= 481 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-transporte-y-custodia-de-material-monetario-producto-de-la-venta-de-bonos-en
+[BCB] t=1282.2s | pag=590 | files=5904 | data= 10 | cola= 480 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fcajas-met%C3%A1licas-para-recepci%C3%B3n-de-documentos
+[BCB] t=1284.4s | pag=590 | files=5904 | data= 10 | cola= 479 | prio=40 | https://www.bcb.gob.bo/?page=33&q=apoyo-nacional-produccion-empleo
+[BCB] t=1286.8s | pag=591 | files=5924 | data= 10 | cola= 489 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-de-ampliaci%C3%B3n-de-dep%C3%B3sitos-en-el-archivo-intermedio-del-bcb
+[BCB] t=1288.0s | pag=591 | files=5924 | data= 10 | cola= 488 | prio=40 | https://www.bcb.gob.bo/?page=34&q=apoyo-nacional-produccion-empleo
+[BCB] t=1290.5s | pag=592 | files=5946 | data= 10 | cola= 498 | prio=40 | https://www.bcb.gob.bo/?page=35&q=apoyo-nacional-produccion-empleo
+[BCB] t=1291.8s | pag=593 | files=5965 | data= 10 | cola= 507 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-suscripci%C3%B3n-para-base-de-datos-informix
+[BCB] t=1293.1s | pag=593 | files=5965 | data= 10 | cola= 506 | prio=40 | https://www.bcb.gob.bo/?page=36&q=apoyo-nacional-produccion-empleo
+[BCB] t=1295.3s | pag=594 | files=5987 | data= 10 | cola= 516 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicios-especializados-en-restauracion-y-catalogaci%C3%B3n-de-obras-de-arte-del-bcb
+[BCB] t=1296.7s | pag=594 | files=5987 | data= 10 | cola= 515 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fprovisi%C3%B3n-de-equipo-para-monitoreo-de-la-red-de-datos-del-sistema-de-seguridad
+[BCB] t=1298.6s | pag=594 | files=5987 | data= 10 | cola= 514 | prio=40 | https://www.bcb.gob.bo/?page=37&q=apoyo-nacional-produccion-empleo
+[BCB] t=1301.0s | pag=595 | files=6008 | data= 10 | cola= 523 | prio=40 | https://www.bcb.gob.bo/?page=38&q=apoyo-nacional-produccion-empleo
+[BCB] t=1302.6s | pag=596 | files=6031 | data= 10 | cola= 533 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fprovisi%C3%B3n-e-instalaci%C3%B3n-de-estructuras-metalicas-acabadas-para-almacenamiento-de-material
+[BCB] t=1303.5s | pag=596 | files=6031 | data= 10 | cola= 532 | prio=40 | https://www.bcb.gob.bo/?page=39&q=apoyo-nacional-produccion-empleo
+[BCB] t=1306.2s | pag=597 | files=6053 | data= 10 | cola= 542 | prio=40 | https://www.bcb.gob.bo/?page=40&q=apoyo-nacional-produccion-empleo
+[BCB] t=1308.0s | pag=598 | files=6073 | data= 10 | cola= 550 | prio=40 | https://www.bcb.gob.bo/?page=41&q=apoyo-nacional-produccion-empleo
+[BCB] t=1309.5s | pag=599 | files=6097 | data= 10 | cola= 559 | prio=40 | https://www.bcb.gob.bo/?page=42&q=apoyo-nacional-produccion-empleo
+[BCB] t=1310.9s | pag=600 | files=6119 | data= 10 | cola= 568 | prio=40 | https://www.bcb.gob.bo/?page=43&q=apoyo-nacional-produccion-empleo
+[BCB] t=1312.3s | pag=601 | files=6142 | data= 10 | cola= 578 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-digitalizacion-de-documentos-en-soporte-papel
+[BCB] t=1313.7s | pag=601 | files=6142 | data= 10 | cola= 577 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fcontratacion-de-3-consultores-de-linea-para-trabajos-de-acondicionamiento-archivistico-en
+[BCB] t=1315.7s | pag=601 | files=6142 | data= 10 | cola= 576 | prio=40 | https://www.bcb.gob.bo/?page=44&q=apoyo-nacional-produccion-empleo
+[BCB] t=1318.1s | pag=602 | files=6166 | data= 10 | cola= 586 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-cargu%C3%ADo-movimiento-armado-de-estantes-y-traslado-de-documentos
+[BCB] t=1319.3s | pag=602 | files=6166 | data= 10 | cola= 585 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-cargu%C3%ADo-para-el-traslado-de-material-monetario-0
+[BCB] t=1321.4s | pag=602 | files=6166 | data= 10 | cola= 584 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fadquisici%C3%B3n-de-cajas-normalizadas-de-archivo
+[BCB] t=1323.6s | pag=602 | files=6166 | data= 10 | cola= 583 | prio=40 | https://www.bcb.gob.bo/?page=45&q=apoyo-nacional-produccion-empleo
+[BCB] t=1326.2s | pag=603 | files=6186 | data= 10 | cola= 582 | prio=40 | https://www.bcb.gob.bo/?page=46&q=apoyo-nacional-produccion-empleo
+[BCB] t=1328.1s | pag=604 | files=6209 | data= 10 | cola= 581 | prio=40 | https://www.bcb.gob.bo/?page=47&q=apoyo-nacional-produccion-empleo
+[BCB] t=1329.4s | pag=605 | files=6234 | data= 10 | cola= 580 | prio=40 | https://www.bcb.gob.bo/?page=48&q=apoyo-nacional-produccion-empleo
+[BCB] t=1331.2s | pag=606 | files=6254 | data= 10 | cola= 579 | prio=50 | https://www.bcb.gob.bo/?q=Concurso+de+Propuestas
+[BCB] t=1333.1s | pag=607 | files=6289 | data= 10 | cola= 597 | prio=40 | https://www.bcb.gob.bo/?page=1&q=Concurso+de+Propuestas
+[BCB] t=1334.3s | pag=608 | files=6314 | data= 10 | cola= 606 | prio=40 | https://www.bcb.gob.bo/?page=2&q=Concurso+de+Propuestas
+[BCB] t=1336.0s | pag=609 | files=6320 | data= 10 | cola= 608 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fcontrataci%C3%B3n-de-servicio-de-encuadernaci%C3%B3n-empastada-de-documentos-para-las-%C3%A1reas-del-bcb
+[BCB] t=1337.2s | pag=609 | files=6320 | data= 10 | cola= 607 | prio=50 | https://www.bcb.gob.bo/?q=contrataciones-menores-
+[BCB] t=1340.0s | pag=610 | files=6336 | data= 10 | cola= 630 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-de-cableado-estructurado-de-red-de-datos-para-el-piso-22-del-edificio-del-bcb
+[BCB] t=1341.1s | pag=610 | files=6336 | data= 10 | cola= 629 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-de-cableado-estructurado-de-red-de-datos-para-el-piso-18-del-edificio-del-bcb
+[BCB] t=1343.0s | pag=610 | files=6336 | data= 10 | cola= 628 | prio=40 | https://www.bcb.gob.bo/?page=1&q=contrataciones-menores-
+[BCB] t=1345.3s | pag=611 | files=6352 | data= 10 | cola= 637 | prio=40 | https://www.bcb.gob.bo/?page=2&q=contrataciones-menores-
+[BCB] t=1347.0s | pag=612 | files=6369 | data= 10 | cola= 646 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-de-cableado-estructurado-de-red-de-datos-para-el-piso-17-del-bcb
+[BCB] t=1348.1s | pag=612 | files=6369 | data= 10 | cola= 645 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicios-notariales-para-la-destrucci%C3%B3n-de-material-monetario-inutilizado-5
+[BCB] t=1349.9s | pag=612 | files=6369 | data= 10 | cola= 644 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-2-de-cableado-estructurado-de-red-de-datos-para-piso-0
+[BCB] t=1351.8s | pag=612 | files=6369 | data= 10 | cola= 643 | prio=40 | https://www.bcb.gob.bo/?page=3&q=contrataciones-menores-
+[BCB] t=1354.1s | pag=613 | files=6382 | data= 10 | cola= 652 | prio=40 | https://www.bcb.gob.bo/?page=4&q=contrataciones-menores-
+[BCB] t=1355.5s | pag=614 | files=6395 | data= 10 | cola= 661 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-control-integrado-de-plagas-y-desinfeccion-en-el-archivo-intermedio-del-bcb
+[BCB] t=1356.7s | pag=614 | files=6395 | data= 10 | cola= 660 | prio=40 | https://www.bcb.gob.bo/?page=5&q=contrataciones-menores-
+[BCB] t=1359.3s | pag=615 | files=6407 | data= 10 | cola= 670 | prio=40 | https://www.bcb.gob.bo/?page=6&q=contrataciones-menores-
+[BCB] t=1360.6s | pag=616 | files=6420 | data= 10 | cola= 680 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-de-mantenimiento-del-archivo-intermedio-senkata-del-bcb
+[BCB] t=1361.5s | pag=616 | files=6420 | data= 10 | cola= 679 | prio=40 | https://www.bcb.gob.bo/?page=7&q=contrataciones-menores-
+[BCB] t=1364.1s | pag=617 | files=6430 | data= 10 | cola= 688 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-2-de-cableado-estructurado-de-red-de-datos-para-piso
+[BCB] t=1364.9s | pag=617 | files=6430 | data= 10 | cola= 687 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-carguio-movimiento-de-documentos-para-el-archivo-central-del-bcb
+[BCB] t=1367.0s | pag=617 | files=6430 | data= 10 | cola= 686 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-carguio-movimiento-de-documentos-para-el-archivo-intermedio-del-bcb
+[BCB] t=1369.0s | pag=617 | files=6430 | data= 10 | cola= 685 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicios-notariales-para-la-destrucci%C3%B3n-de-material-monetario-inutilizado
+[BCB] t=1371.1s | pag=617 | files=6430 | data= 10 | cola= 684 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-transporte-de-material-monetario-en-moneda-nacional-de-sucre-la-paz
+[BCB] t=1373.7s | pag=617 | files=6430 | data= 10 | cola= 683 | prio=40 | https://www.bcb.gob.bo/?page=8&q=contrataciones-menores-
+[BCB] t=1376.0s | pag=618 | files=6440 | data= 10 | cola= 692 | prio= 2 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-dise%C3%B1o-y-producci%C3%B3n-de-material-promocional-memorias-usb-para-la-xiv-jornada
+[BCB] t=1377.2s | pag=618 | files=6440 | data= 10 | cola= 691 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fobra-1-de-cableado-estructurado-de-red-de-datos-para-piso
+[BCB] t=1379.1s | pag=618 | files=6440 | data= 10 | cola= 690 | prio=40 | https://www.bcb.gob.bo/?page=11&q=contrataciones-menores-
+[BCB] t=1381.7s | pag=619 | files=6456 | data= 10 | cola= 697 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-fotocopiado-de-documentos-en-la-oficina-del-bcb-de-la-ciudad-de-cochabamba
+[BCB] t=1382.9s | pag=619 | files=6456 | data= 10 | cola= 696 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-fotocopiado-de-documentos-en-la-oficina-del-bcb-de-la-ciudad-de-oruro
+[BCB] t=1385.3s | pag=619 | files=6456 | data= 10 | cola= 695 | prio=40 | https://www.bcb.gob.bo/?page=9&q=contrataciones-menores-
+[BCB] t=1387.8s | pag=620 | files=6466 | data= 10 | cola= 704 | prio=40 | https://www.bcb.gob.bo/?page=10&q=contrataciones-menores-
+[BCB] t=1389.4s | pag=621 | files=6476 | data= 10 | cola= 713 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-control-integrado-de-plagas-en-el-archivo-intermedio-del-bcb
+[BCB] t=1390.4s | pag=621 | files=6476 | data= 10 | cola= 712 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-de-desinfecci%C3%B3n-en-el-archivo-intermedio-del-bcb
+[BCB] t=1392.5s | pag=621 | files=6476 | data= 10 | cola= 711 | prio=50 | https://www.bcb.gob.bo/?q=Contrataciones-en-el-Extranjero
+[BCB] t=1395.0s | pag=622 | files=6501 | data= 10 | cola= 720 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fadquisici%C3%B3n-de-servidor-core-de-base-de-datos
+[BCB] t=1396.4s | pag=623 | files=6501 | data= 10 | cola= 720 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-recurrente-de-procesamiento-de-material-monetario-gestion-2026
+[BCB] t=1397.7s | pag=624 | files=6501 | data= 10 | cola= 719 | prio=10 | https://www.bcb.gob.bo/?q=content%2Fservicio-recurrente-de-transporte-de-material-monetario-moneda-nacional-nivel-nacional
+[BCB] t=1399.4s | pag=625 | files=6501 | data= 10 | cola= 718 | prio=50 | https://www.bcb.gob.bo/?q=contrataciones-directas
+[BCB] t=1401.1s | pag=626 | files=6514 | data= 10 | cola= 723 | prio=40 | https://www.bcb.gob.bo/?page=1&q=contrataciones-directas
+[BCB] t=1402.5s | pag=627 | files=6527 | data= 10 | cola= 722 | prio=40 | https://www.bcb.gob.bo/?page=2&q=contrataciones-directas
+[BCB] t=1403.9s | pag=628 | files=6534 | data= 10 | cola= 721 | prio=50 | https://www.bcb.gob.bo/?q=licitacion-publica
+[BCB] t=1405.2s | pag=629 | files=6534 | data= 10 | cola= 723 | prio=50 | https://www.bcb.gob.bo/?q=mesa-de-partes
+[BCB] t=1406.4s | pag=630 | files=6556 | data= 10 | cola= 723 | prio=50 | https://www.bcb.gob.bo/?q=nomina-de-proveedores
+[BCB] t=1407.6s | pag=631 | files=6557 | data= 10 | cola= 722 | prio=50 | https://www.bcb.gob.bo/?q=peritos-valuadores
+[BCB] t=1409.0s | pag=632 | files=6557 | data= 10 | cola= 722 | prio=50 | https://www.bcb.gob.bo/?q=pac
+[BCB] t=1410.4s | pag=633 | files=6566 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=1&q=pac
+[BCB] t=1412.0s | pag=634 | files=6576 | data= 10 | cola= 726 | prio=40 | https://www.bcb.gob.bo/?page=2&q=pac
+[BCB] t=1413.5s | pag=635 | files=6586 | data= 10 | cola= 725 | prio=40 | https://www.bcb.gob.bo/?page=3&q=pac
+[BCB] t=1414.8s | pag=636 | files=6596 | data= 10 | cola= 724 | prio=40 | https://www.bcb.gob.bo/?page=4&q=pac
+[BCB] t=1416.3s | pag=637 | files=6606 | data= 10 | cola= 723 | prio=40 | https://www.bcb.gob.bo/?page=5&q=pac
+[BCB] t=1417.9s | pag=638 | files=6616 | data= 10 | cola= 722 | prio=40 | https://www.bcb.gob.bo/?page=6&q=pac
+[BCB] t=1419.3s | pag=639 | files=6621 | data= 10 | cola= 721 | prio=50 | https://registros.bcb.gob.bo/survey/start/b5a51b3e-9fa8-4bd9-8d34-49be95473ca4
+[BCB] t=1420.1s | pag=639 | files=6621 | data= 10 | cola= 720 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fpresentaciones-del-presidente
+[BCB] t=1422.0s | pag=640 | files=6625 | data= 10 | cola= 719 | prio=50 | https://www.bcb.gob.bo/?q=programa-financiero
+[BCB] t=1423.4s | pag=641 | files=6625 | data= 10 | cola= 718 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fminuta-de-pol%C3%ADtica-monetaria
+[BCB] t=1425.2s | pag=642 | files=6625 | data= 10 | cola= 718 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1426.5s | pag=643 | files=6645 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=1&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1428.2s | pag=644 | files=6665 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=2&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1430.2s | pag=645 | files=6685 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=3&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1431.5s | pag=646 | files=6705 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=4&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1433.2s | pag=647 | files=6725 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=5&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1434.5s | pag=648 | files=6744 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=6&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1436.1s | pag=649 | files=6764 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=7&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1437.9s | pag=650 | files=6784 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=8&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1439.6s | pag=651 | files=6804 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=30&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1441.3s | pag=652 | files=6821 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=31&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1443.1s | pag=653 | files=6826 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=9&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1444.9s | pag=654 | files=6846 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=10&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1446.4s | pag=655 | files=6866 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=11&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1448.1s | pag=656 | files=6886 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=12&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1449.8s | pag=657 | files=6906 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=29&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1451.2s | pag=658 | files=6926 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=22&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1453.0s | pag=659 | files=6946 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=23&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1454.6s | pag=660 | files=6966 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=24&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1456.2s | pag=661 | files=6986 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=25&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1457.6s | pag=662 | files=7006 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=26&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1459.2s | pag=663 | files=7026 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=27&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1460.7s | pag=664 | files=7046 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=28&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1462.5s | pag=665 | files=7066 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=13&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1464.5s | pag=666 | files=7086 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=14&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1466.2s | pag=667 | files=7106 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=15&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1467.9s | pag=668 | files=7126 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=16&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1469.5s | pag=669 | files=7146 | data= 10 | cola= 726 | prio=40 | https://www.bcb.gob.bo/?page=21&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1470.9s | pag=670 | files=7166 | data= 10 | cola= 725 | prio=40 | https://www.bcb.gob.bo/?page=18&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1472.2s | pag=671 | files=7186 | data= 10 | cola= 724 | prio=40 | https://www.bcb.gob.bo/?page=19&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1474.0s | pag=672 | files=7206 | data= 10 | cola= 723 | prio=40 | https://www.bcb.gob.bo/?page=20&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1475.3s | pag=673 | files=7226 | data= 10 | cola= 722 | prio=40 | https://www.bcb.gob.bo/?page=17&q=content%2Fresultado-de-subastas-letras-del-bcb-12
+[BCB] t=1476.6s | pag=674 | files=7246 | data= 10 | cola= 721 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1478.1s | pag=675 | files=7266 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=1&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1479.6s | pag=676 | files=7286 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=2&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1481.4s | pag=677 | files=7297 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=3&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1483.3s | pag=678 | files=7307 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=4&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1484.7s | pag=679 | files=7317 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=5&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1486.4s | pag=680 | files=7327 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=6&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1487.8s | pag=681 | files=7337 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=7&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1489.5s | pag=682 | files=7347 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=8&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1491.1s | pag=683 | files=7357 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=12&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1492.8s | pag=684 | files=7367 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=9&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1494.3s | pag=685 | files=7377 | data= 10 | cola= 726 | prio=40 | https://www.bcb.gob.bo/?page=10&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1496.2s | pag=686 | files=7387 | data= 10 | cola= 725 | prio=40 | https://www.bcb.gob.bo/?page=11&q=content%2Fresultado-de-subastas-bonos-del-bcb-11
+[BCB] t=1497.7s | pag=687 | files=7397 | data= 10 | cola= 724 | prio=50 | https://www.bcb.gob.bo/?q=resultado-subastas-letras-tesoro
+[BCB] t=1498.7s | pag=688 | files=7407 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=1&q=resultado-subastas-letras-tesoro
+[BCB] t=1500.4s | pag=689 | files=7417 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=2&q=resultado-subastas-letras-tesoro
+[BCB] t=1501.7s | pag=690 | files=7427 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=3&q=resultado-subastas-letras-tesoro
+[BCB] t=1503.3s | pag=691 | files=7437 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=4&q=resultado-subastas-letras-tesoro
+[BCB] t=1505.0s | pag=692 | files=7447 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=5&q=resultado-subastas-letras-tesoro
+[BCB] t=1506.3s | pag=693 | files=7457 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=6&q=resultado-subastas-letras-tesoro
+[BCB] t=1507.8s | pag=694 | files=7467 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=7&q=resultado-subastas-letras-tesoro
+[BCB] t=1509.8s | pag=695 | files=7477 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=8&q=resultado-subastas-letras-tesoro
+[BCB] t=1511.1s | pag=696 | files=7487 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=49&q=resultado-subastas-letras-tesoro
+[BCB] t=1512.7s | pag=697 | files=7492 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=9&q=resultado-subastas-letras-tesoro
+[BCB] t=1514.6s | pag=698 | files=7502 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=10&q=resultado-subastas-letras-tesoro
+[BCB] t=1516.0s | pag=699 | files=7512 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=11&q=resultado-subastas-letras-tesoro
+[BCB] t=1517.4s | pag=700 | files=7521 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=12&q=resultado-subastas-letras-tesoro
+[BCB] t=1518.8s | pag=701 | files=7529 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=48&q=resultado-subastas-letras-tesoro
+[BCB] t=1520.2s | pag=702 | files=7535 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=41&q=resultado-subastas-letras-tesoro
+[BCB] t=1521.6s | pag=703 | files=7541 | data= 10 | cola= 737 | prio=40 | https://www.bcb.gob.bo/?page=42&q=resultado-subastas-letras-tesoro
+[BCB] t=1523.3s | pag=704 | files=7551 | data= 10 | cola= 736 | prio=40 | https://www.bcb.gob.bo/?page=43&q=resultado-subastas-letras-tesoro
+[BCB] t=1525.0s | pag=705 | files=7561 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=44&q=resultado-subastas-letras-tesoro
+[BCB] t=1526.6s | pag=706 | files=7571 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=45&q=resultado-subastas-letras-tesoro
+[BCB] t=1528.0s | pag=707 | files=7581 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=46&q=resultado-subastas-letras-tesoro
+[BCB] t=1529.5s | pag=708 | files=7587 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=47&q=resultado-subastas-letras-tesoro
+[BCB] t=1531.2s | pag=709 | files=7597 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=13&q=resultado-subastas-letras-tesoro
+[BCB] t=1533.0s | pag=710 | files=7607 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=14&q=resultado-subastas-letras-tesoro
+[BCB] t=1534.5s | pag=711 | files=7617 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=15&q=resultado-subastas-letras-tesoro
+[BCB] t=1536.1s | pag=712 | files=7627 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=16&q=resultado-subastas-letras-tesoro
+[BCB] t=1537.7s | pag=713 | files=7637 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=40&q=resultado-subastas-letras-tesoro
+[BCB] t=1539.5s | pag=714 | files=7647 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=37&q=resultado-subastas-letras-tesoro
+[BCB] t=1540.8s | pag=715 | files=7657 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=38&q=resultado-subastas-letras-tesoro
+[BCB] t=1542.6s | pag=716 | files=7667 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=39&q=resultado-subastas-letras-tesoro
+[BCB] t=1544.4s | pag=717 | files=7677 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=17&q=resultado-subastas-letras-tesoro
+[BCB] t=1546.1s | pag=718 | files=7687 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=18&q=resultado-subastas-letras-tesoro
+[BCB] t=1547.7s | pag=719 | files=7697 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=19&q=resultado-subastas-letras-tesoro
+[BCB] t=1549.5s | pag=720 | files=7707 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=20&q=resultado-subastas-letras-tesoro
+[BCB] t=1550.8s | pag=721 | files=7717 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=36&q=resultado-subastas-letras-tesoro
+[BCB] t=1552.3s | pag=722 | files=7723 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=33&q=resultado-subastas-letras-tesoro
+[BCB] t=1554.3s | pag=723 | files=7733 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=34&q=resultado-subastas-letras-tesoro
+[BCB] t=1555.5s | pag=724 | files=7743 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=35&q=resultado-subastas-letras-tesoro
+[BCB] t=1557.3s | pag=725 | files=7753 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=21&q=resultado-subastas-letras-tesoro
+[BCB] t=1558.6s | pag=726 | files=7759 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=22&q=resultado-subastas-letras-tesoro
+[BCB] t=1560.3s | pag=727 | files=7769 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=23&q=resultado-subastas-letras-tesoro
+[BCB] t=1561.9s | pag=728 | files=7779 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=24&q=resultado-subastas-letras-tesoro
+[BCB] t=1563.3s | pag=729 | files=7789 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=32&q=resultado-subastas-letras-tesoro
+[BCB] t=1565.7s | pag=730 | files=7799 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=29&q=resultado-subastas-letras-tesoro
+[BCB] t=1567.4s | pag=731 | files=7809 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=30&q=resultado-subastas-letras-tesoro
+[BCB] t=1569.1s | pag=732 | files=7818 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=31&q=resultado-subastas-letras-tesoro
+[BCB] t=1570.7s | pag=733 | files=7824 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=25&q=resultado-subastas-letras-tesoro
+[BCB] t=1571.9s | pag=734 | files=7833 | data= 10 | cola= 726 | prio=40 | https://www.bcb.gob.bo/?page=26&q=resultado-subastas-letras-tesoro
+[BCB] t=1573.4s | pag=735 | files=7839 | data= 10 | cola= 725 | prio=40 | https://www.bcb.gob.bo/?page=27&q=resultado-subastas-letras-tesoro
+[BCB] t=1575.0s | pag=736 | files=7849 | data= 10 | cola= 724 | prio=40 | https://www.bcb.gob.bo/?page=28&q=resultado-subastas-letras-tesoro
+[BCB] t=1576.6s | pag=737 | files=7858 | data= 10 | cola= 723 | prio=50 | https://www.bcb.gob.bo/?q=resultado-subastas-bonos-tesoro
+[BCB] t=1577.8s | pag=738 | files=7868 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=1&q=resultado-subastas-bonos-tesoro
+[BCB] t=1579.5s | pag=739 | files=7878 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=2&q=resultado-subastas-bonos-tesoro
+[BCB] t=1581.1s | pag=740 | files=7888 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=3&q=resultado-subastas-bonos-tesoro
+[BCB] t=1582.8s | pag=741 | files=7898 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=4&q=resultado-subastas-bonos-tesoro
+[BCB] t=1584.2s | pag=742 | files=7908 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=5&q=resultado-subastas-bonos-tesoro
+[BCB] t=1586.0s | pag=743 | files=7918 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=6&q=resultado-subastas-bonos-tesoro
+[BCB] t=1587.3s | pag=744 | files=7928 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=7&q=resultado-subastas-bonos-tesoro
+[BCB] t=1588.8s | pag=745 | files=7938 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=8&q=resultado-subastas-bonos-tesoro
+[BCB] t=1590.4s | pag=746 | files=7948 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=80&q=resultado-subastas-bonos-tesoro
+[BCB] t=1592.1s | pag=747 | files=7954 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=9&q=resultado-subastas-bonos-tesoro
+[BCB] t=1593.8s | pag=748 | files=7964 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=10&q=resultado-subastas-bonos-tesoro
+[BCB] t=1595.6s | pag=749 | files=7974 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=11&q=resultado-subastas-bonos-tesoro
+[BCB] t=1597.2s | pag=750 | files=7984 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=12&q=resultado-subastas-bonos-tesoro
+[BCB] t=1598.7s | pag=751 | files=7994 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=79&q=resultado-subastas-bonos-tesoro
+[BCB] t=1600.2s | pag=752 | files=8000 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=72&q=resultado-subastas-bonos-tesoro
+[BCB] t=1601.9s | pag=753 | files=8006 | data= 10 | cola= 736 | prio=40 | https://www.bcb.gob.bo/?page=73&q=resultado-subastas-bonos-tesoro
+[BCB] t=1603.7s | pag=754 | files=8016 | data= 10 | cola= 735 | prio=40 | https://www.bcb.gob.bo/?page=74&q=resultado-subastas-bonos-tesoro
+[BCB] t=1605.3s | pag=755 | files=8026 | data= 10 | cola= 734 | prio=40 | https://www.bcb.gob.bo/?page=75&q=resultado-subastas-bonos-tesoro
+[BCB] t=1606.8s | pag=756 | files=8036 | data= 10 | cola= 733 | prio=40 | https://www.bcb.gob.bo/?page=76&q=resultado-subastas-bonos-tesoro
+[BCB] t=1608.3s | pag=757 | files=8046 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=77&q=resultado-subastas-bonos-tesoro
+[BCB] t=1609.9s | pag=758 | files=8052 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=78&q=resultado-subastas-bonos-tesoro
+[BCB] t=1611.3s | pag=759 | files=8062 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=13&q=resultado-subastas-bonos-tesoro
+[BCB] t=1612.6s | pag=760 | files=8072 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=14&q=resultado-subastas-bonos-tesoro
+[BCB] t=1614.3s | pag=761 | files=8082 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=15&q=resultado-subastas-bonos-tesoro
+[BCB] t=1616.1s | pag=762 | files=8092 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=16&q=resultado-subastas-bonos-tesoro
+[BCB] t=1617.4s | pag=763 | files=8102 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=71&q=resultado-subastas-bonos-tesoro
+[BCB] t=1619.1s | pag=764 | files=8112 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=68&q=resultado-subastas-bonos-tesoro
+[BCB] t=1620.8s | pag=765 | files=8122 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=69&q=resultado-subastas-bonos-tesoro
+[BCB] t=1622.2s | pag=766 | files=8132 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=70&q=resultado-subastas-bonos-tesoro
+[BCB] t=1623.7s | pag=767 | files=8142 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=17&q=resultado-subastas-bonos-tesoro
+[BCB] t=1625.2s | pag=768 | files=8152 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=18&q=resultado-subastas-bonos-tesoro
+[BCB] t=1626.4s | pag=769 | files=8162 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=19&q=resultado-subastas-bonos-tesoro
+[BCB] t=1628.2s | pag=770 | files=8172 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=20&q=resultado-subastas-bonos-tesoro
+[BCB] t=1629.6s | pag=771 | files=8182 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=67&q=resultado-subastas-bonos-tesoro
+[BCB] t=1631.3s | pag=772 | files=8188 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=64&q=resultado-subastas-bonos-tesoro
+[BCB] t=1632.6s | pag=773 | files=8198 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=65&q=resultado-subastas-bonos-tesoro
+[BCB] t=1634.0s | pag=774 | files=8208 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=66&q=resultado-subastas-bonos-tesoro
+[BCB] t=1635.5s | pag=775 | files=8218 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=21&q=resultado-subastas-bonos-tesoro
+[BCB] t=1636.9s | pag=776 | files=8228 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=22&q=resultado-subastas-bonos-tesoro
+[BCB] t=1638.7s | pag=777 | files=8238 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=23&q=resultado-subastas-bonos-tesoro
+[BCB] t=1640.8s | pag=778 | files=8248 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=24&q=resultado-subastas-bonos-tesoro
+[BCB] t=1642.3s | pag=779 | files=8258 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=63&q=resultado-subastas-bonos-tesoro
+[BCB] t=1643.5s | pag=780 | files=8268 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=60&q=resultado-subastas-bonos-tesoro
+[BCB] t=1645.2s | pag=781 | files=8278 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=61&q=resultado-subastas-bonos-tesoro
+[BCB] t=1647.0s | pag=782 | files=8288 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=62&q=resultado-subastas-bonos-tesoro
+[BCB] t=1648.6s | pag=783 | files=8293 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=25&q=resultado-subastas-bonos-tesoro
+[BCB] t=1649.9s | pag=784 | files=8303 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=26&q=resultado-subastas-bonos-tesoro
+[BCB] t=1651.5s | pag=785 | files=8313 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=27&q=resultado-subastas-bonos-tesoro
+[BCB] t=1653.0s | pag=786 | files=8323 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=28&q=resultado-subastas-bonos-tesoro
+[BCB] t=1654.3s | pag=787 | files=8333 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=59&q=resultado-subastas-bonos-tesoro
+[BCB] t=1656.1s | pag=788 | files=8343 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=56&q=resultado-subastas-bonos-tesoro
+[BCB] t=1657.4s | pag=789 | files=8353 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=57&q=resultado-subastas-bonos-tesoro
+[BCB] t=1658.9s | pag=790 | files=8363 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=58&q=resultado-subastas-bonos-tesoro
+[BCB] t=1660.2s | pag=791 | files=8368 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=29&q=resultado-subastas-bonos-tesoro
+[BCB] t=1661.8s | pag=792 | files=8378 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=30&q=resultado-subastas-bonos-tesoro
+[BCB] t=1663.2s | pag=793 | files=8388 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=31&q=resultado-subastas-bonos-tesoro
+[BCB] t=1664.6s | pag=794 | files=8398 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=32&q=resultado-subastas-bonos-tesoro
+[BCB] t=1666.3s | pag=795 | files=8408 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=55&q=resultado-subastas-bonos-tesoro
+[BCB] t=1667.7s | pag=796 | files=8418 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=52&q=resultado-subastas-bonos-tesoro
+[BCB] t=1669.0s | pag=797 | files=8428 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=53&q=resultado-subastas-bonos-tesoro
+[BCB] t=1670.8s | pag=798 | files=8438 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=54&q=resultado-subastas-bonos-tesoro
+[BCB] t=1672.5s | pag=799 | files=8448 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=33&q=resultado-subastas-bonos-tesoro
+[BCB] t=1673.9s | pag=800 | files=8458 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=34&q=resultado-subastas-bonos-tesoro
+[BCB] t=1675.5s | pag=801 | files=8468 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=35&q=resultado-subastas-bonos-tesoro
+[BCB] t=1676.8s | pag=802 | files=8478 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=36&q=resultado-subastas-bonos-tesoro
+[BCB] t=1678.5s | pag=803 | files=8488 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=51&q=resultado-subastas-bonos-tesoro
+[BCB] t=1680.2s | pag=804 | files=8498 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=48&q=resultado-subastas-bonos-tesoro
+[BCB] t=1681.7s | pag=805 | files=8508 | data= 10 | cola= 732 | prio=40 | https://www.bcb.gob.bo/?page=49&q=resultado-subastas-bonos-tesoro
+[BCB] t=1683.3s | pag=806 | files=8518 | data= 10 | cola= 731 | prio=40 | https://www.bcb.gob.bo/?page=50&q=resultado-subastas-bonos-tesoro
+[BCB] t=1685.0s | pag=807 | files=8528 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=37&q=resultado-subastas-bonos-tesoro
+[BCB] t=1686.7s | pag=808 | files=8538 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=38&q=resultado-subastas-bonos-tesoro
+[BCB] t=1688.4s | pag=809 | files=8548 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=39&q=resultado-subastas-bonos-tesoro
+[BCB] t=1690.1s | pag=810 | files=8558 | data= 10 | cola= 730 | prio=40 | https://www.bcb.gob.bo/?page=40&q=resultado-subastas-bonos-tesoro
+[BCB] t=1691.8s | pag=811 | files=8568 | data= 10 | cola= 729 | prio=40 | https://www.bcb.gob.bo/?page=47&q=resultado-subastas-bonos-tesoro
+[BCB] t=1693.4s | pag=812 | files=8578 | data= 10 | cola= 728 | prio=40 | https://www.bcb.gob.bo/?page=44&q=resultado-subastas-bonos-tesoro
+[BCB] t=1695.1s | pag=813 | files=8588 | data= 10 | cola= 727 | prio=40 | https://www.bcb.gob.bo/?page=45&q=resultado-subastas-bonos-tesoro
+[BCB] t=1696.4s | pag=814 | files=8598 | data= 10 | cola= 726 | prio=40 | https://www.bcb.gob.bo/?page=46&q=resultado-subastas-bonos-tesoro
+[BCB] t=1697.7s | pag=815 | files=8605 | data= 10 | cola= 725 | prio=40 | https://www.bcb.gob.bo/?page=41&q=resultado-subastas-bonos-tesoro
+[BCB] t=1699.4s | pag=816 | files=8615 | data= 10 | cola= 724 | prio=40 | https://www.bcb.gob.bo/?page=42&q=resultado-subastas-bonos-tesoro
+[BCB] t=1700.7s | pag=817 | files=8625 | data= 10 | cola= 723 | prio=40 | https://www.bcb.gob.bo/?page=43&q=resultado-subastas-bonos-tesoro
+[BCB] t=1701.9s | pag=818 | files=8635 | data= 10 | cola= 722 | prio=50 | https://www.bcb.gob.bo/?q=content%2Frequisitos
+[BCB] t=1703.4s | pag=819 | files=8636 | data= 10 | cola= 721 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fencaje-legal
+[BCB] t=1704.7s | pag=820 | files=8654 | data= 10 | cola= 720 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fposici%C3%B3n-de-cambios
+[BCB] t=1706.0s | pag=821 | files=8661 | data= 10 | cola= 719 | prio=50 | https://www.bcb.gob.bo/?q=pagos_qr_bcb_bolivia
+[BCB] t=1707.0s | pag=822 | files=8661 | data= 10 | cola= 718 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fopen-bcb
+[BCB] t=1708.6s | pag=823 | files=8665 | data= 10 | cola= 717 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fevaluaci%C3%B3n-del-grado-de-desarrollo-digital-en-el-sistema-de-pagos-nacional
+[BCB] t=1710.2s | pag=824 | files=8666 | data= 10 | cola= 717 | prio=50 | https://www.bcb.gob.bo/?q=reglamentos
+[BCB] t=1711.3s | pag=825 | files=8676 | data= 10 | cola= 721 | prio=40 | https://www.bcb.gob.bo/?page=1&q=reglamentos
+[BCB] t=1712.6s | pag=826 | files=8686 | data= 10 | cola= 720 | prio=40 | https://www.bcb.gob.bo/?page=2&q=reglamentos
+[BCB] t=1713.8s | pag=827 | files=8696 | data= 10 | cola= 719 | prio=40 | https://www.bcb.gob.bo/?page=3&q=reglamentos
+[BCB] t=1715.5s | pag=828 | files=8706 | data= 10 | cola= 718 | prio=40 | https://www.bcb.gob.bo/?page=4&q=reglamentos
+[BCB] t=1717.4s | pag=829 | files=8716 | data= 10 | cola= 717 | prio=40 | https://www.bcb.gob.bo/?page=5&q=reglamentos
+[BCB] t=1719.0s | pag=830 | files=8721 | data= 10 | cola= 716 | prio=50 | https://www.bcb.gob.bo/?q=content%2Frequerimientos-operativos-m%C3%ADnimos-de-seguridad-para-instrumentos-electr%C3%B3nicos-de-pago
+[BCB] t=1720.6s | pag=831 | files=8722 | data= 10 | cola= 715 | prio=50 | https://www.bcb.gob.bo/?q=content%2Fenlaces-de-interes
+[BCB] t=1722.0s | pag=832 | files=8722 | data= 10 | cola= 714 | prio=50 | https://www.bcb.gob.bo/?q=pasivos_contables
+[BCB] t=1723.4s | pag=833 | files=8732 | data= 10 | cola= 714 | prio=40 | https://www.bcb.gob.bo/?page=1&q=pasivos_contables
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2735, in crawl
+    self.client.get(
+    ~~~~~~~~~~~~~~~^
+        current_url,
+        ^^^^^^^^^^^^
+    ...<4 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
+    self.session.get(
+    ~~~~~~~~~~~~~~~~^
+        url,
+        ^^^^
+    ...<16 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

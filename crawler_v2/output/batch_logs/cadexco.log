@@ -1,0 +1,960 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Cámara de Exportadores de Cochabamba
+URL configurada: https://cadexco.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://cadexco.bo/
+  Utilizada: https://cadexco.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://cadexco.bo/
+
+URL de trabajo: https://cadexco.bo/
+Seeds: 4
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[CADEXCO] SITEMAP | docs=6 | urls=215 | en_cola=211 | errores=0
+[CADEXCO] t=  19.0s | pag=  0 | files=   0 | data=  0 | cola= 214 | prio= 0 | https://cadexco.bo/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/16
+[CADEXCO] t=  20.2s | pag=  1 | files=   0 | data=  0 | cola= 215 | prio= 0 | https://cadexco.bo/publicaciones/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4303
+[CADEXCO] t=  22.3s | pag=  2 | files=   0 | data=  0 | cola= 215 | prio= 0 | https://cadexco.bo/cochabamba/
+[CADEXCO] DATASETS=1 | statistical_chart | https://cadexco.bo/cochabamba/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4288
+[CADEXCO] t=  24.3s | pag=  3 | files=   0 | data=  1 | cola= 215 | prio= 0 | https://cadexco.bo/lcoext/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4460
+[CADEXCO] t=  26.4s | pag=  4 | files=   1 | data=  1 | cola= 215 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/16
+[CADEXCO] t=  28.0s | pag=  4 | files=   1 | data=  1 | cola= 214 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4303
+[CADEXCO] t=  29.7s | pag=  4 | files=   1 | data=  1 | cola= 213 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4288
+[CADEXCO] t=  31.5s | pag=  4 | files=   1 | data=  1 | cola= 212 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4460
+[CADEXCO] t=  33.0s | pag=  4 | files=   1 | data=  1 | cola= 211 | prio=25 | https://cadexco.bo/tarjetas/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/posts/8119
+[CADEXCO] t=  35.0s | pag=  5 | files=   1 | data=  1 | cola= 211 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/posts/8119
+[CADEXCO] t=  36.8s | pag=  5 | files=   1 | data=  1 | cola= 210 | prio=25 | https://cadexco.bo/contacto/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/302
+[CADEXCO] t=  39.0s | pag=  6 | files=   1 | data=  1 | cola= 210 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/302
+[CADEXCO] t=  40.6s | pag=  6 | files=   1 | data=  1 | cola= 209 | prio=25 | https://cadexco.bo/directorio/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/324
+[CADEXCO] t=  42.7s | pag=  7 | files=   1 | data=  1 | cola= 209 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/324
+[CADEXCO] t=  43.8s | pag=  7 | files=   1 | data=  1 | cola= 208 | prio=25 | https://cadexco.bo/estatutos/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/2043
+[CADEXCO] t=  46.0s | pag=  8 | files=   1 | data=  1 | cola= 208 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/2043
+[CADEXCO] t=  47.5s | pag=  8 | files=   1 | data=  1 | cola= 207 | prio=25 | https://cadexco.bo/page-title-version-4/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3384
+[CADEXCO] t=  49.5s | pag=  9 | files=   1 | data=  1 | cola= 207 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3384
+[CADEXCO] t=  51.1s | pag=  9 | files=   1 | data=  1 | cola= 206 | prio=25 | https://cadexco.bo/historia/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3389
+[CADEXCO] t=  53.5s | pag= 10 | files=   1 | data=  1 | cola= 206 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3389
+[CADEXCO] t=  55.1s | pag= 10 | files=   1 | data=  1 | cola= 205 | prio=25 | https://cadexco.bo/home-5/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3480
+[CADEXCO] t=  57.8s | pag= 11 | files=   2 | data=  1 | cola= 205 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3480
+[CADEXCO] t=  59.8s | pag= 11 | files=   2 | data=  1 | cola= 204 | prio=25 | https://cadexco.bo/nuestraentidad/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3593
+[CADEXCO] t=  62.0s | pag= 12 | files=   2 | data=  1 | cola= 204 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3593
+[CADEXCO] t=  63.4s | pag= 12 | files=   2 | data=  1 | cola= 203 | prio=25 | https://cadexco.bo/gestion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3735
+[CADEXCO] t=  65.3s | pag= 13 | files=   2 | data=  1 | cola= 203 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3735
+[CADEXCO] t=  67.2s | pag= 13 | files=   2 | data=  1 | cola= 202 | prio=25 | https://cadexco.bo/promocion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3740
+[CADEXCO] t=  69.4s | pag= 14 | files=   2 | data=  1 | cola= 202 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3740
+[CADEXCO] t=  70.5s | pag= 14 | files=   2 | data=  1 | cola= 201 | prio=25 | https://cadexco.bo/requsitos/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3791
+[CADEXCO] t=  72.7s | pag= 15 | files=   2 | data=  1 | cola= 201 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3791
+[CADEXCO] t=  74.5s | pag= 15 | files=   2 | data=  1 | cola= 200 | prio=25 | https://cadexco.bo/event-directory/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/3905
+[CADEXCO] t=  76.0s | pag= 16 | files=   2 | data=  1 | cola= 200 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/3905
+[CADEXCO] t=  77.3s | pag= 16 | files=   2 | data=  1 | cola= 199 | prio=25 | https://cadexco.bo/asesoramiento/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4036
+[CADEXCO] t=  79.9s | pag= 17 | files=   2 | data=  1 | cola= 199 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4036
+[CADEXCO] t=  81.1s | pag= 17 | files=   2 | data=  1 | cola= 198 | prio=25 | https://cadexco.bo/calendario/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4062
+[CADEXCO] t=  83.6s | pag= 18 | files=   2 | data=  1 | cola= 204 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4062
+[CADEXCO] t=  84.7s | pag= 18 | files=   2 | data=  1 | cola= 203 | prio=25 | https://cadexco.bo/operaciones-pre-y-post-embarque/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4105
+[CADEXCO] t=  86.6s | pag= 19 | files=   2 | data=  1 | cola= 203 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4105
+[CADEXCO] t=  87.8s | pag= 19 | files=   2 | data=  1 | cola= 202 | prio=25 | https://cadexco.bo/promocion-comercial/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4168
+[CADEXCO] t=  89.9s | pag= 20 | files=   2 | data=  1 | cola= 202 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4168
+[CADEXCO] t=  91.4s | pag= 20 | files=   2 | data=  1 | cola= 201 | prio=25 | https://cadexco.bo/actualizacion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4192
+[CADEXCO] t=  93.6s | pag= 21 | files=   2 | data=  1 | cola= 201 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4192
+[CADEXCO] t=  94.8s | pag= 21 | files=   2 | data=  1 | cola= 200 | prio=25 | https://cadexco.bo/noticias/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4199
+[CADEXCO] t=  96.5s | pag= 22 | files=   2 | data=  1 | cola= 200 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4199
+[CADEXCO] t=  97.7s | pag= 22 | files=   2 | data=  1 | cola= 199 | prio=25 | https://cadexco.bo/acuerdos/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4268
+[CADEXCO] t=  99.7s | pag= 23 | files=   4 | data=  1 | cola= 199 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4268
+[CADEXCO] t= 100.8s | pag= 23 | files=   4 | data=  1 | cola= 198 | prio=25 | https://cadexco.bo/inteligencia/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4273
+[CADEXCO] t= 102.7s | pag= 24 | files=   9 | data=  1 | cola= 198 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4273
+[CADEXCO] t= 104.4s | pag= 24 | files=   9 | data=  1 | cola= 197 | prio=25 | https://cadexco.bo/tarjeta/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4281
+[CADEXCO] t= 106.6s | pag= 25 | files=   9 | data=  1 | cola= 197 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4281
+[CADEXCO] t= 107.5s | pag= 25 | files=   9 | data=  1 | cola= 196 | prio=25 | https://cadexco.bo/circulares/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4296
+[CADEXCO] t= 109.8s | pag= 26 | files=   9 | data=  1 | cola= 196 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4296
+[CADEXCO] t= 111.0s | pag= 26 | files=   9 | data=  1 | cola= 195 | prio=25 | https://cadexco.bo/memoria/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4299
+[CADEXCO] t= 113.3s | pag= 27 | files=  16 | data=  1 | cola= 195 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4299
+[CADEXCO] t= 114.7s | pag= 27 | files=  16 | data=  1 | cola= 194 | prio=25 | https://cadexco.bo/demanda/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4306
+[CADEXCO] t= 116.3s | pag= 28 | files=  16 | data=  1 | cola= 195 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4306
+[CADEXCO] t= 117.6s | pag= 28 | files=  16 | data=  1 | cola= 194 | prio=25 | https://cadexco.bo/rse-2/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4420
+[CADEXCO] t= 119.3s | pag= 29 | files=  16 | data=  1 | cola= 194 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4420
+[CADEXCO] t= 120.3s | pag= 29 | files=  16 | data=  1 | cola= 193 | prio=25 | https://cadexco.bo/ltributaria/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4473
+[CADEXCO] t= 122.5s | pag= 30 | files=  16 | data=  1 | cola= 193 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4473
+[CADEXCO] t= 123.5s | pag= 30 | files=  16 | data=  1 | cola= 192 | prio=25 | https://cadexco.bo/extruc/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4477
+[CADEXCO] t= 125.1s | pag= 31 | files=  16 | data=  1 | cola= 192 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4477
+[CADEXCO] t= 126.3s | pag= 31 | files=  16 | data=  1 | cola= 191 | prio=25 | https://cadexco.bo/bolex/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4496
+[CADEXCO] t= 128.1s | pag= 32 | files=  16 | data=  1 | cola= 191 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4496
+[CADEXCO] t= 129.6s | pag= 32 | files=  16 | data=  1 | cola= 190 | prio=25 | https://cadexco.bo/fcf/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4520
+[CADEXCO] t= 131.7s | pag= 33 | files=  16 | data=  1 | cola= 190 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4520
+[CADEXCO] t= 133.0s | pag= 33 | files=  16 | data=  1 | cola= 189 | prio=25 | https://cadexco.bo/pral/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4575
+[CADEXCO] t= 136.1s | pag= 34 | files=  16 | data=  1 | cola= 216 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4575
+[CADEXCO] t= 138.1s | pag= 34 | files=  16 | data=  1 | cola= 215 | prio=25 | https://cadexco.bo/frfrde/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4585
+[CADEXCO] t= 140.3s | pag= 35 | files=  16 | data=  1 | cola= 220 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4585
+[CADEXCO] t= 142.0s | pag= 35 | files=  16 | data=  1 | cola= 219 | prio=25 | https://cadexco.bo/olyde/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4587
+[CADEXCO] t= 143.7s | pag= 36 | files=  16 | data=  1 | cola= 219 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4587
+[CADEXCO] t= 145.1s | pag= 36 | files=  16 | data=  1 | cola= 218 | prio=25 | https://cadexco.bo/flplfose/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4589
+[CADEXCO] t= 147.6s | pag= 37 | files=  16 | data=  1 | cola= 219 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4589
+[CADEXCO] t= 148.9s | pag= 37 | files=  16 | data=  1 | cola= 218 | prio=25 | https://cadexco.bo/mayma/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4591
+[CADEXCO] t= 151.1s | pag= 38 | files=  16 | data=  1 | cola= 226 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4591
+[CADEXCO] t= 152.5s | pag= 38 | files=  16 | data=  1 | cola= 225 | prio=25 | https://cadexco.bo/cotete/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4593
+[CADEXCO] t= 154.2s | pag= 39 | files=  16 | data=  1 | cola= 229 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4593
+[CADEXCO] t= 155.9s | pag= 39 | files=  16 | data=  1 | cola= 228 | prio=25 | https://cadexco.bo/arva/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4596
+[CADEXCO] t= 157.7s | pag= 40 | files=  16 | data=  1 | cola= 229 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4596
+[CADEXCO] t= 158.7s | pag= 40 | files=  16 | data=  1 | cola= 228 | prio=25 | https://cadexco.bo/cusum/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4598
+[CADEXCO] t= 160.7s | pag= 41 | files=  16 | data=  1 | cola= 230 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4598
+[CADEXCO] t= 162.4s | pag= 41 | files=  16 | data=  1 | cola= 229 | prio=25 | https://cadexco.bo/enem/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4600
+[CADEXCO] t= 169.1s | pag= 42 | files=  16 | data=  1 | cola= 321 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4600
+[CADEXCO] t= 173.9s | pag= 42 | files=  16 | data=  1 | cola= 320 | prio=25 | https://cadexco.bo/mapicece/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4602
+[CADEXCO] t= 175.7s | pag= 43 | files=  16 | data=  1 | cola= 324 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4602
+[CADEXCO] t= 177.4s | pag= 43 | files=  16 | data=  1 | cola= 323 | prio=25 | https://cadexco.bo/minome/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4605
+[CADEXCO] t= 180.3s | pag= 44 | files=  16 | data=  1 | cola= 338 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4605
+[CADEXCO] t= 182.5s | pag= 44 | files=  16 | data=  1 | cola= 337 | prio=25 | https://cadexco.bo/prdeinqude/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4608
+[CADEXCO] t= 184.9s | pag= 45 | files=  16 | data=  1 | cola= 345 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4608
+[CADEXCO] t= 187.0s | pag= 45 | files=  16 | data=  1 | cola= 344 | prio=25 | https://cadexco.bo/lifopa/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4611
+[CADEXCO] t= 189.2s | pag= 46 | files=  16 | data=  1 | cola= 350 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4611
+[CADEXCO] t= 191.0s | pag= 46 | files=  16 | data=  1 | cola= 349 | prio=25 | https://cadexco.bo/ser/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4613
+[CADEXCO] t= 193.3s | pag= 47 | files=  16 | data=  1 | cola= 351 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4613
+[CADEXCO] t= 194.9s | pag= 47 | files=  16 | data=  1 | cola= 350 | prio=25 | https://cadexco.bo/soad/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4615
+[CADEXCO] t= 197.1s | pag= 48 | files=  16 | data=  1 | cola= 354 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4615
+[CADEXCO] t= 198.9s | pag= 48 | files=  16 | data=  1 | cola= 353 | prio=25 | https://cadexco.bo/prva/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4617
+[CADEXCO] t= 200.7s | pag= 49 | files=  16 | data=  1 | cola= 353 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4617
+[CADEXCO] t= 202.4s | pag= 49 | files=  16 | data=  1 | cola= 352 | prio=25 | https://cadexco.bo/capacitacion-empresarial/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/4675
+[CADEXCO] t= 204.1s | pag= 50 | files=  16 | data=  1 | cola= 352 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/4675
+[CADEXCO] t= 205.7s | pag= 50 | files=  16 | data=  1 | cola= 351 | prio=25 | https://cadexco.bo/directorio-de-negocios/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/5430
+[CADEXCO] t= 207.7s | pag= 51 | files=  16 | data=  1 | cola= 351 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/5430
+[CADEXCO] t= 209.1s | pag= 51 | files=  16 | data=  1 | cola= 350 | prio=25 | https://cadexco.bo/calendar/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/5531
+[CADEXCO] t= 211.1s | pag= 52 | files=  16 | data=  1 | cola= 350 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/5531
+[CADEXCO] t= 212.2s | pag= 52 | files=  16 | data=  1 | cola= 349 | prio=25 | https://cadexco.bo/fsa/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/5774
+[CADEXCO] t= 214.3s | pag= 53 | files=  16 | data=  1 | cola= 349 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/5774
+[CADEXCO] t= 215.9s | pag= 53 | files=  16 | data=  1 | cola= 348 | prio=25 | https://cadexco.bo/asamblea/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/5877
+[CADEXCO] t= 218.1s | pag= 54 | files=  16 | data=  1 | cola= 348 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/5877
+[CADEXCO] t= 219.8s | pag= 54 | files=  16 | data=  1 | cola= 347 | prio=25 | https://cadexco.bo/fbusiness/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/5889
+[CADEXCO] t= 222.4s | pag= 55 | files=  16 | data=  1 | cola= 347 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/5889
+[CADEXCO] t= 223.9s | pag= 55 | files=  16 | data=  1 | cola= 346 | prio=25 | https://cadexco.bo/fbusinessi1/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/6055
+[CADEXCO] t= 226.0s | pag= 56 | files=  16 | data=  1 | cola= 347 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/6055
+[CADEXCO] t= 227.1s | pag= 56 | files=  16 | data=  1 | cola= 346 | prio=25 | https://cadexco.bo/fbusinessin/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/6059
+[CADEXCO] t= 229.2s | pag= 57 | files=  16 | data=  1 | cola= 346 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/6059
+[CADEXCO] t= 230.7s | pag= 57 | files=  16 | data=  1 | cola= 345 | prio=25 | https://cadexco.bo/expoexport1/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/6113
+[CADEXCO] t= 233.0s | pag= 58 | files=  16 | data=  1 | cola= 345 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/6113
+[CADEXCO] t= 234.6s | pag= 58 | files=  16 | data=  1 | cola= 344 | prio=25 | https://cadexco.bo/excontruccion/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/6245
+[CADEXCO] t= 236.8s | pag= 59 | files=  16 | data=  1 | cola= 344 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/6245
+[CADEXCO] t= 238.0s | pag= 59 | files=  16 | data=  1 | cola= 343 | prio=25 | https://cadexco.bo/asamb-21/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/6299
+[CADEXCO] t= 240.2s | pag= 60 | files=  16 | data=  1 | cola= 343 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/6299
+[CADEXCO] t= 241.4s | pag= 60 | files=  16 | data=  1 | cola= 342 | prio=25 | https://cadexco.bo/tpp/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/6892
+[CADEXCO] t= 243.3s | pag= 61 | files=  16 | data=  1 | cola= 342 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/6892
+[CADEXCO] t= 244.8s | pag= 61 | files=  16 | data=  1 | cola= 341 | prio=25 | https://cadexco.bo/form45b/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/7193
+[CADEXCO] t= 247.0s | pag= 62 | files=  16 | data=  1 | cola= 341 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/7193
+[CADEXCO] t= 248.6s | pag= 62 | files=  16 | data=  1 | cola= 340 | prio=25 | https://cadexco.bo/form45a/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/7352
+[CADEXCO] t= 251.0s | pag= 63 | files=  16 | data=  1 | cola= 340 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/7352
+[CADEXCO] t= 252.2s | pag= 63 | files=  16 | data=  1 | cola= 339 | prio=25 | https://cadexco.bo/ruedadenegocios/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/7778
+[CADEXCO] t= 253.9s | pag= 64 | files=  16 | data=  1 | cola= 340 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/7778
+[CADEXCO] t= 255.3s | pag= 64 | files=  16 | data=  1 | cola= 339 | prio=25 | https://cadexco.bo/publicaciones/premiacion-al-merito-exportador-2024/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/8064
+[CADEXCO] t= 256.9s | pag= 65 | files=  16 | data=  1 | cola= 339 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/8064
+[CADEXCO] t= 258.5s | pag= 65 | files=  16 | data=  1 | cola= 338 | prio=25 | https://cadexco.bo/publicaciones/encuentro-nacional-de-exportadores-enex-2025/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/pages/8067
+[CADEXCO] t= 261.1s | pag= 66 | files=  16 | data=  1 | cola= 338 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/pages/8067
+[CADEXCO] t= 262.5s | pag= 66 | files=  16 | data=  1 | cola= 337 | prio=25 | https://cadexco.bo/evento/expoalimenta/
+[CADEXCO] t= 264.5s | pag= 67 | files=  16 | data=  1 | cola= 337 | prio=25 | https://cadexco.bo/evento/expocorma-2/
+[CADEXCO] t= 266.7s | pag= 68 | files=  16 | data=  1 | cola= 336 | prio=25 | https://cadexco.bo/evento/expocorma-2-2/
+[CADEXCO] t= 268.6s | pag= 69 | files=  16 | data=  1 | cola= 335 | prio=25 | https://cadexco.bo/evento/expocorma-2-3/
+[CADEXCO] t= 270.2s | pag= 70 | files=  16 | data=  1 | cola= 334 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2/
+[CADEXCO] t= 272.1s | pag= 71 | files=  16 | data=  1 | cola= 333 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2/
+[CADEXCO] t= 273.8s | pag= 72 | files=  16 | data=  1 | cola= 332 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2/
+[CADEXCO] t= 275.8s | pag= 73 | files=  16 | data=  1 | cola= 331 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2/
+[CADEXCO] t= 278.0s | pag= 74 | files=  16 | data=  1 | cola= 330 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2/
+[CADEXCO] t= 279.7s | pag= 75 | files=  16 | data=  1 | cola= 329 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2/
+[CADEXCO] t= 281.6s | pag= 76 | files=  16 | data=  1 | cola= 328 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2/
+[CADEXCO] t= 283.3s | pag= 77 | files=  16 | data=  1 | cola= 327 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 284.6s | pag= 78 | files=  16 | data=  1 | cola= 326 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 287.0s | pag= 79 | files=  16 | data=  1 | cola= 325 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 288.6s | pag= 80 | files=  16 | data=  1 | cola= 324 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 290.1s | pag= 81 | files=  16 | data=  1 | cola= 323 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 291.9s | pag= 82 | files=  16 | data=  1 | cola= 322 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 294.1s | pag= 83 | files=  16 | data=  1 | cola= 321 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 296.3s | pag= 84 | files=  16 | data=  1 | cola= 320 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 298.8s | pag= 85 | files=  16 | data=  1 | cola= 319 | prio=25 | https://cadexco.bo/evento/expoalimenta-2/
+[CADEXCO] t= 300.7s | pag= 86 | files=  16 | data=  1 | cola= 319 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 303.0s | pag= 87 | files=  16 | data=  1 | cola= 318 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 304.6s | pag= 88 | files=  16 | data=  1 | cola= 317 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3/
+[CADEXCO] t= 306.2s | pag= 89 | files=  16 | data=  1 | cola= 316 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2/
+[CADEXCO] t= 308.1s | pag= 90 | files=  16 | data=  1 | cola= 315 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2/
+[CADEXCO] t= 309.9s | pag= 91 | files=  16 | data=  1 | cola= 314 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2/
+[CADEXCO] t= 312.2s | pag= 92 | files=  16 | data=  1 | cola= 313 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2/
+[CADEXCO] t= 314.6s | pag= 93 | files=  16 | data=  1 | cola= 312 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2/
+[CADEXCO] t= 316.4s | pag= 94 | files=  16 | data=  1 | cola= 311 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2/
+[CADEXCO] t= 318.6s | pag= 95 | files=  16 | data=  1 | cola= 310 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2/
+[CADEXCO] t= 320.8s | pag= 96 | files=  16 | data=  1 | cola= 309 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 322.8s | pag= 97 | files=  16 | data=  1 | cola= 308 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 325.1s | pag= 98 | files=  16 | data=  1 | cola= 307 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 327.1s | pag= 99 | files=  16 | data=  1 | cola= 306 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-2-2-2/
+[CADEXCO] t= 328.9s | pag=100 | files=  16 | data=  1 | cola= 305 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3/
+[CADEXCO] t= 330.8s | pag=101 | files=  16 | data=  1 | cola= 304 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-2/
+[CADEXCO] t= 333.1s | pag=102 | files=  16 | data=  1 | cola= 303 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3/
+[CADEXCO] t= 333.8s | pag=102 | files=  16 | data=  1 | cola= 302 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-4/
+[CADEXCO] t= 339.8s | pag=103 | files=  16 | data=  1 | cola= 301 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-2/
+[CADEXCO] t= 342.3s | pag=104 | files=  16 | data=  1 | cola= 300 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3/
+[CADEXCO] t= 343.9s | pag=105 | files=  16 | data=  1 | cola= 299 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-2/
+[CADEXCO] t= 345.9s | pag=106 | files=  16 | data=  1 | cola= 298 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-3/
+[CADEXCO] t= 347.7s | pag=107 | files=  16 | data=  1 | cola= 297 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4/
+[CADEXCO] t= 349.6s | pag=108 | files=  16 | data=  1 | cola= 296 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4-2/
+[CADEXCO] t= 351.3s | pag=109 | files=  16 | data=  1 | cola= 295 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4-2-2-2/
+[CADEXCO] t= 352.7s | pag=110 | files=  16 | data=  1 | cola= 294 | prio=25 | https://cadexco.bo/evento/expocorma-2-3-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-2-3-2-2-2-2-2-2-2-2-3-3-3-4-2-2-3/
+[CADEXCO] t= 354.9s | pag=111 | files=  16 | data=  1 | cola= 293 | prio=25 | https://cadexco.bo/evento/natural-organic-products-europe/
+[CADEXCO] t= 357.3s | pag=112 | files=  16 | data=  1 | cola= 292 | prio=25 | https://cadexco.bo/evento/fruit-logistica/
+[CADEXCO] t= 359.0s | pag=113 | files=  16 | data=  1 | cola= 291 | prio=25 | https://cadexco.bo/evento/vitafoods-international-presencial-online/
+[CADEXCO] t= 360.7s | pag=114 | files=  16 | data=  1 | cola= 290 | prio=25 | https://cadexco.bo/evento/apas-show/
+[CADEXCO] t= 362.7s | pag=115 | files=  16 | data=  1 | cola= 289 | prio=25 | https://cadexco.bo/evento/expo-antad-alimentaria-mexico/
+[CADEXCO] t= 364.7s | pag=116 | files=  16 | data=  1 | cola= 288 | prio=25 | https://cadexco.bo/evento/the-summer-fancy-food-show/
+[CADEXCO] t= 367.1s | pag=117 | files=  16 | data=  1 | cola= 287 | prio=25 | https://cadexco.bo/evento/fi-ingredients-southamerica/
+[CADEXCO] t= 369.1s | pag=118 | files=  16 | data=  1 | cola= 286 | prio=25 | https://cadexco.bo/evento/western-foodservice-and-hospitality-expo/
+[CADEXCO] t= 371.1s | pag=119 | files=  16 | data=  1 | cola= 285 | prio=25 | https://cadexco.bo/evento/biofach-india/
+[CADEXCO] t= 373.2s | pag=120 | files=  16 | data=  1 | cola= 284 | prio=25 | https://cadexco.bo/evento/sana/
+[CADEXCO] t= 373.7s | pag=120 | files=  16 | data=  1 | cola= 283 | prio=25 | https://cadexco.bo/evento/americas-food-beverage-show-conference/
+[CADEXCO] t= 376.3s | pag=121 | files=  16 | data=  1 | cola= 282 | prio=25 | https://cadexco.bo/evento/natural-products-expo-east-all-things-organics/
+[CADEXCO] t= 377.9s | pag=122 | files=  16 | data=  1 | cola= 281 | prio=25 | https://cadexco.bo/evento/eurofruit/
+[CADEXCO] t= 380.1s | pag=123 | files=  16 | data=  1 | cola= 280 | prio=25 | https://cadexco.bo/evento/feria-internacional-artesanias/
+[CADEXCO] t= 382.2s | pag=124 | files=  16 | data=  1 | cola= 279 | prio=25 | https://cadexco.bo/evento/bazaar-berlin/
+[CADEXCO] t= 384.3s | pag=125 | files=  16 | data=  1 | cola= 278 | prio=25 | https://cadexco.bo/evento/agropecruz/
+[CADEXCO] t= 386.1s | pag=126 | files=  16 | data=  1 | cola= 277 | prio=25 | https://cadexco.bo/evento/grocery-innovations-canada/
+[CADEXCO] t= 387.8s | pag=127 | files=  16 | data=  1 | cola= 276 | prio=25 | https://cadexco.bo/evento/fima-agricola/
+[CADEXCO] t= 389.5s | pag=128 | files=  16 | data=  1 | cola= 275 | prio=25 | https://cadexco.bo/evento/genera/
+[CADEXCO] t= 391.6s | pag=129 | files=  16 | data=  1 | cola= 274 | prio=25 | https://cadexco.bo/evento/francal/
+[CADEXCO] t= 393.7s | pag=130 | files=  16 | data=  1 | cola= 273 | prio=25 | https://cadexco.bo/evento/international-floriculture-expo/
+[CADEXCO] t= 395.5s | pag=131 | files=  16 | data=  1 | cola= 272 | prio=25 | https://cadexco.bo/evento/agriflor-ecuador/
+[CADEXCO] t= 397.2s | pag=132 | files=  16 | data=  1 | cola= 271 | prio=25 | https://cadexco.bo/evento/domotex-hannover/
+[CADEXCO] t= 398.8s | pag=133 | files=  16 | data=  1 | cola= 270 | prio=25 | https://cadexco.bo/evento/fimma/
+[CADEXCO] t= 400.5s | pag=134 | files=  16 | data=  1 | cola= 269 | prio=25 | https://cadexco.bo/evento/feicom-batimat/
+[CADEXCO] t= 402.7s | pag=135 | files=  16 | data=  1 | cola= 268 | prio=25 | https://cadexco.bo/evento/mosbuild/
+[CADEXCO] t= 404.1s | pag=136 | files=  16 | data=  1 | cola= 267 | prio=25 | https://cadexco.bo/evento/eurobois/
+[CADEXCO] t= 406.1s | pag=137 | files=  16 | data=  1 | cola= 266 | prio=25 | https://cadexco.bo/evento/spoga/
+[CADEXCO] t= 408.0s | pag=138 | files=  16 | data=  1 | cola= 265 | prio=25 | https://cadexco.bo/evento/fitecma/
+[CADEXCO] t= 409.8s | pag=139 | files=  16 | data=  1 | cola= 264 | prio=25 | https://cadexco.bo/evento/timber-expo/
+[CADEXCO] t= 412.0s | pag=140 | files=  16 | data=  1 | cola= 263 | prio=25 | https://cadexco.bo/evento/coverings/
+[CADEXCO] t= 413.6s | pag=141 | files=  16 | data=  1 | cola= 262 | prio=25 | https://cadexco.bo/evento/informex-usa/
+[CADEXCO] t= 415.2s | pag=142 | files=  16 | data=  1 | cola= 261 | prio=25 | https://cadexco.bo/evento/expo-pack-procesa/
+[CADEXCO] t= 417.2s | pag=143 | files=  16 | data=  1 | cola= 260 | prio=25 | https://cadexco.bo/evento/luxe-pack/
+[CADEXCO] t= 419.5s | pag=144 | files=  16 | data=  1 | cola= 259 | prio=25 | https://cadexco.bo/evento/feria-internacional-del-libro-de-buenos-aires/
+[CADEXCO] t= 421.6s | pag=145 | files=  16 | data=  1 | cola= 258 | prio=25 | https://cadexco.bo/evento/expocomer/
+[CADEXCO] t= 423.4s | pag=146 | files=  16 | data=  1 | cola= 257 | prio=25 | https://cadexco.bo/evento/modern-bakery-moscow-moscu/
+[CADEXCO] t= 425.6s | pag=147 | files=  16 | data=  1 | cola= 256 | prio=25 | https://cadexco.bo/evento/tecnofidta/
+[CADEXCO] t= 427.6s | pag=148 | files=  16 | data=  1 | cola= 255 | prio=25 | https://cadexco.bo/evento/expocomer-2/
+[CADEXCO] t= 429.8s | pag=149 | files=  16 | data=  1 | cola= 254 | prio=25 | https://cadexco.bo/evento/mosbuild-2/
+[CADEXCO] t= 431.8s | pag=150 | files=  16 | data=  1 | cola= 253 | prio=25 | https://cadexco.bo/evento/feicom-batimat-2/
+[CADEXCO] t= 433.7s | pag=151 | files=  16 | data=  1 | cola= 252 | prio=25 | https://cadexco.bo/evento/alimentaria/
+[CADEXCO] t= 435.2s | pag=152 | files=  16 | data=  1 | cola= 251 | prio=25 | https://cadexco.bo/evento/coverings-2/
+[CADEXCO] t= 437.0s | pag=153 | files=  16 | data=  1 | cola= 250 | prio=25 | https://cadexco.bo/evento/fruit-logistica-2/
+[CADEXCO] t= 438.9s | pag=154 | files=  16 | data=  1 | cola= 249 | prio=25 | https://cadexco.bo/evento/agropecruz-2/
+[CADEXCO] t= 441.1s | pag=155 | files=  16 | data=  1 | cola= 248 | prio=25 | https://cadexco.bo/evento/feria-internacional-artesanias-2/
+[CADEXCO] t= 443.1s | pag=156 | files=  16 | data=  1 | cola= 247 | prio=25 | https://cadexco.bo/evento/sial-canada/
+[CADEXCO] t= 444.6s | pag=157 | files=  16 | data=  1 | cola= 246 | prio=25 | https://cadexco.bo/evento/fima-agricola-2/
+[CADEXCO] t= 446.5s | pag=158 | files=  16 | data=  1 | cola= 245 | prio=25 | https://cadexco.bo/evento/feria-internacional-del-libro-de-buenos-aires-2/
+[CADEXCO] t= 448.4s | pag=159 | files=  16 | data=  1 | cola= 244 | prio=25 | https://cadexco.bo/evento/feria-apas-show/
+[CADEXCO] t= 450.9s | pag=160 | files=  16 | data=  1 | cola= 243 | prio=25 | https://cadexco.bo/evento/informex-usa-2/
+[CADEXCO] t= 452.5s | pag=161 | files=  16 | data=  1 | cola= 242 | prio=25 | https://cadexco.bo/evento/ifia-japan/
+[CADEXCO] t= 454.3s | pag=162 | files=  16 | data=  1 | cola= 241 | prio=25 | https://cadexco.bo/evento/sial-china/
+[CADEXCO] t= 456.3s | pag=163 | files=  16 | data=  1 | cola= 240 | prio=25 | https://cadexco.bo/evento/expo-antad-alimentaria-mexico-2/
+[CADEXCO] t= 458.2s | pag=164 | files=  16 | data=  1 | cola= 239 | prio=25 | https://cadexco.bo/evento/alimentec/
+[CADEXCO] t= 460.6s | pag=165 | files=  16 | data=  1 | cola= 238 | prio=25 | https://cadexco.bo/evento/floriexpo/
+[CADEXCO] t= 462.7s | pag=166 | files=  16 | data=  1 | cola= 237 | prio=25 | https://cadexco.bo/evento/the-summer-fancy-food-show-2/
+[CADEXCO] t= 464.5s | pag=167 | files=  16 | data=  1 | cola= 236 | prio=25 | https://cadexco.bo/evento/genera-2/
+[CADEXCO] t= 466.2s | pag=168 | files=  16 | data=  1 | cola= 235 | prio=25 | https://cadexco.bo/evento/expo-pack/
+[CADEXCO] t= 467.9s | pag=169 | files=  16 | data=  1 | cola= 234 | prio=25 | https://cadexco.bo/evento/luxe-pack-2/
+[CADEXCO] t= 469.8s | pag=170 | files=  16 | data=  1 | cola= 233 | prio=25 | https://cadexco.bo/evento/spoga-2/
+[CADEXCO] t= 471.6s | pag=171 | files=  16 | data=  1 | cola= 232 | prio=25 | https://cadexco.bo/evento/food-ingredients-south-america/
+[CADEXCO] t= 473.4s | pag=172 | files=  16 | data=  1 | cola= 231 | prio=25 | https://cadexco.bo/evento/western-foodservice-hospitality-expo/
+[CADEXCO] t= 475.6s | pag=173 | files=  16 | data=  1 | cola= 230 | prio=25 | https://cadexco.bo/evento/biofach-india-2/
+[CADEXCO] t= 477.2s | pag=174 | files=  16 | data=  1 | cola= 229 | prio=25 | https://cadexco.bo/evento/sana-2/
+[CADEXCO] t= 478.8s | pag=175 | files=  16 | data=  1 | cola= 228 | prio=25 | https://cadexco.bo/evento/americas-food-beverage-show-conference-2/
+[CADEXCO] t= 480.5s | pag=176 | files=  16 | data=  1 | cola= 227 | prio=25 | https://cadexco.bo/evento/ibie/
+[CADEXCO] t= 482.4s | pag=177 | files=  16 | data=  1 | cola= 226 | prio=25 | https://cadexco.bo/evento/natural-products-expo-east/
+[CADEXCO] t= 484.5s | pag=178 | files=  16 | data=  1 | cola= 225 | prio=25 | https://cadexco.bo/evento/eurofruit-2/
+[CADEXCO] t= 486.7s | pag=179 | files=  16 | data=  1 | cola= 224 | prio=25 | https://cadexco.bo/evento/timber-expo-2/
+[CADEXCO] t= 489.0s | pag=180 | files=  16 | data=  1 | cola= 223 | prio=25 | https://cadexco.bo/evento/agriflor/
+[CADEXCO] t= 491.4s | pag=181 | files=  16 | data=  1 | cola= 222 | prio=25 | https://cadexco.bo/evento/sial/
+[CADEXCO] t= 493.0s | pag=182 | files=  16 | data=  1 | cola= 221 | prio=25 | https://cadexco.bo/evento/grocery-innovations-canada-2/
+[CADEXCO] t= 494.8s | pag=183 | files=  16 | data=  1 | cola= 220 | prio=25 | https://cadexco.bo/evento/bazaar-berlin-2/
+[CADEXCO] t= 496.5s | pag=184 | files=  16 | data=  1 | cola= 219 | prio=25 | https://cadexco.bo/evento/domotex-hannover-2/
+[CADEXCO] t= 498.4s | pag=185 | files=  16 | data=  1 | cola= 218 | prio=25 | https://cadexco.bo/evento/natural-organic-products-europe-2/
+[CADEXCO] t= 500.7s | pag=186 | files=  16 | data=  1 | cola= 217 | prio=25 | https://cadexco.bo/evento/expo-proveedores-de-gastronomia-y-hoteles-aguas-calientes-2024/
+[CADEXCO] t= 503.0s | pag=187 | files=  16 | data=  1 | cola= 217 | prio=25 | https://cadexco.bo/evento/plmas-world-of-private-label/
+[CADEXCO] t= 504.8s | pag=188 | files=  16 | data=  1 | cola= 216 | prio=25 | https://cadexco.bo/evento/ift-first/
+[CADEXCO] t= 506.8s | pag=189 | files=  16 | data=  1 | cola= 215 | prio=25 | https://cadexco.bo/evento/fispal-food-service/
+[CADEXCO] t= 508.8s | pag=190 | files=  16 | data=  1 | cola= 214 | prio=25 | https://cadexco.bo/evento/food-ingredients-south-america-2/
+[CADEXCO] t= 510.3s | pag=191 | files=  16 | data=  1 | cola= 213 | prio=25 | https://cadexco.bo/evento/expomeat/
+[CADEXCO] t= 512.0s | pag=192 | files=  16 | data=  1 | cola= 212 | prio=25 | https://cadexco.bo/evento/natural-tech/
+[CADEXCO] t= 514.0s | pag=193 | files=  16 | data=  1 | cola= 211 | prio=25 | https://cadexco.bo/evento/expomeat-2/
+[CADEXCO] t= 515.9s | pag=194 | files=  16 | data=  1 | cola= 210 | prio=25 | https://cadexco.bo/evento/salimat-abanca-salon-de-alimentacion-del-atlantico/
+[CADEXCO] t= 517.9s | pag=195 | files=  16 | data=  1 | cola= 209 | prio=25 | https://cadexco.bo/evento/bioterra/
+[CADEXCO] t= 520.0s | pag=196 | files=  16 | data=  1 | cola= 208 | prio=25 | https://cadexco.bo/evento/mencatur/
+[CADEXCO] t= 521.6s | pag=197 | files=  16 | data=  1 | cola= 207 | prio=25 | https://cadexco.bo/evento/fruit-attraction/
+[CADEXCO] t= 523.7s | pag=198 | files=  16 | data=  1 | cola= 206 | prio=25 | https://cadexco.bo/evento/fancy-food-show/
+[CADEXCO] t= 525.2s | pag=199 | files=  16 | data=  1 | cola= 205 | prio=25 | https://cadexco.bo/evento/sial-paris/
+[CADEXCO] t= 527.3s | pag=200 | files=  16 | data=  1 | cola= 204 | prio=25 | https://cadexco.bo/evento/expo-alimenta/
+[CADEXCO] t= 529.3s | pag=201 | files=  16 | data=  1 | cola= 203 | prio=25 | https://cadexco.bo/evento/vino-fest/
+[CADEXCO] t= 531.5s | pag=202 | files=  16 | data=  1 | cola= 202 | prio=25 | https://cadexco.bo/evento/sugoi-fan-fest/
+[CADEXCO] t= 533.2s | pag=203 | files=  16 | data=  1 | cola= 201 | prio=25 | https://cadexco.bo/evento/expo-reincorpora/
+[CADEXCO] t= 535.4s | pag=204 | files=  16 | data=  1 | cola= 200 | prio=25 | https://cadexco.bo/evento/expocruz/
+[CADEXCO] t= 537.1s | pag=205 | files=  16 | data=  1 | cola= 199 | prio=25 | https://cadexco.bo/evento/expo-construccion/
+[CADEXCO] t= 539.1s | pag=206 | files=  16 | data=  1 | cola= 198 | prio=25 | https://cadexco.bo/evento/feria-de-seguros/
+[CADEXCO] t= 541.4s | pag=207 | files=  16 | data=  1 | cola= 197 | prio=25 | https://cadexco.bo/evento/canton-fair/
+[CADEXCO] t= 543.8s | pag=208 | files=  16 | data=  1 | cola= 196 | prio=25 | https://cadexco.bo/evento/chfa-west/
+[CADEXCO] t= 545.8s | pag=209 | files=  16 | data=  1 | cola= 195 | prio=25 | https://cadexco.bo/evento/hh-cologne/
+[CADEXCO] t= 547.9s | pag=210 | files=  16 | data=  1 | cola= 194 | prio=25 | https://cadexco.bo/evento/sydney-royal-easter-show/
+[CADEXCO] t= 550.0s | pag=211 | files=  16 | data=  1 | cola= 193 | prio=25 | https://cadexco.bo/category/uncategorized/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/categories/1
+[CADEXCO] t= 552.0s | pag=212 | files=  16 | data=  1 | cola= 194 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/categories/1
+[CADEXCO] t= 553.7s | pag=212 | files=  16 | data=  1 | cola= 193 | prio=25 | https://cadexco.bo/author/camaracadexco19/
+[CADEXCO] API REFERENCIA | html_link_reference | https://cadexco.bo/wp-json/wp/v2/users/1
+[CADEXCO] t= 555.4s | pag=213 | files=  16 | data=  1 | cola= 193 | prio= 1 | https://cadexco.bo/wp-json/wp/v2/users/1
+[CADEXCO] t= 556.7s | pag=213 | files=  16 | data=  1 | cola= 192 | prio=50 | https://ruedadenegocios.cadexco.bo/
+[CADEXCO] API REFERENCIA | html_link_reference | https://ruedadenegocios.cadexco.bo/index.php/wp-json/wp/v2/pages/25066
+[CADEXCO] t= 561.9s | pag=214 | files=  16 | data=  1 | cola= 194 | prio= 1 | https://ruedadenegocios.cadexco.bo/index.php/wp-json/wp/v2/pages/25066
+[CADEXCO] t= 562.8s | pag=214 | files=  16 | data=  1 | cola= 193 | prio=50 | https://cadexco.bo/calendar/action~agenda/request_format~json/
+[CADEXCO] t= 565.1s | pag=215 | files=  16 | data=  1 | cola= 192 | prio=50 | https://cadexco.bo/calendar/action~oneday/request_format~json/
+[CADEXCO] t= 567.5s | pag=216 | files=  16 | data=  1 | cola= 193 | prio=50 | https://cadexco.bo/calendar/action~month/request_format~json/
+[CADEXCO] t= 569.1s | pag=217 | files=  16 | data=  1 | cola= 227 | prio=50 | https://cadexco.bo/calendar/action~week/request_format~json/
+[CADEXCO] t= 572.0s | pag=218 | files=  16 | data=  1 | cola= 228 | prio=50 | https://cadexco.bo/calendar/action~agenda/page_offset~-1/request_format~json/
+[CADEXCO] t= 573.9s | pag=219 | files=  16 | data=  1 | cola= 249 | prio=50 | https://cadexco.bo/calendar/action~agenda/page_offset~1/request_format~json/
+[CADEXCO] t= 575.7s | pag=220 | files=  16 | data=  1 | cola= 252 | prio=50 | http://cadexco.bo/esp/demandas.asp
+[CADEXCO] t= 579.4s | pag=220 | files=  16 | data=  1 | cola= 251 | prio=50 | https://cadexco.bo/pral/name/agropecuaria-v-s-r-l/
+[CADEXCO] t= 584.8s | pag=221 | files=  16 | data=  1 | cola= 250 | prio=50 | https://cadexco.bo/pral/name/apicenter-s-r-l/
+[CADEXCO] t= 586.9s | pag=222 | files=  16 | data=  1 | cola= 249 | prio=50 | https://cadexco.bo/pral/name/bolhispania-industria-y-comercio-s-a/
+[CADEXCO] t= 588.2s | pag=223 | files=  16 | data=  1 | cola= 248 | prio=50 | https://cadexco.bo/pral/name/boliviallc-import-export/
+[CADEXCO] t= 590.0s | pag=224 | files=  16 | data=  1 | cola= 247 | prio=50 | https://cadexco.bo/pral/name/camacho-garnica-jorge-rolando-bolivias-fruit/
+[CADEXCO] t= 592.0s | pag=225 | files=  16 | data=  1 | cola= 246 | prio=50 | https://cadexco.bo/pral/name/corporacion-industrial-dillmann-s-a-cordill-s-a/
+[CADEXCO] t= 593.9s | pag=226 | files=  16 | data=  1 | cola= 245 | prio=50 | https://cadexco.bo/pral/name/ecopal/
+[CADEXCO] t= 596.1s | pag=227 | files=  16 | data=  1 | cola= 244 | prio=50 | https://cadexco.bo/pral/name/fabopal-s-a/
+[CADEXCO] t= 597.9s | pag=228 | files=  16 | data=  1 | cola= 243 | prio=50 | https://cadexco.bo/pral/name/falcobo-s-r-l/
+[CADEXCO] t= 599.5s | pag=229 | files=  16 | data=  1 | cola= 242 | prio=50 | https://cadexco.bo/pral/name/foods-company-s-a/
+[CADEXCO] t= 602.0s | pag=230 | files=  16 | data=  1 | cola= 241 | prio=50 | https://cadexco.bo/pral/name/grupo-industrial-de-bebidas-s-a/
+[CADEXCO] t= 603.9s | pag=231 | files=  16 | data=  1 | cola= 240 | prio=50 | https://cadexco.bo/pral/name/ib-trading-s-r-l/
+[CADEXCO] t= 605.6s | pag=232 | files=  16 | data=  1 | cola= 239 | prio=50 | https://cadexco.bo/pral/name/imba-s-a/
+[CADEXCO] t= 607.6s | pag=233 | files=  16 | data=  1 | cola= 238 | prio=50 | https://cadexco.bo/pral/name/industrias-agropecuarias-tropicales-s-a-indatrop-s-a/
+[CADEXCO] t= 609.5s | pag=234 | files=  16 | data=  1 | cola= 237 | prio=50 | https://cadexco.bo/pral/name/industgrias-de-alimentos-palma-verde-s-a/
+[CADEXCO] t= 611.3s | pag=235 | files=  16 | data=  1 | cola= 236 | prio=50 | https://cadexco.bo/pral/name/iresacru-importacion-y-exportacion/
+[CADEXCO] t= 613.0s | pag=236 | files=  16 | data=  1 | cola= 235 | prio=50 | https://cadexco.bo/pral/name/majo-trading-s-r-l/
+[CADEXCO] t= 614.7s | pag=237 | files=  16 | data=  1 | cola= 234 | prio=50 | https://cadexco.bo/pral/name/maprial-s-r-l/
+[CADEXCO] t= 616.5s | pag=238 | files=  16 | data=  1 | cola= 233 | prio=50 | https://cadexco.bo/pral/name/pil-andina-s-a/
+[CADEXCO] t= 618.2s | pag=239 | files=  16 | data=  1 | cola= 232 | prio=50 | https://cadexco.bo/pral/name/pisabol-s-r-l/
+[CADEXCO] t= 620.3s | pag=240 | files=  16 | data=  1 | cola= 231 | prio=50 | https://cadexco.bo/pral/name/planta-procesadora-de-alimentos-w-mc-s-r-l-2/
+[CADEXCO] t= 622.1s | pag=241 | files=  16 | data=  1 | cola= 230 | prio=50 | https://cadexco.bo/pral/name/procesos-industriales-multiples-s-r-l/
+[CADEXCO] t= 624.0s | pag=242 | files=  16 | data=  1 | cola= 229 | prio=50 | https://cadexco.bo/pral/name/samiri-foods/
+[CADEXCO] t= 626.2s | pag=243 | files=  16 | data=  1 | cola= 228 | prio=50 | https://cadexco.bo/pral/name/sociedad-agroindustrial-de-la-selva/
+[CADEXCO] t= 628.1s | pag=244 | files=  16 | data=  1 | cola= 227 | prio=50 | https://cadexco.bo/pral/name/sociedad-comercial-industrial-s-a-coronilla-s-a/
+[CADEXCO] t= 630.1s | pag=245 | files=  16 | data=  1 | cola= 226 | prio=50 | https://cadexco.bo/pral/name/sociedad-industrial-santa-maria/
+[CADEXCO] t= 631.9s | pag=246 | files=  16 | data=  1 | cola= 225 | prio=50 | https://cadexco.bo/pral/name/sumaj-yapay-s-r-l/
+[CADEXCO] t= 633.8s | pag=247 | files=  16 | data=  1 | cola= 224 | prio=50 | https://cadexco.bo/frfrde/name/mor-export-s-r-l/
+[CADEXCO] t= 635.9s | pag=248 | files=  16 | data=  1 | cola= 223 | prio=50 | https://cadexco.bo/frfrde/name/pamoc-import-export-s-r-l/
+[CADEXCO] t= 637.6s | pag=249 | files=  16 | data=  1 | cola= 222 | prio=50 | https://cadexco.bo/frfrde/name/proaspe-productores-asociados-para-la-exportacion-s-r-l/
+[CADEXCO] t= 639.4s | pag=250 | files=  16 | data=  1 | cola= 221 | prio=50 | https://cadexco.bo/frfrde/name/probal/
+[CADEXCO] t= 641.3s | pag=251 | files=  16 | data=  1 | cola= 220 | prio=50 | https://cadexco.bo/frfrde/name/productos-ecologicos-naturaleza-s-a/
+[CADEXCO] t= 643.0s | pag=252 | files=  16 | data=  1 | cola= 219 | prio=50 | https://cadexco.bo/flplfose/name/empresa-universitaria-de-semillas-forrajeras-sefo-sam/
+[CADEXCO] t= 644.9s | pag=253 | files=  16 | data=  1 | cola= 218 | prio=50 | https://cadexco.bo/mayma/name/industria-maderera-sali-ltda/
+[CADEXCO] t= 646.9s | pag=254 | files=  16 | data=  1 | cola= 217 | prio=50 | https://cadexco.bo/mayma/name/maderera-zalles/
+[CADEXCO] t= 648.7s | pag=255 | files=  16 | data=  1 | cola= 216 | prio=50 | https://cadexco.bo/mayma/name/madersec/
+[CADEXCO] t= 650.6s | pag=256 | files=  16 | data=  1 | cola= 215 | prio=50 | https://cadexco.bo/mayma/name/martinez-ultra-tech-doors-ltda-u-t-d-ltda/
+[CADEXCO] t= 652.4s | pag=257 | files=  16 | data=  1 | cola= 214 | prio=50 | https://cadexco.bo/mayma/name/maya-mac-lean-casa/
+[CADEXCO] t= 654.3s | pag=258 | files=  16 | data=  1 | cola= 213 | prio=50 | https://cadexco.bo/mayma/name/mayamacleandesign-s-r-l/
+[CADEXCO] t= 656.0s | pag=259 | files=  16 | data=  1 | cola= 212 | prio=50 | https://cadexco.bo/mayma/name/multiagro-s-r-l/
+[CADEXCO] t= 657.6s | pag=260 | files=  16 | data=  1 | cola= 211 | prio=50 | https://cadexco.bo/mayma/name/unimac/
+[CADEXCO] t= 659.7s | pag=261 | files=  16 | data=  1 | cola= 210 | prio=50 | https://cadexco.bo/cotete/name/artesanias-merino/
+[CADEXCO] t= 661.7s | pag=262 | files=  16 | data=  1 | cola= 209 | prio=50 | https://cadexco.bo/cotete/name/asociacion-artesanal-minkha-1/
+[CADEXCO] t= 663.2s | pag=263 | files=  16 | data=  1 | cola= 208 | prio=50 | https://cadexco.bo/cotete/name/cooperativa-integral-fotrama-ltda/
+[CADEXCO] t= 664.9s | pag=264 | files=  16 | data=  1 | cola= 207 | prio=50 | https://cadexco.bo/cotete/name/puente-de-solidaridad-internacional/
+[CADEXCO] t= 666.7s | pag=265 | files=  16 | data=  1 | cola= 206 | prio=50 | https://cadexco.bo/arva/name/silver-craft-s-r-l/
+[CADEXCO] t= 668.7s | pag=266 | files=  16 | data=  1 | cola= 205 | prio=50 | https://cadexco.bo/cusum/name/macaws-s-r-l/
+[CADEXCO] t= 670.1s | pag=267 | files=  16 | data=  1 | cola= 204 | prio=50 | https://cadexco.bo/cusum/name/manufactura-boliviana-s-a-manaco-s-a/
+[CADEXCO] t= 672.1s | pag=268 | files=  16 | data=  1 | cola= 203 | prio=50 | https://cadexco.bo/enem/name/agropecuaria-v-s-r-l/
+[CADEXCO] t= 673.9s | pag=269 | files=  16 | data=  1 | cola= 202 | prio=50 | https://cadexco.bo/enem/name/akros-nous-impor-expor-s-r-l/
+[CADEXCO] t= 675.9s | pag=270 | files=  16 | data=  1 | cola= 201 | prio=50 | https://cadexco.bo/enem/name/apicenter-s-r-l/
+[CADEXCO] t= 677.9s | pag=271 | files=  16 | data=  1 | cola= 200 | prio=50 | https://cadexco.bo/enem/name/artesanias-merino/
+[CADEXCO] t= 679.5s | pag=272 | files=  16 | data=  1 | cola= 199 | prio=50 | https://cadexco.bo/enem/name/asociacion-artesanal-minkha-1/
+[CADEXCO] t= 681.1s | pag=273 | files=  16 | data=  1 | cola= 198 | prio=50 | https://cadexco.bo/enem/name/astrix-s-a/
+[CADEXCO] t= 683.1s | pag=274 | files=  16 | data=  1 | cola= 197 | prio=50 | https://cadexco.bo/enem/name/banco-union-1/
+[CADEXCO] t= 685.3s | pag=275 | files=  16 | data=  1 | cola= 196 | prio=50 | https://cadexco.bo/enem/name/bebidas-s-a/
+[CADEXCO] t= 687.1s | pag=276 | files=  16 | data=  1 | cola= 195 | prio=50 | https://cadexco.bo/enem/name/bolexite-bolivian-oxides-borates/
+[CADEXCO] t= 688.9s | pag=277 | files=  16 | data=  1 | cola= 194 | prio=50 | https://cadexco.bo/enem/name/bolhispania-industria-y-comercio-s-a/
+[CADEXCO] t= 690.7s | pag=278 | files=  16 | data=  1 | cola= 193 | prio=50 | https://cadexco.bo/enem/name/boliviallc-import-export/
+[CADEXCO] t= 692.5s | pag=279 | files=  16 | data=  1 | cola= 192 | prio=50 | https://cadexco.bo/enem/name/boramex-import-export-s-r-l/
+[CADEXCO] t= 694.4s | pag=280 | files=  16 | data=  1 | cola= 191 | prio=50 | https://cadexco.bo/enem/name/camacho-garnica-jorge-rolando-bolivias-fruit/
+[CADEXCO] t= 696.1s | pag=281 | files=  16 | data=  1 | cola= 190 | prio=50 | https://cadexco.bo/enem/name/carbogas-s-a/
+[CADEXCO] t= 697.7s | pag=282 | files=  16 | data=  1 | cola= 189 | prio=50 | https://cadexco.bo/enem/name/ceramica-coboce-ltda/
+[CADEXCO] t= 699.8s | pag=283 | files=  16 | data=  1 | cola= 188 | prio=50 | https://cadexco.bo/enem/name/control-experto-ingenieria-industrial/
+[CADEXCO] t= 701.8s | pag=284 | files=  16 | data=  1 | cola= 187 | prio=50 | https://cadexco.bo/enem/name/cooperativa-integral-fotrama-ltda/
+[CADEXCO] t= 703.5s | pag=285 | files=  16 | data=  1 | cola= 186 | prio=50 | https://cadexco.bo/enem/name/copelme-s-a-1/
+[CADEXCO] t= 705.6s | pag=286 | files=  16 | data=  1 | cola= 185 | prio=50 | https://cadexco.bo/enem/name/corporacion-industrial-dillmann-s-a-cordill-s-a/
+[CADEXCO] t= 706.8s | pag=287 | files=  16 | data=  1 | cola= 184 | prio=50 | https://cadexco.bo/enem/name/doosan-volvo-renault-import-export/
+[CADEXCO] t= 708.7s | pag=288 | files=  16 | data=  1 | cola= 183 | prio=50 | https://cadexco.bo/enem/name/ecopal/
+[CADEXCO] t= 710.6s | pag=289 | files=  16 | data=  1 | cola= 182 | prio=50 | https://cadexco.bo/enem/name/ecoplastic-s-r-l/
+[CADEXCO] t= 712.4s | pag=290 | files=  16 | data=  1 | cola= 181 | prio=50 | https://cadexco.bo/enem/name/empresa-minera-diesse-ltda/
+[CADEXCO] t= 714.3s | pag=291 | files=  16 | data=  1 | cola= 180 | prio=50 | https://cadexco.bo/enem/name/empresa-minera-jatun-jallpa-s-a/
+[CADEXCO] t= 716.4s | pag=292 | files=  16 | data=  1 | cola= 179 | prio=50 | https://cadexco.bo/enem/name/empresa-universitaria-de-semillas-forrajeras-sefo-sam/
+[CADEXCO] t= 718.0s | pag=293 | files=  16 | data=  1 | cola= 178 | prio=50 | https://cadexco.bo/enem/name/expopet/
+[CADEXCO] t= 720.0s | pag=294 | files=  16 | data=  1 | cola= 177 | prio=50 | https://cadexco.bo/enem/name/faboce-s-r-l/
+[CADEXCO] t= 722.2s | pag=295 | files=  16 | data=  1 | cola= 176 | prio=50 | https://cadexco.bo/enem/name/fabopal-s-a/
+[CADEXCO] t= 724.4s | pag=296 | files=  16 | data=  1 | cola= 175 | prio=50 | https://cadexco.bo/enem/name/falcobo-s-r-l/
+[CADEXCO] t= 726.0s | pag=297 | files=  16 | data=  1 | cola= 174 | prio=50 | https://cadexco.bo/enem/name/foods-company-s-a/
+[CADEXCO] t= 728.1s | pag=298 | files=  16 | data=  1 | cola= 173 | prio=50 | https://cadexco.bo/enem/name/grupo-industrial-de-bebidas-s-a/
+[CADEXCO] t= 729.5s | pag=299 | files=  16 | data=  1 | cola= 172 | prio=50 | https://cadexco.bo/enem/name/ib-trading-s-r-l/
+[CADEXCO] t= 731.4s | pag=300 | files=  16 | data=  1 | cola= 171 | prio=50 | https://cadexco.bo/enem/name/imba-s-a/
+[CADEXCO] t= 733.5s | pag=301 | files=  16 | data=  1 | cola= 170 | prio=50 | https://cadexco.bo/enem/name/imo-control-latinoamerica-ltda/
+[CADEXCO] t= 735.0s | pag=302 | files=  16 | data=  1 | cola= 169 | prio=50 | https://cadexco.bo/enem/name/inbolpack-s-r-l/
+[CADEXCO] t= 737.1s | pag=303 | files=  16 | data=  1 | cola= 168 | prio=50 | https://cadexco.bo/enem/name/incerco-ltda/
+[CADEXCO] t= 738.5s | pag=304 | files=  16 | data=  1 | cola= 167 | prio=50 | https://cadexco.bo/enem/name/industria-maderera-sali-ltda/
+[CADEXCO] t= 740.6s | pag=305 | files=  16 | data=  1 | cola= 166 | prio=50 | https://cadexco.bo/enem/name/industrias-agropecuarias-tropicales-s-a-indatrop-s-a/
+[CADEXCO] t= 742.6s | pag=306 | files=  16 | data=  1 | cola= 165 | prio=50 | https://cadexco.bo/enem/name/industgrias-de-alimentos-palma-verde-s-a/
+[CADEXCO] t= 744.4s | pag=307 | files=  16 | data=  1 | cola= 164 | prio=50 | https://cadexco.bo/enem/name/industrias-duralit-s-a/
+[CADEXCO] t= 746.4s | pag=308 | files=  16 | data=  1 | cola= 163 | prio=50 | https://cadexco.bo/enem/name/industrias-ravi-s-a/
+[CADEXCO] t= 748.6s | pag=309 | files=  16 | data=  1 | cola= 162 | prio=50 | https://cadexco.bo/enem/name/iresacru-importacion-y-exportacion/
+[CADEXCO] t= 750.5s | pag=310 | files=  16 | data=  1 | cola= 161 | prio=50 | https://cadexco.bo/enem/name/jorge-gonzales-villacorta/
+[CADEXCO] t= 752.5s | pag=311 | files=  16 | data=  1 | cola= 160 | prio=50 | https://cadexco.bo/enem/name/macaws-s-r-l/
+[CADEXCO] t= 754.5s | pag=312 | files=  16 | data=  1 | cola= 159 | prio=50 | https://cadexco.bo/enem/name/maderera-zalles/
+[CADEXCO] t= 756.6s | pag=313 | files=  16 | data=  1 | cola= 158 | prio=50 | https://cadexco.bo/enem/name/madersec/
+[CADEXCO] t= 758.2s | pag=314 | files=  16 | data=  1 | cola= 157 | prio=50 | https://cadexco.bo/enem/name/majo-trading-s-r-l/
+[CADEXCO] t= 759.9s | pag=315 | files=  16 | data=  1 | cola= 156 | prio=50 | https://cadexco.bo/enem/name/manufactura-boliviana-s-a-manaco-s-a/
+[CADEXCO] t= 761.7s | pag=316 | files=  16 | data=  1 | cola= 155 | prio=50 | https://cadexco.bo/enem/name/maprial-s-r-l/
+[CADEXCO] t= 763.1s | pag=317 | files=  16 | data=  1 | cola= 154 | prio=50 | https://cadexco.bo/enem/name/marmobol/
+[CADEXCO] t= 764.9s | pag=318 | files=  16 | data=  1 | cola= 153 | prio=50 | https://cadexco.bo/enem/name/martinez-ultra-tech-doors-ltda-u-t-d-ltda/
+[CADEXCO] t= 766.8s | pag=319 | files=  16 | data=  1 | cola= 152 | prio=50 | https://cadexco.bo/enem/name/maxam-fanexa-s-a-m/
+[CADEXCO] t= 768.4s | pag=320 | files=  16 | data=  1 | cola= 151 | prio=50 | https://cadexco.bo/enem/name/maxam-it-services/
+[CADEXCO] t= 770.3s | pag=321 | files=  16 | data=  1 | cola= 150 | prio=50 | https://cadexco.bo/enem/name/maya-mac-lean-casa/
+[CADEXCO] t= 772.0s | pag=322 | files=  16 | data=  1 | cola= 149 | prio=50 | https://cadexco.bo/enem/name/mayamacleandesign-s-r-l/
+[CADEXCO] t= 773.6s | pag=323 | files=  16 | data=  1 | cola= 148 | prio=50 | https://cadexco.bo/enem/name/mindai/
+[CADEXCO] t= 775.4s | pag=324 | files=  16 | data=  1 | cola= 147 | prio=50 | https://cadexco.bo/enem/name/minierales-de-exportacion-s-a-minerex-s-a/
+[CADEXCO] t= 776.9s | pag=325 | files=  16 | data=  1 | cola= 146 | prio=50 | https://cadexco.bo/enem/name/monopol-ltda-1/
+[CADEXCO] t= 778.9s | pag=326 | files=  16 | data=  1 | cola= 145 | prio=50 | https://cadexco.bo/enem/name/mor-export-s-r-l/
+[CADEXCO] t= 780.9s | pag=327 | files=  16 | data=  1 | cola= 144 | prio=50 | https://cadexco.bo/enem/name/multiagro-s-r-l/
+[CADEXCO] t= 782.7s | pag=328 | files=  16 | data=  1 | cola= 143 | prio=50 | https://cadexco.bo/enem/name/pamoc-import-export-s-r-l/
+[CADEXCO] t= 784.3s | pag=329 | files=  16 | data=  1 | cola= 142 | prio=50 | https://cadexco.bo/enem/name/pil-andina-s-a/
+[CADEXCO] t= 785.8s | pag=330 | files=  16 | data=  1 | cola= 141 | prio=50 | https://cadexco.bo/enem/name/pisabol-s-r-l/
+[CADEXCO] t= 787.7s | pag=331 | files=  16 | data=  1 | cola= 140 | prio=50 | https://cadexco.bo/enem/name/planta-procesadora-de-alimentos-w-mc-s-r-l-2/
+[CADEXCO] t= 789.8s | pag=332 | files=  16 | data=  1 | cola= 139 | prio=50 | https://cadexco.bo/enem/name/proaspe-productores-asociados-para-la-exportacion-s-r-l/
+[CADEXCO] t= 791.8s | pag=333 | files=  16 | data=  1 | cola= 138 | prio=50 | https://cadexco.bo/enem/name/probal/
+[CADEXCO] t= 793.3s | pag=334 | files=  16 | data=  1 | cola= 137 | prio=50 | https://cadexco.bo/enem/name/procesos-industriales-multiples-s-r-l/
+[CADEXCO] t= 794.9s | pag=335 | files=  16 | data=  1 | cola= 136 | prio=50 | https://cadexco.bo/enem/name/productos-ecologicos-naturaleza-s-a/
+[CADEXCO] t= 797.0s | pag=336 | files=  16 | data=  1 | cola= 135 | prio=50 | https://cadexco.bo/enem/name/puente-de-solidaridad-internacional/
+[CADEXCO] t= 798.5s | pag=337 | files=  16 | data=  1 | cola= 134 | prio=50 | https://cadexco.bo/enem/name/samiri-foods/
+[CADEXCO] t= 800.6s | pag=338 | files=  16 | data=  1 | cola= 133 | prio=50 | https://cadexco.bo/enem/name/san-onofre-ltda/
+[CADEXCO] t= 802.0s | pag=339 | files=  16 | data=  1 | cola= 132 | prio=50 | https://cadexco.bo/enem/name/silver-craft-s-r-l/
+[CADEXCO] t= 806.1s | pag=340 | files=  16 | data=  1 | cola= 131 | prio=50 | https://cadexco.bo/enem/name/skidi-on-ltda/
+[CADEXCO] t= 809.1s | pag=341 | files=  16 | data=  1 | cola= 130 | prio=50 | https://cadexco.bo/enem/name/sociedad-agroindustrial-de-la-selva/
+[CADEXCO] t= 809.5s | pag=341 | files=  16 | data=  1 | cola= 129 | prio=50 | https://cadexco.bo/enem/name/sociedad-biblica-boliviana/
+[CADEXCO] t= 814.6s | pag=342 | files=  16 | data=  1 | cola= 128 | prio=50 | https://cadexco.bo/enem/name/sociedad-comercial-industrial-s-a-coronilla-s-a/
+[CADEXCO] t= 816.7s | pag=343 | files=  16 | data=  1 | cola= 127 | prio=50 | https://cadexco.bo/enem/name/sociedad-industrial-santa-maria/
+[CADEXCO] t= 818.4s | pag=344 | files=  16 | data=  1 | cola= 126 | prio=50 | https://cadexco.bo/enem/name/sudlibros-s-r-l/
+[CADEXCO] t= 820.5s | pag=345 | files=  16 | data=  1 | cola= 125 | prio=50 | https://cadexco.bo/enem/name/sumaj-yapay-s-r-l/
+[CADEXCO] t= 822.7s | pag=346 | files=  16 | data=  1 | cola= 124 | prio=50 | https://cadexco.bo/enem/name/targuet-srl/
+[CADEXCO] t= 824.8s | pag=347 | files=  16 | data=  1 | cola= 123 | prio=50 | https://cadexco.bo/enem/name/tecnologia-industrial-de-desarrollo-paz-rojas-s-a-td-s-a/
+[CADEXCO] t= 827.0s | pag=348 | files=  16 | data=  1 | cola= 122 | prio=50 | https://cadexco.bo/enem/name/tecons-mineria-agregados-s-r-l/
+[CADEXCO] t= 828.7s | pag=349 | files=  16 | data=  1 | cola= 121 | prio=50 | https://cadexco.bo/enem/name/terdemol-s-r-l/
+[CADEXCO] t= 830.2s | pag=350 | files=  16 | data=  1 | cola= 120 | prio=50 | https://cadexco.bo/enem/name/terdemol-srl/
+[CADEXCO] t= 832.0s | pag=351 | files=  16 | data=  1 | cola= 119 | prio=50 | https://cadexco.bo/enem/name/thomson-reuters-bolivia-s-r-l/
+[CADEXCO] t= 834.1s | pag=352 | files=  16 | data=  1 | cola= 118 | prio=50 | https://cadexco.bo/enem/name/trilogy-software-bolivia-s-r-l/
+[CADEXCO] t= 835.9s | pag=353 | files=  16 | data=  1 | cola= 117 | prio=50 | https://cadexco.bo/enem/name/unilever-andina-bolivia-s-a/
+[CADEXCO] t= 837.8s | pag=354 | files=  16 | data=  1 | cola= 116 | prio=50 | https://cadexco.bo/enem/name/unimac/
+[CADEXCO] t= 840.0s | pag=355 | files=  16 | data=  1 | cola= 115 | prio=50 | https://cadexco.bo/enem/name/urgente-nitza-florinda-ugarte-llampa/
+[CADEXCO] t= 842.1s | pag=356 | files=  16 | data=  1 | cola= 114 | prio=50 | https://cadexco.bo/enem/name/varssi/
+[CADEXCO] t= 844.2s | pag=357 | files=  16 | data=  1 | cola= 113 | prio=50 | https://cadexco.bo/enem/name/vidrio-lux-s-a/
+[CADEXCO] t= 846.2s | pag=358 | files=  16 | data=  1 | cola= 112 | prio=50 | https://cadexco.bo/enem/name/yesobol-s-r-l/
+[CADEXCO] t= 847.5s | pag=359 | files=  16 | data=  1 | cola= 111 | prio=50 | https://cadexco.bo/mapicece/name/ceramica-coboce-ltda/
+[CADEXCO] t= 849.6s | pag=360 | files=  16 | data=  1 | cola= 110 | prio=50 | https://cadexco.bo/mapicece/name/faboce-s-r-l/
+[CADEXCO] t= 851.6s | pag=361 | files=  16 | data=  1 | cola= 109 | prio=50 | https://cadexco.bo/mapicece/name/incerco-ltda/
+[CADEXCO] t= 853.6s | pag=362 | files=  16 | data=  1 | cola= 108 | prio=50 | https://cadexco.bo/mapicece/name/industrias-duralit-s-a/
+[CADEXCO] t= 855.4s | pag=363 | files=  16 | data=  1 | cola= 107 | prio=50 | https://cadexco.bo/minome/name/bolexite-bolivian-oxides-borates/
+[CADEXCO] t= 857.8s | pag=364 | files=  16 | data=  1 | cola= 106 | prio=50 | https://cadexco.bo/minome/name/boramex-import-export-s-r-l/
+[CADEXCO] t= 859.3s | pag=365 | files=  16 | data=  1 | cola= 105 | prio=50 | https://cadexco.bo/minome/name/carbogas-s-a/
+[CADEXCO] t= 861.3s | pag=366 | files=  16 | data=  1 | cola= 104 | prio=50 | https://cadexco.bo/minome/name/empresa-minera-diesse-ltda/
+[CADEXCO] t= 863.1s | pag=367 | files=  16 | data=  1 | cola= 103 | prio=50 | https://cadexco.bo/minome/name/empresa-minera-jatun-jallpa-s-a/
+[CADEXCO] t= 865.3s | pag=368 | files=  16 | data=  1 | cola= 102 | prio=50 | https://cadexco.bo/minome/name/jorge-gonzales-villacorta/
+[CADEXCO] t= 866.9s | pag=369 | files=  16 | data=  1 | cola= 101 | prio=50 | https://cadexco.bo/minome/name/marmobol/
+[CADEXCO] t= 868.6s | pag=370 | files=  16 | data=  1 | cola= 100 | prio=50 | https://cadexco.bo/minome/name/mindai/
+[CADEXCO] t= 870.5s | pag=371 | files=  16 | data=  1 | cola=  99 | prio=50 | https://cadexco.bo/minome/name/minierales-de-exportacion-s-a-minerex-s-a/
+[CADEXCO] t= 872.5s | pag=372 | files=  16 | data=  1 | cola=  98 | prio=50 | https://cadexco.bo/minome/name/san-onofre-ltda/
+[CADEXCO] t= 874.1s | pag=373 | files=  16 | data=  1 | cola=  97 | prio=50 | https://cadexco.bo/minome/name/tecons-mineria-agregados-s-r-l/
+[CADEXCO] t= 875.9s | pag=374 | files=  16 | data=  1 | cola=  96 | prio=50 | https://cadexco.bo/minome/name/terdemol-s-r-l/
+[CADEXCO] t= 877.9s | pag=375 | files=  16 | data=  1 | cola=  95 | prio=50 | https://cadexco.bo/minome/name/terdemol-srl/
+[CADEXCO] t= 879.7s | pag=376 | files=  16 | data=  1 | cola=  94 | prio=50 | https://cadexco.bo/minome/name/urgente-nitza-florinda-ugarte-llampa/
+[CADEXCO] t= 881.3s | pag=377 | files=  16 | data=  1 | cola=  93 | prio=50 | https://cadexco.bo/minome/name/yesobol-s-r-l/
+[CADEXCO] t= 883.7s | pag=378 | files=  16 | data=  1 | cola=  92 | prio=50 | https://cadexco.bo/prdeinqude/name/astrix-s-a/
+[CADEXCO] t= 885.5s | pag=379 | files=  16 | data=  1 | cola=  91 | prio=50 | https://cadexco.bo/prdeinqude/name/control-experto-ingenieria-industrial/
+[CADEXCO] t= 887.2s | pag=380 | files=  16 | data=  1 | cola=  90 | prio=50 | https://cadexco.bo/prdeinqude/name/copelme-s-a-1/
+[CADEXCO] t= 889.0s | pag=381 | files=  16 | data=  1 | cola=  89 | prio=50 | https://cadexco.bo/prdeinqude/name/doosan-volvo-renault-import-export/
+[CADEXCO] t= 890.6s | pag=382 | files=  16 | data=  1 | cola=  88 | prio=50 | https://cadexco.bo/prdeinqude/name/maxam-fanexa-s-a-m/
+[CADEXCO] t= 892.5s | pag=383 | files=  16 | data=  1 | cola=  87 | prio=50 | https://cadexco.bo/prdeinqude/name/monopol-ltda-1/
+[CADEXCO] t= 894.5s | pag=384 | files=  16 | data=  1 | cola=  86 | prio=50 | https://cadexco.bo/prdeinqude/name/targuet-srl/
+[CADEXCO] t= 896.5s | pag=385 | files=  16 | data=  1 | cola=  85 | prio=50 | https://cadexco.bo/prdeinqude/name/unilever-andina-bolivia-s-a/
+[CADEXCO] t= 898.1s | pag=386 | files=  16 | data=  1 | cola=  84 | prio=50 | https://cadexco.bo/lifopa/name/maxam-it-services/
+[CADEXCO] t= 899.5s | pag=387 | files=  16 | data=  1 | cola=  83 | prio=50 | https://cadexco.bo/lifopa/name/skidi-on-ltda/
+[CADEXCO] t= 901.6s | pag=388 | files=  16 | data=  1 | cola=  82 | prio=50 | https://cadexco.bo/lifopa/name/sociedad-biblica-boliviana/
+[CADEXCO] t= 903.6s | pag=389 | files=  16 | data=  1 | cola=  81 | prio=50 | https://cadexco.bo/lifopa/name/sudlibros-s-r-l/
+[CADEXCO] t= 905.1s | pag=390 | files=  16 | data=  1 | cola=  80 | prio=50 | https://cadexco.bo/lifopa/name/trilogy-software-bolivia-s-r-l/
+[CADEXCO] t= 906.6s | pag=391 | files=  16 | data=  1 | cola=  79 | prio=50 | https://cadexco.bo/lifopa/name/varssi/
+[CADEXCO] t= 908.0s | pag=392 | files=  16 | data=  1 | cola=  78 | prio=50 | https://cadexco.bo/ser/name/tecnologia-industrial-de-desarrollo-paz-rojas-s-a-td-s-a/
+[CADEXCO] t= 910.1s | pag=393 | files=  16 | data=  1 | cola=  77 | prio=50 | https://cadexco.bo/ser/name/thomson-reuters-bolivia-s-r-l/
+[CADEXCO] t= 912.1s | pag=394 | files=  16 | data=  1 | cola=  76 | prio=50 | https://cadexco.bo/soad/name/akros-nous-impor-expor-s-r-l/
+[CADEXCO] t= 913.5s | pag=395 | files=  16 | data=  1 | cola=  75 | prio=50 | https://cadexco.bo/soad/name/banco-union-1/
+[CADEXCO] t= 915.2s | pag=396 | files=  16 | data=  1 | cola=  74 | prio=50 | https://cadexco.bo/soad/name/imo-control-latinoamerica-ltda/
+[CADEXCO] t= 917.3s | pag=397 | files=  16 | data=  1 | cola=  73 | prio=50 | https://cadexco.bo/soad/name/inbolpack-s-r-l/
+[CADEXCO] t= 918.9s | pag=398 | files=  16 | data=  1 | cola=  72 | prio=50 | https://cadexco.bo/fbusinessi/
+[CADEXCO] t= 920.4s | pag=398 | files=  16 | data=  1 | cola=  71 | prio=50 | https://sistemarn.cadexco.bo/
+[CADEXCO] t= 922.7s | pag=398 | files=  16 | data=  1 | cola=  70 | prio=50 | https://cadexco.bo/2026/04/27/
+[CADEXCO] t= 925.4s | pag=399 | files=  16 | data=  1 | cola=  71 | prio=50 | https://ruedasdenegocios.cadexco.bo/
+[CADEXCO] t= 927.3s | pag=400 | files=  16 | data=  1 | cola=  70 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787630400/request_format~json/
+[CADEXCO] t= 929.5s | pag=401 | files=  16 | data=  1 | cola=  74 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787803200/request_format~json/
+[CADEXCO] t= 932.0s | pag=402 | files=  16 | data=  1 | cola=  77 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1754020800/request_format~json/
+[CADEXCO] t= 934.0s | pag=403 | files=  16 | data=  1 | cola= 114 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1782878400/request_format~json/
+[CADEXCO] t= 936.0s | pag=404 | files=  16 | data=  1 | cola= 149 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1788235200/request_format~json/
+[CADEXCO] t= 938.0s | pag=405 | files=  16 | data=  1 | cola= 183 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1817092800/request_format~json/
+[CADEXCO] t= 940.1s | pag=406 | files=  16 | data=  1 | cola= 217 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1-8-2026/
+[CADEXCO] t= 942.3s | pag=407 | files=  16 | data=  1 | cola= 221 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~2-8-2026/
+[CADEXCO] t= 944.9s | pag=408 | files=  16 | data=  1 | cola= 224 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~3-8-2026/
+[CADEXCO] t= 946.6s | pag=409 | files=  16 | data=  1 | cola= 227 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~4-8-2026/
+[CADEXCO] t= 948.7s | pag=410 | files=  16 | data=  1 | cola= 230 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~5-8-2026/
+[CADEXCO] t= 950.4s | pag=411 | files=  16 | data=  1 | cola= 233 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-8-2026/
+[CADEXCO] t= 952.8s | pag=412 | files=  16 | data=  1 | cola= 236 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-8-2026/
+[CADEXCO] t= 955.5s | pag=413 | files=  16 | data=  1 | cola= 239 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~8-8-2026/
+[CADEXCO] t= 957.7s | pag=414 | files=  16 | data=  1 | cola= 242 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~9-8-2026/
+[CADEXCO] t= 960.5s | pag=415 | files=  16 | data=  1 | cola= 245 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~10-8-2026/
+[CADEXCO] t= 962.9s | pag=416 | files=  16 | data=  1 | cola= 248 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~11-8-2026/
+[CADEXCO] t= 965.0s | pag=417 | files=  16 | data=  1 | cola= 251 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~12-8-2026/
+[CADEXCO] t= 967.1s | pag=418 | files=  16 | data=  1 | cola= 254 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~13-8-2026/
+[CADEXCO] t= 969.5s | pag=419 | files=  16 | data=  1 | cola= 257 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~14-8-2026/
+[CADEXCO] t= 972.1s | pag=420 | files=  16 | data=  1 | cola= 260 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~15-8-2026/
+[CADEXCO] t= 974.3s | pag=421 | files=  16 | data=  1 | cola= 263 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~16-8-2026/
+[CADEXCO] t= 976.5s | pag=422 | files=  16 | data=  1 | cola= 266 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~17-8-2026/
+[CADEXCO] t= 978.8s | pag=423 | files=  16 | data=  1 | cola= 269 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~18-8-2026/
+[CADEXCO] t= 981.3s | pag=424 | files=  16 | data=  1 | cola= 272 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-8-2026/
+[CADEXCO] t= 983.1s | pag=425 | files=  16 | data=  1 | cola= 274 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~20-8-2026/
+[CADEXCO] t= 985.1s | pag=426 | files=  16 | data=  1 | cola= 277 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~21-8-2026/
+[CADEXCO] t= 985.9s | pag=427 | files=  16 | data=  1 | cola= 280 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~22-8-2026/
+[CADEXCO] t= 988.0s | pag=428 | files=  16 | data=  1 | cola= 283 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~23-8-2026/
+[CADEXCO] t= 990.5s | pag=429 | files=  16 | data=  1 | cola= 285 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-8-2026/
+[CADEXCO] t= 992.9s | pag=430 | files=  16 | data=  1 | cola= 287 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~25-8-2026/
+[CADEXCO] t= 995.4s | pag=431 | files=  16 | data=  1 | cola= 286 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~26-8-2026/
+[CADEXCO] t= 997.6s | pag=432 | files=  16 | data=  1 | cola= 288 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~27-8-2026/
+[CADEXCO] t= 999.8s | pag=433 | files=  16 | data=  1 | cola= 287 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~28-8-2026/
+[CADEXCO] t=1002.1s | pag=434 | files=  16 | data=  1 | cola= 290 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~29-8-2026/
+[CADEXCO] t=1004.3s | pag=435 | files=  16 | data=  1 | cola= 293 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~30-8-2026/
+[CADEXCO] t=1006.8s | pag=436 | files=  16 | data=  1 | cola= 296 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~31-8-2026/
+[CADEXCO] t=1009.2s | pag=437 | files=  16 | data=  1 | cola= 298 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787112000/request_format~json/
+[CADEXCO] t=1011.5s | pag=438 | files=  16 | data=  1 | cola= 297 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1788321600/request_format~json/
+[CADEXCO] t=1013.8s | pag=439 | files=  16 | data=  1 | cola= 300 | prio=50 | https://cadexco.bo/calendar/action~oneday/page_offset~-1/request_format~json/
+[CADEXCO] t=1016.2s | pag=440 | files=  16 | data=  1 | cola= 299 | prio=50 | https://cadexco.bo/calendar/action~month/page_offset~-1/request_format~json/
+[CADEXCO] t=1018.2s | pag=441 | files=  16 | data=  1 | cola= 298 | prio=50 | https://cadexco.bo/calendar/action~week/page_offset~-1/request_format~json/
+[CADEXCO] t=1020.2s | pag=442 | files=  16 | data=  1 | cola= 297 | prio=50 | https://cadexco.bo/calendar/action~agenda/page_offset~-2/request_format~json/
+[CADEXCO] t=1022.0s | pag=443 | files=  16 | data=  1 | cola= 318 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~8-10-2024/
+[CADEXCO] t=1024.2s | pag=444 | files=  16 | data=  1 | cola= 323 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-10-2024/
+[CADEXCO] t=1026.3s | pag=445 | files=  16 | data=  1 | cola= 328 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-11-2024/
+[CADEXCO] t=1028.3s | pag=446 | files=  16 | data=  1 | cola= 333 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-3-2025/
+[CADEXCO] t=1030.3s | pag=447 | files=  16 | data=  1 | cola= 338 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~11-4-2025/
+[CADEXCO] t=1032.5s | pag=448 | files=  16 | data=  1 | cola= 343 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~15-4-2025/
+[CADEXCO] t=1035.0s | pag=449 | files=  16 | data=  1 | cola= 348 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-4-2025/
+[CADEXCO] t=1036.8s | pag=450 | files=  16 | data=  1 | cola= 353 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~13-9-2025/
+[CADEXCO] t=1039.2s | pag=451 | files=  16 | data=  1 | cola= 358 | prio=50 | https://cadexco.bo/calendar/action~oneday/page_offset~1/request_format~json/
+[CADEXCO] t=1041.8s | pag=452 | files=  16 | data=  1 | cola= 357 | prio=50 | https://cadexco.bo/calendar/action~month/page_offset~1/request_format~json/
+[CADEXCO] t=1044.2s | pag=453 | files=  16 | data=  1 | cola= 356 | prio=50 | https://cadexco.bo/calendar/action~week/page_offset~1/request_format~json/
+[CADEXCO] t=1046.5s | pag=454 | files=  16 | data=  1 | cola= 355 | prio=50 | https://cadexco.bo/calendar/action~agenda/page_offset~2/request_format~json/
+[CADEXCO] t=1048.2s | pag=455 | files=  16 | data=  1 | cola= 358 | prio=50 | https://cadexco.bo/2026/
+[CADEXCO] t=1050.0s | pag=456 | files=  16 | data=  1 | cola= 357 | prio=50 | https://cadexco.bo/2026/04/
+[CADEXCO] t=1051.5s | pag=457 | files=  16 | data=  1 | cola= 356 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787630400/request_format~json/
+[CADEXCO] t=1053.7s | pag=458 | files=  16 | data=  1 | cola= 361 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787630400/request_format~json/
+[CADEXCO] t=1055.7s | pag=459 | files=  16 | data=  1 | cola= 360 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787630400/request_format~json/
+[CADEXCO] t=1057.9s | pag=460 | files=  16 | data=  1 | cola= 359 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787544000/request_format~json/
+[CADEXCO] t=1060.2s | pag=461 | files=  16 | data=  1 | cola= 358 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787716800/request_format~json/
+[CADEXCO] t=1062.3s | pag=462 | files=  16 | data=  1 | cola= 357 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787803200/request_format~json/
+[CADEXCO] t=1064.3s | pag=463 | files=  16 | data=  1 | cola= 362 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787803200/request_format~json/
+[CADEXCO] t=1066.7s | pag=464 | files=  16 | data=  1 | cola= 361 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787803200/request_format~json/
+[CADEXCO] t=1069.4s | pag=465 | files=  16 | data=  1 | cola= 361 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787889600/request_format~json/
+[CADEXCO] t=1071.8s | pag=466 | files=  16 | data=  1 | cola= 360 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1754020800/request_format~json/
+[CADEXCO] t=1073.8s | pag=467 | files=  16 | data=  1 | cola= 365 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1754020800/request_format~json/
+[CADEXCO] t=1076.5s | pag=468 | files=  16 | data=  1 | cola= 366 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1754020800/request_format~json/
+[CADEXCO] t=1078.5s | pag=469 | files=  16 | data=  1 | cola= 372 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1722484800/request_format~json/
+[CADEXCO] t=1080.3s | pag=470 | files=  16 | data=  1 | cola= 404 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1751342400/request_format~json/
+[CADEXCO] t=1082.6s | pag=471 | files=  16 | data=  1 | cola= 433 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1756699200/request_format~json/
+[CADEXCO] t=1084.5s | pag=472 | files=  16 | data=  1 | cola= 465 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1785556800/request_format~json/
+[CADEXCO] t=1086.6s | pag=473 | files=  16 | data=  1 | cola= 464 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1-8-2025/
+[CADEXCO] t=1089.0s | pag=474 | files=  16 | data=  1 | cola= 463 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~2-8-2025/
+[CADEXCO] t=1091.3s | pag=475 | files=  16 | data=  1 | cola= 466 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~3-8-2025/
+[CADEXCO] t=1093.2s | pag=476 | files=  16 | data=  1 | cola= 469 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~4-8-2025/
+[CADEXCO] t=1095.2s | pag=477 | files=  16 | data=  1 | cola= 472 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~5-8-2025/
+[CADEXCO] t=1097.6s | pag=478 | files=  16 | data=  1 | cola= 475 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-8-2025/
+[CADEXCO] t=1099.4s | pag=479 | files=  16 | data=  1 | cola= 478 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-8-2025/
+[CADEXCO] t=1101.6s | pag=480 | files=  16 | data=  1 | cola= 481 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~8-8-2025/
+[CADEXCO] t=1103.5s | pag=481 | files=  16 | data=  1 | cola= 483 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~9-8-2025/
+[CADEXCO] t=1105.9s | pag=482 | files=  16 | data=  1 | cola= 486 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~10-8-2025/
+[CADEXCO] t=1108.2s | pag=483 | files=  16 | data=  1 | cola= 489 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~11-8-2025/
+[CADEXCO] t=1110.4s | pag=484 | files=  16 | data=  1 | cola= 492 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~12-8-2025/
+[CADEXCO] t=1112.7s | pag=485 | files=  16 | data=  1 | cola= 495 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~13-8-2025/
+[CADEXCO] t=1114.9s | pag=486 | files=  16 | data=  1 | cola= 498 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~14-8-2025/
+[CADEXCO] t=1117.3s | pag=487 | files=  16 | data=  1 | cola= 501 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~15-8-2025/
+[CADEXCO] t=1119.4s | pag=488 | files=  16 | data=  1 | cola= 504 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~16-8-2025/
+[CADEXCO] t=1121.9s | pag=489 | files=  16 | data=  1 | cola= 507 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~17-8-2025/
+[CADEXCO] t=1124.5s | pag=490 | files=  16 | data=  1 | cola= 510 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~18-8-2025/
+[CADEXCO] t=1127.0s | pag=491 | files=  16 | data=  1 | cola= 513 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-8-2025/
+[CADEXCO] t=1128.8s | pag=492 | files=  16 | data=  1 | cola= 516 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~20-8-2025/
+[CADEXCO] t=1131.1s | pag=493 | files=  16 | data=  1 | cola= 519 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~21-8-2025/
+[CADEXCO] t=1133.3s | pag=494 | files=  16 | data=  1 | cola= 522 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~22-8-2025/
+[CADEXCO] t=1135.7s | pag=495 | files=  16 | data=  1 | cola= 525 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~23-8-2025/
+[CADEXCO] t=1137.8s | pag=496 | files=  16 | data=  1 | cola= 528 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-8-2025/
+[CADEXCO] t=1139.7s | pag=497 | files=  16 | data=  1 | cola= 531 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~25-8-2025/
+[CADEXCO] t=1141.5s | pag=498 | files=  16 | data=  1 | cola= 534 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~26-8-2025/
+[CADEXCO] t=1143.7s | pag=499 | files=  16 | data=  1 | cola= 537 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~27-8-2025/
+[CADEXCO] t=1146.4s | pag=500 | files=  16 | data=  1 | cola= 540 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~28-8-2025/
+[CADEXCO] t=1148.7s | pag=501 | files=  16 | data=  1 | cola= 543 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~29-8-2025/
+[CADEXCO] t=1151.0s | pag=502 | files=  16 | data=  1 | cola= 546 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~30-8-2025/
+[CADEXCO] t=1152.7s | pag=503 | files=  16 | data=  1 | cola= 549 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~31-8-2025/
+[CADEXCO] t=1154.6s | pag=504 | files=  16 | data=  1 | cola= 551 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1782878400/request_format~json/
+[CADEXCO] t=1156.3s | pag=505 | files=  16 | data=  1 | cola= 556 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1782878400/request_format~json/
+[CADEXCO] t=1158.6s | pag=506 | files=  16 | data=  1 | cola= 557 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1782878400/request_format~json/
+[CADEXCO] t=1160.5s | pag=507 | files=  16 | data=  1 | cola= 561 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1780286400/request_format~json/
+[CADEXCO] t=1162.8s | pag=508 | files=  16 | data=  1 | cola= 592 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1814414400/request_format~json/
+[CADEXCO] t=1164.5s | pag=509 | files=  16 | data=  1 | cola= 626 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1-7-2026/
+[CADEXCO] t=1166.6s | pag=510 | files=  16 | data=  1 | cola= 625 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~2-7-2026/
+[CADEXCO] t=1169.4s | pag=511 | files=  16 | data=  1 | cola= 628 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~3-7-2026/
+[CADEXCO] t=1171.6s | pag=512 | files=  16 | data=  1 | cola= 631 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~4-7-2026/
+[CADEXCO] t=1173.7s | pag=513 | files=  16 | data=  1 | cola= 634 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~5-7-2026/
+[CADEXCO] t=1175.5s | pag=514 | files=  16 | data=  1 | cola= 637 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-7-2026/
+[CADEXCO] t=1177.5s | pag=515 | files=  16 | data=  1 | cola= 640 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-7-2026/
+[CADEXCO] t=1180.1s | pag=516 | files=  16 | data=  1 | cola= 643 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~8-7-2026/
+[CADEXCO] t=1182.7s | pag=517 | files=  16 | data=  1 | cola= 645 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~9-7-2026/
+[CADEXCO] t=1184.5s | pag=518 | files=  16 | data=  1 | cola= 648 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~10-7-2026/
+[CADEXCO] t=1186.3s | pag=519 | files=  16 | data=  1 | cola= 651 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~11-7-2026/
+[CADEXCO] t=1188.4s | pag=520 | files=  16 | data=  1 | cola= 654 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~12-7-2026/
+[CADEXCO] t=1190.3s | pag=521 | files=  16 | data=  1 | cola= 657 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~13-7-2026/
+[CADEXCO] t=1192.5s | pag=522 | files=  16 | data=  1 | cola= 660 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~14-7-2026/
+[CADEXCO] t=1194.7s | pag=523 | files=  16 | data=  1 | cola= 663 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~15-7-2026/
+[CADEXCO] t=1197.1s | pag=524 | files=  16 | data=  1 | cola= 666 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~16-7-2026/
+[CADEXCO] t=1199.7s | pag=525 | files=  16 | data=  1 | cola= 669 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~17-7-2026/
+[CADEXCO] t=1202.0s | pag=526 | files=  16 | data=  1 | cola= 672 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~18-7-2026/
+[CADEXCO] t=1204.2s | pag=527 | files=  16 | data=  1 | cola= 675 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-7-2026/
+[CADEXCO] t=1206.0s | pag=528 | files=  16 | data=  1 | cola= 678 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~20-7-2026/
+[CADEXCO] t=1208.3s | pag=529 | files=  16 | data=  1 | cola= 681 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~21-7-2026/
+[CADEXCO] t=1210.6s | pag=530 | files=  16 | data=  1 | cola= 684 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~22-7-2026/
+[CADEXCO] t=1212.6s | pag=531 | files=  16 | data=  1 | cola= 687 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~23-7-2026/
+[CADEXCO] t=1214.4s | pag=532 | files=  16 | data=  1 | cola= 690 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-7-2026/
+[CADEXCO] t=1216.8s | pag=533 | files=  16 | data=  1 | cola= 693 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~25-7-2026/
+[CADEXCO] t=1219.4s | pag=534 | files=  16 | data=  1 | cola= 696 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~26-7-2026/
+[CADEXCO] t=1221.8s | pag=535 | files=  16 | data=  1 | cola= 699 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~27-7-2026/
+[CADEXCO] t=1223.8s | pag=536 | files=  16 | data=  1 | cola= 702 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~28-7-2026/
+[CADEXCO] t=1225.9s | pag=537 | files=  16 | data=  1 | cola= 705 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~29-7-2026/
+[CADEXCO] t=1228.6s | pag=538 | files=  16 | data=  1 | cola= 708 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~30-7-2026/
+[CADEXCO] t=1230.8s | pag=539 | files=  16 | data=  1 | cola= 710 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~31-7-2026/
+[CADEXCO] t=1232.9s | pag=540 | files=  16 | data=  1 | cola= 712 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1788235200/request_format~json/
+[CADEXCO] t=1234.7s | pag=541 | files=  16 | data=  1 | cola= 717 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1788235200/request_format~json/
+[CADEXCO] t=1237.3s | pag=542 | files=  16 | data=  1 | cola= 716 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1788235200/request_format~json/
+[CADEXCO] t=1239.8s | pag=543 | files=  16 | data=  1 | cola= 716 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1790827200/request_format~json/
+[CADEXCO] t=1241.5s | pag=544 | files=  16 | data=  1 | cola= 751 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1819771200/request_format~json/
+[CADEXCO] t=1243.5s | pag=545 | files=  16 | data=  1 | cola= 784 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1-9-2026/
+[CADEXCO] t=1245.6s | pag=546 | files=  16 | data=  1 | cola= 783 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~2-9-2026/
+[CADEXCO] t=1247.8s | pag=547 | files=  16 | data=  1 | cola= 783 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~3-9-2026/
+[CADEXCO] t=1250.1s | pag=548 | files=  16 | data=  1 | cola= 785 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~4-9-2026/
+[CADEXCO] t=1251.8s | pag=549 | files=  16 | data=  1 | cola= 788 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~5-9-2026/
+[CADEXCO] t=1254.6s | pag=550 | files=  16 | data=  1 | cola= 791 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-9-2026/
+[CADEXCO] t=1257.0s | pag=551 | files=  16 | data=  1 | cola= 794 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-9-2026/
+[CADEXCO] t=1259.2s | pag=552 | files=  16 | data=  1 | cola= 797 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~8-9-2026/
+[CADEXCO] t=1260.9s | pag=553 | files=  16 | data=  1 | cola= 799 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~9-9-2026/
+[CADEXCO] t=1263.2s | pag=554 | files=  16 | data=  1 | cola= 801 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~10-9-2026/
+[CADEXCO] t=1265.4s | pag=555 | files=  16 | data=  1 | cola= 804 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~11-9-2026/
+[CADEXCO] t=1267.5s | pag=556 | files=  16 | data=  1 | cola= 807 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~12-9-2026/
+[CADEXCO] t=1269.4s | pag=557 | files=  16 | data=  1 | cola= 810 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~13-9-2026/
+[CADEXCO] t=1271.5s | pag=558 | files=  16 | data=  1 | cola= 813 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~14-9-2026/
+[CADEXCO] t=1273.9s | pag=559 | files=  16 | data=  1 | cola= 816 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~15-9-2026/
+[CADEXCO] t=1276.2s | pag=560 | files=  16 | data=  1 | cola= 819 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~16-9-2026/
+[CADEXCO] t=1278.3s | pag=561 | files=  16 | data=  1 | cola= 822 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~17-9-2026/
+[CADEXCO] t=1280.3s | pag=562 | files=  16 | data=  1 | cola= 825 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~18-9-2026/
+[CADEXCO] t=1282.5s | pag=563 | files=  16 | data=  1 | cola= 828 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-9-2026/
+[CADEXCO] t=1285.2s | pag=564 | files=  16 | data=  1 | cola= 831 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~20-9-2026/
+[CADEXCO] t=1287.2s | pag=565 | files=  16 | data=  1 | cola= 834 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~21-9-2026/
+[CADEXCO] t=1289.3s | pag=566 | files=  16 | data=  1 | cola= 837 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~22-9-2026/
+[CADEXCO] t=1291.5s | pag=567 | files=  16 | data=  1 | cola= 840 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~23-9-2026/
+[CADEXCO] t=1293.9s | pag=568 | files=  16 | data=  1 | cola= 843 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-9-2026/
+[CADEXCO] t=1295.8s | pag=569 | files=  16 | data=  1 | cola= 846 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~25-9-2026/
+[CADEXCO] t=1297.9s | pag=570 | files=  16 | data=  1 | cola= 849 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~26-9-2026/
+[CADEXCO] t=1300.2s | pag=571 | files=  16 | data=  1 | cola= 852 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~27-9-2026/
+[CADEXCO] t=1302.7s | pag=572 | files=  16 | data=  1 | cola= 855 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~28-9-2026/
+[CADEXCO] t=1304.7s | pag=573 | files=  16 | data=  1 | cola= 858 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~29-9-2026/
+[CADEXCO] t=1307.3s | pag=574 | files=  16 | data=  1 | cola= 861 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~30-9-2026/
+[CADEXCO] t=1309.6s | pag=575 | files=  16 | data=  1 | cola= 863 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1817092800/request_format~json/
+[CADEXCO] t=1311.7s | pag=576 | files=  16 | data=  1 | cola= 868 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1817092800/request_format~json/
+[CADEXCO] t=1313.7s | pag=577 | files=  16 | data=  1 | cola= 869 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1817092800/request_format~json/
+[CADEXCO] t=1316.5s | pag=578 | files=  16 | data=  1 | cola= 870 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1848715200/request_format~json/
+[CADEXCO] t=1318.4s | pag=579 | files=  16 | data=  1 | cola= 904 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1-8-2027/
+[CADEXCO] t=1320.9s | pag=580 | files=  16 | data=  1 | cola= 903 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~2-8-2027/
+[CADEXCO] t=1323.5s | pag=581 | files=  16 | data=  1 | cola= 906 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~3-8-2027/
+[CADEXCO] t=1325.4s | pag=582 | files=  16 | data=  1 | cola= 909 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~4-8-2027/
+[CADEXCO] t=1328.0s | pag=583 | files=  16 | data=  1 | cola= 912 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~5-8-2027/
+[CADEXCO] t=1329.9s | pag=584 | files=  16 | data=  1 | cola= 915 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-8-2027/
+[CADEXCO] t=1332.1s | pag=585 | files=  16 | data=  1 | cola= 918 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-8-2027/
+[CADEXCO] t=1334.9s | pag=586 | files=  16 | data=  1 | cola= 921 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~8-8-2027/
+[CADEXCO] t=1337.0s | pag=587 | files=  16 | data=  1 | cola= 923 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~9-8-2027/
+[CADEXCO] t=1339.6s | pag=588 | files=  16 | data=  1 | cola= 926 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~10-8-2027/
+[CADEXCO] t=1341.3s | pag=589 | files=  16 | data=  1 | cola= 929 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~11-8-2027/
+[CADEXCO] t=1343.8s | pag=590 | files=  16 | data=  1 | cola= 932 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~12-8-2027/
+[CADEXCO] t=1346.4s | pag=591 | files=  16 | data=  1 | cola= 935 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~13-8-2027/
+[CADEXCO] t=1348.5s | pag=592 | files=  16 | data=  1 | cola= 938 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~14-8-2027/
+[CADEXCO] t=1350.4s | pag=593 | files=  16 | data=  1 | cola= 941 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~15-8-2027/
+[CADEXCO] t=1352.7s | pag=594 | files=  16 | data=  1 | cola= 944 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~16-8-2027/
+[CADEXCO] t=1355.3s | pag=595 | files=  16 | data=  1 | cola= 947 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~17-8-2027/
+[CADEXCO] t=1357.7s | pag=596 | files=  16 | data=  1 | cola= 950 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~18-8-2027/
+[CADEXCO] t=1359.9s | pag=597 | files=  16 | data=  1 | cola= 953 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-8-2027/
+[CADEXCO] t=1361.7s | pag=598 | files=  16 | data=  1 | cola= 956 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~20-8-2027/
+[CADEXCO] t=1363.9s | pag=599 | files=  16 | data=  1 | cola= 959 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~21-8-2027/
+[CADEXCO] t=1366.2s | pag=600 | files=  16 | data=  1 | cola= 962 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~22-8-2027/
+[CADEXCO] t=1368.8s | pag=601 | files=  16 | data=  1 | cola= 965 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~23-8-2027/
+[CADEXCO] t=1370.8s | pag=602 | files=  16 | data=  1 | cola= 968 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-8-2027/
+[CADEXCO] t=1373.1s | pag=603 | files=  16 | data=  1 | cola= 971 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~25-8-2027/
+[CADEXCO] t=1375.4s | pag=604 | files=  16 | data=  1 | cola= 974 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~26-8-2027/
+[CADEXCO] t=1377.8s | pag=605 | files=  16 | data=  1 | cola= 977 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~27-8-2027/
+[CADEXCO] t=1380.2s | pag=606 | files=  16 | data=  1 | cola= 980 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~28-8-2027/
+[CADEXCO] t=1382.7s | pag=607 | files=  16 | data=  1 | cola= 983 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~29-8-2027/
+[CADEXCO] t=1384.9s | pag=608 | files=  16 | data=  1 | cola= 986 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~30-8-2027/
+[CADEXCO] t=1387.0s | pag=609 | files=  16 | data=  1 | cola= 989 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~31-8-2027/
+[CADEXCO] t=1388.8s | pag=610 | files=  16 | data=  1 | cola= 991 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1785556800/request_format~json/
+[CADEXCO] t=1390.7s | pag=611 | files=  16 | data=  1 | cola= 996 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785556800/request_format~json/
+[CADEXCO] t=1393.0s | pag=612 | files=  16 | data=  1 | cola= 995 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1785556800/request_format~json/
+[CADEXCO] t=1395.3s | pag=613 | files=  16 | data=  1 | cola= 994 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785470400/request_format~json/
+[CADEXCO] t=1397.1s | pag=614 | files=  16 | data=  1 | cola= 993 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785643200/request_format~json/
+[CADEXCO] t=1399.5s | pag=615 | files=  16 | data=  1 | cola= 992 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1785643200/request_format~json/
+[CADEXCO] t=1402.0s | pag=616 | files=  16 | data=  1 | cola= 997 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1785643200/request_format~json/
+[CADEXCO] t=1404.4s | pag=617 | files=  16 | data=  1 | cola= 996 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1785643200/request_format~json/
+[CADEXCO] t=1406.8s | pag=618 | files=  16 | data=  1 | cola= 995 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785729600/request_format~json/
+[CADEXCO] t=1409.3s | pag=619 | files=  16 | data=  1 | cola= 994 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1785729600/request_format~json/
+[CADEXCO] t=1411.7s | pag=620 | files=  16 | data=  1 | cola= 999 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1785729600/request_format~json/
+[CADEXCO] t=1414.2s | pag=621 | files=  16 | data=  1 | cola= 998 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1785729600/request_format~json/
+[CADEXCO] t=1416.3s | pag=622 | files=  16 | data=  1 | cola= 997 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785816000/request_format~json/
+[CADEXCO] t=1418.5s | pag=623 | files=  16 | data=  1 | cola= 996 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1785816000/request_format~json/
+[CADEXCO] t=1420.5s | pag=624 | files=  16 | data=  1 | cola=1001 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1785816000/request_format~json/
+[CADEXCO] t=1422.6s | pag=625 | files=  16 | data=  1 | cola=1000 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1785816000/request_format~json/
+[CADEXCO] t=1425.4s | pag=626 | files=  16 | data=  1 | cola= 999 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785902400/request_format~json/
+[CADEXCO] t=1428.1s | pag=627 | files=  16 | data=  1 | cola= 998 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1785902400/request_format~json/
+[CADEXCO] t=1429.9s | pag=628 | files=  16 | data=  1 | cola=1003 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1785902400/request_format~json/
+[CADEXCO] t=1432.0s | pag=629 | files=  16 | data=  1 | cola=1002 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1785902400/request_format~json/
+[CADEXCO] t=1434.4s | pag=630 | files=  16 | data=  1 | cola=1001 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1785988800/request_format~json/
+[CADEXCO] t=1436.3s | pag=631 | files=  16 | data=  1 | cola=1000 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1785988800/request_format~json/
+[CADEXCO] t=1438.0s | pag=632 | files=  16 | data=  1 | cola=1005 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1785988800/request_format~json/
+[CADEXCO] t=1440.5s | pag=633 | files=  16 | data=  1 | cola=1004 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1785988800/request_format~json/
+[CADEXCO] t=1443.0s | pag=634 | files=  16 | data=  1 | cola=1003 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786075200/request_format~json/
+[CADEXCO] t=1445.8s | pag=635 | files=  16 | data=  1 | cola=1002 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786075200/request_format~json/
+[CADEXCO] t=1448.5s | pag=636 | files=  16 | data=  1 | cola=1007 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786075200/request_format~json/
+[CADEXCO] t=1450.5s | pag=637 | files=  16 | data=  1 | cola=1006 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786075200/request_format~json/
+[CADEXCO] t=1452.9s | pag=638 | files=  16 | data=  1 | cola=1005 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786161600/request_format~json/
+[CADEXCO] t=1455.6s | pag=639 | files=  16 | data=  1 | cola=1004 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786161600/request_format~json/
+[CADEXCO] t=1458.0s | pag=640 | files=  16 | data=  1 | cola=1009 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786161600/request_format~json/
+[CADEXCO] t=1460.3s | pag=641 | files=  16 | data=  1 | cola=1008 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786161600/request_format~json/
+[CADEXCO] t=1462.3s | pag=642 | files=  16 | data=  1 | cola=1007 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786248000/request_format~json/
+[CADEXCO] t=1465.1s | pag=643 | files=  16 | data=  1 | cola=1006 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786248000/request_format~json/
+[CADEXCO] t=1467.5s | pag=644 | files=  16 | data=  1 | cola=1011 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786248000/request_format~json/
+[CADEXCO] t=1469.7s | pag=645 | files=  16 | data=  1 | cola=1010 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786248000/request_format~json/
+[CADEXCO] t=1472.0s | pag=646 | files=  16 | data=  1 | cola=1009 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786334400/request_format~json/
+[CADEXCO] t=1474.3s | pag=647 | files=  16 | data=  1 | cola=1008 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786334400/request_format~json/
+[CADEXCO] t=1476.8s | pag=648 | files=  16 | data=  1 | cola=1013 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786334400/request_format~json/
+[CADEXCO] t=1479.2s | pag=649 | files=  16 | data=  1 | cola=1012 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786334400/request_format~json/
+[CADEXCO] t=1481.5s | pag=650 | files=  16 | data=  1 | cola=1011 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786420800/request_format~json/
+[CADEXCO] t=1483.9s | pag=651 | files=  16 | data=  1 | cola=1010 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786420800/request_format~json/
+[CADEXCO] t=1485.9s | pag=652 | files=  16 | data=  1 | cola=1015 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786420800/request_format~json/
+[CADEXCO] t=1488.1s | pag=653 | files=  16 | data=  1 | cola=1014 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786420800/request_format~json/
+[CADEXCO] t=1490.9s | pag=654 | files=  16 | data=  1 | cola=1013 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786507200/request_format~json/
+[CADEXCO] t=1493.4s | pag=655 | files=  16 | data=  1 | cola=1012 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786507200/request_format~json/
+[CADEXCO] t=1494.8s | pag=656 | files=  16 | data=  1 | cola=1017 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786507200/request_format~json/
+[CADEXCO] t=1496.8s | pag=657 | files=  16 | data=  1 | cola=1016 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786507200/request_format~json/
+[CADEXCO] t=1499.4s | pag=658 | files=  16 | data=  1 | cola=1015 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786593600/request_format~json/
+[CADEXCO] t=1501.9s | pag=659 | files=  16 | data=  1 | cola=1014 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786593600/request_format~json/
+[CADEXCO] t=1503.8s | pag=660 | files=  16 | data=  1 | cola=1019 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786593600/request_format~json/
+[CADEXCO] t=1505.9s | pag=661 | files=  16 | data=  1 | cola=1018 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786593600/request_format~json/
+[CADEXCO] t=1508.0s | pag=662 | files=  16 | data=  1 | cola=1017 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786680000/request_format~json/
+[CADEXCO] t=1510.1s | pag=663 | files=  16 | data=  1 | cola=1016 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786680000/request_format~json/
+[CADEXCO] t=1511.4s | pag=664 | files=  16 | data=  1 | cola=1021 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786680000/request_format~json/
+[CADEXCO] t=1513.5s | pag=665 | files=  16 | data=  1 | cola=1020 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786680000/request_format~json/
+[CADEXCO] t=1515.3s | pag=666 | files=  16 | data=  1 | cola=1019 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786766400/request_format~json/
+[CADEXCO] t=1517.1s | pag=667 | files=  16 | data=  1 | cola=1018 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786766400/request_format~json/
+[CADEXCO] t=1519.2s | pag=668 | files=  16 | data=  1 | cola=1023 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786766400/request_format~json/
+[CADEXCO] t=1521.1s | pag=669 | files=  16 | data=  1 | cola=1022 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786766400/request_format~json/
+[CADEXCO] t=1523.3s | pag=670 | files=  16 | data=  1 | cola=1021 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786852800/request_format~json/
+[CADEXCO] t=1524.9s | pag=671 | files=  16 | data=  1 | cola=1020 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786852800/request_format~json/
+[CADEXCO] t=1527.1s | pag=672 | files=  16 | data=  1 | cola=1025 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786852800/request_format~json/
+[CADEXCO] t=1529.4s | pag=673 | files=  16 | data=  1 | cola=1024 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786852800/request_format~json/
+[CADEXCO] t=1531.7s | pag=674 | files=  16 | data=  1 | cola=1023 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1786939200/request_format~json/
+[CADEXCO] t=1533.3s | pag=675 | files=  16 | data=  1 | cola=1022 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1786939200/request_format~json/
+[CADEXCO] t=1535.6s | pag=676 | files=  16 | data=  1 | cola=1027 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1786939200/request_format~json/
+[CADEXCO] t=1537.3s | pag=677 | files=  16 | data=  1 | cola=1026 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1786939200/request_format~json/
+[CADEXCO] t=1539.6s | pag=678 | files=  16 | data=  1 | cola=1025 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787025600/request_format~json/
+[CADEXCO] t=1541.5s | pag=679 | files=  16 | data=  1 | cola=1024 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787025600/request_format~json/
+[CADEXCO] t=1543.4s | pag=680 | files=  16 | data=  1 | cola=1029 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787025600/request_format~json/
+[CADEXCO] t=1545.2s | pag=681 | files=  16 | data=  1 | cola=1028 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787025600/request_format~json/
+[CADEXCO] t=1547.7s | pag=682 | files=  16 | data=  1 | cola=1027 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787112000/request_format~json/
+[CADEXCO] t=1549.9s | pag=683 | files=  16 | data=  1 | cola=1026 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787112000/request_format~json/
+[CADEXCO] t=1552.0s | pag=684 | files=  16 | data=  1 | cola=1031 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787112000/request_format~json/
+[CADEXCO] t=1554.7s | pag=685 | files=  16 | data=  1 | cola=1030 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787198400/request_format~json/
+[CADEXCO] t=1557.0s | pag=686 | files=  16 | data=  1 | cola=1029 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787198400/request_format~json/
+[CADEXCO] t=1559.0s | pag=687 | files=  16 | data=  1 | cola=1034 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787198400/request_format~json/
+[CADEXCO] t=1560.8s | pag=688 | files=  16 | data=  1 | cola=1033 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787198400/request_format~json/
+[CADEXCO] t=1563.2s | pag=689 | files=  16 | data=  1 | cola=1032 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787284800/request_format~json/
+[CADEXCO] t=1565.3s | pag=690 | files=  16 | data=  1 | cola=1031 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787284800/request_format~json/
+[CADEXCO] t=1567.2s | pag=691 | files=  16 | data=  1 | cola=1036 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787284800/request_format~json/
+[CADEXCO] t=1569.1s | pag=692 | files=  16 | data=  1 | cola=1035 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787284800/request_format~json/
+[CADEXCO] t=1571.5s | pag=693 | files=  16 | data=  1 | cola=1034 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787371200/request_format~json/
+[CADEXCO] t=1573.3s | pag=694 | files=  16 | data=  1 | cola=1033 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787371200/request_format~json/
+[CADEXCO] t=1575.1s | pag=695 | files=  16 | data=  1 | cola=1038 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787371200/request_format~json/
+[CADEXCO] t=1576.8s | pag=696 | files=  16 | data=  1 | cola=1037 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787371200/request_format~json/
+[CADEXCO] t=1579.4s | pag=697 | files=  16 | data=  1 | cola=1036 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787457600/request_format~json/
+[CADEXCO] t=1581.7s | pag=698 | files=  16 | data=  1 | cola=1035 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787457600/request_format~json/
+[CADEXCO] t=1584.1s | pag=699 | files=  16 | data=  1 | cola=1040 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787457600/request_format~json/
+[CADEXCO] t=1586.1s | pag=700 | files=  16 | data=  1 | cola=1039 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787457600/request_format~json/
+[CADEXCO] t=1588.1s | pag=701 | files=  16 | data=  1 | cola=1038 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787544000/request_format~json/
+[CADEXCO] t=1589.8s | pag=702 | files=  16 | data=  1 | cola=1043 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787544000/request_format~json/
+[CADEXCO] t=1592.3s | pag=703 | files=  16 | data=  1 | cola=1042 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787544000/request_format~json/
+[CADEXCO] t=1594.9s | pag=704 | files=  16 | data=  1 | cola=1041 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787716800/request_format~json/
+[CADEXCO] t=1596.6s | pag=705 | files=  16 | data=  1 | cola=1046 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787716800/request_format~json/
+[CADEXCO] t=1598.4s | pag=706 | files=  16 | data=  1 | cola=1045 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787716800/request_format~json/
+[CADEXCO] t=1600.9s | pag=707 | files=  16 | data=  1 | cola=1044 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787889600/request_format~json/
+[CADEXCO] t=1602.8s | pag=708 | files=  16 | data=  1 | cola=1049 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787889600/request_format~json/
+[CADEXCO] t=1604.6s | pag=709 | files=  16 | data=  1 | cola=1048 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787889600/request_format~json/
+[CADEXCO] t=1606.9s | pag=710 | files=  16 | data=  1 | cola=1047 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1787976000/request_format~json/
+[CADEXCO] t=1609.0s | pag=711 | files=  16 | data=  1 | cola=1046 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1787976000/request_format~json/
+[CADEXCO] t=1611.1s | pag=712 | files=  16 | data=  1 | cola=1051 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1787976000/request_format~json/
+[CADEXCO] t=1612.9s | pag=713 | files=  16 | data=  1 | cola=1050 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1787976000/request_format~json/
+[CADEXCO] t=1615.5s | pag=714 | files=  16 | data=  1 | cola=1049 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1788062400/request_format~json/
+[CADEXCO] t=1617.9s | pag=715 | files=  16 | data=  1 | cola=1048 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1788062400/request_format~json/
+[CADEXCO] t=1619.5s | pag=716 | files=  16 | data=  1 | cola=1053 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1788062400/request_format~json/
+[CADEXCO] t=1621.7s | pag=717 | files=  16 | data=  1 | cola=1052 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1788062400/request_format~json/
+[CADEXCO] t=1623.9s | pag=718 | files=  16 | data=  1 | cola=1051 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1788148800/request_format~json/
+[CADEXCO] t=1626.3s | pag=719 | files=  16 | data=  1 | cola=1050 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1788148800/request_format~json/
+[CADEXCO] t=1628.5s | pag=720 | files=  16 | data=  1 | cola=1055 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1788148800/request_format~json/
+[CADEXCO] t=1630.5s | pag=721 | files=  16 | data=  1 | cola=1054 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1788148800/request_format~json/
+[CADEXCO] t=1632.8s | pag=722 | files=  16 | data=  1 | cola=1053 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1788321600/request_format~json/
+[CADEXCO] t=1635.3s | pag=723 | files=  16 | data=  1 | cola=1058 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1788321600/request_format~json/
+[CADEXCO] t=1637.9s | pag=724 | files=  16 | data=  1 | cola=1057 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1788321600/request_format~json/
+[CADEXCO] t=1640.2s | pag=725 | files=  16 | data=  1 | cola=1056 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1788926400/request_format~json/
+[CADEXCO] t=1642.3s | pag=726 | files=  16 | data=  1 | cola=1055 | prio=50 | https://cadexco.bo/calendar/action~oneday/page_offset~-2/request_format~json/
+[CADEXCO] t=1644.3s | pag=727 | files=  16 | data=  1 | cola=1054 | prio=50 | https://cadexco.bo/calendar/action~month/page_offset~-2/request_format~json/
+[CADEXCO] t=1646.7s | pag=728 | files=  16 | data=  1 | cola=1053 | prio=50 | https://cadexco.bo/calendar/action~week/page_offset~-2/request_format~json/
+[CADEXCO] t=1648.9s | pag=729 | files=  16 | data=  1 | cola=1052 | prio=50 | https://cadexco.bo/calendar/action~agenda/page_offset~-3/request_format~json/
+[CADEXCO] t=1650.8s | pag=730 | files=  16 | data=  1 | cola=1075 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~6-8-2024/
+[CADEXCO] t=1653.6s | pag=731 | files=  16 | data=  1 | cola=1080 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~7-8-2024/
+[CADEXCO] t=1656.3s | pag=732 | files=  16 | data=  1 | cola=1083 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~10-8-2024/
+[CADEXCO] t=1658.4s | pag=733 | files=  16 | data=  1 | cola=1088 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~19-8-2024/
+[CADEXCO] t=1660.5s | pag=734 | files=  16 | data=  1 | cola=1093 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~12-9-2024/
+[CADEXCO] t=1662.6s | pag=735 | files=  16 | data=  1 | cola=1098 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~17-9-2024/
+[CADEXCO] t=1664.4s | pag=736 | files=  16 | data=  1 | cola=1103 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~20-9-2024/
+[CADEXCO] t=1666.5s | pag=737 | files=  16 | data=  1 | cola=1108 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~24-9-2024/
+[CADEXCO] t=1668.6s | pag=738 | files=  16 | data=  1 | cola=1113 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1728360000/request_format~json/
+[CADEXCO] t=1670.5s | pag=739 | files=  16 | data=  1 | cola=1118 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1728360000/request_format~json/
+[CADEXCO] t=1672.9s | pag=740 | files=  16 | data=  1 | cola=1117 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1728360000/request_format~json/
+[CADEXCO] t=1674.9s | pag=741 | files=  16 | data=  1 | cola=1147 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1728360000/request_format~json/
+[CADEXCO] t=1677.6s | pag=742 | files=  16 | data=  1 | cola=1148 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1728273600/request_format~json/
+[CADEXCO] t=1679.7s | pag=743 | files=  16 | data=  1 | cola=1151 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1728446400/request_format~json/
+[CADEXCO] t=1682.6s | pag=744 | files=  16 | data=  1 | cola=1154 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1729310400/request_format~json/
+[CADEXCO] t=1684.7s | pag=745 | files=  16 | data=  1 | cola=1159 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1729310400/request_format~json/
+[CADEXCO] t=1687.1s | pag=746 | files=  16 | data=  1 | cola=1158 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1729310400/request_format~json/
+[CADEXCO] t=1689.5s | pag=747 | files=  16 | data=  1 | cola=1157 | prio=50 | https://cadexco.bo/calendar/action~week/exact_date~1729310400/request_format~json/
+[CADEXCO] t=1691.9s | pag=748 | files=  16 | data=  1 | cola=1158 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1729224000/request_format~json/
+[CADEXCO] t=1694.7s | pag=749 | files=  16 | data=  1 | cola=1161 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1729396800/request_format~json/
+[CADEXCO] t=1697.1s | pag=750 | files=  16 | data=  1 | cola=1164 | prio=50 | https://cadexco.bo/calendar/action~agenda/exact_date~1730865600/request_format~json/
+[CADEXCO] t=1699.0s | pag=751 | files=  16 | data=  1 | cola=1169 | prio=50 | https://cadexco.bo/calendar/action~oneday/exact_date~1730865600/request_format~json/
+[CADEXCO] t=1700.8s | pag=752 | files=  16 | data=  1 | cola=1168 | prio=50 | https://cadexco.bo/calendar/action~month/exact_date~1730865600/request_format~json/
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2943, in crawl
+    response.text,
+    ^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 1066, in text
+    if not self.content:
+           ^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 1042, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+                    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\models.py", line 937, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1260, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1434, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\response.py", line 1364, in _handle_chunk
+    value = self._fp._safe_read(amt)  # type: ignore[union-attr]
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 642, in _safe_read
+    data = self.fp.read(amt)
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

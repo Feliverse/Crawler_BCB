@@ -1,0 +1,28 @@
+﻿{
+    "id_fuente":  "transtats",
+    "nombre":  "US Bureau of Transportation Statistics - TranStats",
+    "base_url":  "https://www.transtats.bts.gov/",
+    "allowed_domains":  [
+                            "transtats.bts.gov"
+                        ],
+    "entrypoints":  [
+                        "https://www.transtats.bts.gov/"
+                    ],
+    "extensions":  [
+                       ".pdf",
+                       ".xlsx",
+                       ".xls",
+                       ".csv",
+                       ".doc",
+                       ".docx",
+                       ".zip",
+                       ".ods",
+                       ".txt"
+                   ],
+    "max_depth":  3,
+    "max_pages":  25,
+    "max_files":  500,
+    "delay_seconds":  0.8,
+    "request_timeout":  20,
+    "inspect_zips":  true
+}

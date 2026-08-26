@@ -1,0 +1,1420 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Asociación de Productores de Oleaginosas y Trigo
+URL configurada: https://www.anapobolivia.org/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.anapobolivia.org/
+  Utilizada: https://anapobolivia.org/
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.anapobolivia.org/
+
+URL de trabajo: https://anapobolivia.org/
+Seeds: 1
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[ANAPO] SITEMAP | docs=11 | urls=796 | en_cola=474 | errores=0
+[ANAPO] t=  16.7s | pag=  0 | files=   0 | data=  0 | cola= 474 | prio= 0 | https://anapobolivia.org/
+[ANAPO] DATASETS=1 | exportable_data_page | https://anapobolivia.org/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/17474
+[ANAPO] t=  19.5s | pag=  1 | files=   0 | data=  1 | cola= 483 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/17474
+[ANAPO] t=  20.2s | pag=  1 | files=   0 | data=  1 | cola= 482 | prio=25 | https://anapobolivia.org/anapo-resalta-necesidad-de-avances-en-biotecnologia-para-asegurar-abastecimiento-en-nueva-planta-de-biodiesel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/18624
+[ANAPO] t=  21.3s | pag=  2 | files=   0 | data=  1 | cola= 482 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/18624
+[ANAPO] t=  22.6s | pag=  2 | files=   0 | data=  1 | cola= 481 | prio=25 | https://anapobolivia.org/exposoya-2022-llega-con-5-nuevas-variedades-desarrolladas-para-reducir-perdidas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20927
+[ANAPO] t=  24.0s | pag=  3 | files=   0 | data=  1 | cola= 481 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20927
+[ANAPO] t=  25.1s | pag=  3 | files=   0 | data=  1 | cola= 480 | prio=25 | https://anapobolivia.org/v-congreso-internacional-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/4329
+[ANAPO] t=  26.4s | pag=  4 | files=   0 | data=  1 | cola= 480 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/4329
+[ANAPO] t=  27.1s | pag=  4 | files=   0 | data=  1 | cola= 479 | prio=25 | https://anapobolivia.org/practicas-de-nutricion-de-cultivos-suben-hasta-en-50-la-productividad-y-promueven-un-futuro-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/18627
+[ANAPO] t=  28.2s | pag=  5 | files=   0 | data=  1 | cola= 479 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/18627
+[ANAPO] t=  29.5s | pag=  5 | files=   0 | data=  1 | cola= 478 | prio=25 | https://anapobolivia.org/exposoya-2024-el-evento-celebra-30-anos-y-homenajea-a-munasqa-por-su-aporte-tecnologico-a-los-productores/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/18614
+[ANAPO] t=  31.1s | pag=  6 | files=   0 | data=  1 | cola= 478 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/18614
+[ANAPO] t=  32.1s | pag=  6 | files=   0 | data=  1 | cola= 477 | prio=25 | https://anapobolivia.org/anapo-preve-que-la-produccion-de-soya-deeste-verano-disminuira-en-600-mil-toneladas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/19080
+[ANAPO] t=  33.6s | pag=  7 | files=   0 | data=  1 | cola= 477 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/19080
+[ANAPO] t=  34.6s | pag=  7 | files=   0 | data=  1 | cola= 476 | prio=25 | https://anapobolivia.org/dia-nacional-del-trigo-productores-piden-al-gobierno-que-apruebe-tecnologia-hb4-para-acabar-con-el-deficit/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/4360
+[ANAPO] t=  36.0s | pag=  8 | files=   0 | data=  1 | cola= 476 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/4360
+[ANAPO] t=  37.3s | pag=  8 | files=   0 | data=  1 | cola= 475 | prio=25 | https://anapobolivia.org/exposoya-2023-productores-reiteran-demanda-por-biotecnologia-y-el-desarrollo-de-la-exportacion-por-puerto-busch/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20920
+[ANAPO] t=  39.2s | pag=  9 | files=   0 | data=  1 | cola= 475 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20920
+[ANAPO] t=  39.6s | pag=  9 | files=   0 | data=  1 | cola= 474 | prio=25 | https://anapobolivia.org/anapo-sequia-causa-la-mayor-crisis-de-la-decada-con-una-caida-del-70-en-la-produccion-de-cultivos-de-invierno/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20262
+[ANAPO] t=  42.1s | pag= 10 | files=   0 | data=  1 | cola= 474 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20262
+[ANAPO] t=  42.6s | pag= 10 | files=   0 | data=  1 | cola= 473 | prio=25 | https://anapobolivia.org/anapo-reafirma-la-produccion-sostenible-con-la-siembra-directa-y-la-rotacion-de-cultivos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/21799
+[ANAPO] t=  44.3s | pag= 11 | files=   0 | data=  1 | cola= 473 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/21799
+[ANAPO] t=  45.1s | pag= 11 | files=   0 | data=  1 | cola= 472 | prio=25 | https://anapobolivia.org/exposoya-del-norte-fortalece-el-aporte-de-la-zona-integrada-de-santa-cruz-a-la-produccion-del-pais/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/21820
+[ANAPO] t=  46.9s | pag= 12 | files=   0 | data=  1 | cola= 472 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/21820
+[ANAPO] t=  47.9s | pag= 12 | files=   0 | data=  1 | cola= 471 | prio=25 | https://anapobolivia.org/la-uagrm-y-anapo-anuncian-la-i-fexpo-yabare-que-mostrara-los-avances-en-investigacion-de-cultivos-alternativos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20064
+[ANAPO] t=  49.4s | pag= 13 | files=   0 | data=  1 | cola= 471 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20064
+[ANAPO] t=  50.2s | pag= 13 | files=   0 | data=  1 | cola= 470 | prio=25 | https://anapobolivia.org/expo-agro-del-norte-2023-realza-el-esfuerzo-de-los-productores-por-promover-cultivos-sostenibles/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/20089
+[ANAPO] t=  52.0s | pag= 14 | files=   0 | data=  1 | cola= 470 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/20089
+[ANAPO] t=  52.5s | pag= 14 | files=   0 | data=  1 | cola= 469 | prio=25 | https://anapobolivia.org/exposoya-2024-acto-central/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/19057
+[ANAPO] t=  54.3s | pag= 15 | files=   0 | data=  1 | cola= 469 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/19057
+[ANAPO] t=  59.1s | pag= 15 | files=   0 | data=  1 | cola= 468 | prio=25 | https://anapobolivia.org/anapo-celebra-el-dia-nacional-de-girasol-un-cultivo-en-incremento-en-los-ultimos-anos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22850
+[ANAPO] t=  60.8s | pag= 16 | files=   0 | data=  1 | cola= 468 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22850
+[ANAPO] t=  61.6s | pag= 16 | files=   0 | data=  1 | cola= 467 | prio=25 | https://anapobolivia.org/fexpo-yabare-la-uagrm-y-anapo-exponen-tecnicas-eficientes-de-fertilizacion-que-fomentan-el-cuidado-del-suelo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22821
+[ANAPO] t=  63.1s | pag= 17 | files=   0 | data=  1 | cola= 467 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22821
+[ANAPO] t=  63.7s | pag= 17 | files=   0 | data=  1 | cola= 466 | prio=25 | https://anapobolivia.org/dia-del-girasol-destacan-que-su-exportacion-es-con-valor-agregado-y-genera-mas-divisas-para-el-estado-2/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22859
+[ANAPO] t=  65.7s | pag= 18 | files=   0 | data=  1 | cola= 466 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22859
+[ANAPO] t=  66.7s | pag= 18 | files=   0 | data=  1 | cola= 465 | prio=25 | https://anapobolivia.org/dia-del-trigo-productores-plantean-acelerar-la-aprobacion-de-la-semilla-hb4-tolerante-a-la-sequia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22883
+[ANAPO] t=  68.9s | pag= 19 | files=   0 | data=  1 | cola= 465 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22883
+[ANAPO] t=  69.6s | pag= 19 | files=   0 | data=  1 | cola= 464 | prio=25 | https://anapobolivia.org/en-el-dia-nacional-del-trigo-anapo-propone-pacto-productivo-para-aumentar-la-produccion-del-grano/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22891
+[ANAPO] t=  71.9s | pag= 20 | files=   0 | data=  1 | cola= 464 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22891
+[ANAPO] t=  72.4s | pag= 20 | files=   0 | data=  1 | cola= 463 | prio=25 | https://anapobolivia.org/productores-del-norte-consolidan-la-expo-agro-y-fortalecen-el-cultivo-de-soya-apta-para-la-region/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/22905
+[ANAPO] t=  73.7s | pag= 21 | files=   0 | data=  1 | cola= 463 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/22905
+[ANAPO] t=  74.7s | pag= 21 | files=   0 | data=  1 | cola= 462 | prio=25 | https://anapobolivia.org/dia-del-girasol-destacan-que-su-exportacion-es-con-valor-agregado-y-genera-mas-divisas-para-el-estado/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/4366
+[ANAPO] t=  76.1s | pag= 22 | files=   0 | data=  1 | cola= 462 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/4366
+[ANAPO] t=  77.0s | pag= 22 | files=   0 | data=  1 | cola= 461 | prio=25 | https://anapobolivia.org/anapo-muestra-a-lideres-de-opinion-de-todo-el-pais-como-bolivia-puede-liderar-una-produccion-de-soya-sostenible-y-competitiva/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23248
+[ANAPO] t=  78.6s | pag= 23 | files=   0 | data=  1 | cola= 461 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23248
+[ANAPO] t=  79.5s | pag= 23 | files=   0 | data=  1 | cola= 460 | prio=25 | https://anapobolivia.org/con-el-impulso-de-anapo-y-cadex-el-gobierno-de-bolivia-firma-el-protocolo-sanitario-para-la-exportacion-de-sorgo-a-china/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23270
+[ANAPO] t=  81.0s | pag= 24 | files=   0 | data=  1 | cola= 460 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23270
+[ANAPO] t=  81.6s | pag= 24 | files=   0 | data=  1 | cola= 459 | prio=25 | https://anapobolivia.org/v-congreso-internacional-de-la-soya-ratifica-el-valor-de-la-biotecnologia-para-mejorar-la-productividad-en-equilibrio-con-el-medio-ambiente/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23303
+[ANAPO] t=  82.8s | pag= 25 | files=   0 | data=  1 | cola= 459 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23303
+[ANAPO] t=  83.5s | pag= 25 | files=   0 | data=  1 | cola= 458 | prio=25 | https://anapobolivia.org/anapo-preve-que-la-produccion-de-soya-llegara-a-23-millones-de-toneladas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23407
+[ANAPO] t=  85.1s | pag= 26 | files=   0 | data=  1 | cola= 458 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23407
+[ANAPO] t=  85.6s | pag= 26 | files=   0 | data=  1 | cola= 457 | prio=25 | https://anapobolivia.org/denuncian-tranca-ilegal-en-san-pedro-que-afecta-a-mas-de-70-mil-hectareas-productivas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23426
+[ANAPO] t=  87.1s | pag= 27 | files=   0 | data=  1 | cola= 457 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23426
+[ANAPO] t=  87.7s | pag= 27 | files=   0 | data=  1 | cola= 456 | prio=25 | https://anapobolivia.org/anapo-la-restriccion-a-la-exportacion-de/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23268
+[ANAPO] t=  89.1s | pag= 28 | files=   0 | data=  1 | cola= 456 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23268
+[ANAPO] t=  89.7s | pag= 28 | files=   0 | data=  1 | cola= 455 | prio=25 | https://anapobolivia.org/el-legado-de-las-mujeres-en-la-biotecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/19071
+[ANAPO] t=  90.8s | pag= 29 | files=   0 | data=  1 | cola= 455 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/19071
+[ANAPO] t=  91.7s | pag= 29 | files=   0 | data=  1 | cola= 454 | prio=25 | https://anapobolivia.org/vi-congreso-internacional-de-la-soya-un-encuentro-clave-para-el-sector/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23844
+[ANAPO] t=  92.8s | pag= 30 | files=   0 | data=  1 | cola= 454 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23844
+[ANAPO] t=  93.8s | pag= 30 | files=   0 | data=  1 | cola= 453 | prio=25 | https://anapobolivia.org/anapo-exige-al-gobierno-actuar-con-urgencia-ante-el-avasallamiento-armado-en-hacienda-santa-rita/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23873
+[ANAPO] t=  95.3s | pag= 31 | files=   0 | data=  1 | cola= 453 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23873
+[ANAPO] t=  96.0s | pag= 31 | files=   0 | data=  1 | cola= 452 | prio=25 | https://anapobolivia.org/productores-realzan-el-impacto-de-la-rotacion-de-cultivos-en-el-dia-nacional-de-la-agricultura-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24035
+[ANAPO] t=  97.5s | pag= 32 | files=   0 | data=  1 | cola= 452 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24035
+[ANAPO] t=  98.7s | pag= 32 | files=   0 | data=  1 | cola= 451 | prio=25 | https://anapobolivia.org/el-vi-congreso-internacional-de-la-soya-cierra-con-elreto-de-afirmar-al-pais-como-referente-en-soya-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24045
+[ANAPO] t=  99.8s | pag= 33 | files=   0 | data=  1 | cola= 451 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24045
+[ANAPO] t= 100.7s | pag= 33 | files=   0 | data=  1 | cola= 450 | prio=25 | https://anapobolivia.org/exposoya-del-norte-impulsa-la-innovacion-para-fortalecer-la-agricultura-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24135
+[ANAPO] t= 102.3s | pag= 34 | files=   0 | data=  1 | cola= 450 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24135
+[ANAPO] t= 103.3s | pag= 34 | files=   0 | data=  1 | cola= 449 | prio=25 | https://anapobolivia.org/de-flor-a-simbolo-el-girasol-convierte-asan-julian-la-capital-crucena-del-cultivo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24048
+[ANAPO] t= 104.7s | pag= 35 | files=   0 | data=  1 | cola= 449 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24048
+[ANAPO] t= 105.6s | pag= 35 | files=   0 | data=  1 | cola= 448 | prio=25 | https://anapobolivia.org/anapo-inicia-un-ciclo-renovado-conabraham-nogales-como-presidente/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24042
+[ANAPO] t= 106.7s | pag= 36 | files=   0 | data=  1 | cola= 448 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24042
+[ANAPO] t= 107.8s | pag= 36 | files=   0 | data=  1 | cola= 447 | prio=25 | https://anapobolivia.org/anapo-plantea-plan-nacional-de-produccion-de-trigo-para-alcanzar-la-soberania-alimentaria/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24039
+[ANAPO] t= 109.3s | pag= 37 | files=   0 | data=  1 | cola= 447 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24039
+[ANAPO] t= 110.0s | pag= 37 | files=   0 | data=  1 | cola= 446 | prio=25 | https://anapobolivia.org/anapo-el-girasol-consolida-su-papel-clave-en-la-exportacion-con-valor-agregado/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24146
+[ANAPO] t= 111.1s | pag= 38 | files=   0 | data=  1 | cola= 446 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24146
+[ANAPO] t= 111.9s | pag= 38 | files=   0 | data=  1 | cola= 445 | prio=25 | https://anapobolivia.org/candidatos-respaldan-demandas-de-anapo-biotecnologia-seguridad-juridica-libre-exportacion-y-acceso-a-diesel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23968
+[ANAPO] t= 113.0s | pag= 39 | files=   0 | data=  1 | cola= 445 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23968
+[ANAPO] t= 113.7s | pag= 39 | files=   0 | data=  1 | cola= 444 | prio=25 | https://anapobolivia.org/abraham-nogales-es-el-nuevo-presidente-de-anapo-y-anuncia-enfoque-en-la-competitividad-y-la-seguridad-juridica/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23941
+[ANAPO] t= 115.1s | pag= 40 | files=   0 | data=  1 | cola= 444 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23941
+[ANAPO] t= 116.0s | pag= 40 | files=   0 | data=  1 | cola= 443 | prio=25 | https://anapobolivia.org/filial-de-anapo-en-san-julian-ya-tiene-modernas-oficinas-para-atender-a-sus-productores-asociados/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23900
+[ANAPO] t= 117.3s | pag= 41 | files=   0 | data=  1 | cola= 443 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23900
+[ANAPO] t= 118.5s | pag= 41 | files=   0 | data=  1 | cola= 442 | prio=25 | https://anapobolivia.org/anapo-cuestiona-la-tardia-decision-para-la-autorizacion-de-exportacion-de-grano-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/23599
+[ANAPO] t= 119.9s | pag= 42 | files=   0 | data=  1 | cola= 442 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/23599
+[ANAPO] t= 121.0s | pag= 42 | files=   0 | data=  1 | cola= 441 | prio=25 | https://anapobolivia.org/agricultores-del-norte-integrado-de-santa-cruz-reafirmaron-la-sostenibilidad-en-la-exposoya-del-norte/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24185
+[ANAPO] t= 122.3s | pag= 43 | files=   0 | data=  1 | cola= 441 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24185
+[ANAPO] t= 123.2s | pag= 43 | files=   0 | data=  1 | cola= 440 | prio=25 | https://anapobolivia.org/anapo-plantea-agenda-productivapara-trabajar-con-el-nuevo-gobierno/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24377
+[ANAPO] t= 124.4s | pag= 44 | files=   0 | data=  1 | cola= 440 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24377
+[ANAPO] t= 125.2s | pag= 44 | files=   0 | data=  1 | cola= 439 | prio=25 | https://anapobolivia.org/anapo-exige-desalojo-inmediato-ante-nuevo-avasallamiento-en-ascension-de-guarayos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24460
+[ANAPO] t= 126.4s | pag= 45 | files=   0 | data=  1 | cola= 439 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24460
+[ANAPO] t= 127.0s | pag= 45 | files=   0 | data=  1 | cola= 438 | prio=25 | https://anapobolivia.org/muestran-rostros-de-avasalladores-de-guarayosy-apuntan-al-viceministro-ramiro-guerrero/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24471
+[ANAPO] t= 128.5s | pag= 46 | files=   0 | data=  1 | cola= 438 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24471
+[ANAPO] t= 129.4s | pag= 46 | files=   0 | data=  1 | cola= 437 | prio=25 | https://anapobolivia.org/en-reuniones-con-candidatos-anapo-planteo-liberar-las-exportaciones-y-acelerar-el-uso-de-la-biotecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24234
+[ANAPO] t= 130.9s | pag= 47 | files=   0 | data=  1 | cola= 437 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24234
+[ANAPO] t= 131.5s | pag= 47 | files=   0 | data=  1 | cola= 436 | prio=25 | https://anapobolivia.org/anapo-aplaude-los-esfuerzos-para-mejorar-el-abastecimiento-de-diesel-y-pide-combatir-el-mercado-negro/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24510
+[ANAPO] t= 132.9s | pag= 48 | files=   0 | data=  1 | cola= 436 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24510
+[ANAPO] t= 133.8s | pag= 48 | files=   0 | data=  1 | cola= 435 | prio=25 | https://anapobolivia.org/anapo-solicita-a-hidrocarburos-ypfb-y-anh-urgentereunion-para-coordinar-la-entrega-de-diesel-a-productores/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24520
+[ANAPO] t= 135.1s | pag= 49 | files=   0 | data=  1 | cola= 435 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24520
+[ANAPO] t= 136.2s | pag= 49 | files=   0 | data=  1 | cola= 434 | prio=25 | https://anapobolivia.org/anapo-valora-el-dialogo-con-rodrigo-paz-y-ve-con-expectativa-la-reunion-empresarial-del-7-de-noviembre/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24449
+[ANAPO] t= 137.4s | pag= 50 | files=   0 | data=  1 | cola= 434 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24449
+[ANAPO] t= 138.2s | pag= 50 | files=   0 | data=  1 | cola= 433 | prio=25 | https://anapobolivia.org/productores-esperan-la-liberacion-plena-de-exportaciones-para-garantizar-certidumbre-y-potenciar-la-produccion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24614
+[ANAPO] t= 139.4s | pag= 51 | files=   0 | data=  1 | cola= 433 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24614
+[ANAPO] t= 140.4s | pag= 51 | files=   0 | data=  1 | cola= 432 | prio=25 | https://anapobolivia.org/anapo-expresa-su-apoyo-a-productores-afectados-por-robo-de-soya-y-exige-sanciones-ejemplares/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24617
+[ANAPO] t= 141.4s | pag= 52 | files=   0 | data=  1 | cola= 432 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24617
+[ANAPO] t= 142.4s | pag= 52 | files=   0 | data=  1 | cola= 431 | prio=25 | https://anapobolivia.org/produccion-de-granos-en-2025-llega-a-56-mm-de-toneladas-y-anapo-preve-impulso-con-la-liberacion-plena-de-exportaciones/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24677
+[ANAPO] t= 143.7s | pag= 53 | files=   0 | data=  1 | cola= 431 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24677
+[ANAPO] t= 144.8s | pag= 53 | files=   0 | data=  1 | cola= 430 | prio=25 | https://anapobolivia.org/anapo-respalda-desalojos-de-predios-avasallados-ypide-se-restituya-el-estado-de-derecho-en-el-agro-cruceno/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24776
+[ANAPO] t= 145.9s | pag= 54 | files=   0 | data=  1 | cola= 430 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24776
+[ANAPO] t= 146.9s | pag= 54 | files=   0 | data=  1 | cola= 429 | prio=25 | https://anapobolivia.org/gobierno-libera-880-mil-toneladas-de-grano-de-soya-para-exportacion-pero-productores-esperan-una-apertura-total/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24792
+[ANAPO] t= 148.0s | pag= 55 | files=   0 | data=  1 | cola= 429 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24792
+[ANAPO] t= 148.7s | pag= 55 | files=   0 | data=  1 | cola= 428 | prio=25 | https://anapobolivia.org/con-biotecnologia-bolivia-subiria-en-30-la-produccion-de-soya-e-igualaria-en-productividad-a-paises-del-mercosur/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24801
+[ANAPO] t= 150.1s | pag= 56 | files=   0 | data=  1 | cola= 428 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24801
+[ANAPO] t= 151.4s | pag= 56 | files=   0 | data=  1 | cola= 427 | prio=25 | https://anapobolivia.org/a-dias-de-su-apertura-exposoya-2026-evidencia-mayor-interes-en-innovacion-tecnologica-para-la-soya-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24809
+[ANAPO] t= 152.9s | pag= 57 | files=   0 | data=  1 | cola= 427 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24809
+[ANAPO] t= 153.6s | pag= 57 | files=   0 | data=  1 | cola= 426 | prio=25 | https://anapobolivia.org/anapo-descarta-importacion-de-grano-de-soya-con-eventos-de-biotecnologia-no-autorizados-en-bolivia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24835
+[ANAPO] t= 155.6s | pag= 58 | files=   0 | data=  1 | cola= 426 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24835
+[ANAPO] t= 156.1s | pag= 58 | files=   0 | data=  1 | cola= 425 | prio=25 | https://anapobolivia.org/con-la-liberacion-de-la-soya-hb4-y-bolivia-da-paso-tecnologico-para-ubicar-al-pais-entre-los-mayores-productores-del-mundo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24838
+[ANAPO] t= 158.3s | pag= 59 | files=   0 | data=  1 | cola= 425 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24838
+[ANAPO] t= 159.3s | pag= 59 | files=   0 | data=  1 | cola= 424 | prio=25 | https://anapobolivia.org/anapo-reporta-disminucion-de-la-produccion-de-la-soya-de-verano-2025-2026-debido-a-las-lluvias/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24853
+[ANAPO] t= 160.6s | pag= 60 | files=   0 | data=  1 | cola= 424 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24853
+[ANAPO] t= 161.8s | pag= 60 | files=   0 | data=  1 | cola= 423 | prio=25 | https://anapobolivia.org/renueva-parte-de-su-directorio-durante-2026-2027-anapo-profundizara-acciones-para-concretar-la-agenda-productiva/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24864
+[ANAPO] t= 163.2s | pag= 61 | files=   0 | data=  1 | cola= 423 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24864
+[ANAPO] t= 164.0s | pag= 61 | files=   0 | data=  1 | cola= 422 | prio=25 | https://anapobolivia.org/en-10-anos-la-soya-genero-mas-de-us-12-000-millones-en-exportaciones-y-aporto-a-la-seguridad-alimentaria-del-pais/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24807
+[ANAPO] t= 165.1s | pag= 62 | files=   0 | data=  1 | cola= 422 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24807
+[ANAPO] t= 166.1s | pag= 62 | files=   0 | data=  1 | cola= 421 | prio=25 | https://anapobolivia.org/anapo-respalda-la-ley-157-pequenos-agricultores-apuntan-a-acceder-a-financiamiento-bancario/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24891
+[ANAPO] t= 167.2s | pag= 63 | files=   0 | data=  1 | cola= 421 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24891
+[ANAPO] t= 168.2s | pag= 63 | files=   0 | data=  1 | cola= 420 | prio=25 | https://anapobolivia.org/nutricion-de-cultivos-aumenta-rendimientos-hasta-en-20-y-ayuda-a-mitigar-los-impactos-del-exceso-de-lluvias/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24935
+[ANAPO] t= 169.9s | pag= 64 | files=   0 | data=  1 | cola= 420 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24935
+[ANAPO] t= 170.7s | pag= 64 | files=   0 | data=  1 | cola= 419 | prio=25 | https://anapobolivia.org/anapo-apuntala-la-ejecucion-de-puerto-busch-clave-para-el-desarrollo-productivo-y-la-competitividad-del-pais/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24941
+[ANAPO] t= 172.1s | pag= 65 | files=   0 | data=  1 | cola= 419 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24941
+[ANAPO] t= 173.1s | pag= 65 | files=   0 | data=  1 | cola= 418 | prio=25 | https://anapobolivia.org/pequenos-productores-respaldan-la-ley-1720-para-impulsar-al-sector-productivo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24954
+[ANAPO] t= 174.7s | pag= 66 | files=   0 | data=  1 | cola= 418 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24954
+[ANAPO] t= 175.7s | pag= 66 | files=   0 | data=  1 | cola= 417 | prio=25 | https://anapobolivia.org/anapo-alerta-sobre-la-urgencia-de-diesel-en-mayo-para-garantizar-la-cosecha-y-siembra-de-granos-estrategicos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24977
+[ANAPO] t= 176.9s | pag= 67 | files=   0 | data=  1 | cola= 417 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24977
+[ANAPO] t= 177.5s | pag= 67 | files=   0 | data=  1 | cola= 416 | prio=25 | https://anapobolivia.org/asume-nuevo-directorio-de-anapo-y-llama-a-liberar-las-exportaciones-y-destrabar-la-economia-productiva/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/24998
+[ANAPO] t= 179.2s | pag= 68 | files=   0 | data=  1 | cola= 416 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/24998
+[ANAPO] t= 180.1s | pag= 68 | files=   0 | data=  1 | cola= 415 | prio=25 | https://anapobolivia.org/anapo-exige-desalojo-inmediato-y-aprehension-de-avasalladores-que-toman-por-sexta-vez-el-predio-santa-rita-en-guarayos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25090
+[ANAPO] t= 181.4s | pag= 69 | files=   0 | data=  1 | cola= 415 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25090
+[ANAPO] t= 182.1s | pag= 69 | files=   0 | data=  1 | cola= 414 | prio=25 | https://anapobolivia.org/anapo-advierte-que-la-falta-de-diesel-pone-en-riesgo-la-seguridad-alimentaria-del-pais/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25094
+[ANAPO] t= 183.7s | pag= 70 | files=   0 | data=  1 | cola= 414 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25094
+[ANAPO] t= 184.7s | pag= 70 | files=   0 | data=  1 | cola= 413 | prio=25 | https://anapobolivia.org/anapo-plantea-la-ruta-de-reactivacion-el-agro-puede-ser-la-principal-fuente-de-divisas-que-bolivia-necesita/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25097
+[ANAPO] t= 186.2s | pag= 71 | files=   0 | data=  1 | cola= 413 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25097
+[ANAPO] t= 186.8s | pag= 71 | files=   0 | data=  1 | cola= 412 | prio=25 | https://anapobolivia.org/anapo-impulsa-el-dia-nacional-del-trigo-para-fortalecer-una-produccion-nacional-que-hoy-cubre-solo-el-11-del-consumo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25115
+[ANAPO] t= 188.3s | pag= 72 | files=   0 | data=  1 | cola= 412 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25115
+[ANAPO] t= 189.8s | pag= 72 | files=   0 | data=  1 | cola= 411 | prio=25 | https://anapobolivia.org/dia-nacional-del-trigo-plantea-agenda-para-recuperar-la-produccion-nacional-y-fortalecer-la-seguridad-alimentaria/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25125
+[ANAPO] t= 191.0s | pag= 73 | files=   0 | data=  1 | cola= 411 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25125
+[ANAPO] t= 191.7s | pag= 73 | files=   0 | data=  1 | cola= 410 | prio=25 | https://anapobolivia.org/anapo-alerta-que-la-escasez-de-diesel-pone-en-vilo-la-cosecha-de-invierno-y-amenaza-la-seguridad-alimentaria/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25130
+[ANAPO] t= 193.2s | pag= 74 | files=   0 | data=  1 | cola= 410 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25130
+[ANAPO] t= 194.1s | pag= 74 | files=   0 | data=  1 | cola= 409 | prio=25 | https://anapobolivia.org/anapo-realiza-el-dia-nacional-del-girasol-y-destaca-al-cultivo-como-el-cuarto-rubro-no-tradicional-de-exportacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25136
+[ANAPO] t= 195.6s | pag= 75 | files=   0 | data=  1 | cola= 409 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25136
+[ANAPO] t= 196.6s | pag= 75 | files=   0 | data=  1 | cola= 408 | prio=25 | https://anapobolivia.org/anapo-proyecta-una-buena-produccion-del-girasol-en-este-invierno-pero-la-cosecha-esta-en-peligro-por-la-falta-de-diesel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25140
+[ANAPO] t= 198.1s | pag= 76 | files=   0 | data=  1 | cola= 408 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25140
+[ANAPO] t= 199.0s | pag= 76 | files=   0 | data=  1 | cola= 407 | prio=25 | https://anapobolivia.org/anapo-el-ds-5676-castiga-al-pequeno-productor-motiva-mas-al-desvio-de-diesel-y-subira-el-precio-de-los-alimentos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/posts/25163
+[ANAPO] t= 200.6s | pag= 77 | files=   0 | data=  1 | cola= 407 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/posts/25163
+[ANAPO] t= 201.6s | pag= 77 | files=   0 | data=  1 | cola= 406 | prio=25 | https://anapobolivia.org/biotecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3022
+[ANAPO] t= 203.2s | pag= 78 | files=   0 | data=  1 | cola= 406 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3022
+[ANAPO] t= 204.3s | pag= 78 | files=   0 | data=  1 | cola= 405 | prio=25 | https://anapobolivia.org/decretos-supremos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3139
+[ANAPO] t= 205.4s | pag= 79 | files=   3 | data=  1 | cola= 405 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3139
+[ANAPO] t= 206.4s | pag= 79 | files=   3 | data=  1 | cola= 404 | prio=25 | https://anapobolivia.org/leyes/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3097
+[ANAPO] t= 207.7s | pag= 80 | files=  22 | data=  1 | cola= 404 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3097
+[ANAPO] t= 208.5s | pag= 80 | files=  22 | data=  1 | cola= 403 | prio=25 | https://anapobolivia.org/otras-normativas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3035
+[ANAPO] t= 209.8s | pag= 81 | files=  45 | data=  1 | cola= 403 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3035
+[ANAPO] t= 210.5s | pag= 81 | files=  45 | data=  1 | cola= 402 | prio=25 | https://anapobolivia.org/proyectos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2585
+[ANAPO] t= 212.0s | pag= 82 | files=  45 | data=  1 | cola= 402 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2585
+[ANAPO] t= 212.7s | pag= 82 | files=  45 | data=  1 | cola= 401 | prio=25 | https://anapobolivia.org/nuestro-canal-en-youtube/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/18663
+[ANAPO] t= 213.7s | pag= 83 | files=  45 | data=  1 | cola= 401 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/18663
+[ANAPO] t= 214.7s | pag= 83 | files=  45 | data=  1 | cola= 400 | prio=25 | https://anapobolivia.org/receta/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/19349
+[ANAPO] t= 216.0s | pag= 84 | files=  45 | data=  1 | cola= 400 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/19349
+[ANAPO] t= 217.1s | pag= 84 | files=  45 | data=  1 | cola= 399 | prio=25 | https://anapobolivia.org/comercializacion-de-semillas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/4469
+[ANAPO] t= 218.3s | pag= 85 | files=  45 | data=  1 | cola= 401 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/4469
+[ANAPO] t= 219.5s | pag= 85 | files=  45 | data=  1 | cola= 400 | prio=25 | https://anapobolivia.org/modelo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21236
+[ANAPO] t= 221.1s | pag= 86 | files=  45 | data=  1 | cola= 400 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21236
+[ANAPO] t= 221.7s | pag= 86 | files=  45 | data=  1 | cola= 399 | prio=25 | https://anapobolivia.org/themencode-pdf-viewer/
+[ANAPO] t= 223.3s | pag= 86 | files=  45 | data=  1 | cola= 398 | prio=25 | https://anapobolivia.org/themencode-pdf-viewer-sc/
+[ANAPO] t= 225.2s | pag= 86 | files=  45 | data=  1 | cola= 397 | prio=25 | https://anapobolivia.org/comercializacion-de-semillas/comercializacion-de-semillas-trigo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/19195
+[ANAPO] t= 227.2s | pag= 87 | files=  45 | data=  1 | cola= 400 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/19195
+[ANAPO] t= 228.0s | pag= 87 | files=  45 | data=  1 | cola= 399 | prio=25 | https://anapobolivia.org/hitos-institucionales/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3505
+[ANAPO] t= 229.5s | pag= 88 | files=  45 | data=  1 | cola= 399 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3505
+[ANAPO] t= 230.6s | pag= 88 | files=  45 | data=  1 | cola= 398 | prio=25 | https://anapobolivia.org/programa-exportacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21947
+[ANAPO] t= 231.9s | pag= 89 | files=  45 | data=  1 | cola= 398 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21947
+[ANAPO] t= 232.6s | pag= 89 | files=  45 | data=  1 | cola= 397 | prio=25 | https://anapobolivia.org/programa-de-mejoramiento-genetico-pmgo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21962
+[ANAPO] t= 233.7s | pag= 90 | files=  45 | data=  1 | cola= 397 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21962
+[ANAPO] t= 234.8s | pag= 90 | files=  45 | data=  1 | cola= 396 | prio=25 | https://anapobolivia.org/programa-soya-sostenible-pss/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21966
+[ANAPO] t= 236.0s | pag= 91 | files=  45 | data=  1 | cola= 396 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21966
+[ANAPO] t= 236.8s | pag= 91 | files=  45 | data=  1 | cola= 395 | prio=25 | https://anapobolivia.org/red-experimental-de-nutricion-de-cultivos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21970
+[ANAPO] t= 238.0s | pag= 92 | files=  45 | data=  1 | cola= 395 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21970
+[ANAPO] t= 238.8s | pag= 92 | files=  45 | data=  1 | cola= 394 | prio=25 | https://anapobolivia.org/programas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21415
+[ANAPO] t= 239.9s | pag= 93 | files=  45 | data=  1 | cola= 394 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21415
+[ANAPO] t= 240.6s | pag= 93 | files=  45 | data=  1 | cola= 393 | prio=25 | https://anapobolivia.org/normativas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3859
+[ANAPO] t= 242.1s | pag= 94 | files= 110 | data=  1 | cola= 393 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3859
+[ANAPO] t= 243.1s | pag= 94 | files= 110 | data=  1 | cola= 392 | prio=25 | https://anapobolivia.org/quiero-afiliarme/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2563
+[ANAPO] t= 244.6s | pag= 95 | files= 110 | data=  1 | cola= 394 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2563
+[ANAPO] t= 245.8s | pag= 95 | files= 110 | data=  1 | cola= 393 | prio=25 | https://anapobolivia.org/obligaciones-tributarias-de-productores-agropecuarios/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/23086
+[ANAPO] t= 247.1s | pag= 96 | files= 110 | data=  1 | cola= 393 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/23086
+[ANAPO] t= 248.2s | pag= 96 | files= 110 | data=  1 | cola= 392 | prio=25 | https://anapobolivia.org/resolucion-normativa-102400000024/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/23093
+[ANAPO] t= 249.5s | pag= 97 | files= 110 | data=  1 | cola= 392 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/23093
+[ANAPO] t= 250.2s | pag= 97 | files= 110 | data=  1 | cola= 391 | prio=25 | https://anapobolivia.org/requisitos-tramite-nit-rau-y-certificado-de-no-imponibilidad/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/23102
+[ANAPO] t= 251.4s | pag= 98 | files= 110 | data=  1 | cola= 391 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/23102
+[ANAPO] t= 252.1s | pag= 98 | files= 110 | data=  1 | cola= 390 | prio=25 | https://anapobolivia.org/anapo-noticias/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2652
+[ANAPO] t= 253.5s | pag= 99 | files= 110 | data=  1 | cola= 390 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2652
+[ANAPO] t= 254.2s | pag= 99 | files= 110 | data=  1 | cola= 389 | prio=25 | https://anapobolivia.org/asesoria-legal/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2338
+[ANAPO] t= 255.3s | pag=100 | files= 110 | data=  1 | cola= 389 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2338
+[ANAPO] t= 256.6s | pag=100 | files= 110 | data=  1 | cola= 388 | prio=25 | https://anapobolivia.org/cartillas-informativas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2985
+[ANAPO] t= 257.8s | pag=101 | files= 110 | data=  1 | cola= 392 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2985
+[ANAPO] t= 258.6s | pag=101 | files= 110 | data=  1 | cola= 391 | prio=25 | https://anapobolivia.org/colecturia-de-impuestos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2366
+[ANAPO] t= 260.2s | pag=102 | files= 110 | data=  1 | cola= 394 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2366
+[ANAPO] t= 261.1s | pag=102 | files= 110 | data=  1 | cola= 393 | prio=25 | https://anapobolivia.org/complejo-semillero/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2402
+[ANAPO] t= 262.4s | pag=103 | files= 110 | data=  1 | cola= 393 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2402
+[ANAPO] t= 263.6s | pag=103 | files= 110 | data=  1 | cola= 392 | prio=25 | https://anapobolivia.org/contactenos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2639
+[ANAPO] t= 265.3s | pag=104 | files= 110 | data=  1 | cola= 392 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2639
+[ANAPO] t= 266.2s | pag=104 | files= 110 | data=  1 | cola= 391 | prio=25 | https://anapobolivia.org/servicios-laborales/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2408
+[ANAPO] t= 267.7s | pag=105 | files= 110 | data=  1 | cola= 391 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2408
+[ANAPO] t= 268.6s | pag=105 | files= 110 | data=  1 | cola= 390 | prio=25 | https://anapobolivia.org/hojas-divulgativas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2949
+[ANAPO] t= 269.9s | pag=106 | files= 110 | data=  1 | cola= 390 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2949
+[ANAPO] t= 271.1s | pag=106 | files= 110 | data=  1 | cola= 389 | prio=25 | https://anapobolivia.org/gestion-de-caminos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2386
+[ANAPO] t= 272.5s | pag=107 | files= 110 | data=  1 | cola= 389 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2386
+[ANAPO] t= 273.1s | pag=107 | files= 110 | data=  1 | cola= 388 | prio=25 | https://anapobolivia.org/manuales-tecnicos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3707
+[ANAPO] t= 274.7s | pag=108 | files= 110 | data=  1 | cola= 388 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3707
+[ANAPO] t= 275.7s | pag=108 | files= 110 | data=  1 | cola= 387 | prio=25 | https://anapobolivia.org/investigacion-tecnologica/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2394
+[ANAPO] t= 277.2s | pag=109 | files= 110 | data=  1 | cola= 387 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2394
+[ANAPO] t= 277.9s | pag=109 | files= 110 | data=  1 | cola= 386 | prio=25 | https://anapobolivia.org/precios/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3768
+[ANAPO] t= 278.9s | pag=110 | files= 110 | data=  1 | cola= 386 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3768
+[ANAPO] t= 279.8s | pag=110 | files= 110 | data=  1 | cola= 385 | prio=25 | https://anapobolivia.org/noticias-3/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/23321
+[ANAPO] t= 281.2s | pag=111 | files= 110 | data=  1 | cola= 385 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/23321
+[ANAPO] t= 281.9s | pag=111 | files= 110 | data=  1 | cola= 384 | prio=25 | https://anapobolivia.org/comercializacion-de-semillas/comercializacion-de-semillas-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/19190
+[ANAPO] t= 283.0s | pag=112 | files= 111 | data=  1 | cola= 390 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/19190
+[ANAPO] t= 283.9s | pag=112 | files= 111 | data=  1 | cola= 389 | prio=25 | https://anapobolivia.org/filiales/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/4102
+[ANAPO] t= 285.6s | pag=113 | files= 111 | data=  1 | cola= 392 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/4102
+[ANAPO] t= 286.6s | pag=113 | files= 111 | data=  1 | cola= 391 | prio=25 | https://anapobolivia.org/personal-anapo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2171
+[ANAPO] t= 288.5s | pag=114 | files= 111 | data=  1 | cola= 392 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2171
+[ANAPO] t= 289.6s | pag=114 | files= 111 | data=  1 | cola= 391 | prio=25 | https://anapobolivia.org/congreso-internacional-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/23297
+[ANAPO] t= 291.1s | pag=115 | files= 111 | data=  1 | cola= 391 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/23297
+[ANAPO] t= 292.2s | pag=115 | files= 111 | data=  1 | cola= 390 | prio=25 | https://anapobolivia.org/soya-y-vida/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/19305
+[ANAPO] t= 293.6s | pag=116 | files= 111 | data=  1 | cola= 391 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/19305
+[ANAPO] t= 294.6s | pag=116 | files= 111 | data=  1 | cola= 390 | prio=25 | https://anapobolivia.org/expo-agro-norte/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/18209
+[ANAPO] t= 295.8s | pag=117 | files= 111 | data=  1 | cola= 390 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/18209
+[ANAPO] t= 297.0s | pag=117 | files= 111 | data=  1 | cola= 389 | prio=25 | https://anapobolivia.org/abastecimiento-diesel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2320
+[ANAPO] t= 298.1s | pag=118 | files= 111 | data=  1 | cola= 389 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2320
+[ANAPO] t= 298.8s | pag=118 | files= 111 | data=  1 | cola= 388 | prio=25 | https://anapobolivia.org/abastecimiento-de-fertilizantes/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21562
+[ANAPO] t= 300.3s | pag=119 | files= 111 | data=  1 | cola= 388 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21562
+[ANAPO] t= 301.1s | pag=119 | files= 111 | data=  1 | cola= 387 | prio=25 | https://anapobolivia.org/acerca-de/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2415
+[ANAPO] t= 302.6s | pag=120 | files= 111 | data=  1 | cola= 387 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2415
+[ANAPO] t= 303.3s | pag=120 | files= 111 | data=  1 | cola= 386 | prio=25 | https://anapobolivia.org/afiliacion-persona-juridica/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/4291
+[ANAPO] t= 304.7s | pag=121 | files= 111 | data=  1 | cola= 386 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/4291
+[ANAPO] t= 305.8s | pag=121 | files= 111 | data=  1 | cola= 385 | prio=25 | https://anapobolivia.org/afiliacion-persona-natural/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/4267
+[ANAPO] t= 306.9s | pag=122 | files= 111 | data=  1 | cola= 385 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/4267
+[ANAPO] t= 307.8s | pag=122 | files= 111 | data=  1 | cola= 384 | prio=25 | https://anapobolivia.org/capacitaciones/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/4144
+[ANAPO] t= 309.6s | pag=123 | files= 111 | data=  1 | cola= 384 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/4144
+[ANAPO] t= 310.6s | pag=123 | files= 111 | data=  1 | cola= 383 | prio=25 | https://anapobolivia.org/memorias-anuales/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2885
+[ANAPO] t= 312.0s | pag=124 | files= 111 | data=  1 | cola= 383 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2885
+[ANAPO] t= 312.9s | pag=124 | files= 111 | data=  1 | cola= 382 | prio=25 | https://anapobolivia.org/estadisticas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/21438
+[ANAPO] t= 315.0s | pag=125 | files= 111 | data=  1 | cola= 382 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/21438
+[ANAPO] t= 315.8s | pag=125 | files= 111 | data=  1 | cola= 381 | prio=25 | https://anapobolivia.org/directorio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2160
+[ANAPO] t= 316.9s | pag=126 | files= 111 | data=  1 | cola= 381 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2160
+[ANAPO] t= 317.8s | pag=126 | files= 111 | data=  1 | cola= 380 | prio=25 | https://anapobolivia.org/expresidentes/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2186
+[ANAPO] t= 319.4s | pag=127 | files= 111 | data=  1 | cola= 380 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2186
+[ANAPO] t= 320.5s | pag=127 | files= 111 | data=  1 | cola= 379 | prio=25 | https://anapobolivia.org/expo-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2233
+[ANAPO] t= 321.7s | pag=128 | files= 111 | data=  1 | cola= 379 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2233
+[ANAPO] t= 322.8s | pag=128 | files= 111 | data=  1 | cola= 378 | prio=25 | https://anapobolivia.org/exposoya-chiquitania/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/23279
+[ANAPO] t= 324.4s | pag=129 | files= 111 | data=  1 | cola= 378 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/23279
+[ANAPO] t= 325.5s | pag=129 | files= 111 | data=  1 | cola= 377 | prio=25 | https://anapobolivia.org/quienes-somos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/2136
+[ANAPO] t= 327.2s | pag=130 | files= 111 | data=  1 | cola= 377 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/2136
+[ANAPO] t= 328.4s | pag=130 | files= 111 | data=  1 | cola= 376 | prio=25 | https://anapobolivia.org/dia-nacional-del-trigo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/18202
+[ANAPO] t= 330.0s | pag=131 | files= 111 | data=  1 | cola= 376 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/18202
+[ANAPO] t= 330.8s | pag=131 | files= 111 | data=  1 | cola= 375 | prio=25 | https://anapobolivia.org/clima/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/3850
+[ANAPO] t= 332.2s | pag=132 | files= 111 | data=  1 | cola= 375 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/3850
+[ANAPO] t= 332.9s | pag=132 | files= 111 | data=  1 | cola= 374 | prio=25 | https://anapobolivia.org/dia-nacional-del-girasol/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/18189
+[ANAPO] t= 334.3s | pag=133 | files= 111 | data=  1 | cola= 374 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/18189
+[ANAPO] t= 335.2s | pag=133 | files= 111 | data=  1 | cola= 373 | prio=25 | https://anapobolivia.org/congreso-internacional-de-agricultura-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pages/25040
+[ANAPO] t= 336.3s | pag=134 | files= 111 | data=  1 | cola= 374 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pages/25040
+[ANAPO] t= 337.0s | pag=134 | files= 111 | data=  1 | cola= 373 | prio=25 | https://anapobolivia.org/pdfviewer/
+[ANAPO] t= 338.2s | pag=135 | files= 111 | data=  1 | cola= 373 | prio=25 | https://anapobolivia.org/pdfviewer/un-grano-de-oro-en-la-historia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22054
+[ANAPO] t= 339.6s | pag=136 | files= 111 | data=  1 | cola= 373 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22054
+[ANAPO] t= 340.5s | pag=136 | files= 111 | data=  1 | cola= 372 | prio=25 | https://anapobolivia.org/pdfviewer/plagas-en-el-cultivo-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22104
+[ANAPO] t= 342.0s | pag=137 | files= 111 | data=  1 | cola= 372 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22104
+[ANAPO] t= 343.1s | pag=137 | files= 111 | data=  1 | cola= 371 | prio=25 | https://anapobolivia.org/pdfviewer/enfermedades-del-cultivo-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22106
+[ANAPO] t= 344.2s | pag=138 | files= 111 | data=  1 | cola= 371 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22106
+[ANAPO] t= 345.1s | pag=138 | files= 111 | data=  1 | cola= 370 | prio=25 | https://anapobolivia.org/pdfviewer/variedades-en-el-cultivo-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22107
+[ANAPO] t= 346.2s | pag=139 | files= 111 | data=  1 | cola= 370 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22107
+[ANAPO] t= 347.1s | pag=139 | files= 111 | data=  1 | cola= 369 | prio=25 | https://anapobolivia.org/pdfviewer/manejo-del-suelo-en-el-cultivo-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22108
+[ANAPO] t= 348.3s | pag=140 | files= 111 | data=  1 | cola= 369 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22108
+[ANAPO] t= 348.9s | pag=140 | files= 111 | data=  1 | cola= 368 | prio=25 | https://anapobolivia.org/pdfviewer/tratamiento-de-semillas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22109
+[ANAPO] t= 350.5s | pag=141 | files= 111 | data=  1 | cola= 368 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22109
+[ANAPO] t= 351.1s | pag=141 | files= 111 | data=  1 | cola= 367 | prio=25 | https://anapobolivia.org/pdfviewer/manual-de-guia-sobre-el-tema-servidumbral/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22110
+[ANAPO] t= 352.7s | pag=142 | files= 111 | data=  1 | cola= 367 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22110
+[ANAPO] t= 353.7s | pag=142 | files= 111 | data=  1 | cola= 366 | prio=25 | https://anapobolivia.org/pdfviewer/cosecha-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22111
+[ANAPO] t= 355.2s | pag=143 | files= 111 | data=  1 | cola= 366 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22111
+[ANAPO] t= 356.3s | pag=143 | files= 111 | data=  1 | cola= 365 | prio=25 | https://anapobolivia.org/pdfviewer/gestion-de-residuos-y-contaminacion-de-aguas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22112
+[ANAPO] t= 357.6s | pag=144 | files= 111 | data=  1 | cola= 365 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22112
+[ANAPO] t= 358.5s | pag=144 | files= 111 | data=  1 | cola= 364 | prio=25 | https://anapobolivia.org/pdfviewer/buenas-practicas-ambientales-en-agricultura/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22113
+[ANAPO] t= 359.9s | pag=145 | files= 111 | data=  1 | cola= 364 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22113
+[ANAPO] t= 360.6s | pag=145 | files= 111 | data=  1 | cola= 363 | prio=25 | https://anapobolivia.org/pdfviewer/usos-de-equipos-de-aplicacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22115
+[ANAPO] t= 361.9s | pag=146 | files= 111 | data=  1 | cola= 363 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22115
+[ANAPO] t= 362.8s | pag=146 | files= 111 | data=  1 | cola= 362 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-de-fertilizacion-para-los-distintos-cultivos-y-sistemas-de-produccion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22118
+[ANAPO] t= 364.3s | pag=147 | files= 111 | data=  1 | cola= 362 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22118
+[ANAPO] t= 365.0s | pag=147 | files= 111 | data=  1 | cola= 361 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2015/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22124
+[ANAPO] t= 366.4s | pag=148 | files= 111 | data=  1 | cola= 361 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22124
+[ANAPO] t= 367.0s | pag=148 | files= 111 | data=  1 | cola= 360 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2016/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22125
+[ANAPO] t= 368.6s | pag=149 | files= 111 | data=  1 | cola= 360 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22125
+[ANAPO] t= 369.3s | pag=149 | files= 111 | data=  1 | cola= 359 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2017/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22126
+[ANAPO] t= 371.2s | pag=150 | files= 111 | data=  1 | cola= 359 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22126
+[ANAPO] t= 371.9s | pag=150 | files= 111 | data=  1 | cola= 358 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2018/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22127
+[ANAPO] t= 373.1s | pag=151 | files= 111 | data=  1 | cola= 358 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22127
+[ANAPO] t= 374.0s | pag=151 | files= 111 | data=  1 | cola= 357 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2019/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22128
+[ANAPO] t= 375.5s | pag=152 | files= 111 | data=  1 | cola= 357 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22128
+[ANAPO] t= 376.2s | pag=152 | files= 111 | data=  1 | cola= 356 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2020/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22129
+[ANAPO] t= 377.5s | pag=153 | files= 111 | data=  1 | cola= 356 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22129
+[ANAPO] t= 378.5s | pag=153 | files= 111 | data=  1 | cola= 355 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2021/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22131
+[ANAPO] t= 380.3s | pag=154 | files= 111 | data=  1 | cola= 355 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22131
+[ANAPO] t= 380.9s | pag=154 | files= 111 | data=  1 | cola= 354 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2022/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22132
+[ANAPO] t= 382.0s | pag=155 | files= 111 | data=  1 | cola= 354 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22132
+[ANAPO] t= 382.9s | pag=155 | files= 111 | data=  1 | cola= 353 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2018/
+[ANAPO] DATASETS=2 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2018/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22136
+[ANAPO] t= 384.3s | pag=156 | files= 111 | data=  2 | cola= 353 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22136
+[ANAPO] t= 385.0s | pag=156 | files= 111 | data=  2 | cola= 352 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2019/
+[ANAPO] DATASETS=3 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2019/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22137
+[ANAPO] t= 386.2s | pag=157 | files= 111 | data=  3 | cola= 352 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22137
+[ANAPO] t= 386.8s | pag=157 | files= 111 | data=  3 | cola= 351 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2020/
+[ANAPO] DATASETS=4 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2020/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22138
+[ANAPO] t= 388.2s | pag=158 | files= 111 | data=  4 | cola= 351 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22138
+[ANAPO] t= 389.3s | pag=158 | files= 111 | data=  4 | cola= 350 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2021/
+[ANAPO] DATASETS=5 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2021/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22139
+[ANAPO] t= 390.9s | pag=159 | files= 111 | data=  5 | cola= 350 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22139
+[ANAPO] t= 392.1s | pag=159 | files= 111 | data=  5 | cola= 349 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2022/
+[ANAPO] DATASETS=6 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2022/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22140
+[ANAPO] t= 393.7s | pag=160 | files= 111 | data=  6 | cola= 349 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22140
+[ANAPO] t= 394.5s | pag=160 | files= 111 | data=  6 | cola= 348 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2023/
+[ANAPO] DATASETS=7 | exportable_data_page | https://anapobolivia.org/pdfviewer/estadisticas-2023/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22141
+[ANAPO] t= 395.6s | pag=161 | files= 111 | data=  7 | cola= 348 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22141
+[ANAPO] t= 396.3s | pag=161 | files= 111 | data=  7 | cola= 347 | prio=25 | https://anapobolivia.org/pdfviewer/programa-de-produccion-de-alimentos-y-restitucion-de-bosques/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22116
+[ANAPO] t= 397.7s | pag=162 | files= 111 | data=  7 | cola= 347 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22116
+[ANAPO] t= 398.2s | pag=162 | files= 111 | data=  7 | cola= 346 | prio=25 | https://anapobolivia.org/pdfviewer/comercializacion-potasio-agosto-2024/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22164
+[ANAPO] t= 399.6s | pag=163 | files= 111 | data=  7 | cola= 346 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22164
+[ANAPO] t= 400.7s | pag=163 | files= 111 | data=  7 | cola= 345 | prio=25 | https://anapobolivia.org/pdfviewer/sojaparr19/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22202
+[ANAPO] t= 402.0s | pag=164 | files= 111 | data=  7 | cola= 345 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22202
+[ANAPO] t= 403.2s | pag=164 | files= 111 | data=  7 | cola= 344 | prio=25 | https://anapobolivia.org/pdfviewer/sojaparr49/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22206
+[ANAPO] t= 404.5s | pag=165 | files= 111 | data=  7 | cola= 344 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22206
+[ANAPO] t= 405.2s | pag=165 | files= 111 | data=  7 | cola= 343 | prio=25 | https://anapobolivia.org/pdfviewer/sojaparr82/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22207
+[ANAPO] t= 406.4s | pag=166 | files= 111 | data=  7 | cola= 343 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22207
+[ANAPO] t= 407.5s | pag=166 | files= 111 | data=  7 | cola= 342 | prio=25 | https://anapobolivia.org/pdfviewer/sojaparr24/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22209
+[ANAPO] t= 408.7s | pag=167 | files= 111 | data=  7 | cola= 342 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22209
+[ANAPO] t= 409.8s | pag=167 | files= 111 | data=  7 | cola= 341 | prio=25 | https://anapobolivia.org/pdfviewer/sojaparr75/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22210
+[ANAPO] t= 411.3s | pag=168 | files= 111 | data=  7 | cola= 341 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22210
+[ANAPO] t= 412.4s | pag=168 | files= 111 | data=  7 | cola= 340 | prio=25 | https://anapobolivia.org/pdfviewer/sojalb233/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22214
+[ANAPO] t= 413.9s | pag=169 | files= 111 | data=  7 | cola= 340 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22214
+[ANAPO] t= 414.5s | pag=169 | files= 111 | data=  7 | cola= 339 | prio=25 | https://anapobolivia.org/pdfviewer/sojamunasqa/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22215
+[ANAPO] t= 415.7s | pag=170 | files= 111 | data=  7 | cola= 339 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22215
+[ANAPO] t= 416.4s | pag=170 | files= 111 | data=  7 | cola= 338 | prio=25 | https://anapobolivia.org/pdfviewer/trigo_triunfo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22220
+[ANAPO] t= 417.8s | pag=171 | files= 111 | data=  7 | cola= 338 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22220
+[ANAPO] t= 418.4s | pag=171 | files= 111 | data=  7 | cola= 337 | prio=25 | https://anapobolivia.org/pdfviewer/trigo_sossego/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22222
+[ANAPO] t= 419.9s | pag=172 | files= 111 | data=  7 | cola= 337 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22222
+[ANAPO] t= 421.0s | pag=172 | files= 111 | data=  7 | cola= 336 | prio=25 | https://anapobolivia.org/pdfviewer/trigo_amplitud/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22226
+[ANAPO] t= 422.6s | pag=173 | files= 111 | data=  7 | cola= 336 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22226
+[ANAPO] t= 423.2s | pag=173 | files= 111 | data=  7 | cola= 335 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2024octubre28/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22264
+[ANAPO] t= 424.6s | pag=174 | files= 111 | data=  7 | cola= 335 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22264
+[ANAPO] t= 425.6s | pag=174 | files= 111 | data=  7 | cola= 334 | prio=25 | https://anapobolivia.org/pdfviewer/comercializacion-urea/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22273
+[ANAPO] t= 427.0s | pag=175 | files= 111 | data=  7 | cola= 334 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22273
+[ANAPO] t= 427.8s | pag=175 | files= 111 | data=  7 | cola= 333 | prio=25 | https://anapobolivia.org/pdfviewer/precios_boletin/
+[ANAPO] DATASETS=8 | exportable_data_page | https://anapobolivia.org/pdfviewer/precios_boletin/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22283
+[ANAPO] t= 429.0s | pag=176 | files= 111 | data=  8 | cola= 333 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22283
+[ANAPO] t= 430.1s | pag=176 | files= 111 | data=  8 | cola= 332 | prio=25 | https://anapobolivia.org/pdfviewer/v-congreso-de-la-soya-aporta-conocimiento/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22088
+[ANAPO] t= 431.6s | pag=177 | files= 111 | data=  8 | cola= 332 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22088
+[ANAPO] t= 432.2s | pag=177 | files= 111 | data=  8 | cola= 331 | prio=25 | https://anapobolivia.org/pdfviewer/anapo-noticias-143/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22251
+[ANAPO] t= 433.5s | pag=178 | files= 111 | data=  8 | cola= 331 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22251
+[ANAPO] t= 434.4s | pag=178 | files= 111 | data=  8 | cola= 330 | prio=25 | https://anapobolivia.org/pdfviewer/hb4-urge-la-aprobacion-del-gobierno/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22089
+[ANAPO] t= 435.9s | pag=179 | files= 111 | data=  8 | cola= 330 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22089
+[ANAPO] t= 437.0s | pag=179 | files= 111 | data=  8 | cola= 329 | prio=25 | https://anapobolivia.org/pdfviewer/productores-piden-biotecnologia-para-incrementar-la-produccion-y-la-exportacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22085
+[ANAPO] t= 438.1s | pag=180 | files= 111 | data=  8 | cola= 329 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22085
+[ANAPO] t= 439.1s | pag=180 | files= 111 | data=  8 | cola= 328 | prio=25 | https://anapobolivia.org/pdfviewer/anapo-celebra-50-anos-de-agricultura-e-innovacion-sostenible-de-la-mano-de-los-productores/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22301
+[ANAPO] t= 440.5s | pag=181 | files= 111 | data=  8 | cola= 328 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22301
+[ANAPO] t= 441.5s | pag=181 | files= 111 | data=  8 | cola= 327 | prio=25 | https://anapobolivia.org/pdfviewer/anapo-cierra-un-ano-clave-de-avance-hacia-la-biotecnologia-para-consolidar-la-sostenibilidad/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22087
+[ANAPO] t= 443.0s | pag=182 | files= 111 | data=  8 | cola= 327 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22087
+[ANAPO] t= 443.7s | pag=182 | files= 111 | data=  8 | cola= 326 | prio=25 | https://anapobolivia.org/pdfviewer/dia-nacional-del-girasol-promueve-el-uso-de-tecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22090
+[ANAPO] t= 445.1s | pag=183 | files= 111 | data=  8 | cola= 326 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22090
+[ANAPO] t= 445.9s | pag=183 | files= 111 | data=  8 | cola= 325 | prio=25 | https://anapobolivia.org/pdfviewer/exposoya-30-anos-de-innovacion-y-tecnologia-para-el-agro/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22086
+[ANAPO] t= 447.2s | pag=184 | files= 111 | data=  8 | cola= 325 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22086
+[ANAPO] t= 448.0s | pag=184 | files= 111 | data=  8 | cola= 324 | prio=25 | https://anapobolivia.org/pdfviewer/productores-plantean-acelerar-la-aprobacion-de-la-tecnologia-hb4-tolerante-a-la-sequia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22305
+[ANAPO] t= 449.4s | pag=185 | files= 111 | data=  8 | cola= 324 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22305
+[ANAPO] t= 450.3s | pag=185 | files= 111 | data=  8 | cola= 323 | prio=25 | https://anapobolivia.org/pdfviewer/directorio-2023-2024-propone-dialogo-abierto-hacia-un-pacto-por-la-soberania-alimentaria/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22308
+[ANAPO] t= 451.8s | pag=186 | files= 111 | data=  8 | cola= 323 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22308
+[ANAPO] t= 452.8s | pag=186 | files= 111 | data=  8 | cola= 322 | prio=25 | https://anapobolivia.org/pdfviewer/exposoya-2023-plantea-biotecnologia-hacia-una-mayor-productividad-con-enfoque-de-sostenibilidad/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22311
+[ANAPO] t= 454.2s | pag=187 | files= 111 | data=  8 | cola= 322 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22311
+[ANAPO] t= 454.7s | pag=187 | files= 111 | data=  8 | cola= 321 | prio=25 | https://anapobolivia.org/pdfviewer/exposoya-2023-muestra-los-avances-tecnologicos-del-sector/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22314
+[ANAPO] t= 456.1s | pag=188 | files= 111 | data=  8 | cola= 321 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22314
+[ANAPO] t= 456.8s | pag=188 | files= 111 | data=  8 | cola= 320 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-tecnicas-para-el-cultivo-de-soya-2017/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22084
+[ANAPO] t= 458.0s | pag=189 | files= 111 | data=  8 | cola= 320 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22084
+[ANAPO] t= 459.0s | pag=189 | files= 111 | data=  8 | cola= 319 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-tecnicas-para-el-cultivo-del-girasol-2020/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22083
+[ANAPO] t= 460.3s | pag=190 | files= 111 | data=  8 | cola= 319 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22083
+[ANAPO] t= 461.0s | pag=190 | files= 111 | data=  8 | cola= 318 | prio=25 | https://anapobolivia.org/pdfviewer/chinches-en-el-cultivo-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22100
+[ANAPO] t= 462.5s | pag=191 | files= 111 | data=  8 | cola= 318 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22100
+[ANAPO] t= 463.5s | pag=191 | files= 111 | data=  8 | cola= 317 | prio=25 | https://anapobolivia.org/pdfviewer/resistencia-de-malezas-a-herbicidas-en-el-cultivo-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22099
+[ANAPO] t= 464.6s | pag=192 | files= 111 | data=  8 | cola= 317 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22099
+[ANAPO] t= 465.4s | pag=192 | files= 111 | data=  8 | cola= 316 | prio=25 | https://anapobolivia.org/pdfviewer/mosquita-del-capitulo-en-el-cultivo-de-girasol/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22098
+[ANAPO] t= 466.6s | pag=193 | files= 111 | data=  8 | cola= 316 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22098
+[ANAPO] t= 467.3s | pag=193 | files= 111 | data=  8 | cola= 315 | prio=25 | https://anapobolivia.org/pdfviewer/tratamiento-de-semilla-en-el-cultivo-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22097
+[ANAPO] t= 468.5s | pag=194 | files= 111 | data=  8 | cola= 315 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22097
+[ANAPO] t= 469.2s | pag=194 | files= 111 | data=  8 | cola= 314 | prio=25 | https://anapobolivia.org/pdfviewer/tratamiento-de-semilla-en-el-cultivo-de-trigo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22095
+[ANAPO] t= 470.8s | pag=195 | files= 111 | data=  8 | cola= 314 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22095
+[ANAPO] t= 472.0s | pag=195 | files= 111 | data=  8 | cola= 313 | prio=25 | https://anapobolivia.org/pdfviewer/manejo-y-control-para-la-roya-asiatica-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22174
+[ANAPO] t= 473.2s | pag=196 | files= 111 | data=  8 | cola= 313 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22174
+[ANAPO] t= 474.3s | pag=196 | files= 111 | data=  8 | cola= 312 | prio=25 | https://anapobolivia.org/pdfviewer/resistencia-de-malezas-a-glifosato-en-el-cultivo-de-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22341
+[ANAPO] t= 475.8s | pag=197 | files= 111 | data=  8 | cola= 312 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22341
+[ANAPO] t= 476.9s | pag=197 | files= 111 | data=  8 | cola= 311 | prio=25 | https://anapobolivia.org/pdfviewer/practicas-de-manejo-y-conservacion-de-suelos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22344
+[ANAPO] t= 478.2s | pag=198 | files= 111 | data=  8 | cola= 311 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22344
+[ANAPO] t= 479.3s | pag=198 | files= 111 | data=  8 | cola= 310 | prio=25 | https://anapobolivia.org/pdfviewer/programa-de-nutricion-de-cultivos-de-anapo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22347
+[ANAPO] t= 480.4s | pag=199 | files= 111 | data=  8 | cola= 310 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22347
+[ANAPO] t= 481.2s | pag=199 | files= 111 | data=  8 | cola= 309 | prio=25 | https://anapobolivia.org/pdfviewer/jopo-orobanche-spp-caracteristicas-y-manejo-en-el-cultivo-de-girasol/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22350
+[ANAPO] t= 482.7s | pag=200 | files= 111 | data=  8 | cola= 309 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22350
+[ANAPO] t= 483.4s | pag=200 | files= 111 | data=  8 | cola= 308 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-para-el-manejo-de-enfermedades-y-plagas-en-trigo-y-sorgo-con-bioinsumos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22353
+[ANAPO] t= 484.9s | pag=201 | files= 111 | data=  8 | cola= 308 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22353
+[ANAPO] t= 485.7s | pag=201 | files= 111 | data=  8 | cola= 307 | prio=25 | https://anapobolivia.org/pdfviewer/manejo-de-plagas-y-enfermedades-de-la-soya-con-bioinsumos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22356
+[ANAPO] t= 487.3s | pag=202 | files= 111 | data=  8 | cola= 307 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22356
+[ANAPO] t= 487.9s | pag=202 | files= 111 | data=  8 | cola= 306 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-para-evitar-perdidas-en-cosecha/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22359
+[ANAPO] t= 489.3s | pag=203 | files= 111 | data=  8 | cola= 306 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22359
+[ANAPO] t= 490.2s | pag=203 | files= 111 | data=  8 | cola= 305 | prio=25 | https://anapobolivia.org/pdfviewer/obligaciones-tributarias-de-los-productores-agropecuarios/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22120
+[ANAPO] t= 491.3s | pag=204 | files= 111 | data=  8 | cola= 305 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22120
+[ANAPO] t= 492.3s | pag=204 | files= 111 | data=  8 | cola= 304 | prio=25 | https://anapobolivia.org/pdfviewer/requisitos-para-obtener-la-tarjeta-de-control-de-la-anh/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22119
+[ANAPO] t= 493.9s | pag=205 | files= 111 | data=  8 | cola= 304 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22119
+[ANAPO] t= 494.9s | pag=205 | files= 111 | data=  8 | cola= 303 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2023/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22362
+[ANAPO] t= 496.1s | pag=206 | files= 111 | data=  8 | cola= 303 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22362
+[ANAPO] t= 496.6s | pag=206 | files= 111 | data=  8 | cola= 302 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-agrometeorologico-no-425-gadsc/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22457
+[ANAPO] t= 497.9s | pag=207 | files= 111 | data=  8 | cola= 302 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22457
+[ANAPO] t= 498.5s | pag=207 | files= 111 | data=  8 | cola= 301 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologigo-no-176-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22462
+[ANAPO] t= 499.6s | pag=208 | files= 111 | data=  8 | cola= 301 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22462
+[ANAPO] t= 500.3s | pag=208 | files= 111 | data=  8 | cola= 300 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-agrometeorologico-no-431-gadsc/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22919
+[ANAPO] t= 501.8s | pag=209 | files= 111 | data=  8 | cola= 300 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22919
+[ANAPO] t= 502.7s | pag=209 | files= 111 | data=  8 | cola= 299 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2024diciembre16/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22922
+[ANAPO] t= 504.3s | pag=210 | files= 111 | data=  8 | cola= 299 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22922
+[ANAPO] t= 505.0s | pag=210 | files= 111 | data=  8 | cola= 298 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologigo-no-183-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23042
+[ANAPO] t= 506.3s | pag=211 | files= 111 | data=  8 | cola= 298 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23042
+[ANAPO] t= 507.2s | pag=211 | files= 111 | data=  8 | cola= 297 | prio=25 | https://anapobolivia.org/pdfviewer/boletin-de-precios-y-mercados/
+[ANAPO] DATASETS=9 | exportable_data_page | https://anapobolivia.org/pdfviewer/boletin-de-precios-y-mercados/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23051
+[ANAPO] t= 508.5s | pag=212 | files= 111 | data=  9 | cola= 297 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23051
+[ANAPO] t= 509.2s | pag=212 | files= 111 | data=  9 | cola= 296 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2024diciembre23/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23072
+[ANAPO] t= 510.6s | pag=213 | files= 111 | data=  9 | cola= 296 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23072
+[ANAPO] t= 511.6s | pag=213 | files= 111 | data=  9 | cola= 295 | prio=25 | https://anapobolivia.org/pdfviewer/obligaciones-tributarias-de-productores-agropecuarios/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23088
+[ANAPO] t= 512.9s | pag=214 | files= 111 | data=  9 | cola= 295 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23088
+[ANAPO] t= 514.0s | pag=214 | files= 111 | data=  9 | cola= 294 | prio=25 | https://anapobolivia.org/pdfviewer/resolucion-normativa-de-directorio-no-102400000024-actualizacion-de-la-cuota-fija-por-hectarea-del-regimen-agropecuario-unificado-rau-gestion-2023/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23095
+[ANAPO] t= 515.1s | pag=215 | files= 111 | data=  9 | cola= 294 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23095
+[ANAPO] t= 515.7s | pag=215 | files= 111 | data=  9 | cola= 293 | prio=25 | https://anapobolivia.org/pdfviewer/requisitos-tramite-nit-rau-y-certificado-de-no-imponibilidad/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23100
+[ANAPO] t= 516.8s | pag=216 | files= 111 | data=  9 | cola= 293 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23100
+[ANAPO] t= 517.4s | pag=216 | files= 111 | data=  9 | cola= 292 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2024diciembre30/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23116
+[ANAPO] t= 518.6s | pag=217 | files= 111 | data=  9 | cola= 292 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23116
+[ANAPO] t= 519.4s | pag=217 | files= 111 | data=  9 | cola= 291 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2025-enero-6/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23178
+[ANAPO] t= 521.0s | pag=218 | files= 111 | data=  9 | cola= 291 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23178
+[ANAPO] t= 521.8s | pag=218 | files= 111 | data=  9 | cola= 290 | prio=25 | https://anapobolivia.org/pdfviewer/boletin-precios-y-mercados-13-01-25/
+[ANAPO] DATASETS=10 | exportable_data_page | https://anapobolivia.org/pdfviewer/boletin-precios-y-mercados-13-01-25/?auto_viewer=true
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23210
+[ANAPO] t= 522.9s | pag=219 | files= 111 | data= 10 | cola= 290 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23210
+[ANAPO] t= 524.0s | pag=219 | files= 111 | data= 10 | cola= 289 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologigo-no-186-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23215
+[ANAPO] t= 525.4s | pag=220 | files= 111 | data= 10 | cola= 289 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23215
+[ANAPO] t= 526.0s | pag=220 | files= 111 | data= 10 | cola= 288 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-188-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23236
+[ANAPO] t= 527.6s | pag=221 | files= 111 | data= 10 | cola= 288 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23236
+[ANAPO] t= 528.2s | pag=221 | files= 111 | data= 10 | cola= 287 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2025-enero-27/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23241
+[ANAPO] t= 529.3s | pag=222 | files= 111 | data= 10 | cola= 287 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23241
+[ANAPO] t= 530.0s | pag=222 | files= 111 | data= 10 | cola= 286 | prio=25 | https://anapobolivia.org/pdfviewer/exposoya-2025-impulsando-la-productividad-con-innovacion-tecnologica/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23263
+[ANAPO] t= 531.1s | pag=223 | files= 111 | data= 10 | cola= 286 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23263
+[ANAPO] t= 532.1s | pag=223 | files= 111 | data= 10 | cola= 285 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2024/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23370
+[ANAPO] t= 533.5s | pag=224 | files= 111 | data= 10 | cola= 285 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23370
+[ANAPO] t= 534.3s | pag=224 | files= 111 | data= 10 | cola= 284 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2025-marzo-24/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23377
+[ANAPO] t= 535.9s | pag=225 | files= 111 | data= 10 | cola= 284 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23377
+[ANAPO] t= 537.0s | pag=225 | files= 111 | data= 10 | cola= 283 | prio=25 | https://anapobolivia.org/pdfviewer/comercializacion-urea-de-liberacion-lenta-npk-20-08-15-y-npk-20-20-20/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23193
+[ANAPO] t= 538.6s | pag=226 | files= 111 | data= 10 | cola= 283 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23193
+[ANAPO] t= 539.2s | pag=226 | files= 111 | data= 10 | cola= 282 | prio=25 | https://anapobolivia.org/pdfviewer/comercializacion-urea-2/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23383
+[ANAPO] t= 540.8s | pag=227 | files= 111 | data= 10 | cola= 282 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23383
+[ANAPO] t= 541.7s | pag=227 | files= 111 | data= 10 | cola= 281 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-196-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23390
+[ANAPO] t= 542.8s | pag=228 | files= 111 | data= 10 | cola= 281 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23390
+[ANAPO] t= 543.5s | pag=228 | files= 111 | data= 10 | cola= 280 | prio=25 | https://anapobolivia.org/pdfviewer/mineti_2025-marzo-31/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23396
+[ANAPO] t= 544.6s | pag=229 | files= 111 | data= 10 | cola= 280 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23396
+[ANAPO] t= 545.5s | pag=229 | files= 111 | data= 10 | cola= 279 | prio=25 | https://anapobolivia.org/pdfviewer/comercializacion-urea-abril/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23401
+[ANAPO] t= 547.6s | pag=230 | files= 111 | data= 10 | cola= 279 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23401
+[ANAPO] t= 548.2s | pag=230 | files= 111 | data= 10 | cola= 278 | prio=25 | https://anapobolivia.org/pdfviewer/mineti-7-de-abril-de-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23420
+[ANAPO] t= 549.8s | pag=231 | files= 111 | data= 10 | cola= 278 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23420
+[ANAPO] t= 550.5s | pag=231 | files= 111 | data= 10 | cola= 277 | prio=25 | https://anapobolivia.org/pdfviewer/seleccionar-analisis-meteorologico-no-197-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23415
+[ANAPO] t= 551.6s | pag=232 | files= 111 | data= 10 | cola= 277 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23415
+[ANAPO] t= 552.7s | pag=232 | files= 111 | data= 10 | cola= 276 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-198-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23433
+[ANAPO] t= 554.4s | pag=233 | files= 111 | data= 10 | cola= 276 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23433
+[ANAPO] t= 555.4s | pag=233 | files= 111 | data= 10 | cola= 275 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-14-de-abril-de-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23439
+[ANAPO] t= 556.5s | pag=234 | files= 111 | data= 10 | cola= 275 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23439
+[ANAPO] t= 557.3s | pag=234 | files= 111 | data= 10 | cola= 274 | prio=25 | https://anapobolivia.org/pdfviewer/exposoya-2025-impulsando-una-produccion-sostenible-con-innovacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23444
+[ANAPO] t= 558.8s | pag=235 | files= 111 | data= 10 | cola= 274 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23444
+[ANAPO] t= 559.8s | pag=235 | files= 111 | data= 10 | cola= 273 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-199-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23486
+[ANAPO] t= 561.4s | pag=236 | files= 111 | data= 10 | cola= 273 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23486
+[ANAPO] t= 562.4s | pag=236 | files= 111 | data= 10 | cola= 272 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-21-de-abril-de-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23494
+[ANAPO] t= 563.5s | pag=237 | files= 111 | data= 10 | cola= 272 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23494
+[ANAPO] t= 564.3s | pag=237 | files= 111 | data= 10 | cola= 271 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-200-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23499
+[ANAPO] t= 565.5s | pag=238 | files= 111 | data= 10 | cola= 271 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23499
+[ANAPO] t= 566.5s | pag=238 | files= 111 | data= 10 | cola= 270 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-28-de-abril-de-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23504
+[ANAPO] t= 567.8s | pag=239 | files= 111 | data= 10 | cola= 270 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23504
+[ANAPO] t= 568.8s | pag=239 | files= 111 | data= 10 | cola= 269 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-201-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23556
+[ANAPO] t= 570.0s | pag=240 | files= 111 | data= 10 | cola= 269 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23556
+[ANAPO] t= 570.7s | pag=240 | files= 111 | data= 10 | cola= 268 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-05-de-mayo-de-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23558
+[ANAPO] t= 571.8s | pag=241 | files= 111 | data= 10 | cola= 268 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23558
+[ANAPO] t= 572.6s | pag=241 | files= 111 | data= 10 | cola= 267 | prio=25 | https://anapobolivia.org/pdfviewer/manual-de-recomendaciones-tecnicas-en-el-cultivo-de-trigo-2022/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22076
+[ANAPO] t= 573.8s | pag=242 | files= 111 | data= 10 | cola= 267 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22076
+[ANAPO] t= 574.9s | pag=242 | files= 111 | data= 10 | cola= 266 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-201-laas-2/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23632
+[ANAPO] t= 576.1s | pag=243 | files= 111 | data= 10 | cola= 266 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23632
+[ANAPO] t= 577.0s | pag=243 | files= 111 | data= 10 | cola= 265 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-12-de-mayo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23637
+[ANAPO] t= 578.2s | pag=244 | files= 111 | data= 10 | cola= 265 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23637
+[ANAPO] t= 578.8s | pag=244 | files= 111 | data= 10 | cola= 264 | prio=25 | https://anapobolivia.org/pdfviewer/precipitaciones-segun-minetti-mayo-12/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23735
+[ANAPO] t= 580.3s | pag=245 | files= 111 | data= 10 | cola= 264 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23735
+[ANAPO] t= 581.3s | pag=245 | files= 111 | data= 10 | cola= 263 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-203-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23743
+[ANAPO] t= 582.8s | pag=246 | files= 111 | data= 10 | cola= 263 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23743
+[ANAPO] t= 583.7s | pag=246 | files= 111 | data= 10 | cola= 262 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-19-de-mayo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23752
+[ANAPO] t= 584.9s | pag=247 | files= 111 | data= 10 | cola= 262 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23752
+[ANAPO] t= 585.6s | pag=247 | files= 111 | data= 10 | cola= 261 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-204-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23770
+[ANAPO] t= 587.0s | pag=248 | files= 111 | data= 10 | cola= 261 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23770
+[ANAPO] t= 587.9s | pag=248 | files= 111 | data= 10 | cola= 260 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-26-de-mayo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23775
+[ANAPO] t= 589.3s | pag=249 | files= 111 | data= 10 | cola= 260 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23775
+[ANAPO] t= 590.4s | pag=249 | files= 111 | data= 10 | cola= 259 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-205-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23795
+[ANAPO] t= 591.7s | pag=250 | files= 111 | data= 10 | cola= 259 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23795
+[ANAPO] t= 592.4s | pag=250 | files= 111 | data= 10 | cola= 258 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-02-de-junio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23800
+[ANAPO] t= 593.8s | pag=251 | files= 111 | data= 10 | cola= 258 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23800
+[ANAPO] t= 594.4s | pag=251 | files= 111 | data= 10 | cola= 257 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2024/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23854
+[ANAPO] t= 595.8s | pag=252 | files= 111 | data= 11 | cola= 257 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23854
+[ANAPO] t= 596.5s | pag=252 | files= 111 | data= 11 | cola= 256 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-206-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23868
+[ANAPO] t= 597.9s | pag=253 | files= 111 | data= 11 | cola= 256 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23868
+[ANAPO] t= 599.1s | pag=253 | files= 111 | data= 11 | cola= 255 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-09-de-junio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23882
+[ANAPO] t= 600.7s | pag=254 | files= 111 | data= 11 | cola= 255 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23882
+[ANAPO] t= 601.7s | pag=254 | files= 111 | data= 11 | cola= 254 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-16-de-junio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23907
+[ANAPO] t= 603.1s | pag=255 | files= 111 | data= 11 | cola= 254 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23907
+[ANAPO] t= 604.3s | pag=255 | files= 111 | data= 11 | cola= 253 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-207-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23915
+[ANAPO] t= 605.5s | pag=256 | files= 111 | data= 11 | cola= 253 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23915
+[ANAPO] t= 606.4s | pag=256 | files= 111 | data= 11 | cola= 252 | prio=25 | https://anapobolivia.org/pdfviewer/precipitaciones-segun-minetti-junio-16/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23920
+[ANAPO] t= 607.9s | pag=257 | files= 111 | data= 11 | cola= 252 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23920
+[ANAPO] t= 608.6s | pag=257 | files= 111 | data= 11 | cola= 251 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-208-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23934
+[ANAPO] t= 609.9s | pag=258 | files= 111 | data= 11 | cola= 251 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23934
+[ANAPO] t= 610.8s | pag=258 | files= 111 | data= 11 | cola= 250 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-23-de-junio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23936
+[ANAPO] t= 612.4s | pag=259 | files= 111 | data= 11 | cola= 250 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23936
+[ANAPO] t= 613.4s | pag=259 | files= 111 | data= 11 | cola= 249 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-209-laas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23975
+[ANAPO] t= 614.6s | pag=260 | files= 111 | data= 11 | cola= 249 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23975
+[ANAPO] t= 615.5s | pag=260 | files= 111 | data= 11 | cola= 248 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-30-de-junio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23980
+[ANAPO] t= 616.9s | pag=261 | files= 111 | data= 11 | cola= 248 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/23980
+[ANAPO] t= 617.9s | pag=261 | files= 111 | data= 11 | cola= 247 | prio=25 | https://anapobolivia.org/pdfviewer/analisis-meteorologico-no-209-laas-2/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24012
+[ANAPO] t= 619.3s | pag=262 | files= 111 | data= 11 | cola= 247 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24012
+[ANAPO] t= 620.5s | pag=262 | files= 111 | data= 11 | cola= 246 | prio=25 | https://anapobolivia.org/pdfviewer/minetti-07-de-julio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24017
+[ANAPO] t= 622.0s | pag=263 | files= 111 | data= 11 | cola= 246 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24017
+[ANAPO] t= 623.1s | pag=263 | files= 111 | data= 11 | cola= 245 | prio=25 | https://anapobolivia.org/pdfviewer/productores-piden-luz-verde-a-biotecnologia-para-producir-mas-alimentos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24122
+[ANAPO] t= 624.3s | pag=264 | files= 111 | data= 11 | cola= 245 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24122
+[ANAPO] t= 625.1s | pag=264 | files= 111 | data= 11 | cola= 244 | prio=25 | https://anapobolivia.org/pdfviewer/el-vi-congreso-marca-la-agenda-de-la-soya-con-innovacion-y-sostenibilidad/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24125
+[ANAPO] t= 626.3s | pag=265 | files= 111 | data= 11 | cola= 244 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24125
+[ANAPO] t= 627.4s | pag=265 | files= 111 | data= 11 | cola= 243 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-de-fertilizacion-para-los-distintos-cultivos-y-sistemas-de-produccion-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24128
+[ANAPO] t= 628.9s | pag=266 | files= 111 | data= 11 | cola= 243 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24128
+[ANAPO] t= 629.9s | pag=266 | files= 111 | data= 11 | cola= 242 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-meteorologico-semanal-221/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24175
+[ANAPO] t= 631.4s | pag=267 | files= 111 | data= 11 | cola= 242 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24175
+[ANAPO] t= 632.5s | pag=267 | files= 111 | data= 11 | cola= 241 | prio=25 | https://anapobolivia.org/pdfviewer/24229/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24229
+[ANAPO] t= 633.7s | pag=268 | files= 111 | data= 11 | cola= 241 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24229
+[ANAPO] t= 634.4s | pag=268 | files= 111 | data= 11 | cola= 240 | prio=25 | https://anapobolivia.org/pdfviewer/24183/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24183
+[ANAPO] t= 635.5s | pag=269 | files= 111 | data= 11 | cola= 240 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24183
+[ANAPO] t= 636.5s | pag=269 | files= 111 | data= 11 | cola= 239 | prio=25 | https://anapobolivia.org/pdfviewer/24246/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24246
+[ANAPO] t= 638.1s | pag=270 | files= 111 | data= 11 | cola= 239 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24246
+[ANAPO] t= 638.7s | pag=270 | files= 111 | data= 11 | cola= 238 | prio=25 | https://anapobolivia.org/pdfviewer/24277/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24277
+[ANAPO] t= 639.8s | pag=271 | files= 111 | data= 11 | cola= 238 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24277
+[ANAPO] t= 640.5s | pag=271 | files= 111 | data= 11 | cola= 237 | prio=25 | https://anapobolivia.org/pdfviewer/24298/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24298
+[ANAPO] t= 641.9s | pag=272 | files= 111 | data= 11 | cola= 237 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24298
+[ANAPO] t= 642.7s | pag=272 | files= 111 | data= 11 | cola= 236 | prio=25 | https://anapobolivia.org/pdfviewer/24326/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24326
+[ANAPO] t= 644.0s | pag=273 | files= 111 | data= 11 | cola= 236 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24326
+[ANAPO] t= 644.7s | pag=273 | files= 111 | data= 11 | cola= 235 | prio=25 | https://anapobolivia.org/pdfviewer/24339/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24339
+[ANAPO] t= 645.8s | pag=274 | files= 111 | data= 11 | cola= 235 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24339
+[ANAPO] t= 646.6s | pag=274 | files= 111 | data= 11 | cola= 234 | prio=25 | https://anapobolivia.org/pdfviewer/24351/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24351
+[ANAPO] t= 648.2s | pag=275 | files= 111 | data= 11 | cola= 234 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24351
+[ANAPO] t= 649.0s | pag=275 | files= 111 | data= 11 | cola= 233 | prio=25 | https://anapobolivia.org/pdfviewer/24369/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24369
+[ANAPO] t= 650.3s | pag=276 | files= 111 | data= 11 | cola= 233 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24369
+[ANAPO] t= 651.2s | pag=276 | files= 111 | data= 11 | cola= 232 | prio=25 | https://anapobolivia.org/pdfviewer/24371/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24371
+[ANAPO] t= 652.3s | pag=277 | files= 111 | data= 11 | cola= 232 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24371
+[ANAPO] t= 653.3s | pag=277 | files= 111 | data= 11 | cola= 231 | prio=25 | https://anapobolivia.org/pdfviewer/precipitacion-octubre-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24389
+[ANAPO] t= 654.6s | pag=278 | files= 111 | data= 11 | cola= 231 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24389
+[ANAPO] t= 655.3s | pag=278 | files= 111 | data= 11 | cola= 230 | prio=25 | https://anapobolivia.org/pdfviewer/24416/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24416
+[ANAPO] t= 656.4s | pag=279 | files= 111 | data= 11 | cola= 230 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24416
+[ANAPO] t= 657.1s | pag=279 | files= 111 | data= 11 | cola= 229 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-27-de-octubre/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24424
+[ANAPO] t= 658.1s | pag=280 | files= 111 | data= 11 | cola= 229 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24424
+[ANAPO] t= 658.8s | pag=280 | files= 111 | data= 11 | cola= 228 | prio=25 | https://anapobolivia.org/pdfviewer/24481/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24481
+[ANAPO] t= 660.7s | pag=281 | files= 111 | data= 11 | cola= 228 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24481
+[ANAPO] t= 661.3s | pag=281 | files= 111 | data= 11 | cola= 227 | prio=25 | https://anapobolivia.org/pdfviewer/reporte-senor-del-clima-no-228/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24500
+[ANAPO] t= 662.7s | pag=282 | files= 111 | data= 11 | cola= 227 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24500
+[ANAPO] t= 663.6s | pag=282 | files= 111 | data= 11 | cola= 226 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-meteorologico-minetti-10-de-noviembre/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24502
+[ANAPO] t= 665.1s | pag=283 | files= 111 | data= 11 | cola= 226 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24502
+[ANAPO] t= 666.2s | pag=283 | files= 111 | data= 11 | cola= 225 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-229/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24534
+[ANAPO] t= 667.4s | pag=284 | files= 111 | data= 11 | cola= 225 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24534
+[ANAPO] t= 668.3s | pag=284 | files= 111 | data= 11 | cola= 224 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-semanal-minetti-17-11/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24543
+[ANAPO] t= 669.8s | pag=285 | files= 111 | data= 11 | cola= 224 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24543
+[ANAPO] t= 670.9s | pag=285 | files= 111 | data= 11 | cola= 223 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-230/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24594
+[ANAPO] t= 672.0s | pag=286 | files= 111 | data= 11 | cola= 223 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24594
+[ANAPO] t= 673.1s | pag=286 | files= 111 | data= 11 | cola= 222 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-231/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24621
+[ANAPO] t= 674.5s | pag=287 | files= 111 | data= 11 | cola= 222 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24621
+[ANAPO] t= 675.5s | pag=287 | files= 111 | data= 11 | cola= 221 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-semanal-minetti-01-12/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24624
+[ANAPO] t= 676.9s | pag=288 | files= 111 | data= 11 | cola= 221 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24624
+[ANAPO] t= 677.9s | pag=288 | files= 111 | data= 11 | cola= 220 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-del-clima-dr-minetti-8-12/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24663
+[ANAPO] t= 679.2s | pag=289 | files= 111 | data= 11 | cola= 220 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24663
+[ANAPO] t= 679.9s | pag=289 | files= 111 | data= 11 | cola= 219 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-n232/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24652
+[ANAPO] t= 680.9s | pag=290 | files= 111 | data= 11 | cola= 219 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24652
+[ANAPO] t= 681.9s | pag=290 | files= 111 | data= 11 | cola= 218 | prio=25 | https://anapobolivia.org/pdfviewer/anapo-propone-una-agenda-de-cinco-puntos-urgentes-para-fortalecer-la-economia-y-la-soberania-alimentaria/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24680
+[ANAPO] t= 683.5s | pag=291 | files= 111 | data= 11 | cola= 218 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24680
+[ANAPO] t= 684.2s | pag=291 | files= 111 | data= 11 | cola= 217 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-236/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24690
+[ANAPO] t= 685.9s | pag=292 | files= 111 | data= 11 | cola= 217 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24690
+[ANAPO] t= 686.6s | pag=292 | files= 111 | data= 11 | cola= 216 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-5-de-enero-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24700
+[ANAPO] t= 687.9s | pag=293 | files= 111 | data= 11 | cola= 216 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24700
+[ANAPO] t= 688.7s | pag=293 | files= 111 | data= 11 | cola= 215 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-12-de-enero-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24724
+[ANAPO] t= 690.1s | pag=294 | files= 111 | data= 11 | cola= 215 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24724
+[ANAPO] t= 691.0s | pag=294 | files= 111 | data= 11 | cola= 214 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-19-de-enero-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24741
+[ANAPO] t= 692.2s | pag=295 | files= 111 | data= 11 | cola= 214 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24741
+[ANAPO] t= 693.1s | pag=295 | files= 111 | data= 11 | cola= 213 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-237/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24742
+[ANAPO] t= 694.5s | pag=296 | files= 111 | data= 11 | cola= 213 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24742
+[ANAPO] t= 695.4s | pag=296 | files= 111 | data= 11 | cola= 212 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-238/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24759
+[ANAPO] t= 696.7s | pag=297 | files= 111 | data= 11 | cola= 212 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24759
+[ANAPO] t= 697.4s | pag=297 | files= 111 | data= 11 | cola= 211 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-240/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24786
+[ANAPO] t= 698.9s | pag=298 | files= 111 | data= 11 | cola= 211 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24786
+[ANAPO] t= 700.0s | pag=298 | files= 111 | data= 11 | cola= 210 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-241/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24812
+[ANAPO] t= 701.5s | pag=299 | files= 111 | data= 11 | cola= 210 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24812
+[ANAPO] t= 702.5s | pag=299 | files= 111 | data= 11 | cola= 209 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-23-de-febrero-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24814
+[ANAPO] t= 703.9s | pag=300 | files= 111 | data= 11 | cola= 209 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24814
+[ANAPO] t= 704.9s | pag=300 | files= 111 | data= 11 | cola= 208 | prio=25 | https://anapobolivia.org/pdfviewer/precipitacion-febrero-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24816
+[ANAPO] t= 706.4s | pag=301 | files= 111 | data= 11 | cola= 208 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24816
+[ANAPO] t= 707.3s | pag=301 | files= 111 | data= 11 | cola= 207 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-242/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24821
+[ANAPO] t= 708.9s | pag=302 | files= 111 | data= 11 | cola= 207 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24821
+[ANAPO] t= 709.7s | pag=302 | files= 111 | data= 11 | cola= 206 | prio=25 | https://anapobolivia.org/pdfviewer/exposoya-innovacion-tecnologica-para-una-agricultura-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24823
+[ANAPO] t= 711.1s | pag=303 | files= 111 | data= 11 | cola= 206 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24823
+[ANAPO] t= 711.7s | pag=303 | files= 111 | data= 11 | cola= 205 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-16-de-marzo-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24848
+[ANAPO] t= 712.8s | pag=304 | files= 111 | data= 11 | cola= 205 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24848
+[ANAPO] t= 713.9s | pag=304 | files= 111 | data= 11 | cola= 204 | prio=25 | https://anapobolivia.org/pdfviewer/liberan-la-soya-hb4-e-inicia-el-camino-para-el-acceso-de-los-productores-a-la-biotecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24867
+[ANAPO] t= 715.1s | pag=305 | files= 111 | data= 11 | cola= 204 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24867
+[ANAPO] t= 716.2s | pag=305 | files= 111 | data= 11 | cola= 203 | prio=25 | https://anapobolivia.org/pdfviewer/memoria-anual-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24870
+[ANAPO] t= 717.6s | pag=306 | files= 111 | data= 11 | cola= 203 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24870
+[ANAPO] t= 718.1s | pag=306 | files= 111 | data= 11 | cola= 202 | prio=25 | https://anapobolivia.org/pdfviewer/estadisticas-2025/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24880
+[ANAPO] t= 719.3s | pag=307 | files= 111 | data= 12 | cola= 202 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24880
+[ANAPO] t= 720.3s | pag=307 | files= 111 | data= 12 | cola= 201 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-247/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24895
+[ANAPO] t= 721.7s | pag=308 | files= 111 | data= 12 | cola= 201 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24895
+[ANAPO] t= 722.3s | pag=308 | files= 111 | data= 12 | cola= 200 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-6-de-abril-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24898
+[ANAPO] t= 723.4s | pag=309 | files= 111 | data= 12 | cola= 200 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24898
+[ANAPO] t= 724.2s | pag=309 | files= 111 | data= 12 | cola= 199 | prio=25 | https://anapobolivia.org/pdfviewer/precipitacion-abril-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24900
+[ANAPO] t= 725.7s | pag=310 | files= 111 | data= 12 | cola= 199 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24900
+[ANAPO] t= 726.5s | pag=310 | files= 111 | data= 12 | cola= 198 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-13-de-abril-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24924
+[ANAPO] t= 728.0s | pag=311 | files= 111 | data= 12 | cola= 198 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24924
+[ANAPO] t= 728.9s | pag=311 | files= 111 | data= 12 | cola= 197 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-248/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24929
+[ANAPO] t= 730.5s | pag=312 | files= 111 | data= 12 | cola= 197 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24929
+[ANAPO] t= 731.6s | pag=312 | files= 111 | data= 12 | cola= 196 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-249/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24944
+[ANAPO] t= 733.0s | pag=313 | files= 111 | data= 12 | cola= 196 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24944
+[ANAPO] t= 734.0s | pag=313 | files= 111 | data= 12 | cola= 195 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-20-de-abril-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24946
+[ANAPO] t= 735.5s | pag=314 | files= 111 | data= 12 | cola= 195 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24946
+[ANAPO] t= 736.2s | pag=314 | files= 111 | data= 12 | cola= 194 | prio=25 | https://anapobolivia.org/pdfviewer/precipitacion-20-abril-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24948
+[ANAPO] t= 737.7s | pag=315 | files= 111 | data= 12 | cola= 194 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24948
+[ANAPO] t= 738.4s | pag=315 | files= 111 | data= 12 | cola= 193 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-251/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24966
+[ANAPO] t= 739.5s | pag=316 | files= 111 | data= 12 | cola= 193 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24966
+[ANAPO] t= 740.6s | pag=316 | files= 111 | data= 12 | cola= 192 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-04-de-mayo-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24968
+[ANAPO] t= 742.1s | pag=317 | files= 111 | data= 12 | cola= 192 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24968
+[ANAPO] t= 743.3s | pag=317 | files= 111 | data= 12 | cola= 191 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-252/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24983
+[ANAPO] t= 744.5s | pag=318 | files= 111 | data= 12 | cola= 191 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24983
+[ANAPO] t= 745.2s | pag=318 | files= 111 | data= 12 | cola= 190 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-11-de-mayo-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24985
+[ANAPO] t= 746.7s | pag=319 | files= 111 | data= 12 | cola= 190 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/24985
+[ANAPO] t= 747.4s | pag=319 | files= 111 | data= 12 | cola= 189 | prio=25 | https://anapobolivia.org/pdfviewer/recomendaciones-tecnicas-para-el-cultivo-de-soya-2024/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22319
+[ANAPO] t= 748.9s | pag=320 | files= 111 | data= 12 | cola= 189 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/22319
+[ANAPO] t= 750.0s | pag=320 | files= 111 | data= 12 | cola= 188 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-254/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25002
+[ANAPO] t= 751.3s | pag=321 | files= 111 | data= 12 | cola= 188 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25002
+[ANAPO] t= 752.4s | pag=321 | files= 111 | data= 12 | cola= 187 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-25-de-mayo-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25004
+[ANAPO] t= 753.5s | pag=322 | files= 111 | data= 12 | cola= 187 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25004
+[ANAPO] t= 754.7s | pag=322 | files= 111 | data= 12 | cola= 186 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-257/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25063
+[ANAPO] t= 755.8s | pag=323 | files= 111 | data= 12 | cola= 186 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25063
+[ANAPO] t= 756.4s | pag=323 | files= 111 | data= 12 | cola= 185 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-15-de-junio-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25069
+[ANAPO] t= 757.9s | pag=324 | files= 111 | data= 12 | cola= 185 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25069
+[ANAPO] t= 759.0s | pag=324 | files= 111 | data= 12 | cola= 184 | prio=25 | https://anapobolivia.org/pdfviewer/nuevo-directorio-2026-2027-asume-el-desafio-de-reactivar-el-pais-desde-el-campo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25080
+[ANAPO] t= 760.4s | pag=325 | files= 111 | data= 12 | cola= 184 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25080
+[ANAPO] t= 761.5s | pag=325 | files= 111 | data= 12 | cola= 183 | prio=25 | https://anapobolivia.org/pdfviewer/presentacion-dr-minetti-impacto-del-fenomeno-de-el-nino-en-la-agricultura-de-santa-cruz/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25103
+[ANAPO] t= 762.8s | pag=326 | files= 111 | data= 12 | cola= 183 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25103
+[ANAPO] t= 763.9s | pag=326 | files= 111 | data= 12 | cola= 182 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-13-de-julio-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25105
+[ANAPO] t= 765.1s | pag=327 | files= 111 | data= 12 | cola= 182 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25105
+[ANAPO] t= 765.9s | pag=327 | files= 111 | data= 12 | cola= 181 | prio=25 | https://anapobolivia.org/pdfviewer/el-senor-del-clima-no-261/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25110
+[ANAPO] t= 767.0s | pag=328 | files= 111 | data= 12 | cola= 181 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25110
+[ANAPO] t= 767.7s | pag=328 | files= 111 | data= 12 | cola= 180 | prio=25 | https://anapobolivia.org/pdfviewer/anapo-rechaza-el-ds-5676-se-castiga-al-productor-y-no-el-desvio-irregular-del-diesel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25155
+[ANAPO] t= 769.3s | pag=329 | files= 111 | data= 12 | cola= 180 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25155
+[ANAPO] t= 769.9s | pag=329 | files= 111 | data= 12 | cola= 179 | prio=25 | https://anapobolivia.org/pdfviewer/pronostico-minetti-24-de-agosto-de-2026/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25167
+[ANAPO] t= 771.2s | pag=330 | files= 111 | data= 12 | cola= 179 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25167
+[ANAPO] t= 772.4s | pag=330 | files= 111 | data= 12 | cola= 178 | prio=25 | https://anapobolivia.org/pdfviewer/programa-1er-congreso-internacional-de-agricultura-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25143
+[ANAPO] t= 773.5s | pag=331 | files= 111 | data= 12 | cola= 178 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/pdfviewer/25143
+[ANAPO] t= 774.6s | pag=331 | files= 111 | data= 12 | cola= 177 | prio=25 | https://anapobolivia.org/flipbook/
+[ANAPO] t= 775.8s | pag=332 | files= 111 | data= 12 | cola= 177 | prio=25 | https://anapobolivia.org/flipbook/boletin-139/
+[ANAPO] t= 776.9s | pag=333 | files= 111 | data= 12 | cola= 176 | prio=25 | https://anapobolivia.org/flipbook/boletin-138/
+[ANAPO] t= 778.1s | pag=334 | files= 111 | data= 12 | cola= 175 | prio=25 | https://anapobolivia.org/flipbook/boletin-137/
+[ANAPO] t= 779.1s | pag=335 | files= 111 | data= 12 | cola= 174 | prio=25 | https://anapobolivia.org/flipbook/boletin-136/
+[ANAPO] t= 779.9s | pag=336 | files= 111 | data= 12 | cola= 173 | prio=25 | https://anapobolivia.org/flipbook/boletin-135/
+[ANAPO] t= 780.6s | pag=337 | files= 111 | data= 12 | cola= 172 | prio=25 | https://anapobolivia.org/flipbook/boletin-134/
+[ANAPO] t= 781.8s | pag=338 | files= 111 | data= 12 | cola= 171 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2010/
+[ANAPO] t= 782.7s | pag=339 | files= 111 | data= 12 | cola= 170 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2011/
+[ANAPO] t= 783.9s | pag=340 | files= 111 | data= 12 | cola= 169 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2012/
+[ANAPO] t= 784.9s | pag=341 | files= 111 | data= 12 | cola= 168 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2013/
+[ANAPO] t= 785.6s | pag=342 | files= 111 | data= 12 | cola= 167 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2014/
+[ANAPO] t= 786.9s | pag=343 | files= 111 | data= 12 | cola= 166 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2015/
+[ANAPO] t= 788.2s | pag=344 | files= 111 | data= 12 | cola= 165 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2016/
+[ANAPO] t= 789.0s | pag=345 | files= 111 | data= 12 | cola= 164 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2017/
+[ANAPO] t= 789.8s | pag=346 | files= 111 | data= 12 | cola= 163 | prio=25 | https://anapobolivia.org/flipbook/pronostico-meteorologico-del-01-al-07-de-abril-2024/
+[ANAPO] t= 791.1s | pag=347 | files= 111 | data= 12 | cola= 162 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2020/
+[ANAPO] t= 791.9s | pag=348 | files= 111 | data= 12 | cola= 161 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2018/
+[ANAPO] t= 793.2s | pag=349 | files= 111 | data= 12 | cola= 160 | prio=25 | https://anapobolivia.org/flipbook/exposoya-30-anos-de-innovacion-y-tecnologia-para-el-agro/
+[ANAPO] t= 794.4s | pag=350 | files= 111 | data= 12 | cola= 159 | prio=25 | https://anapobolivia.org/flipbook/anapo-cierra-un-ano-clave-de-avance-hacia-la-biotecnologia-para-consolidar-la-sostenibilidad/
+[ANAPO] t= 795.6s | pag=351 | files= 111 | data= 12 | cola= 158 | prio=25 | https://anapobolivia.org/flipbook/hb4-urge-la-aprobacion-del-gobierno-para-acabar-con-el-deficit-de-trigo/
+[ANAPO] t= 796.7s | pag=352 | files= 111 | data= 12 | cola= 157 | prio=25 | https://anapobolivia.org/flipbook/v-congreso-de-la-soya-aporta-conocimiento-y-actualizacion-con-miras-a-una-produccion-sostenible/
+[ANAPO] t= 798.0s | pag=353 | files= 111 | data= 12 | cola= 156 | prio=25 | https://anapobolivia.org/flipbook/dia-nacional-del-girasol-promueve-el-uso-de-tecnologia-para-impulsar-su-produccion-sostenible/
+[ANAPO] t= 799.1s | pag=354 | files= 111 | data= 12 | cola= 155 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2022/
+[ANAPO] t= 800.3s | pag=355 | files= 111 | data= 12 | cola= 154 | prio=25 | https://anapobolivia.org/flipbook/recomendaciones-de-fertilizacion-para-los-distintos-cultivos-y-sistemas-de-produccion/
+[ANAPO] t= 801.6s | pag=356 | files= 111 | data= 12 | cola= 153 | prio=25 | https://anapobolivia.org/flipbook/manual-de-recomendaciones-tecnicas-en-el-cultivo-de-trigo-2022-2/
+[ANAPO] t= 802.7s | pag=357 | files= 111 | data= 12 | cola= 152 | prio=25 | https://anapobolivia.org/flipbook/recomendaciones-tecnicas-para-el-cultivo-del-girasol-2020-2/
+[ANAPO] t= 804.1s | pag=358 | files= 111 | data= 12 | cola= 151 | prio=25 | https://anapobolivia.org/flipbook/recomendaciones-tecnicas-para-el-cultivo-de-soya-2017/
+[ANAPO] t= 804.9s | pag=359 | files= 111 | data= 12 | cola= 150 | prio=25 | https://anapobolivia.org/flipbook/pronostico-meteorologico-del-22-al-28-de-julio-2024/
+[ANAPO] t= 805.9s | pag=360 | files= 111 | data= 12 | cola= 149 | prio=25 | https://anapobolivia.org/flipbook/manejo-del-suelo-en-el-cultivo-de-la-soya-copy/
+[ANAPO] t= 807.2s | pag=361 | files= 111 | data= 12 | cola= 148 | prio=25 | https://anapobolivia.org/flipbook/requisitos-para-obtener-la-tarjeta-de-control-de-la-anh/
+[ANAPO] t= 808.1s | pag=362 | files= 111 | data= 12 | cola= 147 | prio=25 | https://anapobolivia.org/flipbook/compra-de-diesel-en-surtidores-de-121-a-1-200-litros-copy/
+[ANAPO] t= 809.1s | pag=363 | files= 111 | data= 12 | cola= 146 | prio=25 | https://anapobolivia.org/flipbook/usos-de-equipos-de-aplicacion-copy/
+[ANAPO] t= 810.4s | pag=364 | files= 111 | data= 12 | cola= 145 | prio=25 | https://anapobolivia.org/flipbook/cosecha-de-soya-copy/
+[ANAPO] t= 811.4s | pag=365 | files= 111 | data= 12 | cola= 144 | prio=25 | https://anapobolivia.org/flipbook/gestion-de-residuos-y-contaminacion-de-aguas-copy/
+[ANAPO] t= 812.6s | pag=366 | files= 111 | data= 12 | cola= 143 | prio=25 | https://anapobolivia.org/flipbook/buenas-practicas-ambientales-en-agricultura-copy/
+[ANAPO] t= 813.7s | pag=367 | files= 111 | data= 12 | cola= 142 | prio=25 | https://anapobolivia.org/flipbook/tratamiento-de-semillas/
+[ANAPO] t= 814.6s | pag=368 | files= 111 | data= 12 | cola= 141 | prio=25 | https://anapobolivia.org/flipbook/manejo-del-suelo-en-el-cultivo-de-la-soya/
+[ANAPO] t= 815.3s | pag=369 | files= 111 | data= 12 | cola= 140 | prio=25 | https://anapobolivia.org/flipbook/variedades-en-el-cultivo-de-soya/
+[ANAPO] t= 816.3s | pag=370 | files= 111 | data= 12 | cola= 139 | prio=25 | https://anapobolivia.org/flipbook/enfermedades-del-cultivo-de-soya/
+[ANAPO] t= 817.6s | pag=371 | files= 111 | data= 12 | cola= 138 | prio=25 | https://anapobolivia.org/flipbook/plagas-en-el-cultivo-de-soya/
+[ANAPO] t= 818.4s | pag=372 | files= 111 | data= 12 | cola= 137 | prio=25 | https://anapobolivia.org/flipbook/recomendaciones-de-fertilizacion-para-los-distintos-cultivos-y-sistemas-de-produccion-copy/
+[ANAPO] t= 819.3s | pag=373 | files= 111 | data= 12 | cola= 136 | prio=25 | https://anapobolivia.org/flipbook/programa-de-produccion-de-alimentos-y-restitucion-de-bosques-copy/
+[ANAPO] t= 820.1s | pag=374 | files= 111 | data= 12 | cola= 135 | prio=25 | https://anapobolivia.org/flipbook/boletin-precios-agosto-2024/
+[ANAPO] t= 821.6s | pag=375 | files= 111 | data= 13 | cola= 134 | prio=25 | https://anapobolivia.org/flipbook/pronostico-gobernacion-agosto-09/
+[ANAPO] t= 823.0s | pag=376 | files= 111 | data= 13 | cola= 133 | prio=25 | https://anapobolivia.org/flipbook/pronostico-mimeti-agosto-12-al-18-de-2024/
+[ANAPO] t= 824.3s | pag=377 | files= 111 | data= 13 | cola= 132 | prio=25 | https://anapobolivia.org/flipbook/los-agroquimicos-y-semillas-cuanto-cuestan/
+[ANAPO] t= 825.5s | pag=378 | files= 111 | data= 13 | cola= 131 | prio=25 | https://anapobolivia.org/flipbook/chinches-en-el-cultivo-de-soya-copy/
+[ANAPO] t= 826.5s | pag=379 | files= 111 | data= 13 | cola= 130 | prio=25 | https://anapobolivia.org/flipbook/resistencia-de-malezas-a-glifosato-en-el-cultivo-de-soya/
+[ANAPO] t= 827.7s | pag=380 | files= 111 | data= 13 | cola= 129 | prio=25 | https://anapobolivia.org/flipbook/practicas-de-manejo-y-conservacion-de-suelos/
+[ANAPO] t= 828.9s | pag=381 | files= 111 | data= 13 | cola= 128 | prio=25 | https://anapobolivia.org/flipbook/estadisticas-2018/
+[ANAPO] t= 830.0s | pag=382 | files= 111 | data= 14 | cola= 127 | prio=25 | https://anapobolivia.org/flipbook/estadisticas-2019/
+[ANAPO] t= 830.8s | pag=383 | files= 111 | data= 15 | cola= 126 | prio=25 | https://anapobolivia.org/flipbook/estadisticas-2020/
+[ANAPO] t= 831.9s | pag=384 | files= 111 | data= 16 | cola= 125 | prio=25 | https://anapobolivia.org/flipbook/estadisticas-2021/
+[ANAPO] t= 832.9s | pag=385 | files= 111 | data= 17 | cola= 124 | prio=25 | https://anapobolivia.org/flipbook/librogranooroenlahistoria/
+[ANAPO] t= 834.2s | pag=386 | files= 111 | data= 17 | cola= 123 | prio=25 | https://anapobolivia.org/flipbook/pronostico-meteorologico-del-01-al-07-de-abril-2024-copy/
+[ANAPO] t= 835.5s | pag=387 | files= 111 | data= 18 | cola= 122 | prio=25 | https://anapobolivia.org/flipbook/chinches-en-el-cultivo-de-soya/
+[ANAPO] t= 836.7s | pag=388 | files= 111 | data= 18 | cola= 121 | prio=25 | https://anapobolivia.org/flipbook/resistencia-de-malezas-a-herbicidas-en-el-cultivo-de-soya/
+[ANAPO] t= 837.8s | pag=389 | files= 111 | data= 18 | cola= 120 | prio=25 | https://anapobolivia.org/flipbook/mosquita-del-capitulo-en-el-cultivo-de-girasol/
+[ANAPO] t= 838.7s | pag=390 | files= 111 | data= 18 | cola= 119 | prio=25 | https://anapobolivia.org/flipbook/tratamiento-de-semilla-en-el-cultivo-de-la-soya/
+[ANAPO] t= 839.7s | pag=391 | files= 111 | data= 18 | cola= 118 | prio=25 | https://anapobolivia.org/flipbook/tratamiento-de-semilla-en-el-cultivo-de-trigo/
+[ANAPO] t= 840.9s | pag=392 | files= 111 | data= 18 | cola= 117 | prio=25 | https://anapobolivia.org/flipbook/comercializacion-potasio-agosto-2024/
+[ANAPO] t= 842.4s | pag=393 | files= 111 | data= 18 | cola= 116 | prio=25 | https://anapobolivia.org/flipbook/estadisticas-2022/
+[ANAPO] t= 843.5s | pag=394 | files= 111 | data= 19 | cola= 115 | prio=25 | https://anapobolivia.org/flipbook/estadisticas-2023/
+[ANAPO] t= 844.5s | pag=395 | files= 111 | data= 20 | cola= 114 | prio=25 | https://anapobolivia.org/flipbook/productores-piden-biotecnologia-para-incrementar-la-produccion-y-la-exportacion/
+[ANAPO] t= 845.2s | pag=396 | files= 111 | data= 20 | cola= 113 | prio=25 | https://anapobolivia.org/flipbook/comercializacion-urea-agosto-2024/
+[ANAPO] t= 846.2s | pag=397 | files= 111 | data= 20 | cola= 112 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2019/
+[ANAPO] t= 847.1s | pag=398 | files= 111 | data= 20 | cola= 111 | prio=25 | https://anapobolivia.org/flipbook/memoria-institucional-2021/
+[ANAPO] t= 848.1s | pag=399 | files= 111 | data= 20 | cola= 110 | prio=25 | https://anapobolivia.org/category/biotecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/50
+[ANAPO] t= 849.7s | pag=400 | files= 111 | data= 20 | cola= 111 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/50
+[ANAPO] t= 850.3s | pag=400 | files= 111 | data= 20 | cola= 110 | prio=25 | https://anapobolivia.org/category/capacitaciones/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/88
+[ANAPO] t= 851.7s | pag=401 | files= 111 | data= 20 | cola= 110 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/88
+[ANAPO] t= 852.6s | pag=401 | files= 111 | data= 20 | cola= 109 | prio=25 | https://anapobolivia.org/category/directorio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/78
+[ANAPO] t= 853.8s | pag=402 | files= 111 | data= 20 | cola= 109 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/78
+[ANAPO] t= 854.8s | pag=402 | files= 111 | data= 20 | cola= 108 | prio=25 | https://anapobolivia.org/category/eventos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/85
+[ANAPO] t= 856.3s | pag=403 | files= 111 | data= 20 | cola= 111 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/85
+[ANAPO] t= 857.3s | pag=403 | files= 111 | data= 20 | cola= 110 | prio=25 | https://anapobolivia.org/category/novedades/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/91
+[ANAPO] t= 858.7s | pag=404 | files= 111 | data= 20 | cola= 114 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/91
+[ANAPO] t= 859.4s | pag=404 | files= 111 | data= 20 | cola= 113 | prio=25 | https://anapobolivia.org/category/sin-categoria/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/1
+[ANAPO] t= 860.7s | pag=405 | files= 111 | data= 20 | cola= 113 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/1
+[ANAPO] t= 861.7s | pag=405 | files= 111 | data= 20 | cola= 112 | prio=25 | https://anapobolivia.org/category/slides/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categories/84
+[ANAPO] t= 863.3s | pag=406 | files= 111 | data= 20 | cola= 112 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categories/84
+[ANAPO] t= 863.9s | pag=406 | files= 111 | data= 20 | cola= 111 | prio=25 | https://anapobolivia.org/tag/agricultura/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/95
+[ANAPO] t= 865.4s | pag=407 | files= 111 | data= 20 | cola= 111 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/95
+[ANAPO] t= 866.3s | pag=407 | files= 111 | data= 20 | cola= 110 | prio=25 | https://anapobolivia.org/tag/agricultura-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/142
+[ANAPO] t= 867.8s | pag=408 | files= 111 | data= 20 | cola= 110 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/142
+[ANAPO] t= 868.4s | pag=408 | files= 111 | data= 20 | cola= 109 | prio=25 | https://anapobolivia.org/tag/alarma/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/154
+[ANAPO] t= 870.0s | pag=409 | files= 111 | data= 20 | cola= 109 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/154
+[ANAPO] t= 871.1s | pag=409 | files= 111 | data= 20 | cola= 108 | prio=25 | https://anapobolivia.org/tag/anapo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/138
+[ANAPO] t= 872.4s | pag=410 | files= 111 | data= 20 | cola= 108 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/138
+[ANAPO] t= 873.3s | pag=410 | files= 111 | data= 20 | cola= 107 | prio=25 | https://anapobolivia.org/tag/asamblea/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/135
+[ANAPO] t= 874.5s | pag=411 | files= 111 | data= 20 | cola= 107 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/135
+[ANAPO] t= 875.7s | pag=411 | files= 111 | data= 20 | cola= 106 | prio=25 | https://anapobolivia.org/tag/avasallamiento/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/112
+[ANAPO] t= 876.9s | pag=412 | files= 111 | data= 20 | cola= 106 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/112
+[ANAPO] t= 877.7s | pag=412 | files= 111 | data= 20 | cola= 105 | prio=25 | https://anapobolivia.org/tag/biotecnologia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/114
+[ANAPO] t= 878.9s | pag=413 | files= 111 | data= 21 | cola= 105 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/114
+[ANAPO] t= 879.5s | pag=413 | files= 111 | data= 21 | cola= 104 | prio=25 | https://anapobolivia.org/tag/candidatos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/116
+[ANAPO] t= 880.9s | pag=414 | files= 111 | data= 22 | cola= 104 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/116
+[ANAPO] t= 881.8s | pag=414 | files= 111 | data= 22 | cola= 103 | prio=25 | https://anapobolivia.org/tag/congreso/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/111
+[ANAPO] t= 883.2s | pag=415 | files= 111 | data= 22 | cola= 103 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/111
+[ANAPO] t= 884.1s | pag=415 | files= 111 | data= 22 | cola= 102 | prio=25 | https://anapobolivia.org/tag/congreso-internacional-de-la-soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/121
+[ANAPO] t= 885.1s | pag=416 | files= 111 | data= 22 | cola= 102 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/121
+[ANAPO] t= 886.1s | pag=416 | files= 111 | data= 22 | cola= 101 | prio=25 | https://anapobolivia.org/tag/conversion-de-tierras/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/147
+[ANAPO] t= 887.4s | pag=417 | files= 111 | data= 22 | cola= 101 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/147
+[ANAPO] t= 888.4s | pag=417 | files= 111 | data= 22 | cola= 100 | prio=25 | https://anapobolivia.org/tag/cosecha/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/149
+[ANAPO] t= 889.8s | pag=418 | files= 111 | data= 22 | cola= 100 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/149
+[ANAPO] t= 890.9s | pag=418 | files= 111 | data= 22 | cola=  99 | prio=25 | https://anapobolivia.org/tag/cultivos-afectados/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/134
+[ANAPO] t= 892.1s | pag=419 | files= 111 | data= 22 | cola=  99 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/134
+[ANAPO] t= 893.2s | pag=419 | files= 111 | data= 22 | cola=  98 | prio=25 | https://anapobolivia.org/tag/denuncia/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/125
+[ANAPO] t= 895.1s | pag=420 | files= 111 | data= 22 | cola=  98 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/125
+[ANAPO] t= 895.8s | pag=420 | files= 111 | data= 22 | cola=  97 | prio=25 | https://anapobolivia.org/tag/desabastecimiento/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/155
+[ANAPO] t= 897.0s | pag=421 | files= 111 | data= 22 | cola=  97 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/155
+[ANAPO] t= 898.1s | pag=421 | files= 111 | data= 22 | cola=  96 | prio=25 | https://anapobolivia.org/tag/diesel-2/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/148
+[ANAPO] t= 899.3s | pag=422 | files= 111 | data= 22 | cola=  96 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/148
+[ANAPO] t= 900.4s | pag=422 | files= 111 | data= 22 | cola=  95 | prio=25 | https://anapobolivia.org/tag/directiva/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/136
+[ANAPO] t= 901.8s | pag=423 | files= 111 | data= 22 | cola=  95 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/136
+[ANAPO] t= 902.4s | pag=423 | files= 111 | data= 22 | cola=  94 | prio=25 | https://anapobolivia.org/tag/directorio/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/150
+[ANAPO] t= 903.7s | pag=424 | files= 111 | data= 22 | cola=  94 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/150
+[ANAPO] t= 904.6s | pag=424 | files= 111 | data= 22 | cola=  93 | prio=25 | https://anapobolivia.org/tag/dnas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/119
+[ANAPO] t= 906.0s | pag=425 | files= 111 | data= 22 | cola=  93 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/119
+[ANAPO] t= 907.1s | pag=425 | files= 111 | data= 22 | cola=  92 | prio=25 | https://anapobolivia.org/tag/dng/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/108
+[ANAPO] t= 908.7s | pag=426 | files= 111 | data= 22 | cola=  92 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/108
+[ANAPO] t= 909.8s | pag=426 | files= 111 | data= 22 | cola=  91 | prio=25 | https://anapobolivia.org/tag/dnt/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/109
+[ANAPO] t= 911.4s | pag=427 | files= 111 | data= 22 | cola=  91 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/109
+[ANAPO] t= 912.3s | pag=427 | files= 111 | data= 22 | cola=  90 | prio=25 | https://anapobolivia.org/tag/ds-5676/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/157
+[ANAPO] t= 913.7s | pag=428 | files= 111 | data= 22 | cola=  90 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/157
+[ANAPO] t= 914.6s | pag=428 | files= 111 | data= 22 | cola=  89 | prio=25 | https://anapobolivia.org/tag/exportacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/144
+[ANAPO] t= 915.9s | pag=429 | files= 111 | data= 22 | cola=  89 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/144
+[ANAPO] t= 917.1s | pag=429 | files= 111 | data= 22 | cola=  88 | prio=25 | https://anapobolivia.org/tag/exportaciones/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/127
+[ANAPO] t= 918.2s | pag=430 | files= 111 | data= 22 | cola=  88 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/127
+[ANAPO] t= 919.3s | pag=430 | files= 111 | data= 22 | cola=  87 | prio=25 | https://anapobolivia.org/tag/exposoya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/97
+[ANAPO] t= 920.6s | pag=431 | files= 111 | data= 22 | cola=  87 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/97
+[ANAPO] t= 921.5s | pag=431 | files= 111 | data= 22 | cola=  86 | prio=25 | https://anapobolivia.org/tag/exposoya-del-norte/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/122
+[ANAPO] t= 922.9s | pag=432 | files= 111 | data= 22 | cola=  86 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/122
+[ANAPO] t= 923.6s | pag=432 | files= 111 | data= 22 | cola=  85 | prio=25 | https://anapobolivia.org/tag/foro-agropecuario/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/113
+[ANAPO] t= 925.2s | pag=433 | files= 111 | data= 23 | cola=  85 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/113
+[ANAPO] t= 926.1s | pag=433 | files= 111 | data= 23 | cola=  84 | prio=25 | https://anapobolivia.org/tag/genesis/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/153
+[ANAPO] t= 927.2s | pag=434 | files= 111 | data= 23 | cola=  84 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/153
+[ANAPO] t= 928.0s | pag=434 | files= 111 | data= 23 | cola=  83 | prio=25 | https://anapobolivia.org/tag/girasol/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/107
+[ANAPO] t= 929.3s | pag=435 | files= 111 | data= 23 | cola=  83 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/107
+[ANAPO] t= 930.5s | pag=435 | files= 111 | data= 23 | cola=  82 | prio=25 | https://anapobolivia.org/tag/grano-de-oro/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/151
+[ANAPO] t= 932.0s | pag=436 | files= 111 | data= 23 | cola=  82 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/151
+[ANAPO] t= 932.7s | pag=436 | files= 111 | data= 23 | cola=  81 | prio=25 | https://anapobolivia.org/tag/hb4/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/132
+[ANAPO] t= 933.9s | pag=437 | files= 111 | data= 23 | cola=  81 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/132
+[ANAPO] t= 934.8s | pag=437 | files= 111 | data= 23 | cola=  80 | prio=25 | https://anapobolivia.org/tag/importacion/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/131
+[ANAPO] t= 936.3s | pag=438 | files= 111 | data= 23 | cola=  80 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/131
+[ANAPO] t= 937.3s | pag=438 | files= 111 | data= 23 | cola=  79 | prio=25 | https://anapobolivia.org/tag/informe/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/126
+[ANAPO] t= 938.5s | pag=439 | files= 111 | data= 23 | cola=  79 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/126
+[ANAPO] t= 939.7s | pag=439 | files= 111 | data= 23 | cola=  78 | prio=25 | https://anapobolivia.org/tag/ley-157/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/137
+[ANAPO] t= 940.9s | pag=440 | files= 111 | data= 23 | cola=  78 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/137
+[ANAPO] t= 941.5s | pag=440 | files= 111 | data= 23 | cola=  77 | prio=25 | https://anapobolivia.org/tag/ley-1720/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/146
+[ANAPO] t= 942.7s | pag=441 | files= 111 | data= 23 | cola=  77 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/146
+[ANAPO] t= 943.6s | pag=441 | files= 111 | data= 23 | cola=  76 | prio=25 | https://anapobolivia.org/tag/liberacion-de-exportaciones/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/128
+[ANAPO] t= 944.7s | pag=442 | files= 111 | data= 23 | cola=  76 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/128
+[ANAPO] t= 945.5s | pag=442 | files= 111 | data= 23 | cola=  75 | prio=25 | https://anapobolivia.org/tag/lluvias/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/133
+[ANAPO] t= 946.6s | pag=443 | files= 111 | data= 23 | cola=  75 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/133
+[ANAPO] t= 947.2s | pag=443 | files= 111 | data= 23 | cola=  74 | prio=25 | https://anapobolivia.org/tag/norte/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/98
+[ANAPO] t= 948.5s | pag=444 | files= 111 | data= 23 | cola=  74 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/98
+[ANAPO] t= 949.6s | pag=444 | files= 111 | data= 23 | cola=  73 | prio=25 | https://anapobolivia.org/tag/nutricion-balanceada/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/141
+[ANAPO] t= 951.1s | pag=445 | files= 111 | data= 23 | cola=  73 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/141
+[ANAPO] t= 952.1s | pag=445 | files= 111 | data= 23 | cola=  72 | prio=25 | https://anapobolivia.org/tag/pequenos-productores/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/145
+[ANAPO] t= 953.5s | pag=446 | files= 111 | data= 23 | cola=  72 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/145
+[ANAPO] t= 954.4s | pag=446 | files= 111 | data= 23 | cola=  71 | prio=25 | https://anapobolivia.org/tag/pequenos-productres/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/139
+[ANAPO] t= 955.6s | pag=447 | files= 111 | data= 23 | cola=  71 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/139
+[ANAPO] t= 956.7s | pag=447 | files= 111 | data= 23 | cola=  70 | prio=25 | https://anapobolivia.org/tag/produccion-sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/130
+[ANAPO] t= 957.9s | pag=448 | files= 111 | data= 23 | cola=  70 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/130
+[ANAPO] t= 958.6s | pag=448 | files= 111 | data= 23 | cola=  69 | prio=25 | https://anapobolivia.org/tag/programa-de-nutricion-de-cultivos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/140
+[ANAPO] t= 960.0s | pag=449 | files= 111 | data= 23 | cola=  69 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/140
+[ANAPO] t= 961.2s | pag=449 | files= 111 | data= 23 | cola=  68 | prio=25 | https://anapobolivia.org/tag/puerto-busch/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/143
+[ANAPO] t= 962.7s | pag=450 | files= 111 | data= 23 | cola=  68 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/143
+[ANAPO] t= 963.5s | pag=450 | files= 111 | data= 23 | cola=  67 | prio=25 | https://anapobolivia.org/tag/santa-rita/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/152
+[ANAPO] t= 965.1s | pag=451 | files= 111 | data= 23 | cola=  67 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/152
+[ANAPO] t= 966.0s | pag=451 | files= 111 | data= 23 | cola=  66 | prio=25 | https://anapobolivia.org/tag/seguridad-juridica/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/115
+[ANAPO] t= 967.2s | pag=452 | files= 111 | data= 24 | cola=  66 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/115
+[ANAPO] t= 967.8s | pag=452 | files= 111 | data= 24 | cola=  65 | prio=25 | https://anapobolivia.org/tag/sorgo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/110
+[ANAPO] t= 969.2s | pag=453 | files= 111 | data= 24 | cola=  65 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/110
+[ANAPO] t= 969.8s | pag=453 | files= 111 | data= 24 | cola=  64 | prio=25 | https://anapobolivia.org/tag/sostenible/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/96
+[ANAPO] t= 971.0s | pag=454 | files= 111 | data= 24 | cola=  64 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/96
+[ANAPO] t= 972.1s | pag=454 | files= 111 | data= 24 | cola=  63 | prio=25 | https://anapobolivia.org/tag/soya/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/61
+[ANAPO] t= 973.8s | pag=455 | files= 111 | data= 24 | cola=  63 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/61
+[ANAPO] t= 974.8s | pag=455 | files= 111 | data= 24 | cola=  62 | prio=25 | https://anapobolivia.org/tag/trigo/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/tags/120
+[ANAPO] t= 975.9s | pag=456 | files= 111 | data= 24 | cola=  62 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/tags/120
+[ANAPO] t= 976.8s | pag=456 | files= 111 | data= 24 | cola=  61 | prio=25 | https://anapobolivia.org/categoria/anapo-noticias/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/102
+[ANAPO] t= 978.2s | pag=457 | files= 111 | data= 24 | cola=  62 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/102
+[ANAPO] t= 979.2s | pag=457 | files= 111 | data= 24 | cola=  61 | prio=25 | https://anapobolivia.org/categoria/cartillas-informativas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/104
+[ANAPO] t= 981.2s | pag=458 | files= 111 | data= 24 | cola=  62 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/104
+[ANAPO] t= 982.1s | pag=458 | files= 111 | data= 24 | cola=  61 | prio=25 | https://anapobolivia.org/categoria/estadisticas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/106
+[ANAPO] t= 983.4s | pag=459 | files= 111 | data= 24 | cola=  61 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/106
+[ANAPO] t= 984.5s | pag=459 | files= 111 | data= 24 | cola=  60 | prio=25 | https://anapobolivia.org/categoria/hojas-divulgativas/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/103
+[ANAPO] t= 985.6s | pag=460 | files= 111 | data= 24 | cola=  61 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/103
+[ANAPO] t= 986.7s | pag=460 | files= 111 | data= 24 | cola=  60 | prio=25 | https://anapobolivia.org/categoria/manuales-tecnicos/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/99
+[ANAPO] t= 988.2s | pag=461 | files= 111 | data= 24 | cola=  60 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/99
+[ANAPO] t= 989.2s | pag=461 | files= 111 | data= 24 | cola=  59 | prio=25 | https://anapobolivia.org/categoria/memorias-anuales/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/105
+[ANAPO] t= 990.4s | pag=462 | files= 111 | data= 24 | cola=  60 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/105
+[ANAPO] t= 991.1s | pag=462 | files= 111 | data= 24 | cola=  59 | prio=25 | https://anapobolivia.org/categoria/pronostico-del-clima/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/categoria/124
+[ANAPO] t= 992.4s | pag=463 | files= 111 | data= 24 | cola=  60 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/categoria/124
+[ANAPO] t= 993.1s | pag=463 | files= 111 | data= 24 | cola=  59 | prio=25 | https://anapobolivia.org/r3d_category/anapo-noticias/
+[ANAPO] t= 994.6s | pag=464 | files= 111 | data= 24 | cola=  58 | prio=25 | https://anapobolivia.org/r3d_category/boletin/
+[ANAPO] t= 996.1s | pag=465 | files= 111 | data= 24 | cola=  57 | prio=25 | https://anapobolivia.org/r3d_category/cartillas-informativas/
+[ANAPO] t= 997.1s | pag=466 | files= 111 | data= 24 | cola=  56 | prio=25 | https://anapobolivia.org/r3d_category/estadisticas/
+[ANAPO] DATASETS=25 | exportable_data_page | https://anapobolivia.org/r3d_category/estadisticas/
+[ANAPO] t= 998.3s | pag=467 | files= 111 | data= 25 | cola=  55 | prio=25 | https://anapobolivia.org/r3d_category/hojas-divulgativas/
+[ANAPO] t= 999.6s | pag=468 | files= 111 | data= 25 | cola=  54 | prio=25 | https://anapobolivia.org/r3d_category/manuales-tecnicos/
+[ANAPO] t=1000.6s | pag=469 | files= 111 | data= 25 | cola=  53 | prio=25 | https://anapobolivia.org/r3d_category/memoria-institucional/
+[ANAPO] t=1001.7s | pag=470 | files= 111 | data= 25 | cola=  52 | prio=25 | https://anapobolivia.org/r3d_category/pronosticos-meteorologicos/
+[ANAPO] t=1002.8s | pag=471 | files= 111 | data= 25 | cola=  51 | prio=25 | https://anapobolivia.org/author/admin/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/users/2
+[ANAPO] t=1004.3s | pag=472 | files= 111 | data= 26 | cola=  52 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/users/2
+[ANAPO] t=1005.2s | pag=472 | files= 111 | data= 26 | cola=  51 | prio=25 | https://anapobolivia.org/author/arel/
+[ANAPO] API REFERENCIA | html_link_reference | https://anapobolivia.org/wp-json/wp/v2/users/3
+[ANAPO] t=1006.5s | pag=473 | files= 111 | data= 27 | cola=  51 | prio= 1 | https://anapobolivia.org/wp-json/wp/v2/users/3
+[ANAPO] t=1007.3s | pag=473 | files= 111 | data= 27 | cola=  50 | prio=50 | https://anapobolivia.org/nuevo/capacitaciones
+[ANAPO] t=1009.1s | pag=473 | files= 111 | data= 27 | cola=  49 | prio=50 | https://anapobolivia.org/afiliacion/
+[ANAPO] t=1011.3s | pag=473 | files= 111 | data= 27 | cola=  48 | prio=50 | https://anapobolivia.org/quiero-afiliarme//
+[ANAPO] t=1013.2s | pag=473 | files= 111 | data= 27 | cola=  47 | prio=50 | https://anapobolivia.org/nuevo/clima/
+[ANAPO] t=1015.2s | pag=473 | files= 111 | data= 27 | cola=  46 | prio=50 | https://anapobolivia.org/nuevo/manuales-tecnicos/
+[ANAPO] t=1017.5s | pag=473 | files= 111 | data= 27 | cola=  45 | prio=50 | https://anapobolivia.org/nuevo/hojas-divulgativas/
+[ANAPO] t=1019.4s | pag=473 | files= 111 | data= 27 | cola=  44 | prio=50 | https://anapobolivia.org/nuevo/normativas/
+[ANAPO] t=1021.2s | pag=473 | files= 111 | data= 27 | cola=  43 | prio=50 | https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-soya/
+[ANAPO] t=1022.7s | pag=473 | files= 111 | data= 27 | cola=  42 | prio=50 | https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-trigo/
+[ANAPO] t=1024.5s | pag=473 | files= 111 | data= 27 | cola=  41 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/trigo_triunfo/?auto_viewer=true
+[ANAPO] t=1026.4s | pag=473 | files= 111 | data= 27 | cola=  40 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/trigo_sossego/?auto_viewer=true
+[ANAPO] t=1028.1s | pag=473 | files= 111 | data= 27 | cola=  39 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/trigo_amplitud/?auto_viewer=true
+[ANAPO] t=1029.7s | pag=473 | files= 111 | data= 27 | cola=  38 | prio=50 | https://anapobolivia.org/nuevo/afiliacion-persona-natural/
+[ANAPO] t=1031.7s | pag=473 | files= 111 | data= 27 | cola=  37 | prio=50 | https://anapobolivia.org/nuevo/afiliacion-persona-juridica/
+[ANAPO] t=1033.8s | pag=473 | files= 111 | data= 27 | cola=  36 | prio=50 | https://anapobolivia.org/cartillas-informativas/2/
+[ANAPO] t=1035.6s | pag=474 | files= 111 | data= 27 | cola=  35 | prio=50 | https://anapobolivia.org/cartillas-informativas/3/
+[ANAPO] t=1036.8s | pag=475 | files= 111 | data= 27 | cola=  34 | prio=50 | https://anapobolivia.org/cartillas-informativas/4/
+[ANAPO] t=1038.3s | pag=476 | files= 111 | data= 27 | cola=  33 | prio=50 | https://anapobolivia.org/cartillas-informativas/5/
+[ANAPO] t=1039.8s | pag=477 | files= 111 | data= 27 | cola=  32 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/obligaciones-tributarias-de-productores-agropecuarios/
+[ANAPO] t=1041.2s | pag=477 | files= 111 | data= 27 | cola=  31 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/requisitos-tramite-nit-rau-y-certificado-de-no-imponibilidad/
+[ANAPO] t=1042.7s | pag=477 | files= 111 | data= 27 | cola=  30 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr19/?auto_viewer=true
+[ANAPO] t=1044.3s | pag=477 | files= 111 | data= 27 | cola=  29 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr49/?auto_viewer=true
+[ANAPO] t=1046.2s | pag=477 | files= 111 | data= 27 | cola=  28 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr82/?auto_viewer=true
+[ANAPO] t=1047.8s | pag=477 | files= 111 | data= 27 | cola=  27 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojaparr75/?auto_viewer=true
+[ANAPO] t=1049.7s | pag=477 | files= 111 | data= 27 | cola=  26 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojalb233/?auto_viewer=true
+[ANAPO] t=1051.2s | pag=477 | files= 111 | data= 27 | cola=  25 | prio=50 | https://anapobolivia.org/nuevo/pdfviewer/sojamunasqa/?auto_viewer=true
+[ANAPO] t=1052.8s | pag=477 | files= 111 | data= 27 | cola=  24 | prio=50 | https://anapobolivia.org/nuevo/expresidentes/
+[ANAPO] t=1055.0s | pag=477 | files= 111 | data= 27 | cola=  23 | prio=50 | https://anapobolivia.org/nuevo/personal-anapo/
+[ANAPO] t=1057.2s | pag=477 | files= 111 | data= 27 | cola=  22 | prio=50 | https://anapobolivia.org/nuevo/filiales/
+[ANAPO] t=1059.0s | pag=477 | files= 111 | data= 27 | cola=  21 | prio=50 | https://anapobolivia.org/nuevo/receta/
+[ANAPO] t=1061.2s | pag=477 | files= 111 | data= 27 | cola=  19 | prio=50 | https://anapobolivia.org/pdfviewer/page/2/
+[ANAPO] t=1063.1s | pag=478 | files= 111 | data= 27 | cola=  19 | prio=50 | https://anapobolivia.org/flipbook/page/2/
+[ANAPO] t=1064.2s | pag=479 | files= 111 | data= 27 | cola=  19 | prio=50 | https://anapobolivia.org/novedades/
+[ANAPO] t=1065.6s | pag=479 | files= 111 | data= 27 | cola=  18 | prio=50 | https://anapobolivia.org/category/novedades/page/2/
+[ANAPO] t=1067.7s | pag=480 | files= 111 | data= 27 | cola=  17 | prio=50 | https://anapobolivia.org/category/novedades/page/3/
+[ANAPO] t=1068.8s | pag=481 | files= 111 | data= 27 | cola=  16 | prio=50 | https://anapobolivia.org/category/novedades/page/4/
+[ANAPO] t=1070.2s | pag=482 | files= 111 | data= 27 | cola=  15 | prio=50 | https://anapobolivia.org/category/novedades/page/5/
+[ANAPO] t=1071.5s | pag=483 | files= 111 | data= 27 | cola=  14 | prio=50 | https://anapobolivia.org/categoria/cartillas-informativas/page/2/
+[ANAPO] t=1072.7s | pag=484 | files= 111 | data= 27 | cola=  13 | prio=50 | https://anapobolivia.org/categoria/hojas-divulgativas/page/2/
+[ANAPO] t=1074.0s | pag=485 | files= 111 | data= 27 | cola=  12 | prio=50 | https://anapobolivia.org/categoria/memorias-anuales/page/2/
+[ANAPO] t=1075.1s | pag=486 | files= 111 | data= 27 | cola=  11 | prio=50 | https://anapobolivia.org/categoria/pronostico-del-clima/page/2/
+[ANAPO] t=1076.5s | pag=487 | files= 111 | data= 27 | cola=  11 | prio=50 | https://anapobolivia.org/author/admin/page/2/
+[ANAPO] t=1077.7s | pag=488 | files= 111 | data= 27 | cola=  11 | prio=50 | https://anapobolivia.org/pdfviewer/page/3/
+[ANAPO] t=1079.0s | pag=489 | files= 111 | data= 27 | cola=  11 | prio=50 | https://anapobolivia.org/flipbook/page/3/
+[ANAPO] t=1080.1s | pag=490 | files= 111 | data= 27 | cola=  11 | prio=50 | https://anapobolivia.org/categoria/pronostico-del-clima/page/3/
+[ANAPO] t=1081.6s | pag=491 | files= 111 | data= 27 | cola=  10 | prio=50 | https://anapobolivia.org/author/admin/page/3/
+[ANAPO] t=1082.8s | pag=492 | files= 111 | data= 28 | cola=  10 | prio=50 | https://anapobolivia.org/pdfviewer/page/4/
+[ANAPO] t=1084.0s | pag=493 | files= 111 | data= 28 | cola=  10 | prio=50 | https://anapobolivia.org/flipbook/page/4/
+[ANAPO] t=1085.4s | pag=494 | files= 111 | data= 28 | cola=  10 | prio=50 | https://anapobolivia.org/author/admin/page/4/
+[ANAPO] t=1086.6s | pag=495 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/pdfviewer/page/5/
+[ANAPO] t=1087.7s | pag=496 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/flipbook/page/5/
+[ANAPO] t=1089.3s | pag=497 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/author/admin/page/5/
+[ANAPO] t=1090.5s | pag=498 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/pdfviewer/page/6/
+[ANAPO] t=1091.9s | pag=499 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/flipbook/page/6/
+[ANAPO] t=1093.1s | pag=500 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/author/admin/page/6/
+[ANAPO] t=1094.2s | pag=501 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/pdfviewer/page/7/
+[ANAPO] t=1095.4s | pag=502 | files= 111 | data= 29 | cola=  10 | prio=50 | https://anapobolivia.org/flipbook/page/7/
+[ANAPO] t=1096.7s | pag=503 | files= 111 | data= 29 | cola=   9 | prio=50 | https://anapobolivia.org/author/admin/page/7/
+[ANAPO] t=1098.1s | pag=504 | files= 111 | data= 30 | cola=   9 | prio=50 | https://anapobolivia.org/pdfviewer/page/8/
+[ANAPO] t=1099.1s | pag=505 | files= 111 | data= 30 | cola=   9 | prio=50 | https://anapobolivia.org/author/admin/page/8/
+[ANAPO] t=1100.6s | pag=506 | files= 111 | data= 30 | cola=   8 | prio=50 | https://anapobolivia.org/pdfviewer/page/9/
+[ANAPO] t=1102.1s | pag=507 | files= 111 | data= 30 | cola=   8 | prio=50 | https://anapobolivia.org/pdfviewer/page/10/
+[ANAPO] t=1103.5s | pag=508 | files= 111 | data= 30 | cola=   8 | prio=50 | https://anapobolivia.org/pdfviewer/page/11/
+[ANAPO] t=1104.7s | pag=509 | files= 111 | data= 30 | cola=   8 | prio=50 | https://anapobolivia.org/pdfviewer/page/12/
+[ANAPO] t=1105.7s | pag=510 | files= 111 | data= 30 | cola=   8 | prio=50 | https://anapobolivia.org/pdfviewer/page/13/
+[ANAPO] t=1107.2s | pag=511 | files= 111 | data= 30 | cola=   7 | prio=70 | https://anapobolivia.org/nuevo/anapo-noticias/
+[ANAPO] t=1108.6s | pag=511 | files= 111 | data= 30 | cola=   6 | prio=70 | https://anapobolivia.org/nuevo/noticias-3
+[ANAPO] t=1110.5s | pag=511 | files= 111 | data= 30 | cola=   5 | prio=70 | https://anapobolivia.org/nuevo/pdfviewer/resolucion-normativa-de-directorio-no-102400000024-actualizacion-de-la-cuota-fija-por-hectarea-del-regimen-agropecuario-unificado-rau-gestion-2023/
+[ANAPO] t=1112.2s | pag=511 | files= 111 | data= 30 | cola=   4 | prio=70 | https://anapobolivia.org/nuevo/directorio/
+[ANAPO] t=1114.0s | pag=511 | files= 111 | data= 30 | cola=   3 | prio=70 | https://anapobolivia.org/category/eventos/page/2/
+[ANAPO] t=1115.6s | pag=512 | files= 111 | data= 30 | cola=   2 | prio=70 | https://anapobolivia.org/category/eventos/page/3/
+[ANAPO] t=1117.0s | pag=513 | files= 111 | data= 30 | cola=   1 | prio=70 | https://anapobolivia.org/category/eventos/page/4/
+[ANAPO] t=1118.3s | pag=514 | files= 111 | data= 30 | cola=   0 | prio=70 | https://anapobolivia.org/categoria/anapo-noticias/page/2/
+[ANAPO] t=1119.5s | pag=515 | files= 111 | data= 30 | cola=   0 | prio=70 | https://anapobolivia.org/categoria/anapo-noticias/page/3/
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              anapo
+Páginas visitadas:   516
+Archivos encontrados:  111
+Datasets web:         30
+Errores:              15
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             1120.47 s
+Sitemaps procesados:  11
+URLs por sitemap:     796
+URLs sitemap en cola: 474
+
+Detalle de errores:
+  - https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-soya/ -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-soya/
+  - https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-trigo/ -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/comercializacion-de-semillas/comercializacion-de-semillas-trigo/
+  - https://anapobolivia.org/nuevo/pdfviewer/trigo_triunfo/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/trigo_triunfo/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/trigo_sossego/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/trigo_sossego/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/trigo_amplitud/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/trigo_amplitud/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/obligaciones-tributarias-de-productores-agropecuarios/ -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/obligaciones-tributarias-de-productores-agropecuarios/
+  - https://anapobolivia.org/nuevo/pdfviewer/requisitos-tramite-nit-rau-y-certificado-de-no-imponibilidad/ -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/requisitos-tramite-nit-rau-y-certificado-de-no-imponibilidad/
+  - https://anapobolivia.org/nuevo/pdfviewer/sojaparr19/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/sojaparr19/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/sojaparr49/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/sojaparr49/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/sojaparr82/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/sojaparr82/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/sojaparr75/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/sojaparr75/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/sojalb233/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/sojalb233/?auto_viewer=true
+  - https://anapobolivia.org/nuevo/pdfviewer/sojamunasqa/?auto_viewer=true -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/sojamunasqa/?auto_viewer=true
+  - https://anapobolivia.org/novedades/ -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/novedades/
+  - https://anapobolivia.org/nuevo/pdfviewer/resolucion-normativa-de-directorio-no-102400000024-actualizacion-de-la-cuota-fija-por-hectarea-del-regimen-agropecuario-unificado-rau-gestion-2023/ -> HTTPError: 404 Client Error: Not Found for url: https://anapobolivia.org/nuevo/pdfviewer/resolucion-normativa-de-directorio-no-102400000024-actualizacion-de-la-cuota-fija-por-hectarea-del-regimen-agropecuario-unificado-rau-gestion-2023/
+
+Formatos:
+  - PDF    : 111
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\anapo.json
+
+Trazabilidad:
+  Ejecución: 218
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

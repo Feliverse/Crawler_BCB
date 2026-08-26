@@ -1,0 +1,30 @@
+{
+    "id_fuente": "aetn",
+    "nombre": "Autoridad de Fiscalización de Electricidad y Tecnología Nuclear",
+    "base_url": "https://aetn.gob.bo/",
+    "allowed_domains": [
+        "aetn.gob.bo"
+    ],
+    "entrypoints": [
+        "https://anuariodig.aetn.gob.bo/informacion-estadistica/",
+        "https://aetn.gob.bo/datos-y-estadisticas/",
+        "https://aetn.gob.bo/"
+    ],
+    "extensions": [
+        ".pdf",
+        ".xlsx",
+        ".xls",
+        ".csv",
+        ".doc",
+        ".docx",
+        ".zip",
+        ".ods",
+        ".txt"
+    ],
+    "max_depth": 3,
+    "max_pages": 25,
+    "max_files": 300,
+    "delay_seconds": 1.2,
+    "request_timeout": 20,
+    "inspect_zips": true
+}

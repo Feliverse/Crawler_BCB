@@ -1,0 +1,28 @@
+﻿{
+    "id_fuente":  "minedu",
+    "nombre":  "Ministerio de Educación",
+    "base_url":  "https://www.minedu.gob.bo/",
+    "allowed_domains":  [
+                            "minedu.gob.bo"
+                        ],
+    "entrypoints":  [
+                        "https://www.minedu.gob.bo/"
+                    ],
+    "extensions":  [
+                       ".pdf",
+                       ".xlsx",
+                       ".xls",
+                       ".csv",
+                       ".doc",
+                       ".docx",
+                       ".zip",
+                       ".ods",
+                       ".txt"
+                   ],
+    "max_depth":  3,
+    "max_pages":  25,
+    "max_files":  500,
+    "delay_seconds":  0.8,
+    "request_timeout":  20,
+    "inspect_zips":  true
+}

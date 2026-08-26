@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 12, in <module>
+    from core.crawler import Crawler
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 8, in <module>
+    from dataclasses import dataclass, field
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 5, in <module>
+    import inspect
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\inspect.py", line 146, in <module>
+    import dis
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\dis.py", line 8, in <module>
+    from opcode import *
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\opcode.py", line 27, in <module>
+    hasconst = [op for op in opmap.values() if _opcode.has_const(op)]
+                                               ~~~~~~~~~~~~~~~~~^^^^
+KeyboardInterrupt

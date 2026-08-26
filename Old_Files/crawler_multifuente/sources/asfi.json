@@ -1,0 +1,30 @@
+{
+    "id_fuente": "asfi",
+    "nombre": "Autoridad de Supervisión del Sistema Financiero",
+    "base_url": "https://www.asfi.gob.bo/",
+    "allowed_domains": [
+        "asfi.gob.bo"
+    ],
+    "entrypoints": [
+        "https://www.asfi.gob.bo/pb/estadisticas-intermediacion-financiera",
+        "https://www.asfi.gob.bo/pb/estadisticas-mercado-valores",
+        "https://www.asfi.gob.bo/"
+    ],
+    "extensions": [
+        ".pdf",
+        ".xlsx",
+        ".xls",
+        ".csv",
+        ".doc",
+        ".docx",
+        ".zip",
+        ".ods",
+        ".txt"
+    ],
+    "max_depth": 3,
+    "max_pages": 1500,
+    "max_files": 5000,
+    "delay_seconds": 1.2,
+    "request_timeout": 20,
+    "inspect_zips": true
+}

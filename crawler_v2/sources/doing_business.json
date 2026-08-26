@@ -1,0 +1,45 @@
+{
+  "id_fuente": "doing_business",
+  "nombre": "Doing Business / Business Ready - Banco Mundial",
+  "base_url": "https://www.worldbank.org/en/businessready",
+  "allowed_domains": [
+    "worldbank.org"
+  ],
+  "entrypoints": [
+    "https://www.worldbank.org/en/businessready"
+  ],
+  "max_depth": 12,
+  "max_pages": 5000,
+  "max_files": 100000,
+  "request_timeout": 15,
+  "delay_seconds": 0.3,
+  "random_delay_min": 0.3,
+  "random_delay_max": 0.9,
+  "auto_url_variants": true,
+  "discover_sitemaps": true,
+  "max_sitemap_urls": 10000,
+  "max_sitemap_documents": 100,
+  "max_sitemap_bytes": 20000000,
+  "discover_openapi_endpoints": true,
+  "crawl_api_documentation": true,
+  "max_openapi_endpoints": 100,
+  "api_pagination": {
+    "enabled": true,
+    "max_pages": 20
+  },
+  "legacy_url": "https://www.doingbusiness.org",
+  "source_status": "historical_successor",
+  "high_priority_keywords": [
+    "businessready",
+    "data",
+    "download",
+    "report",
+    "economy"
+  ],
+  "include_url_patterns": [
+    "/businessready"
+  ],
+  "force_data_url_patterns": [
+    "/businessready"
+  ]
+}
