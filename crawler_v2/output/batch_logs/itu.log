@@ -1,82 +1,16 @@
-================================================================================
-CRAWLER V2
-================================================================================
-Fuente: International Telecommunication Union
-URL configurada: https://www.itu.int/
-Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
-Verificación TLS: activa
-
-
-Resolución de fuente:
-  Original: https://www.itu.int/
-  Utilizada: https://www.itu.int/es/Pages/default.aspx
-  Fallback: sí
-  Intentos: 1
-    - usable         | HTTP=200 | https://www.itu.int/
-
-URL de trabajo: https://www.itu.int/es/Pages/default.aspx
-Seeds: 2
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
-Sitemaps: activo
-Máx URLs sitemap: 10000
-
-[ITU] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[ITU] t=   9.4s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.itu.int/es/Pages/default.aspx
-[ITU] API REFERENCIA | inline_script_reference | https://translate.itu.int/api/translate_text_array
-[ITU] t=  11.7s | pag=  1 | files=   1 | data=  0 | cola=  78 | prio= 0 | https://datahub.itu.int/
-[ITU] t=  12.9s | pag=  2 | files=   1 | data=  0 | cola=  77 | prio= 1 | https://translate.itu.int/api/translate_text_array
-[ITU] t=  15.0s | pag=  2 | files=   1 | data=  0 | cola=  76 | prio=10 | https://www.itu.int/hub/pubs/
-[ITU] t=  19.3s | pag=  3 | files=   2 | data=  0 | cola= 109 | prio=10 | https://www.itu.int/en/ITU-D/Statistics
-[ITU] t=  23.4s | pag=  4 | files=   2 | data=  0 | cola= 151 | prio=10 | https://www.itu.int/itu-d/reports/statistics/facts-figures-2025/
-[ITU] DATASETS=1 | exportable_data_page | https://www.itu.int/itu-d/reports/statistics/facts-figures-2025/
-[ITU] t=  24.6s | pag=  5 | files=   2 | data=  1 | cola= 159 | prio=10 | https://www.itu.int/hub/publication/S-REP-WTISD-2026/
-[ITU] t=  27.3s | pag=  6 | files=   2 | data=  1 | cola= 172 | prio=10 | https://www.itu.int/highlights-report-activities/connect2030-agenda
-[ITU] API REFERENCIA | html_link_reference | https://www.itu.int/highlights-report-activities/connect2030-agenda/wp-json/wp/v2/pages/4
-[ITU] t=  28.1s | pag=  7 | files=   2 | data=  1 | cola= 172 | prio= 1 | https://www.itu.int/highlights-report-activities/connect2030-agenda/wp-json/wp/v2/pages/4
-[ITU] t=  28.9s | pag=  7 | files=   2 | data=  1 | cola= 171 | prio=10 | https://www.itu.int/reports/council
-[ITU] API REFERENCIA | html_link_reference | https://www.itu.int/reports/council/wp-json/wp/v2/pages/516
-[ITU] t=  37.5s | pag=  8 | files=   2 | data=  1 | cola= 194 | prio= 1 | https://www.itu.int/reports/council/wp-json/wp/v2/pages/516
-[ITU] t=  38.6s | pag=  8 | files=   2 | data=  1 | cola= 193 | prio=10 | https://www.itu.int/es/access-policy/Pages/default.aspx
-[ITU] t=  39.4s | pag=  9 | files=   5 | data=  1 | cola= 198 | prio=10 | https://www.itu.int/en/oversight-unit/Pages/report-misconduct.aspx
-[ITU] t=  40.8s | pag= 10 | files=   5 | data=  1 | cola= 203 | prio=10 | https://www.itu.int/hub/?post_type=publication&s=
-[ITU] t=  48.3s | pag= 11 | files=   5 | data=  1 | cola= 217 | prio=10 | https://www.itu.int/hub/publication/s-conf-plen-2022/
-[ITU] t=  50.4s | pag= 12 | files=   5 | data=  1 | cola= 219 | prio=10 | https://www.itu.int/hub/publication/s-conf-cl-2024/
-[ITU] t=  52.1s | pag= 13 | files=   5 | data=  1 | cola= 219 | prio=10 | https://www.itu.int/hub/publication/r-reg-rr-2024/
-[ITU] t=  58.9s | pag= 14 | files=   5 | data=  1 | cola= 224 | prio=10 | https://www.itu.int/en/publications/Pages/default.aspx
-[ITU] t=  62.1s | pag= 15 | files=   5 | data=  1 | cola= 224 | prio=10 | https://www.itu.int/hub/publication/t-tut-smartcity-2025-10/
-[ITU] t=  63.0s | pag= 16 | files=   5 | data=  1 | cola= 232 | prio=10 | https://www.itu.int/hub/publication/t-joint-u4ssc-2026-10/
-[ITU] t=  63.7s | pag= 17 | files=   5 | data=  1 | cola= 233 | prio=10 | https://www.itu.int/hub/publication/t-joint-u4ssc-2026-9/
-[ITU] t=  64.6s | pag= 18 | files=   5 | data=  1 | cola= 232 | prio=10 | https://www.itu.int/hub/publication/t-joint-u4ssc-2026-8/
-[ITU] t=  65.8s | pag= 19 | files=   5 | data=  1 | cola= 231 | prio=10 | https://www.itu.int/hub/publication/t-tut-smartcity-2019-2/
-[ITU] t=  66.9s | pag= 20 | files=   5 | data=  1 | cola= 231 | prio=10 | https://www.itu.int/hub/publication/d-str-e_health-11-2018/
-[ITU] t=  67.8s | pag= 21 | files=   5 | data=  1 | cola= 232 | prio=10 | https://www.itu.int/hub/publication/r-reg-rr-2020/
-[ITU] t=  68.7s | pag= 22 | files=   5 | data=  1 | cola= 233 | prio=10 | https://www.itu.int/hub/publication/d-ind-ict_mdd-2022/
-[ITU] t=  69.6s | pag= 23 | files=   5 | data=  1 | cola= 240 | prio=10 | https://www.itu.int/hub/publication/d-ind-ict_mdd-2023-1/
-[ITU] t=  70.7s | pag= 24 | files=   5 | data=  1 | cola= 242 | prio=10 | https://www.itu.int/hub/publication/d-ind-ict_mdd-2023-2/
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              itu
-Páginas visitadas:   25
-Archivos encontrados:    5
-Datasets web:         1
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             71.37 s
-Sitemaps procesados:  0
-URLs por sitemap:     0
-URLs sitemap en cola: 0
-
-Formatos:
-  - PDF    : 5
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\itu.json
-
-Trazabilidad:
-  Ejecución: 192
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
+    import argparse
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
+    import re as _re
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 125, in <module>
+    import enum
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\enum.py", line 4, in <module>
+    from types import MappingProxyType, DynamicClassAttribute
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
+  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
+KeyboardInterrupt

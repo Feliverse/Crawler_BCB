@@ -17,65 +17,1322 @@ Resolución de fuente:
 
 URL de trabajo: https://www.asfi.gob.bo/
 Seeds: 4
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
 [ASFI] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[ASFI] t=   4.2s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.asfi.gob.bo/
-[ASFI] t=   5.4s | pag=  1 | files=   0 | data=  0 | cola= 103 | prio= 0 | https://www.asfi.gob.bo/pb/estadisticas-intermediacion-financiera
-[ASFI] t=   6.0s | pag=  2 | files=   0 | data=  0 | cola= 110 | prio= 0 | https://www.asfi.gob.bo/pb/estadisticas-mercado-valores
-[ASFI] t=   6.4s | pag=  3 | files=   0 | data=  0 | cola= 114 | prio= 0 | https://www.asfi.gob.bo/la/anuario-estadistico
-[ASFI] t=  20.2s | pag=  4 | files=  17 | data=  0 | cola= 113 | prio= 2 | https://www.asfi.gob.bo/la/mercado-valores
-[ASFI] t=  20.9s | pag=  5 | files=  20 | data=  0 | cola= 112 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-0
-[ASFI] t=  21.6s | pag=  6 | files=  20 | data=  0 | cola= 113 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-1
+[ASFI] t=   4.8s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.asfi.gob.bo/
+[ASFI] t=   6.1s | pag=  1 | files=   0 | data=  0 | cola= 103 | prio= 0 | https://www.asfi.gob.bo/pb/estadisticas-intermediacion-financiera
+[ASFI] t=   6.8s | pag=  2 | files=   0 | data=  0 | cola= 110 | prio= 0 | https://www.asfi.gob.bo/pb/estadisticas-mercado-valores
+[ASFI] t=   7.6s | pag=  3 | files=   0 | data=  0 | cola= 114 | prio= 0 | https://www.asfi.gob.bo/la/anuario-estadistico
+[ASFI] t=  20.6s | pag=  4 | files=  17 | data=  0 | cola= 113 | prio= 2 | https://www.asfi.gob.bo/la/mercado-valores
+[ASFI] t=  21.1s | pag=  5 | files=  20 | data=  0 | cola= 112 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-0
+[ASFI] t=  21.5s | pag=  6 | files=  20 | data=  0 | cola= 113 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-1
 [ASFI] t=  22.1s | pag=  7 | files=  20 | data=  0 | cola= 115 | prio= 2 | https://www.asfi.gob.bo/pb/registro-mercado-valores
-[ASFI] t=  23.0s | pag=  8 | files=  20 | data=  0 | cola= 116 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-2
-[ASFI] t=  23.9s | pag=  9 | files=  20 | data=  0 | cola= 120 | prio= 2 | https://www.asfi.gob.bo/pb/datos-sobre-reclamos-y-consultas-atendidas
-[ASFI] t=  24.7s | pag= 10 | files=  20 | data=  0 | cola= 121 | prio= 2 | https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
+[ASFI] t=  22.9s | pag=  8 | files=  20 | data=  0 | cola= 116 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones-2
+[ASFI] t=  23.8s | pag=  9 | files=  20 | data=  0 | cola= 120 | prio= 2 | https://www.asfi.gob.bo/pb/datos-sobre-reclamos-y-consultas-atendidas
+[ASFI] t=  24.6s | pag= 10 | files=  20 | data=  0 | cola= 121 | prio= 2 | https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
 [ASFI] DATASETS=1 | data_html_table | https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
-[ASFI] t=  25.1s | pag= 11 | files=  23 | data=  1 | cola= 120 | prio= 2 | https://www.asfi.gob.bo/pb/boletines-estadisticos
-[ASFI] t=  26.7s | pag= 12 | files=  24 | data=  1 | cola= 132 | prio= 2 | https://www.asfi.gob.bo/la/principales-indicadores-financieros
-[ASFI] t=  27.7s | pag= 13 | files=  24 | data=  1 | cola= 131 | prio= 2 | https://www.asfi.gob.bo/pb/boletines-estadisticos-mercado-valores
-[ASFI] t=  28.2s | pag= 14 | files=  24 | data=  1 | cola= 142 | prio= 2 | https://www.asfi.gob.bo/la/reportes-dinamicos
-[ASFI] t=  28.7s | pag= 15 | files=  24 | data=  1 | cola= 141 | prio= 2 | https://www.asfi.gob.bo/pb/estadisticas-reclamos
-[ASFI] t=  29.4s | pag= 16 | files=  24 | data=  1 | cola= 179 | prio= 2 | https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026
+[ASFI] t=  25.3s | pag= 11 | files=  23 | data=  1 | cola= 120 | prio= 2 | https://www.asfi.gob.bo/pb/boletines-estadisticos
+[ASFI] t=  26.9s | pag= 12 | files=  24 | data=  1 | cola= 132 | prio= 2 | https://www.asfi.gob.bo/la/principales-indicadores-financieros
+[ASFI] t=  27.4s | pag= 13 | files=  24 | data=  1 | cola= 131 | prio= 2 | https://www.asfi.gob.bo/pb/boletines-estadisticos-mercado-valores
+[ASFI] t=  28.3s | pag= 14 | files=  24 | data=  1 | cola= 142 | prio= 2 | https://www.asfi.gob.bo/la/reportes-dinamicos
+[ASFI] t=  28.8s | pag= 15 | files=  24 | data=  1 | cola= 141 | prio= 2 | https://www.asfi.gob.bo/pb/estadisticas-reclamos
+[ASFI] t=  29.3s | pag= 16 | files=  24 | data=  1 | cola= 179 | prio= 2 | https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026
 [ASFI] DATASETS=2 | data_html_table | https://www.asfi.gob.bo/la/boletines-estadisticos-mercado-valores-2026
-[ASFI] t=  36.1s | pag= 17 | files=  28 | data=  2 | cola= 178 | prio=10 | https://www.asfi.gob.bo/pb/boletin-trimestral-actualizacion-y-emision-normativa
-[ASFI] t=  36.7s | pag= 18 | files=  28 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/pb/puntos-atenci%C3%B3n-financiera
-[ASFI] t=  37.5s | pag= 19 | files=  28 | data=  2 | cola= 198 | prio=10 | https://www.asfi.gob.bo/node/1008
-[ASFI] t=  38.0s | pag= 20 | files=  29 | data=  2 | cola= 197 | prio=10 | https://www.asfi.gob.bo/node/1011
-[ASFI] t=  38.7s | pag= 21 | files=  29 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/node/1006
-[ASFI] t=  39.3s | pag= 22 | files=  29 | data=  2 | cola= 195 | prio=10 | https://www.asfi.gob.bo/pagina-lista-boletines
-[ASFI] t=  39.9s | pag= 23 | files=  38 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/la/hechos-relevantes
-[ASFI] t=  40.3s | pag= 24 | files=  38 | data=  2 | cola= 207 | prio=10 | https://www.asfi.gob.bo/la/documentos-y-formularios
+[ASFI] t=  35.2s | pag= 17 | files=  28 | data=  2 | cola= 178 | prio=10 | https://www.asfi.gob.bo/pb/boletin-trimestral-actualizacion-y-emision-normativa
+[ASFI] t=  35.9s | pag= 18 | files=  28 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/pb/puntos-atenci%C3%B3n-financiera
+[ASFI] t=  36.8s | pag= 19 | files=  28 | data=  2 | cola= 198 | prio=10 | https://www.asfi.gob.bo/node/1008
+[ASFI] t=  37.4s | pag= 20 | files=  29 | data=  2 | cola= 197 | prio=10 | https://www.asfi.gob.bo/node/1011
+[ASFI] t=  37.8s | pag= 21 | files=  29 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/node/1006
+[ASFI] t=  38.5s | pag= 22 | files=  29 | data=  2 | cola= 195 | prio=10 | https://www.asfi.gob.bo/pagina-lista-boletines
+[ASFI] t=  38.9s | pag= 23 | files=  38 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/la/hechos-relevantes
+[ASFI] t=  39.5s | pag= 24 | files=  38 | data=  2 | cola= 207 | prio=10 | https://www.asfi.gob.bo/la/documentos-y-formularios
+[ASFI] t=  40.0s | pag= 25 | files=  46 | data=  2 | cola= 206 | prio=10 | https://www.asfi.gob.bo/pb/entidades-financieras-vivienda
+[ASFI] t=  40.9s | pag= 26 | files=  46 | data=  2 | cola= 205 | prio=10 | https://www.asfi.gob.bo/pb/instituciones-financieras-desarrollo
+[ASFI] t=  41.4s | pag= 27 | files=  46 | data=  2 | cola= 204 | prio=10 | https://www.asfi.gob.bo/la/1deg-reclamos-recibidos-entidades-financieras-primera-instancia-2026
+[ASFI] t=  44.5s | pag= 28 | files=  48 | data=  2 | cola= 203 | prio=10 | https://www.asfi.gob.bo/node/959
+[ASFI] t=  47.8s | pag= 29 | files=  50 | data=  2 | cola= 202 | prio=10 | https://www.asfi.gob.bo/node/962
+[ASFI] t=  48.7s | pag= 30 | files=  52 | data=  2 | cola= 201 | prio=10 | https://www.asfi.gob.bo/node/965
+[ASFI] t=  49.7s | pag= 31 | files=  54 | data=  2 | cola= 200 | prio=10 | https://www.asfi.gob.bo/node/968
+[ASFI] t=  50.7s | pag= 32 | files=  56 | data=  2 | cola= 199 | prio=10 | https://www.asfi.gob.bo/node/971
+[ASFI] t=  51.6s | pag= 33 | files=  58 | data=  2 | cola= 198 | prio=10 | https://www.asfi.gob.bo/node/974
+[ASFI] t=  52.5s | pag= 34 | files=  60 | data=  2 | cola= 197 | prio=10 | https://www.asfi.gob.bo/node/977
+[ASFI] t=  53.5s | pag= 35 | files=  62 | data=  2 | cola= 196 | prio=10 | https://www.asfi.gob.bo/node/980
+[ASFI] t=  54.3s | pag= 36 | files=  64 | data=  2 | cola= 195 | prio=10 | https://www.asfi.gob.bo/node/983
+[ASFI] t=  54.9s | pag= 37 | files=  66 | data=  2 | cola= 194 | prio=10 | https://www.asfi.gob.bo/node/986
+[ASFI] t=  55.7s | pag= 38 | files=  68 | data=  2 | cola= 193 | prio=10 | https://www.asfi.gob.bo/node/989
+[ASFI] t=  56.6s | pag= 39 | files=  70 | data=  2 | cola= 192 | prio=10 | https://www.asfi.gob.bo/node/992
+[ASFI] t=  57.5s | pag= 40 | files=  72 | data=  2 | cola= 191 | prio=10 | https://www.asfi.gob.bo/la/boletin-trimestral-actualizacion-y-emision-normativa-2026
+[ASFI] t=  58.5s | pag= 41 | files=  74 | data=  2 | cola= 190 | prio=10 | https://www.asfi.gob.bo/pb/puntos-atencion-financiera-eif
+[ASFI] t=  59.2s | pag= 42 | files=  74 | data=  2 | cola= 189 | prio=10 | https://www.asfi.gob.bo/pb/puntos-atencion-financiera-mv
+[ASFI] t=  60.1s | pag= 43 | files=  74 | data=  2 | cola= 188 | prio=10 | https://www.asfi.gob.bo/pb/puntos-atencion-financiera-esfc
+[ASFI] t=  60.7s | pag= 44 | files=  74 | data=  2 | cola= 187 | prio=10 | https://www.asfi.gob.bo/pagina-lista-boletines?page=1
+[ASFI] t=  61.4s | pag= 45 | files=  83 | data=  2 | cola= 187 | prio=10 | https://www.asfi.gob.bo/pagina-lista-boletines?page=2
+[ASFI] t=  62.2s | pag= 46 | files=  91 | data=  2 | cola= 186 | prio=10 | https://www.asfi.gob.bo/pagina-lista-boletines?page=0
+[ASFI] t=  63.3s | pag= 47 | files=  91 | data=  2 | cola= 185 | prio=50 | https://www.asfi.gob.bo/pagina-memoria-institucional
+[ASFI] t=  64.1s | pag= 48 | files= 101 | data=  2 | cola= 187 | prio=40 | https://www.asfi.gob.bo/pagina-memoria-institucional?page=1
+[ASFI] t=  64.8s | pag= 49 | files= 111 | data=  2 | cola= 187 | prio=40 | https://www.asfi.gob.bo/pagina-memoria-institucional?page=2
+[ASFI] t=  65.9s | pag= 50 | files= 121 | data=  2 | cola= 186 | prio=40 | https://www.asfi.gob.bo/pagina-memoria-institucional?page=3
+[ASFI] t=  66.8s | pag= 51 | files= 127 | data=  2 | cola= 185 | prio=40 | https://www.asfi.gob.bo/pagina-memoria-institucional?page=0
+[ASFI] t=  67.6s | pag= 52 | files= 127 | data=  2 | cola= 184 | prio=50 | https://www.asfi.gob.bo/pb/objetivos-institucionales
+[ASFI] t=  68.3s | pag= 53 | files= 127 | data=  2 | cola= 183 | prio=50 | https://www.asfi.gob.bo/pb/informacion-mae
+[ASFI] t=  69.2s | pag= 54 | files= 127 | data=  2 | cola= 182 | prio=50 | https://www.asfi.gob.bo/la/politica-calidad
+[ASFI] t=  70.0s | pag= 55 | files= 127 | data=  2 | cola= 181 | prio=50 | https://www.asfi.gob.bo/pb/plan-estrategico-institucional-pei
+[ASFI] t=  70.5s | pag= 56 | files= 128 | data=  2 | cola= 180 | prio=50 | https://www.asfi.gob.bo/pagina-poa
+[ASFI] t=  71.3s | pag= 57 | files= 131 | data=  2 | cola= 181 | prio=50 | https://www.asfi.gob.bo/la/seguimiento-y-evaluacion-al-poa
+[ASFI] t=  71.7s | pag= 58 | files= 157 | data=  2 | cola= 180 | prio=50 | https://www.asfi.gob.bo/la/mapa-procesos
+[ASFI] t=  72.1s | pag= 59 | files= 158 | data=  2 | cola= 179 | prio=50 | https://www.asfi.gob.bo/pb/plan-implementacion-software-libre-y-estandares-abiertos-pislea
+[ASFI] t=  72.6s | pag= 60 | files= 159 | data=  2 | cola= 178 | prio=50 | https://www.asfi.gob.bo/presupuesto-institucional
+[ASFI] t=  73.1s | pag= 61 | files= 161 | data=  2 | cola= 177 | prio=50 | https://www.asfi.gob.bo/pb/ejecucion-presupuestaria
+[ASFI] t=  73.6s | pag= 62 | files= 162 | data=  2 | cola= 176 | prio=50 | https://www.asfi.gob.bo/pb/fuentes-financiamiento
+[ASFI] t=  74.4s | pag= 63 | files= 165 | data=  2 | cola= 175 | prio=50 | https://www.asfi.gob.bo/la/balance-general
+[ASFI] t=  75.1s | pag= 64 | files= 171 | data=  2 | cola= 174 | prio=50 | https://www.asfi.gob.bo/auditorias
+[ASFI] t=  75.6s | pag= 65 | files= 213 | data=  2 | cola= 177 | prio=40 | https://www.asfi.gob.bo/auditorias?page=1
+[ASFI] t=  76.3s | pag= 66 | files= 286 | data=  2 | cola= 177 | prio=40 | https://www.asfi.gob.bo/auditorias?page=2
+[ASFI] t=  77.2s | pag= 67 | files= 345 | data=  2 | cola= 176 | prio=40 | https://www.asfi.gob.bo/auditorias?page=3
+[ASFI] t=  77.8s | pag= 68 | files= 401 | data=  2 | cola= 175 | prio=40 | https://www.asfi.gob.bo/auditorias?page=4
+[ASFI] t=  78.4s | pag= 69 | files= 403 | data=  2 | cola= 174 | prio=40 | https://www.asfi.gob.bo/auditorias?page=0
+[ASFI] t=  79.4s | pag= 70 | files= 403 | data=  2 | cola= 173 | prio=50 | https://www.asfi.gob.bo/pb/gestion-denuncias-actoshechos-corrupcion
+[ASFI] t=  80.3s | pag= 71 | files= 404 | data=  2 | cola= 172 | prio=50 | https://www.asfi.gob.bo/form/solicitud-de-informacion
+[ASFI] t=  81.1s | pag= 72 | files= 404 | data=  2 | cola= 171 | prio=50 | https://www.asfi.gob.bo/rendicion
+[ASFI] t=  81.8s | pag= 73 | files= 414 | data=  2 | cola= 172 | prio=40 | https://www.asfi.gob.bo/rendicion?page=1
+[ASFI] t=  82.7s | pag= 74 | files= 431 | data=  2 | cola= 172 | prio=40 | https://www.asfi.gob.bo/rendicion?page=2
+[ASFI] t=  83.7s | pag= 75 | files= 441 | data=  2 | cola= 171 | prio=40 | https://www.asfi.gob.bo/rendicion?page=0
+[ASFI] t=  84.5s | pag= 76 | files= 441 | data=  2 | cola= 170 | prio=50 | https://www.asfi.gob.bo/la/programa-tranca-cero
+[ASFI] t=  84.8s | pag= 77 | files= 443 | data=  2 | cola= 169 | prio=50 | https://www.asfi.gob.bo/p-gina-de-notas-de-prensa
+[ASFI] t=  85.3s | pag= 78 | files= 443 | data=  2 | cola= 176 | prio=40 | https://www.asfi.gob.bo/p-gina-de-notas-de-prensa?page=1
+[ASFI] t=  86.2s | pag= 79 | files= 443 | data=  2 | cola= 185 | prio=40 | https://www.asfi.gob.bo/p-gina-de-notas-de-prensa?page=2
+[ASFI] t=  87.3s | pag= 80 | files= 443 | data=  2 | cola= 192 | prio=40 | https://www.asfi.gob.bo/p-gina-de-notas-de-prensa?page=0
+[ASFI] t=  88.4s | pag= 81 | files= 443 | data=  2 | cola= 191 | prio=50 | https://www.asfi.gob.bo/pagina-de-revistas
+[ASFI] t=  89.2s | pag= 82 | files= 445 | data=  2 | cola= 190 | prio=50 | https://www.asfi.gob.bo/pb/trabajos-investigacion
+[ASFI] t=  89.7s | pag= 83 | files= 445 | data=  2 | cola= 192 | prio= 2 | https://www.asfi.gob.bo/pb/publicaciones
+[ASFI] t=  90.9s | pag= 84 | files= 449 | data=  2 | cola= 191 | prio= 2 | https://www.asfi.gob.bo/pagina-de-otras-publicaciones
+[ASFI] t=  92.0s | pag= 85 | files= 451 | data=  2 | cola= 190 | prio=50 | https://www.asfi.gob.bo/pagina-lista-campanias
+[ASFI] t=  92.5s | pag= 86 | files= 451 | data=  2 | cola= 201 | prio=40 | https://www.asfi.gob.bo/pagina-lista-campanias?page=1
+[ASFI] t=  93.6s | pag= 87 | files= 451 | data=  2 | cola= 210 | prio=40 | https://www.asfi.gob.bo/pagina-lista-campanias?page=2
+[ASFI] t=  94.4s | pag= 88 | files= 451 | data=  2 | cola= 219 | prio=40 | https://www.asfi.gob.bo/pagina-lista-campanias?page=4
+[ASFI] t=  95.1s | pag= 89 | files= 451 | data=  2 | cola= 220 | prio=40 | https://www.asfi.gob.bo/pagina-lista-campanias?page=0
+[ASFI] t=  95.9s | pag= 90 | files= 451 | data=  2 | cola= 219 | prio=40 | https://www.asfi.gob.bo/pagina-lista-campanias?page=3
+[ASFI] t=  96.6s | pag= 91 | files= 451 | data=  2 | cola= 227 | prio=50 | https://www.asfi.gob.bo/pagina-de-comunicados
+[ASFI] t=  97.2s | pag= 92 | files= 461 | data=  2 | cola= 227 | prio=40 | https://www.asfi.gob.bo/pagina-de-comunicados?page=1
+[ASFI] t=  97.9s | pag= 93 | files= 469 | data=  2 | cola= 227 | prio=40 | https://www.asfi.gob.bo/pagina-de-comunicados?page=0
+[ASFI] t=  98.7s | pag= 94 | files= 469 | data=  2 | cola= 226 | prio=50 | https://www.asfi.gob.bo/pb/organigrama-institucional
+[ASFI] t=  99.1s | pag= 95 | files= 470 | data=  2 | cola= 225 | prio=50 | https://www.asfi.gob.bo/la/nomina-servidores
+[ASFI] t=  99.7s | pag= 96 | files= 471 | data=  2 | cola= 224 | prio=50 | https://www.asfi.gob.bo/escala-salarial
+[ASFI] t= 100.2s | pag= 97 | files= 474 | data=  2 | cola= 223 | prio=50 | https://www.asfi.gob.bo/manual-de-organizaci-n-funcional
+[ASFI] t= 100.8s | pag= 98 | files= 475 | data=  2 | cola= 222 | prio=50 | https://www.asfi.gob.bo/manual-de-procedimiento
+[ASFI] t= 101.4s | pag= 99 | files= 476 | data=  2 | cola= 221 | prio=50 | https://www.asfi.gob.bo/poais
+[ASFI] t= 102.5s | pag=100 | files= 477 | data=  2 | cola= 221 | prio=50 | https://www.asfi.gob.bo/la/manual-puestos
+[ASFI] t= 102.9s | pag=101 | files= 500 | data=  2 | cola= 220 | prio=50 | https://www.asfi.gob.bo/oportunidad-de-empleo
+[ASFI] t= 103.8s | pag=102 | files= 500 | data=  2 | cola= 219 | prio=50 | https://www.asfi.gob.bo/pb/terminos-referencia-consultores-linea
+[ASFI] t= 104.4s | pag=103 | files= 500 | data=  2 | cola= 218 | prio=50 | https://www.asfi.gob.bo/convocatorias
+[ASFI] t= 105.0s | pag=104 | files= 510 | data=  2 | cola= 220 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=1
+[ASFI] t= 105.4s | pag=105 | files= 520 | data=  2 | cola= 220 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=2
+[ASFI] t= 105.8s | pag=106 | files= 530 | data=  2 | cola= 220 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=10
+[ASFI] t= 107.7s | pag=107 | files= 531 | data=  2 | cola= 221 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=0
+[ASFI] t= 108.8s | pag=108 | files= 531 | data=  2 | cola= 220 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=3
+[ASFI] t= 109.7s | pag=109 | files= 541 | data=  2 | cola= 220 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=9
+[ASFI] t= 110.4s | pag=110 | files= 551 | data=  2 | cola= 219 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=8
+[ASFI] t= 111.3s | pag=111 | files= 561 | data=  2 | cola= 219 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=4
+[ASFI] t= 112.1s | pag=112 | files= 571 | data=  2 | cola= 219 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=7
+[ASFI] t= 112.8s | pag=113 | files= 581 | data=  2 | cola= 219 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=5
+[ASFI] t= 113.9s | pag=114 | files= 591 | data=  2 | cola= 218 | prio=40 | https://www.asfi.gob.bo/convocatorias?page=6
+[ASFI] t= 114.6s | pag=115 | files= 601 | data=  2 | cola= 217 | prio=50 | https://www.asfi.gob.bo/proveedores
+[ASFI] t= 115.8s | pag=116 | files= 603 | data=  2 | cola= 216 | prio=50 | https://www.asfi.gob.bo/pb/programa-anual-contrataciones
+[ASFI] t= 117.1s | pag=117 | files= 605 | data=  2 | cola= 215 | prio=50 | https://www.asfi.gob.bo/la/normativa-internacional
+[ASFI] t= 118.0s | pag=118 | files= 605 | data=  2 | cola= 214 | prio=50 | https://www.asfi.gob.bo/pb/reglamentos-vigentes
+[ASFI] t= 118.5s | pag=119 | files= 613 | data=  2 | cola= 213 | prio=50 | https://www.asfi.gob.bo/pb/servicios-financieros
+[ASFI] t= 119.2s | pag=120 | files= 614 | data=  2 | cola= 214 | prio=10 | https://www.asfi.gob.bo/node/402
+[ASFI] t= 119.8s | pag=121 | files= 615 | data=  2 | cola= 213 | prio=50 | https://www.asfi.gob.bo/pb/registro-suscriptores-al-servicio-comunicacion
+[ASFI] t= 120.5s | pag=122 | files= 615 | data=  2 | cola= 212 | prio=50 | https://www.asfi.gob.bo/pb/legislacion-y-disposiciones-para-regulados
+[ASFI] t= 121.3s | pag=123 | files= 615 | data=  2 | cola= 218 | prio=50 | https://www.asfi.gob.bo/pb/decretos
+[ASFI] t= 123.3s | pag=124 | files= 692 | data=  2 | cola= 217 | prio=50 | https://www.asfi.gob.bo/pb/normativa-nacional
+[ASFI] t= 124.2s | pag=125 | files= 709 | data=  2 | cola= 216 | prio=50 | https://www.asfi.gob.bo/pb/registro-y-seguimiento-reclamos
+[ASFI] t= 124.7s | pag=126 | files= 709 | data=  2 | cola= 215 | prio=50 | https://www.asfi.gob.bo/la/derechos-del-consumidor-financiero
+[ASFI] t= 125.2s | pag=127 | files= 709 | data=  2 | cola= 214 | prio=50 | https://www.asfi.gob.bo/la/cajeros-automaticos-para-personas-discapacidad
+[ASFI] t= 125.9s | pag=128 | files= 711 | data=  2 | cola= 213 | prio=50 | https://www.asfi.gob.bo/la/lineamientos-para-enif
+[ASFI] t= 126.7s | pag=129 | files= 712 | data=  2 | cola= 212 | prio=50 | https://asfidigital.asfi.gob.bo/inicio
+[ASFI] t= 127.9s | pag=130 | files= 712 | data=  2 | cola= 211 | prio=50 | https://www.asfi.gob.bo/pb/contratos-modelo-para-servicios-financieros
+[ASFI] t= 128.4s | pag=131 | files= 712 | data=  2 | cola= 210 | prio=50 | https://asfi.gob.bo/la/tarifarios
+[ASFI] DATASETS=3 | data_html_table | https://asfi.gob.bo/la/tarifarios
+[ASFI] t= 150.2s | pag=132 | files= 730 | data=  3 | cola= 295 | prio= 2 | https://asfi.gob.bo/la/mercado-valores
+[ASFI] t= 151.3s | pag=133 | files= 730 | data=  3 | cola= 294 | prio= 2 | https://asfi.gob.bo/pb/publicaciones-0
+[ASFI] t= 152.4s | pag=134 | files= 730 | data=  3 | cola= 295 | prio= 2 | https://asfi.gob.bo/pb/publicaciones-1
+[ASFI] t= 153.2s | pag=135 | files= 730 | data=  3 | cola= 297 | prio= 2 | https://asfi.gob.bo/pb/registro-mercado-valores
+[ASFI] t= 153.6s | pag=136 | files= 730 | data=  3 | cola= 298 | prio= 2 | https://asfi.gob.bo/pb/publicaciones-2
+[ASFI] t= 154.5s | pag=137 | files= 730 | data=  3 | cola= 302 | prio= 2 | https://asfi.gob.bo/pb/estadisticas-intermediacion-financiera
+[ASFI] t= 155.1s | pag=138 | files= 730 | data=  3 | cola= 312 | prio= 2 | https://asfi.gob.bo/pb/estadisticas-mercado-valores
+[ASFI] t= 156.4s | pag=139 | files= 730 | data=  3 | cola= 316 | prio= 2 | https://asfi.gob.bo/pb/datos-sobre-reclamos-y-consultas-atendidas
+[ASFI] t= 157.8s | pag=140 | files= 730 | data=  3 | cola= 317 | prio= 2 | https://asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
+[ASFI] DATASETS=4 | data_html_table | https://asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo
+[ASFI] t= 158.8s | pag=141 | files= 733 | data=  4 | cola= 316 | prio= 2 | https://asfi.gob.bo/pb/boletines-estadisticos
+[ASFI] t= 160.9s | pag=142 | files= 734 | data=  4 | cola= 328 | prio= 2 | https://asfi.gob.bo/la/principales-indicadores-financieros
+[ASFI] t= 161.6s | pag=143 | files= 734 | data=  4 | cola= 327 | prio= 2 | https://asfi.gob.bo/pb/boletines-estadisticos-mercado-valores
+[ASFI] t= 162.1s | pag=144 | files= 734 | data=  4 | cola= 337 | prio= 2 | https://asfi.gob.bo/la/reportes-dinamicos
+[ASFI] t= 163.0s | pag=145 | files= 734 | data=  4 | cola= 336 | prio= 2 | https://asfi.gob.bo/pb/estadisticas-reclamos
+[ASFI] t= 163.9s | pag=146 | files= 734 | data=  4 | cola= 374 | prio=10 | https://asfi.gob.bo/pb/boletin-trimestral-actualizacion-y-emision-normativa
+[ASFI] t= 164.4s | pag=147 | files= 734 | data=  4 | cola= 391 | prio=10 | https://asfi.gob.bo/pb/puntos-atenci%C3%B3n-financiera
+[ASFI] t= 165.7s | pag=148 | files= 734 | data=  4 | cola= 393 | prio=10 | https://asfi.gob.bo/pagina-lista-boletines
+[ASFI] t= 166.6s | pag=149 | files= 743 | data=  4 | cola= 394 | prio=10 | https://asfi.gob.bo/la/hechos-relevantes
+[ASFI] t= 167.3s | pag=150 | files= 743 | data=  4 | cola= 405 | prio=10 | https://asfi.gob.bo/la/documentos-y-formularios
+[ASFI] t= 167.9s | pag=151 | files= 751 | data=  4 | cola= 404 | prio=10 | https://asfi.gob.bo/node/1008
+[ASFI] t= 168.5s | pag=152 | files= 752 | data=  4 | cola= 403 | prio=10 | https://asfi.gob.bo/node/1011
+[ASFI] t= 169.0s | pag=153 | files= 752 | data=  4 | cola= 402 | prio=10 | https://asfi.gob.bo/node/1006
+[ASFI] t= 185.3s | pag=154 | files= 769 | data=  4 | cola= 401 | prio=10 | https://asfi.gob.bo/pb/entidades-financieras-vivienda
+[ASFI] t= 186.1s | pag=155 | files= 769 | data=  4 | cola= 400 | prio=10 | https://asfi.gob.bo/pb/instituciones-financieras-desarrollo
+[ASFI] t= 186.9s | pag=156 | files= 769 | data=  4 | cola= 399 | prio=10 | https://asfi.gob.bo/la/1deg-reclamos-recibidos-entidades-financieras-primera-instancia-2026
+[ASFI] t= 189.4s | pag=157 | files= 771 | data=  4 | cola= 398 | prio=10 | https://asfi.gob.bo/node/959
+[ASFI] t= 192.4s | pag=158 | files= 773 | data=  4 | cola= 397 | prio=10 | https://asfi.gob.bo/node/962
+[ASFI] t= 193.4s | pag=159 | files= 775 | data=  4 | cola= 396 | prio=10 | https://asfi.gob.bo/node/965
+[ASFI] t= 194.4s | pag=160 | files= 777 | data=  4 | cola= 395 | prio=10 | https://asfi.gob.bo/node/968
+[ASFI] t= 195.0s | pag=161 | files= 779 | data=  4 | cola= 394 | prio=10 | https://asfi.gob.bo/node/971
+[ASFI] t= 196.0s | pag=162 | files= 781 | data=  4 | cola= 393 | prio=10 | https://asfi.gob.bo/node/974
+[ASFI] t= 196.7s | pag=163 | files= 783 | data=  4 | cola= 392 | prio=10 | https://asfi.gob.bo/node/977
+[ASFI] t= 197.6s | pag=164 | files= 785 | data=  4 | cola= 391 | prio=10 | https://asfi.gob.bo/node/980
+[ASFI] t= 198.1s | pag=165 | files= 787 | data=  4 | cola= 390 | prio=10 | https://asfi.gob.bo/node/983
+[ASFI] t= 198.6s | pag=166 | files= 789 | data=  4 | cola= 389 | prio=10 | https://asfi.gob.bo/node/986
+[ASFI] t= 199.3s | pag=167 | files= 791 | data=  4 | cola= 388 | prio=10 | https://asfi.gob.bo/node/989
+[ASFI] t= 200.2s | pag=168 | files= 793 | data=  4 | cola= 387 | prio=10 | https://asfi.gob.bo/node/992
+[ASFI] t= 201.1s | pag=169 | files= 795 | data=  4 | cola= 386 | prio=10 | https://asfi.gob.bo/pb/puntos-atencion-financiera-eif
+[ASFI] t= 202.0s | pag=170 | files= 795 | data=  4 | cola= 385 | prio=10 | https://asfi.gob.bo/pb/puntos-atencion-financiera-mv
+[ASFI] t= 202.9s | pag=171 | files= 795 | data=  4 | cola= 384 | prio=10 | https://asfi.gob.bo/pb/puntos-atencion-financiera-esfc
+[ASFI] t= 203.5s | pag=172 | files= 795 | data=  4 | cola= 383 | prio=10 | https://asfi.gob.bo/pagina-lista-boletines?page=1
+[ASFI] t= 204.2s | pag=173 | files= 804 | data=  4 | cola= 383 | prio=10 | https://asfi.gob.bo/pagina-lista-boletines?page=2
+[ASFI] t= 205.1s | pag=174 | files= 812 | data=  4 | cola= 382 | prio=10 | https://asfi.gob.bo/pagina-lista-boletines?page=0
+[ASFI] t= 205.7s | pag=175 | files= 812 | data=  4 | cola= 381 | prio=50 | https://www.asfi.gob.bo/pb/tiempos-maximos-atencion-creditos
+[ASFI] t= 206.1s | pag=176 | files= 836 | data=  4 | cola= 380 | prio=50 | https://www.asfi.gob.bo/pb/entidades-supervisadas-if
+[ASFI] t= 207.0s | pag=177 | files= 836 | data=  4 | cola= 385 | prio= 2 | https://www.asfi.gob.bo/la/entidades-intermediacion-financiera-licencia-funcionamiento
+[ASFI] t= 207.8s | pag=178 | files= 847 | data=  4 | cola= 384 | prio=10 | https://www.asfi.gob.bo/node/1003
+[ASFI] t= 208.5s | pag=179 | files= 849 | data=  4 | cola= 383 | prio=50 | https://www.asfi.gob.bo/pb/registros
+[ASFI] t= 209.0s | pag=180 | files= 849 | data=  4 | cola= 384 | prio=50 | https://www.asfi.gob.bo/la/cobertura-servicios-financieros
+[ASFI] t= 210.8s | pag=181 | files= 850 | data=  4 | cola= 383 | prio=50 | https://www.asfi.gob.bo/pb/entidades-supervisadas-mv
+[ASFI] t= 211.4s | pag=182 | files= 850 | data=  4 | cola= 385 | prio= 2 | https://www.asfi.gob.bo/pb/entidades-inscritas-registro-del-mercado-valores
+[ASFI] t= 212.2s | pag=183 | files= 850 | data=  4 | cola= 384 | prio=50 | https://www.asfi.gob.bo/pb/reglamentos-internos-fondos-inversion
+[ASFI] t= 212.7s | pag=184 | files= 850 | data=  4 | cola= 407 | prio=50 | https://www.asfi.gob.bo/la/empresas-supervisadas
+[ASFI] t= 213.2s | pag=185 | files= 857 | data=  4 | cola= 406 | prio=50 | https://www.asfi.gob.bo/pb/sociedades-controladoras-grupos-financieros
+[ASFI] t= 213.6s | pag=186 | files= 858 | data=  4 | cola= 414 | prio=50 | https://www.asfi.gob.bo/pb/estados-financieros
+[ASFI] t= 214.6s | pag=187 | files= 858 | data=  4 | cola= 504 | prio=50 | https://barometro.asfi.gob.bo/
+[ASFI] t= 215.7s | pag=188 | files= 858 | data=  4 | cola= 513 | prio=10 | https://barometro.asfi.gob.bo/cifras-principales
+[ASFI] t= 216.2s | pag=189 | files= 858 | data=  4 | cola= 512 | prio=10 | https://barometro.asfi.gob.bo/articles/20260818-transformacion-financiera-la-paz-el-alto
+[ASFI] t= 217.1s | pag=190 | files= 858 | data=  4 | cola= 511 | prio=10 | https://barometro.asfi.gob.bo/articles/20260727-experiencia-billeteras-moviles
+[ASFI] t= 217.5s | pag=191 | files= 858 | data=  4 | cola= 510 | prio=50 | https://www.asfi.gob.bo/pagina-de-direcciones
+[ASFI] t= 218.0s | pag=192 | files= 858 | data=  4 | cola= 510 | prio=40 | https://www.asfi.gob.bo/pagina-de-direcciones?page=1
+[ASFI] t= 218.8s | pag=193 | files= 858 | data=  4 | cola= 510 | prio=40 | https://www.asfi.gob.bo/pagina-de-direcciones?page=0
+[ASFI] t= 219.5s | pag=194 | files= 858 | data=  4 | cola= 509 | prio=50 | https://www.asfi.gob.bo/pb/responsables-recibir-consultas
+[ASFI] t= 220.2s | pag=195 | files= 858 | data=  4 | cola= 508 | prio=50 | https://www.asfi.gob.bo/pb/numeros-telefono-y-call-center
+[ASFI] t= 220.8s | pag=196 | files= 858 | data=  4 | cola= 507 | prio=50 | https://www.asfi.gob.bo/pb/correo-electronico-y-redes-sociales
+[ASFI] t= 221.6s | pag=197 | files= 858 | data=  4 | cola= 506 | prio=50 | https://www.asfi.gob.bo/pb/recepcion-correspondencia-firma-digital
+[ASFI] t= 222.9s | pag=198 | files= 858 | data=  4 | cola= 506 | prio=10 | https://correspondencia-digital.asfi.gob.bo/formulario-envio-documento-digital
+[ASFI] t= 223.8s | pag=199 | files= 858 | data=  4 | cola= 505 | prio=50 | https://www.asfi.gob.bo//node/1456
+[ASFI] t= 224.9s | pag=200 | files= 858 | data=  4 | cola= 504 | prio=50 | https://www.asfi.gob.bo//node/1402
+[ASFI] t= 225.7s | pag=201 | files= 858 | data=  4 | cola= 503 | prio=50 | https://www.asfi.gob.bo//node/1394
+[ASFI] t= 226.3s | pag=202 | files= 858 | data=  4 | cola= 502 | prio=50 | https://www.asfi.gob.bo/node/1010
+[ASFI] t= 227.0s | pag=203 | files= 859 | data=  4 | cola= 501 | prio=50 | https://www.asfi.gob.bo/node/1009
+[ASFI] t= 227.5s | pag=204 | files= 860 | data=  4 | cola= 500 | prio=50 | https://www.asfi.gob.bo/node/1065
+[ASFI] t= 228.0s | pag=205 | files= 860 | data=  4 | cola= 501 | prio=50 | https://www.asfi.gob.bo/node/949
+[ASFI] t= 228.8s | pag=206 | files= 890 | data=  4 | cola= 500 | prio=50 | https://www.asfi.gob.bo/node/1070
+[ASFI] t= 229.2s | pag=207 | files= 892 | data=  4 | cola= 499 | prio=50 | https://www.asfi.gob.bo/node/1071
+[ASFI] t= 230.2s | pag=208 | files= 893 | data=  4 | cola= 498 | prio=50 | https://www.asfi.gob.bo/node/1068
+[ASFI] t= 230.8s | pag=209 | files= 894 | data=  4 | cola= 497 | prio=50 | https://www.asfi.gob.bo/node/1069
+[ASFI] t= 231.3s | pag=210 | files= 895 | data=  4 | cola= 496 | prio=50 | https://asfidigital.asfi.gob.bo/
+[ASFI] t= 231.8s | pag=211 | files= 895 | data=  4 | cola= 495 | prio=50 | https://www.asfi.gob.bo/enlaces-de-interes
+[ASFI] t= 232.8s | pag=212 | files= 895 | data=  4 | cola= 498 | prio=10 | https://www.asfi.gob.bo/ei/plataforma-reporta-tu-tranca
+[ASFI] t= 233.7s | pag=213 | files= 895 | data=  4 | cola= 497 | prio=10 | https://www.asfi.gob.bo/ei/unidad-investigaciones-financieras
+[ASFI] t= 234.2s | pag=214 | files= 895 | data=  4 | cola= 496 | prio=50 | https://www.asfi.gob.bo/terminos-y-condiciones
+[ASFI] t= 235.0s | pag=214 | files= 895 | data=  4 | cola= 495 | prio=50 | https://www.asfi.gob.bo/sitemap
+[ASFI] t= 235.9s | pag=214 | files= 895 | data=  4 | cola= 494 | prio=50 | https://www.asfi.gob.bo/search/node
+[ASFI] t= 237.0s | pag=215 | files= 895 | data=  4 | cola= 494 | prio=50 | https://www.asfi.gob.bo/node/1007
+[ASFI] t= 237.7s | pag=216 | files= 895 | data=  4 | cola= 509 | prio=50 | https://www.asfi.gob.bo/pb/carta-informativa
+[ASFI] t= 238.6s | pag=217 | files= 926 | data=  4 | cola= 508 | prio=50 | https://www.asfi.gob.bo/node/1005
+[ASFI] t= 239.4s | pag=218 | files= 937 | data=  4 | cola= 507 | prio=50 | https://www.asfi.gob.bo/la/separatas-departamentales
+[ASFI] t= 240.3s | pag=219 | files= 946 | data=  4 | cola= 506 | prio=50 | https://www.asfi.gob.bo/la/inversiones
+[ASFI] t= 254.2s | pag=220 | files= 957 | data=  4 | cola= 505 | prio=50 | https://www.asfi.gob.bo/node/1046
+[ASFI] t= 254.6s | pag=221 | files= 959 | data=  4 | cola= 504 | prio=50 | https://www.asfi.gob.bo/node/1051
+[ASFI] t= 275.0s | pag=222 | files= 976 | data=  4 | cola= 503 | prio=50 | https://www.asfi.gob.bo/la/resoluciones-entidades-liquidacion
+[ASFI] t= 275.6s | pag=223 | files= 977 | data=  4 | cola= 502 | prio=50 | https://www.asfi.gob.bo/pb/prospectos
+[ASFI] t= 276.4s | pag=224 | files= 977 | data=  4 | cola= 586 | prio=50 | https://www.asfi.gob.bo/la/calificaciones-riesgo
+[ASFI] t= 277.0s | pag=225 | files= 978 | data=  4 | cola= 585 | prio=50 | https://www.asfi.gob.bo/la/procedimientos-inscripcion
+[ASFI] t= 277.7s | pag=226 | files= 981 | data=  4 | cola= 584 | prio=50 | https://www.asfi.gob.bo/la/resoluciones-caducidad
+[ASFI] t= 278.6s | pag=227 | files= 995 | data=  4 | cola= 583 | prio=50 | https://www.asfi.gob.bo/la/resoluciones-prohibicion-realizar-operaciones
+[ASFI] t= 279.1s | pag=228 | files= 998 | data=  4 | cola= 582 | prio=50 | https://www.asfi.gob.bo/la/resoluciones-rechazo-constitucion
+[ASFI] t= 280.0s | pag=229 | files=1009 | data=  4 | cola= 581 | prio=50 | https://www.asfi.gob.bo/la/resoluciones-revocatoria
+[ASFI] t= 280.6s | pag=230 | files=1029 | data=  4 | cola= 580 | prio=50 | https://www.asfi.gob.bo/node/1064
+[ASFI] t= 284.9s | pag=231 | files=1037 | data=  4 | cola= 579 | prio=50 | https://www.asfi.gob.bo/la/atencion-reclamos-y-consultas
+[ASFI] t= 285.7s | pag=232 | files=1038 | data=  4 | cola= 578 | prio=50 | https://www.asfi.gob.bo/pb/bancos-hasta-21072014
+[ASFI] t= 286.1s | pag=233 | files=1038 | data=  4 | cola= 577 | prio=50 | https://www.asfi.gob.bo/pb/fondos-financieros-privados-hasta-21072014
+[ASFI] t= 286.9s | pag=234 | files=1038 | data=  4 | cola= 576 | prio=50 | https://www.asfi.gob.bo/pb/mutuales-ahorro-y-prestamo-hasta-20112015
+[ASFI] t= 287.7s | pag=235 | files=1038 | data=  4 | cola= 575 | prio=50 | https://www.asfi.gob.bo/la/entidades-segundo-piso
+[ASFI] t= 288.7s | pag=236 | files=1038 | data=  4 | cola= 576 | prio=50 | https://www.asfi.gob.bo/pb/bancos-multiples
+[ASFI] t= 289.5s | pag=237 | files=1038 | data=  4 | cola= 575 | prio=50 | https://www.asfi.gob.bo/pb/bancos-pyme
+[ASFI] t= 290.1s | pag=238 | files=1038 | data=  4 | cola= 574 | prio=50 | https://www.asfi.gob.bo/pb/cooperativas-ahorro-y-credito-abiertas
+[ASFI] t= 291.0s | pag=239 | files=1038 | data=  4 | cola= 573 | prio=50 | https://www.asfi.gob.bo/pb/bancos-desarrollo-productivo
+[ASFI] t= 291.8s | pag=240 | files=1038 | data=  4 | cola= 572 | prio=50 | https://www.asfi.gob.bo/pb/estados-financieros-resumidos
+[ASFI] t= 292.5s | pag=241 | files=1038 | data=  4 | cola= 582 | prio=50 | https://www.asfi.gob.bo/pb/banco-central-bolivia
+[ASFI] t= 293.4s | pag=242 | files=1038 | data=  4 | cola= 592 | prio=50 | https://www.asfi.gob.bo/pb/fogavisp-fogacp-y-fogagre
+[ASFI] t= 294.0s | pag=243 | files=1038 | data=  4 | cola= 600 | prio=50 | https://www.asfi.gob.bo/node/498
+[ASFI] DATASETS=5 | data_html_table | https://www.asfi.gob.bo/node/498
+[ASFI] t= 309.3s | pag=244 | files=1050 | data=  5 | cola= 599 | prio=50 | https://www.asfi.gob.bo/node/499
+[ASFI] DATASETS=6 | data_html_table | https://www.asfi.gob.bo/node/499
+[ASFI] t= 310.0s | pag=245 | files=1062 | data=  6 | cola= 598 | prio=50 | https://www.asfi.gob.bo/node/500
+[ASFI] DATASETS=7 | data_html_table | https://www.asfi.gob.bo/node/500
+[ASFI] t= 311.0s | pag=246 | files=1074 | data=  7 | cola= 597 | prio=50 | https://www.asfi.gob.bo/node/501
+[ASFI] DATASETS=8 | data_html_table | https://www.asfi.gob.bo/node/501
+[ASFI] t= 311.6s | pag=247 | files=1086 | data=  8 | cola= 596 | prio=50 | https://www.asfi.gob.bo/node/502
+[ASFI] DATASETS=9 | data_html_table | https://www.asfi.gob.bo/node/502
+[ASFI] t= 312.5s | pag=248 | files=1098 | data=  9 | cola= 595 | prio=50 | https://www.asfi.gob.bo/node/503
+[ASFI] DATASETS=10 | data_html_table | https://www.asfi.gob.bo/node/503
+[ASFI] t= 313.3s | pag=249 | files=1110 | data= 10 | cola= 594 | prio=50 | https://www.asfi.gob.bo/node/504
+[ASFI] t= 313.9s | pag=250 | files=1122 | data= 11 | cola= 593 | prio=50 | https://www.asfi.gob.bo/node/505
+[ASFI] t= 314.5s | pag=251 | files=1134 | data= 12 | cola= 592 | prio=50 | https://www.asfi.gob.bo/node/506
+[ASFI] t= 315.4s | pag=252 | files=1145 | data= 13 | cola= 591 | prio=50 | https://www.asfi.gob.bo/node/507
+[ASFI] t= 316.3s | pag=253 | files=1157 | data= 14 | cola= 590 | prio=50 | https://www.asfi.gob.bo/node/508
+[ASFI] t= 317.3s | pag=254 | files=1169 | data= 15 | cola= 589 | prio=50 | https://www.asfi.gob.bo/la/2deg-reclamos-atendidos-asfi-segunda-instancia-2026
+[ASFI] t= 320.4s | pag=255 | files=1171 | data= 15 | cola= 588 | prio=50 | https://www.asfi.gob.bo/la/3deg-procesos-sancionatorios-2026
+[ASFI] t= 322.1s | pag=256 | files=1172 | data= 15 | cola= 587 | prio=50 | https://www.asfi.gob.bo/node/960
+[ASFI] t= 325.3s | pag=257 | files=1174 | data= 15 | cola= 586 | prio=50 | https://www.asfi.gob.bo/node/961
+[ASFI] t= 327.4s | pag=258 | files=1175 | data= 15 | cola= 585 | prio=50 | https://www.asfi.gob.bo/node/963
+[ASFI] t= 328.3s | pag=259 | files=1177 | data= 15 | cola= 584 | prio=50 | https://www.asfi.gob.bo/node/964
+[ASFI] t= 328.9s | pag=260 | files=1178 | data= 15 | cola= 583 | prio=50 | https://www.asfi.gob.bo/node/966
+[ASFI] t= 329.7s | pag=261 | files=1180 | data= 15 | cola= 582 | prio=50 | https://www.asfi.gob.bo/node/967
+[ASFI] t= 330.6s | pag=262 | files=1181 | data= 15 | cola= 581 | prio=50 | https://www.asfi.gob.bo/node/969
+[ASFI] t= 331.4s | pag=263 | files=1183 | data= 15 | cola= 580 | prio=50 | https://www.asfi.gob.bo/node/970
+[ASFI] t= 331.9s | pag=264 | files=1184 | data= 15 | cola= 579 | prio=50 | https://www.asfi.gob.bo/node/972
+[ASFI] t= 332.5s | pag=265 | files=1186 | data= 15 | cola= 578 | prio=50 | https://www.asfi.gob.bo/node/973
+[ASFI] t= 333.4s | pag=266 | files=1186 | data= 15 | cola= 577 | prio=50 | https://www.asfi.gob.bo/node/975
+[ASFI] t= 334.3s | pag=267 | files=1188 | data= 15 | cola= 576 | prio=50 | https://www.asfi.gob.bo/node/976
+[ASFI] t= 334.8s | pag=268 | files=1188 | data= 15 | cola= 575 | prio=50 | https://www.asfi.gob.bo/node/978
+[ASFI] t= 335.8s | pag=269 | files=1190 | data= 15 | cola= 574 | prio=50 | https://www.asfi.gob.bo/node/979
+[ASFI] t= 336.5s | pag=270 | files=1190 | data= 15 | cola= 573 | prio=50 | https://www.asfi.gob.bo/node/981
+[ASFI] t= 337.3s | pag=271 | files=1192 | data= 15 | cola= 572 | prio=50 | https://www.asfi.gob.bo/node/982
+[ASFI] t= 338.3s | pag=272 | files=1192 | data= 15 | cola= 571 | prio=50 | https://www.asfi.gob.bo/node/984
+[ASFI] t= 339.3s | pag=273 | files=1194 | data= 15 | cola= 570 | prio=50 | https://www.asfi.gob.bo/node/985
+[ASFI] t= 340.3s | pag=274 | files=1194 | data= 15 | cola= 569 | prio=50 | https://www.asfi.gob.bo/node/987
+[ASFI] t= 341.0s | pag=275 | files=1196 | data= 15 | cola= 568 | prio=50 | https://www.asfi.gob.bo/node/988
+[ASFI] t= 341.6s | pag=276 | files=1196 | data= 15 | cola= 567 | prio=50 | https://www.asfi.gob.bo/node/990
+[ASFI] t= 342.4s | pag=277 | files=1198 | data= 15 | cola= 566 | prio=50 | https://www.asfi.gob.bo/node/991
+[ASFI] t= 343.1s | pag=278 | files=1198 | data= 15 | cola= 565 | prio=50 | https://www.asfi.gob.bo/node/993
+[ASFI] t= 343.8s | pag=279 | files=1200 | data= 15 | cola= 564 | prio=50 | https://www.asfi.gob.bo/node/994
+[ASFI] t= 344.4s | pag=280 | files=1200 | data= 15 | cola= 563 | prio=50 | https://www.asfi.gob.bo/node/433
+[ASFI] t= 344.8s | pag=281 | files=1204 | data= 15 | cola= 562 | prio=50 | https://www.asfi.gob.bo/node/432
+[ASFI] t= 345.7s | pag=282 | files=1208 | data= 15 | cola= 561 | prio=50 | https://www.asfi.gob.bo/node/431
+[ASFI] t= 346.4s | pag=283 | files=1212 | data= 15 | cola= 560 | prio=50 | https://www.asfi.gob.bo/node/430
+[ASFI] t= 347.0s | pag=284 | files=1216 | data= 15 | cola= 559 | prio=50 | https://www.asfi.gob.bo/node/429
+[ASFI] t= 347.7s | pag=285 | files=1220 | data= 15 | cola= 558 | prio=50 | https://www.asfi.gob.bo/node/428
+[ASFI] t= 348.3s | pag=286 | files=1224 | data= 15 | cola= 557 | prio=50 | https://www.asfi.gob.bo/node/427
+[ASFI] t= 349.0s | pag=287 | files=1228 | data= 15 | cola= 556 | prio=50 | https://www.asfi.gob.bo/node/426
+[ASFI] t= 349.6s | pag=288 | files=1232 | data= 15 | cola= 555 | prio=50 | https://www.asfi.gob.bo/node/425
+[ASFI] t= 350.1s | pag=289 | files=1236 | data= 15 | cola= 554 | prio=50 | https://www.asfi.gob.bo/node/424
+[ASFI] t= 351.0s | pag=290 | files=1240 | data= 15 | cola= 553 | prio=50 | https://www.asfi.gob.bo/node/423
+[ASFI] t= 351.6s | pag=291 | files=1244 | data= 15 | cola= 552 | prio=50 | https://www.asfi.gob.bo/node/422
+[ASFI] t= 352.7s | pag=292 | files=1248 | data= 15 | cola= 551 | prio=50 | https://www.asfi.gob.bo/node/421
+[ASFI] t= 353.6s | pag=293 | files=1252 | data= 15 | cola= 550 | prio=50 | https://www.asfi.gob.bo/node/420
+[ASFI] t= 354.6s | pag=294 | files=1256 | data= 15 | cola= 549 | prio=50 | https://www.asfi.gob.bo/node/419
+[ASFI] t= 355.5s | pag=295 | files=1260 | data= 15 | cola= 548 | prio=50 | https://www.asfi.gob.bo/node/418
+[ASFI] t= 356.6s | pag=296 | files=1264 | data= 15 | cola= 547 | prio=50 | https://www.asfi.gob.bo/node/417
+[ASFI] t= 357.6s | pag=297 | files=1268 | data= 15 | cola= 546 | prio=50 | https://www.asfi.gob.bo/node/399
+[ASFI] t= 358.3s | pag=298 | files=1270 | data= 15 | cola= 545 | prio=50 | https://www.asfi.gob.bo/la/hechos-relevantes-2026
+[ASFI] t= 359.1s | pag=299 | files=1270 | data= 15 | cola= 544 | prio=50 | https://www.asfi.gob.bo/node/470
+[ASFI] t= 359.5s | pag=300 | files=1270 | data= 15 | cola= 543 | prio=50 | https://www.asfi.gob.bo/node/469
+[ASFI] t= 360.5s | pag=301 | files=1270 | data= 15 | cola= 542 | prio=50 | https://www.asfi.gob.bo/node/468
+[ASFI] t= 361.5s | pag=302 | files=1270 | data= 15 | cola= 541 | prio=50 | https://www.asfi.gob.bo/node/467
+[ASFI] t= 362.0s | pag=303 | files=1270 | data= 15 | cola= 540 | prio=50 | https://www.asfi.gob.bo/node/466
+[ASFI] t= 363.1s | pag=304 | files=1270 | data= 15 | cola= 539 | prio=50 | https://www.asfi.gob.bo/node/465
+[ASFI] t= 363.9s | pag=305 | files=1270 | data= 15 | cola= 538 | prio=50 | https://www.asfi.gob.bo/node/464
+[ASFI] t= 364.6s | pag=306 | files=1270 | data= 15 | cola= 537 | prio=50 | https://www.asfi.gob.bo/node/463
+[ASFI] t= 365.3s | pag=307 | files=1270 | data= 15 | cola= 536 | prio=50 | https://www.asfi.gob.bo/node/462
+[ASFI] t= 366.2s | pag=308 | files=1270 | data= 15 | cola= 535 | prio=50 | https://www.asfi.gob.bo/node/461
+[ASFI] t= 366.7s | pag=309 | files=1270 | data= 15 | cola= 534 | prio=50 | https://www.asfi.gob.bo/node/460
+[ASFI] t= 367.7s | pag=310 | files=1270 | data= 15 | cola= 533 | prio=50 | https://www.asfi.gob.bo//pagina-poa?field_tipos_poa_value=poa_institucional
+[ASFI] t= 368.6s | pag=311 | files=1270 | data= 15 | cola= 532 | prio=50 | https://www.asfi.gob.bo//pagina-poa?field_tipos_poa_value=poa_por_unidad_organizacional
+[ASFI] t= 369.7s | pag=312 | files=1270 | data= 15 | cola= 531 | prio=50 | https://www.asfi.gob.bo//node/1393
+[ASFI] t= 370.6s | pag=313 | files=1270 | data= 15 | cola= 530 | prio=50 | https://www.asfi.gob.bo//node/1368
+[ASFI] t= 371.4s | pag=314 | files=1270 | data= 15 | cola= 529 | prio=50 | https://www.asfi.gob.bo//node/1367
+[ASFI] t= 372.1s | pag=315 | files=1270 | data= 15 | cola= 528 | prio=50 | https://www.asfi.gob.bo//node/1365
+[ASFI] t= 372.8s | pag=316 | files=1270 | data= 15 | cola= 527 | prio=50 | https://www.asfi.gob.bo//node/1362
+[ASFI] t= 373.7s | pag=317 | files=1270 | data= 15 | cola= 526 | prio=50 | https://www.asfi.gob.bo//node/1348
+[ASFI] t= 374.6s | pag=318 | files=1270 | data= 15 | cola= 525 | prio=50 | https://www.asfi.gob.bo//node/1347
+[ASFI] t= 375.1s | pag=319 | files=1270 | data= 15 | cola= 524 | prio=50 | https://www.asfi.gob.bo//node/1322
+[ASFI] t= 376.2s | pag=320 | files=1270 | data= 15 | cola= 523 | prio=50 | https://www.asfi.gob.bo//node/1299
+[ASFI] t= 376.7s | pag=321 | files=1270 | data= 15 | cola= 522 | prio=50 | https://www.asfi.gob.bo//node/1298
+[ASFI] t= 377.5s | pag=322 | files=1270 | data= 15 | cola= 521 | prio=50 | https://www.asfi.gob.bo//node/1296
+[ASFI] t= 378.2s | pag=323 | files=1270 | data= 15 | cola= 520 | prio=50 | https://www.asfi.gob.bo//node/1180
+[ASFI] t= 379.0s | pag=324 | files=1270 | data= 15 | cola= 519 | prio=50 | https://www.asfi.gob.bo//node/1179
+[ASFI] t= 379.6s | pag=325 | files=1270 | data= 15 | cola= 518 | prio=50 | https://www.asfi.gob.bo//node/1178
+[ASFI] t= 380.4s | pag=326 | files=1270 | data= 15 | cola= 517 | prio=50 | https://www.asfi.gob.bo//node/1177
+[ASFI] t= 380.9s | pag=327 | files=1270 | data= 15 | cola= 516 | prio=50 | https://www.asfi.gob.bo//node/1176
+[ASFI] t= 381.8s | pag=328 | files=1270 | data= 15 | cola= 515 | prio=50 | https://www.asfi.gob.bo//node/1175
+[ASFI] t= 382.5s | pag=329 | files=1270 | data= 15 | cola= 514 | prio=50 | https://www.asfi.gob.bo//node/857
+[ASFI] t= 383.5s | pag=330 | files=1270 | data= 15 | cola= 513 | prio=50 | https://www.asfi.gob.bo//node/59
+[ASFI] t= 384.2s | pag=331 | files=1270 | data= 15 | cola= 512 | prio=50 | https://www.asfi.gob.bo//node/58
+[ASFI] t= 385.1s | pag=332 | files=1270 | data= 15 | cola= 511 | prio=50 | https://www.asfi.gob.bo//node/50
+[ASFI] t= 385.9s | pag=333 | files=1270 | data= 15 | cola= 510 | prio=50 | https://www.asfi.gob.bo//node/49
+[ASFI] t= 386.5s | pag=334 | files=1270 | data= 15 | cola= 509 | prio=50 | https://www.asfi.gob.bo//node/24
+[ASFI] t= 387.3s | pag=335 | files=1270 | data= 15 | cola= 508 | prio=50 | https://www.asfi.gob.bo/pagina-de-banco-de-trabajo-de-investigacion
+[ASFI] t= 387.8s | pag=336 | files=1279 | data= 15 | cola= 508 | prio=40 | https://www.asfi.gob.bo/pagina-de-banco-de-trabajo-de-investigacion?page=1
+[ASFI] t= 388.3s | pag=337 | files=1284 | data= 15 | cola= 508 | prio=40 | https://www.asfi.gob.bo/pagina-de-banco-de-trabajo-de-investigacion?page=0
+[ASFI] t= 388.9s | pag=338 | files=1284 | data= 15 | cola= 507 | prio=50 | https://www.asfi.gob.bo/node/31
+[ASFI] t= 390.0s | pag=339 | files=1284 | data= 15 | cola= 506 | prio=50 | https://www.asfi.gob.bo/node/401
+[ASFI] t= 390.8s | pag=340 | files=1285 | data= 15 | cola= 505 | prio=50 | https://www.asfi.gob.bo/pb/leyes-referidas-servicios-financieros
+[ASFI] t= 391.5s | pag=341 | files=1316 | data= 15 | cola= 504 | prio=50 | https://www.asfi.gob.bo/pb/decretos-supremos-referidos-servicios-financieros
+[ASFI] t= 393.6s | pag=342 | files=1418 | data= 15 | cola= 503 | prio=50 | https://www.asfi.gob.bo/node/953
+[ASFI] t= 394.5s | pag=343 | files=1420 | data= 16 | cola= 502 | prio=50 | https://www.asfi.gob.bo/node/954
+[ASFI] t= 396.9s | pag=344 | files=1426 | data= 17 | cola= 501 | prio=50 | https://www.asfi.gob.bo/node/955
+[ASFI] t= 397.8s | pag=344 | files=1426 | data= 17 | cola= 500 | prio=50 | https://www.asfi.gob.bo/node/956
+[ASFI] t= 399.1s | pag=345 | files=1428 | data= 17 | cola= 499 | prio=50 | https://asfi.gob.bo/
+[ASFI] t= 400.1s | pag=346 | files=1428 | data= 17 | cola= 508 | prio=50 | https://asfi.gob.bo/pagina-memoria-institucional
+[ASFI] t= 401.1s | pag=347 | files=1438 | data= 17 | cola= 510 | prio=40 | https://asfi.gob.bo/pagina-memoria-institucional?page=1
+[ASFI] t= 402.0s | pag=348 | files=1448 | data= 17 | cola= 510 | prio=40 | https://asfi.gob.bo/pagina-memoria-institucional?page=2
+[ASFI] t= 402.6s | pag=349 | files=1458 | data= 17 | cola= 509 | prio=40 | https://asfi.gob.bo/pagina-memoria-institucional?page=3
+[ASFI] t= 403.1s | pag=350 | files=1464 | data= 17 | cola= 508 | prio=40 | https://asfi.gob.bo/pagina-memoria-institucional?page=0
+[ASFI] t= 404.2s | pag=351 | files=1464 | data= 17 | cola= 507 | prio=50 | https://asfi.gob.bo/pb/objetivos-institucionales
+[ASFI] t= 404.6s | pag=352 | files=1464 | data= 17 | cola= 506 | prio=50 | https://asfi.gob.bo/pb/informacion-mae
+[ASFI] t= 405.9s | pag=353 | files=1464 | data= 17 | cola= 505 | prio=50 | https://asfi.gob.bo/la/politica-calidad
+[ASFI] t= 407.1s | pag=354 | files=1464 | data= 17 | cola= 504 | prio=50 | https://asfi.gob.bo/pb/plan-estrategico-institucional-pei
+[ASFI] t= 407.9s | pag=355 | files=1465 | data= 17 | cola= 503 | prio=50 | https://asfi.gob.bo/pagina-poa
+[ASFI] t= 408.9s | pag=356 | files=1468 | data= 17 | cola= 504 | prio=50 | https://asfi.gob.bo/la/seguimiento-y-evaluacion-al-poa
+[ASFI] t= 409.8s | pag=357 | files=1494 | data= 17 | cola= 503 | prio=50 | https://asfi.gob.bo/la/mapa-procesos
+[ASFI] t= 410.8s | pag=358 | files=1495 | data= 17 | cola= 502 | prio=50 | https://asfi.gob.bo/pb/plan-implementacion-software-libre-y-estandares-abiertos-pislea
+[ASFI] t= 411.7s | pag=359 | files=1496 | data= 17 | cola= 501 | prio=50 | https://asfi.gob.bo/presupuesto-institucional
+[ASFI] t= 412.5s | pag=360 | files=1498 | data= 17 | cola= 500 | prio=50 | https://asfi.gob.bo/pb/ejecucion-presupuestaria
+[ASFI] t= 413.6s | pag=361 | files=1498 | data= 17 | cola= 499 | prio=50 | https://asfi.gob.bo/pb/fuentes-financiamiento
+[ASFI] t= 414.2s | pag=362 | files=1501 | data= 17 | cola= 498 | prio=50 | https://asfi.gob.bo/la/balance-general
+[ASFI] t= 414.8s | pag=363 | files=1507 | data= 17 | cola= 497 | prio=50 | https://asfi.gob.bo/auditorias
+[ASFI] t= 415.4s | pag=364 | files=1549 | data= 17 | cola= 500 | prio=40 | https://asfi.gob.bo/auditorias?page=1
+[ASFI] t= 416.1s | pag=365 | files=1622 | data= 17 | cola= 500 | prio=40 | https://asfi.gob.bo/auditorias?page=2
+[ASFI] t= 416.9s | pag=366 | files=1681 | data= 17 | cola= 499 | prio=40 | https://asfi.gob.bo/auditorias?page=3
+[ASFI] t= 417.6s | pag=367 | files=1737 | data= 17 | cola= 498 | prio=40 | https://asfi.gob.bo/auditorias?page=4
+[ASFI] t= 418.3s | pag=368 | files=1739 | data= 17 | cola= 497 | prio=40 | https://asfi.gob.bo/auditorias?page=0
+[ASFI] t= 419.1s | pag=369 | files=1739 | data= 17 | cola= 496 | prio=50 | https://asfi.gob.bo/pb/gestion-denuncias-actoshechos-corrupcion
+[ASFI] t= 420.2s | pag=370 | files=1740 | data= 17 | cola= 495 | prio=50 | https://asfi.gob.bo/form/solicitud-de-informacion
+[ASFI] t= 421.4s | pag=371 | files=1740 | data= 17 | cola= 494 | prio=50 | https://asfi.gob.bo/rendicion
+[ASFI] t= 422.3s | pag=372 | files=1750 | data= 17 | cola= 495 | prio=40 | https://asfi.gob.bo/rendicion?page=1
+[ASFI] t= 423.4s | pag=373 | files=1767 | data= 17 | cola= 495 | prio=40 | https://asfi.gob.bo/rendicion?page=2
+[ASFI] t= 424.4s | pag=374 | files=1777 | data= 17 | cola= 494 | prio=40 | https://asfi.gob.bo/rendicion?page=0
+[ASFI] t= 425.5s | pag=375 | files=1777 | data= 17 | cola= 493 | prio=50 | https://asfi.gob.bo/p-gina-de-notas-de-prensa
+[ASFI] t= 426.5s | pag=376 | files=1777 | data= 17 | cola= 500 | prio=40 | https://asfi.gob.bo/p-gina-de-notas-de-prensa?page=1
+[ASFI] t= 427.2s | pag=377 | files=1777 | data= 17 | cola= 509 | prio=40 | https://asfi.gob.bo/p-gina-de-notas-de-prensa?page=2
+[ASFI] t= 427.9s | pag=378 | files=1777 | data= 17 | cola= 516 | prio=40 | https://asfi.gob.bo/p-gina-de-notas-de-prensa?page=0
+[ASFI] t= 428.6s | pag=379 | files=1777 | data= 17 | cola= 515 | prio=50 | https://asfi.gob.bo/pagina-de-revistas
+[ASFI] t= 429.5s | pag=380 | files=1779 | data= 17 | cola= 514 | prio=50 | https://asfi.gob.bo/pb/trabajos-investigacion
+[ASFI] t= 430.4s | pag=381 | files=1779 | data= 17 | cola= 516 | prio= 2 | https://asfi.gob.bo/pb/publicaciones
+[ASFI] t= 431.4s | pag=382 | files=1783 | data= 17 | cola= 515 | prio= 2 | https://asfi.gob.bo/pagina-de-otras-publicaciones
+[ASFI] t= 432.1s | pag=383 | files=1785 | data= 17 | cola= 514 | prio=50 | https://asfi.gob.bo/pagina-lista-campanias
+[ASFI] t= 433.2s | pag=384 | files=1785 | data= 17 | cola= 525 | prio=40 | https://asfi.gob.bo/pagina-lista-campanias?page=1
+[ASFI] t= 434.1s | pag=385 | files=1785 | data= 17 | cola= 534 | prio=40 | https://asfi.gob.bo/pagina-lista-campanias?page=2
+[ASFI] t= 434.9s | pag=386 | files=1785 | data= 17 | cola= 543 | prio=40 | https://asfi.gob.bo/pagina-lista-campanias?page=4
+[ASFI] t= 435.8s | pag=387 | files=1785 | data= 17 | cola= 544 | prio=40 | https://asfi.gob.bo/pagina-lista-campanias?page=0
+[ASFI] t= 436.8s | pag=388 | files=1785 | data= 17 | cola= 543 | prio=40 | https://asfi.gob.bo/pagina-lista-campanias?page=3
+[ASFI] t= 437.7s | pag=389 | files=1785 | data= 17 | cola= 551 | prio=50 | https://asfi.gob.bo/pagina-de-comunicados
+[ASFI] t= 438.5s | pag=390 | files=1795 | data= 17 | cola= 551 | prio=40 | https://asfi.gob.bo/pagina-de-comunicados?page=1
+[ASFI] t= 439.5s | pag=391 | files=1803 | data= 17 | cola= 551 | prio=40 | https://asfi.gob.bo/pagina-de-comunicados?page=0
+[ASFI] t= 440.4s | pag=392 | files=1803 | data= 17 | cola= 550 | prio=50 | https://asfi.gob.bo/pb/organigrama-institucional
+[ASFI] t= 441.3s | pag=393 | files=1803 | data= 17 | cola= 549 | prio=50 | https://asfi.gob.bo/la/nomina-servidores
+[ASFI] t= 442.4s | pag=394 | files=1804 | data= 17 | cola= 548 | prio=50 | https://asfi.gob.bo/escala-salarial
+[ASFI] t= 443.8s | pag=395 | files=1807 | data= 17 | cola= 547 | prio=50 | https://asfi.gob.bo/manual-de-organizaci-n-funcional
+[ASFI] t= 444.6s | pag=396 | files=1808 | data= 17 | cola= 546 | prio=50 | https://asfi.gob.bo/manual-de-procedimiento
+[ASFI] t= 445.2s | pag=397 | files=1809 | data= 17 | cola= 545 | prio=50 | https://asfi.gob.bo/poais
+[ASFI] t= 445.8s | pag=398 | files=1810 | data= 17 | cola= 545 | prio=50 | https://asfi.gob.bo/la/manual-puestos
+[ASFI] t= 447.0s | pag=399 | files=1833 | data= 17 | cola= 544 | prio=50 | https://asfi.gob.bo/oportunidad-de-empleo
+[ASFI] t= 448.0s | pag=400 | files=1833 | data= 17 | cola= 543 | prio=50 | https://asfi.gob.bo/pb/terminos-referencia-consultores-linea
+[ASFI] t= 449.1s | pag=401 | files=1833 | data= 17 | cola= 542 | prio=50 | https://asfi.gob.bo/convocatorias
+[ASFI] t= 449.7s | pag=402 | files=1843 | data= 17 | cola= 544 | prio=40 | https://asfi.gob.bo/convocatorias?page=1
+[ASFI] t= 450.4s | pag=403 | files=1853 | data= 17 | cola= 544 | prio=40 | https://asfi.gob.bo/convocatorias?page=2
+[ASFI] t= 451.2s | pag=404 | files=1863 | data= 17 | cola= 544 | prio=40 | https://asfi.gob.bo/convocatorias?page=10
+[ASFI] t= 452.7s | pag=405 | files=1864 | data= 17 | cola= 545 | prio=40 | https://asfi.gob.bo/convocatorias?page=0
+[ASFI] t= 453.4s | pag=406 | files=1864 | data= 17 | cola= 544 | prio=40 | https://asfi.gob.bo/convocatorias?page=3
+[ASFI] t= 454.2s | pag=407 | files=1874 | data= 17 | cola= 544 | prio=40 | https://asfi.gob.bo/convocatorias?page=9
+[ASFI] t= 454.8s | pag=408 | files=1884 | data= 17 | cola= 543 | prio=40 | https://asfi.gob.bo/convocatorias?page=8
+[ASFI] t= 455.8s | pag=409 | files=1894 | data= 17 | cola= 543 | prio=40 | https://asfi.gob.bo/convocatorias?page=4
+[ASFI] t= 456.4s | pag=410 | files=1904 | data= 17 | cola= 543 | prio=40 | https://asfi.gob.bo/convocatorias?page=7
+[ASFI] t= 457.1s | pag=411 | files=1914 | data= 17 | cola= 543 | prio=40 | https://asfi.gob.bo/convocatorias?page=5
+[ASFI] t= 457.9s | pag=412 | files=1924 | data= 17 | cola= 542 | prio=40 | https://asfi.gob.bo/convocatorias?page=6
+[ASFI] t= 458.7s | pag=413 | files=1934 | data= 17 | cola= 541 | prio=50 | https://asfi.gob.bo/proveedores
+[ASFI] t= 459.6s | pag=414 | files=1936 | data= 17 | cola= 540 | prio=50 | https://asfi.gob.bo/pb/programa-anual-contrataciones
+[ASFI] t= 460.7s | pag=415 | files=1938 | data= 17 | cola= 539 | prio=50 | https://asfi.gob.bo/la/normativa-internacional
+[ASFI] t= 462.1s | pag=416 | files=1938 | data= 17 | cola= 538 | prio=50 | https://asfi.gob.bo/pb/reglamentos-vigentes
+[ASFI] t= 463.1s | pag=417 | files=1945 | data= 17 | cola= 537 | prio=50 | https://asfi.gob.bo/pb/servicios-financieros
+[ASFI] t= 463.6s | pag=418 | files=1945 | data= 17 | cola= 538 | prio=10 | https://asfi.gob.bo/node/402
+[ASFI] t= 464.6s | pag=419 | files=1945 | data= 17 | cola= 537 | prio=50 | https://asfi.gob.bo/pb/registro-suscriptores-al-servicio-comunicacion
+[ASFI] t= 465.0s | pag=420 | files=1945 | data= 17 | cola= 536 | prio=50 | https://asfi.gob.bo/pb/legislacion-y-disposiciones-para-regulados
+[ASFI] t= 465.7s | pag=421 | files=1945 | data= 17 | cola= 541 | prio=50 | https://asfi.gob.bo/pb/decretos
+[ASFI] t= 467.2s | pag=422 | files=2017 | data= 17 | cola= 540 | prio=50 | https://asfi.gob.bo/pb/normativa-nacional
+[ASFI] t= 468.2s | pag=423 | files=2033 | data= 17 | cola= 539 | prio=50 | https://asfi.gob.bo/pb/registro-y-seguimiento-reclamos
+[ASFI] t= 469.6s | pag=424 | files=2033 | data= 17 | cola= 538 | prio=50 | https://asfi.gob.bo/la/derechos-del-consumidor-financiero
+[ASFI] t= 470.5s | pag=425 | files=2033 | data= 17 | cola= 537 | prio=50 | https://asfi.gob.bo/la/cajeros-automaticos-para-personas-discapacidad
+[ASFI] t= 471.6s | pag=426 | files=2035 | data= 17 | cola= 536 | prio=50 | https://asfi.gob.bo/la/lineamientos-para-enif
+[ASFI] t= 472.5s | pag=427 | files=2036 | data= 17 | cola= 535 | prio=50 | https://asfi.gob.bo/pb/contratos-modelo-para-servicios-financieros
+[ASFI] t= 473.0s | pag=428 | files=2036 | data= 17 | cola= 534 | prio=50 | https://asfi.gob.bo/pb/tiempos-maximos-atencion-creditos
+[ASFI] t= 474.1s | pag=429 | files=2060 | data= 17 | cola= 533 | prio=50 | https://asfi.gob.bo/pb/entidades-supervisadas-if
+[ASFI] t= 474.5s | pag=430 | files=2060 | data= 17 | cola= 538 | prio= 2 | https://asfi.gob.bo/la/entidades-intermediacion-financiera-licencia-funcionamiento
+[ASFI] t= 475.6s | pag=431 | files=2071 | data= 17 | cola= 537 | prio=10 | https://asfi.gob.bo/node/1003
+[ASFI] t= 476.2s | pag=432 | files=2073 | data= 17 | cola= 536 | prio=50 | https://asfi.gob.bo/pb/registros
+[ASFI] t= 477.4s | pag=433 | files=2073 | data= 17 | cola= 537 | prio=50 | https://asfi.gob.bo/la/cobertura-servicios-financieros
+[ASFI] t= 479.9s | pag=434 | files=2074 | data= 17 | cola= 536 | prio=50 | https://asfi.gob.bo/pb/entidades-supervisadas-mv
+[ASFI] t= 481.1s | pag=435 | files=2074 | data= 17 | cola= 538 | prio= 2 | https://asfi.gob.bo/pb/entidades-inscritas-registro-del-mercado-valores
+[ASFI] t= 482.0s | pag=436 | files=2074 | data= 17 | cola= 537 | prio=50 | https://asfi.gob.bo/pb/reglamentos-internos-fondos-inversion
+[ASFI] t= 482.9s | pag=437 | files=2074 | data= 17 | cola= 559 | prio=50 | https://asfi.gob.bo/la/empresas-supervisadas
+[ASFI] t= 483.8s | pag=438 | files=2081 | data= 17 | cola= 558 | prio=50 | https://asfi.gob.bo/pb/sociedades-controladoras-grupos-financieros
+[ASFI] t= 485.1s | pag=439 | files=2082 | data= 17 | cola= 566 | prio=50 | https://asfi.gob.bo/pb/estados-financieros
+[ASFI] t= 486.3s | pag=440 | files=2082 | data= 17 | cola= 621 | prio=50 | https://asfi.gob.bo/pagina-de-direcciones
+[ASFI] t= 487.4s | pag=441 | files=2082 | data= 17 | cola= 621 | prio=40 | https://asfi.gob.bo/pagina-de-direcciones?page=1
+[ASFI] t= 488.2s | pag=442 | files=2082 | data= 17 | cola= 621 | prio=40 | https://asfi.gob.bo/pagina-de-direcciones?page=0
+[ASFI] t= 488.8s | pag=443 | files=2082 | data= 17 | cola= 620 | prio=50 | https://asfi.gob.bo/pb/responsables-recibir-consultas
+[ASFI] t= 489.7s | pag=444 | files=2082 | data= 17 | cola= 619 | prio=50 | https://asfi.gob.bo/pb/numeros-telefono-y-call-center
+[ASFI] t= 490.7s | pag=445 | files=2082 | data= 17 | cola= 618 | prio=50 | https://asfi.gob.bo/pb/correo-electronico-y-redes-sociales
+[ASFI] t= 491.7s | pag=446 | files=2082 | data= 17 | cola= 617 | prio=50 | https://asfi.gob.bo/pb/recepcion-correspondencia-firma-digital
+[ASFI] t= 492.9s | pag=447 | files=2082 | data= 17 | cola= 616 | prio=50 | https://asfi.gob.bo/terminos-y-condiciones
+[ASFI] t= 493.6s | pag=447 | files=2082 | data= 17 | cola= 615 | prio=50 | https://asfi.gob.bo/sitemap
+[ASFI] t= 494.7s | pag=447 | files=2082 | data= 17 | cola= 614 | prio=50 | https://asfi.gob.bo/search/node
+[ASFI] t= 495.9s | pag=448 | files=2082 | data= 17 | cola= 614 | prio=50 | https://asfi.gob.bo/la/resoluciones-entidades-liquidacion
+[ASFI] t= 496.9s | pag=449 | files=2083 | data= 17 | cola= 613 | prio=50 | https://asfi.gob.bo/pb/prospectos
+[ASFI] t= 497.7s | pag=450 | files=2083 | data= 17 | cola= 697 | prio=50 | https://asfi.gob.bo/la/calificaciones-riesgo
+[ASFI] t= 498.6s | pag=451 | files=2084 | data= 17 | cola= 696 | prio=50 | https://asfi.gob.bo/la/procedimientos-inscripcion
+[ASFI] t= 499.4s | pag=452 | files=2087 | data= 17 | cola= 695 | prio=50 | https://asfi.gob.bo/la/resoluciones-caducidad
+[ASFI] t= 500.3s | pag=453 | files=2101 | data= 17 | cola= 694 | prio=50 | https://asfi.gob.bo/la/resoluciones-prohibicion-realizar-operaciones
+[ASFI] t= 501.1s | pag=454 | files=2104 | data= 17 | cola= 693 | prio=50 | https://asfi.gob.bo/la/resoluciones-rechazo-constitucion
+[ASFI] t= 501.9s | pag=455 | files=2115 | data= 17 | cola= 692 | prio=50 | https://asfi.gob.bo/la/resoluciones-revocatoria
+[ASFI] t= 502.7s | pag=456 | files=2135 | data= 17 | cola= 691 | prio=50 | https://asfi.gob.bo/node/1064
+[ASFI] t= 507.1s | pag=457 | files=2143 | data= 17 | cola= 690 | prio=50 | https://asfi.gob.bo/node/1009
+[ASFI] t= 508.0s | pag=458 | files=2144 | data= 17 | cola= 689 | prio=50 | https://asfi.gob.bo/node/1010
+[ASFI] t= 508.7s | pag=459 | files=2145 | data= 17 | cola= 688 | prio=50 | https://asfi.gob.bo/node/1007
+[ASFI] t= 509.7s | pag=460 | files=2145 | data= 17 | cola= 703 | prio=50 | https://asfi.gob.bo/pb/carta-informativa
+[ASFI] t= 510.5s | pag=461 | files=2176 | data= 17 | cola= 702 | prio=50 | https://asfi.gob.bo/node/1005
+[ASFI] t= 511.3s | pag=462 | files=2187 | data= 17 | cola= 701 | prio=50 | https://asfi.gob.bo/la/separatas-departamentales
+[ASFI] t= 512.1s | pag=463 | files=2196 | data= 17 | cola= 700 | prio=50 | https://asfi.gob.bo/la/inversiones
+[ASFI] t= 526.2s | pag=464 | files=2207 | data= 17 | cola= 699 | prio=50 | https://asfi.gob.bo/node/1046
+[ASFI] t= 526.9s | pag=465 | files=2209 | data= 17 | cola= 698 | prio=50 | https://asfi.gob.bo/node/1051
+[ASFI] t= 527.9s | pag=466 | files=2209 | data= 17 | cola= 697 | prio=50 | https://asfi.gob.bo/la/atencion-reclamos-y-consultas
+[ASFI] t= 529.0s | pag=467 | files=2210 | data= 17 | cola= 696 | prio=50 | https://asfi.gob.bo/pb/bancos-hasta-21072014
+[ASFI] t= 529.7s | pag=468 | files=2210 | data= 17 | cola= 695 | prio=50 | https://asfi.gob.bo/pb/fondos-financieros-privados-hasta-21072014
+[ASFI] t= 530.4s | pag=469 | files=2210 | data= 17 | cola= 694 | prio=50 | https://asfi.gob.bo/pb/mutuales-ahorro-y-prestamo-hasta-20112015
+[ASFI] t= 531.0s | pag=470 | files=2210 | data= 17 | cola= 693 | prio=50 | https://asfi.gob.bo/la/entidades-segundo-piso
+[ASFI] t= 531.7s | pag=471 | files=2210 | data= 17 | cola= 694 | prio=50 | https://asfi.gob.bo/pb/bancos-multiples
+[ASFI] t= 532.3s | pag=472 | files=2210 | data= 17 | cola= 693 | prio=50 | https://asfi.gob.bo/pb/bancos-pyme
+[ASFI] t= 533.0s | pag=473 | files=2210 | data= 17 | cola= 692 | prio=50 | https://asfi.gob.bo/pb/cooperativas-ahorro-y-credito-abiertas
+[ASFI] t= 533.8s | pag=474 | files=2210 | data= 17 | cola= 691 | prio=50 | https://asfi.gob.bo/pb/bancos-desarrollo-productivo
+[ASFI] t= 534.6s | pag=475 | files=2210 | data= 17 | cola= 690 | prio=50 | https://asfi.gob.bo/pb/estados-financieros-resumidos
+[ASFI] t= 535.4s | pag=476 | files=2210 | data= 17 | cola= 700 | prio=50 | https://asfi.gob.bo/pb/banco-central-bolivia
+[ASFI] t= 536.2s | pag=477 | files=2210 | data= 17 | cola= 710 | prio=50 | https://asfi.gob.bo/pb/fogavisp-fogacp-y-fogagre
+[ASFI] t= 536.7s | pag=478 | files=2210 | data= 17 | cola= 718 | prio=50 | https://asfi.gob.bo/node/498
+[ASFI] t= 552.5s | pag=479 | files=2222 | data= 18 | cola= 717 | prio=50 | https://asfi.gob.bo/node/499
+[ASFI] t= 553.4s | pag=480 | files=2234 | data= 19 | cola= 716 | prio=50 | https://asfi.gob.bo/node/500
+[ASFI] t= 554.2s | pag=481 | files=2246 | data= 20 | cola= 715 | prio=50 | https://asfi.gob.bo/node/501
+[ASFI] t= 554.8s | pag=482 | files=2258 | data= 21 | cola= 714 | prio=50 | https://asfi.gob.bo/node/502
+[ASFI] t= 555.6s | pag=483 | files=2270 | data= 22 | cola= 713 | prio=50 | https://asfi.gob.bo/node/503
+[ASFI] t= 556.3s | pag=484 | files=2282 | data= 23 | cola= 712 | prio=50 | https://asfi.gob.bo/node/504
+[ASFI] t= 557.0s | pag=485 | files=2294 | data= 24 | cola= 711 | prio=50 | https://asfi.gob.bo/node/505
+[ASFI] DATASETS=25 | data_html_table | https://asfi.gob.bo/node/505
+[ASFI] t= 557.9s | pag=486 | files=2306 | data= 25 | cola= 710 | prio=50 | https://asfi.gob.bo/node/506
+[ASFI] t= 558.5s | pag=487 | files=2317 | data= 26 | cola= 709 | prio=50 | https://asfi.gob.bo/node/507
+[ASFI] t= 559.4s | pag=488 | files=2329 | data= 27 | cola= 708 | prio=50 | https://asfi.gob.bo/node/508
+[ASFI] t= 560.5s | pag=489 | files=2341 | data= 28 | cola= 707 | prio=50 | https://asfi.gob.bo/la/2deg-reclamos-atendidos-asfi-segunda-instancia-2026
+[ASFI] t= 563.5s | pag=490 | files=2343 | data= 28 | cola= 706 | prio=50 | https://asfi.gob.bo/la/3deg-procesos-sancionatorios-2026
+[ASFI] t= 565.2s | pag=491 | files=2344 | data= 28 | cola= 705 | prio=50 | https://asfi.gob.bo/node/960
+[ASFI] t= 567.7s | pag=492 | files=2346 | data= 28 | cola= 704 | prio=50 | https://asfi.gob.bo/node/961
+[ASFI] t= 569.7s | pag=493 | files=2347 | data= 28 | cola= 703 | prio=50 | https://asfi.gob.bo/node/963
+[ASFI] t= 570.4s | pag=494 | files=2349 | data= 28 | cola= 702 | prio=50 | https://asfi.gob.bo/node/964
+[ASFI] t= 571.2s | pag=495 | files=2350 | data= 28 | cola= 701 | prio=50 | https://asfi.gob.bo/node/966
+[ASFI] t= 572.0s | pag=496 | files=2352 | data= 28 | cola= 700 | prio=50 | https://asfi.gob.bo/node/967
+[ASFI] t= 572.8s | pag=497 | files=2353 | data= 28 | cola= 699 | prio=50 | https://asfi.gob.bo/node/969
+[ASFI] t= 573.7s | pag=498 | files=2355 | data= 28 | cola= 698 | prio=50 | https://asfi.gob.bo/node/970
+[ASFI] t= 574.2s | pag=499 | files=2356 | data= 28 | cola= 697 | prio=50 | https://asfi.gob.bo/node/972
+[ASFI] t= 574.8s | pag=500 | files=2358 | data= 28 | cola= 696 | prio=50 | https://asfi.gob.bo/node/973
+[ASFI] t= 575.4s | pag=501 | files=2358 | data= 28 | cola= 695 | prio=50 | https://asfi.gob.bo/node/975
+[ASFI] t= 576.3s | pag=502 | files=2360 | data= 28 | cola= 694 | prio=50 | https://asfi.gob.bo/node/976
+[ASFI] t= 577.3s | pag=503 | files=2360 | data= 28 | cola= 693 | prio=50 | https://asfi.gob.bo/node/978
+[ASFI] t= 578.2s | pag=504 | files=2362 | data= 28 | cola= 692 | prio=50 | https://asfi.gob.bo/node/979
+[ASFI] t= 578.9s | pag=505 | files=2362 | data= 28 | cola= 691 | prio=50 | https://asfi.gob.bo/node/981
+[ASFI] t= 579.8s | pag=506 | files=2364 | data= 28 | cola= 690 | prio=50 | https://asfi.gob.bo/node/982
+[ASFI] t= 580.4s | pag=507 | files=2364 | data= 28 | cola= 689 | prio=50 | https://asfi.gob.bo/node/984
+[ASFI] t= 581.2s | pag=508 | files=2366 | data= 28 | cola= 688 | prio=50 | https://asfi.gob.bo/node/985
+[ASFI] t= 581.8s | pag=509 | files=2366 | data= 28 | cola= 687 | prio=50 | https://asfi.gob.bo/node/987
+[ASFI] t= 582.7s | pag=510 | files=2368 | data= 28 | cola= 686 | prio=50 | https://asfi.gob.bo/node/988
+[ASFI] t= 583.4s | pag=511 | files=2368 | data= 28 | cola= 685 | prio=50 | https://asfi.gob.bo/node/990
+[ASFI] t= 584.3s | pag=512 | files=2370 | data= 28 | cola= 684 | prio=50 | https://asfi.gob.bo/node/991
+[ASFI] t= 584.9s | pag=513 | files=2370 | data= 28 | cola= 683 | prio=50 | https://asfi.gob.bo/node/993
+[ASFI] t= 585.6s | pag=514 | files=2372 | data= 28 | cola= 682 | prio=50 | https://asfi.gob.bo/node/994
+[ASFI] t= 586.7s | pag=515 | files=2372 | data= 28 | cola= 681 | prio=50 | https://asfi.gob.bo/node/433
+[ASFI] t= 587.1s | pag=516 | files=2376 | data= 28 | cola= 680 | prio=50 | https://asfi.gob.bo/node/432
+[ASFI] t= 588.0s | pag=517 | files=2380 | data= 28 | cola= 679 | prio=50 | https://asfi.gob.bo/node/431
+[ASFI] t= 589.1s | pag=518 | files=2384 | data= 28 | cola= 678 | prio=50 | https://asfi.gob.bo/node/430
+[ASFI] t= 590.0s | pag=519 | files=2388 | data= 28 | cola= 677 | prio=50 | https://asfi.gob.bo/node/429
+[ASFI] t= 590.6s | pag=520 | files=2392 | data= 28 | cola= 676 | prio=50 | https://asfi.gob.bo/node/428
+[ASFI] t= 591.2s | pag=521 | files=2396 | data= 28 | cola= 675 | prio=50 | https://asfi.gob.bo/node/427
+[ASFI] t= 591.8s | pag=522 | files=2400 | data= 28 | cola= 674 | prio=50 | https://asfi.gob.bo/node/426
+[ASFI] t= 592.7s | pag=523 | files=2404 | data= 28 | cola= 673 | prio=50 | https://asfi.gob.bo/node/425
+[ASFI] t= 593.7s | pag=524 | files=2408 | data= 28 | cola= 672 | prio=50 | https://asfi.gob.bo/node/424
+[ASFI] t= 594.7s | pag=525 | files=2412 | data= 28 | cola= 671 | prio=50 | https://asfi.gob.bo/node/423
+[ASFI] t= 595.3s | pag=526 | files=2416 | data= 28 | cola= 670 | prio=50 | https://asfi.gob.bo/node/422
+[ASFI] t= 596.3s | pag=527 | files=2420 | data= 28 | cola= 669 | prio=50 | https://asfi.gob.bo/node/421
+[ASFI] t= 597.1s | pag=528 | files=2424 | data= 28 | cola= 668 | prio=50 | https://asfi.gob.bo/node/420
+[ASFI] t= 597.8s | pag=529 | files=2428 | data= 28 | cola= 667 | prio=50 | https://asfi.gob.bo/node/419
+[ASFI] t= 598.3s | pag=530 | files=2432 | data= 28 | cola= 666 | prio=50 | https://asfi.gob.bo/node/418
+[ASFI] t= 599.0s | pag=531 | files=2436 | data= 28 | cola= 665 | prio=50 | https://asfi.gob.bo/node/417
+[ASFI] t= 599.7s | pag=532 | files=2440 | data= 28 | cola= 664 | prio=50 | https://asfi.gob.bo/node/399
+[ASFI] t= 600.6s | pag=533 | files=2442 | data= 28 | cola= 663 | prio=50 | https://asfi.gob.bo/la/hechos-relevantes-2026
+[ASFI] t= 601.2s | pag=534 | files=2442 | data= 28 | cola= 662 | prio=50 | https://asfi.gob.bo/node/470
+[ASFI] t= 602.2s | pag=535 | files=2442 | data= 28 | cola= 661 | prio=50 | https://asfi.gob.bo/node/469
+[ASFI] t= 602.7s | pag=536 | files=2442 | data= 28 | cola= 660 | prio=50 | https://asfi.gob.bo/node/468
+[ASFI] t= 603.8s | pag=537 | files=2442 | data= 28 | cola= 659 | prio=50 | https://asfi.gob.bo/node/467
+[ASFI] t= 604.3s | pag=538 | files=2442 | data= 28 | cola= 658 | prio=50 | https://asfi.gob.bo/node/466
+[ASFI] t= 605.2s | pag=539 | files=2442 | data= 28 | cola= 657 | prio=50 | https://asfi.gob.bo/node/465
+[ASFI] t= 606.4s | pag=540 | files=2442 | data= 28 | cola= 656 | prio=50 | https://asfi.gob.bo/node/464
+[ASFI] t= 606.9s | pag=541 | files=2442 | data= 28 | cola= 655 | prio=50 | https://asfi.gob.bo/node/463
+[ASFI] t= 607.6s | pag=542 | files=2442 | data= 28 | cola= 654 | prio=50 | https://asfi.gob.bo/node/462
+[ASFI] t= 608.6s | pag=543 | files=2442 | data= 28 | cola= 653 | prio=50 | https://asfi.gob.bo/node/461
+[ASFI] t= 609.5s | pag=544 | files=2442 | data= 28 | cola= 652 | prio=50 | https://asfi.gob.bo/node/460
+[ASFI] t= 610.5s | pag=545 | files=2442 | data= 28 | cola= 651 | prio=50 | https://www.asfi.gob.bo/node/1000
+[ASFI] t= 611.0s | pag=546 | files=2443 | data= 28 | cola= 650 | prio=50 | https://www.asfi.gob.bo/pb/entidades-desestimadas-del-proceso-adecuacion
+[ASFI] t= 611.5s | pag=547 | files=2445 | data= 28 | cola= 649 | prio=50 | https://www.asfi.gob.bo/node/1002
+[ASFI] t= 612.3s | pag=548 | files=2446 | data= 28 | cola= 648 | prio=50 | https://www.asfi.gob.bo/la/siglas
+[ASFI] t= 612.9s | pag=549 | files=2447 | data= 28 | cola= 647 | prio=50 | https://www.asfi.gob.bo/pb/registro-firmas-auditoria-externa-autorizadas
+[ASFI] t= 613.7s | pag=550 | files=2464 | data= 28 | cola= 646 | prio=50 | https://www.asfi.gob.bo/node/1032
+[ASFI] t= 614.3s | pag=551 | files=2464 | data= 28 | cola= 645 | prio=50 | https://www.asfi.gob.bo/node/1034
+[ASFI] t= 615.3s | pag=552 | files=2464 | data= 28 | cola= 644 | prio=50 | https://www.asfi.gob.bo/node/1035
+[ASFI] t= 616.2s | pag=553 | files=2468 | data= 28 | cola= 643 | prio=50 | https://www.asfi.gob.bo/node/473
+[ASFI] t= 617.3s | pag=554 | files=2481 | data= 28 | cola= 642 | prio=50 | https://www.asfi.gob.bo/node/474
+[ASFI] t= 618.2s | pag=555 | files=2483 | data= 28 | cola= 641 | prio=50 | https://www.asfi.gob.bo/node/475
+[ASFI] t= 619.2s | pag=556 | files=2490 | data= 28 | cola= 640 | prio=50 | https://www.asfi.gob.bo/node/476
+[ASFI] t= 620.2s | pag=557 | files=2497 | data= 28 | cola= 639 | prio=50 | https://www.asfi.gob.bo/node/477
+[ASFI] t= 621.2s | pag=558 | files=2503 | data= 28 | cola= 638 | prio=50 | https://www.asfi.gob.bo/node/478
+[ASFI] t= 621.9s | pag=559 | files=2513 | data= 28 | cola= 637 | prio=50 | https://www.asfi.gob.bo/node/479
+[ASFI] t= 622.6s | pag=560 | files=2520 | data= 28 | cola= 636 | prio=50 | https://www.asfi.gob.bo/node/480
+[ASFI] t= 623.6s | pag=561 | files=2522 | data= 28 | cola= 635 | prio=50 | https://www.asfi.gob.bo/node/481
+[ASFI] t= 624.5s | pag=562 | files=2523 | data= 28 | cola= 634 | prio=50 | https://www.asfi.gob.bo/la/panamerican-safi-sa-0
+[ASFI] t= 625.0s | pag=563 | files=2524 | data= 28 | cola= 633 | prio=50 | https://www.asfi.gob.bo/node/482
+[ASFI] t= 625.8s | pag=564 | files=2530 | data= 28 | cola= 632 | prio=50 | https://www.asfi.gob.bo/node/483
+[ASFI] t= 626.3s | pag=565 | files=2533 | data= 28 | cola= 631 | prio=50 | https://www.asfi.gob.bo/node/484
+[ASFI] t= 627.1s | pag=566 | files=2537 | data= 28 | cola= 630 | prio=50 | https://www.asfi.gob.bo/node/485
+[ASFI] t= 628.1s | pag=567 | files=2538 | data= 28 | cola= 629 | prio=50 | https://www.asfi.gob.bo/node/486
+[ASFI] t= 628.6s | pag=568 | files=2539 | data= 28 | cola= 628 | prio=50 | https://www.asfi.gob.bo/node/487
+[ASFI] t= 629.2s | pag=569 | files=2542 | data= 28 | cola= 627 | prio=50 | https://www.asfi.gob.bo/node/488
+[ASFI] t= 630.1s | pag=570 | files=2545 | data= 28 | cola= 626 | prio=50 | https://www.asfi.gob.bo/node/489
+[ASFI] t= 631.1s | pag=571 | files=2547 | data= 28 | cola= 625 | prio=50 | https://www.asfi.gob.bo/node/490
+[ASFI] t= 632.1s | pag=572 | files=2549 | data= 28 | cola= 624 | prio=50 | https://www.asfi.gob.bo/node/491
+[ASFI] t= 633.0s | pag=573 | files=2551 | data= 28 | cola= 623 | prio=50 | https://www.asfi.gob.bo/node/492
+[ASFI] t= 633.8s | pag=574 | files=2553 | data= 28 | cola= 622 | prio=50 | https://www.asfi.gob.bo/node/493
+[ASFI] t= 634.4s | pag=575 | files=2554 | data= 28 | cola= 621 | prio=50 | https://www.asfi.gob.bo/node/494
+[ASFI] t= 635.3s | pag=576 | files=2556 | data= 28 | cola= 620 | prio=50 | https://www.asfi.gob.bo/node/495
+[ASFI] t= 636.2s | pag=577 | files=2557 | data= 28 | cola= 619 | prio=50 | https://www.asfi.gob.bo/node/1373
+[ASFI] t= 638.5s | pag=578 | files=2562 | data= 28 | cola= 618 | prio=50 | https://www.asfi.gob.bo/node/1037
+[ASFI] t= 639.2s | pag=579 | files=2574 | data= 28 | cola= 617 | prio=50 | https://www.asfi.gob.bo/node/1038
+[ASFI] t= 640.2s | pag=580 | files=2586 | data= 28 | cola= 616 | prio=50 | https://www.asfi.gob.bo/node/1039
+[ASFI] t= 641.3s | pag=581 | files=2598 | data= 28 | cola= 615 | prio=50 | https://www.asfi.gob.bo/node/1040
+[ASFI] t= 642.1s | pag=582 | files=2610 | data= 28 | cola= 614 | prio=50 | https://www.asfi.gob.bo/node/1041
+[ASFI] t= 642.9s | pag=583 | files=2622 | data= 28 | cola= 613 | prio=50 | https://www.asfi.gob.bo/node/1042
+[ASFI] t= 643.4s | pag=584 | files=2634 | data= 28 | cola= 612 | prio=50 | https://www.asfi.gob.bo/node/1043
+[ASFI] t= 644.0s | pag=585 | files=2646 | data= 28 | cola= 611 | prio=50 | https://www.asfi.gob.bo/node/1044
+[ASFI] t= 645.0s | pag=586 | files=2653 | data= 28 | cola= 610 | prio=50 | https://www.asfi.gob.bo/la/almaceneras-generales-deposito-2026
+[ASFI] t= 652.8s | pag=587 | files=2659 | data= 28 | cola= 609 | prio=50 | https://www.asfi.gob.bo/la/entidades-arrendamiento-financiero-2026
+[ASFI] t= 662.0s | pag=588 | files=2666 | data= 28 | cola= 608 | prio=50 | https://www.asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2026
+[ASFI] t= 672.0s | pag=589 | files=2673 | data= 28 | cola= 607 | prio=50 | https://www.asfi.gob.bo/la/buros-informacion-2026
+[ASFI] t= 680.9s | pag=590 | files=2680 | data= 28 | cola= 606 | prio=50 | https://www.asfi.gob.bo/la/empresas-servicios-pago-movil-2026
+[ASFI] t= 690.2s | pag=591 | files=2687 | data= 28 | cola= 605 | prio=50 | https://www.asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2026
+[ASFI] t= 699.5s | pag=592 | files=2694 | data= 29 | cola= 604 | prio=50 | https://www.asfi.gob.bo/la/empresas-administradoras-tarjetas-electronicas-2026
+[ASFI] t= 709.0s | pag=593 | files=2701 | data= 29 | cola= 603 | prio=50 | https://www.asfi.gob.bo/la/empresas-giros-y-remesas-dinero-2026
+[ASFI] t= 717.6s | pag=594 | files=2707 | data= 29 | cola= 602 | prio=50 | https://www.asfi.gob.bo/node/600
+[ASFI] t= 732.3s | pag=595 | files=2719 | data= 29 | cola= 601 | prio=50 | https://www.asfi.gob.bo/node/603
+[ASFI] t= 749.0s | pag=596 | files=2731 | data= 29 | cola= 600 | prio=50 | https://www.asfi.gob.bo/node/604
+[ASFI] t= 765.9s | pag=597 | files=2743 | data= 29 | cola= 599 | prio=50 | https://www.asfi.gob.bo/node/606
+[ASFI] t= 782.3s | pag=598 | files=2755 | data= 29 | cola= 598 | prio=50 | https://www.asfi.gob.bo/node/608
+[ASFI] t= 796.6s | pag=599 | files=2767 | data= 29 | cola= 597 | prio=50 | https://www.asfi.gob.bo/node/610
+[ASFI] t= 812.3s | pag=600 | files=2779 | data= 30 | cola= 596 | prio=50 | https://www.asfi.gob.bo/node/612
+[ASFI] t= 828.8s | pag=601 | files=2791 | data= 30 | cola= 595 | prio=50 | https://www.asfi.gob.bo/node/613
+[ASFI] t= 844.0s | pag=602 | files=2803 | data= 30 | cola= 594 | prio=50 | https://www.asfi.gob.bo/node/616
+[ASFI] t= 845.2s | pag=603 | files=2815 | data= 30 | cola= 593 | prio=50 | https://www.asfi.gob.bo/node/617
+[ASFI] t= 846.1s | pag=604 | files=2827 | data= 30 | cola= 592 | prio=50 | https://www.asfi.gob.bo/node/618
+[ASFI] t= 847.2s | pag=605 | files=2839 | data= 30 | cola= 591 | prio=50 | https://www.asfi.gob.bo/node/620
+[ASFI] t= 847.8s | pag=606 | files=2850 | data= 30 | cola= 590 | prio=50 | https://www.asfi.gob.bo/node/621
+[ASFI] t= 848.3s | pag=607 | files=2862 | data= 30 | cola= 589 | prio=50 | https://www.asfi.gob.bo/node/622
+[ASFI] t= 848.8s | pag=608 | files=2874 | data= 31 | cola= 588 | prio=50 | https://www.asfi.gob.bo/node/623
+[ASFI] t= 849.4s | pag=609 | files=2886 | data= 31 | cola= 587 | prio=50 | https://www.asfi.gob.bo/node/624
+[ASFI] t= 850.2s | pag=610 | files=2898 | data= 31 | cola= 586 | prio=50 | https://www.asfi.gob.bo/node/626
+[ASFI] t= 851.1s | pag=611 | files=2910 | data= 31 | cola= 585 | prio=50 | https://www.asfi.gob.bo/node/627
+[ASFI] t= 852.0s | pag=612 | files=2922 | data= 31 | cola= 584 | prio=50 | https://www.asfi.gob.bo/node/628
+[ASFI] t= 852.5s | pag=613 | files=2934 | data= 31 | cola= 583 | prio=50 | https://www.asfi.gob.bo/node/629
+[ASFI] t= 853.3s | pag=614 | files=2946 | data= 31 | cola= 582 | prio=50 | https://www.asfi.gob.bo/node/630
+[ASFI] t= 854.3s | pag=615 | files=2958 | data= 31 | cola= 581 | prio=50 | https://www.asfi.gob.bo/node/631
+[ASFI] t= 855.3s | pag=616 | files=2970 | data= 32 | cola= 580 | prio=50 | https://www.asfi.gob.bo/node/632
+[ASFI] t= 856.2s | pag=617 | files=2982 | data= 32 | cola= 579 | prio=50 | https://www.asfi.gob.bo/node/633
+[ASFI] t= 856.7s | pag=618 | files=2994 | data= 32 | cola= 578 | prio=50 | https://www.asfi.gob.bo/node/634
+[ASFI] t= 857.8s | pag=619 | files=3006 | data= 32 | cola= 577 | prio=50 | https://www.asfi.gob.bo/node/635
+[ASFI] t= 858.5s | pag=620 | files=3018 | data= 32 | cola= 576 | prio=50 | https://www.asfi.gob.bo/node/636
+[ASFI] t= 859.0s | pag=621 | files=3030 | data= 32 | cola= 575 | prio=50 | https://www.asfi.gob.bo/node/637
+[ASFI] t= 859.7s | pag=622 | files=3042 | data= 32 | cola= 574 | prio=50 | https://www.asfi.gob.bo/node/638
+[ASFI] t= 860.7s | pag=623 | files=3054 | data= 32 | cola= 573 | prio=50 | https://www.asfi.gob.bo/node/639
+[ASFI] t= 861.4s | pag=624 | files=3066 | data= 33 | cola= 572 | prio=50 | https://www.asfi.gob.bo/node/640
+[ASFI] t= 862.1s | pag=625 | files=3078 | data= 33 | cola= 571 | prio=50 | https://www.asfi.gob.bo/node/641
+[ASFI] t= 862.6s | pag=626 | files=3090 | data= 33 | cola= 570 | prio=50 | https://www.asfi.gob.bo/node/642
+[ASFI] t= 863.5s | pag=627 | files=3102 | data= 33 | cola= 569 | prio=50 | https://www.asfi.gob.bo/node/643
+[ASFI] t= 864.0s | pag=628 | files=3114 | data= 33 | cola= 568 | prio=50 | https://www.asfi.gob.bo/node/644
+[ASFI] t= 865.0s | pag=629 | files=3126 | data= 33 | cola= 567 | prio=50 | https://www.asfi.gob.bo/node/645
+[ASFI] t= 865.8s | pag=630 | files=3138 | data= 33 | cola= 566 | prio=50 | https://www.asfi.gob.bo/node/646
+[ASFI] t= 866.7s | pag=631 | files=3150 | data= 33 | cola= 565 | prio=50 | https://www.asfi.gob.bo/node/647
+[ASFI] t= 867.7s | pag=632 | files=3162 | data= 34 | cola= 564 | prio=50 | https://www.asfi.gob.bo/node/648
+[ASFI] t= 868.6s | pag=633 | files=3174 | data= 34 | cola= 563 | prio=50 | https://www.asfi.gob.bo/node/649
+[ASFI] t= 869.3s | pag=634 | files=3186 | data= 34 | cola= 562 | prio=50 | https://www.asfi.gob.bo/node/650
+[ASFI] t= 869.9s | pag=635 | files=3198 | data= 34 | cola= 561 | prio=50 | https://www.asfi.gob.bo/node/651
+[ASFI] t= 870.7s | pag=636 | files=3210 | data= 34 | cola= 560 | prio=50 | https://www.asfi.gob.bo/node/652
+[ASFI] t= 871.8s | pag=637 | files=3222 | data= 34 | cola= 559 | prio=50 | https://www.asfi.gob.bo/node/653
+[ASFI] t= 872.5s | pag=638 | files=3234 | data= 34 | cola= 558 | prio=50 | https://www.asfi.gob.bo/node/654
+[ASFI] t= 873.4s | pag=639 | files=3246 | data= 34 | cola= 557 | prio=50 | https://www.asfi.gob.bo/node/655
+[ASFI] t= 874.2s | pag=640 | files=3258 | data= 35 | cola= 556 | prio=50 | https://www.asfi.gob.bo/node/656
+[ASFI] t= 875.1s | pag=641 | files=3270 | data= 35 | cola= 555 | prio=50 | https://www.asfi.gob.bo/node/657
+[ASFI] t= 875.8s | pag=642 | files=3282 | data= 35 | cola= 554 | prio=50 | https://www.asfi.gob.bo/la/almaceneras-generales-deposito-2019
+[ASFI] t= 893.1s | pag=643 | files=3294 | data= 35 | cola= 553 | prio=50 | https://www.asfi.gob.bo/la/entidades-arrendamiento-financiero-2019
+[ASFI] t= 908.6s | pag=644 | files=3306 | data= 35 | cola= 552 | prio=50 | https://www.asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2019
+[ASFI] t= 924.3s | pag=645 | files=3318 | data= 35 | cola= 551 | prio=50 | https://www.asfi.gob.bo/la/buros-informacion-2019
+[ASFI] t= 941.2s | pag=646 | files=3330 | data= 35 | cola= 550 | prio=50 | https://www.asfi.gob.bo/la/empresas-servicios-pago-movil-2019
+[ASFI] t= 955.7s | pag=647 | files=3342 | data= 35 | cola= 549 | prio=50 | https://www.asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2019
+[ASFI] t= 971.7s | pag=648 | files=3354 | data= 36 | cola= 548 | prio=50 | https://www.asfi.gob.bo/la/empresas-administradoras-tarjetas-electronicas-2019
+[ASFI] t= 986.6s | pag=649 | files=3365 | data= 36 | cola= 547 | prio=50 | https://www.asfi.gob.bo/la/empresas-giros-y-remesas-dinero-2019
+[ASFI] t=1000.9s | pag=650 | files=3377 | data= 36 | cola= 546 | prio=50 | https://www.asfi.gob.bo/la/almaceneras-generales-deposito-2018
+[ASFI] t=1016.2s | pag=651 | files=3389 | data= 36 | cola= 545 | prio=50 | https://www.asfi.gob.bo/la/entidades-arrendamiento-financiero-2018
+[ASFI] t=1030.8s | pag=652 | files=3401 | data= 36 | cola= 544 | prio=50 | https://www.asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2018
+[ASFI] t=1048.0s | pag=653 | files=3413 | data= 36 | cola= 543 | prio=50 | https://www.asfi.gob.bo/la/buros-informacion-2018
+[ASFI] t=1062.5s | pag=654 | files=3425 | data= 36 | cola= 542 | prio=50 | https://www.asfi.gob.bo/la/empresas-servicios-pago-movil-2018
+[ASFI] t=1076.3s | pag=655 | files=3437 | data= 36 | cola= 541 | prio=50 | https://www.asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2018
+[ASFI] t=1092.2s | pag=656 | files=3449 | data= 37 | cola= 540 | prio=50 | https://www.asfi.gob.bo/la/empresas-administradoras-tarjetas-electronicas-2018
+[ASFI] t=1108.9s | pag=657 | files=3461 | data= 37 | cola= 539 | prio=50 | https://www.asfi.gob.bo/la/almaceneras-generales-deposito-2017
+[ASFI] t=1125.2s | pag=658 | files=3473 | data= 37 | cola= 538 | prio=50 | https://www.asfi.gob.bo/la/entidades-arrendamiento-financiero-2017
+[ASFI] t=1140.7s | pag=659 | files=3485 | data= 37 | cola= 537 | prio=50 | https://www.asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2017
+[ASFI] t=1156.2s | pag=660 | files=3497 | data= 37 | cola= 536 | prio=50 | https://www.asfi.gob.bo/la/buros-informacion-2017
+[ASFI] t=1171.6s | pag=661 | files=3509 | data= 37 | cola= 535 | prio=50 | https://www.asfi.gob.bo/la/empresas-servicios-pago-movil-2017
+[ASFI] t=1186.8s | pag=662 | files=3521 | data= 37 | cola= 534 | prio=50 | https://www.asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2017
+[ASFI] t=1202.9s | pag=663 | files=3533 | data= 38 | cola= 533 | prio=50 | https://www.asfi.gob.bo/la/empresas-administradoras-tarjetas-electronicas-2017
+[ASFI] t=1217.8s | pag=664 | files=3545 | data= 38 | cola= 532 | prio=50 | https://www.asfi.gob.bo/la/almaceneras-generales-deposito-2016
+[ASFI] t=1234.0s | pag=665 | files=3557 | data= 38 | cola= 531 | prio=50 | https://www.asfi.gob.bo/la/entidades-arrendamiento-financiero-2016
+[ASFI] t=1250.7s | pag=666 | files=3569 | data= 38 | cola= 530 | prio=50 | https://www.asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2016
+[ASFI] t=1267.2s | pag=667 | files=3581 | data= 38 | cola= 529 | prio=50 | https://www.asfi.gob.bo/la/buros-informacion-2016
+[ASFI] t=1282.2s | pag=668 | files=3593 | data= 38 | cola= 528 | prio=50 | https://www.asfi.gob.bo/la/empresas-servicios-pago-movil-2016
+[ASFI] t=1299.4s | pag=669 | files=3605 | data= 38 | cola= 527 | prio=50 | https://www.asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2016
+[ASFI] t=1316.6s | pag=670 | files=3617 | data= 39 | cola= 526 | prio=50 | https://www.asfi.gob.bo/la/empresas-administradoras-tarjetas-electronicas-2016
+[ASFI] t=1319.0s | pag=671 | files=3618 | data= 39 | cola= 525 | prio=50 | https://www.asfi.gob.bo/la/almaceneras-generales-deposito-2015
+[ASFI] t=1333.3s | pag=672 | files=3629 | data= 39 | cola= 524 | prio=50 | https://www.asfi.gob.bo/la/entidades-arrendamiento-financiero-2015
+[ASFI] t=1347.2s | pag=673 | files=3640 | data= 39 | cola= 523 | prio=50 | https://www.asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2015
+[ASFI] t=1359.5s | pag=674 | files=3649 | data= 39 | cola= 522 | prio=50 | https://www.asfi.gob.bo/la/buros-informacion-2015
+[ASFI] t=1375.3s | pag=675 | files=3661 | data= 39 | cola= 521 | prio=50 | https://www.asfi.gob.bo/la/empresas-servicios-pago-movil-2015
+[ASFI] t=1390.1s | pag=676 | files=3673 | data= 39 | cola= 520 | prio=50 | https://www.asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2015
+[ASFI] t=1394.3s | pag=677 | files=3676 | data= 40 | cola= 519 | prio=50 | https://barometro.asfi.gob.bo/articles
+[ASFI] t=1394.9s | pag=678 | files=3676 | data= 40 | cola= 521 | prio=10 | https://barometro.asfi.gob.bo/articles/20260518-cuentas-deposito-bolivia
+[ASFI] t=1395.8s | pag=679 | files=3676 | data= 40 | cola= 520 | prio=10 | https://barometro.asfi.gob.bo/articles/20260430-banca-digital-bolivia
+[ASFI] t=1396.4s | pag=680 | files=3676 | data= 40 | cola= 519 | prio=50 | https://barometro.asfi.gob.bo/estudios
+[ASFI] t=1397.3s | pag=681 | files=3676 | data= 40 | cola= 519 | prio=10 | https://barometro.asfi.gob.bo/estudios/documentos/20251231-trayectoria-crediticia
+[ASFI] t=1397.9s | pag=682 | files=3677 | data= 40 | cola= 518 | prio=50 | https://barometro.asfi.gob.bo/encuesta-nacional
+[ASFI] t=1398.8s | pag=683 | files=3677 | data= 40 | cola= 517 | prio=50 | https://barometro.asfi.gob.bo/suscripciones
+[ASFI] t=1399.6s | pag=684 | files=3677 | data= 40 | cola= 516 | prio=50 | https://barometro.asfi.gob.bo/articles/20260630-billeteras-moviles-bolivia
+[ASFI] t=1400.4s | pag=685 | files=3677 | data= 40 | cola= 515 | prio=50 | https://barometro.asfi.gob.bo/articles/20260616-experiencia-banca-digital
+[ASFI] t=1401.0s | pag=686 | files=3677 | data= 40 | cola= 514 | prio=50 | https://www.asfi.gob.bo/node/1066
+[ASFI] t=1401.9s | pag=687 | files=3678 | data= 40 | cola= 513 | prio=50 | https://www.asfi.gob.bo/node/1067
+[ASFI] t=1402.6s | pag=688 | files=3679 | data= 40 | cola= 512 | prio=50 | https://www.asfi.gob.bo/ei/banco-central-bolivia
+[ASFI] t=1403.4s | pag=689 | files=3679 | data= 40 | cola= 511 | prio=50 | https://www.asfi.gob.bo/ei/ministerio-economia-y-finanzas
+[ASFI] t=1404.5s | pag=690 | files=3679 | data= 40 | cola= 510 | prio=50 | https://www.asfi.gob.bo/search/node/help
+[ASFI] t=1405.5s | pag=691 | files=3679 | data= 40 | cola= 509 | prio=50 | https://www.asfi.gob.bo/la/cd-gestion-2026
+[ASFI] t=1414.8s | pag=692 | files=3686 | data= 40 | cola= 508 | prio=50 | https://www.asfi.gob.bo/node/1012
+[ASFI] t=1431.1s | pag=693 | files=3698 | data= 40 | cola= 507 | prio=50 | https://www.asfi.gob.bo/node/1013
+[ASFI] t=1445.2s | pag=694 | files=3710 | data= 40 | cola= 506 | prio=50 | https://www.asfi.gob.bo/node/1014
+[ASFI] t=1461.0s | pag=695 | files=3722 | data= 40 | cola= 505 | prio=50 | https://www.asfi.gob.bo/node/1015
+[ASFI] t=1477.7s | pag=696 | files=3734 | data= 40 | cola= 504 | prio=50 | https://www.asfi.gob.bo/node/1016
+[ASFI] t=1494.0s | pag=697 | files=3746 | data= 40 | cola= 503 | prio=50 | https://www.asfi.gob.bo/node/1017
+[ASFI] t=1508.8s | pag=698 | files=3758 | data= 40 | cola= 502 | prio=50 | https://www.asfi.gob.bo/node/1018
+[ASFI] t=1525.6s | pag=699 | files=3770 | data= 40 | cola= 501 | prio=50 | https://www.asfi.gob.bo/node/1019
+[ASFI] t=1539.7s | pag=700 | files=3782 | data= 40 | cola= 500 | prio=50 | https://www.asfi.gob.bo/node/1020
+[ASFI] t=1555.8s | pag=701 | files=3794 | data= 40 | cola= 499 | prio=50 | https://www.asfi.gob.bo/node/1021
+[ASFI] t=1571.8s | pag=702 | files=3806 | data= 40 | cola= 498 | prio=50 | https://www.asfi.gob.bo/node/1022
+[ASFI] t=1587.1s | pag=703 | files=3818 | data= 40 | cola= 497 | prio=50 | https://www.asfi.gob.bo/node/1023
+[ASFI] t=1602.0s | pag=704 | files=3830 | data= 40 | cola= 496 | prio=50 | https://www.asfi.gob.bo/node/1024
+[ASFI] t=1618.1s | pag=705 | files=3842 | data= 40 | cola= 495 | prio=50 | https://www.asfi.gob.bo/node/1025
+[ASFI] t=1634.9s | pag=706 | files=3854 | data= 40 | cola= 494 | prio=50 | https://www.asfi.gob.bo/node/1026
+[ASFI] t=1649.8s | pag=707 | files=3866 | data= 40 | cola= 493 | prio=50 | https://www.asfi.gob.bo/la/programa-pagares-2026
+[ASFI] t=1650.3s | pag=708 | files=3871 | data= 40 | cola= 492 | prio=50 | https://www.asfi.gob.bo/node/513
+[ASFI] t=1651.4s | pag=709 | files=3887 | data= 40 | cola= 491 | prio=50 | https://www.asfi.gob.bo/node/518
+[ASFI] t=1652.2s | pag=710 | files=3896 | data= 40 | cola= 490 | prio=50 | https://www.asfi.gob.bo/node/523
+[ASFI] t=1653.0s | pag=711 | files=3901 | data= 40 | cola= 489 | prio=50 | https://www.asfi.gob.bo/node/528
+[ASFI] t=1654.1s | pag=712 | files=3905 | data= 40 | cola= 488 | prio=50 | https://www.asfi.gob.bo/node/533
+[ASFI] t=1654.8s | pag=713 | files=3910 | data= 40 | cola= 487 | prio=50 | https://www.asfi.gob.bo/node/538
+[ASFI] t=1655.5s | pag=714 | files=3914 | data= 40 | cola= 486 | prio=50 | https://www.asfi.gob.bo/node/543
+[ASFI] t=1656.3s | pag=715 | files=3916 | data= 40 | cola= 485 | prio=50 | https://www.asfi.gob.bo/node/548
+[ASFI] t=1656.9s | pag=716 | files=3917 | data= 40 | cola= 484 | prio=50 | https://www.asfi.gob.bo/node/553
+[ASFI] t=1657.7s | pag=717 | files=3920 | data= 40 | cola= 483 | prio=50 | https://www.asfi.gob.bo/node/558
+[ASFI] t=1658.8s | pag=718 | files=3920 | data= 40 | cola= 482 | prio=50 | https://www.asfi.gob.bo/node/563
+[ASFI] t=1659.8s | pag=719 | files=3922 | data= 40 | cola= 481 | prio=50 | https://www.asfi.gob.bo/node/568
+[ASFI] t=1660.7s | pag=720 | files=3923 | data= 40 | cola= 480 | prio=50 | https://www.asfi.gob.bo/node/573
+[ASFI] t=1661.6s | pag=721 | files=3928 | data= 40 | cola= 479 | prio=50 | https://www.asfi.gob.bo/node/578
+[ASFI] t=1662.3s | pag=722 | files=3929 | data= 40 | cola= 478 | prio=50 | https://www.asfi.gob.bo/node/583
+[ASFI] t=1663.2s | pag=723 | files=3934 | data= 40 | cola= 477 | prio=50 | https://www.asfi.gob.bo/node/588
+[ASFI] t=1663.9s | pag=724 | files=3940 | data= 40 | cola= 476 | prio=50 | https://www.asfi.gob.bo/la/entidades-segundo-piso-gestion-2015
+[ASFI] t=1665.0s | pag=725 | files=3940 | data= 40 | cola= 475 | prio=50 | https://www.asfi.gob.bo/la/entidades-segundo-piso-gestion-2014
+[ASFI] t=1666.1s | pag=726 | files=3940 | data= 40 | cola= 474 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2025
+[ASFI] t=1680.2s | pag=727 | files=3950 | data= 40 | cola= 473 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2024
+[ASFI] t=1681.1s | pag=728 | files=3962 | data= 40 | cola= 472 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2023
+[ASFI] t=1681.9s | pag=729 | files=3974 | data= 40 | cola= 471 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2022
+[ASFI] t=1682.6s | pag=730 | files=3986 | data= 40 | cola= 470 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2021
+[ASFI] t=1683.0s | pag=731 | files=3998 | data= 40 | cola= 469 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2020
+[ASFI] t=1683.5s | pag=732 | files=4010 | data= 40 | cola= 468 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2019
+[ASFI] t=1684.3s | pag=733 | files=4022 | data= 40 | cola= 467 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2018
+[ASFI] t=1685.2s | pag=734 | files=4034 | data= 40 | cola= 466 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2017
+[ASFI] t=1685.8s | pag=735 | files=4046 | data= 40 | cola= 465 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2016
+[ASFI] t=1686.7s | pag=736 | files=4058 | data= 40 | cola= 464 | prio=50 | https://www.asfi.gob.bo/la/estados-financieros-resumidos-gestion-2015
+[ASFI] t=1687.4s | pag=737 | files=4061 | data= 40 | cola= 463 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2023
+[ASFI] t=1688.0s | pag=738 | files=4062 | data= 40 | cola= 462 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2022
+[ASFI] t=1688.8s | pag=739 | files=4074 | data= 40 | cola= 461 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2021
+[ASFI] t=1689.8s | pag=740 | files=4086 | data= 40 | cola= 460 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2020
+[ASFI] t=1690.4s | pag=741 | files=4098 | data= 40 | cola= 459 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2019
+[ASFI] t=1691.1s | pag=742 | files=4110 | data= 40 | cola= 458 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2018
+[ASFI] t=1691.9s | pag=743 | files=4122 | data= 40 | cola= 457 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2017
+[ASFI] t=1692.6s | pag=744 | files=4134 | data= 40 | cola= 456 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2016
+[ASFI] t=1693.0s | pag=745 | files=4146 | data= 40 | cola= 455 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2015
+[ASFI] t=1693.7s | pag=746 | files=4158 | data= 40 | cola= 454 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2014
+[ASFI] t=1694.5s | pag=747 | files=4170 | data= 40 | cola= 453 | prio=50 | https://www.asfi.gob.bo/la/banco-central-estados-financieros-2013
+[ASFI] t=1695.2s | pag=748 | files=4182 | data= 40 | cola= 452 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2026
+[ASFI] t=1699.6s | pag=749 | files=4185 | data= 40 | cola= 451 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2025
+[ASFI] t=1716.5s | pag=750 | files=4197 | data= 40 | cola= 450 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2024
+[ASFI] t=1717.2s | pag=751 | files=4209 | data= 40 | cola= 449 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2023
+[ASFI] t=1718.2s | pag=752 | files=4221 | data= 40 | cola= 448 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2022
+[ASFI] t=1719.3s | pag=753 | files=4233 | data= 40 | cola= 447 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2021
+[ASFI] t=1720.4s | pag=754 | files=4245 | data= 40 | cola= 446 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2020
+[ASFI] t=1721.3s | pag=755 | files=4257 | data= 40 | cola= 445 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2019
+[ASFI] t=1722.1s | pag=756 | files=4269 | data= 40 | cola= 444 | prio=50 | https://www.asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2018
+[ASFI] t=1723.0s | pag=757 | files=4272 | data= 40 | cola= 443 | prio=50 | https://asfi.gob.bo//node/1456
+[ASFI] t=1724.0s | pag=758 | files=4272 | data= 40 | cola= 442 | prio=50 | https://asfi.gob.bo//node/1402
+[ASFI] t=1724.8s | pag=759 | files=4272 | data= 40 | cola= 441 | prio=50 | https://asfi.gob.bo//node/1394
+[ASFI] t=1725.4s | pag=760 | files=4272 | data= 40 | cola= 440 | prio=50 | https://asfi.gob.bo/node/1065
+[ASFI] t=1726.7s | pag=761 | files=4272 | data= 40 | cola= 441 | prio=50 | https://asfi.gob.bo/node/949
+[ASFI] t=1727.3s | pag=762 | files=4302 | data= 40 | cola= 440 | prio=50 | https://asfi.gob.bo/node/1070
+[ASFI] t=1727.9s | pag=763 | files=4304 | data= 40 | cola= 439 | prio=50 | https://asfi.gob.bo/node/1071
+[ASFI] t=1728.4s | pag=764 | files=4305 | data= 40 | cola= 438 | prio=50 | https://asfi.gob.bo/node/1068
+[ASFI] t=1729.3s | pag=765 | files=4306 | data= 40 | cola= 437 | prio=50 | https://asfi.gob.bo/node/1069
+[ASFI] t=1730.3s | pag=766 | files=4307 | data= 40 | cola= 436 | prio=50 | https://asfi.gob.bo/enlaces-de-interes
+[ASFI] t=1731.5s | pag=767 | files=4307 | data= 40 | cola= 439 | prio=10 | https://asfi.gob.bo/ei/plataforma-reporta-tu-tranca
+[ASFI] t=1732.4s | pag=768 | files=4307 | data= 40 | cola= 438 | prio=10 | https://asfi.gob.bo/ei/unidad-investigaciones-financieras
+[ASFI] t=1733.4s | pag=769 | files=4307 | data= 40 | cola= 437 | prio=50 | https://asfi.gob.bo//pagina-poa?field_tipos_poa_value=poa_institucional
+[ASFI] t=1734.3s | pag=770 | files=4307 | data= 40 | cola= 436 | prio=50 | https://asfi.gob.bo//pagina-poa?field_tipos_poa_value=poa_por_unidad_organizacional
+[ASFI] t=1735.1s | pag=771 | files=4307 | data= 40 | cola= 435 | prio=50 | https://asfi.gob.bo//node/1393
+[ASFI] t=1736.2s | pag=772 | files=4307 | data= 40 | cola= 434 | prio=50 | https://asfi.gob.bo//node/1368
+[ASFI] t=1736.8s | pag=773 | files=4307 | data= 40 | cola= 433 | prio=50 | https://asfi.gob.bo//node/1367
+[ASFI] t=1737.6s | pag=774 | files=4307 | data= 40 | cola= 432 | prio=50 | https://asfi.gob.bo//node/1365
+[ASFI] t=1738.4s | pag=775 | files=4307 | data= 40 | cola= 431 | prio=50 | https://asfi.gob.bo//node/1362
+[ASFI] t=1739.6s | pag=776 | files=4307 | data= 40 | cola= 430 | prio=50 | https://asfi.gob.bo//node/1348
+[ASFI] t=1740.7s | pag=777 | files=4307 | data= 40 | cola= 429 | prio=50 | https://asfi.gob.bo//node/1347
+[ASFI] t=1741.9s | pag=778 | files=4307 | data= 40 | cola= 428 | prio=50 | https://asfi.gob.bo//node/1322
+[ASFI] t=1742.9s | pag=779 | files=4307 | data= 40 | cola= 427 | prio=50 | https://asfi.gob.bo//node/1299
+[ASFI] t=1743.8s | pag=780 | files=4307 | data= 40 | cola= 426 | prio=50 | https://asfi.gob.bo//node/1298
+[ASFI] t=1744.5s | pag=781 | files=4307 | data= 40 | cola= 425 | prio=50 | https://asfi.gob.bo//node/1296
+[ASFI] t=1745.5s | pag=782 | files=4307 | data= 40 | cola= 424 | prio=50 | https://asfi.gob.bo//node/1180
+[ASFI] t=1746.1s | pag=783 | files=4307 | data= 40 | cola= 423 | prio=50 | https://asfi.gob.bo//node/1179
+[ASFI] t=1747.2s | pag=784 | files=4307 | data= 40 | cola= 422 | prio=50 | https://asfi.gob.bo//node/1178
+[ASFI] t=1748.1s | pag=785 | files=4307 | data= 40 | cola= 421 | prio=50 | https://asfi.gob.bo//node/1177
+[ASFI] t=1749.3s | pag=786 | files=4307 | data= 40 | cola= 420 | prio=50 | https://asfi.gob.bo//node/1176
+[ASFI] t=1750.4s | pag=787 | files=4307 | data= 40 | cola= 419 | prio=50 | https://asfi.gob.bo//node/1175
+[ASFI] t=1751.0s | pag=788 | files=4307 | data= 40 | cola= 418 | prio=50 | https://asfi.gob.bo//node/857
+[ASFI] t=1751.9s | pag=789 | files=4307 | data= 40 | cola= 417 | prio=50 | https://asfi.gob.bo//node/59
+[ASFI] t=1752.8s | pag=790 | files=4307 | data= 40 | cola= 416 | prio=50 | https://asfi.gob.bo//node/58
+[ASFI] t=1754.1s | pag=791 | files=4307 | data= 40 | cola= 415 | prio=50 | https://asfi.gob.bo//node/50
+[ASFI] t=1755.1s | pag=792 | files=4307 | data= 40 | cola= 414 | prio=50 | https://asfi.gob.bo//node/49
+[ASFI] t=1756.0s | pag=793 | files=4307 | data= 40 | cola= 413 | prio=50 | https://asfi.gob.bo//node/24
+[ASFI] t=1756.8s | pag=794 | files=4307 | data= 40 | cola= 412 | prio=50 | https://asfi.gob.bo/pagina-de-banco-de-trabajo-de-investigacion
+[ASFI] t=1757.6s | pag=795 | files=4316 | data= 40 | cola= 412 | prio=40 | https://asfi.gob.bo/pagina-de-banco-de-trabajo-de-investigacion?page=1
+[ASFI] t=1758.4s | pag=796 | files=4321 | data= 40 | cola= 412 | prio=40 | https://asfi.gob.bo/pagina-de-banco-de-trabajo-de-investigacion?page=0
+[ASFI] t=1759.4s | pag=797 | files=4321 | data= 40 | cola= 411 | prio=50 | https://asfi.gob.bo/node/31
+[ASFI] t=1760.0s | pag=798 | files=4321 | data= 40 | cola= 410 | prio=50 | https://asfi.gob.bo/node/401
+[ASFI] t=1760.8s | pag=799 | files=4321 | data= 40 | cola= 409 | prio=50 | https://asfi.gob.bo/pb/leyes-referidas-servicios-financieros
+[ASFI] t=1761.8s | pag=800 | files=4352 | data= 40 | cola= 408 | prio=50 | https://asfi.gob.bo/pb/decretos-supremos-referidos-servicios-financieros
+[ASFI] t=1763.8s | pag=801 | files=4454 | data= 40 | cola= 407 | prio=50 | https://asfi.gob.bo/node/953
+[ASFI] t=1764.5s | pag=802 | files=4456 | data= 41 | cola= 406 | prio=50 | https://asfi.gob.bo/node/954
+[ASFI] t=1766.1s | pag=803 | files=4462 | data= 42 | cola= 405 | prio=50 | https://asfi.gob.bo/node/955
+[ASFI] t=1766.5s | pag=803 | files=4462 | data= 42 | cola= 404 | prio=50 | https://asfi.gob.bo/node/956
+[ASFI] t=1767.9s | pag=804 | files=4464 | data= 42 | cola= 403 | prio=50 | https://asfi.gob.bo/node/1000
+[ASFI] t=1768.8s | pag=805 | files=4465 | data= 42 | cola= 402 | prio=50 | https://asfi.gob.bo/pb/entidades-desestimadas-del-proceso-adecuacion
+[ASFI] t=1769.8s | pag=806 | files=4465 | data= 42 | cola= 401 | prio=50 | https://asfi.gob.bo/node/1002
+[ASFI] t=1770.6s | pag=807 | files=4466 | data= 42 | cola= 400 | prio=50 | https://asfi.gob.bo/la/siglas
+[ASFI] t=1771.3s | pag=808 | files=4467 | data= 42 | cola= 399 | prio=50 | https://asfi.gob.bo/pb/registro-firmas-auditoria-externa-autorizadas
+[ASFI] t=1772.1s | pag=809 | files=4467 | data= 42 | cola= 398 | prio=50 | https://asfi.gob.bo/node/1032
+[ASFI] t=1772.8s | pag=810 | files=4467 | data= 42 | cola= 397 | prio=50 | https://asfi.gob.bo/node/1034
+[ASFI] t=1773.6s | pag=811 | files=4467 | data= 42 | cola= 396 | prio=50 | https://asfi.gob.bo/node/1035
+[ASFI] t=1774.7s | pag=812 | files=4471 | data= 42 | cola= 395 | prio=50 | https://asfi.gob.bo/node/473
+[ASFI] t=1775.2s | pag=813 | files=4484 | data= 42 | cola= 394 | prio=50 | https://asfi.gob.bo/node/474
+[ASFI] t=1776.2s | pag=814 | files=4486 | data= 42 | cola= 393 | prio=50 | https://asfi.gob.bo/node/475
+[ASFI] t=1776.9s | pag=815 | files=4493 | data= 42 | cola= 392 | prio=50 | https://asfi.gob.bo/node/476
+[ASFI] t=1777.6s | pag=816 | files=4500 | data= 42 | cola= 391 | prio=50 | https://asfi.gob.bo/node/477
+[ASFI] t=1778.5s | pag=817 | files=4506 | data= 42 | cola= 390 | prio=50 | https://asfi.gob.bo/node/478
+[ASFI] t=1779.5s | pag=818 | files=4516 | data= 42 | cola= 389 | prio=50 | https://asfi.gob.bo/node/479
+[ASFI] t=1780.4s | pag=819 | files=4523 | data= 42 | cola= 388 | prio=50 | https://asfi.gob.bo/node/480
+[ASFI] t=1781.4s | pag=820 | files=4525 | data= 42 | cola= 387 | prio=50 | https://asfi.gob.bo/node/481
+[ASFI] t=1782.1s | pag=821 | files=4526 | data= 42 | cola= 386 | prio=50 | https://asfi.gob.bo/node/482
+[ASFI] t=1783.1s | pag=822 | files=4532 | data= 42 | cola= 385 | prio=50 | https://asfi.gob.bo/node/483
+[ASFI] t=1783.6s | pag=823 | files=4535 | data= 42 | cola= 384 | prio=50 | https://asfi.gob.bo/node/484
+[ASFI] t=1784.3s | pag=824 | files=4539 | data= 42 | cola= 383 | prio=50 | https://asfi.gob.bo/node/485
+[ASFI] t=1784.9s | pag=825 | files=4540 | data= 42 | cola= 382 | prio=50 | https://asfi.gob.bo/node/486
+[ASFI] t=1785.8s | pag=826 | files=4541 | data= 42 | cola= 381 | prio=50 | https://asfi.gob.bo/node/487
+[ASFI] t=1786.8s | pag=827 | files=4544 | data= 42 | cola= 380 | prio=50 | https://asfi.gob.bo/node/488
+[ASFI] t=1787.7s | pag=828 | files=4547 | data= 42 | cola= 379 | prio=50 | https://asfi.gob.bo/node/489
+[ASFI] t=1788.7s | pag=829 | files=4549 | data= 42 | cola= 378 | prio=50 | https://asfi.gob.bo/node/490
+[ASFI] t=1789.2s | pag=830 | files=4551 | data= 42 | cola= 377 | prio=50 | https://asfi.gob.bo/node/491
+[ASFI] t=1789.7s | pag=831 | files=4553 | data= 42 | cola= 376 | prio=50 | https://asfi.gob.bo/node/492
+[ASFI] t=1790.6s | pag=832 | files=4555 | data= 42 | cola= 375 | prio=50 | https://asfi.gob.bo/node/493
+[ASFI] t=1791.3s | pag=833 | files=4556 | data= 42 | cola= 374 | prio=50 | https://asfi.gob.bo/node/494
+[ASFI] t=1792.2s | pag=834 | files=4558 | data= 42 | cola= 373 | prio=50 | https://asfi.gob.bo/node/495
+[ASFI] t=1792.9s | pag=835 | files=4559 | data= 42 | cola= 372 | prio=50 | https://asfi.gob.bo/node/1373
+[ASFI] t=1795.2s | pag=836 | files=4564 | data= 42 | cola= 371 | prio=50 | https://asfi.gob.bo/node/1037
+[ASFI] t=1796.3s | pag=837 | files=4576 | data= 42 | cola= 370 | prio=50 | https://asfi.gob.bo/node/1038
+[ASFI] t=1797.1s | pag=838 | files=4588 | data= 42 | cola= 369 | prio=50 | https://asfi.gob.bo/node/1039
+[ASFI] t=1798.2s | pag=839 | files=4600 | data= 42 | cola= 368 | prio=50 | https://asfi.gob.bo/node/1040
+[ASFI] t=1799.2s | pag=840 | files=4612 | data= 42 | cola= 367 | prio=50 | https://asfi.gob.bo/node/1041
+[ASFI] t=1800.2s | pag=841 | files=4624 | data= 42 | cola= 366 | prio=50 | https://asfi.gob.bo/node/1042
+[ASFI] t=1801.3s | pag=842 | files=4636 | data= 42 | cola= 365 | prio=50 | https://asfi.gob.bo/node/1043
+[ASFI] t=1801.8s | pag=843 | files=4648 | data= 42 | cola= 364 | prio=50 | https://asfi.gob.bo/node/1044
+[ASFI] t=1802.9s | pag=844 | files=4655 | data= 42 | cola= 363 | prio=50 | https://asfi.gob.bo/la/almaceneras-generales-deposito-2026
+[ASFI] t=1810.4s | pag=845 | files=4661 | data= 42 | cola= 362 | prio=50 | https://asfi.gob.bo/la/entidades-arrendamiento-financiero-2026
+[ASFI] t=1820.3s | pag=846 | files=4668 | data= 42 | cola= 361 | prio=50 | https://asfi.gob.bo/la/camaras-compensacion-y-liquidacion-2026
+[ASFI] t=1829.4s | pag=847 | files=4675 | data= 42 | cola= 360 | prio=50 | https://asfi.gob.bo/la/buros-informacion-2026
+[ASFI] t=1839.1s | pag=848 | files=4682 | data= 42 | cola= 359 | prio=50 | https://asfi.gob.bo/la/empresas-servicios-pago-movil-2026
+[ASFI] t=1848.3s | pag=849 | files=4689 | data= 42 | cola= 358 | prio=50 | https://asfi.gob.bo/la/empresas-transporte-material-monetario-y-valores-2026
+[ASFI] t=1858.1s | pag=850 | files=4696 | data= 43 | cola= 357 | prio=50 | https://asfi.gob.bo/la/empresas-administradoras-tarjetas-electronicas-2026
+[ASFI] t=1867.7s | pag=851 | files=4703 | data= 43 | cola= 356 | prio=50 | https://asfi.gob.bo/la/empresas-giros-y-remesas-dinero-2026
+[ASFI] t=1875.8s | pag=852 | files=4709 | data= 43 | cola= 355 | prio=50 | https://asfi.gob.bo/node/600
+[ASFI] t=1892.5s | pag=853 | files=4721 | data= 43 | cola= 354 | prio=50 | https://asfi.gob.bo/node/603
+[ASFI] t=1909.1s | pag=854 | files=4733 | data= 43 | cola= 353 | prio=50 | https://asfi.gob.bo/node/604
+[ASFI] t=1924.3s | pag=855 | files=4745 | data= 43 | cola= 352 | prio=50 | https://asfi.gob.bo/node/606
+[ASFI] t=1939.2s | pag=856 | files=4757 | data= 43 | cola= 351 | prio=50 | https://asfi.gob.bo/node/608
+[ASFI] t=1954.1s | pag=857 | files=4769 | data= 43 | cola= 350 | prio=50 | https://asfi.gob.bo/node/610
+[ASFI] t=1969.8s | pag=858 | files=4781 | data= 44 | cola= 349 | prio=50 | https://asfi.gob.bo/node/612
+[ASFI] t=1986.4s | pag=859 | files=4793 | data= 44 | cola= 348 | prio=50 | https://asfi.gob.bo/node/613
+[ASFI] t=2004.1s | pag=860 | files=4805 | data= 44 | cola= 347 | prio=50 | https://asfi.gob.bo/node/616
+[ASFI] t=2004.8s | pag=861 | files=4817 | data= 44 | cola= 346 | prio=50 | https://asfi.gob.bo/node/617
+[ASFI] t=2005.4s | pag=862 | files=4829 | data= 44 | cola= 345 | prio=50 | https://asfi.gob.bo/node/618
+[ASFI] t=2006.1s | pag=863 | files=4841 | data= 44 | cola= 344 | prio=50 | https://asfi.gob.bo/node/620
+[ASFI] t=2006.6s | pag=864 | files=4852 | data= 44 | cola= 343 | prio=50 | https://asfi.gob.bo/node/621
+[ASFI] t=2007.2s | pag=865 | files=4864 | data= 44 | cola= 342 | prio=50 | https://asfi.gob.bo/node/622
+[ASFI] t=2008.0s | pag=866 | files=4876 | data= 45 | cola= 341 | prio=50 | https://asfi.gob.bo/node/623
+[ASFI] t=2008.7s | pag=867 | files=4888 | data= 45 | cola= 340 | prio=50 | https://asfi.gob.bo/node/624
+[ASFI] t=2009.6s | pag=868 | files=4900 | data= 45 | cola= 339 | prio=50 | https://asfi.gob.bo/node/626
+[ASFI] t=2010.2s | pag=869 | files=4912 | data= 45 | cola= 338 | prio=50 | https://asfi.gob.bo/node/627
+[ASFI] t=2010.8s | pag=870 | files=4924 | data= 45 | cola= 337 | prio=50 | https://asfi.gob.bo/node/628
+[ASFI] t=2011.7s | pag=871 | files=4936 | data= 45 | cola= 336 | prio=50 | https://asfi.gob.bo/node/629
+[ASFI] t=2012.5s | pag=872 | files=4948 | data= 45 | cola= 335 | prio=50 | https://asfi.gob.bo/node/630
+[ASFI] t=2013.1s | pag=873 | files=4960 | data= 45 | cola= 334 | prio=50 | https://asfi.gob.bo/node/631
+[ASFI] t=2013.7s | pag=874 | files=4972 | data= 46 | cola= 333 | prio=50 | https://asfi.gob.bo/node/632
+[ASFI] t=2014.5s | pag=875 | files=4984 | data= 46 | cola= 332 | prio=50 | https://asfi.gob.bo/node/633
+[ASFI] t=2015.2s | pag=876 | files=4996 | data= 46 | cola= 331 | prio=50 | https://asfi.gob.bo/node/634
+[ASFI] t=2016.1s | pag=877 | files=5008 | data= 46 | cola= 330 | prio=50 | https://asfi.gob.bo/node/635
+[ASFI] t=2016.6s | pag=878 | files=5020 | data= 46 | cola= 329 | prio=50 | https://asfi.gob.bo/node/636
+[ASFI] t=2017.4s | pag=879 | files=5032 | data= 46 | cola= 328 | prio=50 | https://asfi.gob.bo/node/637
+[ASFI] t=2018.1s | pag=880 | files=5044 | data= 46 | cola= 327 | prio=50 | https://asfi.gob.bo/node/638
+[ASFI] t=2018.9s | pag=881 | files=5056 | data= 46 | cola= 326 | prio=50 | https://asfi.gob.bo/node/639
+[ASFI] t=2019.7s | pag=882 | files=5068 | data= 47 | cola= 325 | prio=50 | https://asfi.gob.bo/node/640
+[ASFI] t=2020.7s | pag=883 | files=5080 | data= 47 | cola= 324 | prio=50 | https://asfi.gob.bo/node/641
+[ASFI] t=2021.5s | pag=884 | files=5092 | data= 47 | cola= 323 | prio=50 | https://asfi.gob.bo/node/642
+[ASFI] t=2022.2s | pag=885 | files=5104 | data= 47 | cola= 322 | prio=50 | https://asfi.gob.bo/node/643
+[ASFI] t=2023.3s | pag=886 | files=5116 | data= 47 | cola= 321 | prio=50 | https://asfi.gob.bo/node/644
+[ASFI] t=2024.3s | pag=887 | files=5128 | data= 47 | cola= 320 | prio=50 | https://asfi.gob.bo/node/645
+[ASFI] t=2025.4s | pag=888 | files=5140 | data= 47 | cola= 319 | prio=50 | https://asfi.gob.bo/node/646
+[ASFI] t=2026.5s | pag=889 | files=5152 | data= 47 | cola= 318 | prio=50 | https://asfi.gob.bo/node/647
+[ASFI] t=2027.3s | pag=890 | files=5164 | data= 48 | cola= 317 | prio=50 | https://asfi.gob.bo/node/648
+[ASFI] t=2028.2s | pag=891 | files=5176 | data= 48 | cola= 316 | prio=50 | https://asfi.gob.bo/node/649
+[ASFI] t=2029.2s | pag=892 | files=5188 | data= 48 | cola= 315 | prio=50 | https://asfi.gob.bo/node/650
+[ASFI] t=2030.2s | pag=893 | files=5200 | data= 48 | cola= 314 | prio=50 | https://asfi.gob.bo/node/651
+[ASFI] t=2030.9s | pag=894 | files=5212 | data= 48 | cola= 313 | prio=50 | https://asfi.gob.bo/node/652
+[ASFI] t=2031.9s | pag=895 | files=5224 | data= 48 | cola= 312 | prio=50 | https://asfi.gob.bo/node/653
+[ASFI] t=2032.6s | pag=896 | files=5236 | data= 48 | cola= 311 | prio=50 | https://asfi.gob.bo/node/654
+[ASFI] t=2033.2s | pag=897 | files=5248 | data= 48 | cola= 310 | prio=50 | https://asfi.gob.bo/node/655
+[ASFI] t=2034.1s | pag=898 | files=5260 | data= 49 | cola= 309 | prio=50 | https://asfi.gob.bo/node/656
+[ASFI] t=2035.1s | pag=899 | files=5272 | data= 49 | cola= 308 | prio=50 | https://asfi.gob.bo/node/657
+[ASFI] t=2035.9s | pag=900 | files=5284 | data= 49 | cola= 307 | prio=50 | https://asfi.gob.bo/search/node/help
+[ASFI] t=2036.6s | pag=901 | files=5284 | data= 49 | cola= 306 | prio=50 | https://asfi.gob.bo/la/programa-pagares-2026
+[ASFI] t=2037.4s | pag=902 | files=5289 | data= 49 | cola= 305 | prio=50 | https://asfi.gob.bo/node/513
+[ASFI] t=2038.1s | pag=903 | files=5305 | data= 49 | cola= 304 | prio=50 | https://asfi.gob.bo/node/518
+[ASFI] t=2038.7s | pag=904 | files=5314 | data= 49 | cola= 303 | prio=50 | https://asfi.gob.bo/node/523
+[ASFI] t=2039.7s | pag=905 | files=5319 | data= 49 | cola= 302 | prio=50 | https://asfi.gob.bo/node/528
+[ASFI] t=2040.8s | pag=906 | files=5323 | data= 49 | cola= 301 | prio=50 | https://asfi.gob.bo/node/533
+[ASFI] t=2041.5s | pag=907 | files=5328 | data= 49 | cola= 300 | prio=50 | https://asfi.gob.bo/node/538
+[ASFI] t=2042.1s | pag=908 | files=5332 | data= 49 | cola= 299 | prio=50 | https://asfi.gob.bo/node/543
+[ASFI] t=2042.6s | pag=909 | files=5334 | data= 49 | cola= 298 | prio=50 | https://asfi.gob.bo/node/548
+[ASFI] t=2043.2s | pag=910 | files=5335 | data= 49 | cola= 297 | prio=50 | https://asfi.gob.bo/node/553
+[ASFI] t=2043.8s | pag=911 | files=5338 | data= 49 | cola= 296 | prio=50 | https://asfi.gob.bo/node/558
+[ASFI] t=2044.4s | pag=912 | files=5338 | data= 49 | cola= 295 | prio=50 | https://asfi.gob.bo/node/563
+[ASFI] t=2045.2s | pag=913 | files=5340 | data= 49 | cola= 294 | prio=50 | https://asfi.gob.bo/node/568
+[ASFI] t=2046.0s | pag=914 | files=5341 | data= 49 | cola= 293 | prio=50 | https://asfi.gob.bo/node/573
+[ASFI] t=2047.1s | pag=915 | files=5346 | data= 49 | cola= 292 | prio=50 | https://asfi.gob.bo/node/578
+[ASFI] t=2047.9s | pag=916 | files=5347 | data= 49 | cola= 291 | prio=50 | https://asfi.gob.bo/node/583
+[ASFI] t=2048.8s | pag=917 | files=5352 | data= 49 | cola= 290 | prio=50 | https://asfi.gob.bo/node/588
+[ASFI] t=2049.6s | pag=918 | files=5358 | data= 49 | cola= 289 | prio=50 | https://asfi.gob.bo/la/cd-gestion-2026
+[ASFI] t=2058.9s | pag=919 | files=5365 | data= 49 | cola= 288 | prio=50 | https://asfi.gob.bo/node/1012
+[ASFI] t=2075.3s | pag=920 | files=5377 | data= 49 | cola= 287 | prio=50 | https://asfi.gob.bo/node/1013
+[ASFI] t=2089.3s | pag=921 | files=5389 | data= 49 | cola= 286 | prio=50 | https://asfi.gob.bo/node/1014
+[ASFI] t=2106.4s | pag=922 | files=5401 | data= 49 | cola= 285 | prio=50 | https://asfi.gob.bo/node/1015
+[ASFI] t=2122.2s | pag=923 | files=5413 | data= 49 | cola= 284 | prio=50 | https://asfi.gob.bo/node/1016
+[ASFI] t=2137.4s | pag=924 | files=5425 | data= 49 | cola= 283 | prio=50 | https://asfi.gob.bo/node/1017
+[ASFI] t=2152.7s | pag=925 | files=5437 | data= 49 | cola= 282 | prio=50 | https://asfi.gob.bo/node/1018
+[ASFI] t=2169.1s | pag=926 | files=5449 | data= 49 | cola= 281 | prio=50 | https://asfi.gob.bo/node/1019
+[ASFI] t=2184.8s | pag=927 | files=5461 | data= 49 | cola= 280 | prio=50 | https://asfi.gob.bo/node/1020
+[ASFI] t=2199.9s | pag=928 | files=5473 | data= 49 | cola= 279 | prio=50 | https://asfi.gob.bo/node/1021
+[ASFI] t=2216.4s | pag=929 | files=5485 | data= 49 | cola= 278 | prio=50 | https://asfi.gob.bo/node/1022
+[ASFI] t=2231.0s | pag=930 | files=5497 | data= 49 | cola= 277 | prio=50 | https://asfi.gob.bo/node/1023
+[ASFI] t=2245.4s | pag=931 | files=5509 | data= 49 | cola= 276 | prio=50 | https://asfi.gob.bo/node/1024
+[ASFI] t=2260.7s | pag=932 | files=5521 | data= 49 | cola= 275 | prio=50 | https://asfi.gob.bo/node/1025
+[ASFI] t=2275.0s | pag=933 | files=5533 | data= 49 | cola= 274 | prio=50 | https://asfi.gob.bo/node/1026
+[ASFI] t=2289.6s | pag=934 | files=5545 | data= 49 | cola= 273 | prio=50 | https://asfi.gob.bo/la/entidades-segundo-piso-gestion-2015
+[ASFI] t=2290.4s | pag=935 | files=5545 | data= 49 | cola= 272 | prio=50 | https://asfi.gob.bo/la/entidades-segundo-piso-gestion-2014
+[ASFI] t=2291.1s | pag=936 | files=5545 | data= 49 | cola= 271 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2025
+[ASFI] t=2304.0s | pag=937 | files=5555 | data= 49 | cola= 270 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2024
+[ASFI] t=2304.7s | pag=938 | files=5567 | data= 49 | cola= 269 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2023
+[ASFI] t=2305.6s | pag=939 | files=5579 | data= 49 | cola= 268 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2022
+[ASFI] t=2306.4s | pag=940 | files=5591 | data= 49 | cola= 267 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2021
+[ASFI] t=2307.2s | pag=941 | files=5603 | data= 49 | cola= 266 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2020
+[ASFI] t=2307.8s | pag=942 | files=5615 | data= 49 | cola= 265 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2019
+[ASFI] t=2308.7s | pag=943 | files=5627 | data= 49 | cola= 264 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2018
+[ASFI] t=2309.3s | pag=944 | files=5639 | data= 49 | cola= 263 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2017
+[ASFI] t=2310.1s | pag=945 | files=5651 | data= 49 | cola= 262 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2016
+[ASFI] t=2311.2s | pag=946 | files=5663 | data= 49 | cola= 261 | prio=50 | https://asfi.gob.bo/la/estados-financieros-resumidos-gestion-2015
+[ASFI] t=2312.2s | pag=947 | files=5666 | data= 49 | cola= 260 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2023
+[ASFI] t=2313.1s | pag=948 | files=5667 | data= 49 | cola= 259 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2022
+[ASFI] t=2314.1s | pag=949 | files=5679 | data= 49 | cola= 258 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2021
+[ASFI] t=2315.1s | pag=950 | files=5691 | data= 49 | cola= 257 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2020
+[ASFI] t=2315.8s | pag=951 | files=5703 | data= 49 | cola= 256 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2019
+[ASFI] t=2316.5s | pag=952 | files=5715 | data= 49 | cola= 255 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2018
+[ASFI] t=2317.4s | pag=953 | files=5727 | data= 49 | cola= 254 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2017
+[ASFI] t=2318.2s | pag=954 | files=5739 | data= 49 | cola= 253 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2016
+[ASFI] t=2319.1s | pag=955 | files=5751 | data= 49 | cola= 252 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2015
+[ASFI] t=2319.8s | pag=956 | files=5763 | data= 49 | cola= 251 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2014
+[ASFI] t=2320.6s | pag=957 | files=5775 | data= 49 | cola= 250 | prio=50 | https://asfi.gob.bo/la/banco-central-estados-financieros-2013
+[ASFI] t=2321.3s | pag=958 | files=5787 | data= 49 | cola= 249 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2026
+[ASFI] t=2325.3s | pag=959 | files=5790 | data= 49 | cola= 248 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2025
+[ASFI] t=2341.5s | pag=960 | files=5802 | data= 49 | cola= 247 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2024
+[ASFI] t=2342.4s | pag=961 | files=5814 | data= 49 | cola= 246 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2023
+[ASFI] t=2343.4s | pag=962 | files=5826 | data= 49 | cola= 245 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2022
+[ASFI] t=2344.1s | pag=963 | files=5838 | data= 49 | cola= 244 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2021
+[ASFI] t=2345.1s | pag=964 | files=5850 | data= 49 | cola= 243 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2020
+[ASFI] t=2346.1s | pag=965 | files=5862 | data= 49 | cola= 242 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2019
+[ASFI] t=2347.0s | pag=966 | files=5874 | data= 49 | cola= 241 | prio=50 | https://asfi.gob.bo/la/fogavisp-fogacp-y-fogagre-2018
+[ASFI] t=2348.4s | pag=967 | files=5877 | data= 49 | cola= 240 | prio=50 | https://barometro.asfi.gob.bo/articles/20260601-banca-digital-tramites
+[ASFI] t=2348.4s | pag=968 | files=5877 | data= 49 | cola= 239 | prio=50 | https://asfi.gob.bo/node/1066
+[ASFI] t=2349.2s | pag=969 | files=5878 | data= 49 | cola= 238 | prio=50 | https://asfi.gob.bo/node/1067
+[ASFI] t=2349.9s | pag=970 | files=5879 | data= 49 | cola= 237 | prio=50 | https://asfi.gob.bo/ei/banco-central-bolivia
+[ASFI] t=2350.5s | pag=971 | files=5879 | data= 49 | cola= 236 | prio=50 | https://asfi.gob.bo/ei/ministerio-economia-y-finanzas
+[ASFI] t=2351.3s | pag=972 | files=5879 | data= 49 | cola= 235 | prio=70 | https://www.asfi.gob.bo/pb/mision-vision-y-valores
+[ASFI] t=2351.9s | pag=973 | files=5879 | data= 49 | cola= 234 | prio=70 | https://www.asfi.gob.bo/pb/unidad-transparencia-y-lucha-contra-corrupcion-utlcc
+[ASFI] t=2352.4s | pag=974 | files=5879 | data= 49 | cola= 233 | prio=70 | https://www.asfi.gob.bo/pb/codigo-etica-asfi
+[ASFI] t=2353.3s | pag=975 | files=5880 | data= 49 | cola= 232 | prio=70 | https://www.asfi.gob.bo/pb/normativa-referida-transparencia-y-lucha-contra-corrupcion-aplicable-asfi
+[ASFI] t=2354.0s | pag=976 | files=5887 | data= 49 | cola= 231 | prio=70 | https://www.asfi.gob.bo/pb/etica-publica
+[ASFI] t=2354.5s | pag=977 | files=5889 | data= 49 | cola= 231 | prio=50 | https://www.asfi.gob.bo/pb/decalogo-y-servidores-publicos
+[ASFI] t=2355.6s | pag=978 | files=5889 | data= 49 | cola= 230 | prio=70 | https://www.asfi.gob.bo/galeria-multimedia
+[ASFI] t=2356.5s | pag=979 | files=5889 | data= 49 | cola= 235 | prio=50 | https://www.asfi.gob.bo/gal/conferencia-prensa-nuevas-medidas-emitidas-asfi-para-beneficiar-prestatarios
+[ASFI] t=2357.3s | pag=980 | files=5889 | data= 49 | cola= 234 | prio=50 | https://www.asfi.gob.bo/gal/banca-digital-ciberdelincuencia-y-regulacion
+[ASFI] t=2358.4s | pag=981 | files=5889 | data= 49 | cola= 233 | prio=50 | https://www.asfi.gob.bo/gal/iv-foro-internacional-finanzas-sostenibles
+[ASFI] t=2359.0s | pag=982 | files=5889 | data= 49 | cola= 232 | prio=50 | https://www.asfi.gob.bo/gal/universidad-publica-alto-upea
+[ASFI] t=2359.5s | pag=983 | files=5889 | data= 49 | cola= 231 | prio=50 | https://www.asfi.gob.bo/gal/exposicion-personas-discapacidad
+[ASFI] t=2360.2s | pag=984 | files=5889 | data= 49 | cola= 230 | prio=50 | https://www.asfi.gob.bo/gal/reunion-prestatarios-afectados-su-capacidad-pago
+[ASFI] t=2360.7s | pag=985 | files=5889 | data= 49 | cola= 229 | prio=70 | https://www.asfi.gob.bo/pagina-de-autoridades
+[ASFI] t=2361.2s | pag=986 | files=5889 | data= 49 | cola= 229 | prio=40 | https://www.asfi.gob.bo/pagina-de-autoridades?page=1
+[ASFI] t=2361.9s | pag=987 | files=5889 | data= 49 | cola= 229 | prio=40 | https://www.asfi.gob.bo/pagina-de-autoridades?page=0
+[ASFI] t=2362.7s | pag=988 | files=5889 | data= 49 | cola= 228 | prio=70 | https://www.asfi.gob.bo//node/884
+[ASFI] t=2363.7s | pag=989 | files=5889 | data= 49 | cola= 227 | prio=70 | https://www.asfi.gob.bo//node/356
+[ASFI] t=2364.7s | pag=990 | files=5889 | data= 49 | cola= 226 | prio=70 | https://www.asfi.gob.bo//node/355
+[ASFI] t=2365.7s | pag=991 | files=5889 | data= 49 | cola= 225 | prio=70 | https://www.asfi.gob.bo//node/354
+[ASFI] t=2366.8s | pag=992 | files=5889 | data= 49 | cola= 224 | prio=70 | https://www.asfi.gob.bo//node/353
+[ASFI] t=2367.7s | pag=993 | files=5889 | data= 49 | cola= 223 | prio=70 | https://www.asfi.gob.bo//node/352
+[ASFI] t=2368.7s | pag=994 | files=5889 | data= 49 | cola= 222 | prio=70 | https://www.asfi.gob.bo//node/351
+[ASFI] t=2369.8s | pag=995 | files=5889 | data= 49 | cola= 221 | prio=70 | https://www.asfi.gob.bo//node/350
+[ASFI] t=2370.4s | pag=996 | files=5889 | data= 49 | cola= 220 | prio=70 | https://www.asfi.gob.bo//node/349
+[ASFI] t=2371.4s | pag=997 | files=5889 | data= 49 | cola= 219 | prio=70 | https://www.asfi.gob.bo//node/348
+[ASFI] t=2372.4s | pag=998 | files=5889 | data= 49 | cola= 218 | prio=70 | https://www.asfi.gob.bo//node/347
+[ASFI] t=2373.4s | pag=999 | files=5889 | data= 49 | cola= 217 | prio=70 | https://www.asfi.gob.bo//node/346
+[ASFI] t=2374.6s | pag=1000 | files=5889 | data= 49 | cola= 216 | prio=70 | https://www.asfi.gob.bo//node/345
+[ASFI] t=2375.2s | pag=1001 | files=5889 | data= 49 | cola= 215 | prio=70 | https://www.asfi.gob.bo//node/344
+[ASFI] t=2375.9s | pag=1002 | files=5889 | data= 49 | cola= 214 | prio=70 | https://www.asfi.gob.bo//node/343
+[ASFI] t=2376.7s | pag=1003 | files=5889 | data= 49 | cola= 213 | prio=70 | https://www.asfi.gob.bo//node/342
+[ASFI] t=2377.7s | pag=1004 | files=5889 | data= 49 | cola= 212 | prio=70 | https://www.asfi.gob.bo//node/341
+[ASFI] t=2378.7s | pag=1005 | files=5889 | data= 49 | cola= 211 | prio=70 | https://www.asfi.gob.bo//node/340
+[ASFI] t=2379.5s | pag=1006 | files=5889 | data= 49 | cola= 210 | prio=70 | https://www.asfi.gob.bo//node/339
+[ASFI] t=2380.1s | pag=1007 | files=5889 | data= 49 | cola= 209 | prio=70 | https://www.asfi.gob.bo//node/338
+[ASFI] t=2381.1s | pag=1008 | files=5889 | data= 49 | cola= 208 | prio=70 | https://www.asfi.gob.bo//node/337
+[ASFI] t=2381.8s | pag=1009 | files=5889 | data= 49 | cola= 207 | prio=70 | https://www.asfi.gob.bo//node/336
+[ASFI] t=2382.9s | pag=1010 | files=5889 | data= 49 | cola= 206 | prio=70 | https://www.asfi.gob.bo//node/335
+[ASFI] t=2383.9s | pag=1011 | files=5889 | data= 49 | cola= 205 | prio=70 | https://www.asfi.gob.bo//node/334
+[ASFI] t=2384.6s | pag=1012 | files=5889 | data= 49 | cola= 204 | prio=70 | https://www.asfi.gob.bo//node/333
+[ASFI] t=2385.5s | pag=1013 | files=5889 | data= 49 | cola= 203 | prio=70 | https://www.asfi.gob.bo//node/332
+[ASFI] t=2386.6s | pag=1014 | files=5889 | data= 49 | cola= 202 | prio=70 | https://www.asfi.gob.bo//node/331
+[ASFI] t=2387.4s | pag=1015 | files=5889 | data= 49 | cola= 201 | prio=70 | https://www.asfi.gob.bo//node/321
+[ASFI] t=2388.2s | pag=1016 | files=5889 | data= 49 | cola= 200 | prio=70 | https://www.asfi.gob.bo//node/4
+[ASFI] t=2389.0s | pag=1017 | files=5889 | data= 49 | cola= 199 | prio=70 | https://www.asfi.gob.bo//node/330
+[ASFI] t=2389.7s | pag=1018 | files=5889 | data= 49 | cola= 198 | prio=70 | https://www.asfi.gob.bo//node/329
+[ASFI] t=2390.7s | pag=1019 | files=5889 | data= 49 | cola= 197 | prio=70 | https://www.asfi.gob.bo//node/328
+[ASFI] t=2391.8s | pag=1020 | files=5889 | data= 49 | cola= 196 | prio=70 | https://www.asfi.gob.bo//node/327
+[ASFI] t=2392.7s | pag=1021 | files=5889 | data= 49 | cola= 195 | prio=70 | https://www.asfi.gob.bo//node/326
+[ASFI] t=2393.7s | pag=1022 | files=5889 | data= 49 | cola= 194 | prio=70 | https://www.asfi.gob.bo//node/325
+[ASFI] t=2394.6s | pag=1023 | files=5889 | data= 49 | cola= 193 | prio=70 | https://www.asfi.gob.bo//node/324
+[ASFI] t=2395.6s | pag=1024 | files=5889 | data= 49 | cola= 192 | prio=70 | https://www.asfi.gob.bo//node/323
+[ASFI] t=2396.4s | pag=1025 | files=5889 | data= 49 | cola= 191 | prio=70 | https://www.asfi.gob.bo//node/322
+[ASFI] t=2397.4s | pag=1026 | files=5889 | data= 49 | cola= 190 | prio=70 | https://www.asfi.gob.bo/la/formularios-referenciales-para-ordenes-judiciales-retencion-suspension-remision-fondos-y-1
+[ASFI] t=2398.3s | pag=1027 | files=5890 | data= 49 | cola= 189 | prio=70 | https://asfi.gob.bo/pb/mision-vision-y-valores
+[ASFI] t=2399.4s | pag=1028 | files=5890 | data= 49 | cola= 188 | prio=70 | https://asfi.gob.bo/pb/unidad-transparencia-y-lucha-contra-corrupcion-utlcc
+[ASFI] t=2400.2s | pag=1029 | files=5890 | data= 49 | cola= 187 | prio=70 | https://asfi.gob.bo/pb/codigo-etica-asfi
+[ASFI] t=2401.2s | pag=1030 | files=5891 | data= 49 | cola= 186 | prio=70 | https://asfi.gob.bo/pb/normativa-referida-transparencia-y-lucha-contra-corrupcion-aplicable-asfi
+[ASFI] t=2401.8s | pag=1031 | files=5898 | data= 49 | cola= 185 | prio=70 | https://asfi.gob.bo/pb/etica-publica
+[ASFI] t=2402.5s | pag=1032 | files=5900 | data= 49 | cola= 185 | prio=50 | https://asfi.gob.bo/pb/decalogo-y-servidores-publicos
+[ASFI] t=2403.1s | pag=1033 | files=5900 | data= 49 | cola= 184 | prio=70 | https://asfi.gob.bo/galeria-multimedia
+[ASFI] t=2403.7s | pag=1034 | files=5900 | data= 49 | cola= 189 | prio=50 | https://asfi.gob.bo/gal/conferencia-prensa-nuevas-medidas-emitidas-asfi-para-beneficiar-prestatarios
+[ASFI] t=2404.6s | pag=1035 | files=5900 | data= 49 | cola= 188 | prio=50 | https://asfi.gob.bo/gal/banca-digital-ciberdelincuencia-y-regulacion
+[ASFI] t=2405.1s | pag=1036 | files=5900 | data= 49 | cola= 187 | prio=50 | https://asfi.gob.bo/gal/iv-foro-internacional-finanzas-sostenibles
+[ASFI] t=2405.9s | pag=1037 | files=5900 | data= 49 | cola= 186 | prio=50 | https://asfi.gob.bo/gal/universidad-publica-alto-upea
+[ASFI] t=2406.9s | pag=1038 | files=5900 | data= 49 | cola= 185 | prio=50 | https://asfi.gob.bo/gal/exposicion-personas-discapacidad
+[ASFI] t=2407.9s | pag=1039 | files=5900 | data= 49 | cola= 184 | prio=50 | https://asfi.gob.bo/gal/reunion-prestatarios-afectados-su-capacidad-pago
+[ASFI] t=2408.5s | pag=1040 | files=5900 | data= 49 | cola= 183 | prio=70 | https://asfi.gob.bo/pagina-de-autoridades
+[ASFI] t=2409.1s | pag=1041 | files=5900 | data= 49 | cola= 183 | prio=40 | https://asfi.gob.bo/pagina-de-autoridades?page=1
+[ASFI] t=2410.0s | pag=1042 | files=5900 | data= 49 | cola= 183 | prio=40 | https://asfi.gob.bo/pagina-de-autoridades?page=0
+[ASFI] t=2410.8s | pag=1043 | files=5900 | data= 49 | cola= 182 | prio=70 | https://barometro.asfi.gob.bo/articles/20260703-trayectoria-creditos-microcredito
+[ASFI] t=2411.5s | pag=1044 | files=5900 | data= 49 | cola= 181 | prio=70 | https://www.asfi.gob.bo/la/programa-emisiones-2026
+[ASFI] t=2412.3s | pag=1045 | files=5905 | data= 49 | cola= 180 | prio=70 | https://www.asfi.gob.bo/la/emisiones-pagares-2026
+[ASFI] t=2413.0s | pag=1046 | files=5914 | data= 49 | cola= 179 | prio=70 | https://www.asfi.gob.bo/la/emisiones-valores-titularizacion-2026
+[ASFI] t=2414.4s | pag=1047 | files=5914 | data= 49 | cola= 178 | prio=70 | https://www.asfi.gob.bo/la/emisiones-bonos-2026
+[ASFI] t=2414.6s | pag=1048 | files=5926 | data= 49 | cola= 177 | prio=70 | https://www.asfi.gob.bo/node/512
+[ASFI] t=2415.6s | pag=1049 | files=5933 | data= 49 | cola= 176 | prio=70 | https://www.asfi.gob.bo/node/514
+[ASFI] t=2416.6s | pag=1050 | files=5983 | data= 49 | cola= 175 | prio=70 | https://www.asfi.gob.bo/node/515
+[ASFI] t=2417.6s | pag=1051 | files=5990 | data= 49 | cola= 174 | prio=70 | https://www.asfi.gob.bo/node/516
+[ASFI] t=2418.5s | pag=1052 | files=6019 | data= 49 | cola= 173 | prio=70 | https://www.asfi.gob.bo/node/517
+[ASFI] t=2419.3s | pag=1053 | files=6032 | data= 49 | cola= 172 | prio=70 | https://www.asfi.gob.bo/node/519
+[ASFI] t=2420.2s | pag=1054 | files=6055 | data= 49 | cola= 171 | prio=70 | https://www.asfi.gob.bo/node/520
+[ASFI] t=2421.1s | pag=1055 | files=6055 | data= 49 | cola= 170 | prio=70 | https://www.asfi.gob.bo/node/521
+[ASFI] t=2421.7s | pag=1056 | files=6081 | data= 49 | cola= 169 | prio=70 | https://www.asfi.gob.bo/node/522
+[ASFI] t=2422.7s | pag=1057 | files=6089 | data= 49 | cola= 168 | prio=70 | https://www.asfi.gob.bo/node/524
+[ASFI] t=2423.5s | pag=1058 | files=6102 | data= 49 | cola= 167 | prio=70 | https://www.asfi.gob.bo/node/525
+[ASFI] t=2423.9s | pag=1059 | files=6105 | data= 49 | cola= 166 | prio=70 | https://www.asfi.gob.bo/node/526
+[ASFI] t=2424.9s | pag=1060 | files=6134 | data= 49 | cola= 165 | prio=70 | https://www.asfi.gob.bo/node/527
+[ASFI] t=2425.9s | pag=1061 | files=6140 | data= 49 | cola= 164 | prio=70 | https://www.asfi.gob.bo/node/529
+[ASFI] t=2426.8s | pag=1062 | files=6148 | data= 49 | cola= 163 | prio=70 | https://www.asfi.gob.bo/node/530
+[ASFI] t=2427.3s | pag=1063 | files=6149 | data= 49 | cola= 162 | prio=70 | https://www.asfi.gob.bo/node/531
+[ASFI] t=2427.9s | pag=1064 | files=6170 | data= 49 | cola= 161 | prio=70 | https://www.asfi.gob.bo/node/532
+[ASFI] t=2428.7s | pag=1065 | files=6180 | data= 49 | cola= 160 | prio=70 | https://www.asfi.gob.bo/node/534
+[ASFI] t=2429.5s | pag=1066 | files=6194 | data= 49 | cola= 159 | prio=70 | https://www.asfi.gob.bo/node/535
+[ASFI] t=2430.3s | pag=1067 | files=6198 | data= 49 | cola= 158 | prio=70 | https://www.asfi.gob.bo/node/536
+[ASFI] t=2431.4s | pag=1068 | files=6222 | data= 49 | cola= 157 | prio=70 | https://www.asfi.gob.bo/node/537
+[ASFI] t=2431.9s | pag=1069 | files=6235 | data= 49 | cola= 156 | prio=70 | https://www.asfi.gob.bo/node/539
+[ASFI] t=2432.9s | pag=1070 | files=6249 | data= 49 | cola= 155 | prio=70 | https://www.asfi.gob.bo/node/540
+[ASFI] t=2433.9s | pag=1071 | files=6254 | data= 49 | cola= 154 | prio=70 | https://www.asfi.gob.bo/node/541
+[ASFI] t=2434.6s | pag=1072 | files=6289 | data= 49 | cola= 153 | prio=70 | https://www.asfi.gob.bo/node/542
+[ASFI] t=2435.6s | pag=1073 | files=6302 | data= 49 | cola= 152 | prio=70 | https://www.asfi.gob.bo/node/544
+[ASFI] t=2436.3s | pag=1074 | files=6310 | data= 49 | cola= 151 | prio=70 | https://www.asfi.gob.bo/node/545
+[ASFI] t=2437.1s | pag=1075 | files=6315 | data= 49 | cola= 150 | prio=70 | https://www.asfi.gob.bo/node/546
+[ASFI] t=2438.1s | pag=1076 | files=6342 | data= 49 | cola= 149 | prio=70 | https://www.asfi.gob.bo/node/547
+[ASFI] t=2438.6s | pag=1077 | files=6348 | data= 49 | cola= 148 | prio=70 | https://www.asfi.gob.bo/node/549
+[ASFI] t=2439.2s | pag=1078 | files=6352 | data= 49 | cola= 147 | prio=70 | https://www.asfi.gob.bo/node/550
+[ASFI] t=2439.9s | pag=1079 | files=6357 | data= 49 | cola= 146 | prio=70 | https://www.asfi.gob.bo/node/551
+[ASFI] t=2441.0s | pag=1080 | files=6370 | data= 49 | cola= 145 | prio=70 | https://www.asfi.gob.bo/node/552
+[ASFI] t=2441.5s | pag=1081 | files=6378 | data= 49 | cola= 144 | prio=70 | https://www.asfi.gob.bo/node/554
+[ASFI] t=2442.1s | pag=1082 | files=6385 | data= 49 | cola= 143 | prio=70 | https://www.asfi.gob.bo/node/555
+[ASFI] t=2442.6s | pag=1083 | files=6390 | data= 49 | cola= 142 | prio=70 | https://www.asfi.gob.bo/node/556
+[ASFI] t=2443.4s | pag=1084 | files=6412 | data= 49 | cola= 141 | prio=70 | https://www.asfi.gob.bo/node/557
+[ASFI] t=2444.4s | pag=1085 | files=6420 | data= 49 | cola= 140 | prio=70 | https://www.asfi.gob.bo/node/559
+[ASFI] t=2445.0s | pag=1086 | files=6429 | data= 49 | cola= 139 | prio=70 | https://www.asfi.gob.bo/node/560
+[ASFI] t=2445.9s | pag=1087 | files=6432 | data= 49 | cola= 138 | prio=70 | https://www.asfi.gob.bo/node/561
+[ASFI] t=2446.9s | pag=1088 | files=6466 | data= 49 | cola= 137 | prio=70 | https://www.asfi.gob.bo/node/562
+[ASFI] t=2447.7s | pag=1089 | files=6476 | data= 49 | cola= 136 | prio=70 | https://www.asfi.gob.bo/node/564
+[ASFI] t=2448.3s | pag=1090 | files=6480 | data= 49 | cola= 135 | prio=70 | https://www.asfi.gob.bo/node/565
+[ASFI] t=2449.3s | pag=1091 | files=6481 | data= 49 | cola= 134 | prio=70 | https://www.asfi.gob.bo/node/566
+[ASFI] t=2450.4s | pag=1092 | files=6515 | data= 49 | cola= 133 | prio=70 | https://www.asfi.gob.bo/node/567
+[ASFI] t=2451.4s | pag=1093 | files=6529 | data= 49 | cola= 132 | prio=70 | https://www.asfi.gob.bo/node/569
+[ASFI] t=2452.0s | pag=1094 | files=6534 | data= 49 | cola= 131 | prio=70 | https://www.asfi.gob.bo/node/570
+[ASFI] t=2453.0s | pag=1095 | files=6536 | data= 49 | cola= 130 | prio=70 | https://www.asfi.gob.bo/node/571
+[ASFI] t=2453.9s | pag=1096 | files=6558 | data= 49 | cola= 129 | prio=70 | https://www.asfi.gob.bo/node/572
+[ASFI] t=2454.6s | pag=1097 | files=6572 | data= 49 | cola= 128 | prio=70 | https://www.asfi.gob.bo/node/574
+[ASFI] t=2455.5s | pag=1098 | files=6580 | data= 49 | cola= 127 | prio=70 | https://www.asfi.gob.bo/node/575
+[ASFI] t=2456.5s | pag=1099 | files=6582 | data= 49 | cola= 126 | prio=70 | https://www.asfi.gob.bo/node/576
+[ASFI] t=2457.2s | pag=1100 | files=6610 | data= 49 | cola= 125 | prio=70 | https://www.asfi.gob.bo/node/577
+[ASFI] t=2457.9s | pag=1101 | files=6624 | data= 49 | cola= 124 | prio=70 | https://www.asfi.gob.bo/node/579
+[ASFI] t=2458.5s | pag=1102 | files=6633 | data= 49 | cola= 123 | prio=70 | https://www.asfi.gob.bo/node/580
+[ASFI] t=2459.0s | pag=1103 | files=6637 | data= 49 | cola= 122 | prio=70 | https://www.asfi.gob.bo/node/581
+[ASFI] t=2459.7s | pag=1104 | files=6658 | data= 49 | cola= 121 | prio=70 | https://www.asfi.gob.bo/node/582
+[ASFI] t=2460.6s | pag=1105 | files=6670 | data= 49 | cola= 120 | prio=70 | https://www.asfi.gob.bo/node/584
+[ASFI] t=2461.5s | pag=1106 | files=6683 | data= 49 | cola= 119 | prio=70 | https://www.asfi.gob.bo/node/585
+[ASFI] t=2462.0s | pag=1107 | files=6684 | data= 49 | cola= 118 | prio=70 | https://www.asfi.gob.bo/node/586
+[ASFI] t=2462.6s | pag=1108 | files=6695 | data= 49 | cola= 117 | prio=70 | https://www.asfi.gob.bo/node/587
+[ASFI] t=2463.5s | pag=1109 | files=6701 | data= 49 | cola= 116 | prio=70 | https://www.asfi.gob.bo/node/589
+[ASFI] t=2464.1s | pag=1110 | files=6702 | data= 49 | cola= 115 | prio=70 | https://www.asfi.gob.bo/node/590
+[ASFI] t=2465.1s | pag=1111 | files=6706 | data= 49 | cola= 114 | prio=70 | https://www.asfi.gob.bo/node/591
+[ASFI] t=2465.8s | pag=1112 | files=6728 | data= 49 | cola= 113 | prio=70 | https://asfi.gob.bo//node/884
+[ASFI] t=2466.4s | pag=1113 | files=6728 | data= 49 | cola= 112 | prio=70 | https://asfi.gob.bo//node/356
+[ASFI] t=2467.2s | pag=1114 | files=6728 | data= 49 | cola= 111 | prio=70 | https://asfi.gob.bo//node/355
+[ASFI] t=2468.3s | pag=1115 | files=6728 | data= 49 | cola= 110 | prio=70 | https://asfi.gob.bo//node/354
+[ASFI] t=2469.1s | pag=1116 | files=6728 | data= 49 | cola= 109 | prio=70 | https://asfi.gob.bo//node/353
+[ASFI] t=2469.9s | pag=1117 | files=6728 | data= 49 | cola= 108 | prio=70 | https://asfi.gob.bo//node/352
+[ASFI] t=2470.8s | pag=1118 | files=6728 | data= 49 | cola= 107 | prio=70 | https://asfi.gob.bo//node/351
+[ASFI] t=2472.0s | pag=1119 | files=6728 | data= 49 | cola= 106 | prio=70 | https://asfi.gob.bo//node/350
+[ASFI] t=2472.7s | pag=1120 | files=6728 | data= 49 | cola= 105 | prio=70 | https://asfi.gob.bo//node/349
+[ASFI] t=2473.6s | pag=1121 | files=6728 | data= 49 | cola= 104 | prio=70 | https://asfi.gob.bo//node/348
+[ASFI] t=2474.7s | pag=1122 | files=6728 | data= 49 | cola= 103 | prio=70 | https://asfi.gob.bo//node/347
+[ASFI] t=2475.4s | pag=1123 | files=6728 | data= 49 | cola= 102 | prio=70 | https://asfi.gob.bo//node/346
+[ASFI] t=2476.5s | pag=1124 | files=6728 | data= 49 | cola= 101 | prio=70 | https://asfi.gob.bo//node/345
+[ASFI] t=2477.3s | pag=1125 | files=6728 | data= 49 | cola= 100 | prio=70 | https://asfi.gob.bo//node/344
+[ASFI] t=2478.0s | pag=1126 | files=6728 | data= 49 | cola=  99 | prio=70 | https://asfi.gob.bo//node/343
+[ASFI] t=2479.1s | pag=1127 | files=6728 | data= 49 | cola=  98 | prio=70 | https://asfi.gob.bo//node/342
+[ASFI] t=2479.8s | pag=1128 | files=6728 | data= 49 | cola=  97 | prio=70 | https://asfi.gob.bo//node/341
+[ASFI] t=2480.8s | pag=1129 | files=6728 | data= 49 | cola=  96 | prio=70 | https://asfi.gob.bo//node/340
+[ASFI] t=2482.0s | pag=1130 | files=6728 | data= 49 | cola=  95 | prio=70 | https://asfi.gob.bo//node/339
+[ASFI] t=2482.7s | pag=1131 | files=6728 | data= 49 | cola=  94 | prio=70 | https://asfi.gob.bo//node/338
+[ASFI] t=2483.8s | pag=1132 | files=6728 | data= 49 | cola=  93 | prio=70 | https://asfi.gob.bo//node/337
+[ASFI] t=2484.4s | pag=1133 | files=6728 | data= 49 | cola=  92 | prio=70 | https://asfi.gob.bo//node/336
+[ASFI] t=2485.5s | pag=1134 | files=6728 | data= 49 | cola=  91 | prio=70 | https://asfi.gob.bo//node/335
+[ASFI] t=2486.1s | pag=1135 | files=6728 | data= 49 | cola=  90 | prio=70 | https://asfi.gob.bo//node/334
+[ASFI] t=2486.7s | pag=1136 | files=6728 | data= 49 | cola=  89 | prio=70 | https://asfi.gob.bo//node/333
+[ASFI] t=2487.6s | pag=1137 | files=6728 | data= 49 | cola=  88 | prio=70 | https://asfi.gob.bo//node/332
+[ASFI] t=2488.5s | pag=1138 | files=6728 | data= 49 | cola=  87 | prio=70 | https://asfi.gob.bo//node/331
+[ASFI] t=2489.1s | pag=1139 | files=6728 | data= 49 | cola=  86 | prio=70 | https://asfi.gob.bo//node/321
+[ASFI] t=2490.3s | pag=1140 | files=6728 | data= 49 | cola=  85 | prio=70 | https://asfi.gob.bo//node/4
+[ASFI] t=2491.1s | pag=1141 | files=6728 | data= 49 | cola=  84 | prio=70 | https://asfi.gob.bo//node/330
+[ASFI] t=2491.9s | pag=1142 | files=6728 | data= 49 | cola=  83 | prio=70 | https://asfi.gob.bo//node/329
+[ASFI] t=2492.8s | pag=1143 | files=6728 | data= 49 | cola=  82 | prio=70 | https://asfi.gob.bo//node/328
+[ASFI] t=2493.6s | pag=1144 | files=6728 | data= 49 | cola=  81 | prio=70 | https://asfi.gob.bo//node/327
+[ASFI] t=2494.3s | pag=1145 | files=6728 | data= 49 | cola=  80 | prio=70 | https://asfi.gob.bo//node/326
+[ASFI] t=2495.0s | pag=1146 | files=6728 | data= 49 | cola=  79 | prio=70 | https://asfi.gob.bo//node/325
+[ASFI] t=2495.7s | pag=1147 | files=6728 | data= 49 | cola=  78 | prio=70 | https://asfi.gob.bo//node/324
+[ASFI] t=2496.5s | pag=1148 | files=6728 | data= 49 | cola=  77 | prio=70 | https://asfi.gob.bo//node/323
+[ASFI] t=2497.6s | pag=1149 | files=6728 | data= 49 | cola=  76 | prio=70 | https://asfi.gob.bo//node/322
+[ASFI] t=2498.2s | pag=1150 | files=6728 | data= 49 | cola=  75 | prio=70 | https://asfi.gob.bo/la/programa-emisiones-2026
+[ASFI] t=2498.9s | pag=1151 | files=6733 | data= 49 | cola=  74 | prio=70 | https://asfi.gob.bo/la/emisiones-pagares-2026
+[ASFI] t=2499.5s | pag=1152 | files=6742 | data= 49 | cola=  73 | prio=70 | https://asfi.gob.bo/la/emisiones-valores-titularizacion-2026
+[ASFI] t=2500.3s | pag=1153 | files=6742 | data= 49 | cola=  72 | prio=70 | https://asfi.gob.bo/la/emisiones-bonos-2026
+[ASFI] t=2501.3s | pag=1154 | files=6754 | data= 49 | cola=  71 | prio=70 | https://asfi.gob.bo/node/512
+[ASFI] t=2501.8s | pag=1155 | files=6761 | data= 49 | cola=  70 | prio=70 | https://asfi.gob.bo/node/514
+[ASFI] t=2502.4s | pag=1156 | files=6811 | data= 49 | cola=  69 | prio=70 | https://asfi.gob.bo/node/515
+[ASFI] t=2503.0s | pag=1157 | files=6818 | data= 49 | cola=  68 | prio=70 | https://asfi.gob.bo/node/516
+[ASFI] t=2503.8s | pag=1158 | files=6847 | data= 49 | cola=  67 | prio=70 | https://asfi.gob.bo/node/517
+[ASFI] t=2504.4s | pag=1159 | files=6860 | data= 49 | cola=  66 | prio=70 | https://asfi.gob.bo/node/519
+[ASFI] t=2505.0s | pag=1160 | files=6883 | data= 49 | cola=  65 | prio=70 | https://asfi.gob.bo/node/520
+[ASFI] t=2505.9s | pag=1161 | files=6883 | data= 49 | cola=  64 | prio=70 | https://asfi.gob.bo/node/521
+[ASFI] t=2506.8s | pag=1162 | files=6909 | data= 49 | cola=  63 | prio=70 | https://asfi.gob.bo/node/522
+[ASFI] t=2507.5s | pag=1163 | files=6917 | data= 49 | cola=  62 | prio=70 | https://asfi.gob.bo/node/524
+[ASFI] t=2508.5s | pag=1164 | files=6930 | data= 49 | cola=  61 | prio=70 | https://asfi.gob.bo/node/525
+[ASFI] t=2509.2s | pag=1165 | files=6933 | data= 49 | cola=  60 | prio=70 | https://asfi.gob.bo/node/526
+[ASFI] t=2509.8s | pag=1166 | files=6962 | data= 49 | cola=  59 | prio=70 | https://asfi.gob.bo/node/527
+[ASFI] t=2510.9s | pag=1167 | files=6968 | data= 49 | cola=  58 | prio=70 | https://asfi.gob.bo/node/529
+[ASFI] t=2511.6s | pag=1168 | files=6976 | data= 49 | cola=  57 | prio=70 | https://asfi.gob.bo/node/530
+[ASFI] t=2512.6s | pag=1169 | files=6977 | data= 49 | cola=  56 | prio=70 | https://asfi.gob.bo/node/531
+[ASFI] t=2513.3s | pag=1170 | files=6998 | data= 49 | cola=  55 | prio=70 | https://asfi.gob.bo/node/532
+[ASFI] t=2513.8s | pag=1171 | files=7008 | data= 49 | cola=  54 | prio=70 | https://asfi.gob.bo/node/534
+[ASFI] t=2514.5s | pag=1172 | files=7022 | data= 49 | cola=  53 | prio=70 | https://asfi.gob.bo/node/535
+[ASFI] t=2515.3s | pag=1173 | files=7026 | data= 49 | cola=  52 | prio=70 | https://asfi.gob.bo/node/536
+[ASFI] t=2516.3s | pag=1174 | files=7050 | data= 49 | cola=  51 | prio=70 | https://asfi.gob.bo/node/537
+[ASFI] t=2517.1s | pag=1175 | files=7063 | data= 49 | cola=  50 | prio=70 | https://asfi.gob.bo/node/539
+[ASFI] t=2517.8s | pag=1176 | files=7077 | data= 49 | cola=  49 | prio=70 | https://asfi.gob.bo/node/540
+[ASFI] t=2518.6s | pag=1177 | files=7082 | data= 49 | cola=  48 | prio=70 | https://asfi.gob.bo/node/541
+[ASFI] t=2519.4s | pag=1178 | files=7117 | data= 49 | cola=  47 | prio=70 | https://asfi.gob.bo/node/542
+[ASFI] t=2520.4s | pag=1179 | files=7130 | data= 49 | cola=  46 | prio=70 | https://asfi.gob.bo/node/544
+[ASFI] t=2521.4s | pag=1180 | files=7138 | data= 49 | cola=  45 | prio=70 | https://asfi.gob.bo/node/545
+[ASFI] t=2522.4s | pag=1181 | files=7143 | data= 49 | cola=  44 | prio=70 | https://asfi.gob.bo/node/546
+[ASFI] t=2523.4s | pag=1182 | files=7170 | data= 49 | cola=  43 | prio=70 | https://asfi.gob.bo/node/547
+[ASFI] t=2524.4s | pag=1183 | files=7176 | data= 49 | cola=  42 | prio=70 | https://asfi.gob.bo/node/549
+[ASFI] t=2525.3s | pag=1184 | files=7180 | data= 49 | cola=  41 | prio=70 | https://asfi.gob.bo/node/550
+[ASFI] t=2526.2s | pag=1185 | files=7185 | data= 49 | cola=  40 | prio=70 | https://asfi.gob.bo/node/551
+[ASFI] t=2527.0s | pag=1186 | files=7198 | data= 49 | cola=  39 | prio=70 | https://asfi.gob.bo/node/552
+[ASFI] t=2527.9s | pag=1187 | files=7206 | data= 49 | cola=  38 | prio=70 | https://asfi.gob.bo/node/554
+[ASFI] t=2528.6s | pag=1188 | files=7213 | data= 49 | cola=  37 | prio=70 | https://asfi.gob.bo/node/555
+[ASFI] t=2529.3s | pag=1189 | files=7218 | data= 49 | cola=  36 | prio=70 | https://asfi.gob.bo/node/556
+[ASFI] t=2530.3s | pag=1190 | files=7240 | data= 49 | cola=  35 | prio=70 | https://asfi.gob.bo/node/557
+[ASFI] t=2531.1s | pag=1191 | files=7248 | data= 49 | cola=  34 | prio=70 | https://asfi.gob.bo/node/559
+[ASFI] t=2531.7s | pag=1192 | files=7257 | data= 49 | cola=  33 | prio=70 | https://asfi.gob.bo/node/560
+[ASFI] t=2532.3s | pag=1193 | files=7260 | data= 49 | cola=  32 | prio=70 | https://asfi.gob.bo/node/561
+[ASFI] t=2532.8s | pag=1194 | files=7294 | data= 49 | cola=  31 | prio=70 | https://asfi.gob.bo/node/562
+[ASFI] t=2533.9s | pag=1195 | files=7304 | data= 49 | cola=  30 | prio=70 | https://asfi.gob.bo/node/564
+[ASFI] t=2534.9s | pag=1196 | files=7308 | data= 49 | cola=  29 | prio=70 | https://asfi.gob.bo/node/565
+[ASFI] t=2535.5s | pag=1197 | files=7309 | data= 49 | cola=  28 | prio=70 | https://asfi.gob.bo/node/566
+[ASFI] t=2536.4s | pag=1198 | files=7343 | data= 49 | cola=  27 | prio=70 | https://asfi.gob.bo/node/567
+[ASFI] t=2537.2s | pag=1199 | files=7357 | data= 49 | cola=  26 | prio=70 | https://asfi.gob.bo/node/569
+[ASFI] t=2537.8s | pag=1200 | files=7362 | data= 49 | cola=  25 | prio=70 | https://asfi.gob.bo/node/570
+[ASFI] t=2538.6s | pag=1201 | files=7364 | data= 49 | cola=  24 | prio=70 | https://asfi.gob.bo/node/571
+[ASFI] t=2539.2s | pag=1202 | files=7386 | data= 49 | cola=  23 | prio=70 | https://asfi.gob.bo/node/572
+[ASFI] t=2540.3s | pag=1203 | files=7400 | data= 49 | cola=  22 | prio=70 | https://asfi.gob.bo/node/574
+[ASFI] t=2541.0s | pag=1204 | files=7408 | data= 49 | cola=  21 | prio=70 | https://asfi.gob.bo/node/575
+[ASFI] t=2541.6s | pag=1205 | files=7410 | data= 49 | cola=  20 | prio=70 | https://asfi.gob.bo/node/576
+[ASFI] t=2542.2s | pag=1206 | files=7438 | data= 49 | cola=  19 | prio=70 | https://asfi.gob.bo/node/577
+[ASFI] t=2542.8s | pag=1207 | files=7452 | data= 49 | cola=  18 | prio=70 | https://asfi.gob.bo/node/579
+[ASFI] t=2543.5s | pag=1208 | files=7461 | data= 49 | cola=  17 | prio=70 | https://asfi.gob.bo/node/580
+[ASFI] t=2544.6s | pag=1209 | files=7465 | data= 49 | cola=  16 | prio=70 | https://asfi.gob.bo/node/581
+[ASFI] t=2545.2s | pag=1210 | files=7486 | data= 49 | cola=  15 | prio=70 | https://asfi.gob.bo/node/582
+[ASFI] t=2546.0s | pag=1211 | files=7498 | data= 49 | cola=  14 | prio=70 | https://asfi.gob.bo/node/584
+[ASFI] t=2546.7s | pag=1212 | files=7511 | data= 49 | cola=  13 | prio=70 | https://asfi.gob.bo/node/585
+[ASFI] t=2547.8s | pag=1213 | files=7512 | data= 49 | cola=  12 | prio=70 | https://asfi.gob.bo/node/586
+[ASFI] t=2548.7s | pag=1214 | files=7523 | data= 49 | cola=  11 | prio=70 | https://asfi.gob.bo/node/587
+[ASFI] t=2549.3s | pag=1215 | files=7529 | data= 49 | cola=  10 | prio=70 | https://asfi.gob.bo/node/589
+[ASFI] t=2550.0s | pag=1216 | files=7530 | data= 49 | cola=   9 | prio=70 | https://asfi.gob.bo/node/590
+[ASFI] t=2551.1s | pag=1217 | files=7534 | data= 49 | cola=   8 | prio=70 | https://asfi.gob.bo/node/591
+[ASFI] t=2551.8s | pag=1218 | files=7556 | data= 49 | cola=   7 | prio=90 | https://www.asfi.gob.bo/la/resena-historica
+[ASFI] t=2552.3s | pag=1219 | files=7557 | data= 49 | cola=   6 | prio=90 | https://www.asfi.gob.bo/pb/actividad-financiera-ilegal
+[ASFI] t=2552.9s | pag=1220 | files=7557 | data= 49 | cola=  16 | prio=50 | https://www.asfi.gob.bo/node/753
+[ASFI] t=2553.8s | pag=1221 | files=7558 | data= 49 | cola=  15 | prio=50 | https://www.asfi.gob.bo/node/762
+[ASFI] t=2554.8s | pag=1222 | files=7559 | data= 49 | cola=  14 | prio=50 | https://www.asfi.gob.bo/node/763
+[ASFI] t=2555.7s | pag=1223 | files=7559 | data= 49 | cola=  13 | prio=50 | https://www.asfi.gob.bo/node/764
+[ASFI] t=2556.6s | pag=1224 | files=7560 | data= 49 | cola=  12 | prio=50 | https://www.asfi.gob.bo/node/765
+[ASFI] t=2557.4s | pag=1225 | files=7560 | data= 49 | cola=  11 | prio=50 | https://www.asfi.gob.bo/node/766
+[ASFI] t=2558.0s | pag=1226 | files=7560 | data= 49 | cola=  10 | prio=50 | https://www.asfi.gob.bo/node/767
+[ASFI] t=2558.9s | pag=1227 | files=7566 | data= 49 | cola=   9 | prio=50 | https://www.asfi.gob.bo/node/768
+[ASFI] t=2559.5s | pag=1228 | files=7566 | data= 49 | cola=   8 | prio=50 | https://www.asfi.gob.bo/node/769
+[ASFI] t=2560.6s | pag=1229 | files=7566 | data= 49 | cola=   7 | prio=90 | https://www.asfi.gob.bo/pb/spots-institucionales
+[ASFI] t=2561.5s | pag=1230 | files=7566 | data= 49 | cola=   6 | prio=90 | https://www.asfi.gob.bo/ef/educacion-financiera
+[ASFI] t=2562.3s | pag=1231 | files=7566 | data= 49 | cola=   9 | prio=50 | https://www.asfi.gob.bo/ef/capsulas-informativas
+[ASFI] t=2563.6s | pag=1232 | files=7566 | data= 49 | cola=   8 | prio=50 | https://www.asfi.gob.bo/ef/contenidos-educativos
+[ASFI] t=2564.4s | pag=1233 | files=7581 | data= 49 | cola=   7 | prio=50 | https://www.asfi.gob.bo/ef/videos
+[ASFI] t=2565.3s | pag=1234 | files=7581 | data= 49 | cola=   6 | prio=50 | https://www.asfi.gob.bo/ef/actividades-educacion
+[ASFI] t=2566.2s | pag=1235 | files=7581 | data= 49 | cola=   5 | prio=90 | https://asfi.gob.bo/la/resena-historica
+[ASFI] t=2567.6s | pag=1236 | files=7582 | data= 49 | cola=   4 | prio=90 | https://asfi.gob.bo/pb/actividad-financiera-ilegal
+[ASFI] t=2568.9s | pag=1237 | files=7582 | data= 49 | cola=  14 | prio=50 | https://asfi.gob.bo/node/753
+[ASFI] t=2569.7s | pag=1238 | files=7583 | data= 49 | cola=  13 | prio=50 | https://asfi.gob.bo/node/762
+[ASFI] t=2570.6s | pag=1239 | files=7584 | data= 49 | cola=  12 | prio=50 | https://asfi.gob.bo/node/763
+[ASFI] t=2571.5s | pag=1240 | files=7584 | data= 49 | cola=  11 | prio=50 | https://asfi.gob.bo/node/764
+[ASFI] t=2572.0s | pag=1241 | files=7585 | data= 49 | cola=  10 | prio=50 | https://asfi.gob.bo/node/765
+[ASFI] t=2573.1s | pag=1242 | files=7585 | data= 49 | cola=   9 | prio=50 | https://asfi.gob.bo/node/766
+[ASFI] t=2573.9s | pag=1243 | files=7585 | data= 49 | cola=   8 | prio=50 | https://asfi.gob.bo/node/767
+[ASFI] t=2574.9s | pag=1244 | files=7591 | data= 49 | cola=   7 | prio=50 | https://asfi.gob.bo/node/768
+[ASFI] t=2575.6s | pag=1245 | files=7591 | data= 49 | cola=   6 | prio=50 | https://asfi.gob.bo/node/769
+[ASFI] t=2576.2s | pag=1246 | files=7591 | data= 49 | cola=   5 | prio=90 | https://asfi.gob.bo/pb/spots-institucionales
+[ASFI] t=2576.6s | pag=1247 | files=7591 | data= 49 | cola=   4 | prio=90 | https://asfi.gob.bo/ef/educacion-financiera
+[ASFI] t=2577.5s | pag=1248 | files=7591 | data= 49 | cola=   7 | prio=50 | https://asfi.gob.bo/ef/capsulas-informativas
+[ASFI] t=2578.5s | pag=1249 | files=7591 | data= 49 | cola=   6 | prio=50 | https://asfi.gob.bo/ef/contenidos-educativos
+[ASFI] t=2579.9s | pag=1250 | files=7606 | data= 49 | cola=   5 | prio=50 | https://asfi.gob.bo/ef/videos
+[ASFI] t=2580.9s | pag=1251 | files=7606 | data= 49 | cola=   4 | prio=50 | https://asfi.gob.bo/ef/actividades-educacion
+[ASFI] t=2581.8s | pag=1252 | files=7606 | data= 49 | cola=   3 | prio=90 | https://www.asfi.gob.bo/node/761
+[ASFI] t=2582.8s | pag=1253 | files=7606 | data= 49 | cola=   2 | prio=90 | https://www.asfi.gob.bo/node/770
+[ASFI] t=2583.6s | pag=1254 | files=7606 | data= 49 | cola=   1 | prio=90 | https://asfi.gob.bo/node/761
+[ASFI] t=2584.3s | pag=1255 | files=7606 | data= 49 | cola=   0 | prio=90 | https://asfi.gob.bo/node/770
 
 ================================================================================
 RESULTADO
 ================================================================================
 Fuente:              asfi
-Páginas visitadas:   25
-Archivos encontrados:   46
-Datasets web:         2
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             40.89 s
+Páginas visitadas:   1256
+Archivos encontrados: 7606
+Datasets web:         49
+Errores:              6
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             2585.31 s
 Sitemaps procesados:  0
 URLs por sitemap:     0
 URLs sitemap en cola: 0
 
+Detalle de errores:
+  - https://www.asfi.gob.bo/terminos-y-condiciones -> HTTPError: 404 Client Error: Not Found for url: https://www.asfi.gob.bo/terminos-y-condiciones
+  - https://www.asfi.gob.bo/sitemap -> HTTPError: 403 Client Error: Forbidden for url: https://www.asfi.gob.bo/sitemap
+  - https://www.asfi.gob.bo/node/955 -> HTTPError: 403 Client Error: Forbidden for url: https://www.asfi.gob.bo/node/955
+  - https://asfi.gob.bo/terminos-y-condiciones -> HTTPError: 404 Client Error: Not Found for url: https://asfi.gob.bo/terminos-y-condiciones
+  - https://asfi.gob.bo/sitemap -> HTTPError: 403 Client Error: Forbidden for url: https://asfi.gob.bo/sitemap
+  - https://asfi.gob.bo/node/955 -> HTTPError: 403 Client Error: Forbidden for url: https://asfi.gob.bo/node/955
+
 Formatos:
-  - DOC    : 4
-  - DOCX   : 1
-  - PDF    : 22
-  - XLS    : 3
-  - ZIP    : 16
+  - DOC    : 8
+  - DOCX   : 2
+  - PDF    : 4228
+  - RAR    : 6
+  - XLS    : 1606
+  - XLSX   : 495
+  - ZIP    : 1261
 
 JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\asfi.json
 
 Trazabilidad:
-  Ejecución: 162
+  Ejecución: 219
   Estado:    PROCESSED
   Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,87 +1,16 @@
-================================================================================
-CRAWLER V2
-================================================================================
-Fuente: United Nations Data
-URL configurada: https://data.un.org/
-Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
-Verificación TLS: activa
-
-
-Resolución de fuente:
-  Original: https://data.un.org/
-  Utilizada: https://data.un.org/
-  Fallback: no
-  Intentos: 1
-    - usable         | HTTP=200 | https://data.un.org/
-
-URL de trabajo: https://data.un.org/
-Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
-Sitemaps: activo
-Máx URLs sitemap: 10000
-
-[UNDATA] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[UNDATA] t=   8.2s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://data.un.org/
-[UNDATA] DATASETS=1 | configured_data_page | https://data.un.org/
-[UNDATA] t=  10.0s | pag=  1 | files=  66 | data=  1 | cola= 275 | prio=10 | https://data.un.org/Feedback.aspx
-[UNDATA] DATASETS=2 | configured_data_page | https://data.un.org/Feedback.aspx
-[UNDATA] t=  12.6s | pag=  2 | files=  66 | data=  2 | cola= 274 | prio=10 | https://data.un.org/Explorer.aspx
-[UNDATA] DATASETS=3 | configured_data_page | http://data.un.org/Explorer.aspx
-[UNDATA] t=  14.1s | pag=  3 | files=  66 | data=  3 | cola= 285 | prio=10 | https://data.un.org/UpdateCalendar.aspx
-[UNDATA] DATASETS=4 | configured_data_page | http://data.un.org/UpdateCalendar.aspx
-[UNDATA] t=  16.4s | pag=  4 | files=  66 | data=  4 | cola= 290 | prio=10 | https://data.un.org/Host.aspx?Content=About
-[UNDATA] DATASETS=5 | configured_data_page | https://data.un.org/Host.aspx?Content=About
-[UNDATA] t=  18.0s | pag=  5 | files=  66 | data=  5 | cola= 295 | prio=10 | https://data.un.org/AdvancedSearch.aspx
-[UNDATA] DATASETS=6 | configured_data_page | https://data.un.org/AdvancedSearch.aspx
-[UNDATA] t=  19.2s | pag=  6 | files=  66 | data=  6 | cola= 294 | prio=10 | https://data.un.org/Host.aspx?Content=API
-[UNDATA] DATASETS=7 | configured_data_page | https://data.un.org/Host.aspx?Content=API
-[UNDATA] t=  20.2s | pag=  7 | files=  66 | data=  7 | cola= 310 | prio=10 | https://data.un.org/SdmxBrowser
-[UNDATA] DATASETS=8 | configured_data_page | https://data.un.org/SdmxBrowser/
-[UNDATA] t=  21.4s | pag=  8 | files=  66 | data=  8 | cola= 309 | prio=10 | https://data.un.org/ws
-[UNDATA] DATASETS=9 | configured_data_page | https://data.un.org/ws
-[UNDATA] t=  22.2s | pag=  9 | files=  66 | data=  9 | cola= 319 | prio=10 | https://data.un.org/en/iso/af.html
-[UNDATA] DATASETS=10 | configured_data_page | https://data.un.org/en/iso/af.html
-[UNDATA] t=  23.0s | pag= 10 | files=  66 | data= 10 | cola= 321 | prio=10 | https://data.un.org/en/iso/al.html
-[UNDATA] t=  24.0s | pag= 11 | files=  66 | data= 11 | cola= 320 | prio=10 | https://data.un.org/en/iso/dz.html
-[UNDATA] t=  25.0s | pag= 12 | files=  66 | data= 12 | cola= 319 | prio=10 | https://data.un.org/en/iso/as.html
-[UNDATA] t=  26.2s | pag= 13 | files=  66 | data= 13 | cola= 318 | prio=10 | https://data.un.org/en/iso/ad.html
-[UNDATA] t=  27.3s | pag= 14 | files=  66 | data= 14 | cola= 317 | prio=10 | https://data.un.org/en/iso/ao.html
-[UNDATA] t=  28.0s | pag= 15 | files=  66 | data= 15 | cola= 316 | prio=10 | https://data.un.org/en/iso/ai.html
-[UNDATA] t=  29.0s | pag= 16 | files=  66 | data= 16 | cola= 315 | prio=10 | https://data.un.org/en/iso/ag.html
-[UNDATA] t=  29.8s | pag= 17 | files=  66 | data= 17 | cola= 314 | prio=10 | https://data.un.org/en/iso/ar.html
-[UNDATA] t=  30.6s | pag= 18 | files=  66 | data= 18 | cola= 313 | prio=10 | https://data.un.org/en/iso/am.html
-[UNDATA] t=  31.4s | pag= 19 | files=  66 | data= 19 | cola= 312 | prio=10 | https://data.un.org/en/iso/aw.html
-[UNDATA] t=  32.2s | pag= 20 | files=  66 | data= 20 | cola= 311 | prio=10 | https://data.un.org/en/iso/au.html
-[UNDATA] t=  33.0s | pag= 21 | files=  66 | data= 21 | cola= 310 | prio=10 | https://data.un.org/en/iso/at.html
-[UNDATA] t=  33.7s | pag= 22 | files=  66 | data= 22 | cola= 309 | prio=10 | https://data.un.org/en/iso/az.html
-[UNDATA] t=  34.8s | pag= 23 | files=  66 | data= 23 | cola= 308 | prio=10 | https://data.un.org/en/iso/bs.html
-[UNDATA] t=  35.6s | pag= 24 | files=  66 | data= 24 | cola= 307 | prio=10 | https://data.un.org/en/iso/bh.html
-[UNDATA] DATASETS=25 | configured_data_page | https://data.un.org/en/iso/bh.html
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              undata
-Páginas visitadas:   25
-Archivos encontrados:   66
-Datasets web:         25
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             36.45 s
-Sitemaps procesados:  0
-URLs por sitemap:     0
-URLs sitemap en cola: 0
-
-Formatos:
-  - CSV    : 33
-  - PDF    : 33
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\undata.json
-
-Trazabilidad:
-  Ejecución: 208
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 12, in <module>
+    from core.crawler import Crawler
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 18, in <module>
+    from bs4 import BeautifulSoup
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\bs4\__init__.py", line 65, in <module>
+    from .builder import (
+    ...<2 lines>...
+    )
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
+  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
+KeyboardInterrupt

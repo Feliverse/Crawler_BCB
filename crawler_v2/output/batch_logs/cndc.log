@@ -17,115 +17,98 @@ Resolución de fuente:
 
 URL de trabajo: https://www.cndc.bo/
 Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
-[CNDC] SITEMAP | docs=6 | urls=2033 | en_cola=2031 | errores=10
-[CNDC] t=  20.8s | pag=  0 | files=   0 | data=  0 | cola=2031 | prio= 0 | https://www.cndc.bo/
-[CNDC] DATASETS=1 | data_chart | https://www.cndc.bo/
-[CNDC] t=  22.1s | pag=  1 | files=   0 | data=  1 | cola=2035 | prio=10 | https://www.cndc.bo/historico-generacion/
-[CNDC] DATASETS=2 | data_chart | https://www.cndc.bo/historico-generacion/
-[CNDC] t=  22.4s | pag=  2 | files=   0 | data=  2 | cola=2034 | prio=10 | https://www.cndc.bo/historico-monomicos/
-[CNDC] DATASETS=3 | data_chart | https://www.cndc.bo/historico-monomicos/
-[CNDC] t=  23.2s | pag=  3 | files=   0 | data=  3 | cola=2033 | prio=10 | https://www.cndc.bo/publicaciones/plan-electrico-referencial-bolivia-2035/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/cndc_publicacion/314489
-[CNDC] t=  23.9s | pag=  4 | files=   0 | data=  3 | cola=2033 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/cndc_publicacion/314489
-[CNDC] t=  24.4s | pag=  4 | files=   0 | data=  3 | cola=2032 | prio=10 | https://www.cndc.bo/publicaciones/plan-electrico-de-bolivia-2025/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/cndc_publicacion/314485
-[CNDC] t=  25.3s | pag=  5 | files=   0 | data=  3 | cola=2032 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/cndc_publicacion/314485
-[CNDC] t=  25.9s | pag=  5 | files=   0 | data=  3 | cola=2031 | prio=10 | https://www.cndc.bo/publicaciones/plan-optimo-de-expansion-del-sin-2012-2022/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/cndc_publicacion/314487
-[CNDC] t=  26.9s | pag=  6 | files=   0 | data=  3 | cola=2031 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/cndc_publicacion/314487
-[CNDC] t=  27.6s | pag=  6 | files=   0 | data=  3 | cola=2030 | prio=25 | https://www.cndc.bo/hello-world/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/posts/1
-[CNDC] t=  28.4s | pag=  7 | files=   0 | data=  3 | cola=2030 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/posts/1
-[CNDC] t=  28.9s | pag=  7 | files=   0 | data=  3 | cola=2029 | prio=25 | https://www.cndc.bo/sample-page/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/2
-[CNDC] t=  29.6s | pag=  8 | files=   0 | data=  3 | cola=2029 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/2
-[CNDC] t=  30.1s | pag=  8 | files=   0 | data=  3 | cola=2028 | prio=25 | https://www.cndc.bo/resultados-operativos/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/11
-[CNDC] t=  30.8s | pag=  9 | files=   0 | data=  3 | cola=2028 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/11
-[CNDC] t=  31.3s | pag=  9 | files=   0 | data=  3 | cola=2027 | prio=25 | https://www.cndc.bo/dashboard-gerencial/
-[CNDC] DATASETS=4 | exportable_data_page | https://www.cndc.bo/dashboard-gerencial/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/13
-[CNDC] t=  32.0s | pag= 10 | files=   0 | data=  4 | cola=2027 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/13
-[CNDC] t=  32.5s | pag= 10 | files=   0 | data=  4 | cola=2026 | prio=25 | https://www.cndc.bo/mem/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/26
-[CNDC] t=  33.1s | pag= 11 | files=   0 | data=  4 | cola=2026 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/26
-[CNDC] t=  33.6s | pag= 11 | files=   0 | data=  4 | cola=2025 | prio=25 | https://www.cndc.bo/mem-registro/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/22
-[CNDC] t=  34.3s | pag= 12 | files=   0 | data=  4 | cola=2025 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/22
-[CNDC] t=  35.3s | pag= 12 | files=   0 | data=  4 | cola=2024 | prio=25 | https://www.cndc.bo/mem-admin/
-[CNDC] t=  35.9s | pag= 12 | files=   0 | data=  4 | cola=2023 | prio=25 | https://www.cndc.bo/dashboard-operativo/
-[CNDC] DATASETS=5 | exportable_data_page | https://www.cndc.bo/dashboard-operativo/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/29
-[CNDC] t=  37.1s | pag= 13 | files=   0 | data=  5 | cola=2023 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/29
-[CNDC] t=  37.6s | pag= 13 | files=   0 | data=  5 | cola=2022 | prio=25 | https://www.cndc.bo/sobre-el-cndc/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/32
-[CNDC] t=  38.5s | pag= 14 | files=   0 | data=  5 | cola=2022 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/32
-[CNDC] t=  39.2s | pag= 14 | files=   0 | data=  5 | cola=2021 | prio=25 | https://www.cndc.bo/resultados-operativos/marco-legal/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/34
-[CNDC] t=  40.1s | pag= 15 | files=   7 | data=  5 | cola=2021 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/34
-[CNDC] t=  40.7s | pag= 15 | files=   7 | data=  5 | cola=2020 | prio=25 | https://www.cndc.bo/resultados-operativos/marco-legal/ley-de-electricidad/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/35
-[CNDC] t=  41.2s | pag= 16 | files=   7 | data=  5 | cola=2020 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/35
-[CNDC] t=  42.0s | pag= 16 | files=   7 | data=  5 | cola=2019 | prio=25 | https://www.cndc.bo/resultados-operativos/marco-legal/reglamento-mem/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/36
-[CNDC] t=  42.6s | pag= 17 | files=  15 | data=  5 | cola=2020 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/36
-[CNDC] t=  43.0s | pag= 17 | files=  15 | data=  5 | cola=2019 | prio=25 | https://www.cndc.bo/resultados-operativos/marco-legal/rome/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/37
-[CNDC] t=  43.6s | pag= 18 | files=  15 | data=  5 | cola=2019 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/37
-[CNDC] t=  44.5s | pag= 18 | files=  15 | data=  5 | cola=2018 | prio=25 | https://www.cndc.bo/resultados-operativos/marco-legal/normas-operativas/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/38
-[CNDC] t=  45.2s | pag= 19 | files= 101 | data=  5 | cola=2018 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/38
-[CNDC] t=  45.7s | pag= 19 | files= 101 | data=  5 | cola=2017 | prio=25 | https://www.cndc.bo/resultados-operativos/marco-legal/decretos-supremos/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/39
-[CNDC] t=  46.4s | pag= 20 | files= 107 | data=  5 | cola=2017 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/39
-[CNDC] t=  47.4s | pag= 20 | files= 107 | data=  5 | cola=2016 | prio=25 | https://www.cndc.bo/diagramas/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/40
-[CNDC] API REFERENCIA | inline_script_reference | https://www.cndc.bo/wp-json/cndc/v1/diagramas/
-[CNDC] t=  48.3s | pag= 21 | files= 107 | data=  5 | cola=2017 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/40
-[CNDC] t=  48.9s | pag= 21 | files= 107 | data=  5 | cola=2016 | prio= 1 | https://www.cndc.bo/wp-json/cndc/v1/diagramas/
-[CNDC] API SONDEO FALLIDO | https://www.cndc.bo/wp-json/cndc/v1/diagramas/
-[CNDC] t=  49.8s | pag= 21 | files= 107 | data=  5 | cola=2015 | prio=25 | https://www.cndc.bo/memoria-anual/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/42
-[CNDC] API REFERENCIA | inline_script_reference | https://www.cndc.bo/wp-json/cndc/v1/memorias
-[CNDC] t=  50.8s | pag= 22 | files= 107 | data=  5 | cola=2016 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/42
-[CNDC] t=  51.5s | pag= 22 | files= 107 | data=  5 | cola=2015 | prio= 1 | https://www.cndc.bo/wp-json/cndc/v1/memorias
-[CNDC] t=  52.1s | pag= 22 | files= 107 | data=  5 | cola=2014 | prio=25 | https://www.cndc.bo/contacto/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/44
-[CNDC] t=  52.8s | pag= 23 | files= 107 | data=  5 | cola=2014 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/44
-[CNDC] t=  53.4s | pag= 23 | files= 107 | data=  5 | cola=2013 | prio=25 | https://www.cndc.bo/sistema-gestion-calidad/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/46
-[CNDC] t=  53.9s | pag= 24 | files= 107 | data=  5 | cola=2013 | prio= 1 | https://www.cndc.bo/wp-json/wp/v2/pages/46
-[CNDC] t=  54.6s | pag= 24 | files= 107 | data=  5 | cola=2012 | prio=25 | https://www.cndc.bo/sistema-gestion-seguridad/
-[CNDC] API REFERENCIA | html_link_reference | https://www.cndc.bo/wp-json/wp/v2/pages/48
-[CNDC] API SONDEOS FALLIDOS | total=1
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              cndc
-Páginas visitadas:   25
-Archivos encontrados:  107
-Datasets web:         5
-Errores:              10
-Motivo de parada:     max_pages
-Duración:             55.27 s
-Sitemaps procesados:  6
-URLs por sitemap:     2033
-URLs sitemap en cola: 2031
-
-Formatos:
-  - DOC    : 3
-  - PDF    : 104
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\cndc.json
-
-Trazabilidad:
-  Ejecución: 177
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
+    self._queue_sitemap_seeds(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queue,
+        ^^^^^^
+        result,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
+    discovery = self.sitemap_discovery.discover(
+        base_url=base_url,
+    ...<3 lines>...
+        max_document_bytes=self.max_sitemap_bytes,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 573, in discover
+    response = self.client.get(
+        sitemap_url,
+        raise_for_status=False,
+        timeout=effective_timeout,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
+    self.session.get(
+    ~~~~~~~~~~~~~~~~^
+        url,
+        ^^^^
+    ...<16 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 805, in send
+    history = [resp for resp in gen]
+                                ^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 292, in resolve_redirects
+    resp = self.send(
+        req,
+    ...<6 lines>...
+        **adapter_kwargs,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

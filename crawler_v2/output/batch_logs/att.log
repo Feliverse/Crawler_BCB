@@ -17,67 +17,1280 @@ Resolución de fuente:
 
 URL de trabajo: https://www.att.gob.bo/
 Seeds: 6
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
 [ATT] SITEMAP | docs=1 | urls=1 | en_cola=0 | errores=0
-[ATT] t=   3.5s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.att.gob.bo/
-[ATT] t=   4.3s | pag=  1 | files=   0 | data=  0 | cola=  81 | prio= 0 | https://www.att.gob.bo/en/estadistica-sectorial
+[ATT] t=   4.4s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.att.gob.bo/
+[ATT] t=   5.7s | pag=  1 | files=   0 | data=  0 | cola=  79 | prio= 0 | https://www.att.gob.bo/en/estadistica-sectorial
 [ATT] DATASETS=1 | data_html_table | https://www.att.gob.bo/en/estadistica-sectorial
-[ATT] t=   4.9s | pag=  2 | files=   1 | data=  1 | cola= 132 | prio= 0 | https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia
+[ATT] t=   6.4s | pag=  2 | files=   1 | data=  1 | cola=  78 | prio= 0 | https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia
 [ATT] DATASETS=2 | data_html_table | https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia
-[ATT] t=   5.5s | pag=  3 | files=  24 | data=  2 | cola= 131 | prio= 0 | https://www.att.gob.bo/en/informacion-estadistica-sector-telecomunicaciones
-[ATT] t=   6.4s | pag=  4 | files=  24 | data=  2 | cola= 132 | prio= 0 | https://www.att.gob.bo/serie-historica
+[ATT] t=   6.9s | pag=  3 | files=  24 | data=  2 | cola=  77 | prio= 0 | https://www.att.gob.bo/en/informacion-estadistica-sector-telecomunicaciones
+[ATT] t=   7.7s | pag=  4 | files=  24 | data=  2 | cola=  78 | prio= 0 | https://www.att.gob.bo/serie-historica
 [ATT] DATASETS=3 | statistical_html_table | https://www.att.gob.bo/serie-historica
-[ATT] t=   7.1s | pag=  5 | files=  28 | data=  3 | cola= 131 | prio= 0 | https://www.att.gob.bo/telecomunicaciones
-[ATT] t=   7.6s | pag=  6 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/index.php/en/postal
-[ATT] t=   8.0s | pag=  7 | files=  28 | data=  3 | cola= 163 | prio= 2 | https://www.att.gob.bo/index.php/en/telecomunicaciones
-[ATT] t=   8.8s | pag=  8 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes
-[ATT] t=   9.4s | pag=  9 | files=  28 | data=  3 | cola= 163 | prio= 2 | https://www.att.gob.bo/index.php/en/informacion-estadistica-sector-telecomunicaciones
-[ATT] t=  10.0s | pag= 10 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes-0
-[ATT] DATASETS=4 | data_html_table | https://www.att.gob.bo/index.php/en/transportes-0
-[ATT] t=  10.4s | pag= 11 | files=  34 | data=  4 | cola= 161 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-uolo
-[ATT] t=  11.0s | pag= 12 | files=  34 | data=  4 | cola= 164 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-postal-uolo
-[ATT] t=  11.9s | pag= 13 | files=  34 | data=  4 | cola= 167 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-urf
-[ATT] DATASETS=5 | data_html_table | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-urf
-[ATT] t=  12.6s | pag= 14 | files=  67 | data=  5 | cola= 166 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-postal-urf
-[ATT] DATASETS=6 | data_html_table | https://www.att.gob.bo/index.php/en/normativa-sector-postal-urf
-[ATT] t=  13.0s | pag= 15 | files=  76 | data=  6 | cola= 165 | prio= 2 | https://www.att.gob.bo/index.php/en/requisitos-tele
-[ATT] DATASETS=7 | data_html_table | https://www.att.gob.bo/index.php/en/requisitos-tele
-[ATT] t=  13.6s | pag= 16 | files= 100 | data=  7 | cola= 164 | prio= 2 | https://www.att.gob.bo/telecomunicaciones/usuario
-[ATT] t=  14.6s | pag= 17 | files= 100 | data=  7 | cola= 181 | prio= 2 | https://www.att.gob.bo/transportes/usuario
-[ATT] t=  15.3s | pag= 18 | files= 100 | data=  7 | cola= 184 | prio= 2 | https://www.att.gob.bo/postal/usuario
-[ATT] t=  15.8s | pag= 19 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/transportes
-[ATT] t=  16.3s | pag= 20 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/postal
-[ATT] t=  17.0s | pag= 21 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/en/33-operadores-postales-cuentan-con-licencia-vigente-en-bolivia
-[ATT] t=  17.8s | pag= 22 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/en/postal
-[ATT] t=  18.3s | pag= 23 | files= 100 | data=  7 | cola= 190 | prio= 2 | https://www.att.gob.bo/en/telecomunicaciones
-[ATT] t=  18.8s | pag= 24 | files= 100 | data=  7 | cola= 189 | prio= 2 | https://www.att.gob.bo/en/transportes
+[ATT] t=   8.2s | pag=  5 | files=  28 | data=  3 | cola=  77 | prio= 0 | https://www.att.gob.bo/telecomunicaciones
+[ATT] t=   8.8s | pag=  6 | files=  28 | data=  3 | cola= 108 | prio= 2 | https://www.att.gob.bo/en/postal
+[ATT] t=   9.5s | pag=  7 | files=  28 | data=  3 | cola= 163 | prio= 2 | https://www.att.gob.bo/en/telecomunicaciones
+[ATT] t=   9.9s | pag=  8 | files=  28 | data=  3 | cola= 162 | prio= 2 | https://www.att.gob.bo/en/transportes
+[ATT] t=  10.3s | pag=  9 | files=  28 | data=  3 | cola= 163 | prio= 2 | https://www.att.gob.bo/en/transportes-0
+[ATT] DATASETS=4 | data_html_table | https://www.att.gob.bo/en/transportes-0
+[ATT] t=  10.9s | pag= 10 | files=  34 | data=  4 | cola= 162 | prio= 2 | https://www.att.gob.bo/en/normativa-sector-telecomunicaciones-uolo
+[ATT] t=  11.9s | pag= 11 | files=  34 | data=  4 | cola= 165 | prio= 2 | https://www.att.gob.bo/en/normativa-sector-postal-uolo
+[ATT] t=  12.5s | pag= 12 | files=  34 | data=  4 | cola= 168 | prio= 2 | https://www.att.gob.bo/en/normativa-sector-telecomunicaciones-urf
+[ATT] DATASETS=5 | data_html_table | https://www.att.gob.bo/en/normativa-sector-telecomunicaciones-urf
+[ATT] t=  13.0s | pag= 13 | files=  67 | data=  5 | cola= 167 | prio= 2 | https://www.att.gob.bo/en/normativa-sector-postal-urf
+[ATT] DATASETS=6 | data_html_table | https://www.att.gob.bo/en/normativa-sector-postal-urf
+[ATT] t=  13.7s | pag= 14 | files=  76 | data=  6 | cola= 166 | prio= 2 | https://www.att.gob.bo/en/requisitos-tele
+[ATT] DATASETS=7 | data_html_table | https://www.att.gob.bo/en/requisitos-tele
+[ATT] t=  14.1s | pag= 15 | files= 100 | data=  7 | cola= 165 | prio= 2 | https://www.att.gob.bo/telecomunicaciones/usuario
+[ATT] t=  14.6s | pag= 16 | files= 100 | data=  7 | cola= 182 | prio= 2 | https://www.att.gob.bo/transportes/usuario
+[ATT] t=  15.2s | pag= 17 | files= 100 | data=  7 | cola= 185 | prio= 2 | https://www.att.gob.bo/postal/usuario
+[ATT] t=  15.7s | pag= 18 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/transportes
+[ATT] t=  16.1s | pag= 19 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/postal
+[ATT] t=  16.9s | pag= 20 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/en/33-operadores-postales-cuentan-con-licencia-vigente-en-bolivia
+[ATT] t=  17.8s | pag= 21 | files= 100 | data=  7 | cola= 191 | prio= 2 | https://www.att.gob.bo/estadistica-sectorial
+[ATT] DATASETS=8 | data_html_table | https://www.att.gob.bo/estadistica-sectorial
+[ATT] t=  18.2s | pag= 22 | files= 100 | data=  8 | cola= 190 | prio= 2 | https://www.att.gob.bo/situacion-de-las-telecomunicaciones-en-bolivia
+[ATT] DATASETS=9 | data_html_table | https://www.att.gob.bo/situacion-de-las-telecomunicaciones-en-bolivia
+[ATT] t=  18.9s | pag= 23 | files= 100 | data=  9 | cola= 189 | prio= 2 | https://www.att.gob.bo/informacion-estadistica-sector-telecomunicaciones
+[ATT] t=  19.5s | pag= 24 | files= 100 | data=  9 | cola= 188 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2026
+[ATT] DATASETS=10 | data_html_table | https://www.att.gob.bo/extractos-publicacion-2026
+[ATT] t=  20.3s | pag= 25 | files= 120 | data= 10 | cola= 187 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2025
+[ATT] t=  21.2s | pag= 26 | files= 159 | data= 11 | cola= 186 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2024
+[ATT] t=  22.2s | pag= 27 | files= 194 | data= 12 | cola= 185 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2023
+[ATT] t=  22.9s | pag= 28 | files= 248 | data= 13 | cola= 184 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2022
+[ATT] t=  24.1s | pag= 29 | files= 349 | data= 14 | cola= 183 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2021
+[ATT] t=  24.9s | pag= 30 | files= 453 | data= 15 | cola= 182 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2020
+[ATT] t=  26.0s | pag= 31 | files= 511 | data= 16 | cola= 181 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2019
+[ATT] t=  26.7s | pag= 32 | files= 606 | data= 17 | cola= 180 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2018
+[ATT] t=  27.1s | pag= 33 | files= 757 | data= 18 | cola= 179 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2017
+[ATT] t=  28.1s | pag= 34 | files= 899 | data= 19 | cola= 178 | prio= 2 | https://www.att.gob.bo/extractos-publicacion-2016
+[ATT] t=  29.1s | pag= 35 | files=1021 | data= 20 | cola= 177 | prio= 2 | https://www.att.gob.bo/operadores-en-telecomunicaciones
+[ATT] t=  29.5s | pag= 36 | files=1022 | data= 20 | cola= 176 | prio= 2 | https://www.att.gob.bo/resoluciones-administrativas-del-sector-telecomunicaciones
+[ATT] t=  30.1s | pag= 37 | files=1022 | data= 20 | cola= 176 | prio= 2 | https://www.att.gob.bo/index.php/en/postal
+[ATT] t=  30.9s | pag= 38 | files=1022 | data= 20 | cola= 176 | prio= 2 | https://www.att.gob.bo/index.php/en/telecomunicaciones
+[ATT] t=  31.6s | pag= 39 | files=1022 | data= 20 | cola= 175 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes
+[ATT] t=  32.3s | pag= 40 | files=1022 | data= 20 | cola= 176 | prio= 2 | https://www.att.gob.bo/index.php/en/informacion-estadistica-sector-telecomunicaciones
+[ATT] t=  32.8s | pag= 41 | files=1022 | data= 20 | cola= 175 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes-0
+[ATT] t=  33.7s | pag= 42 | files=1022 | data= 21 | cola= 174 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-uolo
+[ATT] t=  34.1s | pag= 43 | files=1022 | data= 21 | cola= 173 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-postal-uolo
+[ATT] t=  35.2s | pag= 44 | files=1022 | data= 21 | cola= 172 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-telecomunicaciones-urf
+[ATT] t=  36.0s | pag= 45 | files=1022 | data= 22 | cola= 171 | prio= 2 | https://www.att.gob.bo/index.php/en/normativa-sector-postal-urf
+[ATT] t=  36.9s | pag= 46 | files=1022 | data= 23 | cola= 170 | prio= 2 | https://www.att.gob.bo/index.php/en/requisitos-tele
+[ATT] t=  37.4s | pag= 47 | files=1022 | data= 24 | cola= 169 | prio= 2 | https://www.att.gob.bo/postal/operador
+[ATT] t=  38.1s | pag= 47 | files=1022 | data= 24 | cola= 168 | prio= 2 | https://www.att.gob.bo/en/operadorespostal
+[ATT] t=  39.0s | pag= 48 | files=1022 | data= 24 | cola= 167 | prio= 2 | https://www.att.gob.bo/en/transportes/usuario
+[ATT] t=  39.6s | pag= 49 | files=1022 | data= 24 | cola= 166 | prio= 2 | https://www.att.gob.bo/en/transportes/operador
+[ATT] t=  39.9s | pag= 50 | files=1022 | data= 24 | cola= 167 | prio= 2 | https://www.att.gob.bo/normativa-sector-telecomunicaciones-uolo-leyes
+[ATT] t=  41.0s | pag= 51 | files=1023 | data= 24 | cola= 166 | prio= 2 | https://www.att.gob.bo/normativa-sector-telecomunicaciones-uolo-decretos-supremos
+[ATT] DATASETS=25 | data_html_table | https://www.att.gob.bo/normativa-sector-telecomunicaciones-uolo-decretos-supremos
+[ATT] t=  41.3s | pag= 52 | files=1030 | data= 25 | cola= 165 | prio= 2 | https://www.att.gob.bo/normativa-sector-telecomunicaciones-uolo-resoluciones-administrativas
+[ATT] t=  42.5s | pag= 53 | files=1058 | data= 26 | cola= 164 | prio= 2 | https://www.att.gob.bo/normativa-sector-telecomunicaciones-uolo-resoluciones-ministeriales
+[ATT] t=  43.0s | pag= 54 | files=1079 | data= 27 | cola= 163 | prio= 2 | https://www.att.gob.bo/normativa-sector-postal-uolo-leyes
+[ATT] t=  43.6s | pag= 55 | files=1080 | data= 27 | cola= 162 | prio= 2 | https://www.att.gob.bo/normativa-sector-postal-uolo-decretos-supremos
+[ATT] t=  59.3s | pag= 55 | files=1080 | data= 27 | cola= 161 | prio= 2 | https://www.att.gob.bo/normativa-sector-postal-uolo-resoluciones-administrativas
+[ATT] t=  75.2s | pag= 55 | files=1080 | data= 27 | cola= 160 | prio= 2 | https://www.att.gob.bo/normativa-sector-postal-uolo-resoluciones-ministeriales
+[ATT] t=  90.8s | pag= 55 | files=1080 | data= 27 | cola= 159 | prio= 2 | https://www.att.gob.bo/en/resoluciones-administrativas-del-sector-telecomunicaciones
+[ATT] t= 103.3s | pag= 56 | files=1080 | data= 27 | cola= 158 | prio= 2 | https://www.att.gob.bo/en/extractos-publicacion-tele
+[ATT] t= 104.3s | pag= 57 | files=1080 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/en/Resoluciones-Administrativas-Sector-Postal
+[ATT] t= 105.2s | pag= 58 | files=1080 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/en/Regulaci%C3%B3n-tecnica-eco-postal
+[ATT] t= 106.1s | pag= 59 | files=1080 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/en/Reclamaciones-Sector-Postal
+[ATT] t= 106.9s | pag= 60 | files=1080 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/en/node/301
+[ATT] t= 108.0s | pag= 61 | files=1080 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/transportes/operador
+[ATT] t= 108.9s | pag= 62 | files=1080 | data= 27 | cola= 156 | prio= 2 | https://www.att.gob.bo/operadorespostal
+[ATT] t= 109.7s | pag= 63 | files=1080 | data= 27 | cola= 155 | prio= 2 | https://www.att.gob.bo/index.php/en/operadorespostal
+[ATT] t= 110.5s | pag= 64 | files=1080 | data= 27 | cola= 154 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes/usuario
+[ATT] t= 111.7s | pag= 65 | files=1080 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/index.php/en/transportes/operador
+[ATT] t= 112.7s | pag= 66 | files=1080 | data= 27 | cola= 158 | prio= 2 | https://www.att.gob.bo/reclamaciones-del-sector-postal-archivos
+[ATT] t= 113.5s | pag= 67 | files=1081 | data= 27 | cola= 157 | prio= 2 | https://www.att.gob.bo/boletines-y-publicaciones-archivos
+[ATT] t= 114.4s | pag= 68 | files=1094 | data= 28 | cola= 156 | prio=10 | https://www.att.gob.bo/en/memoria-institucional-v2
+[ATT] t= 114.7s | pag= 69 | files=1101 | data= 29 | cola= 155 | prio=10 | https://www.att.gob.bo/en/planificacion-estrategica-v2
+[ATT] t= 115.7s | pag= 70 | files=1103 | data= 30 | cola= 154 | prio=10 | https://www.att.gob.bo/en/institucional-planes-operativos-anuales
+[ATT] t= 116.6s | pag= 71 | files=1103 | data= 30 | cola= 167 | prio=10 | https://www.att.gob.bo/en/presupuesto-institucional-0
+[ATT] t= 117.0s | pag= 72 | files=1125 | data= 31 | cola= 166 | prio=10 | https://www.att.gob.bo/en/fuentes-de-financiamiento
+[ATT] t= 117.5s | pag= 73 | files=1150 | data= 32 | cola= 165 | prio=10 | https://www.att.gob.bo/en/informes-auditoria-v2
+[ATT] t= 118.4s | pag= 74 | files=1150 | data= 32 | cola= 176 | prio=10 | https://www.att.gob.bo/en/rendicion-publica-de-cuentas
+[ATT] t= 119.3s | pag= 75 | files=1150 | data= 32 | cola= 187 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-acuativo-uolo
+[ATT] t= 119.9s | pag= 76 | files=1150 | data= 32 | cola= 189 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-aereo-uolo
+[ATT] t= 120.8s | pag= 77 | files=1150 | data= 32 | cola= 192 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-ferroviario-uolo
+[ATT] t= 121.6s | pag= 78 | files=1150 | data= 32 | cola= 194 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-terrestre-uolo
+[ATT] t= 122.2s | pag= 79 | files=1150 | data= 32 | cola= 196 | prio=10 | https://www.att.gob.bo/en/normativa-registro-atps-uolo
+[ATT] t= 122.7s | pag= 80 | files=1150 | data= 32 | cola= 197 | prio=10 | https://www.att.gob.bo/en/normativa-general-urf
+[ATT] t= 123.3s | pag= 81 | files=1154 | data= 33 | cola= 196 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-acuatico-urf
+[ATT] t= 123.8s | pag= 82 | files=1156 | data= 34 | cola= 195 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-aereo-urf
+[ATT] t= 124.5s | pag= 83 | files=1174 | data= 35 | cola= 194 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-ferroviario-urf
+[ATT] t= 125.2s | pag= 84 | files=1176 | data= 36 | cola= 193 | prio=10 | https://www.att.gob.bo/en/normativa-sector-transporte-terrestre-urf
+[ATT] t= 125.7s | pag= 85 | files=1181 | data= 37 | cola= 192 | prio=10 | https://www.att.gob.bo/en/normativa-sector-tecnologias-de-informacion-y-comunicacion-urf
+[ATT] t= 126.2s | pag= 86 | files=1183 | data= 38 | cola= 191 | prio=10 | https://www.att.gob.bo/regulacion-tecnica-economica
+[ATT] t= 126.6s | pag= 87 | files=1183 | data= 38 | cola= 192 | prio=10 | https://www.att.gob.bo/index.php/en/memoria-institucional-v2
+[ATT] t= 127.0s | pag= 88 | files=1190 | data= 39 | cola= 191 | prio=10 | https://www.att.gob.bo/index.php/en/planificacion-estrategica-v2
+[ATT] t= 127.9s | pag= 89 | files=1192 | data= 40 | cola= 190 | prio=10 | https://www.att.gob.bo/index.php/en/institucional-planes-operativos-anuales
+[ATT] t= 128.5s | pag= 90 | files=1192 | data= 40 | cola= 189 | prio=10 | https://www.att.gob.bo/index.php/en/presupuesto-institucional-0
+[ATT] t= 129.3s | pag= 91 | files=1214 | data= 41 | cola= 188 | prio=10 | https://www.att.gob.bo/index.php/en/fuentes-de-financiamiento
+[ATT] t= 129.7s | pag= 92 | files=1214 | data= 42 | cola= 187 | prio=10 | https://www.att.gob.bo/index.php/en/informes-auditoria-v2
+[ATT] t= 130.6s | pag= 93 | files=1214 | data= 42 | cola= 186 | prio=10 | https://www.att.gob.bo/index.php/en/rendicion-publica-de-cuentas
+[ATT] t= 131.8s | pag= 94 | files=1214 | data= 42 | cola= 185 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-acuativo-uolo
+[ATT] t= 132.7s | pag= 95 | files=1214 | data= 42 | cola= 184 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-aereo-uolo
+[ATT] t= 133.6s | pag= 96 | files=1214 | data= 42 | cola= 183 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-ferroviario-uolo
+[ATT] t= 134.6s | pag= 97 | files=1214 | data= 42 | cola= 182 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-terrestre-uolo
+[ATT] t= 135.5s | pag= 98 | files=1214 | data= 42 | cola= 181 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-registro-atps-uolo
+[ATT] t= 136.4s | pag= 99 | files=1214 | data= 42 | cola= 180 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-general-urf
+[ATT] t= 137.2s | pag=100 | files=1214 | data= 43 | cola= 179 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-acuatico-urf
+[ATT] t= 137.8s | pag=101 | files=1214 | data= 44 | cola= 178 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-aereo-urf
+[ATT] t= 138.3s | pag=102 | files=1214 | data= 45 | cola= 177 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-ferroviario-urf
+[ATT] t= 139.2s | pag=103 | files=1214 | data= 46 | cola= 176 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-transporte-terrestre-urf
+[ATT] t= 140.1s | pag=104 | files=1214 | data= 47 | cola= 175 | prio=10 | https://www.att.gob.bo/index.php/en/normativa-sector-tecnologias-de-informacion-y-comunicacion-urf
+[ATT] t= 140.9s | pag=105 | files=1214 | data= 48 | cola= 174 | prio=10 | https://www.att.gob.bo/en/regulacion-tecnica-economica
+[ATT] t= 141.5s | pag=106 | files=1214 | data= 48 | cola= 173 | prio=10 | https://www.att.gob.bo/resoluciones-administrativas-del-sector-archivos
+[ATT] t= 142.2s | pag=107 | files=1219 | data= 49 | cola= 172 | prio=10 | https://www.att.gob.bo/regulacion-tecnica-economica-archivos
+[ATT] DATASETS=50 | data_html_table | https://www.att.gob.bo/regulacion-tecnica-economica-archivos
+[ATT] t= 143.2s | pag=108 | files=1221 | data= 50 | cola= 171 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2026
+[ATT] t= 144.2s | pag=109 | files=1221 | data= 50 | cola= 170 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2025
+[ATT] t= 145.3s | pag=110 | files=1225 | data= 51 | cola= 169 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2024
+[ATT] t= 146.1s | pag=111 | files=1233 | data= 52 | cola= 168 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2023
+[ATT] t= 146.7s | pag=112 | files=1239 | data= 53 | cola= 167 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2022
+[ATT] t= 147.6s | pag=113 | files=1247 | data= 54 | cola= 166 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2021
+[ATT] t= 148.1s | pag=114 | files=1254 | data= 55 | cola= 165 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2020
+[ATT] t= 148.8s | pag=115 | files=1260 | data= 56 | cola= 164 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2018
+[ATT] t= 149.2s | pag=116 | files=1261 | data= 56 | cola= 163 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2017
+[ATT] t= 149.8s | pag=117 | files=1267 | data= 57 | cola= 162 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2016
+[ATT] t= 151.0s | pag=118 | files=1272 | data= 58 | cola= 161 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2015
+[ATT] t= 151.6s | pag=119 | files=1279 | data= 59 | cola= 160 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2014
+[ATT] t= 152.5s | pag=120 | files=1286 | data= 60 | cola= 159 | prio=10 | https://www.att.gob.bo/plan-operativo-anual-2013
+[ATT] t= 153.5s | pag=121 | files=1323 | data= 61 | cola= 158 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2026-v2
+[ATT] t= 154.2s | pag=122 | files=1329 | data= 62 | cola= 157 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2025-v2
+[ATT] t= 155.0s | pag=123 | files=1348 | data= 63 | cola= 156 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2024-v2
+[ATT] t= 155.6s | pag=124 | files=1365 | data= 64 | cola= 155 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2023-v2
+[ATT] t= 156.6s | pag=125 | files=1386 | data= 65 | cola= 154 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2022-v2
+[ATT] t= 157.5s | pag=126 | files=1405 | data= 66 | cola= 153 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2021-v2
+[ATT] t= 158.3s | pag=127 | files=1414 | data= 67 | cola= 152 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2019-v2
+[ATT] t= 159.1s | pag=128 | files=1434 | data= 68 | cola= 151 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2018-v2
+[ATT] t= 159.7s | pag=129 | files=1450 | data= 69 | cola= 150 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2017-v2
+[ATT] t= 160.7s | pag=130 | files=1463 | data= 70 | cola= 149 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2016-v2
+[ATT] t= 161.5s | pag=131 | files=1468 | data= 71 | cola= 148 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2015-v2
+[ATT] t= 162.6s | pag=132 | files=1477 | data= 72 | cola= 147 | prio=10 | https://www.att.gob.bo/auditoria-gestion-2014-v2
+[ATT] t= 163.4s | pag=133 | files=1480 | data= 73 | cola= 146 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2026
+[ATT] t= 164.4s | pag=134 | files=1481 | data= 73 | cola= 145 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2025
+[ATT] t= 165.1s | pag=135 | files=1484 | data= 74 | cola= 144 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2024
+[ATT] DATASETS=75 | data_html_table | https://www.att.gob.bo/rendicion-publica-gestion-2024
+[ATT] t= 165.5s | pag=136 | files=1487 | data= 75 | cola= 143 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2023
+[ATT] t= 166.6s | pag=137 | files=1491 | data= 76 | cola= 142 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2022
+[ATT] t= 167.0s | pag=138 | files=1496 | data= 77 | cola= 141 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2021
+[ATT] t= 167.6s | pag=139 | files=1500 | data= 78 | cola= 140 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2020
+[ATT] t= 168.4s | pag=140 | files=1503 | data= 79 | cola= 139 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2019
+[ATT] t= 169.7s | pag=141 | files=1504 | data= 79 | cola= 138 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2018
+[ATT] t= 170.8s | pag=142 | files=1508 | data= 80 | cola= 137 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2017
+[ATT] t= 171.6s | pag=143 | files=1514 | data= 81 | cola= 136 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2016
+[ATT] t= 172.5s | pag=144 | files=1517 | data= 82 | cola= 135 | prio=10 | https://www.att.gob.bo/rendicion-publica-gestion-2015
+[ATT] t= 173.4s | pag=145 | files=1519 | data= 83 | cola= 134 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-acuatico-uolo-decretos-supremos
+[ATT] t= 173.9s | pag=146 | files=1520 | data= 83 | cola= 133 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-acuatico-uolo-resoluciones-administrativas
+[ATT] t= 174.7s | pag=147 | files=1521 | data= 83 | cola= 132 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-acuatico-uolo-resoluciones-ministeriales
+[ATT] t= 175.4s | pag=148 | files=1522 | data= 83 | cola= 131 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-aereo-uolo-leyes
+[ATT] t= 176.2s | pag=149 | files=1523 | data= 83 | cola= 130 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-aereo-uolo-decretos-supremos
+[ATT] t= 177.0s | pag=150 | files=1525 | data= 84 | cola= 129 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-aereo-uolo-resoluciones-administrativas
+[ATT] t= 177.7s | pag=151 | files=1532 | data= 85 | cola= 128 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-aereo-uolo-resoluciones-ministeriales
+[ATT] t= 178.4s | pag=152 | files=1533 | data= 85 | cola= 127 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-ferroviario-uolo-decretos-supremos
+[ATT] t= 178.8s | pag=153 | files=1535 | data= 86 | cola= 126 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-ferroviario-uolo-resoluciones-administrativas
+[ATT] t= 179.4s | pag=154 | files=1542 | data= 87 | cola= 125 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-ferroviario-uolo-resoluciones-ministeriales
+[ATT] t= 180.1s | pag=155 | files=1543 | data= 87 | cola= 124 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-terrestre-uolo-decretos-supremos
+[ATT] t= 180.5s | pag=156 | files=1546 | data= 88 | cola= 123 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-terrestre-uolo-resoluciones-administrativas
+[ATT] t= 181.7s | pag=157 | files=1549 | data= 89 | cola= 122 | prio=10 | https://www.att.gob.bo/normativa-sector-transporte-terrestre-uolo-resoluciones-ministeriales
+[ATT] t= 182.4s | pag=158 | files=1551 | data= 90 | cola= 121 | prio=10 | https://www.att.gob.bo/normativa-registro-atps-uolo-decretos-supremos
+[ATT] t= 183.3s | pag=159 | files=1552 | data= 90 | cola= 120 | prio=10 | https://www.att.gob.bo/normativa-registro-atps-uolo-resoluciones-administrativas
+[ATT] t= 183.9s | pag=160 | files=1554 | data= 91 | cola= 119 | prio=50 | https://www.att.gob.bo/en
+[ATT] t= 184.4s | pag=161 | files=1554 | data= 91 | cola= 118 | prio=50 | https://www.att.gob.bo/en/edictos
+[ATT] t= 185.2s | pag=162 | files=1554 | data= 91 | cola= 117 | prio=50 | https://www.att.gob.bo/en/banco-de-trabajos-de-investigacion
+[ATT] t= 185.9s | pag=163 | files=1554 | data= 91 | cola= 116 | prio=50 | https://www.att.gob.bo/en/campanas
+[ATT] t= 186.7s | pag=164 | files=1554 | data= 91 | cola= 125 | prio= 2 | https://www.att.gob.bo/campana-transporte
+[ATT] t= 187.2s | pag=165 | files=1554 | data= 91 | cola= 124 | prio=50 | https://www.att.gob.bo/en/videoteca
+[ATT] t= 187.6s | pag=166 | files=1554 | data= 91 | cola= 135 | prio=40 | https://www.att.gob.bo/en/videoteca?page=0
+[ATT] t= 188.7s | pag=167 | files=1554 | data= 91 | cola= 134 | prio=40 | https://www.att.gob.bo/en/videoteca?page=1
+[ATT] t= 189.5s | pag=168 | files=1554 | data= 91 | cola= 135 | prio=40 | https://www.att.gob.bo/en/videoteca?page=2
+[ATT] t= 190.5s | pag=169 | files=1554 | data= 91 | cola= 136 | prio=40 | https://www.att.gob.bo/en/videoteca?page=3
+[ATT] t= 191.8s | pag=170 | files=1554 | data= 91 | cola= 137 | prio=40 | https://www.att.gob.bo/en/videoteca?page=4
+[ATT] t= 192.5s | pag=171 | files=1554 | data= 91 | cola= 138 | prio=40 | https://www.att.gob.bo/en/videoteca?page=5
+[ATT] t= 193.4s | pag=172 | files=1554 | data= 91 | cola= 140 | prio=40 | https://www.att.gob.bo/en/videoteca?page=6
+[ATT] t= 194.2s | pag=173 | files=1554 | data= 91 | cola= 142 | prio=40 | https://www.att.gob.bo/en/videoteca?page=7
+[ATT] t= 195.4s | pag=174 | files=1554 | data= 91 | cola= 144 | prio=40 | https://www.att.gob.bo/en/videoteca?page=8
+[ATT] t= 196.2s | pag=175 | files=1554 | data= 91 | cola= 146 | prio= 2 | https://www.att.gob.bo/en/node/873
+[ATT] t= 196.6s | pag=176 | files=1554 | data= 91 | cola= 145 | prio=40 | https://www.att.gob.bo/en/videoteca?page=23
+[ATT] t= 197.3s | pag=177 | files=1554 | data= 91 | cola= 154 | prio=40 | https://www.att.gob.bo/en/videoteca?page=9
+[ATT] t= 198.3s | pag=178 | files=1554 | data= 91 | cola= 156 | prio=40 | https://www.att.gob.bo/en/videoteca?page=10
+[ATT] t= 199.0s | pag=179 | files=1554 | data= 91 | cola= 158 | prio=40 | https://www.att.gob.bo/en/videoteca?page=11
+[ATT] t= 199.8s | pag=180 | files=1554 | data= 91 | cola= 159 | prio=40 | https://www.att.gob.bo/en/videoteca?page=12
+[ATT] t= 200.4s | pag=181 | files=1554 | data= 91 | cola= 160 | prio=40 | https://www.att.gob.bo/en/videoteca?page=22
+[ATT] t= 201.4s | pag=182 | files=1554 | data= 91 | cola= 161 | prio=40 | https://www.att.gob.bo/en/videoteca?page=15
+[ATT] t= 202.2s | pag=183 | files=1554 | data= 91 | cola= 162 | prio=40 | https://www.att.gob.bo/en/videoteca?page=16
+[ATT] t= 202.8s | pag=184 | files=1554 | data= 91 | cola= 163 | prio=40 | https://www.att.gob.bo/en/videoteca?page=17
+[ATT] t= 204.0s | pag=185 | files=1554 | data= 91 | cola= 164 | prio=40 | https://www.att.gob.bo/en/videoteca?page=18
+[ATT] t= 205.0s | pag=186 | files=1554 | data= 91 | cola= 165 | prio=40 | https://www.att.gob.bo/en/videoteca?page=19
+[ATT] t= 206.1s | pag=187 | files=1554 | data= 91 | cola= 166 | prio=40 | https://www.att.gob.bo/en/videoteca?page=20
+[ATT] t= 207.2s | pag=188 | files=1554 | data= 91 | cola= 167 | prio= 2 | https://www.att.gob.bo/en/node/850
+[ATT] t= 207.6s | pag=189 | files=1554 | data= 91 | cola= 166 | prio=40 | https://www.att.gob.bo/en/videoteca?page=21
+[ATT] t= 208.4s | pag=190 | files=1554 | data= 91 | cola= 167 | prio=40 | https://www.att.gob.bo/en/videoteca?page=13
+[ATT] t= 209.0s | pag=191 | files=1554 | data= 91 | cola= 168 | prio= 2 | https://www.att.gob.bo/index.php/en/node/864
+[ATT] t= 209.7s | pag=192 | files=1554 | data= 91 | cola= 167 | prio= 2 | https://www.att.gob.bo/index.php/en/node/863
+[ATT] t= 210.6s | pag=193 | files=1554 | data= 91 | cola= 166 | prio=40 | https://www.att.gob.bo/en/videoteca?page=14
+[ATT] t= 211.6s | pag=194 | files=1554 | data= 91 | cola= 167 | prio= 2 | https://www.att.gob.bo/en/node/861
+[ATT] t= 212.7s | pag=195 | files=1554 | data= 91 | cola= 166 | prio=50 | https://www.att.gob.bo/en/reglamento
+[ATT] t= 213.5s | pag=196 | files=1589 | data= 92 | cola= 165 | prio=50 | https://www.att.gob.bo/en/formularios
+[ATT] t= 214.4s | pag=197 | files=1623 | data= 93 | cola= 164 | prio=50 | https://www.att.gob.bo/en/organigrama
+[ATT] t= 215.2s | pag=198 | files=1623 | data= 93 | cola= 163 | prio=50 | https://www.att.gob.bo/en/nomina-de-personal-dependiente
+[ATT] t= 215.8s | pag=199 | files=1624 | data= 93 | cola= 162 | prio=50 | https://www.att.gob.bo/en/escala-salarial
+[ATT] t= 216.8s | pag=200 | files=1625 | data= 93 | cola= 161 | prio=50 | https://www.att.gob.bo/en/manual-de-funciones
+[ATT] t= 217.3s | pag=201 | files=1626 | data= 93 | cola= 160 | prio=50 | https://www.att.gob.bo/en/programa-anual-de-operaciones
+[ATT] t= 217.8s | pag=202 | files=1637 | data= 94 | cola= 159 | prio=50 | https://www.att.gob.bo/en/convocatorias-publicas
+[ATT] t= 218.3s | pag=203 | files=1637 | data= 94 | cola= 169 | prio=50 | https://www.att.gob.bo/en/empresas-con-incumplimiento-de-contrato
+[ATT] t= 219.1s | pag=204 | files=1653 | data= 95 | cola= 168 | prio=50 | https://www.att.gob.bo/en/nomina-de-proveedores-0
+[ATT] t= 219.6s | pag=205 | files=1675 | data= 96 | cola= 167 | prio=50 | https://www.att.gob.bo/en/programa-anual-de-contrataciones
+[ATT] t= 220.2s | pag=206 | files=1675 | data= 96 | cola= 174 | prio=10 | https://www.att.gob.bo/pac-2026
+[ATT] t= 220.9s | pag=207 | files=1690 | data= 97 | cola= 173 | prio=10 | https://www.att.gob.bo/pac-2025
+[ATT] t= 221.7s | pag=208 | files=1691 | data= 97 | cola= 172 | prio=10 | https://www.att.gob.bo/pac-2024
+[ATT] t= 222.4s | pag=209 | files=1692 | data= 97 | cola= 171 | prio=10 | https://www.att.gob.bo/pac-2023
+[ATT] t= 223.1s | pag=210 | files=1693 | data= 97 | cola= 170 | prio=10 | https://www.att.gob.bo/pac-2022
+[ATT] t= 224.0s | pag=211 | files=1694 | data= 97 | cola= 169 | prio=10 | https://www.att.gob.bo/pac-2021
+[ATT] t= 224.8s | pag=212 | files=1695 | data= 97 | cola= 168 | prio=10 | https://www.att.gob.bo/pac-2020
+[ATT] t= 225.6s | pag=213 | files=1710 | data= 98 | cola= 167 | prio=10 | https://www.att.gob.bo/pac-2019
+[ATT] t= 226.0s | pag=214 | files=1710 | data= 98 | cola= 166 | prio=50 | https://www.att.gob.bo/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-4272026
+[ATT] t= 226.4s | pag=215 | files=1711 | data= 98 | cola= 165 | prio=50 | https://www.att.gob.bo/en/resolucion-ministerial-ndeg105
+[ATT] t= 226.8s | pag=216 | files=1712 | data= 98 | cola= 164 | prio=50 | https://www.att.gob.bo/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-4132026
+[ATT] t= 227.7s | pag=217 | files=1713 | data= 98 | cola= 163 | prio=50 | https://www.att.gob.bo/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-3782026
+[ATT] t= 228.5s | pag=218 | files=1714 | data= 98 | cola= 162 | prio=50 | https://www.att.gob.bo/en/resolucion-revocatoria-att-dj-ra-re-tl-lp-572026
+[ATT] t= 229.2s | pag=219 | files=1715 | data= 98 | cola= 161 | prio=50 | https://www.att.gob.bo/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-3742026
+[ATT] t= 229.7s | pag=220 | files=1716 | data= 98 | cola= 160 | prio=50 | https://www.att.gob.bo/en/presentacion-de-documentacion-para-la-validacion-de-tfr-gestion-2026
+[ATT] t= 230.2s | pag=221 | files=1716 | data= 98 | cola= 159 | prio=50 | https://www.att.gob.bo/en/resolucion-sancionatoria-att-dj-ra-s-pt-lp-12026
+[ATT] t= 231.2s | pag=222 | files=1717 | data= 98 | cola= 158 | prio=50 | https://www.att.gob.bo/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-2882026
+[ATT] t= 231.8s | pag=223 | files=1718 | data= 99 | cola= 157 | prio=50 | https://www.att.gob.bo/en/habilitacion-formulario-prontis
+[ATT] t= 232.7s | pag=224 | files=1718 | data= 99 | cola= 156 | prio=50 | https://www.att.gob.bo/en/att-fortalece-el-trabajo-conjunto-con-instituciones-de-tarija-en-beneficio-de-los-usuarios
+[ATT] t= 233.4s | pag=225 | files=1718 | data= 99 | cola= 155 | prio=50 | https://www.att.gob.bo/mapa-del-sitio
+[ATT] t= 234.1s | pag=226 | files=1718 | data= 99 | cola= 214 | prio= 2 | https://www.att.gob.bo/drupal/servicio-postal-legal
+[ATT] t= 235.1s | pag=226 | files=1718 | data= 99 | cola= 213 | prio= 2 | https://www.att.gob.bo/drupal/telecomicaciones-legal
+[ATT] t= 236.4s | pag=226 | files=1718 | data= 99 | cola= 212 | prio= 2 | https://www.att.gob.bo/drupal/telecomunicaciones
+[ATT] t= 237.8s | pag=226 | files=1718 | data= 99 | cola= 211 | prio= 2 | https://www.att.gob.bo/drupal/transportes-0
+[ATT] t= 239.1s | pag=226 | files=1718 | data= 99 | cola= 210 | prio= 2 | https://www.att.gob.bo/drupal/ficha-de-procesos-de-telecomunicaciones
+[ATT] t= 240.2s | pag=226 | files=1718 | data= 99 | cola= 209 | prio= 2 | https://www.att.gob.bo/drupal/ficha-de-procesos-de-transportes
+[ATT] t= 241.7s | pag=226 | files=1718 | data= 99 | cola= 208 | prio= 2 | https://www.att.gob.bo/drupal/sector-postal
+[ATT] t= 242.9s | pag=226 | files=1718 | data= 99 | cola= 207 | prio= 2 | https://www.att.gob.bo/drupal/sector-telecomunicaciones
+[ATT] t= 244.4s | pag=226 | files=1718 | data= 99 | cola= 206 | prio= 2 | https://www.att.gob.bo/drupal/sector-transportes
+[ATT] t= 245.7s | pag=226 | files=1718 | data= 99 | cola= 205 | prio=10 | https://www.att.gob.bo/drupal/memoria-institucional
+[ATT] t= 247.2s | pag=226 | files=1718 | data= 99 | cola= 204 | prio=10 | https://www.att.gob.bo/drupal/informes-de-auditoria
+[ATT] t= 248.5s | pag=226 | files=1718 | data= 99 | cola= 203 | prio=10 | https://www.att.gob.bo/drupal/fuentes-de-financiamiento
+[ATT] t= 249.9s | pag=226 | files=1718 | data= 99 | cola= 202 | prio=10 | https://www.att.gob.bo/drupal/presupuesto-institucional
+[ATT] t= 251.0s | pag=226 | files=1718 | data= 99 | cola= 201 | prio=10 | https://www.att.gob.bo/drupal/planificacion-estrategica
+[ATT] t= 252.3s | pag=226 | files=1718 | data= 99 | cola= 200 | prio=10 | https://www.att.gob.bo/drupal/rendicion-publica-de-cuentas
+[ATT] t= 253.7s | pag=226 | files=1718 | data= 99 | cola= 199 | prio=50 | https://www.att.gob.bo/busqueda-sitio
+[ATT] t= 255.1s | pag=227 | files=1718 | data= 99 | cola= 199 | prio=50 | https://www.att.gob.bo/fiscalizacion-control
+[ATT] t= 256.0s | pag=228 | files=1718 | data= 99 | cola= 203 | prio=50 | https://www.att.gob.bo/requisitos-para-el-otorgamiento-de-licencia-de-red-privada-y-licencia-para-el-uso-de-frecuencias
+[ATT] t= 256.9s | pag=229 | files=1718 | data= 99 | cola= 202 | prio=50 | https://www.att.gob.bo/requisitos-de-otorgamiento-de-licencia-redes-privadas
+[ATT] t= 257.5s | pag=230 | files=1718 | data= 99 | cola= 201 | prio=50 | https://www.att.gob.bo/requisitos-para-el-otorgamiento-de-licencia-de-radioaficionados
+[ATT] t= 258.6s | pag=231 | files=1718 | data= 99 | cola= 200 | prio=50 | https://www.att.gob.bo/preguntas-frecuentes-otorgamiento-de-licencias
+[ATT] t= 259.4s | pag=232 | files=1718 | data= 99 | cola= 200 | prio= 2 | https://www.att.gob.bo/formulario-modificacion-telecomunicaciones
+[ATT] t= 260.4s | pag=233 | files=1719 | data= 99 | cola= 199 | prio=50 | https://www.att.gob.bo/licitaciones-de-frecuencias-de-radiodifusion
+[ATT] t= 261.3s | pag=234 | files=1719 | data= 99 | cola= 212 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2025
+[ATT] DATASETS=100 | data_html_table | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2025
+[ATT] t= 261.9s | pag=235 | files=1735 | data=100 | cola= 211 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2024
+[ATT] t= 262.5s | pag=236 | files=1795 | data=101 | cola= 210 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2023
+[ATT] t= 263.3s | pag=237 | files=1797 | data=102 | cola= 209 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2022
+[ATT] t= 264.0s | pag=238 | files=1832 | data=103 | cola= 208 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2020
+[ATT] t= 264.9s | pag=239 | files=1853 | data=104 | cola= 207 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2019
+[ATT] t= 265.2s | pag=240 | files=1866 | data=105 | cola= 206 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-radiodifusion-2018
+[ATT] t= 266.0s | pag=241 | files=1943 | data=106 | cola= 205 | prio=50 | https://www.att.gob.bo/licitaciones-desiertas
+[ATT] t= 266.6s | pag=242 | files=1945 | data=107 | cola= 204 | prio=50 | https://www.att.gob.bo/declaraciones-tele
+[ATT] t= 267.5s | pag=243 | files=1950 | data=108 | cola= 203 | prio=50 | https://www.att.gob.bo/formularios-221-222-y-223
+[ATT] t= 268.1s | pag=244 | files=1950 | data=108 | cola= 202 | prio=50 | https://www.att.gob.bo/formularios2-tele
+[ATT] t= 273.0s | pag=245 | files=1964 | data=109 | cola= 201 | prio=50 | https://www.att.gob.bo/requisitos-tele
+[ATT] t= 274.0s | pag=246 | files=1964 | data=110 | cola= 200 | prio=50 | https://www.att.gob.bo/migracion-medios-tele
+[ATT] t= 274.5s | pag=247 | files=1964 | data=110 | cola= 200 | prio=10 | https://www.att.gob.bo/migracion-medios-archivos
+[ATT] t= 275.3s | pag=248 | files=1966 | data=111 | cola= 199 | prio=50 | https://www.att.gob.bo/mis-derechos
+[ATT] t= 276.2s | pag=249 | files=1966 | data=111 | cola= 198 | prio=50 | https://www.att.gob.bo/expresiones
+[ATT] t= 277.1s | pag=250 | files=1966 | data=111 | cola= 197 | prio=50 | https://www.att.gob.bo/servicios-publicos-tele
+[ATT] t= 278.0s | pag=251 | files=1966 | data=111 | cola= 206 | prio=50 | https://www.att.gob.bo/servicios-privados-tele
+[ATT] t= 278.5s | pag=252 | files=1966 | data=111 | cola= 206 | prio= 2 | https://www.att.gob.bo/formulario-solicitud-telecomunicaciones
+[ATT] t= 279.1s | pag=253 | files=1970 | data=112 | cola= 205 | prio=50 | https://www.att.gob.bo/index.php/en
+[ATT] t= 279.8s | pag=254 | files=1970 | data=112 | cola= 226 | prio= 2 | https://www.att.gob.bo/index.php/en/33-operadores-postales-cuentan-con-licencia-vigente-en-bolivia
+[ATT] t= 280.8s | pag=255 | files=1970 | data=112 | cola= 226 | prio=40 | https://www.att.gob.bo/index.php/en?page=0
+[ATT] t= 281.4s | pag=256 | files=1970 | data=112 | cola= 225 | prio=40 | https://www.att.gob.bo/index.php/en?page=1
+[ATT] t= 281.9s | pag=257 | files=1970 | data=112 | cola= 226 | prio= 2 | https://www.att.gob.bo/index.php/en/la-att-canalizo-mas-de-500-reclamos-del-servicio-postal-durante-el-primer-semestre-de-2026
+[ATT] t= 283.1s | pag=258 | files=1970 | data=112 | cola= 225 | prio= 2 | https://www.att.gob.bo/index.php/en/att-y-la-gobernacion-del-beni-fortalecen-coordinacion-para-mejorar-los-servicios-de-transporte-y
+[ATT] t= 284.2s | pag=259 | files=1970 | data=112 | cola= 224 | prio=40 | https://www.att.gob.bo/index.php/en?page=2
+[ATT] t= 285.2s | pag=260 | files=1970 | data=112 | cola= 225 | prio= 2 | https://www.att.gob.bo/index.php/en/att-fortalece-la-fiscalizacion-de-la-atencion-al-usuario-en-operadores-de-telecomunicaciones-de
+[ATT] t= 286.0s | pag=261 | files=1970 | data=112 | cola= 224 | prio=40 | https://www.att.gob.bo/index.php/en?page=3
+[ATT] t= 286.6s | pag=262 | files=1970 | data=112 | cola= 225 | prio=40 | https://www.att.gob.bo/index.php/en?page=4
+[ATT] t= 287.0s | pag=263 | files=1970 | data=112 | cola= 226 | prio=40 | https://www.att.gob.bo/index.php/en?page=5
+[ATT] t= 287.6s | pag=264 | files=1970 | data=112 | cola= 228 | prio=40 | https://www.att.gob.bo/index.php/en?page=6
+[ATT] t= 288.0s | pag=265 | files=1970 | data=112 | cola= 230 | prio= 2 | https://www.att.gob.bo/index.php/en/att-destaca-el-rol-estrategico-de-las-telecomunicaciones-en-la-transformacion-digital-del-pais
+[ATT] t= 288.8s | pag=266 | files=1970 | data=112 | cola= 229 | prio=10 | https://www.att.gob.bo/index.php/en/att-presenta-su-rendicion-publica-de-cuentas-inicial-2026-con-enfoque-en-transparencia-y
+[ATT] t= 289.4s | pag=267 | files=1970 | data=112 | cola= 228 | prio=40 | https://www.att.gob.bo/index.php/en?page=7
+[ATT] t= 290.4s | pag=268 | files=1970 | data=112 | cola= 230 | prio= 2 | https://www.att.gob.bo/index.php/en/att-consigue-apoyo-internacional-para-la-reestructuracion-y-modernizacion-del-servicio-postal-en
+[ATT] t= 291.3s | pag=269 | files=1970 | data=112 | cola= 229 | prio=40 | https://www.att.gob.bo/index.php/en?page=8
+[ATT] t= 292.0s | pag=270 | files=1970 | data=112 | cola= 231 | prio=10 | https://www.att.gob.bo/index.php/en/att-presenta-su-rendicion-publica-de-cuentas-final-2025-destacando-transparencia-desafios-y
+[ATT] t= 292.3s | pag=271 | files=1970 | data=112 | cola= 230 | prio=40 | https://www.att.gob.bo/index.php/en?page=9
+[ATT] t= 292.9s | pag=272 | files=1970 | data=112 | cola= 232 | prio=40 | https://www.att.gob.bo/index.php/en?page=10
+[ATT] t= 293.7s | pag=273 | files=1970 | data=112 | cola= 234 | prio=10 | https://www.att.gob.bo/index.php/en/la-att-posiciona-bolivia-en-la-agenda-global-de-conectividad-y-regulacion-digital
+[ATT] t= 294.3s | pag=274 | files=1970 | data=112 | cola= 233 | prio=40 | https://www.att.gob.bo/index.php/en?page=11
+[ATT] t= 294.9s | pag=275 | files=1970 | data=112 | cola= 235 | prio=40 | https://www.att.gob.bo/index.php/en?page=12
+[ATT] t= 295.6s | pag=276 | files=1970 | data=112 | cola= 237 | prio=40 | https://www.att.gob.bo/index.php/en?page=13
+[ATT] t= 296.6s | pag=277 | files=1970 | data=112 | cola= 239 | prio=10 | https://www.att.gob.bo/index.php/en/att-consolida-avances-clave-en-regulacion-fiscalizacion-conectividad-y-proteccion-al-usuario
+[ATT] t= 297.4s | pag=278 | files=1970 | data=112 | cola= 238 | prio=40 | https://www.att.gob.bo/index.php/en?page=14
+[ATT] t= 297.9s | pag=279 | files=1970 | data=112 | cola= 240 | prio=40 | https://www.att.gob.bo/index.php/en?page=15
+[ATT] t= 298.6s | pag=280 | files=1970 | data=112 | cola= 242 | prio=40 | https://www.att.gob.bo/index.php/en?page=16
+[ATT] t= 299.1s | pag=281 | files=1970 | data=112 | cola= 244 | prio=40 | https://www.att.gob.bo/index.php/en?page=17
+[ATT] t= 299.7s | pag=282 | files=1970 | data=112 | cola= 246 | prio=40 | https://www.att.gob.bo/index.php/en?page=18
+[ATT] t= 300.2s | pag=283 | files=1970 | data=112 | cola= 248 | prio=40 | https://www.att.gob.bo/index.php/en?page=19
+[ATT] t= 301.1s | pag=284 | files=1970 | data=112 | cola= 250 | prio=40 | https://www.att.gob.bo/index.php/en?page=20
+[ATT] t= 301.8s | pag=285 | files=1970 | data=112 | cola= 252 | prio=40 | https://www.att.gob.bo/index.php/en?page=21
+[ATT] t= 302.5s | pag=286 | files=1970 | data=112 | cola= 254 | prio=40 | https://www.att.gob.bo/index.php/en?page=22
+[ATT] t= 303.0s | pag=287 | files=1970 | data=112 | cola= 256 | prio=10 | https://www.att.gob.bo/index.php/en/la-att-y-la-internet-society-firman-alianza-estrategica-para-fortalecer-la-regulacion-y-el-acceso
+[ATT] t= 304.1s | pag=288 | files=1970 | data=112 | cola= 255 | prio=40 | https://www.att.gob.bo/index.php/en?page=23
+[ATT] t= 305.1s | pag=289 | files=1970 | data=112 | cola= 257 | prio=10 | https://www.att.gob.bo/index.php/en/att-reafirma-su-compromiso-con-la-transparencia-en-la-rendicion-publica-de-cuentas-inicial-2025
+[ATT] t= 305.9s | pag=290 | files=1970 | data=112 | cola= 256 | prio=40 | https://www.att.gob.bo/index.php/en?page=24
+[ATT] t= 306.9s | pag=291 | files=1970 | data=112 | cola= 258 | prio=40 | https://www.att.gob.bo/index.php/en?page=25
+[ATT] t= 307.9s | pag=292 | files=1970 | data=112 | cola= 260 | prio=40 | https://www.att.gob.bo/index.php/en?page=26
+[ATT] t= 308.5s | pag=293 | files=1970 | data=112 | cola= 262 | prio=40 | https://www.att.gob.bo/index.php/en?page=27
+[ATT] t= 309.3s | pag=294 | files=1970 | data=112 | cola= 264 | prio=40 | https://www.att.gob.bo/index.php/en?page=28
+[ATT] t= 310.2s | pag=295 | files=1970 | data=112 | cola= 266 | prio=40 | https://www.att.gob.bo/index.php/en?page=29
+[ATT] t= 310.6s | pag=296 | files=1970 | data=112 | cola= 268 | prio=40 | https://www.att.gob.bo/index.php/en?page=30
+[ATT] t= 311.1s | pag=297 | files=1970 | data=112 | cola= 270 | prio=40 | https://www.att.gob.bo/index.php/en?page=31
+[ATT] t= 312.0s | pag=298 | files=1970 | data=112 | cola= 272 | prio=40 | https://www.att.gob.bo/index.php/en?page=32
+[ATT] t= 313.0s | pag=299 | files=1970 | data=112 | cola= 274 | prio=40 | https://www.att.gob.bo/index.php/en?page=33
+[ATT] t= 313.6s | pag=300 | files=1970 | data=112 | cola= 276 | prio=40 | https://www.att.gob.bo/index.php/en?page=34
+[ATT] t= 314.2s | pag=301 | files=1970 | data=112 | cola= 278 | prio=40 | https://www.att.gob.bo/index.php/en?page=35
+[ATT] t= 315.1s | pag=302 | files=1970 | data=112 | cola= 280 | prio=40 | https://www.att.gob.bo/index.php/en?page=36
+[ATT] t= 316.0s | pag=303 | files=1970 | data=112 | cola= 282 | prio=40 | https://www.att.gob.bo/index.php/en?page=37
+[ATT] t= 316.5s | pag=304 | files=1970 | data=112 | cola= 284 | prio=40 | https://www.att.gob.bo/index.php/en?page=38
+[ATT] t= 317.5s | pag=305 | files=1970 | data=112 | cola= 286 | prio=40 | https://www.att.gob.bo/index.php/en?page=39
+[ATT] t= 318.2s | pag=306 | files=1970 | data=112 | cola= 288 | prio=10 | https://www.att.gob.bo/index.php/en/att-encabezara-un-plan-operativo-interinstitucional-para-evitar-ilegalidades-en-parada-al-norte-de
+[ATT] t= 318.9s | pag=307 | files=1970 | data=112 | cola= 287 | prio=40 | https://www.att.gob.bo/index.php/en?page=40
+[ATT] t= 319.4s | pag=308 | files=1970 | data=112 | cola= 289 | prio=40 | https://www.att.gob.bo/index.php/en?page=41
+[ATT] t= 320.1s | pag=309 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en?page=42
+[ATT] t= 320.8s | pag=310 | files=1970 | data=112 | cola= 287 | prio=40 | https://www.att.gob.bo/index.php/en?page=43
+[ATT] t= 321.5s | pag=311 | files=1970 | data=112 | cola= 286 | prio=40 | https://www.att.gob.bo/index.php/en?page=44
+[ATT] t= 322.1s | pag=312 | files=1970 | data=112 | cola= 285 | prio=50 | https://www.att.gob.bo/index.php/en/edictos
+[ATT] t= 323.0s | pag=313 | files=1970 | data=112 | cola= 284 | prio=50 | https://www.att.gob.bo/index.php/en/banco-de-trabajos-de-investigacion
+[ATT] t= 323.6s | pag=314 | files=1970 | data=112 | cola= 283 | prio=50 | https://www.att.gob.bo/index.php/en/campanas
+[ATT] t= 324.6s | pag=315 | files=1970 | data=112 | cola= 282 | prio=50 | https://www.att.gob.bo/index.php/en/videoteca
+[ATT] t= 325.0s | pag=316 | files=1970 | data=112 | cola= 291 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=0
+[ATT] t= 325.9s | pag=317 | files=1970 | data=112 | cola= 290 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=1
+[ATT] t= 326.4s | pag=318 | files=1970 | data=112 | cola= 291 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=2
+[ATT] t= 327.5s | pag=319 | files=1970 | data=112 | cola= 290 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=3
+[ATT] t= 328.6s | pag=320 | files=1970 | data=112 | cola= 289 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=4
+[ATT] t= 329.3s | pag=321 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=5
+[ATT] t= 330.5s | pag=322 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=6
+[ATT] t= 330.9s | pag=323 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=7
+[ATT] t= 332.0s | pag=324 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=8
+[ATT] t= 333.0s | pag=325 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=23
+[ATT] t= 334.0s | pag=326 | files=1970 | data=112 | cola= 295 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=9
+[ATT] t= 334.7s | pag=327 | files=1970 | data=112 | cola= 297 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=10
+[ATT] t= 335.8s | pag=328 | files=1970 | data=112 | cola= 297 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=11
+[ATT] t= 336.7s | pag=329 | files=1970 | data=112 | cola= 296 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=12
+[ATT] t= 337.2s | pag=330 | files=1970 | data=112 | cola= 295 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=22
+[ATT] t= 338.0s | pag=331 | files=1970 | data=112 | cola= 296 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=15
+[ATT] t= 338.5s | pag=332 | files=1970 | data=112 | cola= 295 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=16
+[ATT] t= 339.6s | pag=333 | files=1970 | data=112 | cola= 294 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=17
+[ATT] t= 340.5s | pag=334 | files=1970 | data=112 | cola= 293 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=18
+[ATT] t= 341.3s | pag=335 | files=1970 | data=112 | cola= 292 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=19
+[ATT] t= 341.8s | pag=336 | files=1970 | data=112 | cola= 291 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=20
+[ATT] t= 342.6s | pag=337 | files=1970 | data=112 | cola= 290 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=21
+[ATT] t= 343.1s | pag=338 | files=1970 | data=112 | cola= 289 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=13
+[ATT] t= 344.0s | pag=339 | files=1970 | data=112 | cola= 288 | prio=40 | https://www.att.gob.bo/index.php/en/videoteca?page=14
+[ATT] t= 345.0s | pag=340 | files=1970 | data=112 | cola= 287 | prio=50 | https://www.att.gob.bo/index.php/en/reglamento
+[ATT] t= 345.8s | pag=341 | files=1970 | data=113 | cola= 286 | prio=50 | https://www.att.gob.bo/index.php/en/formularios
+[ATT] t= 346.6s | pag=342 | files=1970 | data=114 | cola= 285 | prio=50 | https://www.att.gob.bo/index.php/en/organigrama
+[ATT] t= 347.1s | pag=343 | files=1970 | data=114 | cola= 284 | prio=50 | https://www.att.gob.bo/index.php/en/nomina-de-personal-dependiente
+[ATT] t= 347.8s | pag=344 | files=1971 | data=114 | cola= 283 | prio=50 | https://www.att.gob.bo/index.php/en/escala-salarial
+[ATT] t= 348.6s | pag=345 | files=1971 | data=114 | cola= 282 | prio=50 | https://www.att.gob.bo/index.php/en/manual-de-funciones
+[ATT] t= 349.5s | pag=346 | files=1971 | data=114 | cola= 281 | prio=50 | https://www.att.gob.bo/index.php/en/programa-anual-de-operaciones
+[ATT] t= 350.1s | pag=347 | files=1971 | data=115 | cola= 280 | prio=50 | https://www.att.gob.bo/index.php/en/convocatorias-publicas
+[ATT] t= 351.0s | pag=348 | files=1971 | data=115 | cola= 279 | prio=50 | https://www.att.gob.bo/index.php/en/empresas-con-incumplimiento-de-contrato
+[ATT] t= 351.4s | pag=349 | files=1971 | data=116 | cola= 278 | prio=50 | https://www.att.gob.bo/index.php/en/nomina-de-proveedores-0
+[ATT] t= 352.3s | pag=350 | files=1971 | data=117 | cola= 277 | prio=50 | https://www.att.gob.bo/index.php/en/programa-anual-de-contrataciones
+[ATT] t= 352.9s | pag=351 | files=1971 | data=117 | cola= 276 | prio=50 | https://www.att.gob.bo/en/listado-atp
+[ATT] t= 353.8s | pag=352 | files=1971 | data=118 | cola= 275 | prio=50 | https://www.att.gob.bo/en/reclamaciones
+[ATT] t= 354.6s | pag=353 | files=1971 | data=118 | cola= 274 | prio=50 | https://www.att.gob.bo/en/mensajes-y-llamadas-fraudulentas
+[ATT] t= 355.9s | pag=354 | files=1971 | data=118 | cola= 273 | prio=50 | https://www.att.gob.bo/en/mis-derechos
+[ATT] t= 356.8s | pag=355 | files=1971 | data=118 | cola= 272 | prio=50 | https://www.att.gob.bo/en/informaciones
+[ATT] t= 357.6s | pag=356 | files=1971 | data=118 | cola= 271 | prio=50 | https://www.att.gob.bo/en/herramientas
+[ATT] t= 358.0s | pag=357 | files=1971 | data=118 | cola= 271 | prio=50 | https://www.att.gob.bo/en/tarifas
+[ATT] t= 358.4s | pag=358 | files=1971 | data=118 | cola= 270 | prio=50 | https://www.att.gob.bo/en/radiodifusion-televisiva-digital
+[ATT] t= 359.0s | pag=359 | files=1971 | data=118 | cola= 272 | prio=50 | https://www.att.gob.bo/en/tics
+[ATT] t= 360.0s | pag=360 | files=1971 | data=118 | cola= 272 | prio=50 | https://www.att.gob.bo/en/servicios-publicos-tele
+[ATT] t= 360.7s | pag=361 | files=1971 | data=118 | cola= 271 | prio=50 | https://www.att.gob.bo/en/servicios-privados-tele
+[ATT] t= 361.8s | pag=362 | files=1971 | data=118 | cola= 270 | prio=50 | https://www.att.gob.bo/en/expresiones
+[ATT] t= 362.3s | pag=363 | files=1971 | data=118 | cola= 269 | prio=50 | https://www.att.gob.bo/en/migracion-medios-tele
+[ATT] t= 363.1s | pag=364 | files=1971 | data=118 | cola= 268 | prio=50 | https://www.att.gob.bo/en/homologacion-equipos
+[ATT] t= 364.0s | pag=365 | files=1971 | data=118 | cola= 267 | prio=50 | https://www.att.gob.bo/en/formularios-requisitos-tele
+[ATT] t= 364.5s | pag=366 | files=1971 | data=118 | cola= 266 | prio=50 | https://www.att.gob.bo/en/informacion-aereoportuaria
+[ATT] t= 365.2s | pag=367 | files=1971 | data=118 | cola= 265 | prio=50 | https://www.att.gob.bo/en/informacion-aerea-para-usuario
+[ATT] t= 366.0s | pag=368 | files=1971 | data=118 | cola= 269 | prio=50 | https://www.att.gob.bo/en/transporte/usuario
+[ATT] t= 366.5s | pag=369 | files=1971 | data=118 | cola= 268 | prio=50 | https://www.att.gob.bo/en/pasajero-seguro
+[ATT] t= 367.3s | pag=370 | files=1971 | data=118 | cola= 267 | prio=50 | https://www.att.gob.bo/en/Renovaci%C3%B3n-Licencia-CAO
+[ATT] t= 368.4s | pag=371 | files=1971 | data=118 | cola= 266 | prio=50 | https://www.att.gob.bo/en/node/299
+[ATT] t= 369.5s | pag=372 | files=1971 | data=118 | cola= 266 | prio=10 | https://www.att.gob.bo/otorgacion-de-derechos-archivos
+[ATT] t= 370.5s | pag=373 | files=1972 | data=118 | cola= 265 | prio=50 | https://www.att.gob.bo/en/Otorgaci%C3%B3n-Licencia-CAO
+[ATT] t= 371.6s | pag=374 | files=1972 | data=118 | cola= 265 | prio=10 | https://www.att.gob.bo/normativa-otorgacion-de-licencia-y-cao
+[ATT] t= 372.1s | pag=375 | files=1974 | data=119 | cola= 264 | prio=50 | https://www.att.gob.bo/en/taxonomy/term/7
+[ATT] t= 372.5s | pag=376 | files=1974 | data=119 | cola= 272 | prio= 2 | https://www.att.gob.bo/en/la-att-canalizo-mas-de-500-reclamos-del-servicio-postal-durante-el-primer-semestre-de-2026
+[ATT] t= 373.3s | pag=377 | files=1974 | data=119 | cola= 271 | prio= 2 | https://www.att.gob.bo/en/att-y-la-gobernacion-del-beni-fortalecen-coordinacion-para-mejorar-los-servicios-de-transporte-y
+[ATT] t= 373.8s | pag=378 | files=1974 | data=119 | cola= 270 | prio= 2 | https://www.att.gob.bo/en/att-fortalece-la-fiscalizacion-de-la-atencion-al-usuario-en-operadores-de-telecomunicaciones-de
+[ATT] t= 374.4s | pag=379 | files=1974 | data=119 | cola= 269 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=1
+[ATT] t= 375.5s | pag=380 | files=1974 | data=119 | cola= 280 | prio= 2 | https://www.att.gob.bo/en/att-destaca-el-rol-estrategico-de-las-telecomunicaciones-en-la-transformacion-digital-del-pais
+[ATT] t= 376.1s | pag=381 | files=1974 | data=119 | cola= 279 | prio= 2 | https://www.att.gob.bo/en/att-consigue-apoyo-internacional-para-la-reestructuracion-y-modernizacion-del-servicio-postal-en
+[ATT] t= 376.7s | pag=382 | files=1974 | data=119 | cola= 278 | prio=10 | https://www.att.gob.bo/en/att-presenta-su-rendicion-publica-de-cuentas-inicial-2026-con-enfoque-en-transparencia-y
+[ATT] t= 377.4s | pag=383 | files=1974 | data=119 | cola= 277 | prio=10 | https://www.att.gob.bo/en/att-presenta-su-rendicion-publica-de-cuentas-final-2025-destacando-transparencia-desafios-y
+[ATT] t= 378.3s | pag=384 | files=1974 | data=119 | cola= 276 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=0
+[ATT] t= 379.2s | pag=385 | files=1974 | data=119 | cola= 275 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=2
+[ATT] t= 380.2s | pag=386 | files=1974 | data=119 | cola= 275 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=3
+[ATT] t= 381.4s | pag=387 | files=1974 | data=119 | cola= 285 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=4
+[ATT] t= 381.9s | pag=388 | files=1974 | data=119 | cola= 295 | prio=10 | https://www.att.gob.bo/en/la-att-y-la-internet-society-firman-alianza-estrategica-para-fortalecer-la-regulacion-y-el-acceso
+[ATT] t= 382.4s | pag=389 | files=1974 | data=119 | cola= 294 | prio=10 | https://www.att.gob.bo/en/att-reafirma-su-compromiso-con-la-transparencia-en-la-rendicion-publica-de-cuentas-inicial-2025
+[ATT] t= 383.2s | pag=390 | files=1974 | data=119 | cola= 293 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=5
+[ATT] t= 384.2s | pag=391 | files=1974 | data=119 | cola= 303 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=6
+[ATT] t= 385.2s | pag=392 | files=1974 | data=119 | cola= 313 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=7
+[ATT] t= 385.9s | pag=393 | files=1974 | data=119 | cola= 323 | prio=10 | https://www.att.gob.bo/en/att-encabezara-un-plan-operativo-interinstitucional-para-evitar-ilegalidades-en-parada-al-norte-de
+[ATT] t= 386.4s | pag=394 | files=1974 | data=119 | cola= 322 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=8
+[ATT] t= 387.3s | pag=395 | files=1974 | data=119 | cola= 332 | prio= 2 | https://www.att.gob.bo/en/att-inicia-acciones-penales-contra-quienes-danan-redes-de-telecomunicaciones
+[ATT] t= 388.1s | pag=396 | files=1974 | data=119 | cola= 331 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=9
+[ATT] t= 389.2s | pag=397 | files=1974 | data=119 | cola= 341 | prio= 2 | https://www.att.gob.bo/en/att-garantiza-acceso-telecomunicaciones-y-transporte-menor-costo-para-personas-con-discapacidad
+[ATT] t= 389.7s | pag=398 | files=1974 | data=119 | cola= 340 | prio=40 | https://www.att.gob.bo/en/taxonomy/term/7?page=10
+[ATT] t= 390.6s | pag=399 | files=1974 | data=119 | cola= 339 | prio=50 | https://www.att.gob.bo/resoluciones-administrativas-del-sector
+[ATT] t= 391.5s | pag=400 | files=2016 | data=120 | cola= 338 | prio=50 | https://www.att.gob.bo/en/node/910
+[ATT] t= 392.4s | pag=401 | files=2016 | data=120 | cola= 337 | prio=50 | https://www.att.gob.bo/en/node/908
+[ATT] t= 393.3s | pag=402 | files=2016 | data=120 | cola= 336 | prio=50 | https://www.att.gob.bo/index.php/en/informacion-aereoportuaria
+[ATT] t= 394.4s | pag=403 | files=2016 | data=120 | cola= 335 | prio=50 | https://www.att.gob.bo/index.php/en/informacion-aerea-para-usuario
+[ATT] t= 395.3s | pag=404 | files=2016 | data=120 | cola= 334 | prio=50 | https://www.att.gob.bo/index.php/en/transporte/usuario
+[ATT] t= 395.7s | pag=405 | files=2016 | data=120 | cola= 333 | prio=50 | https://www.att.gob.bo/index.php/en/pasajero-seguro
+[ATT] t= 396.7s | pag=406 | files=2016 | data=120 | cola= 332 | prio=50 | https://www.att.gob.bo/index.php/en/node/910
+[ATT] t= 397.6s | pag=407 | files=2016 | data=120 | cola= 331 | prio=50 | https://www.att.gob.bo/index.php/en/node/908
+[ATT] t= 398.5s | pag=408 | files=2016 | data=120 | cola= 330 | prio=50 | https://www.att.gob.bo/programa-operativo-anual-2019-v2
+[ATT] t= 398.9s | pag=409 | files=2022 | data=121 | cola= 329 | prio=50 | https://www.att.gob.bo/oferta-basica-de-interconexion
+[ATT] t= 400.0s | pag=410 | files=2042 | data=122 | cola= 328 | prio=50 | https://www.att.gob.bo/taller-nuevo-sifcu
+[ATT] t= 400.8s | pag=411 | files=2048 | data=123 | cola= 327 | prio=50 | https://www.att.gob.bo/att-en-el-dakar-2016
+[ATT] t= 401.8s | pag=412 | files=2048 | data=123 | cola= 326 | prio=50 | https://www.att.gob.bo/videoteca
+[ATT] t= 402.6s | pag=413 | files=2048 | data=123 | cola= 335 | prio=40 | https://www.att.gob.bo/videoteca?page=0
+[ATT] t= 403.6s | pag=414 | files=2048 | data=123 | cola= 334 | prio=40 | https://www.att.gob.bo/videoteca?page=1
+[ATT] t= 404.6s | pag=415 | files=2048 | data=123 | cola= 333 | prio=40 | https://www.att.gob.bo/videoteca?page=2
+[ATT] t= 405.4s | pag=416 | files=2048 | data=123 | cola= 334 | prio=40 | https://www.att.gob.bo/videoteca?page=3
+[ATT] t= 406.3s | pag=417 | files=2048 | data=123 | cola= 333 | prio=40 | https://www.att.gob.bo/videoteca?page=4
+[ATT] t= 407.2s | pag=418 | files=2048 | data=123 | cola= 332 | prio=40 | https://www.att.gob.bo/videoteca?page=5
+[ATT] t= 408.3s | pag=419 | files=2048 | data=123 | cola= 332 | prio=40 | https://www.att.gob.bo/videoteca?page=6
+[ATT] t= 409.0s | pag=420 | files=2048 | data=123 | cola= 332 | prio=40 | https://www.att.gob.bo/videoteca?page=7
+[ATT] t= 409.8s | pag=421 | files=2048 | data=123 | cola= 332 | prio=40 | https://www.att.gob.bo/videoteca?page=8
+[ATT] t= 410.9s | pag=422 | files=2048 | data=123 | cola= 332 | prio=40 | https://www.att.gob.bo/videoteca?page=23
+[ATT] t= 412.0s | pag=423 | files=2048 | data=123 | cola= 339 | prio=40 | https://www.att.gob.bo/videoteca?page=9
+[ATT] t= 412.6s | pag=424 | files=2048 | data=123 | cola= 339 | prio=40 | https://www.att.gob.bo/videoteca?page=10
+[ATT] t= 413.3s | pag=425 | files=2048 | data=123 | cola= 339 | prio=40 | https://www.att.gob.bo/videoteca?page=11
+[ATT] t= 413.9s | pag=426 | files=2048 | data=123 | cola= 338 | prio=40 | https://www.att.gob.bo/videoteca?page=12
+[ATT] t= 414.4s | pag=427 | files=2048 | data=123 | cola= 337 | prio=40 | https://www.att.gob.bo/videoteca?page=22
+[ATT] t= 415.4s | pag=428 | files=2048 | data=123 | cola= 336 | prio=40 | https://www.att.gob.bo/videoteca?page=15
+[ATT] t= 415.9s | pag=429 | files=2048 | data=123 | cola= 335 | prio=40 | https://www.att.gob.bo/videoteca?page=16
+[ATT] t= 416.8s | pag=430 | files=2048 | data=123 | cola= 334 | prio=40 | https://www.att.gob.bo/videoteca?page=17
+[ATT] t= 417.5s | pag=431 | files=2048 | data=123 | cola= 333 | prio=40 | https://www.att.gob.bo/videoteca?page=18
+[ATT] t= 418.6s | pag=432 | files=2048 | data=123 | cola= 332 | prio=40 | https://www.att.gob.bo/videoteca?page=19
+[ATT] t= 419.4s | pag=433 | files=2048 | data=123 | cola= 331 | prio=40 | https://www.att.gob.bo/videoteca?page=20
+[ATT] t= 420.3s | pag=434 | files=2048 | data=123 | cola= 330 | prio=40 | https://www.att.gob.bo/videoteca?page=21
+[ATT] t= 421.3s | pag=435 | files=2048 | data=123 | cola= 329 | prio=40 | https://www.att.gob.bo/videoteca?page=13
+[ATT] t= 421.8s | pag=436 | files=2048 | data=123 | cola= 330 | prio= 2 | https://www.att.gob.bo/en/node/864
+[ATT] t= 422.8s | pag=437 | files=2048 | data=123 | cola= 329 | prio= 2 | https://www.att.gob.bo/en/node/863
+[ATT] t= 423.9s | pag=438 | files=2048 | data=123 | cola= 328 | prio=40 | https://www.att.gob.bo/videoteca?page=14
+[ATT] t= 424.6s | pag=439 | files=2048 | data=123 | cola= 327 | prio=50 | https://www.att.gob.bo/campana-espectro
+[ATT] t= 425.4s | pag=440 | files=2048 | data=123 | cola= 326 | prio=50 | https://www.att.gob.bo/campana-firma-digital
+[ATT] t= 426.1s | pag=441 | files=2048 | data=123 | cola= 325 | prio=50 | https://www.att.gob.bo/campana-portabilidad-numerica
+[ATT] t= 426.9s | pag=442 | files=2048 | data=123 | cola= 324 | prio=50 | https://www.att.gob.bo/campana-no-caigas-en-la-red
+[ATT] t= 427.4s | pag=443 | files=2048 | data=123 | cola= 323 | prio=50 | https://www.att.gob.bo/campana-varios
+[ATT] t= 428.1s | pag=444 | files=2048 | data=123 | cola= 322 | prio=50 | https://www.att.gob.bo/campana-mi-reclamo
+[ATT] t= 429.0s | pag=445 | files=2048 | data=123 | cola= 321 | prio=50 | https://www.att.gob.bo/campana-punto-de-intercambio-de-trafico
+[ATT] t= 429.7s | pag=446 | files=2048 | data=123 | cola= 320 | prio=50 | https://www.att.gob.bo/en/logros-att
+[ATT] t= 430.3s | pag=447 | files=2048 | data=123 | cola= 319 | prio=50 | https://www.att.gob.bo/en/node/889
+[ATT] t= 431.2s | pag=448 | files=2048 | data=123 | cola= 318 | prio=50 | https://www.att.gob.bo/index.php/en/node/888
+[ATT] t= 432.3s | pag=449 | files=2048 | data=123 | cola= 317 | prio=50 | https://www.att.gob.bo/index.php/en/node/887
+[ATT] t= 433.4s | pag=450 | files=2048 | data=123 | cola= 316 | prio=50 | https://www.att.gob.bo/index.php/en/node/886
+[ATT] t= 434.3s | pag=451 | files=2048 | data=123 | cola= 315 | prio=50 | https://www.att.gob.bo/index.php/en/node/885
+[ATT] t= 435.4s | pag=452 | files=2048 | data=123 | cola= 314 | prio=50 | https://www.att.gob.bo/en/node/884
+[ATT] t= 436.2s | pag=453 | files=2048 | data=123 | cola= 313 | prio=50 | https://www.att.gob.bo/en/node/883
+[ATT] t= 436.6s | pag=454 | files=2048 | data=123 | cola= 312 | prio=50 | https://www.att.gob.bo/en/node/881
+[ATT] t= 437.4s | pag=455 | files=2048 | data=123 | cola= 311 | prio=50 | https://www.att.gob.bo/en/node/880
+[ATT] t= 438.0s | pag=456 | files=2048 | data=123 | cola= 310 | prio=50 | https://www.att.gob.bo/en/node/879
+[ATT] t= 438.7s | pag=457 | files=2048 | data=123 | cola= 309 | prio=50 | https://www.att.gob.bo/en/node/878
+[ATT] t= 439.9s | pag=458 | files=2048 | data=123 | cola= 308 | prio=50 | https://www.att.gob.bo/en/node/877
+[ATT] t= 440.6s | pag=459 | files=2048 | data=123 | cola= 307 | prio=50 | https://www.att.gob.bo/index.php/en/node/876
+[ATT] t= 441.8s | pag=460 | files=2048 | data=123 | cola= 306 | prio=50 | https://www.att.gob.bo/index.php/en/node/875
+[ATT] t= 442.7s | pag=461 | files=2048 | data=123 | cola= 305 | prio=50 | https://www.att.gob.bo/en/node/874
+[ATT] t= 443.4s | pag=462 | files=2048 | data=123 | cola= 304 | prio=50 | https://www.att.gob.bo/en/node/844
+[ATT] t= 444.1s | pag=463 | files=2048 | data=123 | cola= 303 | prio=50 | https://www.att.gob.bo/en/node/843
+[ATT] t= 445.2s | pag=464 | files=2048 | data=123 | cola= 302 | prio=50 | https://www.att.gob.bo/en/node/872
+[ATT] t= 446.1s | pag=465 | files=2048 | data=123 | cola= 301 | prio=50 | https://www.att.gob.bo/en/node/871
+[ATT] t= 447.3s | pag=466 | files=2048 | data=123 | cola= 300 | prio=50 | https://www.att.gob.bo/en/node/870
+[ATT] t= 448.1s | pag=467 | files=2048 | data=123 | cola= 299 | prio=50 | https://www.att.gob.bo/en/node/869
+[ATT] t= 448.8s | pag=468 | files=2048 | data=123 | cola= 298 | prio=50 | https://www.att.gob.bo/en/node/868
+[ATT] t= 450.0s | pag=469 | files=2048 | data=123 | cola= 297 | prio=50 | https://www.att.gob.bo/en/node/867
+[ATT] t= 450.8s | pag=470 | files=2048 | data=123 | cola= 296 | prio=50 | https://www.att.gob.bo/en/node/866
+[ATT] t= 452.0s | pag=471 | files=2048 | data=123 | cola= 295 | prio=50 | https://www.att.gob.bo/en/node/865
+[ATT] t= 452.5s | pag=472 | files=2048 | data=123 | cola= 294 | prio=50 | https://www.att.gob.bo/en/node/846
+[ATT] t= 453.2s | pag=473 | files=2048 | data=123 | cola= 293 | prio=50 | https://www.att.gob.bo/en/node/845
+[ATT] t= 454.2s | pag=474 | files=2048 | data=123 | cola= 292 | prio=50 | https://www.att.gob.bo/index.php/en/node/860
+[ATT] t= 455.4s | pag=475 | files=2048 | data=123 | cola= 291 | prio=50 | https://www.att.gob.bo/index.php/en/node/859
+[ATT] t= 456.3s | pag=476 | files=2048 | data=123 | cola= 290 | prio=50 | https://www.att.gob.bo/en/node/858
+[ATT] t= 457.0s | pag=477 | files=2048 | data=123 | cola= 289 | prio=50 | https://www.att.gob.bo/en/node/857
+[ATT] t= 457.6s | pag=478 | files=2048 | data=123 | cola= 288 | prio=50 | https://www.att.gob.bo/en/node/856
+[ATT] t= 458.7s | pag=479 | files=2048 | data=123 | cola= 287 | prio=50 | https://www.att.gob.bo/en/node/855
+[ATT] t= 459.6s | pag=480 | files=2048 | data=123 | cola= 286 | prio=50 | https://www.att.gob.bo/en/node/854
+[ATT] t= 460.1s | pag=481 | files=2048 | data=123 | cola= 285 | prio=50 | https://www.att.gob.bo/en/node/853
+[ATT] t= 461.3s | pag=482 | files=2048 | data=123 | cola= 284 | prio=50 | https://www.att.gob.bo/en/node/852
+[ATT] t= 462.1s | pag=483 | files=2048 | data=123 | cola= 283 | prio=50 | https://www.att.gob.bo/en/node/851
+[ATT] t= 462.4s | pag=484 | files=2048 | data=123 | cola= 282 | prio=50 | https://www.att.gob.bo/en/node/849
+[ATT] t= 463.0s | pag=485 | files=2048 | data=123 | cola= 281 | prio=50 | https://www.att.gob.bo/en/node/848
+[ATT] t= 463.9s | pag=486 | files=2048 | data=123 | cola= 280 | prio=50 | https://www.att.gob.bo/en/node/847
+[ATT] t= 464.7s | pag=487 | files=2048 | data=123 | cola= 279 | prio=50 | https://www.att.gob.bo/en/node/862
+[ATT] t= 465.3s | pag=488 | files=2048 | data=123 | cola= 278 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2026
+[ATT] t= 465.9s | pag=489 | files=2069 | data=124 | cola= 277 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2025
+[ATT] DATASETS=125 | data_html_table | https://www.att.gob.bo/convocatorias-y-licitaciones-2025
+[ATT] t= 466.7s | pag=490 | files=2087 | data=125 | cola= 276 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2024
+[ATT] t= 467.3s | pag=491 | files=2122 | data=126 | cola= 275 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2023
+[ATT] t= 468.2s | pag=492 | files=2155 | data=127 | cola= 274 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2022
+[ATT] t= 468.7s | pag=493 | files=2201 | data=128 | cola= 273 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2021
+[ATT] t= 469.8s | pag=494 | files=2218 | data=129 | cola= 272 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2020
+[ATT] t= 470.6s | pag=495 | files=2239 | data=130 | cola= 271 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2019
+[ATT] t= 470.9s | pag=496 | files=2258 | data=131 | cola= 270 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2018
+[ATT] t= 472.1s | pag=497 | files=2258 | data=131 | cola= 269 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2017
+[ATT] t= 473.2s | pag=498 | files=2313 | data=132 | cola= 268 | prio=50 | https://www.att.gob.bo/convocatorias-y-licitaciones-2016
+[ATT] t= 474.1s | pag=499 | files=2431 | data=133 | cola= 267 | prio=50 | https://www.att.gob.bo/drupal/homepage-13
+[ATT] t= 475.0s | pag=499 | files=2431 | data=133 | cola= 266 | prio=50 | https://www.att.gob.bo/drupal/organigrama
+[ATT] t= 476.2s | pag=499 | files=2431 | data=133 | cola= 265 | prio=50 | https://www.att.gob.bo/drupal/regional-cochabamba-oruro
+[ATT] t= 477.4s | pag=499 | files=2431 | data=133 | cola= 264 | prio=50 | https://www.att.gob.bo/drupal/regional-santa-cruz-beni
+[ATT] t= 478.5s | pag=499 | files=2431 | data=133 | cola= 263 | prio=50 | https://www.att.gob.bo/drupal/regional-tarija-potosi-sucre
+[ATT] t= 479.9s | pag=499 | files=2431 | data=133 | cola= 262 | prio=50 | https://www.att.gob.bo/drupal/formularios
+[ATT] t= 481.1s | pag=499 | files=2431 | data=133 | cola= 261 | prio=50 | https://www.att.gob.bo/drupal/normas
+[ATT] t= 481.9s | pag=499 | files=2431 | data=133 | cola= 260 | prio=50 | https://www.att.gob.bo/drupal/reglamento
+[ATT] t= 483.3s | pag=499 | files=2431 | data=133 | cola= 259 | prio=50 | https://www.att.gob.bo/drupal/aereo-legal
+[ATT] t= 484.6s | pag=499 | files=2431 | data=133 | cola= 258 | prio=50 | https://www.att.gob.bo/drupal/ferroviario-legal
+[ATT] t= 486.2s | pag=499 | files=2431 | data=133 | cola= 257 | prio=50 | https://www.att.gob.bo/drupal/terrestre-legal
+[ATT] t= 487.5s | pag=499 | files=2431 | data=133 | cola= 256 | prio=50 | https://www.att.gob.bo/drupal/campanas
+[ATT] t= 488.7s | pag=499 | files=2431 | data=133 | cola= 255 | prio=50 | https://www.att.gob.bo/drupal/edictos
+[ATT] t= 490.2s | pag=499 | files=2431 | data=133 | cola= 254 | prio=50 | https://www.att.gob.bo/drupal/programa-anual-de-operaciones
+[ATT] t= 491.4s | pag=499 | files=2431 | data=133 | cola= 253 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-publicas
+[ATT] t= 492.6s | pag=499 | files=2431 | data=133 | cola= 252 | prio=50 | https://www.att.gob.bo/drupal/nomina-de-proveedores
+[ATT] t= 494.0s | pag=499 | files=2431 | data=133 | cola= 251 | prio=50 | https://www.att.gob.bo/drupal/programa-anual-de-contrataciones
+[ATT] t= 495.5s | pag=499 | files=2431 | data=133 | cola= 250 | prio=50 | https://www.att.gob.bo/drupal/seguimiento-al-pac
+[ATT] t= 496.9s | pag=499 | files=2431 | data=133 | cola= 249 | prio=50 | https://www.att.gob.bo/drupal/balance-de-gestion
+[ATT] t= 498.3s | pag=499 | files=2431 | data=133 | cola= 248 | prio=50 | https://www.att.gob.bo/drupal/ejecucion-presupuestaria
+[ATT] t= 499.6s | pag=499 | files=2431 | data=133 | cola= 247 | prio=50 | https://www.att.gob.bo/drupal/banco-de-trabajos-de-investigacion
+[ATT] t= 501.0s | pag=499 | files=2431 | data=133 | cola= 246 | prio=50 | https://www.att.gob.bo/drupal/medios-disponibles-para-el-acceso-la-informacion
+[ATT] t= 502.0s | pag=499 | files=2431 | data=133 | cola= 245 | prio=50 | https://www.att.gob.bo/drupal/resultados-de-viajes-al-exterior
+[ATT] t= 503.2s | pag=499 | files=2431 | data=133 | cola= 244 | prio=50 | https://www.att.gob.bo/drupal/plan-institucional-de-implementacion-de-gobierno-electronico
+[ATT] t= 504.3s | pag=499 | files=2431 | data=133 | cola= 243 | prio=50 | https://www.att.gob.bo/drupal/plan-institucional-de-implementacion-de-software-libre-y-estandares-abiertos
+[ATT] t= 505.4s | pag=499 | files=2431 | data=133 | cola= 242 | prio=50 | https://www.att.gob.bo/drupal/programa-operativo-anual
+[ATT] t= 507.0s | pag=499 | files=2431 | data=133 | cola= 241 | prio=50 | https://www.att.gob.bo/drupal/resultados-de-gestion
+[ATT] t= 508.4s | pag=499 | files=2431 | data=133 | cola= 240 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-oportunidades-de-empleo
+[ATT] t= 509.7s | pag=499 | files=2431 | data=133 | cola= 239 | prio=50 | https://www.att.gob.bo/drupal/escala-salarial
+[ATT] t= 511.1s | pag=499 | files=2431 | data=133 | cola= 238 | prio=50 | https://www.att.gob.bo/drupal/manual-de-funciones
+[ATT] t= 512.5s | pag=499 | files=2431 | data=133 | cola= 237 | prio=50 | https://www.att.gob.bo/drupal/perfil-de-cargos
+[ATT] t= 513.9s | pag=499 | files=2431 | data=133 | cola= 236 | prio=50 | https://www.att.gob.bo/drupal/personal-dependiente
+[ATT] t= 515.1s | pag=499 | files=2431 | data=133 | cola= 235 | prio=50 | https://www.att.gob.bo/drupal/gestion-publica-transparente
+[ATT] t= 516.4s | pag=499 | files=2431 | data=133 | cola= 234 | prio=50 | https://www.att.gob.bo/drupal/reglamento-de-denuncias-mopsv
+[ATT] t= 517.5s | pag=499 | files=2431 | data=133 | cola= 233 | prio=50 | https://www.att.gob.bo/drupal/sector-fisca-control
+[ATT] t= 519.0s | pag=499 | files=2431 | data=133 | cola= 232 | prio=50 | https://www.att.gob.bo/drupal/enlaces-sitios-relacionados
+[ATT] t= 520.1s | pag=499 | files=2431 | data=133 | cola= 231 | prio=50 | https://www.att.gob.bo/drupal/oficinas-att
+[ATT] t= 521.4s | pag=499 | files=2431 | data=133 | cola= 230 | prio=50 | https://www.att.gob.bo/drupal/preguntas-frecuentes-0
+[ATT] t= 522.7s | pag=499 | files=2431 | data=133 | cola= 229 | prio=50 | https://www.att.gob.bo/search/node
+[ATT] t= 524.2s | pag=500 | files=2431 | data=133 | cola= 229 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-oruro-0
+[ATT] t= 524.8s | pag=501 | files=2431 | data=133 | cola= 250 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-pando
+[ATT] t= 526.0s | pag=502 | files=2431 | data=133 | cola= 271 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-beni-0
+[ATT] t= 526.6s | pag=503 | files=2431 | data=133 | cola= 292 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-potosi-chuquisaca-0
+[ATT] t= 527.0s | pag=504 | files=2431 | data=133 | cola= 324 | prio=50 | https://www.att.gob.bo/monitoreo-de-espectro-am-fm-tv-y-ctv
+[ATT] t= 527.9s | pag=505 | files=2434 | data=134 | cola= 323 | prio=50 | https://www.att.gob.bo/licitaciones-radiodifusion-gestion-2025
+[ATT] t= 528.6s | pag=506 | files=2455 | data=135 | cola= 322 | prio=50 | https://www.att.gob.bo/licitaciones-radiodifusion-gestion-2024
+[ATT] t= 529.1s | pag=507 | files=2528 | data=136 | cola= 321 | prio=50 | https://www.att.gob.bo/licitaciones-radiodifusion-gestion-2023
+[ATT] t= 530.0s | pag=508 | files=2545 | data=137 | cola= 320 | prio=50 | https://www.att.gob.bo/licitaciones-radiodifusion-gestion-2022
+[ATT] t= 530.9s | pag=509 | files=2580 | data=138 | cola= 319 | prio=50 | https://www.att.gob.bo/licitaciones-gestion-2020
+[ATT] t= 531.8s | pag=510 | files=2600 | data=139 | cola= 318 | prio=50 | https://www.att.gob.bo/licitaciones-radiodifusion-gestion-2019
+[ATT] t= 532.4s | pag=511 | files=2614 | data=140 | cola= 317 | prio=50 | https://www.att.gob.bo/licitaciones-radiodifusion-gestion-2018
+[ATT] t= 533.2s | pag=512 | files=2692 | data=141 | cola= 316 | prio=50 | https://www.att.gob.bo/convocatorias-y-cronogramas-de-asignacion-frecuencias-de-radiodifusion
+[ATT] t= 533.7s | pag=513 | files=2696 | data=142 | cola= 315 | prio=50 | https://www.att.gob.bo/metas-cooperativas
+[ATT] t= 534.5s | pag=514 | files=2696 | data=143 | cola= 314 | prio=50 | https://www.att.gob.bo/modelos-obi-y-contrato-de-interconexion
+[ATT] t= 535.1s | pag=515 | files=2698 | data=144 | cola= 313 | prio=50 | https://www.att.gob.bo/plan-nacional-de-frecuencias
+[ATT] t= 535.7s | pag=516 | files=2699 | data=144 | cola= 312 | prio=50 | https://www.att.gob.bo/sifcu
+[ATT] t= 536.5s | pag=517 | files=2725 | data=145 | cola= 311 | prio=50 | https://www.att.gob.bo/tarifas-roaming-moviles
+[ATT] t= 537.4s | pag=518 | files=2728 | data=146 | cola= 310 | prio=50 | https://www.att.gob.bo/tarifas-de-internet
+[ATT] t= 538.2s | pag=519 | files=2728 | data=146 | cola= 309 | prio=50 | https://www.att.gob.bo/radioaficionados
+[ATT] t= 539.0s | pag=520 | files=2728 | data=146 | cola= 308 | prio=50 | https://www.att.gob.bo/licitaciones-de-frecuencias-servicios-publicos
+[ATT] t= 539.6s | pag=521 | files=2728 | data=146 | cola= 311 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-servicios-publicos-2019
+[ATT] t= 540.3s | pag=522 | files=2734 | data=147 | cola= 310 | prio=10 | https://www.att.gob.bo/extracto-de-publicaciones-servicios-publicos-2018
+[ATT] t= 541.2s | pag=523 | files=2760 | data=148 | cola= 309 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-4272026
+[ATT] t= 542.1s | pag=524 | files=2761 | data=148 | cola= 308 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-ministerial-ndeg105
+[ATT] t= 543.0s | pag=525 | files=2762 | data=148 | cola= 307 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-4132026
+[ATT] t= 543.8s | pag=526 | files=2763 | data=148 | cola= 306 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-3782026
+[ATT] t= 544.8s | pag=527 | files=2764 | data=148 | cola= 305 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-revocatoria-att-dj-ra-re-tl-lp-572026
+[ATT] t= 545.5s | pag=528 | files=2765 | data=148 | cola= 304 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-3742026
+[ATT] t= 546.6s | pag=529 | files=2766 | data=148 | cola= 303 | prio=50 | https://www.att.gob.bo/index.php/en/presentacion-de-documentacion-para-la-validacion-de-tfr-gestion-2026
+[ATT] t= 547.1s | pag=530 | files=2766 | data=148 | cola= 302 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-sancionatoria-att-dj-ra-s-pt-lp-12026
+[ATT] t= 547.9s | pag=531 | files=2767 | data=148 | cola= 301 | prio=50 | https://www.att.gob.bo/index.php/en/resolucion-administrativa-regulatoria-att-dj-rar-tl-lp-2882026
+[ATT] t= 548.8s | pag=532 | files=2768 | data=149 | cola= 300 | prio=50 | https://www.att.gob.bo/index.php/en/habilitacion-formulario-prontis
+[ATT] t= 549.5s | pag=533 | files=2768 | data=149 | cola= 299 | prio=50 | https://www.att.gob.bo/index.php/en/att-fortalece-el-trabajo-conjunto-con-instituciones-de-tarija-en-beneficio-de-los-usuarios
+[ATT] t= 550.2s | pag=534 | files=2768 | data=149 | cola= 298 | prio=50 | https://www.att.gob.bo/index.php/en/taxonomy/term/7
+[ATT] t= 550.8s | pag=535 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=1
+[ATT] t= 551.8s | pag=536 | files=2768 | data=149 | cola= 300 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=0
+[ATT] t= 552.9s | pag=537 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=2
+[ATT] t= 553.4s | pag=538 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=3
+[ATT] t= 554.5s | pag=539 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=4
+[ATT] t= 555.1s | pag=540 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=5
+[ATT] t= 555.4s | pag=541 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=6
+[ATT] t= 556.0s | pag=542 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=7
+[ATT] t= 556.7s | pag=543 | files=2768 | data=149 | cola= 299 | prio=40 | https://www.att.gob.bo/index.php/en/taxonomy/term/7?page=8
+[ATT] t= 557.4s | pag=544 | files=2768 | data=149 | cola= 298 | prio=50 | https://www.att.gob.bo/index.php/en/att-registra-mas-de-16800-denuncias-en-la-plataforma-bloquea-la-estafa-durante-2026
+[ATT] t= 558.2s | pag=545 | files=2768 | data=149 | cola= 297 | prio=50 | https://www.att.gob.bo/index.php/en/att-vela-por-el-cumplimiento-de-tarifas-maximas-y-refuerza-la-atencion-de-reclamos-en-el-transporte
+[ATT] t= 558.9s | pag=546 | files=2768 | data=149 | cola= 296 | prio=50 | https://www.att.gob.bo/index.php/en/att-intensifica-controles-para-garantizar-el-cumplimiento-de-las-tarifas-maximas-en-vuelos
+[ATT] t= 559.7s | pag=547 | files=2768 | data=149 | cola= 295 | prio=50 | https://www.att.gob.bo/index.php/en/att-y-caf-impulsan-la-modernizacion-del-monitoreo-del-espectro-radioelectrico-en-bolivia
+[ATT] t= 560.7s | pag=548 | files=2768 | data=149 | cola= 294 | prio=50 | https://www.att.gob.bo/index.php/en/att-reafirma-su-compromiso-con-la-lucha-contra-el-racismo-y-toda-forma-de-discriminacion
+[ATT] t= 561.4s | pag=549 | files=2768 | data=149 | cola= 293 | prio=50 | https://www.att.gob.bo/index.php/en/att-y-caf-coordinan-agenda-estrategica-para-impulsar-proyectos-de-infraestructura-digital
+[ATT] t= 562.6s | pag=550 | files=2768 | data=149 | cola= 292 | prio=50 | https://www.att.gob.bo/index.php/en/att-fortalece-la-lucha-contra-el-fraude-digital-con-mas-de-16-mil-denuncias-registradas-en-bloquea
+[ATT] t= 563.3s | pag=551 | files=2768 | data=149 | cola= 291 | prio=50 | https://www.att.gob.bo/index.php/en/att-amplia-autorizacion-tamep-para-fortalecer-la-conectividad-aerea-nacional
+[ATT] t= 564.5s | pag=552 | files=2768 | data=149 | cola= 290 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-y-operadores-internacionales-impulsan-mejoras-en-la-eficiencia-y-calidad-del-transporte
+[ATT] t= 565.2s | pag=553 | files=2768 | data=149 | cola= 289 | prio=50 | https://www.att.gob.bo/index.php/en/att-realiza-operativo-y-secuestra-equipos-de-emisoras-ilegales-en-santa-cruz
+[ATT] t= 565.9s | pag=554 | files=2768 | data=149 | cola= 288 | prio=50 | https://www.att.gob.bo/index.php/en/att-informa-que-bolibox-no-cuenta-con-cao-vigente-y-activa-proceso-de-revocatoria
+[ATT] t= 567.0s | pag=555 | files=2768 | data=149 | cola= 287 | prio=50 | https://www.att.gob.bo/index.php/en/att-realiza-primera-inspeccion-de-verificacion-de-estandares-de-calidad-2026-en-el-aeropuerto
+[ATT] t= 567.7s | pag=556 | files=2768 | data=149 | cola= 286 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-ejecuto-operativos-intensivos-por-carnaval-y-registro-440-facilitaciones-y-456-acciones
+[ATT] t= 568.3s | pag=557 | files=2768 | data=149 | cola= 285 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-posiciona-bolivia-en-liderazgo-regional-al-asumir-la-copresidencia-del-comite-de-asuntos
+[ATT] t= 569.4s | pag=558 | files=2768 | data=149 | cola= 284 | prio=50 | https://www.att.gob.bo/index.php/en/att-verifica-estandares-de-calidad-y-seguridad-del-tren-carnavalero-la-paz-oruro
+[ATT] t= 570.2s | pag=559 | files=2768 | data=149 | cola= 283 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-y-la-citel-establecen-alianza-de-cooperacion-tecnica-para-fortalecer-la-transformacion
+[ATT] t= 570.7s | pag=560 | files=2768 | data=149 | cola= 282 | prio=50 | https://www.att.gob.bo/index.php/en/att-expone-ante-el-senado-la-situacion-del-ajuste-de-tarifas-maximas-del-transporte-aereo
+[ATT] t= 571.5s | pag=561 | files=2768 | data=149 | cola= 281 | prio=50 | https://www.att.gob.bo/index.php/en/att-identifica-casos-de-cobro-indebido-de-tarifas-tras-la-aplicacion-del-ajuste-tarifario-temporal
+[ATT] t= 572.2s | pag=562 | files=2768 | data=149 | cola= 280 | prio=50 | https://www.att.gob.bo/index.php/en/att-y-confederacion-de-choferes-acuerdan-tarifas-transitorias-para-el-transporte-interdepartamental
+[ATT] t= 572.9s | pag=563 | files=2768 | data=149 | cola= 279 | prio=50 | https://www.att.gob.bo/index.php/en/att-y-transporte-interdepartamental-acuerdan-trabajo-conjunto-para-establecer-tarifas-justas
+[ATT] t= 573.5s | pag=564 | files=2768 | data=149 | cola= 278 | prio=50 | https://www.att.gob.bo/index.php/en/att-instala-mesas-de-trabajo-con-transporte-interdepartamental-para-garantizar-el-servicio-y
+[ATT] t= 574.5s | pag=565 | files=2768 | data=149 | cola= 277 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-despliega-acciones-para-proteger-la-ciudadania-ante-la-situacion-de-vulnerabilidad-en-los
+[ATT] t= 575.8s | pag=566 | files=2768 | data=149 | cola= 276 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-refuerza-controles-durante-la-temporada-alta-y-registra-mas-de-300-atenciones-usuarios-en
+[ATT] t= 576.8s | pag=567 | files=2768 | data=149 | cola= 275 | prio=50 | https://www.att.gob.bo/index.php/en/att-intensifica-operativos-de-control-en-terminales-y-aeropuertos-por-vacaciones-de-fin-de-ano
+[ATT] t= 578.0s | pag=568 | files=2768 | data=149 | cola= 274 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-verifica-con-exito-el-primer-simulacro-de-apagon-analogico-en-el-eje-troncal-del-pais
+[ATT] t= 578.8s | pag=569 | files=2768 | data=149 | cola= 273 | prio=50 | https://www.att.gob.bo/index.php/en/att-realizara-el-primer-simulacro-del-apagon-analogico-el-30-de-noviembre-de-2025
+[ATT] t= 579.5s | pag=570 | files=2768 | data=149 | cola= 272 | prio=50 | https://www.att.gob.bo/index.php/en/resena-biografica-de-carlos-alberto-agreda-lema-nueva-autoridad-de-la-att
+[ATT] t= 580.1s | pag=571 | files=2768 | data=149 | cola= 271 | prio=50 | https://www.att.gob.bo/index.php/en/el-ministro-de-obras-publicas-posesiona-al-nuevo-director-ejecutivo-de-la-att-lic-carlos-alberto
+[ATT] t= 580.8s | pag=572 | files=2768 | data=149 | cola= 270 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-realiza-inspeccion-tecnico-administrativa-en-el-marco-de-la-investigacion-sobre-el-manejo-de
+[ATT] t= 581.6s | pag=573 | files=2768 | data=149 | cola= 269 | prio=50 | https://www.att.gob.bo/index.php/es/la-att-fiscaliza-el-uso-legal-del-espectro-y-la-seguridad-aerea-en-la-paz-y-el-alto
+[ATT] t= 582.4s | pag=574 | files=2768 | data=149 | cola= 322 | prio= 2 | https://www.att.gob.bo/index.php/es/node/906
+[ATT] t= 583.3s | pag=575 | files=2768 | data=149 | cola= 322 | prio= 2 | https://www.att.gob.bo/index.php/es/node/905
+[ATT] t= 584.2s | pag=576 | files=2768 | data=149 | cola= 375 | prio= 2 | https://www.att.gob.bo/index.php/es/node/904
+[ATT] t= 585.1s | pag=577 | files=2768 | data=149 | cola= 376 | prio= 2 | https://www.att.gob.bo/index.php/es/node/1813
+[ATT] t= 585.9s | pag=578 | files=2768 | data=149 | cola= 375 | prio= 2 | https://www.att.gob.bo/index.php/es/node/364
+[ATT] DATASETS=150 | data_html_table | https://www.att.gob.bo/index.php/es/node/364
+[ATT] t= 586.7s | pag=579 | files=2768 | data=150 | cola= 374 | prio= 2 | https://www.att.gob.bo/index.php/es/node/1644
+[ATT] t= 587.2s | pag=580 | files=2768 | data=150 | cola= 373 | prio= 2 | https://www.att.gob.bo/index.php/es/node/1649
+[ATT] t= 587.9s | pag=581 | files=2768 | data=150 | cola= 372 | prio= 2 | https://www.att.gob.bo/index.php/es/node/1637
+[ATT] t= 588.6s | pag=582 | files=2768 | data=151 | cola= 371 | prio= 2 | https://www.att.gob.bo/index.php/es/node/1642
+[ATT] t= 589.1s | pag=583 | files=2768 | data=152 | cola= 370 | prio= 2 | https://www.att.gob.bo/index.php/es/node/244
+[ATT] t= 589.6s | pag=584 | files=2768 | data=153 | cola= 369 | prio= 2 | https://www.att.gob.bo/index.php/es/node/operadorespostal
+[ATT] t= 590.6s | pag=584 | files=2768 | data=153 | cola= 368 | prio= 2 | https://www.att.gob.bo/es/node/906
+[ATT] t= 591.9s | pag=585 | files=2768 | data=153 | cola= 368 | prio= 2 | https://www.att.gob.bo/es/node/905
+[ATT] t= 592.4s | pag=586 | files=2768 | data=153 | cola= 367 | prio= 2 | https://www.att.gob.bo/es/node/904
+[ATT] t= 593.0s | pag=587 | files=2768 | data=153 | cola= 368 | prio= 2 | https://www.att.gob.bo/es/node/1813
+[ATT] t= 594.2s | pag=588 | files=2768 | data=153 | cola= 367 | prio= 2 | https://www.att.gob.bo/es/node/364
+[ATT] t= 595.1s | pag=589 | files=2768 | data=154 | cola= 366 | prio= 2 | https://www.att.gob.bo/es/node/1644
+[ATT] t= 596.0s | pag=590 | files=2768 | data=154 | cola= 365 | prio= 2 | https://www.att.gob.bo/es/node/1649
+[ATT] t= 597.0s | pag=591 | files=2768 | data=154 | cola= 364 | prio= 2 | https://www.att.gob.bo/es/node/1637
+[ATT] t= 598.1s | pag=592 | files=2768 | data=155 | cola= 363 | prio= 2 | https://www.att.gob.bo/es/node/1642
+[ATT] t= 599.2s | pag=593 | files=2768 | data=156 | cola= 362 | prio= 2 | https://www.att.gob.bo/es/node/244
+[ATT] t= 600.1s | pag=594 | files=2768 | data=157 | cola= 361 | prio= 2 | https://www.att.gob.bo/index.php/es/node/transportes/usuario
+[ATT] t= 600.7s | pag=594 | files=2768 | data=157 | cola= 360 | prio= 2 | https://www.att.gob.bo/index.php/es/node/transportes/operador
+[ATT] t= 602.0s | pag=594 | files=2768 | data=157 | cola= 359 | prio= 2 | https://www.att.gob.bo/es/node/operadorespostal
+[ATT] t= 603.0s | pag=594 | files=2768 | data=157 | cola= 358 | prio= 2 | https://www.att.gob.bo/es/node/transportes/usuario
+[ATT] t= 604.2s | pag=594 | files=2768 | data=157 | cola= 357 | prio= 2 | https://www.att.gob.bo/es/node/transportes/operador
+[ATT] t= 605.6s | pag=594 | files=2768 | data=157 | cola= 356 | prio=10 | https://www.att.gob.bo/index.php/es/node/1652
+[ATT] t= 607.2s | pag=595 | files=2768 | data=158 | cola= 355 | prio=10 | https://www.att.gob.bo/index.php/es/node/1653
+[ATT] t= 608.4s | pag=596 | files=2768 | data=159 | cola= 354 | prio=10 | https://www.att.gob.bo/index.php/es/node/1661
+[ATT] t= 609.1s | pag=597 | files=2768 | data=159 | cola= 353 | prio=10 | https://www.att.gob.bo/index.php/es/node/1662
+[ATT] t= 610.5s | pag=598 | files=2768 | data=160 | cola= 352 | prio=10 | https://www.att.gob.bo/index.php/es/node/359
+[ATT] t= 611.2s | pag=599 | files=2768 | data=161 | cola= 351 | prio=10 | https://www.att.gob.bo/index.php/es/node/1650
+[ATT] t= 612.1s | pag=600 | files=2768 | data=161 | cola= 350 | prio=10 | https://www.att.gob.bo/index.php/es/node/1636
+[ATT] t= 613.2s | pag=601 | files=2768 | data=162 | cola= 349 | prio=10 | https://www.att.gob.bo/index.php/es/node/1643
+[ATT] t= 614.0s | pag=602 | files=2768 | data=163 | cola= 348 | prio=10 | https://www.att.gob.bo/es/node/1652
+[ATT] t= 614.7s | pag=603 | files=2768 | data=164 | cola= 347 | prio=10 | https://www.att.gob.bo/es/node/1653
+[ATT] t= 615.6s | pag=604 | files=2768 | data=165 | cola= 346 | prio=10 | https://www.att.gob.bo/es/node/1661
+[ATT] t= 616.3s | pag=605 | files=2768 | data=165 | cola= 345 | prio=10 | https://www.att.gob.bo/es/node/1662
+[ATT] t= 617.2s | pag=606 | files=2768 | data=166 | cola= 344 | prio=10 | https://www.att.gob.bo/es/node/359
+[ATT] t= 617.9s | pag=607 | files=2768 | data=167 | cola= 343 | prio=10 | https://www.att.gob.bo/es/node/1650
+[ATT] t= 618.6s | pag=608 | files=2768 | data=167 | cola= 342 | prio=10 | https://www.att.gob.bo/es/node/1636
+[ATT] t= 619.4s | pag=609 | files=2768 | data=168 | cola= 341 | prio=10 | https://www.att.gob.bo/es/node/1643
+[ATT] t= 620.2s | pag=610 | files=2768 | data=169 | cola= 340 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-levanta-acta-de-infraccion-e-iniciara-investigacion-por-incendio-de-bus-en-la-ruta-la-paz
+[ATT] t= 621.3s | pag=611 | files=2768 | data=169 | cola= 339 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-solicita-la-suspension-de-licencia-de-conductores-en-estado-de-ebriedad-y-rescata-dos
+[ATT] t= 622.1s | pag=612 | files=2768 | data=169 | cola= 338 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-impulsa-el-plan-de-alfabetizacion-digital-para-reducir-la-brecha-tecnologica-en-bolivia
+[ATT] t= 623.1s | pag=613 | files=2768 | data=169 | cola= 337 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-inicia-procesos-sancionadores-trans-lujan-y-solicita-la-revocatoria-definitiva-de-las
+[ATT] t= 623.8s | pag=614 | files=2768 | data=169 | cola= 336 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-gestiona-cursos-de-manejo-defensivo-para-mejorar-la-seguridad-vial
+[ATT] t= 624.6s | pag=615 | files=2768 | data=169 | cola= 335 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-atendio-mas-de-9400-denuncias-en-la-plataforma-bloquea-la-estafa-las-ciudades-mas-afectadas
+[ATT] t= 625.6s | pag=616 | files=2768 | data=169 | cola= 334 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-aplica-medidas-sancionatorias-tras-accidentes-en-carretera
+[ATT] t= 626.5s | pag=617 | files=2768 | data=169 | cola= 333 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-refuerza-controles-ante-los-deslizamientos-en-carreteras-por-intensas-lluvias-para
+[ATT] t= 627.5s | pag=618 | files=2768 | data=169 | cola= 332 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-junto-la-policia-desarticulan-red-de-robo-de-cables-y-baterias-en-santa-cruz
+[ATT] t= 628.1s | pag=619 | files=2768 | data=169 | cola= 331 | prio=50 | https://www.att.gob.bo/index.php/en/att-refuerza-controles-en-terminales-y-aeropuertos-con-el-operativo-challa-y-carnaval-con-viaje
+[ATT] t= 628.8s | pag=620 | files=2768 | data=169 | cola= 330 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-sanciona-y-suspende-dos-empresas-de-transporte-terrestre-por-poner-en-riesgo-la-seguridad-de
+[ATT] t= 629.3s | pag=621 | files=2768 | data=169 | cola= 329 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-controla-itinerarios-y-refuerza-la-atencion-pasajeros-con-el-operativo-tu-viaje-nuestra
+[ATT] t= 630.0s | pag=622 | files=2768 | data=169 | cola= 328 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-impulsa-la-capacitacion-de-conductores-para-mejorar-la-seguridad-vial-en-santa-cruz
+[ATT] t= 630.4s | pag=623 | files=2768 | data=169 | cola= 327 | prio=50 | https://www.att.gob.bo/index.php/en/att-refuerza-controles-en-aeropuertos-con-el-operativo-tu-viaje-nuestra-prioridad
+[ATT] t= 630.8s | pag=624 | files=2768 | data=169 | cola= 326 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-bloquea-mas-de-400-lineas-e-imeis-usados-para-estafas-en-enero
+[ATT] t= 631.2s | pag=625 | files=2768 | data=169 | cola= 325 | prio=50 | https://www.att.gob.bo/index.php/en/mi-vuelo-20-supera-las-130000-visitas-y-mejora-la-experiencia-de-los-pasajeros-con-7
+[ATT] t= 632.1s | pag=626 | files=2768 | data=169 | cola= 324 | prio=50 | https://www.att.gob.bo/index.php/en/att-refuerza-la-seguridad-vial-con-capacitaciones-para-transportistas-sancionados
+[ATT] t= 632.9s | pag=627 | files=2768 | data=169 | cola= 323 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-suspende-la-empresa-panamericana-frente-al-tragico-accidente-que-cobro-19-vidas
+[ATT] t= 633.4s | pag=628 | files=2768 | data=169 | cola= 322 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-ejecuto-mas-de-6700-acciones-correctivas-en-los-operativos-nacionales-de-transporte
+[ATT] t= 634.2s | pag=629 | files=2768 | data=169 | cola= 321 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-toma-acciones-inmediatas-contra-operador-infractor-andesmar-avaroa-2
+[ATT] t= 635.3s | pag=630 | files=2768 | data=169 | cola= 320 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-gestiona-soluciones-para-usuarios-de-transporte-terrestre-interdepartamental
+[ATT] t= 635.9s | pag=631 | files=2768 | data=169 | cola= 319 | prio=50 | https://www.att.gob.bo/index.php/en/att-conmina-la-administracion-de-la-terminal-de-buses-de-tarija-detener-los-cobros-ilegales-en-la
+[ATT] t= 636.6s | pag=632 | files=2768 | data=169 | cola= 318 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-coordina-acciones-para-normalizar-el-flujo-de-viajeros-en-la-frontera-pisiga-colchane
+[ATT] t= 637.5s | pag=633 | files=2768 | data=169 | cola= 317 | prio=50 | https://www.att.gob.bo/index.php/en/att-regala-miles-de-sonrisas-como-resultado-de-la-campana-solidaria-de-navidad
+[ATT] t= 638.3s | pag=634 | files=2768 | data=169 | cola= 316 | prio=50 | https://www.att.gob.bo/index.php/en/att-lanza-mi-vuelo-20-para-facilitar-los-viajes-aereos-en-bolivia
+[ATT] t= 639.1s | pag=635 | files=2768 | data=169 | cola= 315 | prio=50 | https://www.att.gob.bo/index.php/en/att-devuelve-440-pasajes-con-sobreprecio-durante-operativo-navideno
+[ATT] t= 640.0s | pag=636 | files=2768 | data=169 | cola= 314 | prio=50 | https://www.att.gob.bo/index.php/en/att-sanciona-boa-con-mas-de-bs-650-mil-por-incumplimientos-en-puntualidad
+[ATT] t= 640.7s | pag=637 | files=2768 | data=169 | cola= 313 | prio=50 | https://www.att.gob.bo/index.php/en/att-protege-pasajeros-afectados-por-demora-de-vuelo-de-boa-en-miami
+[ATT] t= 641.6s | pag=638 | files=2768 | data=169 | cola= 312 | prio=50 | https://www.att.gob.bo/index.php/en/att-refuerza-controles-en-aeropuertos-y-sanciona-boa-por-incumplimientos
+[ATT] t= 642.2s | pag=639 | files=2768 | data=169 | cola= 311 | prio=50 | https://www.att.gob.bo/index.php/en/att-presenta-el-primer-laboratorio-5g-de-bolivia-un-hito-en-la-innovacion-tecnologica
+[ATT] t= 643.0s | pag=640 | files=2768 | data=169 | cola= 310 | prio=50 | https://www.att.gob.bo/index.php/en/att-impulsa-la-capacitacion-de-conductores-para-mejorar-la-seguridad-vial-en-bolivia
+[ATT] t= 643.8s | pag=641 | files=2768 | data=169 | cola= 309 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-renueva-autorizacion-de-latam-para-transporte-aereo-internacional
+[ATT] t= 644.6s | pag=642 | files=2768 | data=169 | cola= 308 | prio=50 | https://www.att.gob.bo/index.php/en/att-boliviana-de-aviacion-debe-responder-pasajeros-afectados-en-7-dias
+[ATT] t= 645.4s | pag=643 | files=2768 | data=169 | cola= 307 | prio=50 | https://www.att.gob.bo/index.php/en/att-lanza-navidad-segura-con-paz-y-unidad-un-operativo-para-proteger-viajeros-y-promover-una
+[ATT] t= 646.2s | pag=644 | files=2768 | data=169 | cola= 306 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-reafirma-su-compromiso-con-la-lucha-contra-la-trata-y-trafico-de-personas-en-el-dia-contra
+[ATT] t= 646.9s | pag=645 | files=2768 | data=169 | cola= 305 | prio=50 | https://www.att.gob.bo/en/node/888
+[ATT] t= 648.0s | pag=646 | files=2768 | data=169 | cola= 304 | prio=50 | https://www.att.gob.bo/en/node/887
+[ATT] t= 648.8s | pag=647 | files=2768 | data=169 | cola= 303 | prio=50 | https://www.att.gob.bo/index.php/en/node/872
+[ATT] t= 649.6s | pag=648 | files=2768 | data=169 | cola= 302 | prio=50 | https://www.att.gob.bo/index.php/en/node/871
+[ATT] t= 650.2s | pag=649 | files=2768 | data=169 | cola= 301 | prio=50 | https://www.att.gob.bo/index.php/en/node/846
+[ATT] t= 651.2s | pag=650 | files=2768 | data=169 | cola= 300 | prio=50 | https://www.att.gob.bo/index.php/en/node/845
+[ATT] t= 652.1s | pag=651 | files=2768 | data=169 | cola= 299 | prio=50 | https://www.att.gob.bo/medidor-de-velocidad-de-internet
+[ATT] t= 652.7s | pag=652 | files=2768 | data=169 | cola= 298 | prio=50 | https://www.att.gob.bo/decretos-sobre-tdt
+[ATT] t= 653.4s | pag=653 | files=2779 | data=170 | cola= 297 | prio=50 | https://www.att.gob.bo/preguntas-frecuentes
+[ATT] t= 654.4s | pag=654 | files=2779 | data=171 | cola= 296 | prio=50 | https://www.att.gob.bo/resoluciones-administrativas-regulatorias-de-tdt
+[ATT] t= 655.4s | pag=655 | files=2784 | data=172 | cola= 295 | prio=50 | https://www.att.gob.bo/situacion-del-internet-en-bolivia
+[ATT] t= 655.8s | pag=656 | files=2794 | data=173 | cola= 294 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-y-licitaciones-2020
+[ATT] t= 656.5s | pag=656 | files=2794 | data=173 | cola= 293 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-y-licitaciones-2019
+[ATT] t= 657.9s | pag=656 | files=2794 | data=173 | cola= 292 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-y-licitaciones-2018
+[ATT] t= 659.2s | pag=656 | files=2794 | data=173 | cola= 291 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-y-licitaciones-2017
+[ATT] t= 660.1s | pag=656 | files=2794 | data=173 | cola= 290 | prio=50 | https://www.att.gob.bo/drupal/convocatorias-y-licitaciones-2016
+[ATT] t= 661.5s | pag=656 | files=2794 | data=173 | cola= 289 | prio=50 | https://www.att.gob.bo/en/att-registra-mas-de-16800-denuncias-en-la-plataforma-bloquea-la-estafa-durante-2026
+[ATT] t= 662.3s | pag=657 | files=2794 | data=173 | cola= 288 | prio=50 | https://www.att.gob.bo/en/att-vela-por-el-cumplimiento-de-tarifas-maximas-y-refuerza-la-atencion-de-reclamos-en-el-transporte
+[ATT] t= 663.1s | pag=658 | files=2794 | data=173 | cola= 287 | prio=50 | https://www.att.gob.bo/en/att-intensifica-controles-para-garantizar-el-cumplimiento-de-las-tarifas-maximas-en-vuelos
+[ATT] t= 663.7s | pag=659 | files=2794 | data=173 | cola= 286 | prio=50 | https://www.att.gob.bo/en/att-y-caf-impulsan-la-modernizacion-del-monitoreo-del-espectro-radioelectrico-en-bolivia
+[ATT] t= 664.5s | pag=660 | files=2794 | data=173 | cola= 285 | prio=50 | https://www.att.gob.bo/en/taxonomy/term/7/feed
+[ATT] t= 665.3s | pag=660 | files=2794 | data=173 | cola= 284 | prio=50 | https://www.att.gob.bo/en/att-reafirma-su-compromiso-con-la-lucha-contra-el-racismo-y-toda-forma-de-discriminacion
+[ATT] t= 666.5s | pag=661 | files=2794 | data=173 | cola= 283 | prio=50 | https://www.att.gob.bo/en/att-y-caf-coordinan-agenda-estrategica-para-impulsar-proyectos-de-infraestructura-digital
+[ATT] t= 667.1s | pag=662 | files=2794 | data=173 | cola= 282 | prio=50 | https://www.att.gob.bo/en/att-fortalece-la-lucha-contra-el-fraude-digital-con-mas-de-16-mil-denuncias-registradas-en-bloquea
+[ATT] t= 667.9s | pag=663 | files=2794 | data=173 | cola= 281 | prio=50 | https://www.att.gob.bo/en/att-amplia-autorizacion-tamep-para-fortalecer-la-conectividad-aerea-nacional
+[ATT] t= 668.9s | pag=664 | files=2794 | data=173 | cola= 280 | prio=50 | https://www.att.gob.bo/en/la-att-y-operadores-internacionales-impulsan-mejoras-en-la-eficiencia-y-calidad-del-transporte
+[ATT] t= 669.8s | pag=665 | files=2794 | data=173 | cola= 279 | prio=50 | https://www.att.gob.bo/en/att-identifica-casos-de-cobro-indebido-de-tarifas-tras-la-aplicacion-del-ajuste-tarifario-temporal
+[ATT] t= 670.3s | pag=666 | files=2794 | data=173 | cola= 278 | prio=50 | https://www.att.gob.bo/en/att-y-confederacion-de-choferes-acuerdan-tarifas-transitorias-para-el-transporte-interdepartamental
+[ATT] t= 671.1s | pag=667 | files=2794 | data=173 | cola= 277 | prio=50 | https://www.att.gob.bo/en/att-y-transporte-interdepartamental-acuerdan-trabajo-conjunto-para-establecer-tarifas-justas
+[ATT] t= 672.0s | pag=668 | files=2794 | data=173 | cola= 276 | prio=50 | https://www.att.gob.bo/en/att-instala-mesas-de-trabajo-con-transporte-interdepartamental-para-garantizar-el-servicio-y
+[ATT] t= 672.3s | pag=669 | files=2794 | data=173 | cola= 275 | prio=50 | https://www.att.gob.bo/en/la-att-despliega-acciones-para-proteger-la-ciudadania-ante-la-situacion-de-vulnerabilidad-en-los
+[ATT] t= 673.3s | pag=670 | files=2794 | data=173 | cola= 274 | prio=50 | https://www.att.gob.bo/en/la-att-refuerza-controles-durante-la-temporada-alta-y-registra-mas-de-300-atenciones-usuarios-en
+[ATT] t= 673.8s | pag=671 | files=2794 | data=173 | cola= 273 | prio=50 | https://www.att.gob.bo/en/att-intensifica-operativos-de-control-en-terminales-y-aeropuertos-por-vacaciones-de-fin-de-ano
+[ATT] t= 674.6s | pag=672 | files=2794 | data=173 | cola= 272 | prio=50 | https://www.att.gob.bo/en/la-att-verifica-con-exito-el-primer-simulacro-de-apagon-analogico-en-el-eje-troncal-del-pais
+[ATT] t= 675.0s | pag=673 | files=2794 | data=173 | cola= 271 | prio=50 | https://www.att.gob.bo/en/att-realizara-el-primer-simulacro-del-apagon-analogico-el-30-de-noviembre-de-2025
+[ATT] t= 675.7s | pag=674 | files=2794 | data=173 | cola= 270 | prio=50 | https://www.att.gob.bo/en/resena-biografica-de-carlos-alberto-agreda-lema-nueva-autoridad-de-la-att
+[ATT] t= 676.3s | pag=675 | files=2794 | data=173 | cola= 269 | prio=50 | https://www.att.gob.bo/en/el-ministro-de-obras-publicas-posesiona-al-nuevo-director-ejecutivo-de-la-att-lic-carlos-alberto
+[ATT] t= 677.0s | pag=676 | files=2794 | data=173 | cola= 268 | prio=50 | https://www.att.gob.bo/en/la-att-realiza-inspeccion-tecnico-administrativa-en-el-marco-de-la-investigacion-sobre-el-manejo-de
+[ATT] t= 677.6s | pag=677 | files=2794 | data=173 | cola= 267 | prio=50 | https://www.att.gob.bo/en/la-att-levanta-acta-de-infraccion-e-iniciara-investigacion-por-incendio-de-bus-en-la-ruta-la-paz
+[ATT] t= 678.4s | pag=678 | files=2794 | data=173 | cola= 266 | prio=50 | https://www.att.gob.bo/en/la-att-solicita-la-suspension-de-licencia-de-conductores-en-estado-de-ebriedad-y-rescata-dos
+[ATT] t= 678.9s | pag=679 | files=2794 | data=173 | cola= 265 | prio=50 | https://www.att.gob.bo/en/la-att-impulsa-el-plan-de-alfabetizacion-digital-para-reducir-la-brecha-tecnologica-en-bolivia
+[ATT] t= 679.8s | pag=680 | files=2794 | data=173 | cola= 264 | prio=50 | https://www.att.gob.bo/en/la-att-inicia-procesos-sancionadores-trans-lujan-y-solicita-la-revocatoria-definitiva-de-las
+[ATT] t= 680.5s | pag=681 | files=2794 | data=173 | cola= 263 | prio=50 | https://www.att.gob.bo/en/la-att-gestiona-cursos-de-manejo-defensivo-para-mejorar-la-seguridad-vial
+[ATT] t= 681.4s | pag=682 | files=2794 | data=173 | cola= 262 | prio=50 | https://www.att.gob.bo/en/la-att-atendio-mas-de-9400-denuncias-en-la-plataforma-bloquea-la-estafa-las-ciudades-mas-afectadas
+[ATT] t= 682.4s | pag=683 | files=2794 | data=173 | cola= 261 | prio=50 | https://www.att.gob.bo/en/la-att-aplica-medidas-sancionatorias-tras-accidentes-en-carretera
+[ATT] t= 683.1s | pag=684 | files=2794 | data=173 | cola= 260 | prio=50 | https://www.att.gob.bo/en/la-att-refuerza-controles-ante-los-deslizamientos-en-carreteras-por-intensas-lluvias-para
+[ATT] t= 683.9s | pag=685 | files=2794 | data=173 | cola= 259 | prio=50 | https://www.att.gob.bo/en/la-att-junto-la-policia-desarticulan-red-de-robo-de-cables-y-baterias-en-santa-cruz
+[ATT] t= 684.6s | pag=686 | files=2794 | data=173 | cola= 258 | prio=50 | https://www.att.gob.bo/en/att-refuerza-controles-en-terminales-y-aeropuertos-con-el-operativo-challa-y-carnaval-con-viaje
+[ATT] t= 685.4s | pag=687 | files=2794 | data=173 | cola= 257 | prio=50 | https://www.att.gob.bo/en/la-att-sanciona-y-suspende-dos-empresas-de-transporte-terrestre-por-poner-en-riesgo-la-seguridad-de
+[ATT] t= 686.1s | pag=688 | files=2794 | data=173 | cola= 256 | prio=50 | https://www.att.gob.bo/en/la-att-controla-itinerarios-y-refuerza-la-atencion-pasajeros-con-el-operativo-tu-viaje-nuestra
+[ATT] t= 687.0s | pag=689 | files=2794 | data=173 | cola= 255 | prio=50 | https://www.att.gob.bo/en/la-att-impulsa-la-capacitacion-de-conductores-para-mejorar-la-seguridad-vial-en-santa-cruz
+[ATT] t= 687.8s | pag=690 | files=2794 | data=173 | cola= 254 | prio=50 | https://www.att.gob.bo/en/att-refuerza-controles-en-aeropuertos-con-el-operativo-tu-viaje-nuestra-prioridad
+[ATT] t= 688.7s | pag=691 | files=2794 | data=173 | cola= 253 | prio=50 | https://www.att.gob.bo/en/la-att-bloquea-mas-de-400-lineas-e-imeis-usados-para-estafas-en-enero
+[ATT] t= 689.4s | pag=692 | files=2794 | data=173 | cola= 252 | prio=50 | https://www.att.gob.bo/en/mi-vuelo-20-supera-las-130000-visitas-y-mejora-la-experiencia-de-los-pasajeros-con-7
+[ATT] t= 689.9s | pag=693 | files=2794 | data=173 | cola= 251 | prio=50 | https://www.att.gob.bo/en/att-refuerza-la-seguridad-vial-con-capacitaciones-para-transportistas-sancionados
+[ATT] t= 690.7s | pag=694 | files=2794 | data=173 | cola= 250 | prio=50 | https://www.att.gob.bo/en/la-att-suspende-la-empresa-panamericana-frente-al-tragico-accidente-que-cobro-19-vidas
+[ATT] t= 691.3s | pag=695 | files=2794 | data=173 | cola= 249 | prio=50 | https://www.att.gob.bo/en/la-att-ejecuto-mas-de-6700-acciones-correctivas-en-los-operativos-nacionales-de-transporte
+[ATT] t= 691.8s | pag=696 | files=2794 | data=173 | cola= 248 | prio=50 | https://www.att.gob.bo/en/la-att-toma-acciones-inmediatas-contra-operador-infractor-andesmar-avaroa-2
+[ATT] t= 692.6s | pag=697 | files=2794 | data=173 | cola= 247 | prio=50 | https://www.att.gob.bo/en/la-att-gestiona-soluciones-para-usuarios-de-transporte-terrestre-interdepartamental
+[ATT] t= 693.4s | pag=698 | files=2794 | data=173 | cola= 246 | prio=50 | https://www.att.gob.bo/en/att-conmina-la-administracion-de-la-terminal-de-buses-de-tarija-detener-los-cobros-ilegales-en-la
+[ATT] t= 694.0s | pag=699 | files=2794 | data=173 | cola= 245 | prio=50 | https://www.att.gob.bo/en/la-att-coordina-acciones-para-normalizar-el-flujo-de-viajeros-en-la-frontera-pisiga-colchane
+[ATT] t= 694.4s | pag=700 | files=2794 | data=173 | cola= 244 | prio=50 | https://www.att.gob.bo/en/att-regala-miles-de-sonrisas-como-resultado-de-la-campana-solidaria-de-navidad
+[ATT] t= 694.8s | pag=701 | files=2794 | data=173 | cola= 243 | prio=50 | https://www.att.gob.bo/en/att-lanza-mi-vuelo-20-para-facilitar-los-viajes-aereos-en-bolivia
+[ATT] t= 695.8s | pag=702 | files=2794 | data=173 | cola= 242 | prio=50 | https://www.att.gob.bo/en/att-devuelve-440-pasajes-con-sobreprecio-durante-operativo-navideno
+[ATT] t= 696.8s | pag=703 | files=2794 | data=173 | cola= 241 | prio=50 | https://www.att.gob.bo/en/att-sanciona-boa-con-mas-de-bs-650-mil-por-incumplimientos-en-puntualidad
+[ATT] t= 697.7s | pag=704 | files=2794 | data=173 | cola= 240 | prio=50 | https://www.att.gob.bo/en/att-protege-pasajeros-afectados-por-demora-de-vuelo-de-boa-en-miami
+[ATT] t= 698.5s | pag=705 | files=2794 | data=173 | cola= 239 | prio=50 | https://www.att.gob.bo/en/att-refuerza-controles-en-aeropuertos-y-sanciona-boa-por-incumplimientos
+[ATT] t= 699.4s | pag=706 | files=2794 | data=173 | cola= 238 | prio=50 | https://www.att.gob.bo/en/att-presenta-el-primer-laboratorio-5g-de-bolivia-un-hito-en-la-innovacion-tecnologica
+[ATT] t= 700.3s | pag=707 | files=2794 | data=173 | cola= 237 | prio=50 | https://www.att.gob.bo/en/att-impulsa-la-capacitacion-de-conductores-para-mejorar-la-seguridad-vial-en-bolivia
+[ATT] t= 701.4s | pag=708 | files=2794 | data=173 | cola= 236 | prio=50 | https://www.att.gob.bo/en/la-att-renueva-autorizacion-de-latam-para-transporte-aereo-internacional
+[ATT] t= 702.2s | pag=709 | files=2794 | data=173 | cola= 235 | prio=50 | https://www.att.gob.bo/en/att-boliviana-de-aviacion-debe-responder-pasajeros-afectados-en-7-dias
+[ATT] t= 702.8s | pag=710 | files=2794 | data=173 | cola= 234 | prio=50 | https://www.att.gob.bo/en/att-lanza-navidad-segura-con-paz-y-unidad-un-operativo-para-proteger-viajeros-y-promover-una
+[ATT] t= 703.8s | pag=711 | files=2794 | data=173 | cola= 233 | prio=50 | https://www.att.gob.bo/en/la-att-reafirma-su-compromiso-con-la-lucha-contra-la-trata-y-trafico-de-personas-en-el-dia-contra
+[ATT] t= 704.9s | pag=712 | files=2794 | data=173 | cola= 232 | prio=50 | https://www.att.gob.bo/en/att-habilita-plataforma-digital-para-el-registro-de-aplicaciones-de-transporte-de-pasajeros
+[ATT] t= 705.8s | pag=713 | files=2794 | data=173 | cola= 231 | prio=50 | https://www.att.gob.bo/en/att-y-citel-unen-fuerzas-para-impulsar-la-conectividad-en-bolivia
+[ATT] t= 706.4s | pag=714 | files=2794 | data=173 | cola= 230 | prio=50 | https://www.att.gob.bo/en/la-att-inicia-procesos-sancionatorios-contra-villa-del-norte-por-accidente-fatal
+[ATT] t= 707.5s | pag=715 | files=2794 | data=173 | cola= 229 | prio=50 | https://www.att.gob.bo/en/att-las-falsas-asistencias-tecnicas-de-telefonicas-son-el-principal-engano-utilizado-por-los
+[ATT] t= 708.0s | pag=716 | files=2794 | data=173 | cola= 228 | prio=50 | https://www.att.gob.bo/en/la-att-renueva-autorizacion-paranair-impulsando-beneficios-economicos-y-turisticos-para-el-pais
+[ATT] t= 708.5s | pag=717 | files=2794 | data=173 | cola= 227 | prio=50 | https://www.att.gob.bo/en/bolivia-y-china-firman-memorando-para-impulsar-la-economia-digital-en-bolivia
+[ATT] t= 709.1s | pag=718 | files=2794 | data=173 | cola= 226 | prio=50 | https://www.att.gob.bo/en/att-garantiza-tarifas-aereas-sin-excedentes-ante-incremento-de-demanda-de-vuelos-por-bloqueos
+[ATT] t= 709.6s | pag=719 | files=2794 | data=173 | cola= 225 | prio=50 | https://www.att.gob.bo/en/bloqueos-en-el-pais-afectan-mas-de-81-mil-pasajeros-y-generan-perdidas-superiores-los-10-millones
+[ATT] t= 710.2s | pag=720 | files=2794 | data=173 | cola= 224 | prio=50 | https://www.att.gob.bo/en/la-att-aprueba-el-reglamento-para-el-registro-nacional-de-aplicaciones-digitales-de-transporte-de
+[ATT] t= 710.6s | pag=721 | files=2794 | data=173 | cola= 223 | prio=50 | https://www.att.gob.bo/en/warmis-killari-att-cuenta-con-el-primer-comite-de-mujeres-en-entidades-publicas-para-promover-la
+[ATT] t= 711.2s | pag=722 | files=2794 | data=173 | cola= 222 | prio=50 | https://www.att.gob.bo/en/la-att-refuerza-controles-ante-amenazas-de-bloqueos-y-garantiza-cumplimiento-de-tarifas-y-horarios
+[ATT] t= 712.0s | pag=723 | files=2794 | data=173 | cola= 221 | prio=50 | https://www.att.gob.bo/en/la-att-advierte-sobre-estafas-digitales-traves-de-falsas-campanas-solidarias
+[ATT] t= 712.5s | pag=724 | files=2794 | data=173 | cola= 220 | prio=50 | https://www.att.gob.bo/en/att-fortalece-las-habilidades-del-transporte-terrestre-interdepartamental-en-cochabamba
+[ATT] t= 713.7s | pag=725 | files=2794 | data=173 | cola= 219 | prio=50 | https://www.att.gob.bo/en/la-att-impulsa-la-seguridad-en-internet-con-la-implementacion-de-rpki
+[ATT] t= 714.4s | pag=726 | files=2794 | data=173 | cola= 218 | prio=50 | https://www.att.gob.bo/en/juntos-por-la-amazonia-la-campana-solidaria-de-la-att-logra-reunir-215-toneladas-de-ayuda
+[ATT] t= 715.2s | pag=727 | files=2794 | data=173 | cola= 217 | prio=50 | https://www.att.gob.bo/en/att-desmiente-que-la-revocatoria-de-la-licencia-de-la-radio-fm-bolivia-fue-dejada-sin-efecto
+[ATT] t= 715.6s | pag=728 | files=2794 | data=173 | cola= 216 | prio=50 | https://www.att.gob.bo/en/node/886
+[ATT] t= 716.3s | pag=729 | files=2794 | data=173 | cola= 215 | prio=50 | https://www.att.gob.bo/en/node/885
+[ATT] t= 717.2s | pag=730 | files=2794 | data=173 | cola= 214 | prio=50 | https://www.att.gob.bo/en/search/node/help
+[ATT] t= 718.0s | pag=731 | files=2794 | data=173 | cola= 213 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2026
+[ATT] t= 718.9s | pag=732 | files=2796 | data=174 | cola= 212 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2026
+[ATT] DATASETS=175 | data_html_table | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2026
+[ATT] t= 719.6s | pag=733 | files=2802 | data=175 | cola= 211 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2025
+[ATT] t= 720.1s | pag=734 | files=2821 | data=176 | cola= 210 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2025
+[ATT] t= 720.6s | pag=735 | files=2822 | data=177 | cola= 209 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2024
+[ATT] t= 721.0s | pag=736 | files=2839 | data=178 | cola= 208 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2024
+[ATT] t= 722.0s | pag=737 | files=2849 | data=179 | cola= 207 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2023
+[ATT] t= 722.5s | pag=738 | files=2856 | data=180 | cola= 206 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2023
+[ATT] t= 723.3s | pag=739 | files=2856 | data=180 | cola= 205 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2022
+[ATT] t= 724.1s | pag=740 | files=2856 | data=180 | cola= 204 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro2022
+[ATT] t= 724.8s | pag=741 | files=2856 | data=180 | cola= 203 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2021
+[ATT] t= 725.5s | pag=742 | files=2856 | data=180 | cola= 202 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2021
+[ATT] t= 726.2s | pag=743 | files=2856 | data=180 | cola= 201 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2020
+[ATT] t= 727.0s | pag=744 | files=2856 | data=180 | cola= 200 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2020
+[ATT] t= 728.2s | pag=745 | files=2856 | data=180 | cola= 199 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2019
+[ATT] t= 728.7s | pag=746 | files=2856 | data=180 | cola= 198 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2019
+[ATT] t= 729.1s | pag=747 | files=2856 | data=180 | cola= 197 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2018
+[ATT] t= 729.8s | pag=748 | files=2857 | data=180 | cola= 196 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2018
+[ATT] t= 730.8s | pag=749 | files=2873 | data=181 | cola= 195 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2017
+[ATT] t= 731.6s | pag=750 | files=2893 | data=182 | cola= 194 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2017
+[ATT] t= 732.2s | pag=751 | files=2901 | data=183 | cola= 193 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-cochabamba-2016
+[ATT] t= 732.9s | pag=752 | files=2906 | data=184 | cola= 192 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-oruro-2016
+[ATT] t= 733.5s | pag=753 | files=2907 | data=184 | cola= 191 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2026
+[ATT] t= 734.1s | pag=754 | files=2915 | data=185 | cola= 190 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2026
+[ATT] t= 734.9s | pag=755 | files=2915 | data=185 | cola= 189 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2025
+[ATT] t= 735.7s | pag=756 | files=2930 | data=186 | cola= 188 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2025
+[ATT] t= 736.3s | pag=757 | files=2932 | data=187 | cola= 187 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2024
+[ATT] t= 736.7s | pag=758 | files=2948 | data=188 | cola= 186 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2024
+[ATT] t= 737.3s | pag=759 | files=2956 | data=189 | cola= 185 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2023
+[ATT] t= 738.1s | pag=760 | files=2962 | data=190 | cola= 184 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2023
+[ATT] t= 738.8s | pag=761 | files=2962 | data=190 | cola= 183 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2022
+[ATT] t= 740.0s | pag=762 | files=2962 | data=190 | cola= 182 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2022
+[ATT] t= 740.6s | pag=763 | files=2962 | data=190 | cola= 181 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2021
+[ATT] t= 741.4s | pag=764 | files=2966 | data=191 | cola= 180 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2021
+[ATT] t= 741.8s | pag=765 | files=2966 | data=191 | cola= 179 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2020
+[ATT] t= 742.5s | pag=766 | files=2977 | data=192 | cola= 178 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2020
+[ATT] t= 743.3s | pag=767 | files=2982 | data=193 | cola= 177 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2019
+[ATT] t= 743.8s | pag=768 | files=2990 | data=194 | cola= 176 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2019
+[ATT] t= 744.2s | pag=769 | files=2992 | data=195 | cola= 175 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2018
+[ATT] t= 745.4s | pag=770 | files=2998 | data=196 | cola= 174 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2018
+[ATT] t= 746.3s | pag=771 | files=3000 | data=197 | cola= 173 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2017
+[ATT] t= 746.7s | pag=772 | files=3004 | data=198 | cola= 172 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2017
+[ATT] t= 747.7s | pag=773 | files=3005 | data=198 | cola= 171 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-la-paz-2016
+[ATT] t= 748.5s | pag=774 | files=3010 | data=199 | cola= 170 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-pando-2016
+[ATT] t= 749.2s | pag=775 | files=3010 | data=199 | cola= 169 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2026
+[ATT] DATASETS=200 | data_html_table | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2026
+[ATT] t= 750.2s | pag=776 | files=3026 | data=200 | cola= 168 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2026
+[ATT] t= 751.0s | pag=777 | files=3027 | data=200 | cola= 167 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2025
+[ATT] t= 751.7s | pag=778 | files=3050 | data=201 | cola= 166 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2025
+[ATT] t= 752.5s | pag=779 | files=3054 | data=202 | cola= 165 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2024
+[ATT] t= 753.2s | pag=780 | files=3076 | data=203 | cola= 164 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2024
+[ATT] t= 753.9s | pag=781 | files=3082 | data=204 | cola= 163 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2023
+[ATT] t= 754.3s | pag=782 | files=3086 | data=205 | cola= 162 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2023
+[ATT] t= 755.0s | pag=783 | files=3089 | data=206 | cola= 161 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2022
+[ATT] t= 755.7s | pag=784 | files=3089 | data=206 | cola= 160 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2022
+[ATT] t= 756.3s | pag=785 | files=3089 | data=206 | cola= 159 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2021
+[ATT] t= 756.7s | pag=786 | files=3094 | data=207 | cola= 158 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2021
+[ATT] t= 757.4s | pag=787 | files=3094 | data=207 | cola= 157 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2020
+[ATT] t= 757.8s | pag=788 | files=3106 | data=208 | cola= 156 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2020
+[ATT] t= 758.6s | pag=789 | files=3108 | data=209 | cola= 155 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2019
+[ATT] t= 759.3s | pag=790 | files=3126 | data=210 | cola= 154 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2019
+[ATT] t= 760.2s | pag=791 | files=3129 | data=211 | cola= 153 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2018
+[ATT] t= 760.6s | pag=792 | files=3147 | data=212 | cola= 152 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2018
+[ATT] t= 761.5s | pag=793 | files=3154 | data=213 | cola= 151 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2017
+[ATT] t= 762.1s | pag=794 | files=3192 | data=214 | cola= 150 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2017
+[ATT] t= 762.8s | pag=795 | files=3195 | data=215 | cola= 149 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-santa-cruz-2016
+[ATT] t= 763.3s | pag=796 | files=3199 | data=216 | cola= 148 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-beni-2016
+[ATT] t= 764.0s | pag=797 | files=3208 | data=217 | cola= 147 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2026
+[ATT] t= 764.8s | pag=798 | files=3211 | data=218 | cola= 146 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2026
+[ATT] t= 765.7s | pag=799 | files=3217 | data=219 | cola= 145 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2026
+[ATT] t= 766.3s | pag=800 | files=3218 | data=219 | cola= 144 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2025
+[ATT] t= 767.0s | pag=801 | files=3226 | data=220 | cola= 143 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2025
+[ATT] t= 767.5s | pag=802 | files=3232 | data=221 | cola= 142 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2025
+[ATT] t= 768.3s | pag=803 | files=3234 | data=222 | cola= 141 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2024
+[ATT] t= 769.1s | pag=804 | files=3245 | data=223 | cola= 140 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2024
+[ATT] t= 769.9s | pag=805 | files=3251 | data=224 | cola= 139 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2024
+[ATT] DATASETS=225 | data_html_table | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2024
+[ATT] t= 770.7s | pag=806 | files=3256 | data=225 | cola= 138 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2023
+[ATT] t= 771.6s | pag=807 | files=3262 | data=226 | cola= 137 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2023
+[ATT] t= 772.0s | pag=808 | files=3264 | data=227 | cola= 136 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2023
+[ATT] t= 772.4s | pag=809 | files=3268 | data=228 | cola= 135 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2022
+[ATT] t= 773.2s | pag=810 | files=3272 | data=229 | cola= 134 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2022
+[ATT] t= 773.8s | pag=811 | files=3275 | data=230 | cola= 133 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2022
+[ATT] t= 774.7s | pag=812 | files=3275 | data=230 | cola= 132 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2021
+[ATT] t= 775.7s | pag=813 | files=3279 | data=231 | cola= 131 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2021
+[ATT] t= 776.6s | pag=814 | files=3282 | data=232 | cola= 130 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2021
+[ATT] t= 777.4s | pag=815 | files=3282 | data=232 | cola= 129 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2020
+[ATT] t= 777.9s | pag=816 | files=3291 | data=233 | cola= 128 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2020
+[ATT] t= 778.3s | pag=817 | files=3296 | data=234 | cola= 127 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2020
+[ATT] t= 778.8s | pag=818 | files=3300 | data=235 | cola= 126 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2019
+[ATT] t= 779.6s | pag=819 | files=3315 | data=236 | cola= 125 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2019
+[ATT] t= 780.1s | pag=820 | files=3322 | data=237 | cola= 124 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2019
+[ATT] t= 781.3s | pag=821 | files=3326 | data=238 | cola= 123 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2018
+[ATT] t= 782.2s | pag=822 | files=3335 | data=239 | cola= 122 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2018
+[ATT] t= 782.7s | pag=823 | files=3346 | data=240 | cola= 121 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2018
+[ATT] t= 783.7s | pag=824 | files=3355 | data=241 | cola= 120 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2017
+[ATT] t= 784.3s | pag=825 | files=3367 | data=242 | cola= 119 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2017
+[ATT] t= 784.7s | pag=826 | files=3372 | data=243 | cola= 118 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2017
+[ATT] t= 785.3s | pag=827 | files=3374 | data=244 | cola= 117 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-tarija-2016
+[ATT] t= 786.0s | pag=828 | files=3375 | data=244 | cola= 116 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-potosi-2016
+[ATT] t= 787.0s | pag=829 | files=3376 | data=244 | cola= 115 | prio=50 | https://www.att.gob.bo/mediciones-de-radiacion-no-ionizante-chuquisaca-2016
+[ATT] t= 787.6s | pag=830 | files=3376 | data=244 | cola= 114 | prio=50 | https://www.att.gob.bo/licitaciones-gestion-2019
+[ATT] t= 788.1s | pag=831 | files=3385 | data=245 | cola= 113 | prio=50 | https://www.att.gob.bo/licitaciones-gestion-2018
+[ATT] t= 788.8s | pag=832 | files=3412 | data=246 | cola= 112 | prio=50 | https://www.att.gob.bo/index.php/en/taxonomy/term/7/feed
+[ATT] t= 789.6s | pag=832 | files=3412 | data=246 | cola= 111 | prio=50 | https://www.att.gob.bo/index.php/es
+[ATT] t= 790.5s | pag=833 | files=3412 | data=246 | cola= 110 | prio=50 | https://www.att.gob.bo/index.php/es/node/188
+[ATT] t= 791.6s | pag=834 | files=3412 | data=246 | cola= 109 | prio=50 | https://www.att.gob.bo/index.php/es/node/1651
+[ATT] t= 792.9s | pag=835 | files=3412 | data=246 | cola= 108 | prio=50 | https://www.att.gob.bo/index.php/es/node/190
+[ATT] t= 793.8s | pag=836 | files=3412 | data=246 | cola= 107 | prio=50 | https://www.att.gob.bo/index.php/es/node/1675
+[ATT] t= 794.4s | pag=837 | files=3412 | data=246 | cola= 106 | prio=50 | https://www.att.gob.bo/index.php/es/node/392
+[ATT] t= 794.8s | pag=838 | files=3413 | data=246 | cola= 105 | prio=50 | https://www.att.gob.bo/index.php/es/node/393
+[ATT] t= 795.8s | pag=839 | files=3413 | data=246 | cola= 104 | prio=50 | https://www.att.gob.bo/index.php/es/node/404
+[ATT] t= 796.6s | pag=840 | files=3413 | data=246 | cola= 106 | prio=50 | https://www.att.gob.bo/index.php/es/node/451
+[ATT] t= 797.8s | pag=841 | files=3413 | data=246 | cola= 105 | prio=50 | https://www.att.gob.bo/index.php/es/node/841
+[ATT] t= 798.8s | pag=842 | files=3413 | data=246 | cola= 104 | prio=50 | https://www.att.gob.bo/index.php/es/node/412
+[ATT] t= 799.7s | pag=843 | files=3413 | data=246 | cola= 103 | prio=50 | https://www.att.gob.bo/index.php/es/node/411
+[ATT] t= 801.0s | pag=844 | files=3413 | data=246 | cola= 102 | prio=50 | https://www.att.gob.bo/index.php/es/node/361
+[ATT] t= 801.7s | pag=845 | files=3413 | data=246 | cola= 101 | prio=50 | https://www.att.gob.bo/index.php/es/node/433
+[ATT] t= 802.9s | pag=846 | files=3413 | data=246 | cola= 100 | prio=50 | https://www.att.gob.bo/index.php/es/node/842
+[ATT] t= 803.3s | pag=847 | files=3413 | data=246 | cola=  99 | prio=50 | https://www.att.gob.bo/index.php/es/node/1645
+[ATT] t= 804.2s | pag=848 | files=3413 | data=246 | cola=  98 | prio=50 | https://www.att.gob.bo/index.php/es/node/1646
+[ATT] t= 804.8s | pag=849 | files=3413 | data=246 | cola=  97 | prio=50 | https://www.att.gob.bo/index.php/es/node/1647
+[ATT] t= 805.5s | pag=850 | files=3413 | data=246 | cola=  96 | prio=50 | https://www.att.gob.bo/index.php/es/node/1648
+[ATT] t= 806.7s | pag=851 | files=3413 | data=246 | cola=  95 | prio=50 | https://www.att.gob.bo/index.php/es/node/1638
+[ATT] t= 807.9s | pag=852 | files=3413 | data=247 | cola=  94 | prio=50 | https://www.att.gob.bo/index.php/es/node/1639
+[ATT] t= 809.0s | pag=853 | files=3413 | data=248 | cola=  93 | prio=50 | https://www.att.gob.bo/index.php/es/node/1640
+[ATT] t= 809.6s | pag=854 | files=3413 | data=249 | cola=  92 | prio=50 | https://www.att.gob.bo/index.php/es/node/1641
+[ATT] DATASETS=250 | data_html_table | https://www.att.gob.bo/index.php/es/node/1641
+[ATT] t= 810.7s | pag=855 | files=3413 | data=250 | cola=  91 | prio=50 | https://www.att.gob.bo/index.php/es/node/224
+[ATT] t= 811.7s | pag=856 | files=3413 | data=251 | cola=  90 | prio=50 | https://www.att.gob.bo/index.php/es/node/222
+[ATT] t= 812.6s | pag=857 | files=3413 | data=252 | cola=  89 | prio=50 | https://www.att.gob.bo/index.php/es/node/191
+[ATT] t= 813.2s | pag=858 | files=3413 | data=252 | cola=  88 | prio=50 | https://www.att.gob.bo/index.php/es/node/1743
+[ATT] t= 814.2s | pag=859 | files=3413 | data=252 | cola=  87 | prio=50 | https://www.att.gob.bo/index.php/es/node/387
+[ATT] t= 814.8s | pag=860 | files=3413 | data=252 | cola=  86 | prio=50 | https://www.att.gob.bo/index.php/es/node/388
+[ATT] t= 816.1s | pag=861 | files=3413 | data=252 | cola=  85 | prio=50 | https://www.att.gob.bo/index.php/es/node/343
+[ATT] t= 817.1s | pag=862 | files=3413 | data=253 | cola=  84 | prio=50 | https://www.att.gob.bo/index.php/es/node/344
+[ATT] t= 817.9s | pag=863 | files=3413 | data=253 | cola=  83 | prio=50 | https://www.att.gob.bo/index.php/es/node/900
+[ATT] t= 818.7s | pag=864 | files=3413 | data=254 | cola=  82 | prio=50 | https://www.att.gob.bo/index.php/es/node/989
+[ATT] t= 819.7s | pag=865 | files=3413 | data=255 | cola=  81 | prio=50 | https://www.att.gob.bo/index.php/es/node/356
+[ATT] t= 820.9s | pag=866 | files=3413 | data=255 | cola=  80 | prio=50 | https://www.att.gob.bo/index.php/es/node/890
+[ATT] t= 822.0s | pag=867 | files=3413 | data=255 | cola=  79 | prio=50 | https://www.att.gob.bo/es
+[ATT] t= 822.6s | pag=868 | files=3413 | data=255 | cola=  78 | prio=50 | https://www.att.gob.bo/es/node/188
+[ATT] t= 823.5s | pag=869 | files=3413 | data=255 | cola=  77 | prio=50 | https://www.att.gob.bo/es/node/1651
+[ATT] t= 824.5s | pag=870 | files=3413 | data=255 | cola=  76 | prio=50 | https://www.att.gob.bo/es/node/190
+[ATT] t= 825.0s | pag=871 | files=3413 | data=255 | cola=  75 | prio=50 | https://www.att.gob.bo/es/node/1675
+[ATT] t= 826.0s | pag=872 | files=3413 | data=255 | cola=  74 | prio=50 | https://www.att.gob.bo/es/node/392
+[ATT] t= 827.0s | pag=873 | files=3413 | data=255 | cola=  73 | prio=50 | https://www.att.gob.bo/es/node/393
+[ATT] t= 828.2s | pag=874 | files=3413 | data=255 | cola=  72 | prio=50 | https://www.att.gob.bo/es/node/404
+[ATT] t= 829.3s | pag=875 | files=3413 | data=255 | cola=  71 | prio=50 | https://www.att.gob.bo/es/node/451
+[ATT] t= 830.0s | pag=876 | files=3413 | data=255 | cola=  70 | prio=50 | https://www.att.gob.bo/es/node/841
+[ATT] t= 830.9s | pag=877 | files=3413 | data=255 | cola=  69 | prio=50 | https://www.att.gob.bo/es/node/412
+[ATT] t= 831.6s | pag=878 | files=3413 | data=255 | cola=  68 | prio=50 | https://www.att.gob.bo/es/node/411
+[ATT] t= 832.5s | pag=879 | files=3413 | data=255 | cola=  67 | prio=50 | https://www.att.gob.bo/es/node/361
+[ATT] t= 833.3s | pag=880 | files=3413 | data=255 | cola=  66 | prio=50 | https://www.att.gob.bo/es/node/433
+[ATT] t= 834.2s | pag=881 | files=3413 | data=255 | cola=  65 | prio=50 | https://www.att.gob.bo/es/node/842
+[ATT] t= 835.3s | pag=882 | files=3413 | data=255 | cola=  64 | prio=50 | https://www.att.gob.bo/es/node/1645
+[ATT] t= 836.1s | pag=883 | files=3413 | data=255 | cola=  63 | prio=50 | https://www.att.gob.bo/es/node/1646
+[ATT] t= 837.0s | pag=884 | files=3413 | data=255 | cola=  62 | prio=50 | https://www.att.gob.bo/es/node/1647
+[ATT] t= 838.3s | pag=885 | files=3413 | data=255 | cola=  61 | prio=50 | https://www.att.gob.bo/es/node/1648
+[ATT] t= 839.2s | pag=886 | files=3413 | data=255 | cola=  60 | prio=50 | https://www.att.gob.bo/es/node/1638
+[ATT] t= 840.3s | pag=887 | files=3413 | data=256 | cola=  59 | prio=50 | https://www.att.gob.bo/es/node/1639
+[ATT] t= 840.9s | pag=888 | files=3413 | data=257 | cola=  58 | prio=50 | https://www.att.gob.bo/es/node/1640
+[ATT] t= 842.0s | pag=889 | files=3413 | data=258 | cola=  57 | prio=50 | https://www.att.gob.bo/es/node/1641
+[ATT] t= 842.4s | pag=890 | files=3413 | data=259 | cola=  56 | prio=50 | https://www.att.gob.bo/es/node/224
+[ATT] t= 843.3s | pag=891 | files=3413 | data=260 | cola=  55 | prio=50 | https://www.att.gob.bo/es/node/222
+[ATT] t= 844.1s | pag=892 | files=3413 | data=261 | cola=  54 | prio=50 | https://www.att.gob.bo/es/node/191
+[ATT] t= 845.5s | pag=893 | files=3413 | data=261 | cola=  53 | prio=50 | https://www.att.gob.bo/es/node/1743
+[ATT] t= 846.6s | pag=894 | files=3413 | data=261 | cola=  52 | prio=50 | https://www.att.gob.bo/es/node/387
+[ATT] t= 847.0s | pag=895 | files=3413 | data=261 | cola=  51 | prio=50 | https://www.att.gob.bo/es/node/388
+[ATT] t= 848.0s | pag=896 | files=3413 | data=261 | cola=  50 | prio=50 | https://www.att.gob.bo/es/node/343
+[ATT] t= 849.1s | pag=897 | files=3413 | data=262 | cola=  49 | prio=50 | https://www.att.gob.bo/es/node/344
+[ATT] t= 849.8s | pag=898 | files=3413 | data=262 | cola=  48 | prio=50 | https://www.att.gob.bo/es/node/900
+[ATT] t= 850.4s | pag=899 | files=3413 | data=263 | cola=  47 | prio=50 | https://www.att.gob.bo/es/node/989
+[ATT] t= 850.9s | pag=900 | files=3413 | data=264 | cola=  46 | prio=50 | https://www.att.gob.bo/es/node/356
+[ATT] t= 851.4s | pag=901 | files=3413 | data=264 | cola=  45 | prio=50 | https://www.att.gob.bo/es/node/890
+[ATT] t= 852.1s | pag=902 | files=3413 | data=264 | cola=  44 | prio=70 | https://www.att.gob.bo/en/misionvision
+[ATT] t= 853.0s | pag=903 | files=3413 | data=264 | cola=  43 | prio=70 | https://www.att.gob.bo/en/codigo-de-etica
+[ATT] t= 853.8s | pag=904 | files=3413 | data=264 | cola=  42 | prio=70 | https://www.att.gob.bo/en/galeria-institucional
+[ATT] t= 854.6s | pag=905 | files=3413 | data=264 | cola=  51 | prio=10 | https://www.att.gob.bo/en/plan-operativo-saytam-coronavirus-el-alto
+[ATT] t= 855.7s | pag=906 | files=3413 | data=264 | cola=  50 | prio=10 | https://www.att.gob.bo/en/plan-operativo-saytam-coronavirus-cochabamba
+[ATT] t= 856.5s | pag=907 | files=3413 | data=264 | cola=  49 | prio=10 | https://www.att.gob.bo/en/plan-operativo-saytam-coronavirus-la-paz
+[ATT] t= 857.4s | pag=908 | files=3413 | data=264 | cola=  48 | prio=40 | https://www.att.gob.bo/en/galeria-institucional?page=0
+[ATT] t= 857.7s | pag=909 | files=3413 | data=264 | cola=  47 | prio=40 | https://www.att.gob.bo/en/galeria-institucional?page=1
+[ATT] t= 858.6s | pag=910 | files=3413 | data=264 | cola=  52 | prio=10 | https://www.att.gob.bo/en/audiencia-publica-inicial-de-rendicion-de-cuentas-2018
+[ATT] t= 859.5s | pag=911 | files=3413 | data=264 | cola=  51 | prio=40 | https://www.att.gob.bo/en/galeria-institucional?page=2
+[ATT] t= 860.1s | pag=912 | files=3413 | data=264 | cola=  56 | prio=10 | https://www.att.gob.bo/en/rendicion-inicial-de-cuentas-santa-cruz
+[ATT] t= 861.3s | pag=913 | files=3413 | data=264 | cola=  55 | prio=10 | https://www.att.gob.bo/en/audiencia-final-de-rendicion-de-cuentas-mopsv
+[ATT] t= 862.3s | pag=914 | files=3413 | data=264 | cola=  54 | prio=40 | https://www.att.gob.bo/en/galeria-institucional?page=3
+[ATT] t= 863.2s | pag=915 | files=3413 | data=264 | cola=  57 | prio= 2 | https://www.att.gob.bo/en/dia-mundial-de-las-telecomunicaciones-y-tic
+[ATT] t= 864.0s | pag=916 | files=3413 | data=264 | cola=  56 | prio=10 | https://www.att.gob.bo/en/rendicion-de-cuentas-institucional
+[ATT] t= 865.0s | pag=917 | files=3413 | data=264 | cola=  55 | prio=10 | https://www.att.gob.bo/en/cumplimiento-la-normativa-audiencias-publicas-de-rendicion-de-cuentas
+[ATT] t= 865.8s | pag=918 | files=3413 | data=264 | cola=  54 | prio=50 | https://www.att.gob.bo/en/la-att-trabaja-por-un-retorno-seguro-clases
+[ATT] t= 866.7s | pag=919 | files=3413 | data=264 | cola=  53 | prio=50 | https://www.att.gob.bo/en/att-refuerza-la-seguridad-vial-con-capacitaciones-para-transportistas-sancionados-0
+[ATT] t= 867.4s | pag=920 | files=3413 | data=264 | cola=  52 | prio=50 | https://www.att.gob.bo/en/visita-centro-de-experiencia-huawei
+[ATT] t= 868.6s | pag=921 | files=3413 | data=264 | cola=  51 | prio=50 | https://www.att.gob.bo/en/entrega-de-mapa-naval
+[ATT] t= 869.8s | pag=922 | files=3413 | data=264 | cola=  50 | prio=50 | https://www.att.gob.bo/en/reunion-huawei
+[ATT] t= 870.5s | pag=923 | files=3413 | data=264 | cola=  49 | prio=50 | https://www.att.gob.bo/en/operativo-terminal-la-paz
+[ATT] t= 870.9s | pag=924 | files=3413 | data=264 | cola=  48 | prio=50 | https://www.att.gob.bo/en/conferencia-de-prensa
+[ATT] t= 871.8s | pag=925 | files=3413 | data=264 | cola=  47 | prio=50 | https://www.att.gob.bo/en/operativo-radio-ilegales
+[ATT] t= 872.7s | pag=926 | files=3413 | data=264 | cola=  46 | prio=50 | https://www.att.gob.bo/en/taller-de-cuerdas
+[ATT] t= 873.6s | pag=927 | files=3413 | data=264 | cola=  45 | prio=50 | https://www.att.gob.bo/en/dia-del-internet
+[ATT] t= 874.0s | pag=928 | files=3413 | data=264 | cola=  44 | prio=50 | https://www.att.gob.bo/en/marzo-23-desfile-civico-dia-del-mar
+[ATT] t= 874.5s | pag=929 | files=3413 | data=264 | cola=  43 | prio=70 | https://www.att.gob.bo/en/autoridades-att
+[ATT] t= 874.9s | pag=930 | files=3413 | data=264 | cola=  43 | prio=50 | https://www.att.gob.bo/admin/structure/views/view/team/edit/block_list_top3_teamp_style1?destination=%2Fnode%2F144
+[ATT] t= 875.7s | pag=930 | files=3413 | data=264 | cola=  42 | prio=70 | https://www.att.gob.bo/en/contactanos
+[ATT] t= 876.9s | pag=931 | files=3413 | data=264 | cola=  42 | prio=70 | https://www.att.gob.bo/misionvision
+[ATT] t= 877.8s | pag=932 | files=3413 | data=264 | cola=  41 | prio=70 | https://www.att.gob.bo/en/att-establece-periodo-de-transicion-para-fortalecer-la-implementacion-de-la-television-digital
+[ATT] t= 878.6s | pag=933 | files=3413 | data=264 | cola=  40 | prio=70 | https://www.att.gob.bo/contactanos
+[ATT] t= 879.3s | pag=934 | files=3413 | data=264 | cola=  39 | prio=70 | https://www.att.gob.bo/sobre-television-digital
+[ATT] t= 879.9s | pag=935 | files=3413 | data=264 | cola=  39 | prio=50 | https://www.att.gob.bo/instructivo-del-seguimiento-de-apagon-analogico
+[ATT] t= 881.5s | pag=936 | files=3416 | data=265 | cola=  38 | prio=70 | https://www.att.gob.bo/index.php/en/misionvision
+[ATT] t= 882.0s | pag=937 | files=3416 | data=265 | cola=  37 | prio=70 | https://www.att.gob.bo/index.php/en/codigo-de-etica
+[ATT] t= 882.9s | pag=938 | files=3416 | data=265 | cola=  36 | prio=70 | https://www.att.gob.bo/index.php/en/galeria-institucional
+[ATT] t= 883.7s | pag=939 | files=3416 | data=265 | cola=  45 | prio=10 | https://www.att.gob.bo/index.php/en/plan-operativo-saytam-coronavirus-el-alto
+[ATT] t= 884.4s | pag=940 | files=3416 | data=265 | cola=  44 | prio=10 | https://www.att.gob.bo/index.php/en/plan-operativo-saytam-coronavirus-cochabamba
+[ATT] t= 885.2s | pag=941 | files=3416 | data=265 | cola=  43 | prio=10 | https://www.att.gob.bo/index.php/en/plan-operativo-saytam-coronavirus-la-paz
+[ATT] t= 885.8s | pag=942 | files=3416 | data=265 | cola=  42 | prio=40 | https://www.att.gob.bo/index.php/en/galeria-institucional?page=0
+[ATT] t= 887.1s | pag=943 | files=3416 | data=265 | cola=  41 | prio=40 | https://www.att.gob.bo/index.php/en/galeria-institucional?page=1
+[ATT] t= 888.3s | pag=944 | files=3416 | data=265 | cola=  46 | prio=10 | https://www.att.gob.bo/index.php/en/audiencia-publica-inicial-de-rendicion-de-cuentas-2018
+[ATT] t= 889.0s | pag=945 | files=3416 | data=265 | cola=  45 | prio=40 | https://www.att.gob.bo/index.php/en/galeria-institucional?page=2
+[ATT] t= 889.9s | pag=946 | files=3416 | data=265 | cola=  50 | prio=10 | https://www.att.gob.bo/index.php/en/rendicion-inicial-de-cuentas-santa-cruz
+[ATT] t= 891.0s | pag=947 | files=3416 | data=265 | cola=  49 | prio=10 | https://www.att.gob.bo/index.php/en/audiencia-final-de-rendicion-de-cuentas-mopsv
+[ATT] t= 892.1s | pag=948 | files=3416 | data=265 | cola=  48 | prio=40 | https://www.att.gob.bo/index.php/en/galeria-institucional?page=3
+[ATT] t= 893.3s | pag=949 | files=3416 | data=265 | cola=  51 | prio= 2 | https://www.att.gob.bo/index.php/en/dia-mundial-de-las-telecomunicaciones-y-tic
+[ATT] t= 894.1s | pag=950 | files=3416 | data=265 | cola=  50 | prio=10 | https://www.att.gob.bo/index.php/en/rendicion-de-cuentas-institucional
+[ATT] t= 895.2s | pag=951 | files=3416 | data=265 | cola=  49 | prio=10 | https://www.att.gob.bo/index.php/en/cumplimiento-la-normativa-audiencias-publicas-de-rendicion-de-cuentas
+[ATT] t= 896.0s | pag=952 | files=3416 | data=265 | cola=  48 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-trabaja-por-un-retorno-seguro-clases
+[ATT] t= 896.9s | pag=953 | files=3416 | data=265 | cola=  47 | prio=50 | https://www.att.gob.bo/index.php/en/att-refuerza-la-seguridad-vial-con-capacitaciones-para-transportistas-sancionados-0
+[ATT] t= 898.0s | pag=954 | files=3416 | data=265 | cola=  46 | prio=50 | https://www.att.gob.bo/index.php/en/visita-centro-de-experiencia-huawei
+[ATT] t= 898.8s | pag=955 | files=3416 | data=265 | cola=  45 | prio=50 | https://www.att.gob.bo/index.php/en/entrega-de-mapa-naval
+[ATT] t= 899.8s | pag=956 | files=3416 | data=265 | cola=  44 | prio=50 | https://www.att.gob.bo/index.php/en/reunion-huawei
+[ATT] t= 900.7s | pag=957 | files=3416 | data=265 | cola=  43 | prio=50 | https://www.att.gob.bo/index.php/en/operativo-terminal-la-paz
+[ATT] t= 901.6s | pag=958 | files=3416 | data=265 | cola=  42 | prio=50 | https://www.att.gob.bo/index.php/en/conferencia-de-prensa
+[ATT] t= 902.2s | pag=959 | files=3416 | data=265 | cola=  41 | prio=50 | https://www.att.gob.bo/index.php/en/operativo-radio-ilegales
+[ATT] t= 903.1s | pag=960 | files=3416 | data=265 | cola=  40 | prio=50 | https://www.att.gob.bo/index.php/en/taller-de-cuerdas
+[ATT] t= 904.2s | pag=961 | files=3416 | data=265 | cola=  39 | prio=50 | https://www.att.gob.bo/index.php/en/dia-del-internet
+[ATT] t= 905.3s | pag=962 | files=3416 | data=265 | cola=  38 | prio=50 | https://www.att.gob.bo/index.php/en/marzo-23-desfile-civico-dia-del-mar
+[ATT] t= 905.9s | pag=963 | files=3416 | data=265 | cola=  37 | prio=70 | https://www.att.gob.bo/index.php/en/autoridades-att
+[ATT] t= 906.6s | pag=964 | files=3416 | data=265 | cola=  36 | prio=70 | https://www.att.gob.bo/index.php/en/contactanos
+[ATT] t= 907.6s | pag=965 | files=3416 | data=265 | cola=  36 | prio=70 | https://www.att.gob.bo/en/node/882
+[ATT] t= 908.6s | pag=966 | files=3416 | data=265 | cola=  35 | prio=70 | https://www.att.gob.bo/drupal/team-1
+[ATT] t= 909.6s | pag=966 | files=3416 | data=265 | cola=  34 | prio=70 | https://www.att.gob.bo/drupal/misionvision
+[ATT] t= 910.6s | pag=966 | files=3416 | data=265 | cola=  33 | prio=70 | https://www.att.gob.bo/drupal/galeria-institucional
+[ATT] t= 911.8s | pag=966 | files=3416 | data=265 | cola=  32 | prio=70 | https://www.att.gob.bo/drupal/codigo-de-etica
+[ATT] t= 913.2s | pag=966 | files=3416 | data=265 | cola=  31 | prio=70 | https://www.att.gob.bo/drupal/videos-transparencia
+[ATT] t= 914.2s | pag=966 | files=3416 | data=265 | cola=  30 | prio=70 | https://www.att.gob.bo/licitaciones-de-valor-agregado-para-television-digital
+[ATT] t= 915.1s | pag=967 | files=3416 | data=265 | cola=  31 | prio=10 | https://www.att.gob.bo/drupal/extracto-de-publicaciones-tdt-servicios-valor-agregado-2020
+[ATT] t= 915.9s | pag=967 | files=3416 | data=265 | cola=  30 | prio=50 | https://www.att.gob.bo/drupal/licitaciones-tdt-gestion-2020
+[ATT] t= 917.1s | pag=967 | files=3416 | data=265 | cola=  29 | prio=70 | https://www.att.gob.bo/index.php/en/att-establece-periodo-de-transicion-para-fortalecer-la-implementacion-de-la-television-digital
+[ATT] t= 918.6s | pag=968 | files=3416 | data=265 | cola=  28 | prio=70 | https://www.att.gob.bo/index.php/en/resultados-del-segundo-simulacro-del-apagon-analogico-reflejan-avance-gradual-hacia-la-television
+[ATT] t= 919.5s | pag=969 | files=3416 | data=265 | cola=  27 | prio=70 | https://www.att.gob.bo/index.php/en/att-socializa-ajuste-provisional-de-tarifas-aereas-y-fortalece-el-dialogo-con-los-sectores-del-pais
+[ATT] t= 920.6s | pag=970 | files=3416 | data=265 | cola=  26 | prio=70 | https://www.att.gob.bo/en/resultados-del-segundo-simulacro-del-apagon-analogico-reflejan-avance-gradual-hacia-la-television
+[ATT] t= 921.5s | pag=971 | files=3416 | data=265 | cola=  25 | prio=70 | https://www.att.gob.bo/en/att-socializa-ajuste-provisional-de-tarifas-aereas-y-fortalece-el-dialogo-con-los-sectores-del-pais
+[ATT] t= 922.3s | pag=972 | files=3416 | data=265 | cola=  24 | prio=70 | https://www.att.gob.bo/en/bolivia-iniciara-el-apagon-analogico-de-la-television-en-mayo-de-2026
+[ATT] t= 923.4s | pag=973 | files=3416 | data=265 | cola=  23 | prio=70 | https://www.att.gob.bo/index.php/es/node/1078
+[ATT] t= 924.1s | pag=974 | files=3416 | data=265 | cola=  22 | prio=70 | https://www.att.gob.bo/es/node/1078
+[ATT] t= 924.7s | pag=975 | files=3416 | data=265 | cola=  21 | prio=70 | https://www.att.gob.bo/denuncia
+[ATT] t= 925.5s | pag=976 | files=3416 | data=265 | cola=  21 | prio=50 | https://www.att.gob.bo/en/image-captcha-refresh/webform_submission_formulario_de_denuncias_node_892_add_form
+[ATT] t= 926.3s | pag=976 | files=3417 | data=265 | cola=  20 | prio=70 | https://www.att.gob.bo/reclamo
+[ATT] t= 927.5s | pag=977 | files=3417 | data=265 | cola=  20 | prio=50 | https://www.att.gob.bo/en/image-captcha-refresh/webform_submission_formulario_de_reclamos_node_893_add_form
+[ATT] t= 928.0s | pag=977 | files=3418 | data=265 | cola=  19 | prio=70 | https://www.att.gob.bo/sugerencia
+[ATT] t= 929.1s | pag=978 | files=3418 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/en/image-captcha-refresh/webform_submission_formulario_de_sugerencias_node_894_add_form
+[ATT] t= 929.9s | pag=978 | files=3419 | data=265 | cola=  18 | prio=70 | https://www.att.gob.bo/en/socializacion-del-decreto-supremo-ndeg-3152-de-television-digital-en-la-ciudad-de-cochabamba
+[ATT] t= 931.0s | pag=979 | files=3419 | data=265 | cola=  17 | prio=70 | https://www.att.gob.bo/en/participacion-de-la-att-en-las-ferias-de-transparencia
+[ATT] t= 931.9s | pag=980 | files=3419 | data=265 | cola=  16 | prio=70 | https://www.att.gob.bo/en/image-captcha-refresh/webform_submission_contactenos_node_890_add_form
+[ATT] t= 932.8s | pag=980 | files=3420 | data=265 | cola=  15 | prio=70 | https://www.att.gob.bo/index.php/en/socializacion-del-decreto-supremo-ndeg-3152-de-television-digital-en-la-ciudad-de-cochabamba
+[ATT] t= 934.3s | pag=981 | files=3420 | data=265 | cola=  14 | prio=70 | https://www.att.gob.bo/index.php/en/participacion-de-la-att-en-las-ferias-de-transparencia
+[ATT] t= 935.1s | pag=982 | files=3420 | data=265 | cola=  13 | prio=70 | https://www.att.gob.bo/index.php/en/image-captcha-refresh/webform_submission_contactenos_node_890_add_form
+[ATT] t= 935.7s | pag=982 | files=3421 | data=265 | cola=  12 | prio=80 | https://www.att.gob.bo/index.php/en?page=159
+[ATT] t= 937.0s | pag=983 | files=3421 | data=265 | cola=  21 | prio=50 | https://www.att.gob.bo/index.php/en/node/710
+[ATT] t= 938.1s | pag=984 | files=3421 | data=265 | cola=  20 | prio=50 | https://www.att.gob.bo/index.php/en/node/708
+[ATT] t= 938.9s | pag=985 | files=3421 | data=265 | cola=  19 | prio=80 | https://www.att.gob.bo/index.php/en?page=158
+[ATT] t= 939.9s | pag=986 | files=3421 | data=265 | cola=  20 | prio=50 | https://www.att.gob.bo/index.php/en/node/758
+[ATT] t= 941.1s | pag=987 | files=3421 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/node/750
+[ATT] t= 941.7s | pag=988 | files=3421 | data=265 | cola=  18 | prio=80 | https://www.att.gob.bo/index.php/en?page=151
+[ATT] t= 942.6s | pag=989 | files=3421 | data=265 | cola=  23 | prio=10 | https://www.att.gob.bo/index.php/en/plan-operativo-saytam-coronavirus-detengamos-el-coronavirus-0
+[ATT] t= 943.5s | pag=990 | files=3421 | data=265 | cola=  22 | prio=50 | https://www.att.gob.bo/index.php/en/2do-operativo-de-secuestro-de-radios-ilegales-2021
+[ATT] t= 944.2s | pag=991 | files=3421 | data=265 | cola=  21 | prio=80 | https://www.att.gob.bo/index.php/en?page=152
+[ATT] t= 944.9s | pag=992 | files=3421 | data=265 | cola=  22 | prio=50 | https://www.att.gob.bo/index.php/en/acceso-la-informacion-del-sistema-central-de-portabilidad-numerica-firma-de-convenios-att-y
+[ATT] t= 945.3s | pag=993 | files=3421 | data=265 | cola=  21 | prio=50 | https://www.att.gob.bo/index.php/en/operativo-secuestro-de-radios-ilegales
+[ATT] t= 946.0s | pag=994 | files=3421 | data=265 | cola=  20 | prio=80 | https://www.att.gob.bo/index.php/en?page=153
+[ATT] t= 946.6s | pag=995 | files=3421 | data=265 | cola=  21 | prio=10 | https://www.att.gob.bo/index.php/en/plan-operativo-saytam-coronavirus-detengamos-el-coronavirus
+[ATT] t= 947.7s | pag=996 | files=3421 | data=265 | cola=  20 | prio=50 | https://www.att.gob.bo/index.php/en/node/836
+[ATT] t= 948.7s | pag=997 | files=3423 | data=265 | cola=  19 | prio=80 | https://www.att.gob.bo/index.php/en?page=154
+[ATT] t= 949.2s | pag=998 | files=3423 | data=265 | cola=  20 | prio= 2 | https://www.att.gob.bo/index.php/en/plan-operativo-de-control-de-servicio-postal
+[ATT] t= 950.0s | pag=999 | files=3423 | data=265 | cola=  20 | prio= 2 | http://www.att.gob.bo/operadorespostal
+[ATT] t= 950.9s | pag=999 | files=3423 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/node/796
+[ATT] t= 952.5s | pag=1000 | files=3425 | data=265 | cola=  18 | prio=80 | https://www.att.gob.bo/index.php/en?page=155
+[ATT] t= 953.2s | pag=1001 | files=3425 | data=265 | cola=  19 | prio= 2 | https://www.att.gob.bo/index.php/en/node/793
+[ATT] t= 954.3s | pag=1002 | files=3427 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/node/795
+[ATT] t= 955.3s | pag=1003 | files=3429 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=156
+[ATT] t= 955.8s | pag=1004 | files=3429 | data=265 | cola=  18 | prio= 2 | https://www.att.gob.bo/index.php/en/node/773
+[ATT] t= 956.7s | pag=1005 | files=3431 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/node/775
+[ATT] t= 957.5s | pag=1006 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=157
+[ATT] t= 958.1s | pag=1007 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/node/762
+[ATT] t= 958.8s | pag=1008 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/node/761
+[ATT] t= 959.9s | pag=1009 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=150
+[ATT] t= 960.9s | pag=1010 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/comunicado-mensaje-presidencial-2022
+[ATT] t= 961.7s | pag=1011 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-facilita-la-obtencion-de-carnets-de-vacunacion-traves-de-puntos-de-informacion-viajemos-sin
+[ATT] t= 962.4s | pag=1012 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=147
+[ATT] t= 963.1s | pag=1013 | files=3433 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-es-galardonada-por-la-implementacion-de-la-firma-digital-al-100-y-por-innovaciones
+[ATT] t= 964.0s | pag=1014 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/cuidando-al-peregrino-95-de-los-problemas-de-pasajeros-en-semana-santa-fueron-solucionados-en-el
+[ATT] t= 965.2s | pag=1015 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=148
+[ATT] t= 965.9s | pag=1016 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-implementa-el-operativo-de-semana-santa-cuidando-al-peregrino
+[ATT] t= 966.9s | pag=1017 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-ds-4669-operadores-no-podran-consumir-el-credito-principal-de-los-usuarios-de-internet-movil
+[ATT] t= 967.8s | pag=1018 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=149
+[ATT] t= 968.2s | pag=1019 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-lanza-plan-para-prevenir-delitos-en-entornos-digitales-en-la-epoca-de-carnaval
+[ATT] t= 969.0s | pag=1020 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-destaca-una-gestion-regulatoria-eficiente-como-resultado-de-la-renovacion-institucional-en
+[ATT] t= 969.8s | pag=1021 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=146
+[ATT] t= 970.4s | pag=1022 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-suma-esfuerzos-la-lucha-contra-el-contrabando-en-el-transporte-publico-terrestre
+[ATT] t= 971.3s | pag=1023 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/devolviendo-la-voz-los-pueblos-la-att-entrega-resoluciones-las-radios-cordial-y-comercio
+[ATT] t= 972.4s | pag=1024 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=143
+[ATT] t= 973.3s | pag=1025 | files=3433 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-implementara-dos-metodos-para-controlar-el-cumplimiento-del-ds-4669
+[ATT] t= 974.3s | pag=1026 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/att-realiza-operativo-para-controlar-las-tarifas-y-viajes-de-menores-durante-la-fiesta-de-urkupina
+[ATT] t= 975.2s | pag=1027 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=144
+[ATT] t= 975.8s | pag=1028 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/ds-4669-partir-del-martes-las-telefonicas-no-podran-consumir-el-credito-principal-para-el-uso-de
+[ATT] t= 976.7s | pag=1029 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-anuncia-implementacion-de-herramientas-digitales-para-la-mejora-de-atencion-pasajeros-de-viru
+[ATT] t= 977.4s | pag=1030 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=145
+[ATT] t= 978.4s | pag=1031 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-instruye-terminales-de-buses-y-operadores-de-transporte-optimizar-sus-servicios-durante-las
+[ATT] t= 979.0s | pag=1032 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/abrigate-con-la-att-una-campana-solidaria-para-donar-ropa-abrigadora-en-las-terminales-del-pais
+[ATT] t= 979.4s | pag=1033 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=142
+[ATT] t= 980.4s | pag=1034 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/mas-de-630-pasajeros-protegidos-como-resultado-del-operativo-de-la-att-durante-la-fiesta-de
+[ATT] t= 981.2s | pag=1035 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-comprobo-que-el-decreto-supremo-4669-tiene-un-impacto-positivo-en-el-pais
+[ATT] t= 982.0s | pag=1036 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=139
+[ATT] t= 982.7s | pag=1037 | files=3433 | data=265 | cola=  19 | prio= 2 | https://www.att.gob.bo/index.php/en/supervisores-de-servicios-de-la-att-realizan-taller-nacional-para-fortalecer-la-atencion-usuarios
+[ATT] t= 983.5s | pag=1038 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-entrego-una-resolucion-y-16-licencias-de-uso-de-frecuencia-al-canal-estatal-bolivia-tv
+[ATT] t= 984.3s | pag=1039 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=140
+[ATT] t= 985.4s | pag=1040 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-capacito-jubilados-en-habilidades-digitales
+[ATT] t= 986.4s | pag=1041 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-secuestro-2-millones-de-bolivianos-en-equipos-de-14-radioemisoras-ilegales
+[ATT] t= 987.1s | pag=1042 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=141
+[ATT] t= 987.6s | pag=1043 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-crea-centro-virtual-de-capacitacion-para-mejorar-atencion-los-usuarios-de-transporte-aereo
+[ATT] t= 988.8s | pag=1044 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/att-rechaza-solicitud-de-transferencia-de-viva-y-velara-porque-el-sector-este-regulado
+[ATT] t= 989.4s | pag=1045 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=138
+[ATT] t= 990.5s | pag=1046 | files=3433 | data=265 | cola=  17 | prio= 2 | https://www.att.gob.bo/index.php/en/att-invita-conocer-el-futuro-del-pais-en-las-telecomunicaciones
+[ATT] t= 991.4s | pag=1047 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/att-secuestro-equipos-de-seis-radioemisoras-ilegales-en-cochabamba
+[ATT] t= 992.4s | pag=1048 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=135
+[ATT] t= 993.3s | pag=1049 | files=3433 | data=265 | cola=  19 | prio= 2 | https://www.att.gob.bo/index.php/en/sector-de-transportes-perdio-bs-26-mm-causa-del-paro-civico
+[ATT] t= 994.2s | pag=1050 | files=3433 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/att-crea-plataforma-mi-vuelo-que-proporciona-informacion-de-vuelos-en-tiempo-real
+[ATT] t= 995.6s | pag=1051 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/user/18
+[ATT] t= 996.6s | pag=1051 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=136
+[ATT] t= 998.0s | pag=1052 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-se-suma-al-trabajo-del-gabinete-especial-de-lucha-contra-incendios
+[ATT] t= 998.7s | pag=1053 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-otorga-la-primera-autorizacion-para-operadores-de-transporte-acuatico-de-pasajeros
+[ATT] t= 999.8s | pag=1054 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=137
+[ATT] t=1000.8s | pag=1055 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-identifico-mas-de-300-menores-que-pretendian-viajar-sin-autorizacion-en-tarija
+[ATT] t=1001.9s | pag=1056 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/ds-4669-solo-se-registraron-74-reclamos-en-un-mes-de-implementacion
+[ATT] t=1003.0s | pag=1057 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=134
+[ATT] t=1003.9s | pag=1058 | files=3433 | data=265 | cola=  17 | prio= 2 | https://www.att.gob.bo/index.php/en/att-ejecuta-el-plan-operativo-de-control-de-servicio-postal-por-fin-de-ano
+[ATT] t=1004.8s | pag=1059 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-desbarato-banda-de-estafadores-que-se-hacian-pasar-por-servidores-publicos
+[ATT] t=1005.5s | pag=1060 | files=3433 | data=265 | cola=  16 | prio=50 | http://www.att.gob.bo/
+[ATT] t=1006.2s | pag=1060 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=131
+[ATT] t=1007.6s | pag=1061 | files=3433 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/att-realiza-mega-operativo-de-secuestro-de-radios-ilegales-nivel-nacional
+[ATT] t=1008.0s | pag=1062 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/att-otorga-un-plazo-de-5-dias-boa-para-presentar-un-plan-de-mejoras
+[ATT] t=1008.4s | pag=1063 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=132
+[ATT] t=1009.4s | pag=1064 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/att-fortalece-los-servicios-de-las-terminales-de-buses-traves-de-congreso-nacional
+[ATT] t=1009.8s | pag=1065 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-instruye-operadores-de-transporte-el-traslado-gratuito-de-victimas-de-trata-y-trafico
+[ATT] t=1010.6s | pag=1066 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=133
+[ATT] t=1011.4s | pag=1067 | files=3433 | data=265 | cola=  17 | prio=10 | https://www.att.gob.bo/index.php/en/plan-operativo-controlando-tarifas-cuidando-tu-economia
+[ATT] t=1012.0s | pag=1068 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/inicia-el-operativo-vacaciones-tranquilas-con-la-att-para-controlar-el-viaje-de-menores-de-edad
+[ATT] t=1012.9s | pag=1069 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=130
+[ATT] t=1014.1s | pag=1070 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-brindo-4000-atenciones-en-terminales-y-aeropuertos-en-fin-de-ano
+[ATT] t=1014.8s | pag=1071 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/att-realizo-operativo-sorpresa-de-control-de-viajes-en-aeropuertos
+[ATT] t=1015.7s | pag=1072 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=127
+[ATT] t=1016.7s | pag=1073 | files=3433 | data=265 | cola=  19 | prio= 2 | https://www.att.gob.bo/index.php/en/la-att-realizo-776-acciones-en-defensa-de-los-usuarios-de-transportes-en-la-primera-semana-de
+[ATT] t=1017.5s | pag=1074 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-implementa-controles-estrictos-en-terminales-y-aeropuertos-durante-carnavales
+[ATT] t=1018.3s | pag=1075 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=128
+[ATT] t=1018.7s | pag=1076 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/att-sancionara-operadores-cuyos-buses-no-cumplan-con-los-controles-tecnicos-de-calidad
+[ATT] t=1019.3s | pag=1077 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/la-att-recaudo-mas-de-bs-885-mm-en-2022-13-mas-que-en-la-gestion-pasada
+[ATT] t=1020.5s | pag=1078 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=129
+[ATT] t=1021.1s | pag=1079 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/plataforma-mi-vuelo-en-tiempo-real-de-la-att-sobrepasa-los-50000-beneficiados-con-informacion
+[ATT] t=1022.0s | pag=1080 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/att-logra-conciliacion-por-extravio-de-una-mascota-y-sancion-la-aerolinea-boa
+[ATT] t=1022.7s | pag=1081 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=126
+[ATT] t=1023.5s | pag=1082 | files=3433 | data=265 | cola=  17 | prio=10 | https://www.att.gob.bo/index.php/en/la-att-destaco-logros-en-favor-de-los-usuarios-en-rendicion-publica-de-cuentas-final
+[ATT] t=1024.6s | pag=1083 | files=3433 | data=265 | cola=  16 | prio=50 | https://www.att.gob.bo/index.php/en/carnavales-att-realizo-mas-de-2500-acciones-para-proteger-los-derechos-de-los-usuarios
+[ATT] t=1025.6s | pag=1084 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=123
+[ATT] t=1026.6s | pag=1085 | files=3433 | data=265 | cola=  19 | prio=50 | https://www.att.gob.bo/index.php/en/att-advierte-multas-hasta-6000-ufvs-operadores-que-incumplan-estandares-de-calidad
+[ATT] t=1027.4s | pag=1086 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/att-ejecuta-operativo-para-que-los-pasajeros-disfruten-de-un-viaje-con-calidad-y-seguridad-en
+[ATT] t=1028.0s | pag=1087 | files=3433 | data=265 | cola=  17 | prio=80 | https://www.att.gob.bo/index.php/en?page=124
+[ATT] t=1028.7s | pag=1088 | files=3433 | data=265 | cola=  18 | prio=50 | https://www.att.gob.bo/index.php/en/tarija-recibe-su-primera-autorizacion-para-transporte-acuatico-de-pasajeros-otorgada-por-la-att
+[ATT] t=1029.6s | pag=1089 | files=3433 | data=265 | cola=  17 | prio=50 | https://www.att.gob.bo/index.php/en/att-autorizaciones-para-el-servicio-de-transporte-urbano-son-atribucion-de-los-municipios
+[ATT] t=1030.2s | pag=1090 | files=3433 | data=265 | cola=  16 | prio=80 | https://www.att.gob.bo/index.php/en?page=125
+[ATT] t=1031.3s | pag=1091 | files=3433 | data=265 | cola=  17 | prio= 2 | https://www.att.gob.bo/index.php/en/att-y-pnud-fortalecen-capacidades-tecnicas-para-promover-la-inclusion-de-jovenes-y-mujeres-en-las
+[ATT] t=1031.9s | pag=1092 | files=3433 | data=265 | cola=  16 | prio= 2 | https://www.att.gob.bo/index.php/en/bolivia-asumira-por-primera-vez-la-presidencia-de-reguladores-en-telecomunicaciones-en
+[ATT] t=1032.6s | pag=1093 | files=3433 | data=265 | cola=  15 | prio=80 | https://www.att.gob.bo/index.php/en?page=122
+[ATT] t=1033.3s | pag=1094 | files=3433 | data=265 | cola=  14 | prio=80 | https://www.att.gob.bo/index.php/en?page=119
+[ATT] t=1033.8s | pag=1095 | files=3433 | data=265 | cola=  13 | prio=80 | https://www.att.gob.bo/index.php/en?page=120
+[ATT] t=1034.5s | pag=1096 | files=3433 | data=265 | cola=  12 | prio=80 | https://www.att.gob.bo/index.php/en?page=121
+[ATT] t=1035.2s | pag=1097 | files=3433 | data=265 | cola=  11 | prio=90 | https://www.att.gob.bo/en/resena-historica
+[ATT] t=1035.7s | pag=1098 | files=3433 | data=265 | cola=  10 | prio=90 | https://www.att.gob.bo/en/objetivos-estrategicos-acciones-de-mediano-plazo
+[ATT] t=1036.2s | pag=1099 | files=3433 | data=265 | cola=   9 | prio=90 | https://www.att.gob.bo/en/denuncias-reclamos-y-sugerencias
+[ATT] t=1037.0s | pag=1100 | files=3433 | data=265 | cola=   8 | prio=90 | https://www.att.gob.bo/en/seguimiento-de-tramite
+[ATT] t=1037.9s | pag=1101 | files=3433 | data=265 | cola=   7 | prio=90 | https://www.att.gob.bo/en/notas-prensa
+[ATT] t=1038.5s | pag=1102 | files=3433 | data=265 | cola=   6 | prio=90 | https://www.att.gob.bo/index.php/en/resena-historica
+[ATT] t=1039.2s | pag=1103 | files=3433 | data=265 | cola=   5 | prio=90 | https://www.att.gob.bo/index.php/en/objetivos-estrategicos-acciones-de-mediano-plazo
+[ATT] t=1039.8s | pag=1104 | files=3433 | data=265 | cola=   4 | prio=90 | https://www.att.gob.bo/index.php/en/denuncias-reclamos-y-sugerencias
+[ATT] t=1040.2s | pag=1105 | files=3433 | data=265 | cola=   3 | prio=90 | https://www.att.gob.bo/index.php/en/seguimiento-de-tramite
+[ATT] t=1041.1s | pag=1106 | files=3433 | data=265 | cola=   2 | prio=90 | https://www.att.gob.bo/index.php/en/notas-prensa
+[ATT] t=1042.1s | pag=1107 | files=3433 | data=265 | cola=   1 | prio=90 | https://www.att.gob.bo/drupal/objetivos-estrategicos-acciones-de-mediano-plazo
+[ATT] t=1042.6s | pag=1107 | files=3433 | data=265 | cola=   0 | prio=90 | https://www.att.gob.bo/drupal/denuncias-reclamos-y-sugerencias
 
 ================================================================================
 RESULTADO
 ================================================================================
 Fuente:              att
-Páginas visitadas:   25
-Archivos encontrados:  100
-Datasets web:         7
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             19.26 s
+Páginas visitadas:   1107
+Archivos encontrados: 3433
+Datasets web:         265
+Errores:              79
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             1043.82 s
 Sitemaps procesados:  1
 URLs por sitemap:     1
 URLs sitemap en cola: 0
 
+Detalle de errores:
+  - https://www.att.gob.bo/postal/operador -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/postal/operador
+  - TIMEOUT -> https://www.att.gob.bo/normativa-sector-postal-uolo-decretos-supremos
+  - TIMEOUT -> https://www.att.gob.bo/normativa-sector-postal-uolo-resoluciones-administrativas
+  - TIMEOUT -> https://www.att.gob.bo/normativa-sector-postal-uolo-resoluciones-ministeriales
+  - https://www.att.gob.bo/drupal/servicio-postal-legal -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/servicio-postal-legal
+  - https://www.att.gob.bo/drupal/telecomicaciones-legal -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/telecomicaciones-legal
+  - https://www.att.gob.bo/drupal/telecomunicaciones -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/telecomunicaciones
+  - https://www.att.gob.bo/drupal/transportes-0 -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/transportes-0
+  - https://www.att.gob.bo/drupal/ficha-de-procesos-de-telecomunicaciones -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/ficha-de-procesos-de-telecomunicaciones
+  - https://www.att.gob.bo/drupal/ficha-de-procesos-de-transportes -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/ficha-de-procesos-de-transportes
+  - https://www.att.gob.bo/drupal/sector-postal -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/sector-postal
+  - https://www.att.gob.bo/drupal/sector-telecomunicaciones -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/sector-telecomunicaciones
+  - https://www.att.gob.bo/drupal/sector-transportes -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/sector-transportes
+  - https://www.att.gob.bo/drupal/memoria-institucional -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/memoria-institucional
+  - https://www.att.gob.bo/drupal/informes-de-auditoria -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/informes-de-auditoria
+  - https://www.att.gob.bo/drupal/fuentes-de-financiamiento -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/fuentes-de-financiamiento
+  - https://www.att.gob.bo/drupal/presupuesto-institucional -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/presupuesto-institucional
+  - https://www.att.gob.bo/drupal/planificacion-estrategica -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/planificacion-estrategica
+  - https://www.att.gob.bo/drupal/rendicion-publica-de-cuentas -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/rendicion-publica-de-cuentas
+  - https://www.att.gob.bo/drupal/homepage-13 -> HTTPError: 404 Client Error: Not Found for url: https://www.att.gob.bo/drupal/homepage-13
+  - ... 59 errores adicionales no mostrados.
+
 Formatos:
-  - PDF    : 97
-  - XLSX   : 3
+  - DOC    : 9
+  - DOCX   : 1
+  - JSON   : 5
+  - PDF    : 3364
+  - RAR    : 4
+  - XLS    : 42
+  - XLSX   : 4
+  - ZIP    : 4
 
 JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\att.json
 
 Trazabilidad:
-  Ejecución: 169
+  Ejecución: 226
   Estado:    PROCESSED
   Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

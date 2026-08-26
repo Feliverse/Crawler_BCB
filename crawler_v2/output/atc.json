@@ -319,6 +319,176 @@
                     "metodo_deteccion": "url_extension"
                 }
             }
+        },
+        "Estados_Financieros": {
+            "33_estados-financieros-al-30-de-junio-de-2026-1.csv": {
+                "descripcion": "33_estados-financieros-al-30-de-junio-de-2026-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/33_estados-financieros-al-30-de-junio-de-2026-1.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "31_estados-financieros-al-31-de-diciembre-de-2025-2.csv": {
+                "descripcion": "31_estados-financieros-al-31-de-diciembre-de-2025-2.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/31_estados-financieros-al-31-de-diciembre-de-2025-2.pdf",
+                "fecha_actualizacion": "2025-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "29_estado-de-situacion-patrimonial-al-30-de-junio-de-2025-y-31-de-diciembre-de-2024.csv": {
+                "descripcion": "29_estado-de-situacion-patrimonial-al-30-de-junio-de-2025-y-31-de-diciembre-de-2024.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/29_estado-de-situacion-patrimonial-al-30-de-junio-de-2025-y-31-de-diciembre-de-2024.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "27_estados-financieros-al-31-de-diciembre-de-2024-1.csv": {
+                "descripcion": "27_estados-financieros-al-31-de-diciembre-de-2024-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/27_estados-financieros-al-31-de-diciembre-de-2024-1.pdf",
+                "fecha_actualizacion": "2024-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "26_estados-financieros-al-30-de-junio-de-2024-y-31-de-diciembre-de-2023-1.csv": {
+                "descripcion": "26_estados-financieros-al-30-de-junio-de-2024-y-31-de-diciembre-de-2023-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/26_estados-financieros-al-30-de-junio-de-2024-y-31-de-diciembre-de-2023-1.pdf",
+                "fecha_actualizacion": "2023-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "22_estados-financieros-al-31-de-diciembre-de-2023-1.csv": {
+                "descripcion": "22_estados-financieros-al-31-de-diciembre-de-2023-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/22_estados-financieros-al-31-de-diciembre-de-2023-1.pdf",
+                "fecha_actualizacion": "2023-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "19_estado-de-situacion-patrimonial-al-30-de-junio-de-2023-y-31-de-diciembre-de-2022-1.csv": {
+                "descripcion": "19_estado-de-situacion-patrimonial-al-30-de-junio-de-2023-y-31-de-diciembre-de-2022-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/19_estado-de-situacion-patrimonial-al-30-de-junio-de-2023-y-31-de-diciembre-de-2022-1.pdf",
+                "fecha_actualizacion": "2022-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            },
+            "16_estados-financieros-auditados-al-31-de-diciembre-de-2022-1.csv": {
+                "descripcion": "16_estados-financieros-auditados-al-31-de-diciembre-de-2022-1.pdf",
+                "url_descarga": "https://www.redenlace.com.bo/docs/memorias/es/16_estados-financieros-auditados-al-31-de-diciembre-de-2022-1.pdf",
+                "fecha_actualizacion": "2022-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Productos_y_servicios": {
+            "instructivos_enlazate_online": {
+                "97_instructivo-instalacion-del-autenticador-y-generacion-de-codigo-de-autenticacion.csv": {
+                    "descripcion": "Instructivo instalación del autenticador y generación de codig...",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/97_instructivo-instalacion-del-autenticador-y-generacion-de-codigo-de-autenticacion.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/instructivos-enlazate-online",
+                    "metodo_deteccion": "url_extension"
+                },
+                "97_instructivo-para-afiliacion-eon.csv": {
+                    "descripcion": "Instructivo para afiliación EON",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/97_instructivo-para-afiliacion-eon.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/instructivos-enlazate-online",
+                    "metodo_deteccion": "url_extension"
+                }
+            },
+            "app_portal_de_comercios": {
+                "134_terminos-y-condiciones-app-portal-de-comercios.csv": {
+                    "descripcion": "TERMINOS Y CONDICIONES APP PORTAL DE COMERCIOS",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/134_terminos-y-condiciones-app-portal-de-comercios.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/app-portal-de-comercios",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        },
+        "Promociones_Red_Enlace": {
+            "visa_catar_2022": {
+                "120_visa-catar-2022-1.csv": {
+                    "descripcion": "visa-catar-2022-1",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/120_visa-catar-2022-1.pdf",
+                    "fecha_actualizacion": "2022-01",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/visa-catar-2022",
+                    "metodo_deteccion": "url_extension"
+                },
+                "120_visa-catar-2022-2.csv": {
+                    "descripcion": "visa-catar-2022-2",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/120_visa-catar-2022-2.pdf",
+                    "fecha_actualizacion": "2022-02",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/visa-catar-2022",
+                    "metodo_deteccion": "url_extension"
+                }
+            },
+            "pronostico_mundialista": {
+                "122_autorizacion-aj-noviembre-2022.csv": {
+                    "descripcion": "AUTORIZACION AJ - noviembre 2022",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/122_autorizacion-aj-noviembre-2022.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/pronostico-mundialista",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        },
+        "Procedimiento_PR": {
+            "procedimiento_para_reclamos": {
+                "88_procedimiento-para-la-presentacion-de-un-reclamo-a-traves-del-punto-de-reclamo-de-red-enlace.csv": {
+                    "descripcion": "PROCEDIMIENTO PARA LA PRESENTACIÓN DE UN RECLAMO A TRAVÉS DEL PU...",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/88_procedimiento-para-la-presentacion-de-un-reclamo-a-traves-del-punto-de-reclamo-de-red-enlace.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/procedimiento-pr/procedimiento-para-reclamos",
+                    "metodo_deteccion": "url_extension"
+                }
+            },
+            "procedimiento_para_reclamos_en_segunda_instancia": {
+                "89_procedimiento-para-la-presentacion-de-un-reclamo-en-la-central-de-reclamos-de-la-autoridad-de-supervision-del-sistema-financiero-asfi.csv": {
+                    "descripcion": "PROCEDIMIENTO PARA LA PRESENTACIÓN DE UN RECLAMO EN LA CENTRAL DE...",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/89_procedimiento-para-la-presentacion-de-un-reclamo-en-la-central-de-reclamos-de-la-autoridad-de-supervision-del-sistema-financiero-asfi.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/secciones-de-interes/procedimiento-pr/procedimiento-para-reclamos-en-segunda-instancia",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        },
+        "Quiénes_somos": {
+            "codigo_de_etica": {
+                "31_codigo-de-etica.csv": {
+                    "descripcion": "CÓDIGO DE ÉTICA",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/31_codigo-de-etica.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/codigo-de-etica",
+                    "metodo_deteccion": "url_extension"
+                }
+            },
+            "codigo_de_conducta": {
+                "46_codigo-de-conducta.csv": {
+                    "descripcion": "CÓDIGO DE CONDUCTA",
+                    "url_descarga": "https://www.redenlace.com.bo/docs/contents/es/46_codigo-de-conducta.pdf",
+                    "fecha_actualizacion": "No disponible",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/codigo-de-conducta",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
         }
     }
 }

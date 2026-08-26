@@ -18,20 +18,20 @@ Resolución de fuente:
 
 URL de trabajo: https://www.bolsadecereales.com/datasets
 Seeds: 7
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
 [BOLCEREALES] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[BOLCEREALES] t=   5.2s | pag=  0 | files=   0 | data=  0 | cola=   6 | prio= 0 | https://www.bolsadecereales.com/datasets
-[BOLCEREALES] t=   6.0s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.bolsadecereales.com/estimaciones-informes
-[BOLCEREALES] t=   6.7s | pag=  0 | files=   0 | data=  0 | cola=   4 | prio= 0 | https://www.bolsadecereales.com/estimaciones-monitoreo
-[BOLCEREALES] t=   7.9s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.bolsadecereales.com/mercados
-[BOLCEREALES] t=   9.2s | pag=  0 | files=   0 | data=  0 | cola=   2 | prio= 0 | https://www.bolsadecereales.com/repositorio
-[BOLCEREALES] t=  10.2s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.bolsadecereales.com/estudios-documentos-trabajo
-[BOLCEREALES] t=  11.2s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://preciosfob.bolsadecereales.com/
+[BOLCEREALES] t=   6.0s | pag=  0 | files=   0 | data=  0 | cola=   6 | prio= 0 | https://www.bolsadecereales.com/datasets
+[BOLCEREALES] t=   6.8s | pag=  0 | files=   0 | data=  0 | cola=   5 | prio= 0 | https://www.bolsadecereales.com/estimaciones-informes
+[BOLCEREALES] t=   7.8s | pag=  0 | files=   0 | data=  0 | cola=   4 | prio= 0 | https://www.bolsadecereales.com/estimaciones-monitoreo
+[BOLCEREALES] t=   9.0s | pag=  0 | files=   0 | data=  0 | cola=   3 | prio= 0 | https://www.bolsadecereales.com/mercados
+[BOLCEREALES] t=  10.2s | pag=  0 | files=   0 | data=  0 | cola=   2 | prio= 0 | https://www.bolsadecereales.com/repositorio
+[BOLCEREALES] t=  11.1s | pag=  0 | files=   0 | data=  0 | cola=   1 | prio= 0 | https://www.bolsadecereales.com/estudios-documentos-trabajo
+[BOLCEREALES] t=  12.0s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://preciosfob.bolsadecereales.com/
 
 ================================================================================
 RESULTADO
@@ -41,15 +41,25 @@ Páginas visitadas:   0
 Archivos encontrados:    0
 Datasets web:         0
 Errores:              7
+Sondeos API fallidos: 0
 Motivo de parada:     frontier_exhausted
-Duración:             12.16 s
+Duración:             12.99 s
 Sitemaps procesados:  0
 URLs por sitemap:     0
 URLs sitemap en cola: 0
 
+Detalle de errores:
+  - https://www.bolsadecereales.com/datasets -> HTTPError: 403 Client Error: Forbidden for url: https://www.bolsadecereales.com/datasets
+  - https://www.bolsadecereales.com/estimaciones-informes -> HTTPError: 403 Client Error: Forbidden for url: https://www.bolsadecereales.com/estimaciones-informes
+  - https://www.bolsadecereales.com/estimaciones-monitoreo -> HTTPError: 403 Client Error: Forbidden for url: https://www.bolsadecereales.com/estimaciones-monitoreo
+  - https://www.bolsadecereales.com/mercados -> HTTPError: 403 Client Error: Forbidden for url: https://www.bolsadecereales.com/mercados
+  - https://www.bolsadecereales.com/repositorio -> HTTPError: 403 Client Error: Forbidden for url: https://www.bolsadecereales.com/repositorio
+  - https://www.bolsadecereales.com/estudios-documentos-trabajo -> HTTPError: 403 Client Error: Forbidden for url: https://www.bolsadecereales.com/estudios-documentos-trabajo
+  - https://preciosfob.bolsadecereales.com/ -> HTTPError: 403 Client Error: Forbidden for url: https://preciosfob.bolsadecereales.com/
+
 JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\bolcereales.json
 
 Trazabilidad:
-  Ejecución: 173
+  Ejecución: 230
   Estado:    PROCESSED
   Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

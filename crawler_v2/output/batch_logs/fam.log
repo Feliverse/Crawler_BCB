@@ -17,109 +17,100 @@ Resolución de fuente:
 
 URL de trabajo: https://fam.org.bo/
 Seeds: 2
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
-[FAM] SITEMAP | docs=4 | urls=87 | en_cola=87 | errores=1
-[FAM] t=  20.5s | pag=  0 | files=   0 | data=  0 | cola=  88 | prio= 0 | https://fam.org.bo/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/1566
-[FAM] t=  22.6s | pag=  1 | files=   0 | data=  0 | cola= 109 | prio= 0 | https://fam.org.bo/marco-legal/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/1561
-[FAM] t=  24.3s | pag=  2 | files=   2 | data=  0 | cola= 109 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/1566
-[FAM] t=  28.4s | pag=  2 | files=   2 | data=  0 | cola= 108 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/1561
-[FAM] t=  30.0s | pag=  2 | files=   2 | data=  0 | cola= 107 | prio=10 | https://fam.org.bo/gestion-ambiental-municipal/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/3339
-[FAM] t=  31.1s | pag=  3 | files=  72 | data=  0 | cola= 107 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/3339
-[FAM] t=  34.1s | pag=  3 | files=  72 | data=  0 | cola= 106 | prio=10 | https://datosurbanosdebolivia.fam.org.bo/
-[FAM] t=  34.2s | pag=  3 | files=  72 | data=  0 | cola= 105 | prio=10 | https://fam.org.bo/index.php/directorio-municipal/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/3735
-[FAM] t=  36.5s | pag=  4 | files=  73 | data=  0 | cola= 105 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/3735
-[FAM] t=  38.2s | pag=  4 | files=  73 | data=  0 | cola= 104 | prio=10 | https://redram.fam.org.bo/
-[FAM] t=  40.7s | pag=  4 | files=  73 | data=  0 | cola= 103 | prio=10 | https://fam.org.bo/publicaciones/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/873
-[FAM] t=  42.8s | pag=  5 | files=  75 | data=  0 | cola= 104 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/873
-[FAM] t=  45.2s | pag=  5 | files=  75 | data=  0 | cola= 103 | prio=10 | https://fam.org.bo/cartas-organicas-municipales/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/1099
-[FAM] t=  46.2s | pag=  6 | files=  97 | data=  0 | cola= 103 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/1099
-[FAM] t=  48.9s | pag=  6 | files=  97 | data=  0 | cola= 102 | prio=10 | https://fam.org.bo/compendio-normativo-municipal-3/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/pages/7786
-[FAM] t=  49.9s | pag=  7 | files=  98 | data=  0 | cola= 102 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/pages/7786
-[FAM] t=  51.7s | pag=  7 | files=  98 | data=  0 | cola= 101 | prio=10 | https://fam.org.bo/index.php/gestion-ambiental-municipal/
-[FAM] t=  53.9s | pag=  7 | files=  98 | data=  0 | cola= 100 | prio=25 | https://fam.org.bo/ix-congreso-ordinario-nacional-de-la-fam-bolivia/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6454
-[FAM] t=  55.6s | pag=  8 | files=  98 | data=  0 | cola= 108 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6454
-[FAM] t=  57.7s | pag=  8 | files=  98 | data=  0 | cola= 107 | prio=10 | https://fam.org.bo/category/noticias-municipales/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/categories/17
-[FAM] t=  58.6s | pag=  9 | files=  98 | data=  0 | cola= 108 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/categories/17
-[FAM] t=  60.7s | pag=  9 | files=  98 | data=  0 | cola= 107 | prio=10 | https://fam.org.bo/tag/sistema-asociativo-municipal/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/tags/72
-[FAM] t=  62.5s | pag= 10 | files=  98 | data=  0 | cola= 107 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/tags/72
-[FAM] t=  64.0s | pag= 10 | files=  98 | data=  0 | cola= 106 | prio=10 | https://fam.org.bo/category/noticias-municipales/page/2/
-[FAM] t=  65.2s | pag= 11 | files=  98 | data=  0 | cola= 105 | prio=25 | https://fam.org.bo/asamblea-general-de-la-asociacion-de-municipalidades-de-bolivia-amb/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6455
-[FAM] t=  65.8s | pag= 12 | files=  98 | data=  0 | cola= 105 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6455
-[FAM] t=  67.8s | pag= 12 | files=  98 | data=  0 | cola= 104 | prio=25 | https://fam.org.bo/conmemoracion-a-los-196-anos-de-independencia-de-bolivia/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6456
-[FAM] t=  69.2s | pag= 13 | files=  98 | data=  0 | cola= 104 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6456
-[FAM] t=  70.7s | pag= 13 | files=  98 | data=  0 | cola= 103 | prio=25 | https://fam.org.bo/firma-de-acuerdos-en-favor-de-los-ninos-ninas-adolescentes-y-mujeres/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6457
-[FAM] t=  72.1s | pag= 14 | files=  98 | data=  0 | cola= 103 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6457
-[FAM] t=  73.5s | pag= 14 | files=  98 | data=  0 | cola= 102 | prio=25 | https://fam.org.bo/firma-de-acuerdos-en-favor-de-los-ninosninas-adolescentes-y-mujeres/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6458
-[FAM] t=  74.5s | pag= 15 | files=  98 | data=  0 | cola= 102 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6458
-[FAM] t=  75.5s | pag= 15 | files=  98 | data=  0 | cola= 101 | prio=25 | https://fam.org.bo/segunda-version-del-foro-de-municipios-gestion-integral-de-residuos/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6459
-[FAM] t=  76.7s | pag= 16 | files=  98 | data=  0 | cola= 101 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6459
-[FAM] t=  77.8s | pag= 16 | files=  98 | data=  0 | cola= 100 | prio=25 | https://fam.org.bo/1ra-reunion-de-consejo-directivo-de-la-fam-bolivia-gestion-2021-2023/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6460
-[FAM] t=  78.9s | pag= 17 | files=  98 | data=  0 | cola= 100 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6460
-[FAM] t=  80.4s | pag= 17 | files=  98 | data=  0 | cola=  99 | prio=25 | https://fam.org.bo/curso-de-gestion-de-riesgo-de-desastres-en-la-planificacion-del-desarrollo-municipal/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6461
-[FAM] t=  81.4s | pag= 18 | files=  98 | data=  0 | cola=  99 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6461
-[FAM] t=  82.8s | pag= 18 | files=  98 | data=  0 | cola=  98 | prio=25 | https://fam.org.bo/taller-sobre-formulacion-del-poa-en-oruro/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6462
-[FAM] t=  84.2s | pag= 19 | files=  98 | data=  0 | cola=  98 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6462
-[FAM] t=  85.5s | pag= 19 | files=  98 | data=  0 | cola=  97 | prio=25 | https://fam.org.bo/taller-formulacion-del-poa-en-el-departamento-de-tarija/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6463
-[FAM] t=  86.5s | pag= 20 | files=  98 | data=  0 | cola=  97 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6463
-[FAM] t=  87.9s | pag= 20 | files=  98 | data=  0 | cola=  96 | prio=25 | https://fam.org.bo/taller-de-formulacion-del-plan-operativo-anual-en-chuquisaca/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6464
-[FAM] t=  89.2s | pag= 21 | files=  98 | data=  0 | cola=  96 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6464
-[FAM] t=  90.6s | pag= 21 | files=  98 | data=  0 | cola=  95 | prio=25 | https://fam.org.bo/reunion-de-alcaldes-y-alcaldesas-de-ciudades-capitales-y-el-alto/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6465
-[FAM] t=  91.8s | pag= 22 | files=  98 | data=  0 | cola=  95 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6465
-[FAM] t=  93.1s | pag= 22 | files=  98 | data=  0 | cola=  94 | prio=25 | https://fam.org.bo/lanzamiento-de-expo-g-a-m-s-pretende-ser-un-puntal-de-reactivacion-economica-productiva/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6466
-[FAM] t=  94.2s | pag= 23 | files=  98 | data=  0 | cola=  94 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6466
-[FAM] t=  95.6s | pag= 23 | files=  98 | data=  0 | cola=  93 | prio=25 | https://fam.org.bo/reunion-de-coordinacion-interinstitucional/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6467
-[FAM] t=  96.5s | pag= 24 | files=  98 | data=  0 | cola=  93 | prio= 1 | https://fam.org.bo/wp-json/wp/v2/posts/6467
-[FAM] t=  98.1s | pag= 24 | files=  98 | data=  0 | cola=  92 | prio=25 | https://fam.org.bo/farid-es-un-hecho-y-va-reactivar-la-economia-de-nuestros-gobiernos-locales/
-[FAM] API REFERENCIA | html_link_reference | https://fam.org.bo/wp-json/wp/v2/posts/6468
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              fam
-Páginas visitadas:   25
-Archivos encontrados:   98
-Datasets web:         0
-Errores:              2
-Motivo de parada:     max_pages
-Duración:             99.28 s
-Sitemaps procesados:  4
-URLs por sitemap:     87
-URLs sitemap en cola: 87
-
-Formatos:
-  - PDF    : 98
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fam.json
-
-Trazabilidad:
-  Ejecución: 181
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
+    self._queue_sitemap_seeds(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queue,
+        ^^^^^^
+        result,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
+    discovery = self.sitemap_discovery.discover(
+        base_url=base_url,
+    ...<3 lines>...
+        max_document_bytes=self.max_sitemap_bytes,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 479, in discover
+    for sitemap_url in self._robots_sitemaps(
+                       ~~~~~~~~~~~~~~~~~~~~~^
+        normalized_base,
+        ^^^^^^^^^^^^^^^^
+        allowed_domains,
+        ^^^^^^^^^^^^^^^^
+        request_timeout=robots_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 265, in _robots_sitemaps
+    response = self.client.get(
+        robots_url,
+        raise_for_status=False,
+        timeout=request_timeout,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
+    self.session.get(
+    ~~~~~~~~~~~~~~~~^
+        url,
+        ^^^^
+    ...<16 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

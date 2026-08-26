@@ -17,60 +17,230 @@ Resolución de fuente:
 
 URL de trabajo: https://www.redenlace.com.bo/
 Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
 [ATC] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[ATC] t=   3.8s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.redenlace.com.bo/
-[ATC] t=   4.7s | pag=  1 | files=   0 | data=  0 | cola=  42 | prio=10 | https://www.redenlace.com.bo/sobre-red-enlace/memorias
-[ATC] t=   5.2s | pag=  2 | files=  12 | data=  0 | cola=  41 | prio=10 | https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia
-[ATC] t=   6.1s | pag=  3 | files=  31 | data=  0 | cola=  40 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera
-[ATC] t=   6.6s | pag=  4 | files=  31 | data=  0 | cola=  41 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/aprendiendo-con-red-enlace
-[ATC] t=   7.0s | pag=  5 | files=  31 | data=  0 | cola=  40 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera
-[ATC] t=   7.6s | pag=  6 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/solicitud-de-reembolso-activos-virtuales
-[ATC] t=   8.3s | pag=  7 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/punto-de-reclamo
-[ATC] t=   9.1s | pag=  8 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios
-[ATC] t=   9.9s | pag=  9 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte
-[ATC] t=  10.7s | pag= 10 | files=  39 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace
-[ATC] t=  11.6s | pag= 11 | files=  39 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes
-[ATC] t=  12.6s | pag= 12 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/afiliate-en-linea
-[ATC] t=  13.5s | pag= 13 | files=  39 | data=  0 | cola=  42 | prio=50 | https://portal.redenlace.com.bo/
-[ATC] t=  14.2s | pag= 14 | files=  39 | data=  0 | cola=  41 | prio=50 | https://afiliaciones.redenlace.com.bo/Solicitud/Externo/Mantenimiento
-[ATC] t=  15.4s | pag= 15 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/quiero-cobrar-con-tarjeta-en-mi-negocio
-[ATC] t=  16.2s | pag= 16 | files=  39 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/quiero-cobrar-por-internet-en-mi-tienda-virtual
-[ATC] t=  16.7s | pag= 17 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/activos-virtuales
-[ATC] t=  17.1s | pag= 18 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/varias-formas-de-cobrar-con-red-enlace
-[ATC] t=  17.9s | pag= 19 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/pix
-[ATC] t=  18.5s | pag= 19 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/la-red-mas-segura-de-bolivia
-[ATC] t=  19.1s | pag= 20 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/enlazate-online
-[ATC] t=  19.7s | pag= 21 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/red-enlace-acepta-las-exclusivas-tarjetas-american-express
-[ATC] t=  20.5s | pag= 22 | files=  39 | data=  0 | cola=  35 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog
-[ATC] t=  21.0s | pag= 23 | files=  39 | data=  0 | cola=  34 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/declaracion-de-privacidad-y-confidencialidad-de-la-informacion-de-la-app-de-portal-de-comercios
-[ATC] t=  21.5s | pag= 24 | files=  39 | data=  0 | cola=  33 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales
+[ATC] t=   4.6s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.redenlace.com.bo/
+[ATC] t=   5.5s | pag=  1 | files=   0 | data=  0 | cola=  42 | prio=10 | https://www.redenlace.com.bo/sobre-red-enlace/memorias
+[ATC] t=   6.3s | pag=  2 | files=  12 | data=  0 | cola=  41 | prio=10 | https://www.redenlace.com.bo/sobre-red-enlace/documentos-relacionados-al-contrato-de-adquirencia
+[ATC] t=   7.1s | pag=  3 | files=  31 | data=  0 | cola=  40 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera
+[ATC] t=   7.8s | pag=  4 | files=  31 | data=  0 | cola=  41 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/aprendiendo-con-red-enlace
+[ATC] t=   8.6s | pag=  5 | files=  31 | data=  0 | cola=  40 | prio=10 | https://www.redenlace.com.bo/secciones-de-interes/educacion-financiera/programa-de-educacion-financiera
+[ATC] t=   9.5s | pag=  6 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/solicitud-de-reembolso-activos-virtuales
+[ATC] t=  10.4s | pag=  7 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/punto-de-reclamo
+[ATC] t=  11.4s | pag=  8 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios
+[ATC] t=  12.2s | pag=  9 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte
+[ATC] t=  12.8s | pag= 10 | files=  39 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace
+[ATC] t=  13.4s | pag= 11 | files=  39 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes
+[ATC] t=  14.1s | pag= 12 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/afiliate-en-linea
+[ATC] t=  14.6s | pag= 13 | files=  39 | data=  0 | cola=  42 | prio=50 | https://portal.redenlace.com.bo/
+[ATC] t=  15.6s | pag= 14 | files=  39 | data=  0 | cola=  41 | prio=50 | https://afiliaciones.redenlace.com.bo/Solicitud/Externo/Mantenimiento
+[ATC] t=  16.9s | pag= 15 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/quiero-cobrar-con-tarjeta-en-mi-negocio
+[ATC] t=  17.7s | pag= 16 | files=  39 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/quiero-cobrar-por-internet-en-mi-tienda-virtual
+[ATC] t=  18.4s | pag= 17 | files=  39 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/activos-virtuales
+[ATC] t=  19.3s | pag= 18 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/varias-formas-de-cobrar-con-red-enlace
+[ATC] t=  20.2s | pag= 19 | files=  39 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/pix
+[ATC] t=  20.8s | pag= 19 | files=  39 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/la-red-mas-segura-de-bolivia
+[ATC] t=  22.1s | pag= 20 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/enlazate-online
+[ATC] t=  22.6s | pag= 21 | files=  39 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/red-enlace-acepta-las-exclusivas-tarjetas-american-express
+[ATC] t=  23.5s | pag= 22 | files=  39 | data=  0 | cola=  35 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog
+[ATC] t=  24.2s | pag= 23 | files=  39 | data=  0 | cola=  34 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/blog/declaracion-de-privacidad-y-confidencialidad-de-la-informacion-de-la-app-de-portal-de-comercios
+[ATC] t=  24.7s | pag= 24 | files=  39 | data=  0 | cola=  33 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales
+[ATC] t=  25.5s | pag= 25 | files=  39 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/medidas-de-seguridad-con-tu-pos
+[ATC] t=  26.1s | pag= 26 | files=  39 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/que-es-eon-enlazate-online-de-red-enlace
+[ATC] t=  27.0s | pag= 27 | files=  39 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/tutorial-transaccion-qr-simple-con-red-enlace
+[ATC] t=  27.7s | pag= 28 | files=  39 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/oficinas
+[ATC] t=  28.5s | pag= 29 | files=  39 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros
+[ATC] t=  29.6s | pag= 30 | files=  47 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace
+[ATC] t=  30.5s | pag= 31 | files=  47 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/procedimiento-pr
+[ATC] t=  31.4s | pag= 32 | files=  47 | data=  0 | cola=  47 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/promociones
+[ATC] t=  32.4s | pag= 33 | files=  47 | data=  0 | cola=  46 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/comunicados-importantes
+[ATC] t=  32.8s | pag= 34 | files=  47 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/oficina-central
+[ATC] t=  33.5s | pag= 34 | files=  47 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/cochabamba
+[ATC] t=  34.4s | pag= 34 | files=  47 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/sobre-red-enlace/santa-cruz
+[ATC] t=  35.6s | pag= 34 | files=  47 | data=  0 | cola=  42 | prio=50 | https://www.redenlace.com.bo/terminos-y-condiciones-de-uso-del-sitio-web
+[ATC] t=  36.8s | pag= 35 | files=  47 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/politicas-de-privacidad
+[ATC] t=  37.4s | pag= 36 | files=  47 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/m.me/RedEnlace.ATC
+[ATC] t=  38.1s | pag= 36 | files=  47 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back
+[ATC] t=  39.2s | pag= 37 | files=  47 | data=  0 | cola=  48 | prio=10 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/supermercado-america
+[ATC] t=  39.9s | pag= 38 | files=  47 | data=  0 | cola=  47 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/tigo-money
+[ATC] t=  40.9s | pag= 39 | files=  47 | data=  0 | cola=  47 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/simple-qr
+[ATC] t=  41.5s | pag= 40 | files=  47 | data=  0 | cola=  46 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/t-c-billetera
+[ATC] t=  42.0s | pag= 41 | files=  47 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/instructivos-enlazate-online
+[ATC] t=  42.7s | pag= 42 | files=  49 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/app-portal-de-comercios
+[ATC] t=  43.2s | pag= 43 | files=  50 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte/portal-de-comercios
+[ATC] t=  43.8s | pag= 44 | files=  50 | data=  0 | cola=  42 | prio=50 | https://www.redenlace.com.bo/soporte/call-center-canales-digitales-y-redes-sociales
+[ATC] t=  44.6s | pag= 45 | files=  50 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes
+[ATC] t=  45.1s | pag= 46 | files=  50 | data=  0 | cola=  46 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/
+[ATC] t=  45.9s | pag= 47 | files=  50 | data=  0 | cola=  46 | prio=50 | https://www.redenlace.com.bo/solicita-un-ejecutivo
+[ATC] t=  46.4s | pag= 48 | files=  50 | data=  0 | cola=  46 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon
+[ATC] t=  47.0s | pag= 49 | files=  50 | data=  0 | cola=  55 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace
+[ATC] t=  47.5s | pag= 50 | files=  50 | data=  0 | cola=  64 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/impresion-de-reporte-en-el-newpos
+[ATC] t=  48.1s | pag= 51 | files=  50 | data=  0 | cola=  63 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos
+[ATC] t=  49.1s | pag= 52 | files=  50 | data=  0 | cola=  63 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios
+[ATC] t=  49.9s | pag= 53 | files=  50 | data=  0 | cola=  75 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/como-gestionar-reportes-en-el-portal-de-comercios-de-red-enlace
+[ATC] t=  50.4s | pag= 54 | files=  50 | data=  0 | cola=  74 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace
+[ATC] t=  51.3s | pag= 55 | files=  50 | data=  0 | cola=  79 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace/como-revisar-el-historico-de-mis-transacciones-en-la-billetera-enlace
+[ATC] t=  51.9s | pag= 56 | files=  50 | data=  0 | cola=  78 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-cashback
+[ATC] t=  52.8s | pag= 57 | files=  50 | data=  0 | cola=  79 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-conversion-dinamica-de-moneda-dcc
+[ATC] t=  53.5s | pag= 58 | files=  50 | data=  0 | cola=  82 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos
+[ATC] t=  54.2s | pag= 59 | files=  50 | data=  0 | cola=  89 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/compra-pos
+[ATC] t=  54.9s | pag= 60 | files=  50 | data=  0 | cola=  88 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/cuotas
+[ATC] t=  55.7s | pag= 61 | files=  50 | data=  0 | cola=  87 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/pest-bisa
+[ATC] t=  56.2s | pag= 62 | files=  50 | data=  0 | cola=  86 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-afiliarme-a-eon-enlazate-online-de-red-enlace
+[ATC] t=  57.0s | pag= 63 | files=  50 | data=  0 | cola=  85 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-personalizar-la-pasarela-de-pagos-de-eon-enlazate-online-de-red-enlace
+[ATC] t=  57.8s | pag= 64 | files=  50 | data=  0 | cola=  84 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-por-email-mediante-eon-enlazate-online-de-red-enlace
+[ATC] t=  58.3s | pag= 65 | files=  50 | data=  0 | cola=  83 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/como-funcionan-los-cobros-con-qr-simple-en-red-enlace
+[ATC] t=  59.1s | pag= 66 | files=  50 | data=  0 | cola=  82 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/como-funcionan-los-cobros-con-tigo-money-en-red-enlace
+[ATC] t=  59.9s | pag= 67 | files=  50 | data=  0 | cola=  81 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/tutorial-transaccion-tigo-money-con-red-enlace
+[ATC] t=  60.8s | pag= 68 | files=  50 | data=  0 | cola=  80 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/promociones-cyberweek
+[ATC] t=  61.4s | pag= 69 | files=  50 | data=  0 | cola=  79 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/visa-catar-2022
+[ATC] t=  61.9s | pag= 70 | files=  52 | data=  0 | cola=  78 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/pronostico-mundialista
+[ATC] t=  62.7s | pag= 71 | files=  53 | data=  0 | cola=  78 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/procedimiento-pr/como-se-procesa-un-reclamo
+[ATC] t=  63.2s | pag= 72 | files=  53 | data=  0 | cola=  77 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/procedimiento-pr/procedimiento-para-reclamos
+[ATC] t=  64.1s | pag= 73 | files=  54 | data=  0 | cola=  76 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/procedimiento-pr/procedimiento-para-reclamos-en-segunda-instancia
+[ATC] t=  64.9s | pag= 74 | files=  55 | data=  0 | cola=  75 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios
+[ATC] t=  65.6s | pag= 75 | files=  55 | data=  0 | cola=  74 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/casa-ideas
+[ATC] t=  66.2s | pag= 76 | files=  55 | data=  0 | cola=  73 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/ketal
+[ATC] t=  66.8s | pag= 77 | files=  55 | data=  0 | cola=  72 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/biopetrol
+[ATC] t=  67.5s | pag= 78 | files=  55 | data=  0 | cola=  71 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/tiendas-wow
+[ATC] t=  68.3s | pag= 79 | files=  55 | data=  0 | cola=  70 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/farmacias-chavez-
+[ATC] t=  68.8s | pag= 80 | files=  55 | data=  0 | cola=  69 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/fidalga
+[ATC] t=  69.7s | pag= 81 | files=  55 | data=  0 | cola=  68 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/supersur
+[ATC] t=  70.2s | pag= 82 | files=  55 | data=  0 | cola=  67 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/otros-servicios/cash-back/surtidor-orsa
+[ATC] t=  71.1s | pag= 83 | files=  55 | data=  0 | cola=  66 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/tutorial-anulacion-de-una-transaccion-tigo-money-con-red-enlace
+[ATC] t=  71.9s | pag= 84 | files=  55 | data=  0 | cola=  65 | prio=50 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes/preguntas-sobre-nuestros-servicios
+[ATC] t=  72.9s | pag= 85 | files=  55 | data=  0 | cola=  64 | prio=50 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes/preguntas-sobre-soporte
+[ATC] t=  73.3s | pag= 86 | files=  55 | data=  0 | cola=  63 | prio=50 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes/preguntas-sobre-el-portal-de-comercios
+[ATC] t=  74.2s | pag= 87 | files=  55 | data=  0 | cola=  62 | prio=50 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes/preguntas-sobre-billetera-enlace
+[ATC] t=  74.8s | pag= 88 | files=  55 | data=  0 | cola=  61 | prio=50 | https://www.redenlace.com.bo/productos-y-servicios/m.me/RedEnlace.ATC
+[ATC] t=  75.5s | pag= 89 | files=  55 | data=  0 | cola=  60 | prio=50 | https://afiliaciones.redenlace.com.bo/Solicitud/Externo/Prospecto
+[ATC] t=  76.2s | pag= 90 | files=  55 | data=  0 | cola=  59 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-a-traves-de-un-link-de-cobro-mediante-eon-enlazate-online-de-red-enlace
+[ATC] t=  76.8s | pag= 91 | files=  55 | data=  0 | cola=  58 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-por-sms-mediante-eon-enlazate-online-de-red-enlace
+[ATC] t=  77.5s | pag= 92 | files=  55 | data=  0 | cola=  57 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-iniciar-sesion-por-primera-vez-en-eon
+[ATC] t=  78.4s | pag= 93 | files=  55 | data=  0 | cola=  56 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-por-whatsapp-mediante-eon-enlazate-online-de-red-enlace
+[ATC] t=  79.2s | pag= 94 | files=  55 | data=  0 | cola=  55 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-con-qr-multiple-con-eon-enlazate-online-de-red-enlace
+[ATC] t=  80.0s | pag= 95 | files=  55 | data=  0 | cola=  54 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/pay-safely-through-the-eon-payment-link-enlazate-online-de-red-enlace
+[ATC] t=  81.0s | pag= 96 | files=  55 | data=  0 | cola=  53 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-pagar-con-un-link-de-cobro-mediante-eon-enlazate-online-de-red-enlace
+[ATC] t=  81.4s | pag= 97 | files=  55 | data=  0 | cola=  52 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/cmo-pagar-facilmente-mendiante-un-qr-de-cobro-con-eon-enlzate-online-de-red-enlace
+[ATC] t=  82.0s | pag= 98 | files=  55 | data=  0 | cola=  51 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/p=2/
+[ATC] t=  82.7s | pag= 99 | files=  55 | data=  0 | cola=  63 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-generar-un-reporte-de-transacciones-por-estado-en-eon-enlazate-online-de-red-enlace
+[ATC] t=  83.5s | pag=100 | files=  55 | data=  0 | cola=  62 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-generar-un-reporte-por-canal-en-eon-enlazate-online-de-red-enlace
+[ATC] t=  84.0s | pag=101 | files=  55 | data=  0 | cola=  61 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-generar-un-reporte-de-peticiones-de-pago-en-eon-enlazate-online-de-red-enlace
+[ATC] t=  84.8s | pag=102 | files=  55 | data=  0 | cola=  60 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/p=3/
+[ATC] t=  85.5s | pag=103 | files=  55 | data=  0 | cola=  60 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/re-impresion-de-transaccion-en-el-newpos
+[ATC] t=  86.0s | pag=104 | files=  55 | data=  0 | cola=  59 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/compra-con-propina-en-el-newpos
+[ATC] t=  86.6s | pag=105 | files=  55 | data=  0 | cola=  58 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/compra-en-cuotas-en-el-newpos
+[ATC] t=  87.0s | pag=106 | files=  55 | data=  0 | cola=  57 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/cash-back-solicita-dinero-en-efectivo-al-momento-de-pagar-tus-compras-con-red-enlace
+[ATC] t=  87.7s | pag=107 | files=  55 | data=  0 | cola=  56 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/ultimo-deposito-de-lote-en-el-newpos
+[ATC] t=  88.4s | pag=108 | files=  55 | data=  0 | cola=  55 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/compra-sin-tarjeta-en-el-newpos
+[ATC] t=  89.2s | pag=109 | files=  55 | data=  0 | cola=  54 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/compra-en-el-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace
+[ATC] t=  90.1s | pag=110 | files=  55 | data=  0 | cola=  53 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/anulacion-de-transaccion-en-el-newpos
+[ATC] t=  90.6s | pag=111 | files=  55 | data=  0 | cola=  52 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/realiza-un-deposito-de-lote-en-el-newpos
+[ATC] t=  91.1s | pag=112 | files=  55 | data=  0 | cola=  51 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/tutorial-reimpresion-de-cobranzas-de-cobros-qr-simple-con-red-enlace
+[ATC] t=  91.5s | pag=113 | files=  55 | data=  0 | cola=  52 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/el-portal-de-comercios
+[ATC] t=  92.3s | pag=114 | files=  55 | data=  0 | cola=  51 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/-como-ingreso-y-reviso-mis-transacciones
+[ATC] t=  92.9s | pag=115 | files=  55 | data=  0 | cola=  50 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/como-realizo-requerimientos
+[ATC] t=  93.8s | pag=116 | files=  55 | data=  0 | cola=  49 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/como-gestionar-roles-y-usuarios-en-el-portal-de-comercios-de-red-enlace
+[ATC] t=  94.3s | pag=117 | files=  55 | data=  0 | cola=  48 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/como-responder-controversias-en-el-portal-de-comercios-de-red-enlace
+[ATC] t=  95.1s | pag=118 | files=  55 | data=  0 | cola=  47 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/que-es-una-regularizacion-y-cual-es-la-diferencia-con-un-contracargo
+[ATC] t=  95.9s | pag=119 | files=  55 | data=  0 | cola=  46 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/parte-1-como-administrar-roles-y-usuarios-en-la-app-portal-de-comercios-de-red-enlace
+[ATC] t=  96.8s | pag=120 | files=  55 | data=  0 | cola=  45 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/parte-2-como-invitar-usuarios-desde-la-app-portal-de-comercios-de-red-enlace
+[ATC] t=  97.5s | pag=121 | files=  55 | data=  0 | cola=  44 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/parte-3-como-modificar-y-verificar-estados-de-usuarios-desde-la-app-portal-de-comercios
+[ATC] t=  98.5s | pag=122 | files=  55 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/parte-4-como-restaurar-tu-contrasena-desde-la-app-portal-de-comercios-de-red-enlace
+[ATC] t=  99.3s | pag=123 | files=  55 | data=  0 | cola=  42 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/parte-5-como-revisar-tus-transacciones-desde-la-app-portal-de-comercios-de-red-enlace
+[ATC] t=  99.8s | pag=124 | files=  55 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/p=2/
+[ATC] t= 100.6s | pag=125 | files=  55 | data=  0 | cola=  44 | prio=10 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/como-gestionar-mis-archivos-de-conciliacion-en-el-portal-de-comercios-de-red-enlace
+[ATC] t= 101.5s | pag=126 | files=  55 | data=  0 | cola=  43 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace/registro-y-digitalizacion-de-la-billetera-enlace
+[ATC] t= 102.5s | pag=127 | files=  55 | data=  0 | cola=  42 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace/como-pagar-con-la-billetera-enlace
+[ATC] t= 102.9s | pag=128 | files=  55 | data=  0 | cola=  41 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace/como-cobrar-con-la-billetera-enlace
+[ATC] t= 103.3s | pag=129 | files=  55 | data=  0 | cola=  40 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace/como-bloqueo-mi-tarjeta-con-la-billetera-enlace
+[ATC] t= 104.2s | pag=130 | files=  55 | data=  0 | cola=  39 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-billetera-enlace/como-realizo-el-escaneo-del-numero-de-mi-tarjeta-en-la-billetera-enlace-de-red-enlace
+[ATC] t= 105.0s | pag=131 | files=  55 | data=  0 | cola=  38 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-cashback/que-es-y-como-funciona-el-servicio-cashback-de-red-enlace
+[ATC] t= 105.5s | pag=132 | files=  55 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-cashback/como-realizar-una-transaccion-caxhback-en-el-newpos-de-red-enlace
+[ATC] t= 106.1s | pag=133 | files=  55 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-conversion-dinamica-de-moneda-dcc/que-es-dcc-conversion-dinamica-de-moneda
+[ATC] t= 106.8s | pag=134 | files=  55 | data=  0 | cola=  37 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-conversion-dinamica-de-moneda-dcc/cobro-dcc-con-tarjeta-insertada-red-enlace
+[ATC] t= 107.7s | pag=135 | files=  55 | data=  0 | cola=  36 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-conversion-dinamica-de-moneda-dcc/reversa-de-una-transaccion-dcc-conversion-dinamica-de-moneda-red-enlace
+[ATC] t= 108.6s | pag=136 | files=  55 | data=  0 | cola=  35 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/pest-bnb
+[ATC] t= 109.4s | pag=137 | files=  55 | data=  0 | cola=  34 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/club-de-fidelizacion
+[ATC] t= 110.2s | pag=138 | files=  55 | data=  0 | cola=  33 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/cash-back
+[ATC] t= 110.7s | pag=139 | files=  55 | data=  0 | cola=  32 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/anulacion
+[ATC] t= 111.1s | pag=140 | files=  55 | data=  0 | cola=  31 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/reservas
+[ATC] t= 112.0s | pag=141 | files=  55 | data=  0 | cola=  30 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/banca-joven
+[ATC] t= 112.7s | pag=142 | files=  55 | data=  0 | cola=  29 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/deposito-del-lote
+[ATC] t= 113.5s | pag=143 | files=  55 | data=  0 | cola=  28 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/p=2/
+[ATC] t= 114.1s | pag=144 | files=  55 | data=  0 | cola=  29 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/promociones-red-enlace/www.paginasiete.bo/golazzos
+[ATC] t= 114.7s | pag=144 | files=  55 | data=  0 | cola=  28 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-a-tarjetas-virutales-de-bookingcom-enlazate-online-de-red-enlace
+[ATC] t= 115.6s | pag=145 | files=  55 | data=  0 | cola=  27 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-a-tarjetas-virtuales-expedia-enlazate-online-de-red-enlace
+[ATC] t= 116.4s | pag=146 | files=  55 | data=  0 | cola=  26 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/recomendaciones-para-el-cobro-de-tarjetas-de-credito-virtuales-mediante-eon-de-red-enlace
+[ATC] t= 116.9s | pag=147 | files=  55 | data=  0 | cola=  25 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-cobrar-desde-tiktok-mediante-eon-enlazate-online-de-red-enlace
+[ATC] t= 117.4s | pag=148 | files=  55 | data=  0 | cola=  24 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-revertir-una-transaccion-en-eon-enlazate-online-de-red-enlace
+[ATC] t= 118.2s | pag=149 | files=  55 | data=  0 | cola=  23 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-crear-roles-y-delegar-usuarios-en-eon-enlazate-online-de-red-enlace
+[ATC] t= 119.1s | pag=150 | files=  55 | data=  0 | cola=  22 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/metodo-de-autenticacion-google-authenticator-enlazate-online-de-red-enlace
+[ATC] t= 119.8s | pag=151 | files=  55 | data=  0 | cola=  21 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-pagar-facil-mediante-un-email-de-cobro-en-eon-enlazate-online-de-red-enlace
+[ATC] t= 120.6s | pag=152 | files=  55 | data=  0 | cola=  20 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-pagar-facil-mediante-un-whatsapp-de-cobro-en-eon-enlazate-online-de-red-enlace
+[ATC] t= 121.6s | pag=153 | files=  55 | data=  0 | cola=  19 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/p=1/
+[ATC] t= 122.4s | pag=154 | files=  55 | data=  0 | cola=  18 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-enlazate-online-eon/como-pagar-facil-mediante-un-sms-de-cobro-en-eon-enlazate-online-de-red-enlace
+[ATC] t= 122.9s | pag=155 | files=  55 | data=  0 | cola=  17 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/800103366
+[ATC] t= 123.8s | pag=155 | files=  55 | data=  0 | cola=  16 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-multicobro-en-los-newpos/+59171567077
+[ATC] t= 125.0s | pag=155 | files=  55 | data=  0 | cola=  15 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/parte-6-como-revisar-tus-abonos-desde-la-app-portal-de-comercios-de-red-enlace
+[ATC] t= 126.0s | pag=156 | files=  55 | data=  0 | cola=  14 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/como-revisar-y-administrar-tus-facturas-desde-la-app-portal-de-comercios-de-red-enlace
+[ATC] t= 126.6s | pag=157 | files=  55 | data=  0 | cola=  13 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-portal-de-comercios/p=1/
+[ATC] t= 127.1s | pag=158 | files=  55 | data=  0 | cola=  12 | prio=50 | https://www.redenlace.com.bo/simple99/tutorials/edit/www.facebook.com/RedEnlace.ATC
+[ATC] t= 127.5s | pag=158 | files=  55 | data=  0 | cola=  11 | prio=50 | https://www.redenlace.com.bo/simple99/tutorials/edit/www.redenlace.com.bo
+[ATC] t= 128.9s | pag=159 | files=  55 | data=  0 | cola=  10 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/propinas
+[ATC] t= 129.4s | pag=160 | files=  55 | data=  0 | cola=   9 | prio=50 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/p=1/
+[ATC] t= 129.9s | pag=161 | files=  55 | data=  0 | cola=   8 | prio=70 | https://www.redenlace.com.bo/productos-y-servicios/contacto-pos
+[ATC] t= 130.5s | pag=162 | files=  55 | data=  0 | cola=   7 | prio=70 | https://www.redenlace.com.bo/secciones-de-interes/blog/declaracion-de-privacidad-y-confidencialidad-de-la-informacion-de-contactopos
+[ATC] t= 130.9s | pag=163 | files=  55 | data=  0 | cola=   6 | prio=70 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-newpos-la-nueva-terminal-de-cobro-con-tarjeta-de-red-enlace/compra-con-contactless-en-el-newpos
+[ATC] t= 131.9s | pag=164 | files=  55 | data=  0 | cola=   5 | prio=70 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-pos/compra-sin-contacto
+[ATC] t= 132.7s | pag=165 | files=  55 | data=  0 | cola=   4 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos
+[ATC] t= 133.6s | pag=166 | files=  55 | data=  0 | cola=   9 | prio=70 | https://www.redenlace.com.bo/secciones-de-interes/historias-de-exito
+[ATC] t= 134.3s | pag=167 | files=  55 | data=  0 | cola=  12 | prio=50 | https://www.redenlace.com.bo/secciones-de-interes/m.me/RedEnlace.ATC
+[ATC] t= 135.4s | pag=167 | files=  55 | data=  0 | cola=  11 | prio=70 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes/preguntas-sobre-nuestras-oficinas-y-contacto
+[ATC] t= 136.5s | pag=168 | files=  55 | data=  0 | cola=  10 | prio=70 | https://www.redenlace.com.bo/soporte/preguntas-frecuentes/preguntas-sobre-contacto-pos
+[ATC] t= 137.2s | pag=169 | files=  55 | data=  0 | cola=   9 | prio=70 | https://www.redenlace.com.bo/soporte/tutoriales/tutoriales-conversion-dinamica-de-moneda-dcc/cobro-dcc-con-tarjeta-contactless-o-sin-contacto-red-enlace
+[ATC] t= 138.0s | pag=170 | files=  55 | data=  0 | cola=   8 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/historia
+[ATC] t= 139.0s | pag=171 | files=  55 | data=  0 | cola=   7 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/mision-vision-proposito-y-valores
+[ATC] t= 139.7s | pag=172 | files=  55 | data=  0 | cola=   6 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/politica-de-la-calidad
+[ATC] t= 140.3s | pag=173 | files=  55 | data=  0 | cola=   5 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/codigo-de-etica
+[ATC] t= 141.0s | pag=174 | files=  56 | data=  0 | cola=   4 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/codigo-de-conducta
+[ATC] t= 141.7s | pag=175 | files=  57 | data=  0 | cola=   3 | prio=70 | https://www.redenlace.com.bo/sobre-red-enlace/quienes-somos/familia-ateciana
+[ATC] t= 142.4s | pag=176 | files=  57 | data=  0 | cola=   2 | prio=70 | https://www.redenlace.com.bo/secciones-de-interes/historias-de-exito/historias-de-exito-la-paz
+[ATC] t= 143.0s | pag=177 | files=  57 | data=  0 | cola=   2 | prio=70 | https://www.redenlace.com.bo/secciones-de-interes/historias-de-exito/historias-de-exito-santa-cruz
+[ATC] t= 143.9s | pag=178 | files=  57 | data=  0 | cola=   2 | prio=50 | https://www.redenlace.com.bo/simple99/contents/edit/m.me/RedEnlace.ATC
+[ATC] t= 144.5s | pag=178 | files=  57 | data=  0 | cola=   1 | prio=70 | https://www.redenlace.com.bo/secciones-de-interes/historias-de-exito/historias-de-exito-cochabamba
+[ATC] t= 145.3s | pag=179 | files=  57 | data=  0 | cola=   0 | prio=70 | https://www.redenlace.com.bo/secciones-de-interes/historias-de-exito/m.me/RedEnlace.ATC
 
 ================================================================================
 RESULTADO
 ================================================================================
 Fuente:              atc
-Páginas visitadas:   25
-Archivos encontrados:   39
+Páginas visitadas:   179
+Archivos encontrados:   57
 Datasets web:         0
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             22.19 s
+Errores:              2
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             146.24 s
 Sitemaps procesados:  0
 URLs por sitemap:     0
 URLs sitemap en cola: 0
 
+Detalle de errores:
+  - https://www.redenlace.com.bo/simple99/tutorials/edit/www.facebook.com/RedEnlace.ATC -> HTTPError: 404 Client Error: Not Found for url: https://www.redenlace.com.bo/simple99/tutorials/edit/www.facebook.com/RedEnlace.ATC
+  - https://www.redenlace.com.bo/simple99/contents/edit/m.me/RedEnlace.ATC -> HTTPError: 404 Client Error: Not Found for url: https://www.redenlace.com.bo/simple99/contents/edit/m.me/RedEnlace.ATC
+
 Formatos:
-  - PDF    : 39
+  - PDF    : 57
 
 JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\atc.json
 
 Trazabilidad:
-  Ejecución: 168
+  Ejecución: 224
   Estado:    PROCESSED
   Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

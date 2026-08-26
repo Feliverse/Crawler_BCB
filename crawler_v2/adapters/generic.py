@@ -9,6 +9,10 @@ from urllib.parse import (
 )
 
 
+# ============================================================
+# PRIORIDADES GENÉRICAS
+# ============================================================
+
 HIGH_PRIORITY_KEYWORDS = (
     "estadistica",
     "estadisticas",
@@ -27,41 +31,54 @@ HIGH_PRIORITY_KEYWORDS = (
     "historico",
     "historica",
     "historical",
+    "base-de-datos",
+    "base de datos",
+    "database",
+    "cuadro-estadistico",
+    "cuadro estadistico",
+    "cuadro estadístico",
+    "microdatos",
+    "microdata",
+    "cifras",
+    "excel",
+    "csv",
+    "xlsx",
+    "xls",
+    "json",
+    "geojson",
+    "parquet",
+    "zip",
+    "api",
+    "open-data",
+    "open data",
+    "descargar-datos",
+    "descargar datos",
+    "download-data",
+    "download data",
+)
+
+# Términos que pueden llevar a datos, pero que por sí solos
+# no deben tratarse como evidencia fuerte.
+MEDIUM_PRIORITY_KEYWORDS = (
     "boletin",
     "boletines",
     "bulletin",
     "anuario",
     "anuarios",
-    "publicacion",
-    "publicaciones",
-    "publication",
-    "publications",
     "reporte",
     "reportes",
     "report",
     "reports",
     "informe",
     "informes",
+    "publicacion",
+    "publicaciones",
+    "publication",
+    "publications",
     "descarga",
     "descargas",
     "download",
     "downloads",
-    "archivo",
-    "archivos",
-    "documento",
-    "documentos",
-    "cifras",
-    "economica",
-    "economicas",
-    "financiera",
-    "financieras",
-    "mercado",
-    "catalogo",
-    "catalog",
-    "excel",
-    "csv",
-    "xlsx",
-    "zip",
 )
 
 LOW_PRIORITY_KEYWORDS = (
@@ -83,6 +100,15 @@ LOW_PRIORITY_KEYWORDS = (
     "etica",
     "quienes-somos",
     "nosotros",
+    "auditoria",
+    "auditoría",
+    "reglamento",
+    "normativa",
+    "resolucion",
+    "resolución",
+    "convocatoria",
+    "formulario",
+    "organigrama",
 )
 
 IGNORE_KEYWORDS = (
@@ -148,15 +174,14 @@ class GenericAdapter:
     """
     Adapter genérico configurable.
 
-    La mayor parte de las fuentes deben poder resolverse con este adapter
-    más un archivo JSON de configuración. Los adapters específicos quedan
-    reservados para comportamientos que no se puedan expresar mediante:
+    Responsabilidad:
+    - decidir qué URLs vale la pena seguir;
+    - priorizar rutas prometedoras;
+    - mantener una ruta jerárquica razonable;
+    - exponer hooks para que adapters específicos ajusten
+      relevancia, sitemaps y catalogación SIN modificar el core.
 
-    - entrypoints
-    - allowed_domains
-    - prioridades adicionales
-    - inclusión/exclusión de rutas
-    - configuración de detección de datos
+    El adapter NO realiza HTTP y NO reemplaza al RelevanceEngine.
     """
 
     def __init__(
@@ -169,6 +194,14 @@ class GenericAdapter:
             HIGH_PRIORITY_KEYWORDS,
             config.get(
                 "high_priority_keywords",
+                [],
+            ),
+        )
+
+        self.medium_priority_keywords = self._merge_tokens(
+            MEDIUM_PRIORITY_KEYWORDS,
+            config.get(
+                "medium_priority_keywords",
                 [],
             ),
         )
@@ -193,6 +226,24 @@ class GenericAdapter:
             self._clean_tokens(
                 config.get(
                     "include_url_patterns",
+                    [],
+                )
+            )
+        )
+
+        self.relevance_positive_patterns = tuple(
+            self._clean_tokens(
+                config.get(
+                    "adapter_positive_patterns",
+                    [],
+                )
+            )
+        )
+
+        self.relevance_negative_patterns = tuple(
+            self._clean_tokens(
+                config.get(
+                    "adapter_negative_patterns",
                     [],
                 )
             )
@@ -236,6 +287,10 @@ class GenericAdapter:
                 or ""
             ).strip()
         }
+
+    # ========================================================
+    # TOKENS
+    # ========================================================
 
     @staticmethod
     def _clean_tokens(
@@ -298,6 +353,10 @@ class GenericAdapter:
         return tuple(
             values
         )
+
+    # ========================================================
+    # URL / TEXTO
+    # ========================================================
 
     @staticmethod
     def _canonical_for_scope(
@@ -386,6 +445,10 @@ class GenericAdapter:
             for pattern
             in self.include_url_patterns
         )
+
+    # ========================================================
+    # NAVEGACIÓN
+    # ========================================================
 
     def should_follow(
         self,
@@ -481,6 +544,13 @@ class GenericAdapter:
         ):
             return 10
 
+        if any(
+            keyword in searchable
+            for keyword
+            in self.medium_priority_keywords
+        ):
+            return 30
+
         parsed = urlparse(
             url
         )
@@ -520,9 +590,13 @@ class GenericAdapter:
             for keyword
             in self.low_priority_keywords
         ):
-            return 70
+            return 80
 
         return 50
+
+    # ========================================================
+    # RUTA
+    # ========================================================
 
     def label(
         self,
@@ -618,6 +692,10 @@ class GenericAdapter:
             ]
         )
 
+    # ========================================================
+    # DATA DETECTOR
+    # ========================================================
+
     def should_detect_data(
         self,
         url: str,
@@ -630,3 +708,154 @@ class GenericAdapter:
         """
 
         return True
+
+    # ========================================================
+    # HOOKS DE RELEVANCIA
+    # ========================================================
+
+    def relevance_adjustment(
+        self,
+        *,
+        url: str,
+        description: str = "",
+        origin_url: str = "",
+        path: tuple[str, ...] | list[str] = (),
+        resource_type: str = "",
+    ) -> int:
+        """
+        Ajuste de puntuación adicional para RelevanceEngine.
+
+        El core calcula primero la relevancia genérica. El adapter puede
+        sumar/restar puntos sin duplicar la lógica de clasificación.
+        """
+
+        searchable = " ".join(
+            (
+                unquote(str(url or "")),
+                unquote(str(origin_url or "")),
+                str(description or ""),
+                " ".join(
+                    str(item or "")
+                    for item in path
+                ),
+                str(resource_type or ""),
+            )
+        ).lower()
+
+        adjustment = 0
+
+        for pattern in self.relevance_positive_patterns:
+            if pattern in searchable:
+                adjustment += 20
+
+        for pattern in self.relevance_negative_patterns:
+            if pattern in searchable:
+                adjustment -= 50
+
+        return adjustment
+
+    def should_keep_file(
+        self,
+        *,
+        decision,
+        url: str,
+        description: str,
+        origin_url: str,
+        path: tuple[str, ...] | list[str],
+        detection,
+    ) -> bool:
+        """
+        Hook final para archivos.
+
+        `decision` es RelevanceDecision. El comportamiento genérico
+        conserva exactamente la decisión del motor.
+        """
+
+        return bool(
+            getattr(
+                decision,
+                "keep",
+                False,
+            )
+        )
+
+    def should_keep_data_page(
+        self,
+        *,
+        decision,
+        url: str,
+        description: str,
+        origin_url: str | None,
+        path: tuple[str, ...] | list[str],
+        resource_type: str,
+    ) -> bool:
+        """
+        Hook final para tablas, páginas de datos y APIs.
+        """
+
+        return bool(
+            getattr(
+                decision,
+                "keep",
+                False,
+            )
+        )
+
+    # ========================================================
+    # HOOK DE SITEMAP
+    # ========================================================
+
+    def should_follow_sitemap_url(
+        self,
+        url: str,
+    ) -> bool:
+        """
+        Permite que un adapter filtre URLs provenientes de sitemap
+        antes de que consuman una solicitud HTTP.
+
+        Por defecto se aplican las mismas reglas básicas de navegación.
+        """
+
+        return self.should_follow(
+            url
+        )
+
+    # ========================================================
+    # HOOK DE NORMALIZACIÓN DE RUTA
+    # ========================================================
+
+    def normalize_resource_path(
+        self,
+        *,
+        path: tuple[str, ...] | list[str],
+        url: str,
+        description: str = "",
+    ) -> tuple[str, ...]:
+        """
+        Permite corregir rutas de salida sin modificar el contrato JSON.
+        """
+
+        cleaned = []
+
+        for item in path:
+            value = " ".join(
+                str(item or "").split()
+            ).strip()
+
+            if not value:
+                continue
+
+            if (
+                cleaned
+                and cleaned[-1].lower()
+                == value.lower()
+            ):
+                continue
+
+            cleaned.append(
+                value
+            )
+
+        return tuple(
+            cleaned
+        )

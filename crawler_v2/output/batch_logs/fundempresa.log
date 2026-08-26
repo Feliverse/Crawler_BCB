@@ -1,123 +1,14 @@
-================================================================================
-CRAWLER V2
-================================================================================
-Fuente: Registro de Comercio de Bolivia - Fuente histórica FUNDEMPRESA
-URL configurada: https://www.seprec.gob.bo/
-Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
-Verificación TLS: activa
-
-
-Resolución de fuente:
-  Original: https://www.seprec.gob.bo/
-  Utilizada: https://www.seprec.gob.bo/
-  Fallback: no
-  Intentos: 1
-    - usable         | HTTP=200 | https://www.seprec.gob.bo/
-
-URL de trabajo: https://www.seprec.gob.bo/
-Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
-Sitemaps: activo
-Máx URLs sitemap: 10000
-
-[FUNDEMPRESA] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[FUNDEMPRESA] t=   5.6s | pag=  0 | files=   0 | data=  0 | cola=   0 | prio= 0 | https://www.seprec.gob.bo/
-[FUNDEMPRESA] t=   6.9s | pag=  1 | files=   1 | data=  0 | cola=  54 | prio=10 | https://www.seprec.gob.bo/index.php/breve-historia-o-resena-sobre-la-creacion-y-evolucion-de-la-entidad/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/321
-[FUNDEMPRESA] t=   8.0s | pag=  2 | files=   1 | data=  0 | cola=  54 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/321
-[FUNDEMPRESA] t=   8.6s | pag=  2 | files=   1 | data=  0 | cola=  53 | prio=10 | https://www.seprec.gob.bo/index.php/pei-descargable/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/401
-[FUNDEMPRESA] t=   9.7s | pag=  3 | files=   2 | data=  0 | cola=  53 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/401
-[FUNDEMPRESA] t=  10.5s | pag=  3 | files=   2 | data=  0 | cola=  52 | prio=10 | https://www.seprec.gob.bo/index.php/aprobacion-del-poa-documento-normativo/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/337
-[FUNDEMPRESA] t=  11.3s | pag=  4 | files=   9 | data=  0 | cola=  52 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/337
-[FUNDEMPRESA] t=  12.2s | pag=  4 | files=   9 | data=  0 | cola=  51 | prio=10 | https://www.seprec.gob.bo/index.php/que-es-registro-de-comercio/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19413
-[FUNDEMPRESA] t=  13.4s | pag=  5 | files=   9 | data=  0 | cola=  51 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19413
-[FUNDEMPRESA] t=  14.2s | pag=  5 | files=   9 | data=  0 | cola=  50 | prio=10 | https://www.seprec.gob.bo/index.php/registro-de-comercio-en-el-estado-plurinacional/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19431
-[FUNDEMPRESA] t=  15.4s | pag=  6 | files=   9 | data=  0 | cola=  50 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19431
-[FUNDEMPRESA] t=  16.0s | pag=  6 | files=   9 | data=  0 | cola=  49 | prio=10 | https://www.seprec.gob.bo/index.php/tipo-de-unidad-economica/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19434
-[FUNDEMPRESA] t=  16.8s | pag=  7 | files=   9 | data=  0 | cola=  49 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19434
-[FUNDEMPRESA] t=  17.5s | pag=  7 | files=   9 | data=  0 | cola=  48 | prio=10 | https://www.seprec.gob.bo/index.php/datos/
-[FUNDEMPRESA] DATASETS=1 | data_html_table | https://www.seprec.gob.bo/index.php/datos/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/915
-[FUNDEMPRESA] t=  18.8s | pag=  8 | files=  21 | data=  1 | cola=  48 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/915
-[FUNDEMPRESA] t=  19.9s | pag=  8 | files=  21 | data=  1 | cola=  47 | prio=10 | https://www.seprec.gob.bo/index.php/boletines/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/348
-[FUNDEMPRESA] t=  20.9s | pag=  9 | files=  25 | data=  1 | cola=  47 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/348
-[FUNDEMPRESA] t=  21.8s | pag=  9 | files=  25 | data=  1 | cola=  46 | prio=10 | https://www.seprec.gob.bo/index.php/informes-de-viaje-al-exterior/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17082
-[FUNDEMPRESA] t=  23.0s | pag= 10 | files=  27 | data=  1 | cola=  46 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17082
-[FUNDEMPRESA] t=  24.0s | pag= 10 | files=  27 | data=  1 | cola=  45 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/seprec-amplia-hasta-el-31-de-julio-el-plazo-para-la-renovacion-de-la-matricula-de-comercio-en-apoyo-a-la-formalizacion-y-reactivacion-economica/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66363
-[FUNDEMPRESA] t=  24.8s | pag= 11 | files=  27 | data=  1 | cola=  45 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66363
-[FUNDEMPRESA] t=  25.7s | pag= 11 | files=  27 | data=  1 | cola=  44 | prio=10 | https://www.seprec.gob.bo/index.php/nota_prensa/rendicion-publica-de-cuentas-final-seprec-reporta-perdida-millonaria-superior-a-bs-58-millones-en-la-gestion-2025/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66217
-[FUNDEMPRESA] t=  26.7s | pag= 12 | files=  27 | data=  1 | cola=  44 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/nota_prensa/66217
-[FUNDEMPRESA] t=  27.4s | pag= 12 | files=  27 | data=  1 | cola=  43 | prio=50 | https://www.seprec.gob.bo/index.php/descripcion-de-los-objetivos-y-funciones-principales-de-la-entidad-2/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/328
-[FUNDEMPRESA] t=  28.1s | pag= 13 | files=  27 | data=  1 | cola=  43 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/328
-[FUNDEMPRESA] t=  29.2s | pag= 13 | files=  27 | data=  1 | cola=  42 | prio=50 | https://www.seprec.gob.bo/index.php/memoria-intitucional/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/493
-[FUNDEMPRESA] t=  30.1s | pag= 14 | files=  28 | data=  1 | cola=  42 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/493
-[FUNDEMPRESA] t=  30.9s | pag= 14 | files=  28 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/presupuesto-de-las-estrategias-intitucionales/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/393
-[FUNDEMPRESA] t=  31.7s | pag= 15 | files=  43 | data=  1 | cola=  41 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/393
-[FUNDEMPRESA] t=  32.8s | pag= 15 | files=  43 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/politicas-de-la-calidad/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17487
-[FUNDEMPRESA] t=  34.0s | pag= 16 | files=  43 | data=  1 | cola=  40 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17487
-[FUNDEMPRESA] t=  34.9s | pag= 16 | files=  43 | data=  1 | cola=  39 | prio=50 | https://www.seprec.gob.bo/index.php/informacion-sobre-las-areas-o-procesos-que-seran-auditados-durante-el-ano/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/449
-[FUNDEMPRESA] t=  35.8s | pag= 17 | files=  71 | data=  1 | cola=  39 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/449
-[FUNDEMPRESA] t=  37.4s | pag= 17 | files=  71 | data=  1 | cola=  38 | prio=50 | https://www.seprec.gob.bo/index.php/rendicion-publica-de-cuentas/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17073
-[FUNDEMPRESA] t=  38.6s | pag= 18 | files=  78 | data=  1 | cola=  38 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17073
-[FUNDEMPRESA] t=  39.4s | pag= 18 | files=  78 | data=  1 | cola=  37 | prio=50 | https://www.seprec.gob.bo/index.php/17068-2/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17068
-[FUNDEMPRESA] t=  40.2s | pag= 19 | files=  80 | data=  1 | cola=  37 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/17068
-[FUNDEMPRESA] t=  41.0s | pag= 19 | files=  80 | data=  1 | cola=  36 | prio=50 | https://www.seprec.gob.bo/index.php/preguntas-frecuentes/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19507
-[FUNDEMPRESA] t=  42.3s | pag= 20 | files=  80 | data=  1 | cola=  42 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/19507
-[FUNDEMPRESA] t=  43.3s | pag= 20 | files=  80 | data=  1 | cola=  41 | prio=50 | https://www.seprec.gob.bo/index.php/folleto-guia-de-tramites/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/56906
-[FUNDEMPRESA] t=  44.3s | pag= 21 | files=  81 | data=  1 | cola=  41 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/56906
-[FUNDEMPRESA] t=  45.2s | pag= 21 | files=  81 | data=  1 | cola=  40 | prio=50 | https://www.seprec.gob.bo/index.php/lista-servicios-page/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/4351
-[FUNDEMPRESA] t=  46.4s | pag= 22 | files=  81 | data=  1 | cola=  53 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/4351
-[FUNDEMPRESA] t=  47.3s | pag= 22 | files=  81 | data=  1 | cola=  52 | prio=50 | https://www.seprec.gob.bo/index.php/lista-herramientas-page/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/13880
-[FUNDEMPRESA] t=  48.4s | pag= 23 | files=  81 | data=  1 | cola=  52 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/13880
-[FUNDEMPRESA] t=  49.4s | pag= 23 | files=  81 | data=  1 | cola=  51 | prio=50 | https://www.seprec.gob.bo/index.php/lista-comunicados-page/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/1191
-[FUNDEMPRESA] t=  50.5s | pag= 24 | files=  81 | data=  1 | cola=  51 | prio= 1 | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/1191
-[FUNDEMPRESA] t=  51.5s | pag= 24 | files=  81 | data=  1 | cola=  50 | prio=50 | https://www.seprec.gob.bo/index.php/comunicados-de-prensa/
-[FUNDEMPRESA] API REFERENCIA | html_link_reference | https://www.seprec.gob.bo/index.php/wp-json/wp/v2/pages/297
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              fundempresa
-Páginas visitadas:   25
-Archivos encontrados:   81
-Datasets web:         1
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             52.44 s
-Sitemaps procesados:  0
-URLs por sitemap:     0
-URLs sitemap en cola: 0
-
-Formatos:
-  - PDF    : 81
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fundempresa.json
-
-Trazabilidad:
-  Ejecución: 187
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 12, in <module>
+    from core.crawler import Crawler
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 19, in <module>
+    from requests.exceptions import RequestException, Timeout
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\__init__.py", line 171, in <module>
+    from .api import delete, get, head, options, patch, post, put, request
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1218, in get_data
+KeyboardInterrupt

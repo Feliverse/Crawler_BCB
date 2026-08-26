@@ -17,107 +17,99 @@ Resolución de fuente:
 
 URL de trabajo: https://www.dgac.gob.bo/
 Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
-[DGAC] SITEMAP | docs=6 | urls=456 | en_cola=455 | errores=0
-[DGAC] t=  16.2s | pag=  0 | files=   0 | data=  0 | cola= 455 | prio= 0 | https://www.dgac.gob.bo/
-[DGAC] t=  17.2s | pag=  1 | files=  14 | data=  0 | cola= 464 | prio=25 | https://www.dgac.gob.bo/la-autoridad-aeronautica-civil-del-estado-plurinacional-de-bolivia-estuvo-presente-en-el-rally-dakar-2017/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/857
-[DGAC] t=  20.2s | pag=  2 | files=  14 | data=  0 | cola= 465 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/857
-[DGAC] t=  21.0s | pag=  2 | files=  14 | data=  0 | cola= 464 | prio=25 | https://www.dgac.gob.bo/la-autoridad-aeronautica-desarrollo-el-curso-sobre-diseno-operacion-y-certificacion-para-operadores-de-aerodromos/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/863
-[DGAC] t=  23.4s | pag=  3 | files=  14 | data=  0 | cola= 464 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/863
-[DGAC] t=  24.2s | pag=  3 | files=  14 | data=  0 | cola= 463 | prio=25 | https://www.dgac.gob.bo/el-trafico-aereo-nacional-crecio-en-un-14-hasta-noviembre-de-la-gestion-2016/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/866
-[DGAC] t=  26.2s | pag=  4 | files=  14 | data=  0 | cola= 463 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/866
-[DGAC] t=  27.1s | pag=  4 | files=  14 | data=  0 | cola= 462 | prio=25 | https://www.dgac.gob.bo/la-autoridad-aeronautica-civil-efectuo-el-seminario-taller-de-procedimientos-para-ensayos-en-vuelo/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/869
-[DGAC] t=  29.4s | pag=  5 | files=  14 | data=  0 | cola= 462 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/869
-[DGAC] t=  30.6s | pag=  5 | files=  14 | data=  0 | cola= 461 | prio=25 | https://www.dgac.gob.bo/la-unidad-de-seguridad-de-la-aviacion-civil-avsec-realizo-curso-de-concientizacion-dirigido-a-personal-de-la-aduana-nacional-de-bolivia/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/872
-[DGAC] t=  32.5s | pag=  6 | files=  14 | data=  0 | cola= 461 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/872
-[DGAC] t=  33.2s | pag=  6 | files=  14 | data=  0 | cola= 460 | prio=25 | https://www.dgac.gob.bo/la-direccion-de-transporte-aereo-realizo-verificacion-de-la-ampliacion-y-remodelacion-del-aeropuerto-internacional-el-alto/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/875
-[DGAC] t=  35.1s | pag=  7 | files=  14 | data=  0 | cola= 460 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/875
-[DGAC] t=  35.8s | pag=  7 | files=  14 | data=  0 | cola= 459 | prio=25 | https://www.dgac.gob.bo/la-unidad-de-seguridad-de-la-aviacion-civil-avsec-realizo-curso-de-concientizacion-a-personal-de-la-aduana-nacional-de-bolivia/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/878
-[DGAC] t=  37.9s | pag=  8 | files=  14 | data=  0 | cola= 459 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/878
-[DGAC] t=  38.9s | pag=  8 | files=  14 | data=  0 | cola= 458 | prio=25 | https://www.dgac.gob.bo/la-autoridad-aeronautica-civil-efectuo-curso-de-certificacion-de-explotadores-aereos-121/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/881
-[DGAC] t=  41.2s | pag=  9 | files=  14 | data=  0 | cola= 458 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/881
-[DGAC] t=  42.0s | pag=  9 | files=  14 | data=  0 | cola= 457 | prio=25 | https://www.dgac.gob.bo/la-direccion-general-de-aeronautica-civil-y-la-vigilancia-de-la-seguridad-operacional/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/884
-[DGAC] t=  44.3s | pag= 10 | files=  14 | data=  0 | cola= 457 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/884
-[DGAC] t=  45.2s | pag= 10 | files=  14 | data=  0 | cola= 456 | prio=25 | https://www.dgac.gob.bo/i-reunion-ordinaria-del-comite-aeroportuario-de-seguridad-de-la-aviacion-civil-del-aeropuerto-la-joya-andina-de-la-ciudad-de-uyuni/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/897
-[DGAC] t=  47.3s | pag= 11 | files=  14 | data=  0 | cola= 456 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/897
-[DGAC] t=  48.4s | pag= 11 | files=  14 | data=  0 | cola= 455 | prio=25 | https://www.dgac.gob.bo/la-dgac-en-coordinacion-con-la-oaci-desarrollo-el-taller-sobre-el-programa-nacional-de-control-de-calidad-de-seguridad-de-la-aviacion-civil/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/900
-[DGAC] t=  50.4s | pag= 12 | files=  14 | data=  0 | cola= 455 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/900
-[DGAC] t=  51.5s | pag= 12 | files=  14 | data=  0 | cola= 454 | prio=25 | https://www.dgac.gob.bo/primera-reunion-ordinaria-del-consejo-de-coordinacion-interinstitucional-para-la-facilitacion-del-transporte-aereo-internacional-concifal/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/904
-[DGAC] t=  53.6s | pag= 13 | files=  14 | data=  0 | cola= 454 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/904
-[DGAC] t=  54.3s | pag= 13 | files=  14 | data=  0 | cola= 453 | prio=25 | https://www.dgac.gob.bo/la-direccion-general-de-aeronautica-civil-en-coordinacion-con-la-organizacion-de-aviacion-civil-internacional-realizo-con-exito-el-taller-del-programa-de-seguridad-de-aeropuerto/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/907
-[DGAC] t=  56.2s | pag= 14 | files=  14 | data=  0 | cola= 453 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/907
-[DGAC] t=  57.2s | pag= 14 | files=  14 | data=  0 | cola= 452 | prio=25 | https://www.dgac.gob.bo/primer-curso-de-inspectores-nacionales-sobre-seguridad-de-la-aviacion-de-la-organizacion-de-aviacion-civil-internacional-oaci-realizado-en-el-estado-plurinacional-de-bolivia/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/911
-[DGAC] t=  59.3s | pag= 15 | files=  14 | data=  0 | cola= 452 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/911
-[DGAC] t=  60.5s | pag= 15 | files=  14 | data=  0 | cola= 451 | prio=25 | https://www.dgac.gob.bo/el-trafico-aereo-nacional-crecio-en-un-14-en-el-mes-de-enero-de-la-gestion-2017/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/914
-[DGAC] t=  62.8s | pag= 16 | files=  14 | data=  0 | cola= 451 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/914
-[DGAC] t=  63.8s | pag= 16 | files=  14 | data=  0 | cola= 450 | prio=25 | https://www.dgac.gob.bo/la-direccion-general-de-aeronautica-civil-capacito-en-materia-de-seguridad-de-la-aviacion-civil-a-efectivos-de-la-fuerza-aerea-boliviana/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/922
-[DGAC] t=  66.0s | pag= 17 | files=  14 | data=  0 | cola= 450 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/922
-[DGAC] t=  67.2s | pag= 17 | files=  14 | data=  0 | cola= 449 | prio=25 | https://www.dgac.gob.bo/cooperacion-horizontal-del-estado-plurinacional-de-bolivia-a-la-republica-de-guatemala-en-materia-de-facilitacion-del-transporte-aereo/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/925
-[DGAC] t=  69.2s | pag= 18 | files=  14 | data=  0 | cola= 449 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/925
-[DGAC] t=  69.8s | pag= 18 | files=  14 | data=  0 | cola= 448 | prio=25 | https://www.dgac.gob.bo/asistencia-tecnica-de-la-oaci-en-pasaportes-electronicos-y-pkd/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/928
-[DGAC] t=  72.0s | pag= 19 | files=  14 | data=  0 | cola= 448 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/928
-[DGAC] t=  72.7s | pag= 19 | files=  14 | data=  0 | cola= 447 | prio=25 | https://www.dgac.gob.bo/primera-promocion-de-alumnos-del-curso-de-pilotos-privados-del-instituto-nacional-de-aviacion-civil/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/931
-[DGAC] t=  74.7s | pag= 20 | files=  14 | data=  0 | cola= 447 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/931
-[DGAC] t=  75.4s | pag= 20 | files=  14 | data=  0 | cola= 446 | prio=25 | https://www.dgac.gob.bo/certificacion-trainair-plus-para-la-aeronautica-del-estado-plurinacional-de-bolivia/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/934
-[DGAC] t=  77.5s | pag= 21 | files=  14 | data=  0 | cola= 446 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/934
-[DGAC] t=  78.2s | pag= 21 | files=  14 | data=  0 | cola= 445 | prio=25 | https://www.dgac.gob.bo/la-dgac-realiza-exitosamente-su-audiencia-inicial-de-rendicion-publica-de-cuentas/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/937
-[DGAC] t=  80.2s | pag= 22 | files=  14 | data=  0 | cola= 445 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/937
-[DGAC] t=  81.3s | pag= 22 | files=  14 | data=  0 | cola= 444 | prio=25 | https://www.dgac.gob.bo/la-autoridad-aeronautica-efectuo-la-primera-reunion-del-comite-de-evaluacion-de-amenazas-y-gestion-de-riesgos/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/940
-[DGAC] t=  83.6s | pag= 23 | files=  14 | data=  0 | cola= 444 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/940
-[DGAC] t=  84.6s | pag= 23 | files=  14 | data=  0 | cola= 443 | prio=25 | https://www.dgac.gob.bo/la-direccion-general-de-aeronautica-civil-investiga-el-accidente-aeronautico-ocurrido-en-la-ciudad-de-cochabamba/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/943
-[DGAC] t=  86.8s | pag= 24 | files=  14 | data=  0 | cola= 443 | prio= 1 | https://www.dgac.gob.bo/wp-json/wp/v2/posts/943
-[DGAC] t=  87.9s | pag= 24 | files=  14 | data=  0 | cola= 442 | prio=25 | https://www.dgac.gob.bo/la-unidad-avsec-realiza-reunion-ordinaria-del-consejo-nacional-de-seguridad-de-la-aviacion-civil-conaseg/
-[DGAC] API REFERENCIA | html_link_reference | https://www.dgac.gob.bo/wp-json/wp/v2/posts/946
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              dgac
-Páginas visitadas:   25
-Archivos encontrados:   14
-Datasets web:         0
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             89.89 s
-Sitemaps procesados:  6
-URLs por sitemap:     456
-URLs sitemap en cola: 455
-
-Formatos:
-  - DOCX   : 1
-  - PDF    : 13
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\dgac.json
-
-Trazabilidad:
-  Ejecución: 179
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
+    self._queue_sitemap_seeds(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        queue,
+        ^^^^^^
+        result,
+        ^^^^^^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
+    discovery = self.sitemap_discovery.discover(
+        base_url=base_url,
+    ...<3 lines>...
+        max_document_bytes=self.max_sitemap_bytes,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 479, in discover
+    for sitemap_url in self._robots_sitemaps(
+                       ~~~~~~~~~~~~~~~~~~~~~^
+        normalized_base,
+        ^^^^^^^^^^^^^^^^
+        allowed_domains,
+        ^^^^^^^^^^^^^^^^
+        request_timeout=robots_timeout,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ):
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 265, in _robots_sitemaps
+    response = self.client.get(
+        robots_url,
+        raise_for_status=False,
+        timeout=request_timeout,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
+    self.session.get(
+    ~~~~~~~~~~~~~~~~^
+        url,
+        ^^^^
+    ...<16 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+        sock=sock,
+    ...<14 lines>...
+        assert_fingerprint=self.assert_fingerprint,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+        sock=sock,
+    ...<8 lines>...
+        tls_in_tls=tls_in_tls,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 411, in ssl_wrap_socket
+    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

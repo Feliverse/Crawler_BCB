@@ -17,69 +17,538 @@ Resolución de fuente:
 
 URL de trabajo: https://www.cepal.org/
 Seeds: 3
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
+Máx páginas: 5000
+Máx archivos: 100000
+Máx profundidad: 12
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
 [CEPAL] SITEMAP | docs=7 | urls=10000 | en_cola=10000 | errores=0
-[CEPAL] t=  13.7s | pag=  0 | files=   0 | data=  0 | cola=10002 | prio= 0 | https://www.cepal.org/
+[CEPAL] t=  17.1s | pag=  0 | files=   0 | data=  0 | cola=10002 | prio= 0 | https://www.cepal.org/
 [CEPAL] DATASETS=1 | data_chart | https://www.cepal.org/
-[CEPAL] t=  14.3s | pag=  1 | files=   0 | data=  1 | cola=10107 | prio= 0 | https://statistics.cepal.org/portal/cepalstat/
-[CEPAL] t=  15.4s | pag=  2 | files=   0 | data=  1 | cola=10106 | prio= 0 | https://www.cepal.org/es/datos-y-estadisticas
-[CEPAL] t=  16.1s | pag=  3 | files=   0 | data=  1 | cola=10109 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas
+[CEPAL] t=  17.6s | pag=  1 | files=   0 | data=  1 | cola=10107 | prio= 0 | https://statistics.cepal.org/portal/cepalstat/
+[CEPAL] t=  18.8s | pag=  2 | files=   0 | data=  1 | cola=10106 | prio= 0 | https://www.cepal.org/es/datos-y-estadisticas
+[CEPAL] t=  19.9s | pag=  3 | files=   0 | data=  1 | cola=10109 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas
 [CEPAL] DATASETS=2 | data_chart | https://www.cepal.org/es/areas-trabajo/estadisticas
-[CEPAL] t=  17.0s | pag=  4 | files=   0 | data=  2 | cola=10149 | prio=10 | https://www.cepal.org/es/publicaciones
-[CEPAL] t=  17.9s | pag=  5 | files=   0 | data=  2 | cola=10189 | prio=10 | https://statistics.cepal.org/portal/cepalstat/index.html?lang=es
-[CEPAL] t=  18.4s | pag=  6 | files=   0 | data=  2 | cola=10188 | prio=10 | https://statistics.cepal.org/
-[CEPAL] t=  19.6s | pag=  6 | files=   0 | data=  2 | cola=10187 | prio=10 | https://repositorio.cepal.org/entities/publication/47abc7c1-89b3-4e89-a386-a9ca0a9a31c0
-[CEPAL] t=  21.2s | pag=  7 | files=   0 | data=  2 | cola=10217 | prio=10 | https://www.cepal.org/es/publicaciones/90268-estudio-economico-america-latina-caribe-2026-crecimiento-productividad-un
-[CEPAL] t=  21.9s | pag=  8 | files=   0 | data=  2 | cola=10233 | prio=10 | https://www.cepal.org/es/publicaciones/90219-rupturas-oportunidades-propuestas-que-america-latina-caribe-prospere-la-nueva
-[CEPAL] t=  22.9s | pag=  9 | files=   0 | data=  2 | cola=10247 | prio=10 | https://www.cepal.org/es/publicaciones/90189-impactos-america-latina-caribe-hostilidades-recientes-la-republica-islamica-iran
-[CEPAL] t=  23.5s | pag= 10 | files=   0 | data=  2 | cola=10257 | prio=10 | https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122
+[CEPAL] t=  20.8s | pag=  4 | files=   0 | data=  2 | cola=10149 | prio=10 | https://www.cepal.org/es/publicaciones
+[CEPAL] t=  21.4s | pag=  5 | files=   0 | data=  2 | cola=10189 | prio=10 | https://statistics.cepal.org/portal/cepalstat/index.html?lang=es
+[CEPAL] t=  21.9s | pag=  6 | files=   0 | data=  2 | cola=10188 | prio=10 | https://statistics.cepal.org/
+[CEPAL] t=  22.9s | pag=  6 | files=   0 | data=  2 | cola=10187 | prio=10 | https://repositorio.cepal.org/entities/publication/47abc7c1-89b3-4e89-a386-a9ca0a9a31c0
+[CEPAL] t=  24.5s | pag=  7 | files=   0 | data=  2 | cola=10217 | prio=10 | https://www.cepal.org/es/publicaciones/90268-estudio-economico-america-latina-caribe-2026-crecimiento-productividad-un
+[CEPAL] t=  25.2s | pag=  8 | files=   0 | data=  2 | cola=10234 | prio=10 | https://www.cepal.org/es/publicaciones/90219-rupturas-oportunidades-propuestas-que-america-latina-caribe-prospere-la-nueva
+[CEPAL] t=  25.9s | pag=  9 | files=   0 | data=  2 | cola=10248 | prio=10 | https://www.cepal.org/es/publicaciones/90189-impactos-america-latina-caribe-hostilidades-recientes-la-republica-islamica-iran
+[CEPAL] t=  26.7s | pag= 10 | files=   0 | data=  2 | cola=10258 | prio=10 | https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122
 [CEPAL] DATASETS=3 | exportable_data_page | https://www.cepal.org/es/publicaciones/87056-notas-poblacion-vol-53-ndeg-122
-[CEPAL] t=  24.5s | pag= 11 | files=   0 | data=  3 | cola=10287 | prio=10 | https://www.cepal.org/es/publicaciones/90154-la-inversion-extranjera-directa-america-latina-caribe-2026-navegando-nuevo
-[CEPAL] t=  24.9s | pag= 12 | files=   0 | data=  3 | cola=10293 | prio=10 | https://www.cepal.org/es/publicaciones/90130-75-anos-la-sede-subregional-la-cepal-mexico-historia-logros-desafios
-[CEPAL] t=  25.6s | pag= 13 | files=   0 | data=  3 | cola=10303 | prio=10 | https://www.cepal.org/es/publicaciones/90011-revista-cepal-148-50-anos-planteando-desafios-desarrollo-america-latina-caribe
-[CEPAL] t=  26.5s | pag= 14 | files=   0 | data=  3 | cola=10318 | prio=10 | https://www.cepal.org/es/publicaciones/89986-estadisticas-tributarias-america-latina-caribe-2026
-[CEPAL] t=  27.5s | pag= 15 | files=   0 | data=  3 | cola=10327 | prio=10 | https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es
+[CEPAL] t=  27.3s | pag= 11 | files=   0 | data=  3 | cola=10288 | prio=10 | https://www.cepal.org/es/publicaciones/90154-la-inversion-extranjera-directa-america-latina-caribe-2026-navegando-nuevo
+[CEPAL] t=  28.0s | pag= 12 | files=   0 | data=  3 | cola=10294 | prio=10 | https://www.cepal.org/es/publicaciones/90130-75-anos-la-sede-subregional-la-cepal-mexico-historia-logros-desafios
+[CEPAL] t=  28.5s | pag= 13 | files=   0 | data=  3 | cola=10304 | prio=10 | https://www.cepal.org/es/publicaciones/90011-revista-cepal-148-50-anos-planteando-desafios-desarrollo-america-latina-caribe
+[CEPAL] t=  29.0s | pag= 14 | files=   0 | data=  3 | cola=10319 | prio=10 | https://www.cepal.org/es/publicaciones/89986-estadisticas-tributarias-america-latina-caribe-2026
+[CEPAL] t=  29.6s | pag= 15 | files=   0 | data=  3 | cola=10328 | prio=10 | https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es
 [CEPAL] DATASETS=4 | statistical_chart | https://statistics.cepal.org/portal/cepalstat/carousel-home-content.html?lang=es
 [CEPAL] API REFERENCIA | inline_script_reference | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
-[CEPAL] t=  28.9s | pag= 16 | files=   0 | data=  4 | cola=10327 | prio= 1 | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
+[CEPAL] t=  31.1s | pag= 16 | files=   0 | data=  4 | cola=10328 | prio= 1 | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
 [CEPAL] API SONDEO FALLIDO | https://api-cepalstat.cepal.org/cepalstat/api/v1/portal/cepalstat/carousel?lang=
-[CEPAL] t=  30.1s | pag= 16 | files=   0 | data=  4 | cola=10326 | prio=10 | https://www.cepal.org/es/temas/redatam
+[CEPAL] t=  32.6s | pag= 16 | files=   0 | data=  4 | cola=10327 | prio=10 | https://www.cepal.org/es/temas/redatam
 [CEPAL] DATASETS=5 | data_chart | https://www.cepal.org/es/temas/redatam
-[CEPAL] t=  31.0s | pag= 17 | files=   0 | data=  5 | cola=10343 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales
-[CEPAL] t=  31.8s | pag= 18 | files=   0 | data=  5 | cola=10362 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas
-[CEPAL] t=  32.4s | pag= 19 | files=   0 | data=  5 | cola=10380 | prio=10 | https://www.cepal.org/es/temas/estadisticas-ambientales
+[CEPAL] t=  33.2s | pag= 17 | files=   0 | data=  5 | cola=10344 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales
+[CEPAL] t=  34.3s | pag= 18 | files=   0 | data=  5 | cola=10363 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas
+[CEPAL] t=  35.2s | pag= 19 | files=   0 | data=  5 | cola=10381 | prio=10 | https://www.cepal.org/es/temas/estadisticas-ambientales
 [CEPAL] DATASETS=6 | data_chart | https://www.cepal.org/es/temas/estadisticas-ambientales
-[CEPAL] t=  33.1s | pag= 20 | files=   0 | data=  6 | cola=10398 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods
+[CEPAL] t=  35.7s | pag= 20 | files=   0 | data=  6 | cola=10399 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods
 [CEPAL] DATASETS=7 | data_chart | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods
-[CEPAL] t=  34.1s | pag= 21 | files=   0 | data=  7 | cola=10415 | prio=10 | https://www.cepal.org/es/temas/institucionalidad-estadistica
+[CEPAL] t=  36.3s | pag= 21 | files=   0 | data=  7 | cola=10416 | prio=10 | https://www.cepal.org/es/temas/institucionalidad-estadistica
 [CEPAL] DATASETS=8 | data_chart | https://www.cepal.org/es/temas/institucionalidad-estadistica
-[CEPAL] t=  35.1s | pag= 22 | files=   0 | data=  8 | cola=10429 | prio=10 | https://www.cepal.org/es/notas/cepal-participa-la-xx-version-jornadas-idera-infraestructura-datos-geoespaciales-la-republica
-[CEPAL] t=  35.9s | pag= 23 | files=   0 | data=  8 | cola=10430 | prio=10 | https://www.cepal.org/es/notas/la-cepal-presenta-su-estrategia-regional-asistencia-tecnica-estadisticas-economicas-directores
-[CEPAL] t=  37.4s | pag= 24 | files=   0 | data=  8 | cola=10433 | prio=10 | https://www.cepal.org/es/publicaciones/90121-estructura-productiva-dinamicas-recientes-actividades-servicios-america-latina
-[CEPAL] API SONDEOS FALLIDOS | total=1
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              cepal
-Páginas visitadas:   25
-Archivos encontrados:    0
-Datasets web:         8
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             37.89 s
-Sitemaps procesados:  7
-URLs por sitemap:     10000
-URLs sitemap en cola: 10000
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\cepal.json
-
-Trazabilidad:
-  Ejecución: 175
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+[CEPAL] t=  36.8s | pag= 22 | files=   0 | data=  8 | cola=10430 | prio=10 | https://www.cepal.org/es/notas/cepal-participa-la-xx-version-jornadas-idera-infraestructura-datos-geoespaciales-la-republica
+[CEPAL] t=  37.4s | pag= 23 | files=   0 | data=  8 | cola=10431 | prio=10 | https://www.cepal.org/es/notas/la-cepal-presenta-su-estrategia-regional-asistencia-tecnica-estadisticas-economicas-directores
+[CEPAL] t=  38.4s | pag= 24 | files=   0 | data=  8 | cola=10434 | prio=10 | https://www.cepal.org/es/publicaciones/90121-estructura-productiva-dinamicas-recientes-actividades-servicios-america-latina
+[CEPAL] t=  39.0s | pag= 25 | files=   0 | data=  8 | cola=10440 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8184
+[CEPAL] t=  39.7s | pag= 26 | files=   0 | data=  8 | cola=10456 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/acerca-estadisticas
+[CEPAL] t=  40.2s | pag= 27 | files=   4 | data=  8 | cola=10458 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/b-division-estadisticas-equipo-trabajo
+[CEPAL] t=  40.9s | pag= 28 | files=   4 | data=  8 | cola=10463 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/c-cepalstat-bases-datos-publicaciones-estadisticas
+[CEPAL] t=  41.5s | pag= 28 | files=   4 | data=  8 | cola=10462 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/d-cepalgeo
+[CEPAL] t=  42.9s | pag= 29 | files=   4 | data=  8 | cola=10462 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/conferencia-estadistica-americas
+[CEPAL] DATASETS=9 | data_chart | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas
+[CEPAL] t=  43.9s | pag= 30 | files=   4 | data=  9 | cola=10487 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/f-un-ggim-americas
+[CEPAL] t=  44.8s | pag= 31 | files=   5 | data=  9 | cola=10505 | prio=10 | https://www.cepal.org/es/areas-trabajo/estadisticas/g-fuentes-informacion-estadistica
+[CEPAL] DATASETS=10 | statistical_html_table | https://www.cepal.org/es/areas-trabajo/estadisticas/g-fuentes-informacion-estadistica
+[CEPAL] t=  45.5s | pag= 32 | files=   5 | data= 10 | cola=10507 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/anuario-estadistico-america-latina-caribe
+[CEPAL] t=  46.1s | pag= 33 | files=   5 | data= 11 | cola=10521 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos
+[CEPAL] t=  46.7s | pag= 34 | files=   5 | data= 12 | cola=10538 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/temas-estadisticos-la-cepal
+[CEPAL] t=  47.2s | pag= 35 | files=   5 | data= 12 | cola=10547 | prio=10 | https://www.cepal.org/es/proyectos/integracion-informacion-estadistica-geoespacial
+[CEPAL] t=  47.9s | pag= 36 | files=   5 | data= 13 | cola=10556 | prio=10 | https://statistics.cepal.org/portal/cepalstat/index.html
+[CEPAL] t=  48.9s | pag= 37 | files=   5 | data= 13 | cola=10555 | prio=10 | https://www.cepal.org/es/catalogo-anual-tematicos-publicaciones
+[CEPAL] t=  49.8s | pag= 38 | files=   5 | data= 13 | cola=10569 | prio=10 | https://www.cepal.org/es/publications/accesible
+[CEPAL] t=  50.3s | pag= 39 | files=   5 | data= 13 | cola=10583 | prio=10 | https://www.cepal.org/es/publicaciones/tipo/informes-anuales
+[CEPAL] t=  51.4s | pag= 40 | files=   5 | data= 13 | cola=10584 | prio=10 | https://www.cepal.org/es/publicaciones/90225-impactos-cambio-demografico-america-latina-caribe-retos-opciones-la-politica
+[CEPAL] t=  52.1s | pag= 41 | files=   5 | data= 14 | cola=10598 | prio=10 | https://www.cepal.org/es/publicaciones/89774-agenda-2030-america-latina-caribe-como-acelerar-paso-su-cumplimiento-la-nueva
+[CEPAL] t=  52.8s | pag= 42 | files=   5 | data= 14 | cola=10610 | prio=10 | https://www.cepal.org/es/publicaciones/90278-coyuntura-laboral-la-argentina-oportunidades-crecimiento-empleo-distintos
+[CEPAL] t=  53.5s | pag= 43 | files=   5 | data= 14 | cola=10614 | prio=10 | https://www.cepal.org/es/publicaciones/90277-comercio-internacional-bienes-servicios-la-mineria
+[CEPAL] t=  54.2s | pag= 44 | files=   5 | data= 14 | cola=10619 | prio=10 | https://www.cepal.org/es/publicaciones/90275-guia-seleccionar-tecnologias-extraccion-directa-litio
+[CEPAL] t=  55.0s | pag= 45 | files=   5 | data= 14 | cola=10622 | prio=10 | https://www.cepal.org/es/publicaciones/90271-calendario-conferencias-la-cepal-propuesto-periodo-2027-2028-nota-la-secretaria
+[CEPAL] t=  56.0s | pag= 46 | files=   5 | data= 14 | cola=10627 | prio=10 | https://www.cepal.org/es/publicaciones/90267-evolucion-macroeconomica-la-republica-dominicana-2025-perspectivas-2026
+[CEPAL] t=  56.6s | pag= 47 | files=   5 | data= 14 | cola=10630 | prio=10 | https://www.cepal.org/es/publicaciones/90266-evolucion-macroeconomica-panama-2025-perspectivas-2026
+[CEPAL] t=  57.5s | pag= 48 | files=   5 | data= 14 | cola=10632 | prio=10 | https://www.cepal.org/es/publicaciones/90265-evolucion-macroeconomica-nicaragua-2025-perspectivas-2026
+[CEPAL] t=  57.9s | pag= 49 | files=   5 | data= 14 | cola=10634 | prio=10 | https://www.cepal.org/es/listado/cepal_publication
+[CEPAL] t=  58.5s | pag= 50 | files=   5 | data= 14 | cola=10640 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=8204
+[CEPAL] t=  59.2s | pag= 51 | files=   5 | data= 14 | cola=10652 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8187
+[CEPAL] t=  59.6s | pag= 52 | files=   5 | data= 14 | cola=10666 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8192
+[CEPAL] t=  60.3s | pag= 53 | files=   5 | data= 14 | cola=10685 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8188
+[CEPAL] t=  61.1s | pag= 54 | files=   5 | data= 14 | cola=10689 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8183
+[CEPAL] t=  61.6s | pag= 55 | files=   5 | data= 14 | cola=10700 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8195
+[CEPAL] t=  62.5s | pag= 56 | files=   5 | data= 14 | cola=10719 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8179
+[CEPAL] t=  63.4s | pag= 57 | files=   5 | data= 14 | cola=10732 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8190
+[CEPAL] t=  64.0s | pag= 58 | files=   5 | data= 14 | cola=10748 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8169
+[CEPAL] t=  64.8s | pag= 59 | files=   5 | data= 14 | cola=10756 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?work_area=8180
+[CEPAL] t=  65.5s | pag= 60 | files=   5 | data= 14 | cola=10769 | prio=10 | https://www.cepal.org/publicaciones/80727-america-latina-caribe-trampas-desarrollo-transformaciones-indispensables-como
+[CEPAL] t=  66.5s | pag= 61 | files=   5 | data= 14 | cola=10779 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/panorama-politicas-desarrollo-productivo-america-latina-caribe
+[CEPAL] t=  67.4s | pag= 62 | files=   5 | data= 14 | cola=10783 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/balance-preliminar-economias-america-latina-caribe
+[CEPAL] t=  68.3s | pag= 63 | files=   5 | data= 14 | cola=10797 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/estudio-economico-america-latina-caribe
+[CEPAL] t=  68.8s | pag= 64 | files=   5 | data= 14 | cola=10810 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/la-inversion-extranjera-directa-america-latina-caribe
+[CEPAL] t=  69.6s | pag= 65 | files=   5 | data= 14 | cola=10822 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/perspectivas-comercio-internacional-america-latina-caribe
+[CEPAL] t=  70.3s | pag= 66 | files=   5 | data= 14 | cola=10835 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/panorama-social-america-latina-caribe
+[CEPAL] t=  71.0s | pag= 67 | files=   5 | data= 14 | cola=10846 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/documentos-conferencias-reuniones
+[CEPAL] t=  71.9s | pag= 68 | files=   5 | data= 14 | cola=10859 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/documentos-proyectos-estudios-investigaciones
+[CEPAL] t=  72.7s | pag= 69 | files=   5 | data= 14 | cola=10867 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/publicaciones-periodicas-revistas-boletines
+[CEPAL] t=  73.4s | pag= 70 | files=   5 | data= 14 | cola=10873 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/series-la-cepal
+[CEPAL] t=  73.8s | pag= 71 | files=   5 | data= 14 | cola=10884 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/libros-monografias
+[CEPAL] t=  74.8s | pag= 72 | files=   5 | data= 14 | cola=10895 | prio=10 | https://www.cepal.org/es/publicaciones/tipo/revista-cepal
+[CEPAL] t=  75.6s | pag= 73 | files=   5 | data= 14 | cola=10917 | prio=10 | https://repositorio.cepal.org/info/opendata
+[CEPAL] t=  76.5s | pag= 74 | files=   5 | data= 14 | cola=10920 | prio=10 | https://repositorio.cepal.org/communities/3b191699-4085-4fcc-9b66-6a2897260811
+[CEPAL] t=  77.0s | pag= 75 | files=   5 | data= 14 | cola=10932 | prio=10 | https://repositorio.cepal.org/communities/36c6d421-e9a7-47bd-a83a-6982cea09e1a
+[CEPAL] t=  77.6s | pag= 76 | files=   5 | data= 14 | cola=10940 | prio=10 | https://repositorio.cepal.org/collections/3d208d1f-b9e0-4f8e-8dc2-50267f907e4d
+[CEPAL] t=  93.3s | pag= 76 | files=   5 | data= 14 | cola=10939 | prio=10 | https://repositorio.cepal.org/bitstreams/ddaf4444-dcbc-48a9-afd2-06306ac3e5c3/download
+[CEPAL] t=  95.5s | pag= 76 | files=   6 | data= 14 | cola=10938 | prio=10 | https://repositorio.cepal.org/entities/publication/47abc7c1-89b3-4e89-a386-a9ca0a9a31c0/full
+[CEPAL] t= 108.1s | pag= 77 | files=   6 | data= 14 | cola=10937 | prio=10 | https://www.cepal.org/en/publications/90269-economic-survey-latin-america-and-caribbean-2026-growth-and-productivity-amid
+[CEPAL] t= 108.8s | pag= 78 | files=   6 | data= 14 | cola=11001 | prio=10 | https://repositorio.cepal.org/server/api/core/bitstreams/070682ee-e39d-4e4c-907d-d7dc91e6ed00/content
+[CEPAL] t= 109.5s | pag= 78 | files=   6 | data= 14 | cola=11000 | prio=10 | https://www.cepal.org/es/publicaciones/90259-evolucion-macroeconomica-costa-rica-2025-perspectivas-2026
+[CEPAL] t= 110.4s | pag= 79 | files=   6 | data= 14 | cola=11002 | prio=10 | https://www.cepal.org/es/publicaciones/90260-evolucion-macroeconomica-salvador-2025-perspectivas-2026
+[CEPAL] t= 111.1s | pag= 80 | files=   6 | data= 14 | cola=11004 | prio=10 | https://www.cepal.org/es/publicaciones/90261-evolucion-macroeconomica-guatemala-2025-perspectivas-2026
+[CEPAL] t= 112.0s | pag= 81 | files=   6 | data= 14 | cola=11006 | prio=10 | https://www.cepal.org/es/publicaciones/90262-evolucion-macroeconomica-haiti-2025-perspectivas-2026
+[CEPAL] t= 112.9s | pag= 82 | files=   6 | data= 14 | cola=11008 | prio=10 | https://www.cepal.org/es/publicaciones/90263-evolucion-macroeconomica-honduras-2025-perspectivas-2026
+[CEPAL] t= 113.7s | pag= 83 | files=   6 | data= 14 | cola=11010 | prio=10 | https://www.cepal.org/es/publicaciones/90264-evolucion-macroeconomica-mexico-2025-perspectivas-2026
+[CEPAL] t= 114.6s | pag= 84 | files=   6 | data= 14 | cola=11012 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/libros-documentos-institucionales
+[CEPAL] t= 115.4s | pag= 85 | files=   6 | data= 14 | cola=11022 | prio=10 | https://www.cepal.org/en/publications/90220-ruptures-and-opportunities-proposals-latin-america-and-caribbean-thrive-new
+[CEPAL] t= 116.1s | pag= 86 | files=   6 | data= 14 | cola=11037 | prio=10 | https://sitios.cepal.org/geopolitica/es
+[CEPAL] t= 117.3s | pag= 87 | files=   8 | data= 14 | cola=11038 | prio=10 | https://repositorio.cepal.org/bitstreams/5899a80b-ee21-487a-babb-79a3ae8c6501/download
+[CEPAL] t= 119.7s | pag= 87 | files=   8 | data= 14 | cola=11037 | prio=10 | https://repositorio.cepal.org/bitstreams/6f3699e9-9d6d-45cc-adde-8323abc7a2ff/download
+[CEPAL] t= 122.5s | pag= 87 | files=   8 | data= 14 | cola=11036 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/boletines
+[CEPAL] t= 123.2s | pag= 88 | files=   8 | data= 14 | cola=11049 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/informe-especial-la-cepal
+[CEPAL] t= 123.9s | pag= 89 | files=   8 | data= 14 | cola=11060 | prio=10 | https://www.cepal.org/en/publications/90224-effects-recent-hostilities-and-around-islamic-republic-iran-latin-america-and
+[CEPAL] t= 124.3s | pag= 90 | files=   8 | data= 14 | cola=11070 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/revistas
+[CEPAL] t= 125.2s | pag= 91 | files=   8 | data= 14 | cola=11073 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/notas-poblacion
+[CEPAL] t= 126.1s | pag= 92 | files=   8 | data= 14 | cola=11089 | prio=10 | https://www.cepal.org/es/publicaciones/87058-impacto-la-caida-la-natalidad-sistemas-educativos-america-latina
+[CEPAL] t= 127.0s | pag= 93 | files=   8 | data= 14 | cola=11092 | prio=10 | https://www.cepal.org/es/publicaciones/90085-aceptacion-divorcio-mundo-determinantes-individuales-contextuales
+[CEPAL] t= 128.7s | pag= 94 | files=   8 | data= 14 | cola=11095 | prio=10 | https://www.cepal.org/es/publicaciones/90166-perfil-la-primera-union-tipo-consensual-la-republica-bolivariana-venezuela-1980
+[CEPAL] t= 130.6s | pag= 95 | files=   8 | data= 14 | cola=11098 | prio=10 | https://www.cepal.org/en/publications/90164-maternal-mortality-and-severe-maternal-morbidity-dominican-republic-during-and
+[CEPAL] t= 131.5s | pag= 96 | files=   8 | data= 14 | cola=11106 | prio=10 | https://www.cepal.org/es/publicaciones/90167-segregacion-residencial-reconfiguracion-socioespacial-la-region-metropolitana
+[CEPAL] t= 131.9s | pag= 97 | files=   8 | data= 14 | cola=11110 | prio=10 | https://www.cepal.org/es/publicaciones/90170-participacion-mujeres-venezolanas-mercado-trabajo-caracteristicas-factores
+[CEPAL] t= 132.6s | pag= 98 | files=   8 | data= 14 | cola=11114 | prio=10 | https://www.cepal.org/en/publications/89972-pandemics-mexico-and-its-capital-brief-review
+[CEPAL] t= 133.4s | pag= 99 | files=   8 | data= 14 | cola=11117 | prio=10 | https://www.cepal.org/en/publications/90173-typology-last-mile-households-universal-electrification-colombia-differentiating
+[CEPAL] t= 134.1s | pag=100 | files=   8 | data= 14 | cola=11126 | prio=10 | https://www.cepal.org/en/publications/90155-foreign-direct-investment-latin-america-and-caribbean-2026-navigating-new-global
+[CEPAL] t= 134.9s | pag=101 | files=   8 | data= 14 | cola=11132 | prio=10 | https://www.cepal.org/es/temas/historia-economica-america-latina-caribe
+[CEPAL] t= 135.5s | pag=102 | files=   8 | data= 14 | cola=11140 | prio=10 | https://www.cepal.org/es/temas/arquitectura-financiera
+[CEPAL] t= 135.9s | pag=103 | files=   8 | data= 14 | cola=11149 | prio=10 | https://www.cepal.org/es/publicaciones/90015-nota-editorial-cincuenta-anos-la-revista-cepal-un-bien-publico-regional
+[CEPAL] t= 137.8s | pag=104 | files=   8 | data= 14 | cola=11151 | prio=10 | https://www.cepal.org/es/publicaciones/90016-la-revista-la-cepal-la-gestion-prebisch-gurrieri-1976-1986-un-proyecto-editorial
+[CEPAL] t= 138.3s | pag=105 | files=   8 | data= 14 | cola=11153 | prio=10 | https://www.cepal.org/es/publicaciones/90018-estado-capitalismo-periferico-prebisch
+[CEPAL] t= 140.3s | pag=106 | files=   8 | data= 14 | cola=11155 | prio=10 | https://www.cepal.org/es/publicaciones/90019-poder-estilos-desarrollo-america-latina
+[CEPAL] t= 142.1s | pag=107 | files=   8 | data= 14 | cola=11157 | prio=10 | https://www.cepal.org/es/publicaciones/90020-la-dinamica-la-heterogeneidad-estructural-estilos-desarrollo-formalizacion
+[CEPAL] t= 142.8s | pag=108 | files=   8 | data= 14 | cola=11159 | prio=10 | https://www.cepal.org/es/publicaciones/90022-capitales-cartera-la-restriccion-externa-al-crecimiento-economico-casos-brasil
+[CEPAL] t= 143.3s | pag=109 | files=   8 | data= 14 | cola=11161 | prio=10 | https://www.cepal.org/es/publicaciones/90024-actualizacion-la-matriz-insumo-producto-mexico-1980-precios-2018-mediante-metodo
+[CEPAL] t= 144.9s | pag=110 | files=   8 | data= 14 | cola=11164 | prio=10 | https://www.cepal.org/es/publicaciones/90025-poverty-latin-america-feelingsperceptions-vs-material-conditions-veronica
+[CEPAL] t= 146.6s | pag=111 | files=   8 | data= 14 | cola=11166 | prio=10 | https://www.cepal.org/es/publicaciones/90026-resena-public-opinion-and-turmoil-latin-american-democracies
+[CEPAL] t= 147.5s | pag=112 | files=   8 | data= 14 | cola=11169 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/coediciones
+[CEPAL] t= 148.3s | pag=113 | files=   8 | data= 15 | cola=11183 | prio=10 | https://www.cepal.org/en/publications/89993-revenue-statistics-latin-america-and-caribbean-2026
+[CEPAL] t= 149.1s | pag=114 | files=   8 | data= 16 | cola=11190 | prio=10 | https://www.cepal.org/es/notas/talleres-regionales-virtuales-2026-potencialidades-censos-poblacion-vivienda-procesamiento
+[CEPAL] t= 149.6s | pag=115 | files=   8 | data= 16 | cola=11191 | prio=10 | https://www.cepal.org/es/notas/redatam-informa-difunde-resultados-taller-regional-virtual-2025-microdatos-censales-analisis
+[CEPAL] t= 150.9s | pag=116 | files=   8 | data= 16 | cola=11192 | prio=10 | https://www.cepal.org/es/notas/republica-dominicana-lanza-sistema-consulta-indicadores-seguro-familiar-salud-seguro-riesgos
+[CEPAL] t= 151.8s | pag=117 | files=   8 | data= 16 | cola=11193 | prio=10 | https://www.cepal.org/es/publicaciones/84458-redatam-informa-31-diciembre-2025
+[CEPAL] t= 152.7s | pag=118 | files=   8 | data= 16 | cola=11197 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=96
+[CEPAL] t= 168.5s | pag=118 | files=   8 | data= 16 | cola=11196 | prio=10 | https://www.cepal.org/es/temas/redatam/acerca-redatam
+[CEPAL] t= 171.5s | pag=119 | files=   8 | data= 16 | cola=11197 | prio=10 | https://www.cepal.org/es/temas/redatam/descargas
+[CEPAL] t= 173.5s | pag=119 | files=   8 | data= 16 | cola=11196 | prio=10 | https://www.cepal.org/es/temas/redatam/documentacion
+[CEPAL] t= 177.3s | pag=119 | files=   8 | data= 16 | cola=11195 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/redatam-informa
+[CEPAL] t= 179.8s | pag=120 | files=   8 | data= 17 | cola=11207 | prio=10 | https://www.cepal.org/es/comunicados/cepal-lanza-anuario-estadistico-2025-indicadores-clave-desarrollo-economico-social
+[CEPAL] t= 180.7s | pag=121 | files=   8 | data= 17 | cola=11211 | prio=10 | https://www.cepal.org/es/notas/cepalstat-actualiza-amplia-indicadores-percepciones-basados-encuestas-internacionales
+[CEPAL] t= 181.6s | pag=122 | files=   8 | data= 17 | cola=11213 | prio=10 | https://www.cepal.org/es/notas/cepalstat-incorpora-primera-serie-regional-indicadores-discapacidad
+[CEPAL] t= 183.1s | pag=123 | files=   8 | data= 17 | cola=11216 | prio=10 | https://www.cepal.org/es/publicaciones/81425-indice-pobreza-multidimensional-america-latina
+[CEPAL] t= 183.5s | pag=124 | files=   8 | data= 17 | cola=11222 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=8229
+[CEPAL] t= 199.2s | pag=124 | files=   8 | data= 17 | cola=11221 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales/acerca-estadisticas-sociales
+[CEPAL] t= 202.2s | pag=125 | files=   8 | data= 17 | cola=11222 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales/b-cepalstat-portal-datos-publicaciones-estadisticas
+[CEPAL] t= 203.8s | pag=125 | files=   8 | data= 17 | cola=11221 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales/c-portal-desigualdades-america-latina
+[CEPAL] t= 205.4s | pag=126 | files=   8 | data= 17 | cola=11220 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales/d-estadisticas-basadas-modelos-estimacion-areas-pequenas-america-latina
+[CEPAL] t= 206.7s | pag=127 | files=   8 | data= 17 | cola=11219 | prio=10 | https://www.cepal.org/es/temas/estadisticas-sociales/metodos-clasificaciones-estadisticas
+[CEPAL] t= 208.8s | pag=128 | files=  84 | data= 18 | cola=11256 | prio=10 | https://statistics.cepal.org/portal/cepalstat/perfil-regional.html?lang=es&theme=1
+[CEPAL] t= 209.4s | pag=129 | files=  84 | data= 18 | cola=11255 | prio=10 | https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=atg&lang=es&theme=1
+[CEPAL] t= 209.9s | pag=130 | files=  84 | data= 18 | cola=11254 | prio=10 | https://www.cepal.org/es/notas/encuentro-regional-la-cepal-aborda-nuevas-directrices-integrar-estadisticas-empresas-comercio
+[CEPAL] t= 211.5s | pag=131 | files=  84 | data= 18 | cola=11255 | prio=10 | https://www.cepal.org/es/publicaciones/84526-programa-comparacion-internacional-ciclo-2021-america-latina-caribe-documento
+[CEPAL] t= 213.4s | pag=132 | files=  84 | data= 18 | cola=11257 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=8231
+[CEPAL] t= 228.7s | pag=132 | files=  84 | data= 18 | cola=11256 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas/acerca-estadisticas-economicas
+[CEPAL] t= 231.3s | pag=133 | files=  84 | data= 18 | cola=11257 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas/b-cepalstat-portal-datos-publicaciones-estadisticas
+[CEPAL] t= 232.2s | pag=133 | files=  84 | data= 18 | cola=11256 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas/c-repositorio-cuadros-oferta-utilizacion-matrices-insumo-producto
+[CEPAL] t= 233.9s | pag=134 | files=  84 | data= 18 | cola=11255 | prio=10 | https://www.cepal.org/es/temas/estadisticas-economicas/d-metodos-clasificaciones-estadisticas
+[CEPAL] t= 235.4s | pag=135 | files= 151 | data= 19 | cola=11255 | prio=10 | https://statistics.cepal.org/portal/cepalstat/perfil-regional.html?lang=es&theme=2
+[CEPAL] t= 235.9s | pag=136 | files= 151 | data= 19 | cola=11254 | prio=10 | https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=atg&lang=es&theme=2
+[CEPAL] t= 236.8s | pag=137 | files= 151 | data= 19 | cola=11253 | prio=10 | https://www.cepal.org/es/proyectos/fortalecimiento-capacidades-estadisticas-la-construccion-indicadores-macroeconomicos
+[CEPAL] t= 237.8s | pag=138 | files= 151 | data= 19 | cola=11259 | prio=10 | https://www.cepal.org/es/notas/paises-expertos-reafirman-compromiso-fortalecer-estadisticas-desastres-nivel-global
+[CEPAL] t= 239.6s | pag=139 | files= 151 | data= 19 | cola=11261 | prio=10 | https://www.cepal.org/es/publicaciones/84902-estadisticas-desastres-gestion-riesgo-estado-actual-perspectivas
+[CEPAL] t= 240.6s | pag=140 | files= 151 | data= 19 | cola=11264 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=8230
+[CEPAL] t= 256.1s | pag=140 | files= 151 | data= 19 | cola=11263 | prio=10 | https://www.cepal.org/es/videos/nueva-interfaz-cepalstat
+[CEPAL] t= 259.7s | pag=141 | files= 151 | data= 19 | cola=11265 | prio=10 | https://www.cepal.org/es/temas/estadisticas-ambientales/acerca-estadisticas-indicadores-ambientales
+[CEPAL] t= 260.2s | pag=142 | files= 153 | data= 19 | cola=11268 | prio=10 | https://www.cepal.org/es/temas/estadisticas-ambientales/b-documentos-metodologias-referencia
+[CEPAL] t= 260.8s | pag=143 | files= 153 | data= 19 | cola=11270 | prio=10 | https://statistics.cepal.org/portal/cepalstat/perfil-regional.html?lang=es&theme=3
+[CEPAL] t= 261.2s | pag=144 | files= 153 | data= 19 | cola=11269 | prio=10 | https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=atg&lang=es&theme=3
+[CEPAL] t= 261.9s | pag=145 | files= 153 | data= 19 | cola=11268 | prio=10 | https://www.cepal.org/es/proyectos/mejorar-estadisticas-indicadores-cambio-climatico-america-latina-caribe
+[CEPAL] t= 264.4s | pag=146 | files= 153 | data= 19 | cola=11272 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=8384
+[CEPAL] t= 279.8s | pag=146 | files= 153 | data= 19 | cola=11271 | prio=10 | https://www.cepal.org/es/videos/cepalgeo-infraestructura-datos-espaciales-cepal
+[CEPAL] t= 283.3s | pag=147 | files= 153 | data= 19 | cola=11273 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods/principales-lineas-trabajo-torno-indicadores
+[CEPAL] t= 285.3s | pag=148 | files= 153 | data= 19 | cola=11274 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods/b-agenda-2030-america-latina-caribe-plataforma
+[CEPAL] t= 286.9s | pag=148 | files= 153 | data= 19 | cola=11273 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods/c-ods-america-latina-caribe-centro-gestion
+[CEPAL] t= 288.8s | pag=148 | files= 153 | data= 19 | cola=11272 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods/d-geoportal-ods
+[CEPAL] t= 289.8s | pag=149 | files= 153 | data= 20 | cola=11306 | prio=10 | https://www.cepal.org/es/temas/indicadores-objetivos-desarrollo-sostenible-ods/conferencia-estadistica-americas
+[CEPAL] t= 290.9s | pag=149 | files= 153 | data= 20 | cola=11305 | prio=10 | https://www.cepal.org/es/comunicados/conferencia-estadistica-americas-concluyo-exito-su-decimotercera-reunion
+[CEPAL] t= 292.7s | pag=150 | files= 153 | data= 20 | cola=11309 | prio=10 | https://www.cepal.org/es/comunicados/autoridades-llaman-fortalecer-la-gobernanza-datos-sistemas-estadisticos-nacionales
+[CEPAL] t= 294.7s | pag=151 | files= 153 | data= 20 | cola=11311 | prio=10 | https://www.cepal.org/es/noticias/decimotercera-reunion-la-conferencia-estadistica-americas-se-realizara-la-cepal
+[CEPAL] t= 295.5s | pag=152 | files= 153 | data= 20 | cola=11316 | prio=10 | https://www.cepal.org/es/notas/cepal-brinda-asistencia-tecnica-mexico-avanzar-interoperabilidad-gobernanza-datos-ambientales
+[CEPAL] t= 297.3s | pag=153 | files= 153 | data= 20 | cola=11317 | prio=10 | https://www.cepal.org/es/publicaciones/90006-accesibilidad-datos-publicados-oficinas-nacionales-estadistica-america-latina
+[CEPAL] t= 298.8s | pag=154 | files= 153 | data= 20 | cola=11321 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?topic=8380
+[CEPAL] t= 314.0s | pag=154 | files= 153 | data= 20 | cola=11320 | prio=10 | https://www.cepal.org/es/videos/conferencia-estadistica-americas-la-cepal
+[CEPAL] t= 315.6s | pag=155 | files= 153 | data= 20 | cola=11322 | prio=10 | https://www.cepal.org/es/temas/big-data
+[CEPAL] t= 316.6s | pag=156 | files= 153 | data= 20 | cola=11330 | prio=10 | https://www.cepal.org/es/temas/indicadores-economicos-proyecciones
+[CEPAL] t= 317.6s | pag=157 | files= 153 | data= 20 | cola=11341 | prio=10 | https://www.cepal.org/en/publications/90122-production-structure-and-recent-trends-service-activities-latin-america
+[CEPAL] t= 318.1s | pag=158 | files= 153 | data= 20 | cola=11346 | prio=10 | https://www.cepal.org/en/list/cepal_publication
+[CEPAL] t= 319.0s | pag=159 | files= 153 | data= 20 | cola=11363 | prio=10 | https://www.cepal.org/pt-br/list/cepal_publication
+[CEPAL] t= 327.8s | pag=160 | files= 153 | data= 20 | cola=11437 | prio=10 | https://www.cepal.org/es/publicaciones/90147-guia-practica-la-produccion-estadisticas-armonizadas-desplazamiento-forzado
+[CEPAL] t= 328.4s | pag=161 | files= 153 | data= 20 | cola=11441 | prio=10 | https://www.cepal.org/es/publicaciones/90150-informe-la-decimotercera-reunion-la-conferencia-estadistica-americas-la-comision
+[CEPAL] t= 330.0s | pag=162 | files= 153 | data= 20 | cola=11446 | prio=10 | https://www.cepal.org/es/publicaciones/88574-catalogo-publicaciones-2025
+[CEPAL] t= 332.0s | pag=163 | files= 153 | data= 20 | cola=11457 | prio=10 | https://www.cepal.org/es/publicaciones/85980-anuario-estadistico-america-latina-caribe-2025-statistical-yearbook-latin
+[CEPAL] t= 332.9s | pag=164 | files= 153 | data= 20 | cola=11463 | prio=10 | https://www.cepal.org/es/publicaciones/81663-catalogo-tematico-estadisticas
+[CEPAL] t= 334.9s | pag=165 | files= 153 | data= 20 | cola=11465 | prio=10 | https://www.cepal.org/es/publicaciones/84147-diagnostico-marcos-area-encuestas-agropecuarias
+[CEPAL] t= 336.7s | pag=166 | files= 153 | data= 20 | cola=11468 | prio=10 | https://www.cepal.org/es/publicaciones/85913-encuestas-posenumeracion-censal-fundamentos-estadisticos-su-diseno-analisis
+[CEPAL] t= 337.2s | pag=167 | files= 153 | data= 20 | cola=11470 | prio=10 | https://www.cepal.org/es/publicaciones/84549-uso-imagenes-satelitales-la-construccion-estadisticas-regionales-desagregadas
+[CEPAL] t= 339.0s | pag=168 | files= 153 | data= 20 | cola=11474 | prio=10 | https://www.cepal.org/es/publicaciones/84499-la-situacion-estadisticas-indicadores-cuentas-ambientales-america-latina-0
+[CEPAL] t= 339.4s | pag=169 | files= 153 | data= 20 | cola=11476 | prio=10 | https://www.cepal.org/es/publicaciones/84499-la-situacion-estadisticas-indicadores-cuentas-ambientales-america-latina-caribe
+[CEPAL] t= 340.4s | pag=170 | files= 153 | data= 20 | cola=11477 | prio=10 | https://www.cepal.org/es/publicaciones/85938-revista-cepal-147
+[CEPAL] t= 341.3s | pag=171 | files= 153 | data= 20 | cola=11495 | prio=10 | https://www.cepal.org/es/publicaciones/84409-manual-uso-integracion-datos-administrativos-fines-estadisticos-relacionados
+[CEPAL] t= 343.2s | pag=172 | files= 153 | data= 20 | cola=11499 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8184
+[CEPAL] t= 358.9s | pag=172 | files= 153 | data= 20 | cola=11498 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8184
+[CEPAL] t= 375.5s | pag=172 | files= 153 | data= 20 | cola=11497 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=140&work_area=8184
+[CEPAL] t= 392.4s | pag=172 | files= 153 | data= 20 | cola=11496 | prio=10 | https://www.cepal.org/es/publicaciones/ae
+[CEPAL] t= 394.3s | pag=172 | files= 153 | data= 20 | cola=11495 | prio=10 | https://www.cepal.org/es/publicaciones/tipo/estudios-estadisticos
+[CEPAL] t= 396.3s | pag=172 | files= 153 | data= 20 | cola=11494 | prio=10 | https://www.cepal.org/es/publicaciones/tipo/metodologias-cepal
+[CEPAL] t= 398.5s | pag=172 | files= 153 | data= 20 | cola=11493 | prio=10 | https://www.cepal.org/es/publicaciones/tipo/temas-estadisticos-cepal
+[CEPAL] t= 400.3s | pag=172 | files= 153 | data= 20 | cola=11492 | prio=10 | https://www.cepal.org/es/publicaciones/80477-codigo-regional-buenas-practicas-estadisticas-america-latina-caribe-2023
+[CEPAL] t= 402.5s | pag=173 | files= 153 | data= 20 | cola=11495 | prio=10 | https://www.cepal.org/es/publicaciones/48066-documento-metodologico-aprovechamiento-estadistico-registros-administrativos
+[CEPAL] t= 404.4s | pag=174 | files= 153 | data= 20 | cola=11497 | prio=10 | https://www.cepal.org/es/publicaciones/48073-protocolo-la-recoleccion-divulgacion-datos-ninos-ninas-adolescentes
+[CEPAL] t= 405.1s | pag=175 | files= 153 | data= 20 | cola=11500 | prio=10 | https://www.cepal.org/es/publicaciones/48019-guia-metodologica-mediciones-uso-tiempo-america-latina-caribe
+[CEPAL] t= 405.6s | pag=176 | files= 153 | data= 20 | cola=11505 | prio=10 | https://www.cepal.org/es/publicaciones/48022-lineamientos-generales-la-captura-datos-censales-revision-metodos-miras-la-ronda
+[CEPAL] t= 407.2s | pag=177 | files= 153 | data= 20 | cola=11507 | prio=10 | https://www.cepal.org/es/publicaciones/48005-guide-implementation-quality-assurance-framework-statistical-processes-and
+[CEPAL] t= 408.7s | pag=178 | files= 153 | data= 21 | cola=11511 | prio=10 | https://www.cepal.org/es/publicaciones/45253-ley-generica-estadisticas-america-latina
+[CEPAL] t= 409.3s | pag=179 | files= 153 | data= 21 | cola=11515 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?subsidiary_body=8177
+[CEPAL] t= 410.1s | pag=180 | files= 153 | data= 21 | cola=11535 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/la-cea
+[CEPAL] t= 410.8s | pag=181 | files= 153 | data= 21 | cola=11542 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/b-comite-ejecutivo-la-cea
+[CEPAL] t= 411.7s | pag=182 | files= 154 | data= 21 | cola=11544 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/c-estados-miembros-la-cea
+[CEPAL] t= 412.4s | pag=183 | files= 154 | data= 22 | cola=11545 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/d-grupos-trabajo-la-cea
+[CEPAL] t= 415.3s | pag=184 | files= 154 | data= 22 | cola=11567 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/red-transmision-conocimiento-rtc
+[CEPAL] t= 416.3s | pag=185 | files= 154 | data= 22 | cola=11582 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/f-actividades-estadisticas-america-latina
+[CEPAL] t= 419.2s | pag=186 | files= 154 | data= 22 | cola=11667 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/g-grupo-coordinacion-estadistica-la-agenda
+[CEPAL] t= 419.6s | pag=187 | files= 163 | data= 23 | cola=11677 | prio=10 | https://www.cepal.org/es/notas/reunion-interagencial-naciones-unidas-fortalecer-la-cooperacion-estadisticas-oficiales
+[CEPAL] t= 422.1s | pag=188 | files= 163 | data= 23 | cola=11678 | prio=10 | https://www.cepal.org/es/organos-subsidiarios/conferencia-estadistica-americas/grupo-coordinacion-estadistica-la-agenda-2030-america-latina-caribe
+[CEPAL] t= 422.7s | pag=188 | files= 163 | data= 23 | cola=11677 | prio=10 | https://www.cepal.org/es/publicaciones/47405-distribucion-geografica-la-actividad-economica-la-argentina-revision
+[CEPAL] t= 424.9s | pag=189 | files= 163 | data= 23 | cola=11681 | prio=10 | https://www.cepal.org/es/publicaciones/47153-perspectivas-globales-regionales-la-integracion-la-informacion-estadistica
+[CEPAL] t= 426.9s | pag=190 | files= 163 | data= 23 | cola=11684 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?subsidiary_body=8365
+[CEPAL] t= 442.7s | pag=190 | files= 163 | data= 23 | cola=11683 | prio=10 | https://www.cepal.org/es/publicaciones/81296-anuario-estadistico-america-latina-caribe-2024-statistical-yearbook-latin
+[CEPAL] t= 444.2s | pag=191 | files= 163 | data= 23 | cola=11687 | prio=10 | https://www.cepal.org/es/publicaciones/68991-anuario-estadistico-america-latina-caribe-2023-statistical-yearbook-latin
+[CEPAL] t= 445.0s | pag=192 | files= 163 | data= 23 | cola=11691 | prio=10 | https://www.cepal.org/es/publicaciones/48706-anuario-estadistico-america-latina-caribe-2022-statistical-yearbook-latin
+[CEPAL] t= 446.7s | pag=193 | files= 163 | data= 23 | cola=11695 | prio=10 | https://www.cepal.org/es/publicaciones/47827-anuario-estadistico-america-latina-caribe-2021-statistical-yearbook-latin
+[CEPAL] t= 448.1s | pag=194 | files= 163 | data= 23 | cola=11701 | prio=10 | https://www.cepal.org/es/publicaciones/46739-anuario-estadistico-america-latina-caribe-2020-statistical-yearbook-latin
+[CEPAL] t= 448.8s | pag=195 | files= 163 | data= 23 | cola=11708 | prio=10 | https://www.cepal.org/es/publicaciones/45353-anuario-estadistico-america-latina-caribe-2019-statistical-yearbook-latin
+[CEPAL] t= 450.2s | pag=196 | files= 163 | data= 23 | cola=11712 | prio=10 | https://www.cepal.org/es/publicaciones/44445-anuario-estadistico-america-latina-caribe-2018-statistical-yearbook-latin
+[CEPAL] t= 450.9s | pag=197 | files= 163 | data= 23 | cola=11717 | prio=10 | https://www.cepal.org/es/publicaciones/43239-anuario-estadistico-america-latina-caribe-2017-statistical-yearbook-latin
+[CEPAL] t= 452.2s | pag=198 | files= 163 | data= 23 | cola=11722 | prio=10 | https://www.cepal.org/es/publicaciones/40972-anuario-estadistico-america-latina-caribe-2016-statistical-yearbook-latin
+[CEPAL] t= 453.0s | pag=199 | files= 163 | data= 23 | cola=11728 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/anuario-estadistico-america-latina-caribe?page=1
+[CEPAL] t= 454.8s | pag=200 | files= 163 | data= 23 | cola=11737 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/anuario-estadistico-america-latina-caribe?page=2
+[CEPAL] t= 456.3s | pag=201 | files= 163 | data= 23 | cola=11746 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/anuario-estadistico-america-latina-caribe?page=3
+[CEPAL] t= 457.2s | pag=202 | files= 163 | data= 23 | cola=11755 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/anuario-estadistico-america-latina-caribe?page=4
+[CEPAL] t= 459.4s | pag=203 | files= 163 | data= 23 | cola=11763 | prio=10 | https://www.cepal.org/es/publicaciones/81385-estimacion-areas-pequenas-indicadores-pobreza-america-latina-aplicacion-basada
+[CEPAL] t= 460.9s | pag=204 | files= 163 | data= 23 | cola=11765 | prio=10 | https://www.cepal.org/es/publicaciones/69177-servicios-intermediacion-financiera-medidos-indirectamente-medicion-un-contexto
+[CEPAL] t= 461.5s | pag=205 | files= 163 | data= 23 | cola=11767 | prio=10 | https://www.cepal.org/es/publicaciones/69130-indice-mala-calidad-empleo-exploracion-la-ultima-decada-america-latina
+[CEPAL] t= 462.0s | pag=206 | files= 163 | data= 23 | cola=11769 | prio=10 | https://www.cepal.org/es/publicaciones/67980-efectos-diseno-indicadores-sociales-america-latina-funcion-generalizada-varianza
+[CEPAL] t= 463.6s | pag=207 | files= 163 | data= 23 | cola=11771 | prio=10 | https://www.cepal.org/es/publicaciones/48668-modelos-unidad-la-generacion-mapas-pobreza-nivel-subnacional
+[CEPAL] t= 465.2s | pag=208 | files= 163 | data= 23 | cola=11773 | prio=10 | https://www.cepal.org/es/publicaciones/44214-desagregacion-datos-encuestas-hogares-metodologias-estimacion-areas-pequenas
+[CEPAL] t= 467.2s | pag=209 | files= 163 | data= 23 | cola=11776 | prio=10 | https://www.cepal.org/es/publicaciones/47921-cambio-ano-referencia-agregados-regionales-anuales-cuentas-nacionales
+[CEPAL] t= 469.1s | pag=210 | files= 163 | data= 23 | cola=11778 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=1
+[CEPAL] t= 471.1s | pag=211 | files= 163 | data= 23 | cola=11788 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=2
+[CEPAL] t= 473.1s | pag=212 | files= 163 | data= 23 | cola=11797 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=3
+[CEPAL] t= 475.4s | pag=213 | files= 163 | data= 23 | cola=11806 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=4
+[CEPAL] t= 477.1s | pag=214 | files= 163 | data= 23 | cola=11815 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=5
+[CEPAL] t= 477.9s | pag=215 | files= 163 | data= 23 | cola=11825 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=6
+[CEPAL] t= 479.6s | pag=216 | files= 163 | data= 23 | cola=11834 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=7
+[CEPAL] DATASET ACTUALIZADO | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos -> https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=7
+[CEPAL] t= 481.6s | pag=217 | files= 163 | data= 23 | cola=11843 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=8
+[CEPAL] t= 483.4s | pag=218 | files= 163 | data= 23 | cola=11852 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/serie-estudios-estadisticos?page=10
+[CEPAL] t= 485.0s | pag=219 | files= 163 | data= 23 | cola=11859 | prio=10 | https://www.cepal.org/es/publicaciones/83770-la-revolucion-datos-mas-mejor-informacion-promover-desarrollo-sostenible
+[CEPAL] t= 486.7s | pag=220 | files= 163 | data= 23 | cola=11862 | prio=10 | https://www.cepal.org/es/publicaciones/82544-percepciones-gobernabilidad-gobernanza-america-latina
+[CEPAL] t= 487.7s | pag=221 | files= 163 | data= 23 | cola=11866 | prio=10 | https://www.cepal.org/es/publicaciones/82398-panorama-institucional-la-produccion-estadisticas-ambientales-america-latina
+[CEPAL] t= 489.2s | pag=222 | files= 163 | data= 23 | cola=11869 | prio=10 | https://www.cepal.org/es/publicaciones/82292-metodologia-empleada-la-obtencion-resultados-ciclo-2021-programa-comparacion
+[CEPAL] t= 491.0s | pag=223 | files= 163 | data= 23 | cola=11872 | prio=10 | https://www.cepal.org/es/publicaciones/81897-estadisticas-indicadores-relacionadas-cambio-climatico-america-latina-caribe
+[CEPAL] t= 491.7s | pag=224 | files= 163 | data= 23 | cola=11875 | prio=10 | https://www.cepal.org/es/publicaciones/81398-principales-resultados-ciclo-2021-programa-comparacion-internacional-america
+[CEPAL] t= 492.3s | pag=225 | files= 163 | data= 23 | cola=11878 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/temas-estadisticos-la-cepal?page=1
+[CEPAL] t= 493.3s | pag=226 | files= 163 | data= 23 | cola=11888 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/temas-estadisticos-la-cepal?page=2
+[CEPAL] t= 495.1s | pag=227 | files= 163 | data= 23 | cola=11890 | prio=10 | https://www.cepal.org/es/temas/innovacion-estadistica
+[CEPAL] t= 495.7s | pag=228 | files= 163 | data= 23 | cola=11897 | prio=10 | https://campusestadisticas.cepal.org/
+[CEPAL] t= 497.7s | pag=229 | files= 163 | data= 24 | cola=11954 | prio=10 | https://www.cepal.org/es/notas/instituto-nacional-estadisticas-censos-indec-instituto-geografico-nacional-argentina-apoyo
+[CEPAL] t= 499.4s | pag=230 | files= 163 | data= 24 | cola=11955 | prio=10 | https://www.cepal.org/es/publicaciones/81653-catalogo-tematico-desarrollo-economico
+[CEPAL] t= 499.8s | pag=231 | files= 163 | data= 24 | cola=11958 | prio=10 | https://www.cepal.org/es/publicaciones/81658-catalogo-tematico-poblacion-desarrollo
+[CEPAL] t= 500.3s | pag=232 | files= 163 | data= 24 | cola=11963 | prio=10 | https://www.cepal.org/es/publicaciones/81686-catalogo-tematico-desarrollo-productivo-empresarial
+[CEPAL] t= 501.3s | pag=233 | files= 163 | data= 24 | cola=11966 | prio=10 | https://www.cepal.org/es/publicaciones/81656-catalogo-tematico-desarrollo-social
+[CEPAL] t= 502.9s | pag=234 | files= 163 | data= 24 | cola=11969 | prio=10 | https://www.cepal.org/es/publicaciones/81682-catalogo-tematico-recursos-naturales
+[CEPAL] t= 503.5s | pag=235 | files= 163 | data= 24 | cola=11974 | prio=10 | https://www.cepal.org/es/publicaciones/81654-catalogo-tematico-planificacion-desarrollo
+[CEPAL] t= 504.8s | pag=236 | files= 163 | data= 24 | cola=11980 | prio=10 | https://www.cepal.org/es/publicaciones/89944-catalogo-tematico-acuerdo-escazu
+[CEPAL] t= 506.4s | pag=237 | files= 163 | data= 24 | cola=11984 | prio=10 | https://www.cepal.org/es/publicaciones/81662-catalogo-tematico-agenda-2030-desarrollo-sostenible
+[CEPAL] t= 507.2s | pag=238 | files= 163 | data= 24 | cola=11987 | prio=10 | https://www.cepal.org/en/publications/89929-thematic-catalogue-2030-agenda-sustainable-development
+[CEPAL] t= 508.0s | pag=239 | files= 163 | data= 24 | cola=11993 | prio=10 | https://www.cepal.org/es/publicaciones/81689-catalogo-tematico-asuntos-genero
+[CEPAL] t= 509.3s | pag=240 | files= 163 | data= 24 | cola=11998 | prio=10 | https://www.cepal.org/en/publications/90078-thematic-catalogue-gender-affairs
+[CEPAL] t= 509.9s | pag=241 | files= 163 | data= 24 | cola=12006 | prio=10 | https://www.cepal.org/es/publicaciones/81661-catalogo-tematico-desarrollo-sostenible-asentamientos-humanos
+[CEPAL] t= 511.3s | pag=242 | files= 163 | data= 24 | cola=12009 | prio=10 | https://www.cepal.org/es/publicaciones/81688-catalogo-tematico-comercio-internacional-integracion
+[CEPAL] t= 513.0s | pag=243 | files= 163 | data= 24 | cola=12015 | prio=10 | https://www.cepal.org/en/publications/accesible
+[CEPAL] t= 513.8s | pag=244 | files= 163 | data= 24 | cola=12025 | prio=10 | https://www.cepal.org/pt-br/publications/accesible
+[CEPAL] t= 515.4s | pag=245 | files= 163 | data= 24 | cola=12024 | prio=10 | https://www.cepal.org/es/publicaciones/90234-impactos-cambio-demografico-america-latina-caribe-retos-opciones-la-politica
+[CEPAL] t= 516.4s | pag=246 | files= 163 | data= 24 | cola=12026 | prio=10 | https://www.cepal.org/es/publicaciones/82881-personas-discapacidad-la-visibilidad-estadistica-al-ejercicio-derechos-version
+[CEPAL] t= 518.6s | pag=247 | files= 163 | data= 24 | cola=12029 | prio=10 | https://www.cepal.org/es/publicaciones/81359-perspectivas-comercio-internacional-america-latina-caribe-2024-resumen-ejecutivo
+[CEPAL] t= 519.0s | pag=248 | files= 163 | data= 24 | cola=12032 | prio=10 | https://www.cepal.org/es/publicaciones/81301-estudio-economico-america-latina-caribe-2024-resumen-ejecutivo-version-accesible
+[CEPAL] t= 520.0s | pag=249 | files= 163 | data= 24 | cola=12034 | prio=10 | https://www.cepal.org/es/publicaciones/81203-panorama-social-america-latina-caribe-2024-version-accesible
+[CEPAL] t= 520.5s | pag=250 | files= 163 | data= 24 | cola=12037 | prio=10 | https://www.cepal.org/es/publicaciones/81202-guia-la-creacion-documentos-accesibles-la-comision-economica-america-latina
+[CEPAL] t= 521.2s | pag=251 | files= 163 | data= 24 | cola=12040 | prio=10 | https://www.cepal.org/es/publicaciones/81132-estudio-economico-america-latina-caribe-2023-version-accesible
+[CEPAL] t= 522.1s | pag=252 | files= 163 | data= 24 | cola=12042 | prio=10 | https://www.cepal.org/es/publicaciones/80434-compromiso-santiago-version-accesible
+[CEPAL] t= 523.5s | pag=253 | files= 163 | data= 24 | cola=12044 | prio=10 | https://www.cepal.org/es/publicaciones/80419-compromiso-buenos-aires-version-accesible
+[CEPAL] t= 525.2s | pag=254 | files= 163 | data= 24 | cola=12046 | prio=10 | https://www.cepal.org/es/publicaciones/80418-consenso-montevideo-poblacion-desarrollo-version-accesible
+[CEPAL] t= 525.7s | pag=255 | files= 163 | data= 24 | cola=12049 | prio=10 | https://www.cepal.org/es/publicaciones/69179-panorama-social-america-latina-caribe-2023-version-accesible
+[CEPAL] t= 526.3s | pag=256 | files= 163 | data= 24 | cola=12052 | prio=10 | https://www.cepal.org/es/publicaciones/69162-acuerdo-regional-acceso-la-informacion-la-participacion-publica-acceso-la
+[CEPAL] t= 526.8s | pag=257 | files= 163 | data= 24 | cola=12054 | prio=10 | https://www.cepal.org/es/publicaciones/48905-panorama-social-america-latina-caribe-2022-resumen-ejecutivo-formato-accesible
+[CEPAL] t= 527.4s | pag=258 | files= 163 | data= 24 | cola=12056 | prio=10 | https://www.cepal.org/en/publications/90226-impacts-demographic-change-latin-america-and-caribbean-public-policy-challenges
+[CEPAL] t= 528.1s | pag=259 | files= 163 | data= 24 | cola=12066 | prio=10 | https://repositorio.cepal.org/bitstreams/cac14596-5113-4447-9cb2-15bfa440f5f6/download
+[CEPAL] t= 529.6s | pag=259 | files= 163 | data= 24 | cola=12065 | prio=10 | https://repositorio.cepal.org/bitstreams/ca444aaf-0bca-4c33-9c67-51e4570e5c88/download
+[CEPAL] t= 532.2s | pag=259 | files= 163 | data= 24 | cola=12064 | prio=10 | https://www.cepal.org/en/publications/89775-2030-agenda-latin-america-and-caribbean-accelerating-implementation-new-era
+[CEPAL] DATASETS=25 | exportable_data_page | https://www.cepal.org/en/publications/89775-2030-agenda-latin-america-and-caribbean-accelerating-implementation-new-era
+[CEPAL] t= 533.0s | pag=260 | files= 163 | data= 25 | cola=12071 | prio=10 | https://www.cepal.org/es/publicaciones/89912-agenda-2030-america-latina-caribe-como-acelerar-paso-su-cumplimiento-la-nueva
+[CEPAL] t= 533.9s | pag=261 | files= 163 | data= 25 | cola=12073 | prio=10 | https://www.cepal.org/es/publicaciones/89917-ods-6-agua-limpia-saneamiento-implementacion-america-latina-caribe-2026
+[CEPAL] t= 534.7s | pag=262 | files= 163 | data= 25 | cola=12075 | prio=10 | https://www.cepal.org/es/publicaciones/89919-ods-7-energia-asequible-contaminante-implementacion-america-latina-caribe-2026
+[CEPAL] t= 535.7s | pag=263 | files= 163 | data= 25 | cola=12077 | prio=10 | https://www.cepal.org/es/publicaciones/89921-ods-9-industria-innovacion-infraestructura-implementacion-america-latina-caribe
+[CEPAL] t= 536.5s | pag=264 | files= 163 | data= 25 | cola=12079 | prio=10 | https://www.cepal.org/es/publicaciones/89923-ods-11-ciudades-comunidades-sostenibles-implementacion-america-latina-caribe
+[CEPAL] t= 537.1s | pag=265 | files= 163 | data= 25 | cola=12081 | prio=10 | https://www.cepal.org/es/publicaciones/89926-ods-17-alianzas-lograr-objetivos-implementacion-america-latina-caribe-2026
+[CEPAL] t= 539.1s | pag=266 | files= 163 | data= 25 | cola=12083 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/informe-cepaloit
+[CEPAL] t= 540.1s | pag=267 | files= 163 | data= 25 | cola=12096 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/documentos-proyectos
+[CEPAL] t= 541.1s | pag=268 | files= 163 | data= 25 | cola=12106 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/documentos-periodo-sesiones-la-cepal
+[CEPAL] t= 543.2s | pag=269 | files= 163 | data= 25 | cola=12109 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/periodo-sesiones-la-comision
+[CEPAL] t= 544.2s | pag=270 | files= 163 | data= 25 | cola=12127 | prio=10 | https://www.cepal.org/es/tipo-de-publicacion/sede-subregional-la-cepal-mexico-estudios-investigaciones
+[CEPAL] t= 544.7s | pag=271 | files= 163 | data= 25 | cola=12137 | prio=10 | https://www.cepal.org/es/publicaciones/90258-impactos-oportunidades-la-prevencion-gestion-plasticos-un-solo-uso-mediante-la
+[CEPAL] t= 545.6s | pag=272 | files= 163 | data= 25 | cola=12140 | prio=10 | https://www.cepal.org/es/publicaciones/90255-matrimonios-uniones-infantiles-america-latina-caribe-datos-la-accion-publica
+[CEPAL] t= 546.7s | pag=273 | files= 163 | data= 25 | cola=12142 | prio=10 | https://www.cepal.org/es/publicaciones/90241-simulador-la-transformacion-digital-productiva-herramienta-diseno-politicas
+[CEPAL] t= 547.2s | pag=274 | files= 163 | data= 25 | cola=12145 | prio=10 | https://www.cepal.org/es/publicaciones/90230-la-trampa-la-baja-capacidad-crecer-america-latina-caribe
+[CEPAL] t= 547.9s | pag=275 | files= 163 | data= 25 | cola=12147 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1
+[CEPAL] t= 563.7s | pag=275 | files= 163 | data= 25 | cola=12146 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2
+[CEPAL] t= 565.3s | pag=276 | files= 163 | data= 25 | cola=12147 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1305
+[CEPAL] t= 566.1s | pag=277 | files= 163 | data= 25 | cola=12154 | prio=10 | https://www.cepal.org/es/publicaciones/90190-la-agenda-2030-desarrollo-sostenible-la-agenda-regional-genero-america-latina
+[CEPAL] t= 567.7s | pag=278 | files= 163 | data= 25 | cola=12156 | prio=10 | https://www.cepal.org/es/publicaciones/89987-resumen-la-presidencia-novena-reunion-foro-paises-america-latina-caribe
+[CEPAL] t= 569.1s | pag=279 | files= 163 | data= 25 | cola=12161 | prio=10 | https://www.cepal.org/es/publicaciones/89770-la-agenda-2030-desarrollo-sostenible-la-agenda-regional-genero-america-latina
+[CEPAL] t= 570.1s | pag=280 | files= 163 | data= 25 | cola=12163 | prio=10 | https://www.cepal.org/es/publicaciones/89768-panorama-la-gestion-publica-america-latina-caribe-2025-innovar-estado-gestionar
+[CEPAL] t= 570.5s | pag=281 | files= 163 | data= 25 | cola=12169 | prio=10 | https://www.cepal.org/es/publicaciones/84555-temario-provisional-novena-reunion-foro-paises-america-latina-caribe-desarrollo
+[CEPAL] t= 572.3s | pag=282 | files= 163 | data= 25 | cola=12172 | prio=10 | https://www.cepal.org/es/publicaciones/84553-temario-provisional-anotado-novena-reunion-foro-paises-america-latina-caribe
+[CEPAL] t= 573.3s | pag=283 | files= 163 | data= 25 | cola=12175 | prio=10 | https://www.cepal.org/es/publicaciones/84721-puentes-la-igualdad-genero-america-latina-caribe-alemania-criterios-aplicar-la
+[CEPAL] t= 575.0s | pag=284 | files= 163 | data= 25 | cola=12178 | prio=10 | https://www.cepal.org/es/publicaciones/82446-la-agenda-2030-desarrollo-sostenible-la-agenda-regional-genero-america-latina
+[CEPAL] t= 575.6s | pag=285 | files= 163 | data= 25 | cola=12180 | prio=10 | https://www.cepal.org/es/publicaciones/83294-conmemoracion-80-anos-naciones-unidas-chile-album-fotografico
+[CEPAL] t= 576.1s | pag=286 | files= 163 | data= 25 | cola=12184 | prio=10 | https://www.cepal.org/es/publicaciones/82745-proyecto-programa-trabajo-sistema-la-cepal-2027
+[CEPAL] t= 577.5s | pag=287 | files= 163 | data= 25 | cola=12187 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&topic=8204
+[CEPAL] t= 592.9s | pag=287 | files= 163 | data= 25 | cola=12186 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&topic=8204
+[CEPAL] t= 609.2s | pag=287 | files= 163 | data= 25 | cola=12185 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=40&topic=8204
+[CEPAL] t= 625.4s | pag=287 | files= 163 | data= 25 | cola=12184 | prio=10 | https://www.cepal.org/es/publicaciones/90156-herramientas-la-transversalizacion-la-perspectiva-genero-la-cooperacion
+[CEPAL] t= 627.9s | pag=288 | files= 163 | data= 25 | cola=12188 | prio=10 | https://www.cepal.org/es/publicaciones/90111-escenarios-ampliacion-politicas-cuidado-lograr-la-igualdad-sustantiva-genero
+[CEPAL] t= 629.7s | pag=289 | files= 163 | data= 25 | cola=12190 | prio=10 | https://www.cepal.org/es/publicaciones/90081-compromiso-tlatelolco-decada-accion-logro-la-igualdad-sustantiva-genero-la
+[CEPAL] t= 630.3s | pag=290 | files= 163 | data= 25 | cola=12194 | prio=10 | https://www.cepal.org/es/publicaciones/90084-cooperacion-regional-avanzar-la-agenda-mujeres-la-paz-la-seguridad-aprendizajes
+[CEPAL] t= 630.8s | pag=291 | files= 163 | data= 25 | cola=12197 | prio=10 | https://www.cepal.org/es/publicaciones/90077-economia-cuidado-trabajo-decente-escenarios-recomendaciones-america-latina
+[CEPAL] t= 631.3s | pag=292 | files= 163 | data= 25 | cola=12199 | prio=10 | https://www.cepal.org/es/publicaciones/90041-vigesimosegunda-reunion-internacional-especialistas-informacion-uso-tiempo
+[CEPAL] t= 633.3s | pag=293 | files= 163 | data= 25 | cola=12202 | prio=10 | https://www.cepal.org/es/publicaciones/82273-la-sociedad-cuidado-gobernanza-economia-politica-dialogo-social-transformacion
+[CEPAL] t= 633.8s | pag=294 | files= 163 | data= 25 | cola=12206 | prio=10 | https://www.cepal.org/es/publicaciones/89980-informe-la-sexagesima-septima-reunion-la-mesa-directiva-la-conferencia-regional
+[CEPAL] t= 635.4s | pag=295 | files= 163 | data= 25 | cola=12211 | prio=10 | https://www.cepal.org/es/publicaciones/84026-la-igualdad-sustantiva-genero-la-sociedad-cuidado-actuar-sentido-urgencia
+[CEPAL] t= 635.9s | pag=296 | files= 163 | data= 25 | cola=12216 | prio=10 | https://www.cepal.org/es/publicaciones/90083-chile-cuida-la-experiencia-diseno-la-implementacion-sistema-nacional-apoyos
+[CEPAL] t= 637.9s | pag=297 | files= 163 | data= 25 | cola=12218 | prio=10 | https://www.cepal.org/es/publicaciones/86000-acceso-la-justicia-mujeres-ninas-america-latina-caribe
+[CEPAL] t= 638.4s | pag=298 | files= 163 | data= 25 | cola=12221 | prio=10 | https://www.cepal.org/es/publicaciones/85995-informe-foro-transversalizacion-la-perspectiva-genero-la-cooperacion
+[CEPAL] t= 639.8s | pag=299 | files= 163 | data= 25 | cola=12223 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8187
+[CEPAL] t= 655.6s | pag=299 | files= 163 | data= 25 | cola=12222 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8187
+[CEPAL] t= 672.0s | pag=299 | files= 163 | data= 25 | cola=12221 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=64&work_area=8187
+[CEPAL] t= 688.2s | pag=299 | files= 163 | data= 25 | cola=12220 | prio=10 | https://www.cepal.org/es/publicaciones/90191-iniciativas-articulacion-productiva-territorial-mexico-gobernanza-subnacional
+[CEPAL] t= 689.9s | pag=300 | files= 163 | data= 25 | cola=12222 | prio=10 | https://www.cepal.org/es/publicaciones/90112-boletin-comercio-exterior-mercosur-9-acuerdo-la-union-europea-oportunidad
+[CEPAL] t= 690.7s | pag=301 | files= 163 | data= 25 | cola=12225 | prio=10 | https://www.cepal.org/es/publicaciones/90118-institucionalidad-mecanismos-seguimiento-compromisos-materia-cooperacion-sur-sur
+[CEPAL] t= 692.3s | pag=302 | files= 163 | data= 25 | cola=12229 | prio=10 | https://www.cepal.org/es/publicaciones/90114-temario-provisional-anotado-segunda-reunion-la-mesa-directiva-la-conferencia
+[CEPAL] t= 694.3s | pag=303 | files= 163 | data= 25 | cola=12232 | prio=10 | https://www.cepal.org/es/publicaciones/90030-accion-la-igualdad-genero-la-sociedad-cuidado-propuesta-normativa-estandares
+[CEPAL] t= 694.8s | pag=304 | files= 163 | data= 25 | cola=12234 | prio=10 | https://www.cepal.org/es/publicaciones/89985-informe-portuario-2024-2025-como-navegar-nueva-etapa-globalizacion
+[CEPAL] t= 695.8s | pag=305 | files= 163 | data= 25 | cola=12238 | prio=10 | https://www.cepal.org/es/publicaciones/89964-fortalecimiento-la-cadena-valor-la-miel-regiones-costa-mixteca-estado-oaxaca
+[CEPAL] t= 697.5s | pag=306 | files= 163 | data= 25 | cola=12240 | prio=10 | https://www.cepal.org/es/publicaciones/89941-estrategia-nacional-exportacion-servicios-modernos-panama-2026
+[CEPAL] t= 698.1s | pag=307 | files= 163 | data= 25 | cola=12243 | prio=10 | https://www.cepal.org/es/publicaciones/86530-cooperativas-latinoamericanas-comercio-justo-historias-resiliencia
+[CEPAL] t= 698.9s | pag=308 | files= 163 | data= 25 | cola=12246 | prio=10 | https://www.cepal.org/es/publicaciones/86003-politicas-desarrollo-productivo-ambito-subnacional-fundamentos-instituciones
+[CEPAL] t= 699.4s | pag=309 | files= 163 | data= 25 | cola=12248 | prio=10 | https://www.cepal.org/es/publicaciones/85929-rol-la-infraestructura-la-seguridad-vial-america-latina
+[CEPAL] t= 700.1s | pag=310 | files= 163 | data= 25 | cola=12250 | prio=10 | https://www.cepal.org/es/publicaciones/84632-claves-la-cepal-desarrollo-ndeg25-perspectivas-comercio-internacional-america
+[CEPAL] t= 700.8s | pag=311 | files= 163 | data= 25 | cola=12253 | prio=10 | https://www.cepal.org/es/publicaciones/84551-transformacion-digital-portuaria-sistemas-comunitarios-portuarios-gemelos
+[CEPAL] t= 701.3s | pag=312 | files= 163 | data= 25 | cola=12255 | prio=10 | https://www.cepal.org/es/publicaciones/84429-guia-basica-gobernanza-anticipatoria
+[CEPAL] t= 702.0s | pag=313 | files= 163 | data= 25 | cola=12259 | prio=10 | https://www.cepal.org/es/publicaciones/83137-desarrollo-clusteres-logisticos-america-latina
+[CEPAL] t= 702.9s | pag=314 | files= 163 | data= 25 | cola=12262 | prio=10 | https://www.cepal.org/es/publicaciones/84477-boletin-estadistico-comercio-exterior-bienes-america-latina-caribe-segundo
+[CEPAL] t= 705.2s | pag=315 | files= 163 | data= 25 | cola=12265 | prio=10 | https://www.cepal.org/es/publicaciones/83912-oportunidades-diversificacion-exportadora-mercosur-un-abordaje-espacio-producto
+[CEPAL] t= 707.1s | pag=316 | files= 163 | data= 25 | cola=12267 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8192
+[CEPAL] t= 707.9s | pag=317 | files= 163 | data= 25 | cola=12284 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8192
+[CEPAL] t= 723.3s | pag=317 | files= 163 | data= 25 | cola=12283 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=132&work_area=8192
+[CEPAL] t= 739.9s | pag=317 | files= 163 | data= 25 | cola=12282 | prio=10 | https://www.cepal.org/es/publicaciones/90194-transicion-energetica-crecimiento-economico-mexico-mirada-un-desarrollo
+[CEPAL] t= 741.8s | pag=318 | files= 163 | data= 25 | cola=12284 | prio=10 | https://www.cepal.org/es/publicaciones/90159-repensar-la-cooperacion-sur-sur-triangular-tiempos-incertidumbre-documento-la
+[CEPAL] t= 743.1s | pag=319 | files= 163 | data= 25 | cola=12287 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8188
+[CEPAL] t= 758.7s | pag=319 | files= 163 | data= 25 | cola=12286 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8188
+[CEPAL] t= 760.5s | pag=320 | files= 163 | data= 25 | cola=12302 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=233&work_area=8188
+[CEPAL] t= 775.9s | pag=320 | files= 163 | data= 25 | cola=12301 | prio=10 | https://www.cepal.org/es/publicaciones/90149-guia-implementacion-proyectos-inteligencia-artificial-sector-publico
+[CEPAL] t= 777.4s | pag=321 | files= 163 | data= 25 | cola=12303 | prio=10 | https://www.cepal.org/es/publicaciones/90153-perspectivas-la-agricultura-desarrollo-rural-americas-mirada-america-latina
+[CEPAL] t= 777.8s | pag=322 | files= 163 | data= 25 | cola=12306 | prio=10 | https://www.cepal.org/es/publicaciones/90144-relatoria-curso-politicas-desarrollo-productivo-espacio-formacion-permanente
+[CEPAL] t= 779.6s | pag=323 | files= 163 | data= 25 | cola=12309 | prio=10 | https://www.cepal.org/es/publicaciones/90120-marco-regional-competencias-digitales-america-latina-caribe-digcompalc
+[CEPAL] t= 780.2s | pag=324 | files= 163 | data= 25 | cola=12311 | prio=10 | https://www.cepal.org/es/publicaciones/82535-panorama-politicas-desarrollo-productivo-america-latina-caribe-2025-como-salir
+[CEPAL] t= 780.7s | pag=325 | files= 163 | data= 25 | cola=12316 | prio=10 | https://www.cepal.org/es/publicaciones/90013-dinamica-la-creacion-empresas-empleo-la-provincia-cordoba-argentina
+[CEPAL] t= 781.5s | pag=326 | files= 163 | data= 25 | cola=12318 | prio=10 | https://www.cepal.org/es/publicaciones/89776-politicas-desarrollo-productivo-ambito-subnacional-gobernanza-multinivel
+[CEPAL] t= 783.0s | pag=327 | files= 163 | data= 25 | cola=12321 | prio=10 | https://www.cepal.org/es/publicaciones/86526-separata-capitulo-ii-politicas-ciencia-tecnologia-innovacion-desarrollo
+[CEPAL] t= 783.6s | pag=328 | files= 163 | data= 25 | cola=12323 | prio=10 | https://www.cepal.org/es/publicaciones/86020-indice-latinoamericano-inteligencia-artificial-ilia-2025-fichas-pais-aspectos
+[CEPAL] t= 784.2s | pag=329 | files= 163 | data= 25 | cola=12326 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8183
+[CEPAL] t= 800.0s | pag=329 | files= 163 | data= 25 | cola=12325 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8183
+[CEPAL] t= 816.2s | pag=329 | files= 163 | data= 25 | cola=12324 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=44&work_area=8183
+[CEPAL] t= 832.7s | pag=329 | files= 163 | data= 25 | cola=12323 | prio=10 | https://www.cepal.org/es/publicaciones/90208-valor-agregado-programa-imss-coplamar-como-estrategia-atencion-primaria-salud
+[CEPAL] t= 834.0s | pag=330 | files= 163 | data= 25 | cola=12326 | prio=10 | https://www.cepal.org/es/publicaciones/90175-informe-la-implementacion-programa-universalizacion-atencion-primaria-salud
+[CEPAL] t= 834.8s | pag=331 | files= 163 | data= 25 | cola=12328 | prio=10 | https://www.cepal.org/es/publicaciones/90148-trayectorias-la-migracion-retorno-mexico-2015-2025
+[CEPAL] t= 835.8s | pag=332 | files= 163 | data= 25 | cola=12330 | prio=10 | https://www.cepal.org/es/publicaciones/90142-cohesion-social-desarrollo-social-inclusivo-america-latina-caribe-perfiles
+[CEPAL] t= 836.6s | pag=333 | files= 163 | data= 25 | cola=12334 | prio=10 | https://www.cepal.org/es/publicaciones/90132-experiencia-digital-la-ninez-adolescencia-america-latina-argentina-bolivia
+[CEPAL] t= 837.5s | pag=334 | files= 163 | data= 25 | cola=12336 | prio=10 | https://www.cepal.org/es/publicaciones/90136-charlas-magistrales-desigualdad-social-barr-bourguignon-ferreira-foster-lustig
+[CEPAL] t= 838.3s | pag=335 | files= 163 | data= 25 | cola=12339 | prio=10 | https://www.cepal.org/es/publicaciones/90135-educacion-desigualdad-desarrollo-social-inclusivo
+[CEPAL] t= 838.7s | pag=336 | files= 163 | data= 25 | cola=12341 | prio=10 | https://www.cepal.org/es/publicaciones/90124-desigualdad-social-multidimensional-avances-propuesta-medicion-regional
+[CEPAL] t= 839.7s | pag=337 | files= 163 | data= 25 | cola=12343 | prio=10 | https://www.cepal.org/es/publicaciones/90139-provisional-agenda-sixth-session-regional-conference-population-and-development
+[CEPAL] t= 841.3s | pag=338 | files= 163 | data= 25 | cola=12348 | prio=10 | https://www.cepal.org/es/publicaciones/90127-informe-la-sexta-reunion-la-conferencia-regional-desarrollo-social-america
+[CEPAL] t= 843.1s | pag=339 | files= 163 | data= 25 | cola=12353 | prio=10 | https://www.cepal.org/es/publicaciones/90140-temario-provisional-anotado-sexta-reunion-la-conferencia-regional-poblacion
+[CEPAL] t= 844.7s | pag=340 | files= 163 | data= 25 | cola=12356 | prio=10 | https://www.cepal.org/es/publicaciones/90199-sistemas-salud-resilientes
+[CEPAL] t= 846.5s | pag=341 | files= 163 | data= 25 | cola=12358 | prio=10 | https://www.cepal.org/es/publicaciones/90201-sistemas-salud-universales-integrales-sostenibles-resilientes-avanzar-desarrollo
+[CEPAL] t= 848.0s | pag=342 | files= 163 | data= 25 | cola=12360 | prio=10 | https://www.cepal.org/es/publicaciones/90197-sistemas-salud-integrales
+[CEPAL] t= 849.5s | pag=343 | files= 163 | data= 25 | cola=12362 | prio=10 | https://www.cepal.org/es/publicaciones/90198-sistemas-salud-sostenibles
+[CEPAL] t= 851.1s | pag=344 | files= 163 | data= 25 | cola=12364 | prio=10 | https://www.cepal.org/es/publicaciones/90042-sistemas-salud-universales-integrales-sostenibles-resilientes-un-requisito
+[CEPAL] t= 852.1s | pag=345 | files= 163 | data= 25 | cola=12368 | prio=10 | https://www.cepal.org/es/publicaciones/90196-sistemas-salud-universales
+[CEPAL] t= 853.5s | pag=346 | files= 163 | data= 25 | cola=12370 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8195
+[CEPAL] t= 854.4s | pag=347 | files= 163 | data= 25 | cola=12380 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8195
+[CEPAL] t= 854.9s | pag=348 | files= 163 | data= 25 | cola=12392 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=261&work_area=8195
+[CEPAL] t= 870.1s | pag=348 | files= 163 | data= 25 | cola=12391 | prio=10 | https://www.cepal.org/es/publicaciones/90217-protocolo-la-evaluacion-visual-infraestructura-patrimonial-aplicacion-chile
+[CEPAL] t= 871.5s | pag=349 | files= 163 | data= 25 | cola=12394 | prio=10 | https://www.cepal.org/es/publicaciones/90206-ruta-la-implementacion-acuerdo-regional-acceso-la-informacion-la-participacion
+[CEPAL] t= 872.3s | pag=350 | files= 163 | data= 25 | cola=12396 | prio=10 | https://www.cepal.org/es/publicaciones/90038-relatoria-segundo-seminario-impacto-la-delincuencia-organizada-la-economia
+[CEPAL] t= 874.1s | pag=351 | files= 163 | data= 25 | cola=12399 | prio=10 | https://www.cepal.org/es/publicaciones/84908-relatoria-primer-seminario-impacto-la-delincuencia-organizada-la-economia
+[CEPAL] t= 874.8s | pag=352 | files= 163 | data= 25 | cola=12402 | prio=10 | https://www.cepal.org/es/publicaciones/89994-estadisticas-subsector-electrico-paises-sistema-la-integracion-centroamericana
+[CEPAL] t= 875.3s | pag=353 | files= 163 | data= 25 | cola=12404 | prio=10 | https://www.cepal.org/es/publicaciones/90002-decisiones-aprobadas-cuarta-reunion-la-conferencia-partes-acuerdo-regional
+[CEPAL] t= 876.7s | pag=354 | files= 163 | data= 25 | cola=12407 | prio=10 | https://www.cepal.org/es/publicaciones/89938-acuerdo-regional-acceso-la-informacion-la-participacion-publica-acceso-la
+[CEPAL] t= 877.7s | pag=355 | files= 163 | data= 25 | cola=12410 | prio=10 | https://www.cepal.org/es/publicaciones/89936-informe-la-xxii-reunion-comite-monitoreo-comite-desarrollo-cooperacion-caribe
+[CEPAL] t= 879.6s | pag=356 | files= 163 | data= 25 | cola=12415 | prio=10 | https://www.cepal.org/es/publicaciones/89932-informe-la-secretaria-registros-emisiones-transferencias-contaminantes-america
+[CEPAL] t= 881.0s | pag=357 | files= 163 | data= 25 | cola=12418 | prio=10 | https://www.cepal.org/es/publicaciones/89925-informe-la-secretaria-la-participacion-publico-procesos-toma-decisiones
+[CEPAL] t= 882.5s | pag=358 | files= 163 | data= 25 | cola=12421 | prio=10 | https://www.cepal.org/es/publicaciones/89765-informe-la-secretaria-registros-emisiones-transferencias-contaminantes-america
+[CEPAL] t= 884.1s | pag=359 | files= 163 | data= 25 | cola=12424 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8179
+[CEPAL] t= 899.6s | pag=359 | files= 163 | data= 25 | cola=12423 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8179
+[CEPAL] t= 915.7s | pag=359 | files= 163 | data= 25 | cola=12422 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=103&work_area=8179
+[CEPAL] t= 931.8s | pag=359 | files= 163 | data= 25 | cola=12421 | prio=10 | https://www.cepal.org/es/publicaciones/90214-informe-la-trigesima-primera-reunion-la-mesa-directiva-consejo-regional
+[CEPAL] t= 934.2s | pag=360 | files= 163 | data= 25 | cola=12425 | prio=10 | https://www.cepal.org/es/publicaciones/90186-eficiencia-fortalecimiento-la-gestion-la-inversion-publica-america-latina-caribe
+[CEPAL] t= 935.8s | pag=361 | files= 163 | data= 25 | cola=12428 | prio=10 | https://www.cepal.org/es/publicaciones/90213-notas-planificacion-desarrollo-ndeg-24-innovacion-publica-definiciones
+[CEPAL] t= 937.0s | pag=362 | files= 163 | data= 25 | cola=12430 | prio=10 | https://www.cepal.org/es/publicaciones/90113-boletin-red-comisiones-futuro-parlamentarias-5
+[CEPAL] t= 939.0s | pag=363 | files= 163 | data= 25 | cola=12432 | prio=10 | https://www.cepal.org/es/publicaciones/90152-notas-planificacion-desarrollo-ndeg-23-realinear-incentivos-la-generacion-valor
+[CEPAL] t= 940.7s | pag=364 | files= 163 | data= 25 | cola=12434 | prio=10 | https://www.cepal.org/es/publicaciones/89916-gobernanza-endogena-teoria-datos-herramientas-salir-la-trampa-gobernanza-poco
+[CEPAL] t= 941.3s | pag=365 | files= 163 | data= 25 | cola=12436 | prio=10 | https://www.cepal.org/es/publicaciones/89914-plan-accion-la-implementacion-la-agenda-regional-gobernanza-la-planificacion-la
+[CEPAL] t= 943.3s | pag=366 | files= 163 | data= 25 | cola=12439 | prio=10 | https://www.cepal.org/es/publicaciones/87573-temario-provisional-anotado-trigesima-primera-reunion-la-mesa-directiva-consejo
+[CEPAL] t= 945.3s | pag=367 | files= 163 | data= 25 | cola=12442 | prio=10 | https://www.cepal.org/es/publicaciones/86004-temario-provisional-trigesima-primera-reunion-la-mesa-directiva-consejo-regional
+[CEPAL] t= 946.9s | pag=368 | files= 163 | data= 25 | cola=12445 | prio=10 | https://www.cepal.org/es/publicaciones/85998-informe-la-xx-reunion-consejo-regional-planificacion-instituto-latinoamericano
+[CEPAL] t= 948.4s | pag=369 | files= 163 | data= 25 | cola=12448 | prio=10 | https://www.cepal.org/es/publicaciones/85977-desafios-oportunidades-la-incorporacion-la-prospectiva-la-funcion-publica
+[CEPAL] t= 950.1s | pag=370 | files= 163 | data= 25 | cola=12450 | prio=10 | https://www.cepal.org/es/publicaciones/85926-modelos-comparados-gobiernos-subnacionales-casos-guatemala-la-republica
+[CEPAL] t= 951.8s | pag=371 | files= 163 | data= 25 | cola=12452 | prio=10 | https://www.cepal.org/es/publicaciones/84904-guia-diseno-sistemas-monitoreo-evaluacion-intervenciones-publicas-enfoque
+[CEPAL] t= 952.8s | pag=372 | files= 163 | data= 25 | cola=12455 | prio=10 | https://www.cepal.org/es/publicaciones/84552-tecnologias-la-informacion-al-servicio-gobierno-abierto-transparencia-confianza
+[CEPAL] t= 954.5s | pag=373 | files= 163 | data= 25 | cola=12458 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8190
+[CEPAL] t= 969.9s | pag=373 | files= 163 | data= 25 | cola=12457 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8190
+[CEPAL] t= 986.6s | pag=373 | files= 163 | data= 25 | cola=12456 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=85&work_area=8190
+[CEPAL] t=1003.2s | pag=373 | files= 163 | data= 25 | cola=12455 | prio=10 | https://www.cepal.org/es/publicaciones/90221-informe-actividades-centro-latinoamericano-caribeno-demografia-celade-division
+[CEPAL] t=1004.7s | pag=374 | files= 163 | data= 25 | cola=12457 | prio=10 | https://www.cepal.org/es/publicaciones/89931-politicas-publicas-cuidados-largo-plazo-experiencias-mejorar-la-calidad-vida
+[CEPAL] t=1005.2s | pag=375 | files= 163 | data= 25 | cola=12459 | prio=10 | https://www.cepal.org/es/publicaciones/89940-desafio-economico-envejecimiento-papel-aumento-la-educacion-uruguay
+[CEPAL] t=1005.9s | pag=376 | files= 163 | data= 25 | cola=12463 | prio=10 | https://www.cepal.org/es/publicaciones/89761-guia-la-elaboracion-informe-nacional-voluntario-marco-quinto-examen-evaluacion
+[CEPAL] t=1007.7s | pag=377 | files= 163 | data= 25 | cola=12466 | prio=10 | https://www.cepal.org/es/publicaciones/86021-informe-la-sexta-reunion-la-mesa-directiva-la-conferencia-regional-poblacion
+[CEPAL] t=1009.2s | pag=378 | files= 163 | data= 25 | cola=12469 | prio=10 | https://www.cepal.org/es/publicaciones/82504-notas-poblacion-vol-52-ndeg-121
+[CEPAL] t=1010.2s | pag=379 | files= 163 | data= 25 | cola=12489 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=1&work_area=8169
+[CEPAL] t=1025.7s | pag=379 | files= 163 | data= 25 | cola=12488 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=2&work_area=8169
+[CEPAL] t=1042.3s | pag=379 | files= 163 | data= 25 | cola=12487 | prio=10 | https://www.cepal.org/es/listado/cepal_publication?page=125&work_area=8169
+[CEPAL] t=1058.4s | pag=379 | files= 163 | data= 25 | cola=12486 | prio=10 | https://www.cepal.org/es/publicaciones/90231-guia-la-implementacion-la-metodologia-planificacion-electrica-resiliente-sector
+[CEPAL] t=1060.0s | pag=380 | files= 163 | data= 25 | cola=12489 | prio=10 | https://www.cepal.org/es/publicaciones/85987-marco-financiamiento-la-seguridad-hidrica-america-latina-caribe
+[CEPAL] t=1060.9s | pag=381 | files= 163 | data= 25 | cola=12492 | prio=10 | https://www.cepal.org/es/publicaciones/90211-pobreza-energetica-colombia-diagnostico-brechas-acceso-equitativo-energia
+[CEPAL] t=1061.4s | pag=382 | files= 163 | data= 25 | cola=12494 | prio=10 | https://www.cepal.org/es/publicaciones/90195-guia-la-implementacion-la-metodologia-planificacion-electrica-resiliente-sector
+[CEPAL] t=1062.6s | pag=383 | files= 163 | data= 25 | cola=12497 | prio=10 | https://www.cepal.org/es/publicaciones/90182-metodologia-la-estimacion-efectos-incendios-forestales-sector-ambiental
+[CEPAL] t=1062.9s | pag=384 | files= 163 | data= 25 | cola=12499 | prio=10 | https://www.cepal.org/es/publicaciones/90027-recursos-naturales-america-latina-caribe-8
+[CEPAL] t=1063.4s | pag=385 | files= 163 | data= 25 | cola=12502 | prio=10 | https://www.cepal.org/es/publicaciones/86006-valoracion-agua-reflexiones-recomendaciones-america-latina-caribe
+[CEPAL] t=1064.1s | pag=386 | files= 163 | data= 25 | cola=12505 | prio=10 | https://www.cepal.org/es/publicaciones/85997-planes-transicion-energetica-america-latina-caribe-guia-metodologica
+[CEPAL] t=1064.8s | pag=387 | files= 163 | data= 25 | cola=12507 | prio=10 | https://www.cepal.org/es/publicaciones/85912-integracion-energetica-america-latina-avances-escenarios-recomendaciones
+[CEPAL] t=1065.8s | pag=388 | files= 163 | data= 25 | cola=12510 | prio=10 | https://www.cepal.org/es/publicaciones/82266-horizonte-azul-america-latina-caribe-2025-avances-desafios-logro-metas-objetivo
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
+    main()
+    ~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
+    crawler.crawl()
+    ~~~~~~~~~~~~~^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2735, in crawl
+    self.client.get(
+    ~~~~~~~~~~~~~~~^
+        current_url,
+        ^^^^^^^^^^^^
+    ...<4 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
+    self.session.get(
+    ~~~~~~~~~~~~~~~~^
+        url,
+        ^^^^
+    ...<16 lines>...
+        ),
+        ^^
+    )
+    ^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
+    return self.request("GET", url, params=params, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt

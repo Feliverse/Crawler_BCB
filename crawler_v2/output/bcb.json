@@ -3,22 +3,6 @@
         "OTROS": {
             "DOCUMENTOS_GENERALES": {
                 "VARIOS": {
-                    "the_wolfsberg_group.csv": {
-                        "descripcion": "Cuestionario Wolfsberg sobre Prevención de Lavado de Dinero",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/Otros/the_wolfsberg_group.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "RD_N_109_2026.csv": {
-                        "descripcion": "Operaciones de Mercado Abierto",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/normativaoma/RD_N_109_2026.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
                     "Reservas_Internacionales_Netas_del_Banco_Central_de_Bolivia_por_componentes.csv": {
                         "descripcion": "Reservas Internacionales del BCB",
                         "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/F%20Reservas%20Internacionales%20Netas/Reservas_Internacionales_Netas_del_Banco_Central_de_Bolivia_por_componentes.xlsx",
@@ -26,1365 +10,1203 @@
                         "tipo_archivo": "XLSX",
                         "url_origen": "https://www.bcb.gob.bo/",
                         "metodo_deteccion": "url_extension"
-                    },
-                    "REGLAM_DEXT_2022.csv": {
-                        "descripcion": "Reglamento para el Registro de la Deuda Externa Pública de Bolivia",
-                        "url_descarga": "https://deudaexternapublica.bcb.gob.bo/uploads/REGLAM_DEXT_2022.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "subasta_19.08.26_web.csv": {
-                        "descripcion": "subasta_19.08.26 web.pdf",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/subasta_19.08.26%20web.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "subasta_12.08.26_web.csv": {
-                        "descripcion": "subasta_12.08.26 web.pdf",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/subasta_12.08.26%20web.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "INFORME_SEM_RIN_1-2026cs_(1).csv": {
-                        "descripcion": "INFORME SEM RIN 1-2026cs (1).pdf",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/07/33/INFORME%20SEM%20RIN%201-2026cs%20%281%29.pdf",
-                        "fecha_actualizacion": "2026-07",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "DEPEX_jun26.csv": {
-                        "descripcion": "DEPEX jun26.pdf",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/informes_deudaexterna/DEPEX%20jun26.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "INFORME_RIN_ene-abr_26.csv": {
-                        "descripcion": "INFORME RIN ene-abr 26.pdf",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20ene-abr%2026.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "IEF_ene26_(5).csv": {
-                        "descripcion": "IEF ene26 (5).pdf",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20ene26%20%285%29.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "Cronograma_anual_de_publicaciones_2026.csv": {
-                        "descripcion": "⬇ Descargar cronograma 2026 (Excel)",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/Otros/Cronograma_anual_de_publicaciones_2026.xlsx",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "XLSX",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "NP_18-19_AGOSTO.csv": {
-                        "descripcion": "Notas de Prensa EL BCB FORMALIZA DENUNCIA PENAL POR FALSOS OFRECIMIENTOS DE CRÉDITO El Banco Central de Bolivia (BCB) formalizó este martes 18 de agosto en la ciudad de Cochabamba una denuncia penal contra presuntos estafadores que usurpaban la representación institucional para ofrecer falsos ... 19 de agosto de 2026 ↗ Ver PDF",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2018-19%20AGOSTO.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "NP_16-11_AGOSTO.csv": {
-                        "descripcion": "Notas de Prensa EL BANCO CENTRAL DE BOLIVIA RECIBE EN CUSTODIA ORO INCAUTADO 19 de agosto de 2026",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2016-11%20AGOSTO.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "NP_15-30_JULIO.csv": {
-                        "descripcion": "Notas de Prensa EL BANCO CENTRAL REALIZARÁ OPERACIONES DE COMPRA Y VENTA DE DÓLARES PARA MITIGAR FLUCTUACIONES EXTREMAS EN SU PRECIO 19 de agosto de 2026",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2015-30%20JULIO.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "NP_17-14_AGOSTO.csv": {
-                        "descripcion": "Notas de Prensa AHORRISTAS PUEDEN RETIRAR DESDE HOY ENTRE $us 3.001 Y $us 5.000 DEL SISTEMA FINANCIERO 14 de agosto de 2026",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/files_noticias/NP%2017-14%20AGOSTO.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
-                    },
-                    "RD_N°_117-2026.csv": {
-                        "descripcion": "Noticias RESOLUCIÓN DE DIRECTORIO 03 de agosto de 2026",
-                        "url_descarga": "https://www.bcb.gob.bo/webdocs/files_noticias/RD%20N%C2%B0%20117-2026.pdf",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "PDF",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "metodo_deteccion": "url_extension"
                     }
                 }
             }
         },
-        "Memoria_Institucional": {
-            "Formulario_Wolfsberg_BCB-2025.csv": {
-                "descripcion": "Cuestionario Wolfsberg sobre Prevención de Lavado de Dinero",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/Otros/Formulario_Wolfsberg_BCB-2025.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+        "Sector_Externo": {
+            "1._BOP_T2_2026.csv": {
+                "descripcion": "Balanza de Pagos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/1.%20BOP_T2%202026.xlsx",
+                "fecha_actualizacion": "2026-T2",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "FORMULARIO_DENUNCIA.csv": {
-                "descripcion": "Formulario de denuncias del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/transparenciadocs/FORMULARIO%20DENUNCIA.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "4._Serie_BOP_T2_2026.csv": {
+                "descripcion": "Series de tiempo: Balanza de Pagos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/4.%20Serie_BOP_T2%202026.xlsx",
+                "fecha_actualizacion": "2026-T2",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Calendario_de_Publicaciones_2025_Agosto_final.csv": {
-                "descripcion": "CALENDARIO ANTICIPADO DE PUBLICACIONES",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/Otros/Calendario%20de%20Publicaciones%202025%20Agosto%20final.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "2._PII_T2_2026.csv": {
+                "descripcion": "Posición de Inversión Internacional",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2.%20PII_T2%202026.xlsx",
+                "fecha_actualizacion": "2026-T2",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "APEL_00.csv": {
-                "descripcion": "Compendio de ponencias en sesiones plenarias del II Congreso Internacional de Pensamiento Económico Latinoamericano \"Balance del Pensamiento Económico Latinoamericano\"",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/08/06/APEL_00.pdf",
-                "fecha_actualizacion": "2018-08-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "5._Serie_PII_T2_2026.csv": {
+                "descripcion": "Series de tiempo: Posición de Inversión Internacional",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/5.%20Serie_PII_T2%202026.xlsx",
+                "fecha_actualizacion": "2026-T2",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "APEL-Compendio_documentos_ganadores.csv": {
-                "descripcion": "Compendio de documentos ganadores – APEL",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/09/28/APEL-Compendio%20documentos%20ganadores.pdf",
-                "fecha_actualizacion": "2017-09-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "6._PII_Integrada_T2_2026.csv": {
+                "descripcion": "Posición de Inversión Internacional Integrada",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/6.%20PII%20Integrada_T2%202026.xlsx",
+                "fecha_actualizacion": "2026-T2",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Introducción.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/03/Introducci%C3%B3n.pdf",
-                "fecha_actualizacion": "2026-04-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "3._Posición_de_la_deuda_externa_bruta_T2_2026.csv": {
+                "descripcion": "Posición de la Deuda Externa Bruta Total",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/3.%20Posici%C3%B3n%20de%20la_deuda_externa_bruta_T2%202026.xlsx",
+                "fecha_actualizacion": "2026-T2",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Presentación.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Presentaci%C3%B3n.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Resumen_Ejecutivo.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Resumen%20Ejecutivo.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Cap._1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Cap.%201.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Cap._2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Cap.%202.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Cap._3.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Cap.%203.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Cap._4.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Cap.%204.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Anexos.csv": {
-                "descripcion": "ANEXOS",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/04/04/Anexos.pdf",
-                "fecha_actualizacion": "2026-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Cap1_-_MEMORIA_web.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/Cap1%20-%20MEMORIA%20web.xlsx",
+            "Exportaciones.csv": {
+                "descripcion": "Exportaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportaciones.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Cap2_-_MEMORIA_web.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/Cap2%20-%20MEMORIA%20web.xlsx",
+            "Exportaciones_por_producto.csv": {
+                "descripcion": "Exportaciones por producto",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportaciones%20por%20producto.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Cap3_-_MEMORIA_web.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/Cap3%20-%20MEMORIA%20web.xlsx",
+            "Exportacion_de_hidrocarburos.csv": {
+                "descripcion": "Exportación de hidrocarburos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20hidrocarburos.xlsx",
                 "fecha_actualizacion": "No disponible",
                 "tipo_archivo": "XLSX",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Introducción_2.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/50/Introducci%C3%B3n.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Indice_de_valor_de_las_exportaciones.csv": {
+                "descripcion": "Índice de valor de las exportaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20valor%20de%20las%20exportaciones.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Presentación_2.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/50/Presentaci%C3%B3n.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Indice_de_valor_unitario_de_las_exportaciones.csv": {
+                "descripcion": "Índice de valor unitario de las exportaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20valor%20unitario%20de%20las%20exportaciones.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Resumen.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/51/Resumen.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Indice_de_Precios_de_Productos_Basicos_de_Exportacion.csv": {
+                "descripcion": "Índice de Precios de Productos Básicos de Exportación",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20Precios%20de%20Productos%20Basicos%20de%20Exportacion.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Capítulo_1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/51/Cap%C3%ADtulo%201.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Indice_de_volumen_de_las_Exportaciones.csv": {
+                "descripcion": "Índice de volumen de las exportaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20volumen%20de%20las%20Exportaciones.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Capítulo_2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/51/Cap%C3%ADtulo%202.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Relacion_de_Precios_de_Intercambio_poder_de_compra_de_las_exportaciones.csv": {
+                "descripcion": "Relación de precios de intercambio, poder de compra de las exportaciones, efecto de la relación de",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Relacion%20de%20Precios%20de%20Intercambio%20poder%20de%20compra%20de%20las%20exportaciones%20.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Capítulo_3.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/52/Cap%C3%ADtulo%203.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Variacion_del_valor_exportado_debido_al_efecto_precio_y_cantidad_2023-2024.csv": {
+                "descripcion": "Variación del valor exportado debido al efecto precio y cantidad 2023-2024",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Variacion%20del%20valor%20exportado%20debido%20al%20efecto%20precio%20y%20cantidad%202023-2024.xlsx",
+                "fecha_actualizacion": "2024",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Capítulo_4.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/52/Cap%C3%ADtulo%204.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Variacion_del_valor_exportado_debido_al_efecto_precio_y_cantidad_jun_2024-_jun_2025.csv": {
+                "descripcion": "Variación del valor exportado debido al efecto precio y cantidad jun 2024-jun 2025",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Variacion%20del%20valor%20exportado%20debido%20al%20efecto%20precio%20y%20cantidad%20jun%202024-%20jun%202025.xlsx",
+                "fecha_actualizacion": "2025-06",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "Anexos_2.csv": {
-                "descripcion": "ANEXOS",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/52/Anexos.pdf",
-                "fecha_actualizacion": "2025-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Volumen_y_valor_de_las_exportaciones.csv": {
+                "descripcion": "Volumen y valor de las exportaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Volumen%20y%20valor%20de%20las%20exportaciones.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "INTRODUCCIÓN.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/04/18/INTRODUCCI%C3%93N.PDF",
-                "fecha_actualizacion": "2024-04-18",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Exportacion_de_minerales_-_valor_oficial.csv": {
+                "descripcion": "Exportación de minerales - valor oficial",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20minerales%20-%20valor%20oficial.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "PRESENTACIÓN.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/04/25/PRESENTACI%C3%93N.PDF",
-                "fecha_actualizacion": "2024-04-25",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Exportacion_de_minerales_-_valor_unitario.csv": {
+                "descripcion": "Exportación de minerales - valor unitario",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20minerales%20-%20valor%20unitario.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "RESUMENN.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/04/25/RESUMENN.PDF",
-                "fecha_actualizacion": "2024-04-25",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Exportacion_de_minerales_-_volumen.csv": {
+                "descripcion": "Exportación de minerales - volumen",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20minerales%20-%20volumen.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "CAP1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/04/26/CAP1.pdf",
-                "fecha_actualizacion": "2024-04-26",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Exportaciones_mineras_clasificadas_por_grupos_mineros.csv": {
+                "descripcion": "Exportaciones mineras clasificadas por grupos mineros",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportaciones%20mineras%20clasificadas%20por%20grupos%20mineros.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             },
-            "CAP2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/04/26/CAP2.pdf",
-                "fecha_actualizacion": "2024-04-26",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP3.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/04/26/CAP3.pdf",
-                "fecha_actualizacion": "2024-04-26",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP4.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/05/00/CAP4.pdf",
-                "fecha_actualizacion": "2024-05",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "ANEXOSS.csv": {
-                "descripcion": "ANEXOS",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/05/01/ANEXOSS.PDF",
-                "fecha_actualizacion": "2024-05-01",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "1_INTRODUCCIÓN.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/28/1%20INTRODUCCIO%CC%81N.pdf",
-                "fecha_actualizacion": "2023-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "2_PRESENTACIÓN.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/28/2%20PRESENTACIO%CC%81N.pdf",
-                "fecha_actualizacion": "2023-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "RESUMEN_EJECUTIVO.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/00/RESUMEN%20EJECUTIVO.PDF",
-                "fecha_actualizacion": "2023-05",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/28/CAP%201.pdf",
-                "fecha_actualizacion": "2023-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/28/CAP%202.pdf",
-                "fecha_actualizacion": "2023-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_3.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/59/CAP%203.pdf",
-                "fecha_actualizacion": "2023-05",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_4.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/29/CAP%204.pdf",
-                "fecha_actualizacion": "2023-05-29",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "ANEXOS.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/05/28/ANEXOS.pdf",
-                "fecha_actualizacion": "2023-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Introducción.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/11/Introduccio%CC%81n.pdf",
-                "fecha_actualizacion": "2022-05-11",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Presentación.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/12/Presentacio%CC%81n.pdf",
-                "fecha_actualizacion": "2022-05-12",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Resumen_2.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/12/Resumen.pdf",
-                "fecha_actualizacion": "2022-05-12",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/29/1.pdf",
-                "fecha_actualizacion": "2022-05-29",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/28/Capitulo%202.pdf",
-                "fecha_actualizacion": "2022-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_3.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/28/Capitulo%203.pdf",
-                "fecha_actualizacion": "2022-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_4.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/28/Capitulo%204.pdf",
-                "fecha_actualizacion": "2022-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Anexos_3.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/05/28/Anexos.pdf",
-                "fecha_actualizacion": "2022-05-28",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Introduccion.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/03/Introduccion.pdf",
-                "fecha_actualizacion": "2021-04-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Presentacion.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/03/Presentacion.pdf",
-                "fecha_actualizacion": "2021-04-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Resumen_Ejecutivo_2.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/03/Resumen_Ejecutivo.pdf",
-                "fecha_actualizacion": "2021-04-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/04/Capitulo_1.pdf",
-                "fecha_actualizacion": "2021-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_2_2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/04/Capitulo_2.pdf",
-                "fecha_actualizacion": "2021-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_3_2.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/04/Capitulo_3.pdf",
-                "fecha_actualizacion": "2021-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_4_2.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/04/Capitulo_4.pdf",
-                "fecha_actualizacion": "2021-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Anexos_4.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/04/Anexos.pdf",
-                "fecha_actualizacion": "2021-04-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "INTRODUCCION.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/05/03/INTRODUCCION.pdf",
-                "fecha_actualizacion": "2020-05-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "PRESENTACIÓN.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/05/07/PRESENTACIO%CC%81N.pdf",
-                "fecha_actualizacion": "2020-05-07",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "RESUMEN.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/05/07/RESUMEN.pdf",
-                "fecha_actualizacion": "2020-05-07",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_1_2.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/05/06/CAP%201.pdf",
-                "fecha_actualizacion": "2020-05-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_2_2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/05/06/CAP%202.pdf",
-                "fecha_actualizacion": "2020-05-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_3_2.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/05/06/CAP%203.pdf",
-                "fecha_actualizacion": "2020-05-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "CAP_4_2.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/10/09/CAP_4.pdf",
-                "fecha_actualizacion": "2020-10-09",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "ANEXOS_2.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/10/10/ANEXOS.pdf",
-                "fecha_actualizacion": "2020-10-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCB_Memoria_2018_INTRODUCCIÓN.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/14/BCB%20Memoria%202018%20INTRODUCCI%C3%93N.pdf",
-                "fecha_actualizacion": "2019-05-14",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCBMemoria_2018_PRESENTACIÓN.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/15/BCBMemoria%202018%20PRESENTACI%C3%93N.pdf",
-                "fecha_actualizacion": "2019-05-15",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCBMemoria_2018_RESUMEN.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/16/BCBMemoria%202018%20RESUMEN.pdf",
-                "fecha_actualizacion": "2019-05-16",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCBMemoria_2018_CAPITULO_1.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/16/BCBMemoria%202018%20CAPITULO%201.pdf",
-                "fecha_actualizacion": "2019-05-16",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCB_Memoria_2018_CAPITULO_2.csv": {
-                "descripcion": "Capítulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/16/BCB%20Memoria%202018%20CAPITULO%202.pdf",
-                "fecha_actualizacion": "2019-05-16",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCB_Memoria_2018_CAPITULO_3.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/17/BCB%20Memoria%202018%20CAPITULO%203.pdf",
-                "fecha_actualizacion": "2019-05-17",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCB_Memoria_2018_CAPITULO_4.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/17/BCB%20Memoria%202018%20CAPITULO%204.pdf",
-                "fecha_actualizacion": "2019-05-17",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCB_Memoria_2018_ANEXOS.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/17/BCB%20Memoria%202018%20ANEXOS.pdf",
-                "fecha_actualizacion": "2019-05-17",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "BCB_Memoria_2018_MEMORIA_FOTOGRAFICA.csv": {
-                "descripcion": "Memoria Fotográfica",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/05/17/BCB%20Memoria%202018%20MEMORIA%20FOTOGRAFICA.pdf",
-                "fecha_actualizacion": "2019-05-17",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "MEMORIA_2017_BCB.csv": {
-                "descripcion": "Memoria 2017",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/08/27/MEMORIA%202017_BCB.pdf",
-                "fecha_actualizacion": "2018-08-27",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Introduccion_2.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/30/Introduccion.pdf",
-                "fecha_actualizacion": "2018-06-30",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Presentacion_2.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/31/Presentacion.pdf",
-                "fecha_actualizacion": "2018-06-31",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Resumen_3.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/31/Resumen.pdf",
-                "fecha_actualizacion": "2018-06-31",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_1_Entorno_economico.csv": {
-                "descripcion": "Capitulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/32/Capitulo%201%20Entorno%20economico.pdf",
-                "fecha_actualizacion": "2018-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_2_Inflacion_y_politicas_del_BCB.csv": {
-                "descripcion": "Capitulo 2: Inflación y Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/19/Capitulo%202%20Inflacion%20y%20politicas%20del%20BCB.pdf",
-                "fecha_actualizacion": "2018-06-19",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_3_Gestion_institucional_y_actividades_del_BCB.csv": {
-                "descripcion": "Capitulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/36/Capitulo%203%20Gestion%20institucional%20y%20actividades%20del%20BCB.pdf",
-                "fecha_actualizacion": "2018-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Capitulo_4_Estados_financieros.csv": {
-                "descripcion": "Capitulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/36/Capitulo%204%20Estados%20financieros.pdf",
-                "fecha_actualizacion": "2018-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "Anexos_5.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/06/37/Anexos.pdf",
-                "fecha_actualizacion": "2018-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "introduccion.csv": {
-                "descripcion": "Introducción",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/57/introduccion.pdf",
-                "fecha_actualizacion": "2017-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "presentacion.csv": {
-                "descripcion": "Presentación",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/07/presentacion.pdf",
-                "fecha_actualizacion": "2017-06-07",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "resumen.csv": {
-                "descripcion": "Resumen",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/07/resumen.pdf",
-                "fecha_actualizacion": "2017-06-07",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "resumen_aymara.csv": {
-                "descripcion": "Resumen (Aymara)",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/08/resumen%20aymara.pdf",
-                "fecha_actualizacion": "2017-06-08",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "resumen_ingles.csv": {
-                "descripcion": "Resumen (Ingles)",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/09/resumen%20ingles.pdf",
-                "fecha_actualizacion": "2017-06-09",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "resumen_quechua.csv": {
-                "descripcion": "Resumen (Quechua)",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/10/resumen%20quechua.pdf",
-                "fecha_actualizacion": "2017-06-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "resumen_guarani.csv": {
-                "descripcion": "Resumen (Guarani)",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/10/resumen%20guarani.pdf",
-                "fecha_actualizacion": "2017-06-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "capitulo_1_entorno_economico.csv": {
-                "descripcion": "Capítulo 1: Entorno Económico",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/10/capitulo%201%20entorno%20economico.pdf",
-                "fecha_actualizacion": "2017-06-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "capitulo_2_inflacion_y_politicas_del_bcb.csv": {
-                "descripcion": "Capítulo 2: La Inflación y las Políticas del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/10/capitulo%202%20inflacion%20y%20politicas%20del%20bcb.pdf",
-                "fecha_actualizacion": "2017-06-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "capitulo_3_gestion_institucional_y_actividades_del_bcb.csv": {
-                "descripcion": "Capítulo 3: Gestión Institucional y Actividades del BCB",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/11/capitulo%203%20gestion%20institucional%20y%20actividades%20del%20bcb.pdf",
-                "fecha_actualizacion": "2017-06-11",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "capitulo_4_estados_financieros.csv": {
-                "descripcion": "Capítulo 4: Estados Financieros",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/11/capitulo%204%20estados%20financieros.pdf",
-                "fecha_actualizacion": "2017-06-11",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
-                "metodo_deteccion": "url_extension"
-            },
-            "anexos.csv": {
-                "descripcion": "Anexos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/06/11/anexos.pdf",
-                "fecha_actualizacion": "2017-06-11",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_memorias-institucionales",
+            "Exportacion_de_productos_no_tradicionales_-_valor_oficial.csv": {
+                "descripcion": "Exportación de productos no tradicionales - valor oficial",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20productos%20no%20tradicionales%20-%20valor%20oficial.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Exportacion_de_productos_no_tradicionales-_valor_unitario.csv": {
+                "descripcion": "Exportación de productos no tradicionales - valor unitario",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20productos%20no%20tradicionales-%20valor%20unitario.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Exportacion_de_productos_no_tradicionales_-_volumen.csv": {
+                "descripcion": "Exportación de productos no tradicionales - volumen",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Exportacion%20de%20productos%20no%20tradicionales%20-%20volumen.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Importaciones.csv": {
+                "descripcion": "Importaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Importaciones.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Composicion_de_las_importaciones_segun_uso_o_destino_economico.csv": {
+                "descripcion": "Composición de las importaciones según uso o destino económico",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Composicion%20de%20las%20importaciones%20segun%20uso%20o%20destino%20economico.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Indice_de_valor_de_las_importaciones_-_clasificacion_CUODE.csv": {
+                "descripcion": "Índice de valor de las importaciones - clasificación CUODE",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20valor%20de%20las%20importaciones%20-%20clasificacion%20CUODE.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Indice_de_valor_unitario_de_las_importaciones-_clasificacion_CUODE.csv": {
+                "descripcion": "Índice de valor unitario de las importaciones - clasificación CUODE",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20valor%20unitario%20de%20las%20importaciones-%20clasificacion%20CUODE.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Indice_de_volumen_de_las_importaciones_-_clasificacion_CUODE.csv": {
+                "descripcion": "Índice de volumen de las importaciones - clasificación CUODE",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Indice%20de%20volumen%20de%20las%20importaciones%20-%20clasificacion%20CUODE.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Propension_media_y_marginal_segun_CUODE_de_las_importaciones.csv": {
+                "descripcion": "Propensión media y marginal según CUODE de las importaciones",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Propension%20media%20y%20marginal%20segun%20CUODE%20de%20las%20importaciones.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Balanza_Comercial.csv": {
+                "descripcion": "Balanza comercial",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/A%20Comercio%20Internacional%20de%20Bienes/Balanza%20Comercial.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Exportacion_de_servicios_segun_modo_de_suministro.csv": {
+                "descripcion": "Exportación de servicios según modo de suministro",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/B%20Comercio%20Internacional%20de%20Servicios/Exportacion%20de%20servicios%20segun%20modo%20de%20suministro.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Exportacion_de_servicios_segun_pais.csv": {
+                "descripcion": "Exportación de servicios según país",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/B%20Comercio%20Internacional%20de%20Servicios/Exportacion de servicios segun pais.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Importacion_de_servicios_segun_modo_de_suministro.csv": {
+                "descripcion": "Importación de servicios según modo de suministro",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/B%20Comercio%20Internacional%20de%20Servicios/Importacion%20de%20servicios%20segun%20modo%20de%20suministro.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Importacion_de_servicios_segun_país.csv": {
+                "descripcion": "Importación de servicios según país",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/B%20Comercio%20Internacional%20de%20Servicios/Importacion%20de%20servicios%20segun%20pa%C3%ADs.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Comercio_exterior_de_servicios.csv": {
+                "descripcion": "Comercio exterior de servicios",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/B%20Comercio%20Internacional%20de%20Servicios/Comercio exterior de servicios.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Saldo_comercial_de_servicios_segun_país.csv": {
+                "descripcion": "Saldo comercial de servicios según país",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/B%20Comercio%20Internacional%20de%20Servicios/Saldo comercial de servicios segun país.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Remesas_de_trabajadores_recibidas_segun_pais_de_origen.csv": {
+                "descripcion": "Remesas de trabajadores recibidas según país de origen",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/C%20Remesas%20de%20Trabajadores/Remesas de trabajadores recibidas segun pais de origen.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Remesas_de_trabajadores_recibidas_segun_plaza_de_pago.csv": {
+                "descripcion": "Remesas de trabajadores recibidas según plaza de pago",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/C%20Remesas%20de%20Trabajadores/Remesas%20de%20trabajadores%20recibidas%20segun%20plaza%20de%20pago.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Invesion_Extranjera_Directa_bruta_recibida_por_pais_de_origen.csv": {
+                "descripcion": "Inversión extranjera directa bruta recibida por país de origen",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/D Inversion Directa/Invesion Extranjera Directa bruta recibida por pais de origen.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Inversion_Extranjera_Directa_Recibida.csv": {
+                "descripcion": "Inversión extranjera directa recibida",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/D Inversion Directa/Inversion Extranjera Directa Recibida.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Alivio_HIPC_por_acreedor.csv": {
+                "descripcion": "Alivio HIPC por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Alivio%20HIPC%20por%20acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Alivio_HIPC_por_modalidad.csv": {
+                "descripcion": "Alivio HIPC por modalidad",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Alivio%20HIPC%20por%20modalidad.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Alivio_HIPC_y_MDRI_por_acreedor.csv": {
+                "descripcion": "Alivio HIPC y MDRI por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Alivio%20HIPC%20y%20MDRI%20por%20acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Alivio_HIPC_y_MDRI_por_modalidad.csv": {
+                "descripcion": "Alivio HIPC y MDRI por modalidad",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Alivio%20HIPC%20y%20MDRI%20por%20modalidad.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Calendario_de_pagos_del_servicio_de_deuda_de_la_deuda_externa_pendiente.csv": {
+                "descripcion": "Calendario de pagos del servicio de deuda de la deuda externa pendiente",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Calendario%20de%20pagos%20del%20servicio%20de%20deuda%20de%20la%20deuda%20externa%20pendiente.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Coeficientes_de_endeudamiento_externo_publico_a_mediano_y_largo_plazo.csv": {
+                "descripcion": "Coeficientes de endeudamiento externo público a mediano y largo plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Coeficientes de endeudamiento externo publico a mediano y largo plazo.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Deuda_publica_externa_de_corto_plazo_-_por_acreedor.csv": {
+                "descripcion": "Deuda pública externa de corto plazo - por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Deuda publica externa de corto plazo - por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_DESEMBOLSOS_TOTALES_-_POR_ACREEDOR_Y_PLAZO.csv": {
+                "descripcion": "Externa privada - desembolsos totales por acreedor y plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20DESEMBOLSOS%20TOTALES%20-%20POR%20ACREEDOR%20Y%20PLAZO.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_DESEMBOLSOS_TOTALES_-_POR_SECTOR_Y_ACTIVIDAD_ECONOMICA.csv": {
+                "descripcion": "Externa privada - desembolsos totales por sector y actividad económica",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA PRIVADA DESEMBOLSOS TOTALES  - POR SECTOR Y ACTIVIDAD ECONOMICA.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_DESEMBOLSOS_TOTALES_-_POR_SECTOR_Y_PLAZO.csv": {
+                "descripcion": "Externa privada - desembolsos totales por sector y plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20DESEMBOLSOS%20TOTALES%20-%20POR%20SECTOR%20%20Y%20PLAZO.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_SALDO_ADEUDADO_TOTAL_-_POR_ACREEDOR_Y_PLAZO.csv": {
+                "descripcion": "Externa privada - saldo adeudado total por acreedor y plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20SALDO%20ADEUDADO%20TOTAL%20%20-%20POR%20ACREEDOR%20Y%20PLAZO.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_SALDO_ADEUDADO_TOTAL_-_POR_SECTOR_Y_ACTIVIDAD_ECONOMICA.csv": {
+                "descripcion": "Externa privada - saldo adeudado total por sector y actividad económica",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA PRIVADA SALDO ADEUDADO TOTAL - POR SECTOR Y ACTIVIDAD ECONOMICA.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_SALDO_ADEUDADO_TOTAL_-_POR_SECTOR_Y_PLAZO.csv": {
+                "descripcion": "Externa privada - saldo adeudado total por sector y plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20SALDO%20ADEUDADO%20TOTAL%20-%20POR%20SECTOR%20%20Y%20PLAZO.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_SERVICIO_TOTAL_DE_LA_DEUDA_-_POR_ACREEDOR_Y_PLAZO.csv": {
+                "descripcion": "Externa privada - servicio total de la deuda por acreedor y plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20SERVICIO%20TOTAL%20DE%20LA%20DEUDA%20-%20POR%20ACREEDOR%20Y%20PLAZO.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_SERVICIO_TOTAL_DE_LA_DEUDA_POR_SECTOR_Y_ACTIVIDAD_ECON#U00d3MICA.csv": {
+                "descripcion": "Externa privada - servicio total de la deuda por sector y actividad económica",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20SERVICIO%20TOTAL%20DE%20LA%20DEUDA%20POR%20SECTOR%20Y%20ACTIVIDAD%20ECON%23U00d3MICA.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_pattern"
+            },
+            "EXTERNA_PRIVADA_SERVICIO_TOTAL_DE_LA_DEUDA_-_POR_SECTOR_Y_PLAZO.csv": {
+                "descripcion": "Externa privada - servicio total de la deuda por sector y plazo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20SERVICIO%20TOTAL%20DE%20LA%20DEUDA%20-%20POR%20SECTOR%20%20Y%20PLAZO.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "EXTERNA_PRIVADA_TRANSFERENCIA_NETA_-_POR_SECTOR.csv": {
+                "descripcion": "Externa privada - transferencia neta por sector",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/EXTERNA%20PRIVADA%20TRANSFERENCIA%20NETA%20%20-%20POR%20SECTOR.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_-_desembolsos_por_acreedor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - desembolsos por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo - desembolsos por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_desembolsos_por_deudor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - desembolsos por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo desembolsos por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_saldo_adeudado_por_acreedor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - saldo adeudado por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo saldo adeudado por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_saldo_adeudado_por_deudor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - saldo adeudado por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo saldo adeudado por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_servicio_de_la_deuda_por_acreedor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - servicio de la deuda por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo servicio de la deuda por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_-_servicio_de_la_deuda_por_deudor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - servicio de la deuda por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo - servicio de la deuda por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_transferencia_neta_por_acreedor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - transferencia neta por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo transferencia neta por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Externa_publica_de_mediano_y_largo_plazo_transferencia_neta_por_deudor.csv": {
+                "descripcion": "Externa pública de mediano y largo plazo - transferencia neta por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Externa publica de mediano y largo plazo transferencia neta por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Mora_acumulada_deuda_publica_externa_de_mediano_y_largo_plazo_por_acreedor.csv": {
+                "descripcion": "Mora acumulada deuda pública externa de mediano y largo plazo - por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Mora acumulada deuda publica externa de mediano y largo plazo por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Mora_acumulada_deuda_publica_externa_de_mediano_y_largo_plazo_por_deudor.csv": {
+                "descripcion": "Mora acumulada deuda pública externa de mediano y largo plazo - por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Mora acumulada deuda publica externa de mediano y largo plazo por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Servicio_debido_deuda_publica_externa_de_mediano_y_largo_plazo_por_acreedor.csv": {
+                "descripcion": "Servicio debido deuda pública externa de mediano y largo plazo - por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Servicio debido deuda publica externa de mediano y largo plazo por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Servicio_debido_deuda_publica_externa_de_mediano_y_largo_plazo_por_deudor.csv": {
+                "descripcion": "Servicio debido deuda pública externa de mediano y largo plazo - por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Servicio debido deuda publica externa de mediano y largo plazo por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Servicio_pagado_deuda_publica_externa_de_mediano_y_largo_plazo_por_acreedor.csv": {
+                "descripcion": "Servicio pagado deuda pública externa de mediano y largo plazo - por acreedor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Servicio pagado deuda publica externa de mediano y largo plazo por acreedor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Servicio_pagado_deuda_publica_externa_de_mediano_y_largo_plazo_por_deudor.csv": {
+                "descripcion": "Servicio pagado deuda pública externa de mediano y largo plazo - por deudor",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/E%20Deuda%20Externa/Servicio pagado deuda publica externa de mediano y largo plazo por deudor.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Planilla_de_reservas_internacionales_y_liquidez_en_moneda_extranjera.csv": {
+                "descripcion": "Planilla de reservas internacionales y liquidez en moneda extranjera",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/F%20Reservas%20Internacionales%20Netas/Planilla%20de%20reservas%20internacionales%20y%20liquidez%20en%20moneda%20extranjera.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Reservas_y_activos_externos_consolidados.csv": {
+                "descripcion": "Reservas y activos externos consolidados",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/F%20Reservas%20Internacionales%20Netas/Reservas%20y%20activos%20externos%20consolidados.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Detalle_desagregado_de_componentes_de_Reservas_Internacionales_Netas.csv": {
+                "descripcion": "Detalle desagregado de componentes de Reservas Internacionales Netas",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/F%20Reservas%20Internacionales%20Netas/Detalle%20desagregado%20de%20componentes%20de%20Reservas%20Internacionales%20Netas.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Balanza_Cambiaria.csv": {
+                "descripcion": "Balanza cambiaria",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Balanza%20Cambiaria.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Ponderadores_de_Comercio_Internacional.csv": {
+                "descripcion": "Ponderadores de Comercio Internacional",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Ponderadores de Comercio Internacional.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Indices_de_tipo_de_cambio_real.csv": {
+                "descripcion": "Índices de tipo de cambio real",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Indices de tipo de cambio real.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Transferencias_a_traves_del_sistema_financiero_nacional_segun_motivo.csv": {
+                "descripcion": "Transferencias a través del sistema financiero nacional - según motivo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Transferencias a traves del sistema financiero nacional segun motivo.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Transferencias_a_traves_del_sistema_financiero_nacional_segun_sector_economico.csv": {
+                "descripcion": "Transferencias a través del sistema financiero nacional - según sector económico",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Transferencias a traves del sistema financiero nacional segun sector economico.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Transferencias_unilaterales_oficiales_por_donante.csv": {
+                "descripcion": "Transferencias unilaterales oficiales por donante",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Transferencias%20unilaterales%20oficiales%20por%20donante.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Activos_externos_OSD.csv": {
+                "descripcion": "Activos Externos OSD",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Activos externos OSD.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Bolsin_Principales_indicadores.csv": {
+                "descripcion": "Bolsín - Principales Indicadores",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Bolsin%20Principales%20indicadores.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Ventas_en_el_dia_Principales_Indicadores.csv": {
+                "descripcion": "Ventas en el día - Principales Indicadores",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Ventas en el dia Principales Indicadores.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Cotizacion_de_monedas_en_dolares_por_unidad_monetaria.csv": {
+                "descripcion": "Cotización de monedas en dólares por unidad monetaria",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Cotizacion%20de%20monedas%20en%20dolares%20por%20unidad%20monetaria.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Cotizacion_de_monedas_extranjeras_en_bolivianos_por_unidad_monetaria.csv": {
+                "descripcion": "Cotización de monedas extranjeras en bolivianos por unidad monetaria",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Cotizacion de monedas extranjeras en bolivianos por unidad monetaria.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Tipo_de_Cambio_del_DEG_y_EURO_respecto_al_dolar_estadounidense.csv": {
+                "descripcion": "Tipo de Cambio del DEG y EURO respecto al dólar estadounidense",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Tipo de Cambio del DEG y EURO respecto al dolar estadounidense.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Tipo_de_Cambio_Oficial.csv": {
+                "descripcion": "Tipo de cambio oficial",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Tipo%20de%20Cambio%20Oficial%20.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+                "metodo_deteccion": "url_extension"
+            },
+            "Tipo_de_cambio_oficial_de_paises_seleccionados.csv": {
+                "descripcion": "Tipo de cambio oficial de países seleccionados",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_externo/G%20Otras%20variables%20del%20sector%20externo/Tipo de cambio oficial de paises seleccionados.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
                 "metodo_deteccion": "url_extension"
             }
         },
-        "Reporte_Semanal": {
-            "O&M_Semanal_33.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2033.pdf",
+        "Sector_Monetario": {
+            "1._Base_Monetaria.csv": {
+                "descripcion": "Base Monetaria",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/1.%20Base%20Monetaria.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_32.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2032.pdf",
+            "2._Base_Monetaria,_Determinantes_y_Componentes.csv": {
+                "descripcion": "Base Monetaria, Determinantes y Componentes",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/2.%20Base%20Monetaria%2C%20Determinantes%20y%20Componentes.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_31.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2031.pdf",
+            "3._Multiplicadores_de_la_Base_Monetaria.csv": {
+                "descripcion": "Multiplicadores de la Base Monetaria",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/3.%20Multiplicadores%20de%20la%20Base%20Monetaria.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_30.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2030.pdf",
+            "4._Origen_de_la_Liquidez_Total.csv": {
+                "descripcion": "Origen de la Liquidez Total",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/4.%20Origen%20de%20la%20Liquidez%20Total.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_29_0.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2029_0.pdf",
+            "5._Origen_de_la_Liquidez_Total_(Desagregado).csv": {
+                "descripcion": "Origen de la Liquidez Total (Desagregado)",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/5.%20Origen%20de%20la%20Liquidez%20Total%20%28Desagregado%29.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_28_0.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2028_0.pdf",
+            "6._Destino_del_medio_circulante_y_la_liquidez_total.csv": {
+                "descripcion": "Destino del medio circulante y la liquidez total",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/6.%20Destino%20del%20medio%20circulante%20y%20la%20liquidez%20total.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_SEMANAL_27_2026.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20SEMANAL%2027%202026.pdf",
+            "7._Agregados_Monetarios.csv": {
+                "descripcion": "Agregados Monetarios",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/7.%20Agregados%20Monetarios.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_SEMANAL_26_2026.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20SEMANAL%2026%202026.pdf",
+            "8._Factores_de_expansión_y_de_contracción_del_dinero.csv": {
+                "descripcion": "Factores de expansión y de contracción del dinero",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Indicadores%20Monetarios/8.%20Factores%20de%20expansi%C3%B3n%20y%20de%20contracci%C3%B3n%20del%20dinero.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_25_(1).csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2025%20%281%29.pdf",
+            "1._Sistema_Financiero.csv": {
+                "descripcion": "Sistema Financiero",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/1.%20Sistema%20Financiero.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "O&M_Semanal_24_2026.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/002_omas/O%26M%20Semanal%2024%202026.pdf",
+            "2._Sistema_Bancario.csv": {
+                "descripcion": "Sistema Bancario",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/2.%20Sistema%20Bancario.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=moneda-mercado-semanal",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Informe_de_Vigilancia_del_Sistema_de_Pagos": {
-            "IVSP_2025vf.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2026/05/24/IVSP%202025vf.pdf",
-                "fecha_actualizacion": "2026-05-24",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "SISTEMA_DE_PAGOS_2024.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/06/30/SISTEMA%20DE%20PAGOS%202024.pdf",
-                "fecha_actualizacion": "2025-06-30",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2023vf.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/03/07/SISTEMA%20DE%20PAGOS%202023vf.pdf",
-                "fecha_actualizacion": "2024-03-07",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2022.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/04/35/SISTEMA%20DE%20PAGOS%202022.pdf",
-                "fecha_actualizacion": "2023-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2021.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2022/03/35/SISTEMA_DE_PAGOS_2021.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2020.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/04/33/SISTEMA_DE_PAGOS_2020.pdf",
-                "fecha_actualizacion": "2021-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2019.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2020/04/55/SISTEMA_DE_PAGOS_2019.pdf",
-                "fecha_actualizacion": "2020-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "INFORME_DE_VIGILANCIA_DEL_SISTEMA_DE_PAGOS_2018.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/06/04/INFORME_DE_VIGILANCIA_DEL_SISTEMA_DE_PAGOS_2018.pdf",
-                "fecha_actualizacion": "2019-06-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2017.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2018/05/22/SISTEMA_DE_PAGOS_2017.pdf",
-                "fecha_actualizacion": "2018-05-22",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            },
-            "SISTEMA_DE_PAGOS_2016_v2.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/12/45/SISTEMA_DE_PAGOS_2016_v2.pdf",
-                "fecha_actualizacion": "2017-12",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-vigilancia-sistema-pagos",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Informe_de_Operaciones_del_Oro": {
-            "INFORME_RIN_sep-dic_25.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20sep-dic%2025.pdf",
+            "3._Sistema_Monetario.csv": {
+                "descripcion": "Sistema Monetario",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/3.%20Sistema%20Monetario.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_RIN_may-ago_25_(3).csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20may-ago%2025%20%283%29.pdf",
+            "4._Banco_Central.csv": {
+                "descripcion": "Banco Central",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/4.%20Banco%20Central.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_RIN_ene-abr_25_v10.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20ene-abr%2025%20v10.pdf",
+            "5._Bancos_comerciales.csv": {
+                "descripcion": "Bancos comerciales",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/5.%20Bancos%20comerciales.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_DE_OPERACIONES_CON_RESERVAS_EN_ORO_3ER_CUATRIMESTRE_2024.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20DE%20OPERACIONES%20CON%20RESERVAS%20EN%20ORO%203ER%20%20CUATRIMESTRE%202024.pdf",
+            "6._Bancos_Pyme.csv": {
+                "descripcion": "Bancos Pyme",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/6.%20Bancos%20Pyme.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_RIN_jul-ago_24_02.09.24_(002)_0.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20jul-ago%2024%2002.09.24%20%28002%29_0.pdf",
+            "7._Banco_del_Estado.csv": {
+                "descripcion": "Banco del Estado",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/7.%20Banco%20del%20Estado.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_RIN_ene-abr_24_reru.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20ene-abr%2024%20reru.pdf",
+            "8._Comerciales_Privados.csv": {
+                "descripcion": "Comerciales Privados",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/8.%20Comerciales%20Privados.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_RIN_sep-dic.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20RIN%20sep-dic.pdf",
+            "9._Especializados.csv": {
+                "descripcion": "Especializados",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/9.%20Especializados.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "INFORME_ORO_may-ago_23.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/rendimiento_ingresion_inversion/INFORME%20ORO%20may-ago%2023.pdf",
+            "10._Banco_de_Desarrollo_Productivo.csv": {
+                "descripcion": "Banco de Desarrollo Productivo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/10.%20Banco%20de%20Desarrollo%20Productivo.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reservas_internacionales_bcb",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Normativa_de_Administración_de_Reservas_Internacionales_y_Compra_de_Oro": {
-            "RD_028_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/RD%20028%202025.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=marco-normativo",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "RD_071_2023.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/RD%20071%202023.pdf",
+            "11._Fondos_Financieros.csv": {
+                "descripcion": "Fondos Financieros",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/11.%20Fondos%20Financieros.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=marco-normativo",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "RD_176_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/RD%20176%202025.pdf",
+            "12._Cooperativas_de_Ahorro_y_Crédito.csv": {
+                "descripcion": "Cooperativas de Ahorro y Crédito",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/12.%20Cooperativas%20de%20Ahorro%20y%20Cr%C3%A9dito.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=marco-normativo",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Ley_1503.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/Ley%201503.pdf",
+            "13._Entidades_Financieras_de_Vivienda.csv": {
+                "descripcion": "Entidades Financieras de Vivienda",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/13.%20Entidades%20Financieras%20de%20Vivienda.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=marco-normativo",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Informe_de_Estabilidad_Financiera": {
-            "IEF_jul25_(5).csv": {
-                "descripcion": "IEF jul25 (5).pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20jul25%20%285%29.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_enero_2025.csv": {
-                "descripcion": "IEF enero 2025.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20enero%202025.pdf",
+            "14._Instituciones_Financieras_de_Desarrollo.csv": {
+                "descripcion": "Instituciones Financieras de Desarrollo",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/14.%20Instituciones%20Financieras%20de%20Desarrollo.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_jul24_0.csv": {
-                "descripcion": "IEF jul24_0.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20jul24_0.pdf",
+            "15._Cuentas_monetarias_de_Otras_Sociedades_Financieras.csv": {
+                "descripcion": "Cuentas Monetarias de Otras Sociedades Financieras",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/15. Cuentas monetarias de Otras Sociedades Financieras.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_ene24.csv": {
-                "descripcion": "IEF_ene24.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF_ene24.pdf",
+            "16._Fuentes_y_usos.csv": {
+                "descripcion": "Fuentes y Usos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/16. Fuentes y usos.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_jul23.csv": {
-                "descripcion": "IEF_jul23.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF_jul23.pdf",
+            "17._Cuentas_Contingentes.csv": {
+                "descripcion": "Cuentas Contingentes",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Balances%20Consolidados/17.%20Cuentas%20Contingentes.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_ene23.csv": {
-                "descripcion": "IEF ene23.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20ene23.pdf",
+            "1._Cuentas_Monetarias_Bancos.csv": {
+                "descripcion": "Cuentas Monetarias Bancos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cuentas%20Monetarias%20de%20OSD%20y%20OSF/1.%20Cuentas%20Monetarias%20Bancos.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_jul22.csv": {
-                "descripcion": "IEF jul22.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20jul22.pdf",
+            "2._Cuentas_Monetarias_no_Bancos.csv": {
+                "descripcion": "Cuentas Monetarias no Bancos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cuentas%20Monetarias%20de%20OSD%20y%20OSF/2.%20Cuentas%20Monetarias%20no%20Bancos.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_ene22.csv": {
-                "descripcion": "IEF ene22.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF%20ene22.pdf",
+            "3._Cuentas_Monetarias_de_Otras_Sociedades_Financieras.csv": {
+                "descripcion": "Cuentas Monetarias de Otras Sociedades Financieras",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cuentas%20Monetarias%20de%20OSD%20y%20OSF/3.%20Cuentas%20Monetarias%20de%20Otras%20Sociedades%20Financieras.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "IEF_jul_21.csv": {
-                "descripcion": "IEF_jul_21.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/politicasbcb/IEF_jul_21.pdf",
+            "4._Cuentas_Monetarias_del_FPAH.csv": {
+                "descripcion": "Cuentas Monetarias del FPAH",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cuentas%20Monetarias%20de%20OSD%20y%20OSF/4. Cuentas Monetarias del FPAH.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=informe-de-estabilidad-financiera",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Boletín_Mensual_del_Sistema_de_Pagos": {
-            "Boletín_mensual_Junio_2026.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Junio%202026.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Mayo_2026.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Mayo%202026.pdf",
+            "5._Cuentas_Monetarias_del_FPA.csv": {
+                "descripcion": "Cuentas Monetarias del FPA",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cuentas%20Monetarias%20de%20OSD%20y%20OSF/5. Cuentas Monetarias del FPA.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Abril_2026.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Abril%202026.pdf",
+            "1._Deuda_interna_con_el_Sector_Privado.csv": {
+                "descripcion": "Deuda interna con el sector privado",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/BCB/1. Deuda interna con el Sector Privado.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Marzo_2026.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Marzo%202026.pdf",
+            "2._Financiamiento_a_largo_plazo_al_Sistema_Financiero.csv": {
+                "descripcion": "Financiamiento a largo plazo al Sistema Financiero",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/BCB/2.%20Financiamiento%20a%20largo%20plazo%20al%20Sistema%20Financiero.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Febrero_2026.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Febrero%202026.pdf",
+            "3._Financiamiento_neto_al_Sector_Público.csv": {
+                "descripcion": "Financiamiento neto al Sector Público",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/BCB/3.%20Financiamiento%20neto%20al%20Sector%20P%C3%BAblico.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Enero_2026.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Enero%202026.pdf",
+            "Financiamiento_de_corto_plazo_al_sistema_financiero.csv": {
+                "descripcion": "Operaciones de Reporto",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/BCB/Financiamiento de corto plazo al sistema financiero.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Diciembre_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Diciembre%202025.pdf",
+            "1._Financiamiento_por_Destino_del_Crédito.csv": {
+                "descripcion": "Financiamiento por Destino del Crédito",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/1.%20Financiamiento%20por%20Destino%20del%20Cr%C3%A9dito.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Noviembre_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Noviembre%202025.pdf",
+            "2._Financiamiento_por_Destino_del_Crédito_por_Bancos.csv": {
+                "descripcion": "Financiamiento por Destino del Crédito por Bancos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/2.%20Financiamiento%20por%20Destino%20del%20Cr%C3%A9dito%20por%20Bancos.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_Oct_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20Oct%202025.pdf",
+            "3._Financiamiento_por_Destino_del_Crédito_EFV.csv": {
+                "descripcion": "Financiamiento por Destino del Crédito EFV",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/3.%20Financiamiento%20por%20Destino%20del%20Cr%C3%A9dito%20EFV.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_SP_SEPTIEMBRE_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20SP%20SEPTIEMBRE%202025%20.pdf",
+            "4._Financiamiento_por_Destino_del_Crédito_CAC.csv": {
+                "descripcion": "Financiamiento por Destino del Crédito CAC",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/4.%20Financiamiento%20por%20Destino%20del%20Cr%C3%A9dito%20CAC.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_SP_AGOSTO_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20SP%20AGOSTO%202025.pdf",
+            "5._Financiamiento_por_Destino_del_Crédito_FFP.csv": {
+                "descripcion": "Financiamiento por Destino del Crédito FFP",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/5.%20Financiamiento%20por%20Destino%20del%20Cr%C3%A9dito%20FFP.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             },
-            "Boletín_mensual_SP_JULIO_2025.csv": {
-                "descripcion": "Ver Archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Bolet%C3%ADn%20mensual%20SP%20JULIO%202025.pdf",
+            "6._Financiamiento_por_Destino_del_Crédito,_por_entidad_no_bancaria.csv": {
+                "descripcion": "Financiamiento por Destino del Crédito, por entidad no bancaria",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/6.%20Financiamiento%20por%20Destino%20del%20Cr%C3%A9dito%2C%20por%20entidad%20no%20bancaria.xlsx",
                 "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=boletines-mensuales",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "7._Financiamiento_por_Departamentos.csv": {
+                "descripcion": "Financiamiento por Departamentos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/7.%20Financiamiento%20por%20Departamentos.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "8._Depósitos_en_cuenta_corriente_por_monedas.csv": {
+                "descripcion": "Depósitos en cuenta corriente por monedas",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/8.%20Dep%C3%B3sitos%20en%20cuenta%20corriente%20por%20monedas.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "9._Depósitos_en_cuenta_corriente_por_departamentos.csv": {
+                "descripcion": "Depósitos en cuenta corriente por departamentos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/9.%20Dep%C3%B3sitos%20en%20cuenta%20corriente%20por%20departamentos.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "10._Depósitos_en_caja_de_ahorros_por_monedas.csv": {
+                "descripcion": "Depósitos en caja de ahorros por monedas",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/10.%20Dep%C3%B3sitos%20en%20caja%20de%20ahorros%20por%20monedas.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "11._Depósitos_en_caja_de_ahorros_por_departamentos.csv": {
+                "descripcion": "Depósitos en caja de ahorros por departamentos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/11.%20Dep%C3%B3sitos%20en%20caja%20de%20ahorros%20por%20departamentos.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "12._Depósitos_a_plazo_fijo_por_monedas.csv": {
+                "descripcion": "Depósitos a plazo fijo por monedas",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/12.%20Dep%C3%B3sitos%20a%20plazo%20fijo%20por%20monedas.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "13._Depósitos_a_plazo_fijo_por_departamentos.csv": {
+                "descripcion": "Depósitos a plazo fijo por departamentos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/13.%20Dep%C3%B3sitos%20a%20plazo%20fijo%20por%20departamentos.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "14._Depósitos_totales_por_monedas.csv": {
+                "descripcion": "Depósitos totales por monedas",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/14.%20Dep%C3%B3sitos%20totales%20por%20monedas.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "15._Depósitos_totales_por_departamentos.csv": {
+                "descripcion": "Depósitos totales por departamentos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/15.%20Dep%C3%B3sitos%20totales%20por%20departamentos.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "16._Depósitos_a_plazo_fijo,_estratificación.csv": {
+                "descripcion": "Depósitos a plazo fijo, estratificación",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/16.%20Dep%C3%B3sitos%20a%20plazo%20fijo%2C%20estratificaci%C3%B3n.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "17._Depósitos_totales_por_monedas_serie.csv": {
+                "descripcion": "Depósitos totales por monedas serie",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/17. Depósitos totales por monedas serie.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "18._Depósitos_vista_por_monedas_serie.csv": {
+                "descripcion": "Depósitos vista por monedas serie",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/18. Depósitos vista por monedas serie.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "19._Depósitos_en_caja_de_ahorro_por_monedas_serie.csv": {
+                "descripcion": "Depósitos en caja de ahorro por monedas serie",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/19. Depósitos en caja de ahorro por monedas serie.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "20._Depósitos_a_plazo_fijo_por_monedas_serie.csv": {
+                "descripcion": "Depósitos a plazo fijo por monedas serie",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/20. Depósitos a plazo fijo por monedas serie.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "21._Depósitos_otros_por_monedas_serie.csv": {
+                "descripcion": "Depósitos otros por monedas serie",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Cr%C3%A9ditos%20y%20Dep%C3%B3sitos/OSD/21. Depósitos otros por monedas serie.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "4._Encaje_Legal.csv": {
+                "descripcion": "Encaje Legal",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/sector_monetario/Tasas%20Monetarias/4.%20Encaje%20Legal.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+                "metodo_deteccion": "url_extension"
+            },
+            "Titulos_publicos.csv": {
+                "descripcion": "Títulos Públicos",
+                "url_descarga": "https://www.bcb.gob.bo/webdocs/Documentos%20Adjuntos/Titulos%20publicos.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
                 "metodo_deteccion": "url_extension"
             }
         },
         "Reporte_Estadístico_de_Sistema_de_Pagos": {
-            "FHO_Metodologia_Estadisticas_Libro_Amarillo_2016.csv": {
-                "descripcion": "Manual Basado en el Foro de liquidaciones de pagos y valores",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/FHO_Metodologia_Estadisticas_Libro_Amarillo_2016.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "MANUAL_DE_BALANZA_DE_PAGOS.csv": {
-                "descripcion": "Manual de Balanza de pagos",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/MANUAL_DE_BALANZA_DE_PAGOS.PDF",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Manual_de_estadisticas_monetarias_2000.csv": {
-                "descripcion": "Manual de estadísticas Monetarias",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Manual_de_estadisticas_monetarias_2000.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
             "Reporte_Estadístico_a_Julio_2026.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Julio%202026.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_Julio_2026_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Julio%202026.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-07",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_Julio_2026_3.csv": {
+            "Reporte_Estadístico_a_Julio_2026_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Julio%202026.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-07",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_Junio_2026_(1).csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Junio%202026%20%281%29.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_Junio_2026_(1)_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Junio%202026%20%281%29.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-06",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
@@ -1392,358 +1214,137 @@
             "Reporte_Estadístico_a_Junio_2026.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Junio%202026.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-06",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_Mayo_2026_vf.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Mayo%202026%20vf.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_Mayo_2026_vf_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Mayo%202026%20vf.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-05",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_Mayo_2026_vf_3.csv": {
+            "Reporte_Estadístico_a_Mayo_2026_vf_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Mayo%202026%20vf.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-05",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_abril_2026_vf.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20abril%202026%20vf.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_abril_2026_vf_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20abril%202026%20vf.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-04",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_abril_2026_vf_3.csv": {
+            "Reporte_Estadístico_a_abril_2026_vf_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20abril%202026%20vf.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-04",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_Marzo_2026_17abr.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Marzo%202026%2017abr.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_Marzo_2026_17abr_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Marzo%202026%2017abr.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-03",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_Marzo_2026_17abr_3.csv": {
+            "Reporte_Estadístico_a_Marzo_2026_17abr_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Marzo%202026%2017abr.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-03",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_Febrero_2026_19mar.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Febrero%202026%2019mar.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_Febrero_2026_19mar_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Febrero%202026%2019mar.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-02",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_Febrero_2026_19mar_3.csv": {
+            "Reporte_Estadístico_a_Febrero_2026_19mar_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Febrero%202026%2019mar.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-02",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_Enero_2026_20feb.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Enero%202026%2020feb.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_Enero_2026_20feb_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Enero%202026%2020feb.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-01",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_Enero_2026_20feb_3.csv": {
+            "Reporte_Estadístico_a_Enero_2026_20feb_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20Enero%202026%2020feb.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2026-01",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_diciembre_de_2025_20ene.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20diciembre%20de%202025%2020ene.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_diciembre_de_2025_20ene_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20diciembre%20de%202025%2020ene.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2025-12",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_diciembre_de_2025_20ene_3.csv": {
+            "Reporte_Estadístico_a_diciembre_de_2025_20ene_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20diciembre%20de%202025%2020ene.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2025-12",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_noviembre_de_2025.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20noviembre%20de%202025.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_noviembre_de_2025_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20noviembre%20de%202025.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2025-11",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_noviembre_de_2025_3.csv": {
+            "Reporte_Estadístico_a_noviembre_de_2025_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20noviembre%20de%202025.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2025-11",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
             "Reporte_Estadístico_a_octubre_de_2025.csv": {
-                "descripcion": "Ver archivo Pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20octubre%20de%202025.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "Reporte_Estadístico_a_octubre_de_2025_2.csv": {
                 "descripcion": "Ver archivo Excel",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20octubre%20de%202025.xlsx",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2025-10",
                 "tipo_archivo": "XLSX",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
                 "metodo_deteccion": "url_extension"
             },
-            "Reporte_Estadístico_a_octubre_de_2025_3.csv": {
+            "Reporte_Estadístico_a_octubre_de_2025_2.csv": {
                 "descripcion": "Ver archivo Ods",
                 "url_descarga": "https://www.bcb.gob.bo/webdocs/sistema_pagos/Reporte%20Estad%C3%ADstico%20a%20octubre%20de%202025.ods",
-                "fecha_actualizacion": "No disponible",
+                "fecha_actualizacion": "2025-10",
                 "tipo_archivo": "ODS",
                 "url_origen": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                "metodo_deteccion": "url_extension"
-            },
-            "REPORTE_Y_CONSULTAS": {
-                "CONTENIDO_WEB": {
-                    "Reporte_Estadístico_|_Banco_Central_de_Bolivia.csv": {
-                        "descripcion": "Reporte Estadístico | Banco Central de Bolivia",
-                        "url_descarga": "https://www.bcb.gob.bo/?q=reporte-estadistico",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "WEB",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "tipo_recurso": "web",
-                        "metodo_deteccion": "exportable_data_page",
-                        "tiene_tabla_html": false,
-                        "tablas_detectadas": 0,
-                        "permite_exportar": true,
-                        "tiene_filtros": false
-                    }
-                }
-            }
-        },
-        "Jornada_Monetaria": {
-            "MEMORIA_XVII_JM.csv": {
-                "descripcion": "MEMORIA XVII JM.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/31/MEMORIA%20XVII%20JM.pdf",
-                "fecha_actualizacion": "2025-04-31",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            },
-            "MEMORIA_XVI_JM.csv": {
-                "descripcion": "MEMORIA XVI JM.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/04/29/MEMORIA%20XVI%20JM.pdf",
-                "fecha_actualizacion": "2025-04-29",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            },
-            "MEMORIA_2022_XV_JORNADA_MONETARIA.csv": {
-                "descripcion": "MEMORIA 2022 XV JORNADA MONETARIA.PDF",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/11/39/MEMORIA%202022%20XV%20JORNADA%20MONETARIA.PDF",
-                "fecha_actualizacion": "2025-11",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            },
-            "MEMORIA_2021_XIV_JORNADA_MONETARIA.csv": {
-                "descripcion": "MEMORIA 2021 XIV JORNADA MONETARIA.PDF",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/11/31/MEMORIA%202021%20XIV%20JORNADA%20MONETARIA.PDF",
-                "fecha_actualizacion": "2025-11-31",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            },
-            "COMPENDIO_VI_JORNADA.csv": {
-                "descripcion": "COMPENDIO VI JORNADA.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/COMPENDIO%20VI%20JORNADA.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            },
-            "CompendioV.csv": {
-                "descripcion": "CompendioV.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/CompendioV.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            },
-            "COMPENDIOIVJM.csv": {
-                "descripcion": "COMPENDIOIVJM.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/COMPENDIOIVJM.pdf",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-jornada-monetaria",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Encuentro_de_Economistas": {
-            "COMP_17eeb.csv": {
-                "descripcion": "COMP 17eeb.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2025/09/18/COMP%2017eeb.pdf",
-                "fecha_actualizacion": "2025-09-18",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "COMP_16eeb.csv": {
-                "descripcion": "COMP 16eeb.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/11/57/COMP%2016eeb.pdf",
-                "fecha_actualizacion": "2024-11",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "COMP_15eeb_lite.csv": {
-                "descripcion": "COMP 15eeb lite.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2024/03/09/COMP%2015eeb%20lite.pdf",
-                "fecha_actualizacion": "2024-03-09",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "Compendio_del_Decimocuarto_Encuentro_de_Economistas_de_Bolivia_-_14EEB_1.csv": {
-                "descripcion": "Compendio del Decimocuarto Encuentro de Economistas de Bolivia - 14EEB_1.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2023/07/10/Compendio%20del%20Decimocuarto%20Encuentro%20de%20Economistas%20de%20Bolivia%20-%2014EEB_1.pdf",
-                "fecha_actualizacion": "2023-07-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "Compendio_13_eeb.csv": {
-                "descripcion": "Compendio_13_eeb.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/12/50/Compendio_13_eeb.pdf",
-                "fecha_actualizacion": "2021-12",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "Compendio_12eeb.csv": {
-                "descripcion": "Compendio_12eeb_.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2021/12/26/Compendio_12eeb_.pdf",
-                "fecha_actualizacion": "2021-12-26",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "Compendio_11eeb.csv": {
-                "descripcion": "Compendio_11eeb_.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/08/15/Compendio_11eeb_.pdf",
-                "fecha_actualizacion": "2019-08-15",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "Compendio_10eeb.csv": {
-                "descripcion": "Compendio_10eeb_.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2019/07/43/Compendio_10eeb_.pdf",
-                "fecha_actualizacion": "2019-07",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "9EEB.csv": {
-                "descripcion": "9EEB.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2017/04/46/9EEB.pdf",
-                "fecha_actualizacion": "2017-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
-                "metodo_deteccion": "url_extension"
-            },
-            "COMPENDIO_VII_EEB.csv": {
-                "descripcion": "COMPENDIO_VII_EEB.pdf",
-                "url_descarga": "https://www.bcb.gob.bo/webdocs/publicacionesbcb/2015/10/39/COMPENDIO_VII_EEB.pdf",
-                "fecha_actualizacion": "2015-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://www.bcb.gob.bo/?q=pub_serie-compendios-encuentro-economistas-bolivia",
                 "metodo_deteccion": "url_extension"
             }
         },
@@ -1760,19 +1361,6 @@
                         "metodo_deteccion": "data_html_table",
                         "tiene_tabla_html": true,
                         "tablas_detectadas": 1,
-                        "permite_exportar": false,
-                        "tiene_filtros": true
-                    },
-                    "Indicadores_de_Inflación_|_Banco_Central_de_Bolivia.csv": {
-                        "descripcion": "Indicadores de Inflación | Banco Central de Bolivia",
-                        "url_descarga": "https://www.bcb.gob.bo/?q=indicadores_inflacion",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "WEB",
-                        "url_origen": "https://www.bcb.gob.bo/",
-                        "tipo_recurso": "web",
-                        "metodo_deteccion": "data_html_table",
-                        "tiene_tabla_html": true,
-                        "tablas_detectadas": 2,
                         "permite_exportar": false,
                         "tiene_filtros": true
                     }

@@ -1,121 +1,19 @@
-================================================================================
-CRAWLER V2
-================================================================================
-Fuente: Servicio Nacional de Meteorología e Hidrología
-URL configurada: https://wis.senamhi.gob.bo/oapi/
-Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
-Verificación TLS: activa
-
-
-Resolución de fuente:
-  Original: https://wis.senamhi.gob.bo/oapi/
-  Utilizada: https://wis.senamhi.gob.bo/oapi/
-  Fallback: no
-  Intentos: 1
-    - usable         | HTTP=200 | https://wis.senamhi.gob.bo/oapi/
-
-URL de trabajo: https://wis.senamhi.gob.bo/oapi/
-Seeds: 9
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
-Sitemaps: activo
-Máx URLs sitemap: 10000
-
-[SENAMHI] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[SENAMHI] t=   3.0s | pag=  0 | files=   0 | data=  0 | cola=   9 | prio= 0 | https://wis.senamhi.gob.bo/oapi/
-[SENAMHI] t=   3.4s | pag=  0 | files=   0 | data=  0 | cola=   8 | prio= 0 | https://wis.senamhi.gob.bo/oapi/collections?f=html
-[SENAMHI] DATASETS=1 | ogc_collection_catalog | https://wis.senamhi.gob.bo/oapi/collections?f=html
-[SENAMHI] API OMITIDA | redundant_jsonld_representation | https://wis.senamhi.gob.bo/oapi/collections?f=jsonld
-[SENAMHI] API OMITIDA | redundant_jsonld_representation | https://wis.senamhi.gob.bo/oapi/collections?f=jsonld
-[SENAMHI] t=   4.1s | pag=  1 | files=   0 | data=  1 | cola=  13 | prio= 0 | https://wis.senamhi.gob.bo/oapi/collections/stations?f=html
-[SENAMHI] DATASETS=2 | ogc_api_collection | https://wis.senamhi.gob.bo/oapi/collections/stations?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi?f=json
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/collections/stations?f=json
-[SENAMHI] API OMITIDA | redundant_jsonld_representation | https://wis.senamhi.gob.bo/oapi/collections/stations?f=jsonld
-[SENAMHI] API OMITIDA | api_auxiliary_endpoint | https://wis.senamhi.gob.bo/oapi/collections/stations/schema?f=json
-[SENAMHI] API OMITIDA | api_auxiliary_endpoint | https://wis.senamhi.gob.bo/oapi/collections/stations/schema?f=html
-[SENAMHI] API OMITIDA | api_auxiliary_endpoint | https://wis.senamhi.gob.bo/oapi/collections/stations/queryables?f=json
-[SENAMHI] API OMITIDA | api_auxiliary_endpoint | https://wis.senamhi.gob.bo/oapi/collections/stations/queryables?f=html
-[SENAMHI] API OMITIDA | redundant_jsonld_representation | https://wis.senamhi.gob.bo/oapi/collections/stations/items?f=jsonld
-[SENAMHI] API OMITIDA | redundant_jsonld_representation | https://wis.senamhi.gob.bo/oapi/collections/stations?f=jsonld
-[SENAMHI] API OMITIDA | api_auxiliary_endpoint | https://wis.senamhi.gob.bo/oapi/collections/stations/queryables
-[SENAMHI] t=   4.9s | pag=  2 | files=   0 | data=  2 | cola=  15 | prio= 0 | https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html
-[SENAMHI] DATASETS=3 | ogc_api_collection | https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=json
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=html
-[SENAMHI] t=   5.2s | pag=  3 | files=   0 | data=  3 | cola=  16 | prio= 0 | https://wis.senamhi.gob.bo/oapi/collections/messages?f=html
-[SENAMHI] DATASETS=4 | ogc_api_collection | https://wis.senamhi.gob.bo/oapi/collections/messages?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/collections/messages?f=json
-[SENAMHI] t=   6.0s | pag=  4 | files=   0 | data=  4 | cola=  16 | prio= 0 | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html
-[SENAMHI] DATASETS=5 | ogc_api_collection | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=json
-[SENAMHI] API OMITIDA | api_auxiliary_endpoint | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata/schema?f=json
-[SENAMHI] t=   6.5s | pag=  5 | files=   0 | data=  5 | cola=  16 | prio= 0 | https://onsc.senamhi.gob.bo/public/public-stations-info-export
-[SENAMHI] t=   7.7s | pag=  6 | files=   0 | data=  5 | cola=  15 | prio= 0 | https://onsc.senamhi.gob.bo/public/public-stations
-[SENAMHI] t=   8.3s | pag=  7 | files=   0 | data=  5 | cola=  14 | prio= 0 | https://onsc.senamhi.gob.bo/public/public-geoanalisys
-[SENAMHI] t=   9.1s | pag=  8 | files=   0 | data=  5 | cola=  13 | prio= 0 | https://wis.senamhi.gob.bo/oapi/collections?f=json
-[SENAMHI] DATASET ACTUALIZADO | https://wis.senamhi.gob.bo/oapi/collections?f=html -> https://wis.senamhi.gob.bo/oapi/collections?f=json
-[SENAMHI] t=   9.7s | pag=  8 | files=   0 | data=  5 | cola=  12 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections
-[SENAMHI] t=  10.2s | pag=  8 | files=   0 | data=  5 | cola=  11 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/stations
-[SENAMHI] DATASET ACTUALIZADO | https://wis.senamhi.gob.bo/oapi/collections/stations?f=html -> https://wis.senamhi.gob.bo/oapi/collections/stations
-[SENAMHI] t=  10.7s | pag=  8 | files=   0 | data=  5 | cola=  10 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7
-[SENAMHI] DATASET ACTUALIZADO | https://wis.senamhi.gob.bo/oapi/collections/urn%3Awmo%3Amd%3Abo-senamhi%3A51lca7?f=html -> https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7
-[SENAMHI] t=  11.2s | pag=  8 | files=   0 | data=  5 | cola=   9 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/messages
-[SENAMHI] DATASET ACTUALIZADO | https://wis.senamhi.gob.bo/oapi/collections/messages?f=html -> https://wis.senamhi.gob.bo/oapi/collections/messages
-[SENAMHI] t=  11.7s | pag=  8 | files=   0 | data=  5 | cola=   8 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata
-[SENAMHI] DATASET ACTUALIZADO | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=html -> https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata
-[SENAMHI] t=  12.6s | pag=  8 | files=   0 | data=  5 | cola=   7 | prio= 1 | https://wis.senamhi.gob.bo/oapi?f=json
-[SENAMHI] t=  13.0s | pag=  8 | files=   0 | data=  5 | cola=   6 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/stations?f=json
-[SENAMHI] t=  13.7s | pag=  8 | files=   0 | data=  5 | cola=   5 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=json
-[SENAMHI] t=  14.2s | pag=  8 | files=   0 | data=  5 | cola=   4 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/urn:wmo:md:bo-senamhi:51lca7?f=html
-[SENAMHI] t=  15.1s | pag=  9 | files=   0 | data=  5 | cola=   3 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/messages?f=json
-[SENAMHI] t=  15.5s | pag=  9 | files=   0 | data=  5 | cola=   2 | prio= 1 | https://wis.senamhi.gob.bo/oapi/collections/discovery-metadata?f=json
-[SENAMHI] t=  16.0s | pag=  9 | files=   0 | data=  5 | cola=   1 | prio=50 | https://wis.senamhi.gob.bo/oapi
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/openapi
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/openapi?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/TileMatrixSets?f=json
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/TileMatrixSets?f=html
-[SENAMHI] t=  16.6s | pag= 10 | files=   0 | data=  5 | cola=   6 | prio= 1 | https://wis.senamhi.gob.bo/oapi/openapi
-[SENAMHI] OPENAPI | version=3.0.2 | GET=49 | ejecutables=1 | omitidos=48
-[SENAMHI] OPENAPI | nuevos_en_cola=0
-[SENAMHI] t=  17.5s | pag= 10 | files=   0 | data=  5 | cola=   5 | prio= 1 | https://wis.senamhi.gob.bo/oapi/openapi?f=html
-[SENAMHI] t=  18.2s | pag= 11 | files=   0 | data=  5 | cola=   4 | prio= 1 | https://wis.senamhi.gob.bo/oapi/TileMatrixSets?f=json
-[SENAMHI] t=  19.0s | pag= 11 | files=   0 | data=  5 | cola=   3 | prio= 1 | https://wis.senamhi.gob.bo/oapi/TileMatrixSets?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/tileMatrixSets?f=html
-[SENAMHI] API REFERENCIA | html_link_reference | https://wis.senamhi.gob.bo/oapi/tileMatrixSets?f=json
-[SENAMHI] t=  19.6s | pag= 12 | files=   0 | data=  5 | cola=   7 | prio= 1 | https://wis.senamhi.gob.bo/oapi/tileMatrixSets?f=html
-[SENAMHI] API SONDEO FALLIDO | https://wis.senamhi.gob.bo/oapi/tileMatrixSets?f=html
-[SENAMHI] t=  20.3s | pag= 12 | files=   0 | data=  5 | cola=   6 | prio= 1 | https://wis.senamhi.gob.bo/oapi/tileMatrixSets?f=json
-[SENAMHI] API SONDEO FALLIDO | https://wis.senamhi.gob.bo/oapi/tileMatrixSets?f=json
-[SENAMHI] t=  21.2s | pag= 12 | files=   0 | data=  5 | cola=   5 | prio=50 | https://wis.senamhi.gob.bo/oapi?f=html
-[SENAMHI] t=  22.3s | pag= 13 | files=   0 | data=  5 | cola=   4 | prio=50 | https://wis.senamhi.gob.bo/oapi/openapi?f=html&ui=redoc
-[SENAMHI] t=  23.0s | pag= 14 | files=   0 | data=  5 | cola=   3 | prio=50 | https://wis.senamhi.gob.bo/oapi/openapi?f=json
-[SENAMHI] OPENAPI | version=3.0.2 | GET=49 | ejecutables=1 | omitidos=48
-[SENAMHI] OPENAPI | nuevos_en_cola=0
-[SENAMHI] t=  23.9s | pag= 14 | files=   0 | data=  5 | cola=   2 | prio=50 | https://wis.senamhi.gob.bo/oapi/TileMatrixSets
-[SENAMHI] t=  24.6s | pag= 14 | files=   0 | data=  5 | cola=   1 | prio=50 | https://wis.senamhi.gob.bo/oapi/TileMatrixSets/WorldCRS84Quad?f=html
-[SENAMHI] t=  25.5s | pag= 15 | files=   0 | data=  5 | cola=   0 | prio=50 | https://wis.senamhi.gob.bo/oapi/TileMatrixSets/WebMercatorQuad?f=html
-[SENAMHI] API SONDEOS FALLIDOS | total=2
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              senamhi
-Páginas visitadas:   16
-Archivos encontrados:    0
-Datasets web:         5
-Errores:              0
-Motivo de parada:     frontier_exhausted
-Duración:             26.03 s
-Sitemaps procesados:  0
-URLs por sitemap:     0
-URLs sitemap en cola: 0
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\senamhi.json
-
-Trazabilidad:
-  Ejecución: 201
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
+    import argparse
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
+    import re as _re
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 126, in <module>
+    from . import _compiler, _parser
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 14, in <module>
+    from . import _parser
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py", line 15, in <module>
+    from ._constants import *
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1559, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1533, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1660, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 110, in _path_join
+KeyboardInterrupt

@@ -25,9 +25,11 @@ from core.api_discovery import ApiReferenceDiscovery
 from core.api_identity import ApiIdentity
 from core.api_pagination import ApiPagination
 from core.api_policy import ApiPolicy
+from core.crawl_budget import CrawlBudget
 from core.data_detector import DataDetector
 from core.file_detector import FileDetection, FileDetector
 from core.http_client import HttpClient
+from core.relevance import RelevanceEngine
 from core.metadata import clean_text, extract_date, filename_from_url
 from core.openapi_discovery import OpenApiDiscovery
 from core.sitemap_discovery import SitemapDiscovery
@@ -134,6 +136,11 @@ class CrawlResult:
     sitemap_urls_queued: int = 0
     sitemap_errors: int = 0
 
+    # Métricas operacionales. No forman parte del JSON contractual;
+    # se usan para diagnóstico, batch y trazabilidad.
+    relevance_rejected: int = 0
+    budget_metrics: dict = field(default_factory=dict)
+
 
 # ============================================================
 # CRAWLER
@@ -163,6 +170,18 @@ class Crawler:
         self.openapi_discovery = OpenApiDiscovery()
         self.sitemap_discovery = SitemapDiscovery(
             client
+        )
+
+        # ====================================================
+        # RELEVANCIA / PRESUPUESTO
+        # ====================================================
+
+        self.relevance_engine = RelevanceEngine(
+            config
+        )
+
+        self.budget = CrawlBudget.from_config(
+            config
         )
 
         self.source_id = str(
@@ -378,6 +397,10 @@ class Crawler:
             str,
             FileRecord,
         ] = {}
+
+        # Evita volver a puntuar/inspeccionar el mismo archivo descartado
+        # cuando aparece enlazado desde múltiples páginas.
+        self.rejected_file_urls: set[str] = set()
 
         self.data_index_by_identity: dict[
             str,
@@ -1921,20 +1944,83 @@ class Crawler:
         self,
         result: CrawlResult,
         record: DataPageRecord,
-    ) -> None:
+    ) -> bool:
+        """
+        Evalúa y registra únicamente datasets/páginas de datos útiles.
 
-        normalized = (
-            self.normalize_url(
-                record.url
-            )
+        El DataDetector/ApiDetector decide qué encontró técnicamente.
+        RelevanceEngine + adapter deciden si debe entrar al catálogo.
+        """
+
+        normalized = self.normalize_url(
+            record.url
         )
 
         if not normalized:
-            return
+            return False
 
-        record.url = (
-            normalized
+        record.url = normalized
+
+        normalized_path = (
+            self.adapter
+            .normalize_resource_path(
+                path=record.ruta,
+                url=normalized,
+                description=record.descripcion,
+            )
         )
+
+        record.ruta = list(
+            normalized_path
+        )
+
+        adjustment = (
+            self.adapter
+            .relevance_adjustment(
+                url=normalized,
+                description=record.descripcion,
+                origin_url=(
+                    record.url_origen
+                    or ""
+                ),
+                path=normalized_path,
+                resource_type=record.tipo_recurso,
+            )
+        )
+
+        decision = (
+            self.relevance_engine
+            .evaluate_data_page(
+                url=normalized,
+                description=record.descripcion,
+                origin_url=(
+                    record.url_origen
+                    or ""
+                ),
+                route=normalized_path,
+                resource_type=record.tipo_recurso,
+                data_format=record.formato,
+                has_table=record.tiene_tabla_html,
+                has_export=record.permite_exportar,
+                has_filters=record.tiene_filtros,
+                records_count=record.registros_detectados,
+                adjustment=adjustment,
+            )
+        )
+
+        if not (
+            self.adapter
+            .should_keep_data_page(
+                decision=decision,
+                url=normalized,
+                description=record.descripcion,
+                origin_url=record.url_origen,
+                path=normalized_path,
+                resource_type=record.tipo_recurso,
+            )
+        ):
+            self.budget.note_rejected_resource()
+            return False
 
         identity = (
             self.api_identity
@@ -1955,7 +2041,6 @@ class Crawler:
         # ----------------------------------------------------
 
         if existing_index is None:
-
             result.data_pages.append(
                 record
             )
@@ -1969,6 +2054,8 @@ class Crawler:
                 - 1
             )
 
+            self.budget.note_dataset_kept()
+
             total = len(
                 result.data_pages
             )
@@ -1977,16 +2064,16 @@ class Crawler:
                 total <= 10
                 or total % 25 == 0
             ):
-
                 print(
                     f"[{self.source_id.upper()}] "
                     f"DATASETS={total} | "
+                    f"score={decision.score} | "
                     f"{record.metodo_deteccion} | "
                     f"{normalized}",
                     flush=True,
                 )
 
-            return
+            return True
 
         # ----------------------------------------------------
         # MISMO DATASET, MEJOR REPRESENTACIÓN
@@ -2005,13 +2092,12 @@ class Crawler:
                 record,
             )
         ):
-            return
+            return True
 
         if (
             not record.ruta
             and existing.ruta
         ):
-
             record.ruta = list(
                 existing.ruta
             )
@@ -2020,7 +2106,6 @@ class Crawler:
             not record.url_origen
             and existing.url_origen
         ):
-
             record.url_origen = (
                 existing.url_origen
             )
@@ -2032,7 +2117,6 @@ class Crawler:
             existing.registros_detectados
             is not None
         ):
-
             record.registros_detectados = (
                 existing.registros_detectados
             )
@@ -2048,6 +2132,8 @@ class Crawler:
             f"{record.url}",
             flush=True,
         )
+
+        return True
 
     def _register_api_response(
         self,
@@ -2195,12 +2281,10 @@ class Crawler:
             ),
         )
 
-        self._register_data_page(
+        return self._register_data_page(
             result,
             record,
         )
-
-        return True
 
     # ========================================================
     # ARCHIVOS
@@ -2214,44 +2298,47 @@ class Crawler:
         description: str,
         path: tuple[str, ...],
         detection: FileDetection,
-    ) -> None:
+    ) -> bool:
+        """
+        Registra solo archivos que superen el filtro de relevancia.
 
-        normalized = (
-            self.normalize_url(
-                url
-            )
+        Los ZIP se inspeccionan mediante Range únicamente cuando el
+        contexto previo indica que podrían contener datos útiles.
+        """
+
+        normalized = self.normalize_url(
+            url
         )
 
         if not normalized:
-            return
+            return False
 
         if not self.is_public_web_url(
             normalized
         ):
-            return
+            return False
 
-        existing = (
-            self.files_by_url.get(
-                normalized
-            )
+        if normalized in self.rejected_file_urls:
+            return False
+
+        existing = self.files_by_url.get(
+            normalized
         )
 
         if existing:
-
             if (
                 source_page
                 and source_page
                 not in existing.origenes
             ):
-
                 existing.origenes.append(
                     source_page
                 )
 
-            return
+            return True
 
         if self._max_files_reached():
-            return
+            return False
 
         description = (
             clean_text(
@@ -2262,17 +2349,58 @@ class Crawler:
             )
         )
 
-        contenido_zip = []
+        normalized_path = (
+            self.adapter
+            .normalize_resource_path(
+                path=path,
+                url=normalized,
+                description=description,
+            )
+        )
 
+        adjustment = (
+            self.adapter
+            .relevance_adjustment(
+                url=normalized,
+                description=description,
+                origin_url=source_page,
+                path=normalized_path,
+                resource_type=(
+                    detection.file_type
+                    or "file"
+                ),
+            )
+        )
+
+        # Primera decisión sin descargar contenido del archivo.
+        decision = (
+            self.relevance_engine
+            .evaluate_file(
+                url=normalized,
+                description=description,
+                origin_url=source_page,
+                route=normalized_path,
+                file_type=detection.file_type,
+                extension=detection.extension,
+                adjustment=adjustment,
+            )
+        )
+
+        contenido_zip: list[str] = []
         zip_status = None
-
         zip_bytes = 0
 
+        # Un ZIP desconocido no justifica dos solicitudes Range extra.
+        # Lo inspeccionamos solo si el contexto ya es razonablemente
+        # prometedor o si el adapter lo favoreció.
         if (
-            detection.file_type
-            == "zip"
+            detection.file_type == "zip"
+            and (
+                decision.keep
+                or decision.score >= 35
+                or adjustment > 0
+            )
         ):
-
             zip_result = (
                 self.zip_inspector
                 .inspect(
@@ -2292,70 +2420,85 @@ class Crawler:
                 zip_result.bytes_downloaded
             )
 
-        record = FileRecord(
-            id_fuente=(
-                self.source_id
-            ),
+            # Segunda evaluación: ahora sí conoce el índice del ZIP.
+            decision = (
+                self.relevance_engine
+                .evaluate_file(
+                    url=normalized,
+                    description=description,
+                    origin_url=source_page,
+                    route=normalized_path,
+                    file_type=detection.file_type,
+                    extension=detection.extension,
+                    zip_content=contenido_zip,
+                    adjustment=adjustment,
+                )
+            )
 
-            descripcion=(
-                description
-            ),
-
-            url_descarga=(
+        if not (
+            self.adapter
+            .should_keep_file(
+                decision=decision,
+                url=normalized,
+                description=description,
+                origin_url=source_page,
+                path=normalized_path,
+                detection=detection,
+            )
+        ):
+            self.rejected_file_urls.add(
                 normalized
-            ),
+            )
+            self.budget.note_rejected_resource()
+            return False
 
-            url_origen=(
-                source_page
-            ),
-
+        record = FileRecord(
+            id_fuente=self.source_id,
+            descripcion=description,
+            url_descarga=normalized,
+            url_origen=source_page,
             origenes=[
                 source_page
             ],
-
-            tipo_archivo=(
-                detection.file_type
-            ),
-
-            extension=(
-                detection.extension
-            ),
-
+            tipo_archivo=detection.file_type,
+            extension=detection.extension,
             fecha_actualizacion=(
                 extract_date(
                     normalized,
                     description,
                 )
             ),
-
             ruta=list(
-                path
+                normalized_path
             ),
-
-            metodo_deteccion=(
-                detection.method
-            ),
-
-            content_type=(
-                detection.content_type
-            ),
-
-            contenido_zip=(
-                contenido_zip
-            ),
-
-            zip_inspeccion=(
-                zip_status
-            ),
-
-            zip_bytes_descargados=(
-                zip_bytes
-            ),
+            metodo_deteccion=detection.method,
+            content_type=detection.content_type,
+            contenido_zip=contenido_zip,
+            zip_inspeccion=zip_status,
+            zip_bytes_descargados=zip_bytes,
         )
 
         self.files_by_url[
             normalized
         ] = record
+
+        self.budget.note_file_kept()
+
+        total = len(
+            self.files_by_url
+        )
+
+        if total <= 10 or total % 100 == 0:
+            print(
+                f"[{self.source_id.upper()}] "
+                f"ARCHIVO UTIL={total} | "
+                f"score={decision.score} | "
+                f"{detection.file_type or '?'} | "
+                f"{normalized}",
+                flush=True,
+            )
+
+        return True
 
     # ========================================================
     # COLA
@@ -2488,6 +2631,14 @@ class Crawler:
 
         for sitemap_url in discovery.urls:
 
+            if not (
+                self.adapter
+                .should_follow_sitemap_url(
+                    sitemap_url
+                )
+            ):
+                continue
+
             if not self._allow_discovered_url(
                 sitemap_url
             ):
@@ -2497,6 +2648,14 @@ class Crawler:
                 self.queued
             )
 
+            sitemap_priority = (
+                self.adapter
+                .priority(
+                    sitemap_url,
+                    "sitemap",
+                )
+            )
+
             self._queue_page(
                 queue,
                 url=sitemap_url,
@@ -2504,7 +2663,7 @@ class Crawler:
                 parent_url=None,
                 path=(),
                 text="sitemap",
-                priority_override=25,
+                priority_override=sitemap_priority,
             )
 
             if len(
@@ -2669,6 +2828,29 @@ class Crawler:
 
         while queue:
 
+            budget_decision = (
+                self.budget
+                .decision()
+            )
+
+            if budget_decision.stop:
+                result.stop_reason = (
+                    budget_decision.reason
+                    or "crawl_budget"
+                )
+
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"BUDGET STOP | "
+                    f"{result.stop_reason} | "
+                    f"req={self.budget.requests} | "
+                    f"utiles={self.budget.useful_resources} | "
+                    f"rechazados={self.budget.resources_rejected}",
+                    flush=True,
+                )
+
+                break
+
             if self._max_pages_reached(
                 result
             ):
@@ -2719,6 +2901,8 @@ class Crawler:
                 f"pag={len(result.pages):3} | "
                 f"files={len(self.files_by_url):4} | "
                 f"data={len(result.data_pages):3} | "
+                f"req={self.budget.requests:4} | "
+                f"rej={self.budget.resources_rejected:4} | "
                 f"cola={len(queue):4} | "
                 f"prio={priority:2} | "
                 f"{current_url}",
@@ -2742,7 +2926,15 @@ class Crawler:
                     )
                 )
 
+                self.budget.note_request(
+                    success=True
+                )
+
             except Timeout:
+
+                self.budget.note_request(
+                    success=False
+                )
 
                 self._record_crawl_error(
                     result,
@@ -2757,6 +2949,13 @@ class Crawler:
                 continue
 
             except RequestException as exc:
+
+                # Los sondeos API oportunistas siguen consumiendo
+                # presupuesto de requests, pero su error se separa
+                # posteriormente de los errores reales de la fuente.
+                self.budget.note_request(
+                    success=False
+                )
 
                 self._record_crawl_error(
                     result,
@@ -2966,6 +3165,8 @@ class Crawler:
                         ),
                     )
                 )
+
+                self.budget.note_page()
 
                 # =================================================
                 # DATASET HTML
@@ -3478,6 +3679,27 @@ class Crawler:
 
         result.files = list(
             self.files_by_url.values()
+        )
+
+        result.budget_metrics = (
+            self.budget.metrics()
+        )
+
+        result.relevance_rejected = int(
+            result.budget_metrics.get(
+                "resources_rejected",
+                0,
+            )
+        )
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"BUDGET | "
+            f"req={result.budget_metrics.get('requests', 0)} | "
+            f"utiles={result.budget_metrics.get('useful_resources', 0)} | "
+            f"rechazados={result.relevance_rejected} | "
+            f"sin_valor={result.budget_metrics.get('requests_without_value', 0)}",
+            flush=True,
         )
 
         if result.api_probe_errors:

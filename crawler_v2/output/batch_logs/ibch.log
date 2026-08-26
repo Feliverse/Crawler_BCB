@@ -1,91 +1,11 @@
-================================================================================
-CRAWLER V2
-================================================================================
-Fuente: Instituto Boliviano del Cemento y Hormigón
-URL configurada: https://www.ibch.com/
-Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
-Verificación TLS: activa
-
-
-Resolución de fuente:
-  Original: https://www.ibch.com/
-  Utilizada: https://www.ibch.com/
-  Fallback: no
-  Intentos: 1
-    - usable         | HTTP=200 | https://www.ibch.com/
-
-URL de trabajo: https://www.ibch.com/
-Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
-Sitemaps: activo
-Máx URLs sitemap: 10000
-
-[IBCH] SITEMAP | docs=8 | urls=65 | en_cola=64 | errores=3
-[IBCH] t=  20.6s | pag=  0 | files=   0 | data=  0 | cola=  64 | prio= 0 | https://www.ibch.com/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/pages/1096
-[IBCH] t=  23.8s | pag=  1 | files=   9 | data=  0 | cola=  98 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/pages/1096
-[IBCH] t=  25.4s | pag=  1 | files=   9 | data=  0 | cola=  97 | prio=10 | https://www.ibch.com/pavimentos/publicaciones/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/pages/1375
-[IBCH] t=  27.1s | pag=  2 | files=   9 | data=  0 | cola=  97 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/pages/1375
-[IBCH] t=  28.1s | pag=  2 | files=   9 | data=  0 | cola=  96 | prio=10 | https://www.ibch.com/vivienda/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/pages/2041
-[IBCH] t=  29.9s | pag=  3 | files=   9 | data=  0 | cola=  96 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/pages/2041
-[IBCH] t=  31.5s | pag=  3 | files=   9 | data=  0 | cola=  95 | prio=10 | https://www.ibch.com/boletin/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/pages/2815
-[IBCH] t=  33.0s | pag=  4 | files=  19 | data=  0 | cola=  97 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/pages/2815
-[IBCH] t=  34.4s | pag=  4 | files=  19 | data=  0 | cola=  96 | prio=10 | https://www.ibch.com/cursos/curso-diseno-y-construccion-de-bases-de-suelo-cemento/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/posts/2545
-[IBCH] t=  36.7s | pag=  5 | files=  19 | data=  0 | cola=  97 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/posts/2545
-[IBCH] t=  38.1s | pag=  5 | files=  19 | data=  0 | cola=  96 | prio=10 | https://www.ibch.com/pavimentos/publicaciones
-[IBCH] t=  40.4s | pag=  5 | files=  19 | data=  0 | cola=  95 | prio=10 | https://www.ibch.com/boletin/page/2/
-[IBCH] t=  43.5s | pag=  6 | files=  29 | data=  0 | cola=  95 | prio=10 | https://www.ibch.com/boletin/page/3/
-[IBCH] t=  44.6s | pag=  7 | files=  32 | data=  0 | cola=  94 | prio=10 | https://www.ibch.com/boletin/page/1/
-[IBCH] t=  46.8s | pag=  7 | files=  32 | data=  0 | cola=  93 | prio=25 | https://www.ibch.com/sitemap.html
-[IBCH] t=  48.8s | pag=  8 | files=  32 | data=  0 | cola= 101 | prio=25 | https://www.ibch.com/categoria-producto/software/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/product_cat/47
-[IBCH] t=  50.4s | pag=  9 | files=  32 | data=  0 | cola= 102 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/product_cat/47
-[IBCH] t=  51.2s | pag=  9 | files=  32 | data=  0 | cola= 101 | prio=25 | https://www.ibch.com/categoria-producto/cursos/
-[IBCH] API REFERENCIA | html_link_reference | https://www.ibch.com/wp-json/wp/v2/product_cat/50
-[IBCH] t=  53.1s | pag= 10 | files=  32 | data=  0 | cola= 105 | prio= 1 | https://www.ibch.com/wp-json/wp/v2/product_cat/50
-[IBCH] t=  54.4s | pag= 10 | files=  32 | data=  0 | cola= 104 | prio=25 | https://www.ibch.com/download/dossier-pavimentos-rigidos/
-[IBCH] t=  56.2s | pag= 11 | files=  32 | data=  0 | cola= 104 | prio=10 | https://www.ibch.com/download-category/pavimentos/
-[IBCH] t=  57.3s | pag= 12 | files=  32 | data=  0 | cola= 103 | prio=25 | https://www.ibch.com/download/diseno-pavimentos-metodo-pca/
-[IBCH] t=  59.0s | pag= 13 | files=  32 | data=  0 | cola= 102 | prio=25 | https://www.ibch.com/download/manual-sobrecarpetas-aashto/
-[IBCH] t=  60.6s | pag= 14 | files=  32 | data=  0 | cola= 101 | prio=25 | https://www.ibch.com/download/el-estado-del-arte-del-suelocemento-en-estructuras-de-pavimentos/
-[IBCH] t=  61.8s | pag= 15 | files=  32 | data=  0 | cola= 100 | prio=25 | https://www.ibch.com/download/pavimentos-unicapa-de-alto-desempeno/
-[IBCH] t=  63.4s | pag= 16 | files=  32 | data=  0 | cola=  99 | prio=25 | https://www.ibch.com/download/juntas-en-pavimentos-urbanos/
-[IBCH] t=  64.9s | pag= 17 | files=  32 | data=  0 | cola=  98 | prio=25 | https://www.ibch.com/download/recomendaciones-constructivas/
-[IBCH] t=  66.4s | pag= 18 | files=  32 | data=  0 | cola=  97 | prio=25 | https://www.ibch.com/download/diseno-y-construccion-de-viviendas-de-bloques-de-hormigon/
-[IBCH] t=  67.9s | pag= 19 | files=  32 | data=  0 | cola=  97 | prio=10 | https://www.ibch.com/download-category/vivienda/
-[IBCH] t=  69.4s | pag= 20 | files=  32 | data=  0 | cola=  96 | prio=25 | https://www.ibch.com/download/introduccion-e-impacto-ambiental/
-[IBCH] t=  71.0s | pag= 21 | files=  32 | data=  0 | cola=  95 | prio=25 | https://www.ibch.com/download/diseno-de-mezclas-para-bloques-prensados-de-tierra/
-[IBCH] t=  72.4s | pag= 22 | files=  32 | data=  0 | cola=  94 | prio=25 | https://www.ibch.com/download/diseno-de-mezclas-para-bloques-prensados-de-tierra-2/
-[IBCH] t=  73.7s | pag= 23 | files=  32 | data=  0 | cola=  93 | prio=25 | https://www.ibch.com/download/diseno-de-mezclas-para-bloques-prensados-de-tierra-3/
-[IBCH] t=  75.0s | pag= 24 | files=  32 | data=  0 | cola=  92 | prio=25 | https://www.ibch.com/download/materiales-petreos-naturales/
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              ibch
-Páginas visitadas:   25
-Archivos encontrados:   32
-Datasets web:         0
-Errores:              3
-Motivo de parada:     max_pages
-Duración:             76.16 s
-Sitemaps procesados:  8
-URLs por sitemap:     65
-URLs sitemap en cola: 64
-
-Formatos:
-  - PDF    : 32
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ibch.json
-
-Trazabilidad:
-  Ejecución: 189
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 4, in <module>
+    import json
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1559, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1533, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1660, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 110, in _path_join
+KeyboardInterrupt

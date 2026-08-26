@@ -1,109 +1,12 @@
-================================================================================
-CRAWLER V2
-================================================================================
-Fuente: International Cocoa Organization
-URL configurada: https://www.icco.org/
-Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
-Verificación TLS: activa
-
-
-Resolución de fuente:
-  Original: https://www.icco.org/
-  Utilizada: https://www.icco.org/
-  Fallback: no
-  Intentos: 1
-    - usable         | HTTP=200 | https://www.icco.org/
-
-URL de trabajo: https://www.icco.org/
-Seeds: 1
-Máx páginas: 25
-Máx archivos: 1500
-Máx profundidad: 3
-Sitemaps: activo
-Máx URLs sitemap: 10000
-
-[ICCO] SITEMAP | docs=9 | urls=920 | en_cola=673 | errores=0
-[ICCO] t=  17.8s | pag=  0 | files=   0 | data=  0 | cola= 673 | prio= 0 | https://www.icco.org/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/pages/509
-[ICCO] t=  18.9s | pag=  1 | files=   1 | data=  0 | cola= 685 | prio= 1 | https://www.icco.org/wp-json/wp/v2/pages/509
-[ICCO] t=  20.1s | pag=  1 | files=   1 | data=  0 | cola= 684 | prio=10 | https://icco.org/who-we-are/governance/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/pages/11180
-[ICCO] t=  22.9s | pag=  2 | files=   2 | data=  0 | cola= 686 | prio= 1 | https://www.icco.org/wp-json/wp/v2/pages/11180
-[ICCO] t=  24.1s | pag=  2 | files=   2 | data=  0 | cola= 685 | prio=10 | https://icco.org/icco-documentation/international-cocoa-symposium-2017/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/pages/12885
-[ICCO] t=  26.3s | pag=  3 | files=  81 | data=  0 | cola= 687 | prio= 1 | https://www.icco.org/wp-json/wp/v2/pages/12885
-[ICCO] t=  27.9s | pag=  3 | files=  81 | data=  0 | cola= 686 | prio=10 | https://icco.org/statistics/
-[ICCO] DATASETS=1 | data_html_table | https://www.icco.org/statistics/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/pages/28740
-[ICCO] t=  29.1s | pag=  4 | files=  83 | data=  1 | cola= 688 | prio= 1 | https://www.icco.org/wp-json/wp/v2/pages/28740
-[ICCO] t=  30.6s | pag=  4 | files=  83 | data=  1 | cola= 687 | prio=10 | https://www.icco.org/icco-documentation/international-cocoa-symposium-2017/?s=
-[ICCO] t=  32.4s | pag=  5 | files=  83 | data=  1 | cola= 686 | prio=10 | https://icco.org/icco-documentation/international-cocoa-symposium-2017/international-cocoa-symposium-2017-proceedings/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/pages/13050
-[ICCO] t=  34.4s | pag=  6 | files= 235 | data=  1 | cola= 687 | prio= 1 | https://www.icco.org/wp-json/wp/v2/pages/13050
-[ICCO] t=  35.6s | pag=  6 | files= 235 | data=  1 | cola= 686 | prio=10 | https://www.icco.org/statistics/?s=
-[ICCO] DATASETS=2 | data_html_table | https://www.icco.org/statistics/?s=
-[ICCO] t=  37.4s | pag=  7 | files= 235 | data=  2 | cola= 685 | prio=10 | https://icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/pages/5443
-[ICCO] t=  38.6s | pag=  8 | files= 237 | data=  2 | cola= 687 | prio= 1 | https://www.icco.org/wp-json/wp/v2/pages/5443
-[ICCO] t=  39.7s | pag=  8 | files= 237 | data=  2 | cola= 686 | prio=10 | https://www.icco.org/icco-documentation/international-cocoa-symposium-2017/international-cocoa-symposium-2017-proceedings/?s=
-[ICCO] t=  41.8s | pag=  9 | files= 237 | data=  2 | cola= 685 | prio=10 | https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/?s=
-[ICCO] t=  43.1s | pag= 10 | files= 237 | data=  2 | cola= 684 | prio=25 | https://www.icco.org/packed-schedule-for-1000-participants-at-wcc3/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/77
-[ICCO] t=  44.7s | pag= 11 | files= 237 | data=  2 | cola= 685 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/77
-[ICCO] t=  45.7s | pag= 11 | files= 237 | data=  2 | cola= 684 | prio=25 | https://www.icco.org/attendees-praise-accra-project-preparation-seminar-2/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/1208
-[ICCO] t=  47.5s | pag= 12 | files= 237 | data=  2 | cola= 685 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/1208
-[ICCO] t=  48.9s | pag= 12 | files= 237 | data=  2 | cola= 684 | prio=25 | https://www.icco.org/promotion-of-cocoa-consumption-in-japan/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/771
-[ICCO] t=  50.6s | pag= 13 | files= 237 | data=  2 | cola= 685 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/771
-[ICCO] t=  52.0s | pag= 13 | files= 237 | data=  2 | cola= 684 | prio=10 | https://www.icco.org/promotion-of-cocoa-consumption-in-japan/?s=
-[ICCO] t=  53.7s | pag= 14 | files= 237 | data=  2 | cola= 683 | prio=25 | https://www.icco.org/capacity-building-on-price-risk-management-strategy-for-cocoa-smallholder-farmers-in-africa/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/343
-[ICCO] t=  55.5s | pag= 15 | files= 237 | data=  2 | cola= 684 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/343
-[ICCO] t=  56.6s | pag= 15 | files= 237 | data=  2 | cola= 683 | prio=10 | https://www.icco.org/capacity-building-on-price-risk-management-strategy-for-cocoa-smallholder-farmers-in-africa/?s=
-[ICCO] t=  58.1s | pag= 16 | files= 237 | data=  2 | cola= 682 | prio=25 | https://www.icco.org/sps-capacity-building-in-africa-to-mitigate-the-harmful-effects-of-pesticides-residues-in-cocoa-and-to-maintain-market-access/
-[ICCO] DATASETS=3 | data_html_table | https://www.icco.org/sps-capacity-building-in-africa-to-mitigate-the-harmful-effects-of-pesticides-residues-in-cocoa-and-to-maintain-market-access/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/351
-[ICCO] t=  59.5s | pag= 17 | files= 237 | data=  3 | cola= 683 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/351
-[ICCO] t=  60.7s | pag= 17 | files= 237 | data=  3 | cola= 682 | prio=10 | https://www.icco.org/sps-capacity-building-in-africa-to-mitigate-the-harmful-effects-of-pesticides-residues-in-cocoa-and-to-maintain-market-access/?s=
-[ICCO] t=  62.1s | pag= 18 | files= 237 | data=  3 | cola= 681 | prio=25 | https://www.icco.org/feasibility-study-for-the-development-of-a-commodity-exchange-in-cameroon-2/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/860
-[ICCO] t=  63.5s | pag= 19 | files= 237 | data=  3 | cola= 682 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/860
-[ICCO] t=  64.6s | pag= 19 | files= 237 | data=  3 | cola= 681 | prio=25 | https://www.icco.org/supply-chain-management-for-total-quality-cocoa-pilot-phase-2/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/810
-[ICCO] t=  66.2s | pag= 20 | files= 237 | data=  3 | cola= 682 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/810
-[ICCO] t=  67.2s | pag= 20 | files= 237 | data=  3 | cola= 681 | prio=10 | https://www.icco.org/supply-chain-management-for-total-quality-cocoa-pilot-phase-2/?s=
-[ICCO] t=  69.1s | pag= 21 | files= 237 | data=  3 | cola= 680 | prio=25 | https://www.icco.org/improvement-of-cocoa-marketing-and-trade-in-liberalizing-cocoa-producing-countries-2/
-[ICCO] DATASETS=4 | data_html_table | https://www.icco.org/improvement-of-cocoa-marketing-and-trade-in-liberalizing-cocoa-producing-countries-2/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/5281
-[ICCO] t=  70.8s | pag= 22 | files= 237 | data=  4 | cola= 681 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/5281
-[ICCO] t=  71.9s | pag= 22 | files= 237 | data=  4 | cola= 680 | prio=10 | https://www.icco.org/improvement-of-cocoa-marketing-and-trade-in-liberalizing-cocoa-producing-countries-2/?s=
-[ICCO] t=  73.5s | pag= 23 | files= 237 | data=  4 | cola= 679 | prio=25 | https://www.icco.org/cocoa-germplasm-utilization-and-conservation-a-global-approach-2/
-[ICCO] API REFERENCIA | html_link_reference | https://www.icco.org/wp-json/wp/v2/posts/5277
-[ICCO] t=  75.0s | pag= 24 | files= 237 | data=  4 | cola= 680 | prio= 1 | https://www.icco.org/wp-json/wp/v2/posts/5277
-[ICCO] t=  75.9s | pag= 24 | files= 237 | data=  4 | cola= 679 | prio=10 | https://www.icco.org/cocoa-germplasm-utilization-and-conservation-a-global-approach-2/?s=
-
-================================================================================
-RESULTADO
-================================================================================
-Fuente:              icco
-Páginas visitadas:   25
-Archivos encontrados:  237
-Datasets web:         4
-Errores:              0
-Motivo de parada:     max_pages
-Duración:             77.75 s
-Sitemaps procesados:  9
-URLs por sitemap:     920
-URLs sitemap en cola: 673
-
-Formatos:
-  - PDF    : 237
-
-JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\icco.json
-
-Trazabilidad:
-  Ejecución: 190
-  Estado:    PROCESSED
-  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
+Traceback (most recent call last):
+  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
+    import argparse
+  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 92, in <module>
+    from gettext import gettext as _, ngettext
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
+  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
+KeyboardInterrupt
