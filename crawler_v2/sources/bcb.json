@@ -6,9 +6,21 @@
     "bcb.gob.bo"
   ],
   "entrypoints": [
-    "https://www.bcb.gob.bo/"
+    "https://www.bcb.gob.bo/",
+    "https://www.bcb.gob.bo/?q=estadisticas",
+    "https://www.bcb.gob.bo/?q=content%2Fsector-externo-0",
+    "https://www.bcb.gob.bo/?q=content%2Fsector-monetario",
+    "https://www.bcb.gob.bo/sector-financiero-embed",
+    "https://www.bcb.gob.bo/?q=indicadores_inflacion",
+    "https://www.bcb.gob.bo/?q=reporte-estadistico",
+    "https://www.bcb.gob.bo/reporte-inflacion-politica-monetaria-embed",
+    "https://www.bcb.gob.bo/?q=pub_boletin-mensual",
+    "https://www.bcb.gob.bo/?q=pub_boletin-estadistico",
+    "https://www.bcb.gob.bo/?q=operaciones-mercado-abierto",
+    "https://www.bcb.gob.bo/?q=content%2Ftipo-de-cambio-oficial-del-d%C3%B3lar-estadounidense-serie-de-tiempo",
+    "https://www.bcb.gob.bo/?q=servicios%2Fufv%2Fdatos_estadisticos"
   ],
-  "max_depth": 12,
+  "max_depth": 3,
   "max_pages": 5000,
   "max_files": 100000,
   "request_timeout": 15,
@@ -30,10 +42,35 @@
   "adapter": "bcb",
   "high_priority_keywords": [
     "estadisticas",
+    "estadística",
     "sector-externo",
-    "monetario",
+    "sector-monetario",
+    "sector-financiero",
+    "sector-precios",
     "inflacion",
+    "inflación",
     "tipo-de-cambio",
-    "series"
-  ]
+    "series",
+    "indicadores",
+    "boletin-mensual",
+    "boletin-estadistico",
+    "reporte-estadistico",
+    "sistema-pagos",
+    "operaciones-mercado-abierto",
+    "ufv"
+  ],
+  "adaptive_depth_enabled": true,
+  "adaptive_max_depth": 6,
+  "adaptive_depth_priority_threshold": 15,
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  },
+  "dedupe_content_validation_enabled": true,
+  "dedupe_min_content_confidence": 0.97,
+  "dedupe_max_content_requests": 200,
+  "dedupe_max_file_bytes": 12582912
 }

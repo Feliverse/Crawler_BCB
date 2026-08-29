@@ -27,11 +27,18 @@ from core.api_pagination import ApiPagination
 from core.api_policy import ApiPolicy
 from core.crawl_budget import CrawlBudget
 from core.data_detector import DataDetector
+from core.duplicate_validator import DuplicateValidator
 from core.file_detector import FileDetection, FileDetector
 from core.http_client import HttpClient
 from core.relevance import RelevanceEngine
+from core.resource_dedupe import (
+    RepresentationCandidate,
+    RepresentationDeduper,
+    SPREADSHEET_FORMATS,
+)
 from core.metadata import clean_text, extract_date, filename_from_url
 from core.openapi_discovery import OpenApiDiscovery
+from core.pagination_policy import PaginationYieldPolicy
 from core.sitemap_discovery import SitemapDiscovery
 from core.zip_inspector import ZipInspector
 
@@ -141,6 +148,15 @@ class CrawlResult:
     relevance_rejected: int = 0
     budget_metrics: dict = field(default_factory=dict)
 
+    # Diagnóstico de deduplicación. No modifica el JSON contractual.
+    # En esta etapa solo detectamos candidatos; todavía no descargamos
+    # archivos ni eliminamos representaciones.
+    dedupe_metrics: dict = field(default_factory=dict)
+
+    # Métricas de la política genérica de paginación por rendimiento.
+    # No forman parte del JSON contractual.
+    pagination_metrics: dict = field(default_factory=dict)
+
 
 # ============================================================
 # CRAWLER
@@ -180,9 +196,165 @@ class Crawler:
             config
         )
 
+        # ====================================================
+        # DEDUPLICACIÓN - ETAPA 1: CANDIDATOS
+        # ====================================================
+        #
+        # Todavía NO descargamos contenido y NO eliminamos archivos.
+        # El adapter puede aportar una identidad semántica específica
+        # para su fuente; si no existe, se usa la identidad genérica
+        # conservadora del RepresentationDeduper.
+        #
+        semantic_identity_resolver = getattr(
+            adapter,
+            "semantic_resource_identity",
+            None,
+        )
+
+        if not callable(
+            semantic_identity_resolver
+        ):
+            semantic_identity_resolver = None
+
+        self.representation_deduper = RepresentationDeduper(
+            identity_resolver=semantic_identity_resolver,
+        )
+
+        self.representation_candidates_by_identity: dict[
+            str,
+            list[RepresentationCandidate],
+        ] = {}
+
+        self.duplicate_candidate_events = 0
+
+        # Validador final de duplicidad. La comparación de contenido
+        # permanece desactivable por configuración y solo se ejecuta
+        # sobre grupos candidatos ya detectados.
+        self.duplicate_validator = DuplicateValidator(
+            deduper=self.representation_deduper,
+            min_content_confidence=float(
+                config.get(
+                    "dedupe_min_content_confidence",
+                    0.97,
+                )
+            ),
+        )
+
+        self.dedupe_content_validation_enabled = bool(
+            config.get(
+                "dedupe_content_validation_enabled",
+                False,
+            )
+        )
+
+        try:
+            self.dedupe_max_content_requests = max(
+                0,
+                int(
+                    config.get(
+                        "dedupe_max_content_requests",
+                        40,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.dedupe_max_content_requests = 40
+
+        try:
+            self.dedupe_max_file_bytes = max(
+                1024,
+                int(
+                    config.get(
+                        "dedupe_max_file_bytes",
+                        12 * 1024 * 1024,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.dedupe_max_file_bytes = (
+                12 * 1024 * 1024
+            )
+
+        self.dedupe_content_requests = 0
+        self.dedupe_confirmed_duplicates = 0
+        self.dedupe_removed_representations = 0
+        self.dedupe_content_inconclusive = 0
+        self.dedupe_content_different = 0
+        self._dedupe_payload_cache: dict[
+            str,
+            bytes | None,
+        ] = {}
+
         self.budget = CrawlBudget.from_config(
             config
         )
+
+        # ====================================================
+        # PAGINACIÓN WEB POR RENDIMIENTO
+        # ====================================================
+        #
+        # Es una capacidad GENÉRICA del core. Cada source puede
+        # activarla/desactivarla y ajustar sus límites sin modificar
+        # el crawler.
+        #
+        pagination_yield_config = (
+            config.get(
+                "pagination_yield",
+                {},
+            )
+            or {}
+        )
+
+        if not isinstance(
+            pagination_yield_config,
+            dict,
+        ):
+            pagination_yield_config = {}
+
+        self.pagination_yield_policy = PaginationYieldPolicy(
+            enabled=bool(
+                pagination_yield_config.get(
+                    "enabled",
+                    False,
+                )
+            ),
+            zero_yield_stop_after=int(
+                pagination_yield_config.get(
+                    "zero_yield_stop_after",
+                    3,
+                )
+            ),
+            min_pages_before_stop=int(
+                pagination_yield_config.get(
+                    "min_pages_before_stop",
+                    3,
+                )
+            ),
+            high_yield_threshold=int(
+                pagination_yield_config.get(
+                    "high_yield_threshold",
+                    5,
+                )
+            ),
+            max_tracked_yields=int(
+                pagination_yield_config.get(
+                    "max_tracked_yields",
+                    20,
+                )
+            ),
+        )
+
+        # Cuenta nuevas páginas NO paginadas descubiertas mientras se
+        # procesa una página. Esto evita cortar listados que no enlazan
+        # archivos directamente, pero sí descubren páginas detalle útiles.
+        self.pagination_discovery_events = 0
+        self.pagination_skip_events = 0
 
         self.source_id = str(
             config["id_fuente"]
@@ -627,6 +799,78 @@ class Crawler:
         parsed = urlparse(
             value
         )
+
+        # ----------------------------------------------------
+        # REPARACIÓN GENÉRICA DE URL ABSOLUTA INCRUSTADA
+        # ----------------------------------------------------
+        #
+        # Algunos sitios publican hrefs defectuosos del tipo:
+        #
+        # /carpeta/https://dominio.tld/?q=recurso
+        #
+        # urljoin los convierte en:
+        #
+        # https://dominio.tld/carpeta/https://dominio.tld/?q=recurso
+        #
+        # Eso parece una URL válida para urlparse, pero en realidad la
+        # segunda URL absoluta quedó incrustada dentro del path.
+        #
+        # Solo corregimos esquemas incrustados dentro del PATH. No
+        # tocamos URLs absolutas que aparezcan legítimamente como valor
+        # de un parámetro query (redirect=https://..., url=https://...).
+        #
+        path_lowered = (
+            parsed.path
+            or ""
+        ).lower()
+
+        embedded_index = -1
+
+        for marker in (
+            "https://",
+            "http://",
+        ):
+            index = path_lowered.find(
+                marker
+            )
+
+            if (
+                index >= 0
+                and (
+                    embedded_index < 0
+                    or index < embedded_index
+                )
+            ):
+                embedded_index = index
+
+        if embedded_index >= 0:
+
+            repaired = (
+                parsed.path[
+                    embedded_index:
+                ]
+            )
+
+            if parsed.query:
+                repaired += (
+                    "?"
+                    + parsed.query
+                )
+
+            repaired_parsed = urlparse(
+                repaired
+            )
+
+            if (
+                repaired_parsed.scheme.lower()
+                in {
+                    "http",
+                    "https",
+                }
+                and repaired_parsed.hostname
+            ):
+                value = repaired
+                parsed = repaired_parsed
 
         if (
             parsed.scheme.lower()
@@ -1880,19 +2124,72 @@ class Crawler:
         self,
         depth: int,
     ) -> bool:
+        """
+        Límite absoluto de profundidad.
 
-        max_depth = (
+        Cuando la profundidad adaptativa está desactivada, `max_depth`
+        conserva el comportamiento clásico.
+
+        Cuando está activa:
+        - max_depth = límite normal / soft limit
+        - adaptive_max_depth = límite absoluto / hard limit
+
+        La decisión de si una rama merece superar el soft limit se toma
+        dentro de `_queue_page()` mediante el hook del adapter.
+        """
+
+        max_depth = self.config.get(
+            "max_depth"
+        )
+
+        if max_depth is None:
+            return False
+
+        try:
+            soft_limit = max(
+                0,
+                int(
+                    max_depth
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            return False
+
+        adaptive_enabled = bool(
             self.config.get(
-                "max_depth"
+                "adaptive_depth_enabled",
+                False,
             )
         )
 
-        return (
-            max_depth is not None
-            and depth
-            >= int(
-                max_depth
+        if not adaptive_enabled:
+            return (
+                depth
+                >= soft_limit
             )
+
+        try:
+            hard_limit = max(
+                soft_limit,
+                int(
+                    self.config.get(
+                        "adaptive_max_depth",
+                        soft_limit,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            hard_limit = soft_limit
+
+        return (
+            depth
+            >= hard_limit
         )
 
     def _max_pages_reached(
@@ -1967,6 +2264,10 @@ class Crawler:
                 path=record.ruta,
                 url=normalized,
                 description=record.descripcion,
+                origin_url=(
+                    record.url_origen
+                    or ""
+                ),
             )
         )
 
@@ -2287,6 +2588,502 @@ class Crawler:
         )
 
     # ========================================================
+    # CANDIDATOS A DUPLICADO
+    # ========================================================
+
+    def _register_duplicate_candidate(
+        self,
+        record: FileRecord,
+    ) -> None:
+        """
+        Registra posibles representaciones equivalentes.
+
+        Esta etapa es deliberadamente pasiva:
+        - no hace nuevas peticiones;
+        - no descarga archivos;
+        - no elimina registros;
+        - no altera files_by_url.
+
+        Solo construye grupos que más adelante podrán pasar por
+        DuplicateValidator + comparación de contenido.
+        """
+
+        resource_type = (
+            str(
+                record.tipo_archivo
+                or record.extension
+                or ""
+            )
+            .lower()
+            .strip()
+            .lstrip(".")
+        )
+
+        if resource_type not in SPREADSHEET_FORMATS:
+            return
+
+        candidate = RepresentationCandidate(
+            url=record.url_descarga,
+            resource_type=resource_type,
+            description=record.descripcion,
+            origin_url=record.url_origen,
+            metadata={
+                "fecha_actualizacion": (
+                    record.fecha_actualizacion
+                ),
+                "ruta": list(
+                    record.ruta
+                ),
+            },
+        )
+
+        identity = (
+            self.representation_deduper
+            .identity_for(
+                candidate
+            )
+        )
+
+        if not identity:
+            return
+
+        group = (
+            self.representation_candidates_by_identity
+            .setdefault(
+                identity,
+                [],
+            )
+        )
+
+        # Seguridad ante llamadas repetidas.
+        if any(
+            existing.url
+            == candidate.url
+            for existing in group
+        ):
+            return
+
+        group.append(
+            candidate
+        )
+
+        if len(group) < 2:
+            return
+
+        self.duplicate_candidate_events += 1
+
+        # Logs controlados: suficientes para revisar que la lógica funciona
+        # sin imprimir cientos de líneas.
+        if (
+            self.duplicate_candidate_events <= 10
+            or self.duplicate_candidate_events % 25 == 0
+        ):
+            formats = ",".join(
+                item.normalized_type
+                for item in group
+            )
+
+            print(
+                f"[{self.source_id.upper()}] "
+                f"CANDIDATO DUP={self.duplicate_candidate_events} | "
+                f"reps={len(group)} | "
+                f"formatos={formats} | "
+                f"id={identity}",
+                flush=True,
+            )
+
+    # ========================================================
+    # VALIDACIÓN DE CONTENIDO DE DUPLICADOS
+    # ========================================================
+
+    def _download_dedupe_payload(
+        self,
+        candidate: RepresentationCandidate,
+    ) -> bytes | None:
+        """
+        Descarga acotada exclusivamente para validar duplicidad.
+
+        No se usa para descubrir recursos. Solo se llama cuando:
+        - ya existe un grupo candidato;
+        - la validación de contenido está activada;
+        - todavía queda presupuesto de requests;
+        - el archivo no supera el límite configurado.
+        """
+
+        url = str(
+            candidate.url
+            or ""
+        ).strip()
+
+        if not url:
+            return None
+
+        if url in self._dedupe_payload_cache:
+            return self._dedupe_payload_cache[
+                url
+            ]
+
+        if (
+            self.dedupe_content_requests
+            >= self.dedupe_max_content_requests
+        ):
+            return None
+
+        self.dedupe_content_requests += 1
+
+        response = None
+
+        try:
+            # HttpClient centraliza delays, timeout, TLS y sesión.
+            # Su interfaz pública actual no expone el argumento
+            # ``stream``; por eso usamos el GET estándar del core.
+            #
+            # La validación sigue estando acotada exclusivamente a
+            # candidatos de duplicidad y al límite de requests/bytes
+            # configurado para la fuente.
+            response = self.client.get(
+                url
+            )
+
+            if response.status_code != 200:
+                self._dedupe_payload_cache[
+                    url
+                ] = None
+                return None
+
+            content_length = (
+                response.headers.get(
+                    "Content-Length",
+                    ""
+                )
+                or ""
+            ).strip()
+
+            if content_length:
+                try:
+                    declared_size = int(
+                        content_length
+                    )
+                except ValueError:
+                    declared_size = 0
+
+                if (
+                    declared_size > 0
+                    and declared_size
+                    > self.dedupe_max_file_bytes
+                ):
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"DEDUPE CONTENIDO OMITIDO | "
+                        f"size={declared_size} | "
+                        f"limite={self.dedupe_max_file_bytes} | "
+                        f"{url}",
+                        flush=True,
+                    )
+
+                    self._dedupe_payload_cache[
+                        url
+                    ] = None
+                    return None
+
+            chunks: list[bytes] = []
+            downloaded = 0
+
+            for chunk in response.iter_content(
+                chunk_size=64 * 1024
+            ):
+                if not chunk:
+                    continue
+
+                downloaded += len(
+                    chunk
+                )
+
+                if (
+                    downloaded
+                    > self.dedupe_max_file_bytes
+                ):
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"DEDUPE CONTENIDO OMITIDO | "
+                        f"descarga_supera_limite | "
+                        f"{url}",
+                        flush=True,
+                    )
+
+                    self._dedupe_payload_cache[
+                        url
+                    ] = None
+                    return None
+
+                chunks.append(
+                    chunk
+                )
+
+            payload = b"".join(
+                chunks
+            )
+
+            if not payload:
+                self._dedupe_payload_cache[
+                    url
+                ] = None
+                return None
+
+            self._dedupe_payload_cache[
+                url
+            ] = payload
+
+            return payload
+
+        except (
+            RequestException,
+            Timeout,
+        ) as exc:
+            print(
+                f"[{self.source_id.upper()}] "
+                f"DEDUPE CONTENIDO ERROR | "
+                f"{type(exc).__name__} | "
+                f"{url}",
+                flush=True,
+            )
+
+            self._dedupe_payload_cache[
+                url
+            ] = None
+
+            return None
+
+        except Exception as exc:
+            print(
+                f"[{self.source_id.upper()}] "
+                f"DEDUPE CONTENIDO ERROR | "
+                f"{type(exc).__name__}: {exc} | "
+                f"{url}",
+                flush=True,
+            )
+
+            self._dedupe_payload_cache[
+                url
+            ] = None
+
+            return None
+
+        finally:
+            if response is not None:
+                response.close()
+
+    def _validate_duplicate_groups(
+        self,
+    ) -> None:
+        """
+        Confirma duplicados mediante comparación lógica de contenido.
+
+        Regla de seguridad:
+        - ante duda, se conservan ambas representaciones;
+        - solo se elimina una representación con
+          CONFIRMED_DUPLICATE.
+        """
+
+        if not self.dedupe_content_validation_enabled:
+            return
+
+        duplicate_groups = [
+            (
+                identity,
+                candidates,
+            )
+            for identity, candidates
+            in self.representation_candidates_by_identity.items()
+            if len(
+                candidates
+            ) >= 2
+        ]
+
+        if not duplicate_groups:
+            return
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"DEDUPE CONTENIDO | "
+            f"grupos={len(duplicate_groups)} | "
+            f"max_requests={self.dedupe_max_content_requests} | "
+            f"max_file_bytes={self.dedupe_max_file_bytes}",
+            flush=True,
+        )
+
+        for identity, candidates in duplicate_groups:
+
+            if (
+                self.dedupe_content_requests
+                >= self.dedupe_max_content_requests
+            ):
+                break
+
+            # Elegimos como referencia la representación con mejor
+            # puntuación de formato/calidad.
+            reference = max(
+                candidates,
+                key=(
+                    self.representation_deduper
+                    .quality_score
+                ),
+            )
+
+            reference_payload = (
+                self._download_dedupe_payload(
+                    reference
+                )
+            )
+
+            if reference_payload is None:
+                self.dedupe_content_inconclusive += (
+                    max(
+                        0,
+                        len(
+                            candidates
+                        ) - 1,
+                    )
+                )
+                continue
+
+            for candidate in candidates:
+
+                if candidate.url == reference.url:
+                    continue
+
+                if (
+                    self.dedupe_content_requests
+                    >= self.dedupe_max_content_requests
+                    and candidate.url
+                    not in self._dedupe_payload_cache
+                ):
+                    break
+
+                candidate_payload = (
+                    self._download_dedupe_payload(
+                        candidate
+                    )
+                )
+
+                if candidate_payload is None:
+                    self.dedupe_content_inconclusive += 1
+                    continue
+
+                # Evidencia técnica previa a la decisión final.
+                #
+                # Esta línea es permanente y útil para auditoría: permite
+                # distinguir entre una diferencia real y una discrepancia
+                # sistemática del parser entre XLSX/ODS. No elimina nada.
+                (
+                    content_comparison,
+                    reference_fingerprint,
+                    candidate_fingerprint,
+                ) = (
+                    self.duplicate_validator
+                    .compare_content(
+                        left=reference,
+                        right=candidate,
+                        left_payload=reference_payload,
+                        right_payload=candidate_payload,
+                    )
+                )
+
+                if (
+                    content_comparison is not None
+                    and reference_fingerprint is not None
+                    and candidate_fingerprint is not None
+                ):
+                    evidence_detail = ";".join(
+                        content_comparison.reasons
+                    )
+
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"DEDUPE EVIDENCIA | "
+                        f"estado={content_comparison.status} | "
+                        f"sim={content_comparison.similarity:.4f} | "
+                        f"conf={content_comparison.confidence:.4f} | "
+                        f"ref={reference.normalized_type}:"
+                        f"celdas={reference_fingerprint.sampled_cells}:"
+                        f"hojas={reference_fingerprint.sheet_count}:"
+                        f"trunc={int(reference_fingerprint.truncated)} | "
+                        f"cand={candidate.normalized_type}:"
+                        f"celdas={candidate_fingerprint.sampled_cells}:"
+                        f"hojas={candidate_fingerprint.sheet_count}:"
+                        f"trunc={int(candidate_fingerprint.truncated)} | "
+                        f"detalle={evidence_detail} | "
+                        f"id={identity}",
+                        flush=True,
+                    )
+
+                validation = (
+                    self.duplicate_validator
+                    .validate(
+                        left=reference,
+                        right=candidate,
+                        left_payload=reference_payload,
+                        right_payload=candidate_payload,
+                    )
+                )
+
+                if (
+                    validation.status
+                    == "CONFIRMED_DUPLICATE"
+                    and validation.loser
+                    is not None
+                ):
+                    loser_url = (
+                        validation.loser.url
+                    )
+
+                    if loser_url in self.files_by_url:
+                        del self.files_by_url[
+                            loser_url
+                        ]
+
+                        self.dedupe_removed_representations += 1
+
+                    self.dedupe_confirmed_duplicates += 1
+
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"DEDUPE CONFIRMADO | "
+                        f"conf={validation.confidence:.4f} | "
+                        f"contenido={validation.content_status} | "
+                        f"conserva={validation.winner.normalized_type if validation.winner else '-'} | "
+                        f"elimina={validation.loser.normalized_type} | "
+                        f"id={identity}",
+                        flush=True,
+                    )
+
+                elif (
+                    validation.content_status
+                    == "DIFFERENT"
+                ):
+                    self.dedupe_content_different += 1
+
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"DEDUPE DIFERENTE | "
+                        f"conf={validation.confidence:.4f} | "
+                        f"id={identity}",
+                        flush=True,
+                    )
+
+                else:
+                    self.dedupe_content_inconclusive += 1
+
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"DEDUPE CONSERVA AMBOS | "
+                        f"estado={validation.content_status} | "
+                        f"conf={validation.confidence:.4f} | "
+                        f"id={identity}",
+                        flush=True,
+                    )
+
+    # ========================================================
     # ARCHIVOS
     # ========================================================
 
@@ -2355,6 +3152,10 @@ class Crawler:
                 path=path,
                 url=normalized,
                 description=description,
+                origin_url=(
+                    source_page
+                    or ""
+                ),
             )
         )
 
@@ -2482,6 +3283,12 @@ class Crawler:
             normalized
         ] = record
 
+        # Solo analizamos duplicidad entre recursos que ya superaron
+        # relevancia. Así no gastamos esfuerzo en basura documental.
+        self._register_duplicate_candidate(
+            record
+        )
+
         self.budget.note_file_kept()
 
         total = len(
@@ -2546,6 +3353,128 @@ class Crawler:
         ):
             return
 
+        # ----------------------------------------------------
+        # PAGINACIÓN WEB: CORTE ANTES DE ENCOLAR
+        # ----------------------------------------------------
+        #
+        # Solo se aplica a navegación web descubierta normalmente.
+        # Seeds, endpoints API y otras URLs con prioridad forzada no
+        # se alteran aquí. Las páginas no paginadas siempre pasan.
+        #
+        # El loop principal vuelve a evaluar la URL antes de visitarla,
+        # porque una familia puede haberse estancado después de que varias
+        # páginas ya hubieran entrado previamente en la frontera.
+        if (
+            priority_override is None
+            and self.pagination_yield_policy.enabled
+        ):
+            pagination_decision = (
+                self.pagination_yield_policy
+                .should_visit(
+                    normalized
+                )
+            )
+
+            if not pagination_decision.allow:
+                self.pagination_skip_events += 1
+
+                if (
+                    self.pagination_skip_events <= 10
+                    or self.pagination_skip_events % 25 == 0
+                ):
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"PAGINACION SKIP COLA | "
+                        f"motivo={pagination_decision.reason} | "
+                        f"{normalized}",
+                        flush=True,
+                    )
+
+                return
+
+        # ----------------------------------------------------
+        # PROFUNDIDAD ADAPTATIVA
+        # ----------------------------------------------------
+        #
+        # El límite configurado en max_depth actúa como soft limit.
+        # Más allá de ese nivel, el adapter decide si la rama todavía
+        # parece suficientemente valiosa como para continuar.
+        #
+        # Los seeds / endpoints explícitos con prioridad forzada siguen
+        # pudiendo entrar mientras no superen el hard limit absoluto.
+        #
+        max_depth = self.config.get(
+            "max_depth"
+        )
+
+        if (
+            depth > 0
+            and priority_override is None
+        ):
+            should_follow_depth = getattr(
+                self.adapter,
+                "should_follow_at_depth",
+                None,
+            )
+
+            if callable(
+                should_follow_depth
+            ):
+                if not should_follow_depth(
+                    url=normalized,
+                    text=text,
+                    next_depth=depth,
+                    soft_max_depth=max_depth,
+                ):
+                    return
+
+            elif (
+                max_depth is not None
+                and depth > int(
+                    max_depth
+                )
+            ):
+                return
+
+        # Incluso para seeds/endpoints forzados se respeta el hard limit.
+        if (
+            max_depth is not None
+            and bool(
+                self.config.get(
+                    "adaptive_depth_enabled",
+                    False,
+                )
+            )
+        ):
+            try:
+                soft_limit = max(
+                    0,
+                    int(
+                        max_depth
+                    ),
+                )
+
+                hard_limit = max(
+                    soft_limit,
+                    int(
+                        self.config.get(
+                            "adaptive_max_depth",
+                            soft_limit,
+                        )
+                    ),
+                )
+
+            except (
+                TypeError,
+                ValueError,
+            ):
+                hard_limit = int(
+                    max_depth
+                )
+
+            if depth > hard_limit:
+                return
+
         priority = (
             priority_override
             if priority_override
@@ -2574,6 +3503,21 @@ class Crawler:
         self.queued.add(
             normalized
         )
+
+        # Para evaluar el rendimiento de una página paginada no contamos
+        # como "valor" otros enlaces de paginación. Sí contamos nuevas
+        # páginas normales descubiertas, porque un listado puede ser útil
+        # aun cuando los archivos estén en páginas detalle.
+        if self.pagination_yield_policy.enabled:
+            pagination_identity = (
+                self.pagination_yield_policy
+                .identify(
+                    normalized
+                )
+            )
+
+            if not pagination_identity.is_pagination:
+                self.pagination_discovery_events += 1
 
     # ========================================================
     # SITEMAP SEEDS
@@ -2890,6 +3834,58 @@ class Crawler:
             ):
                 continue
 
+            # -------------------------------------------------
+            # PAGINACIÓN WEB: CORTE POR RENDIMIENTO
+            # -------------------------------------------------
+            #
+            # Se vuelve a evaluar aquí (y no solo al encolar) porque una
+            # página anterior pudo haber puesto muchas páginas futuras en
+            # la frontera antes de que el core aprendiera que esa familia
+            # ya no aporta valor.
+            pagination_decision = (
+                self.pagination_yield_policy
+                .should_visit(
+                    current_url
+                )
+            )
+
+            if not pagination_decision.allow:
+                self.visited.add(
+                    current_url
+                )
+
+                self.pagination_skip_events += 1
+
+                if (
+                    self.pagination_skip_events <= 10
+                    or self.pagination_skip_events % 25 == 0
+                ):
+                    print(
+                        f"[{self.source_id.upper()}] "
+                        f"PAGINACION SKIP | "
+                        f"motivo={pagination_decision.reason} | "
+                        f"{current_url}",
+                        flush=True,
+                    )
+
+                continue
+
+            # Baselines para calcular cuánto valor produjo ESTA página.
+            pagination_useful_before = (
+                len(
+                    self.files_by_url
+                )
+                + len(
+                    result.data_pages
+                )
+            )
+
+            pagination_discovery_before = (
+                self.pagination_discovery_events
+            )
+
+            pagination_observe_url: str | None = None
+
             elapsed = (
                 time.monotonic()
                 - started
@@ -3137,6 +4133,10 @@ class Crawler:
                 # =================================================
                 # HTML
                 # =================================================
+
+                # Solo las respuestas HTML alimentan la política de
+                # paginación web. API tiene su propia política.
+                pagination_observe_url = current_url
 
                 soup = BeautifulSoup(
                     response.text,
@@ -3671,11 +4671,47 @@ class Crawler:
 
             finally:
 
+                if pagination_observe_url:
+                    pagination_useful_after = (
+                        len(
+                            self.files_by_url
+                        )
+                        + len(
+                            result.data_pages
+                        )
+                    )
+
+                    direct_yield = max(
+                        0,
+                        pagination_useful_after
+                        - pagination_useful_before,
+                    )
+
+                    discovery_yield = max(
+                        0,
+                        self.pagination_discovery_events
+                        - pagination_discovery_before,
+                    )
+
+                    total_yield = (
+                        direct_yield
+                        + discovery_yield
+                    )
+
+                    self.pagination_yield_policy.note_page_yield(
+                        pagination_observe_url,
+                        useful_resources=total_yield,
+                    )
+
                 response.close()
 
         # ====================================================
         # FINAL
         # ====================================================
+
+        # La deduplicación por contenido sucede al final del crawl para
+        # no interferir con el descubrimiento ni con la relevancia.
+        self._validate_duplicate_groups()
 
         result.files = list(
             self.files_by_url.values()
@@ -3690,6 +4726,93 @@ class Crawler:
                 "resources_rejected",
                 0,
             )
+        )
+
+        duplicate_groups = {
+            identity: candidates
+            for identity, candidates
+            in self.representation_candidates_by_identity.items()
+            if len(candidates) >= 2
+        }
+
+        duplicate_resources = sum(
+            len(candidates)
+            for candidates in duplicate_groups.values()
+        )
+
+        # Para validar un grupo de N representaciones basta, inicialmente,
+        # comparar N-1 contra una referencia. No contamos combinaciones
+        # N*(N-1)/2 porque generaría trabajo innecesario.
+        pending_content_checks = sum(
+            max(
+                0,
+                len(candidates) - 1,
+            )
+            for candidates in duplicate_groups.values()
+        )
+
+        remaining_content_checks = max(
+            0,
+            pending_content_checks
+            - self.dedupe_confirmed_duplicates
+            - self.dedupe_content_different
+            - self.dedupe_content_inconclusive
+        )
+
+        result.dedupe_metrics = {
+            "candidate_groups": len(
+                duplicate_groups
+            ),
+            "candidate_resources": (
+                duplicate_resources
+            ),
+            "pending_content_checks": (
+                remaining_content_checks
+            ),
+            "confirmed_duplicates": (
+                self.dedupe_confirmed_duplicates
+            ),
+            "removed_representations": (
+                self.dedupe_removed_representations
+            ),
+            "content_requests": (
+                self.dedupe_content_requests
+            ),
+            "content_different": (
+                self.dedupe_content_different
+            ),
+            "content_inconclusive": (
+                self.dedupe_content_inconclusive
+            ),
+        }
+
+        result.pagination_metrics = (
+            self.pagination_yield_policy
+            .metrics()
+        )
+
+        if self.pagination_yield_policy.enabled:
+            print(
+                f"[{self.source_id.upper()}] "
+                f"PAGINACION RESULTADO | "
+                f"familias={result.pagination_metrics.get('families_observed', 0)} | "
+                f"productivas={result.pagination_metrics.get('productive_families', 0)} | "
+                f"estancadas={result.pagination_metrics.get('stagnant_families', 0)} | "
+                f"saltadas={result.pagination_metrics.get('pages_skipped', 0)}",
+                flush=True,
+            )
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"DEDUPE RESULTADO | "
+            f"grupos={result.dedupe_metrics['candidate_groups']} | "
+            f"recursos={result.dedupe_metrics['candidate_resources']} | "
+            f"confirmados={result.dedupe_metrics['confirmed_duplicates']} | "
+            f"diferentes={result.dedupe_metrics['content_different']} | "
+            f"inconclusos={result.dedupe_metrics['content_inconclusive']} | "
+            f"eliminados={result.dedupe_metrics['removed_representations']} | "
+            f"requests_extra={result.dedupe_metrics['content_requests']}",
+            flush=True,
         )
 
         print(

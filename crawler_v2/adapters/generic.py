@@ -802,6 +802,131 @@ class GenericAdapter:
         )
 
     # ========================================================
+    # HOOK DE PROFUNDIDAD ADAPTATIVA
+    # ========================================================
+
+    def should_follow_at_depth(
+        self,
+        *,
+        url: str,
+        text: str,
+        next_depth: int,
+        soft_max_depth: int | None,
+    ) -> bool:
+        """
+        Decide si una URL HTML puede entrar a la cola según su profundidad.
+
+        `soft_max_depth` es el límite normal indicado por main/config.
+        Cuando la profundidad adaptativa está activa, una rama con señales
+        fuertes de datos puede continuar algunos niveles más, sin convertir
+        el crawl en una exploración ilimitada.
+
+        El hard limit sigue siendo absoluto.
+        """
+
+        if not self.should_follow(
+            url
+        ):
+            return False
+
+        if soft_max_depth is None:
+            return True
+
+        try:
+            soft_limit = max(
+                0,
+                int(
+                    soft_max_depth
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            return True
+
+        if next_depth <= soft_limit:
+            return True
+
+        adaptive_enabled = bool(
+            self.config.get(
+                "adaptive_depth_enabled",
+                False,
+            )
+        )
+
+        if not adaptive_enabled:
+            return False
+
+        try:
+            hard_limit = max(
+                soft_limit,
+                int(
+                    self.config.get(
+                        "adaptive_max_depth",
+                        soft_limit,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            hard_limit = soft_limit
+
+        if next_depth > hard_limit:
+            return False
+
+        searchable = self._searchable_text(
+            url,
+            text,
+        )
+
+        # A partir del límite normal somos estrictos:
+        # ramas institucionales/no-datos no continúan.
+        if any(
+            keyword in searchable
+            for keyword
+            in self.low_priority_keywords
+        ):
+            return False
+
+        if any(
+            keyword in searchable
+            for keyword
+            in self.ignore_keywords
+        ):
+            return False
+
+        try:
+            priority_threshold = int(
+                self.config.get(
+                    "adaptive_depth_priority_threshold",
+                    15,
+                )
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            priority_threshold = 15
+
+        if self.priority(
+            url,
+            text,
+        ) <= priority_threshold:
+            return True
+
+        if any(
+            pattern in searchable
+            for pattern
+            in self.relevance_positive_patterns
+        ):
+            return True
+
+        return False
+
+    # ========================================================
     # HOOK DE SITEMAP
     # ========================================================
 
@@ -830,6 +955,7 @@ class GenericAdapter:
         path: tuple[str, ...] | list[str],
         url: str,
         description: str = "",
+        origin_url: str = "",
     ) -> tuple[str, ...]:
         """
         Permite corregir rutas de salida sin modificar el contrato JSON.
