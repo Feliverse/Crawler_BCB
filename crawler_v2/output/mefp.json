@@ -1,0 +1,153 @@
+{
+    "ESTADISTICAS": {
+        "Estadisticas_de_Deuda_Pública": {
+            "Deuda_Pública_con_Cronogramas_de_Pagos_de_las_Entidades_Territoriales_Autónomas_(ETA)_y_Universidades_Públicas_(UP)_de_la_gestión_2024.csv": {
+                "descripcion": "(979.97 KB)",
+                "url_descarga": "https://200.75.171.4/sites/default/files/2026-04/Deuda%20P%C3%BAblica%20con%20Cronogramas%20de%20Pagos%20de%20las%20Entidades%20Territoriales%20Aut%C3%B3nomas%20%28ETA%29%20y%20Universidades%20P%C3%BAblicas%20%28UP%29%20de%20la%20gesti%C3%B3n%202024.xlsx",
+                "fecha_actualizacion": "2026-04",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion",
+                "metodo_deteccion": "url_extension"
+            },
+            "Deuda_Pública_con_Cron_de_las_ETA_y_UP_2023_0.csv": {
+                "descripcion": "(1.03 MB)",
+                "url_descarga": "https://200.75.171.4/sites/default/files/2025-02/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2023_0.xlsx",
+                "fecha_actualizacion": "2025-02",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion",
+                "metodo_deteccion": "url_extension"
+            },
+            "Deuda_Pública_con_Cron_de_las_ETA_y_UP_2022_VF.csv": {
+                "descripcion": "(1.02 MB)",
+                "url_descarga": "https://200.75.171.4/sites/default/files/2025-02/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2022%20VF.xlsx",
+                "fecha_actualizacion": "2025-02",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion",
+                "metodo_deteccion": "url_extension"
+            },
+            "Deuda_Pública_con_Cron_de_las_ETA_y_UP_2021_(1).csv": {
+                "descripcion": "(1.02 MB)",
+                "url_descarga": "https://200.75.171.4/sites/default/files/2022-11/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2021%20%281%29.xlsx",
+                "fecha_actualizacion": "2022-11",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion",
+                "metodo_deteccion": "url_extension"
+            },
+            "Deuda_Pública_con_Cron_de_las_ETA_y_UP_2019.csv": {
+                "descripcion": "(1.01 MB)",
+                "url_descarga": "https://200.75.171.4/sites/default/files/2022-09/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2019.xlsx",
+                "fecha_actualizacion": "2022-09",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion",
+                "metodo_deteccion": "url_extension"
+            },
+            "Deuda_Pública_con_Cron_de_las_ETA_y_UP_2018.csv": {
+                "descripcion": "(1 MB)",
+                "url_descarga": "https://200.75.171.4/sites/default/files/2022-09/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2018.xlsx",
+                "fecha_actualizacion": "2022-09",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Recaudación_Aduanera_por_Capítulos": {
+            "recaudación_aduanera_por_capitulo.csv": {
+                "descripcion": "(32.36 KB)",
+                "url_descarga": "https://www.economiayfinanzas.gob.bo/sites/default/files/2025-09/recaudaci%C3%B3n_aduanera_por_capitulo.xlsx",
+                "fecha_actualizacion": "2025-09",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.economiayfinanzas.gob.bo/index.php/recaudaciones-aduaneras-capitulos",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletines_|_MEFP.csv": {
+                        "descripcion": "Boletines | MEFP",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/boletines",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://media.economiayfinanzas.gob.bo/boletines",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    },
+                    "Boletines_|_MEFP_2.csv": {
+                        "descripcion": "Boletines | MEFP",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/boletines",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/boletines",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Boletines": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletines_|_MEFP.csv": {
+                        "descripcion": "Boletines | MEFP",
+                        "url_descarga": "https://www.economiayfinanzas.gob.bo/index.php/boletines",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.economiayfinanzas.gob.bo/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Gestión": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletines_|_MEFP.csv": {
+                        "descripcion": "Boletines | MEFP",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/boletines?field_gestion_value=&field_viceministerio_target_id=All&order=field_gestion&sort=asc&title=&type_1=All",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://media.economiayfinanzas.gob.bo/boletines",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Fecha_de_Publicación": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletines_|_MEFP.csv": {
+                        "descripcion": "Boletines | MEFP",
+                        "url_descarga": "https://media.economiayfinanzas.gob.bo/boletines?field_gestion_value=&field_viceministerio_target_id=All&order=field_fecha_de_publicacion&sort=asc&title=&type_1=All",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://media.economiayfinanzas.gob.bo/boletines",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "statistical_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

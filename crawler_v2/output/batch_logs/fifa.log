@@ -2,82 +2,87 @@
 CRAWLER V2
 ================================================================================
 Fuente: Federación Internacional de Fútbol Asociación
-URL configurada: https://inside.fifa.com/official-documents
+URL configurada: https://inside.fifa.com/fifa-world-ranking
 Timeout HTTP: 20 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 777, in main
-    resolver.resolve(
-    ~~~~~~~~~~~~~~~~^
-        config
-        ^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 449, in resolve
-    attempt = self._probe(
-        candidate,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 266, in _probe
-    response = self.client.get(
-        url,
-        raise_for_status=False,
-        timeout=timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
-    httplib_response = super().getresponse()
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-KeyboardInterrupt
+
+Resolución de fuente:
+  Original: https://inside.fifa.com/fifa-world-ranking
+  Utilizada: https://inside.fifa.com/fifa-rankings/world-ranking
+  Fallback: sí
+  Intentos: 1
+    - usable         | HTTP=200 | https://inside.fifa.com/fifa-world-ranking
+
+URL de trabajo: https://inside.fifa.com/fifa-rankings/world-ranking
+Seeds: 7
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[FIFA] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   6 | prio= 0 | https://inside.fifa.com/fifa-rankings/world-ranking
+[FIFA] t=   2.0s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=   5 | prio= 0 | https://inside.fifa.com/en/fifa-world-ranking/men
+[FIFA] t=   5.4s | pag=  2 | files=   0 | data=  0 | req=   2 | rej=   1 | cola=   4 | prio= 0 | https://inside.fifa.com/en/fifa-world-ranking/women
+[FIFA] t=   9.2s | pag=  3 | files=   0 | data=  0 | req=   3 | rej=   2 | cola=   3 | prio= 0 | https://www.fifa.com/en/world-rankings
+[FIFA] t=  11.5s | pag=  4 | files=   0 | data=  0 | req=   4 | rej=   3 | cola=   2 | prio= 0 | https://inside.fifa.com/official-documents/annual-report/2025
+[FIFA] ARCHIVO UTIL=1 | score=100 | pdf | https://digitalhub.fifa.com/asset/abc58a71-5951-4bca-a067-70fed85991b9/FIFA-Annual-Report-2025.pdf
+[FIFA] t=  16.6s | pag=  5 | files=   1 | data=  0 | req=   5 | rej=   3 | cola=   6 | prio= 0 | https://inside.fifa.com/official-documents/annual-report/2025/financials
+[FIFA] DATASETS=1 | score=50 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials
+[FIFA] t=  22.6s | pag=  6 | files=   1 | data=  1 | req=   6 | rej=   3 | cola=   8 | prio= 0 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements
+[FIFA] DATASETS=2 | score=70 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements
+[FIFA] t=  27.5s | pag=  7 | files=   1 | data=  2 | req=   7 | rej=   3 | cola=  13 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/foreword-by-the-chairperson-of-the-finance-committee
+[FIFA] DATASETS=3 | score=70 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/foreword-by-the-chairperson-of-the-finance-committee
+[FIFA] t=  32.8s | pag=  8 | files=   1 | data=  3 | req=   8 | rej=   3 | cola=  12 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review
+[FIFA] DATASETS=4 | score=85 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review
+[FIFA] t=  38.0s | pag=  9 | files=   1 | data=  4 | req=   9 | rej=   3 | cola=  15 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2027-2030-budget
+[FIFA] DATASETS=5 | score=70 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2027-2030-budget
+[FIFA] t=  42.9s | pag= 10 | files=   1 | data=  5 | req=  10 | rej=   3 | cola=  14 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-statement-of-comprehensive-income
+[FIFA] DATASETS=6 | score=70 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-statement-of-comprehensive-income
+[FIFA] t=  54.4s | pag= 11 | files=   1 | data=  6 | req=  11 | rej=   3 | cola=  13 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-balance-sheet
+[FIFA] DATASETS=7 | score=85 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-balance-sheet
+[FIFA] t=  66.6s | pag= 12 | files=   1 | data=  7 | req=  12 | rej=   3 | cola=  12 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-cash-flow-statement
+[FIFA] DATASETS=8 | score=85 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-cash-flow-statement
+[FIFA] t=  78.5s | pag= 13 | files=   1 | data=  8 | req=  13 | rej=   3 | cola=  11 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-statement-of-changes-in-reserves
+[FIFA] DATASETS=9 | score=70 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-statement-of-changes-in-reserves
+[FIFA] t=  89.1s | pag= 14 | files=   1 | data=  9 | req=  14 | rej=   3 | cola=  10 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/notes
+[FIFA] DATASETS=10 | score=70 | configured_data_page | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/notes
+[FIFA] t=  94.1s | pag= 15 | files=   1 | data= 10 | req=  15 | rej=   3 | cola=   9 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/reports-to-the-fifa-congress
+[FIFA] t=  98.9s | pag= 16 | files=   1 | data= 11 | req=  16 | rej=   3 | cola=   8 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/2025-revenue
+[FIFA] t= 104.8s | pag= 17 | files=   1 | data= 12 | req=  17 | rej=   3 | cola=   7 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/2025-investments-expenses
+[FIFA] t= 110.5s | pag= 18 | files=   1 | data= 13 | req=  18 | rej=   3 | cola=   6 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/fifa-club-world-cup-2025
+[FIFA] t= 116.3s | pag= 19 | files=   1 | data= 14 | req=  19 | rej=   3 | cola=   5 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/2025-balance-sheet
+[FIFA] t= 121.8s | pag= 20 | files=   1 | data= 15 | req=  20 | rej=   3 | cola=   4 | prio=30 | https://inside.fifa.com/official-documents/annual-report/2025/highlights
+[FIFA] t= 127.0s | pag= 21 | files=   1 | data= 15 | req=  21 | rej=   3 | cola=   3 | prio=30 | https://inside.fifa.com/official-documents/annual-report/2025/roll-of-honour-2025
+[FIFA] t= 136.1s | pag= 22 | files=   1 | data= 15 | req=  22 | rej=   3 | cola=   2 | prio=30 | https://inside.fifa.com/official-documents/annual-report/2025/fifa-club-world-cup-2025
+[FIFA] t= 146.9s | pag= 23 | files=   1 | data= 15 | req=  23 | rej=   3 | cola=   7 | prio=30 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance
+[FIFA] t= 151.6s | pag= 24 | files=   1 | data= 15 | req=  24 | rej=   3 | cola=  15 | prio=10 | https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-womens-champions-cup-fifa-unites-womens-series-2025
+[FIFA] HTTP TOTAL | requests=26 | GET=26 | HEAD=0
+[FIFA] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[FIFA] BUDGET | req=25 | utiles=17 | rechazados=3 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fifa
+Páginas visitadas:   25
+Archivos encontrados:    1
+Datasets web:         16
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             156.98 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fifa.json
+
+Trazabilidad:
+  Ejecución: 320
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

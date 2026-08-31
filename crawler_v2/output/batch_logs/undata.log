@@ -1,16 +1,127 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 12, in <module>
-    from core.crawler import Crawler
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 18, in <module>
-    from bs4 import BeautifulSoup
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\bs4\__init__.py", line 65, in <module>
-    from .builder import (
-    ...<2 lines>...
-    )
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
-  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: United Nations Data
+URL configurada: https://data.un.org/
+Timeout HTTP: 20 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://data.un.org/
+  Utilizada: https://data.un.org/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://data.un.org/
+
+URL de trabajo: https://data.un.org/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[UNDATA] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   3 | prio= 0 | https://data.un.org/
+[UNDATA] DATASETS=1 | score=45 | exportable_data_page | https://data.un.org/
+[UNDATA] ARCHIVO UTIL=1 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_1_202511_Population, Surface Area and Density.csv
+[UNDATA] ARCHIVO UTIL=2 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_327_202511_International Migrants and Refugees.csv
+[UNDATA] ARCHIVO UTIL=3 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_246_202511_Population Growth, Fertility and Mortality Indicators.csv
+[UNDATA] ARCHIVO UTIL=4 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB61_253_Population Growth Rates in Urban areas and Capital cities.csv
+[UNDATA] ARCHIVO UTIL=5 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_230_202511_GDP and GDP Per Capita.csv
+[UNDATA] ARCHIVO UTIL=6 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_153_202511_Gross Value Added by Economic Activity.csv
+[UNDATA] ARCHIVO UTIL=7 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_309_202511_Education.csv
+[UNDATA] ARCHIVO UTIL=8 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_323_202511_Teaching Staff in education.csv
+[UNDATA] ARCHIVO UTIL=9 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_245_202511_Public expenditure on education and access to computers.csv
+[UNDATA] ARCHIVO UTIL=10 | score=100 | csv | https://data.un.org/_Docs/SYB/CSV/SYB68_329_202511_Labour Force and Unemployment.csv
+[UNDATA] t=   2.2s | pag=  1 | files=  33 | data=  1 | req=   1 | rej=  33 | cola=   8 | prio= 0 | https://data.un.org/Host.aspx?Content=API
+[UNDATA] t=   3.2s | pag=  2 | files=  33 | data=  1 | req=   2 | rej=  33 | cola=  27 | prio= 0 | https://data.un.org/ws/
+[UNDATA] DATASETS=2 | score=60 | data_html_table | https://data.un.org/ws/
+[UNDATA] t=   3.8s | pag=  3 | files=  33 | data=  2 | req=   3 | rej=  33 | cola=  37 | prio= 0 | https://data.un.org/ws/rest/dataflow/
+[UNDATA] DATASETS=3 | score=100 | json_api | https://data.un.org/ws/rest/dataflow/
+[UNDATA] t=   4.8s | pag=  3 | files=  33 | data=  3 | req=   4 | rej=  33 | cola=  36 | prio=10 | https://data.un.org/Explorer.aspx
+[UNDATA] t=   6.3s | pag=  4 | files=  33 | data=  3 | req=   5 | rej=  33 | cola=  36 | prio=10 | https://data.un.org/Host.aspx?Content=About
+[UNDATA] t=   8.3s | pag=  5 | files=  33 | data=  3 | req=   6 | rej=  33 | cola=  35 | prio=10 | https://data.un.org/ws
+[UNDATA] t=   9.3s | pag=  6 | files=  33 | data=  3 | req=   7 | rej=  33 | cola=  34 | prio=10 | https://data.un.org/Host.aspx?Content=FAQ
+[UNDATA] DATASETS=4 | score=45 | exportable_data_page | https://data.un.org/Host.aspx?Content=FAQ
+[UNDATA] t=  10.0s | pag=  7 | files=  33 | data=  4 | req=   8 | rej=  33 | cola=  33 | prio=10 | https://data.un.org/Host.aspx?Content=Usage
+[UNDATA] t=  10.7s | pag=  8 | files=  33 | data=  4 | req=   9 | rej=  33 | cola=  32 | prio=10 | https://data.un.org/Host.aspx?Content=UNdataUse
+[UNDATA] t=  11.4s | pag=  9 | files=  33 | data=  4 | req=  10 | rej=  33 | cola=  31 | prio=10 | https://data.un.org/Host.aspx?Content=CountryLinks
+[UNDATA] DATASETS=5 | score=60 | data_html_table | https://data.un.org/Host.aspx?Content=CountryLinks
+[UNDATA] t=  12.6s | pag= 10 | files=  33 | data=  5 | req=  11 | rej=  33 | cola=  31 | prio=10 | https://data.un.org/Host.aspx?Content=OnTheWeb
+[UNDATA] DATASETS=6 | score=60 | data_html_table | https://data.un.org/Host.aspx?Content=OnTheWeb
+[UNDATA] t=  13.7s | pag= 11 | files=  33 | data=  6 | req=  12 | rej=  33 | cola=  30 | prio=10 | https://data.un.org/Host.aspx?Content=UNAward
+[UNDATA] t=  14.4s | pag= 12 | files=  33 | data=  6 | req=  13 | rej=  52 | cola=  29 | prio=10 | https://data.un.org/Host.aspx?Content=Tools
+[UNDATA] t=  15.4s | pag= 13 | files=  33 | data=  6 | req=  14 | rej=  52 | cola=  28 | prio=10 | http://data.un.org/ws/rest/dataflow/
+[UNDATA] t=  16.8s | pag= 13 | files=  33 | data=  6 | req=  15 | rej=  52 | cola=  27 | prio=10 | http://data.un.org/ws/rest/datastructure/UNSD/DSD_GHG_UNDATA/?references=children
+[UNDATA] t=  19.5s | pag= 13 | files=  34 | data=  6 | req=  16 | rej=  52 | cola=  26 | prio=10 | http://data.un.org/ws/rest/datastructure/
+[UNDATA] t=  21.9s | pag= 13 | files=  35 | data=  6 | req=  17 | rej=  52 | cola=  25 | prio=10 | http://data.un.org/ws/rest/codelist/unsd/CL_FREQ/
+[UNDATA] t=  24.3s | pag= 13 | files=  36 | data=  6 | req=  18 | rej=  52 | cola=  24 | prio=10 | http://data.un.org/ws/rest/codelist
+[UNDATA] t=  27.5s | pag= 13 | files=  37 | data=  6 | req=  19 | rej=  52 | cola=  23 | prio=10 | http://data.un.org/ws/rest/conceptscheme/unsd/cs_undata/
+[UNDATA] t=  30.2s | pag= 13 | files=  38 | data=  6 | req=  20 | rej=  52 | cola=  22 | prio=10 | http://data.un.org/ws/rest/conceptscheme/
+[UNDATA] t=  32.7s | pag= 13 | files=  39 | data=  6 | req=  21 | rej=  52 | cola=  21 | prio=10 | http://data.un.org/WS/rest/data/DF_UNDATA_UNFCC/?detail=serieskeysonly
+[UNDATA] t=  49.7s | pag= 13 | files=  39 | data=  6 | req=  22 | rej=  52 | cola=  20 | prio=10 | http://data.un.org/ws/rest/data/DF_UNData_UNFCC
+[UNDATA] t=  52.5s | pag= 13 | files=  39 | data=  6 | req=  23 | rej=  52 | cola=  19 | prio=10 | http://data.un.org/ws/rest/data/DF_UNData_UNFCC/A.EN_ATM_PFCE.DNK.Gg_CO2
+[UNDATA] t=  55.0s | pag= 13 | files=  39 | data=  6 | req=  24 | rej=  52 | cola=  18 | prio=10 | http://data.un.org/ws/rest/data/DF_UNData_UNFCC/..AUS.
+[UNDATA] t=  57.7s | pag= 13 | files=  39 | data=  6 | req=  25 | rej=  52 | cola=  17 | prio=10 | http://data.un.org/ws/rest/data/DF_UNData_UNFCC/A.EN_ATM_CO2E_XLULUCF.AUS+CAN.Gg_CO2?endPeriod=2000&startPeriod=1995
+[UNDATA] t=  75.1s | pag= 13 | files=  39 | data=  6 | req=  26 | rej=  52 | cola=  16 | prio=10 | http://data.un.org/ws/NSIStdV20Service.asmx
+[UNDATA] t=  77.8s | pag= 13 | files=  39 | data=  6 | req=  27 | rej=  52 | cola=  15 | prio=10 | http://data.un.org/ws/NSIStdV20Service.asmx?op=GetCompactData
+[UNDATA] t=  80.4s | pag= 13 | files=  39 | data=  6 | req=  28 | rej=  52 | cola=  14 | prio=10 | http://data.un.org/ws/NSIStdV20Service.asmx?op=GetGenericData
+[UNDATA] t=  82.7s | pag= 13 | files=  39 | data=  6 | req=  29 | rej=  52 | cola=  13 | prio=10 | http://data.un.org/WS/NSIStdV20Service.asmx?op=QueryStructure
+[UNDATA] t=  85.0s | pag= 13 | files=  39 | data=  6 | req=  30 | rej=  52 | cola=  12 | prio=10 | http://data.un.org/ws/NSIEstatV20Service?wsdl=
+[UNDATA] t=  87.7s | pag= 13 | files=  39 | data=  6 | req=  31 | rej=  53 | cola=  11 | prio=10 | http://data.un.org/ws/sdmx_estat/SDMXMessage.xsd
+[UNDATA] t=  89.9s | pag= 13 | files=  39 | data=  6 | req=  32 | rej=  54 | cola=  10 | prio=10 | http://data.un.org/ws/NSIStdV20Service?wsdl=
+[UNDATA] t=  92.4s | pag= 13 | files=  39 | data=  6 | req=  33 | rej=  55 | cola=   9 | prio=10 | http://data.un.org/ws/sdmx_org/SDMXMessage.xsd
+[UNDATA] t=  95.2s | pag= 13 | files=  39 | data=  6 | req=  34 | rej=  56 | cola=   8 | prio=10 | http://data.un.org/ws/SdmxService?wsdl=
+[UNDATA] t=  97.7s | pag= 13 | files=  39 | data=  6 | req=  35 | rej=  57 | cola=   7 | prio=10 | http://data.un.org/ws/sdmxv21/SDMXMessage.xsd
+[UNDATA] t= 100.1s | pag= 13 | files=  39 | data=  6 | req=  36 | rej=  58 | cola=   6 | prio=10 | http://data.un.org/ws/SdmxRegistryService?wsdl=
+[UNDATA] t= 102.4s | pag= 13 | files=  39 | data=  6 | req=  37 | rej=  59 | cola=   5 | prio=10 | http://data.un.org/ws/swagger/index.html?urls.primaryName=v1
+[UNDATA] t= 104.7s | pag= 13 | files=  39 | data=  6 | req=  38 | rej=  59 | cola=   4 | prio=10 | http://data.un.org/ws/swagger/v1/sdmx-rest.yaml
+[UNDATA] t= 107.3s | pag= 13 | files=  39 | data=  6 | req=  39 | rej=  59 | cola=   3 | prio=10 | http://data.un.org/ws/swagger/index.html?urls.primaryName=v2
+[UNDATA] t= 110.0s | pag= 13 | files=  39 | data=  6 | req=  40 | rej=  59 | cola=   2 | prio=10 | http://data.un.org/ws/swagger/v2/sdmx-rest.yaml
+[UNDATA] t= 112.7s | pag= 13 | files=  39 | data=  6 | req=  41 | rej=  59 | cola=   1 | prio=10 | http://data.un.org/Host.aspx?Content=API
+[UNDATA] t= 113.8s | pag= 14 | files=  39 | data=  6 | req=  42 | rej=  59 | cola=   0 | prio=10 | https://data.un.org/Host.aspx?Content=Link
+[UNDATA] HTTP TOTAL | requests=44 | GET=44 | HEAD=0
+[UNDATA] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[UNDATA] BUDGET | req=43 | utiles=45 | rechazados=59 | sin_valor=22
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              undata
+Páginas visitadas:   15
+Archivos encontrados:   39
+Datasets web:         6
+Errores:              13
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             115.64 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - http://data.un.org/WS/rest/data/DF_UNDATA_UNFCC/?detail=serieskeysonly -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/WS/rest/data/DF_UNDATA_UNFCC/?detail=serieskeysonly
+  - http://data.un.org/ws/rest/data/DF_UNData_UNFCC -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/rest/data/DF_UNData_UNFCC
+  - http://data.un.org/ws/rest/data/DF_UNData_UNFCC/A.EN_ATM_PFCE.DNK.Gg_CO2 -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/rest/data/DF_UNData_UNFCC/A.EN_ATM_PFCE.DNK.Gg_CO2
+  - http://data.un.org/ws/rest/data/DF_UNData_UNFCC/..AUS. -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/rest/data/DF_UNData_UNFCC/..AUS.
+  - http://data.un.org/ws/rest/data/DF_UNData_UNFCC/A.EN_ATM_CO2E_XLULUCF.AUS+CAN.Gg_CO2?endPeriod=2000&startPeriod=1995 -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/rest/data/DF_UNData_UNFCC/A.EN_ATM_CO2E_XLULUCF.AUS+CAN.Gg_CO2?endPeriod=2000&startPeriod=1995
+  - http://data.un.org/ws/NSIStdV20Service.asmx -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/NSIStdV20Service.asmx
+  - http://data.un.org/ws/NSIStdV20Service.asmx?op=GetCompactData -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/NSIStdV20Service.asmx?op=GetCompactData
+  - http://data.un.org/ws/NSIStdV20Service.asmx?op=GetGenericData -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/NSIStdV20Service.asmx?op=GetGenericData
+  - http://data.un.org/WS/NSIStdV20Service.asmx?op=QueryStructure -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/WS/NSIStdV20Service.asmx?op=QueryStructure
+  - http://data.un.org/ws/swagger/index.html?urls.primaryName=v1 -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/swagger/index.html?urls.primaryName=v1
+  - http://data.un.org/ws/swagger/v1/sdmx-rest.yaml -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/swagger/v1/sdmx-rest.yaml
+  - http://data.un.org/ws/swagger/index.html?urls.primaryName=v2 -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/swagger/index.html?urls.primaryName=v2
+  - http://data.un.org/ws/swagger/v2/sdmx-rest.yaml -> HTTPError: 500 Server Error: Internal Server Error for url: https://data.un.org/ws/swagger/v2/sdmx-rest.yaml
+
+Formatos:
+  - CSV    : 33
+  - XML    : 6
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\undata.json
+
+Trazabilidad:
+  Ejecución: 344
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

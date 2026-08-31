@@ -1,41 +1,147 @@
 {
   "id_fuente": "itu",
   "nombre": "International Telecommunication Union",
-  "base_url": "https://www.itu.int/",
+  "base_url": "https://beta.datahub.itu.int/query/",
   "allowed_domains": [
-    "itu.int"
+    "itu.int",
+    "www.itu.int",
+    "datahub.itu.int",
+    "beta.datahub.itu.int"
   ],
   "entrypoints": [
-    "https://datahub.itu.int/",
-    "https://www.itu.int/"
+    "https://beta.datahub.itu.int/query/",
+    "https://beta.datahub.itu.int/indicators/",
+    "https://beta.datahub.itu.int/data/",
+    "https://beta.datahub.itu.int/about/",
+    "https://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx",
+    "https://www.itu.int/itu-d/reports/statistics/idi2026/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
-  "request_timeout": 15,
+  "max_depth": 4,
+  "max_pages": 300,
+  "max_files": 3000,
+  "request_timeout": 20,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "beta.datahub.itu.int/query/",
+    "beta.datahub.itu.int/indicators/",
+    "beta.datahub.itu.int/data/",
+    "beta.datahub.itu.int/about/",
+    "/ITU-D/Statistics/",
+    "/itu-d/reports/statistics/",
+    "/Documents/",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
   "high_priority_keywords": [
     "datahub",
-    "statistics",
-    "data",
+    "data query",
+    "indicator catalogue",
     "indicator",
-    "download"
+    "indicators",
+    "statistics",
+    "telecommunication",
+    "ict",
+    "internet",
+    "mobile cellular",
+    "fixed broadband",
+    "mobile broadband",
+    "connectivity",
+    "digital development",
+    "ict development index",
+    "households",
+    "individuals",
+    "subscriptions",
+    "coverage",
+    "bandwidth",
+    "traffic",
+    "revenue",
+    "investment"
   ],
-  "data_url_patterns": [
-    "datahub.itu.int"
-  ]
+  "medium_priority_keywords": [
+    "economy",
+    "economies",
+    "country",
+    "countries",
+    "region",
+    "global",
+    "affordability",
+    "price basket",
+    "digital divide",
+    "network",
+    "5g",
+    "4g",
+    "3g",
+    "fixed telephone"
+  ],
+  "adapter_positive_patterns": [
+    "beta.datahub.itu.int/query/",
+    "beta.datahub.itu.int/indicators/",
+    "beta.datahub.itu.int/data/",
+    "/ITU-D/Statistics/",
+    "/itu-d/reports/statistics/"
+  ],
+  "force_data_url_patterns": [
+    "beta.datahub.itu.int/query/",
+    "beta.datahub.itu.int/indicators/",
+    "beta.datahub.itu.int/data/"
+  ],
+  "force_keep_url_patterns": [
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip",
+    ".json"
+  ],
+  "data_keywords": [
+    "indicator",
+    "statistics",
+    "subscriptions",
+    "coverage",
+    "internet",
+    "broadband",
+    "mobile",
+    "households",
+    "ict",
+    "connectivity",
+    "bandwidth",
+    "revenue",
+    "investment"
+  ],
+  "relevance_positive_keywords": [
+    "itu datahub",
+    "world telecommunication indicators",
+    "household ict indicators",
+    "ict development index",
+    "fixed broadband subscriptions",
+    "mobile cellular subscriptions",
+    "internet use",
+    "population coverage"
+  ],
+  "low_priority_keywords": [
+    "news",
+    "press release",
+    "events",
+    "vacancies",
+    "procurement",
+    "meeting",
+    "conference",
+    "standardization document"
+  ],
+  "ignore_url_patterns": [
+    "/newsroom/",
+    "/mediacentre/",
+    "/vacancies/",
+    "/procurement/",
+    "/events/"
+  ],
+  "max_query_params": 10
 }

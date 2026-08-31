@@ -16,100 +16,39 @@ Resolución de fuente:
     - usable         | HTTP=200 | https://fegasacruz.org/
 
 URL de trabajo: https://fegasacruz.org/
-Seeds: 3
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
-Sitemaps: activo
-Máx URLs sitemap: 10000
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
-    crawler.crawl()
-    ~~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
-    self._queue_sitemap_seeds(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        queue,
-        ^^^^^^
-        result,
-        ^^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
-    discovery = self.sitemap_discovery.discover(
-        base_url=base_url,
-    ...<3 lines>...
-        max_document_bytes=self.max_sitemap_bytes,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 479, in discover
-    for sitemap_url in self._robots_sitemaps(
-                       ~~~~~~~~~~~~~~~~~~~~~^
-        normalized_base,
-        ^^^^^^^^^^^^^^^^
-        allowed_domains,
-        ^^^^^^^^^^^^^^^^
-        request_timeout=robots_timeout,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ):
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 265, in _robots_sitemaps
-    response = self.client.get(
-        robots_url,
-        raise_for_status=False,
-        timeout=request_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
-    self._validate_conn(conn)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
-    conn.connect()
-    ~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-        sock=sock,
-    ...<14 lines>...
-        assert_fingerprint=self.assert_fingerprint,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-        sock=sock,
-    ...<8 lines>...
-        tls_in_tls=tls_in_tls,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 411, in ssl_wrap_socket
-    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+[FEGASACRUZ] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   1 | prio= 0 | https://fegasacruz.org/
+[FEGASACRUZ] t=   1.4s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=   0 | prio= 0 | https://fegasacruz.org/images/2024/Boletin_7.pdf
+[FEGASACRUZ] HTTP TOTAL | requests=3 | GET=3 | HEAD=0
+[FEGASACRUZ] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[FEGASACRUZ] BUDGET | req=2 | utiles=0 | rechazados=0 | sin_valor=2
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fegasacruz
+Páginas visitadas:   1
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              1
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             9.12 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - https://fegasacruz.org/images/2024/Boletin_7.pdf -> TooManyRedirects: Exceeded 30 redirects.
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fegasacruz.json
+
+Trazabilidad:
+  Ejecución: 319
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

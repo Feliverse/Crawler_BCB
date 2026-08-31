@@ -1,38 +1,116 @@
 {
   "id_fuente": "ibch",
   "nombre": "Instituto Boliviano del Cemento y Hormigón",
-  "base_url": "https://www.ibch.com/",
+  "base_url": "https://www.ibch.com/pub/",
   "allowed_domains": [
-    "ibch.com"
+    "ibch.com",
+    "www.ibch.com"
   ],
   "entrypoints": [
-    "https://www.ibch.com/"
+    "https://www.ibch.com/pub/",
+    "https://www.ibch.com/boletin/",
+    "https://www.ibch.com/pavimentos/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 300,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "legacy_url": "https://www.ibch.org.bo",
+  "include_url_patterns": [
+    "/pub/",
+    "/boletin/",
+    "/a1n",
+    "/pavimentos/",
+    "/wp-content/uploads/"
+  ],
   "high_priority_keywords": [
-    "publicacion",
-    "documentos",
+    "estadisticas del cemento",
+    "estadísticas del cemento",
+    "estadisticas nacionales del cemento",
+    "estadísticas nacionales del cemento",
+    "ventas de cemento",
+    "produccion de cemento",
+    "producción de cemento",
+    "consumo de cemento",
     "cemento",
-    "estadistica",
-    "boletin"
+    "boletin",
+    "boletín",
+    "concretando"
+  ],
+  "medium_priority_keywords": [
+    "hormigon",
+    "hormigón",
+    "pavimento",
+    "pavimentos",
+    "mercado",
+    "ventas",
+    "produccion",
+    "producción",
+    "industria",
+    "infraestructura",
+    "carreteras"
+  ],
+  "adapter_positive_patterns": [
+    "/pub/",
+    "/boletin/",
+    "/a1n",
+    "/wp-content/uploads/"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "force_data_url_patterns": [
+    "/pub/",
+    "/boletin/"
+  ],
+  "data_keywords": [
+    "estadisticas",
+    "estadísticas",
+    "ventas",
+    "produccion",
+    "producción",
+    "consumo",
+    "cemento",
+    "mercado"
+  ],
+  "relevance_positive_keywords": [
+    "estadísticas nacionales del cemento",
+    "estadisticas nacionales del cemento",
+    "estadísticas del cemento",
+    "estadisticas del cemento",
+    "ventas de cemento",
+    "producción de cemento",
+    "produccion de cemento"
+  ],
+  "low_priority_keywords": [
+    "curso",
+    "capacitacion",
+    "capacitación",
+    "certificacion",
+    "certificación",
+    "evento",
+    "seminario",
+    "software",
+    "manual"
+  ],
+  "ignore_url_patterns": [
+    "/capacitacion/",
+    "/curso/",
+    "/eventos/",
+    "/contacto/",
+    "/nosotros/"
   ]
 }

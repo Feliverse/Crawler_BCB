@@ -3,33 +3,110 @@
   "nombre": "Autoridad de Regulación y Fiscalización de Telecomunicaciones y Transportes",
   "base_url": "https://www.att.gob.bo/",
   "allowed_domains": [
-    "att.gob.bo"
+    "att.gob.bo",
+    "www.att.gob.bo",
+    "portal.att.gob.bo"
   ],
   "entrypoints": [
-    "https://www.att.gob.bo/en/estadistica-sectorial",
-    "https://www.att.gob.bo/en/situacion-de-las-telecomunicaciones-en-bolivia",
-    "https://www.att.gob.bo/en/informacion-estadistica-sector-telecomunicaciones",
-    "https://www.att.gob.bo/serie-historica",
+    "https://www.att.gob.bo/estadistica-sectorial",
+    "https://www.att.gob.bo/en/serie-historica",
+    "https://www.att.gob.bo/situacion-de-las-telecomunicaciones-en-bolivia",
     "https://www.att.gob.bo/telecomunicaciones"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 6,
+  "max_pages": 1000,
+  "max_files": 5000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "att",
+  "high_priority_keywords": [
+    "estadistica",
+    "estadística",
+    "estadistica sectorial",
+    "serie historica",
+    "serie histórica",
+    "telecomunicaciones",
+    "internet",
+    "lineas telefonicas",
+    "líneas telefónicas",
+    "conexiones de internet",
+    "distribucion de señales",
+    "distribución de señales",
+    "boletin estadistico",
+    "boletín estadístico",
+    "situacion de las telecomunicaciones",
+    "situación de las telecomunicaciones",
+    "indicadores"
+  ],
+  "medium_priority_keywords": [
+    "boletin",
+    "boletín",
+    "informe",
+    "reporte",
+    "historico",
+    "histórico",
+    "sector telecomunicaciones"
+  ],
+  "include_url_patterns": [
+    "/estadistica-sectorial",
+    "/serie-historica",
+    "/informacion-estadistica-sector-telecomunicaciones",
+    "/situacion-de-las-telecomunicaciones-en-bolivia",
+    "/telecomunicaciones",
+    "/uploaded/documentos/",
+    "/sites/default/files/",
+    "/archivos_listados_pdf/"
+  ],
+  "adapter_positive_patterns": [
+    "estadistica-sectorial",
+    "serie-historica",
+    "situacion-de-las-telecomunicaciones",
+    "boletin",
+    "estadistico",
+    "telecomunicaciones",
+    "archivos_listados_pdf"
+  ],
+  "relevance_positive_keywords": [
+    "serie estadística",
+    "serie estadistica",
+    "boletín estadístico",
+    "boletin estadistico",
+    "telecomunicaciones",
+    "internet",
+    "líneas telefónicas",
+    "conexiones de internet"
+  ],
+  "low_priority_keywords": [
+    "auditoria",
+    "auditoría",
+    "transparencia",
+    "resolucion",
+    "resolución",
+    "normativa",
+    "convocatoria",
+    "rendicion de cuentas",
+    "rendición de cuentas",
+    "noticias",
+    "institucional"
+  ],
+  "ignore_url_patterns": [
+    "/auditoria",
+    "/transparencia",
+    "/resena-historica",
+    "/normativa",
+    "/resoluciones",
+    "/convocatorias"
+  ],
+  "pagination_yield": {
     "enabled": true,
-    "max_pages": 20
-  },
-  "adapter": "att"
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

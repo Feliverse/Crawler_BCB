@@ -1,43 +1,64 @@
 {
   "id_fuente": "bm",
   "nombre": "Banco Mundial",
-  "base_url": "https://www.worldbank.org/",
+  "base_url": "https://data.worldbank.org/country/bolivia",
   "allowed_domains": [
-    "worldbank.org"
+    "worldbank.org",
+    "data.worldbank.org",
+    "api.worldbank.org"
   ],
   "entrypoints": [
-    "https://data.worldbank.org/",
-    "https://databank.worldbank.org/",
-    "https://www.worldbank.org/"
+    "https://data.worldbank.org/country/bolivia",
+    "https://api.worldbank.org/v2/en/country/BOL?downloadformat=csv",
+    "https://api.worldbank.org/v2/en/country/BOL?downloadformat=xml",
+    "https://api.worldbank.org/v2/en/country/BOL?downloadformat=excel"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
-  "request_timeout": 15,
+  "max_depth": 2,
+  "max_pages": 100,
+  "max_files": 1000,
+  "request_timeout": 20,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
-  "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "random_delay_max": 0.8,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "high_priority_keywords": [
-    "data",
+    "bolivia",
+    "world development indicators",
     "indicator",
-    "dataset",
-    "download",
-    "api"
+    "indicators",
+    "data",
+    "statistics",
+    "csv",
+    "excel",
+    "xml"
   ],
-  "data_url_patterns": [
-    "data.worldbank.org",
-    "databank.worldbank.org"
+  "include_url_patterns": [
+    "data.worldbank.org/country/bolivia",
+    "api.worldbank.org/v2/en/country/bol"
+  ],
+  "adapter_positive_patterns": [
+    "country/bolivia",
+    "country/bol",
+    "downloadformat=csv",
+    "downloadformat=xml",
+    "downloadformat=excel"
+  ],
+  "force_keep_url_patterns": [
+    "downloadformat=csv",
+    "downloadformat=xml",
+    "downloadformat=excel"
+  ],
+  "force_data_url_patterns": [
+    "data.worldbank.org/country/bolivia"
+  ],
+  "data_keywords": [
+    "world development indicators",
+    "indicator",
+    "series",
+    "bolivia",
+    "download"
   ]
 }

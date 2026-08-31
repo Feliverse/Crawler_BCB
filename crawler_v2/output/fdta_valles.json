@@ -1,0 +1,18 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Abril_Pairumani_2023.csv": {
+                        "descripcion": "Datos Agrometereológicos",
+                        "url_descarga": "https://fundacionvalles.org/wp-content/uploads/2024/07/Abril_Pairumani_2023.pdf",
+                        "fecha_actualizacion": "2024-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://fundacionvalles.org/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            }
+        }
+    }
+}

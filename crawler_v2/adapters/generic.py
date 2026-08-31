@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import re
 
+from dataclasses import dataclass
+
 from urllib.parse import (
     parse_qs,
     unquote,
@@ -168,6 +170,42 @@ GENERIC_LABELS = {
     "inicio",
     "home",
 }
+
+
+@dataclass(frozen=True)
+class AdapterFileCandidate:
+    """
+    Archivo público que un adapter puede inferir a partir de la semántica
+    de una fuente aunque el enlace no exista literalmente en el HTML.
+
+    El adapter solo describe el candidato. El core conserva la
+    responsabilidad de:
+    - validar dominio/seguridad;
+    - comprobar existencia HTTP;
+    - detectar el tipo de archivo;
+    - aplicar relevancia;
+    - registrar/deduplicar.
+    """
+
+    url: str
+    description: str
+    path: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class AdapterFileCandidateGroup:
+    """
+    Grupo de candidatos que pertenecen a una misma unidad lógica,
+    normalmente un periodo.
+
+    `probes` contiene uno o más candidatos representativos. El core
+    comprueba esos probes primero y solo expande `candidates` si al menos
+    uno existe. Esto evita probar cientos de archivos de periodos vacíos.
+    """
+
+    key: str
+    probes: tuple[AdapterFileCandidate, ...]
+    candidates: tuple[AdapterFileCandidate, ...]
 
 
 class GenericAdapter:
@@ -708,6 +746,32 @@ class GenericAdapter:
         """
 
         return True
+
+    # ========================================================
+    # ARCHIVOS GENERADOS POR LA SEMÁNTICA DE LA FUENTE
+    # ========================================================
+
+    def generated_file_groups(
+        self,
+        *,
+        page_url: str,
+        html: str,
+        title: str,
+    ) -> tuple[
+        AdapterFileCandidateGroup,
+        ...,
+    ]:
+        """
+        Hook conservador para sitios donde el navegador construye enlaces
+        de descarga mediante JavaScript u otra regla determinista.
+
+        El adapter NO realiza HTTP. Solo devuelve candidatos agrupados.
+        El core valida existencia y procesa únicamente recursos reales.
+
+        El comportamiento genérico no inventa ningún candidato.
+        """
+
+        return ()
 
     # ========================================================
     # HOOKS DE RELEVANCIA

@@ -6,18 +6,17 @@
     "asfi.gob.bo"
   ],
   "entrypoints": [
-    "https://www.asfi.gob.bo/pb/estadisticas-intermediacion-financiera",
-    "https://www.asfi.gob.bo/"
+    "https://www.asfi.gob.bo/pb/instituciones-financieras-desarrollo"
   ],
-  "max_depth": 12,
+  "max_depth": 4,
   "max_pages": 5000,
   "max_files": 100000,
   "request_timeout": 15,
-  "delay_seconds": 0.3,
-  "random_delay_min": 0.3,
-  "random_delay_max": 0.9,
+  "delay_seconds": 0.15,
+  "random_delay_min": 0.15,
+  "random_delay_max": 0.3,
   "auto_url_variants": true,
-  "discover_sitemaps": true,
+  "discover_sitemaps": false,
   "max_sitemap_urls": 10000,
   "max_sitemap_documents": 100,
   "max_sitemap_bytes": 20000000,
@@ -28,10 +27,58 @@
     "enabled": true,
     "max_pages": 20
   },
-  "adapter": "asfi",
+  "adapter": "asfi_finrural",
+  "generated_file_probe_timeout": 10,
+  "generated_stop_after_empty_groups": 24,
+  "generated_stop_min_available_groups": 12,
+  "ifd_generated_start_year": 2005,
   "high_priority_keywords": [
-    "microfinanzas",
-    "finrural",
-    "estadisticas"
-  ]
+    "instituciones financieras de desarrollo",
+    "institucion financiera de desarrollo",
+    "ifd",
+    "estados financieros",
+    "indicadores financieros",
+    "cartera",
+    "prestatarios",
+    "agencias",
+    "sucursales",
+    "puntos de atencion"
+  ],
+  "medium_priority_keywords": [
+    "gestion",
+    "mes",
+    "entidades financieras"
+  ],
+  "include_url_patterns": [
+    "/pb/instituciones-financieras-desarrollo",
+    "/sites/default/files/estadisticaif/int_fin_des/"
+  ],
+  "adapter_positive_patterns": [
+    "instituciones-financieras-desarrollo",
+    "instituciones financieras de desarrollo",
+    "/estadisticaif/int_fin_des/",
+    "_ifd_"
+  ],
+  "force_keep_url_patterns": [
+    "/estadisticaif/int_fin_des/"
+  ],
+  "low_priority_keywords": [
+    "mercado de valores",
+    "anuario",
+    "reclamos",
+    "separata",
+    "memoria institucional",
+    "normativa",
+    "auditoria",
+    "transparencia",
+    "comunicado",
+    "nota de prensa"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

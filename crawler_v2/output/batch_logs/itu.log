@@ -1,16 +1,100 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
-    import re as _re
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 125, in <module>
-    import enum
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\enum.py", line 4, in <module>
-    from types import MappingProxyType, DynamicClassAttribute
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
-  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: International Telecommunication Union
+URL configurada: https://beta.datahub.itu.int/query/
+Timeout HTTP: 20 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://beta.datahub.itu.int/query/
+  Utilizada: https://beta.datahub.itu.int/query/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://beta.datahub.itu.int/query/
+
+URL de trabajo: https://beta.datahub.itu.int/query/
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[ITU] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   5 | prio= 0 | https://beta.datahub.itu.int/query/
+[ITU] t=   2.4s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   1 | cola=   4 | prio= 0 | https://beta.datahub.itu.int/indicators/
+[ITU] DATASETS=1 | score=50 | configured_data_page | https://beta.datahub.itu.int/indicators/
+[ITU] t=   3.6s | pag=  2 | files=   0 | data=  1 | req=   2 | rej=   1 | cola=   3 | prio= 0 | https://beta.datahub.itu.int/data/
+[ITU] t=   4.8s | pag=  3 | files=   0 | data=  1 | req=   3 | rej=   2 | cola=   2 | prio= 0 | https://beta.datahub.itu.int/about/
+[ITU] DATASETS=2 | score=50 | exportable_data_page | https://beta.datahub.itu.int/about/
+[ITU] ARCHIVO UTIL=1 | score=55 | pdf | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_ConsolidatedBDTquestionnaireSchedule_2026.pdf
+[ITU] ARCHIVO UTIL=2 | score=100 | xlsm | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_Households_Questionnaire_2025.xlsm
+[ITU] ARCHIVO UTIL=3 | score=100 | xlsx | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_HH_Codes_Description_2025.xlsx
+[ITU] ARCHIVO UTIL=4 | score=67 | pdf | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_ICT_HHindicators_Definitions_6Languages_2022.pdf
+[ITU] ARCHIVO UTIL=5 | score=55 | pdf | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_WTI_LongQuestionnaire_2023.pdf
+[ITU] ARCHIVO UTIL=6 | score=55 | pdf | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/IPB_Rules_2022.pdf
+[ITU] ARCHIVO UTIL=7 | score=55 | pdf | https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_ICTPriceBasketQuestionnaire2022.pdf
+[ITU] t=   6.5s | pag=  4 | files=   7 | data=  2 | req=   4 | rej=   3 | cola=   7 | prio= 0 | https://www.itu.int/en/ITU-D/Statistics/Pages/default.aspx
+[ITU] t=   9.7s | pag=  5 | files=   7 | data=  2 | req=   5 | rej=   3 | cola=  13 | prio= 0 | https://www.itu.int/itu-d/reports/statistics/idi2026/
+[ITU] DATASETS=3 | score=75 | exportable_data_page | https://www.itu.int/itu-d/reports/statistics/idi2026/
+[ITU] ARCHIVO UTIL=8 | score=49 | pdf | https://www.itu.int/itu-d/reports/statistics/wp-content/uploads/sites/5/2026/06/2600493E_IDI2026.pdf
+[ITU] ARCHIVO UTIL=9 | score=49 | pdf | https://www.itu.int/itu-d/reports/statistics/wp-content/uploads/sites/5/2026/06/BDT-Member-Communique-IDI-2026.pdf
+[ITU] ARCHIVO UTIL=10 | score=100 | xlsx | https://www.itu.int/itu-d/reports/statistics/wp-content/uploads/sites/5/2026/06/IDI2026dataset.xlsx
+[ITU] t=  10.8s | pag=  6 | files=  10 | data=  3 | req=   6 | rej=   3 | cola=  14 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/publications/manual.aspx
+[ITU] t=  12.2s | pag=  7 | files=  10 | data=  3 | req=   7 | rej=   9 | cola=  17 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx
+[ITU] DATASETS=4 | score=120 | data_html_table | https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx
+[ITU] t=  14.5s | pag=  8 | files=  14 | data=  4 | req=   8 | rej=  10 | cola=  16 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx
+[ITU] t=  17.1s | pag=  9 | files=  55 | data=  4 | req=   9 | rej=  10 | cola=  15 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx
+[ITU] t=  19.8s | pag= 10 | files=  73 | data=  4 | req=  10 | rej=  10 | cola=  20 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/partnership/default.aspx
+[ITU] DATASETS=5 | score=75 | exportable_data_page | https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/partnership/default.aspx
+[ITU] t=  21.6s | pag= 11 | files=  76 | data=  5 | req=  11 | rej=  10 | cola=  24 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx
+[ITU] DATASETS=6 | score=75 | exportable_data_page | https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx
+[ITU] t=  23.1s | pag= 12 | files=  81 | data=  6 | req=  12 | rej=  10 | cola=  31 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/about.aspx
+[ITU] t=  24.8s | pag= 13 | files=  82 | data=  6 | req=  13 | rej=  10 | cola=  31 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/publications/default.aspx
+[ITU] t=  26.2s | pag= 14 | files=  82 | data=  6 | req=  14 | rej=  10 | cola=  35 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx
+[ITU] DATASETS=7 | score=115 | data_html_table | https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx
+[ITU] t=  28.2s | pag= 15 | files=  98 | data=  7 | req=  15 | rej=  10 | cola=  43 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx
+[ITU] ARCHIVO UTIL=100 | score=49 | pdf | https://www.itu.int/en/ITU-D/Statistics/Documents/EGTI_TOR_RevisedNov2017.pdf
+[ITU] t=  29.7s | pag= 16 | files= 106 | data=  7 | req=  16 | rej=  10 | cola=  42 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx
+[ITU] t=  31.6s | pag= 17 | files= 110 | data=  7 | req=  17 | rej=  10 | cola=  43 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/definitions/default.aspx
+[ITU] t=  33.5s | pag= 18 | files= 112 | data=  7 | req=  18 | rej=  10 | cola=  44 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/capacitydev/default.aspx
+[ITU] t=  35.0s | pag= 19 | files= 112 | data=  7 | req=  19 | rej=  10 | cola=  43 | prio=10 | https://itu.int/itu-d/reports/statistics/
+[ITU] DATASETS=8 | score=70 | exportable_data_page | https://www.itu.int/itu-d/reports/statistics/connectivity-in-the-least-developed-countries-status-report-2021/
+[ITU] t=  37.8s | pag= 20 | files= 112 | data=  8 | req=  20 | rej=  10 | cola=  43 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx
+[ITU] t=  40.0s | pag= 21 | files= 119 | data=  8 | req=  21 | rej=  10 | cola=  55 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/faq/default.aspx
+[ITU] t=  42.0s | pag= 22 | files= 119 | data=  8 | req=  22 | rej=  11 | cola=  58 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
+[ITU] t=  43.4s | pag= 23 | files= 119 | data=  8 | req=  23 | rej=  12 | cola=  57 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx
+[ITU] t=  45.3s | pag= 24 | files= 124 | data=  8 | req=  24 | rej=  22 | cola=  56 | prio=10 | https://www.itu.int/en/ITU-D/Statistics/Pages/StatisticsUpdate/July2026.aspx
+[ITU] HTTP TOTAL | requests=26 | GET=26 | HEAD=0
+[ITU] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[ITU] BUDGET | req=25 | utiles=132 | rechazados=22 | sin_valor=1
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              itu
+Páginas visitadas:   25
+Archivos encontrados:  124
+Datasets web:         8
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             46.60 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DOC    : 13
+  - DOCX   : 5
+  - PDF    : 93
+  - XLSM   : 1
+  - XLSX   : 12
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\itu.json
+
+Trazabilidad:
+  Ejecución: 328
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,0 +1,174 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "StatBank_API_-_Statistics_Denmark.csv": {
+                        "descripcion": "StatBank API - Statistics Denmark",
+                        "url_descarga": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "API": {
+            "StatBank_Denmark_-_Subjects": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "StatBank_Denmark_-_Subjects.csv": {
+                            "descripcion": "StatBank Denmark - Subjects",
+                            "url_descarga": "https://api.statbank.dk/v1/subjects?format=JSON&lang=en",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://api.statbank.dk/v1/subjects?format=JSON&lang=en",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "registros_detectados": 10,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "documentacion_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                            "metodo_http": "GET"
+                        }
+                    }
+                }
+            },
+            "StatBank_Denmark_-_Tables": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "StatBank_Denmark_-_Tables.csv": {
+                            "descripcion": "StatBank Denmark - Tables",
+                            "url_descarga": "https://api.statbank.dk/v1/tables?format=JSON&lang=en",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://api.statbank.dk/v1/tables?format=JSON&lang=en",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "registros_detectados": 2310,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "documentacion_url": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                            "metodo_http": "GET"
+                        }
+                    }
+                }
+            }
+        },
+        "Om_dataindsamling_fra_virksomheder": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Om_dataindsamling_fra_virksomheder_-_Danmarks_Statistik.csv": {
+                        "descripcion": "Om dataindsamling fra virksomheder - Danmarks Statistik",
+                        "url_descarga": "https://www.dst.dk/da/Indberet/om-indberetning",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dst.dk/da/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Dansk": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Statistikbank_API_-_Danmarks_Statistik.csv": {
+                        "descripcion": "Statistikbank API - Danmarks Statistik",
+                        "url_descarga": "https://www.dst.dk/da/Statistik/hjaelp-til-statistikbanken/api",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dst.dk/en/Statistik/hjaelp-til-statistikbanken/api",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Historiske_publikationsserier": {
+            "ste_1983_2022": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Statistiske_Efterretninger_1983-2022_-_Danmarks_Statistik.csv": {
+                            "descripcion": "Statistiske Efterretninger 1983-2022 - Danmarks Statistik",
+                            "url_descarga": "https://www.dst.dk/da/Statistik/historiske-publikationsserier/ste-1983-2022",
+                            "fecha_actualizacion": "2022",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": true
+                        }
+                    }
+                }
+            },
+            "Statistikservice_Udkom_i_perioden_1975-2014._Der_er_digital_adgang_til_udgivelserne_fra_1999-2014": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Statistikservice_-_Danmarks_Statistik.csv": {
+                            "descripcion": "Statistikservice - Danmarks Statistik",
+                            "url_descarga": "https://www.dst.dk/da/Statistik/historiske-publikationsserier/statistikservice",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": true
+                        }
+                    }
+                }
+            },
+            "StatMed": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Statistiske_Meddelelser_-_Danmarks_Statistik.csv": {
+                            "descripcion": "Statistiske Meddelelser - Danmarks Statistik",
+                            "url_descarga": "https://www.dst.dk/da/Statistik/historiske-publikationsserier/StatMed",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.dst.dk/da/Statistik/historiske-publikationsserier",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_html_table",
+                            "tiene_tabla_html": true,
+                            "tablas_detectadas": 1,
+                            "permite_exportar": true,
+                            "tiene_filtros": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

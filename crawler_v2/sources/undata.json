@@ -6,35 +6,154 @@
     "data.un.org"
   ],
   "entrypoints": [
-    "https://data.un.org/"
+    "https://data.un.org/",
+    "https://data.un.org/Host.aspx?Content=API",
+    "https://data.un.org/ws/",
+    "https://data.un.org/ws/rest/dataflow/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
-  "request_timeout": 15,
+  "max_depth": 4,
+  "max_pages": 400,
+  "max_files": 5000,
+  "request_timeout": 20,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
   "discover_openapi_endpoints": true,
   "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
+  "max_openapi_endpoints": 50,
   "api_pagination": {
     "enabled": true,
     "max_pages": 20
   },
+  "adapter": "generic",
+  "api_endpoints": [
+    {
+      "url": "https://data.un.org/ws/rest/dataflow/",
+      "descripcion": "UNData SDMX - Catálogo de Dataflows",
+      "method": "GET",
+      "documentation_url": "https://data.un.org/Host.aspx?Content=API"
+    }
+  ],
+  "include_url_patterns": [
+    "/Host.aspx?Content=API",
+    "/ws/",
+    "/Data.aspx",
+    "/DocumentData.aspx",
+    "/Search.aspx",
+    "/Explorer.aspx",
+    "/Handlers/DownloadHandler.ashx",
+    ".csv",
+    ".xml",
+    ".json",
+    ".zip"
+  ],
   "high_priority_keywords": [
     "data",
     "dataset",
+    "datamart",
+    "dataflow",
+    "statistics",
+    "statistical",
     "download",
     "csv",
-    "statistics"
+    "sdmx",
+    "api",
+    "population",
+    "national accounts",
+    "education",
+    "labour",
+    "trade",
+    "energy",
+    "health",
+    "environment",
+    "tourism",
+    "transport",
+    "finance"
+  ],
+  "medium_priority_keywords": [
+    "country",
+    "region",
+    "indicator",
+    "series",
+    "table",
+    "records",
+    "gdp",
+    "unemployment",
+    "exports",
+    "imports",
+    "consumer prices",
+    "agriculture",
+    "development assistance",
+    "internet usage",
+    "exchange rates",
+    "co2 emissions"
+  ],
+  "adapter_positive_patterns": [
+    "/Data.aspx",
+    "/DocumentData.aspx",
+    "/Search.aspx",
+    "/Handlers/DownloadHandler.ashx",
+    "/ws/rest/",
+    "/ws/swagger/"
   ],
   "force_data_url_patterns": [
-    "data.un.org"
-  ]
+    "/Data.aspx",
+    "/DocumentData.aspx",
+    "/Handlers/DownloadHandler.ashx",
+    "/ws/rest/"
+  ],
+  "force_keep_url_patterns": [
+    ".csv",
+    ".xml",
+    ".json",
+    ".zip",
+    "/Handlers/DownloadHandler.ashx",
+    "/ws/rest/"
+  ],
+  "data_keywords": [
+    "statistics",
+    "data",
+    "dataset",
+    "series",
+    "indicator",
+    "records",
+    "population",
+    "trade",
+    "education",
+    "health",
+    "energy",
+    "environment",
+    "finance"
+  ],
+  "relevance_positive_keywords": [
+    "united nations data",
+    "undata api",
+    "sdmx dataflow",
+    "statistical table",
+    "download data series",
+    "population statistics",
+    "national accounts",
+    "international merchandise trade",
+    "labour market statistics"
+  ],
+  "low_priority_keywords": [
+    "about",
+    "faq",
+    "blog",
+    "terms",
+    "feedback",
+    "site usage",
+    "partners",
+    "news"
+  ],
+  "ignore_url_patterns": [
+    "/Host.aspx?Content=About",
+    "/Host.aspx?Content=Partners",
+    "/Host.aspx?Content=TermsOfUse",
+    "/Host.aspx?Content=Usage",
+    "/Host.aspx?Content=Blog"
+  ],
+  "max_query_params": 12
 }

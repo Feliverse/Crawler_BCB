@@ -16,416 +16,285 @@ Resolución de fuente:
     - usable         | HTTP=200 | https://asofinbolivia.com/
 
 URL de trabajo: https://asofinbolivia.com/
-Seeds: 8
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
-Sitemaps: activo
-Máx URLs sitemap: 10000
+Seeds: 12
+Máx páginas: 350
+Máx archivos: 1000
+Máx profundidad: 4
+Sitemaps: inactivo
 
-[ASOFIN] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
-[ASOFIN] t=   8.0s | pag=  0 | files=   0 | data=  0 | cola=   7 | prio= 0 | https://asofinbolivia.com/
-[ASOFIN] t=  11.5s | pag=  1 | files=   0 | data=  0 | cola=  40 | prio= 0 | https://asofinbolivia.com/index.php/indicadores-financieros-2/
-[ASOFIN] t=  13.1s | pag=  2 | files=   0 | data=  0 | cola=  39 | prio= 0 | https://asofinbolivia.com/index.php/indicadores-sociales/
-[ASOFIN] t=  14.6s | pag=  3 | files=   0 | data=  0 | cola=  38 | prio= 0 | https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html
-[ASOFIN] DATASETS=1 | data_chart | https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html
-[ASOFIN] t=  18.2s | pag=  4 | files=   0 | data=  1 | cola=  37 | prio= 0 | https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html
-[ASOFIN] DATASETS=2 | data_chart | https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html
-[ASOFIN] t=  19.0s | pag=  5 | files=   0 | data=  2 | cola=  36 | prio= 0 | https://asofinbolivia.com/index.php/category/boletin_financiero/
-[ASOFIN] t=  20.3s | pag=  6 | files=   0 | data=  2 | cola=  45 | prio= 0 | https://asofinbolivia.com/index.php/category/boletin_social/
-[ASOFIN] t=  22.3s | pag=  7 | files=   0 | data=  2 | cola=  51 | prio= 0 | https://asofinbolivia.com/index.php/category/documentos/
-[ASOFIN] t=  24.3s | pag=  8 | files=   0 | data=  2 | cola=  61 | prio= 1 | https://www.asofinbolivia.com/index.php/indicadores-financieros-2
-[ASOFIN] t=  27.2s | pag=  8 | files=   0 | data=  2 | cola=  60 | prio= 1 | https://www.asofinbolivia.com/index.php/indicadores-sociales
-[ASOFIN] t=  30.2s | pag=  8 | files=   0 | data=  2 | cola=  59 | prio= 2 | https://www.asofinbolivia.com/index.php/boletines/
-[ASOFIN] t=  35.6s | pag=  9 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/2/
-[ASOFIN] t=  36.8s | pag= 10 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/2/
-[ASOFIN] t=  39.2s | pag= 11 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/3/
-[ASOFIN] t=  41.2s | pag= 12 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/49/
-[ASOFIN] t=  43.3s | pag= 13 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/3/
-[ASOFIN] t=  44.6s | pag= 14 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/4/
-[ASOFIN] t=  47.6s | pag= 15 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/5/
-[ASOFIN] t=  50.0s | pag= 16 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/48/
-[ASOFIN] t=  52.0s | pag= 17 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/47/
-[ASOFIN] t=  54.0s | pag= 18 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/4/
-[ASOFIN] t=  55.1s | pag= 19 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/6/
-[ASOFIN] t=  57.5s | pag= 20 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/7/
-[ASOFIN] t=  59.5s | pag= 21 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/46/
-[ASOFIN] t=  61.5s | pag= 22 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/45/
-[ASOFIN] t=  63.4s | pag= 23 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/5/
-[ASOFIN] t=  64.7s | pag= 24 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/8/
-[ASOFIN] t=  66.9s | pag= 25 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/9/
-[ASOFIN] t=  69.6s | pag= 26 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/44/
-[ASOFIN] t=  71.6s | pag= 27 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/43/
-[ASOFIN] t=  73.7s | pag= 28 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/6/
-[ASOFIN] t=  75.0s | pag= 29 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/10/
-[ASOFIN] t=  77.8s | pag= 30 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/11/
-[ASOFIN] t=  79.7s | pag= 31 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/42/
-[ASOFIN] t=  81.7s | pag= 32 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/41/
-[ASOFIN] t=  83.6s | pag= 33 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/7/
-[ASOFIN] t=  84.9s | pag= 34 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/12/
-[ASOFIN] t=  87.3s | pag= 35 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/13/
-[ASOFIN] t=  89.2s | pag= 36 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/40/
-[ASOFIN] t=  91.1s | pag= 37 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/39/
-[ASOFIN] t=  93.0s | pag= 38 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/8/
-[ASOFIN] t=  94.2s | pag= 39 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/14/
-[ASOFIN] t=  96.7s | pag= 40 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/15/
-[ASOFIN] t=  98.7s | pag= 41 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/38/
-[ASOFIN] t= 100.7s | pag= 42 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/37/
-[ASOFIN] t= 102.7s | pag= 43 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/9/
-[ASOFIN] t= 104.1s | pag= 44 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/16/
-[ASOFIN] t= 106.2s | pag= 45 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/17/
-[ASOFIN] t= 108.3s | pag= 46 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/36/
-[ASOFIN] t= 110.4s | pag= 47 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/35/
-[ASOFIN] t= 112.3s | pag= 48 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/10/
-[ASOFIN] t= 113.6s | pag= 49 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/18/
-[ASOFIN] t= 116.0s | pag= 50 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/19/
-[ASOFIN] t= 118.0s | pag= 51 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/34/
-[ASOFIN] t= 120.0s | pag= 52 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/33/
-[ASOFIN] t= 122.0s | pag= 53 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/11/
-[ASOFIN] t= 123.2s | pag= 54 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/20/
-[ASOFIN] t= 125.9s | pag= 55 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/21/
-[ASOFIN] t= 128.0s | pag= 56 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/32/
-[ASOFIN] t= 130.8s | pag= 57 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/31/
-[ASOFIN] t= 132.9s | pag= 58 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/12/
-[ASOFIN] t= 134.1s | pag= 59 | files=   0 | data=  2 | cola= 261 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/22/
-[ASOFIN] t= 136.7s | pag= 60 | files=   0 | data=  2 | cola= 260 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/23/
-[ASOFIN] t= 138.8s | pag= 61 | files=   0 | data=  2 | cola= 259 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/30/
-[ASOFIN] t= 140.8s | pag= 62 | files=   0 | data=  2 | cola= 258 | prio= 2 | https://asofinbolivia.com/index.php/boletines/page/29/
-[ASOFIN] t= 142.7s | pag= 63 | files=   0 | data=  2 | cola= 257 | prio= 2 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/13/
-[ASOFIN] t= 143.9s | pag= 64 | files=   0 | data=  2 | cola= 256 | prio= 3 | https://asofinbolivia.com/index.php/2026/08/13/no-251/
-[ASOFIN] t= 146.0s | pag= 65 | files=   1 | data=  2 | cola= 255 | prio= 3 | https://asofinbolivia.com/index.php/2026/08/13/no-250/
-[ASOFIN] t= 147.8s | pag= 66 | files=   2 | data=  2 | cola= 254 | prio= 3 | https://asofinbolivia.com/index.php/2026/06/08/no-249/
-[ASOFIN] t= 149.5s | pag= 67 | files=   3 | data=  2 | cola= 253 | prio= 3 | https://asofinbolivia.com/index.php/2026/05/13/no-248/
-[ASOFIN] t= 151.3s | pag= 68 | files=   4 | data=  2 | cola= 252 | prio= 3 | https://asofinbolivia.com/index.php/2026/03/31/no-247/
-[ASOFIN] t= 152.9s | pag= 69 | files=   5 | data=  2 | cola= 251 | prio= 3 | https://asofinbolivia.com/index.php/2026/03/11/no-246/
-[ASOFIN] t= 154.2s | pag= 70 | files=   6 | data=  2 | cola= 250 | prio= 3 | https://asofinbolivia.com/index.php/2026/02/11/no-245/
-[ASOFIN] t= 156.0s | pag= 71 | files=   7 | data=  2 | cola= 249 | prio= 3 | https://asofinbolivia.com/index.php/2026/01/08/no-244/
-[ASOFIN] t= 158.7s | pag= 72 | files=   8 | data=  2 | cola= 248 | prio= 3 | https://asofinbolivia.com/index.php/2025/12/05/no-243/
-[ASOFIN] t= 161.3s | pag= 73 | files=   9 | data=  2 | cola= 247 | prio= 3 | https://asofinbolivia.com/index.php/2025/10/23/no-242/
-[ASOFIN] t= 164.2s | pag= 74 | files=  10 | data=  2 | cola= 246 | prio= 3 | https://asofinbolivia.com/index.php/2026/08/13/no-07/
-[ASOFIN] t= 166.8s | pag= 75 | files=  10 | data=  2 | cola= 245 | prio= 3 | https://asofinbolivia.com/index.php/2026/02/11/no-06/
-[ASOFIN] t= 169.3s | pag= 76 | files=  11 | data=  2 | cola= 244 | prio= 3 | https://asofinbolivia.com/index.php/2025/08/01/no-05/
-[ASOFIN] t= 171.0s | pag= 77 | files=  12 | data=  2 | cola= 243 | prio= 3 | https://asofinbolivia.com/index.php/2025/03/06/no-04/
-[ASOFIN] t= 173.3s | pag= 78 | files=  13 | data=  2 | cola= 242 | prio= 3 | https://asofinbolivia.com/index.php/2025/03/06/no-03/
-[ASOFIN] t= 175.3s | pag= 79 | files=  14 | data=  2 | cola= 241 | prio= 3 | https://asofinbolivia.com/index.php/2024/08/28/no-02/
-[ASOFIN] t= 176.8s | pag= 80 | files=  15 | data=  2 | cola= 240 | prio= 3 | https://asofinbolivia.com/index.php/2024/05/03/no-01/
-[ASOFIN] t= 178.4s | pag= 81 | files=  16 | data=  2 | cola= 239 | prio= 3 | https://asofinbolivia.com/index.php/2025/09/26/no-241/
-[ASOFIN] t= 180.2s | pag= 82 | files=  17 | data=  2 | cola= 238 | prio= 3 | https://asofinbolivia.com/index.php/2025/08/25/no-240/
-[ASOFIN] t= 182.0s | pag= 83 | files=  18 | data=  2 | cola= 237 | prio= 3 | https://asofinbolivia.com/index.php/2025/08/01/no-239/
-[ASOFIN] t= 183.6s | pag= 84 | files=  19 | data=  2 | cola= 236 | prio= 3 | https://asofinbolivia.com/index.php/2025/06/30/no-238/
-[ASOFIN] t= 185.4s | pag= 85 | files=  20 | data=  2 | cola= 235 | prio= 3 | https://asofinbolivia.com/index.php/2025/05/28/no-237/
-[ASOFIN] t= 187.4s | pag= 86 | files=  21 | data=  2 | cola= 234 | prio= 3 | https://asofinbolivia.com/index.php/2025/04/29/no-236/
-[ASOFIN] t= 190.1s | pag= 87 | files=  22 | data=  2 | cola= 233 | prio= 3 | https://asofinbolivia.com/index.php/2025/04/09/no-235/
-[ASOFIN] t= 191.6s | pag= 88 | files=  23 | data=  2 | cola= 232 | prio= 3 | https://asofinbolivia.com/index.php/2025/03/26/no-234/
-[ASOFIN] t= 193.4s | pag= 89 | files=  24 | data=  2 | cola= 231 | prio= 3 | https://asofinbolivia.com/index.php/2025/02/13/no-233/
-[ASOFIN] t= 195.1s | pag= 90 | files=  25 | data=  2 | cola= 230 | prio= 3 | https://asofinbolivia.com/index.php/2025/01/16/no-232/
-[ASOFIN] t= 197.2s | pag= 91 | files=  26 | data=  2 | cola= 229 | prio= 3 | https://asofinbolivia.com/index.php/2025/01/09/no-231/
-[ASOFIN] t= 199.3s | pag= 92 | files=  27 | data=  2 | cola= 228 | prio= 3 | https://asofinbolivia.com/index.php/2024/11/13/no-230/
-[ASOFIN] t= 200.7s | pag= 93 | files=  28 | data=  2 | cola= 227 | prio= 3 | https://asofinbolivia.com/index.php/2024/09/30/no-229/
-[ASOFIN] t= 202.2s | pag= 94 | files=  29 | data=  2 | cola= 226 | prio= 3 | https://asofinbolivia.com/index.php/2024/08/26/no-228/
-[ASOFIN] t= 204.0s | pag= 95 | files=  30 | data=  2 | cola= 225 | prio= 3 | https://asofinbolivia.com/index.php/2024/08/08/no-227/
-[ASOFIN] t= 205.6s | pag= 96 | files=  31 | data=  2 | cola= 224 | prio= 3 | https://asofinbolivia.com/index.php/2024/07/09/no-226/
-[ASOFIN] t= 207.2s | pag= 97 | files=  32 | data=  2 | cola= 223 | prio= 3 | https://asofinbolivia.com/index.php/2024/05/28/no-225/
-[ASOFIN] t= 208.8s | pag= 98 | files=  33 | data=  2 | cola= 222 | prio= 3 | https://asofinbolivia.com/index.php/2024/05/08/no-224/
-[ASOFIN] t= 210.5s | pag= 99 | files=  34 | data=  2 | cola= 221 | prio= 3 | https://asofinbolivia.com/index.php/2024/04/03/no-223/
-[ASOFIN] t= 212.2s | pag=100 | files=  35 | data=  2 | cola= 220 | prio= 3 | https://asofinbolivia.com/index.php/2024/02/29/no-222/
-[ASOFIN] t= 213.9s | pag=101 | files=  36 | data=  2 | cola= 219 | prio= 3 | https://asofinbolivia.com/index.php/2024/02/01/no-221/
-[ASOFIN] t= 215.8s | pag=102 | files=  37 | data=  2 | cola= 218 | prio= 3 | https://asofinbolivia.com/index.php/2024/01/17/no-220/
-[ASOFIN] t= 217.6s | pag=103 | files=  38 | data=  2 | cola= 217 | prio= 3 | https://asofinbolivia.com/index.php/2023/11/21/no-219/
-[ASOFIN] t= 219.3s | pag=104 | files=  39 | data=  2 | cola= 216 | prio= 3 | https://asofinbolivia.com/index.php/2023/10/18/no-218/
-[ASOFIN] t= 221.1s | pag=105 | files=  40 | data=  2 | cola= 215 | prio= 3 | https://asofinbolivia.com/index.php/2023/09/20/no-217/
-[ASOFIN] t= 223.2s | pag=106 | files=  41 | data=  2 | cola= 214 | prio= 3 | https://asofinbolivia.com/index.php/2023/08/18/no-216/
-[ASOFIN] t= 224.7s | pag=107 | files=  42 | data=  2 | cola= 213 | prio= 3 | https://asofinbolivia.com/index.php/2023/07/20/no-215/
-[ASOFIN] t= 226.1s | pag=108 | files=  43 | data=  2 | cola= 212 | prio= 3 | https://asofinbolivia.com/index.php/2023/07/08/no-214/
-[ASOFIN] t= 227.8s | pag=109 | files=  44 | data=  2 | cola= 211 | prio= 3 | https://asofinbolivia.com/index.php/2023/05/19/no-213/
-[ASOFIN] t= 230.0s | pag=110 | files=  45 | data=  2 | cola= 210 | prio= 3 | https://asofinbolivia.com/index.php/2023/04/18/no-212/
-[ASOFIN] t= 231.6s | pag=111 | files=  46 | data=  2 | cola= 209 | prio= 3 | https://asofinbolivia.com/index.php/2023/03/27/no-211/
-[ASOFIN] t= 233.5s | pag=112 | files=  47 | data=  2 | cola= 208 | prio= 3 | https://asofinbolivia.com/index.php/2023/03/16/no-210/
-[ASOFIN] t= 234.9s | pag=113 | files=  48 | data=  2 | cola= 207 | prio= 3 | https://asofinbolivia.com/index.php/2023/02/22/no-209/
-[ASOFIN] t= 236.4s | pag=114 | files=  49 | data=  2 | cola= 206 | prio= 3 | https://asofinbolivia.com/index.php/2023/01/20/no-208/
-[ASOFIN] t= 237.7s | pag=115 | files=  50 | data=  2 | cola= 205 | prio= 3 | https://asofinbolivia.com/index.php/2022/12/06/no-207/
-[ASOFIN] t= 239.6s | pag=116 | files=  51 | data=  2 | cola= 204 | prio= 3 | https://asofinbolivia.com/index.php/2022/10/31/no-206/
-[ASOFIN] t= 241.1s | pag=117 | files=  52 | data=  2 | cola= 203 | prio= 3 | https://asofinbolivia.com/index.php/2022/10/31/no-205/
-[ASOFIN] t= 242.5s | pag=118 | files=  53 | data=  2 | cola= 202 | prio= 3 | https://asofinbolivia.com/index.php/2022/10/31/no-204/
-[ASOFIN] t= 244.5s | pag=119 | files=  54 | data=  2 | cola= 201 | prio= 3 | https://asofinbolivia.com/index.php/2022/08/19/no-203/
-[ASOFIN] t= 246.4s | pag=120 | files=  55 | data=  2 | cola= 200 | prio= 3 | https://asofinbolivia.com/index.php/2022/07/22/no-202/
-[ASOFIN] t= 249.1s | pag=121 | files=  56 | data=  2 | cola= 199 | prio= 3 | https://asofinbolivia.com/index.php/2022/05/30/no-201/
-[ASOFIN] t= 250.6s | pag=122 | files=  57 | data=  2 | cola= 198 | prio= 3 | https://asofinbolivia.com/index.php/2022/05/16/no-200/
-[ASOFIN] t= 252.4s | pag=123 | files=  58 | data=  2 | cola= 197 | prio= 3 | https://asofinbolivia.com/index.php/2022/04/01/no-199/
-[ASOFIN] t= 254.0s | pag=124 | files=  59 | data=  2 | cola= 196 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/17/no-198/
-[ASOFIN] t= 255.5s | pag=125 | files=  60 | data=  2 | cola= 195 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/17/no-197/
-[ASOFIN] t= 256.9s | pag=126 | files=  61 | data=  2 | cola= 194 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-190/
-[ASOFIN] t= 258.3s | pag=127 | files=  62 | data=  2 | cola= 193 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-189/
-[ASOFIN] t= 260.2s | pag=128 | files=  63 | data=  2 | cola= 192 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-188/
-[ASOFIN] t= 261.8s | pag=129 | files=  64 | data=  2 | cola= 191 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-187/
-[ASOFIN] t= 263.6s | pag=130 | files=  65 | data=  2 | cola= 190 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-186/
-[ASOFIN] t= 265.4s | pag=131 | files=  66 | data=  2 | cola= 189 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-185/
-[ASOFIN] t= 267.1s | pag=132 | files=  67 | data=  2 | cola= 188 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-184/
-[ASOFIN] t= 268.8s | pag=133 | files=  68 | data=  2 | cola= 187 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-183/
-[ASOFIN] t= 270.9s | pag=134 | files=  69 | data=  2 | cola= 186 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-182/
-[ASOFIN] t= 272.5s | pag=135 | files=  70 | data=  2 | cola= 185 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-181/
-[ASOFIN] t= 274.0s | pag=136 | files=  71 | data=  2 | cola= 184 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-180/
-[ASOFIN] t= 275.3s | pag=137 | files=  72 | data=  2 | cola= 183 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-179/
-[ASOFIN] t= 277.2s | pag=138 | files=  73 | data=  2 | cola= 182 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-178/
-[ASOFIN] t= 278.8s | pag=139 | files=  74 | data=  2 | cola= 181 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-177/
-[ASOFIN] t= 280.4s | pag=140 | files=  75 | data=  2 | cola= 180 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-176/
-[ASOFIN] t= 282.2s | pag=141 | files=  76 | data=  2 | cola= 179 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-175/
-[ASOFIN] t= 283.8s | pag=142 | files=  77 | data=  2 | cola= 178 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-174/
-[ASOFIN] t= 285.4s | pag=143 | files=  78 | data=  2 | cola= 177 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-173/
-[ASOFIN] t= 286.8s | pag=144 | files=  79 | data=  2 | cola= 176 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-172/
-[ASOFIN] t= 288.5s | pag=145 | files=  80 | data=  2 | cola= 175 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-171/
-[ASOFIN] t= 290.5s | pag=146 | files=  81 | data=  2 | cola= 174 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-170/
-[ASOFIN] t= 292.4s | pag=147 | files=  82 | data=  2 | cola= 173 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-169/
-[ASOFIN] t= 294.3s | pag=148 | files=  83 | data=  2 | cola= 172 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-168/
-[ASOFIN] t= 296.0s | pag=149 | files=  84 | data=  2 | cola= 171 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-167/
-[ASOFIN] t= 297.5s | pag=150 | files=  85 | data=  2 | cola= 170 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-166/
-[ASOFIN] t= 299.3s | pag=151 | files=  86 | data=  2 | cola= 169 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-165/
-[ASOFIN] t= 300.8s | pag=152 | files=  87 | data=  2 | cola= 168 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-164/
-[ASOFIN] t= 302.1s | pag=153 | files=  88 | data=  2 | cola= 167 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-163/
-[ASOFIN] t= 303.7s | pag=154 | files=  89 | data=  2 | cola= 166 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-162/
-[ASOFIN] t= 305.5s | pag=155 | files=  90 | data=  2 | cola= 165 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-161/
-[ASOFIN] t= 307.1s | pag=156 | files=  91 | data=  2 | cola= 164 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-160/
-[ASOFIN] t= 309.6s | pag=157 | files=  92 | data=  2 | cola= 163 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-159/
-[ASOFIN] t= 311.1s | pag=158 | files=  93 | data=  2 | cola= 162 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-158/
-[ASOFIN] t= 312.7s | pag=159 | files=  94 | data=  2 | cola= 161 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-157/
-[ASOFIN] t= 314.4s | pag=160 | files=  95 | data=  2 | cola= 160 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-156/
-[ASOFIN] t= 315.9s | pag=161 | files=  96 | data=  2 | cola= 159 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-155/
-[ASOFIN] t= 317.3s | pag=162 | files=  97 | data=  2 | cola= 158 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-154/
-[ASOFIN] t= 319.2s | pag=163 | files=  98 | data=  2 | cola= 157 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-153/
-[ASOFIN] t= 321.1s | pag=164 | files=  99 | data=  2 | cola= 156 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-152/
-[ASOFIN] t= 323.0s | pag=165 | files= 100 | data=  2 | cola= 155 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-151/
-[ASOFIN] t= 324.4s | pag=166 | files= 101 | data=  2 | cola= 154 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-150/
-[ASOFIN] t= 325.8s | pag=167 | files= 102 | data=  2 | cola= 153 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-149/
-[ASOFIN] t= 327.6s | pag=168 | files= 103 | data=  2 | cola= 152 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-148/
-[ASOFIN] t= 329.2s | pag=169 | files= 104 | data=  2 | cola= 151 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-147/
-[ASOFIN] t= 330.7s | pag=170 | files= 105 | data=  2 | cola= 150 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-146/
-[ASOFIN] t= 332.2s | pag=171 | files= 106 | data=  2 | cola= 149 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-145/
-[ASOFIN] t= 334.0s | pag=172 | files= 107 | data=  2 | cola= 148 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-144/
-[ASOFIN] t= 335.3s | pag=173 | files= 108 | data=  2 | cola= 147 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-143/
-[ASOFIN] t= 337.1s | pag=174 | files= 109 | data=  2 | cola= 146 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-142/
-[ASOFIN] t= 338.9s | pag=175 | files= 110 | data=  2 | cola= 145 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-141/
-[ASOFIN] t= 340.7s | pag=176 | files= 111 | data=  2 | cola= 144 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-140/
-[ASOFIN] t= 342.5s | pag=177 | files= 112 | data=  2 | cola= 143 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-139/
-[ASOFIN] t= 344.1s | pag=178 | files= 113 | data=  2 | cola= 142 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-138/
-[ASOFIN] t= 345.4s | pag=179 | files= 114 | data=  2 | cola= 141 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-137/
-[ASOFIN] t= 346.9s | pag=180 | files= 115 | data=  2 | cola= 140 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-136/
-[ASOFIN] t= 349.1s | pag=181 | files= 116 | data=  2 | cola= 139 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-135/
-[ASOFIN] t= 350.9s | pag=182 | files= 117 | data=  2 | cola= 138 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-134/
-[ASOFIN] t= 352.4s | pag=183 | files= 118 | data=  2 | cola= 137 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-133/
-[ASOFIN] t= 353.8s | pag=184 | files= 119 | data=  2 | cola= 136 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-132/
-[ASOFIN] t= 355.5s | pag=185 | files= 120 | data=  2 | cola= 135 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-131/
-[ASOFIN] t= 356.9s | pag=186 | files= 121 | data=  2 | cola= 134 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-130/
-[ASOFIN] t= 358.7s | pag=187 | files= 122 | data=  2 | cola= 133 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-129/
-[ASOFIN] t= 360.3s | pag=188 | files= 123 | data=  2 | cola= 132 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-128/
-[ASOFIN] t= 362.4s | pag=189 | files= 124 | data=  2 | cola= 131 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-127/
-[ASOFIN] t= 364.1s | pag=190 | files= 125 | data=  2 | cola= 130 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-126/
-[ASOFIN] t= 365.9s | pag=191 | files= 126 | data=  2 | cola= 129 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-125/
-[ASOFIN] t= 368.3s | pag=192 | files= 127 | data=  2 | cola= 128 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-124/
-[ASOFIN] t= 369.7s | pag=193 | files= 128 | data=  2 | cola= 127 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-123/
-[ASOFIN] t= 371.1s | pag=194 | files= 129 | data=  2 | cola= 126 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-122/
-[ASOFIN] t= 372.9s | pag=195 | files= 130 | data=  2 | cola= 125 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-121/
-[ASOFIN] t= 374.7s | pag=196 | files= 131 | data=  2 | cola= 124 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-120/
-[ASOFIN] t= 376.3s | pag=197 | files= 132 | data=  2 | cola= 123 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-119/
-[ASOFIN] t= 378.1s | pag=198 | files= 133 | data=  2 | cola= 122 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-118/
-[ASOFIN] t= 379.8s | pag=199 | files= 134 | data=  2 | cola= 121 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-117/
-[ASOFIN] t= 381.6s | pag=200 | files= 135 | data=  2 | cola= 120 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-116/
-[ASOFIN] t= 383.0s | pag=201 | files= 136 | data=  2 | cola= 119 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-115/
-[ASOFIN] t= 384.8s | pag=202 | files= 137 | data=  2 | cola= 118 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-114/
-[ASOFIN] t= 386.6s | pag=203 | files= 138 | data=  2 | cola= 117 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-113/
-[ASOFIN] t= 388.0s | pag=204 | files= 139 | data=  2 | cola= 116 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-112/
-[ASOFIN] t= 389.5s | pag=205 | files= 140 | data=  2 | cola= 115 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-111/
-[ASOFIN] t= 391.4s | pag=206 | files= 141 | data=  2 | cola= 114 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-110/
-[ASOFIN] t= 392.8s | pag=207 | files= 142 | data=  2 | cola= 113 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-109/
-[ASOFIN] t= 394.5s | pag=208 | files= 143 | data=  2 | cola= 112 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-108/
-[ASOFIN] t= 395.9s | pag=209 | files= 144 | data=  2 | cola= 111 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-107/
-[ASOFIN] t= 397.9s | pag=210 | files= 145 | data=  2 | cola= 110 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-106/
-[ASOFIN] t= 400.5s | pag=211 | files= 146 | data=  2 | cola= 109 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-105/
-[ASOFIN] t= 402.3s | pag=212 | files= 147 | data=  2 | cola= 108 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-104/
-[ASOFIN] t= 404.0s | pag=213 | files= 148 | data=  2 | cola= 107 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-103/
-[ASOFIN] t= 405.9s | pag=214 | files= 149 | data=  2 | cola= 106 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-102/
-[ASOFIN] t= 407.8s | pag=215 | files= 150 | data=  2 | cola= 105 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-101/
-[ASOFIN] t= 409.5s | pag=216 | files= 151 | data=  2 | cola= 104 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-100/
-[ASOFIN] t= 411.3s | pag=217 | files= 152 | data=  2 | cola= 103 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-99/
-[ASOFIN] t= 413.0s | pag=218 | files= 153 | data=  2 | cola= 102 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-98/
-[ASOFIN] t= 415.1s | pag=219 | files= 154 | data=  2 | cola= 101 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-97/
-[ASOFIN] t= 416.5s | pag=220 | files= 155 | data=  2 | cola= 100 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-96/
-[ASOFIN] t= 418.4s | pag=221 | files= 156 | data=  2 | cola=  99 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-95/
-[ASOFIN] t= 419.9s | pag=222 | files= 157 | data=  2 | cola=  98 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-94/
-[ASOFIN] t= 421.9s | pag=223 | files= 158 | data=  2 | cola=  97 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-93/
-[ASOFIN] t= 423.8s | pag=224 | files= 159 | data=  2 | cola=  96 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-92/
-[ASOFIN] t= 425.6s | pag=225 | files= 160 | data=  2 | cola=  95 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-91/
-[ASOFIN] t= 428.2s | pag=226 | files= 161 | data=  2 | cola=  94 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-90/
-[ASOFIN] t= 429.6s | pag=227 | files= 162 | data=  2 | cola=  93 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-89/
-[ASOFIN] t= 431.5s | pag=228 | files= 163 | data=  2 | cola=  92 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-88/
-[ASOFIN] t= 433.0s | pag=229 | files= 164 | data=  2 | cola=  91 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-87/
-[ASOFIN] t= 434.5s | pag=230 | files= 165 | data=  2 | cola=  90 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-86/
-[ASOFIN] t= 436.3s | pag=231 | files= 166 | data=  2 | cola=  89 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-85/
-[ASOFIN] t= 437.9s | pag=232 | files= 167 | data=  2 | cola=  88 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-84/
-[ASOFIN] t= 439.3s | pag=233 | files= 168 | data=  2 | cola=  87 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-83/
-[ASOFIN] t= 441.2s | pag=234 | files= 169 | data=  2 | cola=  86 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-82/
-[ASOFIN] t= 442.6s | pag=235 | files= 170 | data=  2 | cola=  85 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-81/
-[ASOFIN] t= 444.4s | pag=236 | files= 171 | data=  2 | cola=  84 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-80/
-[ASOFIN] t= 446.2s | pag=237 | files= 172 | data=  2 | cola=  83 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-79/
-[ASOFIN] t= 447.8s | pag=238 | files= 173 | data=  2 | cola=  82 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-78/
-[ASOFIN] t= 449.6s | pag=239 | files= 174 | data=  2 | cola=  81 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-77/
-[ASOFIN] t= 451.6s | pag=240 | files= 175 | data=  2 | cola=  80 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-76/
-[ASOFIN] t= 453.3s | pag=241 | files= 176 | data=  2 | cola=  79 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-75/
-[ASOFIN] t= 455.2s | pag=242 | files= 177 | data=  2 | cola=  78 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-74/
-[ASOFIN] t= 456.7s | pag=243 | files= 178 | data=  2 | cola=  77 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-73/
-[ASOFIN] t= 460.0s | pag=244 | files= 179 | data=  2 | cola=  76 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-72/
-[ASOFIN] t= 461.4s | pag=245 | files= 180 | data=  2 | cola=  75 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-71/
-[ASOFIN] t= 463.3s | pag=246 | files= 181 | data=  2 | cola=  74 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-70/
-[ASOFIN] t= 465.1s | pag=247 | files= 182 | data=  2 | cola=  73 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-69/
-[ASOFIN] t= 466.7s | pag=248 | files= 183 | data=  2 | cola=  72 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-67/
-[ASOFIN] t= 468.1s | pag=249 | files= 184 | data=  2 | cola=  71 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-66/
-[ASOFIN] t= 469.9s | pag=250 | files= 185 | data=  2 | cola=  70 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-65/
-[ASOFIN] t= 471.4s | pag=251 | files= 186 | data=  2 | cola=  69 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-64/
-[ASOFIN] t= 473.3s | pag=252 | files= 187 | data=  2 | cola=  68 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-63/
-[ASOFIN] t= 474.9s | pag=253 | files= 188 | data=  2 | cola=  67 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-62/
-[ASOFIN] t= 476.5s | pag=254 | files= 189 | data=  2 | cola=  66 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-61/
-[ASOFIN] t= 478.2s | pag=255 | files= 190 | data=  2 | cola=  65 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-60/
-[ASOFIN] t= 479.6s | pag=256 | files= 191 | data=  2 | cola=  64 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-59/
-[ASOFIN] t= 481.1s | pag=257 | files= 192 | data=  2 | cola=  63 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-57/
-[ASOFIN] t= 482.5s | pag=258 | files= 193 | data=  2 | cola=  62 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-56/
-[ASOFIN] t= 484.0s | pag=259 | files= 194 | data=  2 | cola=  61 | prio= 3 | https://asofinbolivia.com/index.php/2022/03/11/no-55/
-[ASOFIN] t= 485.8s | pag=260 | files= 195 | data=  2 | cola=  60 | prio= 8 | https://asofinbolivia.com/index.php/category/documentos/page/2/
-[ASOFIN] t= 487.0s | pag=261 | files= 195 | data=  2 | cola=  70 | prio= 8 | https://asofinbolivia.com/index.php/2025/08/11/memoria-2024/
-[ASOFIN] t= 489.7s | pag=262 | files= 196 | data=  2 | cola=  69 | prio= 8 | https://asofinbolivia.com/index.php/2024/09/17/memoria-2023/
-[ASOFIN] t= 491.3s | pag=263 | files= 197 | data=  2 | cola=  68 | prio= 8 | https://asofinbolivia.com/index.php/2023/10/30/memoria-2022/
-[ASOFIN] t= 493.2s | pag=264 | files= 198 | data=  2 | cola=  67 | prio= 8 | https://asofinbolivia.com/index.php/2023/04/21/memoria-2021/
-[ASOFIN] t= 494.5s | pag=265 | files= 199 | data=  2 | cola=  66 | prio= 8 | https://asofinbolivia.com/index.php/2022/08/09/memoria-2020/
-[ASOFIN] t= 496.2s | pag=266 | files= 200 | data=  2 | cola=  65 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/11/memoria-2019/
-[ASOFIN] t= 497.6s | pag=267 | files= 201 | data=  2 | cola=  64 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/11/memoria-2018/
-[ASOFIN] t= 499.3s | pag=268 | files= 202 | data=  2 | cola=  63 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/11/memoria-2017/
-[ASOFIN] t= 500.8s | pag=269 | files= 203 | data=  2 | cola=  62 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/11/memoria-2015/
-[ASOFIN] t= 502.6s | pag=270 | files= 204 | data=  2 | cola=  61 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/11/memoria-2014/
-[ASOFIN] t= 504.6s | pag=271 | files= 205 | data=  2 | cola=  60 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/10/memoria-2013/
-[ASOFIN] t= 506.2s | pag=272 | files= 206 | data=  2 | cola=  59 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/10/memoria-2012/
-[ASOFIN] t= 508.0s | pag=273 | files= 207 | data=  2 | cola=  58 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/09/memoria-2011/
-[ASOFIN] t= 510.0s | pag=274 | files= 208 | data=  2 | cola=  57 | prio= 8 | https://asofinbolivia.com/index.php/2022/03/09/memoria-2010/
-[ASOFIN] t= 511.4s | pag=275 | files= 209 | data=  2 | cola=  56 | prio= 8 | https://asofinbolivia.com/index.php/category/documentos/page/3/
-[ASOFIN] t= 513.3s | pag=276 | files= 209 | data=  2 | cola=  66 | prio= 8 | https://asofinbolivia.com/index.php/category/documentos/page/4/
-[ASOFIN] t= 514.7s | pag=277 | files= 209 | data=  2 | cola=  75 | prio=10 | https://www.asofinbolivia.com/index.php/publicaciones
-[ASOFIN] t= 517.6s | pag=278 | files= 209 | data=  2 | cola=  74 | prio=10 | https://www.asofinbolivia.com/index.php/documentos
-[ASOFIN] t= 520.1s | pag=279 | files= 209 | data=  2 | cola=  73 | prio=10 | https://www.asofinbolivia.com/index.php/educacion_financiera/
-[ASOFIN] t= 522.6s | pag=280 | files= 209 | data=  2 | cola=  74 | prio=10 | https://asofinbolivia.com/index.php/2026/08/10/jornadas-de-educacion-financiera-sobre-criptoactivos-y-activos-virtuales/
-[ASOFIN] t= 524.7s | pag=281 | files= 209 | data=  2 | cola=  73 | prio=10 | https://asofinbolivia.com/index.php/2026/07/31/banco-pyme-ecofuturo-s-a-ecofuturo-acompana-en-la-recuperacion-economica-de-emprendedores-y-productores-del-pais/
-[ASOFIN] t= 526.1s | pag=282 | files= 209 | data=  2 | cola=  72 | prio=10 | https://asofinbolivia.com/index.php/2022/03/23/libro-capacidades-financieras-de-las-mujeres/
-[ASOFIN] t= 527.7s | pag=283 | files= 210 | data=  2 | cola=  71 | prio=10 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2020-el-papel-de-la-inclusion-financiera-en-la-respuesta-frente-a-la-covid-19/
-[ASOFIN] t= 529.8s | pag=284 | files= 211 | data=  2 | cola=  70 | prio=10 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2016-analisis-del-entorno-para-la-inclusion-financiera/
-[ASOFIN] t= 531.2s | pag=285 | files= 212 | data=  2 | cola=  69 | prio=10 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2015-analisis-del-entorno-para-la-inclusion-financiera/
-[ASOFIN] t= 532.7s | pag=286 | files= 213 | data=  2 | cola=  68 | prio=10 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2014-analisis-del-entorno-para-la-inclusion-financiera/
-[ASOFIN] t= 534.5s | pag=287 | files= 214 | data=  2 | cola=  67 | prio=10 | https://asofinbolivia.com/index.php/2022/03/13/democracia-financiera-acceso-a-servicios-financieros-para-los-mas-pobres/
-[ASOFIN] t= 536.6s | pag=288 | files= 215 | data=  2 | cola=  66 | prio=10 | https://asofinbolivia.com/index.php/2022/03/13/boletin-137/
-[ASOFIN] t= 538.4s | pag=289 | files= 216 | data=  2 | cola=  65 | prio=10 | https://asofinbolivia.com/index.php/2022/03/01/empresas-privadas-y-creacion-de-oportunidades-economicas-para-micro-y-pequenas-empresas/
-[ASOFIN] t= 540.2s | pag=290 | files= 217 | data=  2 | cola=  64 | prio=10 | https://asofinbolivia.com/index.php/2022/03/01/microfinancieras-afianzandose-en-los-mercados-globales-de-capital/
-[ASOFIN] t= 541.9s | pag=291 | files= 218 | data=  2 | cola=  63 | prio=10 | https://asofinbolivia.com/index.php/2022/03/01/lecciones-aprendidas-sobre-regulacion-microfinanciera-en-bolivia/
-[ASOFIN] t= 543.6s | pag=292 | files= 219 | data=  2 | cola=  62 | prio=10 | https://asofinbolivia.com/index.php/2022/03/01/informe-asofin-gestion-2006/
-[ASOFIN] t= 545.2s | pag=293 | files= 220 | data=  2 | cola=  61 | prio=10 | https://asofinbolivia.com/index.php/2022/03/01/demanda-potencial-del-mercado-de-micro-finanzas/
-[ASOFIN] t= 546.8s | pag=294 | files= 220 | data=  2 | cola=  60 | prio=50 | https://asofinbolivia.com/index.php/inicio
-[ASOFIN] t= 549.5s | pag=294 | files= 220 | data=  2 | cola=  59 | prio=50 | https://www.asofinbolivia.com/index.php/actualidad
-[ASOFIN] t= 553.1s | pag=295 | files= 220 | data=  2 | cola=  64 | prio=10 | https://asofinbolivia.com/index.php/2023/10/16/1ra-jornada-departamental-de-educacion-financiera-organizado-por-la-facultad-de-ciencias-contables-y-asofin/
-[ASOFIN] t= 555.0s | pag=296 | files= 220 | data=  2 | cola=  63 | prio=10 | https://asofinbolivia.com/index.php/2023/08/24/banco-fortaleza-s-a-participo-en-la-jornada-de-educacion-financiera-en-uac-de-la-ucb/
-[ASOFIN] t= 556.7s | pag=297 | files= 220 | data=  2 | cola=  63 | prio=10 | https://asofinbolivia.com/index.php/2023/07/10/asofin-realizo-una-jornada-de-educacion-financiera-en-el-municipio-de-viacha/
-[ASOFIN] t= 558.6s | pag=298 | files= 220 | data=  2 | cola=  62 | prio=50 | https://www.asofinbolivia.com/index.php/cursos
-[ASOFIN] t= 561.8s | pag=299 | files= 220 | data=  2 | cola=  65 | prio=10 | https://asofinbolivia.com/index.php/2023/05/16/asofin-junto-a-sus-asociados-realizaron-una-jornada-de-capacitacion-en-educacion-financiera-en-la-provincia-de-punata-en-el-departamento-de-cochabamba/
-[ASOFIN] t= 563.1s | pag=300 | files= 220 | data=  2 | cola=  64 | prio=10 | https://asofinbolivia.com/index.php/2023/04/19/ii-jornada-de-educacion-financiera-especializada-en-micro-finanzas-2023/
-[ASOFIN] t= 565.1s | pag=301 | files= 220 | data=  2 | cola=  63 | prio=50 | https://www.asofinbolivia.com/index.php/links-de-interes
-[ASOFIN] t= 568.4s | pag=302 | files= 220 | data=  2 | cola=  62 | prio=50 | https://www.asofinbolivia.com/index.php/cobertura-paf
-[ASOFIN] t= 571.1s | pag=303 | files= 220 | data=  2 | cola=  62 | prio=50 | https://www.asofinbolivia.com/index.php/benchmarking
-[ASOFIN] t= 573.9s | pag=304 | files= 220 | data=  2 | cola=  62 | prio=50 | https://www.asofinbolivia.com/index.php/finanzas-sostenibles/
-[ASOFIN] t= 577.1s | pag=305 | files= 220 | data=  2 | cola=  61 | prio=50 | https://www.asofinbolivia.com/index.php/proyectos/
-[ASOFIN] t= 579.4s | pag=306 | files= 220 | data=  2 | cola=  61 | prio=50 | https://www.asofinbolivia.com/index.php/no-financiero
-[ASOFIN] t= 581.9s | pag=307 | files= 220 | data=  2 | cola=  60 | prio=50 | https://www.asofinbolivia.com/index.php/aniversario-asofin
-[ASOFIN] t= 584.7s | pag=308 | files= 220 | data=  2 | cola=  61 | prio=50 | https://asofinbolivia.com/index.php/bolsadetrabajoasofin/
-[ASOFIN] t= 586.3s | pag=309 | files= 220 | data=  2 | cola=  60 | prio=50 | https://asofinbolivia.com/index.php/2026/08/12/iii-cumbre-empresarial-por-los-ods/
-[ASOFIN] t= 588.6s | pag=310 | files= 220 | data=  2 | cola=  59 | prio=50 | https://asofinbolivia.com/index.php/2026/08/11/foro-de-activos-digitales-bolivia-2026/
-[ASOFIN] t= 590.3s | pag=311 | files= 220 | data=  2 | cola=  58 | prio=50 | https://asofinbolivia.com/index.php/2026/08/11/santa-cruz-lidera-el-futuro-sostenible-de-bolivia-con-su-primera-taxonomia-en-finanzas/
-[ASOFIN] t= 592.2s | pag=312 | files= 220 | data=  2 | cola=  57 | prio=50 | https://asofinbolivia.com/index.php/2026/08/10/dialogo-conocimiento-y-accion-conjunta-tres-claves-para-transformar-el-sistema-financiero-en-bolivia/
-[ASOFIN] t= 594.3s | pag=313 | files= 220 | data=  2 | cola=  55 | prio=50 | https://www.asofinbolivia.com/index.php/no-financiero/
-[ASOFIN] t= 597.1s | pag=313 | files= 220 | data=  2 | cola=  54 | prio=50 | https://asofinbolivia.com/graficos/inicio/Cartera.html
-[ASOFIN] t= 599.2s | pag=314 | files= 220 | data=  2 | cola=  53 | prio=50 | https://asofinbolivia.com/graficos/inicio/Clientes.html
-[ASOFIN] t= 599.6s | pag=315 | files= 220 | data=  2 | cola=  52 | prio=50 | https://asofinbolivia.com/graficos/inicio/CalidadCart.html
-[ASOFIN] t= 600.3s | pag=316 | files= 220 | data=  2 | cola=  51 | prio=50 | https://asofinbolivia.com/graficos/inicio/CarteraGen.html
-[ASOFIN] t= 601.2s | pag=317 | files= 220 | data=  2 | cola=  50 | prio=50 | https://asofinbolivia.com/graficos/inicio/ClienteGen.html
-[ASOFIN] t= 602.0s | pag=318 | files= 220 | data=  2 | cola=  49 | prio=50 | https://asofinbolivia.com/index.php/2022/09/30/como-los-bancos-incorporan-el-cambio-climatico-en-su-gestion-de-riesgos-primera-encuesta-en-america-latina-y-el-caribe/
-[ASOFIN] t= 604.4s | pag=319 | files= 221 | data=  2 | cola=  48 | prio=50 | https://asofinbolivia.com/index.php/2022/08/05/la-dimension-de-genero-en-la-transformacion-digital-empresarial-de-america-latina-y-el-carib/
-[ASOFIN] t= 606.9s | pag=320 | files= 222 | data=  2 | cola=  47 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/ods-1/
-[ASOFIN] t= 609.2s | pag=321 | files= 223 | data=  2 | cola=  46 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-sobre-el-entorno-de-negocios-para-las-microfinanzas-2013/
-[ASOFIN] t= 611.0s | pag=322 | files= 224 | data=  2 | cola=  45 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-sobre-el-entorno-de-negocios-para-las-microfinanzas-2012/
-[ASOFIN] t= 612.7s | pag=323 | files= 225 | data=  2 | cola=  44 | prio=50 | https://asofinbolivia.com/index.php/2022/03/11/no-196-2/
-[ASOFIN] t= 614.4s | pag=324 | files= 226 | data=  2 | cola=  43 | prio=50 | https://asofinbolivia.com/index.php/2022/03/11/no-195-2/
-[ASOFIN] t= 616.3s | pag=325 | files= 227 | data=  2 | cola=  42 | prio=50 | https://asofinbolivia.com/index.php/2022/03/11/no-194-2/
-[ASOFIN] t= 618.3s | pag=326 | files= 228 | data=  2 | cola=  41 | prio=50 | https://asofinbolivia.com/index.php/2022/03/11/no-193-2/
-[ASOFIN] t= 620.2s | pag=327 | files= 229 | data=  2 | cola=  40 | prio=50 | https://asofinbolivia.com/index.php/2022/03/11/no-192-2/
-[ASOFIN] t= 621.8s | pag=328 | files= 230 | data=  2 | cola=  39 | prio=50 | https://asofinbolivia.com/index.php/2022/03/11/no-191-2/
-[ASOFIN] t= 623.7s | pag=329 | files= 231 | data=  2 | cola=  38 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-sobre-el-entorno-de-negocios-para-las-microfinanzas-2011/
-[ASOFIN] t= 625.4s | pag=330 | files= 232 | data=  2 | cola=  37 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/benchmarking-de-las-microfinanzas-america-latina-y-el-caribe-2009/
-[ASOFIN] t= 627.2s | pag=331 | files= 233 | data=  2 | cola=  36 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/el-nuevo-papel-de-gestion-del-riesgo-reconstruyendo-el-modelo/
-[ASOFIN] t= 628.7s | pag=332 | files= 234 | data=  2 | cola=  35 | prio=50 | https://asofinbolivia.com/index.php/2022/03/13/governments-in-microfinance-threat-or-opportunity/
-[ASOFIN] t= 630.5s | pag=333 | files= 235 | data=  2 | cola=  34 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/el-estado-como-proveedor-de-servicios-microfinancieros-amenaza-u-oportunidad/
-[ASOFIN] t= 632.2s | pag=334 | files= 236 | data=  2 | cola=  33 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/imf-autosuficientes/
-[ASOFIN] t= 634.0s | pag=335 | files= 237 | data=  2 | cola=  32 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/benchmarking-de-las-microfinanzas-bolivia-2006/
-[ASOFIN] t= 635.5s | pag=336 | files= 238 | data=  2 | cola=  31 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/asofin-institutional-presentation-oct-07/
-[ASOFIN] t= 637.7s | pag=337 | files= 239 | data=  2 | cola=  30 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/la-industria-de-las-microfinanzas-en-bolivia-diagnostico-al-2004/
-[ASOFIN] t= 639.4s | pag=338 | files= 240 | data=  2 | cola=  29 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/simple-poverty-scorecards/
-[ASOFIN] t= 641.3s | pag=339 | files= 240 | data=  2 | cola=  28 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/ventajas-y-desventajas-del-scoring-estadistico/
-[ASOFIN] t= 642.9s | pag=340 | files= 241 | data=  2 | cola=  27 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/las-microfinanzas-reguladas-en-bolivia/
-[ASOFIN] t= 644.8s | pag=341 | files= 242 | data=  2 | cola=  26 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/tasas-de-interes-en-instituciones-de-microfinanzas-en-america-latina/
-[ASOFIN] t= 646.6s | pag=342 | files= 243 | data=  2 | cola=  25 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/tasas-de-interes-en-microfinanzas-y-el-rol-del-gobierno/
-[ASOFIN] t= 648.3s | pag=343 | files= 244 | data=  2 | cola=  24 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/de-la-ciudadania-global-al-compromiso-local/
-[ASOFIN] t= 650.3s | pag=344 | files= 245 | data=  2 | cola=  23 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/caracteristicas-de-las-tasas-de-interes-en-las-microfinanzas-el-caso-de-bolivia/
-[ASOFIN] t= 652.0s | pag=345 | files= 246 | data=  2 | cola=  22 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/el-modelo-latinoamericano-de-microfinanzas-una-mirada-desde-adentro/
-[ASOFIN] t= 653.7s | pag=346 | files= 247 | data=  2 | cola=  21 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/perfil-de-proyecto-de-factibilidad-de-la-defensoria-del-consumidor-financiero/
-[ASOFIN] t= 655.3s | pag=347 | files= 248 | data=  2 | cola=  20 | prio=50 | https://asofinbolivia.com/index.php/2022/03/01/estrategias-y-estructuras-de-microfinanzas-para-la-banca-comercial/
-[ASOFIN] t= 657.1s | pag=348 | files= 249 | data=  2 | cola=  19 | prio=50 | https://asofinbolivia.com/index.php/2025/11/26/asofin-y-sparkassenstiftung-alemana-dsik-firman-un-acuerdo-estrategico-para-impulsar-la-transformacion-digital-y-fortalecer-a-las-mipyme-en-bolivia/
-[ASOFIN] t= 658.6s | pag=349 | files= 249 | data=  2 | cola=  18 | prio=50 | https://asofinbolivia.com/index.php/2025/11/24/taller-de-ciberseguridad-para-la-continuidad-operativa-en-el-sector-financiero/
-[ASOFIN] t= 660.6s | pag=350 | files= 249 | data=  2 | cola=  17 | prio=50 | https://asofinbolivia.com/index.php/2025/08/19/asofin-workshop-de-cocreacion-de-productos-financieros-verdes/
-[ASOFIN] t= 662.5s | pag=351 | files= 249 | data=  2 | cola=  17 | prio=50 | https://asofinbolivia.com/index.php/2025/02/19/lanzamiento-red-de-desarrollo-financiero-sostenible-bolivia/
-[ASOFIN] t= 664.3s | pag=352 | files= 249 | data=  2 | cola=  16 | prio=50 | https://asofinbolivia.com/index.php/2023/05/05/asofin-y-gri-firmaron-un-memorandum-de-entendimiento/
-[ASOFIN] t= 666.2s | pag=353 | files= 249 | data=  2 | cola=  14 | prio=50 | https://asofinbolivia.com/index.php/2024/03/21/webinar-conceptualizacion-y-hoja-de-ruta-de-sostenibilidad-para-las-entidades-especializadas-en-microfinanzas-asociadas-a-asofin/
-[ASOFIN] t= 668.9s | pag=354 | files= 249 | data=  2 | cola=  13 | prio=50 | https://asofinbolivia.com/index.php/2023/05/19/asofin-junto-a-onu-mujeres-llevaron-a-cabo-el-taller-denominado-la-importancia-de-incorporar-la-igualdad-de-genero-en-el-sistema-financiero-para-alcanzar-los-objetivos-de-sostenibilidad/
-[ASOFIN] t= 670.4s | pag=355 | files= 249 | data=  2 | cola=  12 | prio=50 | https://www.asofinbolivia.com/graficos/cobertura_paf/bolivia.html
-[ASOFIN] t= 673.5s | pag=356 | files= 249 | data=  2 | cola=  11 | prio=50 | https://asofinbolivia.com/graficos/benchmarking/benchmar.html
-[ASOFIN] t= 681.8s | pag=357 | files= 249 | data=  2 | cola=  10 | prio=50 | https://asofinbolivia.com/index.php/2022/10/14/comunicacion-sobre-involucramiento-coe/
-[ASOFIN] t= 683.8s | pag=358 | files= 249 | data=  2 | cola=   9 | prio=50 | https://asofinbolivia.com/index.php/2024/01/30/exposicion-de-fotografias/
-[ASOFIN] t= 685.7s | pag=359 | files= 249 | data=  2 | cola=   8 | prio=50 | https://asofinbolivia.com/index.php/2024/01/30/exposicion-de-arte/
-[ASOFIN] t= 687.4s | pag=360 | files= 249 | data=  2 | cola=   7 | prio=50 | https://www.asofinbolivia.com/index.php/finanzas-sostenibles/embed/
-[ASOFIN] t= 690.7s | pag=361 | files= 249 | data=  2 | cola=   6 | prio=70 | https://asofinbolivia.com/index.php/nosotros-1/
-[ASOFIN] DATASETS=3 | data_chart | https://asofinbolivia.com/index.php/nosotros-1/
-[ASOFIN] t= 692.3s | pag=362 | files= 251 | data=  3 | cola=   5 | prio=70 | https://www.asofinbolivia.com/index.php/nosotros-1/
-[ASOFIN] t= 694.0s | pag=362 | files= 251 | data=  3 | cola=   4 | prio=70 | https://www.asofinbolivia.com/index.php/nosotros/
-[ASOFIN] t= 698.0s | pag=362 | files= 251 | data=  3 | cola=   3 | prio=70 | https://asofinbolivia.com/index.php/2022/03/13/la-necesidad-de-una-transparencia-en-los-precios-en-las-microfinanzas/
-[ASOFIN] t= 700.9s | pag=363 | files= 252 | data=  3 | cola=   2 | prio=70 | https://asofinbolivia.com/index.php/2022/03/01/microfinance-financial-systems-and-economic-growth-a-theoretical-framework-and-findings-from-bolivia/
-[ASOFIN] t= 702.6s | pag=364 | files= 253 | data=  3 | cola=   1 | prio=70 | https://asofinbolivia.com/index.php/2022/03/01/microfinanzas-una-historia-de-exito/
-[ASOFIN] t= 704.4s | pag=365 | files= 254 | data=  3 | cola=   0 | prio=70 | https://asofinbolivia.com/index.php/2022/03/01/las-microfinanzas-en-boliviahistoria-y-situacion-actual/
+[ASOFIN] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=  11 | prio= 0 | https://asofinbolivia.com/
+[ASOFIN] t=   2.8s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=  15 | prio= 0 | https://asofinbolivia.com/index.php/indicadores-financieros-2/
+[ASOFIN] t=   4.5s | pag=  2 | files=   0 | data=  0 | req=   2 | rej=   0 | cola=  14 | prio= 0 | https://asofinbolivia.com/index.php/indicadores-sociales/
+[ASOFIN] t=   6.3s | pag=  3 | files=   0 | data=  0 | req=   3 | rej=   0 | cola=  13 | prio= 0 | https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html
+[ASOFIN] DATASETS=1 | score=140 | data_chart | https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html
+[ASOFIN] t=   9.1s | pag=  4 | files=   0 | data=  1 | req=   4 | rej=   0 | cola=  12 | prio= 0 | https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html
+[ASOFIN] DATASETS=2 | score=140 | data_chart | https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html
+[ASOFIN] t=   9.9s | pag=  5 | files=   0 | data=  2 | req=   5 | rej=   0 | cola=  11 | prio= 0 | https://asofinbolivia.com/index.php/cobertura-paf/
+[ASOFIN] t=  11.5s | pag=  6 | files=   0 | data=  2 | req=   6 | rej=   0 | cola=  10 | prio= 0 | https://www.asofinbolivia.com/graficos/cobertura_paf/bolivia.html
+[ASOFIN] t=  12.7s | pag=  7 | files=   0 | data=  2 | req=   7 | rej=   0 | cola=   9 | prio= 0 | https://asofinbolivia.com/index.php/benchmarking/
+[ASOFIN] t=  14.3s | pag=  8 | files=   0 | data=  2 | req=   8 | rej=   0 | cola=   8 | prio= 0 | https://asofinbolivia.com/graficos/benchmarking/benchmar.html
+[ASOFIN] t=  15.9s | pag=  9 | files=   0 | data=  2 | req=   9 | rej=   0 | cola=   7 | prio= 0 | https://asofinbolivia.com/index.php/category/boletin_financiero/
+[ASOFIN] t=  19.0s | pag= 10 | files=   0 | data=  2 | req=  10 | rej=   0 | cola=  16 | prio= 0 | https://asofinbolivia.com/index.php/category/boletin_social/
+[ASOFIN] t=  20.3s | pag= 11 | files=   0 | data=  2 | req=  11 | rej=   0 | cola=  22 | prio= 0 | https://asofinbolivia.com/index.php/category/documentos/
+[ASOFIN] t=  22.0s | pag= 12 | files=   0 | data=  2 | req=  12 | rej=   0 | cola=  22 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/2/
+[ASOFIN] t=  23.6s | pag= 13 | files=   0 | data=  2 | req=  13 | rej=   0 | cola=  32 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/3/
+[ASOFIN] t=  25.1s | pag= 14 | files=   0 | data=  2 | req=  14 | rej=   0 | cola=  42 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/4/
+[ASOFIN] t=  26.6s | pag= 15 | files=   0 | data=  2 | req=  15 | rej=   0 | cola=  52 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/5/
+[ASOFIN] t=  28.3s | pag= 16 | files=   0 | data=  2 | req=  16 | rej=   0 | cola=  62 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/6/
+[ASOFIN] t=  30.3s | pag= 17 | files=   0 | data=  2 | req=  17 | rej=   0 | cola=  67 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/7/
+[ASOFIN] t=  32.4s | pag= 18 | files=   0 | data=  2 | req=  18 | rej=   0 | cola=  76 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/8/
+[ASOFIN] t=  34.7s | pag= 19 | files=   0 | data=  2 | req=  19 | rej=   0 | cola=  86 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/9/
+[ASOFIN] t=  36.2s | pag= 20 | files=   0 | data=  2 | req=  20 | rej=   0 | cola=  96 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/10/
+[ASOFIN] t=  37.7s | pag= 21 | files=   0 | data=  2 | req=  21 | rej=   0 | cola= 106 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/11/
+[ASOFIN] t=  39.6s | pag= 22 | files=   0 | data=  2 | req=  22 | rej=   0 | cola= 116 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/12/
+[ASOFIN] t=  41.4s | pag= 23 | files=   0 | data=  2 | req=  23 | rej=   0 | cola= 126 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/13/
+[ASOFIN] t=  42.9s | pag= 24 | files=   0 | data=  2 | req=  24 | rej=   0 | cola= 136 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/14/
+[ASOFIN] t=  44.3s | pag= 25 | files=   0 | data=  2 | req=  25 | rej=   0 | cola= 146 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/15/
+[ASOFIN] t=  45.8s | pag= 26 | files=   0 | data=  2 | req=  26 | rej=   0 | cola= 156 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/16/
+[ASOFIN] t=  47.5s | pag= 27 | files=   0 | data=  2 | req=  27 | rej=   0 | cola= 166 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/17/
+[ASOFIN] t=  49.0s | pag= 28 | files=   0 | data=  2 | req=  28 | rej=   0 | cola= 176 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/18/
+[ASOFIN] t=  50.5s | pag= 29 | files=   0 | data=  2 | req=  29 | rej=   0 | cola= 186 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/19/
+[ASOFIN] t=  52.2s | pag= 30 | files=   0 | data=  2 | req=  30 | rej=   0 | cola= 196 | prio= 1 | https://asofinbolivia.com/index.php/category/boletin_financiero/page/20/
+[ASOFIN] t=  54.2s | pag= 31 | files=   0 | data=  2 | req=  31 | rej=   0 | cola= 200 | prio= 2 | https://asofinbolivia.com/index.php/2026/08/13/no-251/
+[ASOFIN] ARCHIVO UTIL=1 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-062026v1_compressed.pdf
+[ASOFIN] t=  55.8s | pag= 32 | files=   1 | data=  2 | req=  32 | rej=   0 | cola= 199 | prio= 2 | https://asofinbolivia.com/index.php/2026/08/13/no-250/
+[ASOFIN] ARCHIVO UTIL=2 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-052026v1_compressed.pdf
+[ASOFIN] t=  57.6s | pag= 33 | files=   2 | data=  2 | req=  33 | rej=   0 | cola= 198 | prio= 2 | https://asofinbolivia.com/index.php/2026/06/08/no-249/
+[ASOFIN] ARCHIVO UTIL=3 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/06/Bol_Fin-042026v1_compressed.pdf
+[ASOFIN] t=  59.1s | pag= 34 | files=   3 | data=  2 | req=  34 | rej=   0 | cola= 197 | prio= 2 | https://asofinbolivia.com/index.php/2026/05/13/no-248/
+[ASOFIN] ARCHIVO UTIL=4 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/05/Bol_Fin-032026v1_compressed.pdf
+[ASOFIN] t=  60.7s | pag= 35 | files=   4 | data=  2 | req=  35 | rej=   0 | cola= 196 | prio= 2 | https://asofinbolivia.com/index.php/2026/03/31/no-247/
+[ASOFIN] ARCHIVO UTIL=5 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/03/Bol_Fin-022026v1.pdf
+[ASOFIN] t=  62.6s | pag= 36 | files=   5 | data=  2 | req=  36 | rej=   0 | cola= 195 | prio= 2 | https://asofinbolivia.com/index.php/2026/03/11/no-246/
+[ASOFIN] ARCHIVO UTIL=6 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/04/Boletin-Financiero-0126_compressed-1.pdf
+[ASOFIN] t=  64.2s | pag= 37 | files=   6 | data=  2 | req=  37 | rej=   0 | cola= 194 | prio= 2 | https://asofinbolivia.com/index.php/2026/02/11/no-245/
+[ASOFIN] ARCHIVO UTIL=7 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Financiero-202512_compressed.pdf
+[ASOFIN] t=  65.7s | pag= 38 | files=   7 | data=  2 | req=  38 | rej=   0 | cola= 193 | prio= 2 | https://asofinbolivia.com/index.php/2026/01/08/no-244/
+[ASOFIN] ARCHIVO UTIL=8 | score=140 | pdf | https://asofinbolivia.com/wp-content/uploads/2026/01/Bol_Fin-112025_compressed.pdf
+[ASOFIN] t=  67.7s | pag= 39 | files=   8 | data=  2 | req=  39 | rej=   0 | cola= 192 | prio= 2 | https://asofinbolivia.com/index.php/2025/12/05/no-243/
+[ASOFIN] ARCHIVO UTIL=9 | score=140 | pdf | https://www.asofinbolivia.com/wp-content/uploads/2025/12/Bol_Fin-102025_compressed.pdf
+[ASOFIN] t=  69.5s | pag= 40 | files=   9 | data=  2 | req=  40 | rej=   0 | cola= 191 | prio= 2 | https://asofinbolivia.com/index.php/2025/10/23/no-242/
+[ASOFIN] ARCHIVO UTIL=10 | score=140 | pdf | https://www.asofinbolivia.com/wp-content/uploads/2025/10/Bol_Fin-092025_compressed.pdf
+[ASOFIN] t=  71.0s | pag= 41 | files=  10 | data=  2 | req=  41 | rej=   0 | cola= 190 | prio= 2 | https://asofinbolivia.com/index.php/2026/08/13/no-07/
+[ASOFIN] t=  72.6s | pag= 42 | files=  10 | data=  2 | req=  42 | rej=   0 | cola= 189 | prio= 2 | https://asofinbolivia.com/index.php/2026/02/11/no-06/
+[ASOFIN] t=  74.5s | pag= 43 | files=  11 | data=  2 | req=  43 | rej=   0 | cola= 188 | prio= 2 | https://asofinbolivia.com/index.php/2025/08/01/no-05/
+[ASOFIN] t=  77.1s | pag= 44 | files=  12 | data=  2 | req=  44 | rej=   0 | cola= 187 | prio= 2 | https://asofinbolivia.com/index.php/2025/03/06/no-04/
+[ASOFIN] t=  78.4s | pag= 45 | files=  13 | data=  2 | req=  45 | rej=   0 | cola= 186 | prio= 2 | https://asofinbolivia.com/index.php/2025/03/06/no-03/
+[ASOFIN] t=  80.2s | pag= 46 | files=  14 | data=  2 | req=  46 | rej=   0 | cola= 185 | prio= 2 | https://asofinbolivia.com/index.php/2024/08/28/no-02/
+[ASOFIN] t=  81.8s | pag= 47 | files=  15 | data=  2 | req=  47 | rej=   0 | cola= 184 | prio= 2 | https://asofinbolivia.com/index.php/2024/05/03/no-01/
+[ASOFIN] t=  83.2s | pag= 48 | files=  16 | data=  2 | req=  48 | rej=   0 | cola= 183 | prio= 2 | https://asofinbolivia.com/index.php/2025/09/26/no-241/
+[ASOFIN] t=  85.0s | pag= 49 | files=  17 | data=  2 | req=  49 | rej=   0 | cola= 182 | prio= 2 | https://asofinbolivia.com/index.php/2025/08/25/no-240/
+[ASOFIN] t=  86.8s | pag= 50 | files=  18 | data=  2 | req=  50 | rej=   0 | cola= 181 | prio= 2 | https://asofinbolivia.com/index.php/2025/08/01/no-239/
+[ASOFIN] t=  88.7s | pag= 51 | files=  19 | data=  2 | req=  51 | rej=   0 | cola= 180 | prio= 2 | https://asofinbolivia.com/index.php/2025/06/30/no-238/
+[ASOFIN] t=  90.6s | pag= 52 | files=  20 | data=  2 | req=  52 | rej=   0 | cola= 179 | prio= 2 | https://asofinbolivia.com/index.php/2025/05/28/no-237/
+[ASOFIN] t=  92.1s | pag= 53 | files=  21 | data=  2 | req=  53 | rej=   0 | cola= 178 | prio= 2 | https://asofinbolivia.com/index.php/2025/04/29/no-236/
+[ASOFIN] t=  93.7s | pag= 54 | files=  22 | data=  2 | req=  54 | rej=   0 | cola= 177 | prio= 2 | https://asofinbolivia.com/index.php/2025/04/09/no-235/
+[ASOFIN] t=  95.1s | pag= 55 | files=  23 | data=  2 | req=  55 | rej=   0 | cola= 176 | prio= 2 | https://asofinbolivia.com/index.php/2025/03/26/no-234/
+[ASOFIN] t=  96.6s | pag= 56 | files=  24 | data=  2 | req=  56 | rej=   0 | cola= 175 | prio= 2 | https://asofinbolivia.com/index.php/2025/02/13/no-233/
+[ASOFIN] t=  98.3s | pag= 57 | files=  25 | data=  2 | req=  57 | rej=   0 | cola= 174 | prio= 2 | https://asofinbolivia.com/index.php/2025/01/16/no-232/
+[ASOFIN] t= 100.1s | pag= 58 | files=  26 | data=  2 | req=  58 | rej=   0 | cola= 173 | prio= 2 | https://asofinbolivia.com/index.php/2025/01/09/no-231/
+[ASOFIN] t= 101.6s | pag= 59 | files=  27 | data=  2 | req=  59 | rej=   0 | cola= 172 | prio= 2 | https://asofinbolivia.com/index.php/2024/11/13/no-230/
+[ASOFIN] t= 102.9s | pag= 60 | files=  28 | data=  2 | req=  60 | rej=   0 | cola= 171 | prio= 2 | https://asofinbolivia.com/index.php/2024/09/30/no-229/
+[ASOFIN] t= 104.5s | pag= 61 | files=  29 | data=  2 | req=  61 | rej=   0 | cola= 170 | prio= 2 | https://asofinbolivia.com/index.php/2024/08/26/no-228/
+[ASOFIN] t= 106.0s | pag= 62 | files=  30 | data=  2 | req=  62 | rej=   0 | cola= 169 | prio= 2 | https://asofinbolivia.com/index.php/2024/08/08/no-227/
+[ASOFIN] t= 107.5s | pag= 63 | files=  31 | data=  2 | req=  63 | rej=   0 | cola= 168 | prio= 2 | https://asofinbolivia.com/index.php/2024/07/09/no-226/
+[ASOFIN] t= 109.0s | pag= 64 | files=  32 | data=  2 | req=  64 | rej=   0 | cola= 167 | prio= 2 | https://asofinbolivia.com/index.php/2024/05/28/no-225/
+[ASOFIN] t= 110.8s | pag= 65 | files=  33 | data=  2 | req=  65 | rej=   0 | cola= 166 | prio= 2 | https://asofinbolivia.com/index.php/2024/05/08/no-224/
+[ASOFIN] t= 112.7s | pag= 66 | files=  34 | data=  2 | req=  66 | rej=   0 | cola= 165 | prio= 2 | https://asofinbolivia.com/index.php/2024/04/03/no-223/
+[ASOFIN] t= 114.6s | pag= 67 | files=  35 | data=  2 | req=  67 | rej=   0 | cola= 164 | prio= 2 | https://asofinbolivia.com/index.php/2024/02/29/no-222/
+[ASOFIN] t= 116.4s | pag= 68 | files=  36 | data=  2 | req=  68 | rej=   0 | cola= 163 | prio= 2 | https://asofinbolivia.com/index.php/2024/02/01/no-221/
+[ASOFIN] t= 118.2s | pag= 69 | files=  37 | data=  2 | req=  69 | rej=   0 | cola= 162 | prio= 2 | https://asofinbolivia.com/index.php/2024/01/17/no-220/
+[ASOFIN] t= 119.8s | pag= 70 | files=  38 | data=  2 | req=  70 | rej=   0 | cola= 161 | prio= 2 | https://asofinbolivia.com/index.php/2023/11/21/no-219/
+[ASOFIN] t= 121.6s | pag= 71 | files=  39 | data=  2 | req=  71 | rej=   0 | cola= 160 | prio= 2 | https://asofinbolivia.com/index.php/2023/10/18/no-218/
+[ASOFIN] t= 123.4s | pag= 72 | files=  40 | data=  2 | req=  72 | rej=   0 | cola= 159 | prio= 2 | https://asofinbolivia.com/index.php/2023/09/20/no-217/
+[ASOFIN] t= 125.3s | pag= 73 | files=  41 | data=  2 | req=  73 | rej=   0 | cola= 158 | prio= 2 | https://asofinbolivia.com/index.php/2023/08/18/no-216/
+[ASOFIN] t= 126.7s | pag= 74 | files=  42 | data=  2 | req=  74 | rej=   0 | cola= 157 | prio= 2 | https://asofinbolivia.com/index.php/2023/07/20/no-215/
+[ASOFIN] t= 128.5s | pag= 75 | files=  43 | data=  2 | req=  75 | rej=   0 | cola= 156 | prio= 2 | https://asofinbolivia.com/index.php/2023/07/08/no-214/
+[ASOFIN] t= 130.5s | pag= 76 | files=  44 | data=  2 | req=  76 | rej=   0 | cola= 155 | prio= 2 | https://asofinbolivia.com/index.php/2023/05/19/no-213/
+[ASOFIN] t= 132.4s | pag= 77 | files=  45 | data=  2 | req=  77 | rej=   0 | cola= 154 | prio= 2 | https://asofinbolivia.com/index.php/2023/04/18/no-212/
+[ASOFIN] t= 134.3s | pag= 78 | files=  46 | data=  2 | req=  78 | rej=   0 | cola= 153 | prio= 2 | https://asofinbolivia.com/index.php/2023/03/27/no-211/
+[ASOFIN] t= 136.3s | pag= 79 | files=  47 | data=  2 | req=  79 | rej=   0 | cola= 152 | prio= 2 | https://asofinbolivia.com/index.php/2023/03/16/no-210/
+[ASOFIN] t= 138.4s | pag= 80 | files=  48 | data=  2 | req=  80 | rej=   0 | cola= 151 | prio= 2 | https://asofinbolivia.com/index.php/2023/02/22/no-209/
+[ASOFIN] t= 140.0s | pag= 81 | files=  49 | data=  2 | req=  81 | rej=   0 | cola= 150 | prio= 2 | https://asofinbolivia.com/index.php/2023/01/20/no-208/
+[ASOFIN] t= 141.7s | pag= 82 | files=  50 | data=  2 | req=  82 | rej=   0 | cola= 149 | prio= 2 | https://asofinbolivia.com/index.php/2022/12/06/no-207/
+[ASOFIN] t= 143.5s | pag= 83 | files=  51 | data=  2 | req=  83 | rej=   0 | cola= 148 | prio= 2 | https://asofinbolivia.com/index.php/2022/10/31/no-206/
+[ASOFIN] t= 145.0s | pag= 84 | files=  52 | data=  2 | req=  84 | rej=   0 | cola= 147 | prio= 2 | https://asofinbolivia.com/index.php/2022/10/31/no-205/
+[ASOFIN] t= 146.4s | pag= 85 | files=  53 | data=  2 | req=  85 | rej=   0 | cola= 146 | prio= 2 | https://asofinbolivia.com/index.php/2022/10/31/no-204/
+[ASOFIN] t= 148.3s | pag= 86 | files=  54 | data=  2 | req=  86 | rej=   0 | cola= 145 | prio= 2 | https://asofinbolivia.com/index.php/2022/08/19/no-203/
+[ASOFIN] t= 149.7s | pag= 87 | files=  55 | data=  2 | req=  87 | rej=   0 | cola= 144 | prio= 2 | https://asofinbolivia.com/index.php/2022/07/22/no-202/
+[ASOFIN] t= 151.4s | pag= 88 | files=  56 | data=  2 | req=  88 | rej=   0 | cola= 143 | prio= 2 | https://asofinbolivia.com/index.php/2022/05/30/no-201/
+[ASOFIN] t= 153.3s | pag= 89 | files=  57 | data=  2 | req=  89 | rej=   0 | cola= 142 | prio= 2 | https://asofinbolivia.com/index.php/2022/05/16/no-200/
+[ASOFIN] t= 154.8s | pag= 90 | files=  58 | data=  2 | req=  90 | rej=   0 | cola= 141 | prio= 2 | https://asofinbolivia.com/index.php/2022/04/01/no-199/
+[ASOFIN] t= 156.3s | pag= 91 | files=  59 | data=  2 | req=  91 | rej=   0 | cola= 140 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/17/no-198/
+[ASOFIN] t= 157.8s | pag= 92 | files=  60 | data=  2 | req=  92 | rej=   0 | cola= 139 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/17/no-197/
+[ASOFIN] t= 159.4s | pag= 93 | files=  61 | data=  2 | req=  93 | rej=   0 | cola= 138 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-190/
+[ASOFIN] t= 161.1s | pag= 94 | files=  62 | data=  2 | req=  94 | rej=   0 | cola= 137 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-189/
+[ASOFIN] t= 162.5s | pag= 95 | files=  63 | data=  2 | req=  95 | rej=   0 | cola= 136 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-188/
+[ASOFIN] t= 164.3s | pag= 96 | files=  64 | data=  2 | req=  96 | rej=   0 | cola= 135 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-187/
+[ASOFIN] t= 165.8s | pag= 97 | files=  65 | data=  2 | req=  97 | rej=   0 | cola= 134 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-186/
+[ASOFIN] t= 167.3s | pag= 98 | files=  66 | data=  2 | req=  98 | rej=   0 | cola= 133 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-185/
+[ASOFIN] t= 169.2s | pag= 99 | files=  67 | data=  2 | req=  99 | rej=   0 | cola= 132 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-184/
+[ASOFIN] t= 170.5s | pag=100 | files=  68 | data=  2 | req= 100 | rej=   0 | cola= 131 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-183/
+[ASOFIN] t= 172.1s | pag=101 | files=  69 | data=  2 | req= 101 | rej=   0 | cola= 130 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-182/
+[ASOFIN] t= 173.7s | pag=102 | files=  70 | data=  2 | req= 102 | rej=   0 | cola= 129 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-181/
+[ASOFIN] t= 175.5s | pag=103 | files=  71 | data=  2 | req= 103 | rej=   0 | cola= 128 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-180/
+[ASOFIN] t= 177.0s | pag=104 | files=  72 | data=  2 | req= 104 | rej=   0 | cola= 127 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-179/
+[ASOFIN] t= 179.3s | pag=105 | files=  73 | data=  2 | req= 105 | rej=   0 | cola= 126 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-178/
+[ASOFIN] t= 181.2s | pag=106 | files=  74 | data=  2 | req= 106 | rej=   0 | cola= 125 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-177/
+[ASOFIN] t= 183.2s | pag=107 | files=  75 | data=  2 | req= 107 | rej=   0 | cola= 124 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-176/
+[ASOFIN] t= 184.9s | pag=108 | files=  76 | data=  2 | req= 108 | rej=   0 | cola= 123 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-175/
+[ASOFIN] t= 186.3s | pag=109 | files=  77 | data=  2 | req= 109 | rej=   0 | cola= 122 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-174/
+[ASOFIN] t= 188.0s | pag=110 | files=  78 | data=  2 | req= 110 | rej=   0 | cola= 121 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-173/
+[ASOFIN] t= 189.9s | pag=111 | files=  79 | data=  2 | req= 111 | rej=   0 | cola= 120 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-172/
+[ASOFIN] t= 191.5s | pag=112 | files=  80 | data=  2 | req= 112 | rej=   0 | cola= 119 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-171/
+[ASOFIN] t= 193.0s | pag=113 | files=  81 | data=  2 | req= 113 | rej=   0 | cola= 118 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-170/
+[ASOFIN] t= 194.5s | pag=114 | files=  82 | data=  2 | req= 114 | rej=   0 | cola= 117 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-169/
+[ASOFIN] t= 196.0s | pag=115 | files=  83 | data=  2 | req= 115 | rej=   0 | cola= 116 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-168/
+[ASOFIN] t= 198.2s | pag=116 | files=  84 | data=  2 | req= 116 | rej=   0 | cola= 115 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-167/
+[ASOFIN] t= 199.8s | pag=117 | files=  85 | data=  2 | req= 117 | rej=   0 | cola= 114 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-166/
+[ASOFIN] t= 201.3s | pag=118 | files=  86 | data=  2 | req= 118 | rej=   0 | cola= 113 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-165/
+[ASOFIN] t= 203.0s | pag=119 | files=  87 | data=  2 | req= 119 | rej=   0 | cola= 112 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-164/
+[ASOFIN] t= 204.3s | pag=120 | files=  88 | data=  2 | req= 120 | rej=   0 | cola= 111 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-163/
+[ASOFIN] t= 205.8s | pag=121 | files=  89 | data=  2 | req= 121 | rej=   0 | cola= 110 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-162/
+[ASOFIN] t= 207.5s | pag=122 | files=  90 | data=  2 | req= 122 | rej=   0 | cola= 109 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-161/
+[ASOFIN] t= 209.3s | pag=123 | files=  91 | data=  2 | req= 123 | rej=   0 | cola= 108 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-160/
+[ASOFIN] t= 210.7s | pag=124 | files=  92 | data=  2 | req= 124 | rej=   0 | cola= 107 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-159/
+[ASOFIN] t= 212.2s | pag=125 | files=  93 | data=  2 | req= 125 | rej=   0 | cola= 106 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-158/
+[ASOFIN] t= 214.1s | pag=126 | files=  94 | data=  2 | req= 126 | rej=   0 | cola= 105 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-157/
+[ASOFIN] t= 216.0s | pag=127 | files=  95 | data=  2 | req= 127 | rej=   0 | cola= 104 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-156/
+[ASOFIN] t= 217.7s | pag=128 | files=  96 | data=  2 | req= 128 | rej=   0 | cola= 103 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-155/
+[ASOFIN] t= 219.2s | pag=129 | files=  97 | data=  2 | req= 129 | rej=   0 | cola= 102 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-154/
+[ASOFIN] t= 220.9s | pag=130 | files=  98 | data=  2 | req= 130 | rej=   0 | cola= 101 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-153/
+[ASOFIN] t= 222.6s | pag=131 | files=  99 | data=  2 | req= 131 | rej=   0 | cola= 100 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-152/
+[ASOFIN] ARCHIVO UTIL=100 | score=120 | pdf | https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin152.pdf
+[ASOFIN] t= 224.5s | pag=132 | files= 100 | data=  2 | req= 132 | rej=   0 | cola=  99 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-151/
+[ASOFIN] t= 226.6s | pag=133 | files= 101 | data=  2 | req= 133 | rej=   0 | cola=  98 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-150/
+[ASOFIN] t= 228.3s | pag=134 | files= 102 | data=  2 | req= 134 | rej=   0 | cola=  97 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-149/
+[ASOFIN] t= 229.8s | pag=135 | files= 103 | data=  2 | req= 135 | rej=   0 | cola=  96 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-148/
+[ASOFIN] t= 231.6s | pag=136 | files= 104 | data=  2 | req= 136 | rej=   0 | cola=  95 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-147/
+[ASOFIN] t= 233.3s | pag=137 | files= 105 | data=  2 | req= 137 | rej=   0 | cola=  94 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-146/
+[ASOFIN] t= 235.2s | pag=138 | files= 106 | data=  2 | req= 138 | rej=   0 | cola=  93 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-145/
+[ASOFIN] t= 237.1s | pag=139 | files= 107 | data=  2 | req= 139 | rej=   0 | cola=  92 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-144/
+[ASOFIN] t= 239.0s | pag=140 | files= 108 | data=  2 | req= 140 | rej=   0 | cola=  91 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-143/
+[ASOFIN] t= 240.3s | pag=141 | files= 109 | data=  2 | req= 141 | rej=   0 | cola=  90 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-142/
+[ASOFIN] t= 241.9s | pag=142 | files= 110 | data=  2 | req= 142 | rej=   0 | cola=  89 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-141/
+[ASOFIN] t= 243.3s | pag=143 | files= 111 | data=  2 | req= 143 | rej=   0 | cola=  88 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-140/
+[ASOFIN] t= 244.8s | pag=144 | files= 112 | data=  2 | req= 144 | rej=   0 | cola=  87 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-139/
+[ASOFIN] t= 246.3s | pag=145 | files= 113 | data=  2 | req= 145 | rej=   0 | cola=  86 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-138/
+[ASOFIN] t= 248.0s | pag=146 | files= 114 | data=  2 | req= 146 | rej=   0 | cola=  85 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-137/
+[ASOFIN] t= 249.5s | pag=147 | files= 115 | data=  2 | req= 147 | rej=   0 | cola=  84 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-136/
+[ASOFIN] t= 251.1s | pag=148 | files= 116 | data=  2 | req= 148 | rej=   0 | cola=  83 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-135/
+[ASOFIN] t= 252.7s | pag=149 | files= 117 | data=  2 | req= 149 | rej=   0 | cola=  82 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-134/
+[ASOFIN] t= 254.3s | pag=150 | files= 118 | data=  2 | req= 150 | rej=   0 | cola=  81 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-133/
+[ASOFIN] t= 256.0s | pag=151 | files= 119 | data=  2 | req= 151 | rej=   0 | cola=  80 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-132/
+[ASOFIN] t= 258.6s | pag=152 | files= 120 | data=  2 | req= 152 | rej=   0 | cola=  79 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-131/
+[ASOFIN] t= 260.3s | pag=153 | files= 121 | data=  2 | req= 153 | rej=   0 | cola=  78 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-130/
+[ASOFIN] t= 262.1s | pag=154 | files= 122 | data=  2 | req= 154 | rej=   0 | cola=  77 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-129/
+[ASOFIN] t= 263.6s | pag=155 | files= 123 | data=  2 | req= 155 | rej=   0 | cola=  76 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-128/
+[ASOFIN] t= 265.2s | pag=156 | files= 124 | data=  2 | req= 156 | rej=   0 | cola=  75 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-127/
+[ASOFIN] t= 267.1s | pag=157 | files= 125 | data=  2 | req= 157 | rej=   0 | cola=  74 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-126/
+[ASOFIN] t= 268.8s | pag=158 | files= 126 | data=  2 | req= 158 | rej=   0 | cola=  73 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-125/
+[ASOFIN] t= 270.3s | pag=159 | files= 127 | data=  2 | req= 159 | rej=   0 | cola=  72 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-124/
+[ASOFIN] t= 271.6s | pag=160 | files= 128 | data=  2 | req= 160 | rej=   0 | cola=  71 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-123/
+[ASOFIN] t= 273.3s | pag=161 | files= 129 | data=  2 | req= 161 | rej=   0 | cola=  70 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-122/
+[ASOFIN] t= 274.9s | pag=162 | files= 130 | data=  2 | req= 162 | rej=   0 | cola=  69 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-121/
+[ASOFIN] t= 276.6s | pag=163 | files= 131 | data=  2 | req= 163 | rej=   0 | cola=  68 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-120/
+[ASOFIN] t= 278.5s | pag=164 | files= 132 | data=  2 | req= 164 | rej=   0 | cola=  67 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-119/
+[ASOFIN] t= 279.9s | pag=165 | files= 133 | data=  2 | req= 165 | rej=   0 | cola=  66 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-118/
+[ASOFIN] t= 281.5s | pag=166 | files= 134 | data=  2 | req= 166 | rej=   0 | cola=  65 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-117/
+[ASOFIN] t= 283.3s | pag=167 | files= 135 | data=  2 | req= 167 | rej=   0 | cola=  64 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-116/
+[ASOFIN] t= 284.9s | pag=168 | files= 136 | data=  2 | req= 168 | rej=   0 | cola=  63 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-115/
+[ASOFIN] t= 286.6s | pag=169 | files= 137 | data=  2 | req= 169 | rej=   0 | cola=  62 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-114/
+[ASOFIN] t= 287.9s | pag=170 | files= 138 | data=  2 | req= 170 | rej=   0 | cola=  61 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-113/
+[ASOFIN] t= 289.8s | pag=171 | files= 139 | data=  2 | req= 171 | rej=   0 | cola=  60 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-112/
+[ASOFIN] t= 291.2s | pag=172 | files= 140 | data=  2 | req= 172 | rej=   0 | cola=  59 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-111/
+[ASOFIN] t= 292.7s | pag=173 | files= 141 | data=  2 | req= 173 | rej=   0 | cola=  58 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-110/
+[ASOFIN] t= 294.3s | pag=174 | files= 142 | data=  2 | req= 174 | rej=   0 | cola=  57 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-109/
+[ASOFIN] t= 296.2s | pag=175 | files= 143 | data=  2 | req= 175 | rej=   0 | cola=  56 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-108/
+[ASOFIN] t= 297.6s | pag=176 | files= 144 | data=  2 | req= 176 | rej=   0 | cola=  55 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-107/
+[ASOFIN] t= 299.1s | pag=177 | files= 145 | data=  2 | req= 177 | rej=   0 | cola=  54 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-106/
+[ASOFIN] t= 300.9s | pag=178 | files= 146 | data=  2 | req= 178 | rej=   0 | cola=  53 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-105/
+[ASOFIN] t= 302.3s | pag=179 | files= 147 | data=  2 | req= 179 | rej=   0 | cola=  52 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-104/
+[ASOFIN] t= 304.1s | pag=180 | files= 148 | data=  2 | req= 180 | rej=   0 | cola=  51 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-103/
+[ASOFIN] t= 305.5s | pag=181 | files= 149 | data=  2 | req= 181 | rej=   0 | cola=  50 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-102/
+[ASOFIN] t= 307.3s | pag=182 | files= 150 | data=  2 | req= 182 | rej=   0 | cola=  49 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-101/
+[ASOFIN] t= 309.0s | pag=183 | files= 151 | data=  2 | req= 183 | rej=   0 | cola=  48 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-100/
+[ASOFIN] t= 310.9s | pag=184 | files= 152 | data=  2 | req= 184 | rej=   0 | cola=  47 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-99/
+[ASOFIN] t= 312.8s | pag=185 | files= 153 | data=  2 | req= 185 | rej=   0 | cola=  46 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-98/
+[ASOFIN] t= 314.4s | pag=186 | files= 154 | data=  2 | req= 186 | rej=   0 | cola=  45 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-97/
+[ASOFIN] t= 316.1s | pag=187 | files= 155 | data=  2 | req= 187 | rej=   0 | cola=  44 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-96/
+[ASOFIN] t= 318.5s | pag=188 | files= 156 | data=  2 | req= 188 | rej=   0 | cola=  43 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-95/
+[ASOFIN] t= 320.2s | pag=189 | files= 157 | data=  2 | req= 189 | rej=   0 | cola=  42 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-94/
+[ASOFIN] t= 322.0s | pag=190 | files= 158 | data=  2 | req= 190 | rej=   0 | cola=  41 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-93/
+[ASOFIN] t= 323.6s | pag=191 | files= 159 | data=  2 | req= 191 | rej=   0 | cola=  40 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-92/
+[ASOFIN] t= 325.3s | pag=192 | files= 160 | data=  2 | req= 192 | rej=   0 | cola=  39 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-91/
+[ASOFIN] t= 327.3s | pag=193 | files= 161 | data=  2 | req= 193 | rej=   0 | cola=  38 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-90/
+[ASOFIN] t= 328.8s | pag=194 | files= 162 | data=  2 | req= 194 | rej=   0 | cola=  37 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-89/
+[ASOFIN] t= 330.2s | pag=195 | files= 163 | data=  2 | req= 195 | rej=   0 | cola=  36 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-88/
+[ASOFIN] t= 331.9s | pag=196 | files= 164 | data=  2 | req= 196 | rej=   0 | cola=  35 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-87/
+[ASOFIN] t= 333.6s | pag=197 | files= 165 | data=  2 | req= 197 | rej=   0 | cola=  34 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-86/
+[ASOFIN] t= 335.0s | pag=198 | files= 166 | data=  2 | req= 198 | rej=   0 | cola=  33 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-85/
+[ASOFIN] t= 336.6s | pag=199 | files= 167 | data=  2 | req= 199 | rej=   0 | cola=  32 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-84/
+[ASOFIN] t= 338.4s | pag=200 | files= 168 | data=  2 | req= 200 | rej=   0 | cola=  31 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-83/
+[ASOFIN] t= 339.8s | pag=201 | files= 169 | data=  2 | req= 201 | rej=   0 | cola=  30 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-82/
+[ASOFIN] t= 341.2s | pag=202 | files= 170 | data=  2 | req= 202 | rej=   0 | cola=  29 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-81/
+[ASOFIN] t= 342.9s | pag=203 | files= 171 | data=  2 | req= 203 | rej=   0 | cola=  28 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-80/
+[ASOFIN] t= 344.5s | pag=204 | files= 172 | data=  2 | req= 204 | rej=   0 | cola=  27 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-79/
+[ASOFIN] t= 345.9s | pag=205 | files= 173 | data=  2 | req= 205 | rej=   0 | cola=  26 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-78/
+[ASOFIN] t= 348.4s | pag=206 | files= 174 | data=  2 | req= 206 | rej=   0 | cola=  25 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-77/
+[ASOFIN] t= 350.2s | pag=207 | files= 175 | data=  2 | req= 207 | rej=   0 | cola=  24 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-76/
+[ASOFIN] t= 351.7s | pag=208 | files= 176 | data=  2 | req= 208 | rej=   0 | cola=  23 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-75/
+[ASOFIN] t= 353.2s | pag=209 | files= 177 | data=  2 | req= 209 | rej=   0 | cola=  22 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-74/
+[ASOFIN] t= 354.5s | pag=210 | files= 178 | data=  2 | req= 210 | rej=   0 | cola=  21 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-73/
+[ASOFIN] t= 355.9s | pag=211 | files= 179 | data=  2 | req= 211 | rej=   0 | cola=  20 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-72/
+[ASOFIN] t= 357.5s | pag=212 | files= 180 | data=  2 | req= 212 | rej=   0 | cola=  19 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-71/
+[ASOFIN] t= 359.1s | pag=213 | files= 181 | data=  2 | req= 213 | rej=   0 | cola=  18 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-70/
+[ASOFIN] t= 360.7s | pag=214 | files= 182 | data=  2 | req= 214 | rej=   0 | cola=  17 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-69/
+[ASOFIN] t= 362.2s | pag=215 | files= 183 | data=  2 | req= 215 | rej=   0 | cola=  16 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-67/
+[ASOFIN] t= 363.9s | pag=216 | files= 184 | data=  2 | req= 216 | rej=   0 | cola=  15 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-66/
+[ASOFIN] t= 365.9s | pag=217 | files= 185 | data=  2 | req= 217 | rej=   0 | cola=  14 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-65/
+[ASOFIN] t= 367.4s | pag=218 | files= 186 | data=  2 | req= 218 | rej=   0 | cola=  13 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-64/
+[ASOFIN] t= 369.2s | pag=219 | files= 187 | data=  2 | req= 219 | rej=   0 | cola=  12 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-63/
+[ASOFIN] t= 370.6s | pag=220 | files= 188 | data=  2 | req= 220 | rej=   0 | cola=  11 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-62/
+[ASOFIN] t= 372.0s | pag=221 | files= 189 | data=  2 | req= 221 | rej=   0 | cola=  10 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-61/
+[ASOFIN] t= 373.5s | pag=222 | files= 190 | data=  2 | req= 222 | rej=   0 | cola=   9 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-60/
+[ASOFIN] t= 375.2s | pag=223 | files= 191 | data=  2 | req= 223 | rej=   0 | cola=   8 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-59/
+[ASOFIN] t= 377.8s | pag=224 | files= 192 | data=  2 | req= 224 | rej=   0 | cola=   7 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-57/
+[ASOFIN] t= 379.4s | pag=225 | files= 193 | data=  2 | req= 225 | rej=   0 | cola=   6 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-56/
+[ASOFIN] t= 381.2s | pag=226 | files= 194 | data=  2 | req= 226 | rej=   0 | cola=   5 | prio= 2 | https://asofinbolivia.com/index.php/2022/03/11/no-55/
+[ASOFIN] t= 382.6s | pag=227 | files= 195 | data=  2 | req= 227 | rej=   0 | cola=   4 | prio= 5 | https://www.asofinbolivia.com/index.php/indicadores-financieros-2
+[ASOFIN] t= 385.5s | pag=227 | files= 195 | data=  2 | req= 228 | rej=   0 | cola=   3 | prio= 5 | https://www.asofinbolivia.com/index.php/indicadores-sociales
+[ASOFIN] t= 388.4s | pag=227 | files= 195 | data=  2 | req= 229 | rej=   0 | cola=   2 | prio= 5 | https://www.asofinbolivia.com/index.php/cobertura-paf
+[ASOFIN] t= 391.6s | pag=227 | files= 195 | data=  2 | req= 230 | rej=   0 | cola=   1 | prio= 5 | https://www.asofinbolivia.com/index.php/benchmarking
+[ASOFIN] t= 394.8s | pag=227 | files= 195 | data=  2 | req= 231 | rej=   0 | cola=   0 | prio=12 | https://asofinbolivia.com/index.php/category/documentos/page/2/
+[ASOFIN] t= 397.3s | pag=228 | files= 195 | data=  2 | req= 232 | rej=   0 | cola=   0 | prio=12 | https://asofinbolivia.com/index.php/category/documentos/page/3/
+[ASOFIN] t= 398.9s | pag=229 | files= 195 | data=  2 | req= 233 | rej=   0 | cola=   0 | prio=12 | https://asofinbolivia.com/index.php/category/documentos/page/4/
+[ASOFIN] HTTP TOTAL | requests=235 | GET=235 | HEAD=0
+[ASOFIN] PAGINACION RESULTADO | familias=2 | productivas=1 | estancadas=1 | saltadas=0
+[ASOFIN] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[ASOFIN] BUDGET | req=234 | utiles=197 | rechazados=0 | sin_valor=7
 
 ================================================================================
 RESULTADO
 ================================================================================
 Fuente:              asofin
-Páginas visitadas:   366
-Archivos encontrados:  255
-Datasets web:         3
-Errores:              1
+Páginas visitadas:   230
+Archivos encontrados:  195
+Datasets web:         2
+Errores:              0
 Sondeos API fallidos: 0
 Motivo de parada:     frontier_exhausted
-Duración:             706.26 s
+Duración:             400.31 s
 Sitemaps procesados:  0
 URLs por sitemap:     0
 URLs sitemap en cola: 0
 
-Detalle de errores:
-  - https://www.asofinbolivia.com/index.php/nosotros/ -> ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
-
 Formatos:
-  - DOC    : 1
-  - DOCX   : 1
-  - PDF    : 253
+  - PDF    : 195
 
 JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\asofin.json
 
 Trazabilidad:
-  Ejecución: 223
+  Ejecución: 293
   Estado:    PROCESSED
   Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

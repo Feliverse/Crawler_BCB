@@ -1,38 +1,117 @@
 {
   "id_fuente": "fam",
   "nombre": "Federación de Asociaciones Municipales de Bolivia",
-  "base_url": "https://fam.org.bo/",
+  "base_url": "https://sistemaseconomicoslocales.fam.org.bo/",
   "allowed_domains": [
-    "fam.org.bo"
+    "fam.org.bo",
+    "sistemaseconomicoslocales.fam.org.bo"
   ],
   "entrypoints": [
-    "https://fam.org.bo/",
-    "https://fam.org.bo/marco-legal/"
+    "https://sistemaseconomicoslocales.fam.org.bo/",
+    "https://sistemaseconomicoslocales.fam.org.bo/sistemas-economicos-locales.html",
+    "https://fam.org.bo/directorio-municipal/",
+    "https://fam.org.bo/memoria-institucional/",
+    "https://fam.org.bo/publicaciones/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
-  "legacy_url": "https://www.fam.bo",
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "sistemaseconomicoslocales.fam.org.bo",
+    "/directorio-municipal/",
+    "/memoria-institucional/",
+    "/publicaciones/",
+    "/wp-content/uploads/"
+  ],
   "high_priority_keywords": [
-    "publicaciones",
-    "documentos",
-    "municipal",
-    "estadistica"
+    "sistemas economicos locales",
+    "sistemas económicos locales",
+    "municipio",
+    "municipios",
+    "valor bruto de produccion",
+    "valor bruto de producción",
+    "poblacion ocupada",
+    "población ocupada",
+    "ingresos",
+    "produccion",
+    "producción",
+    "actividad economica",
+    "actividad económica",
+    "indicadores",
+    "estadistica",
+    "estadística",
+    "directorio municipal"
+  ],
+  "medium_priority_keywords": [
+    "estructura productiva",
+    "valor agregado",
+    "ocupacion",
+    "ocupación",
+    "sector economico",
+    "sector económico",
+    "transferencias",
+    "coparticipacion",
+    "coparticipación",
+    "ejecucion presupuestaria",
+    "ejecución presupuestaria",
+    "memoria institucional"
+  ],
+  "adapter_positive_patterns": [
+    "sistemaseconomicoslocales.fam.org.bo",
+    "/directorio-municipal/",
+    "/memoria-institucional/"
+  ],
+  "force_data_url_patterns": [
+    "sistemaseconomicoslocales.fam.org.bo/",
+    "sistemas-economicos-locales.html",
+    "/directorio-municipal/"
+  ],
+  "data_keywords": [
+    "valor bruto de producción",
+    "valor bruto de produccion",
+    "población ocupada",
+    "poblacion ocupada",
+    "ingresos",
+    "estructura",
+    "producción",
+    "produccion",
+    "municipios",
+    "indicadores"
+  ],
+  "relevance_positive_keywords": [
+    "sistemas económicos locales",
+    "sistemas economicos locales",
+    "valor bruto de producción",
+    "valor bruto de produccion",
+    "población ocupada",
+    "poblacion ocupada",
+    "directorio municipal",
+    "ejecución presupuestaria",
+    "ejecucion presupuestaria"
+  ],
+  "low_priority_keywords": [
+    "marco legal",
+    "estatuto",
+    "reglamento",
+    "noticias",
+    "eventos",
+    "convocatorias",
+    "comunicados"
+  ],
+  "ignore_url_patterns": [
+    "/marco-legal/",
+    "/noticias/",
+    "/category/",
+    "/tag/",
+    "/author/",
+    "/feed/"
   ]
 }

@@ -18,14 +18,15 @@ class HttpClient:
     Cliente HTTP común para todas las fuentes.
 
     Centraliza:
-    - Sesión HTTP reutilizable.
-    - Cabeceras comunes.
-    - Timeout.
-    - Redirecciones.
-    - Temporización aleatoria.
-    - Verificación TLS configurable por fuente.
-    - CA bundle opcional.
-    - Solicitudes HTTP utilizadas por HTML, APIs y ZIP.
+    - sesión HTTP reutilizable;
+    - cabeceras comunes;
+    - timeout;
+    - redirecciones;
+    - temporización aleatoria;
+    - verificación TLS configurable por fuente;
+    - CA bundle opcional;
+    - GET/HEAD usados por HTML, APIs, ZIP y probes;
+    - contador absoluto de solicitudes HTTP.
 
     Toda solicitud HTTP del crawler debe pasar por esta clase.
     """
@@ -43,7 +44,9 @@ class HttpClient:
 
         self.timeout = max(
             1,
-            int(timeout),
+            int(
+                timeout
+            ),
         )
 
         # ====================================================
@@ -150,6 +153,16 @@ class HttpClient:
         self._last_delay = 0.0
 
         # ====================================================
+        # MÉTRICAS HTTP ABSOLUTAS
+        # ====================================================
+
+        self._request_count = 0
+        self._requests_by_method: dict[
+            str,
+            int,
+        ] = {}
+
+        # ====================================================
         # SESIÓN
         # ====================================================
 
@@ -243,37 +256,53 @@ class HttpClient:
             )
 
     # ========================================================
-    # HTTP GET
+    # REQUEST COMÚN
     # ========================================================
 
-    def get(
+    def _request(
         self,
+        method: str,
         url: str,
         *,
         headers: Mapping[str, str] | None = None,
         raise_for_status: bool = True,
         timeout: float | tuple[float, float] | None = None,
+        stream: bool = True,
     ) -> Response:
         """
-        Ejecuta GET usando siempre la política HTTP/TLS común.
+        Ejecuta una solicitud usando siempre la misma política HTTP/TLS.
 
-        `headers` permite solicitudes especiales, por ejemplo Range
-        para ZipInspector.
-
-        `timeout` permite que tareas auxiliares como SourceResolver o
-        SitemapDiscovery usen un timeout corto sin modificar el timeout
-        normal configurado para el crawl de la fuente.
+        El contador se incrementa antes de abrir la conexión, por lo que
+        también contabiliza timeouts, errores DNS/TLS y HTTP fallidos.
         """
 
+        normalized_method = str(
+            method
+            or "GET"
+        ).strip().upper()
+
         self._wait()
+
+        self._request_count += 1
+
+        self._requests_by_method[
+            normalized_method
+        ] = (
+            self._requests_by_method.get(
+                normalized_method,
+                0,
+            )
+            + 1
+        )
 
         response: Response | None = None
 
         try:
 
             response = (
-                self.session.get(
-                    url,
+                self.session.request(
+                    method=normalized_method,
+                    url=url,
                     headers=(
                         dict(
                             headers
@@ -287,7 +316,7 @@ class HttpClient:
                         else timeout
                     ),
                     allow_redirects=True,
-                    stream=True,
+                    stream=stream,
                     verify=(
                         self._verify
                     ),
@@ -314,6 +343,66 @@ class HttpClient:
             )
 
     # ========================================================
+    # HTTP GET
+    # ========================================================
+
+    def get(
+        self,
+        url: str,
+        *,
+        headers: Mapping[str, str] | None = None,
+        raise_for_status: bool = True,
+        timeout: float | tuple[float, float] | None = None,
+    ) -> Response:
+        """
+        Ejecuta GET usando siempre la política HTTP/TLS común.
+
+        `headers` permite solicitudes especiales, por ejemplo Range
+        para ZipInspector.
+
+        `timeout` permite que tareas auxiliares como SourceResolver o
+        SitemapDiscovery usen un timeout corto sin modificar el timeout
+        normal configurado para el crawl de la fuente.
+        """
+
+        return self._request(
+            "GET",
+            url,
+            headers=headers,
+            raise_for_status=raise_for_status,
+            timeout=timeout,
+            stream=True,
+        )
+
+    # ========================================================
+    # HTTP HEAD
+    # ========================================================
+
+    def head(
+        self,
+        url: str,
+        *,
+        headers: Mapping[str, str] | None = None,
+        raise_for_status: bool = True,
+        timeout: float | tuple[float, float] | None = None,
+    ) -> Response:
+        """
+        Comprueba cabeceras/existencia sin descargar el cuerpo.
+
+        Se usa de forma conservadora para candidatos que un adapter puede
+        inferir pero que no aparecen literalmente en el HTML.
+        """
+
+        return self._request(
+            "HEAD",
+            url,
+            headers=headers,
+            raise_for_status=raise_for_status,
+            timeout=timeout,
+            stream=True,
+        )
+
+    # ========================================================
     # INFORMACIÓN
     # ========================================================
 
@@ -336,6 +425,30 @@ class HttpClient:
 
         return (
             self._verify
+        )
+
+    @property
+    def request_count(
+        self,
+    ) -> int:
+        """
+        Total absoluto de solicitudes intentadas por esta instancia.
+        """
+
+        return int(
+            self._request_count
+        )
+
+    @property
+    def requests_by_method(
+        self,
+    ) -> dict[str, int]:
+        """
+        Copia de los contadores por método para diagnóstico/auditoría.
+        """
+
+        return dict(
+            self._requests_by_method
         )
 
     # ========================================================

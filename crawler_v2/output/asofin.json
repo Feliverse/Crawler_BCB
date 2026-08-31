@@ -1,167 +1,87 @@
 {
     "ESTADISTICAS": {
-        "No._251": {
-            "Bol_FIN-062026v1_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-062026v1_compressed.pdf",
-                "fecha_actualizacion": "2026-08",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/08/13/no-251/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._250": {
-            "Bol_FIN-052026v1_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-052026v1_compressed.pdf",
-                "fecha_actualizacion": "2026-08",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/08/13/no-250/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._249": {
-            "Bol_Fin-042026v1_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/06/Bol_Fin-042026v1_compressed.pdf",
-                "fecha_actualizacion": "2026-06",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/06/08/no-249/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._248": {
-            "Bol_Fin-032026v1_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/05/Bol_Fin-032026v1_compressed.pdf",
-                "fecha_actualizacion": "2026-05",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/05/13/no-248/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._247": {
-            "Bol_Fin-022026v1.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/03/Bol_Fin-022026v1.pdf",
-                "fecha_actualizacion": "2026-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/03/31/no-247/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._246": {
-            "Boletin-Financiero-0126_compressed-1.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/04/Boletin-Financiero-0126_compressed-1.pdf",
-                "fecha_actualizacion": "2026-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/03/11/no-246/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._245": {
-            "Boletin-Financiero-202512_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Financiero-202512_compressed.pdf",
-                "fecha_actualizacion": "2026-02",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/02/11/no-245/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._244": {
-            "Bol_Fin-112025_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/01/Bol_Fin-112025_compressed.pdf",
-                "fecha_actualizacion": "2026-01",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/01/08/no-244/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._243": {
-            "Bol_Fin-102025_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/12/Bol_Fin-102025_compressed.pdf",
-                "fecha_actualizacion": "2025-12",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2025/12/05/no-243/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._242": {
-            "Bol_Fin-092025_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/10/Bol_Fin-092025_compressed.pdf",
-                "fecha_actualizacion": "2025-10",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2025/10/23/no-242/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._06": {
-            "Boletin-Social-202512_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Social-202512_compressed.pdf",
-                "fecha_actualizacion": "2026-02",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2026/02/11/no-06/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._05": {
-            "Boletin-Social-202506v1.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Boletin-Social-202506v1.pdf",
-                "fecha_actualizacion": "2025-08",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2025/08/01/no-05/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._04": {
-            "Boletin_Social_202412_nro4_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/Boletin_Social_202412_nro4_compressed.pdf",
-                "fecha_actualizacion": "2025-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2025/03/06/no-04/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._03": {
-            "Boletin_Social_202409_V4_comp.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/Boletin_Social_202409_V4_comp.pdf",
-                "fecha_actualizacion": "2025-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2025/03/06/no-03/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._02": {
-            "Boletin_Social_062024.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/Boletin_Social_062024.pdf",
-                "fecha_actualizacion": "2024-08",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2024/08/28/no-02/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "No._01": {
-            "Boletin-Social-202403_compressed-1.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/Boletin-Social-202403_compressed-1.pdf",
-                "fecha_actualizacion": "2024-05",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2024/05/03/no-01/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Boletín_Mensual": {
-            "no_241": {
+        "Boletines": {
+            "Boletín_financiero": {
+                "Bol_FIN-062026v1_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-062026v1_compressed.pdf",
+                    "fecha_actualizacion": "2026-08",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/08/13/no-251/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_FIN-052026v1_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/08/Bol_FIN-052026v1_compressed.pdf",
+                    "fecha_actualizacion": "2026-08",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/08/13/no-250/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_Fin-042026v1_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/06/Bol_Fin-042026v1_compressed.pdf",
+                    "fecha_actualizacion": "2026-06",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/06/08/no-249/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_Fin-032026v1_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/05/Bol_Fin-032026v1_compressed.pdf",
+                    "fecha_actualizacion": "2026-05",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/05/13/no-248/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_Fin-022026v1.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/03/Bol_Fin-022026v1.pdf",
+                    "fecha_actualizacion": "2026-03",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/03/31/no-247/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Boletin-Financiero-0126_compressed-1.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/04/Boletin-Financiero-0126_compressed-1.pdf",
+                    "fecha_actualizacion": "2026-04",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/03/11/no-246/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Boletin-Financiero-202512_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Financiero-202512_compressed.pdf",
+                    "fecha_actualizacion": "2026-02",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/02/11/no-245/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_Fin-112025_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/01/Bol_Fin-112025_compressed.pdf",
+                    "fecha_actualizacion": "2026-01",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/01/08/no-244/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_Fin-102025_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/12/Bol_Fin-102025_compressed.pdf",
+                    "fecha_actualizacion": "2025-12",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2025/12/05/no-243/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Bol_Fin-092025_compressed.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/10/Bol_Fin-092025_compressed.pdf",
+                    "fecha_actualizacion": "2025-10",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2025/10/23/no-242/",
+                    "metodo_deteccion": "url_extension"
+                },
                 "Bol_Fin-082025-v1_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/09/Bol_Fin-082025-v1_compressed.pdf",
@@ -169,9 +89,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/09/26/no-241/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_240": {
+                },
                 "Bol_Fin-072025-v1_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Bol_Fin-072025-v1_compressed.pdf",
@@ -179,9 +97,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/08/25/no-240/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_239": {
+                },
                 "Bol_Fin-06025-v1_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Bol_Fin-06025-v1_compressed.pdf",
@@ -189,9 +105,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/08/01/no-239/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_238": {
+                },
                 "v3_238_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/06/v3_238_compressed.pdf",
@@ -199,9 +113,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/06/30/no-238/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_237": {
+                },
                 "v2_237_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/05/v2_237_compressed.pdf",
@@ -209,9 +121,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/05/28/no-237/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_236": {
+                },
                 "236_v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/04/236_v3_compressed.pdf",
@@ -219,9 +129,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/04/29/no-236/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_235": {
+                },
                 "235_v7_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/04/235_v7_compressed.pdf",
@@ -229,9 +137,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/04/09/no-235/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_234": {
+                },
                 "v5_234_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/v5_234_compressed.pdf",
@@ -239,9 +145,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/03/26/no-234/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_233": {
+                },
                 "233_v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/02/233_v3_compressed.pdf",
@@ -249,9 +153,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/02/13/no-233/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_232": {
+                },
                 "232_v2_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/01/232_v2_compressed.pdf",
@@ -259,9 +161,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/01/16/no-232/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_231": {
+                },
                 "231_v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/01/231_v3_compressed.pdf",
@@ -269,9 +169,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2025/01/09/no-231/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_230": {
+                },
                 "230_v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/11/230_v3_compressed.pdf",
@@ -279,9 +177,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/11/13/no-230/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_229": {
+                },
                 "229_v5_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/09/229_v5_compressed.pdf",
@@ -289,9 +185,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/09/30/no-229/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_228": {
+                },
                 "228_v5_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/228_v5_compressed.pdf",
@@ -299,9 +193,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/08/26/no-228/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_227": {
+                },
                 "227_v3_compressed-1.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/227_v3_compressed-1.pdf",
@@ -309,9 +201,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/08/08/no-227/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_226": {
+                },
                 "226_v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/07/226_v3_compressed.pdf",
@@ -319,9 +209,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/07/09/no-226/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_225": {
+                },
                 "225_v4_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/225_v4_compressed.pdf",
@@ -329,9 +217,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/05/28/no-225/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_224": {
+                },
                 "224_v2-compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/224_v2-compressed.pdf",
@@ -339,9 +225,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/05/08/no-224/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_223": {
+                },
                 "v2_222_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/04/v2_222_compressed.pdf",
@@ -349,9 +233,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/04/03/no-223/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_222": {
+                },
                 "222_v4_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/02/222_v4_compressed.pdf",
@@ -359,9 +241,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/02/29/no-222/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_221": {
+                },
                 "221_v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/02/221_v3_compressed.pdf",
@@ -369,9 +249,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/02/01/no-221/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_220": {
+                },
                 "220_v3-compressed-1.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/01/220_v3-compressed-1.pdf",
@@ -379,9 +257,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2024/01/17/no-220/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_219": {
+                },
                 "v7_219.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/11/v7_219.pdf",
@@ -389,9 +265,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/11/21/no-219/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_218": {
+                },
                 "218_final_v7-compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/10/218_final_v7-compressed.pdf",
@@ -399,9 +273,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/10/18/no-218/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_217": {
+                },
                 "217_final_v8_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/09/217_final_v8_compressed.pdf",
@@ -409,9 +281,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/09/20/no-217/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_216": {
+                },
                 "216_final_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/08/216_final_compressed.pdf",
@@ -419,9 +289,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/08/18/no-216/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_215": {
+                },
                 "215.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/07/215.pdf",
@@ -429,9 +297,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/07/20/no-215/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_214": {
+                },
                 "214.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/07/214.pdf",
@@ -439,9 +305,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/07/08/no-214/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_213": {
+                },
                 "213_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/05/213_compressed.pdf",
@@ -449,9 +313,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/05/19/no-213/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_212": {
+                },
                 "212_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/05/212_compressed.pdf",
@@ -459,9 +321,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/04/18/no-212/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_211": {
+                },
                 "211-v4-min-1.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/03/211-v4-min-1.pdf",
@@ -469,9 +329,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/03/27/no-211/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_210": {
+                },
                 "210-v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/03/210-v3_compressed.pdf",
@@ -479,9 +337,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/03/16/no-210/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_209": {
+                },
                 "209-final-version_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/03/209-final-version_compressed.pdf",
@@ -489,9 +345,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/02/22/no-209/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_208": {
+                },
                 "207-v3.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/01/207-v3.pdf",
@@ -499,9 +353,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2023/01/20/no-208/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_207": {
+                },
                 "207-v3_compressed.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/12/207-v3_compressed.pdf",
@@ -509,9 +361,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/12/06/no-207/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_206": {
+                },
                 "206.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/206.pdf",
@@ -519,9 +369,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/10/31/no-206/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_205": {
+                },
                 "205-v6.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/205-v6.pdf",
@@ -529,9 +377,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/10/31/no-205/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_204": {
+                },
                 "204-v5.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/204-v5.pdf",
@@ -539,9 +385,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/10/31/no-204/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_203": {
+                },
                 "203-finalv3.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/203-finalv3.pdf",
@@ -549,9 +393,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/08/19/no-203/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_202": {
+                },
                 "202.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/202.pdf",
@@ -559,9 +401,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/07/22/no-202/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_201": {
+                },
                 "201-v3.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "http://www.asofinbolivia.com/wp-content/uploads/2022/05/201-v3.pdf",
@@ -569,9 +409,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/05/30/no-201/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_200": {
+                },
                 "200-1.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/10/200-1.pdf",
@@ -579,9 +417,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/05/16/no-200/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_199": {
+                },
                 "199.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/04/199.pdf",
@@ -589,9 +425,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/04/01/no-199/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_198": {
+                },
                 "198.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/04/198.pdf",
@@ -599,9 +433,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/17/no-198/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_197": {
+                },
                 "197-final.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/197-final.pdf",
@@ -609,9 +441,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/17/no-197/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_190": {
+                },
                 "boletin190.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin190.pdf",
@@ -619,9 +449,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-190/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_189": {
+                },
                 "boletin189.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin189.pdf",
@@ -629,9 +457,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-189/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_188": {
+                },
                 "boletin188.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin188.pdf",
@@ -639,9 +465,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-188/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_187": {
+                },
                 "boletin187.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin187.pdf",
@@ -649,9 +473,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-187/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_186": {
+                },
                 "boletin186.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin186.pdf",
@@ -659,9 +481,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-186/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_185": {
+                },
                 "boletin185.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin185.pdf",
@@ -669,9 +489,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-185/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_184": {
+                },
                 "boletin184.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin184.pdf",
@@ -679,9 +497,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-184/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_183": {
+                },
                 "boletin183.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin183.pdf",
@@ -689,9 +505,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-183/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_182": {
+                },
                 "boletin182.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin182.pdf",
@@ -699,9 +513,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-182/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_181": {
+                },
                 "boletin181.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin181.pdf",
@@ -709,9 +521,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-181/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_180": {
+                },
                 "boletin180.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin180.pdf",
@@ -719,9 +529,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-180/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_179": {
+                },
                 "boletin179.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin179.pdf",
@@ -729,9 +537,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-179/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_178": {
+                },
                 "boletin178.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin178.pdf",
@@ -739,9 +545,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-178/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_177": {
+                },
                 "boletin177.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin177.pdf",
@@ -749,9 +553,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-177/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_176": {
+                },
                 "boletin176.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin176.pdf",
@@ -759,9 +561,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-176/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_175": {
+                },
                 "boletin175.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin175.pdf",
@@ -769,9 +569,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-175/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_174": {
+                },
                 "boletin174.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin174.pdf",
@@ -779,9 +577,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-174/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_173": {
+                },
                 "boletin173.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin173.pdf",
@@ -789,9 +585,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-173/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_172": {
+                },
                 "boletin172.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin172.pdf",
@@ -799,9 +593,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-172/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_171": {
+                },
                 "boletin171.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin171.pdf",
@@ -809,9 +601,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-171/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_170": {
+                },
                 "boletin170.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin170.pdf",
@@ -819,9 +609,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-170/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_169": {
+                },
                 "boletin169.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin169.pdf",
@@ -829,9 +617,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-169/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_168": {
+                },
                 "boletin168.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin168.pdf",
@@ -839,9 +625,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-168/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_167": {
+                },
                 "boletin167.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin167.pdf",
@@ -849,9 +633,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-167/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_166": {
+                },
                 "boletin166.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin166.pdf",
@@ -859,9 +641,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-166/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_165": {
+                },
                 "boletin165.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin165.pdf",
@@ -869,9 +649,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-165/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_164": {
+                },
                 "boletin164.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin164.pdf",
@@ -879,9 +657,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-164/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_163": {
+                },
                 "boletin163.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin163.pdf",
@@ -889,9 +665,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-163/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_162": {
+                },
                 "boletin162.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin162.pdf",
@@ -899,9 +673,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-162/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_161": {
+                },
                 "boletin161.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin161.pdf",
@@ -909,9 +681,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-161/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_160": {
+                },
                 "boletin160.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin160.pdf",
@@ -919,9 +689,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-160/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_159": {
+                },
                 "boletin159.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin159.pdf",
@@ -929,9 +697,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-159/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_158": {
+                },
                 "boletin158.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin158.pdf",
@@ -939,9 +705,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-158/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_157": {
+                },
                 "boletin157.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin157.pdf",
@@ -949,9 +713,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-157/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_156": {
+                },
                 "boletin156.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin156.pdf",
@@ -959,9 +721,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-156/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_155": {
+                },
                 "boletin155.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin155.pdf",
@@ -969,9 +729,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-155/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_154": {
+                },
                 "boletin154.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin154.pdf",
@@ -979,9 +737,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-154/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_153": {
+                },
                 "boletin153.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin153.pdf",
@@ -989,9 +745,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-153/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_152": {
+                },
                 "boletin152.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin152.pdf",
@@ -999,9 +753,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-152/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_151": {
+                },
                 "boletin151.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin151.pdf",
@@ -1009,9 +761,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-151/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_150": {
+                },
                 "boletin150.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin150.pdf",
@@ -1019,9 +769,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-150/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_149": {
+                },
                 "boletin149.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin149.pdf",
@@ -1029,9 +777,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-149/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_148": {
+                },
                 "boletin148.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin148.pdf",
@@ -1039,9 +785,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-148/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_147": {
+                },
                 "boletin147.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin147.pdf",
@@ -1049,9 +793,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-147/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_146": {
+                },
                 "boletin146.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin146.pdf",
@@ -1059,9 +801,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-146/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_145": {
+                },
                 "boletin145.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin145.pdf",
@@ -1069,9 +809,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-145/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_144": {
+                },
                 "boletin144.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin144.pdf",
@@ -1079,9 +817,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-144/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_143": {
+                },
                 "boletin143.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin143.pdf",
@@ -1089,9 +825,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-143/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_142": {
+                },
                 "boletin142.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin142.pdf",
@@ -1099,9 +833,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-142/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_141": {
+                },
                 "boletin141.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin141.pdf",
@@ -1109,9 +841,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-141/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_140": {
+                },
                 "boletin140.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin140.pdf",
@@ -1119,9 +849,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-140/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_139": {
+                },
                 "boletin139.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin139.pdf",
@@ -1129,9 +857,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-139/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_138": {
+                },
                 "boletin138.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin138.pdf",
@@ -1139,9 +865,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-138/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_137": {
+                },
                 "boletin137.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin137.pdf",
@@ -1149,9 +873,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-137/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_136": {
+                },
                 "boletin136.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin136.pdf",
@@ -1159,9 +881,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-136/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_135": {
+                },
                 "boletin135.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin135.pdf",
@@ -1169,9 +889,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-135/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_134": {
+                },
                 "boletin134.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin134.pdf",
@@ -1179,9 +897,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-134/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_133": {
+                },
                 "boletin133.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin133.pdf",
@@ -1189,9 +905,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-133/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_132": {
+                },
                 "boletin132.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin132.pdf",
@@ -1199,9 +913,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-132/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_131": {
+                },
                 "boletin131.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin131.pdf",
@@ -1209,9 +921,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-131/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_130": {
+                },
                 "boletin130.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin130.pdf",
@@ -1219,9 +929,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-130/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_129": {
+                },
                 "boletin129.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin129.pdf",
@@ -1229,9 +937,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-129/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_128": {
+                },
                 "boletin128.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin128.pdf",
@@ -1239,9 +945,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-128/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_127": {
+                },
                 "boletin127.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin127.pdf",
@@ -1249,9 +953,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-127/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_126": {
+                },
                 "boletin126.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin126.pdf",
@@ -1259,9 +961,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-126/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_125": {
+                },
                 "boletin125.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin125.pdf",
@@ -1269,9 +969,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-125/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_124": {
+                },
                 "boletin124.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin124.pdf",
@@ -1279,9 +977,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-124/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_123": {
+                },
                 "boletin123.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin123.pdf",
@@ -1289,9 +985,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-123/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_122": {
+                },
                 "boletin122.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin122.pdf",
@@ -1299,9 +993,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-122/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_121": {
+                },
                 "boletin121.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin121.pdf",
@@ -1309,9 +1001,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-121/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_120": {
+                },
                 "boletin120.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin120.pdf",
@@ -1319,9 +1009,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-120/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_119": {
+                },
                 "boletin119.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin119.pdf",
@@ -1329,9 +1017,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-119/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_118": {
+                },
                 "boletin118.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin118.pdf",
@@ -1339,9 +1025,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-118/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_117": {
+                },
                 "boletin117.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin117.pdf",
@@ -1349,9 +1033,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-117/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_116": {
+                },
                 "boletin116.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin116.pdf",
@@ -1359,9 +1041,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-116/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_115": {
+                },
                 "boletin115.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin115.pdf",
@@ -1369,9 +1049,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-115/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_114": {
+                },
                 "boletin114.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin114.pdf",
@@ -1379,9 +1057,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-114/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_113": {
+                },
                 "boletin113.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin113.pdf",
@@ -1389,9 +1065,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-113/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_112": {
+                },
                 "boletin112.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin112.pdf",
@@ -1399,9 +1073,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-112/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_111": {
+                },
                 "boletin111.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin111.pdf",
@@ -1409,9 +1081,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-111/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_110": {
+                },
                 "boletin110.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin110.pdf",
@@ -1419,9 +1089,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-110/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_109": {
+                },
                 "boletin109.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin109.pdf",
@@ -1429,9 +1097,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-109/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_108": {
+                },
                 "boletin108.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin108.pdf",
@@ -1439,9 +1105,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-108/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_107": {
+                },
                 "boletin107.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin107.pdf",
@@ -1449,9 +1113,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-107/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_106": {
+                },
                 "boletin106.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin106.pdf",
@@ -1459,9 +1121,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-106/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_105": {
+                },
                 "boletin105.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin105.pdf",
@@ -1469,9 +1129,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-105/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_104": {
+                },
                 "boletin104.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin104.pdf",
@@ -1479,9 +1137,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-104/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_103": {
+                },
                 "boletin103.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin103.pdf",
@@ -1489,9 +1145,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-103/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_102": {
+                },
                 "boletin102.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin102.pdf",
@@ -1499,9 +1153,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-102/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_101": {
+                },
                 "boletin101.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin101.pdf",
@@ -1509,9 +1161,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-101/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_100": {
+                },
                 "boletin100.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin100.pdf",
@@ -1519,9 +1169,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-100/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_99": {
+                },
                 "boletin99.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin99.pdf",
@@ -1529,9 +1177,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-99/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_98": {
+                },
                 "boletin98.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin98.pdf",
@@ -1539,9 +1185,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-98/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_97": {
+                },
                 "boletin97.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin97.pdf",
@@ -1549,9 +1193,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-97/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_96": {
+                },
                 "boletin96.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin96.pdf",
@@ -1559,9 +1201,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-96/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_95": {
+                },
                 "boletin95.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin95.pdf",
@@ -1569,9 +1209,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-95/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_94": {
+                },
                 "boletin94.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin94.pdf",
@@ -1579,9 +1217,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-94/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_93": {
+                },
                 "boletin93.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin93.pdf",
@@ -1589,9 +1225,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-93/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_92": {
+                },
                 "boletin92.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin92.pdf",
@@ -1599,9 +1233,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-92/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_91": {
+                },
                 "boletin91.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin91.pdf",
@@ -1609,9 +1241,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-91/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_90": {
+                },
                 "boletin90.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin90.pdf",
@@ -1619,9 +1249,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-90/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_89": {
+                },
                 "boletin89.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin89.pdf",
@@ -1629,9 +1257,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-89/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_88": {
+                },
                 "boletin88.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin88.pdf",
@@ -1639,9 +1265,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-88/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_87": {
+                },
                 "boletin87.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin87.pdf",
@@ -1649,9 +1273,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-87/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_86": {
+                },
                 "boletin86.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin86.pdf",
@@ -1659,9 +1281,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-86/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_85": {
+                },
                 "boletin85.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin85.pdf",
@@ -1669,9 +1289,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-85/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_84": {
+                },
                 "boletin84.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin84.pdf",
@@ -1679,9 +1297,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-84/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_83": {
+                },
                 "boletin83.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin83.pdf",
@@ -1689,9 +1305,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-83/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_82": {
+                },
                 "boletin82.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin82.pdf",
@@ -1699,9 +1313,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-82/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_81": {
+                },
                 "boletin81.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin81.pdf",
@@ -1709,9 +1321,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-81/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_80": {
+                },
                 "boletin80.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin80.pdf",
@@ -1719,9 +1329,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-80/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_79": {
+                },
                 "boletin79.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin79.pdf",
@@ -1729,9 +1337,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-79/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_78": {
+                },
                 "boletin78.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin78.pdf",
@@ -1739,9 +1345,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-78/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_77": {
+                },
                 "boletin77.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin77.pdf",
@@ -1749,9 +1353,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-77/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_76": {
+                },
                 "boletin76.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin76.pdf",
@@ -1759,9 +1361,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-76/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_75": {
+                },
                 "boletin75.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin75.pdf",
@@ -1769,9 +1369,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-75/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_74": {
+                },
                 "boletin74.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin74.pdf",
@@ -1779,9 +1377,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-74/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_73": {
+                },
                 "boletin73.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin73.pdf",
@@ -1789,9 +1385,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-73/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_72": {
+                },
                 "boletin72.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin72.pdf",
@@ -1799,9 +1393,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-72/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_71": {
+                },
                 "boletin71.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin71.pdf",
@@ -1809,9 +1401,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-71/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_70": {
+                },
                 "boletin70.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin70.pdf",
@@ -1819,9 +1409,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-70/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_69": {
+                },
                 "boletin69.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin69.pdf",
@@ -1829,9 +1417,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-69/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_67": {
+                },
                 "boletin67.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin67.pdf",
@@ -1839,9 +1425,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-67/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_66": {
+                },
                 "boletin66.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin66.pdf",
@@ -1849,9 +1433,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-66/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_65": {
+                },
                 "boletin65.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin65.pdf",
@@ -1859,9 +1441,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-65/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_64": {
+                },
                 "boletin64.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin64.pdf",
@@ -1869,9 +1449,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-64/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_63": {
+                },
                 "boletin63.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin63.pdf",
@@ -1879,9 +1457,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-63/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_62": {
+                },
                 "boletin62.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin62.pdf",
@@ -1889,9 +1465,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-62/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_61": {
+                },
                 "boletin61.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin61.pdf",
@@ -1899,9 +1473,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-61/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_60": {
+                },
                 "boletin60.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin60.pdf",
@@ -1909,9 +1481,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-60/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_59": {
+                },
                 "boletin59.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin59.pdf",
@@ -1919,9 +1489,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-59/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_57": {
+                },
                 "boletin57.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin57.pdf",
@@ -1929,9 +1497,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-57/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_56": {
+                },
                 "boletin56.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin56.pdf",
@@ -1939,9 +1505,7 @@
                     "tipo_archivo": "PDF",
                     "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-56/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_55": {
+                },
                 "boletin55.csv": {
                     "descripcion": "Descargar",
                     "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin55.pdf",
@@ -1951,650 +1515,93 @@
                     "metodo_deteccion": "url_extension"
                 }
             },
-            "memoria_2024": {
-                "Memoria-Asofin-2024_compressed.csv": {
+            "Boletín_social": {
+                "Boletin-Social-202512_compressed.csv": {
                     "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Memoria-Asofin-2024_compressed.pdf",
+                    "url_descarga": "https://asofinbolivia.com/wp-content/uploads/2026/02/Boletin-Social-202512_compressed.pdf",
+                    "fecha_actualizacion": "2026-02",
+                    "tipo_archivo": "PDF",
+                    "url_origen": "https://asofinbolivia.com/index.php/2026/02/11/no-06/",
+                    "metodo_deteccion": "url_extension"
+                },
+                "Boletin-Social-202506v1.csv": {
+                    "descripcion": "Descargar",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/08/Boletin-Social-202506v1.pdf",
                     "fecha_actualizacion": "2025-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2025/08/11/memoria-2024/",
+                    "url_origen": "https://asofinbolivia.com/index.php/2025/08/01/no-05/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2023": {
-                "MEMORIA-ASOFIN-2023_v1.csv": {
+                },
+                "Boletin_Social_202412_nro4_compressed.csv": {
                     "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/09/MEMORIA-ASOFIN-2023_v1.pdf",
-                    "fecha_actualizacion": "2024-09",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/Boletin_Social_202412_nro4_compressed.pdf",
+                    "fecha_actualizacion": "2025-03",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2024/09/17/memoria-2023/",
+                    "url_origen": "https://asofinbolivia.com/index.php/2025/03/06/no-04/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2022": {
-                "MEMORIA-ASOFIN-2022_compressed-1.csv": {
+                },
+                "Boletin_Social_202409_V4_comp.csv": {
                     "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/10/MEMORIA-ASOFIN-2022_compressed-1.pdf",
-                    "fecha_actualizacion": "2023-10",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2025/03/Boletin_Social_202409_V4_comp.pdf",
+                    "fecha_actualizacion": "2025-03",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2023/10/30/memoria-2022/",
+                    "url_origen": "https://asofinbolivia.com/index.php/2025/03/06/no-03/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2021": {
-                "memoria-asofin-2021-final-web-min.csv": {
+                },
+                "Boletin_Social_062024.csv": {
                     "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2023/06/memoria-asofin-2021-final-web-min.pdf",
-                    "fecha_actualizacion": "2023-06",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/08/Boletin_Social_062024.pdf",
+                    "fecha_actualizacion": "2024-08",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2023/04/21/memoria-2021/",
+                    "url_origen": "https://asofinbolivia.com/index.php/2024/08/28/no-02/",
                     "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2020": {
-                "Memoria-ASOFIN-2020-media.csv": {
+                },
+                "Boletin-Social-202403_compressed-1.csv": {
                     "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/11/Memoria-ASOFIN-2020-media.pdf",
-                    "fecha_actualizacion": "2022-11",
+                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2024/05/Boletin-Social-202403_compressed-1.pdf",
+                    "fecha_actualizacion": "2024-05",
                     "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/08/09/memoria-2020/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2019": {
-                "Memoria2019.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Memoria2019.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/memoria-2019/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2018": {
-                "Memoria2018.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Memoria2018.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/memoria-2018/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2017": {
-                "Memoria2017.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Memoria2017.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/memoria-2017/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2015": {
-                "Memoria2015.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Memoria2015.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/memoria-2015/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2014": {
-                "Memoria2014.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Memoria2014.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/memoria-2014/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2013": {
-                "Memoria2013.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Memoria2013.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/10/memoria-2013/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2012": {
-                "memoria2012.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/memoria2012.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/10/memoria-2012/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2011": {
-                "memoria2011.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/memoria2011.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/09/memoria-2011/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "memoria_2010": {
-                "memoria2010.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/memoria2010.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/09/memoria-2010/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_196_2": {
-                "boletin196.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin196.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-196-2/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_195_2": {
-                "boletin195.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin195.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-195-2/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_194_2": {
-                "boletin194.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin194.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-194-2/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_193_2": {
-                "boletin193.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin193.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-193-2/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_192_2": {
-                "boletin192.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin192.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-192-2/",
-                    "metodo_deteccion": "url_extension"
-                }
-            },
-            "no_191_2": {
-                "boletin191.csv": {
-                    "descripcion": "Descargar",
-                    "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/boletin191.pdf",
-                    "fecha_actualizacion": "2022-03",
-                    "tipo_archivo": "PDF",
-                    "url_origen": "https://asofinbolivia.com/index.php/2022/03/11/no-191-2/",
+                    "url_origen": "https://asofinbolivia.com/index.php/2024/05/03/no-01/",
                     "metodo_deteccion": "url_extension"
                 }
             }
         },
-        "libro_capacidades_financieras_de_las_mujeres": {
-            "Capacidades_financieras_de_las_mujeres._Brechas_de_género_en_las_encuestas_de_capacidades_financieras_de_CAF_Brasil,_Colombia,_Ecuador_y_Perú.csv": {
-                "descripcion": "Resumen: CAF ha realizado encuestas de medición de capacidades financieras en ocho países de la región (Argentina, Bolivia, Brasil, Colombia, Chile, Ecuador, Paraguay y Perú) utilizando la metodología desarrollada por la Organización para la Cooperación y el Desarrollo Económicos (OCDE), la cual tiene como objetivo realizar un diagnóstico que permita identificar los conocimientos, habilidades, actitudes y comportamientos de los individuos con relación a los temas financieros. El uso de la metodología desarrollada por la OCDE permite que los resultados sean comparables entre países. Las encuestas realizadas para Brasil, Colombia, Ecuador y Perú han hechos visibles importantes hallazgos en términos de brechas de género por país, cuyo análisis y resultados se presentan a continuación, en cada una de las siguientes secciones: planificación financiera, ahorro, metas financieras, planes de jubilación, estrategias para llegar a fin de mes, resiliencia y vulnerabilidad financiera, tenencia de productos financieros, elección de productos financieros, confianza en las instituciones financieras, conocimientos financieros, actitudes financieras, comportamientos financieros, capacidades financieras y bienestar financiero. Auricchio, B., Lara, E., Mejía, D., Remicio, P., & Valdez, M. (2022). Capacidades financieras de las mujeres. Brechas de género en las encuestas de capacidades financieras de CAF: Brasil, Colombia, Ecuador y Perú. Caracas: CAF.",
-                "url_descarga": "https://scioteca.caf.com/bitstream/handle/123456789/1875/Capacidades%20financieras%20de%20las%20mujeres.%20Brechas%20de%20g%c3%a9nero%20en%20las%20encuestas%20de%20capacidades%20financieras%20de%20CAF_Brasil%2c%20Colombia%2c%20Ecuador%20y%20Per%c3%ba.pdf?isAllowed=y&sequence=1",
-                "fecha_actualizacion": "No disponible",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/23/libro-capacidades-financieras-de-las-mujeres/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_Global_2020_El_papel_de_la_inclusión_financiera_en_la_respuesta_frente_a_la_COVID-19": {
-            "El-Microscopio-Global-de-2020.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/El-Microscopio-Global-de-2020.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2020-el-papel-de-la-inclusion-financiera-en-la-respuesta-frente-a-la-covid-19/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_Global_2016_Análisis_del_Entorno_para_la_Inclusión_Financiera": {
-            "Microscopio-global-2016-inclusion-financiera.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Microscopio-global-2016-inclusion-financiera.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2016-analisis-del-entorno-para-la-inclusion-financiera/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_Global_2015_Análisis_del_Entorno_para_la_Inclusión_Financiera": {
-            "Microscopio_2015.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Microscopio_2015.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2015-analisis-del-entorno-para-la-inclusion-financiera/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_Global_2014_Análisis_del_entorno_para_la_inclusión_financiera": {
-            "Microscopio-2014.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Microscopio-2014.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-2014-analisis-del-entorno-para-la-inclusion-financiera/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Democracia_financiera_acceso_a_servicios_financieros_para_los_mas_pobres": {
-            "Democracia-Financiera-powerpoint-pdf.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Democracia-Financiera-powerpoint-pdf.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/democracia-financiera-acceso-a-servicios-financieros-para-los-mas-pobres/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Boletín_137": {
-            "Entrepeneurship-Iberoamerica-boletin137-2.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Entrepeneurship-Iberoamerica-boletin137-2.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/boletin-137/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Empresas_privadas_y_creación_de_oportunidades_económicas_para_micro_y_pequeñas_empresas": {
-            "empresasprivadas.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/empresasprivadas.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/empresas-privadas-y-creacion-de-oportunidades-economicas-para-micro-y-pequenas-empresas/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "MICROFINANCIERAS_–_Afianzandose_en_los_mercados_globales_de_capital": {
-            "Microf-SyPoor.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Microf-SyPoor.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/microfinancieras-afianzandose-en-los-mercados-globales-de-capital/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "LECCIONES_APRENDIDAS_SOBRE_REGULACIÓN_MICROFINANCIERA_EN_BOLIVIA": {
-            "Bolivia-Lecciones.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Bolivia-Lecciones.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/lecciones-aprendidas-sobre-regulacion-microfinanciera-en-bolivia/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Informe_ASOFIN_–_Gestión_2006": {
-            "infomre-ASOFIN-2006.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/infomre-ASOFIN-2006.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/informe-asofin-gestion-2006/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "como_los_bancos_incorporan_el_cambio_climatico_en_su_gestion_de_riesgos_primera_encuesta_en_america_latina_y_el_caribe": {
-            "REPORTE-BANCOS-Y-CC-EN-LAC-1_compressed.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/09/REPORTE-BANCOS-Y-CC-EN-LAC-1_compressed.pdf",
-                "fecha_actualizacion": "2022-09",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/09/30/como-los-bancos-incorporan-el-cambio-climatico-en-su-gestion-de-riesgos-primera-encuesta-en-america-latina-y-el-caribe/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "LA_DIMENSIÓN_DE_GÉNERO_EN_LA_TRANSFORMACIÓN_DIGITAL_EMPRESARIAL_DE_AMÉRICA_LATINA_Y_EL_CARIBE": {
-            "La-dimension-de-genero-en-la-transformacion-digital-empresarial-de-America-Latina-y-el-Caribe.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/08/La-dimension-de-genero-en-la-transformacion-digital-empresarial-de-America-Latina-y-el-Caribe.pdf",
-                "fecha_actualizacion": "2022-08",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/08/05/la-dimension-de-genero-en-la-transformacion-digital-empresarial-de-america-latina-y-el-carib/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "ODS_Objetivos_de_Desarrollo_Sostenible_Programa_de_las_Naciones_Unidas": {
-            "SDG_1_Spanish.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/SDG_1_Spanish.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/ods-1/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_Global_sobre_el_entorno_de_negocios_para_las_microfinanzas_2013": {
-            "Microscopio-BID-FOMIN-2013.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Microscopio-BID-FOMIN-2013.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-sobre-el-entorno-de-negocios-para-las-microfinanzas-2013/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_Global_sobre_el_entorno_de_negocios_para_las_microfinanzas_2012": {
-            "Informe-2012.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Informe-2012.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-sobre-el-entorno-de-negocios-para-las-microfinanzas-2012/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Microscopio_global_sobre_el_entorno_de_negocios_para_las_microfinanzas_2011": {
-            "Informe-2011.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Informe-2011.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/microscopio-global-sobre-el-entorno-de-negocios-para-las-microfinanzas-2011/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Benchmarking_de_las_Microfinanzas._América_Latina_y_El_Caribe_–_2009": {
-            "AL-Y-EL-CARIBE-2009.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/AL-Y-EL-CARIBE-2009.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/benchmarking-de-las-microfinanzas-america-latina-y-el-caribe-2009/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "El_nuevo_papel_de_gestión_del_riesgo_Reconstruyendo_el_modelo": {
-            "El-nuevo-papel-de-gestion-del-riesgo.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/El-nuevo-papel-de-gestion-del-riesgo.doc",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "DOC",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/el-nuevo-papel-de-gestion-del-riesgo-reconstruyendo-el-modelo/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Governments_in_microfinance_threat_or_opportunity?": {
-            "el-estado-ing.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/el-estado-ing.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/governments-in-microfinance-threat-or-opportunity/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "El_Estado_como_proveedor_de_servicios_microfinancieros_¿Amenaza_u_oportunidad?": {
-            "el-estado.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/el-estado.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/el-estado-como-proveedor-de-servicios-microfinancieros-amenaza-u-oportunidad/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "IMF_AUTOSUFICIENTES": {
-            "IMPACT-SEG.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/IMPACT-SEG.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/imf-autosuficientes/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Benchmarking_de_las_microfinanzas_Bolivia_–_2006": {
-            "mixBol-06.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/mixBol-06.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/benchmarking-de-las-microfinanzas-bolivia-2006/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "ASOFIN_INSTITUTIONAL_PRESENTATION_OCT_07": {
-            "English-Oct07.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/English-Oct07.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/asofin-institutional-presentation-oct-07/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "La_Industria_de_las_Microfinanzas_en_Bolivia_–_Diagnóstico_al_2004": {
-            "docFPKC.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/docFPKC.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/la-industria-de-las-microfinanzas-en-bolivia-diagnostico-al-2004/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Ventajas_y_Desventajas_del_Scoring_Estadístico": {
-            "Scoring_Ventajas_Desventajas.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Scoring_Ventajas_Desventajas.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/ventajas-y-desventajas-del-scoring-estadistico/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "LAS_MICROFINANZAS_REGULADAS_EN_BOLIVIA": {
-            "Microfinanzas-reguladas-HM.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Microfinanzas-reguladas-HM.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/las-microfinanzas-reguladas-en-bolivia/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "TASAS_DE_INTERÉS_EN_INSTITUCIONES_DE_MICROFINANZAS_EN_AMÉRICA_LATINA": {
-            "Tasas-A-Gonzalez.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Tasas-A-Gonzalez.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/tasas-de-interes-en-instituciones-de-microfinanzas-en-america-latina/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "TASAS_DE_INTERÉS_EN_MICROFINANZAS_Y_EL_ROL_DEL_GOBIERNO": {
-            "tasas-J-Buchenau.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/tasas-J-Buchenau.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/tasas-de-interes-en-microfinanzas-y-el-rol-del-gobierno/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "De_la_Ciudadanía_Global_al_Compromiso_Local": {
-            "Pacto-Global-Declaracion-de-Buenos-Aires.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Pacto-Global-Declaracion-de-Buenos-Aires.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/de-la-ciudadania-global-al-compromiso-local/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "CARACTERISTICAS_DE_LAS_TASAS_DE_INTERES_EN_LAS_MICROFINANZAS,_EL_CASO_DE_BOLIVIA": {
-            "Las-Tasas-de-Interes-Efrain-Camacho.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Las-Tasas-de-Interes-Efrain-Camacho.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/caracteristicas-de-las-tasas-de-interes-en-las-microfinanzas-el-caso-de-bolivia/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "El_modelo_Latinoamericano_de_microfinanzas_una_mirada_desde_adentro": {
-            "El-Modelo-latinoamericano-de-las-microfinanzas.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/El-Modelo-latinoamericano-de-las-microfinanzas.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/el-modelo-latinoamericano-de-microfinanzas-una-mirada-desde-adentro/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "PERFIL_DE_PROYECTO_DE_FACTIBILIDAD_DE_LA_DEFENSORIA_DEL_CONSUMIDOR_FINANCIERO": {
-            "DOC-COMPLETO-EN-PDF.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/DOC-COMPLETO-EN-PDF.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/perfil-de-proyecto-de-factibilidad-de-la-defensoria-del-consumidor-financiero/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Estrategias_y_estructuras_de_microfinanzas_para_la_banca_comercial": {
-            "Downscaling-para-Banca-Comercial-G.Westley.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Downscaling-para-Banca-Comercial-G.Westley.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/estrategias-y-estructuras-de-microfinanzas-para-la-banca-comercial/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "Nosotros": {
-            "estatuto.csv": {
-                "descripcion": "estatuto.pdf",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/02/estatuto.pdf",
-                "fecha_actualizacion": "2022-02",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/nosotros-1/",
-                "metodo_deteccion": "url_extension"
-            },
-            "acta-fundacion.csv": {
-                "descripcion": "acta-fundacion.pdf",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/04/acta-fundacion.pdf",
-                "fecha_actualizacion": "2022-04",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/nosotros-1/",
-                "metodo_deteccion": "url_extension"
-            },
-            "REPORTE_Y_CONSULTAS": {
-                "CONTENIDO_WEB": {
-                    "Nosotros_–_ASOFIN.csv": {
-                        "descripcion": "Nosotros – ASOFIN",
-                        "url_descarga": "https://asofinbolivia.com/index.php/nosotros-1/",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "WEB",
-                        "url_origen": "https://asofinbolivia.com/",
-                        "tipo_recurso": "web",
-                        "metodo_deteccion": "data_chart",
-                        "tiene_tabla_html": false,
-                        "tablas_detectadas": 0,
-                        "permite_exportar": false,
-                        "tiene_filtros": false
+        "Indicadores": {
+            "Indicadores_financieros": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "ASOFIN-Indicadores_Financieros.csv": {
+                            "descripcion": "ASOFIN-Indicadores Financieros",
+                            "url_descarga": "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_chart",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": false,
+                            "tiene_filtros": false
+                        }
                     }
                 }
-            }
-        },
-        "La_necesidad_de_una_transparencia_en_los_precios_en_las_microfinanzas": {
-            "Transparencia-de-costos-y-precios.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/Transparencia-de-costos-y-precios.docx",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "DOCX",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/13/la-necesidad-de-una-transparencia-en-los-precios-en-las-microfinanzas/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "microfinance_financial_systems_and_economic_growth_a_theoretical_framework_and_findings_from_bolivia": {
-            "MFSEG-TESIS.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/MFSEG-TESIS.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/microfinance-financial-systems-and-economic-growth-a-theoretical-framework-and-findings-from-bolivia/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "MICROFINANZAS_UNA_HISTORIA_DE_ÉXITO": {
-            "MICROFINANZAS-UNA-HISTORIA-DE-EXITO-H.Muller.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/MICROFINANZAS-UNA-HISTORIA-DE-EXITO-H.Muller.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/microfinanzas-una-historia-de-exito/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "LAS_MICROFINANZAS_EN_BOLIVIA_HISTORIA_Y_SITUACION_ACTUAL": {
-            "LAS-MICROFINANZAS-EN-BOLIVIA-dic-2005-PEDRO-ARRIOLA.csv": {
-                "descripcion": "Descargar",
-                "url_descarga": "https://www.asofinbolivia.com/wp-content/uploads/2022/03/LAS-MICROFINANZAS-EN-BOLIVIA-dic-2005-PEDRO-ARRIOLA.pdf",
-                "fecha_actualizacion": "2022-03",
-                "tipo_archivo": "PDF",
-                "url_origen": "https://asofinbolivia.com/index.php/2022/03/01/las-microfinanzas-en-boliviahistoria-y-situacion-actual/",
-                "metodo_deteccion": "url_extension"
-            }
-        },
-        "OTROS": {
-            "REPORTE_Y_CONSULTAS": {
-                "CONTENIDO_WEB": {
-                    "ASOFIN-Indicadores_Financieros.csv": {
-                        "descripcion": "ASOFIN-Indicadores Financieros",
-                        "url_descarga": "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "WEB",
-                        "url_origen": "https://www.asofinbolivia.com/graficos/indicadores_financieros/Reporte-Financiero.html",
-                        "tipo_recurso": "web",
-                        "metodo_deteccion": "data_chart",
-                        "tiene_tabla_html": false,
-                        "tablas_detectadas": 0,
-                        "permite_exportar": false,
-                        "tiene_filtros": false
-                    },
-                    "ASOFIN-Indicadores_Sociales.csv": {
-                        "descripcion": "ASOFIN-Indicadores Sociales",
-                        "url_descarga": "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
-                        "fecha_actualizacion": "No disponible",
-                        "tipo_archivo": "WEB",
-                        "url_origen": "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
-                        "tipo_recurso": "web",
-                        "metodo_deteccion": "data_chart",
-                        "tiene_tabla_html": false,
-                        "tablas_detectadas": 0,
-                        "permite_exportar": false,
-                        "tiene_filtros": false
+            },
+            "Indicadores_sociales": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "ASOFIN-Indicadores_Sociales.csv": {
+                            "descripcion": "ASOFIN-Indicadores Sociales",
+                            "url_descarga": "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://www.asofinbolivia.com/graficos/indicadores_sociales/Reporte-Social.html",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "data_chart",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": false,
+                            "tiene_filtros": false
+                        }
                     }
                 }
             }

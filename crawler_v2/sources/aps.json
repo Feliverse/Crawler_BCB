@@ -3,21 +3,21 @@
   "nombre": "Autoridad de Fiscalización y Control de Pensiones y Seguros",
   "base_url": "https://www.aps.gob.bo/",
   "fallback_urls": [
-  "https://www.aps.gob.bo/index.php?id=64&option=com_sppagebuilder&view=page",
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas"
+    "https://aps.gob.bo/"
   ],
   "allowed_domains": [
     "aps.gob.bo"
   ],
   "entrypoints": [
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas",
-  "https://www.aps.gob.bo/index.php?id=64&option=com_sppagebuilder&view=page",
-  "https://www.aps.gob.bo/"
+    "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDP%2FEstadisticas%2FBoletin+Estadistico+Mensual+del+Sistema+Integral+de+Pensiones",
+    "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2Fboletines%2Festadistico",
+    "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+Seguros",
+    "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=DP%2FRenta"
   ],
-  "max_depth": 12,
+  "max_depth": 6,
   "max_pages": 5000,
   "max_files": 100000,
-  "request_timeout": 15,
+  "request_timeout": 30,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
@@ -35,10 +35,49 @@
   },
   "high_priority_keywords": [
     "estadistica",
-    "boletin",
-    "seguros",
+    "estadisticas",
+    "boletin estadistico",
+    "boletín estadístico",
+    "anuario",
     "pensiones",
-    "soat",
-    "publicacion"
-  ]
+    "seguros",
+    "renta dignidad",
+    "gastos funerales"
+  ],
+  "relevance_positive_keywords": [
+    "boletin estadistico",
+    "boletín estadístico",
+    "anuario de seguros",
+    "estadistica renta dignidad",
+    "estadísticas renta dignidad",
+    "estadisticas de gastos funerales",
+    "estadísticas de gastos funerales",
+    "renta dignidad"
+  ],
+  "include_url_patterns": [
+    "/index.php/component/rsfiles/",
+    "/files/webdocs/RENTA/"
+  ],
+  "ignore_url_patterns": [
+    "sireci.aps.gob.bo/api/",
+    "api.aps.gob.bo/"
+  ],
+  "force_drop_url_patterns": [
+    "/component/rsfiles/details?"
+  ],
+  "adapter_positive_patterns": [
+    "boletin estadistico",
+    "boletin+estadistico",
+    "anuarios de seguros",
+    "anuarios+de+seguros",
+    "/dp/renta",
+    "estadistica"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

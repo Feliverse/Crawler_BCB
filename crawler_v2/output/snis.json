@@ -1,0 +1,133 @@
+{
+    "ESTADISTICAS": {
+        "Reportes_Dinamicos": {
+            "ESTRUCTURA_EE.SS._GESTION_2025_DASHBOARD_Cerrado_Oficial.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2025",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2025_DASHBOARD_Cerrado_Oficial.xlsx",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_EE.SS._GESTION_2024_DASHBOARD_Cerrado_Oficial.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2024",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2024_DASHBOARD_Cerrado_Oficial.xlsx",
+                "fecha_actualizacion": "2024",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_EE.SS._GESTION_2023_DASHBOARD_Cerrado_Oficial.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2023",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2023_DASHBOARD_Cerrado_Oficial.xlsx",
+                "fecha_actualizacion": "2023",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_DE_EE.SS._GESTION_2022_DASHBOARDcerrado_oficial.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2022",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EE.SS. GESTION 2022_DASHBOARDcerrado oficial.xlsx",
+                "fecha_actualizacion": "2022",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_EE.SS._GESTION_2021_DASHBOARD_Cerrado_Oficial.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2021",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2021_DASHBOARD_Cerrado_Oficial.xlsx",
+                "fecha_actualizacion": "2021",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_DE_EE.SS._GESTION_2020_DASHBOARDcerrado_oficial_(13)PUBLICADO.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2020",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EE.SS. GESTION 2020_DASHBOARDcerrado oficial (13)PUBLICADO.xlsx",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_DE_EESS_TODOS_LOS_SUBSECTORES_2019_cerrado.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2019",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EESS_TODOS LOS SUBSECTORES_2019_cerrado.xlsx",
+                "fecha_actualizacion": "2019",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ESTRUCTURA_DE_EESS_2018_cerrado.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2018",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EESS_2018_cerrado.xlsx",
+                "fecha_actualizacion": "2018",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Establecimientos_2005_2017_CERRADO.csv": {
+                "descripcion": "ESTRUCTURA DE ESTABLECIMIENTOS CERRADO 2005-2017",
+                "url_descarga": "https://estadisticas.minsalud.gob.bo/archivos/Establecimientos 2005_2017 CERRADO.xlsx",
+                "fecha_actualizacion": "2017",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "https_estadisticas.minsalud.gob.bo_Reportes_Dinamicos_Menu_rep_dinamicos.aspx.csv": {
+                        "descripcion": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                        "url_descarga": "https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://snis.minsalud.gob.bo/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 3,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Producción_de_Servicios": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Reportes_Dinámicos.csv": {
+                        "descripcion": "Reportes Dinámicos",
+                        "url_descarga": "https://estadisticas.minsalud.gob.bo/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://snis.minsalud.gob.bo/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Vigilancia_Epidemiológica": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "https_estadisticas.minsalud.gob.bo_Default_Vigilancia.aspx.csv": {
+                        "descripcion": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+                        "url_descarga": "https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://snis.minsalud.gob.bo/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,115 +2,61 @@
 CRAWLER V2
 ================================================================================
 Fuente: Federación de Asociaciones Municipales de Bolivia
-URL configurada: https://fam.org.bo/
+URL configurada: https://sistemaseconomicoslocales.fam.org.bo/
 Timeout HTTP: 15 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
 
 Resolución de fuente:
-  Original: https://fam.org.bo/
-  Utilizada: https://fam.org.bo/
-  Fallback: no
-  Intentos: 1
-    - usable         | HTTP=200 | https://fam.org.bo/
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - request_error  | HTTP=- | https://sistemaseconomicoslocales.fam.org.bo/
+    - request_error  | HTTP=- | https://www.sistemaseconomicoslocales.fam.org.bo/
+    - request_error  | HTTP=- | http://sistemaseconomicoslocales.fam.org.bo/
+    - request_error  | HTTP=- | http://www.sistemaseconomicoslocales.fam.org.bo/
 
-URL de trabajo: https://fam.org.bo/
-Seeds: 2
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
-Sitemaps: activo
-Máx URLs sitemap: 10000
+URL de trabajo: https://sistemaseconomicoslocales.fam.org.bo/
+Seeds: 5
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
-    crawler.crawl()
-    ~~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
-    self._queue_sitemap_seeds(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        queue,
-        ^^^^^^
-        result,
-        ^^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
-    discovery = self.sitemap_discovery.discover(
-        base_url=base_url,
-    ...<3 lines>...
-        max_document_bytes=self.max_sitemap_bytes,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 479, in discover
-    for sitemap_url in self._robots_sitemaps(
-                       ~~~~~~~~~~~~~~~~~~~~~^
-        normalized_base,
-        ^^^^^^^^^^^^^^^^
-        allowed_domains,
-        ^^^^^^^^^^^^^^^^
-        request_timeout=robots_timeout,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ):
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 265, in _robots_sitemaps
-    response = self.client.get(
-        robots_url,
-        raise_for_status=False,
-        timeout=request_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
-    httplib_response = super().getresponse()
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-KeyboardInterrupt
+[FAM] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   4 | prio= 0 | https://sistemaseconomicoslocales.fam.org.bo/
+[FAM] t=  16.4s | pag=  0 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=   3 | prio= 0 | https://sistemaseconomicoslocales.fam.org.bo/sistemas-economicos-locales.html
+[FAM] t=  32.2s | pag=  0 | files=   0 | data=  0 | req=   2 | rej=   0 | cola=   2 | prio= 0 | https://fam.org.bo/directorio-municipal/
+[FAM] t=  48.3s | pag=  0 | files=   0 | data=  0 | req=   3 | rej=   0 | cola=   1 | prio= 0 | https://fam.org.bo/memoria-institucional/
+[FAM] t=  64.3s | pag=  0 | files=   0 | data=  0 | req=   4 | rej=   0 | cola=   0 | prio= 0 | https://fam.org.bo/publicaciones/
+[FAM] HTTP TOTAL | requests=9 | GET=9 | HEAD=0
+[FAM] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[FAM] BUDGET | req=5 | utiles=0 | rechazados=0 | sin_valor=5
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fam
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              5
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             80.44 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - TIMEOUT -> https://sistemaseconomicoslocales.fam.org.bo/
+  - TIMEOUT -> https://sistemaseconomicoslocales.fam.org.bo/sistemas-economicos-locales.html
+  - TIMEOUT -> https://fam.org.bo/directorio-municipal/
+  - TIMEOUT -> https://fam.org.bo/memoria-institucional/
+  - TIMEOUT -> https://fam.org.bo/publicaciones/
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fam.json
+
+Trazabilidad:
+  Ejecución: 317
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

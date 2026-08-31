@@ -1,37 +1,110 @@
 {
   "id_fuente": "dgac",
   "nombre": "Dirección General de Aeronáutica Civil",
-  "base_url": "https://www.dgac.gob.bo/",
+  "base_url": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
   "allowed_domains": [
-    "dgac.gob.bo"
+    "dgac.gob.bo",
+    "www.dgac.gob.bo"
   ],
   "entrypoints": [
-    "https://www.dgac.gob.bo/"
+    "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+    "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+    "https://www.dgac.gob.bo/autorizaciones-de-vuelos/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/anuario-estadistico-dta/",
+    "/informes-mensuales-de-trafico-aereo",
+    "/autorizaciones-de-vuelos/",
+    "/wp-content/uploads/"
+  ],
   "high_priority_keywords": [
+    "anuario estadistico",
+    "anuario estadístico",
+    "trafico aereo",
+    "tráfico aéreo",
+    "transporte aereo",
+    "transporte aéreo",
+    "estadisticas",
+    "estadísticas",
+    "pasajeros",
+    "operaciones",
+    "aeropuertos",
+    "carga",
+    "correo",
+    "nacional",
+    "internacional"
+  ],
+  "medium_priority_keywords": [
+    "mensual",
+    "anual",
+    "gestion",
+    "gestión",
+    "aerocomercial",
+    "vuelo",
+    "vuelos",
+    "mercado domestico",
+    "mercado doméstico"
+  ],
+  "adapter_positive_patterns": [
+    "/anuario-estadistico-dta/",
+    "/informes-mensuales-de-trafico-aereo",
+    "/wp-content/uploads/"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/"
+  ],
+  "force_data_url_patterns": [
+    "/anuario-estadistico-dta/",
+    "/informes-mensuales-de-trafico-aereo-2026/"
+  ],
+  "data_keywords": [
+    "pasajeros",
+    "trafico",
+    "tráfico",
+    "transporte",
+    "operaciones",
+    "aeropuerto",
+    "aeropuertos",
+    "carga",
     "estadistica",
-    "aeronautica",
-    "boletin",
-    "publicacion",
-    "documento"
+    "estadística"
+  ],
+  "relevance_positive_keywords": [
+    "informe mensual de tráfico aéreo",
+    "informe mensual de trafico aereo",
+    "anuario estadístico de transporte aéreo comercial",
+    "anuario estadistico de transporte aereo comercial",
+    "movimiento de pasajeros",
+    "transporte aéreo de pasajeros"
+  ],
+  "low_priority_keywords": [
+    "normativa",
+    "reglamento",
+    "licencias",
+    "contrataciones",
+    "convocatorias",
+    "auditoria",
+    "auditoría",
+    "recursos humanos",
+    "transparencia"
+  ],
+  "ignore_url_patterns": [
+    "/auditoria",
+    "/contrataciones",
+    "/convocatorias",
+    "/transparencia",
+    "/licencias-al-personal",
+    "/codigo-de-etica"
   ]
 }

@@ -1,0 +1,57 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "BOL.csv": {
+                        "descripcion": "BOL",
+                        "url_descarga": "https://api.worldbank.org/v2/en/country/BOL?downloadformat=csv",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://api.worldbank.org/v2/en/country/BOL?downloadformat=csv",
+                        "contenido_zip": [
+                            "Metadata_Indicator_API_BOL_DS2_en_csv_v2_13280.csv",
+                            "API_BOL_DS2_en_csv_v2_13280.csv",
+                            "Metadata_Country_API_BOL_DS2_en_csv_v2_13280.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65824,
+                        "metodo_deteccion": "content_disposition",
+                        "content_type": "application/zip"
+                    },
+                    "BOL_2.csv": {
+                        "descripcion": "BOL",
+                        "url_descarga": "https://api.worldbank.org/v2/en/country/BOL?downloadformat=xml",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://api.worldbank.org/v2/en/country/BOL?downloadformat=xml",
+                        "contenido_zip": [
+                            "API_BOL_DS2_en_xml_v2_14310.xml"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65634,
+                        "metodo_deteccion": "content_disposition",
+                        "content_type": "application/zip"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Bolivia_|_Data.csv": {
+                        "descripcion": "Bolivia | Data",
+                        "url_descarga": "https://data.worldbank.org/country/bolivia",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.worldbank.org/country/bolivia",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,16 +1,65 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
-    import re as _re
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 126, in <module>
-    from . import _compiler, _parser
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 16, in <module>
-    from ._casefix import _EXTRA_CASES
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
-  File "<frozen importlib._bootstrap_external>", line 1217, in get_data
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Servicio Plurinacional de Registro de Comercio
+URL configurada: https://www.seprec.gob.bo/index.php/datos/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.seprec.gob.bo/index.php/datos/
+  Utilizada: https://www.seprec.gob.bo/index.php/datos/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.seprec.gob.bo/index.php/datos/
+
+URL de trabajo: https://www.seprec.gob.bo/index.php/datos/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[SEPREC] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   1 | prio= 0 | https://www.seprec.gob.bo/index.php/datos/
+[SEPREC] DATASETS=1 | score=90 | configured_data_page | https://www.seprec.gob.bo/index.php/datos/
+[SEPREC] ARCHIVO UTIL=1 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-RENOV-NOV_v1.pdf
+[SEPREC] ARCHIVO UTIL=2 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-NOV_v1.pdf
+[SEPREC] ARCHIVO UTIL=3 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-NUEVAS-NOV_v1.pdf
+[SEPREC] ARCHIVO UTIL=4 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/01/Informacion-ESTADISTICA-WEB-NUEVAS-1.pdf
+[SEPREC] ARCHIVO UTIL=5 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/10/Informacion-ESTADISTICA-WEB-RENOV-1.pdf
+[SEPREC] ARCHIVO UTIL=6 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/10/Informacion-ESTADISTICA-WEB_v2.pdf
+[SEPREC] ARCHIVO UTIL=7 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/11/Informacion-ESTADISTICA-WEB-SEP.pdf
+[SEPREC] ARCHIVO UTIL=8 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/11/Informacion-ESTADISTICA-WEB-RENOV-SEP.pdf
+[SEPREC] ARCHIVO UTIL=9 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/11/Informacion-ESTADISTICA-WEB-NUEVAS-SEP.pdf
+[SEPREC] ARCHIVO UTIL=10 | score=100 | pdf | https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-RENOV-OCT.pdf
+[SEPREC] t=   1.6s | pag=  1 | files=  12 | data=  1 | req=   1 | rej=   0 | cola=   0 | prio= 0 | https://www.seprec.gob.bo/index.php/reportes-de-estadisticas/
+[SEPREC] HTTP TOTAL | requests=3 | GET=3 | HEAD=0
+[SEPREC] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[SEPREC] BUDGET | req=2 | utiles=13 | rechazados=1 | sin_valor=1
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              seprec
+Páginas visitadas:   2
+Archivos encontrados:   12
+Datasets web:         1
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             2.28 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 12
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\seprec.json
+
+Trazabilidad:
+  Ejecución: 338
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

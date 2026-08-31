@@ -2,63 +2,98 @@
 CRAWLER V2
 ================================================================================
 Fuente: Doing Business / Business Ready - Banco Mundial
-URL configurada: https://www.worldbank.org/en/businessready
+URL configurada: https://www.worldbank.org/en/businessready/data
 Timeout HTTP: 15 s
-Pausa HTTP:   aleatoria 0.30s - 0.90s
+Pausa HTTP:   aleatoria 0.30s - 0.80s
 Verificación TLS: activa
 
 
 Resolución de fuente:
-  Original: https://www.worldbank.org/en/businessready
-  Utilizada: https://www.worldbank.org/en/businessready
+  Original: https://www.worldbank.org/en/businessready/data
+  Utilizada: https://www.worldbank.org/en/businessready/data
   Fallback: no
   Intentos: 1
-    - usable         | HTTP=200 | https://www.worldbank.org/en/businessready
+    - usable         | HTTP=200 | https://www.worldbank.org/en/businessready/data
 
-URL de trabajo: https://www.worldbank.org/en/businessready
-Seeds: 1
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
-Sitemaps: activo
-Máx URLs sitemap: 10000
+URL de trabajo: https://www.worldbank.org/en/businessready/data
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
-    crawler.crawl()
-    ~~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
-    self._queue_sitemap_seeds(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        queue,
-        ^^^^^^
-        result,
-        ^^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
-    discovery = self.sitemap_discovery.discover(
-        base_url=base_url,
-    ...<3 lines>...
-        max_document_bytes=self.max_sitemap_bytes,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 573, in discover
-    response = self.client.get(
-        sitemap_url,
-        raise_for_status=False,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 268, in get
-    self._wait()
-    ~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 241, in _wait
-    time.sleep(
-    ~~~~~~~~~~^
-        remaining
-        ^^^^^^^^^
-    )
-    ^
-KeyboardInterrupt
+[DOING_BUSINESS] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   5 | prio= 0 | https://www.worldbank.org/en/businessready/data
+[DOING_BUSINESS] DATASETS=1 | score=65 | configured_data_page | https://www.worldbank.org/en/businessready/data
+[DOING_BUSINESS] ARCHIVO UTIL=1 | score=100 | zip | https://www.worldbank.org/content/dam/sites/b-ready/documents/excel/B-READY_ALL_DATA_2025.zip
+[DOING_BUSINESS] t=   2.2s | pag=  1 | files=   1 | data=  1 | req=   1 | rej=   0 | cola=  15 | prio= 0 | https://www.worldbank.org/en/businessready
+[DOING_BUSINESS] t=   3.3s | pag=  2 | files=   1 | data=  1 | req=   2 | rej=   3 | cola=  25 | prio= 0 | https://www.worldbank.org/content/dam/sites/b-ready/documents/excel/B-READY_ALL_DATA_2025.zip
+[DOING_BUSINESS] t=   4.1s | pag=  2 | files=   1 | data=  1 | req=   3 | rej=   3 | cola=  24 | prio= 0 | https://archive.doingbusiness.org/en/data
+[DOING_BUSINESS] DATASETS=2 | score=65 | configured_data_page | https://archive.doingbusiness.org/en/data
+[DOING_BUSINESS] ARCHIVO UTIL=2 | score=100 | xlsx | https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/Explanations-for-Historical-Data-Changes.xlsx
+[DOING_BUSINESS] ARCHIVO UTIL=3 | score=100 | xlsx | https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/Historical-Data--DB04-DB20-.xlsx
+[DOING_BUSINESS] ARCHIVO UTIL=4 | score=100 | xlsx | https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/DB2021_PT_GNIpc-update.xlsx
+[DOING_BUSINESS] ARCHIVO UTIL=5 | score=100 | xlsx | https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/DB2021_TAB_Case-study-update.xlsx
+[DOING_BUSINESS] ARCHIVO UTIL=6 | score=99 | dta | https://archive.doingbusiness.org/content/dam/misc/doingbusiness/db2020/Historical-data.dta
+[DOING_BUSINESS] ARCHIVO UTIL=7 | score=93 | dta | https://archive.doingbusiness.org/content/dam/misc/doingbusiness/db2020/Best-and-worst-performance.dta
+[DOING_BUSINESS] ARCHIVO UTIL=8 | score=93 | dta | https://archive.doingbusiness.org/content/dam/misc/doingbusiness/db2020/Weights.dta
+[DOING_BUSINESS] t=   6.1s | pag=  3 | files=   8 | data=  2 | req=   4 | rej=   4 | cola=  25 | prio= 0 | https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/Historical-Data--DB04-DB20-.xlsx
+[DOING_BUSINESS] t=   8.6s | pag=  3 | files=   8 | data=  2 | req=   5 | rej=   4 | cola=  24 | prio= 0 | https://datacatalog.worldbank.org/search/dataset/0038564/doing-business
+[DOING_BUSINESS] DATASETS=3 | score=80 | configured_data_page | https://datacatalog.worldbank.org/search/dataset/0038564/doing-business
+[DOING_BUSINESS] ARCHIVO UTIL=9 | score=100 | zip | https://databank.worldbank.org/data/download/DB_CSV.zip
+[DOING_BUSINESS] ARCHIVO UTIL=10 | score=100 | zip | https://databank.worldbank.org/data/download/DB_EXCEL.zip
+[DOING_BUSINESS] t=  18.5s | pag=  4 | files=  11 | data=  3 | req=   6 | rej=   4 | cola=  24 | prio=10 | https://www.worldbank.org/en/businessready/about-us/our-mission
+[DOING_BUSINESS] t=  19.6s | pag=  5 | files=  11 | data=  3 | req=   7 | rej=   4 | cola=  23 | prio=10 | https://www.worldbank.org/en/businessready/about-us/project-milestones
+[DOING_BUSINESS] t=  20.1s | pag=  6 | files=  11 | data=  3 | req=   8 | rej=   5 | cola=  22 | prio=10 | https://www.worldbank.org/en/businessready/about-us/meet-the-team
+[DOING_BUSINESS] t=  20.8s | pag=  7 | files=  11 | data=  3 | req=   9 | rej=   5 | cola= 123 | prio=10 | https://www.worldbank.org/en/businessready/engagements/global-contributors
+[DOING_BUSINESS] t=  21.3s | pag=  8 | files=  11 | data=  3 | req=  10 | rej=   5 | cola= 122 | prio=10 | https://www.worldbank.org/en/businessready/engagements/governments
+[DOING_BUSINESS] DATASETS=4 | score=65 | exportable_data_page | https://www.worldbank.org/en/businessready/engagements/governments
+[DOING_BUSINESS] t=  21.7s | pag=  9 | files=  12 | data=  4 | req=  11 | rej=   6 | cola= 122 | prio=10 | https://www.worldbank.org/en/businessready/about-us/covered-economies
+[DOING_BUSINESS] DATASETS=5 | score=45 | data_html_table | https://www.worldbank.org/en/businessready/about-us/covered-economies
+[DOING_BUSINESS] t=  22.5s | pag= 10 | files=  12 | data=  5 | req=  12 | rej=   6 | cola= 121 | prio=10 | https://archive.doingbusiness.org/en/data/data-revisions
+[DOING_BUSINESS] t=  24.1s | pag= 11 | files=  22 | data=  5 | req=  13 | rej=   9 | cola= 120 | prio=10 | https://archive.doingbusiness.org/en/data/exploreeconomies/economycharacteristics
+[DOING_BUSINESS] t=  24.7s | pag= 12 | files=  22 | data=  5 | req=  14 | rej=  10 | cola= 120 | prio=10 | https://datacatalog.worldbank.org/search/dataset/0038564/doing-business/apiservice?DATABASE_ID=&resourceName=Doing+Business
+[DOING_BUSINESS] DATASETS=6 | score=90 | configured_data_page | https://datacatalog.worldbank.org/search/dataset/0038564/doing-business/apiservice?DATABASE_ID=&resourceName=Doing+Business
+[DOING_BUSINESS] t=  25.3s | pag= 13 | files=  22 | data=  6 | req=  15 | rej=  10 | cola= 119 | prio=10 | https://www.worldbank.org/en/businessready/multimedia
+[DOING_BUSINESS] t=  26.0s | pag= 14 | files=  22 | data=  6 | req=  16 | rej=  10 | cola= 129 | prio=10 | https://archive.doingbusiness.org/en/data/exploreeconomies
+[DOING_BUSINESS] DATASETS=7 | score=65 | configured_data_page | https://archive.doingbusiness.org/en/data/exploreeconomies
+[DOING_BUSINESS] t=  27.3s | pag= 15 | files=  22 | data=  7 | req=  17 | rej=  10 | cola= 138 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/starting-a-business
+[DOING_BUSINESS] t=  28.1s | pag= 16 | files=  22 | data=  7 | req=  18 | rej=  11 | cola= 137 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/dealing-with-construction-permits
+[DOING_BUSINESS] t=  29.0s | pag= 17 | files=  22 | data=  7 | req=  19 | rej=  12 | cola= 136 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/getting-electricity
+[DOING_BUSINESS] t=  29.9s | pag= 18 | files=  22 | data=  7 | req=  20 | rej=  13 | cola= 135 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/registering-property
+[DOING_BUSINESS] t=  30.5s | pag= 19 | files=  22 | data=  7 | req=  21 | rej=  14 | cola= 134 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/getting-credit
+[DOING_BUSINESS] t=  31.4s | pag= 20 | files=  22 | data=  7 | req=  22 | rej=  15 | cola= 133 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/protecting-minority-investors
+[DOING_BUSINESS] t=  32.1s | pag= 21 | files=  22 | data=  7 | req=  23 | rej=  16 | cola= 132 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/paying-taxes
+[DOING_BUSINESS] t=  33.0s | pag= 22 | files=  22 | data=  7 | req=  24 | rej=  17 | cola= 131 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/trading-across-borders
+[DOING_BUSINESS] t=  33.7s | pag= 23 | files=  22 | data=  7 | req=  25 | rej=  18 | cola= 130 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/enforcing-contracts
+[DOING_BUSINESS] t=  34.4s | pag= 24 | files=  22 | data=  7 | req=  26 | rej=  19 | cola= 129 | prio=10 | https://archive.doingbusiness.org/en/data/exploretopics/resolving-insolvency
+[DOING_BUSINESS] HTTP TOTAL | requests=35 | GET=35 | HEAD=0
+[DOING_BUSINESS] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[DOING_BUSINESS] BUDGET | req=27 | utiles=29 | rechazados=20 | sin_valor=10
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              doing_business
+Páginas visitadas:   25
+Archivos encontrados:   22
+Datasets web:         7
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             35.15 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DTA    : 3
+  - XLS    : 3
+  - XLSX   : 12
+  - ZIP    : 4
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\doing_business.json
+
+Trazabilidad:
+  Ejecución: 315
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

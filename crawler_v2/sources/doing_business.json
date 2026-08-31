@@ -1,45 +1,120 @@
 {
   "id_fuente": "doing_business",
   "nombre": "Doing Business / Business Ready - Banco Mundial",
-  "base_url": "https://www.worldbank.org/en/businessready",
+  "base_url": "https://www.worldbank.org/en/businessready/data",
   "allowed_domains": [
-    "worldbank.org"
+    "worldbank.org",
+    "www.worldbank.org",
+    "archive.doingbusiness.org",
+    "datacatalog.worldbank.org",
+    "databank.worldbank.org",
+    "api.worldbank.org"
   ],
   "entrypoints": [
-    "https://www.worldbank.org/en/businessready"
+    "https://www.worldbank.org/en/businessready/data",
+    "https://www.worldbank.org/en/businessready",
+    "https://www.worldbank.org/content/dam/sites/b-ready/documents/excel/B-READY_ALL_DATA_2025.zip",
+    "https://archive.doingbusiness.org/en/data",
+    "https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/Historical-Data--DB04-DB20-.xlsx",
+    "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 500,
+  "max_files": 1000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
-  "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
-  "legacy_url": "https://www.doingbusiness.org",
-  "source_status": "historical_successor",
-  "high_priority_keywords": [
-    "businessready",
-    "data",
-    "download",
-    "report",
-    "economy"
-  ],
+  "random_delay_max": 0.8,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "include_url_patterns": [
-    "/businessready"
+    "/en/businessready",
+    "/content/dam/sites/b-ready/",
+    "/en/data",
+    "/content/dam/doingBusiness/",
+    "/search/dataset/0038564/doing-business"
+  ],
+  "high_priority_keywords": [
+    "business ready",
+    "b-ready",
+    "doing business",
+    "download data",
+    "historical data",
+    "dataset",
+    "data",
+    "scores",
+    "indicators",
+    "economies",
+    "business environment",
+    "business regulations"
+  ],
+  "medium_priority_keywords": [
+    "business entry",
+    "business location",
+    "utility services",
+    "labor",
+    "financial services",
+    "international trade",
+    "taxation",
+    "dispute resolution",
+    "market competition",
+    "business insolvency"
+  ],
+  "adapter_positive_patterns": [
+    "/en/businessready/data",
+    "/content/dam/sites/b-ready/documents/excel/",
+    "/en/data",
+    "/content/dam/doingBusiness/excel/",
+    "/search/dataset/0038564/doing-business"
+  ],
+  "force_keep_url_patterns": [
+    "B-READY_ALL_DATA",
+    "Historical-Data--DB04-DB20",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
   ],
   "force_data_url_patterns": [
-    "/businessready"
+    "/en/businessready/data",
+    "/en/data",
+    "/search/dataset/0038564/doing-business"
+  ],
+  "data_keywords": [
+    "scores",
+    "indicators",
+    "economies",
+    "historical data",
+    "business ready",
+    "doing business",
+    "dataset",
+    "rankings"
+  ],
+  "relevance_positive_keywords": [
+    "download data",
+    "historical data",
+    "b-ready all data",
+    "doing business data",
+    "bulk download",
+    "economy data",
+    "indicator data"
+  ],
+  "low_priority_keywords": [
+    "news",
+    "events",
+    "team",
+    "contacts",
+    "faq",
+    "methodology",
+    "publications",
+    "report"
+  ],
+  "ignore_url_patterns": [
+    "/news/",
+    "/events/",
+    "/about-us/team",
+    "/about-us/faq"
   ]
 }

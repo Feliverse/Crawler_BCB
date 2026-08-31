@@ -1,12 +1,78 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 92, in <module>
-    from gettext import gettext as _, ngettext
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
-  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: International Cocoa Organization
+URL configurada: https://www.icco.org/statistics/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.icco.org/statistics/
+  Utilizada: https://www.icco.org/statistics/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.icco.org/statistics/
+
+URL de trabajo: https://www.icco.org/statistics/
+Seeds: 5
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[ICCO] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   4 | prio= 0 | https://www.icco.org/statistics/
+[ICCO] DATASETS=1 | score=115 | configured_data_page | https://www.icco.org/statistics/
+[ICCO] ARCHIVO UTIL=1 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Publications-order-form-2026.pdf
+[ICCO] ARCHIVO UTIL=2 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_June.pdf
+[ICCO] t=   2.1s | pag=  1 | files=   2 | data=  1 | req=   1 | rej=   0 | cola=   5 | prio= 0 | https://www.icco.org/statistics/statistics_2025/
+[ICCO] DATASETS=2 | score=115 | configured_data_page | https://www.icco.org/statistics/statistics_2025/
+[ICCO] ARCHIVO UTIL=3 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_November-2025.pdf
+[ICCO] ARCHIVO UTIL=4 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_October-2025.pdf
+[ICCO] ARCHIVO UTIL=5 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_September-2025.pdf
+[ICCO] ARCHIVO UTIL=6 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_August-2025.pdf
+[ICCO] ARCHIVO UTIL=7 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_July-2025.pdf
+[ICCO] ARCHIVO UTIL=8 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_May-2025.pdf
+[ICCO] ARCHIVO UTIL=9 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_April-2025.pdf
+[ICCO] ARCHIVO UTIL=10 | score=100 | pdf | https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_March-2025.pdf
+[ICCO] ARCHIVO UTIL=100 | score=100 | pdf | https://icco.org/wp-content/uploads/Grindings_QBCS-XLVII-No.-1.pdf
+[ICCO] t=   4.2s | pag=  2 | files= 135 | data=  2 | req=   2 | rej=   0 | cola=   5 | prio= 0 | https://www.icco.org/app/statistics/
+[ICCO] DATASETS=3 | score=60 | configured_data_page | https://www.icco.org/app/statistics/
+[ICCO] t=   5.6s | pag=  3 | files= 193 | data=  3 | req=   3 | rej=   0 | cola=   4 | prio= 0 | https://www.icco.org/icco-documentation/cocoa-market-review/
+[ICCO] t=   6.9s | pag=  4 | files= 193 | data=  3 | req=   4 | rej=   0 | cola=   4 | prio= 0 | https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/
+[ICCO] t=   7.8s | pag=  5 | files= 195 | data=  3 | req=   5 | rej=   0 | cola=   4 | prio=10 | https://www.icco.org/statistics/?s=
+[ICCO] DATASETS=4 | score=115 | configured_data_page | https://www.icco.org/statistics/?s=
+[ICCO] t=   9.5s | pag=  6 | files= 195 | data=  4 | req=   6 | rej=   0 | cola=   3 | prio=10 | https://icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/
+[ICCO] t=  11.5s | pag=  6 | files= 195 | data=  4 | req=   7 | rej=   0 | cola=   2 | prio=10 | https://www.icco.org/statistics/statistics_2025/?s=
+[ICCO] DATASETS=5 | score=115 | configured_data_page | https://www.icco.org/statistics/statistics_2025/?s=
+[ICCO] t=  14.2s | pag=  7 | files= 195 | data=  5 | req=   8 | rej=   0 | cola=   1 | prio=10 | https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/?s=
+[ICCO] t=  15.4s | pag=  8 | files= 195 | data=  5 | req=   9 | rej=   0 | cola=   0 | prio=50 | https://www.icco.org/icco-documentation/cocoa-market-review/?s=
+[ICCO] HTTP TOTAL | requests=11 | GET=11 | HEAD=0
+[ICCO] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[ICCO] BUDGET | req=10 | utiles=200 | rechazados=0 | sin_valor=2
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              icco
+Páginas visitadas:   9
+Archivos encontrados:  195
+Datasets web:         5
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             16.87 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 195
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\icco.json
+
+Trazabilidad:
+  Ejecución: 326
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

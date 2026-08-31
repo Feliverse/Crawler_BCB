@@ -1,0 +1,1154 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "ITU_ConsolidatedBDTquestionnaireSchedule_2026.csv": {
+                        "descripcion": "Consolidated BDT data questionnaire schedule for 2026",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_ConsolidatedBDTquestionnaireSchedule_2026.pdf",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ITU_Households_Questionnaire_2025.csv": {
+                        "descripcion": "Sample questionnaire",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_Households_Questionnaire_2025.xlsm",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "XLSM",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ITU_HH_Codes_Description_2025.csv": {
+                        "descripcion": "Codes description",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_HH_Codes_Description_2025.xlsx",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ITU_ICT_HHindicators_Definitions_6Languages_2022.csv": {
+                        "descripcion": "Definitions of indicators",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_ICT_HHindicators_Definitions_6Languages_2022.pdf",
+                        "fecha_actualizacion": "2022",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ITU_WTI_LongQuestionnaire_2023.csv": {
+                        "descripcion": "Sample questionnaire",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_WTI_LongQuestionnaire_2023.pdf",
+                        "fecha_actualizacion": "2023",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "IPB_Rules_2022.csv": {
+                        "descripcion": "The ITU price data collection rules (since 2021)",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/IPB_Rules_2022.pdf",
+                        "fecha_actualizacion": "2022",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ITU_ICTPriceBasketQuestionnaire2022.csv": {
+                        "descripcion": "The ITU ICT Price Basket sample questionnaire",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_ICTPriceBasketQuestionnaire2022.pdf",
+                        "fecha_actualizacion": "2022",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "2600493E_IDI2026.csv": {
+                        "descripcion": "Download",
+                        "url_descarga": "https://www.itu.int/itu-d/reports/statistics/wp-content/uploads/sites/5/2026/06/2600493E_IDI2026.pdf",
+                        "fecha_actualizacion": "2026-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "BDT-Member-Communique-IDI-2026.csv": {
+                        "descripcion": "communiqué",
+                        "url_descarga": "https://www.itu.int/itu-d/reports/statistics/wp-content/uploads/sites/5/2026/06/BDT-Member-Communique-IDI-2026.pdf",
+                        "fecha_actualizacion": "2026-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "IDI2026dataset.csv": {
+                        "descripcion": "IDI 2026 dataset",
+                        "url_descarga": "https://www.itu.int/itu-d/reports/statistics/wp-content/uploads/sites/5/2026/06/IDI2026dataset.xlsx",
+                        "fecha_actualizacion": "2026-06",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Indicator_catalogue_-_ITU_DataHub.csv": {
+                        "descripcion": "Indicator catalogue - ITU DataHub",
+                        "url_descarga": "https://beta.datahub.itu.int/indicators/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://beta.datahub.itu.int/indicators/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "About_-_ITU_DataHub.csv": {
+                        "descripcion": "About - ITU DataHub",
+                        "url_descarga": "https://beta.datahub.itu.int/about/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Measuring_digital_development_-_The_ICT_Development_Index_2026.csv": {
+                        "descripcion": "Measuring digital development - The ICT Development Index 2026",
+                        "url_descarga": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "General_information_on_ITU_household_questionnaires": {
+            "IPBQ26_Excel_Questionnaire.csv": {
+                "descripcion": "Click here",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/IPBQ26_Excel_Questionnaire.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_CodeDescription_2025REV_Apr.csv": {
+                "descripcion": "Codes description",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/ITU_CodeDescription_2025REV_Apr.xlsx",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IPB_Rules_VisualGuide_2025.csv": {
+                "descripcion": "Visual Guide",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/IPB_Rules_VisualGuide_2025.pdf",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "WTI_LQ_2023_Indicators_6_Languages.csv": {
+                "descripcion": "Click here",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/WTI%20LQ%202023%20Indicators%206%20Languages.pdf",
+                "fecha_actualizacion": "2023",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Data_collection_and_questionnaires.csv": {
+                        "descripcion": "Data collection and questionnaires",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Pages/datacollection/default.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "ITU_Handbook_for_the_Collection_of_Administrative_Data_on_Telecommunications_ICT": {
+            "ITUHandbookTelecomAdminData2020_A.csv": {
+                "descripcion": "Arabic",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2020/ITUHandbookTelecomAdminData2020_A.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITUHandbookTelecomAdminData2020_C.csv": {
+                "descripcion": "Chinese",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2020/ITUHandbookTelecomAdminData2020_C.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITUHandbookTelecomAdminData2020_E_rev1.csv": {
+                "descripcion": "English​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2020/ITUHandbookTelecomAdminData2020_E_rev1.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITUHandbookTelecomAdminData2020_F.csv": {
+                "descripcion": "French",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2020/ITUHandbookTelecomAdminData2020_F.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITUHandbookTelecomAdminData2020_R.csv": {
+                "descripcion": "Russian",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2020/ITUHandbookTelecomAdminData2020_R.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITUHandbookTelecomAdminData2020_S.csv": {
+                "descripcion": "Spanish",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2020/ITUHandbookTelecomAdminData2020_S.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "5G-IMT2020_indicators_methodology_web.csv": {
+                "descripcion": "​​5G/IMT-2020 indicators",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/5G-IMT2020_indicators_methodology_web.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Roaming_indicators_2020_web.csv": {
+                "descripcion": "International roaming indicators",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/Roaming_indicators_2020_web.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "QoS_2020_indicators_methodology_web.csv": {
+                "descripcion": "Quality of Service indicators",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/QoS_2020_indicators_methodology_web.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Note_FixedInternetTraffic.csv": {
+                "descripcion": "Methodological note",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/Note_FixedInternetTraffic.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_A.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_A.docx",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "DOCX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_A_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_A.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_C.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_C.docx",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "DOCX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_C_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_C.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_E.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_E.doc",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_E_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_E.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_F.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_F.docx",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "DOCX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_F_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_F.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_R.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_R.docx",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "DOCX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_R_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_R.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_S.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_S.docx",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "DOCX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "TelecomICT_Indicators_Definition_March2010_for_web_S_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2010/TelecomICT_Indicators_Definition_March2010_for_web_S.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_a_v2007.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_a_v2007.doc",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_a_v2007_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_a_v2007.pdf",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_c_v2007.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_c_v2007.doc",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_c_v2007_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_c_v2007.pdf",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_e_v2007.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_e_v2007.doc",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_e_v2007_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_e_v2007.pdf",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_f_v2007.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_f_v2007.doc",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_f_v2007_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_f_v2007.pdf",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_r_v2007.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_r_v2007.doc",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_r_v2007_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_r_v2007.pdf",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_s_v2007.csv": {
+                "descripcion": "Word",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_s_v2007.doc",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_s_v2007_2.csv": {
+                "descripcion": "PDF",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2007/IndDef_s_v2007.pdf",
+                "fecha_actualizacion": "2007",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_a_v2005.csv": {
+                "descripcion": "Arabic",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2005/IndDef_a_v2005.doc",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_c_v2005.csv": {
+                "descripcion": "Chinese",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2005/IndDef_c_v2005.doc",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_e_v2005.csv": {
+                "descripcion": "English",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2005/IndDef_e_v2005.doc",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_f_v2005.csv": {
+                "descripcion": "French",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2005/IndDef_f_v2005.doc",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_r_v2005.csv": {
+                "descripcion": "Russian",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2005/IndDef_r_v2005.doc",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IndDef_s_v2005.csv": {
+                "descripcion": "Spanish",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/2005/IndDef_s_v2005.doc",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "DOC",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "handbookv1-1.csv": {
+                "descripcion": "English, French and Spanish",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/publications/handbook/other/handbookv1-1.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/publications/handbook.aspx",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Core_list_of_ICT_indicators": {
+            "Core-List-of-Indicators_March2022.csv": {
+                "descripcion": "latest version",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/coreindicators/Core-List-of-Indicators_March2022.pdf",
+                "fecha_actualizacion": "2022",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Core-List-of-Indicators_March2016.csv": {
+                "descripcion": "here",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/coreindicators/Core-List-of-Indicators_March2016.pdf",
+                "fecha_actualizacion": "2016",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2014-8-ICT-A.csv": {
+                "descripcion": "Arabic",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc14/2014-8-ICT-A.pdf",
+                "fecha_actualizacion": "2014-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2014-8-ICT-C.csv": {
+                "descripcion": "Chinese",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc14/2014-8-ICT-C.pdf",
+                "fecha_actualizacion": "2014-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2014-8-ICT-E.csv": {
+                "descripcion": "English",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc14/2014-8-ICT-E.pdf",
+                "fecha_actualizacion": "2014-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2014-8-ICT-F.csv": {
+                "descripcion": "French",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc14/2014-8-ICT-F.pdf",
+                "fecha_actualizacion": "2014-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2014-8-ICT-R.csv": {
+                "descripcion": "Russian",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc14/2014-8-ICT-R.pdf",
+                "fecha_actualizacion": "2014-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2014-8-ICT-S.csv": {
+                "descripcion": "Spanish",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc14/2014-8-ICT-S.pdf",
+                "fecha_actualizacion": "2014-08",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2012-12-ICT-E.csv": {
+                "descripcion": "revised and extended core list of indicators",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc12/2012-12-ICT-E.pdf",
+                "fecha_actualizacion": "2012-12",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2007-5a-ICT.csv": {
+                "descripcion": "Arabic",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc07/2007-5a-ICT.pdf",
+                "fecha_actualizacion": "2007-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2007-5c-ICT.csv": {
+                "descripcion": "Chinese",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc07/2007-5c-ICT.pdf",
+                "fecha_actualizacion": "2007-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2007-5e-ICT.csv": {
+                "descripcion": "English",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc07/2007-5e-ICT.pdf",
+                "fecha_actualizacion": "2007-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2007-5f-ICT.csv": {
+                "descripcion": "French",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc07/2007-5f-ICT.pdf",
+                "fecha_actualizacion": "2007-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2007-5r-ICT.csv": {
+                "descripcion": "Russian",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc07/2007-5r-ICT.pdf",
+                "fecha_actualizacion": "2007-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2007-5s-ICT.csv": {
+                "descripcion": "Spanish",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/doc07/2007-5s-ICT.pdf",
+                "fecha_actualizacion": "2007-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Core_ICT_Indicators_E.csv": {
+                "descripcion": "original core list of ICT indicators",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/coreindicators/Core_ICT_Indicators_E.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "site_ecb_wsis2005_001_en.csv": {
+                "descripcion": "WSIS Thematic Meeting on Measuring the Information Society",
+                "url_descarga": "http://unctad.org/Sections/wcmu/docs/site_ecb_wsis2005_001_en.pdf",
+                "fecha_actualizacion": "2005",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Framework_for_a_set_of_E-Government_Core_Indicators_Final_rev1.csv": {
+                "descripcion": "list of e-government indicators",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/coreindicators/Framework_for_a_set_of_E-Government_Core_Indicators_Final_rev1.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/coreindicators/default.aspx",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Partnership_on_Measuring_ICT_for_Development": {
+            "Brochure_partnership_2012.csv": {
+                "descripcion": "download the Partnership brochure",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/partnership/Brochure_partnership_2012.pdf",
+                "fecha_actualizacion": "2012",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/partnership/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2026-29-ICT-E.csv": {
+                "descripcion": "Report of the Partnership on Measuring Information and Communication Technology for Development",
+                "url_descarga": "https://unstats.un.org/UNSDWebsite/statcom/session_57/documents/2026-29-ICT-E.pdf",
+                "fecha_actualizacion": "2026",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/partnership/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "BG-5f-TU_work_on_ICT_indicators-E.csv": {
+                "descripcion": "Report on ITU’s work in collecting, harmonizing and disseminating ICT indicators​​",
+                "url_descarga": "https://unstats.un.org/UNSDWebsite/statcom/session_57/documents/BG-5f-TU_work_on_ICT_indicators-E.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/partnership/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Partnership_on_Measuring_ICT_for_Development.csv": {
+                        "descripcion": "Partnership on Measuring ICT for Development",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/partnership/default.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "ITU_ICT_Price_statistics_website": {
+            "ITU_ICTPriceBaskets_2008-2025.csv": {
+                "descripcion": "Download",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/ICT_Prices/ITU_ICTPriceBaskets_2008-2025.xlsx",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_ICTPriceBaskets_Allowance_2025.csv": {
+                "descripcion": "Download",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/ICT_Prices/ITU_ICTPriceBaskets_Allowance_2025.xlsx",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IPBQ2026_Users_Guide.csv": {
+                "descripcion": "users guide​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/ICT_Prices/IPBQ2026_Users%20Guide.pdf",
+                "fecha_actualizacion": "2026",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_IPBQ2026_webinar_ppt.csv": {
+                "descripcion": "Presentation slides",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/ICT_Prices/ITU_IPBQ2026_webinar_ppt.pdf",
+                "fecha_actualizacion": "2026",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_Technical_Webinar_on_ICT_Prices_2025.csv": {
+                "descripcion": "Presentation slides",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/ICT_Prices/ITU_Technical_Webinar_on_ICT_Prices_2025.pdf",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "ICT_prices.csv": {
+                        "descripcion": "ICT prices",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Pages/ICTprices/default.aspx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://beta.datahub.itu.int/about/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Read_more": {
+            "stat_flyer_2012.csv": {
+                "descripcion": "stat_flyer_2012.pdf",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/stat_flyer_2012.pdf",
+                "fecha_actualizacion": "2012",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/about.aspx",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "default.aspx": {
+            "ITU_regional_global_Key_ICT_indicator_aggregates_Nov_2025.csv": {
+                "descripcion": "end-20​25​ est​imates for key I​CT indica​tors​​​​​​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ITU_regional_global_Key_ICT_indicator_aggregates_Nov_2025.xlsx",
+                "fecha_actualizacion": "2025-11",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "FactsFigures2020.csv": {
+                "descripcion": "​​​​Facts and Figures 2020​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/FactsFigures2020.pdf",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "FactsFigures2019_r1.csv": {
+                "descripcion": "​​Facts and Figures 2019​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/FactsFigures2019_r1.pdf",
+                "fecha_actualizacion": "2019",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2017.csv": {
+                "descripcion": "​ICT Facts and Figures 2017",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2017.pdf",
+                "fecha_actualizacion": "2017",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2016.csv": {
+                "descripcion": "​ICT Facts and Figures 2016",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2016.pdf",
+                "fecha_actualizacion": "2016",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2015.csv": {
+                "descripcion": "ICT Facts and Figures 2015",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2015.pdf",
+                "fecha_actualizacion": "2015",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2014-e.csv": {
+                "descripcion": "ICT Facts and Figures 2014",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2014-e.pdf",
+                "fecha_actualizacion": "2014",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2013-a.csv": {
+                "descripcion": "Arabic",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-a.pdf",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2013-c.csv": {
+                "descripcion": "Chinese",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-c.pdf",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2013-e.csv": {
+                "descripcion": "English",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-e.pdf",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2013-f.csv": {
+                "descripcion": "French",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-f.pdf",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2013-r.csv": {
+                "descripcion": "Russian",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-r.pdf",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2013-s.csv": {
+                "descripcion": "Spanish",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2013-s.pdf",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2011.csv": {
+                "descripcion": "ICT Facts and Figures 2011",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2011.pdf",
+                "fecha_actualizacion": "2011",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2010.csv": {
+                "descripcion": "ICT Facts and Figures 2010",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2010.pdf",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ICTFactsFigures2009.csv": {
+                "descripcion": "ICT Facts and Figures 2009",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/facts/ICTFactsFigures2009.pdf",
+                "fecha_actualizacion": "2009",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "2016-2-IAEG-SDGs-Rev1-E.csv": {
+                "descripcion": "global indicator framework",
+                "url_descarga": "http://unstats.un.org/unsd/statcom/47th-session/documents/2016-2-IAEG-SDGs-Rev1-E.pdf",
+                "fecha_actualizacion": "2016-02",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Broadband_Targets.csv": {
+                "descripcion": "four concrete, measurable broadband targets",
+                "url_descarga": "http://www.broadbandcommission.org/Documents/Broadband_Targets.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "covid19-report-ccsa.csv": {
+                "descripcion": "How COVID-19 is changing the world: a statistical perspective​",
+                "url_descarga": "https://unstats.un.org/unsd/ccsa/documents/covid19-report-ccsa.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "CCSA_PressRelease_WorldStatisticsDay2025.csv": {
+                "descripcion": "World Statistics Day 2025, the UN Committee for the Coordination of Statistical Activities (CCSA-UN)​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/CCSA_PressRelease_WorldStatisticsDay2025.pdf",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/intlcoop/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "Getting_ICT_data_through_surveys.csv": {
+                "descripcion": "Getting ICT data through surveys​​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/statistics/Getting%20ICT%20data%20through%20surveys.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/definitions/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IDA_EstimationMethods.csv": {
+                "descripcion": "Estimation methods for selected ICT indicators​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/datacollection/IDA_EstimationMethods.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/definitions/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Measuring_digital_development_Facts_and_Figures_2025.csv": {
+                        "descripcion": "Measuring digital development: Facts and Figures 2025",
+                        "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Pages/facts/default.aspx",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.itu.int/itu-d/sites/statistics/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "expertgroups.aspx": {
+            "ITU_ToR_EGTI_May5_2009.csv": {
+                "descripcion": "established",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/expertgroups/ITU_ToR_EGTI_May5_2009.pdf",
+                "fecha_actualizacion": "2009",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "EGTI_TOR_RevisedNov2017.csv": {
+                "descripcion": "terms of reference",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/EGTI_TOR_RevisedNov2017.pdf",
+                "fecha_actualizacion": "2017",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_EGTI_EGH_Leadership.csv": {
+                "descripcion": "here",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/expertgroups/ITU_EGTI_EGH_Leadership.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_ToR_EGH_May2_2012.csv": {
+                "descripcion": "established",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/expertgroups/ITU_ToR_EGH_May2_2012.pdf",
+                "fecha_actualizacion": "2012",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ToR_EGH_RevisedNov2017.csv": {
+                "descripcion": "terms of reference​",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/ToR_EGH_RevisedNov2017.pdf",
+                "fecha_actualizacion": "2017",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "EGTIEGH2024_IDIReport.csv": {
+                "descripcion": "2024",
+                "url_descarga": "https://www.itu.int/itu-d/meetings/egh2024/wp-content/uploads/sites/28/2024/09/EGTIEGH2024_IDIReport.pdf",
+                "fecha_actualizacion": "2024-09",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "EGH2024_ICTSkillsReport.csv": {
+                "descripcion": "Summary report for the 2024 work period",
+                "url_descarga": "https://www.itu.int/itu-d/meetings/egh2024/wp-content/uploads/sites/28/2024/09/EGH2024_ICTSkillsReport.pdf",
+                "fecha_actualizacion": "2024-09",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "EGTI2024_ICTPriceBaskets2024_Report.csv": {
+                "descripcion": "Summary report for the 2024 work period",
+                "url_descarga": "https://www.itu.int/itu-d/meetings/egti2024/wp-content/uploads/sites/27/2024/09/EGTI2024_ICTPriceBaskets2024_Report.pdf",
+                "fecha_actualizacion": "2024-09",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/expertgroups.aspx",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "about_the_IDI": {
+            "RES-131-E.csv": {
+                "descripcion": "Resolution 131",
+                "url_descarga": "https://www.itu.int/en/council/Documents/basic-texts-2023/RES-131-E.pdf",
+                "fecha_actualizacion": "2023",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "IDI2023TentativeTimeline_v20230201.csv": {
+                "descripcion": "process",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/IDI/IDI2023TentativeTimeline_v20230201.pdf",
+                "fecha_actualizacion": "2023-02-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "D22-BDT-CIR-0005PDF-E.csv": {
+                "descripcion": "Circular BDT/DKH/IDA/005)",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/IDI/D22-BDT-CIR-0005PDF-E.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "D22-BDT-CIR-0015!!PDF-E.csv": {
+                "descripcion": "BDT/DKH/IDA/015",
+                "url_descarga": "https://www.itu.int/dms_pub/itu-d/md/22/bdt/cir/D22-BDT-CIR-0015%21%21PDF-E.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "D22-BDT-CIR-0016!!PDF-E.csv": {
+                "descripcion": "BDT/DKH/IDA/016",
+                "url_descarga": "https://www.itu.int/dms_pub/itu-d/md/22/bdt/cir/D22-BDT-CIR-0016%21%21PDF-E.pdf",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "D22-EGTI.EGH.IDI.2025-R-0001!R2!PDF-E.csv": {
+                "descripcion": "report for the 2025 period",
+                "url_descarga": "https://www.itu.int/dms_pub/itu-d/md/22/egti.egh.idi.2025/r/D22-EGTI.EGH.IDI.2025-R-0001%21R2%21PDF-E.pdf",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            },
+            "ITU_ProcessForRevisingIDIMethodology_2026.csv": {
+                "descripcion": "here",
+                "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/IDI/ITU_ProcessForRevisingIDIMethodology_2026.pdf",
+                "fecha_actualizacion": "2026",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/IDI/default.aspx",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "ITU_Manual_for_Measuring_ICT_Access_and_Use_by_Households_and_Individuals": {
+            "ITU's_ICT_SDG_indicators": {
+                "2025_SDG_4.4.1_REV.csv": {
+                    "descripcion": "Indicator 4.4.1: Proportion of ​youth and adults w​ith ICT skills, by type of skills",
+                    "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/sdgs/2025%20SDG%204.4.1_REV.xlsx",
+                    "fecha_actualizacion": "2025",
+                    "tipo_archivo": "XLSX",
+                    "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx",
+                    "metodo_deteccion": "url_extension"
+                },
+                "2025_SDG_5.b.1.csv": {
+                    "descripcion": "In​dicator 5.b.1: Proportion of individuals who own a mobile telephone, by sex​​",
+                    "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/sdgs/2025%20SDG%205.b.1.xlsx",
+                    "fecha_actualizacion": "2025",
+                    "tipo_archivo": "XLSX",
+                    "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx",
+                    "metodo_deteccion": "url_extension"
+                },
+                "2025_SDG_9.c.1.csv": {
+                    "descripcion": "Indicator 9.c.1: Proportion of population covered by a mobile network, by technology",
+                    "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/sdgs/2025%20SDG%209.c.1.xlsx",
+                    "fecha_actualizacion": "2025",
+                    "tipo_archivo": "XLSX",
+                    "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx",
+                    "metodo_deteccion": "url_extension"
+                },
+                "2025_SDG_17.6.1.csv": {
+                    "descripcion": "Indicator 17.6.1: Fixed Internet broadband subscriptions per 100 inhabitants, by speed",
+                    "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/sdgs/2025%20SDG%2017.6.1.xlsx",
+                    "fecha_actualizacion": "2025",
+                    "tipo_archivo": "XLSX",
+                    "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx",
+                    "metodo_deteccion": "url_extension"
+                },
+                "2025_SDG_17.8.1_REV.csv": {
+                    "descripcion": "Indicator 17.8.1: Proportion of​ individuals using the Internet​​",
+                    "url_descarga": "https://www.itu.int/en/ITU-D/Statistics/Documents/intlcoop/sdgs/2025%20SDG%2017.8.1_REV.xlsx",
+                    "fecha_actualizacion": "2025",
+                    "tipo_archivo": "XLSX",
+                    "url_origen": "https://www.itu.int/en/ITU-D/Statistics/Pages/SDGs-ITU-ICT-indicators.aspx",
+                    "metodo_deteccion": "url_extension"
+                }
+            }
+        },
+        "Statistics": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Connectivity_in_the_Least_Developed_Countries_-_Status_report_2021.csv": {
+                        "descripcion": "Connectivity in the Least Developed Countries - Status report 2021",
+                        "url_descarga": "https://www.itu.int/itu-d/reports/statistics/connectivity-in-the-least-developed-countries-status-report-2021/",
+                        "fecha_actualizacion": "2021",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.itu.int/itu-d/reports/statistics/idi2026/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

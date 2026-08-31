@@ -2,82 +2,108 @@
 CRAWLER V2
 ================================================================================
 Fuente: Centro Promoción Bolivia - Fuente histórica / Ministerio de Desarrollo Productivo
-URL configurada: https://produccion.gob.bo/
+URL configurada: https://produccion.gob.bo/datos/
 Timeout HTTP: 15 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 777, in main
-    resolver.resolve(
-    ~~~~~~~~~~~~~~~~^
-        config
-        ^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 449, in resolve
-    attempt = self._probe(
-        candidate,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 266, in _probe
-    response = self.client.get(
-        url,
-        raise_for_status=False,
-        timeout=timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
-    httplib_response = super().getresponse()
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-KeyboardInterrupt
+
+Resolución de fuente:
+  Original: https://produccion.gob.bo/datos/
+  Utilizada: https://produccion.gob.bo/datos/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://produccion.gob.bo/datos/
+
+URL de trabajo: https://produccion.gob.bo/datos/
+Seeds: 7
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[CEPROBOL] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   6 | prio= 0 | https://produccion.gob.bo/datos/
+[CEPROBOL] DATASETS=1 | score=120 | configured_data_page | https://produccion.gob.bo/datos/
+[CEPROBOL] t=   1.1s | pag=  1 | files=   0 | data=  1 | req=   1 | rej=   0 | cola=  24 | prio= 0 | https://data-bolivia.produccion.gob.bo/
+[CEPROBOL] t=   1.9s | pag=  2 | files=   0 | data=  1 | req=   2 | rej=   0 | cola=  23 | prio= 0 | https://data-bolivia.produccion.gob.bo/comex/
+[CEPROBOL] DATASETS=2 | score=70 | configured_data_page | https://data-bolivia.produccion.gob.bo/comex/
+[CEPROBOL] t=   2.9s | pag=  3 | files=   0 | data=  2 | req=   3 | rej=   1 | cola=  69 | prio= 0 | https://data-bolivia.produccion.gob.bo/comex/busqueda
+[CEPROBOL] DATASETS=3 | score=80 | configured_data_page | https://data-bolivia.produccion.gob.bo/comex/busqueda
+[CEPROBOL] t=   4.2s | pag=  4 | files=   0 | data=  3 | req=   4 | rej=   1 | cola=  68 | prio= 0 | https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=e
+[CEPROBOL] DATASETS=4 | score=75 | configured_data_page | https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=e
+[CEPROBOL] t=   4.9s | pag=  5 | files=   0 | data=  4 | req=   5 | rej=   1 | cola=  78 | prio= 0 | https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=i
+[CEPROBOL] DATASETS=5 | score=75 | configured_data_page | https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=i
+[CEPROBOL] t=   5.4s | pag=  6 | files=   0 | data=  5 | req=   6 | rej=   1 | cola=  77 | prio= 0 | https://siip.produccion.gob.bo/repSIIP2/formulario_pecuario.php
+[CEPROBOL] t=   5.9s | pag=  7 | files=   0 | data=  5 | req=   7 | rej=   2 | cola=  76 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-importaciones/
+[CEPROBOL] DATASETS=6 | score=75 | configured_data_page | https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-importaciones/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19539
+[CEPROBOL] ARCHIVO UTIL=1 | score=55 | pdf | https://produccion.gob.bo/wp-content/uploads/2026/05/DS55952028NCPP-1.pdf
+[CEPROBOL] t=   9.6s | pag=  8 | files=   1 | data=  6 | req=   8 | rej=   2 | cola=  76 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19539
+[CEPROBOL] DATASETS=7 | score=155 | json_api | https://produccion.gob.bo/wp-json/wp/v2/datos/19539
+[CEPROBOL] t=  10.2s | pag=  8 | files=   1 | data=  7 | req=   9 | rej=   2 | cola=  75 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-exportaciones/
+[CEPROBOL] DATASETS=8 | score=75 | configured_data_page | https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-exportaciones/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19538
+[CEPROBOL] t=  14.3s | pag=  9 | files=   1 | data=  8 | req=  10 | rej=   2 | cola=  75 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19538
+[CEPROBOL] DATASETS=9 | score=155 | json_api | https://produccion.gob.bo/wp-json/wp/v2/datos/19538
+[CEPROBOL] t=  14.9s | pag=  9 | files=   1 | data=  9 | req=  11 | rej=   2 | cola=  74 | prio=10 | https://produccion.gob.bo/datos/informacion-productiva-pecuaria/
+[CEPROBOL] DATASETS=10 | score=70 | configured_data_page | https://produccion.gob.bo/datos/informacion-productiva-pecuaria/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19537
+[CEPROBOL] t=  19.2s | pag= 10 | files=   1 | data= 10 | req=  12 | rej=   2 | cola=  74 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19537
+[CEPROBOL] t=  19.4s | pag= 10 | files=   1 | data= 11 | req=  13 | rej=   2 | cola=  73 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-registro-de-comercio/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19536
+[CEPROBOL] t=  23.5s | pag= 11 | files=   1 | data= 12 | req=  14 | rej=   2 | cola=  73 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19536
+[CEPROBOL] t=  24.0s | pag= 11 | files=   1 | data= 13 | req=  15 | rej=   2 | cola=  72 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-medianas-y-grandes/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19535
+[CEPROBOL] t=  28.4s | pag= 12 | files=   1 | data= 14 | req=  16 | rej=   2 | cola=  72 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19535
+[CEPROBOL] t=  28.8s | pag= 12 | files=   1 | data= 15 | req=  17 | rej=   2 | cola=  71 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/formulario_eaim.php
+[CEPROBOL] t=  29.7s | pag= 13 | files=   1 | data= 15 | req=  18 | rej=   2 | cola=  71 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-mypes/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19534
+[CEPROBOL] t=  34.3s | pag= 14 | files=   1 | data= 16 | req=  19 | rej=   2 | cola=  71 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19534
+[CEPROBOL] t=  34.8s | pag= 14 | files=   1 | data= 17 | req=  20 | rej=   2 | cola=  70 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/mypes.php
+[CEPROBOL] t=  35.7s | pag= 15 | files=   1 | data= 17 | req=  21 | rej=   2 | cola=  69 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-estimacion-ues/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19533
+[CEPROBOL] t=  39.7s | pag= 16 | files=   1 | data= 18 | req=  22 | rej=   2 | cola=  69 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19533
+[CEPROBOL] t=  40.3s | pag= 16 | files=   1 | data= 19 | req=  23 | rej=   2 | cola=  68 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/mapaUE.php
+[CEPROBOL] t=  41.4s | pag= 17 | files=   1 | data= 19 | req=  24 | rej=   2 | cola=  67 | prio=10 | https://produccion.gob.bo/datos/unidades-empresariales-mapeo-de-unidades-economicas/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19532
+[CEPROBOL] t=  45.4s | pag= 18 | files=   1 | data= 20 | req=  25 | rej=   2 | cola=  67 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19532
+[CEPROBOL] t=  45.8s | pag= 18 | files=   1 | data= 21 | req=  26 | rej=   2 | cola=  66 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/formAsfi.php
+[CEPROBOL] t=  46.8s | pag= 19 | files=   1 | data= 21 | req=  27 | rej=   2 | cola=  76 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-volumen/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19531
+[CEPROBOL] t=  51.5s | pag= 20 | files=   1 | data= 22 | req=  28 | rej=   2 | cola=  76 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19531
+[CEPROBOL] t=  52.0s | pag= 20 | files=   1 | data= 23 | req=  29 | rej=   2 | cola=  75 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/formulario_saldo_com.php?valvol=2
+[CEPROBOL] t=  53.1s | pag= 21 | files=   1 | data= 23 | req=  30 | rej=   3 | cola=  75 | prio=10 | https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-valor/
+[CEPROBOL] API REFERENCIA | html_link_reference | https://produccion.gob.bo/wp-json/wp/v2/datos/19530
+[CEPROBOL] t=  57.0s | pag= 22 | files=   1 | data= 24 | req=  31 | rej=   3 | cola=  75 | prio= 1 | https://produccion.gob.bo/wp-json/wp/v2/datos/19530
+[CEPROBOL] DATASETS=25 | score=150 | json_api | https://produccion.gob.bo/wp-json/wp/v2/datos/19530
+[CEPROBOL] t=  57.5s | pag= 22 | files=   1 | data= 25 | req=  32 | rej=   3 | cola=  74 | prio=10 | https://siip.produccion.gob.bo/repSIIP2/formulario_saldo_com.php?valvol=1
+[CEPROBOL] t=  57.9s | pag= 23 | files=   1 | data= 25 | req=  33 | rej=   4 | cola=  73 | prio=10 | https://produccion.gob.bo/datos/page/2/
+[CEPROBOL] t=  58.9s | pag= 24 | files=   1 | data= 26 | req=  34 | rej=   4 | cola=  82 | prio=10 | https://produccion.gob.bo/datos/page/3/
+[CEPROBOL] HTTP TOTAL | requests=36 | GET=36 | HEAD=0
+[CEPROBOL] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[CEPROBOL] BUDGET | req=35 | utiles=28 | rechazados=4 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              ceprobol
+Páginas visitadas:   25
+Archivos encontrados:    1
+Datasets web:         27
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             59.78 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ceprobol.json
+
+Trazabilidad:
+  Ejecución: 308
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -34,7 +34,19 @@
   "high_priority_keywords": [
     "anuario",
     "estadistica",
+    "estadisticas",
     "tarifa",
-    "electricidad"
-  ]
+    "electricidad",
+    "datos"
+  ],
+  "ignore_url_patterns": [
+    "/wp-json/wp/v2/"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

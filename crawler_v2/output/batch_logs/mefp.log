@@ -1,15 +1,91 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
-    import re as _re
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 921, in _load_unlocked
-  File "<frozen importlib._bootstrap>", line 819, in module_from_spec
-  File "<frozen importlib._bootstrap>", line 798, in _init_module_attrs
-  File "<frozen importlib._bootstrap>", line 638, in cached
-  File "<frozen importlib._bootstrap_external>", line 645, in _get_cached
-  File "<frozen importlib._bootstrap_external>", line 580, in cache_from_source
-  File "<frozen importlib._bootstrap_external>", line 112, in _path_join
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Economía y Finanzas Públicas
+URL configurada: https://www.economiayfinanzas.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: desactivada por configuración de la fuente
+
+
+Resolución de fuente:
+  Original: https://www.economiayfinanzas.gob.bo/
+  Utilizada: https://www.economiayfinanzas.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.economiayfinanzas.gob.bo/
+
+URL de trabajo: https://www.economiayfinanzas.gob.bo/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[MEFP] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[MEFP] t=   3.6s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   2 | prio= 0 | https://www.economiayfinanzas.gob.bo/
+[MEFP] t=   5.5s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=  21 | cola= 135 | prio= 0 | https://media.economiayfinanzas.gob.bo/boletines
+[MEFP] DATASETS=1 | score=55 | statistical_html_table | https://media.economiayfinanzas.gob.bo/boletines
+[MEFP] t=   6.3s | pag=  2 | files=   0 | data=  1 | req=   2 | rej=  41 | cola= 267 | prio= 0 | https://www.economiayfinanzas.gob.bo/boletines
+[MEFP] DATASETS=2 | score=55 | statistical_html_table | https://www.economiayfinanzas.gob.bo/boletines
+[MEFP] t=   6.9s | pag=  3 | files=   0 | data=  2 | req=   3 | rej=  61 | cola= 394 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/datos-generales
+[MEFP] t=   7.6s | pag=  4 | files=   0 | data=  2 | req=   4 | rej=  62 | cola= 393 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/resena-historica
+[MEFP] t=   8.3s | pag=  5 | files=   0 | data=  2 | req=   5 | rej=  62 | cola= 392 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/node/223
+[MEFP] t=   9.2s | pag=  6 | files=   0 | data=  2 | req=   6 | rej=  62 | cola= 391 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/boletines
+[MEFP] DATASETS=3 | score=55 | statistical_html_table | https://www.economiayfinanzas.gob.bo/index.php/boletines
+[MEFP] t=  10.0s | pag=  7 | files=   0 | data=  3 | req=   7 | rej=  62 | cola= 402 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion
+[MEFP] ARCHIVO UTIL=1 | score=79 | xlsx | https://200.75.171.4/sites/default/files/2026-04/Deuda%20P%C3%BAblica%20con%20Cronogramas%20de%20Pagos%20de%20las%20Entidades%20Territoriales%20Aut%C3%B3nomas%20%28ETA%29%20y%20Universidades%20P%C3%BAblicas%20%28UP%29%20de%20la%20gesti%C3%B3n%202024.xlsx
+[MEFP] ARCHIVO UTIL=2 | score=79 | xlsx | https://200.75.171.4/sites/default/files/2025-02/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2023_0.xlsx
+[MEFP] ARCHIVO UTIL=3 | score=79 | xlsx | https://200.75.171.4/sites/default/files/2025-02/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2022%20VF.xlsx
+[MEFP] ARCHIVO UTIL=4 | score=79 | xlsx | https://200.75.171.4/sites/default/files/2022-11/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2021%20%281%29.xlsx
+[MEFP] ARCHIVO UTIL=5 | score=79 | xlsx | https://200.75.171.4/sites/default/files/2022-09/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2019.xlsx
+[MEFP] ARCHIVO UTIL=6 | score=79 | xlsx | https://200.75.171.4/sites/default/files/2022-09/Deuda_P%C3%BAblica_con_Cron__de_las_ETA_y_UP_2018.xlsx
+[MEFP] t=  10.6s | pag=  8 | files=   6 | data=  3 | req=   8 | rej=  62 | cola= 403 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/indicadores-de-endeudamiento-referenciales
+[MEFP] t=  11.6s | pag=  9 | files=   6 | data=  3 | req=   9 | rej=  63 | cola= 402 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/recaudaciones-aduaneras-capitulos
+[MEFP] ARCHIVO UTIL=7 | score=55 | xlsx | https://www.economiayfinanzas.gob.bo/sites/default/files/2025-09/recaudaci%C3%B3n_aduanera_por_capitulo.xlsx
+[MEFP] t=  12.3s | pag= 10 | files=   7 | data=  3 | req=  10 | rej=  64 | cola= 405 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/sistema_integral_de_pensiones_recaudacion
+[MEFP] t=  13.0s | pag= 11 | files=   7 | data=  3 | req=  11 | rej=  66 | cola= 408 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/sistema_integral_de_pensiones_invalidez_y_muerte
+[MEFP] t=  13.9s | pag= 12 | files=   7 | data=  3 | req=  12 | rej=  69 | cola= 409 | prio=10 | https://www.economiayfinanzas.gob.bo/index.php/sistema_integral_de_pensiones_inversiones
+[MEFP] t=  14.4s | pag= 13 | files=   7 | data=  3 | req=  13 | rej=  72 | cola= 411 | prio=10 | https://media.economiayfinanzas.gob.bo/datos-generales
+[MEFP] t=  15.5s | pag= 14 | files=   7 | data=  3 | req=  14 | rej=  73 | cola= 411 | prio=10 | https://media.economiayfinanzas.gob.bo/resena-historica
+[MEFP] t=  15.9s | pag= 15 | files=   7 | data=  3 | req=  15 | rej=  73 | cola= 510 | prio=10 | https://media.economiayfinanzas.gob.bo/node/223
+[MEFP] t=  16.6s | pag= 16 | files=   7 | data=  3 | req=  16 | rej=  73 | cola= 509 | prio=10 | https://media.economiayfinanzas.gob.bo/viceministerios/vtcp/deuda_cronogramas_pagos_eta_up_ultima_gestion
+[MEFP] t=  17.4s | pag= 17 | files=   7 | data=  3 | req=  17 | rej=  73 | cola= 510 | prio=10 | https://media.economiayfinanzas.gob.bo/indicadores-de-endeudamiento-referenciales
+[MEFP] t=  17.8s | pag= 18 | files=   7 | data=  3 | req=  18 | rej=  74 | cola= 509 | prio=10 | https://media.economiayfinanzas.gob.bo/recaudaciones-aduaneras-capitulos
+[MEFP] t=  18.8s | pag= 19 | files=   7 | data=  3 | req=  19 | rej=  74 | cola= 512 | prio=10 | https://media.economiayfinanzas.gob.bo/sistema_integral_de_pensiones_recaudacion
+[MEFP] t=  19.8s | pag= 20 | files=   7 | data=  3 | req=  20 | rej=  74 | cola= 515 | prio=10 | https://media.economiayfinanzas.gob.bo/sistema_integral_de_pensiones_invalidez_y_muerte
+[MEFP] t=  20.7s | pag= 21 | files=   7 | data=  3 | req=  21 | rej=  74 | cola= 516 | prio=10 | https://media.economiayfinanzas.gob.bo/sistema_integral_de_pensiones_inversiones
+[MEFP] t=  21.7s | pag= 22 | files=   7 | data=  3 | req=  22 | rej=  77 | cola= 518 | prio=10 | https://media.economiayfinanzas.gob.bo/boletines?field_gestion_value=&field_viceministerio_target_id=All&order=field_gestion&sort=asc&title=&type_1=All
+[MEFP] DATASETS=4 | score=55 | statistical_html_table | https://media.economiayfinanzas.gob.bo/boletines?field_gestion_value=&field_viceministerio_target_id=All&order=field_gestion&sort=asc&title=&type_1=All
+[MEFP] t=  22.6s | pag= 23 | files=   7 | data=  4 | req=  23 | rej=  97 | cola= 548 | prio=10 | https://media.economiayfinanzas.gob.bo/boletines?field_gestion_value=&field_viceministerio_target_id=All&order=field_fecha_de_publicacion&sort=asc&title=&type_1=All
+[MEFP] DATASETS=5 | score=55 | statistical_html_table | https://media.economiayfinanzas.gob.bo/boletines?field_gestion_value=&field_viceministerio_target_id=All&order=field_fecha_de_publicacion&sort=asc&title=&type_1=All
+[MEFP] t=  23.3s | pag= 24 | files=   7 | data=  5 | req=  24 | rej= 115 | cola= 576 | prio=10 | https://media.economiayfinanzas.gob.bo/node/22539
+[MEFP] HTTP TOTAL | requests=31 | GET=31 | HEAD=0
+[MEFP] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[MEFP] BUDGET | req=25 | utiles=12 | rechazados=115 | sin_valor=1
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mefp
+Páginas visitadas:   25
+Archivos encontrados:    7
+Datasets web:         5
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             24.03 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - XLSX   : 7
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mefp.json
+
+Trazabilidad:
+  Ejecución: 331
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

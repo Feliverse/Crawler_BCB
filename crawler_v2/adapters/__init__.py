@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from adapters.asfi import AsfiAdapter
+from adapters.asfi_finrural import AsfiFinruralAdapter
 from adapters.asofin import AsofinAdapter
 from adapters.att import AttAdapter
 from adapters.bbv import BbvAdapter
@@ -14,6 +15,7 @@ from adapters.generic import GenericAdapter
 
 ADAPTERS = {
     "asfi": AsfiAdapter,
+    "asfi_finrural": AsfiFinruralAdapter,
     "asofin": AsofinAdapter,
     "att": AttAdapter,
     "bbv": BbvAdapter,

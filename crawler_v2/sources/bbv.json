@@ -1,15 +1,13 @@
 {
   "id_fuente": "bbv",
   "nombre": "Bolsa Boliviana de Valores",
-  "base_url": "https://www2.bbv.com.bo/",
-  "fallback_urls": [
-    "https://www.bbv.com.bo/"
-  ],
+  "base_url": "https://www.bbv.com.bo/",
   "allowed_domains": [
-    "bbv.com.bo"
+    "bbv.com.bo",
+    "www.bbv.com.bo",
+    "www2.bbv.com.bo"
   ],
   "entrypoints": [
-    "https://www2.bbv.com.bo/",
     "https://www.bbv.com.bo/estadisticas/",
     "https://www.bbv.com.bo/mercados/",
     "https://www.bbv.com.bo/estado-del-mercado/",
@@ -18,26 +16,103 @@
     "https://www.bbv.com.bo/mercados/fondos-de-inversion/",
     "https://www.bbv.com.bo/mercados/calificaciones-de-riesgo/reportes-de-calificacion/",
     "https://www.bbv.com.bo/acerca-de-la-bolsa/informacion-financiera/",
+    "https://www.bbv.com.bo/acerca-de-la-bolsa/memorias-anuales/",
+    "https://www.bbv.com.bo/bbv-insight/",
     "https://www.bbv.com.bo/Publicacionv3/View_Publicacion/Resumen_diario_Fecha.aspx"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 6,
+  "max_pages": 1000,
+  "max_files": 5000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "bbv",
+  "high_priority_keywords": [
+    "estadisticas",
+    "estadísticas",
+    "mercados",
+    "montos negociados",
+    "transacciones en bolsa",
+    "valores vigentes",
+    "tasas de rendimiento",
+    "fondos de inversion",
+    "fondos de inversión",
+    "calificaciones de riesgo",
+    "resumen diario",
+    "boletin bursatil",
+    "boletín bursátil",
+    "informacion financiera",
+    "información financiera",
+    "memoria anual"
+  ],
+  "include_url_patterns": [
+    "/estadisticas/",
+    "/mercados/",
+    "/estado-del-mercado/",
+    "/bbv-insight/",
+    "/acerca-de-la-bolsa/informacion-financiera",
+    "/acerca-de-la-bolsa/memorias-anuales",
+    "/Publicacionv3/",
+    "/wp-content/uploads/",
+    "/Media/Default/"
+  ],
+  "adapter_positive_patterns": [
+    "/estadisticas/",
+    "/mercados/",
+    "montos-negociados",
+    "tasas-de-rendimiento",
+    "fondos-de-inversion",
+    "resumen_diario",
+    "resumen.pdf",
+    "/bolsames/",
+    "informacion-financiera"
+  ],
+  "relevance_positive_keywords": [
+    "monto negociado",
+    "volumen negociado",
+    "renta fija",
+    "renta variable",
+    "acciones",
+    "bonos",
+    "tasas",
+    "fondos de inversión",
+    "boletín bursátil",
+    "resumen diario",
+    "estadísticas bursátiles"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/bolsames/",
+    "/Media/Default/Home/resumen.pdf",
+    "/Media/Default/Home/Resumen.pdf"
+  ],
+  "low_priority_keywords": [
+    "educacion bursatil",
+    "educación bursátil",
+    "curso",
+    "capacitacion",
+    "capacitación",
+    "materiales",
+    "normativa",
+    "tarifario",
+    "noticias",
+    "sostenible"
+  ],
+  "ignore_url_patterns": [
+    "/aula-bursatil/",
+    "/curso-",
+    "/materiales/",
+    "/normativa/",
+    "/contacto/"
+  ],
+  "pagination_yield": {
     "enabled": true,
-    "max_pages": 20
-  },
-  "adapter": "bbv"
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

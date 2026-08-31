@@ -1,1 +1,76 @@
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Industria Farmacéutica Sigma
+URL configurada: https://www.sigmacorp.com.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.sigmacorp.com.bo/
+  Utilizada: https://www.sigmacorp.com.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.sigmacorp.com.bo/
+
+URL de trabajo: https://www.sigmacorp.com.bo/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SIGMA] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[SIGMA] t=   7.3s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   3 | prio= 0 | https://www.sigmacorp.com.bo/
+[SIGMA] t=  10.1s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=  23 | prio= 0 | https://www.sigmacorp.com.bo/en/pharmaceutics
+[SIGMA] t=  11.1s | pag=  2 | files=   0 | data=  0 | req=   2 | rej=   1 | cola=  42 | prio= 0 | https://www.sigmacorp.com.bo/en/nutraceutics
+[SIGMA] t=  12.3s | pag=  3 | files=   0 | data=  0 | req=   3 | rej=   2 | cola=  41 | prio= 0 | https://www.sigmacorp.com.bo/en/bioseguridad
+[SIGMA] t=  13.7s | pag=  4 | files=   0 | data=  0 | req=   4 | rej=   3 | cola=  72 | prio=10 | https://www.sigmacorp.com.bo/nutraceutics
+[SIGMA] t=  14.9s | pag=  5 | files=   0 | data=  0 | req=   5 | rej=   4 | cola=  71 | prio=10 | https://www.sigmacorp.com.bo/bioseguridad
+[SIGMA] t=  15.8s | pag=  6 | files=   0 | data=  0 | req=   6 | rej=   5 | cola= 102 | prio=10 | https://www.sigmacorp.com.bo/pharmaceutics
+[SIGMA] t=  17.2s | pag=  7 | files=   0 | data=  0 | req=   7 | rej=   6 | cola= 113 | prio=10 | https://www.sigmacorp.com.bo/noticias/sigma-nutraceuticos-coordina-con-el-ministerio-de-salud-la-donacion-de-10-000-unidades-de-carmelo-y-nutribebe-a-familias-afectadas-por-desastres-naturales-en-samaipata
+[SIGMA] t=  18.7s | pag=  8 | files=   0 | data=  0 | req=   8 | rej=   6 | cola= 113 | prio=10 | https://www.sigmacorp.com.bo/noticias/sigmacorp-y-gih-pioneros-en-productos-naturales-para-la-salud-ahora-juntos
+[SIGMA] t=  19.4s | pag=  9 | files=   0 | data=  0 | req=   9 | rej=   6 | cola= 112 | prio=10 | https://www.sigmacorp.com.bo/noticias/durante-la-pandemia-del-covid-19-los-suplementos-nutricionales-mantienen-saludables-a-los-bebes
+[SIGMA] t=  20.9s | pag= 10 | files=   0 | data=  0 | req=  10 | rej=   6 | cola= 111 | prio=10 | https://www.sigmacorp.com.bo/noticias/bolivia-redujo-el-indice-de-desnutricion-a-15-1
+[SIGMA] t=  21.8s | pag= 11 | files=   0 | data=  0 | req=  11 | rej=   6 | cola= 110 | prio=10 | https://www.sigmacorp.com.bo/noticias/lanzamiento-del-complemento-nutricional-para-el-adulto-mayor-carmelo
+[SIGMA] t=  23.0s | pag= 12 | files=   0 | data=  0 | req=  12 | rej=   6 | cola= 109 | prio=10 | https://www.sigmacorp.com.bo/noticias/alcaldia-de-santa-cruz-lanza-complemento-alimenticio-para-combatir-la-desnutricion
+[SIGMA] t=  24.2s | pag= 13 | files=   0 | data=  0 | req=  13 | rej=   6 | cola= 108 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/analgesics-anti-inflammatories
+[SIGMA] t=  26.2s | pag= 14 | files=   0 | data=  0 | req=  14 | rej=   7 | cola= 116 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/anti-infections
+[SIGMA] t=  26.8s | pag= 15 | files=   0 | data=  0 | req=  15 | rej=   8 | cola= 118 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/antiallergic
+[SIGMA] t=  28.2s | pag= 16 | files=   0 | data=  0 | req=  16 | rej=   9 | cola= 119 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/antivirals
+[SIGMA] t=  28.9s | pag= 17 | files=   0 | data=  0 | req=  17 | rej=  10 | cola= 119 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/cardiologists
+[SIGMA] t=  30.3s | pag= 18 | files=   0 | data=  0 | req=  18 | rej=  11 | cola= 120 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/dermatological
+[SIGMA] t=  31.4s | pag= 19 | files=   0 | data=  0 | req=  19 | rej=  12 | cola= 121 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/gastrointestinal-en
+[SIGMA] t=  32.1s | pag= 20 | files=   0 | data=  0 | req=  20 | rej=  13 | cola= 126 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/gynecological
+[SIGMA] t=  33.6s | pag= 21 | files=   0 | data=  0 | req=  21 | rej=  14 | cola= 128 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/neurological
+[SIGMA] t=  34.7s | pag= 22 | files=   0 | data=  0 | req=  22 | rej=  15 | cola= 128 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/odontology
+[SIGMA] t=  35.9s | pag= 23 | files=   0 | data=  0 | req=  23 | rej=  16 | cola= 131 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/ophthalmology
+[SIGMA] t=  37.9s | pag= 24 | files=   0 | data=  0 | req=  24 | rej=  17 | cola= 145 | prio=10 | https://www.sigmacorp.com.bo/en/pharmaceutics-products/urology
+[SIGMA] HTTP TOTAL | requests=31 | GET=31 | HEAD=0
+[SIGMA] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[SIGMA] BUDGET | req=25 | utiles=0 | rechazados=18 | sin_valor=25
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              sigma
+Páginas visitadas:   25
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             39.31 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\sigma.json
+
+Trazabilidad:
+  Ejecución: 340
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,37 +1,147 @@
 {
   "id_fuente": "ibce",
   "nombre": "Instituto Boliviano de Comercio Exterior / Cámara Agropecuaria del Oriente",
-  "base_url": "https://www.ibce.org.bo/",
+  "base_url": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
   "allowed_domains": [
-    "ibce.org.bo"
+    "ibce.org.bo",
+    "www.ibce.org.bo"
   ],
   "entrypoints": [
-    "https://www.ibce.org.bo/"
+    "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+    "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+    "https://ibce.org.bo/publicaciones-ibcecifras.php",
+    "https://ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 5000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/informacion-estadisticas-bolivia.php",
+    "/informacion-estadisticas-departamentos.php",
+    "/publicaciones-ibcecifras.php",
+    "/publicaciones-ibcecifras-pdf.php",
+    "/ibcecifras/",
+    "/publicaciones-ibce.php",
+    "/publicaciones-descarga.php",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
   "high_priority_keywords": [
+    "estadisticas de bolivia",
+    "estadísticas de bolivia",
+    "comercio exterior",
+    "exportaciones",
+    "importaciones",
+    "balanza comercial",
+    "ibce cifras",
+    "anuario",
+    "principales productos",
+    "paises de destino",
+    "países de destino",
+    "paises de origen",
+    "países de origen",
+    "volumen",
+    "valor",
+    "departamento"
+  ],
+  "medium_priority_keywords": [
+    "produccion",
+    "producción",
+    "agropecuario",
+    "agroindustria",
+    "manufacturas",
+    "minerales",
+    "hidrocarburos",
+    "servicios",
+    "remesas",
+    "inversion extranjera",
+    "inversión extranjera",
+    "intercambio comercial",
+    "saldo comercial"
+  ],
+  "adapter_positive_patterns": [
+    "/informacion-estadisticas-bolivia.php",
+    "/informacion-estadisticas-departamentos.php",
+    "/publicaciones-ibcecifras.php",
+    "/publicaciones-ibcecifras-pdf.php",
+    "/ibcecifras/",
+    "/publicaciones-ibce.php",
+    "/publicaciones-descarga.php"
+  ],
+  "force_data_url_patterns": [
+    "/informacion-estadisticas-bolivia.php",
+    "/informacion-estadisticas-departamentos.php",
+    "/publicaciones-ibcecifras.php",
+    "/publicaciones-ibcecifras-pdf.php",
+    "/ibcecifras/"
+  ],
+  "force_keep_url_patterns": [
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "exportaciones",
+    "importaciones",
+    "comercio exterior",
+    "productos",
+    "volumen",
+    "valor",
+    "destino",
+    "origen",
+    "departamento",
+    "saldo comercial",
     "estadisticas",
-    "comercio-exterior",
-    "cifras",
-    "publicaciones",
-    "boletin"
-  ]
+    "estadísticas"
+  ],
+  "relevance_positive_keywords": [
+    "cifras del comercio exterior boliviano",
+    "comercio exterior de bolivia",
+    "principales productos exportados",
+    "principales productos importados",
+    "exportaciones según países de destino",
+    "exportaciones segun paises de destino",
+    "importaciones según países de origen",
+    "importaciones segun paises de origen",
+    "ibce cifras",
+    "anuario"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "eventos",
+    "capacitacion",
+    "capacitación",
+    "foro",
+    "pasantias",
+    "pasantías",
+    "empleo",
+    "institucional",
+    "opinion",
+    "opinión"
+  ],
+  "ignore_url_patterns": [
+    "/noticias",
+    "/eventos",
+    "/foros",
+    "/capacitacion",
+    "/pasantias",
+    "/empleos",
+    "/directorio",
+    "/contacto"
+  ],
+  "max_query_params": 8
 }

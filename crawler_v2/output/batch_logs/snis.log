@@ -1,13 +1,91 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 92, in <module>
-    from gettext import gettext as _, ngettext
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
-  File "<frozen importlib._bootstrap_external>", line 1559, in find_spec
-  File "<frozen importlib._bootstrap_external>", line 1533, in _get_spec
-  File "<frozen importlib._bootstrap_external>", line 1632, in find_spec
-  File "<frozen importlib._bootstrap_external>", line 152, in _path_stat
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Sistema Nacional de Información en Salud
+URL configurada: https://snis.minsalud.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://snis.minsalud.gob.bo/
+  Utilizada: https://snis.minsalud.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://snis.minsalud.gob.bo/
+
+URL de trabajo: https://snis.minsalud.gob.bo/
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[SNIS] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[SNIS] t=   5.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   5 | prio= 0 | https://snis.minsalud.gob.bo/
+[SNIS] t=   6.1s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   9 | cola=  50 | prio= 0 | https://snis.minsalud.gob.bo/publicaciones/
+[SNIS] t=   7.4s | pag=  2 | files=   0 | data=  0 | req=   2 | rej=   9 | cola=  62 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2026.aspx
+[SNIS] t=   8.2s | pag=  3 | files=   0 | data=  0 | req=   3 | rej=   9 | cola=  64 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes/Form_Produccion_2025.aspx
+[SNIS] t=   9.1s | pag=  4 | files=   0 | data=  0 | req=   4 | rej=   9 | cola=  65 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2026.aspx
+[SNIS] t=   9.9s | pag=  5 | files=   0 | data=  0 | req=   5 | rej=   9 | cola=  66 | prio= 0 | https://estadisticas.minsalud.gob.bo/Reportes_Vigilancia/Form_Tipo_Vigi_2025.aspx
+[SNIS] t=  10.4s | pag=  6 | files=   0 | data=  0 | req=   6 | rej=   9 | cola=  67 | prio= 1 | https://snis.minsalud.gob.bo/37-noticias-snis-ve/noticias-principales/97-boletin-informativo-produccion-de-servicios-01-2021
+[SNIS] t=  11.0s | pag=  7 | files=   0 | data=  0 | req=   7 | rej=   9 | cola=  67 | prio= 1 | https://snis.minsalud.gob.bo/51-boletin-produccion-de-servicios
+[SNIS] t=  11.5s | pag=  8 | files=   0 | data=  0 | req=   8 | rej=   9 | cola=  66 | prio= 1 | https://snis.minsalud.gob.bo/53-boletin-sistema-de-vigilancia-nutricional-comunitaria
+[SNIS] t=  12.2s | pag=  9 | files=   0 | data=  0 | req=   9 | rej=   9 | cola=  65 | prio= 1 | https://snis.minsalud.gob.bo/fichas-epidemiologicas
+[SNIS] t=  13.1s | pag= 10 | files=   0 | data=  0 | req=  10 | rej=   9 | cola=  70 | prio= 1 | https://estadisticas.minsalud.gob.bo/
+[SNIS] DATASETS=1 | score=65 | data_html_table | https://estadisticas.minsalud.gob.bo/
+[SNIS] t=  13.9s | pag= 11 | files=   0 | data=  1 | req=  11 | rej=   9 | cola=  88 | prio= 1 | https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx
+[SNIS] DATASETS=2 | score=65 | data_html_table | https://estadisticas.minsalud.gob.bo/Default_Vigilancia.aspx
+[SNIS] t=  14.8s | pag= 12 | files=   0 | data=  2 | req=  12 | rej=   9 | cola= 106 | prio= 1 | https://snis.minsalud.gob.bo/estadisticas-sip
+[SNIS] t=  15.8s | pag= 13 | files=   0 | data=  2 | req=  13 | rej=   9 | cola= 110 | prio= 1 | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] DATASETS=3 | score=95 | data_html_table | https://estadisticas.minsalud.gob.bo/Reportes_Dinamicos/Menu_rep_dinamicos.aspx
+[SNIS] ARCHIVO UTIL=1 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2025_DASHBOARD_Cerrado_Oficial.xlsx
+[SNIS] ARCHIVO UTIL=2 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2024_DASHBOARD_Cerrado_Oficial.xlsx
+[SNIS] ARCHIVO UTIL=3 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2023_DASHBOARD_Cerrado_Oficial.xlsx
+[SNIS] ARCHIVO UTIL=4 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EE.SS. GESTION 2022_DASHBOARDcerrado oficial.xlsx
+[SNIS] ARCHIVO UTIL=5 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA_EE.SS._GESTION_2021_DASHBOARD_Cerrado_Oficial.xlsx
+[SNIS] ARCHIVO UTIL=6 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EE.SS. GESTION 2020_DASHBOARDcerrado oficial (13)PUBLICADO.xlsx
+[SNIS] ARCHIVO UTIL=7 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EESS_TODOS LOS SUBSECTORES_2019_cerrado.xlsx
+[SNIS] ARCHIVO UTIL=8 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/ESTRUCTURA DE EESS_2018_cerrado.xlsx
+[SNIS] ARCHIVO UTIL=9 | score=79 | xlsx | https://estadisticas.minsalud.gob.bo/archivos/Establecimientos 2005_2017 CERRADO.xlsx
+[SNIS] t=  16.5s | pag= 14 | files=   9 | data=  3 | req=  14 | rej=   9 | cola= 136 | prio= 1 | http://siccaf.minsalud.gob.bo/snis/
+[SNIS] t=  17.4s | pag= 15 | files=   9 | data=  3 | req=  15 | rej=   9 | cola= 136 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/search
+[SNIS] t=  18.7s | pag= 16 | files=   9 | data=  3 | req=  16 | rej=   9 | cola= 136 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/2-documentos-tecnicos
+[SNIS] t=  20.3s | pag= 17 | files=   9 | data=  3 | req=  17 | rej=   9 | cola= 178 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/80-programas-nacionales
+[SNIS] t=  21.4s | pag= 18 | files=   9 | data=  3 | req=  18 | rej=   9 | cola= 178 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/88-sip
+[SNIS] t=  22.7s | pag= 19 | files=   9 | data=  3 | req=  19 | rej=   9 | cola= 182 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/95-poblaciones
+[SNIS] t=  23.8s | pag= 20 | files=   9 | data=  3 | req=  20 | rej=   9 | cola= 192 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/105-sus
+[SNIS] t=  24.9s | pag= 21 | files=   9 | data=  3 | req=  21 | rej=   9 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/3-investigaciones
+[SNIS] t=  26.2s | pag= 22 | files=   9 | data=  3 | req=  22 | rej=   9 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/94-asis
+[SNIS] t=  27.5s | pag= 23 | files=   9 | data=  3 | req=  23 | rej=   9 | cola= 202 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/4-boletines
+[SNIS] t=  28.4s | pag= 24 | files=   9 | data=  3 | req=  24 | rej=   9 | cola= 206 | prio= 1 | https://snis.minsalud.gob.bo/publicaciones/category/100-encuestas-de-demografia-y-salud
+[SNIS] HTTP TOTAL | requests=31 | GET=31 | HEAD=0
+[SNIS] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[SNIS] BUDGET | req=25 | utiles=12 | rechazados=9 | sin_valor=11
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              snis
+Páginas visitadas:   25
+Archivos encontrados:    9
+Datasets web:         3
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             29.39 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - XLSX   : 9
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\snis.json
+
+Trazabilidad:
+  Ejecución: 341
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

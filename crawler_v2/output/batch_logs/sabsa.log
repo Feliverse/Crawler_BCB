@@ -1,10 +1,69 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1, in <module>
-    from __future__ import annotations
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
-  File "<frozen importlib._bootstrap_external>", line 1218, in get_data
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Servicios de Aeropuertos Bolivianos S.A. - Fuente histórica / NAABOL
+URL configurada: https://naabol.gob.bo/boletines-estadisticos/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://naabol.gob.bo/boletines-estadisticos/
+  Utilizada: https://naabol.gob.bo/boletines-estadisticos/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://naabol.gob.bo/boletines-estadisticos/
+
+URL de trabajo: https://naabol.gob.bo/boletines-estadisticos/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[SABSA] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   3 | prio= 0 | https://naabol.gob.bo/boletines-estadisticos/
+[SABSA] DATASETS=1 | score=65 | configured_data_page | https://naabol.gob.bo/boletines-estadisticos/
+[SABSA] ARCHIVO UTIL=1 | score=100 | pdf | https://naabol.gob.bo/download/103/boletines-estadisticos/6238/boletines-estadisticos.pdf
+[SABSA] t=   2.0s | pag=  1 | files=   1 | data=  1 | req=   1 | rej=   0 | cola=   2 | prio= 0 | https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/
+[SABSA] DATASETS=2 | score=70 | configured_data_page | https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/
+[SABSA] ARCHIVO UTIL=2 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5278/tabla-a1-1-datos-de-aerodromo.xlsx
+[SABSA] ARCHIVO UTIL=3 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5279/tabla-a1-2-datos-sobre-espacio-aereo.xlsx
+[SABSA] ARCHIVO UTIL=4 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5280/tabla-a1-3-ats-y-otros-datos-sobre-rutas.xlsx
+[SABSA] ARCHIVO UTIL=5 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5281/tabla-a1-4-datos-sobre-procedimientos-de-vuelo-por-instrumentos.xlsx
+[SABSA] ARCHIVO UTIL=6 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5282/tabla-a1-5-datos-sobre-ayudas-y-sistemas-de-radionavegacion.xlsx
+[SABSA] ARCHIVO UTIL=7 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5283/tabla-a1-6-datos-sobre-obstaculos.xlsx
+[SABSA] ARCHIVO UTIL=8 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5284/tabla-a1-7-datos-geograficos.xlsx
+[SABSA] ARCHIVO UTIL=9 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5285/tabla-a1-8-datos-sobre-el-terreno.xlsx
+[SABSA] ARCHIVO UTIL=10 | score=100 | xlsx | https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5286/tabla-a1-9-tipos-de-datos-y.xlsx
+[SABSA] t=   3.7s | pag=  2 | files=  11 | data=  2 | req=   2 | rej=   0 | cola=   1 | prio= 0 | https://naabol.gob.bo/publicaciones/
+[SABSA] t=   5.5s | pag=  3 | files=  11 | data=  2 | req=   3 | rej=   0 | cola=   0 | prio= 0 | https://naabol.gob.bo/informacion-aeronautica/
+[SABSA] HTTP TOTAL | requests=5 | GET=5 | HEAD=0
+[SABSA] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[SABSA] BUDGET | req=4 | utiles=13 | rechazados=1 | sin_valor=2
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              sabsa
+Páginas visitadas:   4
+Archivos encontrados:   11
+Datasets web:         2
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             7.25 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 1
+  - XLSX   : 10
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\sabsa.json
+
+Trazabilidad:
+  Ejecución: 336
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

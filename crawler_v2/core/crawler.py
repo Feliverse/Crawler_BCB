@@ -18,7 +18,11 @@ from urllib.parse import (
 from bs4 import BeautifulSoup
 from requests.exceptions import RequestException, Timeout
 
-from adapters.generic import GenericAdapter
+from adapters.generic import (
+    AdapterFileCandidate,
+    AdapterFileCandidateGroup,
+    GenericAdapter,
+)
 
 from core.api_detector import ApiDetector
 from core.api_discovery import ApiReferenceDiscovery
@@ -156,6 +160,14 @@ class CrawlResult:
     # Métricas de la política genérica de paginación por rendimiento.
     # No forman parte del JSON contractual.
     pagination_metrics: dict = field(default_factory=dict)
+
+    # Candidatos de archivo inferidos por adapters para sitios donde el
+    # navegador genera enlaces dinámicamente. No forman parte del JSON.
+    generated_files_metrics: dict = field(default_factory=dict)
+
+    # Conteo absoluto del cliente HTTP compartido. Incluye resolver,
+    # sitemap, HTML, APIs, HEAD de candidatos, ZIP y dedupe.
+    http_metrics: dict = field(default_factory=dict)
 
 
 # ============================================================
@@ -355,6 +367,89 @@ class Crawler:
         # archivos directamente, pero sí descubren páginas detalle útiles.
         self.pagination_discovery_events = 0
         self.pagination_skip_events = 0
+
+        # ====================================================
+        # ARCHIVOS GENERADOS POR ADAPTER
+        # ====================================================
+        #
+        # Algunos sitios construyen enlaces en JavaScript y el HTML
+        # descargado no contiene los href finales. El adapter puede
+        # describir candidatos, pero el core siempre valida existencia.
+        #
+        try:
+            self.generated_file_probe_timeout = max(
+                1.0,
+                float(
+                    config.get(
+                        "generated_file_probe_timeout",
+                        min(
+                            10,
+                            getattr(
+                                client,
+                                "timeout",
+                                10,
+                            ),
+                        ),
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.generated_file_probe_timeout = 10.0
+
+        self.generated_probe_cache: dict[
+            str,
+            bool | None,
+        ] = {}
+
+        # Corte histórico adaptativo para grupos generados.
+        #
+        # Por defecto queda DESACTIVADO (0), por lo que ninguna fuente
+        # existente cambia de comportamiento. Un source que genere grupos
+        # ordenados de reciente -> antiguo puede activarlo para evitar
+        # sondear indefinidamente años anteriores sin datos.
+        try:
+            self.generated_stop_after_empty_groups = max(
+                0,
+                int(
+                    config.get(
+                        "generated_stop_after_empty_groups",
+                        0,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.generated_stop_after_empty_groups = 0
+
+        try:
+            self.generated_stop_min_available_groups = max(
+                1,
+                int(
+                    config.get(
+                        "generated_stop_min_available_groups",
+                        1,
+                    )
+                ),
+            )
+        except (
+            TypeError,
+            ValueError,
+        ):
+            self.generated_stop_min_available_groups = 1
+
+        self.generated_groups_seen = 0
+        self.generated_groups_available = 0
+        self.generated_candidates_seen = 0
+        self.generated_candidates_available = 0
+        self.generated_candidates_missing = 0
+        self.generated_probe_errors = 0
+        self.generated_empty_groups_peak = 0
+        self.generated_stopped_on_empty_streak = False
 
         self.source_id = str(
             config["id_fuente"]
@@ -3084,6 +3179,304 @@ class Crawler:
                     )
 
     # ========================================================
+    # ARCHIVOS GENERADOS POR ADAPTER
+    # ========================================================
+
+    def _probe_generated_file(
+        self,
+        url: str,
+    ) -> bool | None:
+        """
+        Comprueba existencia mediante HEAD sin descargar el archivo.
+
+        Devuelve:
+        - True: el recurso existe;
+        - False: 404/410 o respuesta no exitosa conocida;
+        - None: no se pudo comprobar por un error de red.
+
+        Los resultados se cachean porque un probe de periodo puede ser
+        también uno de los candidatos que luego se registrarán.
+        """
+
+        normalized = self.normalize_url(
+            url
+        )
+
+        if not normalized:
+            return False
+
+        cached = self.generated_probe_cache.get(
+            normalized
+        )
+
+        if cached is not None:
+            return cached
+
+        if (
+            normalized
+            in self.generated_probe_cache
+        ):
+            return None
+
+        if not self.is_public_web_url(
+            normalized
+        ):
+            self.generated_probe_cache[
+                normalized
+            ] = False
+            return False
+
+        if not self.is_allowed(
+            normalized
+        ):
+            self.generated_probe_cache[
+                normalized
+            ] = False
+            return False
+
+        if not self._allow_discovered_url(
+            normalized
+        ):
+            self.generated_probe_cache[
+                normalized
+            ] = False
+            return False
+
+        try:
+            response = self.client.head(
+                normalized,
+                raise_for_status=False,
+                timeout=self.generated_file_probe_timeout,
+            )
+
+        except (
+            Timeout,
+            RequestException,
+        ):
+            self.generated_probe_errors += 1
+            self.generated_probe_cache[
+                normalized
+            ] = None
+            return None
+
+        try:
+            status_code = int(
+                response.status_code
+            )
+
+            if (
+                200
+                <= status_code
+                < 300
+            ):
+                self.generated_probe_cache[
+                    normalized
+                ] = True
+                return True
+
+            if status_code in {
+                404,
+                410,
+            }:
+                self.generated_probe_cache[
+                    normalized
+                ] = False
+                return False
+
+            # Un 403/429/5xx no demuestra que el archivo no exista.
+            # Lo dejamos como inconcluso para no convertir un problema
+            # temporal del servidor en una falsa ausencia.
+            self.generated_probe_errors += 1
+            self.generated_probe_cache[
+                normalized
+            ] = None
+            return None
+
+        finally:
+            response.close()
+
+    def _process_adapter_generated_files(
+        self,
+        *,
+        page_url: str,
+        html: str,
+        title: str,
+    ) -> None:
+        """
+        Consume grupos de archivos inferidos por el adapter.
+
+        El core mantiene todas las garantías comunes:
+        dominio permitido, HEAD de existencia, FileDetector, relevancia,
+        registro y dedupe. El adapter nunca realiza HTTP.
+        """
+
+        groups = self.adapter.generated_file_groups(
+            page_url=page_url,
+            html=html,
+            title=title,
+        )
+
+        if not groups:
+            return
+
+        if not isinstance(
+            groups,
+            (
+                tuple,
+                list,
+            ),
+        ):
+            return
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"GENERADOS DESCUBIERTOS | "
+            f"grupos={len(groups)} | "
+            f"{page_url}",
+            flush=True,
+        )
+
+        consecutive_empty_groups = 0
+
+        for group in groups:
+            if not isinstance(
+                group,
+                AdapterFileCandidateGroup,
+            ):
+                continue
+
+            budget_decision = (
+                self.budget.decision()
+            )
+
+            if budget_decision.stop:
+                print(
+                    f"[{self.source_id.upper()}] "
+                    f"GENERADOS STOP | "
+                    f"{budget_decision.reason or 'crawl_budget'}",
+                    flush=True,
+                )
+                break
+
+            self.generated_groups_seen += 1
+
+            probes = (
+                group.probes
+                or group.candidates[
+                    :1
+                ]
+            )
+
+            group_available = False
+            group_inconclusive = False
+
+            for probe in probes:
+                if not isinstance(
+                    probe,
+                    AdapterFileCandidate,
+                ):
+                    continue
+
+                probe_exists = (
+                    self._probe_generated_file(
+                        probe.url
+                    )
+                )
+
+                if probe_exists is True:
+                    group_available = True
+                    break
+
+                if probe_exists is None:
+                    group_inconclusive = True
+
+            if not group_available:
+                # Solo un 404/410 concluyente cuenta como grupo vacío.
+                # Timeouts, 403, 429 o 5xx NO acercan el corte histórico.
+                if (
+                    not group_inconclusive
+                    and self.generated_stop_after_empty_groups > 0
+                    and self.generated_groups_available
+                    >= self.generated_stop_min_available_groups
+                ):
+                    consecutive_empty_groups += 1
+                    self.generated_empty_groups_peak = max(
+                        self.generated_empty_groups_peak,
+                        consecutive_empty_groups,
+                    )
+
+                    if (
+                        consecutive_empty_groups
+                        >= self.generated_stop_after_empty_groups
+                    ):
+                        self.generated_stopped_on_empty_streak = True
+                        print(
+                            f"[{self.source_id.upper()}] "
+                            f"GENERADOS STOP HISTORICO | "
+                            f"vacios_consecutivos={consecutive_empty_groups} | "
+                            f"ultimo_grupo={group.key}",
+                            flush=True,
+                        )
+                        break
+
+                continue
+
+            consecutive_empty_groups = 0
+            self.generated_groups_available += 1
+
+            for candidate in group.candidates:
+                if not isinstance(
+                    candidate,
+                    AdapterFileCandidate,
+                ):
+                    continue
+
+                self.generated_candidates_seen += 1
+
+                exists = (
+                    self._probe_generated_file(
+                        candidate.url
+                    )
+                )
+
+                if exists is not True:
+                    if exists is False:
+                        self.generated_candidates_missing += 1
+                    continue
+
+                self.generated_candidates_available += 1
+
+                normalized = self.normalize_url(
+                    candidate.url
+                )
+
+                if not normalized:
+                    continue
+
+                detection = self.detector.detect_url(
+                    normalized
+                )
+
+                if not detection.is_file:
+                    continue
+
+                self._register_file(
+                    url=normalized,
+                    source_page=page_url,
+                    description=(
+                        candidate.description
+                        or filename_from_url(
+                            normalized
+                        )
+                    ),
+                    path=tuple(
+                        candidate.path
+                    ),
+                    detection=detection,
+                    inspect_zip=False,
+                )
+
+    # ========================================================
     # ARCHIVOS
     # ========================================================
 
@@ -3095,12 +3488,18 @@ class Crawler:
         description: str,
         path: tuple[str, ...],
         detection: FileDetection,
+        inspect_zip: bool = True,
     ) -> bool:
         """
         Registra solo archivos que superen el filtro de relevancia.
 
-        Los ZIP se inspeccionan mediante Range únicamente cuando el
-        contexto previo indica que podrían contener datos útiles.
+        Los ZIP normales se inspeccionan mediante Range únicamente cuando
+        el contexto previo indica que podrían contener datos útiles.
+
+        `inspect_zip=False` se reserva para candidatos generados por un
+        adapter que ya fueron verificados por HTTP y cuya ruta está
+        explícitamente publicada como dataset por la fuente. Evita dos
+        requests Range adicionales por cada ZIP dinámico.
         """
 
         normalized = self.normalize_url(
@@ -3188,14 +3587,22 @@ class Crawler:
         )
 
         contenido_zip: list[str] = []
-        zip_status = None
+        zip_status = (
+            "verified_generated_not_inspected"
+            if (
+                detection.file_type == "zip"
+                and not inspect_zip
+            )
+            else None
+        )
         zip_bytes = 0
 
         # Un ZIP desconocido no justifica dos solicitudes Range extra.
         # Lo inspeccionamos solo si el contexto ya es razonablemente
         # prometedor o si el adapter lo favoreció.
         if (
-            detection.file_type == "zip"
+            inspect_zip
+            and detection.file_type == "zip"
             and (
                 decision.keep
                 or decision.score >= 35
@@ -3352,45 +3759,6 @@ class Crawler:
             normalized
         ):
             return
-
-        # ----------------------------------------------------
-        # PAGINACIÓN WEB: CORTE ANTES DE ENCOLAR
-        # ----------------------------------------------------
-        #
-        # Solo se aplica a navegación web descubierta normalmente.
-        # Seeds, endpoints API y otras URLs con prioridad forzada no
-        # se alteran aquí. Las páginas no paginadas siempre pasan.
-        #
-        # El loop principal vuelve a evaluar la URL antes de visitarla,
-        # porque una familia puede haberse estancado después de que varias
-        # páginas ya hubieran entrado previamente en la frontera.
-        if (
-            priority_override is None
-            and self.pagination_yield_policy.enabled
-        ):
-            pagination_decision = (
-                self.pagination_yield_policy
-                .should_visit(
-                    normalized
-                )
-            )
-
-            if not pagination_decision.allow:
-                self.pagination_skip_events += 1
-
-                if (
-                    self.pagination_skip_events <= 10
-                    or self.pagination_skip_events % 25 == 0
-                ):
-                    print(
-                        f"[{self.source_id.upper()}] "
-                        f"PAGINACION SKIP COLA | "
-                        f"motivo={pagination_decision.reason} | "
-                        f"{normalized}",
-                        flush=True,
-                    )
-
-                return
 
         # ----------------------------------------------------
         # PROFUNDIDAD ADAPTATIVA
@@ -4254,6 +4622,16 @@ class Crawler:
                         )
 
                 # =================================================
+                # ARCHIVOS GENERADOS POR ADAPTER
+                # =================================================
+
+                self._process_adapter_generated_files(
+                    page_url=final_url,
+                    html=response.text,
+                    title=title,
+                )
+
+                # =================================================
                 # REFERENCIAS API EXPUESTAS EN EL HTML / JS INLINE
                 # =================================================
 
@@ -4786,9 +5164,88 @@ class Crawler:
             ),
         }
 
+        result.generated_files_metrics = {
+            "groups_seen": (
+                self.generated_groups_seen
+            ),
+            "groups_available": (
+                self.generated_groups_available
+            ),
+            "candidates_seen": (
+                self.generated_candidates_seen
+            ),
+            "candidates_available": (
+                self.generated_candidates_available
+            ),
+            "candidates_missing": (
+                self.generated_candidates_missing
+            ),
+            "probe_errors": (
+                self.generated_probe_errors
+            ),
+            "empty_groups_peak": (
+                self.generated_empty_groups_peak
+            ),
+            "stopped_on_empty_streak": (
+                self.generated_stopped_on_empty_streak
+            ),
+            "stop_after_empty_groups": (
+                self.generated_stop_after_empty_groups
+            ),
+        }
+
+        result.http_metrics = {
+            "requests_total": int(
+                getattr(
+                    self.client,
+                    "request_count",
+                    0,
+                )
+            ),
+            "requests_by_method": dict(
+                getattr(
+                    self.client,
+                    "requests_by_method",
+                    {},
+                )
+            ),
+        }
+
         result.pagination_metrics = (
             self.pagination_yield_policy
             .metrics()
+        )
+
+        if self.generated_groups_seen:
+            print(
+                f"[{self.source_id.upper()}] "
+                f"GENERADOS RESULTADO | "
+                f"grupos={result.generated_files_metrics.get('groups_seen', 0)} | "
+                f"periodos={result.generated_files_metrics.get('groups_available', 0)} | "
+                f"candidatos={result.generated_files_metrics.get('candidates_seen', 0)} | "
+                f"existentes={result.generated_files_metrics.get('candidates_available', 0)} | "
+                f"faltantes={result.generated_files_metrics.get('candidates_missing', 0)} | "
+                f"errores_probe={result.generated_files_metrics.get('probe_errors', 0)} | "
+                f"vacios_max={result.generated_files_metrics.get('empty_groups_peak', 0)} | "
+                f"corte_historico={int(bool(result.generated_files_metrics.get('stopped_on_empty_streak', False)))}",
+                flush=True,
+            )
+
+        requests_by_method = (
+            result.http_metrics.get(
+                "requests_by_method",
+                {},
+            )
+            or {}
+        )
+
+        print(
+            f"[{self.source_id.upper()}] "
+            f"HTTP TOTAL | "
+            f"requests={result.http_metrics.get('requests_total', 0)} | "
+            f"GET={requests_by_method.get('GET', 0)} | "
+            f"HEAD={requests_by_method.get('HEAD', 0)}",
+            flush=True,
         )
 
         if self.pagination_yield_policy.enabled:

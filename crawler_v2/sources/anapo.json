@@ -1,14 +1,25 @@
 {
   "id_fuente": "anapo",
   "nombre": "Asociación de Productores de Oleaginosas y Trigo",
-  "base_url": "https://www.anapobolivia.org/",
+  "base_url": "https://anapobolivia.org/",
+  "fallback_urls": [
+    "https://www.anapobolivia.org/"
+  ],
   "allowed_domains": [
     "anapobolivia.org"
   ],
   "entrypoints": [
-    "https://www.anapobolivia.org/"
+    "https://anapobolivia.org/categoria/estadisticas/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2025/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2024/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2023/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2022/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2021/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2020/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2019/",
+    "https://anapobolivia.org/pdfviewer/estadisticas-2018/"
   ],
-  "max_depth": 12,
+  "max_depth": 4,
   "max_pages": 5000,
   "max_files": 100000,
   "request_timeout": 15,
@@ -29,9 +40,41 @@
   },
   "high_priority_keywords": [
     "estadistica",
+    "estadisticas",
+    "superficie",
+    "rendimiento",
     "produccion",
-    "cultivo",
-    "boletin",
-    "publicacion"
-  ]
+    "precio"
+  ],
+  "include_url_patterns": [
+    "/categoria/estadisticas/",
+    "/pdfviewer/estadisticas-",
+    "/wp-content/uploads/",
+    "/wp-content/plugins/"
+  ],
+  "ignore_url_patterns": [
+    "/wp-json/wp/v2/"
+  ],
+  "adapter_positive_patterns": [
+    "/categoria/estadisticas/",
+    "/pdfviewer/estadisticas-",
+    "estadisticas-2025",
+    "estadisticas-2024",
+    "estadisticas-2023",
+    "estadisticas-2022",
+    "estadisticas-2021",
+    "estadisticas-2020",
+    "estadisticas-2019",
+    "estadisticas-2018"
+  ],
+  "force_keep_url_patterns": [
+    "/pdfviewer/estadisticas-"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

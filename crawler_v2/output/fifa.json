@@ -1,0 +1,316 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "FIFA-Annual-Report-2025.csv": {
+                        "descripcion": "Download the report",
+                        "url_descarga": "https://digitalhub.fifa.com/asset/abc58a71-5951-4bca-a067-70fed85991b9/FIFA-Annual-Report-2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Financials.csv": {
+                        "descripcion": "Financials",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Inside_FIFA.csv": {
+                        "descripcion": "Inside FIFA",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Foreword_by_the_chairperson_of_the_Finance_Committee": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Foreword_by_the_chairperson_of_the_Finance_Committee.csv": {
+                        "descripcion": "Foreword by the chairperson of the Finance Committee",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/foreword-by-the-chairperson-of-the-finance-committee",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "2025_financials_in_review": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Inside_FIFA.csv": {
+                        "descripcion": "Inside FIFA",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            },
+            "2025_revenue": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "2025_revenue.csv": {
+                            "descripcion": "2025 revenue",
+                            "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/2025-revenue",
+                            "fecha_actualizacion": "2025",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "configured_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "2025_investments_expenses": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "2025_investments_expenses.csv": {
+                            "descripcion": "2025 investments/expenses",
+                            "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/2025-investments-expenses",
+                            "fecha_actualizacion": "2025",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "configured_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "FIFA_Club_World_Cup_2025™": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "FIFA_Club_World_Cup_2025™.csv": {
+                            "descripcion": "FIFA Club World Cup 2025™",
+                            "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/fifa-club-world-cup-2025",
+                            "fecha_actualizacion": "2025",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "configured_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            },
+            "2025_balance_sheet": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "2025_balance_sheet.csv": {
+                            "descripcion": "2025 balance sheet",
+                            "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review/2025-balance-sheet",
+                            "fecha_actualizacion": "2025",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financials-in-review",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "configured_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        },
+        "2027-2030_budget": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "2027-2030_budget.csv": {
+                        "descripcion": "2027-2030 budget",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2027-2030-budget",
+                        "fecha_actualizacion": "2030",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Consolidated_statement_of_comprehensive_income": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Consolidated_statement_of_comprehensive_income.csv": {
+                        "descripcion": "Consolidated statement of comprehensive income",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-statement-of-comprehensive-income",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Consolidated_balance_sheet": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Consolidated_balance_sheet.csv": {
+                        "descripcion": "Consolidated balance sheet",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-balance-sheet",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Consolidated_cash_flow_statement": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Consolidated_cash_flow_statement.csv": {
+                        "descripcion": "Consolidated cash flow statement",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-cash-flow-statement",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Consolidated_statement_of_changes_in_reserves": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Consolidated_statement_of_changes_in_reserves.csv": {
+                        "descripcion": "Consolidated statement of changes in reserves",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/consolidated-statement-of-changes-in-reserves",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Notes": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Notes.csv": {
+                        "descripcion": "Notes",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/notes",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Reports_to_the_FIFA_Congress": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Reports_to_the_FIFA_Congress.csv": {
+                        "descripcion": "Reports to the FIFA Congress",
+                        "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements/reports-to-the-fifa-congress",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "2025_at_a_glance": {
+            "FIFA_Women’s_Champions_Cup™_and_FIFA_Unites_Women’s_Series™": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "FIFA_Women’s_Champions_Cup™_and_FIFA_Unites_Women’s_Series™.csv": {
+                            "descripcion": "FIFA Women’s Champions Cup™ and FIFA Unites: Women’s Series™",
+                            "url_descarga": "https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance/fifa-womens-champions-cup-fifa-unites-womens-series-2025",
+                            "fecha_actualizacion": "2025",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://inside.fifa.com/official-documents/annual-report/2025/2025-at-a-glance",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "exportable_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

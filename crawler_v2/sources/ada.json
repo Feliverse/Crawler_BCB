@@ -3,15 +3,16 @@
   "nombre": "ADA Bolivia",
   "base_url": "https://www.adascz.com.bo/",
   "fallback_urls": [
-  "https://www.adascz.com.bo/index.php"
+    "https://www.adascz.com.bo/index.php"
   ],
   "allowed_domains": [
     "adascz.com.bo"
   ],
   "entrypoints": [
-    "https://www.adascz.com.bo/"
+    "https://www.adascz.com.bo/publicaciones/estadisticas-del-sector",
+    "https://www.adascz.com.bo/publicaciones/boletin-de-precios"
   ],
-  "max_depth": 12,
+  "max_depth": 3,
   "max_pages": 5000,
   "max_files": 100000,
   "request_timeout": 15,
@@ -32,8 +33,42 @@
   },
   "high_priority_keywords": [
     "estadistica",
-    "documentos",
-    "boletin",
-    "publicacion"
-  ]
+    "estadisticas",
+    "precio",
+    "precios",
+    "boletin-precios",
+    "boletin-de-precios",
+    "avicola",
+    "avícola"
+  ],
+  "include_url_patterns": [
+    "/publicaciones/estadisticas-del-sector",
+    "/publicaciones/boletin-de-precios",
+    "/images/estadisticas/",
+    "/images/boletin-precios/"
+  ],
+  "adapter_positive_patterns": [
+    "estadisticas-del-sector",
+    "/images/estadisticas/",
+    "boletin-de-precios",
+    "boletin-precios",
+    "/images/boletin-precios/"
+  ],
+  "force_keep_url_patterns": [
+    "/images/boletin-precios/"
+  ],
+  "low_priority_keywords": [
+    "notas-de-prensa",
+    "anuncios",
+    "recetas",
+    "recetarios",
+    "memorias"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

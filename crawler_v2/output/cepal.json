@@ -1,0 +1,88 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "apispec_1.csv": {
+                        "descripcion": "apispec_1.json",
+                        "url_descarga": "https://api-cepalstat.cepal.org/apispec_1.json",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://api-cepalstat.cepal.org/apispec_1.json",
+                        "metodo_deteccion": "content_type",
+                        "content_type": "application/json"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "CEPALSTAT_Portal_de_Datos_y_Publicaciones_EstadÃ­sticas.csv": {
+                        "descripcion": "CEPALSTAT Portal de Datos y Publicaciones EstadÃ­sticas",
+                        "url_descarga": "https://statistics.cepal.org/portal/cepalstat/index.html?lang=es",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://statistics.cepal.org/portal/cepalstat/index.html?lang=es",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "CEPALSTAT_Portal_de_Datos_y_Publicaciones_EstadÃ­sticas_2.csv": {
+                        "descripcion": "CEPALSTAT Portal de Datos y Publicaciones EstadÃ­sticas",
+                        "url_descarga": "https://statistics.cepal.org/portal/cepalstat/indicator-search.html?lang=es",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://statistics.cepal.org/portal/cepalstat/indicator-search.html?lang=es",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "CEPALSTAT_DataBank.csv": {
+                        "descripcion": "CEPALSTAT DataBank",
+                        "url_descarga": "https://statistics.cepal.org/portal/databank/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://statistics.cepal.org/portal/databank/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Perfil_Nacional_-_CEPALSTAT_Portal_de_Datos_y_Publicaciones_EstadÃ­sticas.csv": {
+                        "descripcion": "Perfil Nacional - CEPALSTAT Portal de Datos y Publicaciones EstadÃ­sticas",
+                        "url_descarga": "https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=bol&lang=es&theme=1",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=bol&lang=es&theme=1",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Perfil_Nacional_-_CEPALSTAT_Portal_de_Datos_y_Publicaciones_EstadÃ­sticas_2.csv": {
+                        "descripcion": "Perfil Nacional - CEPALSTAT Portal de Datos y Publicaciones EstadÃ­sticas",
+                        "url_descarga": "https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=bol&lang=es&theme=2",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=bol&lang=es&theme=2",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

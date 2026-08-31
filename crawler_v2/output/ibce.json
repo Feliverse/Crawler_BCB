@@ -1,0 +1,591 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Principales_productos_importados_2025.csv": {
+                        "descripcion": "Bolivia: Principales 100 productos importados del mundo según volumen y valor",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/Principales_productos_importados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bolivia_import_segun_pais_de_origen_2025.csv": {
+                        "descripcion": "Bolivia: Importaciones según países de origen",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/Bolivia_import_segun_pais_de_origen_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Principales_productos_exportado_2025.csv": {
+                        "descripcion": "Bolivia: Principales 100 productos exportados al mundo según volumen y valor",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/Principales_productos_exportado_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Bolivia_export_segun_pais_de_destino_2025.csv": {
+                        "descripcion": "Bolivia: Exportaciones según países de destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/Bolivia_export_segun_pais_de_destino_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Santa_Cruz_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Santa_Cruz_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Santa_Cruz_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Santa_Cruz_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tarija_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Tarija_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tarija_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Tarija_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Potosi_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Potosi_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Potosi_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Potosi_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Oruro_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Oruro_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Oruro_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Oruro_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Beni_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Beni_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Beni_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Beni_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Pando_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Pando_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Pando_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Pando_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "La_Paz_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/La_Paz_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "La_Paz_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/La_Paz_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cochabamba_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Cochabamba_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cochabamba_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Cochabamba_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Chuquisaca_productos_exportados_2025.csv": {
+                        "descripcion": "Principales Productos Exportados al Mundo",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Chuquisaca_productos_exportados_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Chuquisaca_exportaciones_al_mundo_2025.csv": {
+                        "descripcion": "Exportaciones al Mundo según Países de Destino",
+                        "url_descarga": "https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Chuquisaca_exportaciones_al_mundo_2025.pdf",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Estadísticas_de_Bolivia_-_Información_de_Mercados_-_IBCE.csv": {
+                        "descripcion": "Estadísticas de Bolivia - Información de Mercados - IBCE",
+                        "url_descarga": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Estadísticas_por_departamentos_-_Información_de_Mercados_-_IBCE.csv": {
+                        "descripcion": "Estadísticas por departamentos - Información de Mercados - IBCE",
+                        "url_descarga": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-departamentos.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Publicaciones_-_IBCE.csv": {
+                        "descripcion": "Publicaciones - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Cifras_del_Comercio_Exterior_Boliviano_2025": {
+            "CE-336-Cifras-Comercio-Exterior-Boliviano-2025.csv": {
+                "descripcion": "CE-336-Cifras-Comercio-Exterior-Boliviano-2025.pdf",
+                "url_descarga": "https://ibce.org.bo/images/publicaciones/CE-336-Cifras-Comercio-Exterior-Boliviano-2025.pdf",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ibce.org.bo/publicaciones-descarga.php?id=2570&opcion=1",
+                "metodo_deteccion": "url_extension"
+            },
+            "gview.csv": {
+                "descripcion": "iframe",
+                "url_descarga": "https://docs.google.com/gview?embedded=true&url=https%3A%2F%2Fwww.ibce.org.bo%2F%2Fimages%2Fpublicaciones%2FCE-336-Cifras-Comercio-Exterior-Boliviano-2025.pdf",
+                "fecha_actualizacion": "2025",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://ibce.org.bo/publicaciones-descarga.php?id=2570&opcion=1",
+                "metodo_deteccion": "url_pattern"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Cifras_del_Comercio_Exterior_Boliviano_2025.csv": {
+                        "descripcion": "Cifras del Comercio Exterior Boliviano 2025",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-descarga.php?id=2570&opcion=1",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Comercio_Exterior": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Publicaciones_-_IBCE.csv": {
+                        "descripcion": "Publicaciones - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibce.php?opcion=1&publicacion=comercioexterior",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/informacion-estadisticas-bolivia.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "index.php": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Bolivia_Exportación_de_Lácteos_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Exportación de Lácteos - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1519",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Turismo_en_Bolivia_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Turismo en Bolivia - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1518",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Intercambio_Comercial_con_Uruguay_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Intercambio Comercial con Uruguay - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1517",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Importaciones_al_primer_semestre_de_2026_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Importaciones al primer semestre de 2026 - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1516",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Exportaciones_al_primer_semestre_de_2026_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Exportaciones al primer semestre de 2026 - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1515",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Comercio_Exterior_de_Bolivia_al_primer_semestre_de_2026_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Comercio Exterior de Bolivia al primer semestre de 2026 - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1514",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_en_Cifras_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia en Cifras - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1513",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Inversión_Extranjera_Directa_en_América_Latina_y_El_Caribe_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Inversión Extranjera Directa en América Latina y El Caribe - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1512",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Remesas_de_trabajadores_en_el_exterior_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Remesas de trabajadores en el exterior - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1511",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Intercambio_Comercial_con_Perú_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Intercambio Comercial con Perú - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1510",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Producción_de_Frutas_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Producción de Frutas - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1509",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "Bolivia_Intercambio_Comercial_con_Colombia_-_Boletín_IBCE_Cifras.csv": {
+                        "descripcion": "Bolivia: Intercambio Comercial con Colombia - Boletín IBCE Cifras",
+                        "url_descarga": "https://ibce.org.bo/ibcecifras/index.php?id=1508",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "2": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=2",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "3": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=3",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "4": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=4",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "5": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=5",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "»": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=115",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "IBCE_Cifras": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletín_IBCE_Cifras_-_IBCE.csv": {
+                        "descripcion": "Boletín IBCE Cifras - IBCE",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-ibcecifras.php?opcion=6",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibcecifras.php",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Anuario_Estadístico_de_Exportaciones_2007": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Anuario_Estadístico_de_Exportaciones_2007.csv": {
+                        "descripcion": "Anuario Estadístico de Exportaciones 2007",
+                        "url_descarga": "https://ibce.org.bo/publicaciones-descarga.php?id=105&opcion=3",
+                        "fecha_actualizacion": "2007",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

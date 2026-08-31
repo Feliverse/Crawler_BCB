@@ -1,37 +1,148 @@
 {
   "id_fuente": "mmym",
   "nombre": "Ministerio de Minería y Metalurgia",
-  "base_url": "https://www.mineria.gob.bo/",
+  "base_url": "https://www.mineria.gob.bo/index.php/boletines/",
   "allowed_domains": [
-    "mineria.gob.bo"
+    "mineria.gob.bo",
+    "www.mineria.gob.bo"
   ],
   "entrypoints": [
-    "https://www.mineria.gob.bo/"
+    "https://www.mineria.gob.bo/index.php/boletines/",
+    "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 400,
+  "max_files": 3000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/index.php/boletines/",
+    "/index.php/banco-de-trabajo-de-investigacion/",
+    "/banco-de-trabajo-de-investigacion/page/",
+    "/wp-content/uploads/",
+    "/revista/pdf/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
   "high_priority_keywords": [
-    "estadistica",
+    "anuario estadistico",
+    "anuario estadístico",
+    "boletin estadistico",
+    "boletín estadístico",
+    "dossier estadisticas",
+    "dossier estadísticas",
+    "sector minero metalurgico",
+    "sector minero metalúrgico",
+    "produccion minera",
+    "producción minera",
+    "exportaciones mineras",
+    "regalias mineras",
+    "regalías mineras",
+    "precios internacionales",
+    "minerales",
     "mineria",
-    "boletin",
-    "publicacion",
-    "produccion"
-  ]
+    "minería"
+  ],
+  "medium_priority_keywords": [
+    "oro",
+    "plata",
+    "zinc",
+    "estaño",
+    "estano",
+    "plomo",
+    "cobre",
+    "antimonio",
+    "wolfram",
+    "litio",
+    "hierro",
+    "departamento",
+    "operador",
+    "cooperativa",
+    "empresa privada",
+    "empresa estatal",
+    "volumen",
+    "valor",
+    "trimestre"
+  ],
+  "adapter_positive_patterns": [
+    "/index.php/boletines/",
+    "/index.php/banco-de-trabajo-de-investigacion/",
+    "/banco-de-trabajo-de-investigacion/page/",
+    "/wp-content/uploads/",
+    "/revista/pdf/"
+  ],
+  "force_data_url_patterns": [
+    "/index.php/boletines/",
+    "/index.php/banco-de-trabajo-de-investigacion/"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/",
+    "/revista/pdf/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "produccion",
+    "producción",
+    "exportacion",
+    "exportación",
+    "regalias",
+    "regalías",
+    "precios",
+    "minerales",
+    "estadistica",
+    "estadística",
+    "volumen",
+    "valor"
+  ],
+  "relevance_positive_keywords": [
+    "anuario estadístico",
+    "anuario estadistico",
+    "situación de la minería",
+    "situacion de la mineria",
+    "boletín estadístico",
+    "boletin estadistico",
+    "estadísticas del sector minero metalúrgico",
+    "estadisticas del sector minero metalurgico",
+    "producción de minerales",
+    "produccion de minerales",
+    "exportaciones de minerales",
+    "regalías mineras",
+    "regalias mineras"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "comunicado",
+    "convocatoria",
+    "normativa",
+    "resolucion",
+    "resolución",
+    "recursos humanos",
+    "contrataciones",
+    "rendicion publica",
+    "rendición pública",
+    "institucional"
+  ],
+  "ignore_url_patterns": [
+    "/noticias/",
+    "/comunicados/",
+    "/convocatorias/",
+    "/normativa/",
+    "/contrataciones/",
+    "/recursos-humanos/"
+  ],
+  "max_query_params": 8
 }

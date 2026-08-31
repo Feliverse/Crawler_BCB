@@ -1,0 +1,128 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "boletines-estadisticos.csv": {
+                        "descripcion": "Boletines Estadísticos",
+                        "url_descarga": "https://naabol.gob.bo/download/103/boletines-estadisticos/6238/boletines-estadisticos.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://naabol.gob.bo/boletines-estadisticos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-1-datos-de-aerodromo.csv": {
+                        "descripcion": "Tabla A1-1 Datos de aeródromo",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5278/tabla-a1-1-datos-de-aerodromo.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-2-datos-sobre-espacio-aereo.csv": {
+                        "descripcion": "Tabla A1-2 Datos sobre espacio aéreo",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5279/tabla-a1-2-datos-sobre-espacio-aereo.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-3-ats-y-otros-datos-sobre-rutas.csv": {
+                        "descripcion": "Tabla A1-3 ATS y otros datos sobre rutas",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5280/tabla-a1-3-ats-y-otros-datos-sobre-rutas.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-4-datos-sobre-procedimientos-de-vuelo-por-instrumentos.csv": {
+                        "descripcion": "Tabla A1-4 Datos sobre procedimientos de vuelo por instrumentos",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5281/tabla-a1-4-datos-sobre-procedimientos-de-vuelo-por-instrumentos.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-5-datos-sobre-ayudas-y-sistemas-de-radionavegacion.csv": {
+                        "descripcion": "Tabla A1-5 Datos sobre ayudas y sistemas de radionavegación",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5282/tabla-a1-5-datos-sobre-ayudas-y-sistemas-de-radionavegacion.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-6-datos-sobre-obstaculos.csv": {
+                        "descripcion": "Tabla A1-6 Datos sobre obstáculos",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5283/tabla-a1-6-datos-sobre-obstaculos.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-7-datos-geograficos.csv": {
+                        "descripcion": "Tabla A1-7 Datos geográficos",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5284/tabla-a1-7-datos-geograficos.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-8-datos-sobre-el-terreno.csv": {
+                        "descripcion": "Tabla A1-8 Datos sobre el terreno",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5285/tabla-a1-8-datos-sobre-el-terreno.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-9-tipos-de-datos-y.csv": {
+                        "descripcion": "Tabla A1-9 Tipos de datos; y",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5286/tabla-a1-9-tipos-de-datos-y.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "tabla-a1-10-informacion-sobre-reglamentos-servicios-y-procedimientos-nacionales-y-locales.csv": {
+                        "descripcion": "Tabla A1-10 Información sobre reglamentos, servicios y procedimientos nacionales y locales.",
+                        "url_descarga": "https://naabol.gob.bo/download/8/catalogo-de-datos-aeronauticos/5287/tabla-a1-10-informacion-sobre-reglamentos-servicios-y-procedimientos-nacionales-y-locales.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Boletines_Estadísticos_–_NAABOL.csv": {
+                        "descripcion": "Boletines Estadísticos – NAABOL",
+                        "url_descarga": "https://naabol.gob.bo/boletines-estadisticos/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://naabol.gob.bo/boletines-estadisticos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "CATÁLOGO_DE_DATOS_AERONÁUTICOS_–_NAABOL.csv": {
+                        "descripcion": "CATÁLOGO DE DATOS AERONÁUTICOS – NAABOL",
+                        "url_descarga": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://naabol.gob.bo/catalogo-de-datos-aeronauticos-ais/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

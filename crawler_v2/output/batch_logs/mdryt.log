@@ -1,0 +1,64 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Desarrollo Rural y Tierras
+URL configurada: https://ruralytierras.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://ruralytierras.gob.bo/
+  Utilizada: https://ruralytierras.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://ruralytierras.gob.bo/
+
+URL de trabajo: https://ruralytierras.gob.bo/
+Seeds: 6
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[MDRYT] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   5 | prio= 0 | https://ruralytierras.gob.bo/
+[MDRYT] ARCHIVO UTIL=1 | score=100 | pdf | https://ruralytierras.gob.bo/wp-content/uploads/1-REQUISITOS-DOCUMENTALES-PARA-LA-OBTENCION-O-RENOVACION-DE-REGISTRO-SANITARIO-PROCESADORAS.pdf
+[MDRYT] ARCHIVO UTIL=2 | score=100 | pdf | https://ruralytierras.gob.bo/wp-content/uploads/2025/01/lorem-ipsum.pdf
+[MDRYT] t=   2.0s | pag=  1 | files=   2 | data=  0 | req=   1 | rej=   0 | cola=   4 | prio= 0 | https://ruralytierras.gob.bo/index.php/datos/
+[MDRYT] DATASETS=1 | score=90 | configured_data_page | https://ruralytierras.gob.bo/index.php/datos/
+[MDRYT] t=   2.3s | pag=  2 | files=   2 | data=  1 | req=   2 | rej=   0 | cola=   3 | prio= 0 | https://ruralytierras.gob.bo/index.php/estadisticas/
+[MDRYT] t=   2.9s | pag=  3 | files=   2 | data=  1 | req=   3 | rej=   1 | cola=   2 | prio= 0 | https://ruralytierras.gob.bo/index.php/reportes-de-estadisticas/
+[MDRYT] t=   3.5s | pag=  4 | files=   2 | data=  1 | req=   4 | rej=   2 | cola=   1 | prio= 0 | https://ruralytierras.gob.bo/index.php/boletines/
+[MDRYT] t=   4.5s | pag=  5 | files=   2 | data=  1 | req=   5 | rej=   2 | cola=   0 | prio= 0 | https://www.ruralytierras.gob.bo/compendio2012/files/assets/downloads/publication.pdf
+[MDRYT] HTTP TOTAL | requests=7 | GET=7 | HEAD=0
+[MDRYT] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[MDRYT] BUDGET | req=6 | utiles=3 | rechazados=2 | sin_valor=4
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mdryt
+Páginas visitadas:   5
+Archivos encontrados:    2
+Datasets web:         1
+Errores:              1
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             9.68 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - https://www.ruralytierras.gob.bo/compendio2012/files/assets/downloads/publication.pdf -> HTTPError: 404 Client Error: Not Found for url: https://ruralytierras.gob.bo/compendio2012/files/assets/downloads/publication.pdf
+
+Formatos:
+  - PDF    : 2
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mdryt.json
+
+Trazabilidad:
+  Ejecución: 330
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

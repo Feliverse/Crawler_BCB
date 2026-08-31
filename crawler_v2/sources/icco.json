@@ -1,38 +1,118 @@
 {
   "id_fuente": "icco",
   "nombre": "International Cocoa Organization",
-  "base_url": "https://www.icco.org/",
+  "base_url": "https://www.icco.org/statistics/",
   "allowed_domains": [
-    "icco.org"
+    "icco.org",
+    "www.icco.org"
   ],
   "entrypoints": [
-    "https://www.icco.org/"
+    "https://www.icco.org/statistics/",
+    "https://www.icco.org/statistics/statistics_2025/",
+    "https://www.icco.org/app/statistics/",
+    "https://www.icco.org/icco-documentation/cocoa-market-review/",
+    "https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 300,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/statistics/",
+    "/app/statistics/",
+    "/icco-documentation/cocoa-market-review/",
+    "/icco-documentation/quarterly-bulletin-of-cocoa-statistics/",
+    "/wp-content/uploads/"
+  ],
   "high_priority_keywords": [
+    "cocoa daily prices",
+    "daily price",
+    "monthly average",
+    "cocoa prices",
+    "production",
+    "grindings",
+    "stocks",
+    "cocoa beans",
     "statistics",
+    "statistical",
+    "market review",
+    "quarterly bulletin",
+    "world cocoa market"
+  ],
+  "medium_priority_keywords": [
+    "london futures",
+    "new york futures",
+    "us dollar",
+    "euro",
+    "tonne",
+    "producing countries",
+    "importing countries",
+    "exports",
+    "imports",
+    "trade",
+    "forecast"
+  ],
+  "adapter_positive_patterns": [
+    "/statistics/",
+    "/app/statistics/",
+    "/icco-documentation/cocoa-market-review/"
+  ],
+  "force_data_url_patterns": [
+    "/statistics/",
+    "/app/statistics/"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "price",
+    "prices",
+    "production",
+    "grindings",
+    "stocks",
+    "exports",
+    "imports",
+    "trade",
     "cocoa",
-    "data",
-    "report",
-    "download",
-    "quarterly"
+    "statistics"
+  ],
+  "relevance_positive_keywords": [
+    "icco daily price",
+    "cocoa daily prices",
+    "monthly average",
+    "production and grindings of cocoa beans",
+    "world cocoa market",
+    "cocoa market report"
+  ],
+  "low_priority_keywords": [
+    "shop",
+    "subscription",
+    "shopping cart",
+    "conference",
+    "news",
+    "vacancies",
+    "procurement",
+    "agreement"
+  ],
+  "ignore_url_patterns": [
+    "/shop/",
+    "/cart/",
+    "/checkout/",
+    "/news/",
+    "/vacancies/",
+    "/procurement/"
   ]
 }

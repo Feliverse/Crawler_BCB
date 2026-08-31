@@ -2,81 +2,98 @@
 CRAWLER V2
 ================================================================================
 Fuente: FINRURAL Bolivia - Indicadores
-URL configurada: https://www.finrural.org.bo/
+URL configurada: https://www.finrural.org.bo/archivos/info_financiera/
 Timeout HTTP: 15 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 777, in main
-    resolver.resolve(
-    ~~~~~~~~~~~~~~~~^
-        config
-        ^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 449, in resolve
-    attempt = self._probe(
-        candidate,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 266, in _probe
-    response = self.client.get(
-        url,
-        raise_for_status=False,
-        timeout=timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
-    self._validate_conn(conn)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
-    conn.connect()
-    ~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-        sock=sock,
-    ...<14 lines>...
-        assert_fingerprint=self.assert_fingerprint,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-        sock=sock,
-    ...<8 lines>...
-        tls_in_tls=tls_in_tls,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 411, in ssl_wrap_socket
-    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+
+Resolución de fuente:
+  Original: https://www.finrural.org.bo/archivos/info_financiera/
+  Utilizada: https://www.finrural.org.bo/archivos/info_financiera/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.finrural.org.bo/archivos/info_financiera/
+
+URL de trabajo: https://www.finrural.org.bo/archivos/info_financiera/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[FINRURAL_INDICADORES] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   1 | prio= 0 | https://www.finrural.org.bo/archivos/info_financiera/
+[FINRURAL_INDICADORES] DATASETS=1 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/
+[FINRURAL_INDICADORES] t=   1.9s | pag=  1 | files=   0 | data=  1 | req=   1 | rej=   0 | cola=  19 | prio= 0 | https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/
+[FINRURAL_INDICADORES] DATASETS=2 | score=80 | configured_data_page | https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/
+[FINRURAL_INDICADORES] ARCHIVO UTIL=1 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_01_2026.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=2 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_02_2026.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=3 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_03_2026.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=4 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_04_2026.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=5 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_05_2026.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=6 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2026/financiera_06_2026.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=7 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_01_2025.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=8 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_02_2025.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=9 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_03_2025.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=10 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2025/financiera_04_2025.pdf?x16877=
+[FINRURAL_INDICADORES] ARCHIVO UTIL=100 | score=100 | pdf | https://www.finrural.org.bo/archivos/info_financiera/2018/financiera_10_2018.pdf?x16877=
+[FINRURAL_INDICADORES] t=   3.6s | pag=  2 | files= 126 | data=  2 | req=   2 | rej=   0 | cola=  18 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2008/
+[FINRURAL_INDICADORES] DATASETS=3 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2008/
+[FINRURAL_INDICADORES] t=  15.9s | pag=  3 | files= 142 | data=  3 | req=   3 | rej=   0 | cola=  17 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2009/
+[FINRURAL_INDICADORES] DATASETS=4 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2009/
+[FINRURAL_INDICADORES] t=  37.1s | pag=  4 | files= 166 | data=  4 | req=   4 | rej=   0 | cola=  16 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2010/
+[FINRURAL_INDICADORES] DATASETS=5 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2010/
+[FINRURAL_INDICADORES] t=  56.8s | pag=  5 | files= 190 | data=  5 | req=   5 | rej=   0 | cola=  15 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2011/
+[FINRURAL_INDICADORES] DATASETS=6 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2011/
+[FINRURAL_INDICADORES] ARCHIVO UTIL=200 | score=100 | zip | https://www.finrural.org.bo/archivos/info_financiera/2011/financiera_05_2011.zip
+[FINRURAL_INDICADORES] t=  76.8s | pag=  6 | files= 214 | data=  6 | req=   6 | rej=   0 | cola=  14 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2012/
+[FINRURAL_INDICADORES] DATASETS=7 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2012/
+[FINRURAL_INDICADORES] t=  96.2s | pag=  7 | files= 238 | data=  7 | req=   7 | rej=   0 | cola=  13 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2013/
+[FINRURAL_INDICADORES] DATASETS=8 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2013/
+[FINRURAL_INDICADORES] t= 115.2s | pag=  8 | files= 262 | data=  8 | req=   8 | rej=   0 | cola=  12 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2014/
+[FINRURAL_INDICADORES] DATASETS=9 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2014/
+[FINRURAL_INDICADORES] t= 134.2s | pag=  9 | files= 286 | data=  9 | req=   9 | rej=   0 | cola=  11 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2015/
+[FINRURAL_INDICADORES] DATASETS=10 | score=100 | configured_data_page | https://www.finrural.org.bo/archivos/info_financiera/2015/
+[FINRURAL_INDICADORES] ARCHIVO UTIL=300 | score=100 | zip | https://www.finrural.org.bo/archivos/info_financiera/2015/financiera_07_2015.zip
+[FINRURAL_INDICADORES] t= 155.1s | pag= 10 | files= 310 | data= 10 | req=  10 | rej=   0 | cola=  10 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2016/
+[FINRURAL_INDICADORES] t= 176.8s | pag= 11 | files= 334 | data= 11 | req=  11 | rej=   0 | cola=   9 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2017/
+[FINRURAL_INDICADORES] t= 196.3s | pag= 12 | files= 358 | data= 12 | req=  12 | rej=   0 | cola=   8 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2018/
+[FINRURAL_INDICADORES] t= 215.8s | pag= 13 | files= 382 | data= 13 | req=  13 | rej=   0 | cola=   7 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2019/
+[FINRURAL_INDICADORES] ARCHIVO UTIL=400 | score=100 | zip | https://www.finrural.org.bo/archivos/info_financiera/2019/financiera_09_2019.zip
+[FINRURAL_INDICADORES] t= 244.3s | pag= 14 | files= 406 | data= 14 | req=  14 | rej=   0 | cola=   6 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2020/
+[FINRURAL_INDICADORES] t= 263.8s | pag= 15 | files= 430 | data= 15 | req=  15 | rej=   0 | cola=   5 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2021/
+[FINRURAL_INDICADORES] t= 283.1s | pag= 16 | files= 454 | data= 16 | req=  16 | rej=   0 | cola=   4 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2022/
+[FINRURAL_INDICADORES] t= 304.2s | pag= 17 | files= 478 | data= 17 | req=  17 | rej=   0 | cola=   3 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2023/
+[FINRURAL_INDICADORES] ARCHIVO UTIL=500 | score=100 | zip | https://www.finrural.org.bo/archivos/info_financiera/2023/financiera_11_2023.zip
+[FINRURAL_INDICADORES] t= 324.9s | pag= 18 | files= 502 | data= 18 | req=  18 | rej=   0 | cola=   2 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2024/
+[FINRURAL_INDICADORES] t= 346.5s | pag= 19 | files= 526 | data= 19 | req=  19 | rej=   0 | cola=   1 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2025/
+[FINRURAL_INDICADORES] t= 366.4s | pag= 20 | files= 550 | data= 20 | req=  20 | rej=   0 | cola=   0 | prio=30 | https://www.finrural.org.bo/archivos/info_financiera/2026/
+[FINRURAL_INDICADORES] HTTP TOTAL | requests=458 | GET=458 | HEAD=0
+[FINRURAL_INDICADORES] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[FINRURAL_INDICADORES] BUDGET | req=21 | utiles=583 | rechazados=0 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              finrural_indicadores
+Páginas visitadas:   21
+Archivos encontrados:  562
+Datasets web:         21
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             377.33 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 344
+  - ZIP    : 218
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\finrural_indicadores.json
+
+Trazabilidad:
+  Ejecución: 321
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

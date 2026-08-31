@@ -6,32 +6,61 @@
     "redenlace.com.bo"
   ],
   "entrypoints": [
-    "https://www.redenlace.com.bo/"
+    "https://www.redenlace.com.bo/sobre-red-enlace/memorias",
+    "https://www.redenlace.com.bo/sobre-red-enlace/estados-financieros"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 500,
+  "max_files": 1000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "include_url_patterns": [
+    "/sobre-red-enlace/memorias",
+    "/sobre-red-enlace/estados-financieros",
+    "/docs/memorias/es/"
+  ],
   "high_priority_keywords": [
-    "estadistica",
-    "datos",
     "memoria",
-    "informe",
-    "publicacion"
+    "memorias",
+    "gestion",
+    "gestión",
+    "estados financieros",
+    "estado financiero",
+    "tarjetas",
+    "transacciones",
+    "volumen",
+    "indicadores"
+  ],
+  "adapter_positive_patterns": [
+    "/docs/memorias/es/",
+    "/sobre-red-enlace/memorias",
+    "/sobre-red-enlace/estados-financieros"
+  ],
+  "relevance_positive_keywords": [
+    "memoria anual",
+    "estados financieros",
+    "tarjetas",
+    "transacciones",
+    "volumen",
+    "indicadores"
+  ],
+  "force_keep_url_patterns": [
+    "/docs/memorias/es/"
+  ],
+  "ignore_url_patterns": [
+    "/productos",
+    "/soporte",
+    "/promociones",
+    "/blog",
+    "/educacion-financiera",
+    "/historias",
+    "/oficinas",
+    "/contacto",
+    "/afiliate"
   ]
 }

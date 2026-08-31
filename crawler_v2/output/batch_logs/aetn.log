@@ -17,954 +17,199 @@ Resolución de fuente:
 
 URL de trabajo: https://aetn.gob.bo/
 Seeds: 6
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
+Máx páginas: 150
+Máx archivos: 2000
+Máx profundidad: 4
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
-[AETN] SITEMAP | docs=16 | urls=127 | en_cola=122 | errores=1
-[AETN] t=  20.5s | pag=  0 | files=   0 | data=  0 | cola= 127 | prio= 0 | https://aetn.gob.bo/
-[AETN] t=  21.8s | pag=  1 | files=   0 | data=  0 | cola= 142 | prio= 0 | https://anuariodig.aetn.gob.bo/informacion-estadistica/
-[AETN] DATASETS=1 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/
-[AETN] t=  23.7s | pag=  2 | files=   0 | data=  1 | cola= 263 | prio= 0 | https://aetn.gob.bo/datos-y-estadisticas/
-[AETN] DATASETS=2 | statistical_html_table | https://aetn.gob.bo/datos-y-estadisticas/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/58
-[AETN] t=  24.4s | pag=  3 | files=   5 | data=  2 | cola= 263 | prio= 0 | https://aetn.gob.bo/boletines/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/60
-[AETN] t=  25.4s | pag=  4 | files=  11 | data=  2 | cola= 263 | prio= 0 | https://aetn.gob.bo/tarifas-vigentes/
-[AETN] DATASETS=3 | data_html_table | https://aetn.gob.bo/tarifas-vigentes/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/597
-[AETN] t=  26.4s | pag=  5 | files=  21 | data=  3 | cola= 265 | prio= 0 | https://aetn.gob.bo/tarifa-dignidad/
-[AETN] DATASETS=4 | data_html_table | https://aetn.gob.bo/tarifa-dignidad/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/523
-[AETN] t=  27.3s | pag=  6 | files=  26 | data=  4 | cola= 265 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/58
-[AETN] t=  27.9s | pag=  6 | files=  26 | data=  4 | cola= 264 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/60
-[AETN] t=  28.7s | pag=  6 | files=  26 | data=  4 | cola= 263 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/597
-[AETN] t=  29.5s | pag=  6 | files=  26 | data=  4 | cola= 262 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/523
-[AETN] t=  31.8s | pag=  6 | files=  26 | data=  4 | cola= 261 | prio=10 | https://anuariodig.aetn.gob.bo/
-[AETN] DATASETS=5 | data_chart | https://anuariodig.aetn.gob.bo/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/5
-[AETN] t=  33.5s | pag=  7 | files=  26 | data=  5 | cola= 267 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/5
-[AETN] t=  36.4s | pag=  7 | files=  26 | data=  5 | cola= 266 | prio=10 | https://aetn.gob.bo/nota_prensa/taller-para-fortalecer-el-seguimiento-a-los-programas-de-inversion-de-las-empresas-distribuidoras-de-electricidad/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1155
-[AETN] t=  37.0s | pag=  8 | files=  26 | data=  5 | cola= 266 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1155
-[AETN] t=  37.8s | pag=  8 | files=  26 | data=  5 | cola= 265 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/
-[AETN] DATASETS=6 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/103
-[AETN] t=  39.6s | pag=  9 | files=  26 | data=  6 | cola= 265 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/103
-[AETN] t=  40.2s | pag=  9 | files=  26 | data=  6 | cola= 264 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/
-[AETN] DATASETS=7 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/501
-[AETN] t=  42.9s | pag= 10 | files=  26 | data=  7 | cola= 264 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/501
-[AETN] t=  43.0s | pag= 10 | files=  26 | data=  7 | cola= 263 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/potencia-instalada-y-efectiva-al-31-de-diciembre-del-2024/
-[AETN] DATASETS=8 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/potencia-instalada-y-efectiva-al-31-de-diciembre-del-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/502
-[AETN] t=  44.8s | pag= 11 | files=  26 | data=  8 | cola= 263 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/502
-[AETN] t=  45.1s | pag= 11 | files=  26 | data=  8 | cola= 262 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-centrales-hidroelectricas-mw-periodo-1997-2024/
-[AETN] DATASETS=9 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-centrales-hidroelectricas-mw-periodo-1997-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/503
-[AETN] t=  46.8s | pag= 12 | files=  26 | data=  9 | cola= 262 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/503
-[AETN] t=  47.9s | pag= 12 | files=  26 | data=  9 | cola= 261 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-las-centrales-termoelectricas-mw-periodo-1997-2024/
-[AETN] DATASETS=10 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-las-centrales-termoelectricas-mw-periodo-1997-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/504
-[AETN] t=  51.4s | pag= 13 | files=  26 | data= 10 | cola= 261 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/504
-[AETN] t=  51.9s | pag= 13 | files=  26 | data= 10 | cola= 260 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/generacion-bruta-gwh-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/505
-[AETN] t=  53.6s | pag= 14 | files=  26 | data= 11 | cola= 260 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/505
-[AETN] t=  53.8s | pag= 14 | files=  26 | data= 11 | cola= 259 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-mensual-de-la-generacion-bruta-gwh-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/506
-[AETN] t=  56.2s | pag= 15 | files=  26 | data= 12 | cola= 259 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/506
-[AETN] t=  57.3s | pag= 15 | files=  26 | data= 12 | cola= 258 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-anual-de-la-generacion-bruta-gwh-periodo-1992-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/507
-[AETN] t=  60.4s | pag= 16 | files=  26 | data= 13 | cola= 258 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/507
-[AETN] t=  60.8s | pag= 16 | files=  26 | data= 13 | cola= 257 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/ventas-de-electricidad-a-consumidor-final-en-bolivia-mwh-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/508
-[AETN] t=  62.6s | pag= 17 | files=  26 | data= 14 | cola= 257 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/508
-[AETN] t=  63.8s | pag= 17 | files=  26 | data= 14 | cola= 256 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-en-bolivia-sin-y-sa-gwh-periodo-1970-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/509
-[AETN] t=  65.3s | pag= 18 | files=  26 | data= 15 | cola= 256 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/509
-[AETN] t=  66.0s | pag= 18 | files=  26 | data= 15 | cola= 255 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/454
-[AETN] t=  68.0s | pag= 19 | files=  26 | data= 16 | cola= 255 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/454
-[AETN] t=  69.2s | pag= 19 | files=  26 | data= 16 | cola= 254 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-y-efectiva-al-31-de-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/455
-[AETN] t=  71.5s | pag= 20 | files=  26 | data= 17 | cola= 254 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/455
-[AETN] t=  72.2s | pag= 20 | files=  26 | data= 17 | cola= 253 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-hidroelectricas/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/456
-[AETN] t=  73.8s | pag= 21 | files=  26 | data= 18 | cola= 253 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/456
-[AETN] t=  74.5s | pag= 21 | files=  26 | data= 18 | cola= 252 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-termoelectricas/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/457
-[AETN] t=  76.4s | pag= 22 | files=  26 | data= 19 | cola= 252 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/457
-[AETN] t=  76.8s | pag= 22 | files=  26 | data= 19 | cola= 251 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-de-energias-alternativas/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/458
-[AETN] t=  78.3s | pag= 23 | files=  26 | data= 20 | cola= 251 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/458
-[AETN] t=  78.7s | pag= 23 | files=  26 | data= 20 | cola= 250 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-hidroelectricas-de-generacion-al-31-de-diciembre-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/459
-[AETN] t=  80.1s | pag= 24 | files=  26 | data= 21 | cola= 250 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/459
-[AETN] t=  80.6s | pag= 24 | files=  26 | data= 21 | cola= 249 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-termoelectricas-de-generacion-al-31-de-diciembre-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/460
-[AETN] t=  82.4s | pag= 25 | files=  26 | data= 22 | cola= 249 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/460
-[AETN] t=  82.7s | pag= 25 | files=  26 | data= 22 | cola= 248 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/lineas-de-transmision-reconocidas-como-parte-del-s-t-i-al-31-de-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/461
-[AETN] t=  83.8s | pag= 26 | files=  26 | data= 23 | cola= 248 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/461
-[AETN] t=  84.6s | pag= 26 | files=  26 | data= 23 | cola= 247 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/longitud-de-lineas-de-transmision-km-al-31-de-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/462
-[AETN] t=  85.9s | pag= 27 | files=  26 | data= 24 | cola= 247 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/462
-[AETN] t=  86.5s | pag= 27 | files=  26 | data= 24 | cola= 246 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-los-transformadores-de-potencia-al-31-de-diciembre-de-2024/
-[AETN] DATASETS=25 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-los-transformadores-de-potencia-al-31-de-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/463
-[AETN] t=  87.6s | pag= 28 | files=  26 | data= 25 | cola= 246 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/463
-[AETN] t=  88.2s | pag= 28 | files=  26 | data= 25 | cola= 245 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-de-energia-por-tipo-de-combustible-gwh-al-31-de-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/464
-[AETN] t=  89.4s | pag= 29 | files=  26 | data= 26 | cola= 245 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/464
-[AETN] t=  89.7s | pag= 29 | files=  26 | data= 26 | cola= 244 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-mensual-de-las-centrales-gwh-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/465
-[AETN] t=  90.6s | pag= 30 | files=  26 | data= 27 | cola= 244 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/465
-[AETN] t=  91.2s | pag= 30 | files=  26 | data= 27 | cola= 243 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-en-centrales-hidroelectricas-eolica-solar-y-termoelectricas-gwh/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/466
-[AETN] t=  92.1s | pag= 31 | files=  26 | data= 28 | cola= 243 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/466
-[AETN] t=  92.9s | pag= 31 | files=  26 | data= 28 | cola= 242 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-gwh-periodo-1992-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/467
-[AETN] t=  93.8s | pag= 32 | files=  26 | data= 29 | cola= 242 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/467
-[AETN] t=  94.5s | pag= 32 | files=  26 | data= 29 | cola= 241 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/evolucion-anual-de-la-generacion-bruta-de-las-centrales-gwh-periodo-1992-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/468
-[AETN] t=  95.7s | pag= 33 | files=  26 | data= 30 | cola= 241 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/468
-[AETN] t=  96.6s | pag= 33 | files=  26 | data= 30 | cola= 240 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/maxima-inyeccion-y-retiros-de-potencia-registradas-mw-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/469
-[AETN] t=  97.8s | pag= 34 | files=  26 | data= 31 | cola= 240 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/469
-[AETN] t=  98.7s | pag= 34 | files=  26 | data= 31 | cola= 239 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/301
-[AETN] t=  99.6s | pag= 35 | files=  26 | data= 32 | cola= 239 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/301
-[AETN] t= 100.2s | pag= 35 | files=  26 | data= 32 | cola= 238 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/inyecciones-y-retiros-de-energia-gwh-por-empresa-electrica/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/317
-[AETN] t= 101.1s | pag= 36 | files=  26 | data= 33 | cola= 238 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/317
-[AETN] t= 101.7s | pag= 36 | files=  26 | data= 33 | cola= 237 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/inyecciones-mercado-electrico-mayorista/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/315
-[AETN] t= 103.0s | pag= 37 | files=  26 | data= 34 | cola= 237 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/315
-[AETN] t= 103.4s | pag= 37 | files=  26 | data= 34 | cola= 236 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/retiros-mercado-electrico-mayorista/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/330
-[AETN] t= 104.3s | pag= 38 | files=  26 | data= 35 | cola= 236 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/330
-[AETN] t= 104.8s | pag= 38 | files=  26 | data= 35 | cola= 235 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-de-inyecciones-energia-y-potencia-maxima-coincidental/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/303
-[AETN] t= 105.8s | pag= 39 | files=  26 | data= 36 | cola= 235 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/303
-[AETN] t= 106.3s | pag= 39 | files=  26 | data= 36 | cola= 234 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-de-retiros-energia-y-potencia-maxima-coincidental/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/306
-[AETN] t= 107.5s | pag= 40 | files=  26 | data= 37 | cola= 234 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/306
-[AETN] t= 108.2s | pag= 40 | files=  26 | data= 37 | cola= 233 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precios-spot-de-las-transacciones-de-energia-sin-iva-bs-mwh/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/329
-[AETN] t= 109.6s | pag= 41 | files=  26 | data= 38 | cola= 233 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/329
-[AETN] t= 110.2s | pag= 41 | files=  26 | data= 38 | cola= 232 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/retiros-precios-de-nodo-base-e-indexado-de-energia-sin-iva-bs-mwh/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/331
-[AETN] t= 111.3s | pag= 42 | files=  26 | data= 39 | cola= 232 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/331
-[AETN] t= 112.1s | pag= 42 | files=  26 | data= 39 | cola= 231 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precios-de-potencia-firme-sin-iva-bs-kw-mes/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/325
-[AETN] t= 113.0s | pag= 43 | files=  26 | data= 40 | cola= 231 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/325
-[AETN] t= 113.9s | pag= 43 | files=  26 | data= 40 | cola= 230 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precios-de-potencia-de-punta-sin-iva-bs-kw-mes/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/324
-[AETN] t= 115.6s | pag= 44 | files=  26 | data= 41 | cola= 230 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/324
-[AETN] t= 116.1s | pag= 44 | files=  26 | data= 41 | cola= 229 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/reserva-fria-bs-kw-mes-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/323
-[AETN] t= 117.1s | pag= 45 | files=  26 | data= 42 | cola= 229 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/323
-[AETN] t= 117.8s | pag= 45 | files=  26 | data= 42 | cola= 228 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precio-monomico-bs-mwh-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/319
-[AETN] t= 119.0s | pag= 46 | files=  26 | data= 43 | cola= 228 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/319
-[AETN] t= 119.7s | pag= 46 | files=  26 | data= 43 | cola= 227 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precio-monomico-usd-mwh-sin-iva-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/321
-[AETN] t= 120.9s | pag= 47 | files=  26 | data= 44 | cola= 227 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/321
-[AETN] t= 121.7s | pag= 47 | files=  26 | data= 44 | cola= 226 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/fondo-de-estabilizacion-mayorista-acumulado-a-diciembre-de-2024-mbs/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/313
-[AETN] t= 123.2s | pag= 48 | files=  26 | data= 45 | cola= 226 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/313
-[AETN] t= 123.9s | pag= 48 | files=  26 | data= 45 | cola= 225 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-del-fondo-de-estabilizacion-de-distribucion-fed-acumulado-sistema-interconectado-nacional/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/309
-[AETN] t= 125.1s | pag= 49 | files=  26 | data= 46 | cola= 225 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/309
-[AETN] t= 125.4s | pag= 49 | files=  26 | data= 46 | cola= 224 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-del-fondo-de-estabilizacion-del-mercado-mayorista-fem-sistema-interconectado-nacional/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/311
-[AETN] t= 126.9s | pag= 50 | files=  26 | data= 47 | cola= 224 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/311
-[AETN] t= 127.3s | pag= 50 | files=  26 | data= 47 | cola= 223 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/ventas-totales-en-el-mem-por-generacion-y-transporte-de-energia-electrica-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/332
-[AETN] t= 128.6s | pag= 51 | files=  26 | data= 48 | cola= 223 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/332
-[AETN] t= 129.3s | pag= 51 | files=  26 | data= 48 | cola= 222 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/597
-[AETN] t= 130.6s | pag= 52 | files=  26 | data= 49 | cola= 222 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/597
-[AETN] t= 131.2s | pag= 52 | files=  26 | data= 49 | cola= 221 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/consumo-de-combustibles/
-[AETN] DATASETS=50 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/consumo-de-combustibles/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/598
-[AETN] t= 132.3s | pag= 53 | files=  26 | data= 50 | cola= 221 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/598
-[AETN] t= 132.8s | pag= 53 | files=  26 | data= 50 | cola= 220 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-consumo-anual-de-gas-natural-mmmpc/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/599
-[AETN] t= 133.9s | pag= 54 | files=  26 | data= 51 | cola= 220 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/599
-[AETN] t= 134.5s | pag= 54 | files=  26 | data= 51 | cola= 219 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-consumo-anual-de-diesel-oil-m3/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/600
-[AETN] t= 135.4s | pag= 55 | files=  26 | data= 52 | cola= 219 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/600
-[AETN] t= 136.3s | pag= 55 | files=  26 | data= 52 | cola= 218 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-consumo-anual-de-biomasa-t/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/601
-[AETN] t= 137.7s | pag= 56 | files=  26 | data= 53 | cola= 218 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/601
-[AETN] t= 138.5s | pag= 56 | files=  26 | data= 53 | cola= 217 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/aportes-a-los-embalses-hm3/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/602
-[AETN] t= 139.6s | pag= 57 | files=  26 | data= 54 | cola= 217 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/602
-[AETN] t= 140.3s | pag= 57 | files=  26 | data= 54 | cola= 216 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/aportes-a-los-embalses-hm3-historico/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/603
-[AETN] t= 141.4s | pag= 58 | files=  26 | data= 55 | cola= 216 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/603
-[AETN] t= 142.1s | pag= 58 | files=  26 | data= 55 | cola= 215 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/volumen-almacenado-hm3/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/604
-[AETN] t= 143.4s | pag= 59 | files=  26 | data= 56 | cola= 215 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/604
-[AETN] t= 143.9s | pag= 59 | files=  26 | data= 56 | cola= 214 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-volumen-almacenado-hm3/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/605
-[AETN] t= 145.1s | pag= 60 | files=  26 | data= 57 | cola= 214 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/605
-[AETN] t= 146.0s | pag= 60 | files=  26 | data= 57 | cola= 213 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/volumen-utilizado-de-los-embalses-hm3/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/606
-[AETN] t= 147.2s | pag= 61 | files=  26 | data= 58 | cola= 213 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/606
-[AETN] t= 147.7s | pag= 61 | files=  26 | data= 58 | cola= 212 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/volumen-utilizado-de-los-embalses-hm3-historico/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/607
-[AETN] t= 148.6s | pag= 62 | files=  26 | data= 59 | cola= 212 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/607
-[AETN] t= 149.3s | pag= 62 | files=  26 | data= 59 | cola= 211 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/684
-[AETN] t= 150.5s | pag= 63 | files=  26 | data= 60 | cola= 211 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/684
-[AETN] t= 150.9s | pag= 63 | files=  26 | data= 60 | cola= 210 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-por-categoria-en-el-sin-mwh-periodo-2008-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/685
-[AETN] t= 152.1s | pag= 64 | files=  26 | data= 61 | cola= 210 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/685
-[AETN] t= 153.0s | pag= 64 | files=  26 | data= 61 | cola= 209 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/ventas-de-electricidad-a-consumidor-final-por-categoria-mwh-en-la-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/686
-[AETN] t= 154.4s | pag= 65 | files=  26 | data= 62 | cola= 209 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/686
-[AETN] t= 154.9s | pag= 65 | files=  26 | data= 62 | cola= 208 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/evolucion-de-la-tarifa-promedio-a-consumidor-final-por-categoria-en-el-sin-%c2%a2usd-kwh-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/687
-[AETN] t= 156.0s | pag= 66 | files=  26 | data= 63 | cola= 208 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/687
-[AETN] t= 156.8s | pag= 66 | files=  26 | data= 63 | cola= 207 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%c2%a2usd-kwh-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/688
-[AETN] t= 157.8s | pag= 67 | files=  26 | data= 64 | cola= 207 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/688
-[AETN] t= 158.7s | pag= 67 | files=  26 | data= 64 | cola= 206 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/evolucion-del-numero-de-consumidores-por-categoria/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/689
-[AETN] t= 159.6s | pag= 68 | files=  26 | data= 65 | cola= 206 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/689
-[AETN] t= 160.2s | pag= 68 | files=  26 | data= 65 | cola= 205 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/690
-[AETN] t= 161.0s | pag= 69 | files=  26 | data= 66 | cola= 205 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/690
-[AETN] t= 161.5s | pag= 69 | files=  26 | data= 66 | cola= 204 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/ventas-de-electricidad-a-consumidor-final-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/691
-[AETN] t= 163.0s | pag= 70 | files=  26 | data= 67 | cola= 204 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/691
-[AETN] t= 163.8s | pag= 70 | files=  26 | data= 67 | cola= 203 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/tarifa-promedio-a-consumidor-final-por-empresa-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/692
-[AETN] t= 165.0s | pag= 71 | files=  26 | data= 68 | cola= 203 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/692
-[AETN] t= 165.8s | pag= 71 | files=  26 | data= 68 | cola= 202 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/numero-de-consumidores-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/693
-[AETN] t= 167.5s | pag= 72 | files=  26 | data= 69 | cola= 202 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/693
-[AETN] t= 167.9s | pag= 72 | files=  26 | data= 69 | cola= 201 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/694
-[AETN] t= 169.3s | pag= 73 | files=  26 | data= 70 | cola= 201 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/694
-[AETN] t= 170.0s | pag= 73 | files=  26 | data= 70 | cola= 200 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-por-categoria-en-sa-mwh-periodo-2010-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/695
-[AETN] t= 171.2s | pag= 74 | files=  26 | data= 71 | cola= 200 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/695
-[AETN] t= 171.4s | pag= 74 | files=  26 | data= 71 | cola= 199 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/ventas-de-electricidad-a-consumidor-final-por-categoria-mwh-en-la-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/696
-[AETN] t= 172.5s | pag= 75 | files=  26 | data= 72 | cola= 199 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/696
-[AETN] t= 173.2s | pag= 75 | files=  26 | data= 72 | cola= 198 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%c2%a2usd-kwh-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/697
-[AETN] t= 174.1s | pag= 76 | files=  26 | data= 73 | cola= 198 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/697
-[AETN] t= 174.5s | pag= 76 | files=  26 | data= 73 | cola= 197 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/evolucion-del-numero-de-consumidores-por-categoria/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/698
-[AETN] t= 175.8s | pag= 77 | files=  26 | data= 74 | cola= 197 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/698
-[AETN] t= 176.2s | pag= 77 | files=  26 | data= 74 | cola= 196 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
-[AETN] DATASETS=75 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/699
-[AETN] t= 177.4s | pag= 78 | files=  26 | data= 75 | cola= 196 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/699
-[AETN] t= 177.9s | pag= 78 | files=  26 | data= 75 | cola= 195 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/ventas-de-electricidad-a-consumidor-final-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/700
-[AETN] t= 179.0s | pag= 79 | files=  26 | data= 76 | cola= 195 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/700
-[AETN] t= 179.5s | pag= 79 | files=  26 | data= 76 | cola= 194 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/tarifa-promedio-a-consumidor-final-por-empresa-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/701
-[AETN] t= 180.5s | pag= 80 | files=  26 | data= 77 | cola= 194 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/701
-[AETN] t= 181.4s | pag= 80 | files=  26 | data= 77 | cola= 193 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/numero-de-consumidores-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/702
-[AETN] t= 182.5s | pag= 81 | files=  26 | data= 78 | cola= 193 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/702
-[AETN] t= 183.3s | pag= 81 | files=  26 | data= 78 | cola= 192 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/703
-[AETN] t= 184.7s | pag= 82 | files=  26 | data= 79 | cola= 192 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/703
-[AETN] t= 185.5s | pag= 82 | files=  26 | data= 79 | cola= 191 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/ventas-de-electricidad-a-consumidor-final-por-categoria-mwh-en-la-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/704
-[AETN] t= 186.6s | pag= 83 | files=  26 | data= 80 | cola= 191 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/704
-[AETN] t= 187.5s | pag= 83 | files=  26 | data= 80 | cola= 190 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%c2%a2usd-kwh-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/705
-[AETN] t= 188.5s | pag= 84 | files=  26 | data= 81 | cola= 190 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/705
-[AETN] t= 188.9s | pag= 84 | files=  26 | data= 81 | cola= 189 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/706
-[AETN] t= 190.1s | pag= 85 | files=  26 | data= 82 | cola= 189 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/706
-[AETN] t= 190.6s | pag= 85 | files=  26 | data= 82 | cola= 188 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/ventas-de-electricidad-a-consumidor-final-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/707
-[AETN] t= 191.7s | pag= 86 | files=  26 | data= 83 | cola= 188 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/707
-[AETN] t= 192.7s | pag= 86 | files=  26 | data= 83 | cola= 187 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/tarifa-promedio-a-consumidor-final-por-empresa-sin-iva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/708
-[AETN] t= 193.7s | pag= 87 | files=  26 | data= 84 | cola= 187 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/708
-[AETN] t= 194.4s | pag= 87 | files=  26 | data= 84 | cola= 186 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/numero-de-consumidores-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/709
-[AETN] t= 196.1s | pag= 88 | files=  26 | data= 85 | cola= 186 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/709
-[AETN] t= 196.6s | pag= 88 | files=  26 | data= 85 | cola= 185 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/420
-[AETN] t= 197.4s | pag= 89 | files=  26 | data= 86 | cola= 185 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/420
-[AETN] t= 198.1s | pag= 89 | files=  26 | data= 86 | cola= 184 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/potencia-instalada-y-efectiva/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/422
-[AETN] t= 199.4s | pag= 90 | files=  26 | data= 87 | cola= 184 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/422
-[AETN] t= 200.2s | pag= 90 | files=  26 | data= 87 | cola= 183 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/generacion-bruta-gwh/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/424
-[AETN] t= 201.2s | pag= 91 | files=  26 | data= 88 | cola= 183 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/424
-[AETN] t= 201.5s | pag= 91 | files=  26 | data= 88 | cola= 182 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/generacion-bruta-de-centrales-gwh/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/426
-[AETN] t= 202.4s | pag= 92 | files=  26 | data= 89 | cola= 182 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/426
-[AETN] t= 202.9s | pag= 92 | files=  26 | data= 89 | cola= 181 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/evolucion-de-la-generacion-bruta-gwh/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/428
-[AETN] t= 204.3s | pag= 93 | files=  26 | data= 90 | cola= 181 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/428
-[AETN] t= 205.0s | pag= 93 | files=  26 | data= 90 | cola= 180 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/evolucion-consumo-anual-de-combustibles-por-empresa/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/432
-[AETN] t= 206.4s | pag= 94 | files=  26 | data= 91 | cola= 180 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/432
-[AETN] t= 206.9s | pag= 94 | files=  26 | data= 91 | cola= 179 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/526
-[AETN] t= 208.2s | pag= 95 | files=  26 | data= 92 | cola= 179 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/526
-[AETN] t= 208.7s | pag= 95 | files=  26 | data= 92 | cola= 178 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/numero-y-duracion-media-de-desconexiones/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/527
-[AETN] t= 210.0s | pag= 96 | files=  26 | data= 93 | cola= 178 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/527
-[AETN] t= 210.6s | pag= 96 | files=  26 | data= 93 | cola= 177 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/evolucion-anual-del-numero-de-desconexiones-asignadas-a-las-empresas-transmisoras-de-electricidad/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/528
-[AETN] t= 212.0s | pag= 97 | files=  26 | data= 94 | cola= 177 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/528
-[AETN] t= 212.3s | pag= 97 | files=  26 | data= 94 | cola= 176 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/evolucion-anual-de-la-duracion-de-desconexiones-asignadas-a-las-empresas-transmisoras-de-electricidad/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/529
-[AETN] t= 213.5s | pag= 98 | files=  26 | data= 95 | cola= 176 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/529
-[AETN] t= 214.3s | pag= 98 | files=  26 | data= 95 | cola= 175 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-producto-tecnico-sistemas-aislados-integrados-verticalmente/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/530
-[AETN] t= 215.7s | pag= 99 | files=  26 | data= 96 | cola= 175 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/530
-[AETN] t= 216.1s | pag= 99 | files=  26 | data= 96 | cola= 174 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistemas-aislados-integrados-verticalmente/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/531
-[AETN] t= 217.5s | pag=100 | files=  26 | data= 97 | cola= 174 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/531
-[AETN] t= 218.5s | pag=100 | files=  26 | data= 97 | cola= 173 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-comercial-sistemas-aislados-integrados-verticalmente/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/532
-[AETN] t= 219.5s | pag=101 | files=  26 | data= 98 | cola= 173 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/532
-[AETN] t= 220.1s | pag=101 | files=  26 | data= 98 | cola= 172 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-producto-tecnico-sistemas-menores-con-titulo-habilitante/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/533
-[AETN] t= 221.3s | pag=102 | files=  26 | data= 99 | cola= 172 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/533
-[AETN] t= 222.1s | pag=102 | files=  26 | data= 99 | cola= 171 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistemas-menores-con-titulo-habilitante/
-[AETN] DATASETS=100 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistemas-menores-con-titulo-habilitante/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/534
-[AETN] t= 223.3s | pag=103 | files=  26 | data=100 | cola= 171 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/534
-[AETN] t= 223.8s | pag=103 | files=  26 | data=100 | cola= 170 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-comercial-sistemas-menores-con-titulo-habilitante/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/535
-[AETN] t= 224.7s | pag=104 | files=  26 | data=101 | cola= 170 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/535
-[AETN] t= 225.2s | pag=104 | files=  26 | data=101 | cola= 169 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-producto-tecnico-sistema-interconectado-nacional/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/536
-[AETN] t= 226.5s | pag=105 | files=  26 | data=102 | cola= 169 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/536
-[AETN] t= 227.1s | pag=105 | files=  26 | data=102 | cola= 168 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistema-interconectado-nacional/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/537
-[AETN] t= 228.5s | pag=106 | files=  26 | data=103 | cola= 168 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/537
-[AETN] t= 229.1s | pag=106 | files=  26 | data=103 | cola= 167 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-comercial-sistema-interconectado-nacional/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/538
-[AETN] t= 230.7s | pag=107 | files=  26 | data=104 | cola= 167 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/538
-[AETN] t= 231.6s | pag=107 | files=  26 | data=104 | cola= 166 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-empresas-distribuidoras-reclamaciones-directas-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/539
-[AETN] t= 233.0s | pag=108 | files=  26 | data=105 | cola= 166 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/539
-[AETN] t= 233.7s | pag=108 | files=  26 | data=105 | cola= 165 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-reclamos-tecnicos-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/540
-[AETN] t= 235.0s | pag=109 | files=  26 | data=106 | cola= 165 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/540
-[AETN] t= 235.4s | pag=109 | files=  26 | data=106 | cola= 164 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-reclamos-comerciales-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/541
-[AETN] t= 236.6s | pag=110 | files=  26 | data=107 | cola= 164 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/541
-[AETN] t= 237.1s | pag=110 | files=  26 | data=107 | cola= 163 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-tipo-de-conclusion-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/542
-[AETN] t= 238.4s | pag=111 | files=  26 | data=108 | cola= 163 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/542
-[AETN] t= 238.8s | pag=111 | files=  26 | data=108 | cola= 162 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/consultas-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-consultas-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/543
-[AETN] t= 240.1s | pag=112 | files=  26 | data=109 | cola= 162 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/543
-[AETN] t= 240.7s | pag=112 | files=  26 | data=109 | cola= 161 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/evolucion-de-consumidores-domiciliarios-beneficiados-2006-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/192
-[AETN] t= 241.8s | pag=113 | files=  26 | data=110 | cola= 161 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/192
-[AETN] t= 242.6s | pag=113 | files=  26 | data=110 | cola= 160 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/evolucion-porcentual-de-consumidores-domiciliarios-beneficiados-2006-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/194
-[AETN] t= 243.8s | pag=114 | files=  26 | data=111 | cola= 160 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/194
-[AETN] t= 244.7s | pag=114 | files=  26 | data=111 | cola= 159 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/evolucion-importes-descontados-anualmente-por-la-aplicacion-de-la-tarifa-dignidad-en-bs-2006-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/198
-[AETN] t= 245.7s | pag=115 | files=  26 | data=112 | cola= 159 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/198
-[AETN] t= 246.5s | pag=115 | files=  26 | data=112 | cola= 158 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/aporte-monetario-de-las-empresas-para-la-tarifa-dignidad-en-bs/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/275
-[AETN] t= 247.0s | pag=116 | files=  26 | data=113 | cola= 158 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/275
-[AETN] t= 248.0s | pag=116 | files=  26 | data=113 | cola= 157 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/487
-[AETN] t= 248.7s | pag=117 | files=  26 | data=114 | cola= 157 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/487
-[AETN] t= 249.4s | pag=117 | files=  26 | data=114 | cola= 156 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/oferta-y-demanda-mw-periodo-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/488
-[AETN] t= 250.4s | pag=118 | files=  26 | data=115 | cola= 156 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/488
-[AETN] t= 250.9s | pag=118 | files=  26 | data=115 | cola= 155 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/evolucion-de-la-oferta-y-demanda-periodo-2013-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/489
-[AETN] t= 251.9s | pag=119 | files=  26 | data=116 | cola= 155 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/489
-[AETN] t= 252.8s | pag=119 | files=  26 | data=116 | cola= 154 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/consumo-de-gas-mmpcd-en-el-sin-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/490
-[AETN] t= 253.8s | pag=120 | files=  26 | data=117 | cola= 154 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/490
-[AETN] t= 254.5s | pag=120 | files=  26 | data=117 | cola= 153 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/consumo-de-diesel-l-en-el-sin-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/491
-[AETN] t= 255.5s | pag=121 | files=  26 | data=118 | cola= 153 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/491
-[AETN] t= 256.4s | pag=121 | files=  26 | data=118 | cola= 152 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/89
-[AETN] t= 257.4s | pag=122 | files=  26 | data=119 | cola= 152 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/89
-[AETN] t= 258.2s | pag=122 | files=  26 | data=119 | cola= 151 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/normas-especificas-regulatorias-ner-aprobadas-para-instalaciones-radiologicas/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/202
-[AETN] t= 259.5s | pag=123 | files=  26 | data=120 | cola= 151 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/202
-[AETN] t= 260.1s | pag=123 | files=  26 | data=120 | cola= 150 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/autorizaciones-licencias-certificaciones-y-registros-emitidas-por-la-aetn-dtn-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/206
-[AETN] t= 261.3s | pag=124 | files=  26 | data=121 | cola= 150 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/206
-[AETN] t= 262.0s | pag=124 | files=  26 | data=121 | cola= 149 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/inspecciones-realizadas-por-la-aetn-en-la-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/208
-[AETN] t= 263.2s | pag=125 | files=  26 | data=122 | cola= 149 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/208
-[AETN] t= 264.1s | pag=125 | files=  26 | data=122 | cola= 148 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/licencias-institucionales-emitidas-por-la-aetn-dtn-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/213
-[AETN] t= 265.5s | pag=126 | files=  26 | data=123 | cola= 148 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/213
-[AETN] t= 266.2s | pag=126 | files=  26 | data=123 | cola= 147 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/licencias-individuales-especificas-emitidas-por-la-aetn-dtn-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/215
-[AETN] t= 267.4s | pag=127 | files=  26 | data=124 | cola= 147 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/215
-[AETN] t= 267.8s | pag=127 | files=  26 | data=124 | cola= 146 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/certificados-emitidos-por-la-aetn-gestion-2024/
-[AETN] DATASETS=125 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/certificados-emitidos-por-la-aetn-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/217
-[AETN] t= 268.6s | pag=128 | files=  26 | data=125 | cola= 146 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/chapter/217
-[AETN] t= 269.4s | pag=128 | files=  26 | data=125 | cola= 145 | prio=10 | https://anuariodig.aetn.gob.bo/mapas-interactivos/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/9
-[AETN] t= 270.3s | pag=129 | files=  26 | data=125 | cola= 145 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/9
-[AETN] t= 270.8s | pag=129 | files=  26 | data=125 | cola= 144 | prio=10 | https://anuariodig.aetn.gob.bo/contacto/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/15
-[AETN] t= 272.1s | pag=130 | files=  26 | data=125 | cola= 144 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/pages/15
-[AETN] t= 272.6s | pag=130 | files=  26 | data=125 | cola= 143 | prio=10 | https://aetn.gob.bo/tarifas-vigentes/page/2/
-[AETN] t= 274.0s | pag=131 | files=  36 | data=126 | cola= 143 | prio=10 | https://aetn.gob.bo/tarifas-vigentes/page/3/
-[AETN] t= 274.8s | pag=132 | files=  42 | data=127 | cola= 142 | prio=10 | https://anuariodig.aetn.gob.bo/preguntas-frecuentes/
-[AETN] t= 275.6s | pag=133 | files=  42 | data=127 | cola= 141 | prio=10 | https://anuariodig.aetn.gob.bo/nomenclatura/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/657
-[AETN] t= 276.4s | pag=134 | files=  42 | data=128 | cola= 142 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/657
-[AETN] t= 277.0s | pag=134 | files=  42 | data=128 | cola= 141 | prio=10 | https://anuariodig.aetn.gob.bo/unidades-de-medida/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/654
-[AETN] t= 278.4s | pag=135 | files=  42 | data=128 | cola= 141 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/654
-[AETN] t= 279.4s | pag=135 | files=  42 | data=128 | cola= 140 | prio=10 | https://anuariodig.aetn.gob.bo/glosario-de-terminos/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/652
-[AETN] t= 280.2s | pag=136 | files=  42 | data=128 | cola= 140 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/652
-[AETN] t= 281.0s | pag=136 | files=  42 | data=128 | cola= 139 | prio=10 | https://anuariodig.aetn.gob.bo/personal-de-las-empresas-electricas-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/646
-[AETN] t= 282.0s | pag=137 | files=  42 | data=128 | cola= 139 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/646
-[AETN] t= 282.7s | pag=137 | files=  42 | data=128 | cola= 138 | prio=10 | https://anuariodig.aetn.gob.bo/empresas-electricas-con-derechos-vigentes-otorgados-por-el-ente-regulador-gestion-2024/
-[AETN] API REFERENCIA | html_link_reference | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/644
-[AETN] t= 283.5s | pag=138 | files=  42 | data=128 | cola= 138 | prio= 1 | https://anuariodig.aetn.gob.bo/wp-json/wp/v2/posts/644
-[AETN] t= 284.0s | pag=138 | files=  42 | data=128 | cola= 137 | prio=10 | https://aetn.gob.bo/tarifas-vigentes/page/1/
-[AETN] t= 284.7s | pag=138 | files=  42 | data=128 | cola= 136 | prio=10 | https://anuariodig.aetn.gob.bo/noticias/
-[AETN] t= 285.8s | pag=138 | files=  42 | data=128 | cola= 135 | prio=25 | https://aetn.gob.bo/lista-direcciones-page/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/17
-[AETN] t= 286.8s | pag=139 | files=  42 | data=128 | cola= 135 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/17
-[AETN] t= 287.7s | pag=139 | files=  42 | data=128 | cola= 134 | prio=25 | https://aetn.gob.bo/mision-vision-valores-y-principios-de-la-entidad/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/18
-[AETN] t= 288.6s | pag=140 | files=  42 | data=128 | cola= 134 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/18
-[AETN] t= 289.5s | pag=140 | files=  42 | data=128 | cola= 133 | prio=25 | https://aetn.gob.bo/resena-historica/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/21
-[AETN] t= 290.1s | pag=141 | files=  42 | data=128 | cola= 133 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/21
-[AETN] t= 290.9s | pag=141 | files=  42 | data=128 | cola= 132 | prio=25 | https://aetn.gob.bo/objetivos-institucionales/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/23
-[AETN] t= 291.4s | pag=142 | files=  42 | data=128 | cola= 132 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/23
-[AETN] t= 292.4s | pag=142 | files=  42 | data=128 | cola= 131 | prio=25 | https://aetn.gob.bo/memoria-intitucional/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/25
-[AETN] t= 293.0s | pag=143 | files=  51 | data=128 | cola= 133 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/25
-[AETN] t= 293.5s | pag=143 | files=  51 | data=128 | cola= 132 | prio=25 | https://aetn.gob.bo/plan-estrategico-institucional-pei/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/28
-[AETN] t= 294.6s | pag=144 | files=  53 | data=128 | cola= 132 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/28
-[AETN] t= 295.3s | pag=144 | files=  53 | data=128 | cola= 131 | prio=25 | https://aetn.gob.bo/programacion-operativa-anual-poa/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/30
-[AETN] t= 296.2s | pag=145 | files=  64 | data=128 | cola= 132 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/30
-[AETN] t= 296.7s | pag=145 | files=  64 | data=128 | cola= 131 | prio=25 | https://aetn.gob.bo/presupuesto-institucional/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/32
-[AETN] t= 297.3s | pag=146 | files=  68 | data=128 | cola= 131 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/32
-[AETN] t= 298.0s | pag=146 | files=  68 | data=128 | cola= 130 | prio=25 | https://aetn.gob.bo/programas-y-proyectos-de-inversion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/34
-[AETN] t= 299.0s | pag=147 | files=  69 | data=128 | cola= 130 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/34
-[AETN] t= 299.7s | pag=147 | files=  69 | data=128 | cola= 129 | prio=25 | https://aetn.gob.bo/auditoria/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/36
-[AETN] t= 300.3s | pag=148 | files=  75 | data=128 | cola= 129 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/36
-[AETN] t= 301.3s | pag=148 | files=  75 | data=128 | cola= 128 | prio=25 | https://aetn.gob.bo/rendicion-publica-de-cuentas/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/38
-[AETN] t= 302.2s | pag=149 | files=  77 | data=128 | cola= 128 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/38
-[AETN] t= 302.7s | pag=149 | files=  77 | data=128 | cola= 127 | prio=25 | https://aetn.gob.bo/denuncias-por-hechos-de-corrupcion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/40
-[AETN] t= 303.5s | pag=150 | files=  78 | data=128 | cola= 127 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/40
-[AETN] t= 304.3s | pag=150 | files=  78 | data=128 | cola= 126 | prio=25 | https://aetn.gob.bo/formulario-de-solicitud-de-informacion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/42
-[AETN] t= 305.0s | pag=151 | files=  79 | data=128 | cola= 126 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/42
-[AETN] t= 305.6s | pag=151 | files=  79 | data=128 | cola= 125 | prio=25 | https://aetn.gob.bo/tramites/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/44
-[AETN] t= 306.3s | pag=152 | files=  79 | data=128 | cola= 125 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/44
-[AETN] t= 307.2s | pag=152 | files=  79 | data=128 | cola= 124 | prio=25 | https://aetn.gob.bo/servicios/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/46
-[AETN] t= 308.0s | pag=153 | files=  79 | data=128 | cola= 124 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/46
-[AETN] t= 308.6s | pag=153 | files=  79 | data=128 | cola= 123 | prio=25 | https://aetn.gob.bo/herramientas-y-servicios-digitales/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/48
-[AETN] t= 309.3s | pag=154 | files=  79 | data=128 | cola= 123 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/48
-[AETN] t= 310.2s | pag=154 | files=  79 | data=128 | cola= 122 | prio=25 | https://aetn.gob.bo/cursos-de-capacitacion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/50
-[AETN] t= 311.4s | pag=155 | files=  79 | data=128 | cola= 122 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/50
-[AETN] t= 312.0s | pag=155 | files=  79 | data=128 | cola= 121 | prio=25 | https://aetn.gob.bo/comunicados/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/52
-[AETN] t= 312.7s | pag=156 | files=  89 | data=128 | cola= 123 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/52
-[AETN] t= 313.2s | pag=156 | files=  89 | data=128 | cola= 122 | prio=25 | https://aetn.gob.bo/notas-de-prensa/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/54
-[AETN] t= 314.3s | pag=157 | files=  89 | data=128 | cola= 124 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/54
-[AETN] t= 315.1s | pag=157 | files=  89 | data=128 | cola= 123 | prio=25 | https://aetn.gob.bo/galeria-multimedia/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/56
-[AETN] t= 315.7s | pag=158 | files=  89 | data=128 | cola= 123 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/56
-[AETN] t= 316.3s | pag=158 | files=  89 | data=128 | cola= 122 | prio=25 | https://aetn.gob.bo/revistas/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/62
-[AETN] t= 317.2s | pag=159 | files=  89 | data=128 | cola= 122 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/62
-[AETN] t= 318.1s | pag=159 | files=  89 | data=128 | cola= 121 | prio=25 | https://aetn.gob.bo/articulos/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/64
-[AETN] t= 318.7s | pag=160 | files=  89 | data=128 | cola= 121 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/64
-[AETN] t= 319.3s | pag=160 | files=  89 | data=128 | cola= 120 | prio=25 | https://aetn.gob.bo/banco-de-trabajo-de-investigacion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/66
-[AETN] t= 320.3s | pag=161 | files=  89 | data=128 | cola= 120 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/66
-[AETN] t= 320.9s | pag=161 | files=  89 | data=128 | cola= 119 | prio=25 | https://aetn.gob.bo/campanas-y-actividades/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/68
-[AETN] t= 321.6s | pag=162 | files=  89 | data=128 | cola= 119 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/68
-[AETN] t= 322.3s | pag=162 | files=  89 | data=128 | cola= 118 | prio=25 | https://aetn.gob.bo/normativa-externa/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/70
-[AETN] t= 322.9s | pag=163 | files=  91 | data=128 | cola= 118 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/70
-[AETN] t= 323.7s | pag=163 | files=  91 | data=128 | cola= 117 | prio=25 | https://aetn.gob.bo/normativa-interna/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/72
-[AETN] t= 324.6s | pag=164 | files=  91 | data=128 | cola= 118 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/72
-[AETN] t= 325.4s | pag=164 | files=  91 | data=128 | cola= 117 | prio=25 | https://aetn.gob.bo/organigrama/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/74
-[AETN] t= 326.0s | pag=165 | files=  91 | data=128 | cola= 117 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/74
-[AETN] t= 326.6s | pag=165 | files=  91 | data=128 | cola= 116 | prio=25 | https://aetn.gob.bo/nomina-de-autoridades/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/76
-[AETN] t= 327.4s | pag=166 | files=  92 | data=128 | cola= 116 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/76
-[AETN] t= 328.2s | pag=166 | files=  92 | data=128 | cola= 115 | prio=25 | https://aetn.gob.bo/nomina-de-servidores-publicos/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/78
-[AETN] t= 329.1s | pag=167 | files=  93 | data=128 | cola= 115 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/78
-[AETN] t= 329.6s | pag=167 | files=  93 | data=128 | cola= 114 | prio=25 | https://aetn.gob.bo/escala-salarial/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/80
-[AETN] t= 330.4s | pag=168 | files=  94 | data=128 | cola= 114 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/80
-[AETN] t= 331.1s | pag=168 | files=  94 | data=128 | cola= 113 | prio=25 | https://aetn.gob.bo/manual-de-organizacion-funcional-mof/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/82
-[AETN] t= 332.2s | pag=169 | files=  99 | data=128 | cola= 113 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/82
-[AETN] t= 332.8s | pag=169 | files=  99 | data=128 | cola= 112 | prio=25 | https://aetn.gob.bo/plan-operativo-anual-individual-poai-perfil-de-cargo/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/84
-[AETN] t= 333.6s | pag=170 | files= 100 | data=128 | cola= 112 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/84
-[AETN] t= 334.4s | pag=170 | files= 100 | data=128 | cola= 111 | prio=25 | https://aetn.gob.bo/manuales-de-procedimiento/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/86
-[AETN] t= 335.5s | pag=171 | files= 110 | data=128 | cola= 111 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/86
-[AETN] t= 336.0s | pag=171 | files= 110 | data=128 | cola= 110 | prio=25 | https://aetn.gob.bo/oportunidades-de-empleo/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/88
-[AETN] t= 337.2s | pag=172 | files= 110 | data=128 | cola= 110 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/88
-[AETN] t= 337.9s | pag=172 | files= 110 | data=128 | cola= 109 | prio=25 | https://aetn.gob.bo/informes-de-viaje-al-exterior/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/90
-[AETN] t= 338.4s | pag=173 | files= 110 | data=128 | cola= 109 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/90
-[AETN] t= 339.1s | pag=173 | files= 110 | data=128 | cola= 108 | prio=25 | https://aetn.gob.bo/convocatorias/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/92
-[AETN] t= 340.1s | pag=174 | files= 114 | data=128 | cola= 108 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/92
-[AETN] t= 340.6s | pag=174 | files= 114 | data=128 | cola= 107 | prio=25 | https://aetn.gob.bo/contratos/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/94
-[AETN] t= 341.3s | pag=175 | files= 114 | data=128 | cola= 107 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/94
-[AETN] t= 341.9s | pag=175 | files= 114 | data=128 | cola= 106 | prio=25 | https://aetn.gob.bo/proveedores/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/96
-[AETN] t= 342.9s | pag=176 | files= 115 | data=128 | cola= 106 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/96
-[AETN] t= 343.9s | pag=176 | files= 115 | data=128 | cola= 105 | prio=25 | https://aetn.gob.bo/direcciones/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/98
-[AETN] t= 344.8s | pag=177 | files= 115 | data=128 | cola= 105 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/98
-[AETN] t= 345.6s | pag=177 | files= 115 | data=128 | cola= 104 | prio=25 | https://aetn.gob.bo/formulario-de-contacto/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/100
-[AETN] t= 346.3s | pag=178 | files= 115 | data=128 | cola= 104 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/100
-[AETN] t= 347.0s | pag=178 | files= 115 | data=128 | cola= 103 | prio=25 | https://aetn.gob.bo/enlaces-de-interes/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/102
-[AETN] t= 347.6s | pag=179 | files= 115 | data=128 | cola= 103 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/102
-[AETN] t= 348.5s | pag=179 | files= 115 | data=128 | cola= 102 | prio=25 | https://aetn.gob.bo/mapa-del-sitio/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/167
-[AETN] t= 349.3s | pag=180 | files= 115 | data=128 | cola= 102 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/167
-[AETN] t= 350.3s | pag=180 | files= 115 | data=128 | cola= 101 | prio=25 | https://aetn.gob.bo/normativa-sector-electrico/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/265
-[AETN] t= 351.1s | pag=181 | files= 116 | data=128 | cola= 101 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/265
-[AETN] t= 351.5s | pag=181 | files= 116 | data=128 | cola= 100 | prio=25 | https://aetn.gob.bo/normativa-sector-nuclear/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/272
-[AETN] t= 352.2s | pag=182 | files= 116 | data=128 | cola= 100 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/272
-[AETN] t= 352.9s | pag=182 | files= 116 | data=128 | cola=  99 | prio=25 | https://aetn.gob.bo/tecnologia-nuclear/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/293
-[AETN] t= 353.9s | pag=183 | files= 116 | data=128 | cola=  99 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/293
-[AETN] t= 354.6s | pag=183 | files= 116 | data=128 | cola=  98 | prio=25 | https://aetn.gob.bo/licenciamiento-de-trabajadores-ocupacionalmente-expuestos/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/376
-[AETN] t= 355.8s | pag=184 | files= 120 | data=128 | cola=  98 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/376
-[AETN] t= 356.3s | pag=184 | files= 120 | data=128 | cola=  97 | prio=25 | https://aetn.gob.bo/autorizaciones-de-importacion-y-exportacion-de-fuentes/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/386
-[AETN] t= 356.9s | pag=185 | files= 126 | data=128 | cola=  97 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/386
-[AETN] t= 357.6s | pag=185 | files= 126 | data=128 | cola=  96 | prio=25 | https://aetn.gob.bo/registros-de-fuentes-de-radiacion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/392
-[AETN] t= 358.7s | pag=186 | files= 129 | data=128 | cola=  96 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/392
-[AETN] t= 359.6s | pag=186 | files= 129 | data=128 | cola=  95 | prio=25 | https://aetn.gob.bo/movimiento-de-material-radiactivo/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/394
-[AETN] t= 360.4s | pag=187 | files= 131 | data=128 | cola=  95 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/394
-[AETN] t= 361.0s | pag=187 | files= 131 | data=128 | cola=  94 | prio=25 | https://aetn.gob.bo/clasificacion-de-actividades/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/397
-[AETN] t= 361.9s | pag=188 | files= 131 | data=128 | cola=  94 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/397
-[AETN] t= 362.7s | pag=188 | files= 131 | data=128 | cola=  93 | prio=25 | https://aetn.gob.bo/licenciamiento-de-actividades-e-instalaciones/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/420
-[AETN] t= 363.6s | pag=189 | files= 150 | data=128 | cola=  93 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/420
-[AETN] t= 364.4s | pag=189 | files= 150 | data=128 | cola=  92 | prio=25 | https://aetn.gob.bo/generacion-distribuida/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/468
-[AETN] t= 365.4s | pag=190 | files= 156 | data=129 | cola=  92 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/468
-[AETN] t= 365.8s | pag=190 | files= 156 | data=129 | cola=  91 | prio=25 | https://aetn.gob.bo/prestadores-de-servicio/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/610
-[AETN] t= 366.8s | pag=191 | files= 163 | data=129 | cola=  91 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/610
-[AETN] t= 367.6s | pag=191 | files= 163 | data=129 | cola=  90 | prio=25 | https://aetn.gob.bo/normativa-tecnologia-nuclear/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/639
-[AETN] t= 368.3s | pag=192 | files= 178 | data=129 | cola=  90 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/639
-[AETN] t= 369.2s | pag=192 | files= 178 | data=129 | cola=  89 | prio=25 | https://aetn.gob.bo/empresas-consultoras-habilitadas/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/813
-[AETN] t= 369.9s | pag=193 | files= 180 | data=129 | cola=  89 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/813
-[AETN] t= 370.4s | pag=193 | files= 180 | data=129 | cola=  88 | prio=25 | https://aetn.gob.bo/empresas-electricas/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/822
-[AETN] t= 371.1s | pag=194 | files= 180 | data=129 | cola=  88 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/822
-[AETN] t= 372.1s | pag=194 | files= 180 | data=129 | cola=  87 | prio=25 | https://aetn.gob.bo/principios-y-valores/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/945
-[AETN] t= 372.8s | pag=195 | files= 180 | data=129 | cola=  87 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/945
-[AETN] t= 373.7s | pag=195 | files= 180 | data=129 | cola=  86 | prio=25 | https://aetn.gob.bo/terminos-de-referencia/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/948
-[AETN] t= 374.3s | pag=196 | files= 187 | data=129 | cola=  89 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/948
-[AETN] t= 375.3s | pag=196 | files= 187 | data=129 | cola=  88 | prio=25 | https://aetn.gob.bo/ejecucion-presupuestaria/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pages/952
-[AETN] t= 376.2s | pag=197 | files= 188 | data=129 | cola=  88 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pages/952
-[AETN] t= 377.0s | pag=197 | files= 188 | data=129 | cola=  87 | prio=25 | https://aetn.gob.bo/image_carrousel/179/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/image_carrousel/179
-[AETN] t= 377.9s | pag=198 | files= 188 | data=129 | cola=  87 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/image_carrousel/179
-[AETN] t= 378.7s | pag=198 | files= 188 | data=129 | cola=  86 | prio=25 | https://aetn.gob.bo/image_carrousel/181/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/image_carrousel/181
-[AETN] t= 379.6s | pag=199 | files= 188 | data=129 | cola=  86 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/image_carrousel/181
-[AETN] t= 380.1s | pag=199 | files= 188 | data=129 | cola=  85 | prio=25 | https://aetn.gob.bo/image_carrousel/183/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/image_carrousel/183
-[AETN] t= 380.9s | pag=200 | files= 188 | data=129 | cola=  85 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/image_carrousel/183
-[AETN] t= 381.8s | pag=200 | files= 188 | data=129 | cola=  84 | prio=25 | https://aetn.gob.bo/memoria/memora-institucional-1998-superintendencia-de-electricidad/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/661
-[AETN] t= 382.8s | pag=201 | files= 188 | data=129 | cola=  84 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/661
-[AETN] t= 383.7s | pag=201 | files= 188 | data=129 | cola=  83 | prio=25 | https://aetn.gob.bo/memoria/memora-institucional-1999-superintendencia-de-electricidad/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/663
-[AETN] t= 384.8s | pag=202 | files= 188 | data=129 | cola=  83 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/663
-[AETN] t= 385.4s | pag=202 | files= 188 | data=129 | cola=  82 | prio=25 | https://aetn.gob.bo/memoria/memoria-anual-2000-autoridad-de-electricidad/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/665
-[AETN] t= 386.2s | pag=203 | files= 188 | data=129 | cola=  82 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/665
-[AETN] t= 386.6s | pag=203 | files= 188 | data=129 | cola=  81 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2001/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/667
-[AETN] t= 387.4s | pag=204 | files= 188 | data=129 | cola=  81 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/667
-[AETN] t= 388.1s | pag=204 | files= 188 | data=129 | cola=  80 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2002/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/669
-[AETN] t= 389.1s | pag=205 | files= 188 | data=129 | cola=  80 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/669
-[AETN] t= 389.8s | pag=205 | files= 188 | data=129 | cola=  79 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2003/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/671
-[AETN] t= 391.0s | pag=206 | files= 188 | data=129 | cola=  79 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/671
-[AETN] t= 391.7s | pag=206 | files= 188 | data=129 | cola=  78 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2004/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/673
-[AETN] t= 392.4s | pag=207 | files= 188 | data=129 | cola=  78 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/673
-[AETN] t= 393.3s | pag=207 | files= 188 | data=129 | cola=  77 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2005/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/675
-[AETN] t= 394.3s | pag=208 | files= 188 | data=129 | cola=  77 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/675
-[AETN] t= 395.1s | pag=208 | files= 188 | data=129 | cola=  76 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2006/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/677
-[AETN] t= 395.8s | pag=209 | files= 188 | data=129 | cola=  76 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/677
-[AETN] t= 396.8s | pag=209 | files= 188 | data=129 | cola=  75 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2009/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/679
-[AETN] t= 397.8s | pag=210 | files= 188 | data=129 | cola=  75 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/679
-[AETN] t= 398.3s | pag=210 | files= 188 | data=129 | cola=  74 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2010/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/681
-[AETN] t= 399.3s | pag=211 | files= 188 | data=129 | cola=  74 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/681
-[AETN] t= 400.0s | pag=211 | files= 188 | data=129 | cola=  73 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2011/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/683
-[AETN] t= 401.2s | pag=212 | files= 188 | data=129 | cola=  73 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/683
-[AETN] t= 402.2s | pag=212 | files= 188 | data=129 | cola=  72 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2012/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/685
-[AETN] t= 402.9s | pag=213 | files= 188 | data=129 | cola=  72 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/685
-[AETN] t= 403.8s | pag=213 | files= 188 | data=129 | cola=  71 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2013/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/687
-[AETN] t= 404.9s | pag=214 | files= 188 | data=129 | cola=  71 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/687
-[AETN] t= 405.7s | pag=214 | files= 188 | data=129 | cola=  70 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2014/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/689
-[AETN] t= 406.4s | pag=215 | files= 188 | data=129 | cola=  70 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/689
-[AETN] t= 406.8s | pag=215 | files= 188 | data=129 | cola=  69 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2015/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/691
-[AETN] t= 408.0s | pag=216 | files= 188 | data=129 | cola=  69 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/691
-[AETN] t= 408.8s | pag=216 | files= 188 | data=129 | cola=  68 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2016/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/693
-[AETN] t= 409.7s | pag=217 | files= 188 | data=129 | cola=  68 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/693
-[AETN] t= 410.3s | pag=217 | files= 188 | data=129 | cola=  67 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2017/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/695
-[AETN] t= 411.3s | pag=218 | files= 188 | data=129 | cola=  67 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/695
-[AETN] t= 411.9s | pag=218 | files= 188 | data=129 | cola=  66 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2018/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/697
-[AETN] t= 412.8s | pag=219 | files= 188 | data=129 | cola=  66 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/697
-[AETN] t= 413.6s | pag=219 | files= 188 | data=129 | cola=  65 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2019/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/698
-[AETN] t= 414.2s | pag=220 | files= 188 | data=129 | cola=  65 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/698
-[AETN] t= 415.0s | pag=220 | files= 188 | data=129 | cola=  64 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2020/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/699
-[AETN] t= 415.6s | pag=221 | files= 188 | data=129 | cola=  64 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/699
-[AETN] t= 416.2s | pag=221 | files= 188 | data=129 | cola=  63 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2021/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/701
-[AETN] t= 417.0s | pag=222 | files= 188 | data=129 | cola=  63 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/701
-[AETN] t= 417.8s | pag=222 | files= 188 | data=129 | cola=  62 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2022/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/703
-[AETN] t= 418.5s | pag=223 | files= 188 | data=129 | cola=  62 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/703
-[AETN] t= 419.4s | pag=223 | files= 188 | data=129 | cola=  61 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2023/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/704
-[AETN] t= 420.3s | pag=224 | files= 188 | data=129 | cola=  61 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/704
-[AETN] t= 421.2s | pag=224 | files= 188 | data=129 | cola=  60 | prio=25 | https://aetn.gob.bo/memoria/memoria-institucional-2024/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/memoria/705
-[AETN] t= 422.0s | pag=225 | files= 188 | data=129 | cola=  60 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/memoria/705
-[AETN] t= 422.7s | pag=225 | files= 188 | data=129 | cola=  59 | prio=25 | https://aetn.gob.bo/pei/plan-estrategico-institucional-2020-2025/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pei/794
-[AETN] t= 423.5s | pag=226 | files= 188 | data=129 | cola=  59 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pei/794
-[AETN] t= 424.0s | pag=226 | files= 188 | data=129 | cola=  58 | prio=25 | https://aetn.gob.bo/pei/plan-estrategico-institucional-2016-2020/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/pei/796
-[AETN] t= 425.0s | pag=227 | files= 188 | data=129 | cola=  58 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/pei/796
-[AETN] t= 425.5s | pag=227 | files= 188 | data=129 | cola=  57 | prio=25 | https://aetn.gob.bo/presupuesto/presupuesto-institucional/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/808
-[AETN] t= 426.4s | pag=228 | files= 188 | data=129 | cola=  57 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/808
-[AETN] t= 427.4s | pag=228 | files= 188 | data=129 | cola=  56 | prio=25 | https://aetn.gob.bo/presupuesto/presupuesto-institucional-2/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/810
-[AETN] t= 428.4s | pag=229 | files= 188 | data=129 | cola=  56 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/810
-[AETN] t= 429.2s | pag=229 | files= 188 | data=129 | cola=  55 | prio=25 | https://aetn.gob.bo/presupuesto/presupuesto-institucional-gestion-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/1100
-[AETN] t= 430.4s | pag=230 | files= 188 | data=129 | cola=  55 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/1100
-[AETN] t= 430.9s | pag=230 | files= 188 | data=129 | cola=  54 | prio=25 | https://aetn.gob.bo/presupuesto/presupuesto-institucional-por-grupo-de-gasto-a-mayo-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/1101
-[AETN] t= 431.5s | pag=231 | files= 188 | data=129 | cola=  54 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/presupuesto/1101
-[AETN] t= 432.0s | pag=231 | files= 188 | data=129 | cola=  53 | prio=25 | https://aetn.gob.bo/auditoria/aetn-uai-inf-001-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/auditoria/247
-[AETN] t= 432.8s | pag=232 | files= 188 | data=129 | cola=  53 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/auditoria/247
-[AETN] t= 433.6s | pag=232 | files= 188 | data=129 | cola=  52 | prio=25 | https://aetn.gob.bo/auditoria/aetn-uai-inf-002-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/auditoria/249
-[AETN] t= 434.9s | pag=233 | files= 188 | data=129 | cola=  52 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/auditoria/249
-[AETN] t= 435.2s | pag=233 | files= 188 | data=129 | cola=  51 | prio=25 | https://aetn.gob.bo/auditoria/aetn-uai-inf-003-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/auditoria/251
-[AETN] t= 436.1s | pag=234 | files= 188 | data=129 | cola=  51 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/auditoria/251
-[AETN] t= 436.5s | pag=234 | files= 188 | data=129 | cola=  50 | prio=25 | https://aetn.gob.bo/auditoria/aetn-uai-relev-001-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/auditoria/253
-[AETN] t= 437.6s | pag=235 | files= 188 | data=129 | cola=  50 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/auditoria/253
-[AETN] t= 438.0s | pag=235 | files= 188 | data=129 | cola=  49 | prio=25 | https://aetn.gob.bo/auditoria/aetn-uai-inf-004-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/auditoria/255
-[AETN] t= 438.8s | pag=236 | files= 188 | data=129 | cola=  49 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/auditoria/255
-[AETN] t= 439.5s | pag=236 | files= 188 | data=129 | cola=  48 | prio=25 | https://aetn.gob.bo/auditoria/aetn-uai-inf-005-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/auditoria/257
-[AETN] t= 440.4s | pag=237 | files= 188 | data=129 | cola=  48 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/auditoria/257
-[AETN] t= 440.8s | pag=237 | files= 188 | data=129 | cola=  47 | prio=25 | https://aetn.gob.bo/convocatoria/convocatoria-anpe-01-linea-800/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1112
-[AETN] t= 441.7s | pag=238 | files= 188 | data=129 | cola=  47 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1112
-[AETN] t= 442.4s | pag=238 | files= 188 | data=129 | cola=  46 | prio=25 | https://aetn.gob.bo/convocatoria/convocatoria-anpe-01/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1186
-[AETN] t= 443.1s | pag=239 | files= 188 | data=129 | cola=  46 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1186
-[AETN] t= 443.8s | pag=239 | files= 188 | data=129 | cola=  45 | prio=25 | https://aetn.gob.bo/convocatoria/convocatoria-anpe-03/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1188
-[AETN] t= 444.9s | pag=240 | files= 188 | data=129 | cola=  45 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1188
-[AETN] t= 445.8s | pag=240 | files= 188 | data=129 | cola=  44 | prio=25 | https://aetn.gob.bo/convocatoria/aetn-anpe-04-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1275
-[AETN] t= 446.7s | pag=241 | files= 188 | data=129 | cola=  44 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/convocatoria/1275
-[AETN] t= 447.2s | pag=241 | files= 188 | data=129 | cola=  43 | prio=25 | https://aetn.gob.bo/datos/anuario-estadistico-2020/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/datos/657
-[AETN] t= 447.9s | pag=242 | files= 188 | data=130 | cola=  43 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/datos/657
-[AETN] t= 448.4s | pag=242 | files= 188 | data=131 | cola=  42 | prio=25 | https://aetn.gob.bo/datos/anuario-estadistico-2024/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/datos/918
-[AETN] t= 449.4s | pag=243 | files= 188 | data=132 | cola=  42 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/datos/918
-[AETN] t= 449.8s | pag=243 | files= 188 | data=133 | cola=  41 | prio=25 | https://aetn.gob.bo/datos/anuario-estadistico-2021/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/datos/920
-[AETN] t= 450.7s | pag=244 | files= 188 | data=134 | cola=  41 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/datos/920
-[AETN] t= 451.2s | pag=244 | files= 188 | data=135 | cola=  40 | prio=25 | https://aetn.gob.bo/datos/anuario-estadistico-2022/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/datos/923
-[AETN] t= 452.1s | pag=245 | files= 188 | data=136 | cola=  40 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/datos/923
-[AETN] t= 452.9s | pag=245 | files= 188 | data=137 | cola=  39 | prio=25 | https://aetn.gob.bo/datos/anuario-estadistico-20203/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/datos/925
-[AETN] t= 454.1s | pag=246 | files= 188 | data=138 | cola=  39 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/datos/925
-[AETN] t= 454.6s | pag=246 | files= 188 | data=139 | cola=  38 | prio=25 | https://aetn.gob.bo/galeria/audiencia-de-rendicion-publicas-de-cuentas-final-gestion-2025/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/galeria/913
-[AETN] t= 455.3s | pag=247 | files= 188 | data=139 | cola=  38 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/galeria/913
-[AETN] t= 455.9s | pag=247 | files= 188 | data=139 | cola=  37 | prio=25 | https://aetn.gob.bo/galeria/capacitacion-sobre-cumplimiento-de-obligaciones-contractuales/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/galeria/914
-[AETN] t= 456.9s | pag=248 | files= 188 | data=139 | cola=  37 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/galeria/914
-[AETN] t= 457.7s | pag=248 | files= 188 | data=139 | cola=  36 | prio=25 | https://aetn.gob.bo/galeria/fortalecimiento-del-marco-regulatorio-del-sector-energetico/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/galeria/915
-[AETN] t= 458.5s | pag=249 | files= 188 | data=139 | cola=  36 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/galeria/915
-[AETN] t= 459.3s | pag=249 | files= 188 | data=139 | cola=  35 | prio=25 | https://aetn.gob.bo/galeria/aetn-y-ministerio-de-salud-coordinan-acciones-en-actividades-de-radiodiagnostico/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/galeria/916
-[AETN] t= 460.1s | pag=250 | files= 188 | data=139 | cola=  35 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/galeria/916
-[AETN] t= 460.6s | pag=250 | files= 188 | data=139 | cola=  34 | prio=25 | https://aetn.gob.bo/galeria/codespra-presento-el-libro-proteccion-radiologica/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/galeria/917
-[AETN] t= 461.4s | pag=251 | files= 188 | data=139 | cola=  34 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/galeria/917
-[AETN] t= 462.0s | pag=251 | files= 188 | data=139 | cola=  33 | prio=25 | https://aetn.gob.bo/normativa/decreto-supremo-n-5595/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/normativa/875
-[AETN] t= 462.8s | pag=252 | files= 188 | data=139 | cola=  33 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/normativa/875
-[AETN] t= 463.2s | pag=252 | files= 188 | data=139 | cola=  32 | prio=25 | https://aetn.gob.bo/normativa/resolucion-ministerial-no-79-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/normativa/877
-[AETN] t= 464.4s | pag=253 | files= 188 | data=139 | cola=  32 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/normativa/877
-[AETN] t= 464.8s | pag=253 | files= 188 | data=139 | cola=  31 | prio=25 | https://aetn.gob.bo/escala_salarial/escala-salaria-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/escala_salarial/238
-[AETN] t= 465.7s | pag=254 | files= 188 | data=139 | cola=  31 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/escala_salarial/238
-[AETN] t= 466.5s | pag=254 | files= 188 | data=139 | cola=  30 | prio=25 | https://aetn.gob.bo/manual_organizacion/manual-de-organizacion-y-funciones-mof/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/890
-[AETN] t= 467.2s | pag=255 | files= 188 | data=139 | cola=  30 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/890
-[AETN] t= 467.8s | pag=255 | files= 188 | data=139 | cola=  29 | prio=25 | https://aetn.gob.bo/manual_organizacion/manual-de-organizacion-y-funciones-mof-2/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/892
-[AETN] t= 468.5s | pag=256 | files= 188 | data=139 | cola=  29 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/892
-[AETN] t= 469.5s | pag=256 | files= 188 | data=139 | cola=  28 | prio=25 | https://aetn.gob.bo/manual_organizacion/manual-de-organizacion-y-funciones-mof-3/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/894
-[AETN] t= 470.2s | pag=257 | files= 188 | data=139 | cola=  28 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/894
-[AETN] t= 471.0s | pag=257 | files= 188 | data=139 | cola=  27 | prio=25 | https://aetn.gob.bo/manual_organizacion/manual-de-organizacion-y-funciones-mof-4/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/896
-[AETN] t= 471.8s | pag=258 | files= 188 | data=139 | cola=  27 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/896
-[AETN] t= 472.6s | pag=258 | files= 188 | data=139 | cola=  26 | prio=25 | https://aetn.gob.bo/manual_organizacion/manual-de-organizacion-y-funciones-mof-5/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/898
-[AETN] t= 473.6s | pag=259 | files= 188 | data=139 | cola=  26 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/manual_organizacion/898
-[AETN] t= 474.4s | pag=259 | files= 188 | data=139 | cola=  25 | prio=25 | https://aetn.gob.bo/poa_individual/poai-2026/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/poa_individual/527
-[AETN] t= 475.1s | pag=260 | files= 188 | data=139 | cola=  25 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/poa_individual/527
-[AETN] t= 475.7s | pag=260 | files= 188 | data=139 | cola=  24 | prio=50 | https://rpc.aetn.gob.bo/
-[AETN] t= 476.7s | pag=261 | files= 188 | data=139 | cola=  23 | prio=50 | https://www.aetn.gob.bo/wf-web/gendis/
-[AETN] t= 477.8s | pag=262 | files= 188 | data=139 | cola=  22 | prio=50 | https://gendis2.aetn.gob.bo/gd
-[AETN] t= 479.1s | pag=263 | files= 190 | data=139 | cola=  30 | prio=50 | https://sawi.aetn.gob.bo/saturno/users/
-[AETN] t= 480.1s | pag=264 | files= 190 | data=139 | cola=  29 | prio=50 | https://www.aetn.gob.bo/acoe/seguimientos
-[AETN] t= 480.6s | pag=265 | files= 190 | data=139 | cola=  31 | prio=50 | https://www.aetn.gob.bo/acoe/departamentos
-[AETN] t= 481.4s | pag=266 | files= 190 | data=139 | cola=  39 | prio=50 | https://sawi.aetn.gob.bo/wf-web/form/
-[AETN] t= 481.9s | pag=267 | files= 190 | data=139 | cola=  38 | prio=50 | https://aetn.gob.bo/nota_prensa/difusion-de-nuevas-reformas-para-impulsar-las-energias-renovables-en-las-redes-de-distribucion/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1230
-[AETN] t= 482.6s | pag=268 | files= 190 | data=139 | cola=  38 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1230
-[AETN] t= 483.0s | pag=268 | files= 190 | data=139 | cola=  37 | prio=50 | https://aetn.gob.bo/nota_prensa/1227/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1227
-[AETN] t= 483.9s | pag=269 | files= 190 | data=139 | cola=  37 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1227
-[AETN] t= 484.4s | pag=269 | files= 190 | data=139 | cola=  36 | prio=50 | https://aetn.gob.bo/nota_prensa/aetn-presenta-los-desafios-de-la-modernizacion-regulatoria-en-el-taller-nacional-relac-bolivia/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1208
-[AETN] t= 485.0s | pag=270 | files= 190 | data=139 | cola=  36 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1208
-[AETN] t= 485.9s | pag=270 | files= 190 | data=139 | cola=  35 | prio=50 | https://aetn.gob.bo/nota_prensa/aetn-y-la-aaps-suscriben-convenio-para-fortalecer-capacidades-tecnicas-y-regulatorias/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1140
-[AETN] t= 487.1s | pag=271 | files= 190 | data=139 | cola=  35 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/1140
-[AETN] t= 488.0s | pag=271 | files= 190 | data=139 | cola=  34 | prio=50 | https://aetn.gob.bo/nota_prensa/codespra-presento-el-libro-proteccion-radiologica/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/406
-[AETN] t= 488.6s | pag=272 | files= 190 | data=139 | cola=  34 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/406
-[AETN] t= 489.1s | pag=272 | files= 190 | data=139 | cola=  33 | prio=50 | https://aetn.gob.bo/nota_prensa/aetn-y-ministerio-de-salud-coordinan-acciones-en-actividades-de-radiodiagnostico/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/395
-[AETN] t= 489.9s | pag=273 | files= 190 | data=139 | cola=  33 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/395
-[AETN] t= 490.5s | pag=273 | files= 190 | data=139 | cola=  32 | prio=50 | https://aetn.gob.bo/nota_prensa/fortalecimiento-del-marco-regulatorio-del-sector-energetico/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/385
-[AETN] t= 491.5s | pag=274 | files= 190 | data=139 | cola=  32 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/385
-[AETN] t= 492.1s | pag=274 | files= 190 | data=139 | cola=  31 | prio=50 | https://aetn.gob.bo/memoria-intitucional/page/2/
-[AETN] t= 492.7s | pag=275 | files= 200 | data=139 | cola=  31 | prio=50 | https://aetn.gob.bo/memoria-intitucional/page/3/
-[AETN] t= 493.7s | pag=276 | files= 205 | data=139 | cola=  30 | prio=50 | https://aetn.gob.bo/programacion-operativa-anual-poa/page/2/
-[AETN] t= 494.5s | pag=277 | files= 210 | data=139 | cola=  30 | prio=50 | https://aetn.gob.bo/comunicados/page/2/
-[AETN] t= 495.1s | pag=277 | files= 210 | data=139 | cola=  29 | prio=50 | https://aetn.gob.bo/comunicados/page/3/
-[AETN] t= 496.2s | pag=277 | files= 210 | data=139 | cola=  28 | prio=50 | https://aetn.gob.bo/nota_prensa/aetn-realizo-capacitacion-sobre-cumplimiento-de-obligaciones-contractuales-y-temas-regulatorios/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/375
-[AETN] t= 497.4s | pag=278 | files= 210 | data=139 | cola=  28 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/375
-[AETN] t= 498.4s | pag=278 | files= 210 | data=139 | cola=  27 | prio=50 | https://aetn.gob.bo/nota_prensa/audiencia-de-rendicion-publicas-de-cuentas-final-gestion-2025/
-[AETN] API REFERENCIA | html_link_reference | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/369
-[AETN] t= 499.3s | pag=279 | files= 210 | data=139 | cola=  27 | prio= 1 | https://aetn.gob.bo/wp-json/wp/v2/nota_prensa/369
-[AETN] t= 499.9s | pag=279 | files= 210 | data=139 | cola=  26 | prio=50 | https://sawi.aetn.gob.bo/consv2/cons_web/web.html
-[AETN] t= 501.0s | pag=280 | files= 210 | data=139 | cola=  25 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/2/
-[AETN] t= 501.9s | pag=281 | files= 218 | data=139 | cola=  26 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/3/
-[AETN] t= 502.5s | pag=282 | files= 228 | data=139 | cola=  26 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/9/
-[AETN] t= 503.1s | pag=283 | files= 232 | data=139 | cola=  27 | prio=50 | https://gendis2.aetn.gob.bo/
-[AETN] t= 503.5s | pag=283 | files= 232 | data=139 | cola=  26 | prio=50 | https://gendis2.aetn.gob.bo/gd/instaladora
-[AETN] t= 504.5s | pag=284 | files= 232 | data=139 | cola=  25 | prio=50 | https://gendis2.aetn.gob.bo/gd/dimensionamiento
-[AETN] t= 505.2s | pag=285 | files= 232 | data=139 | cola=  25 | prio=50 | https://gendis2.aetn.gob.bo/gd/geovisor
-[AETN] API REFERENCIA | inline_script_reference | https://gendis2.aetn.gob.bo/geoserver/base/wms
-[AETN] t= 506.0s | pag=286 | files= 232 | data=140 | cola=  25 | prio= 1 | https://gendis2.aetn.gob.bo/geoserver/base/wms
-[AETN] t= 506.6s | pag=286 | files= 233 | data=140 | cola=  24 | prio=50 | https://gendis2.aetn.gob.bo/gd/geolinera
-[AETN] t= 507.5s | pag=287 | files= 233 | data=140 | cola=  23 | prio=50 | https://www.aetn.gob.bo/
-[AETN] t= 508.6s | pag=287 | files= 233 | data=140 | cola=  22 | prio=50 | https://www.aetn.gob.bo/web/main?cid=218&mid=1
-[AETN] t= 510.0s | pag=287 | files= 233 | data=140 | cola=  21 | prio=50 | https://www.aetn.gob.bo/web/main?cid=216&mid=1
-[AETN] t= 511.6s | pag=287 | files= 233 | data=140 | cola=  20 | prio=50 | https://gendis2.aetn.gob.bo/gd/index
-[AETN] t= 512.4s | pag=288 | files= 233 | data=140 | cola=  19 | prio=50 | https://www.aetn.gob.bo/acoe/principals
-[AETN] t= 513.0s | pag=289 | files= 233 | data=140 | cola=  27 | prio=10 | https://www.aetn.gob.bo/acoe/consumers/ahorrandoEnergia
-[AETN] t= 513.8s | pag=290 | files= 233 | data=140 | cola=  26 | prio=10 | https://www.aetn.gob.bo/acoe/consumers/evitemosAccidentes
-[AETN] t= 514.5s | pag=291 | files= 233 | data=140 | cola=  25 | prio=50 | https://www.aetn.gob.bo/corporate/terms.html
-[AETN] t= 515.7s | pag=291 | files= 233 | data=140 | cola=  24 | prio=50 | https://www.aetn.gob.bo/corporate/pp.html
-[AETN] t= 516.9s | pag=291 | files= 233 | data=140 | cola=  23 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=beni
-[AETN] t= 517.5s | pag=292 | files= 233 | data=140 | cola=  24 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=chuquisaca
-[AETN] t= 518.0s | pag=293 | files= 233 | data=140 | cola=  26 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=cochabamba
-[AETN] t= 518.6s | pag=294 | files= 233 | data=140 | cola=  26 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=la_paz
-[AETN] t= 519.1s | pag=295 | files= 233 | data=140 | cola=  27 | prio=10 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--delapaz.png&razon_social=Distribuidora+de+Electricidad+La+Paz+S.A.&sigla=DELAPAZ&sistema=SIN
-[AETN] t= 519.7s | pag=296 | files= 233 | data=140 | cola=  28 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=oruro
-[AETN] t= 520.4s | pag=297 | files= 233 | data=140 | cola=  35 | prio=10 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cervi.png&razon_social=Cooperativa+de+Servicios+P%C3%BAblicos+de+Electricidad&sigla=CERVI+R.L.&sistema=AISLADO
-[AETN] t= 521.3s | pag=298 | files= 233 | data=140 | cola=  35 | prio=10 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cosepaz.png&razon_social=Cooperativa+de+Servicios+P%C3%BAblicos+de+Electricidad+Paz%C3%B1a+R.L.&sigla=COSEPAZ+R.L.&sistema=AISLADO
-[AETN] t= 522.0s | pag=299 | files= 233 | data=140 | cola=  34 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=pando
-[AETN] t= 522.6s | pag=300 | files= 233 | data=140 | cola=  34 | prio=10 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--ende_cobija.png&razon_social=Empresa+Nacional+de+Electricidad&sigla=ENDE+COBIJA&sistema=AISLADO
-[AETN] t= 523.2s | pag=301 | files= 233 | data=140 | cola=  33 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=potosi
-[AETN] t= 523.6s | pag=302 | files= 233 | data=140 | cola=  38 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=santa_cruz
-[AETN] t= 524.2s | pag=303 | files= 233 | data=140 | cola=  40 | prio=50 | https://www.aetn.gob.bo/acoe/Empresas/showEmpresas/?depto=tarija
-[AETN] t= 524.9s | pag=304 | files= 233 | data=140 | cola=  40 | prio=50 | https://aetn.gob.bo/memoria-intitucional/page/1/
-[AETN] t= 526.1s | pag=304 | files= 233 | data=140 | cola=  39 | prio=50 | https://aetn.gob.bo/programacion-operativa-anual-poa/page/1/
-[AETN] t= 527.2s | pag=304 | files= 233 | data=140 | cola=  38 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/1/
-[AETN] t= 528.7s | pag=304 | files= 233 | data=140 | cola=  37 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/4/
-[AETN] t= 529.7s | pag=305 | files= 243 | data=140 | cola=  37 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/5/
-[AETN] t= 530.5s | pag=306 | files= 253 | data=140 | cola=  36 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/8/
-[AETN] t= 531.2s | pag=307 | files= 263 | data=140 | cola=  35 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/7/
-[AETN] t= 532.0s | pag=308 | files= 273 | data=140 | cola=  34 | prio=50 | https://gendis2.aetn.gob.bo/gd/dimensionamiento/dimensionamiento_/
-[AETN] API REFERENCIA | inline_script_reference | https://gendis2.aetn.gob.bo/geoserver/wms
-[AETN] t= 532.9s | pag=309 | files= 273 | data=140 | cola=  34 | prio= 1 | https://gendis2.aetn.gob.bo/geoserver/wms
-[AETN] t= 533.4s | pag=309 | files= 274 | data=140 | cola=  33 | prio=50 | https://www.aetn.gob.bo/web/main?cid=2&mid=1
-[AETN] t= 534.5s | pag=309 | files= 274 | data=140 | cola=  32 | prio=50 | https://www.aetn.gob.bo/acoe/consumers/marcoLegal
-[AETN] t= 535.0s | pag=310 | files= 275 | data=140 | cola=  32 | prio=50 | https://www.aetn.gob.bo/acoe/consumers/derechosObligaciones
-[AETN] t= 535.7s | pag=311 | files= 275 | data=140 | cola=  31 | prio=50 | https://www.aetn.gob.bo/acoe/consumers/leerMedidor
-[AETN] t= 536.4s | pag=312 | files= 275 | data=140 | cola=  30 | prio=50 | https://www.aetn.gob.bo/acoe/consumers/efectuarReclamo
-[AETN] t= 537.3s | pag=313 | files= 275 | data=140 | cola=  29 | prio=50 | https://www.aetn.gob.bo/acoe/consumers/preguntasFrecuentes
-[AETN] t= 537.9s | pag=314 | files= 275 | data=140 | cola=  28 | prio=50 | https://www.aetn.gob.bo/acoe/maps/puntosAe
-[AETN] t= 538.6s | pag=315 | files= 275 | data=140 | cola=  27 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--LOGO_ENDEDELBENI.png&razon_social=ENDE+DELBENI+S.A.M.&sigla=DELBENI+S.A.M.&sistema=SIN
-[AETN] t= 539.3s | pag=316 | files= 275 | data=140 | cola=  26 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cer.png&razon_social=ENDE+SISTEMA+RIBERALTA&sigla=ENDE+SISTEMA+RIBERALTA&sistema=AISLADO
-[AETN] t= 540.1s | pag=317 | files= 275 | data=140 | cola=  25 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cessa.png&razon_social=Compa%C3%B1%C3%ADa+El%C3%A9ctrica+Sucre+S.A.&sigla=CESSA&sistema=SIN
-[AETN] t= 541.0s | pag=318 | files= 275 | data=140 | cola=  24 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cosermo.png&razon_social=Cooperativa+de+Servicios+P%C3%BAblicos+Monteagudo+R.L.&sigla=COSERMO+R.L.&sistema=AISLADO
-[AETN] t= 541.5s | pag=319 | files= 275 | data=140 | cola=  23 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--ende_cintis.png&razon_social=ENDE+Sistema+Los+Cintis&sigla=ENDE+Sistema+Los+Cintis&sistema=AISLADO
-[AETN] t= 542.4s | pag=320 | files= 275 | data=140 | cola=  22 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--elfec.png&razon_social=Empresa+de+Luz+y+Fuerza+Electrica+Cochabamba+S.A.&sigla=ELFEC+S.A.&sistema=SIN
-[AETN] t= 543.0s | pag=321 | files= 275 | data=140 | cola=  21 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--serelco.png&razon_social=EMPRESA+MULTIDISCIPLINARIA+SERELCO+S.R.L.&sigla=SERELCO&sistema=AISLADO
-[AETN] t= 543.9s | pag=322 | files= 275 | data=140 | cola=  20 | prio=50 | https://www.aetn.gob.bo/acoe/maps/puntosAtencion
-[AETN] t= 544.8s | pag=323 | files= 275 | data=140 | cola=  20 | prio=50 | https://www.aetn.gob.bo/acoe/calculos/calcularFactura/SIN
-[AETN] t= 545.4s | pag=323 | files= 275 | data=140 | cola=  19 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--coop15novimbre.png&razon_social=Cooperativa+de+Servicios+El%C3%A9ctricos+15+de+Noviembre+Ltda.&sigla=COOP.+15+DE+NOVIEMBRE&sistema=AISLADO
-[AETN] t= 546.1s | pag=324 | files= 275 | data=140 | cola=  18 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--coopsel.png&razon_social=Cooperativa+de+Servicios+Electricos+5+de+Agosto+Ltda.&sigla=COOPSEL&sistema=AISLADO
-[AETN] t= 546.6s | pag=325 | files= 275 | data=140 | cola=  17 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cosep.png&razon_social=Cooperativa+de+Electrificaci%C3%B3n+Rural+Paria+R.L.&sigla=COSEP+R.L.&sistema=AISLADO
-[AETN] t= 547.5s | pag=326 | files= 275 | data=140 | cola=  16 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--elfedech.png&razon_social=Empresa+de+Luz+y+Fuerza+El%C3%A9ctrica+de+Challapata+S.A.&sigla=ELFEDECH+S.A.&sistema=AISLADO
-[AETN] t= 548.2s | pag=327 | files= 275 | data=140 | cola=  15 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--emdeca.png&razon_social=Empresa+de+Distribuci%C3%B3n+de+Energ%C3%ADa+El%C3%A9ctrica+Caracollo+S.A.&sigla=EMDECA+S.A.&sistema=AISLADO
-[AETN] t= 548.7s | pag=328 | files= 275 | data=140 | cola=  14 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--deoruro.png&razon_social=ENDE+DEORURO+S.A.&sigla=ENDE+DEORURO+S.A.&sistema=SIN
-[AETN] t= 549.4s | pag=329 | files= 275 | data=140 | cola=  13 | prio=50 | https://www.aetn.gob.bo/acoe/calculos/calcularFactura/AISLADO
-[AETN] t= 549.9s | pag=329 | files= 275 | data=140 | cola=  12 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--coopelect.png&razon_social=Cooperativa+de+Servicios+El%C3%A9ctricos+Tupiza+R.L.&sigla=COOPELECT+R.L.&sistema=AISLADO
-[AETN] t= 551.1s | pag=330 | files= 275 | data=140 | cola=  11 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--coseal.png&razon_social=Cooperativa+Electrica+Atocha+R.L.&sigla=COSEAL+R.L.&sistema=AISLADO
-[AETN] t= 551.5s | pag=331 | files= 275 | data=140 | cola=  10 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--emdell.png&razon_social=Empresa+Municipal+de+Distribuci%C3%B3n+de+Energ%C3%ADa+El%C3%A9ctrica+Llallagua&sigla=EMDELL&sistema=AISLADO
-[AETN] t= 552.4s | pag=332 | files= 275 | data=140 | cola=   9 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--empseu.png&razon_social=Empresa+P%C3%BAblica+Municipal+de+Servicios+El%C3%A9ctricos+de+Unc%C3%ADa+%28EM.P.S.E.U.%29&sigla=EMPSEU&sistema=AISLADO
-[AETN] t= 553.0s | pag=333 | files= 275 | data=140 | cola=   8 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--ende_uyuni.png&razon_social=ENDE+Sistema+Uyuni&sigla=ENDE+Sistema+Uyuni&sistema=AISLADO
-[AETN] t= 553.9s | pag=334 | files= 275 | data=140 | cola=   7 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--sepsa.png&razon_social=Servicios+El%C3%A9ctricos+Potosi+S.A.&sigla=SEPSA&sistema=SIN
-[AETN] t= 554.9s | pag=335 | files= 275 | data=140 | cola=   6 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--cre.png&razon_social=Cooperativa+Rural+de+Electrificaci%C3%B3n+R.L.&sigla=CRE+R.L.&sistema=SIN
-[AETN] t= 555.8s | pag=336 | files= 275 | data=140 | cola=   5 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--ende_chiquitania.png&razon_social=ENDE+Chiquitania+S.A.&sigla=ENDE+Chiquitania+S.A.&sistema=AISLADO
-[AETN] t= 556.6s | pag=337 | files= 275 | data=140 | cola=   4 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--ende_guaracachi.png&razon_social=ENDE+Guaracachi+S.A.&sigla=ENDE+Guaracachi+S.A.&sistema=AISLADO
-[AETN] t= 557.5s | pag=338 | files= 275 | data=140 | cola=   3 | prio=50 | https://www.aetn.gob.bo/acoe/Categorias/index/?logo_dir=img--empresas--setar.png&razon_social=Servicios+El%C3%A9ctricos+de+Tarija&sigla=SETAR&sistema=SIN
-[AETN] t= 558.4s | pag=339 | files= 275 | data=140 | cola=   2 | prio=50 | https://aetn.gob.bo/terminos-de-referencia/page/6/
-[AETN] t= 559.4s | pag=340 | files= 284 | data=140 | cola=   1 | prio=50 | https://www.aetn.gob.bo/acoe/consumers/109
-[AETN] t= 559.8s | pag=340 | files= 284 | data=140 | cola=   0 | prio=50 | https://www.aetn.gob.bo/acoe/maps/comoLlegar
+[AETN] SITEMAP | docs=24 | urls=203 | en_cola=198 | errores=0
+[AETN] t=  20.1s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola= 203 | prio= 0 | https://aetn.gob.bo/
+[AETN] t=  21.2s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   0 | cola= 210 | prio= 0 | https://anuariodig.aetn.gob.bo/informacion-estadistica/
+[AETN] DATASETS=1 | score=45 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/
+[AETN] t=  22.4s | pag=  2 | files=   0 | data=  1 | req=   2 | rej=   0 | cola= 331 | prio= 0 | https://aetn.gob.bo/datos-y-estadisticas/
+[AETN] DATASETS=2 | score=80 | statistical_html_table | https://aetn.gob.bo/datos-y-estadisticas/
+[AETN] t=  22.9s | pag=  3 | files=   0 | data=  2 | req=   3 | rej=   5 | cola= 330 | prio= 0 | https://aetn.gob.bo/boletines/
+[AETN] t=  23.9s | pag=  4 | files=   0 | data=  2 | req=   4 | rej=  11 | cola= 329 | prio= 0 | https://aetn.gob.bo/tarifas-vigentes/
+[AETN] DATASETS=3 | score=55 | data_html_table | https://aetn.gob.bo/tarifas-vigentes/
+[AETN] t=  24.7s | pag=  5 | files=   0 | data=  3 | req=   5 | rej=  21 | cola= 330 | prio= 0 | https://aetn.gob.bo/tarifa-dignidad/
+[AETN] DATASETS=4 | score=55 | data_html_table | https://aetn.gob.bo/tarifa-dignidad/
+[AETN] t=  25.4s | pag=  6 | files=   0 | data=  4 | req=   6 | rej=  27 | cola= 329 | prio=10 | https://aetn.gob.bo/resena-historica/
+[AETN] t=  26.4s | pag=  7 | files=   0 | data=  4 | req=   7 | rej=  27 | cola= 328 | prio=10 | https://aetn.gob.bo/memoria/memora-institucional-1998-superintendencia-de-electricidad/
+[AETN] t=  27.0s | pag=  8 | files=   0 | data=  4 | req=   8 | rej=  27 | cola= 327 | prio=10 | https://aetn.gob.bo/memoria/memora-institucional-1999-superintendencia-de-electricidad/
+[AETN] t=  28.1s | pag=  9 | files=   0 | data=  4 | req=   9 | rej=  27 | cola= 326 | prio=10 | https://aetn.gob.bo/memoria/memoria-anual-2000-autoridad-de-electricidad/
+[AETN] t=  29.2s | pag= 10 | files=   0 | data=  4 | req=  10 | rej=  27 | cola= 325 | prio=10 | https://aetn.gob.bo/datos/anuario-estadistico-2020/
+[AETN] DATASETS=5 | score=45 | exportable_data_page | https://aetn.gob.bo/datos/anuario-estadistico-2020/
+[AETN] t=  30.1s | pag= 11 | files=   0 | data=  5 | req=  11 | rej=  27 | cola= 324 | prio=10 | https://aetn.gob.bo/datos/anuario-estadistico-2024/
+[AETN] DATASETS=6 | score=45 | exportable_data_page | https://aetn.gob.bo/datos/anuario-estadistico-2024/
+[AETN] t=  30.9s | pag= 12 | files=   0 | data=  6 | req=  12 | rej=  27 | cola= 323 | prio=10 | https://aetn.gob.bo/datos/anuario-estadistico-2021/
+[AETN] DATASETS=7 | score=45 | exportable_data_page | https://aetn.gob.bo/datos/anuario-estadistico-2021/
+[AETN] t=  31.7s | pag= 13 | files=   0 | data=  7 | req=  13 | rej=  27 | cola= 322 | prio=10 | https://aetn.gob.bo/datos/anuario-estadistico-2022/
+[AETN] DATASETS=8 | score=45 | exportable_data_page | https://aetn.gob.bo/datos/anuario-estadistico-2022/
+[AETN] t=  32.2s | pag= 14 | files=   0 | data=  8 | req=  14 | rej=  27 | cola= 321 | prio=10 | https://aetn.gob.bo/datos/anuario-estadistico-20203/
+[AETN] DATASETS=9 | score=45 | exportable_data_page | https://aetn.gob.bo/datos/anuario-estadistico-20203/
+[AETN] t=  33.3s | pag= 15 | files=   0 | data=  9 | req=  15 | rej=  27 | cola= 320 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-especifico-del-sistema-de-tesoreria-del-estado-re-ste-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  34.0s | pag= 16 | files=   0 | data=  9 | req=  16 | rej=  27 | cola= 319 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-especifico-del-sistema-de-administracion-de-bienes-y-servicios-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  34.8s | pag= 17 | files=   0 | data=  9 | req=  17 | rej=  27 | cola= 318 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-especifico-del-sistema-de-administracion-de-personal-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  35.5s | pag= 18 | files=   0 | data=  9 | req=  18 | rej=  27 | cola= 317 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-especifico-del-sistema-de-contabilidad-integrada-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  36.2s | pag= 19 | files=   0 | data=  9 | req=  19 | rej=  27 | cola= 316 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-especifico-del-sistema-de-presupuesto-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  36.9s | pag= 20 | files=   0 | data=  9 | req=  20 | rej=  27 | cola= 315 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-interno-de-pasajes-y-viaticos-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  37.6s | pag= 21 | files=   0 | data=  9 | req=  21 | rej=  27 | cola= 314 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-de-pasantias-elaboracion-de-proyectos-de-grado-trabajos-dirigidos-y-tesis-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  38.4s | pag= 22 | files=   0 | data=  9 | req=  22 | rej=  27 | cola= 313 | prio=10 | https://aetn.gob.bo/procedimientos/reglamento-interno-de-administracion-y-uso-de-vehiculos-parqueos-y-combustible-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  39.2s | pag= 23 | files=   0 | data=  9 | req=  23 | rej=  27 | cola= 312 | prio=10 | https://aetn.gob.bo/procedimientos/manual-de-administracion-del-almacen-de-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear/
+[AETN] t=  40.0s | pag= 24 | files=   0 | data=  9 | req=  24 | rej=  27 | cola= 311 | prio=10 | https://aetn.gob.bo/nota_prensa/taller-para-fortalecer-el-seguimiento-a-los-programas-de-inversion-de-las-empresas-distribuidoras-de-electricidad/
+[AETN] t=  40.8s | pag= 25 | files=   0 | data=  9 | req=  25 | rej=  27 | cola= 310 | prio=10 | https://anuariodig.aetn.gob.bo/
+[AETN] t=  42.0s | pag= 26 | files=   0 | data=  9 | req=  26 | rej=  28 | cola= 315 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/
+[AETN] DATASETS=10 | score=50 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/
+[AETN] t=  43.2s | pag= 27 | files=   0 | data= 10 | req=  27 | rej=  28 | cola= 314 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/
+[AETN] t=  44.1s | pag= 28 | files=   0 | data= 11 | req=  28 | rej=  28 | cola= 313 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/potencia-instalada-y-efectiva-al-31-de-diciembre-del-2024/
+[AETN] t=  45.4s | pag= 29 | files=   0 | data= 12 | req=  29 | rej=  28 | cola= 312 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-centrales-hidroelectricas-mw-periodo-1997-2024/
+[AETN] t=  46.5s | pag= 30 | files=   0 | data= 13 | req=  30 | rej=  28 | cola= 311 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-la-potencia-instalada-de-las-centrales-termoelectricas-mw-periodo-1997-2024/
+[AETN] t=  47.4s | pag= 31 | files=   0 | data= 14 | req=  31 | rej=  28 | cola= 310 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/generacion-bruta-gwh-gestion-2024/
+[AETN] t=  48.6s | pag= 32 | files=   0 | data= 15 | req=  32 | rej=  28 | cola= 309 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-mensual-de-la-generacion-bruta-gwh-gestion-2024/
+[AETN] t=  49.7s | pag= 33 | files=   0 | data= 16 | req=  33 | rej=  28 | cola= 308 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-anual-de-la-generacion-bruta-gwh-periodo-1992-2024/
+[AETN] t=  50.4s | pag= 34 | files=   0 | data= 17 | req=  34 | rej=  28 | cola= 307 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/ventas-de-electricidad-a-consumidor-final-en-bolivia-mwh-gestion-2024/
+[AETN] t=  51.4s | pag= 35 | files=   0 | data= 18 | req=  35 | rej=  28 | cola= 306 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/resumen-de-oferta-y-demanda-de-bolivia/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-en-bolivia-sin-y-sa-gwh-periodo-1970-2024/
+[AETN] t=  52.7s | pag= 36 | files=   0 | data= 19 | req=  36 | rej=  28 | cola= 305 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/
+[AETN] t=  53.7s | pag= 37 | files=   0 | data= 20 | req=  37 | rej=  28 | cola= 304 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-y-efectiva-al-31-de-diciembre-de-2024/
+[AETN] t=  54.7s | pag= 38 | files=   0 | data= 21 | req=  38 | rej=  28 | cola= 303 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-hidroelectricas/
+[AETN] t=  55.8s | pag= 39 | files=   0 | data= 22 | req=  39 | rej=  28 | cola= 302 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-termoelectricas/
+[AETN] t=  56.5s | pag= 40 | files=   0 | data= 23 | req=  40 | rej=  28 | cola= 301 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/potencia-instalada-garantizada-firme-en-empresas-de-energias-alternativas/
+[AETN] t=  57.7s | pag= 41 | files=   0 | data= 24 | req=  41 | rej=  28 | cola= 300 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-hidroelectricas-de-generacion-al-31-de-diciembre-2024/
+[AETN] DATASETS=25 | score=60 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-hidroelectricas-de-generacion-al-31-de-diciembre-2024/
+[AETN] t=  58.6s | pag= 42 | files=   0 | data= 25 | req=  42 | rej=  28 | cola= 299 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-las-unidades-termoelectricas-de-generacion-al-31-de-diciembre-2024/
+[AETN] t=  59.6s | pag= 43 | files=   0 | data= 26 | req=  43 | rej=  28 | cola= 298 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/lineas-de-transmision-reconocidas-como-parte-del-s-t-i-al-31-de-diciembre-de-2024/
+[AETN] t=  60.7s | pag= 44 | files=   0 | data= 26 | req=  44 | rej=  29 | cola= 297 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/longitud-de-lineas-de-transmision-km-al-31-de-diciembre-de-2024/
+[AETN] t=  61.6s | pag= 45 | files=   0 | data= 26 | req=  45 | rej=  30 | cola= 296 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/caracteristicas-de-los-transformadores-de-potencia-al-31-de-diciembre-de-2024/
+[AETN] t=  62.3s | pag= 46 | files=   0 | data= 27 | req=  46 | rej=  30 | cola= 295 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-de-energia-por-tipo-de-combustible-gwh-al-31-de-diciembre-de-2024/
+[AETN] t=  63.6s | pag= 47 | files=   0 | data= 28 | req=  47 | rej=  30 | cola= 294 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-mensual-de-las-centrales-gwh-gestion-2024/
+[AETN] t=  64.5s | pag= 48 | files=   0 | data= 29 | req=  48 | rej=  30 | cola= 293 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-en-centrales-hidroelectricas-eolica-solar-y-termoelectricas-gwh/
+[AETN] t=  65.8s | pag= 49 | files=   0 | data= 30 | req=  49 | rej=  30 | cola= 292 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/generacion-bruta-gwh-periodo-1992-2024/
+[AETN] t=  66.9s | pag= 50 | files=   0 | data= 31 | req=  50 | rej=  30 | cola= 291 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/evolucion-anual-de-la-generacion-bruta-de-las-centrales-gwh-periodo-1992-2024/
+[AETN] t=  67.8s | pag= 51 | files=   0 | data= 32 | req=  51 | rej=  30 | cola= 290 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-del-sistema-interconectado-nacional-s-i-n/maxima-inyeccion-y-retiros-de-potencia-registradas-mw-gestion-2024/
+[AETN] t=  68.5s | pag= 52 | files=   0 | data= 33 | req=  52 | rej=  30 | cola= 289 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/
+[AETN] t=  69.3s | pag= 53 | files=   0 | data= 34 | req=  53 | rej=  30 | cola= 288 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/inyecciones-y-retiros-de-energia-gwh-por-empresa-electrica/
+[AETN] t=  70.1s | pag= 54 | files=   0 | data= 35 | req=  54 | rej=  30 | cola= 287 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/inyecciones-mercado-electrico-mayorista/
+[AETN] t=  71.5s | pag= 55 | files=   0 | data= 36 | req=  55 | rej=  30 | cola= 286 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/retiros-mercado-electrico-mayorista/
+[AETN] t=  72.3s | pag= 56 | files=   0 | data= 37 | req=  56 | rej=  30 | cola= 285 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-de-inyecciones-energia-y-potencia-maxima-coincidental/
+[AETN] t=  73.1s | pag= 57 | files=   0 | data= 38 | req=  57 | rej=  30 | cola= 284 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-de-retiros-energia-y-potencia-maxima-coincidental/
+[AETN] t=  74.2s | pag= 58 | files=   0 | data= 39 | req=  58 | rej=  30 | cola= 283 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precios-spot-de-las-transacciones-de-energia-sin-iva-bs-mwh/
+[AETN] t=  75.0s | pag= 59 | files=   0 | data= 40 | req=  59 | rej=  30 | cola= 282 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/retiros-precios-de-nodo-base-e-indexado-de-energia-sin-iva-bs-mwh/
+[AETN] t=  76.2s | pag= 60 | files=   0 | data= 41 | req=  60 | rej=  30 | cola= 281 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precios-de-potencia-firme-sin-iva-bs-kw-mes/
+[AETN] t=  77.2s | pag= 61 | files=   0 | data= 42 | req=  61 | rej=  30 | cola= 280 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precios-de-potencia-de-punta-sin-iva-bs-kw-mes/
+[AETN] t=  78.2s | pag= 62 | files=   0 | data= 43 | req=  62 | rej=  30 | cola= 279 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/reserva-fria-bs-kw-mes-gestion-2024/
+[AETN] t=  79.1s | pag= 63 | files=   0 | data= 44 | req=  63 | rej=  30 | cola= 278 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precio-monomico-bs-mwh-sin-iva/
+[AETN] t=  80.0s | pag= 64 | files=   0 | data= 45 | req=  64 | rej=  30 | cola= 277 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/precio-monomico-usd-mwh-sin-iva-gestion-2024/
+[AETN] t=  80.6s | pag= 65 | files=   0 | data= 46 | req=  65 | rej=  30 | cola= 276 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/fondo-de-estabilizacion-mayorista-acumulado-a-diciembre-de-2024-mbs/
+[AETN] t=  81.4s | pag= 66 | files=   0 | data= 47 | req=  66 | rej=  30 | cola= 275 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-del-fondo-de-estabilizacion-de-distribucion-fed-acumulado-sistema-interconectado-nacional/
+[AETN] t=  82.1s | pag= 67 | files=   0 | data= 48 | req=  67 | rej=  30 | cola= 274 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/evolucion-del-fondo-de-estabilizacion-del-mercado-mayorista-fem-sistema-interconectado-nacional/
+[AETN] t=  83.1s | pag= 68 | files=   0 | data= 49 | req=  68 | rej=  30 | cola= 273 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/ventas-totales-en-el-mem-por-generacion-y-transporte-de-energia-electrica-gestion-2024/
+[AETN] DATASETS=50 | score=55 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/mercado-electrico-mayorista-sistema-interconectado-nacional/ventas-totales-en-el-mem-por-generacion-y-transporte-de-energia-electrica-gestion-2024/
+[AETN] t=  83.8s | pag= 69 | files=   0 | data= 50 | req=  69 | rej=  30 | cola= 272 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/
+[AETN] t=  84.4s | pag= 70 | files=   0 | data= 51 | req=  70 | rej=  30 | cola= 271 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/consumo-de-combustibles/
+[AETN] t=  85.7s | pag= 71 | files=   0 | data= 52 | req=  71 | rej=  30 | cola= 270 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-consumo-anual-de-gas-natural-mmmpc/
+[AETN] t=  86.6s | pag= 72 | files=   0 | data= 53 | req=  72 | rej=  30 | cola= 269 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-consumo-anual-de-diesel-oil-m3/
+[AETN] t=  87.5s | pag= 73 | files=   0 | data= 54 | req=  73 | rej=  30 | cola= 268 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-consumo-anual-de-biomasa-t/
+[AETN] t=  88.6s | pag= 74 | files=   0 | data= 55 | req=  74 | rej=  30 | cola= 267 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/aportes-a-los-embalses-hm3/
+[AETN] t=  89.4s | pag= 75 | files=   0 | data= 56 | req=  75 | rej=  30 | cola= 266 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/aportes-a-los-embalses-hm3-historico/
+[AETN] t=  90.6s | pag= 76 | files=   0 | data= 57 | req=  76 | rej=  30 | cola= 265 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/volumen-almacenado-hm3/
+[AETN] t=  91.6s | pag= 77 | files=   0 | data= 58 | req=  77 | rej=  30 | cola= 264 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/evolucion-de-volumen-almacenado-hm3/
+[AETN] t=  92.5s | pag= 78 | files=   0 | data= 59 | req=  78 | rej=  30 | cola= 263 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/volumen-utilizado-de-los-embalses-hm3/
+[AETN] t=  93.5s | pag= 79 | files=   0 | data= 60 | req=  79 | rej=  30 | cola= 262 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/aprovechamiento-de-energias-primarias-por-empresas-del-sistema-interconectado-nacional-s-i-n/volumen-utilizado-de-los-embalses-hm3-historico/
+[AETN] t=  94.6s | pag= 80 | files=   0 | data= 61 | req=  80 | rej=  30 | cola= 261 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/
+[AETN] t=  95.9s | pag= 81 | files=   0 | data= 62 | req=  81 | rej=  30 | cola= 260 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-por-categoria-en-el-sin-mwh-periodo-2008-2024/
+[AETN] t=  96.9s | pag= 82 | files=   0 | data= 63 | req=  82 | rej=  30 | cola= 259 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/ventas-de-electricidad-a-consumidor-final-por-categoria-mwh-en-la-gestion-2024/
+[AETN] t=  98.0s | pag= 83 | files=   0 | data= 64 | req=  83 | rej=  30 | cola= 258 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/evolucion-de-la-tarifa-promedio-a-consumidor-final-por-categoria-en-el-sin-%c2%a2usd-kwh-sin-iva/
+[AETN] t=  99.0s | pag= 84 | files=   0 | data= 65 | req=  84 | rej=  30 | cola= 257 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%c2%a2usd-kwh-sin-iva/
+[AETN] t= 100.1s | pag= 85 | files=   0 | data= 66 | req=  85 | rej=  30 | cola= 256 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/evolucion-del-numero-de-consumidores-por-categoria/
+[AETN] t= 101.0s | pag= 86 | files=   0 | data= 67 | req=  86 | rej=  30 | cola= 255 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
+[AETN] t= 101.9s | pag= 87 | files=   0 | data= 68 | req=  87 | rej=  30 | cola= 254 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/ventas-de-electricidad-a-consumidor-final-por-empresa/
+[AETN] t= 103.6s | pag= 88 | files=   0 | data= 69 | req=  88 | rej=  30 | cola= 253 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/tarifa-promedio-a-consumidor-final-por-empresa-sin-iva/
+[AETN] t= 104.1s | pag= 89 | files=   0 | data= 70 | req=  89 | rej=  30 | cola= 252 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-el-sistema-interconectado-nacional-s-i-n/numero-de-consumidores-por-empresa/
+[AETN] t= 105.5s | pag= 90 | files=   0 | data= 71 | req=  90 | rej=  30 | cola= 251 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/
+[AETN] t= 106.6s | pag= 91 | files=   0 | data= 72 | req=  91 | rej=  30 | cola= 250 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/evolucion-de-las-ventas-de-electricidad-a-consumidor-final-por-categoria-en-sa-mwh-periodo-2010-2024/
+[AETN] t= 107.3s | pag= 92 | files=   0 | data= 73 | req=  92 | rej=  30 | cola= 249 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/ventas-de-electricidad-a-consumidor-final-por-categoria-mwh-en-la-gestion-2024/
+[AETN] t= 108.3s | pag= 93 | files=   0 | data= 74 | req=  93 | rej=  30 | cola= 248 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%c2%a2usd-kwh-sin-iva/
+[AETN] DATASETS=75 | score=55 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%C2%A2usd-kwh-sin-iva/
+[AETN] t= 109.6s | pag= 94 | files=   0 | data= 75 | req=  94 | rej=  30 | cola= 247 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/evolucion-del-numero-de-consumidores-por-categoria/
+[AETN] t= 110.3s | pag= 95 | files=   0 | data= 76 | req=  95 | rej=  30 | cola= 246 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
+[AETN] t= 111.5s | pag= 96 | files=   0 | data= 77 | req=  96 | rej=  30 | cola= 245 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/ventas-de-electricidad-a-consumidor-final-por-empresa/
+[AETN] t= 112.2s | pag= 97 | files=   0 | data= 78 | req=  97 | rej=  30 | cola= 244 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/tarifa-promedio-a-consumidor-final-por-empresa-sin-iva/
+[AETN] t= 113.1s | pag= 98 | files=   0 | data= 79 | req=  98 | rej=  30 | cola= 243 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/distribucion-de-electricidad-en-sistemas-aislados-s-a/numero-de-consumidores-por-empresa/
+[AETN] t= 114.5s | pag= 99 | files=   0 | data= 80 | req=  99 | rej=  30 | cola= 242 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/
+[AETN] t= 115.4s | pag=100 | files=   0 | data= 81 | req= 100 | rej=  30 | cola= 241 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/ventas-de-electricidad-a-consumidor-final-por-categoria-mwh-en-la-gestion-2024/
+[AETN] t= 116.8s | pag=101 | files=   0 | data= 82 | req= 101 | rej=  30 | cola= 240 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/tarifa-promedio-a-consumidor-final-por-categoria-en-la-gestion-2024-%c2%a2usd-kwh-sin-iva/
+[AETN] t= 117.5s | pag=102 | files=   0 | data= 83 | req= 102 | rej=  30 | cola= 239 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/numero-de-consumidores-por-categoria-a-diciembre-de-2024/
+[AETN] t= 118.3s | pag=103 | files=   0 | data= 84 | req= 103 | rej=  30 | cola= 238 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/ventas-de-electricidad-a-consumidor-final-por-empresa/
+[AETN] t= 119.6s | pag=104 | files=   0 | data= 85 | req= 104 | rej=  30 | cola= 237 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/tarifa-promedio-a-consumidor-final-por-empresa-sin-iva/
+[AETN] t= 120.8s | pag=105 | files=   0 | data= 86 | req= 105 | rej=  30 | cola= 236 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/ventas-de-energia-electrica-en-el-sistema-interconectado-nacional-sin-y-los-sistemas-aislados-verticalmente-integrados-savi/numero-de-consumidores-por-empresa/
+[AETN] t= 122.3s | pag=106 | files=   0 | data= 87 | req= 106 | rej=  30 | cola= 235 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/
+[AETN] t= 122.8s | pag=107 | files=   0 | data= 88 | req= 107 | rej=  30 | cola= 234 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/potencia-instalada-y-efectiva/
+[AETN] t= 123.9s | pag=108 | files=   0 | data= 89 | req= 108 | rej=  30 | cola= 233 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/generacion-bruta-gwh/
+[AETN] t= 125.0s | pag=109 | files=   0 | data= 90 | req= 109 | rej=  30 | cola= 232 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/generacion-bruta-de-centrales-gwh/
+[AETN] t= 125.8s | pag=110 | files=   0 | data= 91 | req= 110 | rej=  30 | cola= 231 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/evolucion-de-la-generacion-bruta-gwh/
+[AETN] t= 126.7s | pag=111 | files=   0 | data= 92 | req= 111 | rej=  30 | cola= 230 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/caracteristicas-tecnicas-y-datos-de-produccion-de-sistemas-aislados-s-a/evolucion-consumo-anual-de-combustibles-por-empresa/
+[AETN] t= 127.7s | pag=112 | files=   0 | data= 93 | req= 112 | rej=  30 | cola= 229 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/
+[AETN] t= 128.5s | pag=113 | files=   0 | data= 93 | req= 113 | rej=  31 | cola= 228 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/numero-y-duracion-media-de-desconexiones/
+[AETN] t= 129.3s | pag=114 | files=   0 | data= 93 | req= 114 | rej=  32 | cola= 227 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/evolucion-anual-del-numero-de-desconexiones-asignadas-a-las-empresas-transmisoras-de-electricidad/
+[AETN] t= 130.5s | pag=115 | files=   0 | data= 93 | req= 115 | rej=  33 | cola= 226 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/evolucion-anual-de-la-duracion-de-desconexiones-asignadas-a-las-empresas-transmisoras-de-electricidad/
+[AETN] t= 131.7s | pag=116 | files=   0 | data= 93 | req= 116 | rej=  34 | cola= 225 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-producto-tecnico-sistemas-aislados-integrados-verticalmente/
+[AETN] t= 132.9s | pag=117 | files=   0 | data= 93 | req= 117 | rej=  35 | cola= 224 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistemas-aislados-integrados-verticalmente/
+[AETN] t= 133.8s | pag=118 | files=   0 | data= 93 | req= 118 | rej=  36 | cola= 223 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-comercial-sistemas-aislados-integrados-verticalmente/
+[AETN] t= 135.0s | pag=119 | files=   0 | data= 93 | req= 119 | rej=  37 | cola= 222 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-producto-tecnico-sistemas-menores-con-titulo-habilitante/
+[AETN] t= 135.9s | pag=120 | files=   0 | data= 93 | req= 120 | rej=  38 | cola= 221 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistemas-menores-con-titulo-habilitante/
+[AETN] t= 137.2s | pag=121 | files=   0 | data= 93 | req= 121 | rej=  39 | cola= 220 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-comercial-sistemas-menores-con-titulo-habilitante/
+[AETN] t= 138.2s | pag=122 | files=   0 | data= 93 | req= 122 | rej=  40 | cola= 219 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-producto-tecnico-sistema-interconectado-nacional/
+[AETN] t= 139.4s | pag=123 | files=   0 | data= 93 | req= 123 | rej=  41 | cola= 218 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-tecnico-sistema-interconectado-nacional/
+[AETN] t= 140.3s | pag=124 | files=   0 | data= 93 | req= 124 | rej=  42 | cola= 217 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/control-de-calidad-del-servicio-comercial-sistema-interconectado-nacional/
+[AETN] t= 141.7s | pag=125 | files=   0 | data= 93 | req= 125 | rej=  43 | cola= 216 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-empresas-distribuidoras-reclamaciones-directas-gestion-2024/
+[AETN] t= 142.7s | pag=126 | files=   0 | data= 93 | req= 126 | rej=  44 | cola= 215 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-reclamos-tecnicos-gestion-2024/
+[AETN] t= 144.0s | pag=127 | files=   0 | data= 93 | req= 127 | rej=  45 | cola= 214 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-reclamos-comerciales-gestion-2024/
+[AETN] t= 144.9s | pag=128 | files=   0 | data= 93 | req= 128 | rej=  46 | cola= 213 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/reclamaciones-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-tipo-de-conclusion-gestion-2024/
+[AETN] t= 145.8s | pag=129 | files=   0 | data= 93 | req= 129 | rej=  47 | cola= 212 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/calidad-de-los-servicios-de-transmision-y-distribucion/consultas-atendidas-en-la-autoridad-de-fiscalizacion-de-electricidad-y-tecnologia-nuclear-aetn-consultas-gestion-2024/
+[AETN] t= 146.7s | pag=130 | files=   0 | data= 93 | req= 130 | rej=  48 | cola= 211 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/evolucion-de-consumidores-domiciliarios-beneficiados-2006-2024/
+[AETN] t= 147.6s | pag=131 | files=   0 | data= 94 | req= 131 | rej=  48 | cola= 210 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/evolucion-porcentual-de-consumidores-domiciliarios-beneficiados-2006-2024/
+[AETN] t= 148.5s | pag=132 | files=   0 | data= 95 | req= 132 | rej=  48 | cola= 209 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/evolucion-importes-descontados-anualmente-por-la-aplicacion-de-la-tarifa-dignidad-en-bs-2006-2024/
+[AETN] t= 149.4s | pag=133 | files=   0 | data= 96 | req= 133 | rej=  48 | cola= 208 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/tarifa-dignidad/aporte-monetario-de-las-empresas-para-la-tarifa-dignidad-en-bs/
+[AETN] t= 150.3s | pag=134 | files=   0 | data= 97 | req= 134 | rej=  48 | cola= 207 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/
+[AETN] t= 151.1s | pag=135 | files=   0 | data= 98 | req= 135 | rej=  48 | cola= 206 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/oferta-y-demanda-mw-periodo-2024/
+[AETN] t= 152.4s | pag=136 | files=   0 | data= 99 | req= 136 | rej=  48 | cola= 205 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/evolucion-de-la-oferta-y-demanda-periodo-2013-2024/
+[AETN] DATASETS=100 | score=45 | exportable_data_page | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/evolucion-de-la-oferta-y-demanda-periodo-2013-2024/
+[AETN] t= 153.4s | pag=137 | files=   0 | data=100 | req= 137 | rej=  48 | cola= 204 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/consumo-de-gas-mmpcd-en-el-sin-gestion-2024/
+[AETN] t= 154.3s | pag=138 | files=   0 | data=101 | req= 138 | rej=  48 | cola= 203 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/evolucion-de-la-oferta-y-demanda-del-sin/consumo-de-diesel-l-en-el-sin-gestion-2024/
+[AETN] t= 155.4s | pag=139 | files=   0 | data=102 | req= 139 | rej=  48 | cola= 202 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/
+[AETN] t= 156.3s | pag=140 | files=   0 | data=103 | req= 140 | rej=  48 | cola= 201 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/normas-especificas-regulatorias-ner-aprobadas-para-instalaciones-radiologicas/
+[AETN] t= 157.4s | pag=141 | files=   0 | data=104 | req= 141 | rej=  48 | cola= 200 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/autorizaciones-licencias-certificaciones-y-registros-emitidas-por-la-aetn-dtn-gestion-2024/
+[AETN] t= 158.3s | pag=142 | files=   0 | data=105 | req= 142 | rej=  48 | cola= 199 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/inspecciones-realizadas-por-la-aetn-en-la-gestion-2024/
+[AETN] t= 159.1s | pag=143 | files=   0 | data=106 | req= 143 | rej=  48 | cola= 198 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/licencias-institucionales-emitidas-por-la-aetn-dtn-gestion-2024/
+[AETN] t= 159.9s | pag=144 | files=   0 | data=107 | req= 144 | rej=  48 | cola= 197 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/licencias-individuales-especificas-emitidas-por-la-aetn-dtn-gestion-2024/
+[AETN] t= 160.9s | pag=145 | files=   0 | data=108 | req= 145 | rej=  48 | cola= 196 | prio=10 | https://anuariodig.aetn.gob.bo/informacion-estadistica/direccion-de-tecnologia-nuclear/certificados-emitidos-por-la-aetn-gestion-2024/
+[AETN] t= 162.3s | pag=146 | files=   0 | data=109 | req= 146 | rej=  48 | cola= 195 | prio=10 | https://anuariodig.aetn.gob.bo/mapas-interactivos/
+[AETN] t= 163.0s | pag=147 | files=   0 | data=109 | req= 147 | rej=  48 | cola= 194 | prio=10 | https://anuariodig.aetn.gob.bo/contacto/
+[AETN] t= 164.0s | pag=148 | files=   0 | data=109 | req= 148 | rej=  48 | cola= 193 | prio=10 | https://aetn.gob.bo/tarifas-vigentes/page/2/
+[AETN] t= 164.8s | pag=149 | files=   0 | data=110 | req= 149 | rej=  58 | cola= 193 | prio=10 | https://aetn.gob.bo/tarifas-vigentes/page/3/
+[AETN] PAGINACION RESULTADO | familias=1 | productivas=1 | estancadas=0 | saltadas=0
+[AETN] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[AETN] BUDGET | req=150 | utiles=111 | rechazados=64 | sin_valor=0
 
 ================================================================================
 RESULTADO
 ================================================================================
 Fuente:              aetn
-Páginas visitadas:   341
-Archivos encontrados:  284
-Datasets web:         140
-Errores:              7
+Páginas visitadas:   150
+Archivos encontrados:    0
+Datasets web:         111
+Errores:              0
 Sondeos API fallidos: 0
-Motivo de parada:     frontier_exhausted
-Duración:             560.73 s
-Sitemaps procesados:  16
-URLs por sitemap:     127
-URLs sitemap en cola: 122
-
-Detalle de errores:
-  - SITEMAP -> https://aetn.gob.bo/wp-sitemap-posts-poa-1.xml -> ReadTimeout: HTTPSConnectionPool(host='aetn.gob.bo', port=443): Read timed out. (read timeout=0.8629033999968669)
-  - https://anuariodig.aetn.gob.bo/noticias/ -> HTTPError: 404 Client Error: Not Found for url: https://anuariodig.aetn.gob.bo/noticias/
-  - https://aetn.gob.bo/comunicados/page/2/ -> HTTPError: 404 Client Error: Not Found for url: https://aetn.gob.bo/comunicados/page/2/
-  - https://aetn.gob.bo/comunicados/page/3/ -> HTTPError: 404 Client Error: Not Found for url: https://aetn.gob.bo/comunicados/page/3/
-  - https://www.aetn.gob.bo/acoe/calculos/calcularFactura/SIN -> HTTPError: 500 Server Error: Internal Server Error for url: https://www.aetn.gob.bo/acoe/calculos/calcularFactura/SIN
-  - https://www.aetn.gob.bo/acoe/calculos/calcularFactura/AISLADO -> HTTPError: 500 Server Error: Internal Server Error for url: https://www.aetn.gob.bo/acoe/calculos/calcularFactura/AISLADO
-  - https://www.aetn.gob.bo/acoe/consumers/109 -> HTTPError: 404 Client Error: Not Found for url: https://www.aetn.gob.bo/acoe/consumers/109
-
-Formatos:
-  - DOC    : 1
-  - DOCX   : 5
-  - PDF    : 273
-  - RAR    : 1
-  - XLSX   : 2
-  - XML    : 2
+Motivo de parada:     max_pages
+Duración:             165.81 s
+Sitemaps procesados:  24
+URLs por sitemap:     203
+URLs sitemap en cola: 198
 
 JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\aetn.json
 
 Trazabilidad:
-  Ejecución: 215
+  Ejecución: 267
   Estado:    PROCESSED
   Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

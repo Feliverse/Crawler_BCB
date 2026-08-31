@@ -2,114 +2,69 @@
 CRAWLER V2
 ================================================================================
 Fuente: Dirección General de Aeronáutica Civil
-URL configurada: https://www.dgac.gob.bo/
+URL configurada: https://www.dgac.gob.bo/anuario-estadistico-dta/
 Timeout HTTP: 15 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
 
 Resolución de fuente:
-  Original: https://www.dgac.gob.bo/
-  Utilizada: https://www.dgac.gob.bo/
+  Original: https://www.dgac.gob.bo/anuario-estadistico-dta/
+  Utilizada: https://www.dgac.gob.bo/anuario-estadistico-dta/
   Fallback: no
   Intentos: 1
-    - usable         | HTTP=200 | https://www.dgac.gob.bo/
+    - usable         | HTTP=200 | https://www.dgac.gob.bo/anuario-estadistico-dta/
 
-URL de trabajo: https://www.dgac.gob.bo/
-Seeds: 1
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
-Sitemaps: activo
-Máx URLs sitemap: 10000
+URL de trabajo: https://www.dgac.gob.bo/anuario-estadistico-dta/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
-    crawler.crawl()
-    ~~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
-    self._queue_sitemap_seeds(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        queue,
-        ^^^^^^
-        result,
-        ^^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
-    discovery = self.sitemap_discovery.discover(
-        base_url=base_url,
-    ...<3 lines>...
-        max_document_bytes=self.max_sitemap_bytes,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 479, in discover
-    for sitemap_url in self._robots_sitemaps(
-                       ~~~~~~~~~~~~~~~~~~~~~^
-        normalized_base,
-        ^^^^^^^^^^^^^^^^
-        allowed_domains,
-        ^^^^^^^^^^^^^^^^
-        request_timeout=robots_timeout,
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-    ):
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 265, in _robots_sitemaps
-    response = self.client.get(
-        robots_url,
-        raise_for_status=False,
-        timeout=request_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
-    self._validate_conn(conn)
-    ~~~~~~~~~~~~~~~~~~~^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 1106, in _validate_conn
-    conn.connect()
-    ~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 796, in connect
-    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
-        sock=sock,
-    ...<14 lines>...
-        assert_fingerprint=self.assert_fingerprint,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 975, in _ssl_wrap_socket_and_match_hostname
-    ssl_sock = ssl_wrap_socket(
-        sock=sock,
-    ...<8 lines>...
-        tls_in_tls=tls_in_tls,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\util\ssl_.py", line 411, in ssl_wrap_socket
-    context.load_verify_locations(ca_certs, ca_cert_dir, ca_cert_data)
-    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+[DGAC] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   2 | prio= 0 | https://www.dgac.gob.bo/anuario-estadistico-dta/
+[DGAC] DATASETS=1 | score=65 | configured_data_page | https://www.dgac.gob.bo/anuario-estadistico-dta/
+[DGAC] ARCHIVO UTIL=1 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2019/08/LEY_1218.pdf
+[DGAC] ARCHIVO UTIL=2 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2023/04/03-LEY_1415_Modifica-Art-82-e-incluye-Art83_Ley-2902.pdf
+[DGAC] ARCHIVO UTIL=3 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2019/08/2341.pdf
+[DGAC] ARCHIVO UTIL=4 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2019/08/27113.pdf
+[DGAC] ARCHIVO UTIL=5 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2019/12/RM_224_2019.pdf
+[DGAC] ARCHIVO UTIL=6 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2024/08/DGAC-PRO-018R5_PROC.-DE-GESTION-DE-REGL-O-ENMIENDAS.pdf
+[DGAC] ARCHIVO UTIL=7 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2019/09/DGAC_PRO_011R1.pdf
+[DGAC] ARCHIVO UTIL=8 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2020/07/RAB_21_Apendice_2.pdf
+[DGAC] ARCHIVO UTIL=9 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2025/03/Politica-de-Instruccion-Rev.4.pdf
+[DGAC] ARCHIVO UTIL=10 | score=100 | pdf | https://www.dgac.gob.bo/wp-content/uploads/2019/09/R_A_347_2019.pdf
+[DGAC] t=   1.5s | pag=  1 | files=  18 | data=  1 | req=   1 | rej=   1 | cola=   2 | prio= 0 | https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/
+[DGAC] DATASETS=2 | score=65 | configured_data_page | https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/
+[DGAC] t=   3.2s | pag=  2 | files=  25 | data=  2 | req=   2 | rej=   1 | cola=   1 | prio= 0 | https://www.dgac.gob.bo/autorizaciones-de-vuelos/
+[DGAC] t=   5.1s | pag=  3 | files=  40 | data=  2 | req=   3 | rej=   1 | cola=   0 | prio=30 | https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-en-bolivia-2025/
+[DGAC] DATASETS=3 | score=85 | data_html_table | https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-en-bolivia-2025/
+[DGAC] HTTP TOTAL | requests=5 | GET=5 | HEAD=0
+[DGAC] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[DGAC] BUDGET | req=4 | utiles=45 | rechazados=1 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              dgac
+Páginas visitadas:   4
+Archivos encontrados:   42
+Datasets web:         3
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             6.94 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - DOCX   : 6
+  - PDF    : 36
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\dgac.json
+
+Trazabilidad:
+  Ejecución: 313
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -2,93 +2,61 @@
 CRAWLER V2
 ================================================================================
 Fuente: Fundación para el Desarrollo Tecnológico Agropecuario de los Valles
-URL configurada: https://fundacionvalles.org/repositorio-virtual/publicaciones/
+URL configurada: https://bibliotecavirtual.fundacionvalles.org/
 Timeout HTTP: 20 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
-Traceback (most recent call last):
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-TimeoutError: The read operation timed out
 
-During handling of the above exception, another exception occurred:
+Resolución de fuente:
+  Original: https://bibliotecavirtual.fundacionvalles.org/
+  Utilizada: https://fundacionvalles.org/
+  Fallback: sí
+  Intentos: 2
+    - request_error  | HTTP=- | https://bibliotecavirtual.fundacionvalles.org/
+    - usable         | HTTP=200 | https://fundacionvalles.org/
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 777, in main
-    resolver.resolve(
-    ~~~~~~~~~~~~~~~~^
-        config
-        ^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 449, in resolve
-    attempt = self._probe(
-        candidate,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 266, in _probe
-    response = self.client.get(
-        url,
-        raise_for_status=False,
-        timeout=timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
-    httplib_response = super().getresponse()
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1446, in getresponse
-    response.close()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 430, in close
-    def close(self):
-    
-KeyboardInterrupt
+URL de trabajo: https://fundacionvalles.org/
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[FDTA_VALLES] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   3 | prio= 0 | https://fundacionvalles.org/
+[FDTA_VALLES] ARCHIVO UTIL=1 | score=100 | pdf | https://fundacionvalles.org/wp-content/uploads/2024/07/Abril_Pairumani_2023.pdf
+[FDTA_VALLES] t=   5.7s | pag=  1 | files=   1 | data=  0 | req=   1 | rej=   0 | cola=   2 | prio= 0 | https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4/browse?rpp=100&type=author&value=FDTA-Valles
+[FDTA_VALLES] t=  25.7s | pag=  1 | files=   1 | data=  0 | req=   2 | rej=   0 | cola=   1 | prio= 0 | https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4
+[FDTA_VALLES] t=  46.3s | pag=  1 | files=   1 | data=  0 | req=   3 | rej=   0 | cola=   0 | prio= 0 | https://fundacionvalles.org/repositorio-virtual/publicaciones/
+[FDTA_VALLES] HTTP TOTAL | requests=6 | GET=6 | HEAD=0
+[FDTA_VALLES] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[FDTA_VALLES] BUDGET | req=4 | utiles=1 | rechazados=0 | sin_valor=3
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fdta_valles
+Páginas visitadas:   2
+Archivos encontrados:    1
+Datasets web:         0
+Errores:              2
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             51.12 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - TIMEOUT -> https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4/browse?rpp=100&type=author&value=FDTA-Valles
+  - TIMEOUT -> https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4
+
+Formatos:
+  - PDF    : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fdta_valles.json
+
+Trazabilidad:
+  Ejecución: 318
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

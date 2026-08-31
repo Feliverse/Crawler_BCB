@@ -7,9 +7,18 @@
   ],
   "entrypoints": [
     "https://www.asfi.gob.bo/pb/estadisticas-intermediacion-financiera",
-    "https://www.asfi.gob.bo/pb/estadisticas-mercado-valores",
+    "https://www.asfi.gob.bo/pb/boletines-estadisticos",
+    "https://www.asfi.gob.bo/la/principales-indicadores-financieros",
+    "https://www.asfi.gob.bo/node/1011",
     "https://www.asfi.gob.bo/la/anuario-estadistico",
-    "https://www.asfi.gob.bo/"
+    "https://www.asfi.gob.bo/node/1005",
+    "https://www.asfi.gob.bo/la/separatas-departamentales",
+    "https://www.asfi.gob.bo/pb/estadisticas-mercado-valores",
+    "https://www.asfi.gob.bo/pb/boletines-estadisticos-mercado-valores",
+    "https://www.asfi.gob.bo/la/reportes-dinamicos",
+    "https://www.asfi.gob.bo/pb/estados-financieros",
+    "https://www.asfi.gob.bo/pb/datos-sobre-reclamos-y-consultas-atendidas",
+    "https://www.asfi.gob.bo/la/estadisticas-sobre-supervision-legitimacion-ganancias-ilicitas-y-financiamiento-del-terrorismo"
   ],
   "max_depth": 12,
   "max_pages": 5000,
@@ -29,6 +38,55 @@
   "api_pagination": {
     "enabled": true,
     "max_pages": 20
+  },
+  "high_priority_keywords": [
+    "estadistica",
+    "estadisticas",
+    "boletin estadistico",
+    "boletines estadisticos",
+    "anuario estadistico",
+    "indicadores financieros",
+    "series historicas",
+    "depositos",
+    "cartera de creditos",
+    "sistema financiero",
+    "separatas departamentales",
+    "mercado de valores",
+    "reportes dinamicos",
+    "estados financieros"
+  ],
+  "relevance_positive_keywords": [
+    "anuario estadistico",
+    "boletin estadistico",
+    "indicadores financieros",
+    "series historicas",
+    "depositos del publico",
+    "cartera de creditos",
+    "evaluacion del sistema financiero",
+    "separata principales indicadores financieros",
+    "mercado de valores",
+    "estado financiero",
+    "estados financieros"
+  ],
+  "force_keep_url_patterns": [
+    "anuario estad",
+    "anuario_estad",
+    "anuario-estad"
+  ],
+  "low_priority_keywords": [
+    "normativa",
+    "reglamento",
+    "comunicado",
+    "nota de prensa",
+    "convocatoria",
+    "transparencia"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
   },
   "adapter": "asfi"
 }

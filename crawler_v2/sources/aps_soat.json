@@ -3,22 +3,19 @@
   "nombre": "APS - Seguros SOAT",
   "base_url": "https://www.aps.gob.bo/",
   "fallback_urls": [
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral",
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT"
+    "https://aps.gob.bo/"
   ],
   "allowed_domains": [
     "aps.gob.bo"
   ],
   "entrypoints": [
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral",
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT",
-  "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas",
-  "https://www.aps.gob.bo/"
+    "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UNE%2FDS%2FEstadisticas%2FSOAT+-+Trimestral",
+    "https://www.aps.gob.bo/index.php/component/rsfiles/files?Itemid=437&folder=UPCC%2FPublicaciones%2FAnuarios+de+SOAT"
   ],
-  "max_depth": 12,
+  "max_depth": 6,
   "max_pages": 5000,
   "max_files": 100000,
-  "request_timeout": 15,
+  "request_timeout": 30,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
@@ -36,11 +33,60 @@
   },
   "high_priority_keywords": [
     "soat",
-    "seguro",
-    "estadistica",
-    "boletin"
+    "seguro obligatorio de accidentes de transito",
+    "seguro obligatorio de accidentes de tránsito",
+    "siniestralidad",
+    "penetracion",
+    "penetración",
+    "siniestros",
+    "rosetas",
+    "primas",
+    "anuario"
   ],
   "data_keywords": [
+    "soat",
+    "siniestralidad",
+    "penetracion",
+    "penetración",
+    "produccion",
+    "producción",
+    "siniestros",
+    "rosetas",
+    "primas"
+  ],
+  "relevance_positive_keywords": [
+    "soat",
+    "seguro obligatorio de accidentes de transito",
+    "seguro obligatorio de accidentes de tránsito",
+    "indice de siniestralidad",
+    "índice de siniestralidad",
+    "penetracion soat",
+    "penetración soat",
+    "produccion soat",
+    "producción soat",
+    "siniestros soat",
+    "anuario soat"
+  ],
+  "include_url_patterns": [
     "soat"
-  ]
+  ],
+  "ignore_url_patterns": [
+    "/component/rsfiles/details?"
+  ],
+  "force_drop_url_patterns": [
+    "/component/rsfiles/details?"
+  ],
+  "adapter_positive_patterns": [
+    "soat - trimestral",
+    "soat+-+trimestral",
+    "anuario soat",
+    "anuarios de soat"
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

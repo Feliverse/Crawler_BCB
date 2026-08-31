@@ -1,44 +1,127 @@
 {
   "id_fuente": "fifa",
   "nombre": "Federación Internacional de Fútbol Asociación",
-  "base_url": "https://inside.fifa.com/official-documents",
+  "base_url": "https://inside.fifa.com/fifa-world-ranking",
   "allowed_domains": [
-    "fifa.com"
+    "fifa.com",
+    "inside.fifa.com",
+    "www.fifa.com",
+    "digitalhub.fifa.com"
   ],
   "entrypoints": [
-    "https://inside.fifa.com/official-documents",
-    "https://inside.fifa.com/official-documents/annual-report/2025"
+    "https://inside.fifa.com/fifa-world-ranking",
+    "https://inside.fifa.com/en/fifa-world-ranking/men",
+    "https://inside.fifa.com/en/fifa-world-ranking/women",
+    "https://www.fifa.com/en/world-rankings",
+    "https://inside.fifa.com/official-documents/annual-report/2025",
+    "https://inside.fifa.com/official-documents/annual-report/2025/financials",
+    "https://inside.fifa.com/official-documents/annual-report/2025/financials/2025-financial-statements"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 2000,
   "request_timeout": 20,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "include_url_patterns": [
-    "/official-documents"
+    "/fifa-world-ranking",
+    "/en/world-rankings",
+    "/official-documents/annual-report/",
+    "/asset/"
   ],
   "high_priority_keywords": [
-    "official-documents",
-    "report",
-    "documents",
-    "statistics",
-    "financials"
+    "world ranking",
+    "rankings",
+    "ranking",
+    "rank",
+    "points",
+    "team",
+    "men's world ranking",
+    "women's world ranking",
+    "annual report",
+    "financials",
+    "financial statements",
+    "revenue",
+    "expenses",
+    "investments",
+    "balance sheet",
+    "cash flow"
+  ],
+  "medium_priority_keywords": [
+    "latest ranking",
+    "official update",
+    "historical ranking",
+    "member associations",
+    "income",
+    "reserves",
+    "budget",
+    "marketing rights",
+    "broadcasting rights"
+  ],
+  "adapter_positive_patterns": [
+    "/fifa-world-ranking",
+    "/en/world-rankings",
+    "/official-documents/annual-report/",
+    "/financials/"
   ],
   "force_data_url_patterns": [
-    "/official-documents"
+    "/fifa-world-ranking",
+    "/en/world-rankings",
+    "/financials",
+    "/financial-statements"
+  ],
+  "force_keep_url_patterns": [
+    "/asset/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "rank",
+    "ranking",
+    "points",
+    "team",
+    "revenue",
+    "expenses",
+    "balance sheet",
+    "cash flow",
+    "financial statements",
+    "budget"
+  ],
+  "relevance_positive_keywords": [
+    "fifa world ranking",
+    "men's world ranking",
+    "women's world ranking",
+    "latest world ranking",
+    "financial statements",
+    "financials in review",
+    "consolidated balance sheet",
+    "consolidated cash flow",
+    "revenue",
+    "investments"
+  ],
+  "low_priority_keywords": [
+    "circular",
+    "regulations",
+    "laws of the game",
+    "disciplinary",
+    "security regulations",
+    "news",
+    "tickets"
+  ],
+  "ignore_url_patterns": [
+    "/news/",
+    "/legal/",
+    "/disciplinary/",
+    "/tournaments/",
+    "/tickets/"
   ]
 }

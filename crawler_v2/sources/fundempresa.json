@@ -1,39 +1,135 @@
 {
   "id_fuente": "fundempresa",
   "nombre": "Registro de Comercio de Bolivia - Fuente histórica FUNDEMPRESA",
-  "base_url": "https://www.seprec.gob.bo/",
+  "base_url": "https://www.seprec.gob.bo/index.php/datos/",
   "allowed_domains": [
-    "seprec.gob.bo"
+    "seprec.gob.bo",
+    "www.seprec.gob.bo"
   ],
   "entrypoints": [
-    "https://www.seprec.gob.bo/"
+    "https://www.seprec.gob.bo/index.php/datos/",
+    "https://www.seprec.gob.bo/index.php/revistas/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 300,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "legacy_url": "https://www.fundempresa.org.bo",
   "source_status": "historical_successor",
+  "include_url_patterns": [
+    "/index.php/datos/",
+    "/index.php/revistas/",
+    "/wp-content/uploads/"
+  ],
   "high_priority_keywords": [
+    "fundempresa",
+    "historico",
+    "histórico",
+    "base empresarial",
+    "registro de comercio",
+    "unidades economicas",
+    "unidades económicas",
+    "inscripciones",
+    "renovaciones",
+    "matricula de comercio",
+    "matrícula de comercio",
     "estadistica",
-    "registro",
-    "publicacion",
-    "documento",
-    "datos"
+    "estadística",
+    "empresas",
+    "tipo societario",
+    "departamento",
+    "actividad economica",
+    "actividad económica"
+  ],
+  "medium_priority_keywords": [
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "comercio",
+    "sociedades comerciales",
+    "empresa unipersonal",
+    "crecimiento empresarial"
+  ],
+  "adapter_positive_patterns": [
+    "/index.php/datos/",
+    "/index.php/revistas/",
+    "/wp-content/uploads/"
+  ],
+  "force_data_url_patterns": [
+    "/index.php/datos/"
+  ],
+  "force_keep_url_patterns": [
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "base empresarial",
+    "unidades económicas",
+    "unidades economicas",
+    "inscripciones",
+    "renovaciones",
+    "registro de comercio",
+    "empresas",
+    "estadística",
+    "estadistica"
+  ],
+  "relevance_positive_keywords": [
+    "base empresarial",
+    "registro de comercio",
+    "información estadística",
+    "informacion estadistica",
+    "unidades económicas",
+    "unidades economicas",
+    "fundempresa",
+    "histórico",
+    "historico"
+  ],
+  "low_priority_keywords": [
+    "comunicado",
+    "noticias",
+    "tramite",
+    "trámite",
+    "normativa",
+    "resolucion",
+    "resolución",
+    "convocatoria",
+    "recursos humanos",
+    "rendicion publica",
+    "rendición pública"
+  ],
+  "ignore_url_patterns": [
+    "/noticias/",
+    "/comunicados/",
+    "/leyes",
+    "/decretos",
+    "/resoluciones",
+    "/tramites/",
+    "/recursos-humanos/",
+    "/auditoria/"
   ]
 }

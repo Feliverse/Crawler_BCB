@@ -1,37 +1,135 @@
 {
   "id_fuente": "seprec",
   "nombre": "Servicio Plurinacional de Registro de Comercio",
-  "base_url": "https://www.seprec.gob.bo/",
+  "base_url": "https://www.seprec.gob.bo/index.php/datos/",
   "allowed_domains": [
-    "seprec.gob.bo"
+    "seprec.gob.bo",
+    "www.seprec.gob.bo"
   ],
   "entrypoints": [
-    "https://www.seprec.gob.bo/"
+    "https://www.seprec.gob.bo/index.php/datos/",
+    "https://www.seprec.gob.bo/index.php/reportes-de-estadisticas/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 300,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/index.php/datos/",
+    "/index.php/reportes-de-estadisticas/",
+    "/wp-content/uploads/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
   "high_priority_keywords": [
-    "estadistica",
+    "informacion estadistica",
+    "información estadística",
+    "base empresarial",
+    "nuevas unidades economicas",
+    "nuevas unidades económicas",
+    "renovacion",
+    "renovación",
+    "registro de comercio",
+    "unidades economicas",
+    "unidades económicas",
+    "tipo societario",
+    "actividad economica",
+    "actividad económica",
+    "industria manufacturera"
+  ],
+  "medium_priority_keywords": [
+    "departamento",
+    "municipio",
+    "genero",
+    "género",
+    "grupo etario",
+    "empresa unipersonal",
+    "sociedad de responsabilidad limitada",
+    "sociedad anonima",
+    "sociedad anónima",
+    "inscripciones",
+    "matricula de comercio",
+    "matrícula de comercio",
+    "mensual",
+    "historico",
+    "histórico"
+  ],
+  "adapter_positive_patterns": [
+    "/index.php/datos/",
+    "/index.php/reportes-de-estadisticas/",
+    "/wp-content/uploads/"
+  ],
+  "force_data_url_patterns": [
+    "/index.php/datos/",
+    "/index.php/reportes-de-estadisticas/"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "base empresarial",
+    "renovacion",
+    "renovación",
+    "nuevas unidades",
+    "empresas",
     "registro",
-    "datos",
-    "publicacion",
-    "documentos"
-  ]
+    "estadistica",
+    "estadística",
+    "actividad economica",
+    "actividad económica"
+  ],
+  "relevance_positive_keywords": [
+    "información estadística base empresarial",
+    "informacion estadistica base empresarial",
+    "información estadística renovación",
+    "informacion estadistica renovacion",
+    "información estadística nuevas unidades económicas",
+    "informacion estadistica nuevas unidades economicas",
+    "base empresarial por departamento",
+    "base empresarial por tipo societario"
+  ],
+  "low_priority_keywords": [
+    "normativa",
+    "resolucion",
+    "resolución",
+    "auditoria",
+    "auditoría",
+    "presupuesto",
+    "rendicion publica",
+    "rendición pública",
+    "convocatoria",
+    "comunicado",
+    "noticia",
+    "manual",
+    "reglamento",
+    "recursos humanos"
+  ],
+  "ignore_url_patterns": [
+    "/auditorias/",
+    "/presupuesto/",
+    "/rendicion-publica/",
+    "/convocatorias/",
+    "/comunicados/",
+    "/comunicados-de-prensa/",
+    "/resoluciones/",
+    "/reglamentos/",
+    "/recursos-humanos/"
+  ],
+  "max_query_params": 8
 }

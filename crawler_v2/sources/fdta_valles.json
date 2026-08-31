@@ -1,54 +1,130 @@
 {
   "id_fuente": "fdta_valles",
   "nombre": "Fundación para el Desarrollo Tecnológico Agropecuario de los Valles",
-  "base_url": "https://fundacionvalles.org/repositorio-virtual/publicaciones/",
+  "base_url": "https://bibliotecavirtual.fundacionvalles.org/",
   "fallback_urls": [
     "https://fundacionvalles.org/"
   ],
   "allowed_domains": [
-    "fundacionvalles.org"
+    "fundacionvalles.org",
+    "bibliotecavirtual.fundacionvalles.org"
   ],
   "entrypoints": [
-    "https://fundacionvalles.org/repositorio-virtual/publicaciones/",
-    "https://fundacionvalles.org/"
+    "https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4/browse?type=author&value=FDTA-Valles&rpp=100",
+    "https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4",
+    "https://fundacionvalles.org/repositorio-virtual/publicaciones/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 3000,
   "request_timeout": 20,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
   "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
-  "legacy_url": "https://bibliotecavirtual.fundacionvalles.org/",
-  "legacy_entrypoints": [
-    "https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4/browse?type=author&value=FDTA-Valles",
-    "https://bibliotecavirtual.fundacionvalles.org/handle/123456789/4"
-  ],
-  "ignore_url_patterns": [
-    "bibliotecavirtual.fundacionvalles.org"
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "bibliotecavirtual.fundacionvalles.org/handle/123456789/4",
+    "bibliotecavirtual.fundacionvalles.org/bitstream/",
+    "fundacionvalles.org/repositorio-virtual/publicaciones/"
   ],
   "high_priority_keywords": [
     "fdta-valles",
-    "documentos",
-    "investigaciones",
-    "repositorio",
-    "publicaciones",
-    "manual"
+    "proyecto",
+    "proyectos",
+    "estudio",
+    "estudios",
+    "investigacion",
+    "investigación",
+    "produccion",
+    "producción",
+    "comercializacion",
+    "comercialización",
+    "agricultura",
+    "agropecuario",
+    "mercado",
+    "superficie",
+    "rendimiento",
+    "productores",
+    "familias",
+    "cadena productiva"
+  ],
+  "medium_priority_keywords": [
+    "cebolla",
+    "oregano",
+    "orégano",
+    "aji",
+    "ají",
+    "mani",
+    "maní",
+    "durazno",
+    "frambuesa",
+    "uva",
+    "especias",
+    "hortalizas",
+    "innovacion",
+    "innovación",
+    "tecnologia",
+    "tecnología"
+  ],
+  "adapter_positive_patterns": [
+    "/handle/123456789/4",
+    "/bitstream/",
+    "/repositorio-virtual/publicaciones/"
+  ],
+  "force_keep_url_patterns": [
+    "/bitstream/",
+    ".pdf",
+    ".xls",
+    ".xlsx",
+    ".csv",
+    ".zip"
   ],
   "force_data_url_patterns": [
-    "/repositorio-virtual/publicaciones/"
+    "/handle/123456789/4/browse",
+    "/handle/123456789/4"
+  ],
+  "data_keywords": [
+    "produccion",
+    "producción",
+    "comercializacion",
+    "comercialización",
+    "superficie",
+    "rendimiento",
+    "mercado",
+    "productores",
+    "familias",
+    "hectareas",
+    "hectáreas"
+  ],
+  "relevance_positive_keywords": [
+    "fdta-valles",
+    "proyecto de innovación tecnológica",
+    "proyecto de innovacion tecnologica",
+    "producción y comercialización",
+    "produccion y comercializacion",
+    "desarrollo de mercados",
+    "cadena productiva",
+    "agronegocio"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "convocatorias",
+    "galeria",
+    "galería",
+    "contacto",
+    "institucional"
+  ],
+  "ignore_url_patterns": [
+    "/login",
+    "/password-login",
+    "/feedback",
+    "/contacto/",
+    "/noticias/",
+    "/convocatorias/"
   ],
   "max_query_params": 12
 }

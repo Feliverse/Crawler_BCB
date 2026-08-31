@@ -17,48 +17,79 @@ Resolución de fuente:
 
 URL de trabajo: https://data.gov/
 Seeds: 2
-Máx páginas: 5000
-Máx archivos: 100000
-Máx profundidad: 12
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
 Sitemaps: activo
 Máx URLs sitemap: 10000
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 898, in main
-    crawler.crawl()
-    ~~~~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2656, in crawl
-    self._queue_sitemap_seeds(
-    ~~~~~~~~~~~~~~~~~~~~~~~~~^
-        queue,
-        ^^^^^^
-        result,
-        ^^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 2462, in _queue_sitemap_seeds
-    discovery = self.sitemap_discovery.discover(
-        base_url=base_url,
-    ...<3 lines>...
-        max_document_bytes=self.max_sitemap_bytes,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\sitemap_discovery.py", line 573, in discover
-    response = self.client.get(
-        sitemap_url,
-        raise_for_status=False,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 268, in get
-    self._wait()
-    ~~~~~~~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 241, in _wait
-    time.sleep(
-    ~~~~~~~~~~^
-        remaining
-        ^^^^^^^^^
-    )
-    ^
-KeyboardInterrupt
+[DATAGOV] SITEMAP | docs=1 | urls=292 | en_cola=291 | errores=0
+[DATAGOV] t=   7.4s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola= 292 | prio= 0 | https://data.gov/
+[DATAGOV] t=   8.9s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   1 | cola= 307 | prio= 0 | https://catalog.data.gov/dataset/
+[DATAGOV] DATASETS=1 | score=55 | exportable_data_page | https://catalog.data.gov/
+[DATAGOV] t=  10.6s | pag=  2 | files=   0 | data=  1 | req=   2 | rej=   1 | cola= 341 | prio=10 | https://data.gov/contact/
+[DATAGOV] t=  11.4s | pag=  3 | files=   0 | data=  1 | req=   3 | rej=   1 | cola= 344 | prio=10 | https://data.gov/metrics/
+[DATAGOV] DATASETS=2 | score=100 | data_html_table | https://data.gov/metrics/
+[DATAGOV] ARCHIVO UTIL=1 | score=73 | csv | https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__device_category__last30.2026-07-31.csv
+[DATAGOV] ARCHIVO UTIL=2 | score=79 | csv | https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__download_requests__last30.2026-07-31.csv
+[DATAGOV] ARCHIVO UTIL=3 | score=73 | csv | https://www.data.va.gov/api/views/95an-zhhy/rows.csv?accessType=DOWNLOAD
+[DATAGOV] ARCHIVO UTIL=4 | score=73 | csv | https://data.ny.gov/api/v3/views/d6yy-54nr/export.csv?accessType=DOWNLOAD
+[DATAGOV] ARCHIVO UTIL=5 | score=73 | xlsx | https://civilrightsdata.ed.gov/assets/downloads/2015-2016/Allegations-of-Harassment-or-Bullying.xlsx
+[DATAGOV] CANDIDATO DUP=1 | reps=2 | formatos=csv,csv | id=generic|data.gov/metrics/|export
+[DATAGOV] ARCHIVO UTIL=6 | score=73 | csv | https://data.wa.gov/api/v3/views/f6w7-q2d2/export.csv?accessType=DOWNLOAD
+[DATAGOV] ARCHIVO UTIL=7 | score=73 | json | https://www.data.va.gov/api/views/95an-zhhy/rows.json?accessType=DOWNLOAD
+[DATAGOV] ARCHIVO UTIL=8 | score=73 | csv | https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__link_requests__last30.2026-07-31.csv
+[DATAGOV] ARCHIVO UTIL=9 | score=85 | csv | https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__datasets_per_org.2026-07-31.csv
+[DATAGOV] ARCHIVO UTIL=10 | score=73 | csv | https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__harvest_sources.2026-07-31.csv
+[DATAGOV] t=  12.8s | pag=  4 | files=  10 | data=  2 | req=   4 | rej=   1 | cola= 369 | prio=10 | https://data.gov/privacy-policy/
+[DATAGOV] t=  13.7s | pag=  5 | files=  10 | data=  2 | req=   5 | rej=   2 | cola= 370 | prio=10 | https://data.gov/announcements/datagov-ckan-catalog/
+[DATAGOV] t=  14.9s | pag=  6 | files=  10 | data=  2 | req=   6 | rej=   2 | cola= 374 | prio=10 | https://data.gov/announcements/datagov-celebrates-third-anniversary/
+[DATAGOV] t=  15.9s | pag=  7 | files=  10 | data=  2 | req=   7 | rej=   3 | cola= 373 | prio=10 | https://data.gov/announcements/10-big-data-sites-watch-gil-press-foreign-policy/
+[DATAGOV] t=  17.1s | pag=  8 | files=  10 | data=  2 | req=   8 | rej=   3 | cola= 372 | prio=10 | https://data.gov/cities/cities-policies/
+[DATAGOV] t=  17.8s | pag=  9 | files=  10 | data=  2 | req=   9 | rej=   4 | cola= 372 | prio=10 | https://data.gov/developers/apis/
+[DATAGOV] t=  18.4s | pag= 10 | files=  10 | data=  2 | req=  10 | rej=   4 | cola= 373 | prio=10 | https://data.gov/blog/ckan-horizon-datagov-20/
+[DATAGOV] t=  19.7s | pag= 11 | files=  10 | data=  2 | req=  11 | rej=   4 | cola= 372 | prio=10 | https://data.gov/blog/one-click-and-we-ll-give-you-millions/
+[DATAGOV] DATASETS=3 | score=45 | exportable_data_page | https://data.gov/blog/one-click-and-we-ll-give-you-millions/
+[DATAGOV] t=  21.0s | pag= 12 | files=  10 | data=  3 | req=  12 | rej=   4 | cola= 378 | prio=10 | https://data.gov/blog/open-data-history/
+[DATAGOV] t=  21.6s | pag= 13 | files=  10 | data=  3 | req=  13 | rej=   4 | cola= 377 | prio=10 | https://data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions/
+[DATAGOV] t=  22.9s | pag= 14 | files=  10 | data=  3 | req=  14 | rej=   4 | cola= 378 | prio=10 | https://data.gov/blog/open-data-agriculture-offers-lift-global-food-security/
+[DATAGOV] t=  24.0s | pag= 15 | files=  10 | data=  3 | req=  15 | rej=   6 | cola= 378 | prio=10 | https://data.gov/datagov-launches-new-catalog-and-apis/
+[DATAGOV] t=  25.2s | pag= 16 | files=  10 | data=  3 | req=  16 | rej=   6 | cola= 378 | prio=10 | https://data.gov/announcements/open-data-new-goldmine-economist/
+[DATAGOV] t=  26.5s | pag= 17 | files=  10 | data=  3 | req=  17 | rej=   6 | cola= 377 | prio=10 | https://data.gov/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog/
+[DATAGOV] t=  27.5s | pag= 18 | files=  10 | data=  3 | req=  18 | rej=   6 | cola= 377 | prio=10 | https://data.gov/announcements/white-house-issues-executive-order-open-data-aidsgov-blog/
+[DATAGOV] t=  28.9s | pag= 19 | files=  10 | data=  3 | req=  19 | rej=   6 | cola= 376 | prio=10 | https://data.gov/announcements/open-data-executive-order-shows-path-forward/
+[DATAGOV] t=  30.0s | pag= 20 | files=  10 | data=  3 | req=  20 | rej=   6 | cola= 375 | prio=10 | https://data.gov/energy/apis-from-eia/
+[DATAGOV] t=  30.7s | pag= 21 | files=  10 | data=  3 | req=  21 | rej=   6 | cola= 374 | prio=10 | https://data.gov/blog/tour-datagov-20/
+[DATAGOV] t=  31.8s | pag= 22 | files=  10 | data=  3 | req=  22 | rej=   6 | cola= 374 | prio=10 | https://data.gov/food/join-the-data-revolution/
+[DATAGOV] t=  34.0s | pag= 23 | files=  10 | data=  3 | req=  23 | rej=   6 | cola= 373 | prio=10 | https://data.gov/food/open-ag-data/
+[DATAGOV] t=  34.5s | pag= 24 | files=  10 | data=  3 | req=  24 | rej=   6 | cola= 372 | prio=10 | https://data.gov/climate/arctic-framing-questions/
+[DATAGOV] HTTP TOTAL | requests=31 | GET=31 | HEAD=0
+[DATAGOV] DEDUPE RESULTADO | grupos=1 | recursos=2 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[DATAGOV] BUDGET | req=25 | utiles=13 | rechazados=6 | sin_valor=13
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              datagov
+Páginas visitadas:   25
+Archivos encontrados:   10
+Datasets web:         3
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             35.28 s
+Sitemaps procesados:  1
+URLs por sitemap:     292
+URLs sitemap en cola: 291
+
+Formatos:
+  - CSV    : 8
+  - JSON   : 1
+  - XLSX   : 1
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\datagov.json
+
+Trazabilidad:
+  Ejecución: 311
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

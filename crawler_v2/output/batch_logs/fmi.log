@@ -7,77 +7,62 @@ Timeout HTTP: 15 s
 Pausa HTTP:   aleatoria 0.30s - 0.90s
 Verificación TLS: activa
 
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 1017, in <module>
-    main()
-    ~~~~^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 777, in main
-    resolver.resolve(
-    ~~~~~~~~~~~~~~~~^
-        config
-        ^^^^^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 449, in resolve
-    attempt = self._probe(
-        candidate,
-        timeout=effective_timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\source_resolver.py", line 266, in _probe
-    response = self.client.get(
-        url,
-        raise_for_status=False,
-        timeout=timeout,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\http_client.py", line 275, in get
-    self.session.get(
-    ~~~~~~~~~~~~~~~~^
-        url,
-        ^^^^
-    ...<16 lines>...
-        ),
-        ^^
-    )
-    ^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 671, in get
-    return self.request("GET", url, params=params, **kwargs)
-           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 651, in request
-    resp = self.send(prep, **send_kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\sessions.py", line 784, in send
-    r = adapter.send(request, **kwargs)
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\requests\adapters.py", line 696, in send
-    resp = conn.urlopen(
-        method=request.method,
-    ...<9 lines>...
-        chunked=chunked,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
-    response = self._make_request(
-        conn,
-    ...<10 lines>...
-        **response_kw,
-    )
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
-    response = conn.getresponse()
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\urllib3\connection.py", line 571, in getresponse
-    httplib_response = super().getresponse()
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 1430, in getresponse
-    response.begin()
-    ~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 331, in begin
-    version, status, reason = self._read_status()
-                              ~~~~~~~~~~~~~~~~~^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 292, in _read_status
-    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
-               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 719, in readinto
-    return self._sock.recv_into(b)
-           ~~~~~~~~~~~~~~~~~~~~^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
-    return self.read(nbytes, buffer)
-           ~~~~~~~~~^^^^^^^^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
-    return self._sslobj.read(len, buffer)
-           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
-KeyboardInterrupt
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 4
+    - forbidden      | HTTP=403 | https://www.imf.org/external/datamapper/
+    - forbidden      | HTTP=403 | https://imf.org/external/datamapper/
+    - forbidden      | HTTP=403 | http://www.imf.org/external/datamapper/
+    - forbidden      | HTTP=403 | http://imf.org/external/datamapper/
+
+URL de trabajo: https://www.imf.org/external/datamapper/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[FMI] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[FMI] t=   8.2s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   5 | prio= 0 | https://www.imf.org/external/datamapper/datasets
+[FMI] t=   9.4s | pag=  0 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=   4 | prio= 0 | https://www.imf.org/external/datamapper/api/
+[FMI] t=  10.9s | pag=  1 | files=   0 | data=  0 | req=   2 | rej=   0 | cola=   6 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/indicators
+[FMI] DATASETS=1 | score=150 | json_api | https://www.imf.org/external/datamapper/api/v2/indicators
+[FMI] t=  12.1s | pag=  1 | files=   0 | data=  1 | req=   3 | rej=   0 | cola=   5 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/countries
+[FMI] DATASETS=2 | score=130 | json_api | https://www.imf.org/external/datamapper/api/v2/countries
+[FMI] t=  13.1s | pag=  1 | files=   0 | data=  2 | req=   4 | rej=   0 | cola=   4 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/regions
+[FMI] DATASETS=3 | score=130 | json_api | https://www.imf.org/external/datamapper/api/v2/regions
+[FMI] t=  14.3s | pag=  1 | files=   0 | data=  3 | req=   5 | rej=   0 | cola=   3 | prio= 0 | https://www.imf.org/external/datamapper/api/v2/groups
+[FMI] DATASETS=4 | score=130 | json_api | https://www.imf.org/external/datamapper/api/v2/groups
+[FMI] t=  15.4s | pag=  1 | files=   0 | data=  4 | req=   6 | rej=   0 | cola=   2 | prio=10 | https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH
+[FMI] t=  17.2s | pag=  1 | files=   0 | data=  4 | req=   7 | rej=   0 | cola=   1 | prio=10 | https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH/USA/CHN
+[FMI] t=  19.0s | pag=  1 | files=   0 | data=  4 | req=   8 | rej=   0 | cola=   0 | prio=10 | https://www.imf.org/external/datamapper/api/v2/NGDP_RPCH?periods=2019%2C2020
+[FMI] HTTP TOTAL | requests=18 | GET=18 | HEAD=0
+[FMI] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[FMI] BUDGET | req=9 | utiles=4 | rechazados=0 | sin_valor=3
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              fmi
+Páginas visitadas:   1
+Archivos encontrados:    0
+Datasets web:         4
+Errores:              1
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             20.69 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - https://www.imf.org/external/datamapper/datasets -> HTTPError: 403 Client Error: Forbidden for url: https://www.imf.org/external/datamapper/datasets
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\fmi.json
+
+Trazabilidad:
+  Ejecución: 322
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,41 +1,161 @@
 {
   "id_fuente": "omc",
   "nombre": "Organización Mundial del Comercio",
-  "base_url": "https://www.wto.org/",
+  "base_url": "https://data.wto.org/en/dataset/",
   "allowed_domains": [
-    "wto.org"
+    "wto.org",
+    "www.wto.org",
+    "stats.wto.org",
+    "data.wto.org",
+    "ttd.wto.org",
+    "apiportal.wto.org",
+    "api.wto.org"
   ],
   "entrypoints": [
-    "https://stats.wto.org/",
-    "https://www.wto.org/"
+    "https://data.wto.org/en/dataset/",
+    "https://data.wto.org/en/dataset/wto_sts",
+    "https://data.wto.org/en/dataset/bulkdownload",
+    "https://stats.wto.org/en",
+    "https://ttd.wto.org/en/download",
+    "https://apiportal.wto.org/apis",
+    "https://www.wto.org/english/res_e/statis_e/statis_e.htm"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 5000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
   "discover_openapi_endpoints": true,
   "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
+  "max_openapi_endpoints": 50,
   "api_pagination": {
     "enabled": true,
     "max_pages": 20
   },
-  "high_priority_keywords": [
-    "stats",
-    "statistics",
-    "data",
-    "trade",
-    "download"
+  "adapter": "generic",
+  "include_url_patterns": [
+    "data.wto.org/en/dataset/",
+    "stats.wto.org/",
+    "ttd.wto.org/en/download",
+    "apiportal.wto.org/",
+    "api.wto.org/",
+    "/english/res_e/statis_e/",
+    ".csv",
+    ".xlsx",
+    ".xls",
+    ".zip",
+    ".json",
+    ".xml"
   ],
-  "data_url_patterns": [
-    "stats.wto.org"
-  ]
+  "high_priority_keywords": [
+    "trade statistics",
+    "merchandise trade",
+    "trade in services",
+    "commercial services",
+    "tariff",
+    "tariffs",
+    "market access",
+    "imports",
+    "exports",
+    "trade values",
+    "trade indices",
+    "monthly trade",
+    "quarterly trade",
+    "annual trade",
+    "balanced trade in services",
+    "batis",
+    "timeseries",
+    "statistics",
+    "dataset",
+    "bulk download"
+  ],
+  "medium_priority_keywords": [
+    "reporting economy",
+    "partner economy",
+    "product",
+    "sector",
+    "commodity",
+    "hs",
+    "sitc",
+    "ebops",
+    "mfn",
+    "bound tariff",
+    "applied tariff",
+    "preferential tariff",
+    "trade volume",
+    "unit value",
+    "market access indicators"
+  ],
+  "adapter_positive_patterns": [
+    "data.wto.org/en/dataset/",
+    "stats.wto.org/",
+    "ttd.wto.org/en/download",
+    "apiportal.wto.org/",
+    "api.wto.org/",
+    "/english/res_e/statis_e/"
+  ],
+  "force_data_url_patterns": [
+    "data.wto.org/en/dataset/",
+    "stats.wto.org/",
+    "ttd.wto.org/en/download",
+    "/english/res_e/statis_e/"
+  ],
+  "force_keep_url_patterns": [
+    ".csv",
+    ".xlsx",
+    ".xls",
+    ".zip",
+    ".json",
+    ".xml"
+  ],
+  "data_keywords": [
+    "trade",
+    "exports",
+    "imports",
+    "tariff",
+    "statistics",
+    "indicator",
+    "timeseries",
+    "services",
+    "merchandise",
+    "market access",
+    "dataset"
+  ],
+  "relevance_positive_keywords": [
+    "wto stats portal",
+    "wto timeseries api",
+    "merchandise trade statistics",
+    "trade in commercial services",
+    "balanced trade in services",
+    "bulk download of trade datasets",
+    "tariff and trade data",
+    "market access indicators"
+  ],
+  "low_priority_keywords": [
+    "news",
+    "press release",
+    "meeting",
+    "conference",
+    "speech",
+    "dispute",
+    "legal text",
+    "vacancy",
+    "procurement",
+    "publication shop"
+  ],
+  "ignore_url_patterns": [
+    "/news_e/",
+    "/news_s/",
+    "/news_f/",
+    "/forums/",
+    "/thewto_e/minist_e/",
+    "/tratop_e/dispu_e/",
+    "/jobs/",
+    "/procurement/"
+  ],
+  "max_query_params": 12
 }

@@ -1,16 +1,97 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
-    import re as _re
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 125, in <module>
-    import enum
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\enum.py", line 1928, in <module>
-    @_simple_enum(StrEnum)
-     ~~~~~~~~~~~~^^^^^^^^^
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\enum.py", line 1801, in convert_class
-    enum_class = type(cls_name, (etype, ), body, boundary=boundary, _simple=True)
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\enum.py", line 505, in __new__
-    return super().__new__(metacls, cls, bases, classdict, **kwds)
-           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Educación - Sistema de Estadísticas e Indicadores Educativos
+URL configurada: https://seie.minedu.gob.bo/reportes/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://seie.minedu.gob.bo/reportes/
+  Utilizada: https://seie.minedu.gob.bo/reportes/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://seie.minedu.gob.bo/reportes/
+
+URL de trabajo: https://seie.minedu.gob.bo/reportes/
+Seeds: 7
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[MINEDU] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   6 | prio= 0 | https://seie.minedu.gob.bo/reportes/
+[MINEDU] ARCHIVO UTIL=1 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresA/A7.pdf
+[MINEDU] ARCHIVO UTIL=2 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresA/A8.pdf
+[MINEDU] ARCHIVO UTIL=3 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresA/A10.pdf
+[MINEDU] ARCHIVO UTIL=4 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B7.pdf
+[MINEDU] ARCHIVO UTIL=5 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B8.pdf
+[MINEDU] ARCHIVO UTIL=6 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B9.pdf
+[MINEDU] ARCHIVO UTIL=7 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B11.pdf
+[MINEDU] ARCHIVO UTIL=8 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B13.pdf
+[MINEDU] ARCHIVO UTIL=9 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B14.pdf
+[MINEDU] ARCHIVO UTIL=10 | score=100 | pdf | https://seie.minedu.gob.bo/reportes/files/fichas/indicadoresB/B15.pdf
+[MINEDU] t=   1.5s | pag=  1 | files=  27 | data=  0 | req=   1 | rej=   0 | cola=  33 | prio= 0 | https://seie.minedu.gob.bo/reportes/estadisticas
+[MINEDU] t=   1.9s | pag=  2 | files=  27 | data=  0 | req=   2 | rej=   1 | cola=  44 | prio= 0 | https://seie.minedu.gob.bo/reportes/estadisticas/grupo1/matricula
+[MINEDU] DATASETS=1 | score=90 | configured_data_page | https://seie.minedu.gob.bo/reportes/estadisticas/grupo1/matricula
+[MINEDU] t=   2.8s | pag=  3 | files=  27 | data=  1 | req=   3 | rej=   1 | cola=  44 | prio= 0 | https://seie.minedu.gob.bo/reportes/tablas
+[MINEDU] DATASETS=2 | score=50 | configured_data_page | https://seie.minedu.gob.bo/reportes/tablas
+[MINEDU] t=   3.3s | pag=  4 | files=  31 | data=  2 | req=   4 | rej=   1 | cola=  78 | prio= 0 | https://seie.minedu.gob.bo/reportes/mapas
+[MINEDU] DATASETS=3 | score=50 | configured_data_page | https://seie.minedu.gob.bo/reportes/mapas
+[MINEDU] t=   3.9s | pag=  5 | files=  31 | data=  3 | req=   5 | rej=   1 | cola=  98 | prio= 0 | https://seie.minedu.gob.bo/reportes/infraestructura
+[MINEDU] t=   4.4s | pag=  6 | files=  31 | data=  3 | req=   6 | rej=   2 | cola= 135 | prio= 0 | https://seie.minedu.gob.bo/ambientes/pdfs/estadisticas_educativas.pdf
+[MINEDU] t=   4.9s | pag=  7 | files=  51 | data=  3 | req=   7 | rej=   2 | cola= 140 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo7/a7
+[MINEDU] DATASETS=4 | score=80 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo7/a7
+[MINEDU] t=   5.9s | pag=  8 | files=  51 | data=  4 | req=   8 | rej=   2 | cola= 140 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo4/a8
+[MINEDU] DATASETS=5 | score=80 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo4/a8
+[MINEDU] t=   6.3s | pag=  9 | files=  51 | data=  5 | req=   9 | rej=   2 | cola= 139 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/a10
+[MINEDU] DATASETS=6 | score=85 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/a10
+[MINEDU] t=   7.1s | pag= 10 | files=  51 | data=  6 | req=  10 | rej=   2 | cola= 138 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/b7
+[MINEDU] DATASETS=7 | score=85 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/b7
+[MINEDU] t=   7.8s | pag= 11 | files=  51 | data=  7 | req=  11 | rej=   2 | cola= 137 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo8/b8
+[MINEDU] DATASETS=8 | score=55 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo8/b8
+[MINEDU] t=   8.6s | pag= 12 | files=  51 | data=  8 | req=  12 | rej=   2 | cola= 136 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo9/b9
+[MINEDU] DATASETS=9 | score=80 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo9/b9
+[MINEDU] t=   9.5s | pag= 13 | files=  51 | data=  9 | req=  13 | rej=   2 | cola= 135 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/b11
+[MINEDU] DATASETS=10 | score=80 | configured_data_page | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/b11
+[MINEDU] t=  10.3s | pag= 14 | files=  51 | data= 10 | req=  14 | rej=   2 | cola= 134 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo8/b13
+[MINEDU] t=  11.1s | pag= 15 | files=  51 | data= 11 | req=  15 | rej=   2 | cola= 133 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo8/b14
+[MINEDU] t=  11.6s | pag= 16 | files=  51 | data= 12 | req=  16 | rej=   2 | cola= 132 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo2/b15
+[MINEDU] t=  12.1s | pag= 17 | files=  51 | data= 13 | req=  17 | rej=   2 | cola= 131 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo7/a11
+[MINEDU] t=  12.9s | pag= 18 | files=  51 | data= 14 | req=  18 | rej=   2 | cola= 130 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo11/a12
+[MINEDU] t=  13.5s | pag= 19 | files=  51 | data= 15 | req=  19 | rej=   2 | cola= 129 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo11/a13
+[MINEDU] t=  14.3s | pag= 20 | files=  51 | data= 16 | req=  20 | rej=   2 | cola= 128 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo11/a14
+[MINEDU] t=  15.3s | pag= 21 | files=  51 | data= 17 | req=  21 | rej=   2 | cola= 127 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo11/a15
+[MINEDU] t=  15.7s | pag= 22 | files=  51 | data= 18 | req=  22 | rej=   2 | cola= 126 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo10/e2
+[MINEDU] t=  16.4s | pag= 23 | files=  51 | data= 19 | req=  23 | rej=   2 | cola= 125 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo11/d2
+[MINEDU] t=  16.9s | pag= 24 | files=  51 | data= 20 | req=  24 | rej=   2 | cola= 124 | prio=10 | https://seie.minedu.gob.bo/reportes/indicadores/grupo11/a1
+[MINEDU] HTTP TOTAL | requests=26 | GET=26 | HEAD=0
+[MINEDU] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[MINEDU] BUDGET | req=25 | utiles=72 | rechazados=2 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              minedu
+Páginas visitadas:   25
+Archivos encontrados:   51
+Datasets web:         21
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             17.67 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 51
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\minedu.json
+
+Trazabilidad:
+  Ejecución: 333
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -29,9 +29,31 @@
   },
   "adapter": "bcb",
   "high_priority_keywords": [
+    "estadistica",
     "estadisticas",
     "financiero",
     "monetario",
+    "sector externo",
+    "sector-external",
+    "sector externo",
+    "reservas",
+    "balanza",
+    "deuda externa",
+    "sistema de pagos",
+    "reporte estadistico",
+    "reporte-estadistico",
+    "boletin",
+    "inflacion",
+    "tipo de cambio",
+    "ufv",
+    "operaciones mercado abierto",
     "series"
-  ]
+  ],
+  "pagination_yield": {
+    "enabled": true,
+    "zero_yield_stop_after": 3,
+    "min_pages_before_stop": 3,
+    "high_yield_threshold": 5,
+    "max_tracked_yields": 20
+  }
 }

@@ -1,24 +1,102 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 12, in <module>
-    from core.crawler import Crawler
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 18, in <module>
-    from bs4 import BeautifulSoup
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\bs4\__init__.py", line 65, in <module>
-    from .builder import (
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\bs4\builder\__init__.py", line 24, in <module>
-    from bs4.element import (
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\bs4\element.py", line 10, in <module>
-    from bs4.css import CSS
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\bs4\css.py", line 37, in <module>
-    import soupsieve
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\soupsieve\__init__.py", line 30, in <module>
-    from . import css_parser as cp
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\.venv\Lib\site-packages\soupsieve\css_parser.py", line 6, in <module>
-    from . import css_match as cm
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
-  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Instituto Boliviano de Comercio Exterior / Cámara Agropecuaria del Oriente
+URL configurada: https://ibce.org.bo/informacion-estadisticas-bolivia.php
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://ibce.org.bo/informacion-estadisticas-bolivia.php
+  Utilizada: https://ibce.org.bo/informacion-estadisticas-bolivia.php
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://ibce.org.bo/informacion-estadisticas-bolivia.php
+
+URL de trabajo: https://ibce.org.bo/informacion-estadisticas-bolivia.php
+Seeds: 4
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[IBCE] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   3 | prio= 0 | https://ibce.org.bo/informacion-estadisticas-bolivia.php
+[IBCE] DATASETS=1 | score=80 | configured_data_page | https://ibce.org.bo/informacion-estadisticas-bolivia.php
+[IBCE] ARCHIVO UTIL=1 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/Principales_productos_importados_2025.pdf
+[IBCE] ARCHIVO UTIL=2 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/Bolivia_import_segun_pais_de_origen_2025.pdf
+[IBCE] ARCHIVO UTIL=3 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/Principales_productos_exportado_2025.pdf
+[IBCE] ARCHIVO UTIL=4 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/Bolivia_export_segun_pais_de_destino_2025.pdf
+[IBCE] t=   1.7s | pag=  1 | files=   4 | data=  1 | req=   1 | rej=   0 | cola=  14 | prio= 0 | https://ibce.org.bo/informacion-estadisticas-departamentos.php
+[IBCE] DATASETS=2 | score=80 | configured_data_page | https://ibce.org.bo/informacion-estadisticas-departamentos.php
+[IBCE] ARCHIVO UTIL=5 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Santa_Cruz_productos_exportados_2025.pdf
+[IBCE] ARCHIVO UTIL=6 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Santa_Cruz_exportaciones_al_mundo_2025.pdf
+[IBCE] ARCHIVO UTIL=7 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Tarija_productos_exportados_2025.pdf
+[IBCE] ARCHIVO UTIL=8 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Tarija_exportaciones_al_mundo_2025.pdf
+[IBCE] ARCHIVO UTIL=9 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/producto/Potosi_productos_exportados_2025.pdf
+[IBCE] ARCHIVO UTIL=10 | score=100 | pdf | https://ibce.org.bo/documentos/informacion-mercado/2025/pais/Potosi_exportaciones_al_mundo_2025.pdf
+[IBCE] t=   2.5s | pag=  2 | files=  22 | data=  2 | req=   2 | rej=   0 | cola=  13 | prio= 0 | https://ibce.org.bo/publicaciones-ibcecifras.php
+[IBCE] DATASETS=3 | score=65 | configured_data_page | https://ibce.org.bo/publicaciones-ibcecifras.php
+[IBCE] t=   2.9s | pag=  3 | files=  22 | data=  3 | req=   3 | rej=   0 | cola=  31 | prio= 0 | https://ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario
+[IBCE] DATASETS=4 | score=65 | exportable_data_page | https://ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario
+[IBCE] t=   3.9s | pag=  4 | files=  22 | data=  4 | req=   4 | rej=   0 | cola=  35 | prio=10 | https://www.ibce.org.bo/informacion-estadisticas-bolivia.php
+[IBCE] t=   5.8s | pag=  4 | files=  22 | data=  4 | req=   5 | rej=   0 | cola=  34 | prio=10 | https://www.ibce.org.bo/informacion-estadisticas-departamentos.php
+[IBCE] t=   7.9s | pag=  4 | files=  22 | data=  4 | req=   6 | rej=   0 | cola=  33 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=1&publicacion=comercioexterior
+[IBCE] DATASETS=5 | score=90 | exportable_data_page | https://ibce.org.bo/publicaciones-ibce.php?opcion=1&publicacion=comercioexterior
+[IBCE] t=  10.1s | pag=  5 | files=  22 | data=  5 | req=   7 | rej=   0 | cola=  50 | prio=10 | https://www.ibce.org.bo/publicaciones-ibce.php?opcion=3&publicacion=anuario
+[IBCE] t=  10.9s | pag=  5 | files=  22 | data=  5 | req=   8 | rej=   0 | cola=  49 | prio=10 | https://www.ibce.org.bo/publicaciones-ibcecifras.php
+[IBCE] t=  13.0s | pag=  5 | files=  22 | data=  5 | req=   9 | rej=   0 | cola=  48 | prio=10 | https://ibce.org.bo/publicaciones-descarga.php?id=2570&opcion=1
+[IBCE] DATASETS=6 | score=105 | exportable_data_page | https://ibce.org.bo/publicaciones-descarga.php?id=2570&opcion=1
+[IBCE] t=  15.0s | pag=  6 | files=  24 | data=  6 | req=  10 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1519
+[IBCE] DATASETS=7 | score=130 | configured_data_page | https://ibce.org.bo/ibcecifras/index.php?id=1519
+[IBCE] t=  15.3s | pag=  7 | files=  24 | data=  7 | req=  11 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1518
+[IBCE] DATASETS=8 | score=100 | configured_data_page | https://ibce.org.bo/ibcecifras/index.php?id=1518
+[IBCE] t=  15.9s | pag=  8 | files=  24 | data=  8 | req=  12 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1517
+[IBCE] DATASETS=9 | score=100 | configured_data_page | https://ibce.org.bo/ibcecifras/index.php?id=1517
+[IBCE] t=  16.5s | pag=  9 | files=  24 | data=  9 | req=  13 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1516
+[IBCE] DATASETS=10 | score=100 | configured_data_page | https://ibce.org.bo/ibcecifras/index.php?id=1516
+[IBCE] t=  17.1s | pag= 10 | files=  24 | data= 10 | req=  14 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1515
+[IBCE] t=  17.9s | pag= 11 | files=  24 | data= 11 | req=  15 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1514
+[IBCE] t=  18.7s | pag= 12 | files=  24 | data= 12 | req=  16 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1513
+[IBCE] t=  19.3s | pag= 13 | files=  24 | data= 13 | req=  17 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1512
+[IBCE] t=  20.0s | pag= 14 | files=  24 | data= 14 | req=  18 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1511
+[IBCE] t=  20.6s | pag= 15 | files=  24 | data= 15 | req=  19 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1510
+[IBCE] t=  21.4s | pag= 16 | files=  24 | data= 16 | req=  20 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1509
+[IBCE] t=  21.9s | pag= 17 | files=  24 | data= 17 | req=  21 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/ibcecifras/index.php?id=1508
+[IBCE] t=  22.8s | pag= 18 | files=  24 | data= 18 | req=  22 | rej=   0 | cola=  47 | prio=10 | https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=2
+[IBCE] t=  23.8s | pag= 19 | files=  24 | data= 19 | req=  23 | rej=   0 | cola=  59 | prio=10 | https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=3
+[IBCE] t=  24.5s | pag= 20 | files=  24 | data= 20 | req=  24 | rej=   0 | cola=  70 | prio=10 | https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=4
+[IBCE] t=  25.3s | pag= 21 | files=  24 | data= 21 | req=  25 | rej=   0 | cola=  82 | prio=10 | https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=5
+[IBCE] t=  26.0s | pag= 22 | files=  24 | data= 22 | req=  26 | rej=   0 | cola=  94 | prio=10 | https://ibce.org.bo/publicaciones-ibcecifras.php?__pagina__=115
+[IBCE] t=  26.8s | pag= 23 | files=  24 | data= 23 | req=  27 | rej=   0 | cola=  98 | prio=10 | https://www.ibce.org.bo/publicaciones-ibcecifras.php?opcion=6
+[IBCE] t=  28.6s | pag= 24 | files=  24 | data= 24 | req=  28 | rej=   0 | cola= 102 | prio=10 | https://ibce.org.bo/publicaciones-descarga.php?id=105&opcion=3
+[IBCE] DATASETS=25 | score=95 | exportable_data_page | https://ibce.org.bo/publicaciones-descarga.php?id=105&opcion=3
+[IBCE] HTTP TOTAL | requests=30 | GET=30 | HEAD=0
+[IBCE] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[IBCE] BUDGET | req=29 | utiles=49 | rechazados=0 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              ibce
+Páginas visitadas:   25
+Archivos encontrados:   24
+Datasets web:         25
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             29.67 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 24
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ibce.json
+
+Trazabilidad:
+  Ejecución: 324
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,10 +1,99 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
-  File "<frozen importlib._bootstrap_external>", line 1217, in get_data
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Organización Mundial del Comercio
+URL configurada: https://data.wto.org/en/dataset/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://data.wto.org/en/dataset/
+  Utilizada: https://data.wto.org/en/dataset/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://data.wto.org/en/dataset/
+
+URL de trabajo: https://data.wto.org/en/dataset/
+Seeds: 7
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[OMC] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   6 | prio= 0 | https://data.wto.org/en/dataset/
+[OMC] DATASETS=1 | score=85 | configured_data_page | https://data.wto.org/en/dataset/
+[OMC] t=   1.8s | pag=  1 | files=   0 | data=  1 | req=   1 | rej=   0 | cola=  50 | prio= 0 | https://data.wto.org/en/dataset/wto_sts
+[OMC] DATASETS=2 | score=120 | configured_data_page | https://data.wto.org/en/dataset/wto_sts
+[OMC] ARCHIVO UTIL=1 | score=100 | xlsx | https://stats.wto.org/assets/UserGuide/Regional_Compositions.xlsx
+[OMC] ARCHIVO UTIL=2 | score=69 | pdf | https://stats.wto.org/assets/UserGuide/TechnicalNotes_en.pdf
+[OMC] ARCHIVO UTIL=3 | score=69 | pdf | https://stats.wto.org/assets/UserGuide/UserGuide_en.pdf
+[OMC] t=   2.8s | pag=  2 | files=   3 | data=  2 | req=   2 | rej=   0 | cola=  55 | prio= 0 | https://data.wto.org/en/dataset/bulkdownload
+[OMC] DATASETS=3 | score=125 | configured_data_page | https://data.wto.org/en/dataset/bulkdownload
+[OMC] ARCHIVO UTIL=4 | score=100 | zip | https://stats.wto.org/assets/UserGuide/merchandise_values_annual_dataset.zip
+[OMC] ARCHIVO UTIL=5 | score=100 | zip | https://stats.wto.org/assets/UserGuide/merchandise_indices_annual_dataset.zip
+[OMC] ARCHIVO UTIL=6 | score=100 | zip | https://stats.wto.org/assets/UserGuide/services_annual_dataset.zip
+[OMC] ARCHIVO UTIL=7 | score=100 | zip | https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_data_BPM6.zip
+[OMC] ARCHIVO UTIL=8 | score=100 | zip | https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_data.zip
+[OMC] ARCHIVO UTIL=9 | score=100 | zip | https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_imports.zip
+[OMC] ARCHIVO UTIL=10 | score=100 | zip | https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_exports.zip
+[OMC] t=  22.1s | pag=  3 | files=  10 | data=  3 | req=   3 | rej=   0 | cola=  55 | prio= 0 | https://stats.wto.org/en
+[OMC] t=  23.0s | pag=  4 | files=  10 | data=  3 | req=   4 | rej=   1 | cola=  54 | prio= 0 | https://ttd.wto.org/en/download
+[OMC] DATASETS=4 | score=65 | configured_data_page | https://ttd.wto.org/en/download
+[OMC] t=  24.8s | pag=  5 | files=  10 | data=  4 | req=   5 | rej=   1 | cola=  57 | prio= 0 | https://apiportal.wto.org/apis
+[OMC] t=  27.0s | pag=  6 | files=  10 | data=  4 | req=   6 | rej=   1 | cola=  60 | prio= 0 | https://www.wto.org/english/res_e/statis_e/statis_e.htm
+[OMC] DATASETS=5 | score=70 | configured_data_page | https://www.wto.org/english/res_e/statis_e/statis_e.htm
+[OMC] t=  28.5s | pag=  7 | files=  10 | data=  5 | req=   7 | rej=   1 | cola=  71 | prio=10 | https://data.wto.org/en/dataset/?groups=goods
+[OMC] DATASETS=6 | score=85 | configured_data_page | https://data.wto.org/en/dataset/?groups=goods
+[OMC] t=  29.6s | pag=  8 | files=  10 | data=  6 | req=   8 | rej=   1 | cola= 100 | prio=10 | https://data.wto.org/en/dataset/?groups=cross-cutting
+[OMC] DATASETS=7 | score=85 | configured_data_page | https://data.wto.org/en/dataset/?groups=cross-cutting
+[OMC] t=  30.8s | pag=  9 | files=  10 | data=  7 | req=   9 | rej=   1 | cola= 131 | prio=10 | https://data.wto.org/en/dataset/?groups=services
+[OMC] DATASETS=8 | score=85 | configured_data_page | https://data.wto.org/en/dataset/?groups=services
+[OMC] t=  31.9s | pag= 10 | files=  10 | data=  8 | req=  10 | rej=   1 | cola= 146 | prio=10 | https://data.wto.org/en/dataset/?groups=trips
+[OMC] DATASETS=9 | score=55 | configured_data_page | https://data.wto.org/en/dataset/?groups=trips
+[OMC] t=  32.6s | pag= 11 | files=  10 | data=  9 | req=  11 | rej=   1 | cola= 150 | prio=10 | https://data.wto.org/en/dataset/?tags=Policy
+[OMC] DATASETS=10 | score=85 | configured_data_page | https://data.wto.org/en/dataset/?tags=Policy
+[OMC] t=  33.8s | pag= 12 | files=  10 | data= 10 | req=  12 | rej=   1 | cola= 164 | prio=10 | https://data.wto.org/en/dataset/?tags=Statistics
+[OMC] t=  34.7s | pag= 13 | files=  10 | data= 11 | req=  13 | rej=   1 | cola= 179 | prio=10 | https://data.wto.org/en/dataset/?tags=Data+applications
+[OMC] t=  36.1s | pag= 14 | files=  10 | data= 12 | req=  14 | rej=   1 | cola= 189 | prio=10 | https://data.wto.org/en/dataset/?tags=Notifications
+[OMC] t=  37.4s | pag= 15 | files=  10 | data= 13 | req=  15 | rej=   1 | cola= 203 | prio=10 | https://data.wto.org/en/dataset/?tags=Databases
+[OMC] t=  38.9s | pag= 16 | files=  10 | data= 14 | req=  16 | rej=   1 | cola= 215 | prio=10 | https://data.wto.org/en/dataset/?tags=Dashboards
+[OMC] t=  39.7s | pag= 17 | files=  10 | data= 15 | req=  17 | rej=   1 | cola= 220 | prio=10 | https://data.wto.org/en/dataset/?tags=Product+classification
+[OMC] t=  40.4s | pag= 18 | files=  10 | data= 16 | req=  18 | rej=   1 | cola= 231 | prio=10 | https://data.wto.org/en/dataset/?tags=Indicators
+[OMC] t=  41.4s | pag= 19 | files=  10 | data= 17 | req=  19 | rej=   1 | cola= 236 | prio=10 | https://data.wto.org/en/dataset/?tags=Schedules
+[OMC] t=  42.1s | pag= 20 | files=  10 | data= 18 | req=  20 | rej=   1 | cola= 240 | prio=10 | https://data.wto.org/en/dataset/?tags=Publications
+[OMC] t=  42.9s | pag= 21 | files=  10 | data= 19 | req=  21 | rej=   1 | cola= 244 | prio=10 | https://data.wto.org/en/dataset/?res_format=HTML
+[OMC] t=  44.0s | pag= 22 | files=  10 | data= 20 | req=  22 | rej=   1 | cola= 253 | prio=10 | https://data.wto.org/en/dataset/?res_format=PDF
+[OMC] t=  45.4s | pag= 23 | files=  10 | data= 21 | req=  23 | rej=   1 | cola= 257 | prio=10 | https://data.wto.org/en/dataset/?res_format=XLSX
+[OMC] t=  46.7s | pag= 24 | files=  10 | data= 22 | req=  24 | rej=   1 | cola= 261 | prio=10 | https://data.wto.org/en/dataset/?res_format=DOCX
+[OMC] HTTP TOTAL | requests=39 | GET=39 | HEAD=0
+[OMC] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[OMC] BUDGET | req=25 | utiles=33 | rechazados=1 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              omc
+Páginas visitadas:   25
+Archivos encontrados:   10
+Datasets web:         23
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             47.90 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 2
+  - XLSX   : 1
+  - ZIP    : 7
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\omc.json
+
+Trazabilidad:
+  Ejecución: 335
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

@@ -1,39 +1,122 @@
 {
   "id_fuente": "ceprobol",
   "nombre": "Centro Promoción Bolivia - Fuente histórica / Ministerio de Desarrollo Productivo",
-  "base_url": "https://produccion.gob.bo/",
+  "base_url": "https://produccion.gob.bo/datos/",
   "allowed_domains": [
-    "produccion.gob.bo"
+    "produccion.gob.bo",
+    "www.produccion.gob.bo",
+    "siip.produccion.gob.bo",
+    "data-bolivia.produccion.gob.bo"
   ],
   "entrypoints": [
-    "https://produccion.gob.bo/"
+    "https://produccion.gob.bo/datos/",
+    "https://data-bolivia.produccion.gob.bo/",
+    "https://data-bolivia.produccion.gob.bo/comex/",
+    "https://data-bolivia.produccion.gob.bo/comex/busqueda",
+    "https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=e",
+    "https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=i",
+    "https://siip.produccion.gob.bo/repSIIP2/formulario_pecuario.php"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 500,
+  "max_files": 1000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
-  "legacy_url": "https://www.ceprobol.gob.bo",
-  "source_status": "historical_successor",
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/datos/",
+    "/comex/",
+    "/repSIIP2/"
+  ],
   "high_priority_keywords": [
-    "exportacion",
-    "comercio",
-    "estadistica",
-    "publicacion",
-    "datos"
+    "datos",
+    "estadisticas",
+    "estadísticas",
+    "comercio exterior",
+    "exportaciones",
+    "importaciones",
+    "saldo comercial",
+    "pecuaria",
+    "unidades economicas",
+    "unidades económicas",
+    "precios",
+    "produccion",
+    "producción",
+    "valor",
+    "volumen"
+  ],
+  "medium_priority_keywords": [
+    "siip",
+    "arancel",
+    "aduanero",
+    "departamento",
+    "pais",
+    "país",
+    "producto",
+    "actividad economica",
+    "actividad económica",
+    "serie",
+    "historico",
+    "histórico"
+  ],
+  "adapter_positive_patterns": [
+    "/datos/",
+    "/comex/",
+    "/repSIIP2/formArancelAduanero",
+    "/repSIIP2/formulario_pecuario"
+  ],
+  "force_data_url_patterns": [
+    "/datos/",
+    "/comex/",
+    "/comex/busqueda",
+    "/repSIIP2/formArancelAduanero",
+    "/repSIIP2/formulario_pecuario"
+  ],
+  "data_keywords": [
+    "exportaciones",
+    "importaciones",
+    "comercio exterior",
+    "saldo comercial",
+    "pecuaria",
+    "estadísticas",
+    "estadisticas",
+    "valor",
+    "volumen",
+    "serie",
+    "historico"
+  ],
+  "relevance_positive_keywords": [
+    "comercio exterior",
+    "exportaciones",
+    "importaciones",
+    "información productiva",
+    "informacion productiva",
+    "unidades económicas",
+    "unidades economicas",
+    "saldo comercial",
+    "precios"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "institucional",
+    "auditoria",
+    "auditoría",
+    "transparencia",
+    "recursos humanos",
+    "contrataciones",
+    "convocatorias"
+  ],
+  "ignore_url_patterns": [
+    "/noticias/",
+    "/comunicados/",
+    "/transparencia/",
+    "/auditoria/",
+    "/contrataciones/",
+    "/recursos-humanos/"
   ]
 }

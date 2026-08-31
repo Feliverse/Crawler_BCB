@@ -1,50 +1,146 @@
 {
   "id_fuente": "mhe",
   "nombre": "Ministerio de Hidrocarburos y Energías",
-  "base_url": "https://www.mhe.gob.bo/",
-  "fallback_urls": [
-    "https://www.mhe.gob.bo/vmpde/",
-    "https://www.mhe.gob.bo/mapa-del-sitio/"
-  ],
+  "base_url": "https://www.mhe.gob.bo/vmpde/",
   "allowed_domains": [
-    "mhe.gob.bo"
+    "mhe.gob.bo",
+    "www.mhe.gob.bo"
   ],
   "entrypoints": [
     "https://www.mhe.gob.bo/vmpde/",
-    "https://www.mhe.gob.bo/mapa-del-sitio/",
-    "https://www.mhe.gob.bo/"
+    "https://www.mhe.gob.bo/balance-energetico-nacional-2006-2021/",
+    "https://www.mhe.gob.bo/balance-energetico-nacional-2019-2023-resumen-ejecutivo/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 300,
+  "max_files": 2000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "verify_ssl": false,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "legacy_url": "https://www.hidrocarburos.gob.bo",
+  "include_url_patterns": [
+    "/vmpde/",
+    "/balance-energetico-",
+    "/wp-content/uploads/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
   "high_priority_keywords": [
-    "estadisticas",
-    "balance-energetico",
-    "vmpde",
+    "balance energetico nacional",
+    "balance energético nacional",
+    "balance energetico departamental",
+    "balance energético departamental",
     "ben",
     "bed",
-    "publicaciones"
+    "estadisticas energeticas",
+    "estadísticas energéticas",
+    "energia",
+    "energía",
+    "oferta energetica",
+    "oferta energética",
+    "demanda energetica",
+    "demanda energética",
+    "consumo energetico",
+    "consumo energético",
+    "produccion energetica",
+    "producción energética",
+    "matriz energetica",
+    "matriz energética"
   ],
-  "data_url_patterns": [
+  "medium_priority_keywords": [
+    "hidrocarburos",
+    "electricidad",
+    "gas natural",
+    "petroleo",
+    "petróleo",
+    "diesel",
+    "diésel",
+    "gasolina",
+    "biomasa",
+    "hidroelectricidad",
+    "energia solar",
+    "energía solar",
+    "energia eolica",
+    "energía eólica",
+    "renovable",
+    "departamento",
+    "intensidad energetica",
+    "intensidad energética",
+    "consumo per capita",
+    "consumo per cápita"
+  ],
+  "adapter_positive_patterns": [
     "/vmpde/",
-    "/estadisticas"
-  ]
+    "/balance-energetico-",
+    "/wp-content/uploads/"
+  ],
+  "force_data_url_patterns": [
+    "/vmpde/",
+    "/balance-energetico-"
+  ],
+  "force_keep_url_patterns": [
+    "/wp-content/uploads/",
+    ".pdf",
+    ".xlsx",
+    ".xls",
+    ".csv",
+    ".zip"
+  ],
+  "data_keywords": [
+    "energia",
+    "energía",
+    "balance",
+    "oferta",
+    "demanda",
+    "consumo",
+    "produccion",
+    "producción",
+    "estadisticas",
+    "estadísticas",
+    "hidrocarburos",
+    "electricidad"
+  ],
+  "relevance_positive_keywords": [
+    "balance energético nacional",
+    "balance energetico nacional",
+    "balance energético departamental",
+    "balance energetico departamental",
+    "estadísticas energéticas",
+    "estadisticas energeticas",
+    "oferta de energía",
+    "oferta de energia",
+    "consumo final de energía",
+    "consumo final de energia"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "nota de prensa",
+    "institucional",
+    "convocatoria",
+    "recursos humanos",
+    "rendicion publica",
+    "rendición pública",
+    "normativa",
+    "resolucion",
+    "resolución",
+    "contrataciones"
+  ],
+  "ignore_url_patterns": [
+    "/notas-de-prensa/",
+    "/category/noticias/",
+    "/institucion/",
+    "/convocatorias/",
+    "/contrataciones/",
+    "/recursos-humanos/"
+  ],
+  "max_query_params": 8
 }

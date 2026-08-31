@@ -1,10 +1,60 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
-  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Viceministerio de Inversión Pública y Financiamiento Externo
+URL configurada: https://www.planificacion.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.planificacion.gob.bo/
+  Utilizada: https://www.planificacion.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.planificacion.gob.bo/
+
+URL de trabajo: https://www.planificacion.gob.bo/
+Seeds: 7
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: activo
+Máx URLs sitemap: 10000
+
+[VIPFE] SITEMAP | docs=0 | urls=0 | en_cola=0 | errores=0
+[VIPFE] t=   4.3s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   6 | prio= 0 | https://www.planificacion.gob.bo/
+[VIPFE] t=   4.9s | pag=  1 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=   5 | prio= 0 | https://www.planificacion.gob.bo/page/content/1464
+[VIPFE] t=   5.7s | pag=  2 | files=   0 | data=  0 | req=   2 | rej=   1 | cola=   4 | prio= 0 | https://www.planificacion.gob.bo/institucion/vipfe/info
+[VIPFE] t=   6.4s | pag=  3 | files=   0 | data=  0 | req=   3 | rej=   1 | cola=   3 | prio= 0 | https://sisin.planificacion.gob.bo/
+[VIPFE] t=   7.3s | pag=  4 | files=   0 | data=  0 | req=   4 | rej=   2 | cola=   2 | prio= 0 | https://sisin8.planificacion.gob.bo/bsn/ktr1/login/login/index.php
+[VIPFE] t=   8.6s | pag=  5 | files=   0 | data=  0 | req=   5 | rej=   6 | cola=   3 | prio= 0 | https://sisin.planificacion.gob.bo/docs/220420261401_COMUNICADO%2000002_0001.pdf
+[VIPFE] t=   9.0s | pag=  5 | files=   0 | data=  0 | req=   6 | rej=   7 | cola=   2 | prio= 0 | https://sisin.planificacion.gob.bo/docs/020120251949_PROGRAMACION_FINANCIERA_2025.pdf
+[VIPFE] t=  10.3s | pag=  5 | files=   0 | data=  0 | req=   7 | rej=   8 | cola=   1 | prio=10 | https://capacitacion.planificacion.gob.bo/
+[VIPFE] t=  11.0s | pag=  6 | files=   0 | data=  0 | req=   8 | rej=   8 | cola=   0 | prio=50 | https://tpp.planificacion.gob.bo/
+[VIPFE] HTTP TOTAL | requests=15 | GET=15 | HEAD=0
+[VIPFE] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[VIPFE] BUDGET | req=9 | utiles=0 | rechazados=8 | sin_valor=9
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              vipfe
+Páginas visitadas:   7
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             11.87 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\vipfe.json
+
+Trazabilidad:
+  Ejecución: 345
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

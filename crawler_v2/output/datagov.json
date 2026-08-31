@@ -1,0 +1,133 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "global_device_category_last30.2026-07-31.csv": {
+                        "descripcion": "Download Full Report - Users by Device Type",
+                        "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__device_category__last30.2026-07-31.csv",
+                        "fecha_actualizacion": "2026-07-31",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "global_download_requests_last30.2026-07-31.csv": {
+                        "descripcion": "Download Full Report - Most Downloaded Dataset Files",
+                        "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__download_requests__last30.2026-07-31.csv",
+                        "fecha_actualizacion": "2026-07-31",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "rows.csv": {
+                        "descripcion": "https://www.data.va.gov/api/views/95an-zhhy/rows.csv?accessType=DOWNLOAD",
+                        "url_descarga": "https://www.data.va.gov/api/views/95an-zhhy/rows.csv?accessType=DOWNLOAD",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "export.csv": {
+                        "descripcion": "https://data.ny.gov/api/v3/views/d6yy-54nr/export.csv?accessType=DOWNLOAD",
+                        "url_descarga": "https://data.ny.gov/api/v3/views/d6yy-54nr/export.csv?accessType=DOWNLOAD",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Allegations-of-Harassment-or-Bullying.csv": {
+                        "descripcion": "https://civilrightsdata.ed.gov/assets/downloads/2015-2016/Allegations-of-Harassment-or-Bullying.xlsx",
+                        "url_descarga": "https://civilrightsdata.ed.gov/assets/downloads/2015-2016/Allegations-of-Harassment-or-Bullying.xlsx",
+                        "fecha_actualizacion": "2016",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "export_2.csv": {
+                        "descripcion": "https://data.wa.gov/api/v3/views/f6w7-q2d2/export.csv?accessType=DOWNLOAD",
+                        "url_descarga": "https://data.wa.gov/api/v3/views/f6w7-q2d2/export.csv?accessType=DOWNLOAD",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "rows_2.csv": {
+                        "descripcion": "https://www.data.va.gov/api/views/95an-zhhy/rows.json?accessType=DOWNLOAD",
+                        "url_descarga": "https://www.data.va.gov/api/views/95an-zhhy/rows.json?accessType=DOWNLOAD",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "JSON",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "global_link_requests_last30.2026-07-31.csv": {
+                        "descripcion": "Download Full Report - Most Clicked Outbound Links",
+                        "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__link_requests__last30.2026-07-31.csv",
+                        "fecha_actualizacion": "2026-07-31",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "global_datasets_per_org.2026-07-31.csv": {
+                        "descripcion": "Download Full Report - Number of Datasets per Organization",
+                        "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__datasets_per_org.2026-07-31.csv",
+                        "fecha_actualizacion": "2026-07-31",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "global_harvest_sources.2026-07-31.csv": {
+                        "descripcion": "Download Full Report - Number of Harvest Sources per Organization",
+                        "url_descarga": "https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/global__harvest_sources.2026-07-31.csv",
+                        "fecha_actualizacion": "2026-07-31",
+                        "tipo_archivo": "CSV",
+                        "url_origen": "https://data.gov/metrics/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Catalog_-_Data.gov.csv": {
+                        "descripcion": "Catalog - Data.gov",
+                        "url_descarga": "https://catalog.data.gov/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://catalog.data.gov/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    },
+                    "Datagov_Metrics_Dashboard_-_Data.gov.csv": {
+                        "descripcion": "Datagov Metrics Dashboard - Data.gov",
+                        "url_descarga": "https://data.gov/metrics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.gov/metrics/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 5,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    },
+                    "One_Click_and_We'll_Give_You_Millions_-_Data.gov.csv": {
+                        "descripcion": "One Click and We'll Give You Millions - Data.gov",
+                        "url_descarga": "https://data.gov/blog/one-click-and-we-ll-give-you-millions/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.gov/blog/one-click-and-we-ll-give-you-millions/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

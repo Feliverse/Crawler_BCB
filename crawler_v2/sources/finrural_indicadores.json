@@ -1,41 +1,109 @@
 {
   "id_fuente": "finrural_indicadores",
   "nombre": "FINRURAL Bolivia - Indicadores",
-  "base_url": "https://www.finrural.org.bo/",
+  "base_url": "https://www.finrural.org.bo/archivos/info_financiera/",
   "allowed_domains": [
-    "finrural.org.bo"
+    "finrural.org.bo",
+    "www.finrural.org.bo"
   ],
   "entrypoints": [
-    "https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/",
-    "https://www.finrural.org.bo/"
+    "https://www.finrural.org.bo/archivos/info_financiera/",
+    "https://www.finrural.org.bo/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 500,
+  "max_files": 5000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
-  "legacy_url": "https://www.finrural.bo",
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/archivos/info_financiera/",
+    "/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/"
+  ],
   "high_priority_keywords": [
-    "indicadores",
-    "reporte-financiero",
-    "boletin",
-    "estadistica"
+    "reporte financiero",
+    "informacion financiera",
+    "información financiera",
+    "indicadores financieros",
+    "cartera",
+    "cartera de creditos",
+    "cartera de créditos",
+    "prestatarios",
+    "puntos de atencion",
+    "puntos de atención",
+    "tasas de interes",
+    "tasas de interés",
+    "mora",
+    "instituciones financieras de desarrollo",
+    "ifd"
+  ],
+  "medium_priority_keywords": [
+    "mensual",
+    "financiera",
+    "financiero",
+    "activo",
+    "pasivo",
+    "patrimonio",
+    "previsiones",
+    "credito",
+    "crédito",
+    "cobertura"
+  ],
+  "adapter_positive_patterns": [
+    "/archivos/info_financiera/",
+    "/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/"
+  ],
+  "force_keep_url_patterns": [
+    "/archivos/info_financiera/",
+    ".pdf",
+    ".zip",
+    ".xlsx",
+    ".xls",
+    ".csv"
   ],
   "force_data_url_patterns": [
-    "reporte-financiero"
+    "/archivos/info_financiera/",
+    "/reporte-financiero-mensual-instituciones-financieras-de-desarrollo/"
+  ],
+  "data_keywords": [
+    "cartera",
+    "indicadores",
+    "prestatarios",
+    "mora",
+    "puntos de atención",
+    "puntos de atencion",
+    "tasas",
+    "activo",
+    "pasivo",
+    "patrimonio"
+  ],
+  "relevance_positive_keywords": [
+    "información financiera",
+    "informacion financiera",
+    "indicadores financieros",
+    "instituciones financieras de desarrollo",
+    "reporte financiero mensual",
+    "cartera de créditos",
+    "cartera de creditos"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "eventos",
+    "institucional",
+    "capacitacion",
+    "capacitación",
+    "oportunidades de trabajo"
+  ],
+  "ignore_url_patterns": [
+    "/noticias/",
+    "/eventos/",
+    ".md5",
+    ".sha"
   ]
 }

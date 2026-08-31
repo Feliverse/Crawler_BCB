@@ -1,42 +1,99 @@
 {
   "id_fuente": "cepal",
   "nombre": "Comisión Económica para América Latina y el Caribe",
-  "base_url": "https://www.cepal.org/",
+  "base_url": "https://statistics.cepal.org/portal/cepalstat/",
   "allowed_domains": [
-    "cepal.org"
+    "cepal.org",
+    "www.cepal.org",
+    "statistics.cepal.org",
+    "api-cepalstat.cepal.org"
   ],
   "entrypoints": [
-    "https://statistics.cepal.org/portal/cepalstat/",
-    "https://www.cepal.org/es/datos-y-estadisticas",
-    "https://www.cepal.org/"
+    "https://statistics.cepal.org/portal/cepalstat/index.html?lang=es",
+    "https://statistics.cepal.org/portal/cepalstat/indicator-search.html?lang=es",
+    "https://statistics.cepal.org/portal/cepalstat/open-data.html?lang=es",
+    "https://statistics.cepal.org/portal/databank/",
+    "https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=bol&lang=es&theme=1",
+    "https://statistics.cepal.org/portal/cepalstat/perfil-nacional.html?country=bol&lang=es&theme=2",
+    "https://api-cepalstat.cepal.org/apispec_1.json"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 500,
+  "max_files": 1000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
-  "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
+  "random_delay_max": 0.8,
+  "discover_sitemaps": false,
   "discover_openapi_endpoints": true,
   "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/portal/cepalstat/",
+    "/portal/databank/",
+    "/cepalstat/api/v1/",
+    "/apispec_1.json"
+  ],
   "high_priority_keywords": [
     "cepalstat",
     "estadisticas",
-    "datos",
-    "publicaciones"
+    "estadísticas",
+    "indicadores",
+    "indicator",
+    "databank",
+    "banco de datos",
+    "open data",
+    "api",
+    "bolivia",
+    "perfil nacional",
+    "datos"
   ],
-  "data_url_patterns": [
+  "adapter_positive_patterns": [
+    "/portal/cepalstat/",
+    "/portal/databank/",
+    "/cepalstat/api/v1/",
+    "/apispec_1.json"
+  ],
+  "force_data_url_patterns": [
+    "/portal/cepalstat/index",
+    "/portal/cepalstat/indicator-search",
+    "/portal/databank/",
+    "/portal/cepalstat/perfil-nacional"
+  ],
+  "data_keywords": [
+    "estadísticas",
+    "estadisticas",
+    "indicadores",
+    "indicator",
     "cepalstat",
-    "datos-y-estadisticas"
+    "banco de datos",
+    "databank",
+    "serie",
+    "series",
+    "bolivia"
+  ],
+  "relevance_positive_keywords": [
+    "cepalstat",
+    "datos estadísticos",
+    "datos estadisticos",
+    "indicadores",
+    "perfil nacional",
+    "open data",
+    "banco de datos"
+  ],
+  "low_priority_keywords": [
+    "publicaciones",
+    "noticias",
+    "eventos",
+    "cursos",
+    "conferencias",
+    "prensa"
+  ],
+  "ignore_url_patterns": [
+    "/es/publicaciones/",
+    "/es/noticias/",
+    "/es/eventos/",
+    "/es/comunicados/",
+    "/es/cursos/"
   ]
 }

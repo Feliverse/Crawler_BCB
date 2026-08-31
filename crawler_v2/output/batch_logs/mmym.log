@@ -1,16 +1,69 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
-    import re as _re
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 125, in <module>
-    import enum
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\enum.py", line 3, in <module>
-    from functools import partial
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1118, in get_code
-  File "<frozen importlib._bootstrap_external>", line 1217, in get_data
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Minería y Metalurgia
+URL configurada: https://www.mineria.gob.bo/index.php/boletines/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.mineria.gob.bo/index.php/boletines/
+  Utilizada: https://www.mineria.gob.bo/index.php/boletines/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.mineria.gob.bo/index.php/boletines/
+
+URL de trabajo: https://www.mineria.gob.bo/index.php/boletines/
+Seeds: 2
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[MMYM] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   1 | prio= 0 | https://www.mineria.gob.bo/index.php/boletines/
+[MMYM] ARCHIVO UTIL=1 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2025.pdf
+[MMYM] ARCHIVO UTIL=2 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T_2025.pdf
+[MMYM] ARCHIVO UTIL=3 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2025.pdf
+[MMYM] ARCHIVO UTIL=4 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2024.pdf
+[MMYM] ARCHIVO UTIL=5 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2024.pdf
+[MMYM] ARCHIVO UTIL=6 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2024.pdf
+[MMYM] ARCHIVO UTIL=7 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-3T-2023.pdf
+[MMYM] ARCHIVO UTIL=8 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1T-2023.pdf
+[MMYM] ARCHIVO UTIL=9 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1S-2023.pdf
+[MMYM] ARCHIVO UTIL=10 | score=100 | pdf | https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin3T-2022.pdf
+[MMYM] t=   2.4s | pag=  1 | files=  12 | data=  0 | req=   1 | rej=   1 | cola=   1 | prio= 0 | https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/
+[MMYM] t=   3.8s | pag=  2 | files=  21 | data=  0 | req=   2 | rej=   2 | cola=   1 | prio=10 | https://www.mineria.gob.bo/index.php/boletines/page/2/
+[MMYM] t=   5.0s | pag=  3 | files=  27 | data=  0 | req=   3 | rej=   3 | cola=   1 | prio=10 | https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/page/2/
+[MMYM] DATASETS=1 | score=50 | configured_data_page | https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/page/2/
+[MMYM] t=   6.1s | pag=  4 | files=  28 | data=  1 | req=   4 | rej=   3 | cola=   1 | prio=10 | https://www.mineria.gob.bo/index.php/boletines/page/1/
+[MMYM] t=   8.0s | pag=  4 | files=  28 | data=  1 | req=   5 | rej=   3 | cola=   0 | prio=10 | https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/page/1/
+[MMYM] HTTP TOTAL | requests=7 | GET=7 | HEAD=0
+[MMYM] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[MMYM] BUDGET | req=6 | utiles=29 | rechazados=3 | sin_valor=2
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mmym
+Páginas visitadas:   4
+Archivos encontrados:   28
+Datasets web:         1
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             10.17 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Formatos:
+  - PDF    : 28
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mmym.json
+
+Trazabilidad:
+  Ejecución: 334
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

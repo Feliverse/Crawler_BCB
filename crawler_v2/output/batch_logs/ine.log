@@ -1,16 +1,103 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 3, in <module>
-    import argparse
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\argparse.py", line 89, in <module>
-    import re as _re
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py", line 126, in <module>
-    from . import _compiler, _parser
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py", line 14, in <module>
-    from . import _parser
-  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
-  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
-  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
-  File "<frozen importlib._bootstrap_external>", line 1022, in exec_module
-  File "<frozen importlib._bootstrap_external>", line 1155, in get_code
-  File "<frozen importlib._bootstrap_external>", line 784, in _compile_bytecode
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Instituto Nacional de Estadística
+URL configurada: https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+  Utilizada: https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+
+URL de trabajo: https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+Seeds: 5
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[INE] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   4 | prio= 0 | https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+[INE] DATASETS=1 | score=120 | configured_data_page | https://www.ine.gob.bo/index.php/metadatos-y-microdatos/
+[INE] t=   1.8s | pag=  1 | files=   0 | data=  1 | req=   1 | rej=   0 | cola=  80 | prio= 0 | https://www.ine.gob.bo/index.php/estadisticas-economicas/
+[INE] t=   3.1s | pag=  2 | files=   0 | data=  1 | req=   2 | rej=   0 | cola=  89 | prio= 0 | https://cpv2024.ine.gob.bo/index.php/principal/descargas/
+[INE] DATASETS=2 | score=65 | configured_data_page | https://cpv2024.ine.gob.bo/index.php/principal/descargas/
+[INE] t=   4.4s | pag=  3 | files=   0 | data=  2 | req=   3 | rej=   0 | cola=  89 | prio= 0 | https://wsmunicipiosac.ine.gob.bo/
+[INE] t=   5.2s | pag=  3 | files=   0 | data=  2 | req=   4 | rej=   0 | cola=  88 | prio= 0 | https://anda.ine.gob.bo/index.php/catalog
+[INE] DATASETS=3 | score=75 | exportable_data_page | https://anda.ine.gob.bo/index.php/catalog
+[INE] t=   6.4s | pag=  4 | files=   0 | data=  3 | req=   5 | rej=   0 | cola= 119 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/
+[INE] t=   7.4s | pag=  5 | files=   0 | data=  3 | req=   6 | rej=   0 | cola= 118 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/
+[INE] t=   8.9s | pag=  6 | files=   0 | data=  3 | req=   7 | rej=   0 | cola= 117 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/producto-interno-bruto-anual-intro/
+[INE] DATASETS=4 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/producto-interno-bruto-anual-intro/
+[INE] t=   9.9s | pag=  7 | files=   0 | data=  4 | req=   8 | rej=   0 | cola= 118 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-final-y-demanda-final/
+[INE] DATASETS=5 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-final-y-demanda-final/
+[INE] t=  11.1s | pag=  8 | files=   0 | data=  5 | req=   9 | rej=   0 | cola= 123 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-total-y-demanda-total/
+[INE] DATASETS=6 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/oferta-total-y-demanda-total/
+[INE] t=  12.0s | pag=  9 | files=   0 | data=  6 | req=  10 | rej=   0 | cola= 128 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/valor-agregado-bruto-segun-actividad-economica/
+[INE] DATASETS=7 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/valor-agregado-bruto-segun-actividad-economica/
+[INE] t=  13.3s | pag= 10 | files=   0 | data=  7 | req=  11 | rej=   0 | cola= 133 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/serie-historica-del-producto-interno-bruto/
+[INE] DATASETS=8 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-anual/serie-historica-del-producto-interno-bruto/
+[INE] t=  14.3s | pag= 11 | files=   0 | data=  8 | req=  12 | rej=   0 | cola= 136 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-trimestral/producto-interno-bruto-trimestral-intro/
+[INE] DATASETS=9 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-trimestral/producto-interno-bruto-trimestral-intro/
+[INE] t=  15.0s | pag= 12 | files=   0 | data=  9 | req=  13 | rej=   0 | cola= 136 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/
+[INE] t=  16.3s | pag= 13 | files=   0 | data=  9 | req=  14 | rej=   0 | cola= 135 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental-introduccion/
+[INE] DATASETS=10 | score=105 | exportable_data_page | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental-introduccion/
+[INE] t=  17.3s | pag= 14 | files=   0 | data= 10 | req=  15 | rej=   0 | cola= 134 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/producto-interno-bruto-departamental/producto-interno-bruto-departamental/
+[INE] t=  18.6s | pag= 15 | files=   0 | data= 11 | req=  16 | rej=   0 | cola= 184 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/formacion-bruta-de-capital-fijo/
+[INE] t=  19.8s | pag= 16 | files=   0 | data= 12 | req=  17 | rej=   0 | cola= 184 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/cuentas-consolidadas-de-la-nacion/
+[INE] ARCHIVO UTIL=1 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/516/cuentas-consolidadas/46411/bolivia-cuenta-del-producto-y-gasto-interno-bruto-segun-componente-1998-2016.xlsx
+[INE] ARCHIVO UTIL=2 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/516/cuentas-consolidadas/46412/bolivia-cuenta-del-ingreso-nacional-bruto-disponible-y-su-asignacion-segun-componente-1990-2016.xlsx
+[INE] ARCHIVO UTIL=3 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/516/cuentas-consolidadas/46413/bolivia-cuenta-de-acumulacion-y-financiacion-de-capital-segun-componente-1998-2016.xlsx
+[INE] ARCHIVO UTIL=4 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/516/cuentas-consolidadas/46414/bolivia-cuenta-de-transacciones-con-el-resto-del-mundo-segun-componente-1997-2016.xlsx
+[INE] t=  20.9s | pag= 17 | files=   4 | data= 13 | req=  18 | rej=   0 | cola= 183 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/cuadro-de-cuentas-economicas-integradas/
+[INE] ARCHIVO UTIL=5 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/306/cuentas-economicas-integradas/44536/cuadro-economico-de-conjunto-2014.xlsx
+[INE] ARCHIVO UTIL=6 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/306/cuentas-economicas-integradas/44535/cuadro-economico-de-conjunto-2013.xlsx
+[INE] ARCHIVO UTIL=7 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/306/cuentas-economicas-integradas/39671/cuadro-economico-de-conjunto-2012.xlsx
+[INE] ARCHIVO UTIL=8 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/306/cuentas-economicas-integradas/39672/cuadro-economico-de-conjunto-2011.xlsx
+[INE] ARCHIVO UTIL=9 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/306/cuentas-economicas-integradas/39669/cuadro-economico-de-conjunto-2010.xlsx
+[INE] ARCHIVO UTIL=10 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/306/cuentas-economicas-integradas/39670/cuadro-economico-de-conjunto-2009.xlsx
+[INE] t=  22.3s | pag= 18 | files=  31 | data= 14 | req=  19 | rej=   0 | cola= 182 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/
+[INE] t=  23.5s | pag= 19 | files=  31 | data= 14 | req=  20 | rej=   0 | cola= 181 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-introduccion/
+[INE] t=  24.3s | pag= 20 | files=  32 | data= 15 | req=  21 | rej=   0 | cola= 180 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-formacion-bruta-de-capital-fijo/
+[INE] t=  25.1s | pag= 21 | files=  59 | data= 16 | req=  22 | rej=   0 | cola= 179 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-insumo-producto/
+[INE] ARCHIVO UTIL=100 | score=100 | xlsx | https://www.ine.gob.bo/index.php/descarga/406/matrices-de-insumo-producto-corriente/44588/matriz-de-insumo-producto-en-miles-de-bolivianos2000.xlsx
+[INE] t=  26.3s | pag= 22 | files= 112 | data= 17 | req=  23 | rej=   0 | cola= 178 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-produccion/
+[INE] t=  27.3s | pag= 23 | files= 112 | data= 18 | req=  24 | rej=   0 | cola= 177 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-enclave/
+[INE] t=  28.4s | pag= 24 | files= 112 | data= 19 | req=  25 | rej=   0 | cola= 201 | prio=10 | https://www.ine.gob.bo/index.php/estadisticas-economicas/pib-y-cuentas-nacionales/matrices/matrices-de-transacciones/
+[INE] HTTP TOTAL | requests=27 | GET=27 | HEAD=0
+[INE] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[INE] BUDGET | req=26 | utiles=132 | rechazados=0 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              ine
+Páginas visitadas:   25
+Archivos encontrados:  112
+Datasets web:         20
+Errores:              1
+Sondeos API fallidos: 0
+Motivo de parada:     max_pages
+Duración:             29.74 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - https://wsmunicipiosac.ine.gob.bo/ -> SSLError: HTTPSConnectionPool(host='wsmunicipiosac.ine.gob.bo', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'wsmunicipiosac.ine.gob.bo'. (_ssl.c:1028)")))
+
+Formatos:
+  - PDF    : 1
+  - XLSX   : 111
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\ine.json
+
+Trazabilidad:
+  Ejecución: 327
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

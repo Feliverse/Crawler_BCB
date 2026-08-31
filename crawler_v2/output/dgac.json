@@ -1,0 +1,395 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "LEY_1218.csv": {
+                        "descripcion": "Ley N° 1218 Modifica el Artículo 25 de la Ley N°2902",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2019/08/LEY_1218.pdf",
+                        "fecha_actualizacion": "2019-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "03-LEY_1415_Modifica-Art-82-e-incluye-Art83_Ley-2902.csv": {
+                        "descripcion": "Ley Nº 1415, modificaciones a la Ley Nº 2902",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2023/04/03-LEY_1415_Modifica-Art-82-e-incluye-Art83_Ley-2902.pdf",
+                        "fecha_actualizacion": "2023-04-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "2341.csv": {
+                        "descripcion": "Ley N° 2341 de Procedimiento Administrativo",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2019/08/2341.pdf",
+                        "fecha_actualizacion": "2019-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "27113.csv": {
+                        "descripcion": "DS N° 27113 Reglamento a la Ley Nº 2341",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2019/08/27113.pdf",
+                        "fecha_actualizacion": "2019-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "RM_224_2019.csv": {
+                        "descripcion": "Reglamento de Infracciones, Sanciones y Procedimiento Especial Sancionatorio",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2019/12/RM_224_2019.pdf",
+                        "fecha_actualizacion": "2019-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DGAC-PRO-018R5_PROC.-DE-GESTION-DE-REGL-O-ENMIENDAS.csv": {
+                        "descripcion": "Procedimiento para la elaboración de nuevos reglamentos o enmiendas a la RAB",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/08/DGAC-PRO-018R5_PROC.-DE-GESTION-DE-REGL-O-ENMIENDAS.pdf",
+                        "fecha_actualizacion": "2024-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DGAC_PRO_011R1.csv": {
+                        "descripcion": "Procedimiento de Otorgación y Gestión de Exenciones a la RAB",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2019/09/DGAC_PRO_011R1.pdf",
+                        "fecha_actualizacion": "2019-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "RAB_21_Apendice_2.csv": {
+                        "descripcion": "Requisitos Previa Importación de Aeronave",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2020/07/RAB_21_Apendice_2.pdf",
+                        "fecha_actualizacion": "2020-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Politica-de-Instruccion-Rev.4.csv": {
+                        "descripcion": "Política de Instrucción",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2025/03/Politica-de-Instruccion-Rev.4.pdf",
+                        "fecha_actualizacion": "2025-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "R_A_347_2019.csv": {
+                        "descripcion": "Resolución Administrativa N° 347",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2019/09/R_A_347_2019.pdf",
+                        "fecha_actualizacion": "2019-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "RAN1_002Mod.csv": {
+                        "descripcion": "Guía de Trámites RAN",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2023/02/RAN1_002Mod.pdf",
+                        "fecha_actualizacion": "2023-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ANUARIO-ESTADISTICO-2023.csv": {
+                        "descripcion": "ANUARIO-ESTADISTICO-2023.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/ANUARIO-ESTADISTICO-2023.pdf",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario-Estadistico-de-Transporte-Aereo-Comercial-2022.csv": {
+                        "descripcion": "Anuario-Estadistico-de-Transporte-Aereo-Comercial-2022..pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2023/12/Anuario-Estadistico-de-Transporte-Aereo-Comercial-2022..pdf",
+                        "fecha_actualizacion": "2023-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario-Estadistico-de-Transporte-Aereo-Comercial-2021-1.csv": {
+                        "descripcion": "Anuario-Estadistico-de-Transporte-Aereo-Comercial-2021-1.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2022/08/Anuario-Estadistico-de-Transporte-Aereo-Comercial-2021-1.pdf",
+                        "fecha_actualizacion": "2022-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ANUARIO-2020.csv": {
+                        "descripcion": "ANUARIO-2020.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2021/10/ANUARIO-2020.pdf",
+                        "fecha_actualizacion": "2021-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ANUARIO-2019.csv": {
+                        "descripcion": "ANUARIO-2019.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2021/10/ANUARIO-2019.pdf",
+                        "fecha_actualizacion": "2021-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "FORMULARIO-DE-RECEPCION-DE-DENUNCIAS-UTR-VER.-2.csv": {
+                        "descripcion": "FORMULARIO-DE-RECEPCION-DE-DENUNCIAS-UTR-VER.-2.docx",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/04/FORMULARIO-DE-RECEPCION-DE-DENUNCIAS-UTR-VER.-2.docx",
+                        "fecha_actualizacion": "2024-04",
+                        "tipo_archivo": "DOCX",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "PREGUNTAS-FRECUENTES-002.csv": {
+                        "descripcion": "PREGUNTAS-FRECUENTES-002.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2023/09/PREGUNTAS-FRECUENTES-002.pdf",
+                        "fecha_actualizacion": "2023-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-DE-ESTADISTICA-ENERO.csv": {
+                        "descripcion": "INFORME-DE-ESTADISTICA-ENERO.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/03/INFORME-DE-ESTADISTICA-ENERO.pdf",
+                        "fecha_actualizacion": "2026-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-DE-ESTADISTICA-FEBRERO-2026.csv": {
+                        "descripcion": "INFORME-DE-ESTADISTICA-FEBRERO-2026.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/03/INFORME-DE-ESTADISTICA-FEBRERO-2026.pdf",
+                        "fecha_actualizacion": "2026-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-ESTADISTICA-MARZO.csv": {
+                        "descripcion": "INFORME-ESTADISTICA-MARZO.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/04/INFORME-ESTADISTICA-MARZO.pdf",
+                        "fecha_actualizacion": "2026-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-DE-ESTADISTICA-DE-ABRIL.csv": {
+                        "descripcion": "INFORME-DE-ESTADISTICA-DE-ABRIL.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/06/INFORME-DE-ESTADISTICA-DE-ABRIL.pdf",
+                        "fecha_actualizacion": "2026-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-DE-ESTADISTICA-DE-MAYO.csv": {
+                        "descripcion": "INFORME-DE-ESTADISTICA-DE-MAYO.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/07/INFORME-DE-ESTADISTICA-DE-MAYO.pdf",
+                        "fecha_actualizacion": "2026-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-DE-ESTADISTICA-DE-JUNIO.csv": {
+                        "descripcion": "INFORME-DE-ESTADISTICA-DE-JUNIO.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/07/INFORME-DE-ESTADISTICA-DE-JUNIO.pdf",
+                        "fecha_actualizacion": "2026-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "INFORME-DE-ESTADISITCA-DE-JULIO.csv": {
+                        "descripcion": "INFORME-DE-ESTADISITCA-DE-JULIO.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/08/INFORME-DE-ESTADISITCA-DE-JULIO.pdf",
+                        "fecha_actualizacion": "2026-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Reglamento-para-la-Aprobacion-de-Itinerarios.csv": {
+                        "descripcion": "Reglamento-para-la-Aprobacion-de-Itinerarios.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2022/08/Reglamento-para-la-Aprobacion-de-Itinerarios.pdf",
+                        "fecha_actualizacion": "2022-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Reglamento-para-la-Emision-de-Autorizaciones-de-sobrevuelo-ingreso-y-salida-de-aeronaves-civiles-en-vuelos-no-regulares-internacionales.csv": {
+                        "descripcion": "Reglamento-para-la-Emision-de-Autorizaciones-de-sobrevuelo-ingreso-y-salida-de-aeronaves-civiles-en-vuelos-no-regulares-internacionales.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2023/09/Reglamento-para-la-Emision-de-Autorizaciones-de-sobrevuelo-ingreso-y-salida-de-aeronaves-civiles-en-vuelos-no-regulares-internacionales.pdf",
+                        "fecha_actualizacion": "2023-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "RA_077_2018.csv": {
+                        "descripcion": "RA_077_2018.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2018/05/RA_077_2018.pdf",
+                        "fecha_actualizacion": "2018-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTA_SIS-ESP-001R5.csv": {
+                        "descripcion": "DTA_SIS-ESP-001R5.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTA_SIS-ESP-001R5.pdf",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTASIS-REG-002R6.csv": {
+                        "descripcion": "DTASIS-REG-002R6.docx",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTASIS-REG-002R6.docx",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "DOCX",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTA_SIS-ESP-002R5.csv": {
+                        "descripcion": "DTA_SIS-ESP-002R5.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTA_SIS-ESP-002R5.pdf",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTASIS-REG-003R6-1.csv": {
+                        "descripcion": "DTASIS-REG-003R6-1.docx",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTASIS-REG-003R6-1.docx",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "DOCX",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTA_SIS-ESP-003R5.csv": {
+                        "descripcion": "DTA_SIS-ESP-003R5.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTA_SIS-ESP-003R5.pdf",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTASIS-REG-004R6.csv": {
+                        "descripcion": "DTASIS-REG-004R6.docx",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTASIS-REG-004R6.docx",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "DOCX",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTASIS-REG-005R1.csv": {
+                        "descripcion": "DTASIS-REG-005R1.docx",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/12/DTASIS-REG-005R1.docx",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "DOCX",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "REQUISITOS_-IMPORTACION.csv": {
+                        "descripcion": "REQUISITOS_-IMPORTACION.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2018/05/REQUISITOS_-IMPORTACION.pdf",
+                        "fecha_actualizacion": "2018-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Horarios_SIS.csv": {
+                        "descripcion": "Horarios_SIS.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2024/06/Horarios_SIS.pdf",
+                        "fecha_actualizacion": "2024-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DTASIS-REG-005R0.csv": {
+                        "descripcion": "DTASIS-REG-005R0.docx",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2023/10/DTASIS-REG-005R0.docx",
+                        "fecha_actualizacion": "2023-10",
+                        "tipo_archivo": "DOCX",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Plan-de-Accion-del-Estado-Plurinacional-de-Bolivia-para-la-Reduccion-de-Emisiones-de-CO2.csv": {
+                        "descripcion": "Plan-de-Accion-del-Estado-Plurinacional-de-Bolivia-para-la-Reduccion-de-Emisiones-de-CO2.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2022/08/Plan-de-Accion-del-Estado-Plurinacional-de-Bolivia-para-la-Reduccion-de-Emisiones-de-CO2.pdf",
+                        "fecha_actualizacion": "2022-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Plan-de-Gestion-Ambiental-Aeroportuaria.csv": {
+                        "descripcion": "Plan-de-Gestion-Ambiental-Aeroportuaria.pdf",
+                        "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2022/08/Plan-de-Gestion-Ambiental-Aeroportuaria.pdf",
+                        "fecha_actualizacion": "2022-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.dgac.gob.bo/autorizaciones-de-vuelos/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Anuario_Estadistico_DTA_|_DGAC_-_Dirección_General_de_Aeronáutica_Civil_-_Presidencia_Estado_Plurinacional_de_Bolivia.csv": {
+                        "descripcion": "Anuario Estadistico DTA | DGAC - Dirección General de Aeronáutica Civil - Presidencia Estado Plurinacional de Bolivia",
+                        "url_descarga": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    },
+                    "INFORMES_MENSUALES_DE_TRÁFICO_AÉREO_–_2026_|_DGAC_-_Dirección_General_de_Aeronáutica_Civil_-_Presidencia_Estado_Plurinacional_de_Bolivia.csv": {
+                        "descripcion": "INFORMES MENSUALES DE TRÁFICO AÉREO – 2026 | DGAC - Dirección General de Aeronáutica Civil - Presidencia Estado Plurinacional de Bolivia",
+                        "url_descarga": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-2026/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "informes_mensuales_de_trafico_aereo_en_bolivia_2025": {
+            "INFORME-DE-ESTADISTICA-NOVIEMBRE.csv": {
+                "descripcion": "INFORME-DE-ESTADISTICA-NOVIEMBRE.pdf",
+                "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/06/INFORME-DE-ESTADISTICA-NOVIEMBRE.pdf",
+                "fecha_actualizacion": "2026-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-en-bolivia-2025/",
+                "metodo_deteccion": "url_extension"
+            },
+            "INFORME-DE-ESTADISTICA-DICIEMBRE.csv": {
+                "descripcion": "INFORME-DE-ESTADISTICA-DICIEMBRE.pdf",
+                "url_descarga": "https://www.dgac.gob.bo/wp-content/uploads/2026/06/INFORME-DE-ESTADISTICA-DICIEMBRE.pdf",
+                "fecha_actualizacion": "2026-06",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-en-bolivia-2025/",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "INFORMES_MENSUALES_DE_TRAFICO_AEREO_EN_BOLIVIA_–_2025_|_DGAC_-_Dirección_General_de_Aeronáutica_Civil_-_Presidencia_Estado_Plurinacional_de_Bolivia.csv": {
+                        "descripcion": "INFORMES MENSUALES DE TRAFICO AEREO EN BOLIVIA – 2025 | DGAC - Dirección General de Aeronáutica Civil - Presidencia Estado Plurinacional de Bolivia",
+                        "url_descarga": "https://www.dgac.gob.bo/informes-mensuales-de-trafico-aereo-en-bolivia-2025/",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.dgac.gob.bo/anuario-estadistico-dta/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

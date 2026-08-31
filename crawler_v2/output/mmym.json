@@ -1,0 +1,253 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Boletin_3T-2025.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2025.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_1T_2025.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T_2025.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_1S-2025.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2025.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_3T-2024.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_1T-2024.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_1S-2024.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin-3T-2023.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-3T-2023.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin-1T-2023.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1T-2023.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin-1S-2023.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-1S-2023.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin3T-2022.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin3T-2022.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_1T-2022.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2022.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Boletin_1S-2022.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2022.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/boletines/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario-2025.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/04/Anuario-2025.pdf",
+                        "fecha_actualizacion": "2026-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Dossier-Mineria-2024.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier-Mineria-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Dossier-Mineria-1980-2023.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier-Mineria-1980-2023.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Dossier-Mineria-2022.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier-Mineria-2022.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Dossier_1980-2021.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Dossier_1980-2021.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario-2024.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-2024.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario-Estadistico-2023.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-Estadistico-2023.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario-2022.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-2022.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Anuario_2021.csv": {
+                        "descripcion": "Descargar",
+                        "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario_2021.pdf",
+                        "fecha_actualizacion": "2026-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            }
+        },
+        "2": {
+            "Boletin_3T-2021.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1T-2021.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1S-2021.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1S-2021.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_3T-2020.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_3T-2020.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin_1T-2020.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin_1T-2020.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Boletin-_1S-2020.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Boletin-_1S-2020.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/boletines/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "Anuario-2020.csv": {
+                "descripcion": "Descargar",
+                "url_descarga": "https://www.mineria.gob.bo/wp-content/uploads/2026/01/Anuario-2020.pdf",
+                "fecha_actualizacion": "2026-01",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/page/2/",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Mineria_y_Metalurgia.csv": {
+                        "descripcion": "Mineria y Metalurgia",
+                        "url_descarga": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/page/2/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.mineria.gob.bo/index.php/banco-de-trabajo-de-investigacion/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

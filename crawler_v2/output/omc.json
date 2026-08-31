@@ -1,0 +1,533 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Regional_Compositions.csv": {
+                        "descripcion": "Regional compositions XLSX",
+                        "url_descarga": "https://stats.wto.org/assets/UserGuide/Regional_Compositions.xlsx",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://data.wto.org/en/dataset/wto_sts",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "TechnicalNotes_en.csv": {
+                        "descripcion": "Technical notes PDF",
+                        "url_descarga": "https://stats.wto.org/assets/UserGuide/TechnicalNotes_en.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.wto.org/en/dataset/wto_sts",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "UserGuide_en.csv": {
+                        "descripcion": "User guide PDF",
+                        "url_descarga": "https://stats.wto.org/assets/UserGuide/UserGuide_en.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://data.wto.org/en/dataset/wto_sts",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "merchandise_values_annual_dataset.csv": {
+                        "descripcion": "Merchandise trade values annual dataset ZIP",
+                        "url_descarga": "https://stats.wto.org/assets/UserGuide/merchandise_values_annual_dataset.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "contenido_zip": [
+                            "merchandise_values_annual_dataset.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65640,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "merchandise_indices_annual_dataset.csv": {
+                        "descripcion": "Merchandise trade indices annual dataset ZIP",
+                        "url_descarga": "https://stats.wto.org/assets/UserGuide/merchandise_indices_annual_dataset.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "contenido_zip": [
+                            "merchandise_indices_annual_dataset.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65641,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "services_annual_dataset.csv": {
+                        "descripcion": "Trade in services annual dataset ZIP",
+                        "url_descarga": "https://stats.wto.org/assets/UserGuide/services_annual_dataset.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "contenido_zip": [
+                            "services_annual_dataset.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65630,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_BATIS_data_BPM6.csv": {
+                        "descripcion": "WTO-OECD Balanced Trade in Services dataset... ZIP",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_data_BPM6.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "zip_inspeccion": "eocd_not_found",
+                        "zip_bytes_descargados": 8771,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "OECD-WTO_BATIS_data.csv": {
+                        "descripcion": "WTO-OECD Balanced Trade in Services Dataset... ZIP",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/OECD-WTO_BATIS_data.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "contenido_zip": [
+                            "OECD-WTO_BATIS_data.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65662,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_imports.csv": {
+                        "descripcion": "Trade in Services data by mode of supply... ZIP",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_imports.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "contenido_zip": [
+                            "TISMOS_Imports.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65657,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Tismos_exports.csv": {
+                        "descripcion": "Trade in Services data by mode of supply... ZIP",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/daily_update_e/Tismos_exports.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "contenido_zip": [
+                            "TISMOS_Exports.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65657,
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    },
+                    "WTO_Stats_Portal_-_Dataset_-_WTO_Data_Portal.csv": {
+                        "descripcion": "WTO Stats Portal - Dataset - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/wto_sts",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/wto_sts",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Bulk_Download_of_Trade_Datasets_-_Dataset_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Bulk Download of Trade Datasets - Dataset - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/bulkdownload",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/bulkdownload",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "WTO_Tariff_&_Trade_Data_|_Download.csv": {
+                        "descripcion": "WTO Tariff & Trade Data | Download",
+                        "url_descarga": "https://ttd.wto.org/en/download",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://ttd.wto.org/en/download",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "WTO_|_Global_trade_statistics.csv": {
+                        "descripcion": "WTO | Global trade statistics",
+                        "url_descarga": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Trade_in_goods_-_48": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?groups=goods",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Cross-cutting_-_24": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?groups=cross-cutting",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Trade_in_services_-_11": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?groups=services",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "TRIPS_-_1": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?groups=trips",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Policy_-_42": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Policy",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Statistics_-_36": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Statistics",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Data_applications_-_35": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Data+applications",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Notifications_-_26": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Notifications",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Databases_-_23": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Databases",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Dashboards_-_14": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Dashboards",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Product_classification_-_11": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Product+classification",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Indicators_-_9": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Indicators",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Schedules_-_7": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Schedules",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Publications_-_6": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?tags=Publications",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "HTML_-_80": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?res_format=HTML",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "PDF_-_30": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?res_format=PDF",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "XLSX_-_30": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?res_format=XLSX",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "DOCX_-_10": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Trade_Data_Datasets_-_WTO_Data_Portal.csv": {
+                        "descripcion": "Trade Data Datasets - WTO Data Portal",
+                        "url_descarga": "https://data.wto.org/en/dataset/?res_format=DOCX",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data.wto.org/en/dataset/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1645 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Publications-order-form-2026.csv": {
+                        "descripcion": "form",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Publications-order-form-2026.pdf",
+                        "fecha_actualizacion": "2026",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_June.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_June.pdf",
+                        "fecha_actualizacion": "2025-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_November-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_November-2025.pdf",
+                        "fecha_actualizacion": "2025-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_October-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_October-2025.pdf",
+                        "fecha_actualizacion": "2025-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_September-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – September 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_September-2025.pdf",
+                        "fecha_actualizacion": "2025-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_August-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_August-2025.pdf",
+                        "fecha_actualizacion": "2025-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_July-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – July 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_July-2025.pdf",
+                        "fecha_actualizacion": "2025-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_May-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_May-2025.pdf",
+                        "fecha_actualizacion": "2025-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_April-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – April 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_April-2025.pdf",
+                        "fecha_actualizacion": "2025-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report_March-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – March 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report_March-2025.pdf",
+                        "fecha_actualizacion": "2025-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-February-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-February-2025.pdf",
+                        "fecha_actualizacion": "2025-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-January-2025.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2025",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-January-2025.pdf",
+                        "fecha_actualizacion": "2025-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-December-2024.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – December 2024",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-December-2024.pdf",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-October-2024.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2024",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-October-2024.pdf",
+                        "fecha_actualizacion": "2024-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-August-2024.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2024",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-August-2024.pdf",
+                        "fecha_actualizacion": "2024-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-June-2024.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2024",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-June-2024.pdf",
+                        "fecha_actualizacion": "2024-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-May-2024.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2024",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-May-2024.pdf",
+                        "fecha_actualizacion": "2024-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-November-2023.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-November-2023.pdf",
+                        "fecha_actualizacion": "2023-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-October-2023.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Cocoa-Market-Report-October-2023.pdf",
+                        "fecha_actualizacion": "2023-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-September-2023.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – September 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-September-2023.pdf",
+                        "fecha_actualizacion": "2023-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-August-2023.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-August-2023.pdf",
+                        "fecha_actualizacion": "2023-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-April-2023.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – April 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-April-2023.pdf",
+                        "fecha_actualizacion": "2023-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-February-2023.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-February-2023.pdf",
+                        "fecha_actualizacion": "2023-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-January-2023_updated.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2023",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-January-2023_updated.pdf",
+                        "fecha_actualizacion": "2023-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-December-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – December 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-December-2022.pdf",
+                        "fecha_actualizacion": "2022-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-November-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-November-2022.pdf",
+                        "fecha_actualizacion": "2022-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-October-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-October-2022.pdf",
+                        "fecha_actualizacion": "2022-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-September-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – September 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-September-2022.pdf",
+                        "fecha_actualizacion": "2022-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-August-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-August-2022.pdf",
+                        "fecha_actualizacion": "2022-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-July-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – July 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-July-2022.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-June-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-June-2022.pdf",
+                        "fecha_actualizacion": "2022-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-May-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-May-2022.pdf",
+                        "fecha_actualizacion": "2022-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-February-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-February-2022.pdf",
+                        "fecha_actualizacion": "2022-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-January-2022.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2022",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-January-2022.pdf",
+                        "fecha_actualizacion": "2022-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-December-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – December 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-December-2021.pdf",
+                        "fecha_actualizacion": "2021-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-November-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-November-2021.pdf",
+                        "fecha_actualizacion": "2021-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-October-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-October-2021.pdf",
+                        "fecha_actualizacion": "2021-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-September-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – September 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-September-2021.pdf",
+                        "fecha_actualizacion": "2021-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-August-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-August-2021.pdf",
+                        "fecha_actualizacion": "2021-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-July-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – July 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-July-2021.pdf",
+                        "fecha_actualizacion": "2021-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-June-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-June-2021.pdf",
+                        "fecha_actualizacion": "2021-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-May-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-May-2021.pdf",
+                        "fecha_actualizacion": "2021-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-April-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – April 2021",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-April-2021.pdf",
+                        "fecha_actualizacion": "2021-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-March-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – March 2021",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-March-2021.pdf",
+                        "fecha_actualizacion": "2021-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-February-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2021",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-February-2021.pdf",
+                        "fecha_actualizacion": "2021-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-January-2021.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2021",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-January-2021.pdf",
+                        "fecha_actualizacion": "2021-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-December-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – December 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-December-2020.pdf",
+                        "fecha_actualizacion": "2020-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-November-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – November 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-November-2020.pdf",
+                        "fecha_actualizacion": "2020-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-October-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – October 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-October-2020.pdf",
+                        "fecha_actualizacion": "2020-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-September-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – September 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-September-2020.pdf",
+                        "fecha_actualizacion": "2020-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO_Monthly_Cocoa_Market_Review_August_2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – August 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO_Monthly_Cocoa_Market_Review_August_2020.pdf",
+                        "fecha_actualizacion": "2020-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-July-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – July 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-July-2020.pdf",
+                        "fecha_actualizacion": "2020-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-June-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – June 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-June-2020.pdf",
+                        "fecha_actualizacion": "2020-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-May-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – May 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-May-2020.pdf",
+                        "fecha_actualizacion": "2020-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-April-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – April 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-April-2020.pdf",
+                        "fecha_actualizacion": "2020-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO_Monthly_Cocoa_Market_Review_March_2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – March 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO_Monthly_Cocoa_Market_Review_March_2020.pdf",
+                        "fecha_actualizacion": "2020-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-February-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – February 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-February-2020.pdf",
+                        "fecha_actualizacion": "2020-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-January-2020.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – January 2020",
+                        "url_descarga": "https://icco.org/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-January-2020.pdf",
+                        "fecha_actualizacion": "2020-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-LI-No.-1.csv": {
+                        "descripcion": "Production_QBCS LI No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-LI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-L-No.-4.csv": {
+                        "descripcion": "Production_QBCS-L-No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-L-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-L-No.-3.csv": {
+                        "descripcion": "Production_QBCS-L-No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-L-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-L-No.-2.csv": {
+                        "descripcion": "Production_QBCS-L-No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-L-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-L-No.-1.csv": {
+                        "descripcion": "Production_QBCS-L-No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-L-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLIX-No.-4.csv": {
+                        "descripcion": "Production_QBCS XLIX No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLIX-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLIX-No.-3.csv": {
+                        "descripcion": "Production_QBCS XLIX No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLIX-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLIX-No.-2.csv": {
+                        "descripcion": "Production_QBCS XLIX No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLIX-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLIX-No.-1.csv": {
+                        "descripcion": "Production_QBCS XLIX No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLIX-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVIII-No.-4.csv": {
+                        "descripcion": "Production QBCS XLVIII No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVIII-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVIII-No.-3.csv": {
+                        "descripcion": "Production QBCS XLVIII No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVIII-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVIII-No.-2.csv": {
+                        "descripcion": "Production QBCS XLVIII No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVIII-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVIII-No.-1.csv": {
+                        "descripcion": "Production QBCS XLVIII No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVIII-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVII-No.-4.csv": {
+                        "descripcion": "Production QBCS XLVII No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVII-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVII-No.-3.csv": {
+                        "descripcion": "Production QBCS XLVII No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVII-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVII-No.-2.csv": {
+                        "descripcion": "Production QBCS XLVII No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Production_QBCS-XLVII-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVII-No.-1.csv": {
+                        "descripcion": "Production QBCS XLVII No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLVII-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production-QBCS-XLVI-No-4.csv": {
+                        "descripcion": "Production QBCS XLVI No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production-QBCS-XLVI-No-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVI-No.-3.csv": {
+                        "descripcion": "Production QBCS XLVI No. 3",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLVI-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVI-No.-2-1.csv": {
+                        "descripcion": "Production QBCS XLVI No. 2",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLVI-No.-2-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLVI-No.-1.csv": {
+                        "descripcion": "Production QBCS XLVI No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLVI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLV-No.-4.csv": {
+                        "descripcion": "Production QBCS XLV No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLV-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLV-No.-3.csv": {
+                        "descripcion": "Production QBCS XLV No. 3",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLV-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLV-No.-2.csv": {
+                        "descripcion": "Production QBCS XLV No. 2",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Production_QBCS-XLV-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Production_QBCS-XLV-No.-1.csv": {
+                        "descripcion": "Production QBCS XLV No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/2019/06/Production_QBCS-XLV-No.-1.pdf",
+                        "fecha_actualizacion": "2019-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-LI-No.-1.csv": {
+                        "descripcion": "Grindings_QBCS LI No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-LI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-L-No.-4.csv": {
+                        "descripcion": "Grindings_QBCS-L-No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-L-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-L-No.-3.csv": {
+                        "descripcion": "Grindings_QBCS-L-No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-L-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-L-No.-2.csv": {
+                        "descripcion": "Grindings_QBCS-L-No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-L-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-L-No.-1.csv": {
+                        "descripcion": "Grindings_QBCS-L-No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-L-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLIX-No.-4.csv": {
+                        "descripcion": "Grindings_QBCS XLIX No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLIX-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLIX-No.-3.csv": {
+                        "descripcion": "Grindings_QBCS XLIX No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLIX-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLIX-No.-2.csv": {
+                        "descripcion": "Grindings_QBCS XLIX No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLIX-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLIX-No.-1.csv": {
+                        "descripcion": "Grindings_QBCS XLIX No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLIX-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVIII-No.-4.csv": {
+                        "descripcion": "Grindings QBCS XLVIII No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVIII-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVIII-No.-3.csv": {
+                        "descripcion": "Grindings QBCS XLVIII No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVIII-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVIII-No.-2.csv": {
+                        "descripcion": "Grindings QBCS XLVIII No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVIII-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVIII-No.-1.csv": {
+                        "descripcion": "Grindings QBCS XLVIII No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVIII-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVII-No.-4.csv": {
+                        "descripcion": "Grindings QBCS XLVII No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVII-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVII-No.-3.csv": {
+                        "descripcion": "Grindings QBCS XLVII No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVII-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVII-No.-2.csv": {
+                        "descripcion": "Grindings QBCS XLVII No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Grindings_QBCS-XLVII-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVII-No.-1.csv": {
+                        "descripcion": "Grindings QBCS XLVII No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Grindings_QBCS-XLVII-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings-QBCS-XLVI-No-4.csv": {
+                        "descripcion": "Grindings QBCS XLVI No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Grindings-QBCS-XLVI-No-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVI-No.-3.csv": {
+                        "descripcion": "Grindings QBCS XLVI No. 3",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Grindings_QBCS-XLVI-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVI-No.-2.csv": {
+                        "descripcion": "Grindings QBCS XLVI No. 2",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Grindings_QBCS-XLVI-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLVI-No.-1.csv": {
+                        "descripcion": "Grindings QBCS XLVI No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Grindings_QBCS-XLVI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLV-No.-2.csv": {
+                        "descripcion": "Grindings_QBCS XLV No. 2",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Grindings_QBCS-XLV-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLV-No.-1.csv": {
+                        "descripcion": "Grindings_QBCS XLV No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/2019/06/Grindings_QBCS-XLV-No.-1.pdf",
+                        "fecha_actualizacion": "2019-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLIV-No.-4.csv": {
+                        "descripcion": "Grindings_QBCS XLIV No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/2019/06/Grindings_QBCS-XLIV-No.-4.pdf",
+                        "fecha_actualizacion": "2019-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Grindings_QBCS-XLIV-No.-3.csv": {
+                        "descripcion": "Grindings_QBCS XLIV No. 3",
+                        "url_descarga": "https://icco.org/wp-content/uploads/2019/07/Grindings_QBCS-XLIV-No.-3.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-LI-No.-1.csv": {
+                        "descripcion": "Supply & Demand_QBCS LI No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-LI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-L-No.-4.csv": {
+                        "descripcion": "Supply & Demand_QBCS L No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-L-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-L-No.-3.csv": {
+                        "descripcion": "Supply & Demand_QBCS L No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-L-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-L-No.-2.csv": {
+                        "descripcion": "Supply & Demand_QBCS L No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-L-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-L-No.-1.csv": {
+                        "descripcion": "Supply & Demand_QBCS L No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-L-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLIX-No.-4.csv": {
+                        "descripcion": "Supply & Demand_QBCS XLIX No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLIX-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLIX-No.-3.csv": {
+                        "descripcion": "Supply & Demand_QBCS XLIX No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLIX-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLIX-No.-2.csv": {
+                        "descripcion": "Supply & Demand_QBCS XLIX No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLIX-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLIX-No.-1.csv": {
+                        "descripcion": "Supply & Demand_QBCS XLIX No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLIX-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVIII-No.-4.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVIII No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVIII-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVIII-No.-3.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVIII No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVIII-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVIII-No.-2.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVIII No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVIII-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVIII-No.-1.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVIII No. 1",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVIII-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVII-No.-4.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVII No. 4",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVII-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVII-No.-3.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVII No. 3",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVII-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVII-No.-2.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVII No. 2",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVII-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVII-No.-1.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVII No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVII-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand-QBCS-XLVI-No-4.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVI No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-Demand-QBCS-XLVI-No-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVI-No.-3.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVI No. 3",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVI-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVI-No.-2.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVI No. 2",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVI-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVI-No.-1.csv": {
+                        "descripcion": "Supply & Demand QBCS XLVI No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-Demand_QBCS-XLVI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLV-No.-4.csv": {
+                        "descripcion": "Supply & Demand_QBCS XLV No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-Demand_QBCS-XLV-No.-4.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-and-Demand_QBCS-XLV-No.-3.csv": {
+                        "descripcion": "Supply and Demand_QBCS XLV No. 3",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-and-Demand_QBCS-XLV-No.-3.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-and-Demand_QBCS-XLV-No.-2.csv": {
+                        "descripcion": "Supply and Demand_QBCS XLV No. 2",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Supply-and-Demand_QBCS-XLV-No.-2.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "SupplyandDemand_QBCS-XLV-No.-1.csv": {
+                        "descripcion": "SupplyandDemand_QBCS XLV No. 1",
+                        "url_descarga": "https://icco.org/wp-content/uploads/2019/06/SupplyandDemand_QBCS-XLV-No.-1.pdf",
+                        "fecha_actualizacion": "2019-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLIV-No.-4.csv": {
+                        "descripcion": "Supply & Demand_QBCS XLIV No. 4",
+                        "url_descarga": "https://icco.org/wp-content/uploads/2019/07/Supply-Demand_QBCS-XLIV-No.-4.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Map_net_exports_cocoa_beans_2005-2006.csv": {
+                        "descripcion": "World map of production and net exports of cocoa beans in 2005/2006",
+                        "url_descarga": "https://icco.org/wp-content/uploads/Map_net_exports_cocoa_beans_2005-2006.pdf",
+                        "fecha_actualizacion": "2006",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-December-2024_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – December 2024",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-December-2024.pdf",
+                        "fecha_actualizacion": "2024-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-October-2024_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2024",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-October-2024.pdf",
+                        "fecha_actualizacion": "2024-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-August-2024_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2024",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-August-2024.pdf",
+                        "fecha_actualizacion": "2024-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-June-2024_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2024",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-June-2024.pdf",
+                        "fecha_actualizacion": "2024-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-May-2024_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2024",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-May-2024.pdf",
+                        "fecha_actualizacion": "2024-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-November-2023_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-November-2023.pdf",
+                        "fecha_actualizacion": "2023-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Cocoa-Market-Report-October-2023_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Cocoa-Market-Report-October-2023.pdf",
+                        "fecha_actualizacion": "2023-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-September-2023_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – September 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-September-2023.pdf",
+                        "fecha_actualizacion": "2023-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-August-2023_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-August-2023.pdf",
+                        "fecha_actualizacion": "2023-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-April-2023_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – April 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-April-2023.pdf",
+                        "fecha_actualizacion": "2023-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-February-2023_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-February-2023.pdf",
+                        "fecha_actualizacion": "2023-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-January-2023_updated_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2023",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-January-2023_updated.pdf",
+                        "fecha_actualizacion": "2023-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-December-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – December 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-December-2022.pdf",
+                        "fecha_actualizacion": "2022-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-November-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-November-2022.pdf",
+                        "fecha_actualizacion": "2022-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-August-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-August-2022.pdf",
+                        "fecha_actualizacion": "2022-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-July-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – July 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-July-2022.pdf",
+                        "fecha_actualizacion": "2022-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-June-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-June-2022.pdf",
+                        "fecha_actualizacion": "2022-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-May-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-May-2022.pdf",
+                        "fecha_actualizacion": "2022-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-February-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-February-2022.pdf",
+                        "fecha_actualizacion": "2022-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-January-2022_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2022",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-January-2022.pdf",
+                        "fecha_actualizacion": "2022-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-December-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – December 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-December-2021.pdf",
+                        "fecha_actualizacion": "2021-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-November-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – November 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-November-2021.pdf",
+                        "fecha_actualizacion": "2021-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-October-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – October 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-October-2021.pdf",
+                        "fecha_actualizacion": "2021-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-August-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – August 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-August-2021.pdf",
+                        "fecha_actualizacion": "2021-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-September-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – September 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-September-2021.pdf",
+                        "fecha_actualizacion": "2021-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-July-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – July 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-July-2021.pdf",
+                        "fecha_actualizacion": "2021-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-June-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – June 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-June-2021.pdf",
+                        "fecha_actualizacion": "2021-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-May-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – May 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-May-2021.pdf",
+                        "fecha_actualizacion": "2021-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-April-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – April 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-April-2021.pdf",
+                        "fecha_actualizacion": "2021-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-March-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – March 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-March-2021.pdf",
+                        "fecha_actualizacion": "2021-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-February-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – February 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-February-2021.pdf",
+                        "fecha_actualizacion": "2021-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Report-January-2021_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Report – January 2021",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Report-January-2021.pdf",
+                        "fecha_actualizacion": "2021-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-December-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – December 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-December-2020.pdf",
+                        "fecha_actualizacion": "2020-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-November-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – November 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-November-2020.pdf",
+                        "fecha_actualizacion": "2020-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-October-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – October 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-October-2020.pdf",
+                        "fecha_actualizacion": "2020-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-September-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – September 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-September-2020.pdf",
+                        "fecha_actualizacion": "2020-09",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO_Monthly_Cocoa_Market_Review_August_2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – August 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO_Monthly_Cocoa_Market_Review_August_2020.pdf",
+                        "fecha_actualizacion": "2020-08",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-July-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – July 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-July-2020.pdf",
+                        "fecha_actualizacion": "2020-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-June-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – June 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-June-2020.pdf",
+                        "fecha_actualizacion": "2020-06",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-May-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – May 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-May-2020.pdf",
+                        "fecha_actualizacion": "2020-05",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-April-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – April 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-April-2020.pdf",
+                        "fecha_actualizacion": "2020-04",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO_Monthly_Cocoa_Market_Review_March_2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – March 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO_Monthly_Cocoa_Market_Review_March_2020.pdf",
+                        "fecha_actualizacion": "2020-03",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-February-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – February 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-February-2020.pdf",
+                        "fecha_actualizacion": "2020-02",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-January-2020_2.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – January 2020",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-January-2020.pdf",
+                        "fecha_actualizacion": "2020-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Supply-Demand_QBCS-XLVI-No.-1_2.csv": {
+                        "descripcion": "Supply-Demand_QBCS-XLVI-No.-1.pdf",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/Supply-Demand_QBCS-XLVI-No.-1.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-December-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – December-2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-December-2019.pdf",
+                        "fecha_actualizacion": "2019",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-November-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – November-2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-November-2019.pdf",
+                        "fecha_actualizacion": "2019",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-October-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – October-2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-October-2019.pdf",
+                        "fecha_actualizacion": "2019",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-September-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – September-2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-September-2019.pdf",
+                        "fecha_actualizacion": "2019",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-August-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – August-2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-August-2019.pdf",
+                        "fecha_actualizacion": "2019",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-July-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – July-2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/ICCO-Monthly-Cocoa-Market-Review-July-2019.pdf",
+                        "fecha_actualizacion": "2019",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-June-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – June 2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-June-2019.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-May-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – May 2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-May-2019.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-April-2019-Rev.1.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – April 2019 Rev.1",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-April-2019-Rev.1.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-April-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – April 2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-April-2019.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-March-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – March 2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-March-2019.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-February-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – February 2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-February-2019.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "ICCO-Monthly-Cocoa-Market-Review-January-2019.csv": {
+                        "descripcion": "ICCO Monthly Cocoa Market Review – January 2019",
+                        "url_descarga": "https://clients.theway.rocks/icco_dump/wp-content/uploads/2019/07/ICCO-Monthly-Cocoa-Market-Review-January-2019.pdf",
+                        "fecha_actualizacion": "2019-07",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "QBCS-L-3_Index-Sample.csv": {
+                        "descripcion": "QBCS L-3_Index Sample",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/QBCS-L-3_Index-Sample.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "QBCS-L-4_Index-Sample.csv": {
+                        "descripcion": "QBCS L-4_Index Sample",
+                        "url_descarga": "https://www.icco.org/wp-content/uploads/QBCS-L-4_Index-Sample.pdf",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.icco.org/icco-documentation/quarterly-bulletin-of-cocoa-statistics/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Statistics_-_International_Cocoa_Organization.csv": {
+                        "descripcion": "Statistics - International Cocoa Organization",
+                        "url_descarga": "https://www.icco.org/statistics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/statistics/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Statistics_2025_-_International_Cocoa_Organization.csv": {
+                        "descripcion": "Statistics_2025 - International Cocoa Organization",
+                        "url_descarga": "https://www.icco.org/statistics/statistics_2025/",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Statistics_-_International_Cocoa_Organization_2.csv": {
+                        "descripcion": "Statistics - International Cocoa Organization",
+                        "url_descarga": "https://www.icco.org/app/statistics/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/app/statistics/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Click_to_open_the_search_input_field_Click_to_open_the_search_input_field_Search": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Statistics_-_International_Cocoa_Organization.csv": {
+                        "descripcion": "Statistics - International Cocoa Organization",
+                        "url_descarga": "https://www.icco.org/statistics/?s=",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/statistics/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Statistics_2025_-_International_Cocoa_Organization.csv": {
+                        "descripcion": "Statistics_2025 - International Cocoa Organization",
+                        "url_descarga": "https://www.icco.org/statistics/statistics_2025/?s=",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.icco.org/statistics/statistics_2025/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        }
+    }
+}

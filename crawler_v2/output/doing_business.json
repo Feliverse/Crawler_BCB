@@ -1,0 +1,331 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "B-READY_ALL_DATA_2025.csv": {
+                        "descripcion": "Download Data",
+                        "url_descarga": "https://www.worldbank.org/content/dam/sites/b-ready/documents/excel/B-READY_ALL_DATA_2025.zip",
+                        "fecha_actualizacion": "2025",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://www.worldbank.org/en/businessready/data",
+                        "zip_inspeccion": "range_not_supported",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Explanations-for-Historical-Data-Changes.csv": {
+                        "descripcion": "Explanation of changes",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/Explanations-for-Historical-Data-Changes.xlsx",
+                        "fecha_actualizacion": "2021",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Historical-Data--DB04-DB20.csv": {
+                        "descripcion": "Historical data (DB04-DB20)",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/Historical-Data--DB04-DB20-.xlsx",
+                        "fecha_actualizacion": "2021",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DB2021_PT_GNIpc-update.csv": {
+                        "descripcion": "Paying taxes update",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/DB2021_PT_GNIpc-update.xlsx",
+                        "fecha_actualizacion": "2021",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DB2021_TAB_Case-study-update.csv": {
+                        "descripcion": "Trading across borders update",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/excel/db-2021/DB2021_TAB_Case-study-update.xlsx",
+                        "fecha_actualizacion": "2021",
+                        "tipo_archivo": "XLSX",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Historical-data.csv": {
+                        "descripcion": "Historical data (.dta)",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/misc/doingbusiness/db2020/Historical-data.dta",
+                        "fecha_actualizacion": "2020",
+                        "tipo_archivo": "DTA",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Best-and-worst-performance.csv": {
+                        "descripcion": "Best and worst performance (.dta)",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/misc/doingbusiness/db2020/Best-and-worst-performance.dta",
+                        "fecha_actualizacion": "2020",
+                        "tipo_archivo": "DTA",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Weights.csv": {
+                        "descripcion": "Weights (.dta)",
+                        "url_descarga": "https://archive.doingbusiness.org/content/dam/misc/doingbusiness/db2020/Weights.dta",
+                        "fecha_actualizacion": "2020",
+                        "tipo_archivo": "DTA",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DB_CSV.csv": {
+                        "descripcion": "Bulk Download File (CSV)",
+                        "url_descarga": "https://databank.worldbank.org/data/download/DB_CSV.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business",
+                        "contenido_zip": [
+                            "DBData.csv",
+                            "DBCountry.csv",
+                            "DBSeries.csv"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65730,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "DB_EXCEL.csv": {
+                        "descripcion": "Bulk Download File (Excel)",
+                        "url_descarga": "https://databank.worldbank.org/data/download/DB_EXCEL.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business",
+                        "contenido_zip": [
+                            "DBEXCEL.xlsx"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 65615,
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "doing-business-scores-replication-files.csv": {
+                        "descripcion": "Replication code - Stata do file",
+                        "url_descarga": "https://datacatalogfiles.worldbank.org/ddh-published-v2/0038564/4/DR0047210/doing-business-scores-replication-files.zip",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "ZIP",
+                        "url_origen": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business",
+                        "contenido_zip": [
+                            "doing business scores replication files/Best-and-worst-regulatory-performance-DB18-20181031.xlsx",
+                            "doing business scores replication files/desktop.ini",
+                            "doing business scores replication files/Doing-Business-Historical-scores.do",
+                            "doing business scores replication files/Historical_DB19_20181031.dta",
+                            "doing business scores replication files/Weights.dta"
+                        ],
+                        "zip_inspeccion": "ok",
+                        "zip_bytes_descargados": 66430,
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Data_|_Business_Ready.csv": {
+                        "descripcion": "Data | Business Ready",
+                        "url_descarga": "https://www.worldbank.org/en/businessready/data",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/en/businessready/data",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Data.csv": {
+                        "descripcion": "Data",
+                        "url_descarga": "https://archive.doingbusiness.org/en/data",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://archive.doingbusiness.org/en/data",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Doing_Business_-_World_Bank_Data_Catalog.csv": {
+                        "descripcion": "Doing Business - World Bank Data Catalog",
+                        "url_descarga": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "Governments_|_Business_Ready": {
+            "Interactions-governments-B-READY.csv": {
+                "descripcion": "schedule of all bilateral meetings",
+                "url_descarga": "https://www.worldbank.org/content/dam/sites/b-ready/documents/excel/Interactions-governments-B-READY.xlsx",
+                "fecha_actualizacion": "No disponible",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://www.worldbank.org/en/businessready/engagements/governments",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Governments_|_Business_Ready.csv": {
+                        "descripcion": "Governments | Business Ready",
+                        "url_descarga": "https://www.worldbank.org/en/businessready/engagements/governments",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/en/businessready/data",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "exportable_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "See_modifications_made_to_Doing_Business_data": {
+            "DB2020_Corrections.csv": {
+                "descripcion": "Changes to DB 2019 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB2020_Corrections.xlsx",
+                "fecha_actualizacion": "2020",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB2019_Corrections.csv": {
+                "descripcion": "Changes to DB 2018 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB2019_Corrections.xlsx",
+                "fecha_actualizacion": "2019",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB18-corrections.csv": {
+                "descripcion": "Changes to DB 2017 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB18-corrections.xlsx",
+                "fecha_actualizacion": "2017",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB17-corrections.csv": {
+                "descripcion": "Changes to DB 2016 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB17-corrections.xlsx",
+                "fecha_actualizacion": "2016",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB16-corrections.csv": {
+                "descripcion": "Changes to DB 2015 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB16-corrections.xlsx",
+                "fecha_actualizacion": "2015",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB15-corrections.csv": {
+                "descripcion": "Changes to DB 2014 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB15-corrections.xlsx",
+                "fecha_actualizacion": "2014",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB14-correction.csv": {
+                "descripcion": "Changes to DB 2013 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB14-correction.xls",
+                "fecha_actualizacion": "2013",
+                "tipo_archivo": "XLS",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB13-Corrections.csv": {
+                "descripcion": "Changes to DB 2012 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB13-Corrections.xls",
+                "fecha_actualizacion": "2012",
+                "tipo_archivo": "XLS",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB12-corrections.csv": {
+                "descripcion": "Changes to DB 2011 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB12-corrections.xls",
+                "fecha_actualizacion": "2011",
+                "tipo_archivo": "XLS",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            },
+            "DB11-corrections.csv": {
+                "descripcion": "Changes to DB 2010 data",
+                "url_descarga": "https://archive.doingbusiness.org/content/dam/doingBusiness/media/Methodology/Data-Corrections/DB11-corrections.xlsx",
+                "fecha_actualizacion": "2010",
+                "tipo_archivo": "XLSX",
+                "url_origen": "https://archive.doingbusiness.org/en/data/data-revisions",
+                "metodo_deteccion": "url_extension"
+            }
+        },
+        "Economies_covered_by_B-READY": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Geographical_coverage.csv": {
+                        "descripcion": "Geographical coverage",
+                        "url_descarga": "https://www.worldbank.org/en/businessready/about-us/covered-economies",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.worldbank.org/en/businessready",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "data_html_table",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 4,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "API_Service": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "API_-_undefined_-_World_Bank_Data_Catalog.csv": {
+                        "descripcion": "API - undefined - World Bank Data Catalog",
+                        "url_descarga": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business/apiservice?DATABASE_ID=&resourceName=Doing+Business",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://datacatalog.worldbank.org/search/dataset/0038564/doing-business",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Information_on_per_capita_income,_income_groupings_and_population": {
+            "Explore_Economies": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "Explore_Economies.csv": {
+                            "descripcion": "Explore Economies",
+                            "url_descarga": "https://archive.doingbusiness.org/en/data/exploreeconomies",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "WEB",
+                            "url_origen": "https://archive.doingbusiness.org/en/data/exploreeconomies/economycharacteristics",
+                            "tipo_recurso": "web",
+                            "metodo_deteccion": "configured_data_page",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

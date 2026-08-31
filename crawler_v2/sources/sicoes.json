@@ -1,42 +1,131 @@
 {
   "id_fuente": "sicoes",
   "nombre": "Sistema de Contrataciones Estatales",
-  "base_url": "https://www.sicoes.gob.bo/",
+  "base_url": "https://www.sicoes.gob.bo/contrat/procesos.php",
   "allowed_domains": [
-    "sicoes.gob.bo"
+    "sicoes.gob.bo",
+    "www.sicoes.gob.bo"
   ],
   "entrypoints": [
     "https://www.sicoes.gob.bo/contrat/procesos.php",
-    "https://www.sicoes.gob.bo/"
+    "https://www.sicoes.gob.bo/portal/contrataciones/pac/pac.php",
+    "https://www.sicoes.gob.bo/portal/contrataciones/busqueda/contResueltos.php",
+    "https://www.sicoes.gob.bo/portal/index.php"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 3,
+  "max_pages": 150,
+  "max_files": 1000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
+  "auto_url_variants": false,
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
+  "include_url_patterns": [
+    "/contrat/",
+    "/portal/contrataciones/",
+    "/portal/index.php",
+    "/lib/download/",
+    ".csv",
+    ".xlsx",
+    ".xls",
+    ".zip",
+    ".json"
+  ],
   "high_priority_keywords": [
-    "contrat",
-    "procesos",
-    "formularios",
+    "procesos de contratacion",
+    "procesos de contratación",
+    "convocatorias",
     "cuce",
-    "datos"
+    "programa anual de contrataciones",
+    "pac",
+    "contratos resueltos",
+    "modalidad",
+    "objeto de contratacion",
+    "objeto de contratación",
+    "entidad contratante",
+    "fecha publicacion",
+    "fecha publicación",
+    "estado",
+    "subasta electronica",
+    "subasta electrónica"
+  ],
+  "medium_priority_keywords": [
+    "bienes",
+    "servicios",
+    "obras",
+    "consultoria",
+    "consultoría",
+    "proveedor",
+    "adjudicacion",
+    "adjudicación",
+    "contrato",
+    "convocatoria internacional",
+    "desistimiento",
+    "licitacion",
+    "licitación"
+  ],
+  "adapter_positive_patterns": [
+    "/contrat/procesos.php",
+    "/portal/contrataciones/pac/",
+    "/portal/contrataciones/busqueda/",
+    "/lib/download/"
   ],
   "force_data_url_patterns": [
-    "/contrat/procesos.php"
+    "/contrat/procesos.php",
+    "/portal/contrataciones/pac/",
+    "/portal/contrataciones/busqueda/"
+  ],
+  "force_keep_url_patterns": [
+    ".csv",
+    ".xlsx",
+    ".xls",
+    ".zip",
+    ".json"
+  ],
+  "data_keywords": [
+    "cuce",
+    "contratacion",
+    "contratación",
+    "convocatoria",
+    "adjudicacion",
+    "adjudicación",
+    "pac",
+    "contrato",
+    "entidad",
+    "modalidad",
+    "subasta"
+  ],
+  "relevance_positive_keywords": [
+    "lista de formularios publicados",
+    "búsqueda de procesos de contratación",
+    "busqueda de procesos de contratacion",
+    "programa anual de contrataciones",
+    "contratos resueltos",
+    "procesos de contratación",
+    "procesos de contratacion"
+  ],
+  "low_priority_keywords": [
+    "comunicado",
+    "normativa",
+    "decreto",
+    "reglamento",
+    "preguntas frecuentes",
+    "tutorial",
+    "manual",
+    "recuperar contraseña",
+    "cambio contraseña",
+    "noticia"
+  ],
+  "ignore_url_patterns": [
+    "/portal/comunicados/",
+    "/portal/normativa/",
+    "/portal/docs/",
+    "/tutoriales/",
+    "/preguntas/"
   ],
   "max_query_params": 12
 }

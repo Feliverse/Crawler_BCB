@@ -1,0 +1,499 @@
+{
+    "ESTADISTICAS": {
+        "Comercio_Exterior_Búsqueda_Avanzada_en_Importaciones": {
+            "DS55952028NCPP-1.csv": {
+                "descripcion": "Decreto Supremo DS5595-2028",
+                "url_descarga": "https://produccion.gob.bo/wp-content/uploads/2026/05/DS55952028NCPP-1.pdf",
+                "fecha_actualizacion": "2026-05",
+                "tipo_archivo": "PDF",
+                "url_origen": "https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-importaciones/",
+                "metodo_deteccion": "url_extension"
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-importaciones/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "OTROS": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    },
+                    "Comercio_Exterior_de_Bolivia.csv": {
+                        "descripcion": "Comercio Exterior de Bolivia",
+                        "url_descarga": "https://data-bolivia.produccion.gob.bo/comex/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data-bolivia.produccion.gob.bo/comex/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    },
+                    "Búsqueda_de_Comercio_Exterior.csv": {
+                        "descripcion": "Búsqueda de Comercio Exterior",
+                        "url_descarga": "https://data-bolivia.produccion.gob.bo/comex/busqueda",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://data-bolivia.produccion.gob.bo/comex/busqueda",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    },
+                    "Buscador_según_Arancel_Aduanero.csv": {
+                        "descripcion": "Buscador según Arancel Aduanero",
+                        "url_descarga": "https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=e",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=e",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    },
+                    "Buscador_según_Arancel_Aduanero_2.csv": {
+                        "descripcion": "Buscador según Arancel Aduanero",
+                        "url_descarga": "https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=i",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://siip.produccion.gob.bo/repSIIP2/formArancelAduanero.php?x=i",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "API": {
+            "DESCUBIERTA": {
+                "REPORTE_Y_CONSULTAS": {
+                    "CONTENIDO_WEB": {
+                        "19539.csv": {
+                            "descripcion": "19539",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19539",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-importaciones/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19538.csv": {
+                            "descripcion": "19538",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19538",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-exportaciones/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19537.csv": {
+                            "descripcion": "19537",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19537",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/informacion-productiva-pecuaria/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19536.csv": {
+                            "descripcion": "19536",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19536",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/unidades-empresariales-registro-de-comercio/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19535.csv": {
+                            "descripcion": "19535",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19535",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-medianas-y-grandes/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19534.csv": {
+                            "descripcion": "19534",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19534",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-mypes/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19533.csv": {
+                            "descripcion": "19533",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19533",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-estimacion-ues/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19532.csv": {
+                            "descripcion": "19532",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19532",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/unidades-empresariales-mapeo-de-unidades-economicas/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19531.csv": {
+                            "descripcion": "19531",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19531",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-volumen/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        },
+                        "19530.csv": {
+                            "descripcion": "19530",
+                            "url_descarga": "https://produccion.gob.bo/wp-json/wp/v2/datos/19530",
+                            "fecha_actualizacion": "No disponible",
+                            "tipo_archivo": "API",
+                            "url_origen": "https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-valor/",
+                            "tipo_recurso": "api",
+                            "formato": "json",
+                            "metodo_deteccion": "json_api",
+                            "tiene_tabla_html": false,
+                            "tablas_detectadas": 0,
+                            "permite_exportar": true,
+                            "tiene_filtros": false,
+                            "es_openapi": false,
+                            "es_geojson": false,
+                            "tiene_paginacion": false,
+                            "metodo_http": "GET"
+                        }
+                    }
+                }
+            }
+        },
+        "Comercio_Exterior_Búsqueda_Avanzada_en_Exportaciones": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/comercio-exterior-busqueda-avanzada-en-exportaciones/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Información_Productiva_Pecuaria": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/informacion-productiva-pecuaria/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Unidades_Empresariales_Registro_de_Comercio": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/unidades-empresariales-registro-de-comercio/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Unidades_Empresariales_Unidades_Económicas_Medianas_y_Grandes": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-medianas-y-grandes/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Unidades_Empresariales_Unidades_Económicas_MYPES": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-mypes/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Unidades_Empresariales_Unidades_Económicas_Estimación_UE’s": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/unidades-empresariales-unidades-economicas-estimacion-ues/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Unidades_Empresariales_Mapeo_de_Unidades_Económicas": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/unidades-empresariales-mapeo-de-unidades-economicas/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Comercio_Exterior_Saldo_Comercial_Volumen": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-volumen/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "Comercio_Exterior_Saldo_Comercial_Valor": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/comercio-exterior-saldo-comercial-valor/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": false,
+                        "tablas_detectadas": 0,
+                        "permite_exportar": true,
+                        "tiene_filtros": false
+                    }
+                }
+            }
+        },
+        "2": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/page/2/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": true,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        },
+        "3": {
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Ministerio_de_Desarrollo_Productivo,_Rural_y_Agua.csv": {
+                        "descripcion": "Ministerio de Desarrollo Productivo, Rural y Agua",
+                        "url_descarga": "https://produccion.gob.bo/datos/page/3/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://produccion.gob.bo/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 1,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

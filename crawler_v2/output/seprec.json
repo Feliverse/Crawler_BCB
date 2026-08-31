@@ -1,0 +1,123 @@
+{
+    "ESTADISTICAS": {
+        "OTROS": {
+            "DOCUMENTOS_GENERALES": {
+                "VARIOS": {
+                    "Informacion-ESTADISTICA-WEB-RENOV-NOV_v1.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-RENOV-NOV_v1.pdf",
+                        "fecha_actualizacion": "2025-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-NOV_v1.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-NOV_v1.pdf",
+                        "fecha_actualizacion": "2025-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-NUEVAS-NOV_v1.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-NUEVAS-NOV_v1.pdf",
+                        "fecha_actualizacion": "2025-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-NUEVAS-1.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/01/Informacion-ESTADISTICA-WEB-NUEVAS-1.pdf",
+                        "fecha_actualizacion": "2025-01",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-RENOV-1.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/10/Informacion-ESTADISTICA-WEB-RENOV-1.pdf",
+                        "fecha_actualizacion": "2025-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB_v2.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/10/Informacion-ESTADISTICA-WEB_v2.pdf",
+                        "fecha_actualizacion": "2025-10",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-SEP.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/11/Informacion-ESTADISTICA-WEB-SEP.pdf",
+                        "fecha_actualizacion": "2025-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-RENOV-SEP.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/11/Informacion-ESTADISTICA-WEB-RENOV-SEP.pdf",
+                        "fecha_actualizacion": "2025-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-NUEVAS-SEP.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/11/Informacion-ESTADISTICA-WEB-NUEVAS-SEP.pdf",
+                        "fecha_actualizacion": "2025-11",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-RENOV-OCT.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-RENOV-OCT.pdf",
+                        "fecha_actualizacion": "2025-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-OCT.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-OCT.pdf",
+                        "fecha_actualizacion": "2025-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    },
+                    "Informacion-ESTADISTICA-WEB-NUEVAS-OCT.csv": {
+                        "descripcion": "Descargar archivo",
+                        "url_descarga": "https://www.seprec.gob.bo/wp-content/uploads/2025/12/Informacion-ESTADISTICA-WEB-NUEVAS-OCT.pdf",
+                        "fecha_actualizacion": "2025-12",
+                        "tipo_archivo": "PDF",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "metodo_deteccion": "url_extension"
+                    }
+                }
+            },
+            "REPORTE_Y_CONSULTAS": {
+                "CONTENIDO_WEB": {
+                    "Gob.bo.csv": {
+                        "descripcion": "Gob.bo",
+                        "url_descarga": "https://www.seprec.gob.bo/index.php/datos/",
+                        "fecha_actualizacion": "No disponible",
+                        "tipo_archivo": "WEB",
+                        "url_origen": "https://www.seprec.gob.bo/index.php/datos/",
+                        "tipo_recurso": "web",
+                        "metodo_deteccion": "configured_data_page",
+                        "tiene_tabla_html": true,
+                        "tablas_detectadas": 2,
+                        "permite_exportar": false,
+                        "tiene_filtros": true
+                    }
+                }
+            }
+        }
+    }
+}

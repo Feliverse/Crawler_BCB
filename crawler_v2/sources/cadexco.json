@@ -8,37 +8,92 @@
   "entrypoints": [
     "https://cadexco.bo/publicaciones/",
     "https://cadexco.bo/cochabamba/",
-    "https://cadexco.bo/lcoext/",
+    "https://cadexco.bo/inteligencia/",
+    "https://cadexco.bo/acuerdos/",
     "https://cadexco.bo/"
   ],
-  "max_depth": 12,
-  "max_pages": 5000,
-  "max_files": 100000,
+  "max_depth": 4,
+  "max_pages": 500,
+  "max_files": 1000,
   "request_timeout": 15,
   "delay_seconds": 0.3,
   "random_delay_min": 0.3,
   "random_delay_max": 0.9,
-  "auto_url_variants": true,
-  "discover_sitemaps": true,
-  "max_sitemap_urls": 10000,
-  "max_sitemap_documents": 100,
-  "max_sitemap_bytes": 20000000,
-  "discover_openapi_endpoints": true,
-  "crawl_api_documentation": true,
-  "max_openapi_endpoints": 100,
-  "api_pagination": {
-    "enabled": true,
-    "max_pages": 20
-  },
-  "legacy_url": "https://www.cadexco.org.bo",
+  "discover_sitemaps": false,
+  "discover_openapi_endpoints": false,
+  "crawl_api_documentation": false,
+  "adapter": "generic",
   "high_priority_keywords": [
+    "exportaciones",
+    "datos de exportacion",
+    "datos de exportación",
+    "boletin",
+    "boletín",
+    "estadistica",
+    "estadística",
+    "cochabamba",
+    "inteligencia",
+    "inteligencia de mercados",
+    "mercados",
+    "acuerdos comerciales",
+    "comercio exterior"
+  ],
+  "medium_priority_keywords": [
     "publicaciones",
+    "exportador",
+    "oferta exportable",
+    "importaciones",
+    "actividad economica",
+    "actividad económica",
+    "valor",
+    "volumen"
+  ],
+  "adapter_positive_patterns": [
+    "/publicaciones/",
+    "/cochabamba/",
+    "/inteligencia/",
+    "/acuerdos/",
+    "/wp-content/uploads/"
+  ],
+  "force_data_url_patterns": [
+    "/cochabamba/"
+  ],
+  "data_keywords": [
     "exportaciones",
     "estadistica",
-    "boletin",
-    "legislacion"
+    "estadística",
+    "actividad economica",
+    "actividad económica",
+    "valor",
+    "volumen",
+    "millones de dolares",
+    "millones de dólares"
   ],
-  "data_url_patterns": [
-    "/cochabamba/"
+  "relevance_positive_keywords": [
+    "datos de exportación",
+    "datos de exportacion",
+    "boletín de datos",
+    "boletin de datos",
+    "estadística de cochabamba",
+    "estadistica de cochabamba",
+    "inteligencia de mercados"
+  ],
+  "low_priority_keywords": [
+    "noticias",
+    "eventos",
+    "calendario",
+    "contacto",
+    "tarjeta",
+    "servicios",
+    "capacitacion",
+    "capacitación"
+  ],
+  "ignore_url_patterns": [
+    "/tag/",
+    "/author/",
+    "/feed/",
+    "/comments/",
+    "/event-directory/",
+    "/noticias/"
   ]
 }

@@ -1,15 +1,49 @@
-Traceback (most recent call last):
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\main.py", line 12, in <module>
-    from core.crawler import Crawler
-  File "C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\core\crawler.py", line 8, in <module>
-    from dataclasses import dataclass, field
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py", line 5, in <module>
-    import inspect
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\inspect.py", line 146, in <module>
-    import dis
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\dis.py", line 8, in <module>
-    from opcode import *
-  File "C:\Users\VALDIVIA\AppData\Local\Programs\Python\Python313\Lib\opcode.py", line 27, in <module>
-    hasconst = [op for op in opmap.values() if _opcode.has_const(op)]
-                                               ~~~~~~~~~~~~~~~~~^^^^
-KeyboardInterrupt
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Observatorio Agroambiental y Productivo - OAP
+URL configurada: https://oap.produccion.gob.bo/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Original: https://oap.produccion.gob.bo/
+  Utilizada: https://oap.produccion.gob.bo/
+  Fallback: no
+  Intentos: 1
+    - usable         | HTTP=200 | https://oap.produccion.gob.bo/
+
+URL de trabajo: https://oap.produccion.gob.bo/
+Seeds: 11
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[MDRYT_OAP] HTTP TOTAL | requests=1 | GET=1 | HEAD=0
+[MDRYT_OAP] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[MDRYT_OAP] BUDGET | req=0 | utiles=0 | rechazados=0 | sin_valor=0
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mdryt_oap
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              0
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             0.00 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mdryt_oap.json
+
+Trazabilidad:
+  Ejecución: 329
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite

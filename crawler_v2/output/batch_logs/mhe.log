@@ -1,0 +1,55 @@
+================================================================================
+CRAWLER V2
+================================================================================
+Fuente: Ministerio de Hidrocarburos y Energías
+URL configurada: https://www.mhe.gob.bo/vmpde/
+Timeout HTTP: 15 s
+Pausa HTTP:   aleatoria 0.30s - 0.90s
+Verificación TLS: activa
+
+
+Resolución de fuente:
+  Estado: no se encontró URL alternativa utilizable
+  Intentos: 1
+    - request_error  | HTTP=- | https://www.mhe.gob.bo/vmpde/
+
+URL de trabajo: https://www.mhe.gob.bo/vmpde/
+Seeds: 3
+Máx páginas: 25
+Máx archivos: 1000
+Máx profundidad: 3
+Sitemaps: inactivo
+
+[MHE] t=   0.0s | pag=  0 | files=   0 | data=  0 | req=   0 | rej=   0 | cola=   2 | prio= 0 | https://www.mhe.gob.bo/vmpde/
+[MHE] t=   1.3s | pag=  0 | files=   0 | data=  0 | req=   1 | rej=   0 | cola=   1 | prio= 0 | https://www.mhe.gob.bo/balance-energetico-nacional-2006-2021/
+[MHE] t=   2.6s | pag=  0 | files=   0 | data=  0 | req=   2 | rej=   0 | cola=   0 | prio= 0 | https://www.mhe.gob.bo/balance-energetico-nacional-2019-2023-resumen-ejecutivo/
+[MHE] HTTP TOTAL | requests=4 | GET=4 | HEAD=0
+[MHE] DEDUPE RESULTADO | grupos=0 | recursos=0 | confirmados=0 | diferentes=0 | inconclusos=0 | eliminados=0 | requests_extra=0
+[MHE] BUDGET | req=3 | utiles=0 | rechazados=0 | sin_valor=3
+
+================================================================================
+RESULTADO
+================================================================================
+Fuente:              mhe
+Páginas visitadas:   0
+Archivos encontrados:    0
+Datasets web:         0
+Errores:              3
+Sondeos API fallidos: 0
+Motivo de parada:     frontier_exhausted
+Duración:             3.68 s
+Sitemaps procesados:  0
+URLs por sitemap:     0
+URLs sitemap en cola: 0
+
+Detalle de errores:
+  - https://www.mhe.gob.bo/vmpde/ -> SSLError: HTTPSConnectionPool(host='www.mhe.gob.bo', port=443): Max retries exceeded with url: /vmpde/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+  - https://www.mhe.gob.bo/balance-energetico-nacional-2006-2021/ -> SSLError: HTTPSConnectionPool(host='www.mhe.gob.bo', port=443): Max retries exceeded with url: /balance-energetico-nacional-2006-2021/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+  - https://www.mhe.gob.bo/balance-energetico-nacional-2019-2023-resumen-ejecutivo/ -> SSLError: HTTPSConnectionPool(host='www.mhe.gob.bo', port=443): Max retries exceeded with url: /balance-energetico-nacional-2019-2023-resumen-ejecutivo/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))
+
+JSON: C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\output\mhe.json
+
+Trazabilidad:
+  Ejecución: 332
+  Estado:    PROCESSED
+  Base:      C:\Ultimo Semestre 7\trabajo\DATAX\team crawler\crawler_asfi\Crawler_BCB\crawler_v2\trace\crawler_trace.sqlite
